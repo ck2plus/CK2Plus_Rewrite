@@ -1,0 +1,466 @@
+#####
+#PlusFaction:
+#
+#Total = 8
+#####
+
+namespace = PlusFaction
+
+#Court Faction
+#####
+
+#Court faction meeting invitations sent to the members
+character_event = {
+	id = PlusFaction.1
+	title = PlusFaction.1_title
+	desc = PlusFaction.1_desc
+	picture = GFX_evt_council_arabic
+	border = GFX_event_normal_frame_diplomacy	
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		leads_faction = faction_court
+		NOT = {
+			has_character_flag = do_not_disturb
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 1
+	}
+
+	option = {
+		name = PlusFaction.1_1
+		hidden_tooltip = {
+			set_character_flag = do_not_disturb
+			any_faction_backer = {
+				faction = faction_court
+				letter_event = {
+					id = PlusFaction.2 #Court faction meeting invitations received by members
+					days = 2
+				}
+			}
+			character_event = {
+				id = PlusFaction.3 #Faction leader addresses issues
+				days = 7
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.1_2
+		scaled_prestige = -0.75
+		random = { 
+			chance = 25 
+			leave_faction = faction_court 
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Court faction meeting invitations received by members
+letter_event = {
+	id = PlusFaction.2
+	title = PlusFaction.2_title
+	desc = PlusFaction.2_desc
+	border = GFX_event_letter_frame_diplomacy
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_character_flag = do_not_disturb
+		}
+	}
+	
+	option = {
+		name = PlusFaction.2_1
+		set_character_flag = do_not_disturb
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.2_2
+		hidden_tooltip = {
+			set_character_flag = refused_meeting
+			FROM = {
+				letter_event = {
+					id = PlusFaction.4 #Court faction member refuses the invitation
+					days = 2
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Court faction leader presents agenda
+character_event = {
+	id = PlusFaction.3
+	title = PlusFaction.3_title
+	desc = PlusFaction.3_desc
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	sound = no
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.3_1
+		character_event = {
+			id = PlusFaction.5 #Court faction leader focuses on self
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.3_2
+		character_event = {
+			id = PlusFaction.6 #Court faction leader focuses on liege
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.3_3
+		character_event = {
+			id = PlusFaction.7 #Court faction leader focuses on faction
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.3_4 #Court faction leader focuses on realm
+		character_event = {
+			id = PlusFaction.8
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Court faction member refuses the invitation
+letter_event = {
+	id = PlusFaction.4
+	title = PlusFaction.4_title
+	desc = PlusFaction.4_desc
+	border = GFX_event_letter_frame_diplomacy
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.4_1
+		scaled_prestige = -0.5
+		opinion = { 
+			modifier = opinion_disappointed
+			who = FROM
+			years = 5
+		}
+	}
+}
+
+#Court faction leader focuses on self
+character_event = {
+	id = PlusFaction.5
+	title = PlusFaction.5_title
+	desc = PlusFaction.5_desc
+	picture = GFX_evt_council_speaker
+	border = GFX_event_normal_frame_diplomacy
+	sound = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.5_1
+		character_event = {
+			id = PlusFaction.8
+			days = 1
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.5_2
+		character_event = {
+			id = PlusFaction.9
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.5_3
+		tooltip_info = diplomacy
+		trigger = {
+			leads_faction = faction_court
+		}
+		character_event = {
+			id = PlusFaction.10
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.5_4
+		character_event = {
+			id = PlusFaction.3
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Court faction leader focuses on liege
+character_event = {
+	id = PlusFaction.6
+	title = PlusFaction.6_title
+	desc = PlusFaction.6_desc
+	picture = GFX_evt_council_speaker
+	border = GFX_event_normal_frame_diplomacy
+	sound = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.6_1
+		character_event = {
+			id = PlusFaction.11
+			days = 1
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.6_2
+		character_event = {
+			id = PlusFaction.12
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.6_3
+		tooltip_info = diplomacy
+		trigger = {
+			leads_faction = faction_court
+		}
+		character_event = {
+			id = PlusFaction.13
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.6_4
+		character_event = {
+			id = PlusFaction.3
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Court faction leader focuses on faction
+character_event = {
+	id = PlusFaction.7
+	title = PlusFaction.7_title
+	desc = PlusFaction.7_desc
+	picture = GFX_evt_council_speaker
+	border = GFX_event_normal_frame_diplomacy
+	sound = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.7_1
+		character_event = {
+			id = PlusFaction.14
+			days = 1
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.7_2
+		character_event = {
+			id = PlusFaction.15
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.7_3
+		tooltip_info = diplomacy
+		trigger = {
+			leads_faction = faction_court
+		}
+		character_event = {
+			id = PlusFaction.16
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.7_4
+		character_event = {
+			id = PlusFaction.3
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Court faction leader focuses on realm
+character_event = {
+	id = PlusFaction.8
+	title = PlusFaction.8_title
+	desc = PlusFaction.8_desc
+	picture = GFX_evt_council_speaker
+	border = GFX_event_normal_frame_diplomacy
+	sound = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.8_1
+		character_event = {
+			id = PlusFaction.17
+			days = 1
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.8_2
+		character_event = {
+			id = PlusFaction.18
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.8_3
+		tooltip_info = diplomacy
+		trigger = {
+			leads_faction = faction_court
+		}
+		character_event = {
+			id = PlusFaction.19
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.8_4
+		character_event = {
+			id = PlusFaction.3
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# #Court faction members receive request for favors
+# character_event = {
+# 	id = PlusFaction.8
+# 	title = PlusFaction.8_title
+# 	desc = PlusFaction.8_desc
+# 	picture = GFX_evt_council_speaker
+# 	border = GFX_event_normal_frame_diplomacy
+
+# 	only_playable = yes
+# 	min_age = 16
+# 	capable_only = yes
+# 	prisoner = no
+# 	is_part_of_plot = yes
+
+# 	is_triggered_only = yes
+
+# 	immediate = {
+# 		set_variable = { 
+# 			which = votes 
+# 			value = 0
+# 		}
+# 		change_variable = { 
+# 			which = members
+# 			value = 1
+# 		}
+# 	}
+	
+# 	option = {
+# 		name = PlusFaction.8_1
+# 		character_event = {
+# 			id = PlusFaction.8
+# 			days = 1
+# 		}
+# 	}
+
+# 	option = {
+# 		name = PlusFaction.8_2
+# 		character_event = {
+# 			id = PlusFaction.9
+# 		}
+# 	}
+# }
