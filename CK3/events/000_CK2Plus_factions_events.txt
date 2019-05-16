@@ -1,0 +1,1783 @@
+#####
+#PlusFaction:
+#
+#Total = ?
+#####
+
+namespace = PlusFaction
+
+#Scheduling Faction Meeting
+#####
+
+#Faction meeting invitations sent to the members
+character_event = {
+	id = PlusFaction.1
+	title = PlusFaction.1_title
+	desc = PlusFaction.1_desc
+	picture = GFX_evt_bloodlines
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		OR = {
+			num_of_faction_backers = {
+				faction = faction_court
+				value = 1
+			}
+			num_of_faction_backers = {
+				faction = faction_order
+				value = 1
+			}
+			num_of_faction_backers = {
+				faction = faction_prosperity
+				value = 1
+			}
+			num_of_faction_backers = {
+				faction = faction_glory
+				value = 1
+			}
+			num_of_faction_backers = {
+				faction = faction_tradition
+				value = 1
+			}
+		}
+		OR = {
+			leads_faction = faction_court
+			leads_faction = faction_order
+			leads_faction = faction_prosperity
+			leads_faction = faction_glory
+			leads_faction = faction_tradition
+		}
+		NOT = {
+			has_character_flag = do_not_disturb
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 1
+	}
+
+	option = {
+		name = PlusFaction.1_1
+		set_character_flag = do_not_disturb	
+		hidden_tooltip = {
+			set_variable = {
+				which = "guests"
+				value = 0
+			}
+			set_variable = { 
+				which = "members" 
+				value = 0
+			}
+			set_variable = { 
+				which = "votes"
+				value = 0
+			}
+			set_variable = {
+				which = "results"
+				value = 0
+			}
+		}
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = faction_court
+					letter_event = {
+						id = PlusFaction.2 #Faction meeting invitations received by members
+					}
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					letter_event = {
+						id = PlusFaction.2 #Faction meeting invitations received by members
+					}
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					letter_event = {
+						id = PlusFaction.2 #Faction meeting invitations received by members
+					}
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					letter_event = {
+						id = PlusFaction.2 #Faction meeting invitations received by members
+					}
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					letter_event = {
+						id = PlusFaction.2 #Faction meeting invitations received by members
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.4 #Faction leader presents agenda
+			days = 7
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.1_2
+		scaled_prestige = -0.25
+		random = {
+			chance = 25
+			character_event = {
+				id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Faction meeting invitations received by members
+letter_event = {
+	id = PlusFaction.2
+	title = PlusFaction.2_title
+	desc = PlusFaction.2_desc
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.2_1
+		trigger = {
+			NOT = {
+				has_character_flag = do_not_disturb
+			}
+		}
+		hidden_tooltip = {
+			FROM = {
+				change_variable = {
+					which = "guests"
+					value = 1
+				}
+			}
+		}
+		set_character_flag = do_not_disturb
+		set_character_flag = accepted_meeting
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes
+			like_factor = yes
+		}
+	}
+
+	option = {
+		name = PlusFaction.2_2
+		hidden_tooltip = {
+			FROM = {
+				letter_event = {
+					id = PlusFaction.3 #Faction members refuse the invitation
+					days = 2
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			learning_factor = yes
+			like_factor = yes
+		}
+	}
+}
+
+#Faction members refuse the invitation
+letter_event = {
+	id = PlusFaction.3
+	title = PlusFaction.3_title
+	desc = PlusFaction.3_desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.3_1
+		scaled_prestige = -0.1
+		opinion = { 
+			modifier = opinion_disappointed
+			who = FROM
+			years = 5
+		}
+	}
+}
+
+#Faction leader presents agenda
+character_event = {
+	id = PlusFaction.4
+	title = PlusFaction.4_title
+	desc = PlusFaction.4_desc
+	picture = GFX_evt_council
+	sound = turning_page
+
+	is_triggered_only = yes
+
+	trigger = {
+		check_variable = {
+			which = "guests"
+			value = 1
+		}
+	}
+
+	fail_trigger_effect = { 
+		character_event = {
+			id = PlusFaction.9 #No guests arrive
+		}
+	}
+	
+	option = {
+		name = PlusFaction.4_1
+		character_event = {
+			id = PlusFaction.5 #Faction leader focuses on self
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes
+		}
+	}
+
+	# option = {
+	# 	name = PlusFaction.4_2
+	# 	character_event = {
+	# 		id = PlusFaction.6 #Faction leader focuses on liege
+	# 	}
+	# 	ai_chance = {
+	# 		factor = 0
+	# 	}
+	# }
+
+	# option = {
+	# 	name = PlusFaction.4_3
+	# 	character_event = {
+	# 		id = PlusFaction.7 #Faction leader focuses on faction
+	# 	}
+	# 	ai_chance = {
+	# 		factor = 0
+	# 	}
+	# }
+
+	# option = {
+	# 	name = PlusFaction.4_4 #Faction leader focuses on realm
+	# 	character_event = {
+	# 		id = PlusFaction.8
+	# 	}
+	# 	ai_chance = {
+	# 		factor = 0
+	# 	}
+	# }
+}
+
+#No guests arrive
+character_event = {
+	id = PlusFaction.9
+	title = PlusFaction.9_title
+	desc = PlusFaction.9_desc
+	picture = GFX_evt_bad_news
+	sound = time_forward
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_character_flag = do_not_disturb
+	}
+
+	option = {
+		name = PlusFaction.9_1
+	}
+}
+
+#Faction leader deemed not fit to lead faction
+character_event = {
+	id = PlusFaction.12
+	title = PlusFaction.12_title
+	desc = PlusFaction.12_desc
+	picture = GFX_evt_council_quarrelling
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.12_1
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = faction_court
+					character_event = {
+						id = PlusFaction.13 #Faction members decide on leadership status
+					}
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					character_event = {
+						id = PlusFaction.13 #Faction members decide on leadership status
+					}
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					character_event = {
+						id = PlusFaction.13 #Faction members decide on leadership status
+					}
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					character_event = {
+						id = PlusFaction.13 #Faction members decide on leadership status
+					}
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					character_event = {
+						id = PlusFaction.13 #Faction members decide on leadership status
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.14 #Faction leader receives leadership results
+			days = 1
+		}
+	}
+}
+
+#Faction members decide on leadership status
+character_event = {
+	id = PlusFaction.13
+	title = PlusFaction.13_title
+	desc = PlusFaction.13_desc
+	picture = GFX_evt_council_quarrelling
+
+	is_triggered_only = yes
+
+	immediate = {
+		change_variable = { 
+			which = "members" 
+			value = 1
+		}
+	}
+
+	option = {
+		name = PlusFaction.13_1
+		hidden_tooltip = {
+			change_variable = { 
+				which = "votes"
+				value = 1
+			}
+		}
+		FROM = {
+			opinion = {
+				modifier = opinion_disappointed
+				who = ROOT
+				years = 5
+			}
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes
+			like_factor = yes
+		}
+	}
+	option = {
+		name = PlusFaction.13_2
+		FROM = {
+			opinion = {
+				modifier = opinion_relieved
+				who = ROOT
+				years = 5
+			}	
+		}
+		ai_chance = {
+			factor = 1
+			learning_factor = yes
+			like_factor = yes
+		}
+	}
+}
+
+#Faction leader receives leadership results
+character_event = {
+	id = PlusFaction.14
+	title = PlusFaction.14_title
+	desc = PlusFaction.14_desc
+	picture = {
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		picture = GFX_evt_council_agreement
+	}
+	picture = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		picture = GFX_evt_council_quarrelling
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		subtract_variable = {
+			which = "members"
+			which = "votes"
+		}
+		change_variable = {
+			which = "results"
+			which = "members"
+		}
+	}
+	
+	option = {
+		name = PlusFaction.14_1
+		sound_effect = pleased_council
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		set_character_flag = vote_winner
+	}
+
+	option = {
+		name = PlusFaction.14_2
+		sound_effect = displeased_council
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		set_character_flag = vote_loser
+		scaled_prestige = -0.25
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				leave_faction = faction_court 
+				add_character_modifier = {
+					modifier = faction_abbandoned
+					years = 10
+				}
+			}
+			faction_order = {
+				leave_faction = faction_order
+				add_character_modifier = {
+					modifier = faction_abbandoned
+					years = 10
+				}
+			}
+			faction_prosperity = {
+				leave_faction = faction_prosperity
+				add_character_modifier = {
+					modifier = faction_abbandoned
+					years = 10
+				}
+			}
+			faction_glory = {
+				leave_faction = faction_glory
+				add_character_modifier = {
+					modifier = faction_abbandoned
+					years = 10
+				}
+			}
+			faction_tradition = {
+				leave_faction = faction_tradition
+				add_character_modifier = {
+					modifier = faction_abbandoned
+					years = 10
+				}
+			}
+		}
+	}
+
+	after = {
+		hidden_tooltip = {
+			set_variable = {
+				which = "votes"
+				value = 0
+			}
+			set_variable = {
+				which = "members"
+				value = 0
+			}
+			set_variable = {
+				which = "results"
+				value = 0
+			}
+			set_variable = {
+				which = "guests"
+				value = 0
+			}
+		}
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = faction_court
+					character_event = {
+						id = PlusFaction.15 #Faction members receives leadership results
+					}
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = diplomacy_advice
+					clr_character_flag = intrigue_advice
+					clr_character_flag = stewardship_advice
+					clr_character_flag = martial_advice
+					clr_character_flag = learning_advice
+					clr_character_flag = no_advice
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					character_event = {
+						id = PlusFaction.15 #Faction members receives leadership results
+					}
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = diplomacy_advice
+					clr_character_flag = intrigue_advice
+					clr_character_flag = stewardship_advice
+					clr_character_flag = martial_advice
+					clr_character_flag = learning_advice
+					clr_character_flag = no_advice
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					character_event = {
+						id = PlusFaction.15 #Faction members receives leadership results
+					}
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = diplomacy_advice
+					clr_character_flag = intrigue_advice
+					clr_character_flag = stewardship_advice
+					clr_character_flag = martial_advice
+					clr_character_flag = learning_advice
+					clr_character_flag = no_advice
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					character_event = {
+						id = PlusFaction.15 #Faction members receives leadership results
+					}
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = diplomacy_advice
+					clr_character_flag = intrigue_advice
+					clr_character_flag = stewardship_advice
+					clr_character_flag = martial_advice
+					clr_character_flag = learning_advice
+					clr_character_flag = no_advice
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					character_event = {
+						id = PlusFaction.15 #Faction members receives leadership results
+					}
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = do_not_disturb
+					clr_character_flag = accepted_meeting
+					clr_character_flag = diplomacy_advice
+					clr_character_flag = intrigue_advice
+					clr_character_flag = stewardship_advice
+					clr_character_flag = martial_advice
+					clr_character_flag = learning_advice
+					clr_character_flag = no_advice
+				}
+			}
+		}
+		clr_character_flag = do_not_disturb
+		clr_character_flag = ldeads_faction
+	}
+}
+
+#Faction members receives leadership results
+character_event = {
+	id = PlusFaction.15
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_winner
+			}
+		}
+		text = PlusFaction.15_desc_1
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_loser
+			}
+		}
+		text = PlusFaction.15_desc_2
+	}
+	picture = GFX_evt_council_quarrelling
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.15_1
+	}
+
+	after = {
+		FROM = {
+			clr_character_flag = vote_winner
+			clr_character_flag = vote_loser
+		}
+	}
+}
+
+#Faction meeting is cloncluded
+character_event = {
+	id = PlusFaction.19
+	desc = PlusFaction.19_desc
+	picture = GFX_evt_feast_hf
+	sound = bloodline_added
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_tooltip = {
+			set_variable = {
+				which = "votes"
+				value = 0
+			}
+			set_variable = {
+				which = "members"
+				value = 0
+			}
+			set_variable = {
+				which = "results"
+				value = 0
+			}
+			set_variable = {
+				which = "guests"
+				value = 0
+			}
+		}
+		clr_character_flag = do_not_disturb
+		clr_character_flag = leads_faction
+		clr_character_flag = vote_winner
+		clr_character_flag = vote_loser
+		any_faction_backer = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						clr_character_flag = do_not_disturb
+						clr_character_flag = accepted_meeting
+						clr_character_flag = diplomacy_advice
+						clr_character_flag = intrigue_advice
+						clr_character_flag = stewardship_advice
+						clr_character_flag = martial_advice
+						clr_character_flag = learning_advice
+						clr_character_flag = no_advice
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						clr_character_flag = do_not_disturb
+						clr_character_flag = accepted_meeting
+						clr_character_flag = diplomacy_advice
+						clr_character_flag = intrigue_advice
+						clr_character_flag = stewardship_advice
+						clr_character_flag = martial_advice
+						clr_character_flag = learning_advice
+						clr_character_flag = no_advice
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						clr_character_flag = do_not_disturb
+						clr_character_flag = accepted_meeting
+						clr_character_flag = diplomacy_advice
+						clr_character_flag = intrigue_advice
+						clr_character_flag = stewardship_advice
+						clr_character_flag = martial_advice
+						clr_character_flag = learning_advice
+						clr_character_flag = no_advice
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						clr_character_flag = do_not_disturb
+						clr_character_flag = accepted_meeting
+						clr_character_flag = diplomacy_advice
+						clr_character_flag = intrigue_advice
+						clr_character_flag = stewardship_advice
+						clr_character_flag = martial_advice
+						clr_character_flag = learning_advice
+						clr_character_flag = no_advice
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						clr_character_flag = do_not_disturb
+						clr_character_flag = accepted_meeting
+						clr_character_flag = diplomacy_advice
+						clr_character_flag = intrigue_advice
+						clr_character_flag = stewardship_advice
+						clr_character_flag = martial_advice
+						clr_character_flag = learning_advice
+						clr_character_flag = no_advice
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.19_1
+	}
+}
+
+#Focuses on self
+#####
+
+#Court faction leader focuses on self
+character_event = {
+	id = PlusFaction.5
+	title = PlusFaction.5_title
+	desc = PlusFaction.5_desc
+	picture = GFX_evt_gathering_of_minds
+	sound = turning_page
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.5_1
+		hidden_tooltip = {
+			set_variable = {
+				which = "guests"
+				value = 0
+			}
+		}
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = faction_court
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.10 #Faction members receive request for membership dues
+						}
+					}
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.10 #Faction members receive request for membership dues
+						}
+					}
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.10 #Faction members receive request for membership dues
+						}
+					}
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.10 #Faction members receive request for membership dues
+						}
+					}
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.10 #Faction members receive request for membership dues
+						}
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.11 #Faction leader receives the results of the membership dues
+			days = 1
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes
+		}
+	}
+
+	option = {
+		name = PlusFaction.5_2
+		hidden_tooltip = {
+			set_variable = {
+				which = "guests"
+				value = 0
+			}
+		}
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = faction_court
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.17 #Faction members receive request for advice
+						}
+					}
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.17 #Faction members receive request for advice
+						}
+					}
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.17 #Faction members receive request for advice
+						}
+					}
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.17 #Faction members receive request for advice
+						}
+					}
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+						}
+						character_event = {
+							id = PlusFaction.17 #Faction members receive request for advice
+						}
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes
+		}
+	}
+
+	# option = {
+	# 	name = {
+	# 		text = PlusFaction.5_3_1
+	# 		trigger = {
+	# 			in_faction = faction_court
+	# 		}
+	# 	}
+	# 	name = {
+	# 		text = PlusFaction.5_3_2
+	# 		trigger = {
+	# 			in_faction = faction_court
+	# 		}
+	# 	}
+	# 	name = {
+	# 		text = PlusFaction.5_3_3
+	# 		trigger = {
+	# 			in_faction = faction_court
+	# 		}
+	# 	}
+	# 	name = {
+	# 		text = PlusFaction.5_3_4
+	# 		trigger = {
+	# 			in_faction = faction_court
+	# 		}
+	# 	}
+	# 	name = {
+	# 		text = PlusFaction.5_3_4
+	# 		trigger = {
+	# 			in_faction = faction_court
+	# 		}
+	# 	}
+	# 	trigger_switch = {
+	# 		on_trigger = faction
+	# 		faction_court = {
+	# 			limit = {
+	# 				has_character_flag = accepted_meeting
+	# 				NOT = {
+	# 					
+	# 				}
+	# 			}
+	# 			tooltip_info = intrigue
+	# 			character_event = {
+	# 				id = 
+	# 			}
+	# 		}
+	# 		faction_order = {
+	# 			limit = {
+	# 				has_character_flag = accepted_meeting
+	# 				NOT = {
+	# 					
+	# 				}
+	# 			}
+	# 			tooltip_info = diplomacy
+	# 			character_event = {
+	# 				id = 
+	# 			}
+	# 		}
+	# 		faction_prosperity = {
+	# 			limit = {
+	# 				has_character_flag = accepted_meeting
+	# 				NOT = {
+	# 					
+	# 				}
+	# 			}
+	# 			tooltip_info = stewardship
+	# 			character_event = {
+	# 				id = 
+	# 			}
+	# 		}
+	# 		faction_glory = {
+	# 			limit = {
+	# 				has_character_flag = accepted_meeting
+	# 				NOT = {
+	# 					
+	# 				}
+	# 			}
+	# 			tooltip_info = martial
+	# 			character_event = {
+	# 				id = 
+	# 			}
+	# 		}
+	# 		faction_tradition = {
+	# 			limit = {
+	# 				has_character_flag = accepted_meeting
+	# 				NOT = {
+	# 					
+	# 				}
+	# 			}
+	# 			tooltip_info = learning
+	# 			character_event = {
+	# 				id = 
+	# 			}
+	# 		}
+	# 	}
+	# 	ai_chance = {
+	# 		factor = 0
+	# 	}
+	# }
+
+	option = {
+		name = PlusFaction.5_4
+		character_event = {
+			id = PlusFaction.4
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Faction members receive request for membership dues
+character_event = {
+	id = PlusFaction.10
+	title = PlusFaction.10_title
+	desc = PlusFaction.10_desc
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			change_variable = { 
+				which = "members"
+				value = 1
+			}
+		}
+	}
+	
+	option = {
+		name = PlusFaction.10_1
+		trigger = {
+			opinion = {
+				who = FROM
+				value = 0
+			}
+		}
+		hidden_tooltip = {
+			FROM = {
+				change_variable = {
+					which = "votes"
+					value = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			learning_factor = yes
+			like_factor = yes
+		}
+	}
+
+	option = {
+		name = PlusFaction.10_2
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				leave_faction = faction_court
+			}
+			faction_order = {
+				leave_faction = faction_order
+			}
+			faction_prosperity = {
+				leave_faction = faction_prosperity
+			}
+			faction_glory = {
+				leave_faction = faction_glory
+			}
+			faction_tradition = {
+				leave_faction = faction_tradition
+			}
+		}
+		add_character_modifier = {
+			modifier = faction_abbandoned
+			years = 10
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes
+			like_factor = yes
+		}
+	}
+}
+
+#Faction leader receives the results of the membership dues
+character_event = {
+	id = PlusFaction.11
+	title = PlusFaction.11_title
+	desc = PlusFaction.11_desc
+	picture = {
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		picture = GFX_evt_council_agreement
+	}
+	picture = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		picture = GFX_evt_council_quarrelling
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		subtract_variable = {
+			which = "members"
+			which = "votes"
+		}
+		change_variable = {
+			which = "results"
+			which = "members"
+		}
+	}
+	
+	option = {
+		name = PlusFaction.11_1
+		sound_effect = pleased_council
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = faction_court
+					transfer_scaled_wealth = {
+						to = FROM 
+						value = 0.1
+					}
+					opinion = { 
+						modifier = opinion_disappointed
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					transfer_scaled_wealth = {
+						to = FROM 
+						value = 0.1
+					}
+					opinion = { 
+						modifier = opinion_disappointed
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					transfer_scaled_wealth = {
+						to = FROM 
+						value = 0.1
+					}
+					opinion = { 
+						modifier = opinion_disappointed
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					transfer_scaled_wealth = {
+						to = FROM 
+						value = 0.1
+					}
+					opinion = { 
+						modifier = opinion_disappointed
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					transfer_scaled_wealth = {
+						to = FROM 
+						value = 0.1
+					}
+					opinion = { 
+						modifier = opinion_disappointed
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+		}
+		random = {
+			chance = 25
+			character_event = {
+				id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.11_2
+		sound_effect = displeased_council
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		scaled_prestige = -0.25
+		character_event = {
+			id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+		}
+	}
+
+	after = {
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is cloncluded
+			days = 3
+		}
+		any_faction_backer = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						character_event = {
+							id = PlusFaction.16 #Faction members receive the results of the membership dues
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						character_event = {
+							id = PlusFaction.16 #Faction members receive the results of the membership dues
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						character_event = {
+							id = PlusFaction.16 #Faction members receive the results of the membership dues
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						character_event = {
+							id = PlusFaction.16 #Faction members receive the results of the membership dues
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						character_event = {
+							id = PlusFaction.16 #Faction members receive the results of the membership dues
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Faction members receive the results of the membership dues
+character_event = {
+	id = PlusFaction.16
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_winner
+			}
+		}
+		text = PlusFaction.16_desc_1
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_loser
+			}
+		}
+		text = PlusFaction.16_desc_2
+	}
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.16_1
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is cloncluded
+			days = 3
+		}
+	}
+}
+
+#Faction members receive request for advice
+character_event = {
+	id = PlusFaction.17
+	desc = PlusFaction.17_desc
+	picture = GFX_evt_elder_council
+
+	is_triggered_only = yes
+
+	option = {
+		name = {
+			text = PlusFaction.17_1_1
+			trigger = {
+				attribute_diff = {
+					character = FROM
+					attribute = diplomacy
+					value = 5
+				}
+			}
+		}
+		name = {
+			text = PlusFaction.17_1_2
+			trigger = {
+				attribute_diff = {
+					character = FROM
+					attribute = intrigue
+					value = 5
+				}
+			}
+		}
+		name = {
+			text = PlusFaction.17_1_3
+			trigger = {
+				attribute_diff = {
+					character = FROM
+					attribute = stewardship
+					value = 5
+				}
+			}
+		}
+		name = {
+			text = PlusFaction.17_1_4
+			trigger = {
+				attribute_diff = {
+					character = FROM
+					attribute = martial
+					value = 5
+				}
+			}
+		}
+		name = {
+			text = PlusFaction.17_1_5
+			trigger = {
+				attribute_diff = {
+					character = FROM
+					attribute = learning
+					value = 5
+				}
+			}
+		}
+		trigger = {
+			OR = {
+				attribute_diff = {
+					character = FROM
+					attribute = diplomacy
+					value = 5
+				}
+				attribute_diff = {
+					character = FROM
+					attribute = intrigue
+					value = 5
+				}
+				attribute_diff = {
+					character = FROM
+					attribute = stewardship
+					value = 5
+				}
+				attribute_diff = {
+					character = FROM
+					attribute = martial
+					value = 5
+				}
+				attribute_diff = {
+					character = FROM
+					attribute = learning
+					value = 5
+				}
+			}
+		}
+		hidden_tooltip = {
+			FROM = {
+				change_variable = {
+					which = "results"
+					value = 1
+				}
+			}
+		}
+		scaled_prestige = 0.1
+		if = {
+			limit = {
+				attribute_diff = {
+					character = FROM
+					attribute = diplomacy
+					value = 5
+				}
+			}
+			set_character_flag = diplomacy_advice
+			FROM = {
+				character_event = {
+					id = PlusFaction.18 #Faction leader receives advice
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				attribute_diff = {
+					character = FROM
+					attribute = intrigue
+					value = 5
+				}
+			}
+			set_character_flag = intrigue_advice
+			FROM = {
+				character_event = {
+					id = PlusFaction.18 #Faction leader receives advice
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				attribute_diff = {
+					character = FROM
+					attribute = stewardship
+					value = 5
+				}
+			}
+			set_character_flag = stewardship_advice
+			FROM = {
+				character_event = {
+					id = PlusFaction.18 #Faction leader receives advice
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				attribute_diff = {
+					character = FROM
+					attribute = martial
+					value = 5
+				}
+			}
+			set_character_flag = martial_advice
+			FROM = {
+				character_event = {
+					id = PlusFaction.18 #Faction leader receives advice
+				}
+			}
+		}
+		else = {
+			set_character_flag = learning_advice
+			FROM = {
+				character_event = {
+					id = PlusFaction.18 #Faction leader receives advice
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			learning_factor = yes
+			like_factor = yes
+		}
+	}
+
+	option = {
+		name = PlusFaction.17_2
+		hidden_tooltip = {
+			FROM = {
+				change_variable = {
+					which = "results"
+					value = 2
+				}
+			}
+		}
+		scaled_prestige = -0.25
+		set_character_flag = no_advice
+		FROM = {
+			character_event = {
+				id = PlusFaction.18 #Faction leader receives advice
+			}
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes
+			like_factor = yes
+		}
+	}
+
+	after = {
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+	}
+}
+
+#Faction leader receives advice
+character_event = {
+	id = PlusFaction.18
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = diplomacy_advice
+			}
+		}
+		text = PlusFaction.18_desc_1
+		picture = GFX_evt_diplomat_hf
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = intrigue_advice
+			}
+		}
+		text = PlusFaction.18_desc_2
+		picture = GFX_evt_brothel
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = stewardship_advice
+			}
+		}
+		text = PlusFaction.18_desc_3
+		picture = GFX_evt_relaxed_ruler
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = martial_advice
+			}
+		}
+		text = PlusFaction.18_desc_4
+		picture = GFX_evt_teaching_moment
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = learning_advice
+			}
+		}
+		text = PlusFaction.18_desc_5
+		picture = GFX_evt_open_book_hf
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = no_advice
+			}
+		}
+		text = PlusFaction.18_desc_6
+		picture = GFX_evt_suspicious_noble
+	}
+	picture = GFX_evt_council
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.18_1
+		trigger = {
+			FROM = {
+				NOT = {
+					has_character_flag = no_advice
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_character_flag = diplomacy_advice
+				}
+			}
+			random = {
+				chance = 25
+				change_diplomacy = 1
+			}
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					has_character_flag = intrigue_advice
+				}
+			}
+			random = {
+				chance = 25
+				change_intrigue = 1
+			}
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					has_character_flag = stewardship_advice
+				}
+			}
+			random = {
+				chance = 25
+				change_stewardship = 1
+			}
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					has_character_flag = martial_advice
+				}
+			}
+			random = {
+				chance = 25
+				change_martial = 1
+			}
+		}
+		else = {
+			random = {
+				chance = 25
+				change_learning = 1
+			}
+		}
+		scaled_prestige = -0.1
+	}
+
+	option = {
+		name = PlusFaction.18_2
+		trigger = {
+			FROM = {
+				has_character_flag = no_advice
+			}
+		}
+		scaled_prestige = -0.25
+	}
+
+	after = {
+		if = {
+			limit = {
+				check_variable = {
+					which = "results"
+					value = 5
+				}
+			}
+			random = {
+				chance = 5
+				character_event = {
+					id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = "results"
+					value = 10
+				}
+			}
+			random = {
+				chance = 10
+				character_event = {
+					id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = "results"
+					value = 15
+				}
+			}
+			random = {
+				chance = 15
+				character_event = {
+					id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = "results"
+					value = 20
+				}
+			}
+			random = {
+				chance = 20
+				character_event = {
+					id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+				}
+			}
+		}
+	}
+}

@@ -17,6 +17,7 @@ faction_court = {
 		higher_tier_than = baron
 		NOR = {
 			in_revolt = yes
+			in_faction = faction_order
 			in_faction = faction_prosperity
 			in_faction = faction_glory
 			in_faction = faction_tradition
@@ -38,6 +39,7 @@ faction_court = {
 			higher_tier_than = baron
 			NOR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_prosperity
 				in_faction = faction_glory
 				in_faction = faction_tradition
@@ -52,6 +54,7 @@ faction_court = {
 			factor = 0
 			OR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_prosperity
 				in_faction = faction_glory
 				in_faction = faction_tradition
@@ -61,11 +64,12 @@ faction_court = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 100
+		factor = 95
 		modifier = {
 			factor = 0
 			OR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_prosperity
 				in_faction = faction_glory
 				in_faction = faction_tradition
@@ -82,7 +86,91 @@ faction_court = {
 	abort = {
 		always = no
 	}
-}	
+}
+
+#Court Faction
+#####
+faction_order = {
+	type = liege_titles
+	
+	#Can this faction be created?
+	potential = {
+		prisoner = no
+		is_adult = yes
+		is_landed = yes
+		higher_tier_than = baron
+		NOR = {
+			in_revolt = yes
+			in_faction = faction_court
+			in_faction = faction_prosperity
+			in_faction = faction_glory
+			in_faction = faction_tradition
+		}
+	}
+
+	#Which title does this plot apply to?
+	allow = {
+		is_primary_holder_title = yes
+	}	
+	
+	#Can this character join this faction?
+	allow_join = {
+		ROOT = {
+			prisoner = no
+			is_playable = yes
+			is_adult = yes
+			is_landed = yes
+			higher_tier_than = baron
+			NOR = {
+				in_revolt = yes
+				in_faction = faction_court
+				in_faction = faction_prosperity
+				in_faction = faction_glory
+				in_faction = faction_tradition
+			}
+		}
+	}
+	
+	#Chance of creating the faction
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				in_revolt = yes
+				in_faction = faction_court
+				in_faction = faction_prosperity
+				in_faction = faction_glory
+				in_faction = faction_tradition
+			}
+		}
+	}
+	
+	#Chance of joining the faction
+	membership = {
+		factor = 95
+		modifier = {
+			factor = 0
+			OR = {
+				in_revolt = yes
+				in_faction = faction_court
+				in_faction = faction_prosperity
+				in_faction = faction_glory
+				in_faction = faction_tradition
+			}
+		}
+	}
+
+	#When does it succeed?
+	success = {
+		always = no
+	}
+
+	#When does it fail?
+	abort = {
+		always = no
+	}
+}
 
 #Prosperity Faction
 #####
@@ -98,6 +186,7 @@ faction_prosperity = {
 		higher_tier_than = baron
 		NOR = {
 			in_revolt = yes
+			in_faction = faction_order
 			in_faction = faction_court
 			in_faction = faction_glory
 			in_faction = faction_tradition
@@ -119,6 +208,7 @@ faction_prosperity = {
 			higher_tier_than = baron
 			NOR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_glory
 				in_faction = faction_tradition
@@ -133,6 +223,7 @@ faction_prosperity = {
 			factor = 0
 			OR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_glory
 				in_faction = faction_tradition
@@ -142,11 +233,12 @@ faction_prosperity = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 100
+		factor = 95
 		modifier = {
 			factor = 0
 			OR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_glory
 				in_faction = faction_tradition
@@ -179,6 +271,7 @@ faction_glory = {
 		higher_tier_than = baron
 		NOR = {
 			in_revolt = yes
+			in_faction = faction_order
 			in_faction = faction_court
 			in_faction = faction_prosperity
 			in_faction = faction_tradition
@@ -200,6 +293,7 @@ faction_glory = {
 			higher_tier_than = baron
 			NOR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_tradition
@@ -214,6 +308,7 @@ faction_glory = {
 			factor = 0
 			OR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_tradition
@@ -223,11 +318,12 @@ faction_glory = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 100
+		factor = 95
 		modifier = {
 			factor = 0
 			OR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_tradition
@@ -260,6 +356,7 @@ faction_tradition = {
 		higher_tier_than = baron
 		NOR = {
 			in_revolt = yes
+			in_faction = faction_order
 			in_faction = faction_court
 			in_faction = faction_prosperity
 			in_faction = faction_glory
@@ -281,6 +378,7 @@ faction_tradition = {
 			higher_tier_than = baron
 			NOR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_glory
@@ -295,6 +393,7 @@ faction_tradition = {
 			factor = 0
 			OR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_glory
@@ -304,11 +403,12 @@ faction_tradition = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 100
+		factor = 95
 		modifier = {
 			factor = 0
 			OR = {
 				in_revolt = yes
+				in_faction = faction_order
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_glory

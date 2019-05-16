@@ -1,0 +1,41 @@
+#CHARACTER JOBS/TITLES
+#####
+#GetFactionName
+
+#CHARACTER JOBS/TITLES
+defined_text = {
+	#Displays the name of the 5 "major" factions
+	name = GetFactionName
+	use_first_valid = yes
+
+	text = {
+		localisation_key = GetFactionName_Court
+		trigger = {
+			in_faction = faction_court
+		}
+	}
+	text = {
+		localisation_key = GetFactionName_Glory
+		trigger = {
+			in_faction = faction_glory
+		}
+	}
+	text = {
+		localisation_key = GetFactionName_Order
+		trigger = {
+			in_faction = faction_order
+		}
+	}
+	text = {
+		localisation_key = GetFactionName_Prosperity
+		trigger = {
+			in_faction = faction_prosperity
+		}
+	}
+	text = {
+		localisation_key = GetFactionName_Tradition
+		trigger = {
+			in_faction = faction_tradition
+		}
+	}
+}

@@ -1,0 +1,5 @@
+#Event Modifiers
+#####
+
+faction_abbandoned;Abbandoned Faction;x
+faction_abbandoned_desc;This character has previously left one of the main five factions.;x

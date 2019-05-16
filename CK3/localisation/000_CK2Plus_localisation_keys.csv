@@ -1,0 +1,9 @@
+#Localisation Keys
+#####
+
+#GetFactionName
+GetFactionName_Court;Court;x
+GetFactionName_Glory;Glory;x
+GetFactionName_Order;Order;x
+GetFactionName_Prosperity;Prosperity;x
+GetFactionName_Tradition;Tradition;x

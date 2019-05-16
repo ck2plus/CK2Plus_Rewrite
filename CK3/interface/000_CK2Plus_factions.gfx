@@ -2,6 +2,11 @@ spriteTypes = {
 	#Court Faction
 	spriteType = {
 		name = "GFX_faction_court"
+		texturefile = "gfx/factions/icon_intrigue.dds"
+	}
+	#Order faction
+	spriteType = {
+		name = "GFX_faction_order"
 		texturefile = "gfx/factions/icon_diplomacy.dds"
 	}
 	#Prosperity Faction
