@@ -21,6 +21,7 @@ faction_court = {
 			in_faction = faction_prosperity
 			in_faction = faction_glory
 			in_faction = faction_tradition
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -43,13 +44,15 @@ faction_court = {
 				in_faction = faction_prosperity
 				in_faction = faction_glory
 				in_faction = faction_tradition
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
 	
 	#Chance of creating the faction
 	chance = {
-		factor = 100
+		factor = 1
+		intrigue_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -64,7 +67,8 @@ faction_court = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 95
+		factor = 1
+		intrigue_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -88,7 +92,7 @@ faction_court = {
 	}
 }
 
-#Court Faction
+#Order Faction
 #####
 faction_order = {
 	type = liege_titles
@@ -105,6 +109,7 @@ faction_order = {
 			in_faction = faction_prosperity
 			in_faction = faction_glory
 			in_faction = faction_tradition
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -127,13 +132,15 @@ faction_order = {
 				in_faction = faction_prosperity
 				in_faction = faction_glory
 				in_faction = faction_tradition
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
 	
 	#Chance of creating the faction
 	chance = {
-		factor = 100
+		factor = 1
+		diplomacy_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -148,7 +155,8 @@ faction_order = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 95
+		factor = 1
+		diplomacy_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -190,6 +198,7 @@ faction_prosperity = {
 			in_faction = faction_court
 			in_faction = faction_glory
 			in_faction = faction_tradition
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -212,13 +221,15 @@ faction_prosperity = {
 				in_faction = faction_court
 				in_faction = faction_glory
 				in_faction = faction_tradition
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
 
 	#Chance of creating the faction
 	chance = {
-		factor = 100
+		factor = 1
+		stewardship_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -233,7 +244,8 @@ faction_prosperity = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 95
+		factor = 1
+		stewardship_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -275,6 +287,7 @@ faction_glory = {
 			in_faction = faction_court
 			in_faction = faction_prosperity
 			in_faction = faction_tradition
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -297,13 +310,15 @@ faction_glory = {
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_tradition
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
 	
 	#Chance of creating the faction
 	chance = {
-		factor = 100
+		factor = 1
+		martial_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -318,7 +333,8 @@ faction_glory = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 95
+		factor = 1
+		martial_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -360,6 +376,7 @@ faction_tradition = {
 			in_faction = faction_court
 			in_faction = faction_prosperity
 			in_faction = faction_glory
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -382,13 +399,15 @@ faction_tradition = {
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_glory
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
 	
 	#Chance of creating the faction
 	chance = {
-		factor = 100
+		factor = 1
+		learning_factor = yes
 		modifier = {
 			factor = 0
 			OR = {
@@ -403,7 +422,8 @@ faction_tradition = {
 	
 	#Chance of joining the faction
 	membership = {
-		factor = 95
+		factor = 1
+		learning_factor = yes
 		modifier = {
 			factor = 0
 			OR = {

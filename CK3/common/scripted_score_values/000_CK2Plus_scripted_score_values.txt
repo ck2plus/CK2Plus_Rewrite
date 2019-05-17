@@ -327,7 +327,6 @@ learning_factor = { #Use this one for learning focused events
 
 #Like Factor
 like_factor = { #Use this one for events involving a FROM character
-	#Top 3
 	modifier = {
 		factor = 1.9
 		personal_opinion = {

@@ -40,7 +40,7 @@ PlusFaction.5_title;Myself;x
 PlusFaction.5_desc;There is only one logical reason to conduct these meetings...to benefit myself.;x
 PlusFaction.5_1;I will ask for membership dues.;x
 PlusFaction.5_2;I will ask for advice.;x
-PlusFaction.5_3;I will tell a pompous tale.;x
+PlusFaction.5_3;I will ask for an artifact.;x
 PlusFaction.5_4;...maybe I should reflect on other options.;x
 # PlusFaction.6_title;Liege;x
 # PlusFaction.6_desc;Our liege has been quite the topic lately.;x
@@ -110,3 +110,15 @@ PlusFaction.18_2;Ahah I am better than [From.GetHerHim] I guess.;x
 PlusFaction.19_title;[Root.GetFactionName] Faction Meeting;x
 PlusFaction.19_desc;The [Root.GetFactionName] faction meeting was a success and everyone is already looking forward to the next one.;x
 PlusFaction.19_1;Untill next time.;x
+PlusFaction.20_title;Artifact;x
+PlusFaction.20_desc;[From.GetTitledFirstName] wonders if I could spare [From.GetHerHim] an artifact.;x
+PlusFaction.20_1;Only for money.;x
+PlusFaction.20_2;As long as [From.GetHerHim] is humble about it.;x
+PlusFaction.20_3;Sure, as long as [From.GetHerHim] praises me to the rest of the faction.;x
+PlusFaction.20_4;Sorry, but I don't have any to spare.;x
+PlusFaction.21_title;Artifact;x
+PlusFaction.21_desc;[From.GetTitledFirstName] said [From.GetSheHe]...;x
+PlusFaction.21_1;...will only give it for money.;x
+PlusFaction.21_2;...will gladly give it to me.;x
+PlusFaction.21_3;...wants me to praise [From.GetHerHim] in front of the [Root.GetFactionName] faction.;x
+PlusFaction.21_4;...has no artifacts to spare.;x
