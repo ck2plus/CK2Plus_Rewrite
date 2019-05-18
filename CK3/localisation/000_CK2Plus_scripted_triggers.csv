@@ -33,8 +33,8 @@ PlusFaction.3_1;"Unforseen" circumstances uh?;x
 PlusFaction.4_title;[Root.GetFactionName] Faction Meeting;x
 PlusFaction.4_desc;The members have arrived and it is time for me to propose my agenda.;x
 PlusFaction.4_1;I will focus on myself...;x
-PlusFaction.4_2;I will focus on the faction...;x
-PlusFaction.4_3;I will focus on my liege...;x
+PlusFaction.4_2;I will focus on my liege...;x
+PlusFaction.4_3;I will focus on the faction...;x
 PlusFaction.4_4;I will focus on the realm...;x
 PlusFaction.5_title;Myself;x
 PlusFaction.5_desc;There is only one logical reason to conduct these meetings...to benefit myself.;x
@@ -42,17 +42,17 @@ PlusFaction.5_1;I will ask for membership dues.;x
 PlusFaction.5_2;I will ask for advice.;x
 PlusFaction.5_3;I will ask for an artifact.;x
 PlusFaction.5_4;...maybe I should reflect on other options.;x
-PlusFaction.6_title;Faction;x
-PlusFaction.6_desc;The court faction must prevail against the other four.;x
-PlusFaction.6_1;I will strenghten our brotherhood.;x
-PlusFaction.6_2;I will have them come up with new inventions.;x
-PlusFaction.6_3;I will organize a raid on a faction.;x
-PlusFaction.6_4;...maybe I should reflect on other options.;x
-# PlusFaction.7_title;Liege;x
-# PlusFaction.7_desc;Our liege has been quite the topic lately.;x
-# PlusFaction.7_1;I will speak out against [Root.Liege.GetHerHim].;x
-# PlusFaction.7_2;I will speak out for [Root.Liege.GetHerHim].;x
-# PlusFaction.7_3;I will tell a tale about [Root.Liege.GetHerHim].;x
+# PlusFaction.6_title;Liege;x
+# PlusFaction.6_desc;Our liege has been quite the topic lately.;x
+# PlusFaction.6_1;I will speak out against [Root.Liege.GetHerHim].;x
+# PlusFaction.6_2;I will speak out for [Root.Liege.GetHerHim].;x
+# PlusFaction.6_3;I will tell a tale about [Root.Liege.GetHerHim].;x
+# PlusFaction.6_4;...maybe I should reflect on other options.;x
+# PlusFaction.7_title;Faction;x
+# PlusFaction.7_desc;The court faction must prevail against the other three.;x
+# PlusFaction.7_1;I will oranize an orgy.;x
+# PlusFaction.7_2;I will strenghten our brotherhood.;x
+# PlusFaction.7_3;I will reassure the members.;x
 # PlusFaction.7_4;...maybe I should reflect on other options.;x
 # PlusFaction.8_title;Realm;x
 # PlusFaction.8_desc;It is up to us to see [Root.Liege.PrimaryTitle.GetName] prosper...or fail.;x
@@ -122,41 +122,3 @@ PlusFaction.21_1;...will only give it for money.;x
 PlusFaction.21_2;...will gladly give it to me.;x
 PlusFaction.21_3;...wants me to praise [From.GetHerHim] in front of the [Root.GetFactionName] faction.;x
 PlusFaction.21_4;...has no artifacts to spare.;x
-PlusFaction.22_title;Brotherhood;x
-PlusFaction.22_desc_1;I told the rest of the faction that if there is no enemy within, the enemy outside can do us no harm.;x
-PlusFaction.22_desc_2;[From.GetTitledFirstName] suggested that we should all set our differences aside and work towards a common goal.;x
-PlusFaction.22_1_1;I hope they listen.;x
-PlusFaction.22_1_2;[From.GetSheHeCap] is right!;x
-PlusFaction.22_2;How about no.;x
-PlusFaction.23_title;Brotherhood;x
-PlusFaction.23_desc;[From.GetTitledFirstName] approached me asking to set our differences aside.;x
-PlusFaction.23_1;[From.GetSheHe] will have [From.GetHerHis] peace.;x
-PlusFaction.23_2;Over my dead body.;x
-PlusFaction.24_title;Brotherhood;x
-PlusFaction.24_desc_1;[From.GetTitledFirstName] accepted my offer.;x
-PlusFaction.24_desc_2;[From.GetTitledFirstName] refused my offer.;x
-PlusFaction.24_1;I hope the others will also get along.;x
-PlusFaction.24_2;He can go fuck [From.GetHerHim]self then.;x
-PlusFaction.25_title;Inventions;x
-PlusFaction.25_desc_1;I told the [Root.GetFactionName] members to come up with new ideas on how to get an upperhand against the other factions.;x
-PlusFaction.25_desc_2;[From.GetTitledFirstName] is asking us to reflect on new ideas which will help us get an upperhand against the other factions.;x
-PlusFaction.25_1;To my chambers I go.;x
-PlusFaction.25_2;Well atleast we get to relax.;x
-PlusFaction.26_title;Raid;x
-PlusFaction.26_desc;[From.GetTitledFirstName] would like to raid the [event_target.raid_target.GetFactionName] faction.;x
-PlusFaction.26_1;Less talking!  More raiding!;x
-PlusFaction.26_2;This is not what the [Root.GetFactionName] stands for.;x
-PlusFaction.27_title;Raid;x
-PlusFaction.27_desc;The results are in and...;x
-PlusFaction.27_1;...lets go raiding!;x
-PlusFaction.27_2;...I lost the vote and I will now stand trial.;x
-PlusFaction.28_title;Raid;x
-PlusFaction.28_desc_1;[From.GetTitledFirstName] won the vote and we will now raid the [event_target.raid_target.GetFactionName] faction.;x
-PlusFaction.28_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;x
-PlusFaction.28_1;We go raiding!;x
-PlusFaction.29_title;Raid;x
-PlusFaction.29_desc;[event_target.raid_target.GetTitledFirstName] and [event_target.raid_target.GetHerHis] fools stood no chance against the combined forces of the [Root.GetFactionName] faction.;x
-PlusFaction.29_1;Nothing can stop us!;x
-PlusFaction.30_title;Raid;x
-PlusFaction.30_desc;The [From.GetFactionName] conducted a raid against the [Root.GetFactionName] faction and [From.GetTitledFirstName] helped [From.GetHerHim]self to some of my gold.;x
-PlusFaction.30_1;Bastards!;x
