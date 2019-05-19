@@ -60,9 +60,13 @@ character_event = {
 		years = 1
 	}
 
+	immediate = {
+		plus_clean_faction_events = yes #Cleans all flags and variables set in the faction events file
+		set_character_flag = do_not_disturb	
+	}
+
 	option = {
 		name = PlusFaction.1_1
-		plus_clean_faction_events = yes #Cleans all flags and variables set in the faction events file
 		trigger_switch = {
 			on_trigger = in_faction
 			faction_court = {
@@ -127,10 +131,6 @@ character_event = {
 		ai_chance = {
 			factor = 0
 		}
-	}
-
-	after = {
-		set_character_flag = do_not_disturb	
 	}
 }
 
@@ -203,7 +203,7 @@ letter_event = {
 		opinion = { 
 			modifier = opinion_disappointed
 			who = FROM
-			years = 5
+			years = 10
 		}
 	}
 }
@@ -253,15 +253,16 @@ character_event = {
 		}
 	}
 
-	# option = {
-	# 	name = PlusFaction.4_3
-	# 	character_event = {
-	# 		id = PlusFaction.7 #Faction leader focuses on liege
-	# 	}
-	# 	ai_chance = {
-	# 		factor = 0
-	# 	}
-	# }
+	option = {
+		name = PlusFaction.4_3
+		character_event = {
+			id = PlusFaction.7 #Faction leader focuses on liege
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+		}
+	}
 
 	# option = {
 	# 	name = PlusFaction.4_4 #Faction leader focuses on realm
@@ -387,7 +388,7 @@ character_event = {
 			opinion = {
 				modifier = opinion_disappointed
 				who = ROOT
-				years = 5
+				years = 10
 			}
 		}
 		ai_chance = {
@@ -402,12 +403,12 @@ character_event = {
 			opinion = {
 				modifier = opinion_relieved
 				who = ROOT
-				years = 5
+				years = 10
 			}	
 		}
 		ai_chance = {
 			factor = 1
-			learning_factor = yes #Use this one for learning focused events { #Use this one for learning focused events
+			learning_factor = yes #Use this one for learning focused events
 			like_factor = yes #Use this one for events involving a FROM character
 		}
 	}
@@ -482,35 +483,35 @@ character_event = {
 			faction_court = {
 				leave_faction = faction_court 
 				add_character_modifier = {
-					modifier = faction_abbandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
 			faction_order = {
 				leave_faction = faction_order
 				add_character_modifier = {
-					modifier = faction_abbandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
 			faction_prosperity = {
 				leave_faction = faction_prosperity
 				add_character_modifier = {
-					modifier = faction_abbandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
 			faction_glory = {
 				leave_faction = faction_glory
 				add_character_modifier = {
-					modifier = faction_abbandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
 			faction_tradition = {
 				leave_faction = faction_tradition
 				add_character_modifier = {
-					modifier = faction_abbandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
@@ -885,7 +886,7 @@ character_event = {
 	option = {
 		name = PlusFaction.5_4
 		character_event = {
-			id = PlusFaction.4
+			id = PlusFaction.4 #Faction leader presents agenda
 		}
 		ai_chance = {
 			factor = 0
@@ -950,7 +951,7 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			modifier = faction_abbandoned
+			modifier = plus_faction_abbandoned
 			years = 10
 		}
 		ai_chance = {
@@ -1021,7 +1022,7 @@ character_event = {
 					opinion = { 
 						modifier = opinion_disappointed
 						who = ROOT
-						years = 5
+						years = 10
 					}
 				}
 			}
@@ -1035,7 +1036,7 @@ character_event = {
 					opinion = { 
 						modifier = opinion_disappointed
 						who = ROOT
-						years = 5
+						years = 10
 					}
 				}
 			}
@@ -1049,7 +1050,7 @@ character_event = {
 					opinion = { 
 						modifier = opinion_disappointed
 						who = ROOT
-						years = 5
+						years = 10
 					}
 				}
 			}
@@ -1063,7 +1064,7 @@ character_event = {
 					opinion = { 
 						modifier = opinion_disappointed
 						who = ROOT
-						years = 5
+						years = 10
 					}
 				}
 			}
@@ -1077,7 +1078,7 @@ character_event = {
 					opinion = { 
 						modifier = opinion_disappointed
 						who = ROOT
-						years = 5
+						years = 10
 					}
 				}
 			}
@@ -1763,6 +1764,7 @@ character_event = {
 	id = PlusFaction.6
 	desc = PlusFaction.6_desc
 	picture = GFX_evt_council_speaker
+	sound = turning_page
 
 	is_triggered_only = yes
 
@@ -2025,7 +2027,7 @@ character_event = {
 	option = {
 		name = PlusFaction.6_4
 		character_event = {
-			id = PlusFaction.4
+			id = PlusFaction.4 #Faction leader presents agenda
 		}
 		ai_chance = {
 			factor = 0
@@ -2080,6 +2082,7 @@ character_event = {
 						faction = faction_court
 						character_event = {
 							id = PlusFaction.23 #Faction members choose on non-aggression pact
+							days = 1
 						}
 					}
 				}
@@ -2088,6 +2091,7 @@ character_event = {
 						faction = faction_order
 						character_event = {
 							id = PlusFaction.23 #Faction members choose on non-aggression pact
+							days = 1
 						}
 					}
 				}
@@ -2096,6 +2100,7 @@ character_event = {
 						faction = faction_prosperity
 						character_event = {
 							id = PlusFaction.23 #Faction members choose on non-aggression pact
+							days = 1
 						}
 					}
 				}
@@ -2104,6 +2109,7 @@ character_event = {
 						faction = faction_glory
 						character_event = {
 							id = PlusFaction.23 #Faction members choose on non-aggression pact
+							days = 1
 						}
 					}
 				}
@@ -2112,6 +2118,7 @@ character_event = {
 						faction = faction_tradition
 						character_event = {
 							id = PlusFaction.23 #Faction members choose on non-aggression pact
+							days = 1
 						}
 					}
 				}
@@ -2135,7 +2142,7 @@ character_event = {
 			opinion = { 
 				modifier = opinion_disappointed
 				who = ROOT
-				years = 5
+				years = 10
 			}
 		}
 		ai_chance = {
@@ -2236,6 +2243,7 @@ character_event = {
 		opinion = {
 			modifier = in_non_aggression_pact
 			who = FROM
+			years = 10
 		}
 	}
 
@@ -2252,6 +2260,7 @@ character_event = {
 		opinion = {
 			modifier = broken_non_aggression_pact
 			who = FROM
+			years = 10
 		}
 	}
 }
@@ -2402,7 +2411,7 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			modifier = faction_abbandoned
+			modifier = plus_faction_abbandoned
 			years = 10
 		}
 		ai_chance = {
@@ -2724,5 +2733,929 @@ character_event = {
 
 	option = {
 		name = PlusFaction.30_1
+	}
+}
+
+
+
+
+#Focuses on liege
+#####
+
+#Faction leader focuses on liege
+character_event = {
+	id = PlusFaction.7
+	title = PlusFaction.7_title
+	desc = PlusFaction.7_desc
+	picture = GFX_evt_gathering_of_minds
+	sound = turning_page
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.7_1
+		random_list = {
+			25 = { 
+				scaled_wealth = -0.1
+				set_character_flag = for_money
+			}
+			25 = {
+				scaled_prestige = -0.1
+				set_character_flag = for_prestige
+			}
+			25 = {
+				scaled_piety = -0.1
+				set_character_flag = for_piety
+			}
+			25 = {
+				custom_tooltip = {
+					text = plus_favor
+				}
+			}
+		}
+		liege = {
+			opinion = {
+				modifier = opinion_very_grateful_donation
+				who = ROOT
+				years = 10
+			}
+			letter_event = {
+				id = PlusFaction.32 #Faction liege receives support
+			}
+		}
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.31 #Faction leader gives speech regarding liege support
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.31 #Faction leader gives speech regarding liege support
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.31 #Faction leader gives speech regarding liege support
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.31 #Faction leader gives speech regarding liege support
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.31 #Faction leader gives speech regarding liege support
+							}
+						}
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.7_2
+		liege = {
+			add_character_modifier = {
+				modifier = plus_increased_spy_reports
+				years = 10
+			}
+			letter_event = {
+				id = PlusFaction.34 #Faction liege receives spies
+			}
+		}
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.33 #Faction leader asks to spy for liege
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.33 #Faction leader asks to spy for liege
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.33 #Faction leader asks to spy for liege
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.33 #Faction leader asks to spy for liege
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.33 #Faction leader asks to spy for liege
+							}
+						}
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.7_3
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.35 #Faction leader requests assassination
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.35 #Faction leader requests assassination
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.35 #Faction leader requests assassination
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.35 #Faction leader requests assassination
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.35 #Faction leader requests assassination
+							}
+						}
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.36 #Faction leader receives the results of the assassination vote
+			days = 1
+		}
+		character_event = {
+			id = PlusFaction.38 #Faction leader receives the results of the assassination
+			days = 2
+		}
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.7_4
+		character_event = {
+			id = PlusFaction.4 #Faction leader presents agenda
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Faction leader gives speech regarding liege support
+character_event = {
+	id = PlusFaction.31
+	title = PlusFaction.31_title
+	desc = PlusFaction.31_desc
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.31_1
+		random_list = {
+			25 = { 
+				scaled_wealth = -0.1
+				set_character_flag = for_money
+			}
+			25 = {
+				scaled_prestige = -0.1
+				set_character_flag = for_prestige
+			}
+			25 = {
+				scaled_piety = -0.1
+				set_character_flag = for_piety
+			}
+			25 = {
+				custom_tooltip = {
+					text = plus_favor
+				}
+			}
+		}
+		FROM = {
+			liege = {
+				opinion = {
+					modifier = opinion_very_grateful_donation
+					who = ROOT
+					years = 10
+				}
+				letter_event = {
+					id = PlusFaction.32 #Faction liege receives support
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.31_2
+		FROM = {
+			liege = {
+				opinion = {
+					modifier = opinion_disrespects_me
+					who = ROOT
+					years = 10
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Faction liege receives support
+letter_event = {
+	id = PlusFaction.32
+	title = PlusFaction.32_title
+	desc = PlusFaction.32_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.32_1
+		if = {
+			limit = {
+				FROM = {
+					has_character_flag = for_money
+				}
+			}
+			scaled_wealth = 0.1
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_character_flag = for_prestige
+				}
+			}
+			scaled_prestige = 0.1
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_character_flag = for_piety
+				}
+			}
+			scaled_piety = 0.1
+		}
+		else = {
+			add_favor = FROM
+		}
+	}
+}
+
+#Spying
+#Faction leader asks to spy for liege
+character_event = {
+	id = PlusFaction.33
+	title = PlusFaction.33_title
+	desc = PlusFaction.33_desc
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.33_1
+		hidden_tooltip = {
+			FROM = {
+				liege = {
+					add_character_modifier = {
+						modifier = plus_increased_spy_reports
+						years = 10
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.33_2
+		hidden_tooltip = {
+			FROM = {
+				liege = {
+					add_character_modifier = {
+						modifier = undermined_spy_network_2
+						years = 10
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Faction liege receives support
+letter_event = {
+	id = PlusFaction.34
+	title = PlusFaction.34_title
+	desc = PlusFaction.34_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.32_1
+	}
+}
+
+#Assasination
+#Faction leader requests assassination
+character_event = {
+	id = PlusFaction.35
+	title = PlusFaction.35_title
+	desc = PlusFaction.35_desc
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			change_variable = { 
+				which = "members"
+				value = 1
+			}
+		}
+	}
+	
+	option = {
+		name = PlusFaction.35_1
+		hidden_tooltip = {
+			FROM = {
+				change_variable = {
+					which = "votes"
+					value = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.35_2
+		hidden_tooltip = {
+			FROM = {
+				change_variable = {
+					which = "plot"
+					value = -3
+				}
+			}
+		}
+		random_list = {
+			30 = {
+				add_trait = wounded
+			}
+			20 = {
+				add_trait = maimed
+			}
+			10 = {
+				add_trait = infirm
+			}
+		}
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				leave_faction = faction_court
+			}
+			faction_order = {
+				leave_faction = faction_order
+			}
+			faction_prosperity = {
+				leave_faction = faction_prosperity
+			}
+			faction_glory = {
+				leave_faction = faction_glory
+			}
+			faction_tradition = {
+				leave_faction = faction_tradition
+			}
+		}
+		add_character_modifier = {
+			modifier = plus_faction_abbandoned
+			years = 10
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Faction leader receives the results of the assassination vote
+character_event = {
+	id = PlusFaction.36
+	title = PlusFaction.36_title
+	desc = PlusFaction.36_desc
+	picture = {
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		picture = GFX_evt_council_agreement
+	}
+	picture = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		picture = GFX_evt_council_quarrelling
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		subtract_variable = {
+			which = "members"
+			which = "votes"
+		}
+		change_variable = {
+			which = "results"
+			which = "members"
+		}
+	}
+	
+	option = {
+		name = PlusFaction.36_1
+		sound_effect = pleased_council
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.36_2
+		sound_effect = displeased_council
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		scaled_prestige = -0.25
+		character_event = {
+			id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+		}
+	}
+
+	after = {
+		any_faction_backer = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						character_event = {
+							id = PlusFaction.37 #Faction members receive the results of the assassination vote
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						character_event = {
+							id = PlusFaction.37 #Faction members receive the results of the assassination vote
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						character_event = {
+							id = PlusFaction.37 #Faction members receive the results of the assassination vote
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						character_event = {
+							id = PlusFaction.37 #Faction members receive the results of the assassination vote
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						character_event = {
+							id = PlusFaction.37 #Faction members receive the results of the assassination vote
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Faction members receive the results of the assassination vote
+character_event = {
+	id = PlusFaction.37
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_winner
+			}
+		}
+		text = PlusFaction.37_desc_1
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_loser
+			}
+		}
+		text = PlusFaction.37_desc_2
+	}
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.37_1
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is cloncluded
+			days = 3
+		}
+	}
+}
+
+#Faction leader receives the results of the assassination
+character_event = {
+	id = PlusFaction.38
+	title = PlusFaction.38_title
+	desc = {
+		text = PlusFaction.38_desc_1
+		picture = GFX_evt_dead_body_hf
+		trigger = {
+			has_character_flag = successful_assassination
+		}
+	}
+	desc = {
+		text = PlusFaction.38_desc_2
+		picture = GFX_evt_hiding_from_pursuers
+		trigger = {
+			NOT = {
+				has_character_flag = successful_assassination
+			}
+		}
+	}
+	picture = GFX_evt_hiding_from_pursuers	
+
+	is_triggered_only = yes
+
+	immediate = {
+		subtract_variable = {
+			which = "votes"
+			which = "plot"
+		}
+		if = {
+			limit = {
+				check_variable = {
+					which = "votes"
+					value = 10
+				}
+			}
+			random = {
+				chance = 30
+				liege = {
+					death = {
+						death_reason = death_vanished
+					}
+				}
+				set_character_flag = successful_assassination
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = "votes"
+					value = 5
+				}
+			}
+			random = {
+				chance = 20
+				liege = {
+					death = {
+						death_reason = death_vanished
+					}
+				}
+				set_character_flag = successful_assassination
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = "votes"
+					value = 1
+				}
+			}
+			random = {
+				chance = 10
+				liege = {
+					death = {
+						death_reason = death_vanished
+					}
+				}
+				set_character_flag = successful_assassination
+			}
+		}
+	}
+	
+	option = {
+		name = PlusFaction.38_1
+		sound_effect = assassins_assassinate_character
+		trigger = {
+			has_character_flag = successful_assassination
+		}
+	}
+
+	option = {
+		name = PlusFaction.38_2
+		sound_effect = reaction_antagonize_01
+		trigger = {
+			NOT = {
+				has_character_flag = successful_assassination
+			}
+		}
+	}
+
+	after = {
+		any_faction_backer = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						character_event = {
+							id = PlusFaction.39 #Faction members receive the results of the assassination
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						character_event = {
+							id = PlusFaction.39 #Faction members receive the results of the assassination
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						character_event = {
+							id = PlusFaction.39 #Faction members receive the results of the assassination
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						character_event = {
+							id = PlusFaction.39 #Faction members receive the results of the assassination
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						character_event = {
+							id = PlusFaction.39 #Faction members receive the results of the assassination
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Faction leader receives the results of the assassination
+character_event = {
+	id = PlusFaction.39
+	title = PlusFaction.39_title
+	desc = {
+		text = PlusFaction.39_desc_1
+		picture = GFX_evt_dead_body_hf
+		trigger = {
+			FROM = {
+				has_character_flag = successful_assassination
+			}
+		}
+	}
+	desc = {
+		text = PlusFaction.39_desc_2
+		picture = GFX_evt_hiding_from_pursuers
+		trigger = {
+			FROM = {
+				NOT = {
+					has_character_flag = successful_assassination
+				}
+			}
+		}
+	}
+	picture = GFX_evt_hiding_from_pursuers	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.39_1
+		sound_effect = assassins_assassinate_character
+		trigger = {
+			FROM = {
+				has_character_flag = successful_assassination
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.39_2
+		sound_effect = reaction_antagonize_01
+		trigger = {
+			FROM = {
+				NOT = {
+					has_character_flag = successful_assassination
+				}
+			}
+		}
 	}
 }

@@ -1,5 +1,8 @@
 #Event Modifiers
 #####
 
-faction_abbandoned;Abbandoned Faction;x
-faction_abbandoned_desc;This character has previously left one of the main five factions.;x
+plus_faction_abbandoned;Abbandoned Faction;x
+plus_faction_abbandoned_desc;This character has previously left one of the main five factions.;x
+plus_increased_spy_reports;Increased Spy Reports;x
+plus_increased_spy_reports_desc;This character has more watchful eyes available.;x
+#€

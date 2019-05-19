@@ -1,7 +1,7 @@
 ####
 #Plus Event Modifiers:
 #
-#Total = 1
+#Total = 2
 #####
 
 #####
@@ -79,7 +79,13 @@
 #####
 
 #Abbandoned Faction
-faction_abbandoned = {
+plus_faction_abbandoned = {
 	icon = 27
 	monthly_character_prestige = -0.1
+}
+
+#Increased Spy Reports
+plus_increased_spy_reports = {
+	icon = 14
+	plot_discovery_chance = 0.1
 }
