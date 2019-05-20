@@ -483,35 +483,35 @@ character_event = {
 			faction_court = {
 				leave_faction = faction_court 
 				add_character_modifier = {
-					modifier = plus_faction_abbandoned
+					modifier = plus_faction_abandoned
 					years = 10
 				}
 			}
 			faction_order = {
 				leave_faction = faction_order
 				add_character_modifier = {
-					modifier = plus_faction_abbandoned
+					modifier = plus_faction_abandoned
 					years = 10
 				}
 			}
 			faction_prosperity = {
 				leave_faction = faction_prosperity
 				add_character_modifier = {
-					modifier = plus_faction_abbandoned
+					modifier = plus_faction_abandoned
 					years = 10
 				}
 			}
 			faction_glory = {
 				leave_faction = faction_glory
 				add_character_modifier = {
-					modifier = plus_faction_abbandoned
+					modifier = plus_faction_abandoned
 					years = 10
 				}
 			}
 			faction_tradition = {
 				leave_faction = faction_tradition
 				add_character_modifier = {
-					modifier = plus_faction_abbandoned
+					modifier = plus_faction_abandoned
 					years = 10
 				}
 			}
@@ -951,7 +951,7 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			modifier = plus_faction_abbandoned
+			modifier = plus_faction_abandoned
 			years = 10
 		}
 		ai_chance = {
@@ -2411,7 +2411,7 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			modifier = plus_faction_abbandoned
+			modifier = plus_faction_abandoned
 			years = 10
 		}
 		ai_chance = {
@@ -3301,7 +3301,7 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			modifier = plus_faction_abbandoned
+			modifier = plus_faction_abandoned
 			years = 10
 		}
 		ai_chance = {
