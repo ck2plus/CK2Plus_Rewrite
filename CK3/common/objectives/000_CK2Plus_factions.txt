@@ -21,7 +21,7 @@ faction_court = {
 			in_faction = faction_prosperity
 			in_faction = faction_glory
 			in_faction = faction_tradition
-			has_character_modifier = faction_abandoned
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -44,7 +44,7 @@ faction_court = {
 				in_faction = faction_prosperity
 				in_faction = faction_glory
 				in_faction = faction_tradition
-				has_character_modifier = faction_abandoned
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
@@ -109,7 +109,7 @@ faction_order = {
 			in_faction = faction_prosperity
 			in_faction = faction_glory
 			in_faction = faction_tradition
-			has_character_modifier = faction_abandoned
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -132,7 +132,7 @@ faction_order = {
 				in_faction = faction_prosperity
 				in_faction = faction_glory
 				in_faction = faction_tradition
-				has_character_modifier = faction_abandoned
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
@@ -198,7 +198,7 @@ faction_prosperity = {
 			in_faction = faction_court
 			in_faction = faction_glory
 			in_faction = faction_tradition
-			has_character_modifier = faction_abandoned
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -221,7 +221,7 @@ faction_prosperity = {
 				in_faction = faction_court
 				in_faction = faction_glory
 				in_faction = faction_tradition
-				has_character_modifier = faction_abandoned
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
@@ -287,7 +287,7 @@ faction_glory = {
 			in_faction = faction_court
 			in_faction = faction_prosperity
 			in_faction = faction_tradition
-			has_character_modifier = faction_abandoned
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -310,7 +310,7 @@ faction_glory = {
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_tradition
-				has_character_modifier = faction_abandoned
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}
@@ -376,7 +376,7 @@ faction_tradition = {
 			in_faction = faction_court
 			in_faction = faction_prosperity
 			in_faction = faction_glory
-			has_character_modifier = faction_abandoned
+			has_character_modifier = faction_abbandoned
 		}
 	}
 
@@ -399,7 +399,7 @@ faction_tradition = {
 				in_faction = faction_court
 				in_faction = faction_prosperity
 				in_faction = faction_glory
-				has_character_modifier = faction_abandoned
+				has_character_modifier = faction_abbandoned
 			}
 		}
 	}

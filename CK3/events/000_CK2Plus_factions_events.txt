@@ -57,7 +57,7 @@ character_event = {
 	}
 
 	mean_time_to_happen = {
-		years = 1
+		years = 15
 	}
 
 	immediate = {
@@ -264,15 +264,16 @@ character_event = {
 		}
 	}
 
-	# option = {
-	# 	name = PlusFaction.4_4 #Faction leader focuses on realm
-	# 	character_event = {
-	# 		id = PlusFaction.8
-	# 	}
-	# 	ai_chance = {
-	# 		factor = 0
-	# 	}
-	# }
+	option = {
+		name = PlusFaction.4_4 #Faction leader focuses on realm
+		character_event = {
+			id = PlusFaction.8
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes #Use this one for stewardship focused events
+		}
+	}
 }
 
 #No guests arrive
@@ -483,35 +484,35 @@ character_event = {
 			faction_court = {
 				leave_faction = faction_court 
 				add_character_modifier = {
-					modifier = plus_faction_abandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
 			faction_order = {
 				leave_faction = faction_order
 				add_character_modifier = {
-					modifier = plus_faction_abandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
 			faction_prosperity = {
 				leave_faction = faction_prosperity
 				add_character_modifier = {
-					modifier = plus_faction_abandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
 			faction_glory = {
 				leave_faction = faction_glory
 				add_character_modifier = {
-					modifier = plus_faction_abandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
 			faction_tradition = {
 				leave_faction = faction_tradition
 				add_character_modifier = {
-					modifier = plus_faction_abandoned
+					modifier = plus_faction_abbandoned
 					years = 10
 				}
 			}
@@ -951,7 +952,7 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			modifier = plus_faction_abandoned
+			modifier = plus_faction_abbandoned
 			years = 10
 		}
 		ai_chance = {
@@ -2411,7 +2412,7 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			modifier = plus_faction_abandoned
+			modifier = plus_faction_abbandoned
 			years = 10
 		}
 		ai_chance = {
@@ -3301,7 +3302,7 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			modifier = plus_faction_abandoned
+			modifier = plus_faction_abbandoned
 			years = 10
 		}
 		ai_chance = {
@@ -3657,5 +3658,1113 @@ character_event = {
 				}
 			}
 		}
+	}
+}
+
+#Focuses on realm
+#####
+
+#Faction leader focuses on realm
+character_event = {
+	id = PlusFaction.8
+	title = PlusFaction.8_title
+	desc = PlusFaction.8_desc
+	picture = GFX_evt_gathering_of_minds
+	sound = turning_page
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PlusFaction.8_1
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.40 #Faction leader requests members for better infrastructure
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.40 #Faction leader requests members for better infrastructure
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.40 #Faction leader requests members for better infrastructure
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.40 #Faction leader requests members for better infrastructure
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.40 #Faction leader requests members for better infrastructure
+							}
+						}
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.41 #Faction leader receives the results of the infrastructure vote
+			days = 1
+		}
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes #Use this one for stewardship focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.8_2
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.49 #Faction leader tells members about new construction
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.49 #Faction leader tells members about new construction
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.49 #Faction leader tells members about new construction
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.49 #Faction leader tells members about new construction
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.49 #Faction leader tells members about new construction
+							}
+						}
+					}
+				}
+			}
+		}
+		liege = {
+			letter_event = {
+				id = PlusFaction.46 #Faction liege receives request for construction
+				days = 1
+			}
+		}
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes #Use this one for stewardship focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.8_3
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.50 #Faction leader requests members to support rebellions
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.50 #Faction leader requests members to support rebellions
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.50 #Faction leader requests members to support rebellions
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.50 #Faction leader requests members to support rebellions
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.50 #Faction leader requests members to support rebellions
+							}
+						}
+					}
+				}
+			}
+		}
+		character_event = {
+			id = PlusFaction.51 #Faction leader receives the results of the rebellion vote
+			days = 1
+		}
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.8_4
+		character_event = {
+			id = PlusFaction.4 #Faction leader presents agenda
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Infrastructure
+#Faction leader requests members for better infrastructure
+character_event = {
+	id = PlusFaction.40
+	title = PlusFaction.40_title
+	desc = PlusFaction.40_desc
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			change_variable = { 
+				which = "members"
+				value = 1
+			}
+		}
+	}
+	
+	option = {
+		name = PlusFaction.40_1
+		hidden_tooltip = {
+			FROM = {
+				change_variable = {
+					which = "votes"
+					value = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes #Use this one for stewardship focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.40_2
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Faction leader receives the results of the infrastructure vote
+character_event = {
+	id = PlusFaction.41
+	title = PlusFaction.41_title
+	desc = PlusFaction.41_desc
+	picture = {
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		picture = GFX_evt_council_agreement
+	}
+	picture = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		picture = GFX_evt_council_quarrelling
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		subtract_variable = {
+			which = "members"
+			which = "votes"
+		}
+		change_variable = {
+			which = "results"
+			which = "members"
+		}
+	}
+	
+	option = {
+		name = PlusFaction.41_1
+		sound_effect = pleased_council
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		liege = {
+			letter_event = {
+				id = PlusFaction.43 #Faction liege receives request for infrastructure
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.41_2
+		sound_effect = displeased_council
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		scaled_prestige = -0.25
+		character_event = {
+			id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+		}
+	}
+
+	after = {
+		any_faction_backer = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						character_event = {
+							id = PlusFaction.42 #Faction members receive the results of the infrastructure vote
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						character_event = {
+							id = PlusFaction.42 #Faction members receive the results of the infrastructure vote
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						character_event = {
+							id = PlusFaction.42 #Faction members receive the results of the infrastructure vote
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						character_event = {
+							id = PlusFaction.42 #Faction members receive the results of the infrastructure vote
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						character_event = {
+							id = PlusFaction.42 #Faction members receive the results of the infrastructure vote
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Faction members receive the results of the infrastructure vote
+character_event = {
+	id = PlusFaction.42
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_winner
+			}
+		}
+		text = PlusFaction.42_desc_1
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_loser
+			}
+		}
+		text = PlusFaction.42_desc_2
+	}
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.42_1
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+	}
+}
+
+#Faction liege receives request for infrastructure
+letter_event = {
+	id = PlusFaction.43
+	title = PlusFaction.43_title
+	desc = PlusFaction.43_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.43_1
+		scaled_wealth = -3
+		any_realm_province = {
+			add_province_modifier = {
+				name = plus_new_roads
+				years = 10
+			}
+			province_event = {
+				id = PlusFaction.44 #Faction liege builds infrastructure
+			}
+		}
+		ai_chance = {
+			factor = 1
+			martial_factor = yes #Use this one for martial focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.43_2
+		FROM = {
+			opinion = {
+				modifier = opinion_disappointed
+				who = ROOT
+				years = 10
+			}
+			letter_event = {
+				id = PlusFaction.45 #Faction liege does not build infrastructure
+			}
+			any_faction_backer = {
+				trigger_switch = {
+					on_trigger = in_faction
+					faction_court = {
+						any_faction_backer = {
+							faction = faction_court
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					faction_order = {
+						any_faction_backer = {
+							faction = faction_order
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					faction_prosperity = {
+						any_faction_backer = {
+							faction = faction_prosperity
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					faction_glory = {
+						any_faction_backer = {
+							faction = faction_glory
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					faction_tradition = {
+						any_faction_backer = {
+							faction = faction_tradition
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes #Use this one for stewardship focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Faction liege builds infrastructure
+province_event = {
+	id = PlusFaction.44
+	title = PlusFaction.44_title
+	desc = PlusFaction.44_desc
+	picture = GFX_evt_merchant_caravan
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.44_1
+	}
+}
+
+#Faction liege does not build infrastructure
+letter_event = {
+	id = PlusFaction.45
+	title = PlusFaction.45_title
+	desc = PlusFaction.45_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.45_1
+	}
+}
+
+#Construction
+#Faction liege receives request for construction
+letter_event = {
+	id = PlusFaction.46
+	title = PlusFaction.46_title
+	desc = PlusFaction.46_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.46_1
+		any_realm_province = {
+			add_province_modifier = {
+				name = plus_construction_focus
+				years = 10
+			}
+			province_event = {
+				id = PlusFaction.47 #Faction liege focuses on construction
+			}
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes #Use this one for stewardship focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.46_2
+		FROM = {
+			opinion = {
+				modifier = opinion_disappointed
+				who = ROOT
+				years = 10
+			}
+			letter_event = {
+				id = PlusFaction.48 #Faction liege does not focus on construction
+			}
+			any_faction_backer = {
+				trigger_switch = {
+					on_trigger = in_faction
+					faction_court = {
+						any_faction_backer = {
+							faction = faction_court
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					faction_order = {
+						any_faction_backer = {
+							faction = faction_order
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					faction_prosperity = {
+						any_faction_backer = {
+							faction = faction_prosperity
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					faction_glory = {
+						any_faction_backer = {
+							faction = faction_glory
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					faction_tradition = {
+						any_faction_backer = {
+							faction = faction_tradition
+							opinion = {
+								modifier = opinion_disappointed
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			martial_factor = yes #Use this one for martial focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Faction liege builds infrastructure
+province_event = {
+	id = PlusFaction.47
+	title = PlusFaction.47_title
+	desc = PlusFaction.47_desc
+	picture = GFX_evt_construction_site
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.47_1
+	}
+}
+
+#Faction liege does not build infrastructure
+letter_event = {
+	id = PlusFaction.48
+	title = PlusFaction.48_title
+	desc = PlusFaction.48_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.48_1
+	}
+}
+
+#Faction leader tells members about new construction
+province_event = {
+	id = PlusFaction.49
+	title = PlusFaction.49_title
+	desc = PlusFaction.49_desc
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.49_1
+	}
+}
+
+#Rebellion
+#Faction leader requests members to support rebellions
+character_event = {
+	id = PlusFaction.50
+	title = PlusFaction.50_title
+	desc = PlusFaction.50_desc
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			change_variable = { 
+				which = "members"
+				value = 1
+			}
+		}
+	}
+	
+	option = {
+		name = PlusFaction.50_1
+		hidden_tooltip = {
+			FROM = {
+				change_variable = {
+					which = "votes"
+					value = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.50_2
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				leave_faction = faction_court
+			}
+			faction_order = {
+				leave_faction = faction_order
+			}
+			faction_prosperity = {
+				leave_faction = faction_prosperity
+			}
+			faction_glory = {
+				leave_faction = faction_glory
+			}
+			faction_tradition = {
+				leave_faction = faction_tradition
+			}
+		}
+		add_character_modifier = {
+			modifier = plus_faction_abbandoned
+			years = 10
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Faction leader receives the results of the rebellion vote
+character_event = {
+	id = PlusFaction.51
+	title = PlusFaction.51_title
+	desc = PlusFaction.51_desc
+	picture = {
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		picture = GFX_evt_council_agreement
+	}
+	picture = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		picture = GFX_evt_council_quarrelling
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		subtract_variable = {
+			which = "members"
+			which = "votes"
+		}
+		change_variable = {
+			which = "results"
+			which = "members"
+		}
+	}
+	
+	option = {
+		name = PlusFaction.51_1
+		sound_effect = pleased_council
+		trigger = {
+			check_variable = {
+				which = "votes"
+				which = "results"
+			}
+		}
+		character_event = {
+			id = PlusFaction.53 #Faction leader receives results of the rebellion
+		}
+	}
+
+	option = {
+		name = PlusFaction.51_2
+		sound_effect = displeased_council
+		trigger = {
+			NOT = {
+				check_variable = {
+					which = "votes"
+					which = "results"
+				}
+			}
+		}
+		scaled_prestige = -0.25
+		character_event = {
+			id = PlusFaction.12 #Faction leader deemed not fit to lead faction
+		}
+	}
+
+	after = {
+		any_faction_backer = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						character_event = {
+							id = PlusFaction.52 #Faction members receive the results of the rebellion vote
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						character_event = {
+							id = PlusFaction.52 #Faction members receive the results of the rebellion vote
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						character_event = {
+							id = PlusFaction.52 #Faction members receive the results of the rebellion vote
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						character_event = {
+							id = PlusFaction.52 #Faction members receive the results of the rebellion vote
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						character_event = {
+							id = PlusFaction.52 #Faction members receive the results of the rebellion vote
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Faction members receive the results of the rebellion vote
+character_event = {
+	id = PlusFaction.52
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_winner
+			}
+		}
+		text = PlusFaction.52_desc_1
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				has_character_flag = vote_loser
+			}
+		}
+		text = PlusFaction.52_desc_2
+	}
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.52_1
+		character_event = {
+			id = PlusFaction.19 #Faction meeting is concluded
+			days = 3
+		}
+	}
+}
+
+#Faction leader receives results of the rebellion
+character_event = {
+	id = PlusFaction.53
+	title = PlusFaction.53_title
+	desc = PlusFaction.53_desc
+	picture = {
+		trigger = {
+			has_character_flag = paesant_rebellion_successful
+		}
+		picture = GFX_evt_hiding_from_pursuers
+	}
+	picture = {
+		trigger = {
+			NOT = {
+				has_character_flag = paesant_rebellion_successful
+			}
+		}
+		picture = GFX_evt_cat
+	}
+	picture = GFX_evt_hiding_from_pursuers
+
+	is_triggered_only = yes
+
+	immediate = {
+		random = {
+			chance = 20
+			set_character_flag = paesant_rebellion_successful
+		}
+	}
+
+	option = {
+		name = PlusFaction.53_1
+		trigger = {
+			has_character_flag = paesant_rebellion_successful
+		}
+		liege = {
+			any_realm_province = {
+				add_province_modifier = {
+					name = peasant_unrest
+					years = 10
+				}
+				province_event = {
+					id = PlusFaction.54 #Paesant rebellion successful
+				}
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.53_2
+		trigger = {
+			NOT = {
+				has_character_flag = paesant_rebellion_successful
+			}
+		}
+		scaled_prestige = -0.25
+		any_faction_backer = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						character_event = {
+							id = PlusFaction.55 #Faction members receive the results of the rebellion
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						character_event = {
+							id = PlusFaction.55 #Faction members receive the results of the rebellion
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						character_event = {
+							id = PlusFaction.55 #Faction members receive the results of the rebellion
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						character_event = {
+							id = PlusFaction.55 #Faction members receive the results of the rebellion
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						character_event = {
+							id = PlusFaction.55 #Faction members receive the results of the rebellion
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Faction liege builds infrastructure
+province_event = {
+	id = PlusFaction.54
+	title = PlusFaction.54_title
+	desc = PlusFaction.54_desc
+	picture = GFX_evt_hiding_from_pursuers
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.54_1
+	}
+}
+
+#Faction liege does not build infrastructure
+character_event = {
+	id = PlusFaction.55
+	title = PlusFaction.55_title
+	desc = PlusFaction.55_desc
+	picture = GFX_evt_cat
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.55_1
+		scaled_prestige = -0.25
 	}
 }

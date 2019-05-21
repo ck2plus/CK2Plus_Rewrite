@@ -54,12 +54,12 @@ PlusFaction.7_1;I will rally support for [Root.Liege.GetHerHim].;x
 PlusFaction.7_2;I will have the faction keep a watchful eye for any enemies of the state.;x
 PlusFaction.7_3;I will try to make [Root.Liege.GetHerHim] disappear.;x
 PlusFaction.7_4;...maybe I should reflect on other options.;x
-# PlusFaction.8_title;Realm;x
-# PlusFaction.8_desc;It is up to us to see [Root.Liege.PrimaryTitle.GetName] prosper...or fail.;x
-# PlusFaction.8_1;We will demand abdication.;x
-# PlusFaction.8_2;We will demand a title.;x
-# PlusFaction.8_3;We will demand decreased autonomy.;x
-# PlusFaction.8_4;...maybe I should reflect on other options.;x
+PlusFaction.8_title;Realm;x
+PlusFaction.8_desc;It is up to us to see [Root.Liege.PrimaryTitle.GetName] prosper...or fail.;x
+PlusFaction.8_1;I will ask my liege for better infrastructure.;x
+PlusFaction.8_2;I will ask my liege to begin a construction inititative.;x
+PlusFaction.8_3;I will incite rebellions.;x
+PlusFaction.8_4;...maybe I should reflect on other options.;x
 PlusFaction.9_title;[Root.GetFactionName] Faction Meeting;x
 PlusFaction.9_desc;No one from the [Root.GetFactionName] faction has showed up.;x
 PlusFaction.9_1;Why did they even join?;x
@@ -196,4 +196,61 @@ PlusFaction.39_desc_1;We successfully assassinated [From.Liege.GetTitledFirstNam
 PlusFaction.39_desc_2;[From.Liege.GetTitledFirstName] managed to survive.;x
 PlusFaction.39_1;Requiescat in pace.;x
 PlusFaction.39_2;Damn it!;x
+PlusFaction.40_title;Infrastructure;x
+PlusFaction.40_desc;[From.GetTitledFirstName] asked if we should make [From.Liege.GetTitledFirstName] build better infrastructure in the realm.;x
+PlusFaction.40_1;Better infrastructure can only benefit us.;x
+PlusFaction.40_2;This would just make the enemy move quicker.;x
+PlusFaction.41_title;Infrastructure;x
+PlusFaction.41_desc;The results are in and...;x
+PlusFaction.41_1;...I will send my request to [From.Liege.GetTitledFirstName].;x
+PlusFaction.41_2;...I lost the vote and I will now stand trial.;x
+PlusFaction.42_title;Infrastructure;x
+PlusFaction.42_desc_1;[From.GetTitledFirstName] will request better infrastructure.;x
+PlusFaction.42_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;x
+PlusFaction.42_1;Ok.;x
+PlusFaction.43_title;Infrastructure;x
+PlusFaction.43_desc;My [Root.GetLordLady],\n\nThe members of the [From.GetFactionName] faction noticed that the infrastructure in [Root.PrimaryTitle.GetName] is not ideal.  We humbly request for better roads.\n\nSincerely,\n[From.GetTitledFirstName];x
+PlusFaction.43_1;Troops would be able to move quicker with better roads.;x
+PlusFaction.43_2;I am not going to pay for that.;x
+PlusFaction.44_title;Infrastructure;x
+PlusFaction.44_desc;New roads will be built in [Root.Capital.GetName] thanks to [From.GetTitledFirstName].;x
+PlusFaction.44_1;New roads are always better.;x
+PlusFaction.45_title;Infrastructure;x
+PlusFaction.45_desc;Dear [Root.GetTitledFirstName],\n\nI have decided not to build new infrastructure.  The treasury could be better spent somewhere else.\n\nSincerely,\n[From.GetTitledFirstName].;x
+PlusFaction.45_1;How is [From.GetSheHe] supposed to protect us if [From.GetSheHe] can't even reach us?;x
+PlusFaction.46_title;Construction;x
+PlusFaction.46_desc;My [Root.GetLordLady],\n\nThe members of the [From.GetFactionName] faction where wondering if the realm should focus on peace for a time.  That is untill all of our holdings are patched up and ready to go once more.  We humbly request for a reduction in military spending and have the serfs focus on construction.\n\nSincerely,\n[From.GetTitledFirstName];x
+PlusFaction.46_1;The [Root.PrimaryTitle.GetName] will rebuild.;x
+PlusFaction.46_2;That will just leave us vulnerable to any future attacks.;x
+PlusFaction.47_title;Construction;x
+PlusFaction.47_desc;Buildings in [Root.Capital.GetName] are cheaper and faster to build thanks to [From.GetTitledFirstName].;x
+PlusFaction.47_1;Time for renovations.;x
+PlusFaction.48_title;Construction;x
+PlusFaction.48_desc;Dear [From.GetTitledFirstName],\n\nI have decided not to focus on peace.  We have many enemies and we cannot let our guard down.\n\nSincerely,\n[From.GetTitledFirstName].;x
+PlusFaction.48_1;Yea yea.;x
+PlusFaction.49_title;Construction;x
+PlusFaction.49_desc;[From.GetTitledFirstName] is going to ask [From.Liege.GetTitledFirstName] to focus on peace for a time.;x
+PlusFaction.49_1;Lets hope [From.Liege.GetTitledFirstName] will listen to reason.;x
+PlusFaction.50_title;Rebellion;x
+PlusFaction.50_desc;[From.GetTitledFirstName] pointed out that [From.Liege.GetTitledFirstName] isn't exactly doing a "good" job at keeping the paesants happy.  He suggests that this could be exploited in order to incite rebellions accross [From.Liege.PrimaryTitle.GetName].;x
+PlusFaction.50_1;Maybe this will give us a chance to break free.;x
+PlusFaction.50_2;Are you guys mad?!?!;x
+PlusFaction.51_title;Rebellion;x
+PlusFaction.51_desc;The results are in and...;x
+PlusFaction.51_1;...I will start instigating the paesants.;x
+PlusFaction.51_2;...I lost the vote and I will now stand trial.;x
+PlusFaction.52_title;Rebellion;x
+PlusFaction.52_desc_1;We will begin inciting unrest.;x
+PlusFaction.52_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;x
+PlusFaction.52_1;Excellent.;x
+PlusFaction.53_title;Rebellion;x
+PlusFaction.53_desc;The paesants told me that...;x
+PlusFaction.53_1;...I was right and just needed to be served.;x
+PlusFaction.53_2;...they are loyal servants of [From.Liege.GetTitledFirstName];x
+PlusFaction.54_title;Rebellion;x
+PlusFaction.54_desc;The paesants in [Root.Capital.GetName] seem upset about something relating to their top liege.;x
+PlusFaction.54_1;But I had nothing to do with it!;x
+PlusFaction.55_title;Rebellion;x
+PlusFaction.55_desc;Our attempt to incite unrest in [From.Liege.PrimaryTitle.GetName] was a failure.;x
+PlusFaction.55_1;Stupid paesants!;x
 #€

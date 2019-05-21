@@ -1,7 +1,7 @@
 ####
 #Plus Event Modifiers:
 #
-#Total = 2
+#Total = 3
 #####
 
 #####
@@ -78,14 +78,29 @@
 # 133 - Sun   	            - 134
 #####
 
-#abandoned Faction
-plus_faction_abandoned = {
+#Abbandoned Faction
+plus_faction_abbandoned = {
 	icon = 27
 	monthly_character_prestige = -0.1
+}
+
+#Construction Focus
+plus_construction_focus = {
+	icon = 101
+	levy_size = -0.2
+	local_build_cost_modifier = -0.2
+	local_build_time_modifier  = -0.2
 }
 
 #Increased Spy Reports
 plus_increased_spy_reports = {
 	icon = 14
 	plot_discovery_chance = 0.1
+}
+
+#New Roads
+plus_new_roads = {
+	icon = 56
+	local_movement_speed = 0.2
+	levy_reinforce_rate = 0.2
 }
