@@ -53,5 +53,8 @@ plus_clean_faction_events = { #Cleans all flags and variables set in the faction
 	clr_character_flag = vote_winner
 	clr_character_flag = vote_loser
 	clr_character_flag = successful_assassination
-	clear_event_target = raid_target
+	clr_character_flag = chosen_orgy_organizer
+	clr_character_flag = chosen_game_organizer
+	clr_character_flag = chosen_drinking_organizer
+	clear_global_event_target = raid_target
 }

@@ -253,4 +253,40 @@ PlusFaction.54_1;But I had nothing to do with it!;x
 PlusFaction.55_title;Rebellion;x
 PlusFaction.55_desc;Our attempt to incite unrest in [From.Liege.PrimaryTitle.GetName] was a failure.;x
 PlusFaction.55_1;Stupid paesants!;x
+PlusFaction.56_title;Orgy;x
+PlusFaction.56_desc;These faction meetings can become quite boring...why not spice things up with a few prostitutes?;x
+PlusFaction.56_1;Send them in!;x
+PlusFaction.56_2;[From.Capital.GetName] is not a brothel.;x
+PlusFaction.57_title;Orgy;x
+PlusFaction.57_desc;[From.GetTitledFirstName] has invited me to join him in [From.GetHerHis] orgy.;x
+PlusFaction.57_1;Time to get me game on.;x
+PlusFaction.57_2;Disgusting pigs.;x
+PlusFaction.58_title;Gambling;x
+PlusFaction.58_desc;These faction meetings can become quite boring...why not play a game while we wait?;x
+PlusFaction.58_1;Nothing wrong with a friendly wager.;x
+PlusFaction.58_2;I don't want to lose any money.;x
+PlusFaction.59_title;Gambling;x
+PlusFaction.59_desc;[From.GetTitledFirstName] has invited me to a game of dice.;x
+PlusFaction.59_1;Bring it on!;x
+PlusFaction.59_2;I rather not.;x
+PlusFaction.60_title;Gambling;x
+PlusFaction.60_desc;I lost the game.;x
+PlusFaction.60_1;Fuck!;x
+PlusFaction.61_title;Gambling;x
+PlusFaction.61_desc;I won the game.;x
+PlusFaction.61_1;Easy money.;x
+PlusFaction.62_title;Gambling;x
+PlusFaction.62_desc;I won the game.;x
+PlusFaction.62_1;Easy money.;x
+PlusFaction.63_title;Gambling;x
+PlusFaction.63_desc;I lost the game.;x
+PlusFaction.63_1;Fuck!;x
+PlusFaction.64_title;Drinking;x
+PlusFaction.64_desc;These faction meetings can become quite boring...why not get drunk?;x
+PlusFaction.64_1;Mead or wine?;x
+PlusFaction.64_2;This is a serious meeting.;x
+PlusFaction.65_title;Drinking;x
+PlusFaction.65_desc;[From.GetTitledFirstName] has invited me to have a few drinks.;x
+PlusFaction.65_1;A few drinks won't hurt.;x
+PlusFaction.65_2;No, we must stay focused.;x
 #€

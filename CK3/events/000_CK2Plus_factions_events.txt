@@ -6,6 +6,7 @@
 
 namespace = PlusFaction
 
+#####
 #Scheduling Faction Meeting
 #####
 
@@ -228,6 +229,232 @@ character_event = {
 	fail_trigger_effect = { 
 		character_event = {
 			id = PlusFaction.9 #No guests arrive
+		}
+	}
+
+	immediate = {
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = faction_court
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+							ROOT = {
+								NOR = {
+									has_character_flag = chosen_orgy_organizer
+									has_character_flag = chosen_game_organizer
+									has_character_flag = chosen_drinking_organizer
+								}
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_orgy_organizer
+							}
+							character_event = {
+								id = PlusFaction.56 #Faction member wants an orgy
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_game_organizer
+							}
+							character_event = {
+								id = PlusFaction.58 #Faction member wants to gamble
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_drinking_organizer
+							}
+							character_event = {
+								id = PlusFaction.64 #Faction member wants to drink
+							}
+						}
+					}
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+							ROOT = {
+								NOR = {
+									has_character_flag = chosen_orgy_organizer
+									has_character_flag = chosen_game_organizer
+									has_character_flag = chosen_drinking_organizer
+								}
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_orgy_organizer
+							}
+							character_event = {
+								id = PlusFaction.56 #Faction member wants an orgy
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_game_organizer
+							}
+							character_event = {
+								id = PlusFaction.58 #Faction member wants to gamble
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_drinking_organizer
+							}
+							character_event = {
+								id = PlusFaction.64 #Faction member wants to drink
+							}
+						}
+					}
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+							ROOT = {
+								NOR = {
+									has_character_flag = chosen_orgy_organizer
+									has_character_flag = chosen_game_organizer
+									has_character_flag = chosen_drinking_organizer
+								}
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_orgy_organizer
+							}
+							character_event = {
+								id = PlusFaction.56 #Faction member wants an orgy
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_game_organizer
+							}
+							character_event = {
+								id = PlusFaction.58 #Faction member wants to gamble
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_drinking_organizer
+							}
+							character_event = {
+								id = PlusFaction.64 #Faction member wants to drink
+							}
+						}
+					}
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+							ROOT = {
+								NOR = {
+									has_character_flag = chosen_orgy_organizer
+									has_character_flag = chosen_game_organizer
+									has_character_flag = chosen_drinking_organizer
+								}
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_orgy_organizer
+							}
+							character_event = {
+								id = PlusFaction.56 #Faction member wants an orgy
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_game_organizer
+							}
+							character_event = {
+								id = PlusFaction.58 #Faction member wants to gamble
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_drinking_organizer
+							}
+							character_event = {
+								id = PlusFaction.64 #Faction member wants to drink
+							}
+						}
+					}
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					if = {
+						limit = {
+							has_character_flag = accepted_meeting
+							ROOT = {
+								NOR = {
+									has_character_flag = chosen_orgy_organizer
+									has_character_flag = chosen_game_organizer
+									has_character_flag = chosen_drinking_organizer
+								}
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_orgy_organizer
+							}
+							character_event = {
+								id = PlusFaction.56 #Faction member wants an orgy
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_game_organizer
+							}
+							character_event = {
+								id = PlusFaction.58 #Faction member wants to gamble
+							}
+						}
+						random = {
+							chance = 5
+							ROOT = {
+								set_character_flag = chosen_drinking_organizer
+							}
+							character_event = {
+								id = PlusFaction.64 #Faction member wants to drink
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 	
@@ -619,7 +846,7 @@ character_event = {
 
 
 
-
+#####
 #Focuses on self
 #####
 
@@ -1756,7 +1983,7 @@ character_event = {
 
 
 
-
+#####
 #Focuses on faction
 #####
 
@@ -2740,6 +2967,8 @@ character_event = {
 
 
 
+
+#####
 #Focuses on liege
 #####
 
@@ -3661,6 +3890,11 @@ character_event = {
 	}
 }
 
+
+
+
+
+#####
 #Focuses on realm
 #####
 
@@ -4766,5 +5000,596 @@ character_event = {
 	option = {
 		name = PlusFaction.55_1
 		scaled_prestige = -0.25
+	}
+}
+
+
+
+
+
+#####
+#General faction events - Meetings
+#####
+
+#Orgy
+#Faction member wants an orgy
+character_event= {
+	id = PlusFaction.56
+	title = PlusFaction.56_title
+	desc = PlusFaction.56_desc
+	picture = GFX_evt_dark_love
+
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				ROOT = {
+					is_female = yes
+				}
+			}
+			create_character = {
+				dynasty = none
+				age = 18
+				random_traits = yes
+				female = no
+			}
+		}
+		else = {
+			create_character = {
+				dynasty = none
+				age = 18
+				random_traits = yes
+				female = yes
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.56_1
+		random = {
+			chance = 25
+			if = {
+				limit = {
+					ROOT = {
+						is_female = yes
+					}
+				}	
+				ROOT = {
+					impregnate = new_character
+				}		
+			}
+			else = {
+				new_character = {
+					impregnate = ROOT
+				}
+			}
+		}
+		add_character_modifier = {
+			modifier = lovers_entertainment
+			years = 5
+		}
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.57 #Faction members receive request for orgy
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.57 #Faction members receive request for orgy
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.57 #Faction members receive request for orgy
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.57 #Faction members receive request for orgy
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.57 #Faction members receive request for orgy
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.56_2
+		scaled_piety = 0.1
+		ai_chance = {
+			factor = 1
+			learning_factor = yes #Use this one for learning focused events
+		}
+	}
+}
+
+#Faction members receive request for orgy
+character_event= {
+	id = PlusFaction.57
+	title = PlusFaction.57_title
+	desc = PlusFaction.57_desc
+	picture = GFX_evt_dark_love
+
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				ROOT = {
+					is_female = yes
+				}
+			}
+			create_character = {
+				dynasty = none
+				age = 18
+				random_traits = yes
+				female = no
+			}
+		}
+		else = {
+			create_character = {
+				dynasty = none
+				age = 18
+				random_traits = yes
+				female = yes
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.57_1
+		random = {
+			chance = 25
+			if = {
+				limit = {
+					ROOT = {
+						is_female = yes
+					}
+				}	
+				ROOT = {
+					impregnate = new_character
+				}		
+			}
+			else = {
+				new_character = {
+					impregnate = ROOT
+				}
+			}
+		}
+		add_character_modifier = {
+			modifier = lovers_entertainment
+			years = 5
+		}
+		ai_chance = {
+			factor = 1
+			intrigue_factor = yes #Use this one for intrigue focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.57_2
+		scaled_piety = 0.1
+		ai_chance = {
+			factor = 1
+			learning_factor = yes #Use this one for learning focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Game
+#Faction member wants to gamble
+character_event= {
+	id = PlusFaction.58
+	title = PlusFaction.58_title
+	desc = PlusFaction.58_desc
+	picture = GFX_evt_doge_republic
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.58_1
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.59 #Faction members receive request for a game
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.59 #Faction members receive request for a game
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.59 #Faction members receive request for a game
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.59 #Faction members receive request for a game
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.59 #Faction members receive request for a game
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes #Use this one for stewardship focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.58_2
+		scaled_piety = 0.1
+		ai_chance = {
+			factor = 1
+			learning_factor = yes #Use this one for learning focused events
+		}
+	}
+}
+
+#Faction members receive request for a game
+character_event= {
+	id = PlusFaction.59
+	title = PlusFaction.59_title
+	desc = PlusFaction.59_desc
+	picture = GFX_evt_doge_republic
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.59_1
+		random_list = {
+			50 = {
+				FROM = {
+					character_event = {
+						id = PlusFaction.60 #Faction leader loses the game
+					}
+				}
+			}
+			50 = {
+				FROM = {
+					character_event = {
+						id = PlusFaction.61 #Faction leader wins the game
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			stewardship_factor = yes #Use this one for stewardship focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.59_2
+		scaled_piety = 0.1
+		ai_chance = {
+			factor = 1
+			learning_factor = yes #Use this one for learning focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+#Faction leader loses the game
+character_event= {
+	id = PlusFaction.60
+	title = PlusFaction.60_title
+	desc = PlusFaction.60_desc
+	picture = GFX_evt_stressed_ruler
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.60_1
+		scaled_wealth = -0.1
+		FROM = {
+			character_event = {
+				id = PlusFaction.62 #Faction member wins the game
+			}
+		}
+	}
+}
+
+#Faction leader wins the game
+character_event= {
+	id = PlusFaction.61
+	title = PlusFaction.61_title
+	desc = PlusFaction.61_desc
+	picture = GFX_evt_relaxed_ruler
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.61_1
+		scaled_wealth = 0.1
+		FROM = {
+			character_event = {
+				id = PlusFaction.63 #Faction member loses the game
+			}
+		}
+	}
+}
+
+#Faction member wins the game
+character_event= {
+	id = PlusFaction.62
+	title = PlusFaction.62_title
+	desc = PlusFaction.62_desc
+	picture = GFX_evt_relaxed_ruler
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.62_1
+		scaled_wealth = 0.1
+	}
+}
+
+#Faction member loses the game
+character_event= {
+	id = PlusFaction.63
+	title = PlusFaction.63_title
+	desc = PlusFaction.63_desc
+	picture = GFX_evt_stressed_ruler
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.63_1
+		scaled_wealth = -0.1
+	}
+}
+
+#Drinking
+#Faction member wants to drink
+character_event= {
+	id = PlusFaction.64
+	title = PlusFaction.64_title
+	desc = PlusFaction.64_desc
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.64_1
+		random_list = {
+			80 = {
+				add_character_modifier = {
+					modifier = epic_hangover
+					months = 6
+				}
+			}
+			20 = {
+				add_trait = drunkard
+			}
+		}
+		scaled_prestige = 0.25
+		hidden_tooltip = {
+			trigger_switch = {
+				on_trigger = in_faction
+				faction_court = {
+					any_faction_backer = {
+						faction = faction_court
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.65 #Faction members receive request for drinks
+							}
+						}
+					}
+				}
+				faction_order = {
+					any_faction_backer = {
+						faction = faction_order
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.65 #Faction members receive request for drinks
+							}
+						}
+					}
+				}
+				faction_prosperity = {
+					any_faction_backer = {
+						faction = faction_prosperity
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.65 #Faction members receive request for drinks
+							}
+						}
+					}
+				}
+				faction_glory = {
+					any_faction_backer = {
+						faction = faction_glory
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.65 #Faction members receive request for drinks
+							}
+						}
+					}
+				}
+				faction_tradition = {
+					any_faction_backer = {
+						faction = faction_tradition
+						if = {
+							limit = {
+								has_character_flag = accepted_meeting
+							}
+							character_event = {
+								id = PlusFaction.65 #Faction members receive request for drinks
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			martial_factor = yes #Use this one for martial focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.64_2
+		scaled_piety = 0.1
+		ai_chance = {
+			factor = 1
+			learning_factor = yes #Use this one for learning focused events
+		}
+	}
+}
+
+#Faction members receive request for drinks
+character_event= {
+	id = PlusFaction.65
+	title = PlusFaction.65_title
+	desc = PlusFaction.65_desc
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.65_1
+		random_list = {
+			80 = {
+				add_character_modifier = {
+					modifier = epic_hangover
+					months = 6
+				}
+			}
+			20 = {
+				add_trait = drunkard
+			}
+		}
+		scaled_prestige = 0.25
+		ai_chance = {
+			factor = 1
+			martial_factor = yes #Use this one for martial focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.65_2
+		scaled_piety = 0.1
+		ai_chance = {
+			factor = 1
+			learning_factor = yes #Use this one for learning focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
 	}
 }
