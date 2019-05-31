@@ -1,0 +1,26 @@
+# Pagan heads of religion
+
+d_celtic_pagan_reformed = { # Circle of Druids
+	color={ 122 165 70 }
+	color2={ 220 220 0 }
+	
+	capital = 1952 # Meath
+	
+	title = ARCH_DRUID
+	title_female = ARCH_DRUIDESS
+	foa = ARCH_DRUID_FOA
+	
+	short_name = yes
+	landless = yes # Always exists
+	primary = yes # Cannot be held as a secondary title
+	dignity = 100 # Counted as having this many more counties than it does
+	dynasty_title_names = no # Will not be named "Seljuk", etc.
+	controls_religion = celtic_pagan_reformed # Controls a religion
+	religion = celtic_pagan_reformed
+	
+	allow = {
+		religion = celtic_pagan_reformed
+		num_of_holy_sites = 3
+		piety = 1000
+	}
+}

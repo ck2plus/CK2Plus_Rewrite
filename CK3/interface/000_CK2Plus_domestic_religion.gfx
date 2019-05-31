@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	### Circle of Druids
+	
+	spriteType = {
+		name = "GFX_religion_circle_of_druids_bg"
+		texturefile = "gfx\\interface\\CK2Plus\\religion_circle_of_druids_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_archdruid_election_values"
+		texturefile = "gfx\\interface\\CK2Plus\\icon_druid_suitability.dds"
+	}
+		
+}

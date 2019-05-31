@@ -1,0 +1,168 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+# Miscellaneous
+#####
+
+# Needed for Celtic pagan religion feature (on_action_events 670)
+tooltip_HF23016_B;§YFull Status of Women§! is enforced throughout the realm.;§YStatut complet des femmes§! est appliqué dans le pays.;§YVollständige Anerkennung der Frau§! ist im ganzen Reich erzwungen.;;Se aplica en todo el reino La §Yestatus total de la mujer§!;;;;;;;;;x
+
+# Celtic paganism
+#####
+
+# Description
+celtic_pagan;Celtic;Celtique;Keltisch;;Céltico;;;;;;;;;x #Gaelic;Gaélique;Gälisch;;Gaélico;;;;;;;;;x
+celtic_pagan_reformed;Gentlidecht;Gentlidecht;Gentlidecht;;Gentlidecht;;;;;;;;;x
+celtic_pagan_DESC;Celtic paganism is the last remaining holdover of a rich culture that long ago spread across most of Europe. Once animistic, the current pantheon of gods originates in the most respected part of nature: water, forests and wildlife. Syncretion with urban civilizations anthropomorphised many spirits into their current form. Most commonly worshipped are Dagdae, the Great God, Mórrigan, the Phantom Queen, Óengus, Son of the Young, Lugh of the Long Arm and Manandán, Son of the Sea.;;;;;;;;;;;;;x
+celtic_pagan_reformed_DESC;Druids have etched sacred writings on many raised stones on their islands, recounting the story of the Tuatha Dé Danann. Bards have put the faith's history into song, allowing all to partake in its revival.;;;;;;;;;;;;;x
+#celtic_pagan_reformed_FEATURES;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
+#GetCelticSuccessionFeature_TemporalHead;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
+#GetCelticSuccessionFeature_TheocraticHead;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
+#GetCelticSuccessionFeature_Autocephaly;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
+#GetCelticSuccessionFeature_NoLeader;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
+
+religion_feature_celtic;Descendants of Danu;Descendants de Dana;Nachfahren von Danu;;Descendencias de Danu;;;;;;;;;x
+religion_feature_celtic_desc;As we move forward into a new age for the Celtic faith we must look to the spirits of nature for guidance. The power of prophecy will shine a light on an uncertain future.;;;;;;;;;;;;;x
+religion_feature_celtic_feature;Rulers follow the Celtic principles of animism and haruspicy;Les seigneurs suivent les principes celtique de l'animisme et de l'haruspicine;Herrscher folgen den keltischen Prinzipien des Animusmus und Wahrsagertum;;Los gobernantes siguen los principios célticos de animismo y aruspicina;;;;;;;;x
+
+THE_FOLKLORE;The Folklore;Le Folklore;Die Folklore;;El Folclore;;;;;;;;;x
+SONG_AND_STONE;The Ballads;Les Ballades;Die Balladen;;Las Baladas;;;;;;;;;x
+
+GOD_BRIGID;Brigid;;;;;;;;;;;;;x
+GOD_DAGDAE;Dagdae;;;;;;;;;;;;;x
+GOD_DIAN;Dian Cécht;;;;;;;;;;;;;x
+GOD_GOIBNIU;Goibniu;;;;;;;;;;;;;x
+GOD_LUGH;Lugh;;;;;;;;;;;;;x
+GOD_MANANDAN;Manandán;;;;;;;;;;;;;x
+GOD_MORRIGAN;Mórrigan;;;;;;;;;;;;;x
+GOD_NUADA;Nuada;;;;;;;;;;;;;x
+GOD_OENGUS;Óengus;;;;;;;;;;;;;x
+
+EVIL_FOMORIANS;The Fomorians;Les Fomoires;Die Fomoraig;;Los Fomoré;;;;;;;;;x
+EVIL_BALOR;Balor;Balor;Balor;;Balor;;;;;;;;;x
+EVIL_BRES;Bres;Bres;Bres;;Bres;;;;;;;;;x
+EVIL_CAILLEACH;Cailleach;Cailleach;Cailleach;;Cailleach;;;;;;;;;x
+
+DRUID;Druid;Druide;Druide;;Druida;;;;;;;;;x
+GetDruidMaleFemale_Male;Druid;Druide;Druide;;Druida;;;;;;;;;x
+GetDruidMaleFemale_Female;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+
+# Circle of Druids title
+d_celtic_pagan_reformed;The Circle of Druids;Le Cercle des Druides;Der Kreis der Druiden;;El Circulo de Druidas;;;;;;;;;x
+d_celtic_pagan_reformed_adj;Druidical;Druidique;Druidisch;;Druídico;;;;;;;;;x
+ARCH_DRUID;Archdruid;Archidruide;Erzdruide;;Arzodruida;;;;;;;;;x
+ARCH_DRUIDESS;Archdruidess;Archdruidesse;Erzdruidin;;Arzodruidesa;;;;;;;;;x
+ARCH_DRUID_FOA;[GetArchDruidFOAGendered];[GetArchDruidFOAGendered];[GetArchDruidFOAGendered];;[GetArchDruidFOAGendered];;;;;;;;;x
+arch_druid_foa_male;Eldest of Druids;L'Aîné des Druides;Ältester der Druiden;;El Mayor de los Druidas;;;;;;;;;x
+arch_druid_foa_female;Eldest of Druidesses;L'Aînée des Druidesses;Älteste der Druidinnen;;El Mayor de las Druidesas;;;;;;;;;x
+
+# Circle of Druids election
+CIRCLE_OF_DRUIDS;Circle of Druids;Cercle des Druides;Kreis der Druiden;;Circulo de Druidas;;;;;;;;;;x
+#CIRCLE_OF_DRUIDS;[Player.GetCollegeName];[d_celtic_pagan_reformed.Holder.GetCollegeName];[d_celtic_pagan_reformed.Holder.GetCollegeName];;[d_celtic_pagan_reformed.Holder.GetCollegeName];;;;;;;;;x
+CIRCLE_DRUID_VOTE;Vote:;Vote:;Wählt:;;Voto:;;;;;;;;;x
+CAMPAIGN_FUND_SENIOR_DRUID;Campaign Fund;Fonds de campagne;Wahlkampffonds;;Fondos de Campaña;;;;;;;;;x
+CAMPAIGN_FUND_SENIOR_DRUID_TOOLTIP;Money in the Campaign Fund will increase your influence with the Circle and make your candidate more likely to be elected the next Senior Druid. You can freely adjust the amount until the next Senior Druid is elected, when the Fund will be used up in the election campaign.;L'argent du fonds de campagne sert à accroître l'influence d'un candidat auprès du Cercle et ainsi augmenter ses chances d'être élu Druide Senior.\nVous pouvez ajuster librement ce montant jusqu'à l'élection du prochain Druide Senior, moment auquel votre fonds de campagne sera intégralement utilisé.;Das Geld in der Wahlkampfkasse steigert Euren Einfluss beim Kreis, sodass Euer Kandidat bessere Chancen auf die Wahl zum Chef-Druide hat. Ihr könnt den Betrag bis zum Zeitpunkt, an dem der Chef-Druide gewählt wird, frei verändern. Bei der Wahl wird der Betrag verbraucht.;;El dinero del Fondo para la campaña aumenta vuestra influencia con el Circulo y aumenta las probabilidades de que vuestro candidato sea elegido el próximo Druida Mayor. Podéis ajustar libremente la cantidad hasta que se elija al próximo Druida Mayor, cuando se invertirá el Fondo en la campaña de electoral.;;;;;;;;;x
+ARCH_DRUID_LOC;Archdruid;Archidruide;Erzdruide;;Arzodruida;;;;;;;;;x # Refuses to work with dynamic localisation
+#ARCH_DRUID_LOC;[From.GetArchDruidLoc];[d_celtic_pagan_reformed.RelHead.GetArchDruidLoc];[Root.GetArchDruidLoc];;[d_celtic_pagan_reformed.Holder.GetArchDruidLoc];;;;;;;;;x
+ELDER_DRUID;Elder Druid;Druide Aîné;Älterer Druide;;Druida Anciano;;;;;;;;;x # Refuses to work with dynamic localisation
+#ELDER_DRUID;[GetElderDruidMaleFemale];[GetElderDruidMaleFemale];[GetElderDruidMaleFemale];;[GetElderDruidMaleFemale];;;;;;;;;x
+ElderDruidMaleFemale_Male;Elder Druid;Druide Aîné;Älterer Druide;;Druida Anciano;;;;;;;;;x
+ElderDruidMaleFemale_Female;Elder Druidess;Druidesse Aînée;Ältere Druidin;;Druidesa Anciana;;;;;;;;;x
+ELDER_DRUID_tooltip;The next Archdruid;Le prochain Archidruide;Der nächste Erzdruide;;El próximo Arzoduida;;;;;;;;;x
+title_senior_druid;Senior Druid;Druide Senior;Chef-Druide;;Druida Mayor;;;;;;;;;x # Refuses to work with dynamic localisation
+#title_senior_druid;[GetSeniorDruidMaleFemale];[Root.GetSeniorDruidMaleFemale];[Root.GetSeniorDruidMaleFemale];;[Root.GetSeniorDruidMaleFemale];;;;;;;;;x
+GetSeniorDruidMaleFemale_Male;Senior Druid;Druide Senior;Chef-Druide;;Druida Mayor;;;;;;;;;x
+GetSeniorDruidMaleFemale_Female;Senior Druidess;Druidesse Seniore;Chef-Druidin;;Druidesa Mayor;;;;;;;;;x
+best_candidate_title_senior_druid;My most senior Druid;Mon plus senior Druide;Mein ältester Druide;;Mi Druida más senior;;;;;;;;;x # Refuses to work with dynamic localisation
+#best_candidate_title_senior_druid;My most senior [GetDruidMaleFemale];Mon plus senior Druide;Mein ältester Druide;;Mi Druida más senior;;;;;;;;;x
+best_candidate_title_senior_druid_tooltip;Of all the Druids in my realm, this one is most likely to enter the Circle of Druids;De tout les Druides de mon royaume, c'est celui qui a le plus de chance d'entrer dans le Cercle des Druides;;;;;;;;;;;;x
+expected_next_title_senior_druid;Expected next Senior Druid;Prochain Senior Druide attendu;;;;;;;;;;;;x # Refuses to work with dynamic localisation
+#expected_next_title_senior_druid;Expected next Senior [GetDruidMaleFemale];Prochain Senior Druide attendu;;;;;;;;;;;;x
+expected_next_title_senior_druid_tooltip;This druid is probably the next member of the Circle, once a position becomes available;Ce druide est probablement le prochain membre du Cercle, dés qu'un siège sera vacant.;;;;;;;;;;;;x
+
+# Job titles
+job_spiritual_celtic_pagan;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
+job_spiritual_celtic_pagan_reformed;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
+job_spiritual_female_celtic_pagan;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
+job_spiritual_female_celtic_pagan_reformed;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
+city_job_spiritual_celtic_pagan;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
+city_job_spiritual_celtic_pagan_reformed;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
+city_job_spiritual_female_celtic_pagan;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
+city_job_spiritual_female_celtic_pagan_reformed;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
+nomad_job_spiritual_celtic_pagan;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
+nomad_job_spiritual_celtic_pagan_reformed;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
+nomad_job_spiritual_female_celtic_pagan;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
+nomad_job_spiritual_female_celtic_pagan_reformed;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
+tribal_job_spiritual_celtic_pagan;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
+tribal_job_spiritual_celtic_pagan_reformed;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
+tribal_job_spiritual_female_celtic_pagan;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
+tribal_job_spiritual_female_celtic_pagan_reformed;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
+
+# Landed titles
+temple_baron_celtic_pagan;Druid;Druide;Druide;;Druida;;;;;;;;;x
+temple_baron_celtic_pagan_reformed;Druid;Druide;Druide;;Druida;;;;;;;;;x
+temple_baron_female_celtic_pagan;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+temple_baron_female_celtic_pagan_reformed;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+
+temple_barony_celtic_pagan;Sacred Grove;Bosquet sacré;Sakrales Hain;;Arboleda sagrada;;;;;;;;;x
+temple_barony_celtic_pagan_reformed;Sacred Grove;Bosquet sacré;Sakrales Hain;;Arboleda sagrada;;;;;;;;;x
+temple_barony_of_celtic_pagan;Sacred Grove of;Bosquet sacré de;Sakrales Hain von;;Arboleda sagrada de;;;;;;;;;x
+temple_barony_of_celtic_pagan_reformed;Sacred Grove of;Bosquet sacré de;Sakrales Hain von;;Arboleda sagrada de;;;;;;;;;x
+
+barony_celtic_pagan;Dún;;;;;;;;;x
+barony_celtic_pagan_reformed;Dún;;;;;;;;;x
+barony_of_celtic_pagan;Dún of;;;;;;;;;x
+barony_of_celtic_pagan_reformed;Dún of;;;;;;;;;x
+
+city_barony_celtic_pagan;Cathair;;;;;;;;;x
+city_barony_celtic_pagan_reformed;Cathair;;;;;;;;;x
+city_barony_of_celtic_pagan;Cathair of;;;;;;;;;x
+city_barony_of_celtic_pagan_reformed;Cathair of;;;;;;;;;x
+
+county_celtic_pagan;Baile;;;;;;;;;x
+county_celtic_pagan_reformed;Baile;;;;;;;;;x
+county_of_celtic_pagan;Baile of;;;;;;;;;x
+county_of_celtic_pagan_reformed;Baile of;;;;;;;;;x
+
+temple_count_celtic_pagan;Druid;Druide;Druide;;Druida;;;;;;;;;x
+temple_count_celtic_pagan_reformed;Druid;Druide;Druide;;Druida;;;;;;;;;x
+temple_count_female_celtic_pagan;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+temple_count_female_celtic_pagan_reformed;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+
+temple_county_celtic_pagan;Temple;Temple;Tempel;;Templo;;;;;;;;;x
+temple_county_celtic_pagan_reformed;Temple;Temple;Tempel;;Templo;;;;;;;;;x
+temple_county_of_celtic_pagan;Temple of;Temple de;Tempel von;;Templo de;;;;;;;;;x
+temple_county_of_celtic_pagan_reformed;Temple of;Temple de;Tempel von;;Templo de;;;;;;;;;x
+
+temple_duke_celtic_pagan;Head Druid;Druide supérieur;Hauptdruide;;Cabeza Druidesa;;;;;;;;;x
+temple_duke_celtic_pagan_reformed;Head Druid;Druide supérieur;Hauptdruide;;Cabeza Druidesa;;;;;;;;;x
+temple_duke_female_celtic_pagan;Head Druidess;Druidesse Supérieure;Hauptdruidin;;Cabeza Druidesa;;;;;;;;;x
+temple_duke_female_celtic_pagan_reformed;Head Druidess;Druidesse Supérieure;Hauptdruidin;;Cabeza Druidesa;;;;;;;;;x
+
+tribal_duchy_celtic;Túath;Túath;Túath;;Túath;;;;;;;;;x
+tribal_duchy_celtic_reformed;Túath;Túath;Túath;;Túath;;;;;;;;;x
+tribal_duchy_of_celtic;Túath of;Túath de;Túath von;;Túath de;;;;;;;;;x
+tribal_duchy_of_celtic_reformed;Túath of;Túath de;Túath von;;Túath de;;;;;;;;;x
+
+kingdom_celtic_pagan;Rígdacht;Rígdacht;Rígdacht;;Rígdacht;;;;;;;;;x
+kingdom_celtic_pagan_reformed;Rígdacht;Rígdacht;Rígdacht;;Rígdacht;;;;;;;;;x
+kingdom_of_celtic_pagan;Rígdacht of;Rígdacht de;Rígdacht von;;Rígdacht de;;;;;;;;;x
+kingdom_of_celtic_pagan_reformed;Rígdacht of;Rígdacht de;Rígdacht von;;Rígdacht de;;;;;;;;;x
+
+temple_king_celtic_pagan;Great Druid;Grand Druide;Großdruide;;Gran Druida;;;;;;;;;x
+temple_king_celtic_pagan_reformed;Great Druid;Grand Druide;Großdruide;;Gran Druida;;;;;;;;;x
+temple_king_female_celtic_pagan;Great Druidess;Grande Druidesse;Großdruidin;;Gran Druidesa;;;;;;;;;x
+temple_king_female_celtic_pagan_reformed;Great Druidess;Grande Druidesse;Großdruidin;;Gran Druidesa;;;;;;;;;x
+
+temple_kingdom_celtic_pagan;Federation;Fédération;Föderation;;Federación;;;;;;;;;x
+temple_kingdom_celtic_pagan_reformed;Federation;Fédération;Föderation;;Federación;;;;;;;;;x
+temple_kingdom_of_celtic_pagan;Federation of;Fédération de;Föderation von;;Federación de;;;;;;;;;x
+temple_kingdom_of_celtic_pagan_reformed;Federation of;Fédération de;Föderation von;;Federación de;;;;;;;;;x
+
+temple_empire_celtic_pagan;Nation;Nation;Nation;;Nación;;;;;;;;;x
+temple_empire_celtic_pagan_reformed;Nation;Nation;Nation;;Nación;;;;;;;;;x
+temple_empire_of_celtic_pagan;Sacred Realm of;Sacré Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
+temple_empire_of_celtic_pagan_reformed;Sacred Realm of;Sacré Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
+
+# Artifacts
+crown_celtic_fylkir;Crown of Oak;Couronne de chêne;Eichenkrone;;Corona de roble;;;;;;;;;x
+crown_celtic_fylkir_desc;The sacred crown worn by the reigning Archdruid, head of the Gentlidecht faith.;La couronne sacrée portée par l'Archidruide régnant, chef de la foi de Gentlidecht.;Die heilige Krone des regierenden Erzdruiden, Oberhaupt des Gentlidecht-Glaubens.;;La corona sagrada llevada por el reinado Arzodruida, cabeza de la fe Gentlidecht.;;;;;;;;;x

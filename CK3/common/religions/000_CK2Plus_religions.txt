@@ -1,0 +1,104 @@
+#Religions
+#####
+
+#Celtic paganism
+
+pagan_group = {
+	celtic_pagan_reformed = {
+		graphical_culture = norsegfx #For on-map CoA's
+		alternate_start = { always = no }
+
+		ai_convert_other_group = 2 #Always proselytize
+		ai_convert_same_group = 2  #Always proselytize
+
+		color = { 0.3 0.45 0.25 } #RGB: 77 115 64
+		icon = 61
+		heresy_icon = 62
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = SONG_AND_STONE
+		priest_title = DRUID
+
+		high_god_name = GOD_DAGDAE
+
+		god_names = {
+			GOD_DAGDAE GOD_MORRIGAN GOD_OENGUS GOD_LUGH GOD_MANANDAN GOD_BRIGID GOD_DIAN GOD_NUADA GOD_GOIBNIU
+		}
+		evil_god_names = {
+			EVIL_FOMORIANS EVIL_BALOR EVIL_BRES EVIL_CAILLEACH
+		}
+
+		allow_rivermovement = yes
+		defensive_attrition = yes
+		priests_can_marry = yes
+		men_can_take_consorts = yes
+		join_crusade_if_bordering_hostile = yes
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+
+		#Homeland unit modifiers applied on reformation
+
+		allow_in_ruler_designer = no
+	}
+	celtic_pagan = {
+		graphical_culture = norsegfx #For on-map CoA's
+
+		reformed = celtic_pagan_reformed
+
+		ai_convert_other_group = 2 #Always proselytize
+		ai_convert_same_group = 2  #Always proselytize
+
+		color = { 0.15 0.35 0.15 } #RGB: 38 89 38
+
+		icon = 60
+		heresy_icon = 62
+
+		scripture_name = THE_FOLKLORE
+		priest_title = DRUID
+
+		high_god_name = GOD_DAGDAE
+
+		god_names = {
+			GOD_DAGDAE GOD_MORRIGAN GOD_OENGUS GOD_LUGH GOD_MANANDAN GOD_BRIGID GOD_DIAN GOD_NUADA GOD_GOIBNIU
+		}
+		evil_god_names = {
+			EVIL_FOMORIANS EVIL_BALOR EVIL_BRES EVIL_CAILLEACH
+		}
+
+		allow_rivermovement = yes
+		defensive_attrition = yes
+		priests_can_marry = yes
+		men_can_take_consorts = yes
+		peace_prestige_loss = yes
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+
+		unit_home_modifier = {
+			land_morale = 0.5
+			light_infantry_defensive = 0.5
+			heavy_infantry_defensive = 0.5
+			pikemen_defensive = 0.5
+			light_cavalry_defensive = 0.5
+			knights_defensive = 0.5
+			archers_defensive = 0.5
+			horse_archers_defensive = 0.5
+			camel_cavalry_defensive = 0.5
+			war_elephants_defensive = 0.5
+			
+			garrison_size = 0.2
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+
+		intermarry = baltic_pagan
+		intermarry = baltic_pagan_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = norse_pagan
+		intermarry = norse_pagan_reformed
+		intermarry = slavic_pagan
+		intermarry = slavic_pagan_reformed
+	}
+}

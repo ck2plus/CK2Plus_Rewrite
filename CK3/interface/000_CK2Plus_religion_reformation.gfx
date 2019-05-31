@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_religion_feature_celtic"
+		texturefile = "gfx\\interface\\CK2Plus\\reformation\\religion_feature_celtic2.dds"
+	}
+}

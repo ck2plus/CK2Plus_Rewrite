@@ -1,6 +1,8 @@
 #CHARACTER JOBS/TITLES
 #####
 #GetFactionName
+#GetCollegeName
+#GetArchDruidFOAGendered
 
 #CHARACTER JOBS/TITLES
 defined_text = {
@@ -39,4 +41,263 @@ defined_text = {
 		}
 	}
 }
-#€
+
+
+
+
+defined_text = {
+	#Displays appropriate election college title
+	name = GetCollegeName
+	use_first_valid = yes
+
+	text = {
+		localisation_key = GetCollegeName_Cardinals
+		trigger = { 
+			religion = catholic
+		}
+	}
+	text = {
+		localisation_key = GetCollegeName_DruidsMale
+		trigger = {
+			AND = {
+				religion = celtic_pagan_reformed
+				NOT = { has_religion_feature = religion_matriarchal }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetCollegeName_DruidsFemale
+		trigger = {
+			AND = {
+				religion = celtic_pagan_reformed
+				has_religion_feature = religion_matriarchal
+			}
+		}
+	}
+}
+
+defined_text = {
+	#Displays appropriate election college title
+	name = GetElectedReligiousHead
+	use_first_valid = yes
+
+	text = {
+		localisation_key = PopeLowerCase
+		trigger = { 
+			religion = catholic
+		}
+	}
+	text = {
+		localisation_key = ARCH_DRUID
+		trigger = {
+			AND = {
+				religion = celtic_pagan_reformed
+				NOT = { has_religion_feature = religion_matriarchal }
+			}
+		}
+	}
+	text = {
+		localisation_key = ARCH_DRUID_FEMALE
+		trigger = {
+			AND = {
+				religion = celtic_pagan_reformed
+				has_religion_feature = religion_matriarchal
+			}
+		}
+	}
+}
+
+defined_text = {
+	#Displays appropriate elector college title
+	name = GetCollegeElectorTitle
+	use_first_valid = yes
+
+	text = {
+		localisation_key = GetCollegeElectorTitle_Cardinal
+		trigger = { 
+			religion = catholic
+		}
+	}
+	text = {
+		localisation_key = GetSeniorDruidMaleFemale_Male
+		trigger = {
+			AND = {
+				religion = celtic_pagan_reformed
+				NOT = { has_religion_feature = religion_matriarchal }
+			}
+		}
+	}
+	text = {
+		localisation_key = GetSeniorDruidMaleFemale_Female
+		trigger = {
+			AND = {
+				religion = celtic_pagan_reformed
+				has_religion_feature = religion_matriarchal
+			}
+		}
+	}
+}
+
+defined_text = {
+	#Displays appropriate elector college title
+	name = GetCollegeSuccessorTitle
+	use_first_valid = yes
+
+	text = {
+		localisation_key = PREFERATI
+		trigger = { 
+			religion = catholic
+		}
+	}
+	text = {
+		localisation_key = ElderDruidMaleFemale_Male
+		trigger = {
+			AND = {
+				religion = celtic_pagan_reformed
+				NOT = { has_religion_feature = religion_matriarchal }
+			}
+		}
+	}
+	text = {
+		localisation_key = ElderDruidMaleFemale_Female
+		trigger = {
+			AND = {
+				religion = celtic_pagan_reformed
+				has_religion_feature = religion_matriarchal
+			}
+		}
+	}
+}
+
+defined_text = {
+	#Displays gender appropriate Arch Druid FoA
+	name = GetArchDruidFOAGendered
+	use_first_valid = yes
+
+	text = {
+		localisation_key = GetArchDruidFOAGendered_Male
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localisation_key = GetArchDruidFOAGendered_Female
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+defined_text = {
+	#Displays appropriate successor title (workaround hardcoded loc)
+	name = CollegeVoteScore
+	use_first_valid = yes
+
+	text = {
+		localisation_key = CollegeVoteScore_Pope
+		trigger = { 
+			religion = catholic
+		}
+	}
+	text = {
+		localisation_key = CollegeVoteScore_Archdruid
+		trigger = {
+			religion = celtic_pagan_reformed
+		}
+	}
+}
+
+defined_text = {
+	#Displays appropriate candidate title (workaround hardcoded loc)
+	name = CandidateVoteScore
+	use_first_valid = yes
+
+	text = {
+		localisation_key = CandidateVoteScore_Cardinal
+		trigger = { 
+			religion = catholic
+		}
+	}
+	text = {
+		localisation_key = CandidateVoteScore_SeniorDruid
+		trigger = {
+			religion = celtic_pagan_reformed
+		}
+	}
+}
+
+defined_text = {
+	#Displays gender appropriate Senior Druid title (workaround hardcoded loc)
+	name = GetSeniorDruidMaleFemale
+	use_first_valid = yes
+
+	text = {
+		localisation_key = GetSeniorDruidMaleFemale_Male
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localisation_key = GetSeniorDruidMaleFemale_Female
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+defined_text = {
+	#Displays gender appropriate Archdruid title in Election screen (workaround hardcoded loc)
+	name = GetArchDruidLoc
+	use_first_valid = yes
+
+	text = {
+		localisation_key = ARCH_DRUID
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localisation_key = ARCH_DRUID_FEMALE
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+defined_text = {
+	#Displays gender appropriate Druid title in election screen (workaround hardcoded loc)
+	name = GetDruidMaleFemale
+	use_first_valid = yes
+
+	text = {
+		localisation_key = GetDruidMaleFemale_Male
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localisation_key = GetDruidMaleFemale_Female
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+defined_text = {
+	#Displays gender appropriate Elder Druid title in election screen (workaround hardcoded loc)
+	name = GetElderDruidMaleFemale
+	use_first_valid = yes
+
+	text = {
+		localisation_key = GetElderDruidMaleFemale_Male
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localisation_key = GetElderDruidMaleFemale_Female
+		trigger = {
+			is_female = yes
+		}
+	}
+}

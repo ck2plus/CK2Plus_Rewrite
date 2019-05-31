@@ -1,0 +1,12 @@
+### Overrides
+
+spriteTypes = {
+	
+	# Override the "College of Cardinals" button to be generic
+	
+	spriteType = {
+		name = "GFX_religion_open_cardinal_screen"
+		texturefile = "gfx\\interface\\CK2Plus\\religion_open_cardinal_screen.dds"
+	}
+
+}

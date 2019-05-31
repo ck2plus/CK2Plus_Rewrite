@@ -1,0 +1,22 @@
+# Celtic Pagan
+
+c_dublin = { #Lia Fáil/Hill of Tara
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+c_anglesey = { #Bryn Gwyn Stones
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+c_wiltshire = { #Stonehenge
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+c_vannes = { #Carnac Stones
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+c_innse_gall = { #Callanish Stones
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
