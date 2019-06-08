@@ -3,9 +3,6 @@
 # Miscellaneous
 #####
 
-# Needed for Celtic pagan religion feature (on_action_events 670)
-tooltip_HF23016_B;§YFull Status of Women§! is enforced throughout the realm.;§YStatut complet des femmes§! est appliqué dans le pays.;§YVollständige Anerkennung der Frau§! ist im ganzen Reich erzwungen.;;Se aplica en todo el reino La §Yestatus total de la mujer§!;;;;;;;;;x
-
 # Celtic paganism
 #####
 
@@ -42,7 +39,7 @@ EVIL_BALOR;Balor;Balor;Balor;;Balor;;;;;;;;;x
 EVIL_BRES;Bres;Bres;Bres;;Bres;;;;;;;;;x
 EVIL_CAILLEACH;Cailleach;Cailleach;Cailleach;;Cailleach;;;;;;;;;x
 
-DRUID;Druid;Druide;Druide;;Druida;;;;;;;;;x
+DRUID;[GetDruidMaleFemale];[GetDruidMaleFemale];[GetDruidMaleFemale];[GetDruidMaleFemale];;;;;;;;;x
 GetDruidMaleFemale_Male;Druid;Druide;Druide;;Druida;;;;;;;;;x
 GetDruidMaleFemale_Female;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
 
@@ -166,3 +163,6 @@ temple_empire_of_celtic_pagan_reformed;Sacred Realm of;Sacré Domaine de;Sakrales
 # Artifacts
 crown_celtic_fylkir;Crown of Oak;Couronne de chêne;Eichenkrone;;Corona de roble;;;;;;;;;x
 crown_celtic_fylkir_desc;The sacred crown worn by the reigning Archdruid, head of the Gentlidecht faith.;La couronne sacrée portée par l'Archidruide régnant, chef de la foi de Gentlidecht.;Die heilige Krone des regierenden Erzdruiden, Oberhaupt des Gentlidecht-Glaubens.;;La corona sagrada llevada por el reinado Arzodruida, cabeza de la fe Gentlidecht.;;;;;;;;;x
+
+# Triggers
+religion_openly_celtic_or_reformed_tooltip;Publicly follows the §Y[celtic_reformed.GetName]§! religion;Suit publiquement la religion §Y[celtic_reformed.GetName]§!;Folgt öffentlich der §Y[celtic_reformed.GetName]en§! Religion;;Sigue públicamente la religión §Y[celtic_reformed.GetName]§!;;;;;;;;x

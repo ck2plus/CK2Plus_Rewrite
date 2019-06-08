@@ -1,0 +1,21 @@
+# Warrior Lodges
+
+## Celtic
+defined_text = {
+	name = GetCelticWarriorSocietyName
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = warrior_lodge_celtic_random
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = warrior_lodge_celtic_real
+	}
+}
+defined_text = {
+	name = GetCelticWarriorSocietyDesc
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = warrior_lodge_celtic_desc_random
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = warrior_lodge_celtic_desc_real
+	}
+}

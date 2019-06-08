@@ -44,7 +44,7 @@ defined_text = {
 
 
 
-
+#RELIGION
 defined_text = {
 	#Displays appropriate election college title
 	name = GetCollegeName
@@ -299,5 +299,59 @@ defined_text = {
 		trigger = {
 			is_female = yes
 		}
+	}
+}
+
+
+
+#SOCIETIES
+defined_text = {
+	name = GetCelticWarriorLodge
+
+	text = {
+		trigger = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		localisation_key = warrior_lodge_celtic_random
+	}
+	text = {
+		trigger = {
+			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		}
+		localisation_key = warrior_lodge_celtic_real
+	}
+}
+defined_text = {
+	name = GetCelticWarriorLodgeDesc
+
+	text = {
+		trigger = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		localisation_key = warrior_lodge_celtic_desc_random
+	}
+	text = {
+		trigger = {
+			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		}
+		localisation_key = warrior_lodge_celtic_desc_real
+	}
+}
+
+#TRAITS
+defined_text = {
+	name = GetBadPriestCelticMaleFemale
+
+	text = {
+		trigger = {
+			is_female = no
+		}
+		localisation_key = BadPriestCelticMale
+	}
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localisation_key = BadPriestCelticFemale
 	}
 }

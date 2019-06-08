@@ -104,3 +104,12 @@ plus_new_roads = {
 	local_movement_speed = 0.2
 	levy_reinforce_rate = 0.2
 }
+
+#Celtic Battle Cry
+celtic_battle_cry = {
+	icon = 13
+	command_modifier = {
+		speed = 0.1
+		religious_enemy = 0.1
+	}
+}
