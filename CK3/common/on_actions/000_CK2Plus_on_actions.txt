@@ -1,0 +1,83 @@
+#character
+on_startup = {
+	events = {
+	}
+}
+
+#character
+on_yearly_pulse = {
+	events = {
+	}
+
+	random_events = {
+	}
+}
+
+
+#character
+on_bi_yearly_pulse = {
+	events = {
+		PlusCeltic.2 # Celtic Druid becomes an unworthy priest
+	}
+
+	random_events = {
+	}
+}
+
+#character
+on_five_year_pulse = {
+	events = {
+	}
+
+	random_events = {
+	}
+}
+
+#character
+on_decade_pulse = {
+	events = {
+	}
+	
+	random_events = {
+	}
+}
+
+# For characters older than AGE_CHILDHOOD_PULSE but not an adult as defined by ADULT_AGE_FEMALE and ADULT_AGE_MALE
+on_yearly_childhood_pulse = {
+	events = {
+	}
+
+	random_events = {
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder = {
+	events = {
+		PlusCeltic.1 # New temple holders gain Druid trait
+	}
+
+	random_events = {
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_inheritance = {
+	events = {
+	}
+	random_events = {
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+	}
+}
+
+# Character converts religion, for whatever reason. ROOT is the character after conversion and the FROM scope has the old religion.
+on_character_convert_religion = {
+	events = {
+		PlusCeltic.1 # Regain Druid trait upon reformation/religion change
+	}
+}

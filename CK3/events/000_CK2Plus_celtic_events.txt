@@ -1,0 +1,101 @@
+#####
+#PlusCeltic:
+#
+#Total = 2
+#####
+
+namespace = PlusCeltic
+
+#####
+#General events
+#####
+
+# New temple holders gain Druid trait, called on_new_holder
+character_event = {
+	id = PlusCeltic.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ruler = yes
+		is_theocracy = yes
+		religion_openly_celtic_or_reformed_trigger = yes
+		NOR = {
+			trait = druid
+			trait = bad_priest_celtic
+		}
+	}
+
+	immediate = {
+		add_trait = druid
+	}
+}
+
+# Celtic Druid becomes an unworthy priest
+character_event = {
+	id = PlusCeltic.2
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	min_age = 16
+	only_capable = yes
+	prisoner = no
+	religion_group = pagan_group
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		is_priest = yes
+		NOR = {
+			intrigue = 3
+			diplomacy = 3
+			trait = bad_priest_celtic
+		}
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+		OR = {
+			trait = cynical
+			trait = gluttonous
+			trait = greedy
+			trait = slothful
+			trait = envious
+			trait = wroth
+			trait = craven
+			trait = lunatic
+			trait = possessed
+			trait = hedonist
+			trait = arbitrary
+		}
+	}
+
+	immediate = {
+		add_trait = bad_priest_celtic
+		if = {
+			limit = {
+				is_ruler = yes
+				has_nickname = no
+				NOT = { trait = possessed }
+				NOT = { trait = lunatic }
+			}
+			give_nickname = nick_the_unready
+		}
+		if = {
+			limit = {
+				is_ruler = yes
+				has_nickname = no
+				trait = possessed
+			}
+			give_nickname = nick_the_bewitched
+		}
+		if = {
+			limit = {
+				is_ruler = yes
+				has_nickname = no
+				trait = lunatic
+			}
+			give_nickname = nick_the_mad
+		}
+	}
+}

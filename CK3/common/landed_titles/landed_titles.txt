@@ -30621,6 +30621,10 @@ e_france = {
 				breton = Broërec
 				welsh = Guened
 				
+				#Carnac Stones
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
+				
 				b_vannes = {
 					breton = "Gwened"
 					welsh = "Guened"
@@ -38909,6 +38913,10 @@ e_britannia = {
 			c_wiltshire = {
 				color={ 241 95 45 }
 				color2={ 255 255 255 }
+				
+				#Stonehenge
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 			
 				b_wilton = {
 				}
@@ -39231,6 +39239,10 @@ e_britannia = {
 			c_anglesey = {
 				color={ 175 75 20 }
 				color2={ 255 255 255 }
+				
+				#Bryn Gwyn Stones
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 				
 				b_aberffraw = {
 					norwegian = Ongullsøy
@@ -39874,6 +39886,10 @@ e_britannia = {
 				welsh = "Ynysoedd Heledd"
 				irish = "Innse Gall"
 				scottish = "Innse Gall"
+				
+				#Callanish Stones
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 				
 				b_snizort = {
 					pictish = "Lantalarc"
@@ -40934,7 +40950,6 @@ e_britannia = {
 				irish = Dubhlinn
 				welsh = Dulyn
 
-				
 				b_dublin = {
 					norse = Dyflinn
 					irish = Dubhlinn
@@ -40964,6 +40979,10 @@ e_britannia = {
 			c_meath = {
 				color={ 50 255 70 }
 				color2={ 255 255 255 }
+				
+				#Lia Fáil/Hill of Tara
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 
 				b_tara_meath = {}
 				b_forradh = {}

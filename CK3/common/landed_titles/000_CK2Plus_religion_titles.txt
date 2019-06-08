@@ -1,8 +1,8 @@
 # Pagan heads of religion
 
 d_celtic_pagan_reformed = { # Circle of Druids
-	color={ 122 165 70 }
-	color2={ 220 220 0 }
+	color = { 122 165 70 }
+	color2 = { 220 220 0 }
 	
 	capital = 1952 # Meath
 	

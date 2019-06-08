@@ -1,6 +1,6 @@
 # Celtic Pagan
 
-c_dublin = { #Lia Fáil/Hill of Tara
+c_meath = { #Lia Fáil/Hill of Tara
 	holy_site = celtic_pagan
 	holy_site = celtic_pagan_reformed
 }

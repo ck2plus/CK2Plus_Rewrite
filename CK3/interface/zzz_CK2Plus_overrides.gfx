@@ -2,7 +2,7 @@
 
 spriteTypes = {
 	
-	# Override the "College of Cardinals" button to be generic
+	# Override the "College of Cardinals" button to be non-Catholic specific
 	
 	spriteType = {
 		name = "GFX_religion_open_cardinal_screen"
