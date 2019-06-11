@@ -82,3 +82,15 @@ bad_priest_celtic = {
 	female_insult_adj = INSULT_USELESS
 	child_insult_adj = INSULT_CRUMMY
 }
+
+### Warrior Lodge specific leader traits ###
+celtic_leader = {
+	leader = yes
+	random = no
+	command_modifier = {
+		terrain = forest
+		terrain = farmlands
+		terrain = hills
+		terrain = plains
+	}
+}
