@@ -1,6 +1,7 @@
 #character
 on_startup = {
 	events = {
+		PlusFaction.77 #Checks faction status
 	}
 }
 
