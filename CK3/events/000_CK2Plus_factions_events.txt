@@ -5554,7 +5554,7 @@ character_event= {
 }
 
 #Faction members receive request for drinks
-character_event= {
+character_event = {
 	id = PlusFaction.65
 	title = PlusFaction.65_title
 	desc = PlusFaction.65_desc
@@ -5590,6 +5590,671 @@ character_event= {
 			factor = 1
 			learning_factor = yes #Use this one for learning focused events
 			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+}
+
+
+
+
+
+#####
+#General faction events - General
+#####
+
+#Join a faction
+#Faction leader wants new members
+character_event = {
+	id = PlusFaction.66
+	title = PlusFaction.66_title
+	desc = PlusFaction.66_desc
+	picture = GFX_evt_comet
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		OR = {
+			leads_faction = faction_court
+			leads_faction = faction_glory
+			leads_faction = faction_order
+			leads_faction = faction_prosperity
+			leads_faction = faction_tradition
+		}
+		liege = {
+			any_vassal = {
+				higher_tier_than = BARON
+				NOR = {
+					in_faction = faction_court
+					in_faction = faction_glory
+					in_faction = faction_order
+					in_faction = faction_prosperity
+					in_faction = faction_tradition
+				}
+			}
+		}	
+	}
+
+	mean_time_to_happen = {
+		years = 5
+	}
+
+	immediate = {
+		liege = {
+			any_vassal = {
+				limit = {
+					higher_tier_than = BARON
+					NOR = {
+						in_faction = faction_court
+						in_faction = faction_glory
+						in_faction = faction_order
+						in_faction = faction_prosperity
+						in_faction = faction_tradition
+					}
+				}
+				save_event_target_as = nofaction_character
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.66_1
+		trigger = {
+			opinion = {
+				who = event_target:nofaction_character
+				value = 0
+			}	
+		}
+		event_target:nofaction_character = {
+			letter_event = {
+				id = PlusFaction.67 #Potential member receives request to join faction
+			}
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.66_2
+		scaled_prestige = 0.05
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Potential member receives request to join faction
+letter_event = {
+	id = PlusFaction.67
+	title = PlusFaction.67_title
+	desc = PlusFaction.67_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.67_1
+		join_faction = {
+			faction = faction_court
+			faction_leader = FROM
+		}
+		join_faction = {
+			faction = faction_order
+			faction_leader = FROM
+		}
+		join_faction = {
+			faction = faction_prosperity
+			faction_leader = FROM
+		}
+		join_faction = {
+			faction = faction_glory
+			faction_leader = FROM
+		}
+		join_faction = {
+			faction = faction_tradition
+			faction_leader = FROM
+		}
+		FROM = {
+			letter_event = {
+				id = PlusFaction.68 #Potential member accepts request to join faction
+			}
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.67_2
+		FROM = {
+			letter_event = {
+				id = PlusFaction.69 #Potential member declines request to join faction
+			}
+		}
+		ai_chance = {
+			factor = 1
+			learning_factor = yes #Use this one for learning focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	after = {
+		plus_clean_faction_events = yes #Cleans all flags and variables set in the faction events file
+	}
+}
+
+#Potential member accepts request to join faction
+letter_event= {
+	id = PlusFaction.68
+	title = PlusFaction.68_title
+	desc = PlusFaction.68_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.68_1
+		scaled_prestige = 0.1
+		opinion = {
+			modifier = opinion_approves
+			who = FROM
+			years = 5
+		}
+	}
+}
+
+#Potential member declines request to join faction
+letter_event= {
+	id = PlusFaction.69
+	title = PlusFaction.69_title
+	desc = PlusFaction.69_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.69_1
+		scaled_prestige = -0.1
+		opinion = {
+			modifier = opinion_disappointed
+			who = FROM
+			years = 5
+		}
+	}
+}
+
+#Friendship becomes an alliance
+#Faction member asks for an alliance with friend
+character_event = {
+	id = PlusFaction.70
+	title = PlusFaction.70_title
+	desc = PlusFaction.70_desc
+	picture = GFX_evt_culture_change
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		OR = {
+			in_faction = faction_court
+			in_faction = faction_glory
+			in_faction = faction_order
+			in_faction = faction_prosperity
+			in_faction = faction_tradition
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 5
+	}
+
+	immediate = {
+		random_friend = {
+			limit = {
+				same_liege = ROOT
+				OR = {
+					in_faction = faction_court
+					in_faction = faction_glory
+					in_faction = faction_order
+					in_faction = faction_prosperity
+					in_faction = faction_tradition
+				}
+			}
+			save_event_target_as = potential_ally
+		}
+	}
+
+	option = {
+		name = PlusFaction.70_1
+		event_target:potential_ally = {
+			letter_event = {
+				id = PlusFaction.71 #Friend receives request for alliance
+			}
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.70_2
+		scaled_prestige = 0.05
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Friend receives request for alliance
+letter_event = {
+	id = PlusFaction.71
+	title = PlusFaction.71_title
+	desc = PlusFaction.71_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.71_1
+		add_alliance = {
+			who = FROM
+			years = 5
+		}
+		FROM = {
+			letter_event = {
+				id = PlusFaction.72 #Friend receives accepts alliance
+			}
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	option = {
+		name = PlusFaction.71_2
+		FROM = {
+			letter_event = {
+				id = PlusFaction.73 #Friend receives accepts alliance
+			}
+		}
+		ai_chance = {
+			factor = 1
+			martial_factor = yes #Use this one for martial focused events
+			like_factor = yes #Use this one for events involving a FROM character
+		}
+	}
+
+	after = {
+		plus_clean_faction_events = yes #Cleans all flags and variables set in the faction events file
+	}
+}
+
+#Friend receives accepts alliance
+letter_event= {
+	id = PlusFaction.72
+	title = PlusFaction.72_title
+	desc = PlusFaction.72_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.72_1
+		opinion = {
+			modifier = opinion_approves
+			who = FROM
+			years = 5
+		}
+	}
+}
+
+#Potential member declines request to join faction
+letter_event= {
+	id = PlusFaction.73
+	title = PlusFaction.73_title
+	desc = PlusFaction.73_desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.73_1
+		opinion = {
+			modifier = opinion_disappointed
+			who = FROM
+			years = 5
+		}
+	}
+}
+
+#Friendly visit
+#Faction member may visit another member
+character_event = {
+	id = PlusFaction.74
+	title = PlusFaction.74_title
+	desc = PlusFaction.74_desc
+	picture = GFX_evt_sway_hf
+
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		OR = {
+			in_faction = faction_court
+			in_faction = faction_glory
+			in_faction = faction_order
+			in_faction = faction_prosperity
+			in_faction = faction_tradition
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 5
+	}
+
+	immediate = {
+		liege = {
+			random_vassal = {
+				limit = {
+					OR = {
+						in_faction = faction_court
+						in_faction = faction_glory
+						in_faction = faction_order
+						in_faction = faction_prosperity
+						in_faction = faction_tradition
+					}
+				}
+				save_event_target_as = social_visit
+			}
+		}
+	}
+
+	option = {
+		name = PlusFaction.74_1
+		random_list = {
+			50 = {
+				opinion = {
+					modifier = opinion_gained_respect
+					who = event_target:social_visit
+					years = 20
+				}
+				event_target:social_visit = {
+					character_event = {
+						id = PlusFaction.75 #Faction member visits another member (good)
+					}
+				}
+			}
+			50 = {
+				opinion = {
+					modifier = opinion_lost_respect
+					who = event_target:social_visit
+					years = 20
+				}
+				event_target:social_visit = {
+					character_event = {
+						id = PlusFaction.76 #Faction member visits another member (bad)
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			diplomacy_factor = yes #Use this one for diplomacy focused events
+		}
+	}
+
+	option = {
+		name = PlusFaction.74_2
+		scaled_prestige = 0.05
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Faction member visits another member (good)
+character_event = {
+	id = PlusFaction.75
+	title = PlusFaction.75_title
+	desc = PlusFaction.75_desc
+	picture = GFX_evt_sway_hf
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.75_1
+		opinion = {
+			modifier = opinion_gained_respect
+			who = FROM
+			years = 20
+		}
+	}
+
+	after = {
+		plus_clean_faction_events = yes #Cleans all flags and variables set in the faction events file
+	}
+}
+
+#Faction member visits another member (bad)
+character_event = {
+	id = PlusFaction.76
+	title = PlusFaction.76_title
+	desc = PlusFaction.76_desc
+	picture = GFX_evt_jailbreak
+
+	is_triggered_only = yes
+
+	option = {
+		name = PlusFaction.76_1
+		opinion = {
+			modifier = opinion_lost_respect
+			who = FROM
+			years = 20
+		}
+	}
+
+	after = {
+		plus_clean_faction_events = yes #Cleans all flags and variables set in the faction events file
+	}
+}
+
+
+
+
+
+#####
+#Faction vs faction
+#####
+
+#Faction Status
+#Checks faction status
+character_event = {
+	id = PlusFaction.77
+
+	only_playable = yes
+	min_age = 16
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			leads_faction = faction_court
+			leads_faction = faction_glory
+			leads_faction = faction_order
+			leads_faction = faction_prosperity
+			leads_faction = faction_tradition
+		}
+	}
+
+	option = {
+		liege = {
+			any_vassal = {
+				limit = {
+					NOT = {
+						character = ROOT
+					}
+					OR = {
+						leads_faction = faction_court
+						leads_faction = faction_glory
+						leads_faction = faction_order
+						leads_faction = faction_prosperity
+						leads_faction = faction_tradition
+					}
+				}
+				character_event = {
+					id = PlusFaction.78 #Checks faction status with other factions
+				}
+			}
+		}
+	}
+}
+
+#Checks faction status with other factions
+character_event = {
+	id = PlusFaction.78
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	option = {
+		trigger = {
+			opinion = {
+				who = FROM
+				value >= 75
+			}
+		}
+		opinion = {
+			modifier = plus_faction_friendly
+			who = FROM
+			years = 1
+		}
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = any
+					opinion = {
+						modifier = plus_faction_friendly
+						who = FROM
+						years = 1
+					}
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					opinion = {
+						modifier = plus_faction_friendly
+						who = FROM
+						years = 1
+					}
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					opinion = {
+						modifier = plus_faction_friendly
+						who = FROM
+						years = 1
+					}
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					opinion = {
+						modifier = plus_faction_friendly
+						who = FROM
+						years = 1
+					}
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					opinion = {
+						modifier = plus_faction_friendly
+						who = FROM
+						years = 1
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		trigger = {
+			opinion = {
+				who = FROM
+				value <= -75
+			}
+		}
+		opinion = {
+			modifier = plus_faction_hostile
+			who = FROM
+			years = 1
+		}
+		trigger_switch = {
+			on_trigger = in_faction
+			faction_court = {
+				any_faction_backer = {
+					faction = faction_court
+					opinion = {
+						modifier = plus_faction_hostile
+						who = FROM
+						years = 1
+					}
+				}
+			}
+			faction_order = {
+				any_faction_backer = {
+					faction = faction_order
+					opinion = {
+						modifier = plus_faction_hostile
+						who = FROM
+						years = 1
+					}
+				}
+			}
+			faction_prosperity = {
+				any_faction_backer = {
+					faction = faction_prosperity
+					opinion = {
+						modifier = plus_faction_hostile
+						who = FROM
+						years = 1
+					}
+				}
+			}
+			faction_glory = {
+				any_faction_backer = {
+					faction = faction_glory
+					opinion = {
+						modifier = plus_faction_hostile
+						who = FROM
+						years = 1
+					}
+				}
+			}
+			faction_tradition = {
+				any_faction_backer = {
+					faction = faction_tradition
+					opinion = {
+						modifier = plus_faction_hostile
+						who = FROM
+						years = 1
+					}
+				}
+			}
 		}
 	}
 }
