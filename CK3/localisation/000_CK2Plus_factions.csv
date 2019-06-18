@@ -17,8 +17,10 @@ faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a heal
 faction_tradition_title;Tradition Faction;x
 faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;x
 
+
 #EVENTS
 #####
+
 PlusFaction.1_title;[Root.GetFactionName] Faction Meeting;x
 PlusFaction.1_desc;It has been some time since the [Root.GetFactionName] faction got together to discuss the current state of the realm.  I wonder if I should schedule a meeting.;x
 PlusFaction.1_1;Send out the invitations.;x

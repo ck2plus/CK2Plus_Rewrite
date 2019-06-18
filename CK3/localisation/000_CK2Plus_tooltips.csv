@@ -1,0 +1,12 @@
+#Tooltips
+#####
+
+allow_matri_marriage;Matrilineal marriage will be §GAllowed§!;x
+disallow_matri_marriage;Matrilineal marriage will be §RDisallowed§!;x
+succession_voting_power_0_effect_tooltip;§YPowerful Vassals§! can be fired from the §YCouncil§!\nCan now change §YSuccession Laws§!;x
+succession_voting_power_1_effect_tooltip;§YPowerful Vassals§! cannot be fired from the §YCouncil§!\nCan no longer change §YSuccession Laws§!;x
+
+CHARACTER_TOOLTIP_DELAYED;Dynasty: §Y[GetOnlyDynastyName]\n§!Culture: §Y[Culture.GetName]\n§!Religion: §Y[Religion.GetName]\n§![GetStatusInfo]\nID: §Y[GetID]§!;x
+
+BY_DECISION;Enacted by decision only\n;x
+#€

@@ -1,0 +1,1047 @@
+######
+#Plus Crown Laws:
+#
+#Total = 1
+######
+
+#Law Groups
+law_groups = {
+	crown_authority = { #Crown Authority - Vanilla
+	}
+	kingdom_lockout_group = { #Kingdom Lockout - Plus
+	}
+	out_of_realm_inheritance_law = { #Controlled Realm Inheritance - Vanilla (Conclave)
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+	vassal_wars_law = { #Vassal Wars - Vanilla (Conclave)
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+	investiture_law = { #Papal Investiture - Vanilla
+	}
+}
+
+#Crown Laws
+#####
+de_jure_laws = {
+	#Crown Authority 0
+	crown_authority_0 = {
+		show_as_title = yes
+		group = crown_authority
+
+		potential = {
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		
+		allow = {
+			has_law = crown_authority_1
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		ai_will_revoke = {
+			factor = 0
+		}
+
+		effect = {
+			if = { 
+				limit = { has_dlc = "Zeus" } 
+				enable_council_voting_on_issue = laws
+				enable_council_voting_on_issue = declare_war_interaction
+				enable_council_voting_on_issue = revoke_title_interaction
+				enable_council_voting_on_issue = grant_landed_title_interaction
+				enable_council_voting_on_issue = imprison_character_interaction
+				enable_council_voting_on_issue = exile_imprisoned_interaction
+				enable_council_voting_on_issue = execute_imprisoned_interaction
+				hidden_tooltip = {
+					add_law = law_voting_power_1
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = crown_authority_0
+				revoke_law = crown_authority_1
+				revoke_law = crown_authority_2
+				revoke_law = crown_authority_3
+				revoke_law = crown_authority_4
+			}
+		}
+
+		pass_effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = crown_authority_1
+					}
+					any_realm_character = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_lowered_crown_authority
+						}
+					}
+				}
+			}
+		}
+
+		vassal_opinion = 5
+	}
+	#Crown Authority 1	
+	crown_authority_1 = {
+		show_as_title = yes
+		group = crown_authority
+		default = yes
+
+		potential = {
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		
+		allow = {
+			OR = {
+				has_law = crown_authority_0
+				has_law = crown_authority_2
+			}
+			holder_scope = { 
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+				prestige = 250
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}	
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = crown_authority_2 
+			}
+		}
+
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			if = {
+				limit = { has_dlc = "Zeus" }
+				disable_council_voting_on_issue = declare_war_interaction
+				disable_council_voting_on_issue = imprison_character_interaction
+				hidden_tooltip = {
+					revoke_law = war_voting_power_1
+					revoke_law = imprison_voting_power_1
+				}
+			}
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+			}
+			hidden_tooltip = {
+				set_tribal_vassal_levy_control = yes
+				revoke_law = crown_authority_0
+				revoke_law = crown_authority_1
+				revoke_law = crown_authority_2
+				revoke_law = crown_authority_3
+				revoke_law = crown_authority_4
+			}
+		}
+		
+		pass_effect = {
+			hidden_tooltip = {
+				if = { 
+					limit = {
+						has_law = crown_authority_0
+					}
+					any_realm_character = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_increased_authority
+						}
+					}	
+				}
+				else_if = {
+					limit = {
+						has_law = crown_authority_2
+					}
+					any_realm_character = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_lowered_crown_authority
+						}
+					}				
+				}
+			}
+		}
+	}
+	#Crown Authority 2	
+	crown_authority_2 = {
+		show_as_title = yes
+		group = crown_authority
+
+		potential = {
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		
+		allow = {
+			OR = {
+				has_law = crown_authority_1
+				has_law = crown_authority_3
+			}
+			holder_scope = { 
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+				prestige = 250
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}	
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = crown_authority_3 
+			}
+		}
+
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			if = {
+				limit = { has_dlc = "Zeus" }
+				disable_council_voting_on_issue = exile_imprisoned_interaction
+				disable_council_voting_on_issue = execute_imprisoned_interaction
+				hidden_tooltip = {
+					revoke_law = banish_voting_power_1
+					revoke_law = execution_voting_power_1
+				}
+			}
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+			}
+			hidden_tooltip = {
+				set_tribal_vassal_levy_control = yes
+				revoke_law = crown_authority_0
+				revoke_law = crown_authority_1
+				revoke_law = crown_authority_2
+				revoke_law = crown_authority_3
+				revoke_law = crown_authority_4
+			}
+		}
+
+		pass_effect = {
+			hidden_tooltip = {
+				if = { 
+					limit = {
+						has_law = crown_authority_1
+					}
+					any_realm_character = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_increased_authority
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						has_law = crown_authority_3
+					}
+					any_realm_character = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_lowered_crown_authority
+						}
+					}
+				}
+			}
+		}
+		
+		vassal_opinion = -5
+	}
+	#Crown Authority 3	
+	crown_authority_3 = {
+		show_as_title = yes
+		group = crown_authority
+
+		potential = {
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		
+		allow = {
+			OR = {
+				has_law = crown_authority_2
+				has_law = crown_authority_4
+			}
+			holder_scope = { 
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+				prestige = 250
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = crown_authority_4
+			}
+		}
+
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			if = {
+				limit = { has_dlc = "Zeus" }
+				disable_council_voting_on_issue = revoke_title_interaction
+				disable_council_voting_on_issue = grant_landed_title_interaction
+				hidden_tooltip = {
+					revoke_law = revoke_title_voting_power_1
+					revoke_law = grant_title_voting_power_1
+				}
+			}
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -9 min = -250 max = -1000 } }	
+			}	
+			hidden_tooltip = {
+				set_tribal_vassal_levy_control = yes
+				revoke_law = crown_authority_0
+				revoke_law = crown_authority_1
+				revoke_law = crown_authority_2
+				revoke_law = crown_authority_3
+				revoke_law = crown_authority_4
+			}
+		}
+
+		pass_effect = {
+			hidden_tooltip = {
+				if = { 
+					limit = {
+						has_law = crown_authority_2
+					}
+					any_realm_character = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_increased_authority
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						has_law = crown_authority_4
+					}
+					any_realm_character = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_lowered_crown_authority
+						}
+					}
+				}
+			}
+		}
+		
+		vassal_opinion = -10
+	}
+	#Crown Authority 4	
+	crown_authority_4 = {
+		show_as_title = yes
+		group = crown_authority
+
+		potential = {
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+			}
+		}
+		
+		allow = {
+			has_law = crown_authority_3
+			holder_scope = { 
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+				prestige = 250 
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			if = {
+				limit = { has_dlc = "Zeus" }
+				disable_council_voting_on_issue = laws
+				hidden_tooltip = {
+					revoke_law = law_voting_power_1
+				}
+			}
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -12 min = -250 max = -1000 } }
+			}	
+			hidden_tooltip = {
+				set_tribal_vassal_levy_control = yes
+				revoke_law = crown_authority_0
+				revoke_law = crown_authority_1
+				revoke_law = crown_authority_2
+				revoke_law = crown_authority_3
+				revoke_law = crown_authority_4
+			}
+		}
+
+		pass_effect = {
+			hidden_tooltip = {
+				if = { 
+					limit = {
+						has_law = crown_authority_3
+					}
+					any_realm_character = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_increased_authority
+						}
+					}
+				}
+			}
+		}
+		
+		vassal_opinion = -15
+	}
+
+	#Papal Investiture 0
+	investiture_law_0 = {
+		show_as_title = yes
+		group = investiture_law
+		default = yes
+
+		potential = {
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+				OR = {
+					religion = catholic
+					religion = fraticelli
+				}
+				rightful_religious_head_scope = {
+					NOT = {
+						character = ROOT
+					}
+				}
+			}
+		}
+
+		allow = {
+			holder_scope = { 
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+				piety = 125
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}	
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				trait = zealous
+			}
+		}
+
+		ai_will_revoke = {
+			factor = 0
+		}
+
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_piety = { value = -3 min = -125 max = -500 } }
+			}
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+				revoke_law = investiture_law_1
+			}
+			set_investiture = head
+		}
+	}	
+	#Free Investiture 1
+	investiture_law_1 = {
+		show_as_title = yes
+		group = investiture_law
+
+		potential = {
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+				}
+				OR = {
+					religion = catholic
+					religion = fraticelli
+				}
+				rightful_religious_head_scope = {
+					NOT = {
+						character = ROOT
+					}
+				}
+			}
+		}
+
+		allow = {
+			holy_order = no
+			holder_scope = { 
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+				prestige = 250
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}	
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				trait = cynical
+			}
+		}
+
+		ai_will_revoke = {
+			factor = 0
+		}
+
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+			}
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+				revoke_law = investiture_law_1
+			}
+			set_investiture = any
+		}
+
+		rel_head_opinion = -30
+		free_invest_vassal_opinion = 10 
+		temple_all_opinion = 10 
+	}
+
+	#Inheritance Law 0
+	out_of_realm_inheritance_law_0 = {
+		group = out_of_realm_inheritance_law
+		default = yes
+		
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+					is_republic = yes
+					government = order_government
+				}
+			}
+		}
+		
+		allow = {
+			has_law = out_of_realm_inheritance_law_1
+			holder_scope = {
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = out_of_realm_inheritance_law_1
+			}
+			set_protected_inheritance = no
+		}
+	}
+	#Inheritance Law 1
+	out_of_realm_inheritance_law_1 = {
+		group = out_of_realm_inheritance_law
+		
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+					is_republic = yes
+					government = order_government
+				}
+			}
+		}
+		
+		allow = {
+			holder_scope = {
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+			}
+			prestige = 250
+			has_law = out_of_realm_inheritance_law_0
+			has_law = imperial_administration
+			OR = {
+				has_crown_law_title = no
+				crownlaw_title = {
+					OR = {
+						has_law	= crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+			}
+			hidden_tooltip = {
+				revoke_law = out_of_realm_inheritance_law_0
+			}
+			set_protected_inheritance = yes
+		}
+
+		vassal_opinion = -5
+	}
+	
+	#Vassal Wars 0
+	vassal_wars_law_0 = {
+		group = vassal_wars_law
+		default = yes
+		
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+					is_republic = yes
+					is_theocracy = yes
+					government = order_government
+				}
+			}
+		}
+		
+		allow = {
+			has_law = vassal_wars_law_1
+			holder_scope = {
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_1
+				revoke_law = vassal_wars_law_2
+			}
+			set_the_kings_peace = no
+			set_the_kings_full_peace = no
+		}
+	}
+	#Vassal Wars 1
+	vassal_wars_law_1 = {
+		group = vassal_wars_law
+		
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+					is_republic = yes
+					is_theocracy = yes
+					government = order_government
+				}
+			}
+		}
+
+		allow = {
+			OR = {
+				has_crown_law_title = no
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+			OR = {
+				has_law = vassal_wars_law_0
+				has_law = vassal_wars_law_2
+			}
+			OR = {
+				has_law = late_feudal_administration
+				has_law = imperial_administration
+			}
+			holder_scope = {
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+			}
+			prestige = 250
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = vassal_wars_law_2
+			}
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+			}
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_0
+				revoke_law = vassal_wars_law_2
+			}
+			set_the_kings_peace = yes
+			set_the_kings_full_peace = no
+		}
+
+		tribal_opinion = -5
+		feudal_opinion = -5
+	}
+	#Vassal Wars 2
+	vassal_wars_law_2 = {
+		group = vassal_wars_law
+		
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				NOR = {
+					is_tribal = yes
+					is_nomadic = yes
+					is_republic = yes
+					is_theocracy = yes
+					government = order_government
+				}
+			}
+		}
+		
+		allow = {
+			OR = {
+				has_crown_law_title = no
+				crownlaw_title = {
+					has_law = crown_authority_4
+				}
+			}
+			has_law = vassal_wars_law_1
+			has_law = imperial_administration
+			holder_scope = {
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+			}
+			prestige = 250
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+			}
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_0
+				revoke_law = vassal_wars_law_1
+			}
+			set_the_kings_peace = yes
+			set_the_kings_full_peace = yes
+		}
+
+		tribal_opinion = -10
+		feudal_opinion = -10
+	}
+	
+	#Kingdom Lockout 0
+	kingdom_lockout_0 = {
+		show_as_title = yes
+		group = kingdom_lockout_group
+		default = yes
+		
+		potential = {
+			tier = EMPEROR
+		}
+
+		allow = {
+			has_law = kingdom_lockout_1
+			holder_scope = {
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		effect = {
+			hidden_tooltip = {
+				revoke_law = kingdom_lockout_1
+				revoke_law = kingdom_lockout_2
+			}
+		}
+	}
+	#Kingdom Lockout 1
+	kingdom_lockout_1 = {
+		show_as_title = yes
+		group = kingdom_lockout_group
+		
+		potential = {
+			tier = EMPEROR
+		}
+
+		allow = {
+			OR = {
+				has_crown_law_title = no
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_1
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+			OR = {
+				has_law = late_feudal_administration
+				has_law = imperial_administration
+			}
+			OR = {
+				has_law = kingdom_lockout_0
+				has_law = kingdom_lockout_2
+			}
+			holder_scope = {
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+			}
+			prestige = 250
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = kingdom_lockout_2
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+			}
+			hidden_tooltip = {
+				revoke_law = kingdom_lockout_0
+				revoke_law = kingdom_lockout_2
+			}
+		}
+	}
+	#Kingdom Lockout 2
+	kingdom_lockout_2 = {
+		show_as_title = yes
+		group = kingdom_lockout_group
+		
+		potential = {
+			tier = EMPEROR
+		}
+
+		allow = { 
+			OR = {
+				has_crown_law_title = no
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+			has_law = kingdom_lockout_1
+			OR = {
+				has_law = imperial_administration
+				holder_scope = {
+					OR = {
+						government = theocratic_feudal_government
+						government = chinese_imperial_government
+					}
+				}
+			}
+			holder_scope = {
+				NOT = { 
+					has_character_modifier = uncrowned_modifier
+				}
+			}
+			prestige = 250
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+			}
+			hidden_tooltip = {
+				revoke_law = kingdom_lockout_0
+				revoke_law = kingdom_lockout_1
+			}
+		}
+
+		vassal_opinion = -5
+	}
+}

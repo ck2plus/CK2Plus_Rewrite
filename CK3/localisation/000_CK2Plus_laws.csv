@@ -1,0 +1,170 @@
+#Laws
+#####
+
+kingdom_lockout_group;Kingdom Lockout Laws;x
+kingdom_lockout_group_desc;In some lands, the titles that can be assumed by a vassal--even at the behest of their liege--are greatly restricted. While this prevents any single vassal from gaining too much power, it does have the drawback of making large realms a bit more difficult to govern.;In some lands, the titles that can be assumed by a vassal--even at the behest of their liege--are greatly restricted. While this prevents any single vassal from gaining too much power, it does have the drawback of making large realms a bit more difficult to govern.;In some lands, the titles that can be assumed by a vassal--even at the behest of their liege--are greatly restricted. While this prevents any single vassal from gaining too much power, it does have the drawback of making large realms a bit more difficult to govern.;;In some lands, the titles that can be assumed by a vassal--even at the behest of their liege--are greatly restricted. While this prevents any single vassal from gaining too much power, it does have the drawback of making large realms a bit more difficult to govern.;x
+kingdom_lockout_0;No Vassal Kings;x
+kingdom_lockout_0_desc;Kingdom-tier titles cannot be created in the realm, either by the liege or by the vassal, except in very specific cases.;x
+kingdom_lockout_0_option;None;x
+kingdom_lockout_1;Vassals and Liege;x
+kingdom_lockout_1_desc;Titles of all tiers may be created, by anyone.;x
+kingdom_lockout_1_option;Anyone;x
+kingdom_lockout_2;Liege Only;x
+kingdom_lockout_2_desc;Kingdom-tier titles can only be created by the top liege.;x
+kingdom_lockout_2_option;Liege;x
+
+feudal_focus;Feudal Focus;x
+feudal_focus_desc;Feudal Focus changes the composition of their obligations to you.;x
+feudal_focus_0;Highly Levy Oriented Feudal Focus;x
+feudal_focus_0_desc;Feudal Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to a major extent.;x
+feudal_focus_1;Moderately Levy Oriented Feudal Focus;x
+feudal_focus_1_desc;Feudal Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to some extent.;x
+feudal_focus_2;Balanced Feudal Focus;x
+feudal_focus_2_desc;Feudal Focus changes the composition of their obligations to you. At this level  you would not be focusing on any area.;x
+feudal_focus_3;Moderately Tax Oriented Feudal Focus;x
+feudal_focus_3_desc;Feudal Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to some extent.;x
+feudal_focus_4;Highly Tax Oriented Feudal Focus;x
+feudal_focus_4_desc;Feudal Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to a major extent.;x
+
+feudal_obligations;Feudal Obligations;x
+feudal_obligations_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies.;x
+feudal_obligations_0;Minimal Feudal Obligations;x
+feudal_obligations_0_option;Min;x
+feudal_obligations_0_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will not provide you anything beyond what the slider dictates.;x
+feudal_obligations_1;Low Feudal Obligations;x
+feudal_obligations_1_option;Low;x
+feudal_obligations_1_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a bit more than what the sliders dictate.;x
+feudal_obligations_2;Medium Feudal Obligations;x
+feudal_obligations_2_option;Medium;x
+feudal_obligations_2_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a moderate amount more than what the sliders dictate.;x
+feudal_obligations_3;High Feudal Obligations;x
+feudal_obligations_3_option;High;x
+feudal_obligations_3_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a lot more than what the sliders dictate.;x
+feudal_obligations_4;Harsh Feudal Obligations;x
+feudal_obligations_4_option;Harsh;x
+feudal_obligations_4_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you much more than what the sliders dictate.;x
+
+city_focus;Burgher Focus;x
+city_focus_desc;Burgher Focus changes the composition of their obligations to you.;x
+city_focus_0;Highly Levy Oriented Burgher Focus;x
+city_focus_0_desc;Burgher Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to a major extent.;x
+city_focus_1;Moderately Levy Oriented Burgher Focus;x
+city_focus_1_desc;Burgher Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to some extent.;x
+city_focus_2;Balanced Burgher Focus;x
+city_focus_2_desc;Burgher Focus changes the composition of their obligations to you. At this level  you would not be focusing on any area.;x
+city_focus_3;Moderately Tax Oriented Burgher Focus;x
+city_focus_3_desc;Burgher Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to some extent.;x
+city_focus_4;Highly Tax Oriented Burgher Focus;x
+city_focus_4_desc;Burgher Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to a major extent.;x
+
+city_obligations;Burgher Obligations;x
+city_obligations_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies.;x
+city_obligations_0;Minimal Burgher Obligations;x
+city_obligations_0_option;Min;x
+city_obligations_0_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will not provide you anything beyond what the slider dictates.;x
+city_obligations_1;Low Burgher Obligations;x
+city_obligations_1_option;Low;x
+city_obligations_1_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a bit more than what the sliders dictate.;x
+city_obligations_2;Medium Burgher Obligations;x
+city_obligations_2_option;Medium;x
+city_obligations_2_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a moderate amount more than what the sliders dictate.;x
+city_obligations_3;High Burgher Obligations;x
+city_obligations_3_option;High;x
+city_obligations_3_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a lot more than what the sliders dictate.;x
+city_obligations_4;Harsh Burgher Obligations;x
+city_obligations_4_option;Harsh;x
+city_obligations_4_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you much more than what the sliders dictate.;x
+
+temple_focus;Clergy Focus;x
+temple_focus_desc;Clergy Focus changes the composition of their obligations to you.;x
+temple_focus_0;Highly Levy Oriented Clergy Focus;x
+temple_focus_0_desc;Clergy Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to a major extent.;x
+temple_focus_1;Moderately Levy Oriented Clergy Focus;x
+temple_focus_1_desc;Clergy Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to some extent.;x
+temple_focus_2;Balanced Clergy Focus;x
+temple_focus_2_desc;Clergy Focus changes the composition of their obligations to you. At this level  you would not be focusing on any area.;x
+temple_focus_3;Moderately Tax Oriented Clergy Focus;;x
+temple_focus_3_desc;Clergy Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to some extent.;x
+temple_focus_4;Highly Tax Oriented Clergy Focus;x
+temple_focus_4_desc;Clergy Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to a major extent.;x
+
+temple_obligations;Clergy Obligations;x
+temple_obligations_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies.;x
+temple_obligations_0;Minimal Clergy Obligations;x
+temple_obligations_0_option;Min;x
+temple_obligations_0_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will not provide you anything beyond what the slider dictates.;x
+temple_obligations_1;Low Clergy Obligations;x
+temple_obligations_1_option;Low;x
+temple_obligations_1_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a bit more than what the sliders dictate.;x
+temple_obligations_2;Medium Clergy Obligations;x
+temple_obligations_2_option;Medium;x
+temple_obligations_2_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a moderate amount more than what the sliders dictate.;x
+temple_obligations_3;High Clergy Obligations;x
+temple_obligations_3_option;High;x
+temple_obligations_3_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a lot more than what the sliders dictate.;x
+temple_obligations_4;Harsh Clergy Obligations;x
+temple_obligations_4_option;Harsh;x
+temple_obligations_4_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you much more than what the sliders dictate.;x
+
+iqta_focus;Iqta Focus;x
+iqta_focus_desc;Iqta Focus changes the composition of their obligations to you.;x
+iqta_focus_0;Highly Levy Oriented Iqta Focus;x
+iqta_focus_0_desc;Iqta Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to a major extent.;x
+iqta_focus_1;Moderately Levy Oriented Iqta Focus;x
+iqta_focus_1_desc;Iqta Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to some extent.;x
+iqta_focus_2;Balanced Iqta Focus;x
+iqta_focus_2_desc;Iqta Focus changes the composition of their obligations to you. At this level  you would not be focusing on any area.;x
+iqta_focus_3;Moderately Tax Oriented Iqta Focus;x
+iqta_focus_3_desc;Iqta Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to some extent.;x
+iqta_focus_4;Highly Tax Oriented Iqta Focus;x
+iqta_focus_4_desc;Iqta Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to a major extent.;x
+
+iqta_obligations;Iqta Obligations;x
+iqta_obligations_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies.;x
+iqta_obligations_0;Minimal Iqta Obligations;x
+iqta_obligations_0_option;Min;x
+iqta_obligations_0_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will not provide you anything beyond what the slider dictates.;x
+iqta_obligations_1;Low Iqta Obligations;x
+iqta_obligations_1_option;Low;x
+iqta_obligations_1_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a bit more than what the sliders dictate.;x
+iqta_obligations_2;Medium;x
+iqta_obligations_2_option;Medium Iqta Obligations;x
+iqta_obligations_2_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a moderate amount more than what the sliders dictate.;x
+iqta_obligations_3;High Iqta Obligations;x
+iqta_obligations_3_option;High;x
+iqta_obligations_3_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a lot more than what the sliders dictate.;x
+iqta_obligations_4;Harsh Iqta Obligations;x
+iqta_obligations_4_option;Harsh;x
+iqta_obligations_4_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you much more than what the sliders dictate.;x
+
+tribal_focus;Tribal Focus;x
+tribal_focus_desc;Tribal Focus changes the composition of their obligations to you.;x
+tribal_focus_0;Highly Levy Oriented Tribal Focus;x
+tribal_focus_0_desc;Tribal Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to a major extent.;x
+tribal_focus_1;Moderately Levy Oriented Tribal Focus;x
+tribal_focus_1_desc;Tribal Focus changes the composition of their obligations to you. At this level you would be forgoing tax for the sake of levies to some extent.;x
+tribal_focus_2;Balanced Tribal Focus;x
+tribal_focus_2_desc;Tribal Focus changes the composition of their obligations to you. At this level you would not be focusing on any area.;;;;;;;;;;;;;x
+tribal_focus_3;Moderately Tax Oriented Tribal Focus;x
+tribal_focus_3_desc;Tribal Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to some extent.;x
+tribal_focus_4;Highly Tax Oriented Tribal Focus;x
+tribal_focus_4_desc;Tribal Focus changes the composition of their obligations to you. At this level you would be forgoing levies for the sake of tax to a major extent.;x
+
+tribal_obligations;Tribal Obligations;x
+tribal_obligations_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies.;x
+tribal_obligations_0;Minimal Tribal Obligations;x
+tribal_obligations_0_option;Min;x
+tribal_obligations_0_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will not provide you anything beyond what the slider dictates.;x
+tribal_obligations_1;Low Tribal Obligations;x
+tribal_obligations_1_option;Low;x
+tribal_obligations_1_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a bit more than what the sliders dictate.;x
+tribal_obligations_2;Medium Tribal Obligations;x
+tribal_obligations_2_option;Medium;x
+tribal_obligations_2_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a moderate amount more than what the sliders dictate.;x
+tribal_obligations_3;High Tribal Obligations;x
+tribal_obligations_3_option;High;x
+tribal_obligations_3_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you a lot more than what the sliders dictate.;x
+tribal_obligations_4;Harsh Tribal Obligations;x
+tribal_obligations_4_option;Harsh;x
+tribal_obligations_4_desc;Obligations determine how much your vassals of that type have to provide to you, increasing both tax and levies. At this level they will provide you much more than what the sliders dictate.;x
+#€
