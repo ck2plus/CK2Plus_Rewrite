@@ -13,8 +13,8 @@ succession_laws = {
 			is_primary_type_title = no
 			holder_scope = {
 				OR = {
-					is_feudal = yes 
-					is_tribal = yes 
+					is_feudal = yes
+					is_tribal = yes
 				}
 				OR = {
 					independent = yes
@@ -31,10 +31,10 @@ succession_laws = {
 					has_landed_title = e_hre
 					has_landed_title = e_byzantium
 					has_landed_title = e_roman_empire
-					government = confucian_bureaucracy 
-					religion_group = muslim 
+					government = confucian_bureaucracy
+					religion_group = muslim
 				}
-			}				
+			}
 		}
 
 		allow = {
@@ -52,14 +52,16 @@ succession_laws = {
 					OR = {
 						has_law = tribal_organization_3
 						has_law = tribal_organization_4
-					}							
+					}
 				}
 				conditional_tooltip = {
 					trigger = {
 						is_tribal = no
 					}
 					OR = {
-						has_crown_law_title = no
+						hidden_tooltip = {
+							has_crown_law_title = no
+						}
 						crownlaw_title = {
 							OR = {
 								has_law = crown_authority_1
@@ -73,7 +75,7 @@ succession_laws = {
 				custom_tooltip = {
 					text = not_forced_tt
 					hidden_tooltip = {
-						holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+						NOT = { has_character_flag = liege_forced_succ_law }
 					}
 				}
 			}
@@ -89,10 +91,6 @@ succession_laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-		
 		child_opinion = 30
 		oldest_child_opinion = -45
 	}
@@ -114,8 +112,8 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = { 
-					religion_group = muslim 
+				NOR = {
+					religion_group = muslim
 					government = confucian_bureaucracy
 					government = chinese_imperial_government
 				}
@@ -144,17 +142,13 @@ succession_laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
 		dynasty_opinion = 5
 		vassal_opinion = 5
 		oldest_child_opinion = -15
 	}
 
 	#Eldership
-	succ_eldership = {	
+	succ_eldership = {
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -176,8 +170,8 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = { 
-					religion_group = muslim 
+				NOR = {
+					religion_group = muslim
 					government = confucian_bureaucracy
 					government = chinese_imperial_government
 					has_religion_feature = religion_matriarchal
@@ -200,13 +194,13 @@ succession_laws = {
 				has_law = tribal_organization_2
 				has_law = tribal_organization_3
 				has_law = tribal_organization_4
-			}	
+			}
 			custom_tooltip = {
 				text = not_forced_tt
 				hidden_tooltip = {
 					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
 				}
-			}						
+			}
 		}
 
 		effect = {
@@ -223,15 +217,11 @@ succession_laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-		
 		dynasty_opinion = 10
 		vassal_opinion = 5
 		child_opinion = -30
 	}
-	
+
 	#Seniority
 	succ_seniority = {
 		potential = {
@@ -241,11 +231,11 @@ succession_laws = {
 				is_patrician = yes
 				OR = {
 					is_patrician = yes
-                    NOR = {
+					NOR = {
 						religion_group = muslim
-						religion_group = indian_group 
+						religion_group = indian_group
 					}
-                }	
+				}
 				OR = {
 					independent = yes
 					NOR = {
@@ -256,16 +246,16 @@ succession_laws = {
 							is_vice_royalty = yes
 						}
 					}
-				}			
+				}
 				NOR = {
 					has_landed_title = e_hre
 					has_landed_title = e_byzantium
 					has_landed_title = e_roman_empire
-					government = confucian_bureaucracy	
+					government = confucian_bureaucracy
 				}
 			}
 		}
-		
+
 		allow = {
 			has_law = succession_voting_power_0
 			custom_tooltip = {
@@ -275,25 +265,21 @@ succession_laws = {
 				}
 			}
 		}
-		
+
 		effect = {
 			succession = seniority
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-		
 		dynasty_opinion = 15
 		child_opinion = -30
 	}
-	
+
 	#Primogeniture
 	succ_primogeniture = {
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
-				is_feudal = yes 
+				is_feudal = yes
 				OR = {
 					independent = yes
 					NOR = {
@@ -305,12 +291,12 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = { 
+				NOR = {
 					has_landed_title = e_hre
 					has_landed_title = e_byzantium
 					has_landed_title = e_roman_empire
 					religion_group = muslim
-					government = confucian_bureaucracy 
+					government = confucian_bureaucracy
 				}
 			}
 		}
@@ -325,11 +311,13 @@ succession_laws = {
 				prestige = 250
 			}
 			OR = {
-				has_law = late_feudal_administration
+				has_law = ze_administration_laws_1
 				has_law = imperial_administration
 			}
 			OR = {
-				has_crown_law_title = no
+				hidden_tooltip = {
+					has_crown_law_title = no
+				}
 				crownlaw_title = {
 					OR = {
 						has_law	= crown_authority_3
@@ -344,7 +332,7 @@ succession_laws = {
 				}
 			}
 		}
-		
+
 		effect = {
 			succession = primogeniture
 			if = {
@@ -355,20 +343,16 @@ succession_laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}	
-		
 		oldest_child_opinion = 45
 		child_opinion = -30
 	}
-	
+
 	#Feudal Elective
 	succ_feudal_elective = {
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
-				is_feudal = yes 
+				is_feudal = yes
 				OR = {
 					independent = yes
 					NOR = {
@@ -388,7 +372,7 @@ succession_laws = {
 					religion_group = indian_group
 					government = confucian_bureaucracy
 					government = chinese_imperial_government
-				}	
+				}
 			}
 		}
 
@@ -415,10 +399,6 @@ succession_laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-		
 		vassal_opinion = 15
 		dynasty_opinion = -5
 		child_opinion = -20
@@ -441,14 +421,14 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = { 
+				NOR = {
 					has_landed_title = e_byzantium
 					has_landed_title = e_roman_empire
 					religion_group = muslim
 					religion_group = indian_group
 					government = confucian_bureaucracy
 					government = chinese_imperial_government
-				}				
+				}
 			}
 		}
 
@@ -483,15 +463,11 @@ succession_laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-		
 		vassal_opinion = 15
 		dynasty_opinion = -10
 		child_opinion = -10
 	}
-	
+
 	#Byzantine Elective
 	succ_byzantine_elective = {
 		potential = {
@@ -509,13 +485,13 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = { 
+				NOR = {
 					has_landed_title = e_hre
 					religion_group = muslim
 					government = confucian_bureaucracy
 					government = chinese_imperial_government
-				}				
-			}			
+				}
+			}
 		}
 
 		allow = {
@@ -549,10 +525,6 @@ succession_laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-		
 		vassal_opinion = 10
 		dynasty_opinion = -5
 		child_opinion = -10
@@ -580,8 +552,8 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = { 
-					religion_group = muslim 
+				NOR = {
+					religion_group = muslim
 					government = confucian_bureaucracy
 					government = chinese_imperial_government
 				}
@@ -613,7 +585,7 @@ succession_laws = {
 					has_law = tribal_organization_2
 					has_law = tribal_organization_3
 					has_law = tribal_organization_4
-				}	
+				}
 			}
 			conditional_tooltip = {
 				trigger = {
@@ -622,7 +594,9 @@ succession_laws = {
 					}
 				}
 				OR = {
-					has_crown_law_title = no
+					hidden_tooltip = {
+						has_crown_law_title = no
+					}
 					crownlaw_title = {
 						OR = {
 							has_law = crown_authority_2
@@ -647,15 +621,11 @@ succession_laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}	
-		
 		dynasty_opinion = 5
 		vassal_opinion = 10
 		child_opinion = -30
 	}
-	
+
 	#Ultimogeniture
 	succ_ultimogeniture = {
 		potential = {
@@ -673,11 +643,11 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = { 
+				NOR = {
 					has_landed_title = e_hre
 					has_landed_title = e_byzantium
 					has_landed_title = e_roman_empire
-					religion_group = muslim 
+					religion_group = muslim
 					government = confucian_bureaucracy
 				}
 			}
@@ -693,11 +663,13 @@ succession_laws = {
 				prestige = 250
 			}
 			OR = {
-				has_law = late_feudal_administration
+				has_law = ze_administration_laws_1
 				has_law = imperial_administration
 			}
 			OR = {
-				has_crown_law_title = no
+				hidden_tooltip = {
+					has_crown_law_title = no
+				}
 				crownlaw_title = {
 					OR = {
 						has_law = crown_authority_2
@@ -713,7 +685,7 @@ succession_laws = {
 				}
 			}
 		}
-		
+
 		effect = {
 			succession = ultimogeniture
 			if = {
@@ -722,10 +694,6 @@ succession_laws = {
 				}
 				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
 			}
-		}
-
-		revoke_allowed = {
-			always = no
 		}
 
 		youngest_child_opinion = 45
@@ -759,7 +727,7 @@ succession_laws = {
 						}
 					}
 				}
-				NOR = { 
+				NOR = {
 					has_landed_title = e_hre
 					has_landed_title = e_byzantium
 					has_landed_title = e_roman_empire
@@ -782,10 +750,6 @@ succession_laws = {
 			succession = turkish_succession
 		}
 
-		revoke_allowed = {
-			always = no
-		}	
-		
 		dynasty_opinion = 5
 		child_opinion = -10
 	}
@@ -797,8 +761,8 @@ succession_laws = {
 				OR = {
 					has_landed_title = k_papal_state
 					AND = {
-						title = d_celtic_pagan_reformed
-						holder_scope = { has_religion_feature = religion_theocratic_head }
+						has_landed_title = d_celtic_pagan_reformed
+						has_religion_feature = religion_theocratic_head
 					}
 					has_landed_title = d_fraticelli
 				}
@@ -806,16 +770,12 @@ succession_laws = {
 		}
 
 		allow = {}
-		
+
 		effect = {
 			succession = papal_succession
 		}
-
-		revoke_allowed = {
-			always = no
-		}		
 	}
-	
+
 	#Appointment
 	succ_appointment = {
 		potential = {
@@ -833,15 +793,11 @@ succession_laws = {
 		effect = {
 			succession = appointment
 		}
-
-		revoke_allowed = {
-			always = no
-		}		
 	}
-	
+
 	#Open Elective
 	succ_open_elective = {
-		potential = {		
+		potential = {
 			holder_scope = {
 				OR = {
 					AND = {
@@ -863,20 +819,16 @@ succession_laws = {
 		}
 
 		allow = {}
-		
+
 		effect = {
 			succession = open_elective
-		}
-
-		revoke_allowed = {
-			always = no
 		}
 	}
 
 	#Catholic Bishopric
 	succ_catholic_bishopric = {
 		potential = {
-			is_primary_type_title = no		
+			is_primary_type_title = no
 			holder_scope = {
 				is_theocracy = yes
 				OR = {
@@ -908,12 +860,8 @@ succession_laws = {
 		effect = {
 			succession = catholic_bishopric
 		}
-
-		revoke_allowed = {
-			always = no
-		}			
 	}
-	
+
 	#Patrician Elective
 	succ_patrician_elective = {
 		potential = {
@@ -938,10 +886,6 @@ succession_laws = {
 		effect = {
 			succession = patrician_elective
 		}
-
-		revoke_allowed = {
-			always = no
-		}			
 	}
 
 	#Nomad
@@ -958,21 +902,17 @@ succession_laws = {
 
 		allow = {}
 
-		revoke_allowed = {
-			always = no
-		}
-		
 		dynasty_opinion = 5
 		vassal_opinion = 5
 		child_opinion = -20
 	}
-	
+
 	#Chinese
 	succ_offmap_succession = {
 		potential = {
 			holder_scope = {
-				top_liege = { 
-					is_offmap_governor = yes 
+				top_liege = {
+					is_offmap_governor = yes
 				}
 				government = confucian_bureaucracy
 			}
@@ -983,10 +923,6 @@ succession_laws = {
 		}
 
 		allow = {}
-
-		revoke_allowed = {
-			always = no
-		}			
 	}
 }
 
@@ -994,11 +930,11 @@ succession_laws = {
 #####
 gender_laws = {
 	#Agnatic
-	agnatic_succession = {	
+	agnatic_succession = {
 		default = yes
 
 		potential = {
-			holder_scope = { 
+			holder_scope = {
 				OR = {
 					AND = {
 						has_dlc = "Zeus"
@@ -1014,7 +950,7 @@ gender_laws = {
 					NOT = {
 						has_dlc = "Zeus"
 					}
-				} 
+				}
 				NOR = {
 					has_religion_feature = religion_matriarchal
 					has_religion_feature = religion_equal
@@ -1037,14 +973,10 @@ gender_laws = {
 						has_dlc = "Zeus"
 					}
 				}
-				custom_tooltip = { text = disallow_matri_marriage }
+				custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_OFF }
 				law_set_allow_matrilineal_marriage = no
 			}
 			gender_succ = agnatic
-		}
-
-		revoke_allowed = {
-			always = no
 		}
 
 		male_dynasty_opinion = 5
@@ -1063,8 +995,9 @@ gender_laws = {
 					AND = {
 						has_dlc = "Zeus"
 						OR = {
-							has_law = status_of_women_1
 							has_law = status_of_women_2
+							has_law = status_of_women_3
+							has_law = status_of_women_4
 						}
 						OR = {
 							has_game_rule = {
@@ -1080,11 +1013,11 @@ gender_laws = {
 					NOT = {
 						has_dlc = "Zeus"
 					}
-				} 
+				}
 				NOR = {
 					has_religion_feature = religion_matriarchal
 					has_religion_feature = religion_equal
-					religion_group = muslim 
+					religion_group = muslim
 					religion = aztec
 					any_liege = {
 						holy_order = yes
@@ -1094,7 +1027,7 @@ gender_laws = {
 		}
 
 		allow = {}
-		
+
 		effect = {
 			if = {
 				limit = {
@@ -1108,20 +1041,16 @@ gender_laws = {
 						has_dlc = "Zeus"
 					}
 				}
-				custom_tooltip = { text = allow_matri_marriage }
+				custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 				law_set_allow_matrilineal_marriage = yes
 			}
 			gender_succ = cognatic
 		}
-
-		revoke_allowed = {
-			always = no
-		}	
 	}
 
 	#True Cognatic
 	true_cognatic_succession = {
-		potential = { 
+		potential = {
 			is_primary_type_title = no
 			holder_scope = {
 				is_patrician = no
@@ -1131,8 +1060,10 @@ gender_laws = {
 					AND = {
 						has_dlc = "Zeus"
 						OR = {
+							has_law = status_of_women_1
 							has_law = status_of_women_2
 							has_law = status_of_women_3
+							has_law = status_of_women_4
 						}
 						OR = {
 							has_game_rule = {
@@ -1149,19 +1080,19 @@ gender_laws = {
 						has_dlc = "Zeus"
 					}
 				}
-				OR = { 
+				OR = {
 					has_religion_feature = religion_equal
 					has_religion_feature = religion_feature_bon
-					NOR = { 
-						has_religion_feature = religion_matriarchal 
+					NOR = {
+						has_religion_feature = religion_matriarchal
 						has_religion_feature = religion_patriarchal
-						religion_group = muslim 
+						religion_group = muslim
 						religion = aztec
 						any_liege = {
 							holy_order = yes
 						}
 					}
-				} 
+				}
 			}
 		}
 
@@ -1180,14 +1111,10 @@ gender_laws = {
 						has_dlc = "Zeus"
 					}
 				}
-				custom_tooltip = { text = allow_matri_marriage }
+				custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 				law_set_allow_matrilineal_marriage = yes
 			}
 			gender_succ = true_cognatic
-		}
-
-		revoke_allowed = {
-			always = no
 		}
 	}
 
@@ -1216,25 +1143,21 @@ gender_laws = {
 								name = gender
 								value = all
 							}
-							has_game_rule = {
-								name = gender
-								value = plus
-							}
 						}
 					}
 					NOT = {
 						has_dlc = "Zeus"
 					}
-				} 
+				}
 				OR = {
 					has_religion_feature = religion_matriarchal
 					any_owned_bloodline = {
-						has_bloodline_flag = bloodline_enatic_cognatic 
+						has_bloodline_flag = bloodline_enatic_cognatic
 					}
 					NOR = {
 						has_religion_feature = religion_equal
 						has_religion_feature = religion_patriarchal
-						religion_group = muslim 
+						religion_group = muslim
 						religion = aztec
 						any_liege = {
 							holy_order = yes
@@ -1259,15 +1182,11 @@ gender_laws = {
 						has_dlc = "Zeus"
 					}
 				}
-				custom_tooltip = { text = allow_matri_marriage }
+				custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 				law_set_allow_matrilineal_marriage = yes
 			}
 			gender_succ = enatic_cognatic
 		}
-
-		revoke_allowed = {
-			always = no
-		}	
 	}
 
 	#Enatic
@@ -1292,22 +1211,18 @@ gender_laws = {
 								name = gender
 								value = all
 							}
-							has_game_rule = {
-								name = gender
-								value = plus
-							}
 						}
 					}
 					NOT = {
 						has_dlc = "Zeus"
 					}
-				}  
+				}
 				OR = {
-					has_religion_feature = religion_matriarchal 
+					has_religion_feature = religion_matriarchal
 					NOR = {
 						has_religion_feature = religion_equal
 						has_religion_feature = religion_patriarchal
-						religion_group = muslim 
+						religion_group = muslim
 						religion = aztec
 						any_liege = {
 							holy_order = yes
@@ -1332,17 +1247,13 @@ gender_laws = {
 						has_dlc = "Zeus"
 					}
 				}
-				custom_tooltip = { text = allow_matri_marriage }
+				custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 				law_set_allow_matrilineal_marriage = yes
 			}
 			gender_succ = enatic
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		female_dynasty_opinion = 5	
+		female_dynasty_opinion = 5
 		male_dynasty_opinion = -5
 	}
 }

@@ -78,8 +78,8 @@
 # 133 - Sun   	            - 134
 #####
 
-#Abbandoned Faction
-plus_faction_abbandoned = {
+#Abandoned Faction
+plus_faction_abandoned = {
 	icon = 27
 	monthly_character_prestige = -0.1
 }

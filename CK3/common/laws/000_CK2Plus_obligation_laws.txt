@@ -107,14 +107,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -128,7 +120,7 @@ laws = {
 				revoke_law = feudal_focus_4
 			}
 		}
-		
+
 		castle_vassal_max_levy = 0.2
 	}
 	#Feudal Slider 1
@@ -157,14 +149,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -178,7 +162,7 @@ laws = {
 				revoke_law = feudal_focus_4
 			}
 		}
-		
+
 		castle_vassal_max_levy = 0.1
 		castle_vassal_tax_modifier = 0.05
 	}
@@ -205,14 +189,6 @@ laws = {
 				has_law = feudal_focus_1
 				has_law = feudal_focus_3
 			}
-		}
-
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		ai_will_do = {
@@ -257,14 +233,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -278,7 +246,7 @@ laws = {
 				revoke_law = feudal_focus_4
 			}
 		}
-		
+
 		castle_vassal_max_levy = -0.1
 		castle_vassal_tax_modifier = 0.15
 	}
@@ -305,14 +273,6 @@ laws = {
 			has_law = feudal_focus_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -326,7 +286,7 @@ laws = {
 				revoke_law = feudal_focus_4
 			}
 		}
-		
+
 		castle_vassal_max_levy = -0.2
 		castle_vassal_tax_modifier = 0.2
 	}
@@ -365,14 +325,6 @@ laws = {
 					}
 				}
 			}
-		}
-
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		ai_will_do = {
@@ -417,14 +369,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -442,7 +386,7 @@ laws = {
 				revoke_law = feudal_obligations_4
 			}
 		}
-		
+
 		castle_vassal_min_levy = 0.1
 		castle_vassal_tax_modifier = 0.1
 	}
@@ -471,14 +415,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -496,7 +432,7 @@ laws = {
 				revoke_law = feudal_obligations_4
 			}
 		}
-		
+
 		castle_vassal_min_levy = 0.2
 		castle_vassal_tax_modifier = 0.2
 		feudal_opinion = -5
@@ -526,14 +462,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -551,7 +479,7 @@ laws = {
 				revoke_law = feudal_obligations_4
 			}
 		}
-		
+
 		castle_vassal_min_levy = 0.3
 		castle_vassal_tax_modifier = 0.3
 		feudal_opinion = -10
@@ -578,14 +506,6 @@ laws = {
 			has_law = feudal_obligations_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -599,7 +519,7 @@ laws = {
 				revoke_law = feudal_obligations_4
 			}
 		}
-		
+
 		castle_vassal_min_levy = 0.4
 		castle_vassal_tax_modifier = 0.4
 		feudal_opinion = -15
@@ -627,14 +547,6 @@ laws = {
 			has_law = temple_focus_1
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -648,7 +560,7 @@ laws = {
 				revoke_law = temple_focus_4
 			}
 		}
-		
+
 		temple_vassal_max_levy = 0.2
 	}
 	#Temple Slider 1
@@ -676,14 +588,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -697,7 +601,7 @@ laws = {
 				revoke_law = temple_focus_4
 			}
 		}
-		
+
 		temple_vassal_max_levy = 0.1
 		temple_vassal_tax_modifier = 0.05
 	}
@@ -736,14 +640,6 @@ laws = {
 					}
 				}
 			}
-		}
-
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		ai_will_do = {
@@ -788,14 +684,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -809,7 +697,7 @@ laws = {
 				revoke_law = temple_focus_4
 			}
 		}
-		
+
 		temple_vassal_max_levy = -0.1
 		temple_vassal_tax_modifier = 0.15
 	}
@@ -835,14 +723,6 @@ laws = {
 			has_law = temple_focus_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -856,7 +736,7 @@ laws = {
 				revoke_law = temple_focus_4
 			}
 		}
-		
+
 		temple_vassal_max_levy = -0.2
 		temple_vassal_tax_modifier = 0.2
 	}
@@ -897,14 +777,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -918,7 +790,7 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-		
+
 		temple_opinion = 5
 	}
 	#Temple Obligations 1
@@ -947,14 +819,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -972,7 +836,7 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-		
+
 		temple_vassal_min_levy = 0.1
 		temple_vassal_tax_modifier = 0.1
 	}
@@ -1001,14 +865,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1026,7 +882,7 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-		
+
 		temple_vassal_min_levy = 0.2
 		temple_vassal_tax_modifier = 0.2
 		temple_opinion = -5
@@ -1056,14 +912,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1081,7 +929,7 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-		
+
 		temple_vassal_min_levy = 0.3
 		temple_vassal_tax_modifier = 0.3
 		temple_opinion = -10
@@ -1108,14 +956,6 @@ laws = {
 			has_law = temple_obligations_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -1129,7 +969,7 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-		
+
 		temple_vassal_min_levy = 0.4
 		temple_vassal_tax_modifier = 0.4
 		temple_opinion = -15
@@ -1156,14 +996,6 @@ laws = {
 			has_law = city_focus_1
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1177,7 +1009,7 @@ laws = {
 				revoke_law = city_focus_4
 			}
 		}
-		
+
 		city_vassal_max_levy = 0.2
 	}
 	#City Slider 1
@@ -1204,14 +1036,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1225,7 +1049,7 @@ laws = {
 				revoke_law = city_focus_4
 			}
 		}
-		
+
 		city_vassal_max_levy = 0.1
 		city_vassal_tax_modifier = 0.05
 	}
@@ -1251,14 +1075,6 @@ laws = {
 				has_law = city_focus_1
 				has_law = city_focus_3
 			}
-		}
-
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		ai_will_do = {
@@ -1313,14 +1129,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1334,7 +1142,7 @@ laws = {
 				revoke_law = city_focus_4
 			}
 		}
-		
+
 		city_vassal_max_levy = -0.1
 		city_vassal_tax_modifier = 0.15
 	}
@@ -1360,14 +1168,6 @@ laws = {
 			has_law = city_focus_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1381,7 +1181,7 @@ laws = {
 				revoke_law = city_focus_4
 			}
 		}
-		
+
 		city_vassal_max_levy = -0.2
 		city_vassal_tax_modifier = 0.2
 	}
@@ -1421,14 +1221,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1442,7 +1234,7 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-		
+
 		city_opinion = 5
 	}
 	#City Obligations 1
@@ -1470,14 +1262,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1495,7 +1279,7 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-		
+
 		city_vassal_min_levy = 0.1
 		city_vassal_tax_modifier = 0.1
 	}
@@ -1523,14 +1307,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1548,7 +1324,7 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-		
+
 		city_vassal_min_levy = 0.2
 		city_vassal_tax_modifier = 0.2
 		city_opinion = -5
@@ -1577,14 +1353,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1602,7 +1370,7 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-		
+
 		city_vassal_min_levy = 0.3
 		city_vassal_tax_modifier = 0.3
 		city_opinion = -10
@@ -1628,14 +1396,6 @@ laws = {
 			has_law = city_obligations_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -1649,7 +1409,7 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-		
+
 		city_vassal_min_levy = 0.4
 		city_vassal_tax_modifier = 0.4
 		city_opinion = -15
@@ -1677,14 +1437,6 @@ laws = {
 			has_law = iqta_focus_1
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1698,7 +1450,7 @@ laws = {
 				revoke_law = iqta_focus_4
 			}
 		}
-		
+
 		castle_vassal_max_levy = 0.2
 	}
 	#Itqa Slider 1
@@ -1726,14 +1478,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1747,7 +1491,7 @@ laws = {
 				revoke_law = iqta_focus_4
 			}
 		}
-		
+
 		castle_vassal_max_levy = 0.1
 		castle_vassal_tax_modifier = 0.05
 	}
@@ -1787,14 +1531,6 @@ laws = {
 					}
 				}
 			}
-		}
-
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		ai_will_do = {
@@ -1838,14 +1574,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1859,7 +1587,7 @@ laws = {
 				revoke_law = iqta_focus_4
 			}
 		}
-		
+
 		castle_vassal_max_levy = -0.1
 		castle_vassal_tax_modifier = 0.15
 	}
@@ -1885,14 +1613,6 @@ laws = {
 			has_law = iqta_focus_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1906,7 +1626,7 @@ laws = {
 				revoke_law = iqta_focus_4
 			}
 		}
-		
+
 		castle_vassal_max_levy = -0.2
 		castle_vassal_tax_modifier = 0.2
 	}
@@ -1933,14 +1653,6 @@ laws = {
 			has_law = iqta_obligations_1
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1954,7 +1666,7 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-		
+
 		feudal_opinion = 5
 	}
 	#Itqa Obligations 1
@@ -1995,14 +1707,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2020,7 +1724,7 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-		
+
 		castle_vassal_min_levy = 0.1
 		castle_vassal_tax_modifier = 0.1
 	}
@@ -2049,14 +1753,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2074,7 +1770,7 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-		
+
 		castle_vassal_min_levy = 0.2
 		castle_vassal_tax_modifier = 0.2
 		feudal_opinion = -5
@@ -2104,14 +1800,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2129,7 +1817,7 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-		
+
 		castle_vassal_min_levy = 0.3
 		castle_vassal_tax_modifier = 0.3
 		feudal_opinion = -10
@@ -2156,14 +1844,6 @@ laws = {
 			has_law = iqta_obligations_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -2177,7 +1857,7 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-		
+
 		castle_vassal_min_levy = 0.4
 		castle_vassal_tax_modifier = 0.4
 		feudal_opinion = -15
@@ -2223,14 +1903,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -2244,7 +1916,7 @@ laws = {
 				revoke_law = tribal_focus_4
 			}
 		}
-		
+
 		tribal_vassal_max_levy = 0.2
 	}
 	#Tribal Slider 1
@@ -2275,14 +1947,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -2296,7 +1960,7 @@ laws = {
 				revoke_law = tribal_focus_4
 			}
 		}
-		
+
 		tribal_vassal_max_levy = 0.1
 		tribal_vassal_tax_modifier = 0.05
 	}
@@ -2326,14 +1990,6 @@ laws = {
 				has_law = tribal_focus_1
 				has_law = tribal_focus_3
 			}
-		}
-
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		ai_will_do = {
@@ -2380,14 +2036,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -2401,7 +2049,7 @@ laws = {
 				revoke_law = tribal_focus_4
 			}
 		}
-		
+
 		tribal_vassal_max_levy = -0.1
 		tribal_vassal_tax_modifier = 0.15
 	}
@@ -2430,14 +2078,6 @@ laws = {
 			has_law = tribal_focus_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -2451,7 +2091,7 @@ laws = {
 				revoke_law = tribal_focus_4
 			}
 		}
-		
+
 		tribal_vassal_max_levy = -0.2
 		tribal_vassal_tax_modifier = 0.2
 	}
@@ -2495,14 +2135,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -2516,7 +2148,7 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-		
+
 		tribal_opinion = 5
 	}
 	#Tribal Obligations 1
@@ -2548,14 +2180,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2573,7 +2197,7 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-		
+
 		tribal_vassal_min_levy = 0.1
 		tribal_vassal_tax_modifier = 0.1
 	}
@@ -2605,14 +2229,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2630,7 +2246,7 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-		
+
 		tribal_vassal_min_levy = 0.2
 		tribal_vassal_tax_modifier = 0.2
 		tribal_opinion = -5
@@ -2663,14 +2279,6 @@ laws = {
 			}
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2688,7 +2296,7 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-		
+
 		tribal_vassal_min_levy = 0.3
 		tribal_vassal_tax_modifier = 0.3
 		tribal_opinion = -10
@@ -2718,14 +2326,6 @@ laws = {
 			has_law = tribal_obligations_3
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -2739,7 +2339,7 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-		
+
 		tribal_vassal_min_levy = 0.4
 		tribal_vassal_tax_modifier = 0.4
 		tribal_opinion = -15

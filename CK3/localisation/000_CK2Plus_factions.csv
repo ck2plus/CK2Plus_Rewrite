@@ -1,332 +1,332 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
 #Factions
 #####
 
 #Court Faction
-faction_court_title;Court Faction;x
-faction_court_desc;The §GCourt Faction§! strives for influence and vassal autonomy.;x
+faction_court_title;Court Faction;;;;;;;;;;;;;x
+faction_court_desc;The §GCourt Faction§! strives for influence and vassal autonomy.;;;;;;;;;;;;;x
 #Glory Faction
-faction_glory_title;Glory Faction;x
-faction_glory_desc;The §RGlory Faction§! strives for prestige and the spoils of war.;x
+faction_glory_title;Glory Faction;;;;;;;;;;;;;x
+faction_glory_desc;The §RGlory Faction§! strives for prestige and the spoils of war.;;;;;;;;;;;;;x
 #Order Faction
-faction_order_title;Order Faction;x
-faction_order_desc;The §BOrder Faction§! strives for justice and a stable society.;x
+faction_order_title;Order Faction;;;;;;;;;;;;;x
+faction_order_desc;The §BOrder Faction§! strives for justice and a stable society.;;;;;;;;;;;;;x
 #Prosperity Faction
-faction_prosperity_title;Prosperity Faction;x
-faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a healthy economy.;x
+faction_prosperity_title;Prosperity Faction;;;;;;;;;;;;;x
+faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a healthy economy.;;;;;;;;;;;;;x
 #Tradition Faction
-faction_tradition_title;Tradition Faction;x
-faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;x
-
+faction_tradition_title;Tradition Faction;;;;;;;;;;;;;x
+faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;;;;;;;;;;;;;x
 
 #EVENTS
 #####
-
-PlusFaction.1_title;[Root.GetFactionName] Faction Meeting;x
-PlusFaction.1_desc;It has been some time since the [Root.GetFactionName] faction got together to discuss the current state of the realm.  I wonder if I should schedule a meeting.;x
-PlusFaction.1_1;Send out the invitations.;x
-PlusFaction.1_2;I cannot be bothered with this right now.;x
-PlusFaction.2_title;[Root.GetFactionName] Faction Meeting;x
-PlusFaction.2_desc;My [Root.GetLordLady],\n\nIt has been quite some time since we met up to discuss the realm affairs.  A meeting is to be taken place at [From.Capital.GetName] in seven days.\n\nLooking forward to seeing you there,\n[From.GetTitledFirstName];x
-PlusFaction.2_1;Get the carriage ready.;x
-PlusFaction.2_2;I have more important things to do.;x
-PlusFaction.3_title;Court Faction Meeting.;x
-PlusFaction.3_desc;My [Root.GetLordLady],\n\nUnfortunately I will not be able to attend this week's [Root.GetFactionName] meeting due to unforseen circumstances.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.3_1;"Unforseen" circumstances uh?;x
-PlusFaction.4_title;[Root.GetFactionName] Faction Meeting;x
-PlusFaction.4_desc;The members have arrived and it is time for me to propose my agenda.;x
-PlusFaction.4_1;I will focus on myself...;x
-PlusFaction.4_2;I will focus on the faction...;x
-PlusFaction.4_3;I will focus on my liege...;x
-PlusFaction.4_4;I will focus on the realm...;x
-PlusFaction.5_title;Myself;x
-PlusFaction.5_desc;There is only one logical reason to conduct these meetings...to benefit myself.;x
-PlusFaction.5_1;I will ask for membership dues.;x
-PlusFaction.5_2;I will ask for advice.;x
-PlusFaction.5_3;I will ask for an artifact.;x
-PlusFaction.5_4;...maybe I should reflect on other options.;x
-PlusFaction.6_title;Faction;x
-PlusFaction.6_desc;The court faction must prevail against the other four.;x
-PlusFaction.6_1;I will strenghten our brotherhood.;x
-PlusFaction.6_2;I will have them come up with new inventions.;x
-PlusFaction.6_3;I will organize a raid on a faction.;x
-PlusFaction.6_4;...maybe I should reflect on other options.;x
-PlusFaction.7_title;Liege;x
-PlusFaction.7_desc;Our liege has been quite the topic lately.;x
-PlusFaction.7_1;I will rally support for [Root.Liege.GetHerHim].;x
-PlusFaction.7_2;I will have the faction keep a watchful eye for any enemies of the state.;x
-PlusFaction.7_3;I will try to make [Root.Liege.GetHerHim] disappear.;x
-PlusFaction.7_4;...maybe I should reflect on other options.;x
-PlusFaction.8_title;Realm;x
-PlusFaction.8_desc;It is up to us to see [Root.Liege.PrimaryTitle.GetName] prosper...or fail.;x
-PlusFaction.8_1;I will ask my liege for better infrastructure.;x
-PlusFaction.8_2;I will ask my liege to begin a construction inititative.;x
-PlusFaction.8_3;I will incite rebellions.;x
-PlusFaction.8_4;...maybe I should reflect on other options.;x
-PlusFaction.9_title;[Root.GetFactionName] Faction Meeting;x
-PlusFaction.9_desc;No one from the [Root.GetFactionName] faction has showed up.;x
-PlusFaction.9_1;Why did they even join?;x
-PlusFaction.10_title;Membership Dues;x
-PlusFaction.10_desc;[From.GetTitledFirstName] has informed the faction that the time to pay for membership priviliges is now due.;x
-PlusFaction.10_1;For the good of the faction I supposed.;x
-PlusFaction.10_2;Membership dues my arse!;x
-PlusFaction.11_title;Membership Dues;x
-PlusFaction.11_desc;The results are in and...;x
-PlusFaction.11_1;...most people were ok with it.;x
-PlusFaction.11_2;...I lost the vote and I will now stand trial.;x
-PlusFaction.12_title;Leadership in Jeopardy;x
-PlusFaction.12_desc;The [Root.GetFactionName] members believe that I am not fit to lead the faction and are now voting on whether I should retain my position or not.;x
-PlusFaction.12_1;The ungrateful scum.;x
-PlusFaction.13_title;Leadership in Jeopardy;x
-PlusFaction.13_desc;For some time the [Root.GetFactionName] members have wondered if [From.GetTitledFirstName] is really fit to lead this faction.  A vote of no confidence is now being called in order to sort this out.;x
-PlusFaction.13_1;[From.GetTitledFirstName] has to go.;x
-PlusFaction.13_2;[From.GetTitledFirstName] is not to blame.;x
-PlusFaction.14_title;Leadership in Jeopardy;x
-PlusFaction.14_desc;The results are in and...;x
-PlusFaction.14_1;I retained my position.;x
-PlusFaction.14_2;I lost my position.;x
-PlusFaction.15_title;Leadership in Jeopardy;x
-PlusFaction.15_desc_1;[From.GetTitledFirstName] retained [From.GetHerHis] position.;x
-PlusFaction.15_desc_2;[From.GetTitledFirstName] lost [From.GetHerHis] position.;x
-PlusFaction.15_1;Fair enough.;x
-PlusFaction.16_title;Membership Dues;x
-PlusFaction.16_desc_1;[From.GetTitledFirstName] received [From.GetHerHis] dues.;x
-PlusFaction.16_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;x
-PlusFaction.16_1;Ok.;x
-PlusFaction.17_title;Advice;x
-PlusFaction.17_desc;[From.GetTitledFirstName] has asked me for some advice.;x
-PlusFaction.17_1_1;I could teach [From.GetHerHim] how to be a better speaker.;x
-PlusFaction.17_1_2;I could teach [From.GetHerHim] how to seduce [From.GetBoyGirlOpp]s.;x
-PlusFaction.17_1_3;I could teach [From.GetHerHim] how to save money.;x
-PlusFaction.17_1_4;I could teach [From.GetHerHim] how to be a better fighter.;x
-PlusFaction.17_1_5;I could teach [From.GetHerHim] about the [Root.Religion.GetScriptureName].;x
-PlusFaction.17_2;There is nothing for me to teach [From.GetHerHim].;x
-PlusFaction.18_title;Advice;x
-PlusFaction.18_desc_1;[From.GetTitledFirstName] told me how to be a better speaker.;x
-PlusFaction.18_desc_2;[From.GetTitledFirstName] told me how to seduce [From.GetBoyGirlOpp]s.;x
-PlusFaction.18_desc_3;[From.GetTitledFirstName] told me how to save money.;x
-PlusFaction.18_desc_4;[From.GetTitledFirstName] told me how to be a better fighter.;x
-PlusFaction.18_desc_5;[From.GetTitledFirstName] told me about the [Root.Religion.GetScriptureName].;x
-PlusFaction.18_desc_6;[From.GetTitledFirstName] wasn't able to teach me anything.;x
-PlusFaction.18_1;Thank you [From.GetTitledFirstName].;x
-PlusFaction.18_2;Ahah I am better than [From.GetHerHim] I guess.;x
-PlusFaction.19_title;[Root.GetFactionName] Faction Meeting;x
-PlusFaction.19_desc;The [Root.GetFactionName] faction meeting was a success and everyone is already looking forward to the next one.;x
-PlusFaction.19_1;Untill next time.;x
-PlusFaction.20_title;Artifact;x
-PlusFaction.20_desc;[From.GetTitledFirstName] wonders if I could spare [From.GetHerHim] an artifact.;x
-PlusFaction.20_1;Only for money.;x
-PlusFaction.20_2;As long as [From.GetHerHim] is humble about it.;x
-PlusFaction.20_3;Sure, as long as [From.GetHerHim] praises me to the rest of the faction.;x
-PlusFaction.20_4;Sorry, but I don't have any to spare.;x
-PlusFaction.21_title;Artifact;x
-PlusFaction.21_desc;[From.GetTitledFirstName] said [From.GetSheHe]...;x
-PlusFaction.21_1;...will only give it for money.;x
-PlusFaction.21_2;...will gladly give it to me.;x
-PlusFaction.21_3;...wants me to praise [From.GetHerHim] in front of the [Root.GetFactionName] faction.;x
-PlusFaction.21_4;...has no artifacts to spare.;x
-PlusFaction.22_title;Brotherhood;x
-PlusFaction.22_desc_1;I told the rest of the faction that if there is no enemy within, the enemy outside can do us no harm.;x
-PlusFaction.22_desc_2;[From.GetTitledFirstName] suggested that we should all set our differences aside and work towards a common goal.;x
-PlusFaction.22_1_1;I hope they listen.;x
-PlusFaction.22_1_2;[From.GetSheHeCap] is right!;x
-PlusFaction.22_2;How about no.;x
-PlusFaction.23_title;Brotherhood;x
-PlusFaction.23_desc;[From.GetTitledFirstName] approached me asking to set our differences aside.;x
-PlusFaction.23_1;[From.GetSheHeCap] will have [From.GetHerHis] peace.;x
-PlusFaction.23_2;Over my dead body.;x
-PlusFaction.24_title;Brotherhood;x
-PlusFaction.24_desc_1;[From.GetTitledFirstName] accepted my offer.;x
-PlusFaction.24_desc_2;[From.GetTitledFirstName] refused my offer.;x
-PlusFaction.24_1;I hope the others will also get along.;x
-PlusFaction.24_2;He can go fuck [From.GetHerHim]self then.;x
-PlusFaction.25_title;Inventions;x
-PlusFaction.25_desc_1;I told the [Root.GetFactionName] members to come up with new ideas on how to get an upperhand against the other factions.;x
-PlusFaction.25_desc_2;[From.GetTitledFirstName] is asking us to reflect on new ideas which will help us get an upperhand against the other factions.;x
-PlusFaction.25_1;To my chambers I go.;x
-PlusFaction.25_2;Well atleast we get to relax.;x
-PlusFaction.26_title;Raid;x
-PlusFaction.26_desc;[From.GetTitledFirstName] would like to raid the [event_target.raid_target.GetFactionName] faction.;x
-PlusFaction.26_1;Less talking!  More raiding!;x
-PlusFaction.26_2;This is not what the [Root.GetFactionName] stands for.;x
-PlusFaction.27_title;Raid;x
-PlusFaction.27_desc;The results are in and...;x
-PlusFaction.27_1;...lets go raiding!;x
-PlusFaction.27_2;...I lost the vote and I will now stand trial.;x
-PlusFaction.28_title;Raid;x
-PlusFaction.28_desc_1;[From.GetTitledFirstName] won the vote and we will now raid the [event_target.raid_target.GetFactionName] faction.;x
-PlusFaction.28_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;x
-PlusFaction.28_1;We go raiding!;x
-PlusFaction.29_title;Raid;x
-PlusFaction.29_desc;[event_target.raid_target.GetTitledFirstName] and [event_target.raid_target.GetHerHis] fools stood no chance against the combined forces of the [Root.GetFactionName] faction.;x
-PlusFaction.29_1;Nothing can stop us!;x
-PlusFaction.30_title;Raid;x
-PlusFaction.30_desc;The [From.GetFactionName] conducted a raid against the [Root.GetFactionName] faction and [From.GetTitledFirstName] helped [From.GetHerHim]self to some of my gold.;x
-PlusFaction.30_1;Bastards!;x
-PlusFaction.31_title;Liege Support;x
-PlusFaction.31_desc;[From.GetTitledFirstName] gave a speech regarding [From.Liege.GetTitledFirstName].  I wonder if I should show my support for [From.Liege.GetHerHim].;x
-PlusFaction.31_1;I show my support for [From.Liege.GetTitledFirstName].;x
-PlusFaction.31_2;Not my direct liege?  Not my problem.;x
-PlusFaction.32_title;Liege Support.;x
-PlusFaction.32_desc;My [Root.GetLordLady],\n\nAs you know the [From.GetFactionName] faction are your loyal servants and we each decided to donate something to you.  I hope that the gifts sent from us will only help to strenghten your just rule.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.32_1;Good people.;x
-PlusFaction.33_title;Spying;x
-PlusFaction.33_desc;[From.GetTitledFirstName] is asking us to keep a watchful eye for any threats directed towards [From.Liege.GetTitledFirstName].;x
-PlusFaction.33_1;I suppose I could spare a few birds.;x
-PlusFaction.33_2;Indeed...indeed I will.;x
-PlusFaction.34_title;Spying;x
-PlusFaction.34_desc;My [Root.GetLordLady],\n\nWe know that ruling such a great realm must be tough, so you can count on the [From.GetFactionName] faction to keep en eye out for any possible threats.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.34_1;I feel safer already.;x
-PlusFaction.35_title;Assassination;x
-PlusFaction.35_desc;[From.GetTitledFirstName] said that it is time for [From.Liege.GetTitledFirstName] to part this world.;x
-PlusFaction.35_1;Rulers come and go I suppose.;x
-PlusFaction.35_2;This is treason!;x
-PlusFaction.36_title;Assassination;x
-PlusFaction.36_desc;The results are in and...;x
-PlusFaction.36_1;...it is time to plan the assassination.;x
-PlusFaction.36_2;...I lost the vote and I will now stand trial.;x
-PlusFaction.37_title;Assassination;x
-PlusFaction.37_desc_1;We will attempt to get rid of [From.Liege.GetTitledFirstName].;x
-PlusFaction.37_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;x
-PlusFaction.37_1;Get some sleep [From.Liege.GetTitledFirstName] will ya?;x
-PlusFaction.38_title;Assassination;x
-PlusFaction.38_desc_1;We successfully assassinated [Root.Liege.GetTitledFirstName].;x
-PlusFaction.38_desc_2;[Root.Liege.GetTitledFirstName] managed to survive.;x
-PlusFaction.38_1;Requiescat in pace.;x
-PlusFaction.38_2;Damn it!;x
-PlusFaction.39_title;Assassination;x
-PlusFaction.39_desc_1;We successfully assassinated [From.Liege.GetTitledFirstName].;x
-PlusFaction.39_desc_2;[From.Liege.GetTitledFirstName] managed to survive.;x
-PlusFaction.39_1;Requiescat in pace.;x
-PlusFaction.39_2;Damn it!;x
-PlusFaction.40_title;Infrastructure;x
-PlusFaction.40_desc;[From.GetTitledFirstName] asked if we should make [From.Liege.GetTitledFirstName] build better infrastructure in the realm.;x
-PlusFaction.40_1;Better infrastructure can only benefit us.;x
-PlusFaction.40_2;This would just make the enemy move quicker.;x
-PlusFaction.41_title;Infrastructure;x
-PlusFaction.41_desc;The results are in and...;x
-PlusFaction.41_1;...I will send my request to [From.Liege.GetTitledFirstName].;x
-PlusFaction.41_2;...I lost the vote and I will now stand trial.;x
-PlusFaction.42_title;Infrastructure;x
-PlusFaction.42_desc_1;[From.GetTitledFirstName] will request better infrastructure.;x
-PlusFaction.42_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;x
-PlusFaction.42_1;Ok.;x
-PlusFaction.43_title;Infrastructure;x
-PlusFaction.43_desc;My [Root.GetLordLady],\n\nThe members of the [From.GetFactionName] faction noticed that the infrastructure in [Root.PrimaryTitle.GetName] is not ideal.  We humbly request for better roads.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.43_1;Troops would be able to move quicker with better roads.;x
-PlusFaction.43_2;I am not going to pay for that.;x
-PlusFaction.44_title;Infrastructure;x
-PlusFaction.44_desc;New roads will be built in [Root.Capital.GetName] thanks to [From.GetTitledFirstName].;x
-PlusFaction.44_1;New roads are always better.;x
-PlusFaction.45_title;Infrastructure;x
-PlusFaction.45_desc;Dear [Root.GetTitledFirstName],\n\nI have decided not to build new infrastructure.  The treasury could be better spent somewhere else.\n\nSincerely,\n[From.GetTitledFirstName].;x
-PlusFaction.45_1;How is [From.GetSheHe] supposed to protect us if [From.GetSheHe] can't even reach us?;x
-PlusFaction.46_title;Construction;x
-PlusFaction.46_desc;My [Root.GetLordLady],\n\nThe members of the [From.GetFactionName] faction where wondering if the realm should focus on peace for a time.  That is untill all of our holdings are patched up and ready to go once more.  We humbly request for a reduction in military spending and have the serfs focus on construction.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.46_1;The [Root.PrimaryTitle.GetName] will rebuild.;x
-PlusFaction.46_2;That will just leave us vulnerable to any future attacks.;x
-PlusFaction.47_title;Construction;x
-PlusFaction.47_desc;Buildings in [Root.Capital.GetName] are cheaper and faster to build thanks to [From.GetTitledFirstName].;x
-PlusFaction.47_1;Time for renovations.;x
-PlusFaction.48_title;Construction;x
-PlusFaction.48_desc;Dear [From.GetTitledFirstName],\n\nI have decided not to focus on peace.  We have many enemies and we cannot let our guard down.\n\nSincerely,\n[From.GetTitledFirstName].;x
-PlusFaction.48_1;Yea yea.;x
-PlusFaction.49_title;Construction;x
-PlusFaction.49_desc;[From.GetTitledFirstName] is going to ask [From.Liege.GetTitledFirstName] to focus on peace for a time.;x
-PlusFaction.49_1;Lets hope [From.Liege.GetTitledFirstName] will listen to reason.;x
-PlusFaction.50_title;Rebellion;x
-PlusFaction.50_desc;[From.GetTitledFirstName] pointed out that [From.Liege.GetTitledFirstName] isn't exactly doing a "good" job at keeping the paesants happy.  He suggests that this could be exploited in order to incite rebellions accross [From.Liege.PrimaryTitle.GetName].;x
-PlusFaction.50_1;Maybe this will give us a chance to break free.;x
-PlusFaction.50_2;Are you guys mad?!?!;x
-PlusFaction.51_title;Rebellion;x
-PlusFaction.51_desc;The results are in and...;x
-PlusFaction.51_1;...I will start instigating the paesants.;x
-PlusFaction.51_2;...I lost the vote and I will now stand trial.;x
-PlusFaction.52_title;Rebellion;x
-PlusFaction.52_desc_1;We will begin inciting unrest.;x
-PlusFaction.52_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;x
-PlusFaction.52_1;Excellent.;x
-PlusFaction.53_title;Rebellion;x
-PlusFaction.53_desc;The paesants told me that...;x
-PlusFaction.53_1;...I was right and just needed to be served.;x
-PlusFaction.53_2;...they are loyal servants of [From.Liege.GetTitledFirstName];x
-PlusFaction.54_title;Rebellion;x
-PlusFaction.54_desc;The paesants in [Root.Capital.GetName] seem upset about something relating to their top liege.;x
-PlusFaction.54_1;But I had nothing to do with it!;x
-PlusFaction.55_title;Rebellion;x
-PlusFaction.55_desc;Our attempt to incite unrest in [From.Liege.PrimaryTitle.GetName] was a failure.;x
-PlusFaction.55_1;Stupid paesants!;x
-PlusFaction.56_title;Orgy;x
-PlusFaction.56_desc;These faction meetings can become quite boring...why not spice things up with a few prostitutes?;x
-PlusFaction.56_1;Send them in!;x
-PlusFaction.56_2;[From.Capital.GetName] is not a brothel.;x
-PlusFaction.57_title;Orgy;x
-PlusFaction.57_desc;[From.GetTitledFirstName] has invited me to join him in [From.GetHerHis] orgy.;x
-PlusFaction.57_1;Time to get me game on.;x
-PlusFaction.57_2;Disgusting pigs.;x
-PlusFaction.58_title;Gambling;x
-PlusFaction.58_desc;These faction meetings can become quite boring...why not play a game while we wait?;x
-PlusFaction.58_1;Nothing wrong with a friendly wager.;x
-PlusFaction.58_2;I don't want to lose any money.;x
-PlusFaction.59_title;Gambling;x
-PlusFaction.59_desc;[From.GetTitledFirstName] has invited me to a game of dice.;x
-PlusFaction.59_1;Bring it on!;x
-PlusFaction.59_2;I rather not.;x
-PlusFaction.60_title;Gambling;x
-PlusFaction.60_desc;I lost the game.;x
-PlusFaction.60_1;Fuck!;x
-PlusFaction.61_title;Gambling;x
-PlusFaction.61_desc;I won the game.;x
-PlusFaction.61_1;Easy money.;x
-PlusFaction.62_title;Gambling;x
-PlusFaction.62_desc;I won the game.;x
-PlusFaction.62_1;Easy money.;x
-PlusFaction.63_title;Gambling;x
-PlusFaction.63_desc;I lost the game.;x
-PlusFaction.63_1;Fuck!;x
-PlusFaction.64_title;Drinking;x
-PlusFaction.64_desc;These faction meetings can become quite boring...why not get drunk?;x
-PlusFaction.64_1;Mead or wine?;x
-PlusFaction.64_2;This is a serious meeting.;x
-PlusFaction.65_title;Drinking;x
-PlusFaction.65_desc;[From.GetTitledFirstName] has invited me to have a few drinks.;x
-PlusFaction.65_1;A few drinks won't hurt.;x
-PlusFaction.65_2;No, we must stay focused.;x
-PlusFaction.66_title;Join a faction;x
-PlusFaction.66_desc;[event_target.nofaction_character.GetTitledFirstName] has yet to join one of the five major factions.  Perhaps I can convince [event_target.nofaction_character.GetHerHim] to join the [Root.GetFactionName] faction?;x
-PlusFaction.66_1;[event_target.nofaction_character.GetSheHeCap] would make a great addition!;x
-PlusFaction.66_2;No, we have enough members already.;x
-PlusFaction.67_title;Join a faction;x
-PlusFaction.67_desc;My [Root.GetLordLady],\n\nI would like to invite you to join the [From.GetFactionName] faction.  We believe that you would make a great addition to the team.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.67_1;The [From.GetFactionName] faction seems like the place to be.;x
-PlusFaction.67_2;Eh probably not.  Bunch of nobodies who are bad at organizing.;x
-PlusFaction.68_title;Join a faction;x
-PlusFaction.68_desc;My [Root.GetLordLady],\n\nIt would be my honor to join the [Root.GetFactionName] faction.  Looking forward to our first meeting.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.68_1;Welcome!;x
-PlusFaction.69_title;Join a faction;x
-PlusFaction.69_desc;My [Root.GetLordLady],\n\nI rather not commit to any factions at the moment.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.69_1;Waste of ink.;x
-PlusFaction.70_title;Alliance;x
-PlusFaction.70_desc;Me and [event_target.potential_ally.GetTitledFirstName] have been friends for quite a while now.  Perhaps we may help each other in future wars.;x
-PlusFaction.70_1;Yes, lets form an alliance.;x
-PlusFaction.70_2;I still don't trust [event_target.potential_ally.GetHerHim]...;x
-PlusFaction.71_title;Alliance;x
-PlusFaction.71_desc;My [Root.GetLordLady],\n\nWe have been friends for quite a long time now and I believe we should watch each other's back.  I am proposing an alliance between our realms.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.71_1;I watch your back, and you watch mine.;x
-PlusFaction.71_2;An alliance might turn out to be a bad idea.;x
-PlusFaction.72_title;Alliance;x
-PlusFaction.72_desc;My [Root.GetLordLady],\n\nI accept your alliance proposal.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.72_1;We stand together!;x
-PlusFaction.73_title;Alliance;x
-PlusFaction.73_desc;My [Root.GetLordLady],\n\nI reject your alliance proposal.\n\nSincerely,\n[From.GetTitledFirstName];x
-PlusFaction.73_1;Et tu brute.;x
-PlusFaction.74_title;Friendly Visit;x
-PlusFaction.74_desc;I wonder if I should pay a visit to one of my fellow [Root.GetFactionName] members.;x
-PlusFaction.74_1;I will visit [event_target.social_visit.GetTitledFirstName].;x
-PlusFaction.74_2;I rather not travel.;x
-PlusFaction.75_title;Friendly Visit;x
-PlusFaction.75_desc;[From.GetTitledFirstName] showed up in [Root.Capital.GetName] this morning.;x
-PlusFaction.75_1;We agreed on so many things!;x
-PlusFaction.76_title;Friendly Visit;x
-PlusFaction.76_desc;[From.GetTitledFirstName] showed up in [Root.Capital.GetName] this morning.;x
-PlusFaction.76_1;We disagreed on so many things!;x
+PlusFaction.1_title;[Root.GetFactionName] Faction Meeting;;;;;;;;;;;;;x
+PlusFaction.1_desc;It has been some time since the [Root.GetFactionName] faction got together to discuss the current state of the realm.  I wonder if I should schedule a meeting.;;;;;;;;;;;;;x
+PlusFaction.1_1;Send out the invitations.;;;;;;;;;;;;;x
+PlusFaction.1_2;I cannot be bothered with this right now.;;;;;;;;;;;;;x
+PlusFaction.2_title;[Root.GetFactionName] Faction Meeting;;;;;;;;;;;;;x
+PlusFaction.2_desc;My [Root.GetLordLady],\n\nIt has been quite some time since we met up to discuss the realm affairs.  A meeting is to be taken place at [From.Capital.GetName] in seven days.\n\nLooking forward to seeing you there,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.2_1;Get the carriage ready.;;;;;;;;;;;;;x
+PlusFaction.2_2;I have more important things to do.;;;;;;;;;;;;;x
+PlusFaction.3_title;Court Faction Meeting.;;;;;;;;;;;;;x
+PlusFaction.3_desc;My [Root.GetLordLady],\n\nUnfortunately I will not be able to attend this week's [Root.GetFactionName] meeting due to unforseen circumstances.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.3_1;"Unforseen" circumstances uh?;;;;;;;;;;;;;x
+PlusFaction.4_title;[Root.GetFactionName] Faction Meeting;;;;;;;;;;;;;x
+PlusFaction.4_desc;The members have arrived and it is time for me to propose my agenda.;;;;;;;;;;;;;x
+PlusFaction.4_1;I will focus on myself...;;;;;;;;;;;;;x
+PlusFaction.4_2;I will focus on the faction...;;;;;;;;;;;;;x
+PlusFaction.4_3;I will focus on my liege...;;;;;;;;;;;;;x
+PlusFaction.4_4;I will focus on the realm...;;;;;;;;;;;;;x
+PlusFaction.5_title;Myself;;;;;;;;;;;;;x
+PlusFaction.5_desc;There is only one logical reason to conduct these meetings...to benefit myself.;;;;;;;;;;;;;x
+PlusFaction.5_1;I will ask for membership dues.;;;;;;;;;;;;;x
+PlusFaction.5_2;I will ask for advice.;;;;;;;;;;;;;x
+PlusFaction.5_3;I will ask for an artifact.;;;;;;;;;;;;;x
+PlusFaction.5_4;...maybe I should reflect on other options.;;;;;;;;;;;;;x
+PlusFaction.6_title;Faction;;;;;;;;;;;;;x
+PlusFaction.6_desc;The court faction must prevail against the other four.;;;;;;;;;;;;;x
+PlusFaction.6_1;I will strenghten our brotherhood.;;;;;;;;;;;;;x
+PlusFaction.6_2;I will have them come up with new inventions.;;;;;;;;;;;;;x
+PlusFaction.6_3;I will organize a raid on a faction.;;;;;;;;;;;;;x
+PlusFaction.6_4;...maybe I should reflect on other options.;;;;;;;;;;;;;x
+PlusFaction.7_title;Liege;;;;;;;;;;;;;x
+PlusFaction.7_desc;Our liege has been quite the topic lately.;;;;;;;;;;;;;x
+PlusFaction.7_1;I will rally support for [Root.Liege.GetHerHim].;;;;;;;;;;;;;x
+PlusFaction.7_2;I will have the faction keep a watchful eye for any enemies of the state.;;;;;;;;;;;;;x
+PlusFaction.7_3;I will try to make [Root.Liege.GetHerHim] disappear.;;;;;;;;;;;;;x
+PlusFaction.7_4;...maybe I should reflect on other options.;;;;;;;;;;;;;x
+PlusFaction.8_title;Realm;;;;;;;;;;;;;x
+PlusFaction.8_desc;It is up to us to see [Root.Liege.PrimaryTitle.GetName] prosper...or fail.;;;;;;;;;;;;;x
+PlusFaction.8_1;I will ask my liege for better infrastructure.;;;;;;;;;;;;;x
+PlusFaction.8_2;I will ask my liege to begin a construction inititative.;;;;;;;;;;;;;x
+PlusFaction.8_3;I will incite rebellions.;;;;;;;;;;;;;x
+PlusFaction.8_4;...maybe I should reflect on other options.;;;;;;;;;;;;;x
+PlusFaction.9_title;[Root.GetFactionName] Faction Meeting;;;;;;;;;;;;;x
+PlusFaction.9_desc;No one from the [Root.GetFactionName] faction has showed up.;;;;;;;;;;;;;x
+PlusFaction.9_1;Why did they even join?;;;;;;;;;;;;;x
+PlusFaction.10_title;Membership Dues;;;;;;;;;;;;;x
+PlusFaction.10_desc;[From.GetTitledFirstName] has informed the faction that the time to pay for membership priviliges is now due.;;;;;;;;;;;;;x
+PlusFaction.10_1;For the good of the faction I supposed.;;;;;;;;;;;;;x
+PlusFaction.10_2;Membership dues my arse!;;;;;;;;;;;;;x
+PlusFaction.11_title;Membership Dues;;;;;;;;;;;;;x
+PlusFaction.11_desc;The results are in and...;;;;;;;;;;;;;x
+PlusFaction.11_1;...most people were ok with it.;;;;;;;;;;;;;x
+PlusFaction.11_2;...I lost the vote and I will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.12_title;Leadership in Jeopardy;;;;;;;;;;;;;x
+PlusFaction.12_desc;The [Root.GetFactionName] members believe that I am not fit to lead the faction and are now voting on whether I should retain my position or not.;;;;;;;;;;;;;x
+PlusFaction.12_1;The ungrateful scum.;;;;;;;;;;;;;x
+PlusFaction.13_title;Leadership in Jeopardy;;;;;;;;;;;;;x
+PlusFaction.13_desc;For some time the [Root.GetFactionName] members have wondered if [From.GetTitledFirstName] is really fit to lead this faction.  A vote of no confidence is now being called in order to sort this out.;;;;;;;;;;;;;x
+PlusFaction.13_1;[From.GetTitledFirstName] has to go.;;;;;;;;;;;;;x
+PlusFaction.13_2;[From.GetTitledFirstName] is not to blame.;;;;;;;;;;;;;x
+PlusFaction.14_title;Leadership in Jeopardy;;;;;;;;;;;;;x
+PlusFaction.14_desc;The results are in and...;;;;;;;;;;;;;x
+PlusFaction.14_1;I retained my position.;;;;;;;;;;;;;x
+PlusFaction.14_2;I lost my position.;;;;;;;;;;;;;x
+PlusFaction.15_title;Leadership in Jeopardy;;;;;;;;;;;;;x
+PlusFaction.15_desc_1;[From.GetTitledFirstName] retained [From.GetHerHis] position.;;;;;;;;;;;;;x
+PlusFaction.15_desc_2;[From.GetTitledFirstName] lost [From.GetHerHis] position.;;;;;;;;;;;;;x
+PlusFaction.15_1;Fair enough.;;;;;;;;;;;;;x
+PlusFaction.16_title;Membership Dues;;;;;;;;;;;;;x
+PlusFaction.16_desc_1;[From.GetTitledFirstName] received [From.GetHerHis] dues.;;;;;;;;;;;;;x
+PlusFaction.16_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.16_1;Ok.;;;;;;;;;;;;;x
+PlusFaction.17_title;Advice;;;;;;;;;;;;;x
+PlusFaction.17_desc;[From.GetTitledFirstName] has asked me for some advice.;;;;;;;;;;;;;x
+PlusFaction.17_1_1;I could teach [From.GetHerHim] how to be a better speaker.;;;;;;;;;;;;;x
+PlusFaction.17_1_2;I could teach [From.GetHerHim] how to seduce [From.GetBoyGirlOpp]s.;;;;;;;;;;;;;x
+PlusFaction.17_1_3;I could teach [From.GetHerHim] how to save money.;;;;;;;;;;;;;x
+PlusFaction.17_1_4;I could teach [From.GetHerHim] how to be a better fighter.;;;;;;;;;;;;;x
+PlusFaction.17_1_5;I could teach [From.GetHerHim] about the [Root.Religion.GetScriptureName].;;;;;;;;;;;;;x
+PlusFaction.17_2;There is nothing for me to teach [From.GetHerHim].;;;;;;;;;;;;;x
+PlusFaction.18_title;Advice;;;;;;;;;;;;;x
+PlusFaction.18_desc_1;[From.GetTitledFirstName] told me how to be a better speaker.;;;;;;;;;;;;;x
+PlusFaction.18_desc_2;[From.GetTitledFirstName] told me how to seduce [From.GetBoyGirlOpp]s.;;;;;;;;;;;;;x
+PlusFaction.18_desc_3;[From.GetTitledFirstName] told me how to save money.;;;;;;;;;;;;;x
+PlusFaction.18_desc_4;[From.GetTitledFirstName] told me how to be a better fighter.;;;;;;;;;;;;;x
+PlusFaction.18_desc_5;[From.GetTitledFirstName] told me about the [Root.Religion.GetScriptureName].;;;;;;;;;;;;;x
+PlusFaction.18_desc_6;[From.GetTitledFirstName] wasn't able to teach me anything.;;;;;;;;;;;;;x
+PlusFaction.18_1;Thank you [From.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.18_2;Ahah I am better than [From.GetHerHim] I guess.;;;;;;;;;;;;;x
+PlusFaction.19_title;[Root.GetFactionName] Faction Meeting;;;;;;;;;;;;;x
+PlusFaction.19_desc;The [Root.GetFactionName] faction meeting was a success and everyone is already looking forward to the next one.;;;;;;;;;;;;;x
+PlusFaction.19_1;Untill next time.;;;;;;;;;;;;;x
+PlusFaction.20_title;Artifact;;;;;;;;;;;;;x
+PlusFaction.20_desc;[From.GetTitledFirstName] wonders if I could spare [From.GetHerHim] an artifact.;;;;;;;;;;;;;x
+PlusFaction.20_1;Only for money.;;;;;;;;;;;;;x
+PlusFaction.20_2;As long as [From.GetHerHim] is humble about it.;;;;;;;;;;;;;x
+PlusFaction.20_3;Sure, as long as [From.GetHerHim] praises me to the rest of the faction.;;;;;;;;;;;;;x
+PlusFaction.20_4;Sorry, but I don't have any to spare.;;;;;;;;;;;;;x
+PlusFaction.21_title;Artifact;;;;;;;;;;;;;x
+PlusFaction.21_desc;[From.GetTitledFirstName] said [From.GetSheHe]...;;;;;;;;;;;;;x
+PlusFaction.21_1;...will only give it for money.;;;;;;;;;;;;;x
+PlusFaction.21_2;...will gladly give it to me.;;;;;;;;;;;;;x
+PlusFaction.21_3;...wants me to praise [From.GetHerHim] in front of the [Root.GetFactionName] faction.;;;;;;;;;;;;;x
+PlusFaction.21_4;...has no artifacts to spare.;;;;;;;;;;;;;x
+PlusFaction.22_title;Brotherhood;;;;;;;;;;;;;x
+PlusFaction.22_desc_1;I told the rest of the faction that if there is no enemy within, the enemy outside can do us no harm.;;;;;;;;;;;;;x
+PlusFaction.22_desc_2;[From.GetTitledFirstName] suggested that we should all set our differences aside and work towards a common goal.;;;;;;;;;;;;;x
+PlusFaction.22_1_1;I hope they listen.;;;;;;;;;;;;;x
+PlusFaction.22_1_2;[From.GetSheHeCap] is right!;;;;;;;;;;;;;x
+PlusFaction.22_2;How about no.;;;;;;;;;;;;;x
+PlusFaction.23_title;Brotherhood;;;;;;;;;;;;;x
+PlusFaction.23_desc;[From.GetTitledFirstName] approached me asking to set our differences aside.;;;;;;;;;;;;;x
+PlusFaction.23_1;[From.GetSheHeCap] will have [From.GetHerHis] peace.;;;;;;;;;;;;;x
+PlusFaction.23_2;Over my dead body.;;;;;;;;;;;;;x
+PlusFaction.24_title;Brotherhood;;;;;;;;;;;;;x
+PlusFaction.24_desc_1;[From.GetTitledFirstName] accepted my offer.;;;;;;;;;;;;;x
+PlusFaction.24_desc_2;[From.GetTitledFirstName] refused my offer.;;;;;;;;;;;;;x
+PlusFaction.24_1;I hope the others will also get along.;;;;;;;;;;;;;x
+PlusFaction.24_2;He can go fuck [From.GetHerHim]self then.;;;;;;;;;;;;;x
+PlusFaction.25_title;Inventions;;;;;;;;;;;;;x
+PlusFaction.25_desc_1;I told the [Root.GetFactionName] members to come up with new ideas on how to get an upperhand against the other factions.;;;;;;;;;;;;;x
+PlusFaction.25_desc_2;[From.GetTitledFirstName] is asking us to reflect on new ideas which will help us get an upperhand against the other factions.;;;;;;;;;;;;;x
+PlusFaction.25_1;To my chambers I go.;;;;;;;;;;;;;x
+PlusFaction.25_2;Well atleast we get to relax.;;;;;;;;;;;;;x
+PlusFaction.26_title;Raid;;;;;;;;;;;;;x
+PlusFaction.26_desc;[From.GetTitledFirstName] would like to raid the [raid_target.GetFactionName] faction.;;;;;;;;;;;;;x
+PlusFaction.26_1;Less talking!  More raiding!;;;;;;;;;;;;;x
+PlusFaction.26_2;This is not what the [Root.GetFactionName] stands for.;;;;;;;;;;;;;x
+PlusFaction.27_title;Raid;;;;;;;;;;;;;x
+PlusFaction.27_desc;The results are in and...;;;;;;;;;;;;;x
+PlusFaction.27_1;...lets go raiding!;;;;;;;;;;;;;x
+PlusFaction.27_2;...I lost the vote and I will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.28_title;Raid;;;;;;;;;;;;;x
+PlusFaction.28_desc_1;[From.GetTitledFirstName] won the vote and we will now raid the [raid_target.GetFactionName] faction.;;;;;;;;;;;;;x
+PlusFaction.28_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.28_1;We go raiding!;;;;;;;;;;;;;x
+PlusFaction.29_title;Raid;;;;;;;;;;;;;x
+PlusFaction.29_desc;[raid_target.GetTitledFirstName] and [raid_target.GetHerHis] fools stood no chance against the combined forces of the [Root.GetFactionName] faction.;;;;;;;;;;;;;x
+PlusFaction.29_1;Nothing can stop us!;;;;;;;;;;;;;x
+PlusFaction.30_title;Raid;;;;;;;;;;;;;x
+PlusFaction.30_desc;The [From.GetFactionName] conducted a raid against the [Root.GetFactionName] faction and [From.GetTitledFirstName] helped [From.GetHerHim]self to some of my gold.;;;;;;;;;;;;;x
+PlusFaction.30_1;Bastards!;;;;;;;;;;;;;x
+PlusFaction.31_title;Liege Support;;;;;;;;;;;;;x
+PlusFaction.31_desc;[From.GetTitledFirstName] gave a speech regarding [From.Liege.GetTitledFirstName].  I wonder if I should show my support for [From.Liege.GetHerHim].;;;;;;;;;;;;;x
+PlusFaction.31_1;I show my support for [From.Liege.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.31_2;Not my direct liege?  Not my problem.;;;;;;;;;;;;;x
+PlusFaction.32_title;Liege Support.;;;;;;;;;;;;;x
+PlusFaction.32_desc;My [Root.GetLordLady],\n\nAs you know the [From.GetFactionName] faction are your loyal servants and we each decided to donate something to you.  I hope that the gifts sent from us will only help to strenghten your just rule.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.32_1;Good people.;;;;;;;;;;;;;x
+PlusFaction.33_title;Spying;;;;;;;;;;;;;x
+PlusFaction.33_desc;[From.GetTitledFirstName] is asking us to keep a watchful eye for any threats directed towards [From.Liege.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.33_1;I suppose I could spare a few birds.;;;;;;;;;;;;;x
+PlusFaction.33_2;Indeed...indeed I will.;;;;;;;;;;;;;x
+PlusFaction.34_title;Spying;;;;;;;;;;;;;x
+PlusFaction.34_desc;My [Root.GetLordLady],\n\nWe know that ruling such a great realm must be tough, so you can count on the [From.GetFactionName] faction to keep en eye out for any possible threats.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.34_1;I feel safer already.;;;;;;;;;;;;;x
+PlusFaction.35_title;Assassination;;;;;;;;;;;;;x
+PlusFaction.35_desc;[From.GetTitledFirstName] said that it is time for [From.Liege.GetTitledFirstName] to part this world.;;;;;;;;;;;;;x
+PlusFaction.35_1;Rulers come and go I suppose.;;;;;;;;;;;;;x
+PlusFaction.35_2;This is treason!;;;;;;;;;;;;;x
+PlusFaction.36_title;Assassination;;;;;;;;;;;;;x
+PlusFaction.36_desc;The results are in and...;;;;;;;;;;;;;x
+PlusFaction.36_1;...it is time to plan the assassination.;;;;;;;;;;;;;x
+PlusFaction.36_2;...I lost the vote and I will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.37_title;Assassination;;;;;;;;;;;;;x
+PlusFaction.37_desc_1;We will attempt to get rid of [From.Liege.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.37_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.37_1;Get some sleep [From.Liege.GetTitledFirstName] will ya?;;;;;;;;;;;;;x
+PlusFaction.38_title;Assassination;;;;;;;;;;;;;x
+PlusFaction.38_desc_1;We successfully assassinated [Root.Liege.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.38_desc_2;[Root.Liege.GetTitledFirstName] managed to survive.;;;;;;;;;;;;;x
+PlusFaction.38_1;Requiescat in pace.;;;;;;;;;;;;;x
+PlusFaction.38_2;Damn it!;;;;;;;;;;;;;x
+PlusFaction.39_title;Assassination;;;;;;;;;;;;;x
+PlusFaction.39_desc_1;We successfully assassinated [From.Liege.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.39_desc_2;[From.Liege.GetTitledFirstName] managed to survive.;;;;;;;;;;;;;x
+PlusFaction.39_1;Requiescat in pace.;;;;;;;;;;;;;x
+PlusFaction.39_2;Damn it!;;;;;;;;;;;;;x
+PlusFaction.40_title;Infrastructure;;;;;;;;;;;;;x
+PlusFaction.40_desc;[From.GetTitledFirstName] asked if we should make [From.Liege.GetTitledFirstName] build better infrastructure in the realm.;;;;;;;;;;;;;x
+PlusFaction.40_1;Better infrastructure can only benefit us.;;;;;;;;;;;;;x
+PlusFaction.40_2;This would just make the enemy move quicker.;;;;;;;;;;;;;x
+PlusFaction.41_title;Infrastructure;;;;;;;;;;;;;x
+PlusFaction.41_desc;The results are in and...;;;;;;;;;;;;;x
+PlusFaction.41_1;...I will send my request to [From.Liege.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.41_2;...I lost the vote and I will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.42_title;Infrastructure;;;;;;;;;;;;;x
+PlusFaction.42_desc_1;[From.GetTitledFirstName] will request better infrastructure.;;;;;;;;;;;;;x
+PlusFaction.42_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.42_1;Ok.;;;;;;;;;;;;;x
+PlusFaction.43_title;Infrastructure;;;;;;;;;;;;;x
+PlusFaction.43_desc;My [Root.GetLordLady],\n\nThe members of the [From.GetFactionName] faction noticed that the infrastructure in [Root.PrimaryTitle.GetName] is not ideal.  We humbly request for better roads.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.43_1;Troops would be able to move quicker with better roads.;;;;;;;;;;;;;x
+PlusFaction.43_2;I am not going to pay for that.;;;;;;;;;;;;;x
+PlusFaction.44_title;Infrastructure;;;;;;;;;;;;;x
+PlusFaction.44_desc;New roads will be built in [Root.Capital.GetName] thanks to [From.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.44_1;New roads are always better.;;;;;;;;;;;;;x
+PlusFaction.45_title;Infrastructure;;;;;;;;;;;;;x
+PlusFaction.45_desc;Dear [Root.GetTitledFirstName],\n\nI have decided not to build new infrastructure.  The treasury could be better spent somewhere else.\n\nSincerely,\n[From.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.45_1;How is [From.GetSheHe] supposed to protect us if [From.GetSheHe] can't even reach us?;;;;;;;;;;;;;x
+PlusFaction.46_title;Construction;;;;;;;;;;;;;x
+PlusFaction.46_desc;My [Root.GetLordLady],\n\nThe members of the [From.GetFactionName] faction where wondering if the realm should focus on peace for a time.  That is untill all of our holdings are patched up and ready to go once more.  We humbly request for a reduction in military spending and have the serfs focus on construction.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.46_1;The [Root.PrimaryTitle.GetName] will rebuild.;;;;;;;;;;;;;x
+PlusFaction.46_2;That will just leave us vulnerable to any future attacks.;;;;;;;;;;;;;x
+PlusFaction.47_title;Construction;;;;;;;;;;;;;x
+PlusFaction.47_desc;Buildings in [Root.Capital.GetName] are cheaper and faster to build thanks to [From.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.47_1;Time for renovations.;;;;;;;;;;;;;x
+PlusFaction.48_title;Construction;;;;;;;;;;;;;x
+PlusFaction.48_desc;Dear [From.GetTitledFirstName],\n\nI have decided not to focus on peace.  We have many enemies and we cannot let our guard down.\n\nSincerely,\n[From.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.48_1;Yea yea.;;;;;;;;;;;;;x
+PlusFaction.49_title;Construction;;;;;;;;;;;;;x
+PlusFaction.49_desc;[From.GetTitledFirstName] is going to ask [From.Liege.GetTitledFirstName] to focus on peace for a time.;;;;;;;;;;;;;x
+PlusFaction.49_1;Lets hope [From.Liege.GetTitledFirstName] will listen to reason.;;;;;;;;;;;;;x
+PlusFaction.50_title;Rebellion;;;;;;;;;;;;;x
+PlusFaction.50_desc;[From.GetTitledFirstName] pointed out that [From.Liege.GetTitledFirstName] isn't exactly doing a "good" job at keeping the paesants happy.  He suggests that this could be exploited in order to incite rebellions accross [From.Liege.PrimaryTitle.GetName].;;;;;;;;;;;;;x
+PlusFaction.50_1;Maybe this will give us a chance to break free.;;;;;;;;;;;;;x
+PlusFaction.50_2;Are you guys mad?!?!;;;;;;;;;;;;;x
+PlusFaction.51_title;Rebellion;;;;;;;;;;;;;x
+PlusFaction.51_desc;The results are in and...;;;;;;;;;;;;;x
+PlusFaction.51_1;...I will start instigating the paesants.;;;;;;;;;;;;;x
+PlusFaction.51_2;...I lost the vote and I will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.52_title;Rebellion;;;;;;;;;;;;;x
+PlusFaction.52_desc_1;We will begin inciting unrest.;;;;;;;;;;;;;x
+PlusFaction.52_desc_2;[From.GetTitledFirstName] lost the vote and will now stand trial.;;;;;;;;;;;;;x
+PlusFaction.52_1;Excellent.;;;;;;;;;;;;;x
+PlusFaction.53_title;Rebellion;;;;;;;;;;;;;x
+PlusFaction.53_desc;The paesants told me that...;;;;;;;;;;;;;x
+PlusFaction.53_1;...I was right and just needed to be served.;;;;;;;;;;;;;x
+PlusFaction.53_2;...they are loyal servants of [From.Liege.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.54_title;Rebellion;;;;;;;;;;;;;x
+PlusFaction.54_desc;The paesants in [Root.Capital.GetName] seem upset about something relating to their top liege.;;;;;;;;;;;;;x
+PlusFaction.54_1;But I had nothing to do with it!;;;;;;;;;;;;;x
+PlusFaction.55_title;Rebellion;;;;;;;;;;;;;x
+PlusFaction.55_desc;Our attempt to incite unrest in [From.Liege.PrimaryTitle.GetName] was a failure.;;;;;;;;;;;;;x
+PlusFaction.55_1;Stupid paesants!;;;;;;;;;;;;;x
+PlusFaction.56_title;Orgy;;;;;;;;;;;;;x
+PlusFaction.56_desc;These faction meetings can become quite boring...why not spice things up with a few prostitutes?;;;;;;;;;;;;;x
+PlusFaction.56_1;Send them in!;;;;;;;;;;;;;x
+PlusFaction.56_2;[From.Capital.GetName] is not a brothel.;;;;;;;;;;;;;x
+PlusFaction.57_title;Orgy;;;;;;;;;;;;;x
+PlusFaction.57_desc;[From.GetTitledFirstName] has invited me to join him in [From.GetHerHis] orgy.;;;;;;;;;;;;;x
+PlusFaction.57_1;Time to get me game on.;;;;;;;;;;;;;x
+PlusFaction.57_2;Disgusting pigs.;;;;;;;;;;;;;x
+PlusFaction.58_title;Gambling;;;;;;;;;;;;;x
+PlusFaction.58_desc;These faction meetings can become quite boring...why not play a game while we wait?;;;;;;;;;;;;;x
+PlusFaction.58_1;Nothing wrong with a friendly wager.;;;;;;;;;;;;;x
+PlusFaction.58_2;I don't want to lose any money.;;;;;;;;;;;;;x
+PlusFaction.59_title;Gambling;;;;;;;;;;;;;x
+PlusFaction.59_desc;[From.GetTitledFirstName] has invited me to a game of dice.;;;;;;;;;;;;;x
+PlusFaction.59_1;Bring it on!;;;;;;;;;;;;;x
+PlusFaction.59_2;I rather not.;;;;;;;;;;;;;x
+PlusFaction.60_title;Gambling;;;;;;;;;;;;;x
+PlusFaction.60_desc;I lost the game.;;;;;;;;;;;;;x
+PlusFaction.60_1;Fuck!;;;;;;;;;;;;;x
+PlusFaction.61_title;Gambling;;;;;;;;;;;;;x
+PlusFaction.61_desc;I won the game.;;;;;;;;;;;;;x
+PlusFaction.61_1;Easy money.;;;;;;;;;;;;;x
+PlusFaction.62_title;Gambling;;;;;;;;;;;;;x
+PlusFaction.62_desc;I won the game.;;;;;;;;;;;;;x
+PlusFaction.62_1;Easy money.;;;;;;;;;;;;;x
+PlusFaction.63_title;Gambling;;;;;;;;;;;;;x
+PlusFaction.63_desc;I lost the game.;;;;;;;;;;;;;x
+PlusFaction.63_1;Fuck!;;;;;;;;;;;;;x
+PlusFaction.64_title;Drinking;;;;;;;;;;;;;x
+PlusFaction.64_desc;These faction meetings can become quite boring...why not get drunk?;;;;;;;;;;;;;x
+PlusFaction.64_1;Mead or wine?;;;;;;;;;;;;;x
+PlusFaction.64_2;This is a serious meeting.;;;;;;;;;;;;;x
+PlusFaction.65_title;Drinking;;;;;;;;;;;;;x
+PlusFaction.65_desc;[From.GetTitledFirstName] has invited me to have a few drinks.;;;;;;;;;;;;;x
+PlusFaction.65_1;A few drinks won't hurt.;;;;;;;;;;;;;x
+PlusFaction.65_2;No, we must stay focused.;;;;;;;;;;;;;x
+PlusFaction.66_title;Join a faction;;;;;;;;;;;;;x
+PlusFaction.66_desc;[event_target.nofaction_character.GetTitledFirstName] has yet to join one of the five major factions.  Perhaps I can convince [event_target.nofaction_character.GetHerHim] to join the [Root.GetFactionName] faction?;;;;;;;;;;;;;x
+PlusFaction.66_1;[event_target.nofaction_character.GetSheHeCap] would make a great addition!;;;;;;;;;;;;;x
+PlusFaction.66_2;No, we have enough members already.;;;;;;;;;;;;;x
+PlusFaction.67_title;Join a faction;;;;;;;;;;;;;x
+PlusFaction.67_desc;My [Root.GetLordLady],\n\nI would like to invite you to join the [From.GetFactionName] faction.  We believe that you would make a great addition to the team.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.67_1;The [From.GetFactionName] faction seems like the place to be.;;;;;;;;;;;;;x
+PlusFaction.67_2;Eh probably not.  Bunch of nobodies who are bad at organizing.;;;;;;;;;;;;;x
+PlusFaction.68_title;Join a faction;;;;;;;;;;;;;x
+PlusFaction.68_desc;My [Root.GetLordLady],\n\nIt would be my honor to join the [Root.GetFactionName] faction.  Looking forward to our first meeting.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.68_1;Welcome!;;;;;;;;;;;;;x
+PlusFaction.69_title;Join a faction;;;;;;;;;;;;;x
+PlusFaction.69_desc;My [Root.GetLordLady],\n\nI rather not commit to any factions at the moment.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.69_1;Waste of ink.;;;;;;;;;;;;;x
+PlusFaction.70_title;Alliance;;;;;;;;;;;;;x
+PlusFaction.70_desc;Me and [event_target.potential_ally.GetTitledFirstName] have been friends for quite a while now.  Perhaps we may help each other in future wars.;;;;;;;;;;;;;x
+PlusFaction.70_1;Yes, lets form an alliance.;;;;;;;;;;;;;x
+PlusFaction.70_2;I still don't trust [event_target.potential_ally.GetHerHim]...;;;;;;;;;;;;;x
+PlusFaction.71_title;Alliance;;;;;;;;;;;;;x
+PlusFaction.71_desc;My [Root.GetLordLady],\n\nWe have been friends for quite a long time now and I believe we should watch each other's back.  I am proposing an alliance between our realms.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.71_1;I watch your back, and you watch mine.;;;;;;;;;;;;;x
+PlusFaction.71_2;An alliance might turn out to be a bad idea.;;;;;;;;;;;;;x
+PlusFaction.72_title;Alliance;;;;;;;;;;;;;x
+PlusFaction.72_desc;My [Root.GetLordLady],\n\nI accept your alliance proposal.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.72_1;We stand together!;;;;;;;;;;;;;x
+PlusFaction.73_title;Alliance;;;;;;;;;;;;;x
+PlusFaction.73_desc;My [Root.GetLordLady],\n\nI reject your alliance proposal.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
+PlusFaction.73_1;Et tu brute.;;;;;;;;;;;;;x
+PlusFaction.74_title;Friendly Visit;;;;;;;;;;;;;x
+PlusFaction.74_desc;I wonder if I should pay a visit to one of my fellow [Root.GetFactionName] members.;;;;;;;;;;;;;x
+PlusFaction.74_1;I will visit [event_target.social_visit.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.74_2;I rather not travel.;;;;;;;;;;;;;x
+PlusFaction.75_title;Friendly Visit;;;;;;;;;;;;;x
+PlusFaction.75_desc;[From.GetTitledFirstName] showed up in [Root.Capital.GetName] this morning.;;;;;;;;;;;;;x
+PlusFaction.75_1;We agreed on so many things!;;;;;;;;;;;;;x
+PlusFaction.76_title;Friendly Visit;;;;;;;;;;;;;x
+PlusFaction.76_desc;[From.GetTitledFirstName] showed up in [Root.Capital.GetName] this morning.;;;;;;;;;;;;;x
+PlusFaction.76_1;We disagreed on so many things!;;;;;;;;;;;;;x
 #€

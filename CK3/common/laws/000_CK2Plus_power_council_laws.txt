@@ -45,7 +45,7 @@ law_groups = {
 laws = {
 	#Law Voting Power 0
 	law_voting_power_0 = {
-		group = law_voting_power		
+		group = law_voting_power
 		default = yes
 
 		potential = {
@@ -69,7 +69,7 @@ laws = {
 				has_law = tribal_organization_4
 			}
 		}
-		
+
 		allow = {
 			has_law = law_voting_power_1
 			has_law = war_voting_power_0
@@ -81,16 +81,8 @@ laws = {
 			has_law = succession_voting_power_0
 		}
 
-		revoke_allowed = {
-			always = no
-		}	
-
 		ai_will_do = {
 			factor = 1
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		effect = {
@@ -103,8 +95,8 @@ laws = {
 			}
 			hidden_tooltip = {
 				if = {
-					limit = { 
-						has_law = law_voting_power_1 
+					limit = {
+						has_law = law_voting_power_1
 					}
 					holder_scope = {
 						any_courtier_or_vassal = {
@@ -154,15 +146,7 @@ laws = {
 			has_law = law_voting_power_0
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
 		ai_will_do = {
-			factor = 0
-		}
-
-		ai_will_revoke = {
 			factor = 0
 		}
 
@@ -176,7 +160,7 @@ laws = {
 			}
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = law_voting_power_0
 					}
 					holder_scope = {
@@ -216,21 +200,13 @@ laws = {
 				has_law = tribal_organization_0
 			}
 		}
-		
+
 		allow = {
 			has_law = war_voting_power_1
 		}
 
-		revoke_allowed = {
-			always = no
-		}	
-
 		ai_will_do = {
 			factor = 1
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		effect = {
@@ -240,7 +216,7 @@ laws = {
 			}
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = war_voting_power_1
 					}
 					holder_scope = {
@@ -280,16 +256,8 @@ laws = {
 			has_law = law_voting_power_1
 			has_law = war_voting_power_0
 		}
-		
-		revoke_allowed = {
-			always = no
-		}		
 
 		ai_will_do = {
-			factor = 0
-		}
-
-		ai_will_revoke = {
 			factor = 0
 		}
 
@@ -300,7 +268,7 @@ laws = {
 			}
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = war_voting_power_0
 					}
 					holder_scope = {
@@ -319,7 +287,7 @@ laws = {
 				revoke_law = war_voting_power_0
 			}
 		}
-		
+
 		vassal_limit = 2
 	}
 
@@ -345,27 +313,19 @@ laws = {
 				has_law	= tribal_organization_2
 			}
 		}
-		
+
 		allow = {
 			has_law = revoke_title_voting_power_1
 		}
-
-		revoke_allowed = {
-			always = no
-		}	
 
 		ai_will_do = {
 			factor = 1
 		}
 
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = revoke_title_voting_power_1
 					}
 					holder_scope = {
@@ -413,22 +373,14 @@ laws = {
 			has_law = revoke_title_voting_power_0
 		}
 
-		revoke_allowed = {
-			always = no
-		}	
-
 		ai_will_do = {
-			factor = 0
-		}
-
-		ai_will_revoke = {
 			factor = 0
 		}
 
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = revoke_title_voting_power_0
 					}
 					holder_scope = {
@@ -468,27 +420,19 @@ laws = {
 				has_law = tribal_organization_0
 			}
 		}
-		
+
 		allow = {
 			has_law = imprison_voting_power_1
 		}
-
-		revoke_allowed = {
-			always = no
-		}	
 
 		ai_will_do = {
 			factor = 1
 		}
 
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = imprison_voting_power_1
 					}
 					holder_scope = {
@@ -530,22 +474,14 @@ laws = {
 			has_law = imprison_voting_power_0
 		}
 
-		revoke_allowed = {
-			always = no
-		}
-
 		ai_will_do = {
-			factor = 0
-		}
-
-		ai_will_revoke = {
 			factor = 0
 		}
 
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = imprison_voting_power_0
 					}
 					holder_scope = {
@@ -591,27 +527,19 @@ laws = {
 				has_law	= tribal_organization_2
 			}
 		}
-		
+
 		allow = {
 			has_law = grant_title_voting_power_1
 		}
-
-		revoke_allowed = {
-			always = no
-		}	
 
 		ai_will_do = {
 			factor = 1
 		}
 
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = grant_title_voting_power_1
 					}
 					holder_scope = {
@@ -658,23 +586,15 @@ laws = {
 			has_law = law_voting_power_1
 			has_law = grant_title_voting_power_0
 		}
-		
-		revoke_allowed = {
-			always = no
-		}	
 
 		ai_will_do = {
-			factor = 0
-		}
-
-		ai_will_revoke = {
 			factor = 0
 		}
 
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = grant_title_voting_power_0
 					}
 					holder_scope = {
@@ -718,27 +638,19 @@ laws = {
 				has_law = tribal_organization_1
 			}
 		}
-		
+
 		allow = {
 			has_law = banish_voting_power_1
 		}
-
-		revoke_allowed = {
-			always = no
-		}		
 
 		ai_will_do = {
 			factor = 1
 		}
 
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = banish_voting_power_1
 					}
 					holder_scope = {
@@ -783,23 +695,15 @@ laws = {
 			has_law = law_voting_power_1
 			has_law = banish_voting_power_0
 		}
-		
-		revoke_allowed = {
-			always = no
-		}
 
 		ai_will_do = {
-			factor = 0
-		}
-
-		ai_will_revoke = {
 			factor = 0
 		}
 
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = banish_voting_power_0
 					}
 					holder_scope = {
@@ -822,10 +726,10 @@ laws = {
 
 		vassal_limit = 2
 	}
-	
+
 	#Execution Voting Power 0
 	execution_voting_power_0 = {
-		group = execution_voting_power	
+		group = execution_voting_power
 		default = yes
 
 		potential = {
@@ -843,27 +747,19 @@ laws = {
 				has_law = tribal_organization_1
 			}
 		}
-		
+
 		allow = {
 			has_law = execution_voting_power_1
-		}
-
-		revoke_allowed = {
-			always = no
 		}
 
 		ai_will_do = {
 			factor = 1
 		}
 
-		ai_will_revoke = {
-			factor = 0
-		}
-
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = execution_voting_power_1
 					}
 					holder_scope = {
@@ -884,7 +780,7 @@ laws = {
 			disable_council_voting_on_issue = execute_imprisoned_interaction
 		}
 	}
-	#Execution Voting Power 1	
+	#Execution Voting Power 1
 	execution_voting_power_1 = {
 		group = execution_voting_power
 
@@ -908,23 +804,15 @@ laws = {
 			has_law = law_voting_power_1
 			has_law = execution_voting_power_0
 		}
-		
-		revoke_allowed = {
-			always = no
-		}	
 
 		ai_will_do = {
-			factor = 0
-		}
-
-		ai_will_revoke = {
 			factor = 0
 		}
 
 		effect = {
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = execution_voting_power_0
 					}
 					holder_scope = {
@@ -961,21 +849,13 @@ laws = {
 			}
 			holy_order = no
 		}
-		
+
 		allow = {
 			has_law = succession_voting_power_1
 		}
 
-		revoke_allowed = {
-			always = no
-		}	
-
 		ai_will_do = {
 			factor = 1
-		}
-
-		ai_will_revoke = {
-			factor = 0
 		}
 
 		effect = {
@@ -984,7 +864,7 @@ laws = {
 			}
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = succession_voting_power_1
 					}
 					holder_scope = {
@@ -1016,7 +896,7 @@ laws = {
 			}
 			holy_order = no
 		}
-		
+
 		allow = {
 			has_law = law_voting_power_1
 			has_law = war_voting_power_1
@@ -1028,15 +908,7 @@ laws = {
 			has_law = succession_voting_power_0
 		}
 
-		revoke_allowed = {
-			always = no
-		}	
-
 		ai_will_do = {
-			factor = 0
-		}
-
-		ai_will_revoke = {
 			factor = 0
 		}
 
@@ -1044,10 +916,10 @@ laws = {
 			custom_tooltip = {
 				text = succession_voting_power_1_effect_tooltip
 			}
-			
+
 			hidden_tooltip = {
 				if = {
-					limit = { 
+					limit = {
 						has_law = succession_voting_power_0
 					}
 					holder_scope = {
