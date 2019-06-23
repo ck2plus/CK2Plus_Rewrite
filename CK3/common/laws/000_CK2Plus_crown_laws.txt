@@ -7,8 +7,10 @@
 #Law Groups
 law_groups = {
 	crown_authority = { #Crown Authority - Vanilla
+		# No law_type specified due to vanilla otherwise putting crown laws onto the wrong tab without Conclave
 	}
 	kingdom_lockout_group = { #Kingdom Lockout - Plus
+		# No law_type specified due to vanilla otherwise putting crown laws onto the wrong tab without Conclave
 	}
 	out_of_realm_inheritance_law = { #Controlled Realm Inheritance - Vanilla (Conclave)
 		law_type = realm
@@ -19,6 +21,7 @@ law_groups = {
 		allowed_for_councillors = yes
 	}
 	investiture_law = { #Papal Investiture - Vanilla
+		# No law_type specified due to vanilla otherwise putting crown laws onto the wrong tab without Conclave
 	}
 }
 

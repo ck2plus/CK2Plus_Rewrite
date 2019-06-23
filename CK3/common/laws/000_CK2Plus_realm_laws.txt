@@ -8,18 +8,22 @@
 law_groups = {
 	tribal_organization = { #Tribal Organization - Vanilla
 		allowed_for_councillors = yes
+		law_type = realm
 	}
 	administration = { #Administration - Vanilla (Charlemagne)
+		law_type = realm
 	}
 	ze_administration_laws = { #Administration - Vanilla (Conclave)
 		law_type = realm
 	}
 	centralization = { #Centralization - Vanilla
+		law_type = realm
 	}
 	revoke_title_law = { #Revoke Title - Vanilla (Conclave)
 		law_type = realm
 	}
 	vice_royalty = { #Vice Royalty - Vanilla
+		law_type = realm
 	}
 	status_of_women = { #Whamen - Vanilla (Conclave)
 		law_type = realm
