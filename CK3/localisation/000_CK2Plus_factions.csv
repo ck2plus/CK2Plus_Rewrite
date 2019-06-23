@@ -292,8 +292,8 @@ PlusFaction.65_desc;[From.GetTitledFirstName] has invited me to have a few drink
 PlusFaction.65_1;A few drinks won't hurt.;;;;;;;;;;;;;x
 PlusFaction.65_2;No, we must stay focused.;;;;;;;;;;;;;x
 PlusFaction.66_title;Join a faction;;;;;;;;;;;;;x
-PlusFaction.66_desc;[event_target.nofaction_character.GetTitledFirstName] has yet to join one of the five major factions.  Perhaps I can convince [event_target.nofaction_character.GetHerHim] to join the [Root.GetFactionName] faction?;;;;;;;;;;;;;x
-PlusFaction.66_1;[event_target.nofaction_character.GetSheHeCap] would make a great addition!;;;;;;;;;;;;;x
+PlusFaction.66_desc;[nofaction_character.GetTitledFirstName] has yet to join one of the five major factions.  Perhaps I can convince [nofaction_character.GetHerHim] to join the [Root.GetFactionName] faction?;;;;;;;;;;;;;x
+PlusFaction.66_1;[nofaction_character.GetSheHeCap] would make a great addition!;;;;;;;;;;;;;x
 PlusFaction.66_2;No, we have enough members already.;;;;;;;;;;;;;x
 PlusFaction.67_title;Join a faction;;;;;;;;;;;;;x
 PlusFaction.67_desc;My [Root.GetLordLady],\n\nI would like to invite you to join the [From.GetFactionName] faction.  We believe that you would make a great addition to the team.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
@@ -306,9 +306,9 @@ PlusFaction.69_title;Join a faction;;;;;;;;;;;;;x
 PlusFaction.69_desc;My [Root.GetLordLady],\n\nI rather not commit to any factions at the moment.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
 PlusFaction.69_1;Waste of ink.;;;;;;;;;;;;;x
 PlusFaction.70_title;Alliance;;;;;;;;;;;;;x
-PlusFaction.70_desc;Me and [event_target.potential_ally.GetTitledFirstName] have been friends for quite a while now.  Perhaps we may help each other in future wars.;;;;;;;;;;;;;x
+PlusFaction.70_desc;Me and [potential_ally.GetTitledFirstName] have been friends for quite a while now.  Perhaps we may help each other in future wars.;;;;;;;;;;;;;x
 PlusFaction.70_1;Yes, lets form an alliance.;;;;;;;;;;;;;x
-PlusFaction.70_2;I still don't trust [event_target.potential_ally.GetHerHim]...;;;;;;;;;;;;;x
+PlusFaction.70_2;I still don't trust [potential_ally.GetHerHim]...;;;;;;;;;;;;;x
 PlusFaction.71_title;Alliance;;;;;;;;;;;;;x
 PlusFaction.71_desc;My [Root.GetLordLady],\n\nWe have been friends for quite a long time now and I believe we should watch each other's back.  I am proposing an alliance between our realms.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
 PlusFaction.71_1;I watch your back, and you watch mine.;;;;;;;;;;;;;x
@@ -321,7 +321,7 @@ PlusFaction.73_desc;My [Root.GetLordLady],\n\nI reject your alliance proposal.\n
 PlusFaction.73_1;Et tu brute.;;;;;;;;;;;;;x
 PlusFaction.74_title;Friendly Visit;;;;;;;;;;;;;x
 PlusFaction.74_desc;I wonder if I should pay a visit to one of my fellow [Root.GetFactionName] members.;;;;;;;;;;;;;x
-PlusFaction.74_1;I will visit [event_target.social_visit.GetTitledFirstName].;;;;;;;;;;;;;x
+PlusFaction.74_1;I will visit [social_visit.GetTitledFirstName].;;;;;;;;;;;;;x
 PlusFaction.74_2;I rather not travel.;;;;;;;;;;;;;x
 PlusFaction.75_title;Friendly Visit;;;;;;;;;;;;;x
 PlusFaction.75_desc;[From.GetTitledFirstName] showed up in [Root.Capital.GetName] this morning.;;;;;;;;;;;;;x

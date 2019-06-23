@@ -7,7 +7,7 @@
 
 COLLEGE_OF_CARDINALS;Sacred College of Cardinals;Sacré Collège cardinalice;Heiliges Kardinalskollegium;;Sacro Colegio de Cardenalicio;;;;;;;;;x # Older, slightly fancier name, refuses to work with dynamic localisation
 PopeLowerCase;pope;papa;Papst;;papa;;;;;;;;;x
-GetCollegeElectorTitle_Cardinal;cardinal;cardinal;Kardinal;;cardinal
+GetCollegeElectorTitle_Cardinal;cardinal;cardinal;Kardinal;;cardinal;;;;;;;;;x
 
 SHOW_COLLEGE_OF_CARDINALS;[Root.GetCollegeName];[Root.GetCollegeName];[Root.GetCollegeName];;[Root.GetCollegeName];;;;;;;;;x
 GetCollegeName_Cardinals;Sacred College of Cardinals;Sacré Collège cardinalice;Heiliges Kardinalskollegium;;Sacro Colegio de Cardenalicio;;;;;;;;;x

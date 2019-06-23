@@ -1,9 +1,0 @@
-#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-
-MonksAndMysticsDLC;Monks and Mystics;Moines et mystiques (Monks and Mystics);Monks and Mystics;;Monks and Mystics;;;;;;;;;x
-DLC_dlc069_TOOLTIP_INSTANT;§YMonks and Mystics§!;§YMonks and Mystics§! (Moines et mystiques);§YMonks and Mystics§!;;§YMonks and Mystics§!;;;;;;;;;x;;;
-LANDING_HEADER_DLC069;Monks and Mystics - Expansion;Monks and Mystics - Extension;Erweiterung: Monks and Mystics;;Expansión: Monks and Mystics ;;;;;;;;;x;;;
-
-#HolyFury.csv
-EVTDESC_HFP_44003;[Root.GetTitledName]\nI write you this letter to inform you that I and my men have officially left your service. We no longer see you fit to rule, and we have once more returned to the faithful service of [Root.Religion.GetHighGodName].\n\nSigned,\n[From.GetTitledName];[Root.GetTitledName]\nJe vous écris cette lettre pour vous informer que moi et mes hommes ne sommes officiellement plus à votre service. Nous ne vous voyons plus en état de gouverner et nous sommes revenus une fois de plus au service [Root.Get_du_HighGod].\n\nSigné,\n[From.GetTitledName];[Root.GetTitledName]\nIch schreibe euch diesen Brief, um euch darüber zu informieren, dass ich und meine Männer offiziell euren Dienst verlassen haben. Wir sehen euch nicht länger in der Lage zu herrschen und sind wieder in den treuen Dienst von [Root.Religion.GetHighGodName] zurückgekehrt.\n\nGezeichnet,\n[From.GetTitledName];;[Root.GetTitledName]\nEscribo para informarte de que mis hombres y yo hemos abandonado tu servicio. No te vemos dign[Root.GetOA] de gobernar y hemos regresado a servir fielmente a [Root.Religion.GetHighGodName]. \n\nFirmado,\n[From.GetTitledName];;;;;x
-EVTOPTA_HFP_44003;Cursed zealots!;Maudits fanatiques !;Verfluchte Fanatiker!;;¡Malditos fanáticos!;;;;;x

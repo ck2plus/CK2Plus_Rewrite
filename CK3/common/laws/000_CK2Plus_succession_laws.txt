@@ -60,7 +60,9 @@ succession_laws = {
 					}
 					OR = {
 						hidden_tooltip = {
-							has_crown_law_title = no
+							ROOT = {
+								has_crown_law_title = no
+							}
 						}
 						crownlaw_title = {
 							OR = {
@@ -316,7 +318,9 @@ succession_laws = {
 			}
 			OR = {
 				hidden_tooltip = {
-					has_crown_law_title = no
+					ROOT = {
+						has_crown_law_title = no
+					}
 				}
 				crownlaw_title = {
 					OR = {
@@ -595,7 +599,9 @@ succession_laws = {
 				}
 				OR = {
 					hidden_tooltip = {
-						has_crown_law_title = no
+						ROOT = {
+							has_crown_law_title = no
+						}
 					}
 					crownlaw_title = {
 						OR = {
@@ -668,7 +674,9 @@ succession_laws = {
 			}
 			OR = {
 				hidden_tooltip = {
-					has_crown_law_title = no
+					ROOT = {
+						has_crown_law_title = no
+					}
 				}
 				crownlaw_title = {
 					OR = {
