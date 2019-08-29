@@ -1,3 +1,6 @@
+# Audax Validator "!" Ignore_NEXT
+# Used to weed out vanilla errors in Audax Validator
+
 # Supported types: character
 #
 # Note: if 'chance' evaluates to 0, an AI character will also abandon the focus
@@ -10,19 +13,19 @@
 
 focus_rulership = {
 	type = character
-	
+
 	modifier_name = "RULERSHIP_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance - based on personality, not needs!
 	chance = {
 		factor = 100
@@ -58,42 +61,43 @@ focus_rulership = {
 			trait = just
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	stewardship = 3
+	intrigue = -1
 }
 
 focus_business = {
 	type = character
-	
+
 	modifier_name = "BUSINESS_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
@@ -129,40 +133,41 @@ focus_business = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	stewardship = 2
 	town_opinion = 20
+	martial = -1
 }
 
 focus_seduction = {
 	type = character
-	
+
 	modifier_name = "SEDUCTION_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 		NOT = { trait = celibate }
 		NOT = { is_ascetic_trigger = yes }
 		NOT = { trait = eunuch }
@@ -175,11 +180,11 @@ focus_seduction = {
 			}
 		}
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 50
-		
+
 		modifier = {
 			factor = 0
 			trait = chaste
@@ -191,7 +196,7 @@ focus_seduction = {
 				value = off
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.01 # Faithful spouse/consort
 			OR = {
@@ -209,7 +214,7 @@ focus_seduction = {
 				}
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.25
 			trait = shy
@@ -291,48 +296,49 @@ focus_seduction = {
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 			trait = eunuch
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	intrigue = 2
 	fertility = 0.25
 	sex_appeal_opinion = 10
+	learning = -1
 }
 
 focus_intrigue = {
 	type = character
-	
+
 	modifier_name = "INTRIGUE_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
-		
+
 		modifier = {
 			factor = 0
 			has_game_rule = {
@@ -398,48 +404,49 @@ focus_intrigue = {
 			has_character_modifier = african_adulthood_rites_3
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	intrigue = 3
 	plot_power_modifier = 0.05
+	stewardship = -1
 }
 
 focus_hunting = {
 	type = character
-	
+
 	modifier_name = "HUNTING_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 		NOT = { pacifist = yes }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
-		
+
 		modifier = {
 			factor = 0
 			trait = infirm
@@ -475,51 +482,52 @@ focus_hunting = {
 			has_character_modifier = african_adulthood_rites_2
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	martial = 2
-	health = 1
+	health = 0.5
+	intrigue = -1
 }
 
 focus_war = {
 	type = character
-	
+
 	modifier_name = "WAR_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		prisoner = no
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
-		
+
 		modifier = {
 			factor = 0.1
 			is_female = yes
-			NOT = { 
+			NOT = {
 				trait = shieldmaiden
 			}
 		}
@@ -528,12 +536,12 @@ focus_war = {
 			is_female = no
 			has_religion_feature = religion_matriarchal
 		}
-		
+
 		modifier = {
 			factor = 0.2
 			trait = craven
 		}
-		
+
 		modifier = {
 			factor = 0.25
 			NOT = {
@@ -545,7 +553,7 @@ focus_war = {
 				}
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			trait = kind
@@ -579,40 +587,41 @@ focus_war = {
 			has_character_modifier = african_adulthood_rites_2
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	martial = 3
 	combat_rating = 10
+	diplomacy = -1
 }
 
 focus_carousing = {
 	type = character
-	
+
 	modifier_name = "CAROUSING_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 		prisoner = no
 		OR = {
 			NOT = { religion_group = muslim }
@@ -629,7 +638,7 @@ focus_carousing = {
 			}
 		}
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
@@ -666,42 +675,43 @@ focus_carousing = {
 			has_character_modifier = african_adulthood_rites_1
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	diplomacy = 3
+	learning = -1
 }
 
 focus_family = {
 	type = character
-	
+
 	modifier_name = "FAMILY_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 		prisoner = no
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
@@ -773,48 +783,49 @@ focus_family = {
 		modifier = {
 			factor = 3.0
 			is_female = yes
-			NOT = { 
+			NOT = {
 				trait = shieldmaiden
 			}
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
 			prisoner = yes
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	diplomacy = 2
-	health = 1
+	health = 0.5
 	fertility = 0.25
+	martial = -1
 }
 
 focus_scholarship = {
 	type = character
-	
+
 	modifier_name = "SCHOLARSHIP_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
@@ -873,44 +884,45 @@ focus_scholarship = {
 			has_character_modifier = african_adulthood_rites_4
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
 	}
-	
+
 	abort = {
 		OR = {
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	learning = 3
+	diplomacy = -1
 }
 
 focus_theology = {
 	type = character
-	
+
 	modifier_name = "THEOLOGY_FOCUS"
-	
+
 	potential = {
 		is_playable = yes
 	}
-	
+
 	allow = {
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = { is_incapable = yes }
 	}
-	
+
 	# AI Pick chance
 	chance = {
 		factor = 100
-		
+
 		modifier = {
 			factor = 0
 			trait = imbecile
@@ -973,7 +985,7 @@ focus_theology = {
 			has_character_modifier = african_adulthood_rites_4
 		}
 	}
-	
+
 	# Focuses have no success conditions
 	success = {
 		always = no
@@ -984,19 +996,20 @@ focus_theology = {
 			character_event = { id = MNM.4016 }
 		}
 	}
-	
+
 	abort = {
 		OR = {
-			trait = incapable
+			is_incapable = yes
 			is_playable = no
 		}
 	}
-	
+
 	abort_effect = {
 	}
-	
+
 	# MODIFIERS
 	learning = 2
 	church_opinion = 20
-	health = 1.0
+	health = 0.5
+	stewardship = -1
 }
