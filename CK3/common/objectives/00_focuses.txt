@@ -502,6 +502,7 @@ focus_hunting = {
 	# MODIFIERS
 	martial = 2
 	health = 0.5
+	combat_rating = 5
 	intrigue = -1
 }
 
