@@ -1,0 +1,144 @@
+#########################################
+# CK2Plus baby portraits scripted effects
+#
+# by LordPeter
+#########################################
+
+###
+## These MUST be called in a CHARACTER scope to work properly
+#
+
+assign_proper_baby_trait_CK2Plus_effect = {
+	if = {
+		limit = {
+			OR = { # Exhaustive list of every gfx_culture with fair skin (skin_tone = 0)
+				graphical_culture = frankishgfx
+				graphical_culture = englishgfx
+				graphical_culture = germangfx
+				graphical_culture = occitangfx
+				graphical_culture = trueoccitangfx
+				graphical_culture = celticgfx
+				graphical_culture = norsegfx
+				#graphical_culture = knightsgfx		# seem to be unused or just for technical reasons
+				#graphical_culture = republicsgfx	# seem to be unused or just for technical reasons
+				graphical_culture = saxongfx
+				graphical_culture = normangfx
+				#graphical_culture = holygfx	# seem to be unused or just for technical reasons
+				#graphical_culture = norseholygfx	# seem to be unused or just for technical reasons
+				#graphical_culture = balticholygfx	# seem to be unused or just for technical reasons
+				#graphical_culture = finnishholygfx	# seem to be unused or just for technical reasons
+				graphical_culture = italiangfx
+				graphical_culture = romangfx
+				graphical_culture = dalmatiangfx
+				graphical_culture = crimeangfx
+				graphical_culture = outremergfx
+				graphical_culture = easternslavicgfx
+				graphical_culture = westernslavicgfx
+				graphical_culture = ugricgfx
+				graphical_culture = magyargfx
+				#graphical_culture = slavicholygfx	# seem to be unused or just for technical reasons
+				#graphical_culture = pagangfx	# seem to be unused or just for technical reasons
+				#graphical_culture = hellenicgfx	# seem to be unused or just for technical reasons
+				graphical_culture = easterngfx
+				graphical_culture = westerngfx
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			add_trait = baby_girl_fair
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			add_trait = baby_boy_fair
+		}
+	}
+	if = {
+		limit = {
+			OR = { # Exhaustive list of every gfx_culture with tanned skin (skin_tone = 1)
+				graphical_culture = southerngfx
+				graphical_culture = croatsouthslavicgfx
+				graphical_culture = serbsouthslavicgfx
+				graphical_culture = byzantinegfx
+				#graphical_culture = orthodoxholygfx	# seem to be unused or just for technical reasons
+				graphical_culture = mongolgfx
+				graphical_culture = andalusiangfx
+				graphical_culture = chinesegfx
+				graphical_culture = bodpagfx
+				graphical_culture = mesoamericangfx
+				graphical_culture = jewishgfx
+				#graphical_culture = aztecholygfx	# seem to be unused or just for technical reasons
+				#graphical_culture = jewishholygfx	# seem to be unused or just for technical reasons
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			add_trait = baby_girl_tanned
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			add_trait = baby_boy_tanned
+		}
+	}
+	if = {
+		limit = {
+			OR = { # Exhaustive list of every gfx_culture with dark skin (skin_tone = 2)
+				graphical_culture = arabicgfx
+				graphical_culture = turkishgfx
+				graphical_culture = cumangfx
+				#graphical_culture = bektashigfx	# seem to be unused or just for technical reasons
+				#graphical_culture = hashshashingfx	# seem to be unused or just for technical reasons
+				#graphical_culture = immortalsgfx	# seem to be unused or just for technical reasons
+				graphical_culture = berbergfx
+				graphical_culture = levantinegfx
+				graphical_culture = persiangfx
+				graphical_culture = muslimgfx
+				graphical_culture = indiangfx
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			add_trait = baby_girl_dark
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			add_trait = baby_boy_dark
+		}
+	}
+	if = {
+		limit = {
+			OR = { # Exhaustive list of every gfx_culture with darker skin (skin_tone = 3)
+				#graphical_culture = hindugfx	# seem to be unused or just for technical reasons
+				#graphical_culture = jaingfx	# seem to be unused or just for technical reasons
+				#graphical_culture = buddhistgfx	# seem to be unused or just for technical reasons
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				#graphical_culture = westafricanholygfx	# seem to be unused or just for technical reasons
+				graphical_culture = southindiangfx
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			add_trait = baby_girl_darker
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			add_trait = baby_boy_darker
+		}
+	}
+}

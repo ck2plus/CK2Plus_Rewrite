@@ -1,0 +1,25 @@
+on_startup = {
+	events = {
+		PlusMaintenance.003		# Baby traits for babies born before game start
+	}
+}
+
+on_birth = {
+	events = {
+		PlusMaintenance.001		# Give newborn baby trait
+	}
+}
+
+# For characters older than AGE_CHILDHOOD_PULSE but not an adult as defined by ADULT_AGE_FEMALE and ADULT_AGE_MALE
+on_yearly_childhood_pulse = {
+	events = {
+		PlusMaintenance.002		# Remove baby around 2 years
+	}
+}
+
+# TEMPORARY (?) PATCH AGAINST BUG (NOTE):
+on_chronicle_start = {
+	events = {
+		PlusMaintenance.004		# This whole event should later be removed, but atm it is necessary because of a vanilla bug/problem
+	}
+}

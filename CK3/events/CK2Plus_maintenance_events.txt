@@ -1,0 +1,201 @@
+
+namespace = PlusMaintenance
+
+########################
+#
+# Maintenance events
+#
+########################
+#
+# CATALOG
+#
+# 001 - 100: Baby events
+#
+########################
+
+
+################################
+#
+# 001 - 100: Baby events
+#
+# by LordPeter
+#
+################################
+#
+# INDEX
+#
+# 001: Give newborn baby trait
+# 002: Remove baby at 2 years
+# 002: Startup: Give baby traits
+#
+################################
+
+# Give newborn baby trait
+
+character_event = {
+	id = PlusMaintenance.001
+
+	hide_window = yes
+
+	is_triggered_only = yes		# from on_birth
+
+	trigger = {
+		NOT = {
+			trait = baby_toddler
+		}
+		# no baby traits for animals
+		is_not_animal_culture_group_CK2Plus_trigger = yes
+	}
+
+	immediate = {
+		# always assign general baby trait
+		add_trait = baby_toddler
+		if = {
+			# if game rule on, also apply hidden portrait traits
+			limit = {
+				has_game_rule = {
+					name = baby_portraits
+					value = yes
+				}
+				NOR = {
+					trait = baby_boy_fair
+					trait = baby_boy_tanned
+					trait = baby_boy_dark
+					trait = baby_boy_darker
+					trait = baby_girl_fair
+					trait = baby_girl_tanned
+					trait = baby_girl_dark
+					trait = baby_girl_darker
+				}
+			}
+			assign_proper_baby_trait_CK2Plus_effect = yes	# Automatically choses the proper trait based on gender & ethnicity
+		}
+	}
+}
+
+
+# Remove baby at 2 years
+
+character_event = {
+	id = PlusMaintenance.002
+	desc = PlusMaintenanceDESC_002
+	picture = GFX_evt_child_play
+
+	is_triggered_only = yes		# from on_yearly_childhood_pulse
+
+	trigger = {
+		age = 2
+		trait = baby_toddler
+	}
+
+	option = {
+		name = PlusMaintenanceOPTA_0002
+		# remove the general trait
+		remove_trait = baby_toddler
+		hidden_tooltip = {
+			# and remove all hidden baby portrait traits, existing or not:
+			remove_trait = baby_boy_fair
+			remove_trait = baby_boy_tanned
+			remove_trait = baby_boy_dark
+			remove_trait = baby_boy_darker
+			remove_trait = baby_girl_fair
+			remove_trait = baby_girl_tanned
+			remove_trait = baby_girl_dark
+			remove_trait = baby_girl_darker
+		}
+	}
+}
+
+# Startup: Give baby traits
+
+character_event = {
+	id = PlusMaintenance.003
+
+	hide_window = yes
+
+	is_triggered_only = yes		# from on_startup
+
+	max_age = 2
+
+	trigger = {
+		is_alive = yes
+		NOT = {
+			trait = baby_toddler
+		}
+		# no baby traits for animals
+		is_not_animal_culture_group_CK2Plus_trigger = yes
+	}
+
+	immediate = {
+		# always assign general baby trait
+		add_trait = baby_toddler
+		if = {
+			# if game rule on, also apply hidden portrait traits
+			limit = {
+				has_game_rule = {
+					name = baby_portraits
+					value = yes
+				}
+				NOR = {
+					trait = baby_boy_fair
+					trait = baby_boy_tanned
+					trait = baby_boy_dark
+					trait = baby_boy_darker
+					trait = baby_girl_fair
+					trait = baby_girl_tanned
+					trait = baby_girl_dark
+					trait = baby_girl_darker
+				}
+			}
+			assign_proper_baby_trait_CK2Plus_effect = yes	# Automatically choses the proper trait based on gender & ethnicity
+		}
+		
+	}
+}
+
+# TEMPORARY (?) PATCH AGAINST BUG (NOTE):
+
+# This whole event should later be removed, but atm it is necessary because of a vanilla bug/problem
+character_event = {
+	id = PlusMaintenance.004
+
+	hide_window = yes
+
+	is_triggered_only = yes		# from on_chronicle_startup - only for the player
+
+	trigger = {
+		# Now, check if "generate families" vanilla game rule is active, because that is screwing with trait assignment (fires earlier than the regular event)
+		NOT = {	# is not disabled (easier than checking for both "on" options)
+			has_game_rule = {
+				name = generate_families
+				value = off
+			}
+		}
+	}
+
+	immediate = {
+		# this just waits a day, and then fires the actual fixing event
+		character_event = {
+			id = PlusMaintenance.005
+			days = 1	# just wait a day or so, then the game generated new babys should exist
+		}
+	}
+}
+
+# This whole event should later be removed, but atm it is necessary because of a vanilla bug/problem
+character_event = {
+	id = PlusMaintenance.005
+
+	hide_window = yes
+
+	is_triggered_only = yes		# from previous event
+
+	immediate = {
+		any_character = {	# WARNING INCREDIBLY EXPENSIVE !!! DANGER WARNING CRITICAL
+			# Fire event to assign traits again, so that all characters that are babies at gamestart get it.
+			character_event = {
+				id = PlusMaintenance.003
+			}
+		}
+	}
+}

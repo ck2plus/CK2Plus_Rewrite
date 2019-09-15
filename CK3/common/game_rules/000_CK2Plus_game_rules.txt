@@ -1,0 +1,20 @@
+#######
+#Plus Rules:
+#
+#Total: 1
+#######
+
+baby_portraits = {
+	name = "BABY_PORTRAITS"
+	group = "RULE_GROUP_PLUS"
+	option = {
+		name = yes
+		text = "YES"
+		desc = "BABY_PORTRAITS_YES_DESC"
+	}
+	option = {
+		name = no
+		text = "NO"
+		desc = "BABY_PORTRAITS_NO_DESC"
+	}
+}
