@@ -1,3 +1,7 @@
+# Audax Validator "!" Ignore_NEXT
+# Audax Validator "!" Ignore_3000
+# Used to weed out vanilla errors in Audax Validator
+
 1000 = {
 	name="Áed"
 	dynasty=101675
