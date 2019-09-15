@@ -549,7 +549,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			if = {
 				limit = { NOT = { has_dlc = "Zeus" } }
@@ -648,7 +654,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			if = {
 				limit = { NOT = { has_dlc = "Zeus" } }
@@ -746,7 +758,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -9 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -9
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			if = {
 				limit = { NOT = { has_dlc = "Zeus" } }
@@ -827,7 +845,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -12 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -12
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			if = {
 				limit = { NOT = { has_dlc = "Zeus" } }
@@ -936,7 +960,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			hidden_tooltip = {
 				revoke_law = vice_royalty_0
@@ -986,7 +1016,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			hidden_tooltip = {
 				revoke_law = vice_royalty_0
@@ -1144,7 +1180,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			hidden_tooltip = {
 				revoke_law = ze_administration_laws_0
@@ -1196,7 +1238,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			set_title_flag = has_imperial_administration
 			if = {
@@ -1357,7 +1405,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 			if = {
@@ -1455,7 +1509,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 			if = {
@@ -1551,7 +1611,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -9 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -9
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 			if = {
@@ -1636,7 +1702,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -12 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -12
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 			if = {
@@ -1747,7 +1819,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			set_allow_title_revokation = yes
 			hidden_tooltip = {
@@ -1801,7 +1879,13 @@ laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
 			set_allow_title_revokation = yes
 			set_allow_free_infidel_revokation = yes

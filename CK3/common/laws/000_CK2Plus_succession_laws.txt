@@ -44,7 +44,12 @@ succession_laws = {
 				NOT = {
 					has_character_modifier = uncrowned_modifier
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige = 250
+				}
 				conditional_tooltip = {
 					trigger = {
 						is_tribal = yes
@@ -83,14 +88,23 @@ succession_laws = {
 			}
 		}
 
-		effect = {
-			succession = gavelkind
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
+		}
+		
+		effect = {
+			succession = gavelkind
 		}
 
 		child_opinion = 30
@@ -189,7 +203,12 @@ succession_laws = {
 				NOT = {
 					has_character_modifier = uncrowned_modifier
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige = 250
+				}
 			}
 			OR = {
 				has_law = tribal_organization_1
@@ -205,18 +224,27 @@ succession_laws = {
 			}
 		}
 
+		pass_effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+#				holder_scope = { 
+#					scaled_prestige = { 
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
+			}
+		}
+		
 		effect = {
 			succession = {
 				base_type = tanistry
 				voting_rules = eldership_rules
 			}
 			elective_voting_rules = eldership_rules
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
-			}
 		}
 
 		dynasty_opinion = 10
@@ -310,7 +338,12 @@ succession_laws = {
 				NOT = {
 					has_character_modifier = uncrowned_modifier
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige = 250
+				}
 			}
 			OR = {
 				has_law = ze_administration_laws_1
@@ -337,14 +370,24 @@ succession_laws = {
 			}
 		}
 
-		effect = {
-			succession = primogeniture
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -9 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -9
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
+#			holder_scope = { prestige = 10000 }
+		}
+		
+		effect = {
+			succession = primogeniture
 		}
 
 		oldest_child_opinion = 45
@@ -444,7 +487,12 @@ succession_laws = {
 				NOT = {
 					has_character_modifier = uncrowned_modifier
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige = 250
+				}
 			}
 			custom_tooltip = {
 				text = not_forced_tt
@@ -454,16 +502,25 @@ succession_laws = {
 			}
 		}
 
-		effect = {
-			succession = {
-				base_type = feudal_elective
-				voting_rules = hre_feudal_elective
-			}
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -12 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -12
+#						min = -250
+#						max = -1000
+#					}
+#				}
+			}
+		}
+		
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = hre_feudal_elective
 			}
 		}
 
@@ -506,7 +563,12 @@ succession_laws = {
 				NOT = {
 					has_character_modifier = uncrowned_modifier
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige = 250
+				}
 			}
 			custom_tooltip = {
 				text = not_forced_tt
@@ -516,16 +578,25 @@ succession_laws = {
 			}
 		}
 
-		effect = {
-			succession = {
-				base_type = feudal_elective
-				voting_rules = byzantine_elective
-			}
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -12 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -12
+#						min = -250
+#						max = -1000
+#					}
+#				}
+			}
+		}
+		
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = byzantine_elective
 			}
 		}
 
@@ -571,7 +642,12 @@ succession_laws = {
 				NOT = {
 					has_character_modifier = uncrowned_modifier
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige = 250
+				}
 			}
 			custom_tooltip = {
 				text = not_forced_tt
@@ -614,16 +690,25 @@ succession_laws = {
 			}
 		}
 
-		effect = {
-			succession = {
-				base_type = tanistry
-				voting_rules = tanistry
-			}
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
+			}
+		}
+		
+		effect = {
+			succession = {
+				base_type = tanistry
+				voting_rules = tanistry
 			}
 		}
 
@@ -666,7 +751,12 @@ succession_laws = {
 				NOT = {
 					has_character_modifier = uncrowned_modifier
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige = 250
+				}
 			}
 			OR = {
 				has_law = ze_administration_laws_1
@@ -694,14 +784,23 @@ succession_laws = {
 			}
 		}
 
-		effect = {
-			succession = ultimogeniture
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
+		}
+		
+		effect = {
+			succession = ultimogeniture
 		}
 
 		youngest_child_opinion = 45
@@ -968,13 +1067,22 @@ gender_laws = {
 
 		allow = {}
 
-		effect = {
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
+		}
+		
+		effect = {
 			if = {
 				limit = {
 					NOT = {
@@ -1036,13 +1144,22 @@ gender_laws = {
 
 		allow = {}
 
-		effect = {
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
+		}
+		
+		effect = {
 			if = {
 				limit = {
 					NOT = {
@@ -1106,13 +1223,22 @@ gender_laws = {
 
 		allow = {}
 
-		effect = {
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
+		}
+		
+		effect = {
 			if = {
 				limit = {
 					NOT = {
@@ -1177,13 +1303,22 @@ gender_laws = {
 
 		allow = {}
 
-		effect = {
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
+		}
+		
+		effect = {
 			if = {
 				limit = {
 					NOT = {
@@ -1242,13 +1377,22 @@ gender_laws = {
 
 		allow = {}
 
-		effect = {
+		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+#				holder_scope = { 
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
 			}
+		}
+		
+		effect = {
 			if = {
 				limit = {
 					NOT = {
