@@ -4638,7 +4638,7 @@ letter_event = {
 }
 
 #Faction leader tells members about new construction
-province_event = {
+character_event = {
 	id = PlusFaction.49
 	title = PlusFaction.49_title
 	desc = PlusFaction.49_desc
@@ -5807,6 +5807,31 @@ character_event = {
 			in_faction = faction_prosperity
 			in_faction = faction_tradition
 		}
+		any_faction_backer = {
+			is_friend = ROOT
+			OR = {
+				AND = {
+					in_faction = faction_court
+					ROOT = { in_faction = faction_court }
+				}
+				AND = {
+					in_faction = faction_glory
+					ROOT = { in_faction = faction_glory }
+				}
+				AND = {
+					in_faction = faction_order
+					ROOT = { in_faction = faction_order }
+				}
+				AND = {
+					in_faction = faction_prosperity
+					ROOT = { in_faction = faction_prosperity }
+				}
+				AND = {
+					in_faction = faction_tradition
+					ROOT = { in_faction = faction_tradition }
+				}
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -5816,13 +5841,28 @@ character_event = {
 	immediate = {
 		random_friend = {
 			limit = {
-				same_liege = ROOT
+				same_liege = ROOT # Required to be useful allies
 				OR = {
-					in_faction = faction_court
-					in_faction = faction_glory
-					in_faction = faction_order
-					in_faction = faction_prosperity
-					in_faction = faction_tradition
+					AND = {
+						in_faction = faction_court
+						ROOT = { in_faction = faction_court }
+					}
+					AND = {
+						in_faction = faction_glory
+						ROOT = { in_faction = faction_glory }
+					}
+					AND = {
+						in_faction = faction_order
+						ROOT = { in_faction = faction_order }
+					}
+					AND = {
+						in_faction = faction_prosperity
+						ROOT = { in_faction = faction_prosperity }
+					}
+					AND = {
+						in_faction = faction_tradition
+						ROOT = { in_faction = faction_tradition }
+					}
 				}
 			}
 			save_event_target_as = potential_ally

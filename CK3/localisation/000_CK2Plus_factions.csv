@@ -4,18 +4,23 @@
 #####
 
 #Court Faction
+faction_court_short;Court;;;;;;;;;;;;;x
 faction_court_title;Court Faction;;;;;;;;;;;;;x
 faction_court_desc;The §GCourt Faction§! strives for influence and vassal autonomy.;;;;;;;;;;;;;x
 #Glory Faction
+faction_glory_short;Glory;;;;;;;;;;;;;x
 faction_glory_title;Glory Faction;;;;;;;;;;;;;x
 faction_glory_desc;The §RGlory Faction§! strives for prestige and the spoils of war.;;;;;;;;;;;;;x
 #Order Faction
+faction_order_short;Order;;;;;;;;;;;;;x
 faction_order_title;Order Faction;;;;;;;;;;;;;x
 faction_order_desc;The §BOrder Faction§! strives for justice and a stable society.;;;;;;;;;;;;;x
 #Prosperity Faction
+faction_prosperity_short;Prosperity;;;;;;;;;;;;;x
 faction_prosperity_title;Prosperity Faction;;;;;;;;;;;;;x
 faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a healthy economy.;;;;;;;;;;;;;x
 #Tradition Faction
+faction_tradition_short;Tradition;;;;;;;;;;;;;x
 faction_tradition_title;Tradition Faction;;;;;;;;;;;;;x
 faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;;;;;;;;;;;;;x
 
@@ -306,7 +311,7 @@ PlusFaction.69_title;Join a faction;;;;;;;;;;;;;x
 PlusFaction.69_desc;My [Root.GetLordLady],\n\nI rather not commit to any factions at the moment.\n\nSincerely,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
 PlusFaction.69_1;Waste of ink.;;;;;;;;;;;;;x
 PlusFaction.70_title;Alliance;;;;;;;;;;;;;x
-PlusFaction.70_desc;Me and [potential_ally.GetTitledFirstName] have been friends for quite a while now.  Perhaps we may help each other in future wars.;;;;;;;;;;;;;x
+PlusFaction.70_desc;I and [potential_ally.GetTitledFirstName] have been friends for quite a while now.  Perhaps we may help each other in future wars.;;;;;;;;;;;;;x
 PlusFaction.70_1;Yes, lets form an alliance.;;;;;;;;;;;;;x
 PlusFaction.70_2;I still don't trust [potential_ally.GetHerHim]...;;;;;;;;;;;;;x
 PlusFaction.71_title;Alliance;;;;;;;;;;;;;x
