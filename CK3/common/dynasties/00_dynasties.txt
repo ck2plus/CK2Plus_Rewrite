@@ -12766,7 +12766,7 @@
 {
 	name="Octavianus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 8649=
@@ -34922,7 +34922,7 @@
 1042808=
 {
 	name="de Callaris"
-	culture="italian"
+	culture="sardinian"
 	religion="catholic"
 }
 1043300=
@@ -36326,250 +36326,250 @@
 {
 	name="Constantinus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022196=
 {
 	name="Licinianus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022197=
 {
 	name="Daia"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022198=
 {
 	name="Armentarius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022199=
 {
 	name="Diocletianus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022200=
 {
 	name="Carus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022201=
 {
 	name="Dalmatius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022202=
 {
 	name="Tacitus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022203=
 {
 	name="Crinitus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022204=
 {
 	name="Domitius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022205=
 {
 	name="Gothicus"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022206=
 {
 	name="Valerianus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022207=
 {
 	name="Aemilius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022208=
 {
 	name="Trebonianus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022209=
 {
 	name="Messius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022210=
 {
 	name="Arabs"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022211=
 {
 	name="Africanus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022212=
 {
 	name="Calvinus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022213=
 {
 	name="Maximus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022214=
 {
 	name="Thrax"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022215=
 {
 	name="Severus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022216=
 {
 	name="Antoninus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022217=
 {
 	name="Opellius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022218=
 {
 	name="Severus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022219=
 {
 	name="Didius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022220=
 {
 	name="Helvius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022221=
 {
 	name="Aurelius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022222=
 {
 	name="Verus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022223=
 {
 	name="Pius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022224=
 {
 	name="Hadrianus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022225=
 {
 	name="Traianus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022226=
 {
 	name="Cocceius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022227=
 {
 	name="Flavius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022228=
 {
 	name="Vitellius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022229=
 {
 	name="Salvius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022230=
 {
 	name="Sulpicius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022231=
@@ -36583,14 +36583,14 @@
 {
 	name="Claudius"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1022233=
 {
 	name="Maximianus"
 	culture="roman"
-	religion="roman_pagan"
+	religion="hellenic_pagan"
 	forced_coa_religiongroup="christian"
 }
 1029143=
@@ -40144,13 +40144,13 @@
 1022321=
 {
 	name="Oristani"
-	culture="italian"
+	culture="sardinian"
 	religion="catholic"
 }
 1022322=
 {
 	name="Sorrenti"
-	culture="italian"
+	culture="sardinian"
 	religion="catholic"
 }
 1022323=
@@ -42000,11 +42000,13 @@
 {
 	name="Ravandi"
 	culture="persian"
+	religion="mazdaki"
 }
 1042163=
 {
 	name="Hushangid"
 	culture="persian"
+	religion="zoroastrian"
 }
 1042164=
 {
@@ -42874,11 +42876,17 @@
 	culture="lappish"
 	religion="finnish_pagan"
 }
+#1045008=
+#{
+#	name="av Island"
+#	culture="norse"
+#	religion="norse_pagan"
+#}
 1045008=
 {
-	name="av Island"
-	culture="norse"
-	religion="norse_pagan"
+	name="Papar"
+	culture="irish"
+	religion="catholic"
 }
 1045009=
 {
@@ -52032,6 +52040,67 @@
 	name = "de Mortagne"
 	culture = frankish
 	religion = catholic
+}
+1062610 = {
+	name="Botaneiates"
+	culture="greek"
+}
+1062611 = {
+	name="Shahin"
+	culture="levantine_arabic"
+	religion="pagan"
+}
+1062612 = {
+	name = "di Arborea"
+	culture = sardinian
+}
+1062613 = {
+	name = "di Casteddu"
+	culture = sardinian
+}
+1062614 = {
+	name = "di Santa Igia"
+	culture = sardinian
+}
+1062615 = {
+	name = "di Patiolla"
+	culture = sardinian
+}
+1062616 = {
+	name = "di Ogiastra"
+	culture = sardinian
+}
+1062617 = {
+	name = "di Torres"
+	culture = sardinian
+}
+1062618 = {
+	name = "di Ballau"
+	culture = sardinian
+}
+1062619 = {
+	name = "di Bosa"
+	culture = sardinian
+}
+1062620 = {
+	name = "di Caddura"
+	culture = sardinian
+}
+1062621 = {
+	name = "di Pasada"
+	culture = sardinian
+}
+1062622 = {
+	name = "di Durgali"
+	culture = sardinian
+}
+1062623 = {
+	name = "di Calvi"
+	culture = sardinian
+}
+1062624 = {
+	name = "di Sartena"
+	culture = sardinian
 }
 
 1069000 = {

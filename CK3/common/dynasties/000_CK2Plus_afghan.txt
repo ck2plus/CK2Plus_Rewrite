@@ -6,7 +6,7 @@
 	name = "Barakzai"
 	culture = "afghan"
 }
-1000252098= {
+1000252098 = {
 	name = "Tokhid"
 	culture = "afghan"
 }
