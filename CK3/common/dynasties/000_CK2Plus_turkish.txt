@@ -1,0 +1,72 @@
+1000124661 = {
+	name = "Ertenid"
+	culture = anatolian
+}
+1000124662 = {
+	name = "Süleymid"
+	culture = anatolian
+}
+1000125663 = {
+	name = "Erenid"
+	culture = anatolian
+}
+1000125664 = {
+	name = "Zengid"
+	culture = anatolian
+}
+1000125665 = {
+	name = "Baharid"
+	culture = anatolian
+}
+1000125666 = {
+	name = "Simjurid"
+	culture = anatolian
+}
+1000125667 = {
+	name = "Ghazi"
+	culture = anatolian
+}
+1000125681 = {
+	name = "Aslan"
+	culture = anatolian
+}
+1000125682 = {
+	name = "Rum"
+	culture = anatolian
+}
+1000125683 = {
+	name = "Teke"
+	culture = anatolian
+}
+1000125684 = {
+	name = "Jandarid"
+	culture = anatolian
+}
+1000125685 = {
+	name = "Kayid"
+	culture = anatolian
+}
+1000125686 = {
+	name = "Afsharid"
+	culture = anatolian
+}
+1000125687 = {
+	name = "Kara"
+	culture = anatolian
+}
+1000125688 = {
+	name = "Yasar"
+	culture = anatolian
+}
+1000125689 = {
+	name = "Orhanid"
+	culture = anatolian
+}
+1000125755 = {
+	name = "Musaid"
+	culture = anatolian
+}
+1000125757 = {
+	name = "Inalid"
+	culture = anatolian
+}

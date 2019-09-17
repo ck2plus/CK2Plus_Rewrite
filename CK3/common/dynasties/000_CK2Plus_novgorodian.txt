@@ -1,0 +1,49 @@
+
+1000060901 = {
+name="Jurevic"
+ culture = novgorodian
+}
+1000060902 = { 
+name="Onfimov"
+ culture = novgorodian
+}
+1000060903 = {  
+name="Oparin" 
+ culture = novgorodian
+}
+1000060904 = { 
+name="Sobolcev"  
+ culture = novgorodian
+}
+1000060905 = { 
+name="Sychevich" 
+ culture = novgorodian
+}
+1000060906 = { 
+name="Yurievichi"
+ culture = novgorodian
+}
+1000060907 = { 
+name="Monomakhovichi"  
+ culture = novgorodian
+}
+1000060908 = { 
+name="Glebov"  
+ culture = novgorodian
+}
+1000060909 = { 
+name="Pavelov"  
+ culture = novgorodian
+}
+1000060910 = { 
+name="Stavrov"  
+ culture = novgorodian
+}
+1000060911 = { 
+name="Jesific"  
+ culture = novgorodian
+}
+1000060912 = { 
+name="Borisovich"
+ culture = novgorodian
+}

@@ -1,0 +1,55 @@
+
+1000102200 = {
+	name="Kakuyid"
+	culture = daylamite
+	religion = shiite
+}
+1000102201 = {
+	name="Buyid"
+	culture = daylamite
+	religion = shiite
+}
+1000102202 = {
+	name="Rudbarid"
+	culture = daylamite
+}
+1000102203 = {
+	name="Damghanid"
+	culture = daylamite
+	religion = sunni
+}
+1000102204 = {
+	name="Shahanshavand"
+	culture = daylamite
+	religion = zoroastrian
+}
+1000102205 = {
+	name="Sallarid"
+	culture = daylamite
+	religion = shiite
+}
+1000102207 = {
+	name="Qazwinid"
+	culture = daylamite
+	religion = shiite
+}
+1000102208 = {
+	name="Garshaspid"
+	culture = daylamite
+}
+1000102209 = {
+	name="Faramurzid"
+	culture = daylamite
+}
+1000102210 = {
+	name="Baqlid"
+	culture = daylamite
+}
+1000102211 = {
+	name="Kiyadid"
+	culture = daylamite
+}
+1000102212 = {
+	name="Lashkarwarzid"
+	culture = daylamite
+}
