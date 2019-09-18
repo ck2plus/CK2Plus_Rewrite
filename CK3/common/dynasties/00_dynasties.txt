@@ -1356,11 +1356,11 @@
 	name="Vojislavljevic"
 	culture="serbian"
 	religion="orthodox"
-	coat_of_arms=
-	{
-		data={0 0 22 4 0 3 15 1 0 13 6 1 15 1 0 13 6 1 15 1 0 13 6 1 15}
-		religion="orthodox"
-	}
+#	coat_of_arms=
+#	{
+#		data={0 0 22 4 0 3 15 1 0 13 6 1 15 1 0 13 6 1 15 1 0 13 6 1 15}
+#		religion="orthodox"
+#	}
 }
 192=
 {
@@ -29499,6 +29499,17 @@
 	name="Mac Gilla-Pátraic"
 	culture="irish"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 101678=
 {
@@ -32872,7 +32883,7 @@
 1030008=
 {
 	name="Askiya"
-	culture="songhai"
+	culture="songhay"
 }
 1030009=
 {
@@ -49195,7 +49206,7 @@
 }
 1060101 = {
 	name = "Zuwaido"
-	culture = songhai
+	culture = songhay
 	religion = west_african_pagan
 }
 1059972={

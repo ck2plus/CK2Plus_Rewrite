@@ -1,0 +1,43 @@
+#################################################
+#
+#	Plus Graphical Cultures:
+#
+#	Total = 9
+#
+#################################################
+
+ashkenazigfx = {
+	skin_tone = 0 
+}
+
+bretongfx = {
+	skin_tone = 0
+}
+
+dutchgfx = {
+	skin_tone = 0
+}
+
+copticgfx = {
+	skin_tone = 2
+}
+
+lombardgfx = {
+	skin_tone = 0
+}
+
+maghrebgfx = {
+	skin_tone = 2
+}
+
+norsegaelgfx = {
+	skin_tone = 0
+}
+
+siciliangfx = {
+	skin_tone = 1
+}
+
+southernslavicgfx = {
+	skin_tone = 0
+}
