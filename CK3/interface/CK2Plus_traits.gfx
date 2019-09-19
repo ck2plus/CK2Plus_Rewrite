@@ -120,14 +120,14 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_trait_minus_32_age"
-		texturefile = "gfx/traits/minus20.tga"
+		texturefile = "gfx/traits/minus32.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
 		name = "GFX_trait_minus_64_age"
-		texturefile = "gfx/traits/minus50.tga"
+		texturefile = "gfx/traits/minus64.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
