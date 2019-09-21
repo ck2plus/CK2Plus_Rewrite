@@ -1,0 +1,184 @@
+####################################################################
+#
+#	Altaic
+#	 - Jurchen
+#	 - Khitan
+#	 - Mongol
+#
+####################################################################
+
+# Jurchen* - Khitan* - Mongol*
+altaic = {
+	jurchen = {
+		graphical_cultures = { chinesegfx mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+
+		alternate_start = {
+			has_alternate_start_parameter = {
+				key = culture
+				value = full_random
+			}
+		}
+
+		color = { 122 114 92 }
+
+		male_names = {
+			Abaohan Abulang Agu Aguda Agunai Aguo Aha Ahacu Ahai Ahaibaifu Aišï Aišïha Ajungha Albasæri Ali Alihan Alihemen Alin Alu Alubu Aludai Aluhan Aluobuhua Aluwan Ancen Ancu Andahai Aodi Asur Ašentan Ašïngha
+			Ælijesænæ Æncïæng Æsuræku Ætæ
+			Bahai Bahei Bahulu Baifu Baoci Baohuoli Barha Beilu Biefoga Bugil Bulo Bulægæmaihu
+			Cala Cangho Caoha Cenhulagæ Cïnu Cotoya Cunggelo Cægæ Cæjæ Cændapan Cænhulagæ
+			Daijuhu Daisu Dalunha Dašïn Digunai Diku Dili Diligi Dingge Dingju Dišun Dorbi Dumu Duši Dzhin
+			Ecu Eiyeku Eiælu Eliduo Elu Elubu Eluguan Elun
+			Fanca Fannu Fænsï
+			Giahucï Giohua Gioli Guantu Gulan Guša Gæcïbuhua Gæjeæ
+			Hacaha Hadar Hanpu Hanšï Hasaiæ Haæu Heda Hela Helibo Hesun Heye Hezhe Hezhenbao Heši Hešitan Hubošu Hudun Huihou Hulijia Hulu Hulubu Hushahu Hushida Husurugai Husurægai Hutunla Hutuwa Huçienu Huša
+			Ibaha Icïgæ Ihalacï Iji Ilungha Inginggia Ingjïna Irnuræu Išiha
+			Jabingia Jahodai Jahudai Jaligi Jogosang Juguta Julæ Jïlunggusu
+			Kunaha Kunuma Kušinu
+			Labuda Loloho Louši
+			Manduhe Mangda Mapo Meng’an Mentemu Miešïnu Moliye Muha Mutalu Mutawuta Mædeæ'æ
+			Naduošï Nanhe Nianhan Nibucï Nigæ Nijængæ Ninggisa Ninggujua Ningji Ningjiasu Nudægæ Nuhu Nujænge Nülinai
+			Ohænægæ Oon
+			Pandu Pocišu Pudu Puladu Pulihei Puluhu Pusulie
+			Sagai Sagezhou Sahamieæ Sahani Saiha Sain Salinian Satšï Soli Songge Sonu Souru Suike Sungida Sïaoha
+			Šalungha Šangnggu Šengguo Šensi’abu Šentumen Šiebucu Šiekude Šielihu Šielu Šieyibao Šigiyanu Šigunai Šijianu Šilu Šilula Šinde Šinilie Šišihuan Šunian Šuntçing Šïbua Šïlangha Šïlu Šïlungha Šïngsï Šïpuni
+			Tege Telin Tudu Tugesu Tunon Tušïnge
+			Uda Udaun Udisa'æ Uhuwæ Ulu Ušïnha
+			Weiçin Wennu Woben Wodai Wohu Wolibu Wolie Woli’an Wolu Wolun Wosai Woye Wozhe Wucimai Wudubu Wugucu Wugunai Wulie Wuyašu Wuzhu Wæuanjæ
+			Yacïnggia Yangdai Yangha Yangmudau Yansun Yawuta Yingge Yinzhuke Yongji Yunji
+			Zhanmeihe Zhušennu
+		}
+
+		female_names = {
+			Abha Abuha Acïburu Aihuma Alan Alihu Ambala Amban Ancun Ania
+			Ærdæ
+			Baiyang Bia Bira Boroæri Buctunggi Bugu Buiyemei Bulæhei Buræki
+			Caca Cïcïhei
+			Dahumo Dala Diben Dirgara Dohomo Dorhon Dulun Dunuke Duwæbæ
+			Eihæn
+			Feicen Fonto Fontomo Fulagiæn
+			Giahun Gluma Gorhon Guifala Gulmahai Gætilæ
+			Indahong Inænggi
+			Jabu Jalur Jaolamai Juhæ Jæku Jïrijïhæi
+			Liwaha Læfu
+			Meihæ Miehæ Minggan Monon Morin Mudur Mudusæ Mulan Munggan Muwæ Mæcu Mædæri Mæjïlæn Mæjïlænbæ
+			Nadan Nailahu Narhun Ngauyahu Nienieæri Niogohæ Nionieha Nongiæn
+			Orho Orhoda Orin Oso Ošïha
+			Pula Puluhuzhi
+			Sadugai Saimanggi Samao Sibiehung Sisæri Sogiæn Songgi Suan Sufa Suhæ Sækæ
+			Šagulizhen Šigge Šigu Šigu’er Šoun Šumu Šunja Šænun Šïlasun Šïlæun Šïngæ Šïrha
+			Tasha Tugi Tumæn Tunggi Tuwæri
+			Ulhu Ulin Ulu Ulya Unduhung Uyewun Ušïn
+			Wanduhung Weihan Wulu
+			Yewuju
+			Zhusiban Zhusihui
+		}
+
+		from_dynasty_prefix = "of "
+
+		allow_looting = yes
+		dynasty_name_first = yes
+		dynasty_title_names = no
+		founder_named_dynasties = yes
+		horde = yes
+		nomadic_in_alt_start = yes
+
+		modifier = default_culture_modifier
+	}
+
+	khitan = {
+		graphical_cultures = { chinesegfx mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+
+		dynasty_name_first = yes
+
+		horde = yes
+
+		color = { 0.8 0.8 0.3 }
+
+		male_names = {
+			Abaoji Abugu Aguo Alian Anduan Axin
+			Baling Bancai Bei Biegute Bishe
+			Chala Chucai
+			Dashi Deguang Dilie Dilu Dinianzhuli Duba Duolubu Duoluo
+			Fuguzhi
+			Gaoqi Gou'er Gou’er Gunai Guozhe
+			Hanshe Hechen Heluwo Helü Hongji Hougu Hudugu Hudujin
+			Jilujuan Jing Jinshan Julü Juqu
+			Kailuo Keling Ketuyu Kuge
+			Lihu Liuge Loguo
+			Mergan Mohuai Mohuba Mohui Mopei Muyan
+			Nieli Noulisi Nuohebo Nuosi
+			Pidi Pidie Pogu Puhui
+			Qidegui Qinde Qinu Qizhen Quju Qulü Qushu
+			Rian Rilujuan RuanSuogu
+			Saba Salade Saladi Shancai Shaogu Shefuchen Shegui Shifang Shihuo Shilu Shouguonu Shulü Sibu Sougu
+			Tanmozhe Tiande Tiebu Tongguyu Tuyu
+			Wenshunu Wogan Wolila Wuge Wuwuchen Wuyu
+			Xian Xibaxiong Xiduguan Xiuge Xi’er Xi’erzhi Xuedu
+			Yali Yaliguo Yanchege Yanxi Yaogu Yaoshinu Yexian Yidougui Yilie Yudu Yudugu Yundeshi
+			Zhengge Zhigu Zhiligu Zhilugu Zhongyuan Zhulie Zongzhen
+		}
+
+		female_names = {
+			Bage Boshi
+			Changshou Chaogui Cuiba
+			Dianni
+			Jiuge
+			Kedun
+			Lübugu
+			Noujin
+			Ping
+			Pusuwan
+			Saige Shige Shuge Shuogu Sokhatai
+			Tabuyan Taige Taoge
+			Xiao Xiao-Wen Xingge
+			Yalixin Yange Yanmu Yanyan Yingtian Yueliduo
+		}
+
+		from_dynasty_prefix = "of "
+
+		allow_looting = yes
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		nomadic_in_alt_start = yes
+
+		modifier = default_culture_modifier
+	}
+
+	mongol = {
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+
+		alternate_start = {
+			has_alternate_start_parameter = {
+				key = culture
+				value = full_random
+			}
+		}
+
+		color = { 0.4 0.4 1.0 }
+
+		male_names = {
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei
+			Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai Chagatai Chaghagan Chanai Chigu
+			Chidukhul Chilagun Chiledu Chormakhan Chulgetei Dagun Daritai Dayir Dodai Duua Eljigedei Ghazan Ghunan Guchu Gughlug Guyug Harghasun Horkhudagh Hulegu Husun Inalchi Inancha Iturgen
+			Jajiradai Jamugha Jebe Jochi Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin
+			Menggei Mongke Morokha Munglig Nakhu Narin Nayaga Nogai Odchigin Ogodei Okhotur Oljaitu Oronartai Shiraghul Shirgugetu Subetei Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur_Timur
+			Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
+		}
+
+		female_names = {
+			Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene Yesugun Yesui Hoelun
+		}
+
+		from_dynasty_prefix = "of "
+
+		allow_looting = yes
+		founder_named_dynasties = yes
+		horde = yes
+		nomadic_in_alt_start = yes
+
+		modifier = default_culture_modifier
+	}
+}

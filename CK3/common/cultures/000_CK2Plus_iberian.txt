@@ -1,0 +1,193 @@
+####################################################################
+#
+#	Iberian
+#	 - Castillan
+#	 - Catalan
+#	 - Portuguese
+#
+####################################################################
+
+iberian = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+		OR = {
+			year >= 1000
+			has_alternate_start_parameter = {
+				key = culture
+				value = full_random
+			}
+		}
+	}
+
+	castillan = {
+		graphical_cultures = { southerngfx }
+
+		color = { 0.95 0.82 0.09 }
+
+		male_names = {
+			Alfonso_Alphonse Alonso_Alphonse Álvar_Oliver Álvaro_Oliver
+			Bermudo_Vermudo
+			Diego_Diaco
+			Enrique_Henry
+			Fadrique_Frederick Felipe_Philip Fernando_Ferdinand Fruela_Froila
+			García_Garcia Gil_Egidius Gómez_Gomez Gonzalo_Gonzalo Guillén_William Guillermo_William Gutierre_Walter Juan_John
+			Lope_Lupo Luis_Louis
+			Manrique_Amalric Martín_Martin Munio_Munio
+			Nuño_Nuno
+			Ordoño_Ordono Oveco_Obeko
+			Pedro_Peter Pelayo_Pelagius
+			Ramiro_Ramiro Rodrigo_Roderick
+			Salvador_Salvador Sancho_Sancho Suero_Suero
+			Tello
+			Vela_Vela
+		}
+
+		female_names = {
+			Aldonza_Aldonza Anderquina
+			Beatriz_Beatrice Berenguela_Berengaria Blanca_Blanche
+			Constanza_Constance
+			Elvira_Elvira Estefanía_Stephania
+			Fronilda_Fronilde
+			Gontroda_Gotruda
+			Inés_Agnes Isabel_Elizabeth Jimena_Ximena Juana_Joan
+			Leonor_Eleanor
+			Mafalda_Matilda María_Maria Marina_Marine Mayor_Mayor Mencía_Mencia	Milia_Emily
+			Sancha_Sancha
+			Teresa_Teresa Toda_Toda
+			Urraca_Urraca
+		}
+
+		from_dynasty_prefix = "de "
+
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+
+	catalan = {
+		graphical_cultures = { southerngfx }
+
+		color = { 0.95 0.65 0.01 }
+
+		male_names = {
+			Alfons_Alphonse Arnau_Arnold Artau_Artal
+			Berenguer_Berengar Berenguer-Ramon Bernat_Bernard Bernat-Guillem
+			Dalmau
+			Ermengol_Ermengaud
+			Felip_Philip Ferran_Ferdinand Frederic_Frederick
+			Gausfred_Godfrey Gerard_Gerard Gombau Guerau_Gerald Guifré_Wilfred Guillem_William Guillem-Ramon Guislabert_Gilbert
+			Hug_Hugh
+			Jaume_Jacob Joan_John Jofré_Godfrey
+			Ott_Otto
+			Pere_Peter Ponç_Pons Ponç-Hug
+			Ramon_Raymond Ramon-Berenguer_Raymond-Berengar Ramon-Folc Roger_Roger
+			Sanç_Sancho Sunyer_Sunyer
+			Udalard
+		}
+
+		female_names = {
+			Adelaida_Adelaide Agnès_Agnes Alamanda Arsenda_Arsenda
+			Beatriu_Beatrice Blanca_Blanche Brunisenda
+			Constança_Constance
+			Dolça_Douce
+			Elionor_Eleanor Elisenda Ermessenda_Ermesinda Estefania_Stephania
+			Gueraua Guillelma_Willhelmina Guisla_Gisela
+			Isabel_Elizabeth
+			Margarida_Margaret Maria_Maria Marquesa_Marquise
+			Sança_Sancha Sibila_Sibylla
+			Teresa_Teresa Toda_Toda
+			Violant_Yolanda
+		}
+
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 30
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 25
+		mother_name_chance = 25
+
+		modifier = default_culture_modifier
+	}
+
+	portuguese = {
+		graphical_cultures = { southerngfx }
+
+		color = { 0.75 0.67 0.07 }
+
+		male_names = {
+			Afonso_Alphonse Aires Álvaro_Oliver
+			Bermudo_Vermudo
+			Diogo_Diaco
+			Egas Estêvão_Stephen
+			Fernão_Ferdinand Fernando_Ferdinand
+			Garcia_Garcia Gil_Egidius Gomes_Gomez Gonçalo_Gonzalo Guterre_Walter
+			Henrique_Henry Hermígio
+			João_John Lopo_Lupo
+			Lourenço_Laurence
+			Martim_Martin Mem_Mendo Mendo_Mendo Monio_Munio Muno_Munio
+			Nuno_Nuno
+			Paio_Pelagius Pedro_Peter Pero_Peter Pôncio_Pons
+			Raimundo_Raymond Rodrigo_Roderick Rui_Roderick
+			Sancho_Sancho Soeiro_Suero
+			Vasco_Vasco Vicente_Vincent
+		}
+
+		female_names = {
+			Aldara_Alduara Aldonça_Aldonza
+			Beatriz_Beatrice Berengária_Berengaria Branca_Blanche
+			Constança_Constance
+			Dórdia
+			Elvira_Elvira Estevainha_Stephania
+			Fruilhe_Fronilde
+			Gontinha Gontroda_Gotruda Guiomar
+			Inês_Agnes
+			Joana_Joan
+			Leonor_Eleanor
+			Mafalda_Matilda Margarida_Margaret Maria_Maria Marinha_Marine Mor_Mayor
+			Ouroana
+			Sancha_Sancha
+			Teresa_Teresa
+			Urraca_Urraca
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+
+		modifier = default_culture_modifier
+	}
+}

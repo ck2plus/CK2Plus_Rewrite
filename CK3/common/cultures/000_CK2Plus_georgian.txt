@@ -1,0 +1,67 @@
+####################################################################
+#
+#	Georgian
+#	 - Georgian*
+#
+#	* indicates a vanilla culture moved to a different group
+#
+####################################################################
+
+georgian_group = {
+	graphical_cultures =  { easterngfx }
+
+	georgian = {
+		graphical_cultures = { byzantinegfx }
+
+		color = { 0.6 0.3 0.8 }
+
+		male_names = {
+			Adarnase_Atrnerseh Aghsartan Aleksandre_Alexander Andronik_Andronicus Anzori Archili Ashot_Ashot
+			Bagrat Bakur_Bagour
+			Davit_David Demetre_Demetrius Demna Djavakhi
+			Erekle_Heracles
+			Gabrieli_Gabriel Gagiki_Gagik Giorgi_George Grigoli_Gregory Guaram_Guaram Gubaz Gurgen_Lupo
+			Iese Ioane_John Ishkhanik_Ishkhan Iveri Jarji
+			Kaikhosro_Keykhosrau Kakhi Koba Konstantine_Constantine Kvarkvare Kvirike
+			Levan_Leo Luarsab
+			Malkhazi_Malkhas Mamia Merab Mikheil_Michael Mukhran
+			Nerse_Narses Nikoloz_Nicholas
+			Okhropir Orbeli
+			Padla
+			Samoeli_Samuel Shanshe_Shahanshah Shota Simon_Simon Stepanoz_Stephen Sumbat_Smbat
+			Teimuraz_Teimuraz Tornike_Tornik
+			Ushisha
+			Vache Vakhtang_Vakhtank
+			Zurab Zviad
+		}
+
+		female_names = {
+			Ana_Anna
+			Baia Bedisa Borena
+			Chiora Chito
+			Dali Dedika Duda Dzabuli
+			Elene_Helen Eliso Endzela
+			Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht_Gorandukht Gvantsa
+			Ia
+			Judjuna
+			Kekela Ketevan_Catherine
+			Lamara Lamzira Lela
+			Mariami_Maria Mathiko Mthvarisa Mzekhar
+			Natia Nino
+			Rusudan
+			Sanatha Shorena Shukhia Suliko
+			Tamari_Tamar Taplo Tinatini Tsiala
+			Vardo
+		}
+
+		from_dynasty_prefix = "ve "
+
+		male_patronym = "s dze"
+		female_patronym = "shvili"
+		prefix = no
+
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+}

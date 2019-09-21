@@ -25,13 +25,13 @@
 }
 1000252122 = {
 	name = "de Sabran"
-	culture = "frankish"
+	culture = frankish
 }
 1000252123 = {
 	name = "de Savoie"
-	culture = "frankish"
+	culture = frankish
 }
 1000252129 = {
 	name = "de Piémont"
-	culture = "frankish"
+	culture = frankish
 }

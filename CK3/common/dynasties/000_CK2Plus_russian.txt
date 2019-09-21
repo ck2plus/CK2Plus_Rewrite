@@ -15,10 +15,10 @@
 	culture = russian
 }
 1000252089 = {
-	name="Dobrynich"
-	culture="russian"
+	name = "Dobrynich"
+	culture = russian
 }
 1000252090 = {
 	name = "Andreievich"
-	culture = "russian"
+	culture = russian
 }

@@ -1,4 +1,3 @@
-
 1000032049 = {
 	name = "of Makuria"
 	culture = ethiopian

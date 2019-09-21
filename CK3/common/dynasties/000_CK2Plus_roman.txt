@@ -76,5 +76,5 @@
 }
 1000252124 = {
 	name = "Sapaudia"
-	culture = "roman"
+	culture = roman
 }
