@@ -3,7 +3,7 @@
 #	Georgian
 #	 - Ashkenazic
 #	 - Israeli (Plus culture)
-#	 - Mizarhi (Plus culture)
+#	 - Mizrahi (Plus culture)
 #	 - Sephardic
 #
 ####################################################################

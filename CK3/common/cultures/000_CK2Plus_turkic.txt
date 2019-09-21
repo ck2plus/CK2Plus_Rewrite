@@ -6,6 +6,7 @@
 #	 - Bolghar*
 #	 - Cuman*
 #	 - Karluk*
+#	 - Khazar*
 #	 - Kirghiz*
 #	 - Pecheneg*
 #	 - Turkish*
@@ -15,8 +16,6 @@
 #
 ####################################################################
 
-#Turkish* - Pecheneg* - Cuman* - Khazar* - Bolghar*
-#Avar* - Karluk* - Kirghiz* - Oghuz* - Uyghur*
 turkic_group = {
 	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
 

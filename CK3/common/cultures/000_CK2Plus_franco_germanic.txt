@@ -1,3 +1,14 @@
+####################################################################
+#
+#	Franco-Germanic
+#	 - Dutch*
+#	 - Flamish (Plus culture)
+#	 - (Old) Frankish*
+#
+#	* indicates a vanilla culture moved to a different group
+#
+####################################################################
+
 franco_germanic = {
 	alternate_start = {
 		NOT = {

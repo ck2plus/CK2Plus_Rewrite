@@ -18,6 +18,7 @@ byzantine = {
 			}
 		}
 	}
+	
 	graphical_cultures =  { easterngfx }
 
 	arberian = { # Albanian
