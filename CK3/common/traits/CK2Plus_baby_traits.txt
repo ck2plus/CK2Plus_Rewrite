@@ -1,3 +1,7 @@
+# Audax Validator "!" Ignore_NEXT
+# Used to weed out vanilla errors in Audax Validator
+# To avoid missing localisation errors for invisible traits
+
 ##############
 # Baby traits
 #

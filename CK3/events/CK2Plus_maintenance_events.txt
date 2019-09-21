@@ -89,7 +89,7 @@ character_event = {
 	}
 
 	option = {
-		name = PlusMaintenanceOPTA_0002
+		name = PlusMaintenanceOPTA_002
 		# remove the general trait
 		remove_trait = baby_toddler
 		hidden_tooltip = {
