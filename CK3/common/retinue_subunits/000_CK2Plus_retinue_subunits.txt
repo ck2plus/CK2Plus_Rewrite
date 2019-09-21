@@ -1,0 +1,2485 @@
+###################################################################
+#
+#	CK2Plus Retinues
+#
+###################################################################
+#
+#	Only contains non-Tribal/Nomad retinues
+#	Each culture group has access to 3 retinues
+#	Future idea: Each culture has access to a unique retinue
+#
+###################################################################
+#
+#	Bavarian:		Hartschier
+#	English: 		Longbowmen
+#	Anglo-Saxon:	Gedriht
+#	Irish:			Hobelar
+#	Swiss:			Halberdiers
+#	Central Africa: Poisoned arrows, little cavalry
+#					elite force of slaves,
+#					signals from drums,
+#					bells and elephant tusk horns.
+#	Norse:			Drótt
+#	Swedish:		Caroleans (cavalry)
+#	Danish:			Vederlag
+#	Persian:		Aswaran (mounted archers), Pushtigban
+#	Turkish: 		Timarli sipahi, Janissaries
+#	Mali:			Mandekalu cavalry/infantry, horon (freemen)
+#
+###################################################################
+#
+#	Types:				Cap		Cost		Reinforce	Upkeep
+# 0 Light Infantry		0.7		0.0975		0.0021		0.000175
+# 1 Heavy Infantry		3.0		0.4200		0.0090		0.000750
+# 2 Pikemen				2.5 	0.3500		0.0075		0.000625
+# 3 Light Cavalry		3.0 	0.4200		0.0090		0.000750
+# 4 Heavy Cavalry		6.0 	0.8400		0.0180		0.001500
+# 5 Archers				2.0 	0.2800		0.0060		0.000500
+# 6 Special troops
+#	- Horse Archers		4.0 	0.5600		0.0120		0.001000
+#	- Camel Cavalry		3.0 	0.4200		0.0090		0.001875
+#	- War Elephants		10.0	1.4000		0.0300		0.002500
+#
+###################################################################
+
+###################################################################
+#
+#	Altaic
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_ALTAIC_1 = { # Eastern Horse Archers
+	first_type = 6 # Special Troops
+	first_amount = 200
+
+	second_type = 3 # Light Cavalry
+	second_amount = 100
+
+	special_troops = horse_archers
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = altaic
+	}
+
+	modifier = {
+		horse_archers_offensive = 0.3
+		light_cavalry_offensive = 0.1
+	}
+}
+
+PLUS_RETINUE_ALTAIC_2 = { # Mixed Altaic
+	first_type = 6 # Special Troops
+	first_amount = 150
+
+	second_type = 0 # Light Infantry
+	second_amount = 150
+
+	special_troops = horse_archers
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = altaic
+	}
+
+	modifier = {
+		horse_archers_offensive = 0.2
+		light_infantry_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_ALTAIC_3 = { # Altaic Skirmishers
+	first_type = 5 # Archers
+	first_amount = 150
+
+	second_type = 3 # Light Cavalry
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = altaic
+	}
+
+	modifier = {
+		archers_offensive = 0.2
+		light_cavalry_offensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Amazigh (Plus)
+#	6 cultures
+#
+###################################################################
+
+PLUS_RETINUE_AMAZIGH_1 = { # Genitour
+	first_type = 6 # Special Troops
+	first_amount = 150
+
+	second_type = 3 # Light Cavalry
+	second_amount = 150
+
+	special_troops = horse_archers
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = amazigh
+	}
+
+	modifier = {
+		horse_archers_offensive = 0.2
+		light_cavalry_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_AMAZIGH_2 = { # Camel Archers
+	first_type = 6 # Special Troops
+	first_amount = 150
+
+	second_type = 3 # Light Cavalry
+	second_amount = 150
+
+	special_troops = camel_cavalry
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = amazigh
+	}
+
+	modifier = {
+		camel_cavalry_offensive = 0.2
+		light_cavalry_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_AMAZIGH_3 = { # Berber Skirmishers
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 5 # Archers
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = amazigh
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.2
+		archers_offensive = 0.2
+	}
+}
+
+
+###################################################################
+#
+#	Arabic
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_ARABIC_1 = { # Mubarizun
+	first_type = 1 # Heavy Infantry
+	first_amount = 150
+
+	second_type = 2 # Pikemen
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = arabic
+	}
+
+	modifier = {
+		heavy_infantry_morale = 0.3
+		pikemen_morale = 0.3
+	}
+}
+
+PLUS_RETINUE_ARABIC_2 = { # Mobile Guard
+	first_type = 6 # Special Troops
+	first_amount = 150
+
+	second_type = 4 # Heavy Cavalry
+	second_amount = 150
+
+	special_troops = camel_cavalry
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = arabic
+	}
+
+	modifier = {
+		camel_cavalry_offensive = 0.2
+		knights_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_ARABIC_3 = { # Camel Cavalry
+	first_type = 6 # Special Troops
+	first_amount = 200
+
+	second_type = 3 # Light Cavalry
+	second_amount = 100
+
+	special_troops = camel_cavalry
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = arabic
+	}
+
+	modifier = {
+		camel_cavalry_morale = 0.2
+		light_cavalry_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	Aramaic (Plus)
+#	1 culture
+#
+###################################################################
+
+PLUS_RETINUE_ARAMAIC_1 = { # Qurubuti (Royal Guard)
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = aramaic
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.15
+		light_cavalry_offensive = 0.15
+	}
+}
+
+PLUS_RETINUE_ARAMAIC_2 = { # Kisir Sharruit (Standing Army)
+	first_type = 1 # Heavy Infantry
+	first_amount = 200
+
+	second_type = 2 # Pikemen
+	second_amount = 100
+
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = aramaic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.15
+		heavy_infantry_defensive = 0.15
+		pikemen_offensive = 0.15
+		pikemen_defensive = 0.15
+	}
+}
+
+PLUS_RETINUE_ARAMAIC_3 = { # Sab Sharri (Provincial Auxiliaries)
+	first_type = 5 # Archers
+	first_amount = 150
+
+	second_type = 6 # Special Troops
+	second_amount = 150
+
+	special_troops = horse_archers
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = aramaic
+	}
+
+	modifier = {
+		archers_offensive = 0.2
+		archers_defensive = 0.2
+		horse_archers_offensive = 0.15
+		horse_archers_defensive = 0.15
+	}
+}
+
+###################################################################
+#
+#	Baltic
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_BALTIC_1 = { # Ulonai
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = baltic
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_BALTIC_2 = { # Bajorai
+	first_type = 1 # Heavy Infantry
+	first_amount = 200
+
+	second_type = 2 # Pikemen
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = baltic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_BALTIC_3 = { # Laukininkai
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = baltic
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.3
+		archers_offensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Byzantine
+#	5 cultures
+#
+###################################################################
+
+PLUS_RETINUE_BYZANTINE_1 = { # Klibanophoroi
+	first_type = 3 # Light Cavalry
+	first_amount = 250
+
+	second_type = 6 # Special Troops
+	second_amount = 50
+
+	special_troops = horse_archers
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = byzantine
+	}
+
+	modifier = {
+		knights_morale = 0.3
+		knights_defensive = 0.3
+		horse_archers_defensive = 0.3
+	}
+}
+
+PLUS_RETINUE_BYZANTINE_2 = { # Tagmata
+	first_type = 1 # Heavy Infantry
+	first_amount = 150
+
+	second_type = 4 # Heavy Cavalry
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = byzantine
+	}
+
+	modifier = {
+		heavy_infantry_morale = 0.3
+		heavy_infantry_defensive = 0.3
+		knights_morale = 0.3
+		knights_defensive = 0.3
+	}
+}
+
+PLUS_RETINUE_BYZANTINE_3 = { # Akritai
+	first_type = 2 # Pikemen
+	first_amount = 100
+
+	second_type = 5 # Archers
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = byzantine
+	}
+
+	modifier = {
+		pikemen_morale = 0.2
+		pikemen_defensive = 0.2
+		archers_morale = 0.2
+		archers_defensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Celtic
+#	8 cultures
+#
+###################################################################
+
+PLUS_RETINUE_CELTIC_1 = { # Galloglass/Gallóglaigh
+	first_type = 1 # Heavy Infantry
+	first_amount = 250
+
+	second_type = 2 # Pikemen
+	second_amount = 50
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = celtic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_CELTIC_2 = { # Kerne/Ceithern
+	first_type = 1 # Heavy Infantry
+	first_amount = 200
+
+	second_type = 3 # Light Cavalry
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = celtic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_CELTIC_3 = { # Cateran/Ceathairne
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = celtic
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.3
+		archers_offensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Central African
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_CENTRAL_AFRICAN_1 = { # Savanna Infantry
+	first_type = 1 # Heavy Infantry
+	first_amount = 100
+
+	second_type = 5 # Archers
+	second_amount = 200
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = central_african
+	}
+
+	modifier = {
+		heavy_infantry_defensive = 0.2
+		archers_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_CENTRAL_AFRICAN_2 = { # Mixed Savanna Cavalry
+	first_type = 4 # Heavy Cavalry
+	first_amount = 200
+
+	second_type = 3 # Light Cavalry
+	second_amount = 100
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = central_african
+	}
+
+	modifier = {
+		knights_offensive = 0.2
+		light_cavalry_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_CENTRAL_AFRICAN_3 = { # Savanna Cavalry Swarm
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = central_african
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.1
+		light_cavalry_offensive = 0.3
+	}
+}
+
+###################################################################
+#
+#	Central Germanic
+#	11 cultures
+#
+###################################################################
+
+PLUS_RETINUE_CENTRAL_GERMANIC_1 = { # Waffenknecht
+	first_type = 3 # Light Cavalry
+	first_amount = 200
+
+	second_type = 4 # Heavy Cavalry
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = central_germanic
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_defensive = 0.2
+		knights_offensive = 0.3
+		knights_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_CENTRAL_GERMANIC_2 = { # Lanzknecht/Reisläufer
+	first_type = 2 # Pikemen
+	first_amount = 200
+
+	second_type = 1 # Heavy Infantry
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = central_germanic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		archers_offensive = 0.2
+		archers_morale = 0.1
+	}
+}
+
+PLUS_RETINUE_CENTRAL_GERMANIC_3 = { # Landsturm
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = central_germanic
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.2
+		light_infantry_defensive = 0.2
+		archers_offensive = 0.2
+		archers_defensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Chinese
+#	1 culture
+#
+###################################################################
+
+PLUS_RETINUE_CHINESE_1 = { # Nubing
+	first_type = 5 # Archers
+	first_amount = 120
+
+	second_type = 2 # Pikemen
+	second_amount = 180
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = chinese_group
+	}
+
+	modifier = {
+		archers_offensive = 0.3
+		pikemen_morale = 0.3
+	}
+}
+
+PLUS_RETINUE_CHINESE_2 = { # Han Cavalry
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = chinese_group
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.2
+		light_cavalry_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_CHINESE_3 = { # Han Skirmishers
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = chinese_group
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.2
+		light_infantry_morale = 0.2
+		archers_offensive = 0.2
+		archers_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	Coptic (Plus)
+#	1 culture
+#
+###################################################################
+
+PLUS_RETINUE_COPTIC_1 = { # Egyptian Pikemen
+	first_type = 5 # Archers
+	first_amount = 175
+
+	second_type = 2 # Pikemen
+	second_amount = 125
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = coptic_group
+	}
+
+	modifier = {
+		archers_offensive = 0.2
+		pikemen_morale = 0.2
+	}
+}
+
+PLUS_RETINUE_COPTIC_2 = { # Egyptian Cavalry
+	first_type = 3 # Light Cavalry
+	first_amount = 150
+
+	second_type = 6 # Special Troops
+	second_amount = 150
+
+	special_troops = camel_cavalry
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = coptic_group
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+		camel_cavalry_offensive = 0.2
+		camel_cavalry_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_COPTIC_3 = { # Egyptian Infantry
+	first_type = 1 # Heavy Infantry
+	first_amount = 200
+
+	second_type = 0 # Light Infantry
+	second_amount = 100
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = coptic_group
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.2
+		light_infantry_offensive = 0.2
+		light_infantry_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	Crusader (Plus)
+#	2 cultures
+#
+###################################################################
+
+PLUS_RETINUE_CRUSADER_1 = { # Knights
+	first_type = 3 # Light Cavalry
+	first_amount = 100
+
+	second_type = 4 # Heavy Cavalry
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = crusader_group
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_defensive = 0.3
+		knights_offensive = 0.3
+		knights_defensive = 0.3
+	}
+}
+
+PLUS_RETINUE_CRUSADER_2 = { # Men-at-arms
+	first_type = 1 # Heavy Infantry
+	first_amount = 200
+
+	second_type = 3 # Light Cavalry
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = crusader_group
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.1
+		knights_offensive = 0.2
+		knights_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_CRUSADER_3 = { # Sergeants
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 2 # Pikemen
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = crusader_group
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.2
+		light_infantry_defensive = 0.3
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.3
+	}
+}
+
+###################################################################
+#
+#	Dravidian
+#	3 cultures
+#
+###################################################################
+
+#See Indo-Aryan for now
+
+###################################################################
+#
+#	East African
+#	5 cultures
+#
+###################################################################
+
+PLUS_RETINUE_EAST_AFRICAN_1 = { # Ethiopian Pikemen
+	first_type = 2 # Pikemen
+	first_amount = 175
+
+	second_type = 0 # Light Infantry
+	second_amount = 125
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_african
+	}
+
+	modifier = {
+		pikemen_defensive = 0.3
+		light_infantry_defensive = 0.3
+	}
+}
+
+PLUS_RETINUE_EAST_AFRICAN_2 = { # Ethiopian Infantry
+	first_type = 1 # Heavy Infantry
+	first_amount = 200
+
+	second_type = 3 # Light Cavalry
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_african
+	}
+
+	modifier = {
+		heavy_infantry_defensive = 0.3
+		light_cavalry_offensive = 0.3
+	}
+}
+
+PLUS_RETINUE_EAST_AFRICAN_3 = { # Nubian Archers
+	first_type = 5 # Archers
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_african
+	}
+
+	modifier = {
+		archers_offensive = 0.5 #Poison arrows
+	}
+}
+
+###################################################################
+#
+#	East Germanic (Plus)
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_EAST_GERMANIC_1 = { # Gothic Cavalry
+	first_type = 4 # Heavy Cavalry
+	first_amount = 50
+
+	second_type = 3 # Light Cavalry
+	second_amount = 250
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_germanic
+	}
+
+	modifier = {
+		knights_offensive = 0.2
+		light_cavalry_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_EAST_GERMANIC_2 = { # Framea Infantry
+	first_type = 1 # Heavy Infantry
+	first_amount = 200
+
+	second_type = 3 # Pikemen
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_germanic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.3
+		pikemen_offensive = 0.3
+	}
+}
+
+PLUS_RETINUE_EAST_GERMANIC_3 = { # Gothic Skirmishers
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 5 # Archers
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_germanic
+	}
+
+	modifier = {
+		light_infantry_morale = 0.2
+		light_infantry_offensive = 0.2
+		archers_morale = 0.2
+		archers_offensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	East Romance (Plus)
+#	2 cultures
+#
+###################################################################
+
+PLUS_RETINUE_EAST_ROMANCE_1 = { # Curteni
+	first_type = 4 # Heavy Cavalry
+	first_amount = 100
+
+	second_type = 3 # Light Cavalry
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_romance
+	}
+
+	modifier = {
+		knights_offensive = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_EAST_ROMANCE_2 = { # Lefegii
+	first_type = 1 # Heavy Infantry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_romance
+	}
+
+	modifier = {
+		heavy_infantry_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_EAST_ROMANCE_3 = { # Plaiesi
+	first_type = 0 # Light Infantry
+	first_amount = 100
+
+	second_type = 5 # Archers
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_romance
+	}
+
+	modifier = {
+		light_infantry_defensive = 0.2
+		archers_defensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	East Slavic
+#	6 cultures
+#
+###################################################################
+
+PLUS_RETINUE_EAST_SLAVIC_1 = { # Druzhina
+	first_type = 4 # Heavy Cavalry
+	first_amount = 200
+
+	second_type = 1 # Heavy Infantry
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_slavic
+	}
+
+	modifier = {
+		knights_offensive = 0.2
+		knights_defensive = 0.2
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_EAST_SLAVIC_2 = { # Boyars
+	first_type = 1 # Heavy Infantry
+	first_amount = 150
+
+	second_type = 0 # Light Infantry
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_slavic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		light_infantry_offensive = 0.2
+		light_infantry_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_EAST_SLAVIC_3 = { # Streltsy
+	first_type = 0 # Light Infantry
+	first_amount = 100
+
+	second_type = 5 # Archers
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = east_slavic
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.3
+		archers_offensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Finno-Ugric
+#	8 cultures
+#
+###################################################################
+
+PLUS_RETINUE_FINNO_UGRIC_1 = { # Uralic Warriors
+	first_type = 1 # Heavy Infantry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = finno_ugric
+	}
+
+	modifier = {
+		heavy_infantry_morale = 0.2
+		heavy_infantry_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_FINNO_UGRIC_2 = { # Uralic Cavalry
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = finno_ugric
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_FINNO_UGRIC_3 = { # Uralic Skirmishers
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = finno_ugric
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.3
+		archers_offensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Franco-Germanic (Plus)
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_FRANCO_GERMANIC_1 = { # Scara
+	first_type = 3 # Light Cavalry
+	first_amount = 175
+
+	second_type = 1 # Heavy Cavalry
+	second_amount = 125
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = franco_germanic
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+		knights_offensive = 0.2
+		knights_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_FRANCO_GERMANIC_2 = { # Trustis
+	first_type = 2 # Pikemen
+	first_amount = 100
+
+	second_type = 1 # Heavy Infantry
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = franco_germanic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		archers_offensive = 0.2
+		archers_morale = 0.1
+	}
+}
+
+PLUS_RETINUE_FRANCO_GERMANIC_3 = { # Lantweri
+	first_type = 1 # Heavy Infantry
+	first_amount = 100
+
+	second_type = 5 # Archers
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = franco_germanic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		archers_offensive = 0.2
+		archers_morale = 0.1
+	}
+}
+
+###################################################################
+#
+#	Georgian (Plus)
+#	1 culture
+#
+###################################################################
+
+PLUS_RETINUE_GEORGIAN_1 = { # Monaspa
+	first_type = 3 # Light Cavalry
+	first_amount = 150
+
+	second_type = 1 # Heavy Cavalry
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = georgian_group
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.4
+		knights_defensive = 0.4
+	}
+}
+
+PLUS_RETINUE_GEORGIAN_2 = { # Khevsur Warriors
+	first_type = 1 # Heavy Infantry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = georgian_group
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+	}
+}
+
+PLUS_RETINUE_GEORGIAN_3 = { # Khanjali Infantry
+	first_type = 0 # Light Infantry
+	first_amount = 175
+
+	second_type = 5 # Archers
+	second_amount = 125
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = georgian_group
+	}
+
+	modifier = {
+		light_infantry_defensive = 0.3
+		light_cavalry_morale = 0.2
+		archers_defensive = 0.3
+		archers_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	Iberian
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_IBERIAN_1 = { # Caballeros (Heavy Cavalry)
+	first_type = 4 # Heavy Cavalry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = iberian
+	}
+
+	modifier = {
+		knights_offensive = 0.3
+		knights_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_IBERIAN_2 = { # Jinetes (Light Cavalry)
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = iberian
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_morale = 0.2
+	}
+}
+
+PLUS_RETINUE_IBERIAN_3 = { # Infanzones
+	first_type = 1 # Heavy Infantry
+	first_amount = 125
+
+	second_type = 5 # Archers
+	second_amount = 175
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = iberian
+	}
+
+	modifier = {
+		heavy_infantry_morale = 0.2
+		heavy_infantry_defensive = 0.1
+		archers_morale = 0.2
+		archers_defensive = 0.1
+	}
+}
+
+###################################################################
+#
+#	Indo-Aryan
+#	11 cultures
+#
+###################################################################
+
+PLUS_RETINUE_INDO_ARYAN_1 = { # Indian War Elephants
+	first_type = 6 # Special Troops
+	first_amount = 50
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+	}
+
+	special_troops = war_elephants
+
+	modifier = {
+		war_elephants_morale = 0.2
+		war_elephants_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_INDO_ARYAN_2 = { # Steel Bow Archers
+	first_type = 5 # Archers
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+	}
+
+	modifier = {
+		archers_offensive = 0.4
+		archers_defensive = 0.4
+	}
+}
+
+PLUS_RETINUE_INDO_ARYAN_3 = { # Sowar
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.2
+		light_cavalry_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	Iranian
+#	11 cultures
+#
+###################################################################
+
+PLUS_RETINUE_IRANIAN_1 = { # Grivpanvar
+	first_type = 3 # Heavy Cavalry
+	first_amount = 150
+
+	second_type = 6 # Special Troops
+	second_amount = 150
+
+	special_troops = horse_archers
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = iranian
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		horse_archers_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_IRANIAN_2 = { # Sparabara
+	first_type = 5 # Archers
+	first_amount = 250
+
+	second_type = 2 # Pikemen
+	second_amount = 50
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = iranian
+	}
+
+	modifier = {
+		archers_defensive = 0.4
+		pikemen_defensive = 0.4
+	}
+}
+
+PLUS_RETINUE_IRANIAN_3 = { # Paighan
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 5 # Heavy Infantry
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = iranian
+	}
+
+	modifier = {
+		light_infantry_defensive = 0.2
+		heavy_infantry_defensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Island Romance (Plus)
+#	2 cultures
+#
+###################################################################
+
+# See Italian group for now
+
+###################################################################
+#
+#	Israelite
+#	4 cultures
+#
+###################################################################
+
+PLUS_RETINUE_ISRAELITE_1 = { # Temple Guard
+	first_type = 2 # Pikemen
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = israelite
+	}
+
+	modifier = {
+		pikemen_defensive = 0.3
+		pikemen_morale = 0.3
+		archers_defensive = 0.3
+		archers_morale = 0.3
+	}
+}
+
+PLUS_RETINUE_ISRAELITE_2 = { # Israelite Infantry
+	first_type = 1 # Heavy Infantry
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = israelite
+	}
+
+	modifier = {
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.2
+	}
+}
+
+PLUS_RETINUE_ISRAELITE_3 = { # Israelite Skirmishers
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 3 # Light Cavalry
+	second_amount = 150
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = israelite
+	}
+
+	modifier = {
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.2
+		light_cavalry_defensive = 0.2
+		light_cavalry_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	Italian (Plus)
+#	11 cultures
+#
+###################################################################
+
+PLUS_RETINUE_ITALIAN_1 = { # Cavalieri
+	first_type = 3 # Light Cavalry
+	first_amount = 175
+
+	second_type = 4 # Heavy Cavalry
+	second_amount = 125
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = italian_group
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_defensive = 0.3
+		knights_offensive = 0.3
+		knights_defensive = 0.3
+	}
+}
+
+PLUS_RETINUE_ITALIAN_2 = { # Picchieri
+	first_type = 2 # Pikemen
+	first_amount = 300
+
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = italian_group
+	}
+
+	modifier = {
+		pikemen_morale = 0.2
+		pikemen_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_ITALIAN_3 = { # Balestrieri
+	first_type = 5 # Archers
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = italian_group
+	}
+
+	modifier = {
+		archers_morale = 0.2
+		archers_offensive = 0.2
+		archers_defensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Latin
+#	4 cultures
+#
+###################################################################
+
+PLUS_RETINUE_LATIN_1 = { # Chevaliers
+	first_type = 3 # Light Cavalry
+	first_amount = 100
+
+	second_type = 4 # Heavy Cavalry
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = latin
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_defensive = 0.3
+		knights_offensive = 0.3
+		knights_defensive = 0.3
+	}
+}
+
+PLUS_RETINUE_LATIN_2 = { # Gendarmes
+	first_type = 3 # Light Cavalry
+	first_amount = 200
+
+	second_type = 4 # Heavy Cavalry
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = latin
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.1
+		knights_offensive = 0.2
+		knights_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_LATIN_3 = { # Routiers
+	first_type = 1 # Pikemen
+	first_amount = 100
+
+	second_type = 5 # Archers
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = latin
+	}
+
+	modifier = {
+		light_infantry_morale = 0.3
+		light_infantry_defensive = 0.1
+		archers_morale = 0.3
+		archers_defensive = 0.1
+	}
+}
+
+###################################################################
+#
+#	Maghrebi (Plus)
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_MAGHREBI_1 = { # Maghrebi Infantry
+	first_type = 1 # Heavy Infantry
+	first_amount = 150
+
+	second_type = 5 # Archers
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = maghrebi
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		archers_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_MAGHREBI_2 = { # Maghrebi Cavalry
+	first_type = 6 # Special Troops
+	first_amount = 200
+
+	second_type = 4 # Heavy Cavalry
+	second_amount = 100
+
+	special_troops = camel_cavalry
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = maghrebi
+	}
+
+	modifier = {
+		camel_cavalry_offensive = 0.2
+		knights_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_MAGHREBI_3 = { # Maghrebi Skirmishers
+	first_type = 6 # Special Troops
+	first_amount = 100
+
+	second_type = 3 # Light Cavalry
+	second_amount = 200
+
+	special_troops = camel_cavalry
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = maghrebi
+	}
+
+	modifier = {
+		camel_cavalry_morale = 0.2
+		light_cavalry_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	Magyar
+#	1 culture
+#
+###################################################################
+
+PLUS_RETINUE_MAGYAR_1 = { # Black Army Cavalry
+	first_type = 3 # Light Cavalry
+	first_amount = 150
+
+	second_type = 6 # Special Troops
+	second_amount = 150
+
+	special_troops = horse_archers
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = magyar
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		horse_archers_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_MAGYAR_2 = { # Black Army Infantry
+	first_type = 1 # Heavy Infantry
+	first_amount = 150
+
+	second_type = 2 # Pikemen
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = magyar
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_MAGYAR_3 = { # Black Army Skirmishers
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 5 # Archers
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = magyar
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.2
+		archers_offensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Mesoamerican
+#	1 culture
+#
+###################################################################
+
+PLUS_RETINUE_MESOAMERICAN_1 = { # Jaguar Warriors
+	first_type = 1 # Heavy Infantry
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = mesoamerican
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.2
+	}
+}
+
+PLUS_RETINUE_MESOAMERICAN_2 = { # Otomies
+	first_type = 2 # Pikemen
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = mesoamerican
+	}
+
+	modifier = {
+		pikemen_offensive = 0.2
+		pikemen_morale = 0.2
+	}
+}
+
+PLUS_RETINUE_MESOAMERICAN_3 = { # Tequihua
+	first_type = 5 # Archers
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = mesoamerican
+	}
+
+	modifier = {
+		archers_offensive = 0.2
+		archers_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	North Germanic
+#	7 cultures
+#
+###################################################################
+
+PLUS_RETINUE_NORTH_GERMANIC_1 = { # Housecarl
+	first_type = 2 # Pikemen
+	first_amount = 75
+
+	second_type = 1 # Heavy Infantry
+	second_amount = 225
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = north_germanic
+	}
+
+	modifier = {
+		pikemen_offensive = 0.3
+		pikemen_morale = 0.2
+		heavy_infantry_offensive = 0.3
+		heavy_infantry_morale = 0.2
+	}
+}
+
+PLUS_RETINUE_NORTH_GERMANIC_2 = { # Hirdmen
+	first_type = 1 # Heavy Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = north_germanic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		archers_offensive = 0.2
+		archers_morale = 0.1
+	}
+}
+
+PLUS_RETINUE_NORTH_GERMANIC_3 = { # Leidang
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 5 # Archers
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = north_germanic
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.2
+		light_infantry_morale = 0.1
+		archers_offensive = 0.2
+		archers_morale = 0.1
+	}
+}
+
+###################################################################
+#
+#	South Slavic
+#	6 cultures
+#
+###################################################################
+
+PLUS_RETINUE_SOUTH_SLAVIC_1 = { # Gusars
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = south_slavic
+	}
+
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_SOUTH_SLAVIC_2 = { # Bolyari
+	first_type = 1 # Heavy Infantry
+	first_amount = 150
+
+	second_type = 0 # Light Infantry
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = south_slavic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		light_infantry_offensive = 0.2
+		light_infantry_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_SOUTH_SLAVIC_3 = { # Slavic Skirmishers
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = south_slavic
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.3
+		archers_offensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	Tibetan
+#	4 cultures
+#
+###################################################################
+
+PLUS_RETINUE_TIBETAN_1 = { # Himalayan Mountaineers
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 2 # Pikemen
+	second_amount = 100
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = tibetan_group
+	}
+
+	modifier = {
+		light_infantry_defensive = 0.4
+		light_infantry_morale = 0.4
+	}
+}
+
+PLUS_RETINUE_TIBETAN_2 = { # Rtakhrab Pai' dpung (Armoured Horse Cavalry)
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = tibetan_group
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.4
+		light_cavalry_morale = 0.4
+	}
+}
+
+PLUS_RETINUE_TIBETAN_3 = { # Tibetan Bowmen
+	first_type = 5 # Archers
+	first_amount = 300
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = tibetan_group
+	}
+
+	modifier = {
+		archers_defensive = 0.4
+		archers_morale = 0.4
+	}
+}
+
+###################################################################
+#
+#	Tocharian (Plus)
+#	1 culture
+#
+###################################################################
+
+PLUS_RETINUE_TOCHARIAN_1 = { # Tocharian Mixed Infantry
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 2 # Pikemen
+	second_amount = 150
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = tocharian_group
+	}
+
+	modifier = {
+		light_infantry_defensive = 0.4
+		light_infantry_morale = 0.4
+		pikemen_defensive = 0.3
+		pikemen_morale = 0.3
+	}
+}
+
+PLUS_RETINUE_TOCHARIAN_2 = { # Tocharian Cavalry
+	first_type = 3 # Light Cavalry
+	first_amount = 150
+
+	second_type = 6 # Special Troops
+	second_amount = 150
+
+	special_troops = horse_archers
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = tocharian_group
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.4
+		light_cavalry_morale = 0.4
+		horse_archers_defensive = 0.4
+		horse_archers_morale = 0.4
+	}
+}
+
+PLUS_RETINUE_TOCHARIAN_3 = { # Tocharian Core Infantry
+	first_type = 5 # Archers
+	first_amount = 150
+
+	second_type = 1 # Heavy Infantry
+	second_amount = 150
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = tocharian_group
+	}
+
+	modifier = {
+		archers_defensive = 0.4
+		archers_morale = 0.4
+		heavy_infantry_defensive = 0.3
+		heavy_infantry_morale = 0.3
+	}
+}
+
+###################################################################
+#
+#	Turkic (Plus)
+#	10 cultures
+#
+###################################################################
+
+PLUS_RETINUE_TURKIC_1 = { # Batyrs
+	first_type = 6 # Special Troops
+	first_amount = 150
+
+	second_type = 3 # Light Cavalry
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = turkic_group
+	}
+
+	modifier = {
+		horse_archers_offensive = 0.3
+		horse_archers_morale = 0.2
+		light_cavalry_offensive = 0.3
+		light_cavalry_morale = 0.2
+	}
+}
+
+PLUS_RETINUE_TURKIC_2 = { # Tirkesh Bowmen
+	first_type = 5 # Archers
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = turkic_group
+	}
+
+	modifier = {
+		archers_offensive = 0.4
+	}
+}
+
+PLUS_RETINUE_TURKIC_3 = { # Kiliç Warriors
+	first_type = 1 # Heavy Infantry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = turkic_group
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.3
+		heavy_infantry_morale = 0.2
+	}
+}
+
+###################################################################
+#
+#	Vasconic (Plus)
+#	1 culture
+#
+###################################################################
+
+PLUS_RETINUE_VASCONIC_1 = { # Basque Infantry
+	first_type = 1 # Heavy Infantry
+	first_amount = 225
+
+	second_type = 4 # Archers
+	second_amount = 75
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = vasconic
+	}
+
+	modifier = {
+		heavy_infantry_defensive = 0.3
+		heavy_infantry_morale = 0.3
+		archers_defensive = 0.3
+		archers_morale = 0.3
+	}
+}
+
+PLUS_RETINUE_VASCONIC_2 = { # Basque Mountain Skirmishers
+	first_type = 0 # Light Infantry
+	first_amount = 150
+
+	second_type = 5 # Archers
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = vasconic
+	}
+
+	modifier = {
+		light_infantry_defensive = 0.3
+		light_infantry_morale = 0.3
+		archers_defensive = 0.3
+		archers_morale = 0.3
+	}
+}
+
+PLUS_RETINUE_VASCONIC_3 = { # Basque Cavalry
+	first_type = 3 # Light Cavalry
+	first_amount = 300
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = vasconic
+	}
+
+	modifier = {
+		light_cavalry_morale = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	West African
+#	5 cultures
+#
+###################################################################
+
+PLUS_RETINUE_WEST_AFRICAN_1 = { # Horon Warriors
+	first_type = 2 # Pikemen
+	first_amount = 75
+
+	second_type = 5 # Archers
+	second_amount = 225
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = west_african
+	}
+
+	modifier = {
+		heavy_infantry_defensive = 0.2
+		archers_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_WEST_AFRICAN_2 = { # Sahara Cavalry
+	first_type = 6 # Special Troops
+	first_amount = 100
+
+	second_type = 3 # Light Cavalry
+	second_amount = 200
+
+	special_troops = camel_cavalry
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = west_african
+	}
+
+	modifier = {
+		camel_cavalry_offensive = 0.2
+		light_cavalry_offensive = 0.2
+	}
+}
+
+PLUS_RETINUE_WEST_AFRICAN_3 = { # Sofa (slave infantry)
+	first_type = 1 # Heavy Infantry
+	first_amount = 125
+
+	second_type = 0 # Light Infantry
+	second_amount = 175
+
+	potential = {
+		is_nomadic = no
+		is_tribal = no
+		culture_group = west_african
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.1
+		light_cavalry_offensive = 0.3
+	}
+}
+
+###################################################################
+#
+#	West Germanic
+#	3 cultures
+#
+###################################################################
+
+PLUS_RETINUE_WEST_GERMANIC_1 = { # Thingmen
+	first_type = 3 # Light Cavalry
+	first_amount = 75
+
+	second_type = 1 # Heavy Infantry
+	second_amount = 225
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = west_germanic
+	}
+
+	modifier = {
+		light_cavalry_morale = 0.3
+		light_cavalry_defensive = 0.2
+		knights_morale = 0.2
+	}
+}
+
+PLUS_RETINUE_WEST_GERMANIC_2 = { # Fyrd
+	first_type = 2 # Pikemen
+	first_amount = 100
+
+	second_type = 1 # Heavy Infantry
+	second_amount = 200
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = west_germanic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		archers_offensive = 0.2
+		archers_morale = 0.1
+	}
+}
+
+PLUS_RETINUE_WEST_GERMANIC_3 = { # Dryhtguma
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = west_germanic
+	}
+
+	modifier = {
+		light_infantry_morale = 0.2
+		light_infantry_defensive = 0.2
+		archers_morale = 0.2
+		archers_defensive = 0.2
+	}
+}
+
+###################################################################
+#
+#	West Slavic
+#	4 cultures
+#
+###################################################################
+
+PLUS_RETINUE_WEST_SLAVIC_1 = { # Winged Hussars
+	first_type = 4 # Heavy Cavalry
+	first_amount = 200
+
+	second_type = 3 # Light Cavalry
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = west_slavic
+	}
+
+	modifier = {
+		knights_offensive = 0.2
+		knights_defensive = 0.2
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+
+PLUS_RETINUE_WEST_SLAVIC_2 = { # Rota
+	first_type = 1 # Heavy Infantry
+	first_amount = 150
+
+	second_type = 0 # Light Infantry
+	second_amount = 150
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = west_slavic
+	}
+
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		light_infantry_offensive = 0.2
+		light_infantry_defensive = 0.1
+	}
+}
+
+PLUS_RETINUE_WEST_SLAVIC_3 = { # Slavic Skirmishers ***
+	first_type = 0 # Light Infantry
+	first_amount = 200
+
+	second_type = 5 # Archers
+	second_amount = 100
+
+	potential = {
+		is_tribal = no
+		is_nomadic = no
+		culture_group = west_slavic
+	}
+
+	modifier = {
+		light_infantry_offensive = 0.3
+		archers_offensive = 0.2
+	}
+}

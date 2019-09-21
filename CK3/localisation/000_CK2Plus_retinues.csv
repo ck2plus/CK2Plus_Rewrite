@@ -1,0 +1,119 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+PLUS_RETINUE_ALTAIC_1;Eastern Horse Archers;Archers montés altaïques;;;;;;;;;;;;x
+PLUS_RETINUE_ALTAIC_2;Mixed Altaic;Unité altaïque mixte;;;;;;;;;;;;x
+PLUS_RETINUE_ALTAIC_3;Altaic Skirmishers;Escarmouche altaïque;;;;;;;;;;;;x
+PLUS_RETINUE_AMAZIGH_1;Genitour;;;;;;;;;;;;;x
+PLUS_RETINUE_AMAZIGH_2;Camel Archers;;;;;;;;;;;;;x
+PLUS_RETINUE_AMAZIGH_3;Berber Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_ARABIC_1;Mubarizun;;;;;;;;;;;;;x
+PLUS_RETINUE_ARABIC_2;Mobile Guard;;;;;;;;;;;;;x
+PLUS_RETINUE_ARABIC_3;Camel Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_ARAMAIC_1;Qurubuti;;;;;;;;;;;;;x
+PLUS_RETINUE_ARAMAIC_2;Kisir Sharruit;;;;;;;;;;;;;x
+PLUS_RETINUE_ARAMAIC_3;Sab Sharri;;;;;;;;;;;;;x
+PLUS_RETINUE_BALTIC_1;Ulonai;;;;;;;;;;;;;x
+PLUS_RETINUE_BALTIC_2;Bajorai;;;;;;;;;;;;;x
+PLUS_RETINUE_BALTIC_3;Laukininkai;;;;;;;;;;;;;x
+PLUS_RETINUE_BYZANTINE_1;Klibanophoroi;;;;;;;;;;;;;x
+PLUS_RETINUE_BYZANTINE_2;Tagmata;;;;;;;;;;;;;x
+PLUS_RETINUE_BYZANTINE_3;Akritai;;;;;;;;;;;;;x
+PLUS_RETINUE_CELTIC_1;Galloglass;;;;;;;;;;;;;x
+PLUS_RETINUE_CELTIC_2;Kerne;;;;;;;;;;;;;x
+PLUS_RETINUE_CELTIC_3;Cateran;;;;;;;;;;;;;x
+PLUS_RETINUE_CENTRAL_AFRICAN_1;Savanna Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_CENTRAL_AFRICAN_2;Mixed Savanna Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_CENTRAL_AFRICAN_3;Savanna Cavalry Swarm;;;;;;;;;;;;;x
+PLUS_RETINUE_CENTRAL_GERMANIC_1;Waffenknecht;;;;;;;;;;;;;x
+PLUS_RETINUE_CENTRAL_GERMANIC_2;Lanzknecht;;;;;;;;;;;;;x
+PLUS_RETINUE_CENTRAL_GERMANIC_3;Landsturm;;;;;;;;;;;;;x
+PLUS_RETINUE_CHINESE_1;Nubing;;;;;;;;;;;;;x
+PLUS_RETINUE_CHINESE_2;Han Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_CHINESE_3;Han Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_COPTIC_1;Egyptian Pikemen;;;;;;;;;;;;;x
+PLUS_RETINUE_COPTIC_2;Egyptian Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_COPTIC_3;Egyptian Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_CRUSADER_1;Knights;;;;;;;;;;;;;x
+PLUS_RETINUE_CRUSADER_2;Men-at-arms;;;;;;;;;;;;;x
+PLUS_RETINUE_CRUSADER_3;Sergeants;;;;;;;;;;;;;x
+#PLUS_RETINUE_DRAVIDIAN_1;;;;;;;;;;;;;;x
+#PLUS_RETINUE_DRAVIDIAN_2;;;;;;;;;;;;;;x
+#PLUS_RETINUE_DRAVIDIAN_3;;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_AFRICAN_1;Ethiopian Pikemen;Piquiers éthiopiens;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_AFRICAN_2;Ethiopian Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_AFRICAN_3;Nubian Archers;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_GERMANIC_1;Gothic Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_GERMANIC_2;Framea Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_GERMANIC_3;Gothic Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_ROMANCE_1;Curteni;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_ROMANCE_2;Lefegii;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_ROMANCE_3;Plaiesi;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_SLAVIC_1;Druzhina;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_SLAVIC_2;Boyars;;;;;;;;;;;;;x
+PLUS_RETINUE_EAST_SLAVIC_3;Streltsy;;;;;;;;;;;;;x
+PLUS_RETINUE_FINNO_UGRIC_1;Uralic Warriors;;;;;;;;;;;;;x
+PLUS_RETINUE_FINNO_UGRIC_2;Uralic Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_FINNO_UGRIC_3;Uralic Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_FRANCO_GERMANIC_1;Scara;;;;;;;;;;;;;x
+PLUS_RETINUE_FRANCO_GERMANIC_2;Trustis;;;;;;;;;;;;;x
+PLUS_RETINUE_FRANCO_GERMANIC_3;Lantweri;;;;;;;;;;;;;x
+PLUS_RETINUE_GEORGIAN_1;Monaspa;;;;;;;;;;;;;x
+PLUS_RETINUE_GEORGIAN_2;Khevsur Warriors;;;;;;;;;;;;;x
+PLUS_RETINUE_GEORGIAN_3;Khanjali Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_IBERIAN_1;Caballeros;;;;;;;;;;;;;x
+PLUS_RETINUE_IBERIAN_2;Jinetes;;;;;;;;;;;;;x
+PLUS_RETINUE_IBERIAN_3;Infanzones;;;;;;;;;;;;;x
+PLUS_RETINUE_INDO_ARYAN_1;Indian War Elephants;;;;;;;;;;;;;x
+PLUS_RETINUE_INDO_ARYAN_2;Steel Bow Archers;;;;;;;;;;;;;x
+PLUS_RETINUE_INDO_ARYAN_3;Sowar;;;;;;;;;;;;;x
+PLUS_RETINUE_IRANIAN_1;Grivpanvar;;;;;;;;;;;;;x
+PLUS_RETINUE_IRANIAN_2;Sparabara;;;;;;;;;;;;;x
+PLUS_RETINUE_IRANIAN_3;Paighan;;;;;;;;;;;;;x
+#PLUS_RETINUE_ISLAND_ROMANCE_1;;;;;;;;;;;;;;x
+#PLUS_RETINUE_ISLAND_ROMANCE_2;;;;;;;;;;;;;;x
+#PLUS_RETINUE_ISLAND_ROMANCE_3;;;;;;;;;;;;;;x
+PLUS_RETINUE_ISRAELITE_1;Temple Guard;;;;;;;;;;;;;x
+PLUS_RETINUE_ISRAELITE_2;Israelite Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_ISRAELITE_3;Israelite Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_ITALIAN_1;Cavalieri;;;;;;;;;;;;;x
+PLUS_RETINUE_ITALIAN_2;Picchieri;;;;;;;;;;;;;x
+PLUS_RETINUE_ITALIAN_3;Balestrieri;;;;;;;;;;;;;x
+PLUS_RETINUE_LATIN_1;Chevaliers;;;;;;;;;;;;;x
+PLUS_RETINUE_LATIN_2;Gendarmes;;;;;;;;;;;;;x
+PLUS_RETINUE_LATIN_3;Routiers;;;;;;;;;;;;;x
+PLUS_RETINUE_MAGHREBI_1;Maghrebi Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_MAGHREBI_2;Maghrebi Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_MAGHREBI_3;Maghrebi Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_MAGYAR_1;Black Army Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_MAGYAR_2;Black Army Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_MAGYAR_3;Black Army Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_MESOAMERICAN_1;Jaguar Warrior;Guerrier jaguar;Jaguar-Krieger;;Guerrero Jaguar;;;;;;;;;x
+PLUS_RETINUE_MESOAMERICAN_2;Otomies;;;;;;;;;;;;;x
+PLUS_RETINUE_MESOAMERICAN_3;Tequihua;;;;;;;;;;;;;x
+PLUS_RETINUE_NORTH_GERMANIC_1;Húskarlar;Huscarls;Huskarls;;Huscarles;;;;;;;;;x
+PLUS_RETINUE_NORTH_GERMANIC_2;Hirðir;;;;;;;;;;;;;x
+PLUS_RETINUE_NORTH_GERMANIC_3;Leiðangr;;;;;;;;;;;;;x
+PLUS_RETINUE_SOUTH_SLAVIC_1;Gusars;;;;;;;;;;;;;x
+PLUS_RETINUE_SOUTH_SLAVIC_2;Bolyari;;;;;;;;;;;;;x
+PLUS_RETINUE_SOUTH_SLAVIC_3;Slavic Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_TIBETAN_1;Himalayan Mountaineer;Alpiniste himalayen;Himalaya-Alpinist;;Montañero del Himalaya;;;;;;;;;x
+PLUS_RETINUE_TIBETAN_2;Rtakhrab Pai' dpung;;;;;;;;;;;;;x
+PLUS_RETINUE_TIBETAN_3;Tibetan Bowmen;;;;;;;;;;;;;x
+PLUS_RETINUE_TOCHARIAN_1;Tocharian Mixed Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_TOCHARIAN_2;Tocharian Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_TOCHARIAN_3;Tocharian Core Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_TURKIC_1;Batyrs;;;;;;;;;;;;;x
+PLUS_RETINUE_TURKIC_2;Tirkesh Bowmen;;;;;;;;;;;;;x
+PLUS_RETINUE_TURKIC_3;Kiliç Warriors;;;;;;;;;;;;;x
+PLUS_RETINUE_VASCONIC_1;Basque Infantry;;;;;;;;;;;;;x
+PLUS_RETINUE_VASCONIC_2;Basque Mountain Skirmishers;;;;;;;;;;;;;x
+PLUS_RETINUE_VASCONIC_3;Basque Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_AFRICAN_1;Horon Warriors;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_AFRICAN_2;Sahara Cavalry;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_AFRICAN_3;Sofa;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_GERMANIC_1;Thingmen;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_GERMANIC_2;Fyrd;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_GERMANIC_3;Dryhtguma;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_SLAVIC_1;Winged Hussars;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_SLAVIC_2;Rota;;;;;;;;;;;;;x
+PLUS_RETINUE_WEST_SLAVIC_3;Slavic Skirmishers;;;;;;;;;;;;;x
