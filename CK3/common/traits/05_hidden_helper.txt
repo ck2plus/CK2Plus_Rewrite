@@ -1,0 +1,1245 @@
+########################################################################################################
+# WARNING: IF YOU DON'T ADD NEW TRAITS LAST (IN THE LAST READ TRAIT FILE), IT WILL BREAK OLD SAVE GAMES!
+########################################################################################################
+
+
+#########################################
+# HIDDEN (INVISIBLE WITH GAMEPLAY EFFECT)
+#########################################
+
+sick_incapable = {
+	is_health = yes
+
+	hidden = yes
+
+	incapacitating = yes # Will need a regent
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_VEGETABLE
+	female_insult = INSULT_VEGETABLE
+	male_insult_adj = INSULT_USELESS
+	female_insult_adj = INSULT_USELESS
+}
+
+cannot_marry = {
+	cannot_marry = yes
+	hidden = yes
+
+	customizer = no
+	random = no
+}
+
+disinherited = {
+	cannot_inherit = yes
+	customizer = no
+	random = no
+	hidden = yes
+}
+
+############################################
+# HELPER (INVISIBLE WITHOUT GAMEPLAY EFFECT)
+############################################
+
+african_tattoo_1 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_2 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_3 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_4 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_5 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_6 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_7 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_8 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_9 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_10 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_11 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+african_tattoo_12 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+
+norse_tattoo_1 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+norse_tattoo_2 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+norse_tattoo_3 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+norse_tattoo_4 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+norse_tattoo_5 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+norse_tattoo_6 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+
+slavic_tattoo_1 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+slavic_tattoo_2 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+slavic_tattoo_3 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_4
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+slavic_tattoo_4 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_5
+		slavic_tattoo_6
+	}
+}
+slavic_tattoo_5 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_6
+	}
+}
+slavic_tattoo_6 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		african_tattoo_1
+		african_tattoo_2
+		african_tattoo_3
+		african_tattoo_4
+		african_tattoo_5
+		african_tattoo_6
+		african_tattoo_7
+		african_tattoo_8
+
+		african_tattoo_9
+		african_tattoo_10
+		african_tattoo_11
+		african_tattoo_12
+
+		norse_tattoo_1
+		norse_tattoo_2
+		norse_tattoo_3
+		norse_tattoo_4
+		norse_tattoo_5
+		norse_tattoo_6
+
+		slavic_tattoo_1
+		slavic_tattoo_2
+		slavic_tattoo_3
+		slavic_tattoo_4
+		slavic_tattoo_5
+	}
+}
+
+uncrowned = { #Used to handle portrait appearance
+	hidden = yes
+	customizer = no
+	random = no
+}
+
+#Invisible traits used to make dead king wear their special crowns even after the artifact has passed to their living heir.
+dead_crown_hre = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_pahlavi = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_byzantine = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_tengri_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_finnish_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_iron_crown_lombardy = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_cursed_diamond_crown = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_west_african_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_slavic_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_romuva_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_scepter_bon_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_zun_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_scepter_hellenic_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+dead_crown_aztec_fylkir = {
+	hidden = yes
+	random = no
+	customizer = no
+}
+
+#Freckles from thinner to thicker:
+#freckles_3
+#freckles_2
+#freckles
+#freckles_4
+#freckles_5
+freckles_2 = { #Inherited via script - Thin
+	random = no
+	hidden = yes
+	opposites = {
+		freckles
+		freckles_3
+		freckles_4
+		freckles_5
+	}
+	customizer = no
+	male_insult_adj = INSULT_CURSED
+	female_insult_adj = INSULT_CURSED
+}
+freckles_3 = { #Inherited via script - Very Thin
+	random = no
+	hidden = yes
+	opposites = {
+		freckles_2
+		freckles
+		freckles_4
+		freckles_5
+	}
+
+	customizer = no
+	male_insult_adj = INSULT_CURSED
+	female_insult_adj = INSULT_CURSED
+}
+freckles = { #Inherited via script - Base version.
+	random = no
+	hidden = yes
+	opposites = {
+		freckles_2
+		freckles_3
+		freckles_4
+		freckles_5
+	}
+
+	customizer = no
+	male_insult_adj = INSULT_CURSED
+	female_insult_adj = INSULT_CURSED
+}
+freckles_4 = { #Inherited via script - Thick
+	random = no
+	hidden = yes
+	opposites = {
+		freckles_2
+		freckles_3
+		freckles
+		freckles_5
+	}
+
+	customizer = no
+	male_insult_adj = INSULT_CURSED
+	female_insult_adj = INSULT_CURSED
+}
+freckles_5 = { #Inherited via script - Very Thick
+	random = no
+	hidden = yes
+	opposites = {
+		freckles_2
+		freckles_3
+		freckles_4
+		freckles
+	}
+
+	customizer = no
+	male_insult_adj = INSULT_CURSED
+	female_insult_adj = INSULT_CURSED
+}
+
+i_used_to_be_a_player = {
+	customizer = no
+	hidden = yes
+}
+
+scarred_type_1 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_2
+		scarred_type_3
+		scarred_type_4
+		scarred_type_5
+		scarred_type_6
+		scarred_type_7
+		scarred_type_8
+		scarred_type_9
+		scarred_type_10
+	}
+}
+scarred_type_2 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_3
+		scarred_type_4
+		scarred_type_5
+		scarred_type_6
+		scarred_type_7
+		scarred_type_8
+		scarred_type_9
+		scarred_type_10
+	}
+}
+scarred_type_3 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_2
+		scarred_type_4
+		scarred_type_5
+		scarred_type_6
+		scarred_type_7
+		scarred_type_8
+		scarred_type_9
+		scarred_type_10
+	}
+}
+scarred_type_4 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_2
+		scarred_type_3
+		scarred_type_5
+		scarred_type_6
+		scarred_type_7
+		scarred_type_8
+		scarred_type_9
+		scarred_type_10
+	}
+}
+scarred_type_5 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_2
+		scarred_type_3
+		scarred_type_4
+		scarred_type_6
+		scarred_type_7
+		scarred_type_8
+		scarred_type_9
+		scarred_type_10
+	}
+}
+scarred_type_6 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_2
+		scarred_type_3
+		scarred_type_4
+		scarred_type_5
+		scarred_type_7
+		scarred_type_8
+		scarred_type_9
+		scarred_type_10
+	}
+}
+scarred_type_7 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_2
+		scarred_type_3
+		scarred_type_4
+		scarred_type_5
+		scarred_type_6
+		scarred_type_8
+		scarred_type_9
+		scarred_type_10
+	}
+}
+scarred_type_8 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_2
+		scarred_type_3
+		scarred_type_4
+		scarred_type_5
+		scarred_type_6
+		scarred_type_7
+		scarred_type_9
+		scarred_type_10
+	}
+}
+scarred_type_9 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_2
+		scarred_type_3
+		scarred_type_4
+		scarred_type_5
+		scarred_type_6
+		scarred_type_7
+		scarred_type_8
+		scarred_type_10
+	}
+}
+scarred_type_10 = {
+	hidden = yes
+	random = no
+	customizer = no
+	opposites = {
+		scarred_type_1
+		scarred_type_2
+		scarred_type_3
+		scarred_type_4
+		scarred_type_5
+		scarred_type_6
+		scarred_type_7
+		scarred_type_8
+		scarred_type_9
+	}
+}
+scarred_mid = {
+	potential = {
+		has_dlc = "Holy Fury"
+	}
+	opposites = {
+		scarred
+		scarred_high
+	}
+	combat_rating = 5
+	same_opinion = 5
+	opposite_opinion = 5
+	sex_appeal_opinion = 5
+	tribal_opinion = 5
+	monthly_character_prestige = 0.15
+	random = no
+}
+scarred_high = {
+	potential = {
+		has_dlc = "Holy Fury"
+	}
+	opposites = {
+		scarred
+		scarred_mid
+	}
+	combat_rating = 10
+	same_opinion = 10
+	opposite_opinion = 5
+	sex_appeal_opinion = 10
+	tribal_opinion = 10
+	monthly_character_prestige = 0.2
+	random = no
+}
+
+baby_boy_fair = {
+	# just a helper to assign baby portraits
+	hidden = yes
+	random = no
+	customizer = no
+}
+baby_boy_tanned = {
+	# just a helper to assign baby portraits
+	hidden = yes
+	random = no
+	customizer = no
+}
+baby_boy_dark = {
+	# just a helper to assign baby portraits
+	hidden = yes
+	random = no
+	customizer = no
+}
+baby_boy_darker = {
+	# just a helper to assign baby portraits
+	hidden = yes
+	random = no
+	customizer = no
+}
+
+baby_girl_fair = {
+	# just a helper to assign baby portraits
+	hidden = yes
+	random = no
+	customizer = no
+}
+baby_girl_tanned = {
+	# just a helper to assign baby portraits
+	hidden = yes
+	random = no
+	customizer = no
+}
+baby_girl_dark = {
+	# just a helper to assign baby portraits
+	hidden = yes
+	random = no
+	customizer = no
+}
+baby_girl_darker = {
+	# just a helper to assign baby portraits
+	hidden = yes
+	random = no
+	customizer = no
+}

@@ -1,6 +1,3 @@
-# Audax Validator "!" Ignore_NEXT
-# Used to weed out vanilla errors in Audax Validator
-
 ########################################################################################################
 # WARNING: IF YOU DON'T ADD NEW TRAITS LAST (IN THE LAST READ TRAIT FILE), IT WILL BREAK OLD SAVE GAMES!
 ########################################################################################################
@@ -10,8 +7,30 @@
 # CONGENITAL
 ############
 
+ambidextrous = {
+	# NEW
+}
+lefthanded = {
+	inherit_chance = 25
+	birth = 75
+
+	combat_rating = 15
+	same_opinion = 5
+
+	customizer = yes
+
+	christian_church_opinion = -10
+	muslim_opinion = -10
+
+	male_insult_adj = INSULT_LEFTHANDED
+	female_insult_adj = INSULT_LEFTHANDED
+}
+
+agile = {
+	# NEW
+}
 clubfooted = {
-	birth = 50
+	birth = 50	# by chance found on wikipedia that the actual birth rate is 1 in 1000, so for us "10"
 	inherit_chance = 15
 
 	combat_rating = -5 #old value: -1
@@ -26,19 +45,8 @@ clubfooted = {
 	male_insult_adj = INSULT_LIMPING
 	female_insult_adj = INSULT_LIMPING
 }
-harelip = {
-	birth = 50
-	inherit_chance = 15
-
-	sex_appeal_opinion = -10
-	same_opinion = 5
-
-	diplomacy = -1
-
-	male_insult = INSULT_HARELIP
-	female_insult = INSULT_HARELIP
-	male_insult_adj = INSULT_CLEFT_LIPPED
-	female_insult_adj = INSULT_CLEFT_LIPPED
+clumsy = {
+	# NEW
 }
 hunchback = {
 	birth = 50
@@ -55,6 +63,16 @@ hunchback = {
 	female_insult = INSULT_HUNCHBACK
 	male_insult_adj = INSULT_CROOKED
 	female_insult_adj = INSULT_CROOKED
+}
+
+calm_voice = {
+	# NEW
+}
+melodious_voice = {
+	# NEW
+}
+powerful_voice = {
+	# NEW
 }
 lisp = {
 	birth = 50
@@ -84,6 +102,7 @@ stutter = {
 	female_insult_adj = INSULT_STUTTERING
 	child_insult_adj = INSULT_STUPID
 }
+
 fair = {
 	birth = 100
 	inherit_chance = 15
@@ -101,6 +120,20 @@ fair = {
 	male_compliment = COMPL_CHARMER
 	male_compliment_adj = COMPL_HANDSOME
 	child_compliment_adj = COMPL_PRETTY
+}
+harelip = {
+	birth = 50
+	inherit_chance = 15
+
+	sex_appeal_opinion = -10
+	same_opinion = 5
+
+	diplomacy = -1
+
+	male_insult = INSULT_HARELIP
+	female_insult = INSULT_HARELIP
+	male_insult_adj = INSULT_CLEFT_LIPPED
+	female_insult_adj = INSULT_CLEFT_LIPPED
 }
 ugly = {
 	birth = 100
@@ -121,28 +154,39 @@ ugly = {
 	female_insult_adj = INSULT_HIDEOUS
 	child_insult_adj = INSULT_UGLY
 }
-dwarf = {
-	birth = 25
+
+fertile = {
+	# NEW
+}
+inbred = {
+	inbred = yes
 	inherit_chance = 25
 	both_parent_has_trait_inherit_chance = 50
 
 	sex_appeal_opinion = -30
-	same_opinion = 5
 
-	opposites =  {
-		giant
-	}
+	fertility = -0.3
+	health = -1.5
+	diplomacy = -5
+	intrigue = -5
+	stewardship = -5
+	martial = -5
+	learning = -5
 
-	martial = -1
+	combat_rating = -20 #old value: -2
 
-	combat_rating = -15 #old value: -3
+	vassal_opinion = -10
 
-	male_insult = INSULT_DWARF
-	female_insult = INSULT_DWARF
-	male_insult_adj = INSULT_LITTLE
-	female_insult_adj = INSULT_LITTLE
-	child_insult_adj = INSULT_STUPID
+	ai_rationality = -20
+
+	male_insult = INSULT_ABOMINATION
+	female_insult = INSULT_FREAK
+	child_insult = INSULT_TROLL
+	male_insult_adj = INSULT_MONSTROUS
+	female_insult_adj = INSULT_HIDEOUS
+	child_insult_adj = INSULT_UGLY
 }
+
 genius = {
 	birth = 50
 	inherit_chance = 15
@@ -172,7 +216,6 @@ genius = {
 	child_compliment = COMPL_SMARTY
 	child_compliment_adj = COMPL_CLEVER
 }
-
 quick = {
 	birth = 100
 	inherit_chance = 15
@@ -247,34 +290,7 @@ imbecile = {
 	male_insult_adj = INSULT_IDIOT
 	female_insult_adj = INSULT_IDIOT
 }
-inbred = {
-	inbred = yes
-	inherit_chance = 25
-	both_parent_has_trait_inherit_chance = 50
 
-	sex_appeal_opinion = -30
-
-	fertility = -0.3
-	health = -1.5
-	diplomacy = -5
-	intrigue = -5
-	stewardship = -5
-	martial = -5
-	learning = -5
-
-	combat_rating = -20 #old value: -2
-
-	vassal_opinion = -10
-
-	ai_rationality = -20
-
-	male_insult = INSULT_ABOMINATION
-	female_insult = INSULT_FREAK
-	child_insult = INSULT_TROLL
-	male_insult_adj = INSULT_MONSTROUS
-	female_insult_adj = INSULT_HIDEOUS
-	child_insult_adj = INSULT_UGLY
-}
 strong = {
 	birth = 100
 	inherit_chance = 15
@@ -317,6 +333,32 @@ weak = {
 
 	male_insult = INSULT_WEAKLING
 }
+
+tall = {
+	# NEW
+}
+dwarf = {
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 50
+
+	sex_appeal_opinion = -30
+	same_opinion = 5
+
+	opposites =  {
+		giant
+	}
+
+	martial = -1
+
+	combat_rating = -15 #old value: -3
+
+	male_insult = INSULT_DWARF
+	female_insult = INSULT_DWARF
+	male_insult_adj = INSULT_LITTLE
+	female_insult_adj = INSULT_LITTLE
+	child_insult_adj = INSULT_STUPID
+}
 giant = {
 	birth = 50
 	inherit_chance = 5
@@ -342,23 +384,6 @@ giant = {
 	male_compliment_adj = COMPL_STRONG
 }
 
-lefthanded = {
-	inherit_chance = 25
-	birth = 75
-
-	combat_rating = 15
-	same_opinion = 5
-
-	customizer = yes
-
-	christian_church_opinion = -10
-	muslim_opinion = -10
-
-	male_insult_adj = INSULT_LEFTHANDED
-	female_insult_adj = INSULT_LEFTHANDED
-}
-
-
 ##############################
 # PHYSICAL (PSEUDO-CONGENITAL)
 ##############################
@@ -381,7 +406,18 @@ robust = {
 
 	male_compliment_adj = COMPL_STRONG
 }
+sturdy = {
 
+	opposites = {
+		feeble
+		robust
+	}
+
+	health = 0.25
+
+	combat_rating = 2
+
+}
 feeble = {
 	opposites =  {
 		robust
@@ -413,7 +449,6 @@ shrewd = {
 
 	ai_rationality = 15
 }
-
 dull = {
 	opposites =  {
 		shrewd
@@ -434,18 +469,7 @@ dull = {
 	female_insult_adj = INSULT_VACUOUS
 	child_insult_adj = INSULT_STUPID
 }
-sturdy = {
 
-	opposites = {
-		feeble
-		robust
-	}
-
-	health = 0.25
-
-	combat_rating = 2
-
-}
 is_fat = {
 
 	opposites = { is_malnourished }
@@ -467,7 +491,6 @@ is_fat = {
 	ai_zeal = -20
 
 }
-
 is_malnourished = {
 
 	opposites = { is_fat }
@@ -493,96 +516,158 @@ is_malnourished = {
 # HEALTH
 ########
 
-stressed = {
-	is_health = yes
-	intrigue = -1
-	stewardship = -1
-	health = -1
-	fertility = -0.1
-	combat_rating = -10 #new value!
-}
-depressed = {
-	is_health = yes
-	diplomacy = -1
-	stewardship = -1
-	martial = -1
-	intrigue = -1
-	health = -1
-	fertility = -0.05
-	combat_rating = -5 #new value!
-
-	male_insult_adj = INSULT_LUGUBRIOUS
-	female_insult_adj = INSULT_LUGUBRIOUS
-	male_insult = INSULT_GRUMBLER
-	female_insult = INSULT_GRUMBLER
-}
-
-lunatic = { # Highly event driven
-	is_health = yes
-
-	vassal_opinion = -5
+blinded = {
 	sex_appeal_opinion = -10
-	same_opinion = 5
-
-	ai_rationality = -50
-
-	male_insult = INSULT_LUNATIC
-	female_insult = INSULT_BAT
-	male_insult_adj = INSULT_DEMENTED
-	female_insult_adj = INSULT_CRAZED
-	child_insult_adj = INSULT_CRAZY
-}
-possessed = { # Highly event driven
-	is_health = yes
-
-	sex_appeal_opinion = -10
-	same_opinion = 5
-
-	ai_rationality = -40
-
-	combat_rating = 5 #old value: 1
-
-	male_insult = INSULT_WARLOCK
-	female_insult = INSULT_DEVIL_WOMAN
-	child_insult = INSULT_DEVIL
-	male_insult_adj = INSULT_DEMONIC
-	female_insult_adj = INSULT_DEMONIC
-}
-wounded = {
-	is_health = yes
-
-	opposites =  {
-		maimed
-	}
-
-	combat_rating = -15 #old value: -1
-
-	martial = -1
+	martial = -6
+	stewardship = -2
+	intrigue = -2
 	health = -1
 
-	succession_gfx = yes
+	customizer = no
+
+	combat_rating = -100 #old value: -10
+
+	blinding = yes
+
+	male_insult_adj = INSULT_BLIND
+	female_insult_adj = INSULT_BLIND
 }
-maimed = {
+disfigured = {
 	is_health = yes
 
-	opposites =  {
-		wounded
-	}
-
-	combat_rating = -30 #old value: -4
-
-	sex_appeal_opinion = -15
+	sex_appeal_opinion = -20
 	same_opinion = 5
 
+	diplomacy = -4
+
+	customizer = no
+
+	male_insult = INSULT_FREAK
+	female_insult = INSULT_FREAK
+	child_insult = INSULT_FREAK
+	male_insult_adj = INSULT_HEINOUS
+	female_insult_adj = INSULT_HEINOUS
+	child_insult_adj = INSULT_HEINOUS
+}
+eunuch = {
+	sex_appeal_opinion = -20
+	fertility = -50.0
+
+	customizer = no
+
+	cannot_marry = yes
+	cannot_inherit = yes
+
+	male_insult = INSULT_EUNUCH
+	male_insult_adj = INSULT_UNMANNED
+	child_insult_adj = INSULT_SILLY
+}
+mangled = {
+	is_health = yes
+
+	sex_appeal_opinion = -5
+	same_opinion = 5
+
+	fertility_penalty = -0.5
+
+	intrigue = -2
+	diplomacy = -2
 	martial = -2
-	health = -2
+	learning = -2
+	stewardship = -2
+
+	combat_rating = -40 #old value: -4
+
+	health = -3
+
+	customizer = no
 
 	male_insult = INSULT_CRIPPLE
-	male_insult_adj = INSULT_USELESS
-	female_insult_adj = INSULT_USELESS
+	female_insult = INSULT_CRIPPLE
+	child_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_MAIMED
+	female_insult_adj = INSULT_MAIMED
+	child_insult_adj = INSULT_MAIMED
 
-	succession_gfx = yes
 }
+one_eyed = {
+	is_health = yes
+
+	sex_appeal_opinion = -5
+	pagan_group_opinion = 10
+	same_opinion = 5
+
+	combat_rating = -10 #old value: -1
+
+	customizer = no
+
+	male_insult = INSULT_CRIPPLE
+	female_insult = INSULT_CRIPPLE
+	child_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_BLIND
+	female_insult_adj = INSULT_BLIND
+	child_insult_adj = INSULT_BLIND
+}
+one_handed = {
+	is_health = yes
+
+	learning = 1
+
+	sex_appeal_opinion = -5
+	same_opinion = 5
+
+	combat_rating = -20 #old value: -2
+
+	customizer = no
+
+	male_insult = INSULT_CRIPPLE
+	female_insult = INSULT_CRIPPLE
+	child_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_MAIMED
+	female_insult_adj = INSULT_MAIMED
+	child_insult_adj = INSULT_MAIMED
+}
+one_legged = {
+	is_health = yes
+
+	learning = 1
+
+	sex_appeal_opinion = -10
+	same_opinion = 5
+
+	combat_rating = -30 #old value: -3
+
+	customizer = no
+
+	male_insult = INSULT_CRIPPLE
+	female_insult = INSULT_CRIPPLE
+	child_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_LIMPING
+	female_insult_adj = INSULT_LIMPING
+	child_insult_adj = INSULT_LIMPING
+
+}
+
+drunkard = {
+	is_health = yes
+
+	stewardship = -2
+
+	combat_rating = -10 #old value: -1
+
+	same_opinion = 5
+	church_opinion = -5
+	sex_appeal_opinion = -5
+
+	ai_rationality = -5
+
+	male_insult = INSULT_DRUNKARD
+	female_insult = INSULT_DRUNKARD
+	male_insult_adj = INSULT_BESOTTED
+	female_insult_adj = INSULT_BESOTTED
+	child_insult_adj = INSULT_STUPID
+}
+
 infirm = {
 	is_health = yes
 
@@ -625,133 +710,123 @@ incapable = {
 	male_insult_adj = INSULT_USELESS
 	female_insult_adj = INSULT_USELESS
 }
-drunkard = {
-	is_health = yes
 
-	stewardship = -2
-
-	combat_rating = -10 #old value: -1
-
-	same_opinion = 5
-	church_opinion = -5
+lovers_pox = {
 	sex_appeal_opinion = -5
-
-	ai_rationality = -5
-
-	male_insult = INSULT_DRUNKARD
-	female_insult = INSULT_DRUNKARD
-	male_insult_adj = INSULT_BESOTTED
-	female_insult_adj = INSULT_BESOTTED
-	child_insult_adj = INSULT_STUPID
-}
-
-one_eyed = {
-	is_health = yes
-
-	sex_appeal_opinion = -5
-	pagan_group_opinion = 10
-	same_opinion = 5
-
-	combat_rating = -10 #old value: -1
 
 	customizer = no
 
-	male_insult = INSULT_CRIPPLE
-	female_insult = INSULT_CRIPPLE
-	child_insult = INSULT_CRIPPLE
-	male_insult_adj = INSULT_BLIND
-	female_insult_adj = INSULT_BLIND
-	child_insult_adj = INSULT_BLIND
+	male_insult_adj = INSULT_POX_RIDDEN
+	female_insult_adj = INSULT_POX_RIDDEN
+	child_insult_adj = INSULT_POX_RIDDEN
 }
 
-one_handed = {
+possessed = { # Highly event driven
 	is_health = yes
-
-	learning = 1
-
-	sex_appeal_opinion = -5
-	same_opinion = 5
-
-	combat_rating = -20 #old value: -2
-
-	customizer = no
-
-	male_insult = INSULT_CRIPPLE
-	female_insult = INSULT_CRIPPLE
-	child_insult = INSULT_CRIPPLE
-	male_insult_adj = INSULT_MAIMED
-	female_insult_adj = INSULT_MAIMED
-	child_insult_adj = INSULT_MAIMED
-}
-
-one_legged = {
-	is_health = yes
-
-	learning = 1
 
 	sex_appeal_opinion = -10
 	same_opinion = 5
 
-	combat_rating = -30 #old value: -3
+	ai_rationality = -40
 
-	customizer = no
+	combat_rating = 5 #old value: 1
 
-	male_insult = INSULT_CRIPPLE
-	female_insult = INSULT_CRIPPLE
-	child_insult = INSULT_CRIPPLE
-	male_insult_adj = INSULT_LIMPING
-	female_insult_adj = INSULT_LIMPING
-	child_insult_adj = INSULT_LIMPING
-
+	male_insult = INSULT_WARLOCK
+	female_insult = INSULT_DEVIL_WOMAN
+	child_insult = INSULT_DEVIL
+	male_insult_adj = INSULT_DEMONIC
+	female_insult_adj = INSULT_DEMONIC
 }
-
-disfigured = {
+lunatic = { # Highly event driven
 	is_health = yes
 
-	sex_appeal_opinion = -20
+	vassal_opinion = -5
+	sex_appeal_opinion = -10
 	same_opinion = 5
 
-	diplomacy = -4
+	ai_rationality = -50
 
-	customizer = no
-
-	male_insult = INSULT_FREAK
-	female_insult = INSULT_FREAK
-	child_insult = INSULT_FREAK
-	male_insult_adj = INSULT_HEINOUS
-	female_insult_adj = INSULT_HEINOUS
-	child_insult_adj = INSULT_HEINOUS
+	male_insult = INSULT_LUNATIC
+	female_insult = INSULT_BAT
+	male_insult_adj = INSULT_DEMENTED
+	female_insult_adj = INSULT_CRAZED
+	child_insult_adj = INSULT_CRAZY
 }
 
-mangled = {
+# Babies can be born sickly
+sickly = {
+	is_health = yes
+	is_illness = yes
+
+	potential = {
+		NOT = { age = 6 }
+	}
+
+	health = -2.5
+
+	customizer = no
+	random = no
+}
+
+stressed = {
+	is_health = yes
+	intrigue = -1
+	stewardship = -1
+	health = -1
+	fertility = -0.1
+	combat_rating = -10 #new value!
+}
+depressed = {
+	is_health = yes
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	health = -1
+	fertility = -0.05
+	combat_rating = -5 #new value!
+
+	male_insult_adj = INSULT_LUGUBRIOUS
+	female_insult_adj = INSULT_LUGUBRIOUS
+	male_insult = INSULT_GRUMBLER
+	female_insult = INSULT_GRUMBLER
+}
+
+wounded = {
 	is_health = yes
 
-	sex_appeal_opinion = -5
+	opposites =  {
+		maimed
+	}
+
+	combat_rating = -15 #old value: -1
+
+	martial = -1
+	health = -1
+
+	succession_gfx = yes
+}
+maimed = {
+	is_health = yes
+
+	opposites =  {
+		wounded
+	}
+
+	combat_rating = -30 #old value: -4
+
+	sex_appeal_opinion = -15
 	same_opinion = 5
 
-	fertility_penalty = -0.5
-
-	intrigue = -2
-	diplomacy = -2
 	martial = -2
-	learning = -2
-	stewardship = -2
-
-	combat_rating = -40 #old value: -4
-
-	health = -3
-
-	customizer = no
+	health = -2
 
 	male_insult = INSULT_CRIPPLE
-	female_insult = INSULT_CRIPPLE
-	child_insult = INSULT_CRIPPLE
-	male_insult_adj = INSULT_MAIMED
-	female_insult_adj = INSULT_MAIMED
-	child_insult_adj = INSULT_MAIMED
+	male_insult_adj = INSULT_USELESS
+	female_insult_adj = INSULT_USELESS
 
+	succession_gfx = yes
 }
-
 severely_injured = {
 	is_health = yes
 
@@ -776,57 +851,46 @@ severely_injured = {
 	succession_gfx = yes
 }
 
-# Babies can be born sickly
-sickly = {
-	is_health = yes
-	is_illness = yes
-
-	potential = {
-		NOT = { age = 6 }
-	}
-
-	health = -2.5
-
-	customizer = no
-	random = no
-}
-
-eunuch = {
-	sex_appeal_opinion = -20
-	fertility = -50.0
-
-	customizer = no
-
-	cannot_marry = yes
-	cannot_inherit = yes
-
-	male_insult = INSULT_EUNUCH
-	male_insult_adj = INSULT_UNMANNED
-	child_insult_adj = INSULT_SILLY
-}
-
-blinded = {
-	sex_appeal_opinion = -10
-	martial = -6
-	stewardship = -2
-	intrigue = -2
-	health = -1
-
-	customizer = no
-
-	combat_rating = -100 #old value: -10
-
-	blinding = yes
-
-	male_insult_adj = INSULT_BLIND
-	female_insult_adj = INSULT_BLIND
-}
-
-
 ##########
 # SYMPTOMS
 ##########
 
+abdominal_pain = {
+	is_health = yes
+	is_symptom = yes
+	is_illness = yes
+
+	health_penalty = -1
+
+	fertility_penalty = -0.1
+
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+chest_pain = {
+	is_health = yes
+	is_symptom = yes
+	is_illness = yes
+
+	health_penalty = -2
+
+	combat_rating = -10 #old value: -1
+
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
 cough = {
 	is_health = yes
 	is_symptom = yes
@@ -846,19 +910,14 @@ cough = {
 	female_insult_adj = INSULT_SICKLY
 	child_insult_adj = INSULT_SICKLY
 }
-
-fever = {
+cramps = {
 	is_health = yes
 	is_symptom = yes
 	is_illness = yes
 
-	stewardship_penalty = -1
-	learning_penalty = -1
+	martial_penalty = -2
 
-	health_penalty = -1
-	fertility_penalty = -0.1
-
-	ai_rationality = -10
+	health_penalty = -0.5
 
 	combat_rating = -10 #old value: -1
 
@@ -871,7 +930,6 @@ fever = {
 	female_insult_adj = INSULT_SICKLY
 	child_insult_adj = INSULT_SICKLY
 }
-
 diarrhea = {
 	is_health = yes
 	is_symptom = yes
@@ -896,7 +954,110 @@ diarrhea = {
 	female_insult_adj = INSULT_SICKLY
 	child_insult_adj = INSULT_SICKLY
 }
+fatigue = {
+	is_health = yes
+	is_symptom = yes
+	is_illness = yes
 
+	diplomacy_penalty = -1
+	intrigue_penalty = -1
+
+	health_penalty = -0.25
+
+	ai_rationality = -20
+
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+fever = {
+	is_health = yes
+	is_symptom = yes
+	is_illness = yes
+
+	stewardship_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -1
+	fertility_penalty = -0.1
+
+	ai_rationality = -10
+
+	combat_rating = -10 #old value: -1
+
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+headache = {
+	is_health = yes
+	is_symptom = yes
+	is_illness = yes
+
+	diplomacy_penalty = -1
+	stewardship_penalty = -1
+	learning_penalty = -1
+	health_penalty = -0.5
+
+	combat_rating = -10 #old value: -1
+
+	ai_rationality = -10
+
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+malaise = {
+	is_health = yes
+	is_symptom = yes
+	is_illness = yes
+
+	health_penalty = -0.75
+
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+rash = {
+	is_health = yes
+	is_symptom = yes
+	is_illness = yes
+
+	sex_appeal_opinion = -5
+
+	health_penalty = -0.5
+
+	fertility_penalty = -0.1
+
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
 vomiting = {
 	is_health = yes
 	is_symptom = yes
@@ -923,152 +1084,26 @@ vomiting = {
 
 }
 
-chest_pain = {
-	is_health = yes
-	is_symptom = yes
-	is_illness = yes
-
-	health_penalty = -2
-
-	combat_rating = -10 #old value: -1
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-}
-
-cramps = {
-	is_health = yes
-	is_symptom = yes
-	is_illness = yes
-
-	martial_penalty = -2
-
-	health_penalty = -0.5
-
-	combat_rating = -10 #old value: -1
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-}
-
-rash = {
-	is_health = yes
-	is_symptom = yes
-	is_illness = yes
-
-	sex_appeal_opinion = -5
-
-	health_penalty = -0.5
-
-	fertility_penalty = -0.1
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-}
-
-headache = {
-	is_health = yes
-	is_symptom = yes
-	is_illness = yes
-
-	diplomacy_penalty = -1
-	stewardship_penalty = -1
-	learning_penalty = -1
-	health_penalty = -0.5
-
-	combat_rating = -10 #old value: -1
-
-	ai_rationality = -10
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-}
-
-abdominal_pain = {
-	is_health = yes
-	is_symptom = yes
-	is_illness = yes
-
-	health_penalty = -1
-
-	fertility_penalty = -0.1
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-}
-
-fatigue = {
-	is_health = yes
-	is_symptom = yes
-	is_illness = yes
-
-	diplomacy_penalty = -1
-	intrigue_penalty = -1
-
-	health_penalty = -0.25
-
-	ai_rationality = -20
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-}
-
-malaise = {
-	is_health = yes
-	is_symptom = yes
-	is_illness = yes
-
-	health_penalty = -0.75
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-}
-
 ##########
 # DISEASES
 ##########
+
+ill = {
+	is_health = yes
+	is_illness = yes
+
+	opposites =  {
+		pneumonic
+	}
+
+	martial = -1
+	health = -2
+	fertility = -0.1
+
+	combat_rating = -10 #old value: -1
+
+	customizer = no
+}
 
 infection = {
 	is_health = yes
@@ -1098,144 +1133,152 @@ infection = {
 	succession_gfx = yes
 }
 
-ill = {
+cancer = {
 	is_health = yes
 	is_illness = yes
 
-	opposites =  {
-		pneumonic
-	}
+	fertility_penalty = -0.20
+	health_penalty = -3
 
-	martial = -1
-	health = -2
-	fertility = -0.1
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_WITHERING
+	female_insult_adj = INSULT_WITHERING
+	child_insult_adj = INSULT_WITHERING
+}
+dancing_plague = {
+	is_epidemic = yes
+	is_illness = yes
+
+	health_penalty = -2
+	diplomacy_penalty = -1
+	intrigue_penalty = -1
+	martial_penalty = -1
+	stewardship_penalty = -1
+	learning_penalty = -1
+	fertility = 0.25
+
+	customizer = no
+
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+
+	succession_gfx = yes
+}
+dysentery = {
+	is_health = yes
+	is_illness = yes
+
+	sex_appeal_opinion = -15
+
+	intrigue_penalty = -3
+	martial_penalty = -3
+
+	fertility_penalty = -0.25
+
+	health_penalty = -4
+
+	combat_rating = -20 #old value: -2
+
+	customizer = no
+
+	male_insult_adj = INSULT_PUTRID
+	female_insult_adj = INSULT_PUTRID
+	child_insult_adj = INSULT_PUTRID
+}
+flu = {
+	is_health = yes
+	is_illness = yes
+
+	sex_appeal_opinion = -10
+
+	diplomacy_penalty = -1
+	intrigue_penalty = -1
+	martial_penalty = -1
+	stewardship_penalty = -1
+	learning_penalty = -1
+	health_penalty = -2
 
 	combat_rating = -10 #old value: -1
 
 	customizer = no
+
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
 }
-pneumonic = {
+food_poisoning = {
 	is_health = yes
 	is_illness = yes
-
-	opposites =  {
-		ill
-	}
-
-	diplomacy_penalty = -2
-	stewardship_penalty = -2
-	martial_penalty = -2
-	intrigue_penalty = -2
-	learning_penalty = -2
-	health_penalty = -4
-	fertility_penalty = -0.5
-
-	combat_rating = -35 #old value: -3
-
-	customizer = no
-}
-syphilitic = {
-	is_health = yes
-	is_illness = yes
-	inherit_chance = 10
-
-	sex_appeal_opinion = -10
-	general_opinion = -5
-
-	diplomacy_penalty = -1
-	stewardship_penalty = -1
-	martial_penalty = -1
-	intrigue_penalty = -1
-	learning_penalty = -1
-
-	health_penalty = -2
-	fertility_penalty = -0.2
-
-	male_insult_adj = INSULT_SYPHILITIC
-	female_insult_adj = INSULT_SYPHILITIC
-	child_insult_adj = INSULT_UGLY
-}
-leper = {
-	is_health = yes
-	is_illness = yes
-
-	health_penalty = -1.5
 
 	sex_appeal_opinion = -15
 
-	general_opinion = -20
-
-	fertility_penalty = -0.95
-
-	combat_rating = -25 #old value: -2
-
-	male_insult = INSULT_LEPER
-	female_insult = INSULT_LEPER
-	male_insult_adj = INSULT_UNCLEAN
-	female_insult_adj = INSULT_UNCLEAN
-	child_insult_adj = INSULT_UGLY
-}
-has_tuberculosis = {
-	is_epidemic = yes
-	is_illness = yes
-
 	diplomacy_penalty = -2
 	intrigue_penalty = -2
-	stewardship_penalty = -1
-	health_penalty = -2
-
-	combat_rating = -25 #old value: -2
-
-	customizer = no
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-
-	succession_gfx = yes
-}
-has_typhoid_fever = {
-	is_epidemic = yes
-	is_illness = yes
-
 	martial_penalty = -2
-	intrigue_penalty = -1
-	learning_penalty = -1
-
-	health_penalty = -3
-
-	combat_rating = -40 #old value: -4
-
-	fertility_penalty = -0.10
-
-	customizer = no
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-
-	succession_gfx = yes
-}
-has_typhus = {
-	is_epidemic = yes
-	is_illness = yes
-
-	diplomacy_penalty = -1
-	intrigue_penalty = -1
 	stewardship_penalty = -2
 	learning_penalty = -2
 
-	health_penalty = -4
+	fertility_penalty = -0.5
 
-	fertility_penalty = -0.20
+	health_penalty = -3
 
-	combat_rating = -40 #old value: -4
+	combat_rating = -10 #old value: -1
 
 	customizer = no
 
-	child_insult_adj = INSULT_SMELLY
-	male_insult_adj = INSULT_SMELLY
-	female_insult_adj = INSULT_SMELLY
+	male_insult_adj = INSULT_PUTRID
+	female_insult_adj = INSULT_PUTRID
+	child_insult_adj = INSULT_PUTRID
+}
+gout = {
+	is_health = yes
+	is_illness = yes
 
-	succession_gfx = yes
+	stewardship_penalty = -2
+	martial_penalty = -1
+
+	health_penalty = -2
+
+	combat_rating = -20 #old value: -2
+
+	customizer = no
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_LIMPING
+	female_insult_adj = INSULT_LIMPING
+	child_insult_adj = INSULT_LIMPING
+}
+has_aztec_disease = {
+	is_epidemic = yes
+	is_illness = yes
+
+	sex_appeal_opinion = -10
+
+	general_opinion = -5
+
+	diplomacy_penalty = -3
+	stewardship_penalty = -2
+	martial_penalty = -2
+	intrigue_penalty = -3
+	learning_penalty = -2
+
+	health_penalty = -4
+	fertility_penalty = -0.2
+
+	combat_rating = -30 #old value: -3
+
+	customizer = no
+
+	male_insult_adj = INSULT_POX_RIDDEN
+	female_insult_adj = INSULT_POX_RIDDEN
+	child_insult_adj = INSULT_POX_RIDDEN
 }
 has_bubonic_plague = {
 	is_epidemic = yes
@@ -1304,97 +1347,108 @@ has_small_pox = {
 
 	succession_gfx = yes
 }
-
-flu = {
-	is_health = yes
+has_tuberculosis = {
+	is_epidemic = yes
 	is_illness = yes
-
-	sex_appeal_opinion = -10
-
-	diplomacy_penalty = -1
-	intrigue_penalty = -1
-	martial_penalty = -1
-	stewardship_penalty = -1
-	learning_penalty = -1
-	health_penalty = -2
-
-	combat_rating = -10 #old value: -1
-
-	customizer = no
-
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-}
-
-dysentery = {
-	is_health = yes
-	is_illness = yes
-
-	sex_appeal_opinion = -15
-
-	intrigue_penalty = -3
-	martial_penalty = -3
-
-	fertility_penalty = -0.25
-
-	health_penalty = -4
-
-	combat_rating = -20 #old value: -2
-
-	customizer = no
-
-	male_insult_adj = INSULT_PUTRID
-	female_insult_adj = INSULT_PUTRID
-	child_insult_adj = INSULT_PUTRID
-}
-
-gout = {
-	is_health = yes
-	is_illness = yes
-
-	stewardship_penalty = -2
-	martial_penalty = -1
-
-	health_penalty = -2
-
-	combat_rating = -20 #old value: -2
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_LIMPING
-	female_insult_adj = INSULT_LIMPING
-	child_insult_adj = INSULT_LIMPING
-}
-
-food_poisoning = {
-	is_health = yes
-	is_illness = yes
-
-	sex_appeal_opinion = -15
 
 	diplomacy_penalty = -2
 	intrigue_penalty = -2
-	martial_penalty = -2
-	stewardship_penalty = -2
-	learning_penalty = -2
+	stewardship_penalty = -1
+	health_penalty = -2
 
-	fertility_penalty = -0.5
+	combat_rating = -25 #old value: -2
+
+	customizer = no
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+
+	succession_gfx = yes
+}
+has_typhoid_fever = {
+	is_epidemic = yes
+	is_illness = yes
+
+	martial_penalty = -2
+	intrigue_penalty = -1
+	learning_penalty = -1
 
 	health_penalty = -3
 
-	combat_rating = -10 #old value: -1
+	combat_rating = -40 #old value: -4
+
+	fertility_penalty = -0.10
+
+	customizer = no
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+
+	succession_gfx = yes
+}
+has_typhus = {
+	is_epidemic = yes
+	is_illness = yes
+
+	diplomacy_penalty = -1
+	intrigue_penalty = -1
+	stewardship_penalty = -2
+	learning_penalty = -2
+
+	health_penalty = -4
+
+	fertility_penalty = -0.20
+
+	combat_rating = -40 #old value: -4
 
 	customizer = no
 
-	male_insult_adj = INSULT_PUTRID
-	female_insult_adj = INSULT_PUTRID
-	child_insult_adj = INSULT_PUTRID
-}
+	child_insult_adj = INSULT_SMELLY
+	male_insult_adj = INSULT_SMELLY
+	female_insult_adj = INSULT_SMELLY
 
+	succession_gfx = yes
+}
+leper = {
+	is_health = yes
+	is_illness = yes
+
+	health_penalty = -1.5
+
+	sex_appeal_opinion = -15
+
+	general_opinion = -20
+
+	fertility_penalty = -0.95
+
+	combat_rating = -25 #old value: -2
+
+	male_insult = INSULT_LEPER
+	female_insult = INSULT_LEPER
+	male_insult_adj = INSULT_UNCLEAN
+	female_insult_adj = INSULT_UNCLEAN
+	child_insult_adj = INSULT_UGLY
+}
+pneumonic = {
+	is_health = yes
+	is_illness = yes
+
+	opposites =  {
+		ill
+	}
+
+	diplomacy_penalty = -2
+	stewardship_penalty = -2
+	martial_penalty = -2
+	intrigue_penalty = -2
+	learning_penalty = -2
+	health_penalty = -4
+	fertility_penalty = -0.5
+
+	combat_rating = -35 #old value: -3
+
+	customizer = no
+}
 rabies = {
 	is_health = yes
 	is_illness = yes
@@ -1422,71 +1476,6 @@ rabies = {
 	female_insult_adj = INSULT_RABID
 	child_insult_adj = INSULT_RABID
 }
-
-cancer = {
-	is_health = yes
-	is_illness = yes
-
-	fertility_penalty = -0.20
-	health_penalty = -3
-
-	customizer = no
-
-	male_insult = INSULT_INVALID
-	female_insult = INSULT_INVALID
-	child_insult = INSULT_INVALID
-	male_insult_adj = INSULT_WITHERING
-	female_insult_adj = INSULT_WITHERING
-	child_insult_adj = INSULT_WITHERING
-}
-
-has_aztec_disease = {
-	is_epidemic = yes
-	is_illness = yes
-
-	sex_appeal_opinion = -10
-
-	general_opinion = -5
-
-	diplomacy_penalty = -3
-	stewardship_penalty = -2
-	martial_penalty = -2
-	intrigue_penalty = -3
-	learning_penalty = -2
-
-	health_penalty = -4
-	fertility_penalty = -0.2
-
-	combat_rating = -30 #old value: -3
-
-	customizer = no
-
-	male_insult_adj = INSULT_POX_RIDDEN
-	female_insult_adj = INSULT_POX_RIDDEN
-	child_insult_adj = INSULT_POX_RIDDEN
-}
-
-dancing_plague = {
-	is_epidemic = yes
-	is_illness = yes
-
-	health_penalty = -2
-	diplomacy_penalty = -1
-	intrigue_penalty = -1
-	martial_penalty = -1
-	stewardship_penalty = -1
-	learning_penalty = -1
-	fertility = 0.25
-
-	customizer = no
-
-	male_insult_adj = INSULT_SICKLY
-	female_insult_adj = INSULT_SICKLY
-	child_insult_adj = INSULT_SICKLY
-
-	succession_gfx = yes
-}
-
 scurvy = {
 	is_health = yes
 	is_illness = yes
@@ -1504,4 +1493,25 @@ scurvy = {
 	male_insult_adj = INSULT_SICKLY
 	female_insult_adj = INSULT_SICKLY
 	child_insult_adj = INSULT_SICKLY
+}
+syphilitic = {
+	is_health = yes
+	is_illness = yes
+	inherit_chance = 10
+
+	sex_appeal_opinion = -10
+	general_opinion = -5
+
+	diplomacy_penalty = -1
+	stewardship_penalty = -1
+	martial_penalty = -1
+	intrigue_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -2
+	fertility_penalty = -0.2
+
+	male_insult_adj = INSULT_SYPHILITIC
+	female_insult_adj = INSULT_SYPHILITIC
+	child_insult_adj = INSULT_UGLY
 }
