@@ -2097,7 +2097,7 @@ ukkos_shield = {
 	male_compliment_adj = COMPL_RIGHTEOUS
 	female_compliment_adj = COMPL_RIGHTEOUS
 }
-valhalla_bound  = {
+valhalla_bound = {
 	opposites = {
 		crusader
 		mujahid
@@ -2537,6 +2537,7 @@ bloodthirsty_gods_3 = { #100 burned_hearts_points
 	ruler_designer_cost = 40
 }
 
+# Used with Autonomous Leadership
 pagan_branch_1 = {
 	opposites = {
 		pagan_branch_2
@@ -2916,6 +2917,26 @@ crowned_by_pope_rd = {
 
 	customizer = yes
 	random = no
+}
+
+# Requires Training Academy upgrade for Grand Amphitheater great work
+gladiator = {
+	attribute = martial
+	education = no
+	
+	martial = 5
+	intrigue = 2
+	stewardship = -2
+	learning = -4
+	
+	combat_rating = 15 
+	
+	health = 1.0
+
+	same_opinion = 15
+	general_opinion = -5
+
+	leadership_traits = 1
 }
 
 # Tiered kinslaying traits

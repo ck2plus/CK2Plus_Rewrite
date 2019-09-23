@@ -926,6 +926,20 @@ dead_crown_aztec_fylkir = {
 #freckles
 #freckles_4
 #freckles_5
+freckles_3 = { #Inherited via script - Very Thin
+	random = no
+	hidden = yes
+	opposites = {
+		freckles
+		freckles_2
+		freckles_4
+		freckles_5
+	}
+
+	customizer = no
+	male_insult_adj = INSULT_CURSED
+	female_insult_adj = INSULT_CURSED
+}
 freckles_2 = { #Inherited via script - Thin
 	random = no
 	hidden = yes
@@ -935,20 +949,6 @@ freckles_2 = { #Inherited via script - Thin
 		freckles_4
 		freckles_5
 	}
-	customizer = no
-	male_insult_adj = INSULT_CURSED
-	female_insult_adj = INSULT_CURSED
-}
-freckles_3 = { #Inherited via script - Very Thin
-	random = no
-	hidden = yes
-	opposites = {
-		freckles_2
-		freckles
-		freckles_4
-		freckles_5
-	}
-
 	customizer = no
 	male_insult_adj = INSULT_CURSED
 	female_insult_adj = INSULT_CURSED
@@ -971,9 +971,9 @@ freckles_4 = { #Inherited via script - Thick
 	random = no
 	hidden = yes
 	opposites = {
+		freckles
 		freckles_2
 		freckles_3
-		freckles
 		freckles_5
 	}
 
@@ -985,10 +985,10 @@ freckles_5 = { #Inherited via script - Very Thick
 	random = no
 	hidden = yes
 	opposites = {
+		freckles
 		freckles_2
 		freckles_3
 		freckles_4
-		freckles
 	}
 
 	customizer = no
