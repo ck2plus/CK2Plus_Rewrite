@@ -99,6 +99,25 @@ pagan_group = {
 		intermarry = slavic_pagan
 		intermarry = slavic_pagan_reformed
 	}
+}
+
+#egyptian_pagan - aten_pagan
+egyptian_pagan_group = {
+	alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+	
+	has_coa_on_barony_only = no
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+
+	interface_skin = { hellenic_interface }
+
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1 # try to convert if ai_zeal is high
+	ai_fabricate_claims = no
+
+	color = { 0.7 0.2 0.1 }
 	
 	egyptian_pagan = { # Kemetic
 		graphical_culture = persiangfx
@@ -109,13 +128,8 @@ pagan_group = {
 			}
 		}
 		
-		reformed = egyptian_pagan_reformed
-		
 		icon = 67
 		heresy_icon = 68
-		
-		ai_convert_other_group = 1
-		ai_convert_same_group = 0
 		
 		color = { 0.5 0.4 0 }
 		
@@ -173,3 +187,62 @@ pagan_group = {
 		intermarry = hellenic_pagan_group
 		intermarry = pagan_group
 	}
+	
+	aten_pagan = { # Atenism
+		graphical_culture = persiangfx
+		alternate_start = { 
+			AND = {
+				has_alternate_start_parameter = { key = religion value = full_random } 
+				has_alternate_start_parameter = { key = religion_names value = historical }
+			}
+		}
+
+		icon = 67
+		heresy_icon = 68
+
+		color = {0.9 0.8 0}
+		parent = egyptian_pagan
+
+		priest_title = PRIEST
+		crusade_name = GREAT_HOLY_WAR
+
+		high_god_name = GOD_ATEN
+
+		god_names = {
+			GOD_ATEN
+		}
+
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		matrilineal_marriages = yes
+		unit_modifier = {
+			garrison_size = 0.2
+			levy_size = 0.2
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.3
+			light_infantry_defensive = 0.3
+			heavy_infantry_defensive = 0.3
+			pikemen_defensive = 0.3
+			light_cavalry_defensive = 0.3
+			knights_defensive = 0.3
+			archers_defensive = 0.3
+			horse_archers_defensive = 0.3
+			camel_cavalry_defensive = 0.3
+			war_elephants_defensive = 0.3
+			garrison_size = 0.4
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+
+		intermarry = egyptian_pagan
+		intermarry = muslim
+		intermarry = zoroastrian_group
+		intermarry = hellenic_pagan_group
+		intermarry = pagan_group
+	}
+}
