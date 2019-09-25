@@ -28,7 +28,7 @@ baby_toddler = {	# this one actually applies modifiers, always active
 }
 
 bastard = {
-	diplomacy = -1
+	diplomacy = -2
 	same_opinion = 5
 
 	opposites =  {
@@ -42,6 +42,7 @@ bastard = {
 }
 legit_bastard = {
 	diplomacy = -1
+	opposite_opinion = 5
 
 	opposites =  {
 		bastard
@@ -52,13 +53,9 @@ legit_bastard = {
 }
 child_of_consort = {
 	diplomacy = -1
-
-	customizer = no
 }
 child_of_consort_male = {
 	diplomacy = -1
-
-	customizer = no
 }
 
 homosexual = {
@@ -109,6 +106,7 @@ pregnant = {
 	combat_rating = -20 #old value: -2
 
 	spouse_opinion = 15
+	same_opinion = 5
 
 	customizer = no
 }
@@ -116,7 +114,8 @@ hard_pregnancy = {
 	#in_hiding = yes # Will need a regent
 	is_health = yes
 	# Highly event driven
-	opposites = { troubled_pregnancy
+	opposites = {
+		troubled_pregnancy
 	}
 
 	combat_rating = -50
@@ -124,14 +123,15 @@ hard_pregnancy = {
 
 	customizer = no
 
-
 	ai_rationality = -5
 }
 troubled_pregnancy = {
 	incapacitating = yes # Will need a regent
 	is_health = yes
 	# Highly event driven
-	opposites = { hard_pregnancy }
+	opposites = {
+		hard_pregnancy
+	}
 
 	combat_rating = -100
 	spouse_opinion = 15
@@ -147,7 +147,7 @@ pregnancy_finishing = {
 }
 
 twin = {
-	twin_opinion = 15
+	twin_opinion = 20
 
 	customizer = no
 }
@@ -156,64 +156,6 @@ twin = {
 # EDUCATION
 ###########
 
-# INTRIGUE OUTCOMES
-amateurish_plotter = {
-	attribute = intrigue
-	education = yes
-
-	intrigue = 1
-	stewardship = -1
-	combat_rating = 4 #new value!
-
-	male_insult_adj = INSULT_SCHEMING
-	female_insult_adj = INSULT_SCHEMING
-	child_insult_adj = INSULT_STUPID
-}
-flamboyant_schemer = {
-	attribute = intrigue
-	education = yes
-
-	intrigue = 3
-	stewardship = -1
-	combat_rating = 8 #new value!
-
-	male_insult_adj = INSULT_SCHEMING
-	female_insult_adj = INSULT_SCHEMING
-	child_insult_adj = INSULT_STUPID
-}
-intricate_webweaver = {
-	attribute = intrigue
-	education = yes
-
-	intrigue = 6
-	martial = 1
-	diplomacy = 1
-	stewardship = -1
-	combat_rating = 12 #new value!
-
-	male_compliment_adj = COMPL_CLEVER
-	female_compliment_adj = COMPL_CLEVER
-	male_insult_adj = INSULT_SCHEMING
-	female_insult_adj = INSULT_SCHEMING
-	child_insult_adj = INSULT_STUPID
-}
-elusive_shadow = {
-	attribute = intrigue
-	education = yes
-
-	intrigue = 9
-	martial = 2
-	diplomacy = 2
-	stewardship = -1
-	combat_rating = 16 #new value!
-
-	male_compliment_adj = COMPL_CLEVER
-	female_compliment_adj = COMPL_CLEVER
-	male_insult_adj = INSULT_SCHEMING
-	female_insult_adj = INSULT_SCHEMING
-	child_insult_adj = INSULT_STUPID
-}
-
 # DIPLOMACY OUTCOMES
 naive_appeaser = {
 	attribute = diplomacy
@@ -221,6 +163,11 @@ naive_appeaser = {
 
 	diplomacy = 1
 	martial = -1
+
+	threat_decay_speed = 0.01
+
+	ai_zeal = -5
+	ai_honor = 5
 
 	male_insult_adj = INSULT_TWOFACED
 	female_insult_adj = INSULT_TWOFACED
@@ -231,8 +178,14 @@ underhanded_rogue = {
 	education = yes
 
 	diplomacy = 3
+	intrigue = 1
+	learning = 1
 	martial = -1
-	fertility = 0.05
+
+	threat_decay_speed = 0.02
+
+	ai_zeal = -10
+	ai_honor = 10
 
 	male_insult_adj = INSULT_TWOFACED
 	female_insult_adj = INSULT_TWOFACED
@@ -243,11 +196,14 @@ charismatic_negotiator = {
 	education = yes
 
 	diplomacy = 6
-	intrigue = 1
-	learning = 1
+	intrigue = 2
+	learning = 2
 	martial = -1
-	fertility = 0.05
 
+	threat_decay_speed = 0.03
+
+	ai_zeal = -15
+	ai_honor = 15
 
 	male_compliment_adj = COMPL_ELOQUENT
 	female_compliment_adj = COMPL_ELOQUENT
@@ -261,75 +217,20 @@ grey_eminence = {
 	education = yes
 
 	diplomacy = 9
-	intrigue = 2
-	learning = 2
+	intrigue = 3
+	learning = 3
 	martial = -1
-	fertility = 0.1
+
+	threat_decay_speed = 0.04
+
+	ai_zeal = -20
+	ai_honor = 20
 
 	male_compliment_adj = COMPL_ELOQUENT
 	female_compliment_adj = COMPL_ELOQUENT
 	child_compliment_adj = COMPL_NICE
 	male_insult_adj = INSULT_TWOFACED
 	female_insult_adj = INSULT_TWOFACED
-	child_insult_adj = INSULT_STUPID
-}
-
-# STEWARDSHIP OUTCOMES
-indulgent_wastrel = {
-	attribute = stewardship
-	education = yes
-
-	stewardship = 1
-	diplomacy = -1
-
-	male_insult_adj = INSULT_MISERLY
-	female_insult_adj = INSULT_MISERLY
-	child_insult_adj = INSULT_STUPID
-}
-thrifty_clerk = {
-	attribute = stewardship
-	education = yes
-
-	stewardship = 3
-	diplomacy = -1
-	fertility = 0.05
-
-	male_insult_adj = INSULT_MISERLY
-	female_insult_adj = INSULT_MISERLY
-	child_insult_adj = INSULT_STUPID
-}
-fortune_builder = {
-	attribute = stewardship
-	education = yes
-
-	stewardship = 6
-	martial = 1
-	learning = 1
-	diplomacy = -1
-	fertility = 0.1
-
-	male_compliment_adj = COMPL_THRIFTY
-	female_compliment_adj = COMPL_THRIFTY
-	child_compliment_adj = COMPL_CLEVER
-	male_insult_adj = INSULT_MISERLY
-	female_insult_adj = INSULT_MISERLY
-	child_insult_adj = INSULT_STUPID
-}
-midas_touched = {
-	attribute = stewardship
-	education = yes
-
-	stewardship = 9
-	martial = 2
-	learning = 2
-	diplomacy = -1
-	fertility = 0.15
-
-	male_compliment_adj = COMPL_THRIFTY
-	female_compliment_adj = COMPL_THRIFTY
-	child_compliment_adj = COMPL_CLEVER
-	male_insult_adj = INSULT_MISERLY
-	female_insult_adj = INSULT_MISERLY
 	child_insult_adj = INSULT_STUPID
 }
 
@@ -344,38 +245,49 @@ misguided_warrior = {
 	combat_rating = 5 #old value: 1
 
 	health = 0.5
+
+	ai_greed = -5
+	ai_ambition = 5
 }
 tough_soldier = {
 	attribute = martial
 	education = yes
 
 	martial = 3
+	stewardship = 1
+	intrigue = 1
 	learning = -1
 
 	combat_rating = 10 #old value: 1
 
 	health = 0.5
+
+	ai_greed = -10
+	ai_ambition = 10
 }
 skilled_tactician = {
 	attribute = martial
 	education = yes
 
 	martial = 6
-	intrigue = 1
-	stewardship = 1
+	intrigue = 2
+	stewardship = 2
 	learning = -1
 
 	combat_rating = 15 #old value: 1
 
 	health = 0.5
+
+	ai_greed = -15
+	ai_ambition = 15
 }
 brilliant_strategist = {
 	attribute = martial
 	education = yes
 
 	martial = 9
-	intrigue = 2
-	stewardship = 2
+	intrigue = 3
+	stewardship = 3
 	learning = -1
 
 	combat_rating = 20 #old value: 1
@@ -383,6 +295,187 @@ brilliant_strategist = {
 	health = 0.5
 
 	leadership_traits = 1
+
+	ai_greed = -20
+	ai_ambition = 20
+}
+
+# STEWARDSHIP OUTCOMES
+indulgent_wastrel = {
+	attribute = stewardship
+	education = yes
+
+	stewardship = 1
+	diplomacy = -1
+
+	local_tax_modifier = 0.01
+
+	ai_rationality = 5
+	ai_zeal = -5
+	ai_greed = 5
+	ai_ambition = -5
+
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID
+}
+thrifty_clerk = {
+	attribute = stewardship
+	education = yes
+
+	stewardship = 3
+	martial = 1
+	learning = 1
+	diplomacy = -1
+
+	local_tax_modifier = 0.02
+
+	ai_rationality = 10
+	ai_zeal = -10
+	ai_greed = 10
+	ai_ambition = -10
+
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID
+}
+fortune_builder = {
+	attribute = stewardship
+	education = yes
+
+	stewardship = 6
+	martial = 2
+	learning = 2
+	diplomacy = -1
+
+	local_tax_modifier = 0.03
+
+	ai_rationality = 15
+	ai_zeal = -15
+	ai_greed = 15
+	ai_ambition = -15
+
+	male_compliment_adj = COMPL_THRIFTY
+	female_compliment_adj = COMPL_THRIFTY
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID
+}
+midas_touched = {
+	attribute = stewardship
+	education = yes
+
+	stewardship = 9
+	martial = 3
+	learning = 3
+	diplomacy = -1
+
+	local_tax_modifier = 0.04
+
+	ai_rationality = 20
+	ai_zeal = -20
+	ai_greed = 20
+	ai_ambition = -20
+
+	male_compliment_adj = COMPL_THRIFTY
+	female_compliment_adj = COMPL_THRIFTY
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID
+}
+
+# INTRIGUE OUTCOMES
+amateurish_plotter = {
+	attribute = intrigue
+	education = yes
+
+	intrigue = 1
+	stewardship = -1
+
+	combat_rating = 4 #new value!
+
+	plot_power_modifier = 0.01
+
+	ai_rationality = -5
+	ai_greed = 5
+	ai_honor = -5
+	ai_ambition = 5
+
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
+}
+flamboyant_schemer = {
+	attribute = intrigue
+	education = yes
+
+	intrigue = 3
+	martial = 1
+	diplomacy = 1
+	stewardship = -1
+
+	combat_rating = 8 #new value!
+
+	plot_power_modifier = 0.02
+
+	ai_rationality = -10
+	ai_greed = 10
+	ai_honor = -10
+	ai_ambition = 10
+
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
+}
+intricate_webweaver = {
+	attribute = intrigue
+	education = yes
+
+	intrigue = 6
+	martial = 2
+	diplomacy = 2
+	stewardship = -1
+
+	combat_rating = 12 #new value!
+
+	plot_power_modifier = 0.03
+
+	ai_rationality = -15
+	ai_greed = 15
+	ai_honor = -15
+	ai_ambition = 15
+
+	male_compliment_adj = COMPL_CLEVER
+	female_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
+}
+elusive_shadow = {
+	attribute = intrigue
+	education = yes
+
+	intrigue = 9
+	martial = 3
+	diplomacy = 3
+	stewardship = -1
+
+	combat_rating = 16 #new value!
+
+	plot_power_modifier = 0.04
+
+	ai_rationality = -20
+	ai_greed = 20
+	ai_honor = -20
+	ai_ambition = 20
+
+	male_compliment_adj = COMPL_CLEVER
+	female_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
 }
 
 # ECCLESIASTICAL OUTCOMES
@@ -393,6 +486,12 @@ detached_priest = {
 	learning = 1
 	intrigue = -1
 
+	monthly_character_piety = 0.01
+
+	ai_rationality = 5
+	ai_zeal = 5
+	ai_honor = 5
+
 	male_insult_adj = INSULT_DRIVELING
 	female_insult_adj = INSULT_DRIVELING
 	child_insult_adj = INSULT_STUPID
@@ -402,9 +501,15 @@ martial_cleric = {
 	education = yes
 
 	learning = 3
+	diplomacy = 1
+	stewardship = 1
 	intrigue = -1
 
+	monthly_character_piety = 0.02
+
+	ai_rationality = 10
 	ai_zeal = 10
+	ai_honor = 10
 
 	male_insult_adj = INSULT_DRIVELING
 	female_insult_adj = INSULT_DRIVELING
@@ -415,14 +520,15 @@ scholarly_theologian = {
 	education = yes
 
 	learning = 6
-	diplomacy = 1
-	stewardship = 1
+	diplomacy = 2
+	stewardship = 2
 	intrigue = -1
 
-	fertility = -0.05
+	monthly_character_piety = 0.03
 
-	ai_zeal = 20
-
+	ai_rationality = 15
+	ai_zeal = 15
+	ai_honor = 15
 
 	male_compliment_adj = COMPL_LEARNED
 	female_compliment_adj = COMPL_LEARNED
@@ -436,13 +542,15 @@ mastermind_theologian = {
 	education = yes
 
 	learning = 9
-	diplomacy = 2
-	stewardship = 2
+	diplomacy = 3
+	stewardship = 3
 	intrigue = -1
 
-	fertility = -0.05
+	monthly_character_piety = 0.04
 
-	ai_zeal = 30
+	ai_rationality = 20
+	ai_zeal = 20
+	ai_honor = 20
 
 	male_compliment_adj = COMPL_LEARNED
 	female_compliment_adj = COMPL_LEARNED
@@ -460,13 +568,13 @@ mastermind_theologian = {
 administrator = {
 	lifestyle = yes
 
+	diplomacy = 1
 	stewardship = 3
+	intrigue = -1
 
-	command_modifier = {
-		speed = 0.1
-	}
+	same_opinion = 5
 
-	ruler_designer_cost = 10
+	max_attrition = -0.01
 }
 architect = {
 	lifestyle = yes
@@ -474,15 +582,15 @@ architect = {
 	same_opinion = 10
 
 	stewardship = 2
-	martial = 1
-	wonder_build_cost_modifier = -0.03
+	learning = 1
+	wonder_build_cost_modifier = -0.05
 	wonder_build_time_modifier = -0.05
+	build_cost_modifier = -0.05
+	build_time_modifier = -0.05
 
 	command_modifier = {
 		siege = 0.2
 	}
-
-	ruler_designer_cost = 10
 
 	male_compliment = COMPL_ARCHITECT
 	female_compliment = COMPL_ARCHITECT
@@ -490,12 +598,13 @@ architect = {
 duelist = {
 	lifestyle = yes
 
-	martial = 3
-	combat_rating = 30 #old value: 5
+	martial = 1
+	combat_rating = 50
+	monthly_character_prestige = 0.05
 
 	same_opinion = 10
 
-	ruler_designer_cost = 10
+	ai_honor = 10
 
 	male_compliment = COMPL_BLADEMASTER
 	female_compliment = COMPL_CHAMPION
@@ -503,26 +612,30 @@ duelist = {
 gamer = {
 	lifestyle = yes
 
-	diplomacy = 2
+	diplomacy = 1
 	martial = 1
+	intrigue = 1
 
 	command_modifier = {
-		narrow_flank = 0.3
+		narrow_flank = 0.1
+		random = 0.2
 	}
 
 	same_opinion = 10
-
-	ruler_designer_cost = 10
 }
 gardener = {
 	lifestyle = yes
 
 	stewardship = 2
-	learning = 1
+	martial = -1
+	health = 0.5
+	days_of_supply = 5	# alternative max_attrition if this doesn't work NOTE
+
+	command_modifier = {
+		terrain = farmland
+	}
 
 	same_opinion = 10
-
-	ruler_designer_cost = 10
 
 	male_insult = INSULT_TREEHUGGER
 	female_insult = INSULT_TREEHUGGER
@@ -534,18 +647,17 @@ hedonist = {
 		celibate
 	}
 
-	diplomacy = 2
-	intrigue = 1
-
+	diplomacy = 1
+	health = 0.25
 	fertility = 0.2
+	monthly_character_piety = -0.05
 
-	opposite_opinion = -5
+	opposite_opinion = -10
 	same_opinion = 10
 
 	christian_church_opinion = -5
 
-	ai_zeal = -30
-	ruler_designer_cost = 10
+	ai_zeal = -20
 
 	male_insult = INSULT_DEBAUCHER
 	female_insult = INSULT_DEBAUCHER
@@ -561,18 +673,21 @@ hunter = {
 		NOT = { religion = jain }
 	}
 
-	martial = 2
 	diplomacy = 1
+	martial = 1
+	health = 0.25
 
-	combat_rating = 10 #new value!
+	combat_rating = 10
+
+	days_of_supply = 5	# alternative max_attrition if this doesn't work NOTE
 
 	command_modifier = {
 		pursue = 0.2
 	}
 
+	tribal_opinion = 10
 	same_opinion = 10
-
-	ruler_designer_cost = 10
+	jain_opinion = -10
 
 	male_compliment = COMPL_HUNTMASTER
 }
@@ -583,10 +698,14 @@ impaler = {
 		NOT = { religion = jain }
 	}
 
+	diplomacy = -1
+	martial = 1
 	intrigue = 2
-	learning = 1
+	monthly_character_piety = -0.1
 
 	same_opinion = 10
+	jain_opinion = -20
+	buddhist_opinion = -10
 
 	ai_honor = -15
 
@@ -594,28 +713,23 @@ impaler = {
 		morale_offence = 0.1
 	}
 
-	combat_rating = 10 #new value!
+	combat_rating = 10
 
 	male_insult = INSULT_TORTURER
 	female_insult = INSULT_TORTURER
 	male_insult_adj = INSULT_EVIL
 	female_insult_adj = INSULT_EVIL
 	child_insult_adj = INSULT_WICKED
-
-	ruler_designer_cost = 10
 }
 mystic = {
 	lifestyle = yes
 
 	learning = 2
-	stewardship = 1
 
 	same_opinion = 10
 
 	male_compliment = COMPL_MYSTIC
 	female_compliment = COMPL_MYSTIC
-
-	ruler_designer_cost = 10
 
 	child_compliment = COMPL_SMARTY
 	male_compliment_adj = COMPL_LEARNED
@@ -633,9 +747,11 @@ schemer = {
 
 	same_opinion = -5
 
+	stewardship = -1
 	intrigue = 3
+	plot_power_modifier = 0.1
 
-	ruler_designer_cost = 10
+	ai_honor = -10
 
 	male_insult = INSULT_INSTIGATOR
 	female_insult = INSULT_INSTIGATOR
@@ -654,11 +770,10 @@ scholar = {
 		NOT = { religion_group = muslim }
 	}
 
+	martial = -1
 	learning = 3
 
 	same_opinion = 10
-
-	ruler_designer_cost = 10
 
 	male_compliment = COMPL_SCHOLAR
 	female_compliment = COMPL_SCHOLAR
@@ -686,6 +801,8 @@ seducer = {
 
 	intrigue = 2
 	diplomacy = 1
+	learning = -1
+	fertility = 0.1
 
 	sex_appeal_opinion = 50
 
@@ -693,8 +810,6 @@ seducer = {
 	male_insult_adj = INSULT_WHORING
 	male_compliment = COMPL_SEDUCER
 	male_compliment_adj = COMPL_CHARMING
-
-	ruler_designer_cost = 12
 }
 seductress = {
 	lifestyle = yes
@@ -710,6 +825,8 @@ seductress = {
 
 	intrigue = 2
 	diplomacy = 1
+	learning = -1
+	fertility = 0.1
 
 	sex_appeal_opinion = 50
 
@@ -717,8 +834,6 @@ seductress = {
 	female_insult_adj = INSULT_DEBASED
 	female_compliment = COMPL_ENCHANTRESS
 	female_compliment_adj = COMPL_RAVISHING
-
-	ruler_designer_cost = 12
 }
 socializer = {
 	lifestyle = yes
@@ -727,8 +842,7 @@ socializer = {
 	sex_appeal_opinion = 10
 
 	diplomacy = 3
-
-	ruler_designer_cost = 12
+	learning = -1
 
 	male_insult = INSULT_BLABBERER
 	female_insult = INSULT_BLABBERER
@@ -745,18 +859,19 @@ strategist = {
 	stewardship = 1
 
 	command_modifier = {
-		defence = 0.2
+		damage = 0.1
+		defence = 0.1
 	}
 
-	ruler_designer_cost = 12
+	ai_rationality = 10
 }
 theologian = {
 	lifestyle = yes
 
 	learning = 2
-	intrigue = 1
 
-	ruler_designer_cost = 10
+	church_opinion = 5
+	same_opinion_if_same_religion = 10
 
 	male_insult = INSULT_BOOKWORM
 	female_insult = INSULT_BOOKWORM

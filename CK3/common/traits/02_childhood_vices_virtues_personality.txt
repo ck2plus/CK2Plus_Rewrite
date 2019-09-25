@@ -141,24 +141,21 @@ willful = {
 chaste = {
 	personality = yes
 
-	potential = {
-		NOT = { religion_group = muslim }
-	}
-
 	opposites =  {
 		lustful
 	}
 
 	virtue = yes
 
-	fertility = -0.15
+	fertility = -0.05
 
 	learning = 1
 
 	christian_church_opinion = 5
-	opposite_opinion = -5
+	opposite_opinion = -10
+	same_opinion = 5
 
-	monthly_character_piety = 0.5
+	monthly_character_piety = 0.1
 
 	ai_zeal = 10
 
@@ -184,11 +181,12 @@ lustful = {
 	intrigue = 1
 
 	christian_church_opinion = -5
+	opposite_opinion = -10
 
-	monthly_character_piety = -0.25
+	monthly_character_piety = -0.1
 
-	ai_greed = 20
 	ai_zeal = -10
+	ai_greed = 10
 
 	male_insult = INSULT_LECHER
 	male_insult_adj = INSULT_LECHEROUS
@@ -209,12 +207,17 @@ temperate = {
 	virtue = yes
 
 	church_opinion = 5
-	opposite_opinion = -5
+	opposite_opinion = -10
 	same_opinion = 5
 
-	stewardship = 2
+	martial = -1
+	stewardship = 1
+	intrigue = -1
+	learning = 1
 
-	ai_greed = -20
+	monthly_character_piety = 0.05
+
+	ai_greed = -10
 	ai_zeal = 10
 
 	male_insult = INSULT_BORE
@@ -231,14 +234,17 @@ gluttonous = {
 
 	vice = yes
 
-	sex_appeal_opinion = -15
+	sex_appeal_opinion = -10
 	church_opinion = -5
+	opposite_opinion = -10
 	same_opinion = 5
 
-	stewardship = -2
+	stewardship = -1
 
-	ai_greed = 20
+	monthly_character_piety = -0.05
+
 	ai_zeal = -10
+	ai_greed = 10
 
 	male_insult = INSULT_GLUTTON
 	male_insult_adj = INSULT_GORGING
@@ -255,18 +261,21 @@ charitable = {
 
 	virtue = yes
 
-	diplomacy = 3
+	diplomacy = 1
+	stewardship = -2
 
+	vassal_opinion = 5
 	church_opinion = 5
-	opposite_opinion = -5
+	opposite_opinion = -10
 	same_opinion = 5
-	combat_rating = -3 #new value!
 
+	combat_rating = -3
+
+	monthly_character_piety = 0.1
+
+	ai_greed = -25
 	ai_honor = 10
-	ai_ambition = -15
-	ai_greed = -100
-
-	ai_zeal = 10
+	ai_ambition = -10
 
 	male_compliment_adj = COMPL_GOOD
 	female_compliment_adj = COMPL_GOOD
@@ -279,12 +288,18 @@ greedy = {
 
 	vice = yes
 
-	global_tax_modifier = 0.1
 	diplomacy = -1
+	stewardship = 1
+	global_tax_modifier = 0.05
 
+	opposite_opinion = -10
+	vassal_opinion = -5
+
+	monthly_character_piety = -0.1
+
+	ai_greed = 25
 	ai_honor = -10
-	ai_ambition = 15
-	ai_greed = 100
+	ai_ambition = 10
 
 	male_insult_adj = INSULT_COVETOUS
 	female_insult_adj = INSULT_VENAL
@@ -298,18 +313,20 @@ diligent = {
 
 	virtue = yes
 
-	vassal_opinion = 5
-	opposite_opinion = -5
-	same_opinion = 5
-
 	diplomacy = 1
 	intrigue = 1
 	stewardship = 1
 	martial = 1
 	learning = 1
 
-	ai_greed = -10
+	vassal_opinion = 5
+	opposite_opinion = -5
+	same_opinion = 5
+
+	monthly_character_piety = 0.05
+
 	ai_zeal = 10
+	ai_ambition = 10
 
 	male_compliment_adj = COMPL_DILIGENT
 	female_compliment_adj = COMPL_DILIGENT
@@ -322,19 +339,24 @@ slothful = {
 
 	vice = yes
 
-	vassal_opinion = -5
-
 	diplomacy = -1
 	intrigue = -1
 	stewardship = -1
 	martial = -1
 	learning = -1
-	combat_rating = -5 #new value!
+
+	combat_rating = -5
+
+	vassal_opinion = -5
+	opposite_opinion = -5
+	same_opinion = 5
+
+	monthly_character_piety = -0.05
 
 	ai_ambition = -10
 
-	ai_greed = 10
 	ai_zeal = -10
+	ai_ambition = -10
 
 	male_insult = INSULT_IDLER
 	female_insult = INSULT_IDLER
@@ -351,17 +373,18 @@ patient = {
 	virtue = yes
 
 	diplomacy = 1
-	intrigue = 1
 	stewardship = 1
+	intrigue = 1
 	learning = 1
+
+	combat_rating = 5
+
+	same_opinion = 5
 	opposite_opinion = -5
-	combat_rating = 5 #new value!
+
+	monthly_character_piety = 0.05
 
 	ai_rationality = 10
-
-	command_modifier = {
-		defence = 0.2
-	}
 
 	male_insult = INSULT_SPIDER
 	female_insult = INSULT_SPIDER
@@ -376,9 +399,18 @@ wroth = {
 	vice = yes
 
 	diplomacy = -1
+	martial = 2
 	intrigue = -1
-	martial = 3
-	combat_rating = 3 #new value!
+
+	combat_rating = 3
+
+	opposite_opinion = -15
+
+	command_modifier = {
+		morale_offence = 0.1
+	}
+
+	monthly_character_piety = -0.05
 
 	ai_rationality = -10
 	ai_honor = -5
@@ -396,12 +428,20 @@ kind = {
 
 	virtue = yes
 
-	intrigue = -2
 	diplomacy = 2
-	combat_rating = -5 #new value!
+	martial = -1
+	intrigue = -1
+
+	combat_rating = -5
+
+	command_modifier = {
+		morale_offence = -0.1
+	}
+
+	monthly_character_piety = 0.1
 
 	vassal_opinion = 5
-	opposite_opinion = -5
+	opposite_opinion = -10
 	same_opinion = 5
 
 	ai_honor = 10
@@ -418,13 +458,20 @@ envious = {
 
 	vice = yes
 
-	intrigue = 2
 	diplomacy = -1
-	combat_rating = 3 #new value!
+	intrigue = 1
 
-	liege_opinion = -15
+	combat_rating = 3
 
+	liege_opinion = -10
+	opposite_opinion = -10
+	same_opinion = -10
+
+	monthly_character_piety = -0.1
+
+	ai_greed = 10
 	ai_honor = -10
+	ai_ambition = 10
 
 	male_insult_adj = INSULT_ENVIOUS
 	female_insult_adj = INSULT_ENVIOUS
@@ -437,11 +484,15 @@ humble = {
 
 	virtue = yes
 
-	monthly_character_piety = 1
+	learning = 1
+
+	monthly_character_prestige = -0.1
+	monthly_character_piety = 0.25
+
 	opposite_opinion = -5
 	same_opinion = 5
 
-	ai_ambition = -10
+	ai_ambition = -5
 
 	male_compliment_adj = COMPL_HUMBLE
 	female_compliment_adj = COMPL_HUMBLE
@@ -458,9 +509,13 @@ proud = {
 
 	vice = yes
 
-	monthly_character_prestige = 0.5
+	monthly_character_prestige = 0.25
+	monthly_character_piety = -0.1
 
-	ai_ambition = 10
+	opposite_opinion = -5
+
+	ai_honor = 5
+	ai_ambition = 5
 
 	male_compliment_adj = COMPL_PROUD
 	female_compliment_adj = COMPL_PROUD
@@ -481,13 +536,16 @@ ambitious = {
 	diplomacy = 2
 	martial = 2
 	learning = 2
-	combat_rating = 3 #new value!
 
-	same_opinion = -5
-	ambition_opinion = -25 # Against those they want something from
+	combat_rating = 3
 
-	ai_ambition = 40
+	same_opinion = -10
+	ambition_opinion = -30 # Against those they want something from
+	liege_opinion = -10
+
+	ai_rationality = -20
 	ai_zeal = 10
+	ai_ambition = 40
 
 	male_insult_adj = INSULT_RAPACIOUS
 	female_insult_adj = INSULT_GRASPING
@@ -499,15 +557,17 @@ arbitrary = {
 		just
 	}
 
+	diplomacy = -1
 	stewardship = -2
-	intrigue = 1
+	intrigue = 2
 	learning = -1
+
+	combat_rating = 3
 
 	vassal_opinion = -5
 
-	ai_rationality = -20
-	ai_honor = -10
-	ai_zeal = -10
+	ai_rationality = -10
+	ai_honor = -20
 
 	male_insult = INSULT_SCATTERBRAIN
 	female_insult = INSULT_SCATTERBRAIN
@@ -528,22 +588,46 @@ brave = {
 		craven
 	}
 
-	vassal_opinion = 5
-	opposite_opinion = -5
-	same_opinion = 5
-
 	martial = 2
-	combat_rating = 10 #old value: 1
+	intrigue = -1
+
+	combat_rating = 10
+
+	vassal_opinion = 5
+	opposite_opinion = -15
+	same_opinion = 5
 
 	command_modifier = {
 		morale_defence = 0.1
 	}
 
+	ai_rationality = -10
+	ai_zeal = 10
+	ai_honor = 10
+
 	male_compliment_adj = COMPL_BRAVE
 	female_compliment_adj = COMPL_BRAVE
 }
 cheerful = {
-	# NEW
+	personality = yes
+	opposites = {
+		serious
+		moody
+	}
+
+	diplomacy = 1
+	learning = -1
+
+	sex_appeal_opinion = 10
+	opposite_opinion = -5
+	same_opinion = 5
+	christian_church_opinion = -5
+
+	ai_rationality = -10
+
+	command_modifier = {
+		morale_offence = 0.05
+	}
 }
 content = {
 	personality = yes
@@ -551,14 +635,18 @@ content = {
 		ambitious
 	}
 
-	intrigue = -1
+	stewardship = 1
+	intrigue = -2
 
-	liege_opinion = 25
+	liege_opinion = 30
+	opposite_opinion = -5
+	same_opinion = 5
 
-	monthly_character_piety = 0.5
+	monthly_character_piety = 0.25
 
-	ai_ambition = -40
+	ai_rationality = 10
 	ai_zeal = -10
+	ai_ambition = -40
 
 	male_insult_adj = INSULT_SPINELESS
 	female_insult_adj = INSULT_SPINELESS
@@ -569,14 +657,22 @@ craven = {
 		brave
 	}
 
-	vassal_opinion = -5
-
 	martial = -2
-	combat_rating = -10 #old value: -1
+	intrigue = 1
+
+	vassal_opinion = -5
+	opposite_opinion = -15
+	same_opinion = 5
+
+	combat_rating = -10
 
 	command_modifier = {
-		morale_defence = -0.2
+		morale_defence = -0.1
 	}
+
+	ai_rationality = 10
+	ai_zeal = -10
+	ai_honor = -10
 
 	male_insult = INSULT_COWARD
 	male_insult_adj = INSULT_CRAVEN
@@ -589,17 +685,25 @@ cruel = {
 		kind
 	}
 
+	diplomacy = -2
+	martial = 1
 	intrigue = 1
-	diplomacy = -1
-	combat_rating = 3 #new value!
 
-	vassal_opinion = -5
-	ai_honor = -5
-	ai_greed = 5
+	combat_rating = 3
+
+	vassal_opinion = -10
+	opposite_opinion = -10
+	same_opinion = 5
+	jain_opinion = -20
+	buddhist_opinion = -10
 
 	command_modifier = {
 		morale_offence = 0.1
 	}
+
+	monthly_character_piety = -0.1
+
+	ai_honor = -10
 
 	male_insult = INSULT_BRUTE
 	female_insult = INSULT_FIEND
@@ -615,12 +719,13 @@ cynical = {
 	}
 
 	intrigue = 2
+	learning = 1
 
-	church_opinion = -5
-	opposite_opinion = -5
-	same_opinion = 5
+	church_opinion = -10
+	opposite_opinion = -20
+	same_opinion = 10
 
-	monthly_character_piety = -0.2
+	monthly_character_piety = -0.25
 
 	ai_rationality = 10
 	ai_zeal = -100
@@ -638,9 +743,10 @@ deceitful = {
 		honest
 	}
 
-	intrigue = 3
 	diplomacy = -2
-	combat_rating = 3 #new value!
+	intrigue = 2
+
+	combat_rating = 3
 
 	opposite_opinion = -5
 
@@ -654,9 +760,13 @@ erudite = {
 	personality = yes
 
 	learning = 2
-	combat_rating = -2 #new value!
+
+	combat_rating = -2
 
 	church_opinion = 5
+	same_opinion = 5
+
+	ai_rationality = 10
 
 	male_insult = INSULT_WINDBAG
 	female_insult = INSULT_WINDBAG
@@ -674,12 +784,12 @@ gregarious = {
 		shy
 	}
 
-	sex_appeal_opinion = 5
-	same_opinion = 5
-
-	vassal_opinion = 5
-
 	diplomacy = 2
+	stewardship = -1
+	learning = -1
+
+	sex_appeal_opinion = 10
+	same_opinion = 10
 
 	male_compliment = COMPL_WIT
 	male_compliment_adj = COMPL_AFFABLE
@@ -689,12 +799,14 @@ gregarious = {
 	child_compliment_adj = COMPL_HERO
 }
 groomed = {
-	sex_appeal_opinion = 15
-
+	personality = yes	# recategorized NOTE
 	opposites =  {
 		uncouth
 	}
 
+	diplomacy = 1
+
+	sex_appeal_opinion = 15
 	opposite_opinion = -5
 
 	female_compliment = COMPL_BEAUTY
@@ -709,9 +821,11 @@ honest = {
 		deceitful
 	}
 
-	intrigue = -2
-	diplomacy = 3
-	combat_rating = -2 #new value!
+	diplomacy = 1
+	intrigue = -1
+	learning = 1
+
+	combat_rating = -2
 
 	opposite_opinion = -5
 	same_opinion = 5
@@ -729,22 +843,35 @@ just = {
 	}
 
 	stewardship = 2
+	intrigue = -2
 	learning = 1
 
 	vassal_opinion = 5
 	opposite_opinion = -5
 	same_opinion = 5
 
-	ai_rationality = 20
-	ai_honor = 10
-	ai_zeal = 10
+	ai_honor = 20
 
 	male_compliment_adj = COMPL_JUST
 	female_compliment_adj = COMPL_JUST
 	child_compliment_adj = COMPL_NICE
 }
 moody = {
-	# NEW
+	personality = yes
+	opposites = {
+		cheerful
+	}
+
+	diplomacy = -1
+	intrigue = 1
+
+	sex_appeal_opinion = -5
+	opposite_opinion = -5
+	same_opinion = 5
+
+	ai_rationality = -10
+	ai_zeal = -10
+	ai_ambition = -10
 }
 paranoid = {
 	personality = yes
@@ -752,8 +879,12 @@ paranoid = {
 		trusting
 	}
 
-	intrigue = 2
 	diplomacy = -1
+	intrigue = 2
+
+	command_modifier = {
+		defence = 0.1
+	}
 
 	ai_honor = -10
 
@@ -762,7 +893,18 @@ paranoid = {
 	child_insult_adj = INSULT_GROUCHY
 }
 serious = {
-	# NEW
+	personality = yes
+	opposites = {
+		cheerful
+	}
+
+	stewardship = 1
+	learning = 1
+
+	opposite_opinion = -5
+	same_opinion = 5
+
+	ai_rationality = 25
 }
 shy = {
 	personality = yes
@@ -771,7 +913,12 @@ shy = {
 	}
 
 	diplomacy = -2
-	combat_rating = -2 #new value!
+	stewardship = 2
+	learning = 1
+
+	combat_rating = -2
+
+	same_opinion = 5
 
 	male_insult_adj = INSULT_TIMID
 	female_insult_adj = INSULT_COY
@@ -782,13 +929,14 @@ shy = {
 stubborn = {
 	personality = yes
 
-	stewardship = 1
 	diplomacy = -1
-	combat_rating = 3 #new value!
+
+	combat_rating = 3
 
 	vassal_opinion = -5
+
+	ai_rationality = -10
 	ai_ambition = 10
-	ai_zeal = 10
 
 	male_insult = INSULT_MULE
 	female_insult = INSULT_MULE
@@ -801,9 +949,10 @@ trusting = {
 		paranoid
 	}
 
-	intrigue = -2
 	diplomacy = 1
-	combat_rating = -2 #new value!
+	intrigue = -2
+
+	combat_rating = -2
 
 	ai_honor = 10
 
@@ -814,12 +963,13 @@ trusting = {
 	child_insult_adj = INSULT_STUPID
 }
 uncouth = {
-	sex_appeal_opinion = -10
-
 	opposites =  {
 		groomed
 	}
 
+	diplomacy = -1
+
+	sex_appeal_opinion = -10
 	opposite_opinion = -5
 
 	male_insult = INSULT_FILTHY
@@ -840,14 +990,15 @@ zealous = {
 		sympathy_indian
 	}
 
-	martial = 2
+	martial = 1
+	learning = -1
 
-	church_opinion = 5
-	infidel_opinion = -25
-	opposite_opinion = -5
-	same_opinion_if_same_religion = 15
+	church_opinion = 10
+	infidel_opinion = -20
+	opposite_opinion = -20
+	same_opinion_if_same_religion = 10
 
-	monthly_character_piety = 1
+	monthly_character_piety = 0.5
 
 	ai_rationality = -10
 	ai_zeal = 100

@@ -21,6 +21,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_cheerful"
+		texturefile = "gfx/traits/cheerful.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_clumsy"
 		texturefile = "gfx/traits/clumsy.tga"
 		noOfFrames = 1
