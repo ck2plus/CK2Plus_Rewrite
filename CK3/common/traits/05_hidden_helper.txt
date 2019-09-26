@@ -1161,38 +1161,6 @@ scarred_type_10 = {
 		scarred_type_9
 	}
 }
-scarred_mid = {
-	potential = {
-		has_dlc = "Holy Fury"
-	}
-	opposites = {
-		scarred
-		scarred_high
-	}
-	combat_rating = 5
-	same_opinion = 5
-	opposite_opinion = 5
-	sex_appeal_opinion = 5
-	tribal_opinion = 5
-	monthly_character_prestige = 0.15
-	random = no
-}
-scarred_high = {
-	potential = {
-		has_dlc = "Holy Fury"
-	}
-	opposites = {
-		scarred
-		scarred_mid
-	}
-	combat_rating = 10
-	same_opinion = 10
-	opposite_opinion = 5
-	sex_appeal_opinion = 10
-	tribal_opinion = 10
-	monthly_character_prestige = 0.2
-	random = no
-}
 
 baby_boy_fair = {
 	# just a helper to assign baby portraits

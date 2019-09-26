@@ -354,11 +354,12 @@ zun_leader = {
 ###########
 
 excommunicated = {
-	diplomacy = -5
-	same_religion_opinion = -15
+	diplomacy = -4
+
+	same_religion_opinion = -20
+	same_opinion_if_same_religion = 10
 
 	religious = yes
-	customizer = no
 
 	potential = {
 		NOT = { controls_religion = yes }
@@ -2678,10 +2679,11 @@ blessed_ancestor = {
 
 # Hard coded to be given correctly and affect inheritance laws in the ERE
 born_in_the_purple = {
-	customizer = no
-
 	vassal_opinion = 5
 	monthly_character_prestige = 0.5
+
+	random = no
+	customizer = no
 
 	male_compliment_adj = COMPL_PURPLE_BORN
 	female_compliment_adj = COMPL_PURPLE_BORN
@@ -2689,9 +2691,11 @@ born_in_the_purple = {
 
 cannibal_trait = {
 	martial = 3
-	general_opinion = -10
-	combat_rating = 10 #old value: 1
+	combat_rating = 10
 
+	monthly_character_piety = -0.1
+
+	general_opinion = -15
 	same_opinion = 25
 
 	ai_rationality = -20
@@ -2766,12 +2770,13 @@ celibate = {
 	fertility = -10.0
 
 	christian_church_opinion = 5
-	opposite_opinion = -5
-	same_opinion = 10
+	opposite_opinion = -10
+	same_opinion = 15
+	spouse_opinion = -10
 
-	monthly_character_piety = 1
+	monthly_character_piety = 0.25
 
-	ai_zeal = 30
+	ai_zeal = 10
 
 	male_compliment_adj = COMPL_VIRTUOUS
 	female_compliment_adj = COMPL_VIRTUOUS
@@ -2788,20 +2793,20 @@ falconer = {
 
 	diplomacy = 1
 
-	same_opinion = 10
+	health = 0.25
 
-	ruler_designer_cost = 4
+	same_opinion = 10
+	jain_opinion = -5
 }
 # Way of Life DLC: No longer a lifestyle trait
 poet = {
-	diplomacy = 1
+	diplomacy = 2
 
 	same_opinion = 10
+	sex_appeal_opinion = 10
 
 	male_compliment = COMPL_POET
 	female_compliment = COMPL_POET
-
-	ruler_designer_cost = 4
 }
 
 crowned_by_priest = {
@@ -2923,14 +2928,14 @@ crowned_by_pope_rd = {
 gladiator = {
 	attribute = martial
 	education = no
-	
+
 	martial = 5
 	intrigue = 2
 	stewardship = -2
 	learning = -4
-	
-	combat_rating = 15 
-	
+
+	combat_rating = 15
+
 	health = 1.0
 
 	same_opinion = 15
@@ -3108,8 +3113,49 @@ scarred = {
 		scarred_mid
 		scarred_high
 	}
-	opposite_opinion = 10
+
+	combat_rating = 2
 	monthly_character_prestige = 0.1
+
+	sex_appeal_opinion = 10
+	opposite_opinion = 5
+}
+scarred_mid = {
+	potential = {
+		has_dlc = "Holy Fury"
+	}
+	opposites = {
+		scarred
+		scarred_high
+	}
+
+	combat_rating = 5
+	monthly_character_prestige = 0.15
+
+	sex_appeal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = 5
+	tribal_opinion = 5
+
+	random = no
+}
+scarred_high = {
+	potential = {
+		has_dlc = "Holy Fury"
+	}
+	opposites = {
+		scarred
+		scarred_mid
+	}
+
+	combat_rating = 10
+	monthly_character_prestige = 0.2
+
+	same_opinion = 10
+	opposite_opinion = 5
+	tribal_opinion = 10
+
+	random = no
 }
 
 shieldmaiden  = {
