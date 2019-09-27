@@ -38,7 +38,6 @@ sicilian_greek;Siculo-Greek;Sicilien-Grec;Sizilian-Griech;;Siciliano-Griego;;;;;
 arberian;Albanian;Albaniais;Albanisch;;Albanés;;;;;;;;;x
 
 beja;Beja;Bedja;Bedscha;;Beja;;;;;;;;;x
-songhay;Songhai;Songhaï;Songhai;;Songhai;;;;;;;;;x
 
 east_germanic;East Germanic;Germanique oriental;Ostgermanisch;;Germánico oriental;;;;;;;;;x
 
@@ -66,7 +65,6 @@ thuringian;Thuringian;Thuringe;Thüringisch;;Turingio;;;;;;;;;x
 
 yugoslavian;Yugoslavian;Yougoslave;Jugoslawisch;;Yugoslavo;;;;;;;;;x
 
-maghrebi;Moorish;Moorish;Maurisch;;Moorish;;;;;;;;;x
 maghreb_arabic;Maghrebi;Maghrebi;Maghrebi;;Magrebí;;;;;;;;;x
 
 amazigh;Berber;Berber;Berber;;Berber;;;;;;;;;x
@@ -105,9 +103,10 @@ daylamite;Daylamite;Dailamite;Dailamitisch;;Dailamita;;;;;;;;;x
 luri;Luri;Louri;Lurisch;;Lorí;;;;;;;;;x
 
 russian;Russian;Russe;Russisch;;Ruso;;;;;;;;;x
+novgorodian;Novgorodian;Novgorodien;Novgorodisch;;Nóvgorodo;;;;;;;;;x
 
 # Overrides
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
 west_germanic;Mare Germanic;Mer-Germanique;Meergermanisch;;Oeste Germánica;;;;;;;;;x
 latin;Gallo-Roman;Gallo-romaine;Gallorömisch;;Galorromana;;;;;;;;;x
-novgorodian;Novgorodian;Novgorodien;Novgorodisch;;Nóvgorodo;;;;;;;;;x
+songhay;Songhai;Songhaï;Songhai;;Songhai;;;;;;;;;x
