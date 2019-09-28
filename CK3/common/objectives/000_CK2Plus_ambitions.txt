@@ -92,7 +92,6 @@ obj_adopt_a_lifestyle = {
 	}
 }
 
-# Starts at 2 to accomodate the vanilla obj
 obj_amass_wealth_2 = {
 	type = character
 	
