@@ -1,0 +1,409 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_obj_adopt_a_lifestyle"
+		texturefile = "gfx/CK2Plus_ambitions/obj_adopt_a_lifestyle.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_amass_wealth_2"
+		texturefile = "gfx/ambitions/obj_amass_wealth.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_amass_wealth_3"
+		texturefile = "gfx/ambitions/obj_amass_wealth.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_amass_wealth_4"
+		texturefile = "gfx/ambitions/obj_amass_wealth.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_be_legitimized"	
+		texturefile = "gfx/CK2Plus_ambitions/obj_be_legitimized.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_exalted_2"
+		texturefile = "gfx/ambitions/obj_become_exalted.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_exalted_3"
+		texturefile = "gfx/ambitions/obj_become_exalted.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_exalted_4"
+		texturefile = "gfx/ambitions/obj_become_exalted.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_independent"
+		texturefile = "gfx/CK2Plus_ambitions/obj_become_independent.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_rank_duke"
+		texturefile = "gfx/CK2Plus_ambitions/obj_become_rank_duke.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_rank_duke_multi"
+		texturefile = "gfx/CK2Plus_ambitions/obj_become_rank_duke_multi.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_rank_emperor"
+		texturefile = "gfx/CK2Plus_ambitions/obj_become_rank_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_saint"
+		texturefile = "gfx/CK2Plus_ambitions/obj_become_saint.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_befriend_liege"
+		texturefile = "gfx/CK2Plus_ambitions/obj_befriend_liege.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_befriend_top_liege"
+		texturefile = "gfx/CK2Plus_ambitions/obj_befriend_liege.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_befriend_relhead"
+		texturefile = "gfx/CK2Plus_ambitions/obj_befriend_relhead.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_break_out_of_prison"
+		texturefile = "gfx/CK2Plus_ambitions/obj_break_out_of_prison.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_change_province_culture"
+		texturefile = "gfx/CK2Plus_ambitions/obj_change_province_culture.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_change_province_religion"
+		texturefile = "gfx/CK2Plus_ambitions/obj_change_province_religion.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_cta_0"
+		texturefile = "gfx/CK2Plus_ambitions/obj_cta_0.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_cta_1"
+		texturefile = "gfx/CK2Plus_ambitions/obj_cta_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_cta_2"
+		texturefile = "gfx/CK2Plus_ambitions/obj_cta_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_cta_3"
+		texturefile = "gfx/CK2Plus_ambitions/obj_cta_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_druze_esoteric_learning"
+		texturefile = "gfx/CK2Plus_ambitions/obj_druze_esoteric_learning.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_find_lover"
+		texturefile = "gfx/CK2Plus_ambitions/obj_find_lover.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_gain_estates_1"
+		texturefile = "gfx/CK2Plus_ambitions/obj_gain_estates_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_gain_honorary_title"
+		texturefile = "gfx/CK2Plus_ambitions/obj_gain_honorary_title.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_go_crusade"
+		texturefile = "gfx/CK2Plus_ambitions/obj_go_crusade.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_go_jihad"
+		texturefile = "gfx/CK2Plus_ambitions/obj_go_jihad.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_great_council"	
+		texturefile = "gfx/CK2Plus_ambitions/obj_great_council.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_have_5_children"
+		texturefile = "gfx/CK2Plus_ambitions/obj_have_5_children.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_have_10_children"
+		texturefile = "gfx/CK2Plus_ambitions/obj_have_10_children.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_have_15_children"
+		texturefile = "gfx/CK2Plus_ambitions/obj_have_15_children.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_have_20_children"
+		texturefile = "gfx/CK2Plus_ambitions/obj_have_20_children.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_1"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_2"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_3"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_4"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_5"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_6"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_7"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_8"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_increase_demesne_9"
+		texturefile = "gfx/CK2Plus_ambitions/obj_increase_demesne.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_known_for_virtue"
+		texturefile = "gfx/ambitions/obj_become_paragon_of_virtue.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence50"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence55"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence60"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence65"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence70"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence75"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence80"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_make_a_friend"
+		texturefile = "gfx/CK2Plus_ambitions/obj_make_a_friend.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_nickname_change"
+		texturefile = "gfx/CK2Plus_ambitions/obj_nickname_get.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_nickname_get"
+		texturefile = "gfx/CK2Plus_ambitions/obj_nickname_get.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_peace_10_years"
+		texturefile = "gfx/CK2Plus_ambitions/obj_peace_10_years.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_reign_20_years"
+		texturefile = "gfx/CK2Plus_ambitions/obj_reign_20_years.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_spouse_councillor"
+		texturefile = "gfx/CK2Plus_ambitions/obj_spouse_councillor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_win_a_war"
+		texturefile = "gfx/CK2Plus_ambitions/obj_win_war.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+}
+
