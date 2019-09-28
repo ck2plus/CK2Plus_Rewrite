@@ -1,0 +1,57 @@
+
+1000103250 = {
+	name="Burji"
+	culture = circassian
+}
+1000103251 = {
+	name="Cherkassky"
+	culture = circassian
+}
+1000103252 = {
+	name="Murza"
+	culture = circassian	
+}
+1000103253 = {
+	name="Chemso"
+	culture = circassian	
+}
+1000103254 = {
+	name="Nibo"
+	culture = circassian	
+}
+1000103255 = {
+	name="Tuguz"
+	culture = circassian	
+}
+1000103256 = {
+	name="Napso"
+	culture = circassian	
+}
+1000103257 = {
+	name="Jaimoukha"
+	culture = circassian	
+}
+1000103258 = {
+	name="Pak"
+	culture = circassian	
+}
+1000103259 = {
+	name="Natok"
+	culture = circassian
+}
+1000103260 = {
+	name="Tsikunib"
+	culture = circassian
+}
+1000103261 = {
+	name="Guchetl"
+	culture = circassian
+}
+1000103262 = {
+	name="Taov"
+	culture = circassian
+}
+1000103263 = {
+	name="Tlebzu"
+	culture = circassian
+}
