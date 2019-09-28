@@ -1,10 +1,10 @@
-###############
-#Plus Ambitions:
-#
-#Total = 58
-###############
-
-
+#########################
+# Plus Ambitions:		#
+#						#
+# Total = 58			#
+#						#
+# Sorted alphabetically #
+#########################
 
 obj_adopt_a_lifestyle = {
 	type = character
