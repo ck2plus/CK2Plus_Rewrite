@@ -632,7 +632,7 @@ gardener = {
 	days_of_supply = 5	# alternative max_attrition if this doesn't work NOTE
 
 	command_modifier = {
-		terrain = farmland
+		terrain = farmlands
 	}
 
 	same_opinion = 10

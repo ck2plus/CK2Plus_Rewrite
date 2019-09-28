@@ -1710,66 +1710,68 @@ PLUS_RETINUE_LATIN_3 = { # Routiers
 #
 ###################################################################
 
-PLUS_RETINUE_MAGHREBI_1 = { # Maghrebi Infantry
-	first_type = 1 # Heavy Infantry
-	first_amount = 150
+# Culture group merged back into vanilla Arabic group
 
-	second_type = 5 # Archers
-	second_amount = 150
-
-	potential = {
-		is_tribal = no
-		is_nomadic = no
-		culture_group = maghrebi
-	}
-
-	modifier = {
-		heavy_infantry_offensive = 0.2
-		archers_offensive = 0.2
-	}
-}
-
-PLUS_RETINUE_MAGHREBI_2 = { # Maghrebi Cavalry
-	first_type = 6 # Special Troops
-	first_amount = 200
-
-	second_type = 4 # Heavy Cavalry
-	second_amount = 100
-
-	special_troops = camel_cavalry
-
-	potential = {
-		is_tribal = no
-		is_nomadic = no
-		culture_group = maghrebi
-	}
-
-	modifier = {
-		camel_cavalry_offensive = 0.2
-		knights_offensive = 0.2
-	}
-}
-
-PLUS_RETINUE_MAGHREBI_3 = { # Maghrebi Skirmishers
-	first_type = 6 # Special Troops
-	first_amount = 100
-
-	second_type = 3 # Light Cavalry
-	second_amount = 200
-
-	special_troops = camel_cavalry
-
-	potential = {
-		is_tribal = no
-		is_nomadic = no
-		culture_group = maghrebi
-	}
-
-	modifier = {
-		camel_cavalry_morale = 0.2
-		light_cavalry_morale = 0.2
-	}
-}
+#PLUS_RETINUE_MAGHREBI_1 = { # Maghrebi Infantry
+#	first_type = 1 # Heavy Infantry
+#	first_amount = 150
+#
+#	second_type = 5 # Archers
+#	second_amount = 150
+#
+#	potential = {
+#		is_tribal = no
+#		is_nomadic = no
+#		culture_group = maghrebi
+#	}
+#
+#	modifier = {
+#		heavy_infantry_offensive = 0.2
+#		archers_offensive = 0.2
+#	}
+#}
+#
+#PLUS_RETINUE_MAGHREBI_2 = { # Maghrebi Cavalry
+#	first_type = 6 # Special Troops
+#	first_amount = 200
+#
+#	second_type = 4 # Heavy Cavalry
+#	second_amount = 100
+#
+#	special_troops = camel_cavalry
+#
+#	potential = {
+#		is_tribal = no
+#		is_nomadic = no
+#		culture_group = maghrebi
+#	}
+#
+#	modifier = {
+#		camel_cavalry_offensive = 0.2
+#		knights_offensive = 0.2
+#	}
+#}
+#
+#PLUS_RETINUE_MAGHREBI_3 = { # Maghrebi Skirmishers
+#	first_type = 6 # Special Troops
+#	first_amount = 100
+#
+#	second_type = 3 # Light Cavalry
+#	second_amount = 200
+#
+#	special_troops = camel_cavalry
+#
+#	potential = {
+#		is_tribal = no
+#		is_nomadic = no
+#		culture_group = maghrebi
+#	}
+#
+#	modifier = {
+#		camel_cavalry_morale = 0.2
+#		light_cavalry_morale = 0.2
+#	}
+#}
 
 ###################################################################
 #

@@ -353,8 +353,6 @@ slothful = {
 
 	monthly_character_piety = -0.05
 
-	ai_ambition = -10
-
 	ai_zeal = -10
 	ai_ambition = -10
 
