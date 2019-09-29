@@ -10,62 +10,62 @@ diplomacy_factor = { #Use this one for diplomacy focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
-		trait = slothful
+		FROM = { trait = slothful }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = patient
+		FROM = { trait = patient }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = kind
+		FROM = { trait = kind }
 	}
 	#High 4
 	mult_modifier = {
 		factor = 0.6
-		trait = proud
+		FROM = { trait = proud }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = charitable
+		FROM = { trait = charitable }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = chaste
+		FROM = { trait = chaste }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = gluttonous
+		FROM = { trait = gluttonous }
 	}
 	#Low 4
 	mult_modifier = {
 		factor = 0.4
-		trait = temperate
+		FROM = { trait = temperate }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = lustful
+		FROM = { trait = lustful }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = greedy
+		FROM = { trait = greedy }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = humble
+		FROM = { trait = humble }
 	}
 	#Bottom 3
 	mult_modifier = {
 		factor = 0.2
-		trait = envious
+		FROM = { trait = envious }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = wroth
+		FROM = { trait = wroth }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = diligent
+		FROM = { trait = diligent }
 	}
 }
 
@@ -74,62 +74,62 @@ intrigue_factor = { #Use this one for intrigue focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
-		trait = envious
+		FROM = { trait = envious }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = greedy
+		FROM = { trait = greedy }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = proud
+		FROM = { trait = proud }
 	}
 	#High 4
 	mult_modifier = {
 		factor = 0.6
-		trait = patient
+		FROM = { trait = patient }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = temperate
+		FROM = { trait = temperate }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = diligent
+		FROM = { trait = diligent }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = lustful
+		FROM = { trait = lustful }
 	}
 	#Low 4
 	mult_modifier = {
 		factor = 0.4
-		trait = chaste
+		FROM = { trait = chaste }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = gluttonous
+		FROM = { trait = gluttonous }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = wroth
+		FROM = { trait = wroth }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = slothful
+		FROM = { trait = slothful }
 	}
 	#Bottom 3
 	mult_modifier = {
 		factor = 0.2
-		trait = humble
+		FROM = { trait = humble }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = charitable
+		FROM = { trait = charitable }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = kind
+		FROM = { trait = kind }
 	}
 }
 
@@ -138,62 +138,62 @@ martial_factor = { #Use this one for martial focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
-		trait = wroth
+		FROM = { trait = wroth }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = temperate
+		FROM = { trait = temperate }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = humble
+		FROM = { trait = humble }
 	}
 	#High 4
 	mult_modifier = {
 		factor = 0.6
-		trait = envious
+		FROM = { trait = envious }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = greedy
+		FROM = { trait = greedy }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = diligent
+		FROM = { trait = diligent }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = chaste
+		FROM = { trait = chaste }
 	}
 	#Low 4
 	mult_modifier = {
 		factor = 0.4
-		trait = lustful
+		FROM = { trait = lustful }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = charitable
+		FROM = { trait = charitable }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = slothful
+		FROM = { trait = slothful }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = kind
+		FROM = { trait = kind }
 	}
 	#Bottom 3
 	mult_modifier = {
 		factor = 0.2
-		trait = proud
+		FROM = { trait = proud }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = patient
+		FROM = { trait = patient }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = gluttonous
+		FROM = { trait = gluttonous }
 	}
 }
 
@@ -202,62 +202,62 @@ stewardship_factor = { #Use this one for stewardship focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
-		trait = greedy
+		FROM = { trait = greedy }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = gluttonous
+		FROM = { trait = gluttonous }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = diligent
+		FROM = { trait = diligent }
 	}
 	#High 4
 	mult_modifier = {
 		factor = 0.6
-		trait = proud
+		FROM = { trait = proud }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = lustful
+		FROM = { trait = lustful }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = wroth
+		FROM = { trait = wroth }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = envious
+		FROM = { trait = envious }
 	}
 	#Low 4
 	mult_modifier = {
 		factor = 0.4
-		trait = chaste
+		FROM = { trait = chaste }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = kind
+		FROM = { trait = kind }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = patient
+		FROM = { trait = patient }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = humble
+		FROM = { trait = humble }
 	}
 	#Bottom 3
 	mult_modifier = {
 		factor = 0.2
-		trait = slothful
+		FROM = { trait = slothful }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = charitable
+		FROM = { trait = charitable }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = temperate
+		FROM = { trait = temperate }
 	}
 }
 
@@ -266,62 +266,62 @@ learning_factor = { #Use this one for learning focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
-		trait = chaste
+		FROM = { trait = chaste }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = humble
+		FROM = { trait = humble }
 	}
 	mult_modifier = {
 		factor = 0.8
-		trait = charitable
+		FROM = { trait = charitable }
 	}
 	#High 4
 	mult_modifier = {
 		factor = 0.6
-		trait = gluttonous
+		FROM = { trait = gluttonous }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = wroth
+		FROM = { trait = wroth }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = slothful
+		FROM = { trait = slothful }
 	}
 	mult_modifier = {
 		factor = 0.6
-		trait = kind
+		FROM = { trait = kind }
 	}
 	#Low 4
 	mult_modifier = {
 		factor = 0.4
-		trait = envious
+		FROM = { trait = envious }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = diligent
+		FROM = { trait = diligent }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = temperate
+		FROM = { trait = temperate }
 	}
 	mult_modifier = {
 		factor = 0.4
-		trait = patient
+		FROM = { trait = patient }
 	}
 	#Bottom 3
 	mult_modifier = {
 		factor = 0.2
-		trait = greedy
+		FROM = { trait = greedy }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = proud
+		FROM = { trait = proud }
 	}
 	mult_modifier = {
 		factor = 0.2
-		trait = lustful
+		FROM = { trait = lustful }
 	}
 }
 
