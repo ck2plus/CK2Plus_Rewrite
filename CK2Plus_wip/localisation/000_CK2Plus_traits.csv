@@ -31,7 +31,7 @@ melodious_voice_desc;This character is said to have a pleasing voice, and can si
 perceptive;Perceptive;;;;;;;;;;;;;x
 perceptive_desc;This character possesses extraordinary sharp senses and can spot subtle nuances that others miss entirely.;;;;;;;;;;;;;x
 powerful_voice;Powerful Voice;;;;;;;;;;;;;x
-powerful_voices_desc;This character speaks in an imposing tone that can persuade friends, frighten enemies, and inspire subordinates.;;;;;;;;;;;;;x
+powerful_voice_desc;This character speaks in an imposing tone that can persuade friends, frighten enemies, and inspire subordinates.;;;;;;;;;;;;;x
 tall;Tall;;;;;;;;;;;;;x
 tall_desc;This character is of unusually tall and impressive stature.;;;;;;;;;;;;;x
 
@@ -43,6 +43,6 @@ deaf_desc;This character is hard of hearing, which forms an obstacle in many sit
 cheerful;Cheerful;;;;;;;;;;;;;x
 cheerful_desc;This character has a naturally bright and merry temperament, and seems to always know a joke in every situation, whether appropriate or not.;;;;;;;;;;;;;x
 moody;Moody;;;;;;;;;;;;;x
-moody_desc;This character has a tendency to get lost in sullen sulkiness or surliness, and rarely looks on the bright side of life. Their grumpy or gloomy attitude tends to repel other people.;;;;;;;;;;;;;x
+moody_desc;This character has a tendency to get lost in sullen sulkiness, and rarely looks on the bright side of life. Their grumpy or gloomy attitude tends to repel other people.;;;;;;;;;;;;;x
 serious;Serious;;;;;;;;;;;;;x
 serious_desc;This character prefers to apply logic and rational thinking in every situation. Humor and merriness to them seem like silly distractions from important problems.;;;;;;;;;;;;;x
