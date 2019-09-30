@@ -14,3 +14,35 @@ machas_javelin_desc;The most fearsome Gentlidecht warriors are said to have been
 
 celtic_leader;Fian;Fian;Fian;;Fian;;;;;;;;;x
 celtic_leader_desc;This character is a Féinnid, a veteran of the Fianna warbands.;Cette personne est un Féinnid, un vétéran de la compagnie de Fianna.;Dieser Charakter ist ein Féinnid, [Root.Geteineine] Veteran[Root.GetinFemale] der Fianna-Kriegsbande..;;Esta persona es un Féinnid, un veterano de la compañía Fianna.;;;;;;;;;x
+
+# Congenital Traits
+agile;Agile;;;;;;;;;;;;;x
+agile_desc;This character is nimbler than most and capable of deft, almost acrobatic moves.;;;;;;;;;;;;;x
+ambidextrous;Ambidextrous;;;;;;;;;;;;;x
+ambidextrous_desc;This character can naturally use both hands with equal skill. As a result, they are more efficient in whatever they do, whether it is swinging swords or writing letters.;;;;;;;;;;;;;x
+calm_voice;Calm Voice;;;;;;;;;;;;;x
+calm_voice_desc;This character's voice is naturally soothing. While it is neither powerful nor melodious, its mildness can calm even the angriest of people, and slyly persuade even the most skeptical of men.;;;;;;;;;;;;;x
+clumsy;Clumsy;;;;;;;;;;;;;x
+clumsy_desc;This character seems to be unable to properly control their limbs, and has a habit of awkwardly slipping, tripping or stumbling through many situations.;;;;;;;;;;;;;x
+fertile;Fertile;;;;;;;;;;;;;x
+fertile_desc;This character has been blessed with an agreable physique. While not necessarily a perfect beauty, their natural charms delight prospective partners, and have granted them a propensity for easily having children.;;;;;;;;;;;;;x
+melodious_voice;Melodious Voice;;;;;;;;;;;;;x
+melodious_voice_desc;This character is said to have a pleasing voice, and can sing wonderfully. Somehow, when they talk, everyone simply listens.;;;;;;;;;;;;;x
+perceptive;Perceptive;;;;;;;;;;;;;x
+perceptive_desc;This character possesses extraordinary sharp senses and can spot subtle nuances that others miss entirely.;;;;;;;;;;;;;x
+powerful_voice;Powerful Voice;;;;;;;;;;;;;x
+powerful_voices_desc;This character speaks in an imposing tone that can persuade friends, frighten enemies, and inspire subordinates.;;;;;;;;;;;;;x
+tall;Tall;;;;;;;;;;;;;x
+tall_desc;This character is of unusually tall and impressive stature.;;;;;;;;;;;;;x
+
+# Health Traits
+deaf;Deaf;;;;;;;;;;;;;x
+deaf_desc;This character is hard of hearing, which forms an obstacle in many situations.;;;;;;;;;;;;;x
+
+# Personality Traits
+cheerful;Cheerful;;;;;;;;;;;;;x
+cheerful_desc;This character has a naturally bright and merry temperament, and seems to always know a joke in every situation, whether appropriate or not.;;;;;;;;;;;;;x
+moody;Moody;;;;;;;;;;;;;x
+moody_desc;This character has a tendency to get lost in sullen sulkiness or surliness, and rarely looks on the bright side of life. Their grumpy or gloomy attitude tends to repel other people.;;;;;;;;;;;;;x
+serious;Serious;;;;;;;;;;;;;x
+serious_desc;This character prefers to apply logic and rational thinking in every situation. Humor and merriness to them seem like silly distractions from important problems.;;;;;;;;;;;;;x
