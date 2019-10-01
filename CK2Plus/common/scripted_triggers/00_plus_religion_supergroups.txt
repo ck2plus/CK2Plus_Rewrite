@@ -1,0 +1,43 @@
+# Naming convention: religion_[descriptor]
+#
+#	Example:
+#
+#	religion_example = {
+#		OR = {	
+#			religion_group = pagan_group
+#			religion = catholic
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		religion_example = yes
+#	}
+#
+
+religion_tribal = {
+	OR = {
+		AND = {
+			religion_group = pagan_group
+			is_reformed = no
+		}
+		# religion = some_other_religion
+	}
+}
+
+religion_monotheist = {
+	OR = {
+		religion_group = christian
+		religion_group = muslim
+		religion_group = jewish_group
+	}
+}
+
+religion_polytheist = {
+	OR = {
+		religion_group = pagan_group
+		# religion = some_other religion
+	}
+}
