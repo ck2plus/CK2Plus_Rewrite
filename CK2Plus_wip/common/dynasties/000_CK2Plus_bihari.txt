@@ -1,0 +1,57 @@
+
+1000103350 = {
+	name="Somavamsi"
+	culture = bihari
+}
+1000103351 = {
+	name="Bhanja"
+	culture = bihari
+}
+1000103352 = {
+	name="Sulki"
+	culture = bihari	
+}
+1000103353 = {
+	name="Tunga"
+	culture = bihari	
+}
+1000103354 = {
+	name="Nandobhava"
+	culture = bihari	
+}
+1000103355 = {
+	name="Gajapati"
+	culture = bihari	
+}
+1000103356 = {
+	name="Mayura"
+	culture = bihari	
+}
+1000103357 = {
+	name="Shailobhava"
+	culture = bihari	
+}
+1000103358 = {
+	name="Kesari"
+	culture = bihari	
+}
+1000103359 = {
+	name="Nagavamsi"
+	culture = bihari
+}
+1000103360 = {
+	name="Deva"
+	culture = bihari
+}
+1000103361 = {
+	name="Rajrappa"
+	culture = bihari
+}
+1000103362 = {
+	name="Pattikara"
+	culture = bihari
+}
+1000103363 = {
+	name="Chero"
+	culture = bihari
+}

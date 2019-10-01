@@ -92,6 +92,16 @@ tuscan;Tuscan;Toscan;Toskanisch;;Toscano;;;;;;;;;x
 umbrian;Umbrian;Ombrien;Umbrisch;;Umbro;;;;;;;;;x
 veneto;Venetian;Vénitien;Venetisch;;Véneto;;;;;;;;;x
 
+insular_aryan_group;Insular Aryan;Aryen Insulaire;Inselarier;;Ario Insular;;;;;;;;;x
+dhivehi;Dhivehi;Dhivehi;Dhivehi;;Dhivehi;;;;;;;;;x
+
+west_aryan_group;West Aryan;Aryen Occidental;Westarier;;Ario Occidental;;;;;;;;;x
+
+east_aryan_group;East Aryan;Aryen Oriental;Ostarier;;Ario Oriental;;;;;;;;;x
+bihari;Bihari;Bihari;Bihari;;Bihari;;;;;;;;;x
+
+malayalam;Malayalam;Malayalam;Malayalam;;Malayalam;;;;;;;;;x
+
 ashkenazi;Ashkenazic;Ashkénaze;Aschkenasisch;;Asquenazí;;;;;;;;;x
 israeli;Israeli;Israélien;Israelisch;;Israelí;;;;;;;;;x
 mizrahi;Mizrahi;Mizrahim;Mizrachim;;Mizrají;;;;;;;;;x
@@ -106,8 +116,10 @@ luri;Luri;Louri;Lurisch;;Lorí;;;;;;;;;x
 russian;Russian;Russe;Russisch;;Ruso;;;;;;;;;x
 novgorodian;Novgorodian;Novgorodien;Novgorodisch;;Nóvgorodo;;;;;;;;;x
 
+
 # Overrides
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
 west_germanic;Mare Germanic;Mer-Germanique;Meergermanisch;;Oeste Germánica;;;;;;;;;x
 latin;Gallo-Roman;Gallo-romaine;Gallorömisch;;Galorromana;;;;;;;;;x
 songhay;Songhai;Songhaï;Songhai;;Songhai;;;;;;;;;x
+indo_aryan_group;Central Aryan;Aryen Central;Mittelarier;;Ario Central;;;;;;;;;x

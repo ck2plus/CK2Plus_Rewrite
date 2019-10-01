@@ -1,0 +1,57 @@
+
+1000103550 = {
+	name="Dhiyamigili "
+	culture = dhivehi
+}
+1000103551 = {
+	name="Hilaalee"
+	culture = dhivehi
+}
+1000103552 = {
+	name="Huraa"
+	culture = dhivehi	
+}
+1000103553 = {
+	name=" Isdhoo"
+	culture = dhivehi	
+}
+1000103554 = {
+	name="Theemuge"
+	culture = dhivehi	
+}
+1000103555 = {
+	name="Utheemu "
+	culture = dhivehi	
+}
+1000103556 = {
+	name="Manippulu"
+	culture = dhivehi	
+}
+1000103557 = {
+	name="Kuda"
+	culture = dhivehi	
+}
+1000103558 = {
+	name="Thakurufan"
+	culture = dhivehi	
+}
+1000103559 = {
+	name="Kaamba"
+	culture = dhivehi
+}
+1000103560 = {
+	name="Seedi"
+	culture = dhivehi
+}
+1000103561 = {
+	name="Soru"
+	culture = dhivehi
+}
+1000103562 = {
+	name="Thakuru"
+	culture = dhivehi
+}
+1000103563 = {
+	name="Rahaa"
+	culture = dhivehi
+}
