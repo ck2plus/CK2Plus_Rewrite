@@ -9,6 +9,7 @@
 #	 - Mordvin
 #	 - Samoyed
 #	 - Ugricbaltic
+#    - Vepsian (Plus culture)
 #
 ####################################################################
 
@@ -356,6 +357,54 @@ finno_ugric = {
 		}
 
 		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+	
+		vepsian = {
+		graphical_cultures = { ugricgfx }
+
+		color = { 0.5 0.5 0.5 }
+
+		male_names = {
+			Andyamo Atyamas Azyren
+			Chichayka Chipaz Chumbulat
+			Dergun Deryab Dobrinya
+			Erziya
+			Inzhay
+			Kardaz Kezhapa Kezhay Kezhedey Kezhevat Kichay Kinyak Koshel Kubrat
+			Malyaka Malyy Meltsayka Mordvinko Moksha Murunza
+			Nalka Naruchad Nishkepaz Nuyaksha Nuyanza Nuyat
+			Orunza Ovtay
+			Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Puresh Purysho Putyayka
+			Saksa Setyamka Shindyay Shkay Shoksha Syrka Surt
+			Tikshayka Tul Tunya Tutyra Tyueykezhut Tylmache Tylze Tyushten Tyushtya
+			Uchva Uzhara
+			Varaka Varmanpaz Vechkas Velmayka Virdyan Viryas Viryay
+		}
+
+		female_names = {
+			Anava Ashava Asrava Azra-Va
+			Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska
+			Elyuva
+			Inyava
+			Kanyava Kanyuva Kirdyava Kunava Kunyavka
+			Litava Litova Liyava
+			Mastorava Mazava Megurka Mel'shay
+			Nezayka Noroava Nulzyava Nuyanza Nyal'ka Nyayka
+			Olota Ordava Oshama
+			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka
+			Ravzhava Ruzava
+			Sanal'ka Sangasa Sernyava Serzhay Setyamka Seyamka Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava
+			Tatka Tekay Tetyava Tikshayka Toyaksha Tundava Tundya
+			Unzhutka Upurga Utyayka 
+			Valdava Vergava Vezhav Vidyava Virtyava 
+			Yalgava
+		}
+
+		from_dynasty_prefix = "of "
+
+		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
 	}

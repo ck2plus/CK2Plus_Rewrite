@@ -1,0 +1,57 @@
+
+1000103750 = {
+	name="Inzhayid"
+	culture = vepsian
+}
+1000103751 = {
+	name="Vepsid"
+	culture = vepsian
+}
+1000103752 = {
+	name="Okivid"
+	culture = vepsian	
+}
+1000103753 = {
+	name="Tulid"
+	culture = vepsian	
+}
+1000103754 = {
+	name="Nuyatid"
+	culture = vepsian	
+}
+1000103755 = {
+	name="Chipazid"
+	culture = vepsian	
+}
+1000103756 = {
+	name="Surtid"
+	culture = vepsian	
+}
+1000103757 = {
+	name="Deryabid"
+	culture = vepsian	
+}
+1000103758 = {
+	name="Malyyid"
+	culture = vepsian	
+}
+1000103759 = {
+	name="Tunyaid"
+	culture = vepsian
+}
+1000103760 = {
+	name="Onegid"
+	culture = vepsian
+}
+1000103761 = {
+	name="Yalgavavid"
+	culture = vepsian
+}
+1000103762 = {
+	name="Shokshavid"
+	culture = vepsian
+}
+1000103763 = {
+	name="Kinyakid"
+	culture = vepsian
+}

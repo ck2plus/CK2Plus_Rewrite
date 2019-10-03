@@ -98,11 +98,6 @@ veneto;Venetian;Vénitien;Venetisch;;Véneto;;;;;;;;;x
 insular_aryan_group;Insular Aryan;Aryen Insulaire;Inselarier;;Ario Insular;;;;;;;;;x
 dhivehi;Dhivehi;Dhivehi;Dhivehi;;Dhivehi;;;;;;;;;x
 
-east_iranian_group;East Iranian; Est Iranien;Ostiranisch;;Iraní Oriental;;;;;;;;;x
-daylamite;Daylamite;Dailamite;Dailamitisch;;Dailamita;;;;;;;;;x
-luri;Luri;Louri;Lurisch;;Lorí;;;;;;;;;x
-khwarazmian;Khwarazmian;Chorasmien;Choresmisch;;Corasmia;;;;;;;;;x
-
 west_aryan_group;West Aryan;Aryen Occidental;Westarier;;Ario Occidental;;;;;;;;;x
 
 east_aryan_group;East Aryan;Aryen Oriental;Ostarier;;Ario Oriental;;;;;;;;;x
@@ -110,12 +105,20 @@ bihari;Bihari;Bihari;Bihari;;Bihari;;;;;;;;;x
 
 malayalam;Malayalam;Malayalam;Malayalam;;Malayalam;;;;;;;;;x
 
+vepsian;Vepsian;Vepse;Vepsisch;;Vepsa;;;;;;;;;x
+
 ashkenazi;Ashkenazic;Ashkénaze;Aschkenasisch;;Asquenazí;;;;;;;;;x
 israeli;Israeli;Israélien;Israelisch;;Israelí;;;;;;;;;x
 mizrahi;Mizrahi;Mizrahim;Mizrachim;;Mizrají;;;;;;;;;x
 sephardic;Sephardic;Séfarade;Sephardisch;;Sephardic;;;;;;;;;x
 
+east_iranian_group;East Iranian; Est Iranien;Ostiranisch;;Iraní Oriental;;;;;;;;;x
+khwarazmian;Khwarazmian;Chorasmien;Choresmisch;;Corasmia;;;;;;;;;x
+
 geatish;Geatish;ötalandais;Geatisch;;Gauta;;;;;;;;;x
+
+daylamite;Daylamite;Dailamite;Dailamitisch;;Dailamita;;;;;;;;;x
+luri;Luri;Louri;Lurisch;;Lorí;;;;;;;;;x
 
 novgorodian;Novgorodian;Novgorodien;Novgorodisch;;Nóvgorodo;;;;;;;;;x
 ruthenian;Ruthenian;Ruthène;Ruthenisch;;Rutenio;;;;;;;;;x
@@ -124,7 +127,7 @@ ruthenian;Ruthenian;Ruthène;Ruthenisch;;Rutenio;;;;;;;;;x
 # Overrides
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
 west_germanic;Mare Germanic;Mer-Germanique;Meergermanisch;;Oeste Germánica;;;;;;;;;x
-iranian; West Iranian; Ouest Iranien; Westiranisch;;Iraní Occidental;;;;;;;;;x
+iranian;West Iranian; Ouest Iranien; Westiranisch;;Iraní Occidental;;;;;;;;;x
 latin;Gallo-Roman;Gallo-romaine;Gallorömisch;;Galorromana;;;;;;;;;x
 songhay;Songhai;Songhaï;Songhai;;Songhai;;;;;;;;;x
 indo_aryan_group;Central Aryan;Aryen Central;Mittelarier;;Ario Central;;;;;;;;;x
