@@ -1,0 +1,57 @@
+
+1000103950 = {
+	name="de Leon"
+	culture = leonese
+}
+1000103951 = {
+	name="Núñez"
+	culture = leonese
+}
+1000103952 = {
+	name="Alonso"
+	culture = leonese	
+}
+1000103953 = {
+	name="de Zamora"
+	culture = leonese	
+}
+1000103954 = {
+	name="de Salamanca"
+	culture = leonese	
+}
+1000103955 = {
+	name="Ramirez"
+	culture = leonese	
+}
+1000103956 = {
+	name="Álvarez"
+	culture = leonese	
+}
+1000103957 = {
+	name="de Astorga"
+	culture = leonese	
+}
+1000103958 = {
+	name="Martinez"
+	culture = leonese	
+}
+1000103959 = {
+	name="de Guzmán"
+	culture = leonese
+}
+1000103960 = {
+	name="Padilla"
+	culture = leonese
+}
+1000103961 = {
+	name="de Alcantara"
+	culture = leonese
+}
+1000103962 = {
+	name="de Luna"
+	culture = leonese
+}
+1000103963 = {
+	name="Lopez"
+	culture = leonese
+}

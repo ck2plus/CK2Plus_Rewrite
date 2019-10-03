@@ -1,0 +1,57 @@
+
+1000103850 = {
+	name="Sancha"
+	culture = aragonese
+}
+1000103851 = {
+	name="de Aragon"
+	culture = aragonese
+}
+1000103852 = {
+	name="Barcelona"
+	culture = aragonese	
+}
+1000103853 = {
+	name="Álvarez"
+	culture = aragonese	
+}
+1000103854 = {
+	name="de Zaragosa"
+	culture = aragonese	
+}
+1000103855 = {
+	name="del Mancha"
+	culture = aragonese	
+}
+1000103856 = {
+	name="de Molina"
+	culture = aragonese	
+}
+1000103857 = {
+	name="Diaz"
+	culture = aragonese	
+}
+1000103858 = {
+	name="Fernandez"
+	culture = aragonese	
+}
+1000103859 = {
+	name="Ruíz"
+	culture = aragonese
+}
+1000103860 = {
+	name="Láinez"
+	culture = aragonese
+}
+1000103861 = {
+	name="Gutiérrez"
+	culture = aragonese
+}
+1000103862 = {
+	name="Muñoz"
+	culture = aragonese
+}
+1000103863 = {
+	name="Rodríguez"
+	culture = aragonese
+}

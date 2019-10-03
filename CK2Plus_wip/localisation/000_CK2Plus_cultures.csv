@@ -34,6 +34,9 @@ icelandic;Icelandic;Islandais;Isländisch;;Islandés;;;;;;;;;x
 sosso;Susu;Soussou;Susu;;Sosso;;;;;;;;;x
 wolof;Wolof;Wolof;Wolof;;Wólof;;;;;;;;;x
 
+leonese;Leonese;Léonais;Leonesisch;;Leonés;;;;;;;;;x
+aragonese;Aragonese;Aragonais;Aragonesisch;;Aragonesa;;;;;;;;;x
+
 sicilian;Sicilian;Sicilien;Sizilianisch;;Siciliano;;;;;;;;;x
 sicilian_arabic;Siculo-Arabic;Sicilien-Arabe;Sizilian-Arabisch;;Siciliano-Árabe;;;;;;;;;x
 sicilian_greek;Siculo-Greek;Sicilien-Grec;Sizilian-Griech;;Siciliano-Griego;;;;;;;;;x
@@ -125,6 +128,8 @@ luri;Luri;Louri;Lurisch;;Lorí;;;;;;;;;x
 novgorodian;Novgorodian;Novgorodien;Novgorodisch;;Nóvgorodo;;;;;;;;;x
 ruthenian;Ruthenian;Ruthène;Ruthenisch;;Rutenio;;;;;;;;;x
 
+chadic_group;Chadic;Tchadique;Chadisch;;Chadico;;;;;;;;;x
+
 
 # Overrides
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
@@ -133,3 +138,5 @@ iranian;West Iranian; Ouest Iranien; Westiranisch;;Iraní Occidental;;;;;;;;;x
 latin;Gallo-Roman;Gallo-romaine;Gallorömisch;;Galorromana;;;;;;;;;x
 songhay;Songhai;Songhaï;Songhai;;Songhai;;;;;;;;;x
 indo_aryan_group;Central Aryan;Aryen Central;Mittelarier;;Ario Central;;;;;;;;;x
+west_african;Niger-Congo;Niger-Congo;Niger-Congo;;Niger-Congo;;;;;;;;;x
+central_african;Songhay-Saharan;Songhay-Saharien;Songhay-Saharisch;;Songhay-Sahariano;;;;;;;;;x
