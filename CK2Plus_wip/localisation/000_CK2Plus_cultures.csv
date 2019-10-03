@@ -66,6 +66,7 @@ thuringian;Thuringian;Thuringe;Thüringisch;;Turingio;;;;;;;;;x
 
 yugoslavian;Yugoslavian;Yougoslave;Jugoslawisch;;Yugoslavo;;;;;;;;;x
 
+maghrebi;Moorish;Mauresque;Maurisch;;Morisco;;;;;;;;;x 
 maghreb_arabic;Maghrebi;Maghrebi;Maghrebi;;Magrebí;;;;;;;;;x
 
 amazigh;Berber;Berber;Berber;;Berber;;;;;;;;;x
@@ -77,6 +78,8 @@ tuareg;Tuareg;Tuareg;Tuareg;;Tuareg;;;;;;;;;x
 zenati;Zenatian;Zénète;Zenatisch;;Zenatí;;;;;;;;;x
 
 pontic_greek;Pontic;Pontic;Pontic;;Póntica;;;;;;;;;x
+
+georgian_group;Kartvelian;Kartvélien;Kartwelisch;;Kartveliana;;;;;;;;;x
 
 island_romance;Insular Romance;Romance d'île;Inselromantik;;Romance de las Islas;;;;;;;;;x
 
@@ -95,6 +98,11 @@ veneto;Venetian;Vénitien;Venetisch;;Véneto;;;;;;;;;x
 insular_aryan_group;Insular Aryan;Aryen Insulaire;Inselarier;;Ario Insular;;;;;;;;;x
 dhivehi;Dhivehi;Dhivehi;Dhivehi;;Dhivehi;;;;;;;;;x
 
+east_iranian_group;East Iranian; Est Iranien;Ostiranisch;;Iraní Oriental;;;;;;;;;x
+daylamite;Daylamite;Dailamite;Dailamitisch;;Dailamita;;;;;;;;;x
+luri;Luri;Louri;Lurisch;;Lorí;;;;;;;;;x
+khwarazmian;Khwarazmian;Chorasmien;Choresmisch;;Corasmia;;;;;;;;;x
+
 west_aryan_group;West Aryan;Aryen Occidental;Westarier;;Ario Occidental;;;;;;;;;x
 
 east_aryan_group;East Aryan;Aryen Oriental;Ostarier;;Ario Oriental;;;;;;;;;x
@@ -107,19 +115,16 @@ israeli;Israeli;Israélien;Israelisch;;Israelí;;;;;;;;;x
 mizrahi;Mizrahi;Mizrahim;Mizrachim;;Mizrají;;;;;;;;;x
 sephardic;Sephardic;Séfarade;Sephardisch;;Sephardic;;;;;;;;;x
 
-khwarazmian;Khwarazmian;Chorasmien;Choresmisch;;Corasmia;;;;;;;;;x
-ruthenian;Ruthenian;Ruthène;Ruthenisch;;Rutenio;;;;;;;;;x
 geatish;Geatish;ötalandais;Geatisch;;Gauta;;;;;;;;;x
-daylamite;Daylamite;Dailamite;Dailamitisch;;Dailamita;;;;;;;;;x
-luri;Luri;Louri;Lurisch;;Lorí;;;;;;;;;x
 
-russian;Russian;Russe;Russisch;;Ruso;;;;;;;;;x
 novgorodian;Novgorodian;Novgorodien;Novgorodisch;;Nóvgorodo;;;;;;;;;x
+ruthenian;Ruthenian;Ruthène;Ruthenisch;;Rutenio;;;;;;;;;x
 
 
 # Overrides
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
 west_germanic;Mare Germanic;Mer-Germanique;Meergermanisch;;Oeste Germánica;;;;;;;;;x
+iranian; West Iranian; Ouest Iranien; Westiranisch;;Iraní Occidental;;;;;;;;;x
 latin;Gallo-Roman;Gallo-romaine;Gallorömisch;;Galorromana;;;;;;;;;x
 songhay;Songhai;Songhaï;Songhai;;Songhai;;;;;;;;;x
 indo_aryan_group;Central Aryan;Aryen Central;Mittelarier;;Ario Central;;;;;;;;;x
