@@ -2,7 +2,6 @@
 #
 #	Iberian
 #	 - Castillan
-#	 - Catalan
 #	 - Portuguese
 #
 ####################################################################
@@ -77,57 +76,6 @@ iberian = {
 		pat_grm_name_chance = 40
 		mat_grm_name_chance = 10
 		mother_name_chance = 40
-
-		modifier = default_culture_modifier
-	}
-
-	catalan = {
-		graphical_cultures = { southerngfx }
-
-		color = { 0.95 0.65 0.01 }
-
-		male_names = {
-			Alfons_Alphonse Arnau_Arnold Artau_Artal
-			Berenguer_Berengar Berenguer-Ramon Bernat_Bernard Bernat-Guillem
-			Dalmau
-			Ermengol_Ermengaud
-			Felip_Philip Ferran_Ferdinand Frederic_Frederick
-			Gausfred_Godfrey Gerard_Gerard Gombau Guerau_Gerald Guifré_Wilfred Guillem_William Guillem-Ramon Guislabert_Gilbert
-			Hug_Hugh
-			Jaume_Jacob Joan_John Jofré_Godfrey
-			Ott_Otto
-			Pere_Peter Ponç_Pons Ponç-Hug
-			Ramon_Raymond Ramon-Berenguer_Raymond-Berengar Ramon-Folc Roger_Roger
-			Sanç_Sancho Sunyer_Sunyer
-			Udalard
-		}
-
-		female_names = {
-			Adelaida_Adelaide Agnès_Agnes Alamanda Arsenda_Arsenda
-			Beatriu_Beatrice Blanca_Blanche Brunisenda
-			Constança_Constance
-			Dolça_Douce
-			Elionor_Eleanor Elisenda Ermessenda_Ermesinda Estefania_Stephania
-			Gueraua Guillelma_Willhelmina Guisla_Gisela
-			Isabel_Elizabeth
-			Margarida_Margaret Maria_Maria Marquesa_Marquise
-			Sança_Sancha Sibila_Sibylla
-			Teresa_Teresa Toda_Toda
-			Violant_Yolanda
-		}
-
-		from_dynasty_prefix = "de "
-		grammar_transform = french
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 10
-		father_name_chance = 30
-
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 40
-		mat_grm_name_chance = 25
-		mother_name_chance = 25
 
 		modifier = default_culture_modifier
 	}
