@@ -4,103 +4,17 @@
 #
 ###############################################
 #
-#	Court Faction			intrigue
 #	Order Faction			diplomacy
-#	Prosperity Faction		stewardship
 #	Glory Faction			martial
+#	Prosperity Faction		stewardship
+#	Court Faction			intrigue
 #	Tradition Faction		learning
 #
 ###############################################
 
 ###############################################
 #
-#	Court Faction
-#
-###############################################
-
-faction_court = {
-	type = liege_titles
-
-	# Can this character create this faction?
-	# ROOT is faction creator
-	potential = {
-		prisoner = no
-		is_adult = yes
-		is_landed = yes
-		higher_tier_than = baron
-		NOR = {
-			in_revolt = yes
-			in_faction = faction_order
-			in_faction = faction_prosperity
-			in_faction = faction_glory
-			in_faction = faction_tradition
-			has_character_modifier = plus_faction_abandoned
-		}
-	}
-
-	# Which title does this plot apply to?
-	# Target title scope
-	# ROOT is target title
-	# FROM is faction creator
-	allow = {
-		is_primary_holder_title = yes
-	}
-
-	# Can this character join this faction?
-	# ROOT is faction joiner
-	# FROM is faction target
-	allow_join = {
-		ROOT = {
-			prisoner = no
-			is_playable = yes
-			is_adult = yes
-			is_landed = yes
-			higher_tier_than = baron
-			NOR = {
-				in_revolt = yes
-				in_faction = faction_order
-				in_faction = faction_prosperity
-				in_faction = faction_glory
-				in_faction = faction_tradition
-				has_character_modifier = plus_faction_abandoned
-			}
-		}
-	}
-
-	# Chance of creating the faction
-	# ROOT is target title
-	# FROM is faction creator
-	chance = {
-		factor = 50
-		intrigue_factor = yes
-	}
-
-	# Chance of joining the faction
-	# ROOT is joiner
-	# FROM is faction leader
-	# FROMFROM is target title or character
-	membership = {
-		factor = 50
-		intrigue_factor = yes
-	}
-
-	# When does it succeed?
-	# ROOT is target title
-	# FROM is faction leader (?)
-	success = {
-		always = no
-	}
-
-	# When does it fail?
-	# Factions will abort if the Potential or Allow trigger is no longer valid
-	abort = {
-		always = no
-	}
-}
-
-###############################################
-#
-#	Order Faction
+#	Order Faction (diplomacy)
 #
 ###############################################
 
@@ -158,7 +72,7 @@ faction_order = {
 	# FROM is faction creator
 	chance = {
 		factor = 50
-		diplomacy_factor = yes
+		diplomacy_FROM_factor = yes
 	}
 
 	# Chance of joining the faction
@@ -167,7 +81,7 @@ faction_order = {
 	# FROMFROM is target title or character
 	membership = {
 		factor = 50
-		diplomacy_factor = yes
+		diplomacy_FROM_factor = yes
 	}
 
 	# When does it succeed?
@@ -186,94 +100,7 @@ faction_order = {
 
 ###############################################
 #
-#	Prosperity Faction
-#
-###############################################
-
-faction_prosperity = {
-	type = liege_titles
-
-	# Can this character create this faction?
-	# ROOT is faction creator
-	potential = {
-		prisoner = no
-		is_playable = yes
-		is_adult = yes
-		is_landed = yes
-		higher_tier_than = baron
-		NOR = {
-			in_revolt = yes
-			in_faction = faction_order
-			in_faction = faction_court
-			in_faction = faction_glory
-			in_faction = faction_tradition
-			has_character_modifier = plus_faction_abandoned
-		}
-	}
-
-	# Which title does this plot apply to?
-	# Target title scope
-	# ROOT is target title
-	# FROM is faction creator
-	allow = {
-		is_primary_holder_title = yes
-	}
-
-	# Can this character join this faction?
-	# ROOT is faction joiner
-	# FROM is faction target
-	allow_join = {
-		ROOT = {
-			prisoner = no
-			is_playable = yes
-			is_adult = yes
-			is_landed = yes
-			higher_tier_than = baron
-			NOR = {
-				in_revolt = yes
-				in_faction = faction_order
-				in_faction = faction_court
-				in_faction = faction_glory
-				in_faction = faction_tradition
-				has_character_modifier = plus_faction_abandoned
-			}
-		}
-	}
-
-	# Chance of creating the faction
-	# ROOT is target title
-	# FROM is faction creator
-	chance = {
-		factor = 50
-		stewardship_factor = yes
-	}
-
-	# Chance of joining the faction
-	# ROOT is joiner
-	# FROM is faction leader
-	# FROMFROM is target title or character
-	membership = {
-		factor = 50
-		stewardship_factor = yes
-	}
-
-	# When does it succeed?
-	# ROOT is target title
-	# FROM is faction leader (?)
-	success = {
-		always = no
-	}
-
-	# When does it fail?
-	# Factions will abort if the Potential or Allow trigger is no longer valid
-	abort = {
-		always = no
-	}
-}
-
-###############################################
-#
-#	Glory Faction
+#	Glory Faction (martial)
 #
 ###############################################
 
@@ -332,7 +159,7 @@ faction_glory = {
 	# FROM is faction creator
 	chance = {
 		factor = 50
-		martial_factor = yes
+		martial_FROM_factor = yes
 	}
 
 	# Chance of joining the faction
@@ -341,7 +168,7 @@ faction_glory = {
 	# FROMFROM is target title or character
 	membership = {
 		factor = 50
-		martial_factor = yes
+		martial_FROM_factor = yes
 	}
 
 	# When does it succeed?
@@ -360,7 +187,180 @@ faction_glory = {
 
 ###############################################
 #
-#	Tradition Faction
+#	Prosperity Faction (stewardship)
+#
+###############################################
+
+faction_prosperity = {
+	type = liege_titles
+
+	# Can this character create this faction?
+	# ROOT is faction creator
+	potential = {
+		prisoner = no
+		is_playable = yes
+		is_adult = yes
+		is_landed = yes
+		higher_tier_than = baron
+		NOR = {
+			in_revolt = yes
+			in_faction = faction_order
+			in_faction = faction_court
+			in_faction = faction_glory
+			in_faction = faction_tradition
+			has_character_modifier = plus_faction_abandoned
+		}
+	}
+
+	# Which title does this plot apply to?
+	# Target title scope
+	# ROOT is target title
+	# FROM is faction creator
+	allow = {
+		is_primary_holder_title = yes
+	}
+
+	# Can this character join this faction?
+	# ROOT is faction joiner
+	# FROM is faction target
+	allow_join = {
+		ROOT = {
+			prisoner = no
+			is_playable = yes
+			is_adult = yes
+			is_landed = yes
+			higher_tier_than = baron
+			NOR = {
+				in_revolt = yes
+				in_faction = faction_order
+				in_faction = faction_court
+				in_faction = faction_glory
+				in_faction = faction_tradition
+				has_character_modifier = plus_faction_abandoned
+			}
+		}
+	}
+
+	# Chance of creating the faction
+	# ROOT is target title
+	# FROM is faction creator
+	chance = {
+		factor = 50
+		stewardship_FROM_factor = yes
+	}
+
+	# Chance of joining the faction
+	# ROOT is joiner
+	# FROM is faction leader
+	# FROMFROM is target title or character
+	membership = {
+		factor = 50
+		stewardship_FROM_factor = yes
+	}
+
+	# When does it succeed?
+	# ROOT is target title
+	# FROM is faction leader (?)
+	success = {
+		always = no
+	}
+
+	# When does it fail?
+	# Factions will abort if the Potential or Allow trigger is no longer valid
+	abort = {
+		always = no
+	}
+}
+
+###############################################
+#
+#	Court Faction (intrigue)
+#
+###############################################
+
+faction_court = {
+	type = liege_titles
+
+	# Can this character create this faction?
+	# ROOT is faction creator
+	potential = {
+		prisoner = no
+		is_adult = yes
+		is_landed = yes
+		higher_tier_than = baron
+		NOR = {
+			in_revolt = yes
+			in_faction = faction_order
+			in_faction = faction_prosperity
+			in_faction = faction_glory
+			in_faction = faction_tradition
+			has_character_modifier = plus_faction_abandoned
+		}
+	}
+
+	# Which title does this plot apply to?
+	# Target title scope
+	# ROOT is target title
+	# FROM is faction creator
+	allow = {
+		is_primary_holder_title = yes
+	}
+
+	# Can this character join this faction?
+	# ROOT is faction joiner
+	# FROM is faction target
+	allow_join = {
+		ROOT = {
+			prisoner = no
+			is_playable = yes
+			is_adult = yes
+			is_landed = yes
+			higher_tier_than = baron
+			NOR = {
+				in_revolt = yes
+				in_faction = faction_order
+				in_faction = faction_prosperity
+				in_faction = faction_glory
+				in_faction = faction_tradition
+				has_character_modifier = plus_faction_abandoned
+			}
+		}
+	}
+
+	# Chance of creating the faction
+	# ROOT is target title
+	# FROM is faction creator
+	chance = {
+		factor = 50
+		intrigue_FROM_factor = yes
+	}
+
+	# Chance of joining the faction
+	# ROOT is joiner
+	# FROM is faction leader
+	# FROMFROM is target title or character
+	membership = {
+		factor = 50
+		intrigue_FROM_factor = yes
+	}
+
+	# When does it succeed?
+	# ROOT is target title
+	# FROM is faction leader (?)
+	success = {
+		always = no
+	}
+
+	# When does it fail?
+	# Factions will abort if the Potential or Allow trigger is no longer valid
+	abort = {
+		always = no
+	}
+}
+
+###############################################
+#
+#	Tradition Faction (learning)
 #
 ###############################################
 
@@ -419,7 +419,7 @@ faction_tradition = {
 	# FROM is faction creator
 	chance = {
 		factor = 50
-		learning_factor = yes
+		learning_FROM_factor = yes
 	}
 
 	# Chance of joining the faction
@@ -428,7 +428,7 @@ faction_tradition = {
 	# FROMFROM is target title or character
 	membership = {
 		factor = 50
-		learning_factor = yes
+		learning_FROM_factor = yes
 	}
 
 	# When does it succeed?

@@ -1,12 +1,36 @@
-#####
-#Plus Scores:
+##################################################################
 #
-#Total = 5
-#####
+#	Plus scripted score values
+#
+#	Total = 11
+#
+#	diplomacy_FROM_factor
+#	martial_FROM_factor
+#	stewardship_FROM_factor
+#	intrigue_FROM_factor
+#	learning_FROM_factor
+#
+#	like_FROM_factor
+#
+#	diplomacy_factor
+#	martial_factor
+#	stewardship_factor
+#	intrigue_factor
+#	learning_factor
+#
+##################################################################
 
+##################################################################
+#
+#	FROM score values
+#
+#	Used when the character in consideration is in FROM scope
+#	such as factions
+#
+##################################################################
 
 #Diplomacy Factor
-diplomacy_factor = { #Use this one for diplomacy focused events
+diplomacy_FROM_factor = { #Use this one for diplomacy focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
@@ -66,75 +90,11 @@ diplomacy_factor = { #Use this one for diplomacy focused events
 	mult_modifier = {
 		factor = 0.2
 		FROM = { trait = diligent }
-	}
-}
-
-#Intrigue Factor
-intrigue_factor = { #Use this one for intrigue focused events
-	#Top 3
-	mult_modifier = {
-		factor = 0.8
-		FROM = { trait = envious }
-	}
-	mult_modifier = {
-		factor = 0.8
-		FROM = { trait = greedy }
-	}
-	mult_modifier = {
-		factor = 0.8
-		FROM = { trait = proud }
-	}
-	#High 4
-	mult_modifier = {
-		factor = 0.6
-		FROM = { trait = patient }
-	}
-	mult_modifier = {
-		factor = 0.6
-		FROM = { trait = temperate }
-	}
-	mult_modifier = {
-		factor = 0.6
-		FROM = { trait = diligent }
-	}
-	mult_modifier = {
-		factor = 0.6
-		FROM = { trait = lustful }
-	}
-	#Low 4
-	mult_modifier = {
-		factor = 0.4
-		FROM = { trait = chaste }
-	}
-	mult_modifier = {
-		factor = 0.4
-		FROM = { trait = gluttonous }
-	}
-	mult_modifier = {
-		factor = 0.4
-		FROM = { trait = wroth }
-	}
-	mult_modifier = {
-		factor = 0.4
-		FROM = { trait = slothful }
-	}
-	#Bottom 3
-	mult_modifier = {
-		factor = 0.2
-		FROM = { trait = humble }
-	}
-	mult_modifier = {
-		factor = 0.2
-		FROM = { trait = charitable }
-	}
-	mult_modifier = {
-		factor = 0.2
-		FROM = { trait = kind }
 	}
 }
 
 #Martial Factor
-martial_factor = { #Use this one for martial focused events
+martial_FROM_factor = { #Use this one for martial focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
@@ -198,7 +158,7 @@ martial_factor = { #Use this one for martial focused events
 }
 
 #Stewardship Factor
-stewardship_factor = { #Use this one for stewardship focused events
+stewardship_FROM_factor = { #Use this one for stewardship focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
@@ -261,8 +221,72 @@ stewardship_factor = { #Use this one for stewardship focused events
 	}
 }
 
+#Intrigue Factor
+intrigue_FROM_factor = { #Use this one for intrigue focused events
+	#Top 3
+	mult_modifier = {
+		factor = 0.8
+		FROM = { trait = envious }
+	}
+	mult_modifier = {
+		factor = 0.8
+		FROM = { trait = greedy }
+	}
+	mult_modifier = {
+		factor = 0.8
+		FROM = { trait = proud }
+	}
+	#High 4
+	mult_modifier = {
+		factor = 0.6
+		FROM = { trait = patient }
+	}
+	mult_modifier = {
+		factor = 0.6
+		FROM = { trait = temperate }
+	}
+	mult_modifier = {
+		factor = 0.6
+		FROM = { trait = diligent }
+	}
+	mult_modifier = {
+		factor = 0.6
+		FROM = { trait = lustful }
+	}
+	#Low 4
+	mult_modifier = {
+		factor = 0.4
+		FROM = { trait = chaste }
+	}
+	mult_modifier = {
+		factor = 0.4
+		FROM = { trait = gluttonous }
+	}
+	mult_modifier = {
+		factor = 0.4
+		FROM = { trait = wroth }
+	}
+	mult_modifier = {
+		factor = 0.4
+		FROM = { trait = slothful }
+	}
+	#Bottom 3
+	mult_modifier = {
+		factor = 0.2
+		FROM = { trait = humble }
+	}
+	mult_modifier = {
+		factor = 0.2
+		FROM = { trait = charitable }
+	}
+	mult_modifier = {
+		factor = 0.2
+		FROM = { trait = kind }
+	}
+}
+
 #Learning Factor
-learning_factor = { #Use this one for learning focused events
+learning_FROM_factor = { #Use this one for learning focused events
 	#Top 3
 	mult_modifier = {
 		factor = 0.8
@@ -326,7 +350,7 @@ learning_factor = { #Use this one for learning focused events
 }
 
 #Like Factor
-like_factor = { #Use this one for events involving a FROM character
+like_FROM_factor = { #Use this one for events involving a FROM character
 	mult_modifier = {
 		factor = 1.9
 		personal_opinion = {
@@ -452,5 +476,333 @@ like_factor = { #Use this one for events involving a FROM character
 			who = FROM
 			value <= 90
 		}
+	}
+}
+
+#################################################################################
+#
+#	FROM score values
+#
+#	Used when the character in consideration is in the current or ROOT scope
+#
+#################################################################################
+
+#Diplomacy Factor
+diplomacy_factor = { #Use this one for diplomacy focused events
+	#Top 3
+	modifier = {
+		factor = 0.8
+		trait = slothful
+	}
+	modifier = {
+		factor = 0.8
+		trait = patient
+	}
+	modifier = {
+		factor = 0.8
+		trait = kind
+	}
+	#High 4
+	modifier = {
+		factor = 0.6
+		trait = proud
+	}
+	modifier = {
+		factor = 0.6
+		trait = charitable
+	}
+	modifier = {
+		factor = 0.6
+		trait = chaste
+	}
+	modifier = {
+		factor = 0.6
+		trait = gluttonous
+	}
+	#Low 4
+	modifier = {
+		factor = 0.4
+		trait = temperate
+	}
+	modifier = {
+		factor = 0.4
+		trait = lustful
+	}
+	modifier = {
+		factor = 0.4
+		trait = greedy
+	}
+	modifier = {
+		factor = 0.4
+		trait = humble
+	}
+	#Bottom 3
+	modifier = {
+		factor = 0.2
+		trait = envious
+	}
+	modifier = {
+		factor = 0.2
+		trait = wroth
+	}
+	modifier = {
+		factor = 0.2
+		trait = diligent
+	}
+}
+
+#Martial Factor
+martial_factor = { #Use this one for martial focused events
+	#Top 3
+	modifier = {
+		factor = 0.8
+		trait = wroth
+	}
+	modifier = {
+		factor = 0.8
+		trait = temperate
+	}
+	modifier = {
+		factor = 0.8
+		trait = humble
+	}
+	#High 4
+	modifier = {
+		factor = 0.6
+		trait = envious
+	}
+	modifier = {
+		factor = 0.6
+		trait = greedy
+	}
+	modifier = {
+		factor = 0.6
+		trait = diligent
+	}
+	modifier = {
+		factor = 0.6
+		trait = chaste
+	}
+	#Low 4
+	modifier = {
+		factor = 0.4
+		trait = lustful
+	}
+	modifier = {
+		factor = 0.4
+		trait = charitable
+	}
+	modifier = {
+		factor = 0.4
+		trait = slothful
+	}
+	modifier = {
+		factor = 0.4
+		trait = kind
+	}
+	#Bottom 3
+	modifier = {
+		factor = 0.2
+		trait = proud
+	}
+	modifier = {
+		factor = 0.2
+		trait = patient
+	}
+	modifier = {
+		factor = 0.2
+		trait = gluttonous
+	}
+}
+
+#Stewardship Factor
+stewardship_factor = { #Use this one for stewardship focused events
+	#Top 3
+	modifier = {
+		factor = 0.8
+		trait = greedy
+	}
+	modifier = {
+		factor = 0.8
+		trait = gluttonous
+	}
+	modifier = {
+		factor = 0.8
+		trait = diligent
+	}
+	#High 4
+	modifier = {
+		factor = 0.6
+		trait = proud
+	}
+	modifier = {
+		factor = 0.6
+		trait = lustful
+	}
+	modifier = {
+		factor = 0.6
+		trait = wroth
+	}
+	modifier = {
+		factor = 0.6
+		trait = envious
+	}
+	#Low 4
+	modifier = {
+		factor = 0.4
+		trait = chaste
+	}
+	modifier = {
+		factor = 0.4
+		trait = kind
+	}
+	modifier = {
+		factor = 0.4
+		trait = patient
+	}
+	modifier = {
+		factor = 0.4
+		trait = humble
+	}
+	#Bottom 3
+	modifier = {
+		factor = 0.2
+		trait = slothful
+	}
+	modifier = {
+		factor = 0.2
+		trait = charitable
+	}
+	modifier = {
+		factor = 0.2
+		trait = temperate
+	}
+}
+
+#Intrigue Factor
+intrigue_factor = { #Use this one for intrigue focused events
+	#Top 3
+	modifier = {
+		factor = 0.8
+		trait = envious
+	}
+	modifier = {
+		factor = 0.8
+		trait = greedy
+	}
+	modifier = {
+		factor = 0.8
+		trait = proud
+	}
+	#High 4
+	modifier = {
+		factor = 0.6
+		trait = patient
+	}
+	modifier = {
+		factor = 0.6
+		trait = temperate
+	}
+	modifier = {
+		factor = 0.6
+		trait = diligent
+	}
+	modifier = {
+		factor = 0.6
+		trait = lustful
+	}
+	#Low 4
+	modifier = {
+		factor = 0.4
+		trait = chaste
+	}
+	modifier = {
+		factor = 0.4
+		trait = gluttonous
+	}
+	modifier = {
+		factor = 0.4
+		trait = wroth
+	}
+	modifier = {
+		factor = 0.4
+		trait = slothful
+	}
+	#Bottom 3
+	modifier = {
+		factor = 0.2
+		trait = humble
+	}
+	modifier = {
+		factor = 0.2
+		trait = charitable
+	}
+	modifier = {
+		factor = 0.2
+		trait = kind
+	}
+}
+
+#Learning Factor
+learning_factor = { #Use this one for learning focused events
+	#Top 3
+	modifier = {
+		factor = 0.8
+		trait = chaste
+	}
+	modifier = {
+		factor = 0.8
+		trait = humble
+	}
+	modifier = {
+		factor = 0.8
+		trait = charitable
+	}
+	#High 4
+	modifier = {
+		factor = 0.6
+		trait = gluttonous
+	}
+	modifier = {
+		factor = 0.6
+		trait = wroth
+	}
+	modifier = {
+		factor = 0.6
+		trait = slothful
+	}
+	modifier = {
+		factor = 0.6
+		trait = kind
+	}
+	#Low 4
+	modifier = {
+		factor = 0.4
+		trait = envious
+	}
+	modifier = {
+		factor = 0.4
+		trait = diligent
+	}
+	modifier = {
+		factor = 0.4
+		trait = temperate
+	}
+	modifier = {
+		factor = 0.4
+		trait = patient
+	}
+	#Bottom 3
+	modifier = {
+		factor = 0.2
+		trait = greedy
+	}
+	modifier = {
+		factor = 0.2
+		trait = proud
+	}
+	modifier = {
+		factor = 0.2
+		trait = lustful
 	}
 }
