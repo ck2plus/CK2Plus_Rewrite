@@ -1,0 +1,57 @@
+
+1000104050 = {
+	name="Al Jalili"
+	culture = iraqi
+}
+1000104051 = {
+	name="Mirdasid"
+	culture = iraqi
+}
+1000104052 = {
+	name="Numayrid"
+	culture = iraqi	
+}
+1000104053 = {
+	name="Buwayhid"
+	culture = iraqi	
+}
+1000104054 = {
+	name="Yaseenid"
+	culture = iraqi	
+}
+1000104055 = {
+	name="Banu Tamim"
+	culture = iraqi	
+}
+1000104056 = {
+	name="Firazid"
+	culture = iraqi	
+}
+1000104057 = {
+	name="Husseinid"
+	culture = iraqi	
+}
+1000104058 = {
+	name="Shabanid"
+	culture = iraqi	
+}
+1000104059 = {
+	name="Zahirid"
+	culture = iraqi
+}
+1000104060 = {
+	name="Naderid"
+	culture = iraqi
+}
+1000104061 = {
+	name="Ghazi"
+	culture = iraqi
+}
+1000104062 = {
+	name="Shadid"
+	culture = iraqi
+}
+1000104063 = {
+	name="Azizid"
+	culture = iraqi
+}

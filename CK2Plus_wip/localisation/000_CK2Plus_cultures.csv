@@ -122,6 +122,8 @@ khwarazmian;Khwarazmian;Chorasmien;Choresmisch;;Corasmia;;;;;;;;;x
 
 geatish;Geatish;ötalandais;Geatisch;;Gauta;;;;;;;;;x
 
+iraqi;Mesopotamian;Mesopotamian;Mesopotamian;;Mesopotamian;;;;;;;;;x
+
 daylamite;Daylamite;Dailamite;Dailamitisch;;Dailamita;;;;;;;;;x
 luri;Luri;Louri;Lurisch;;Lorí;;;;;;;;;x
 
@@ -132,6 +134,7 @@ chadic_group;Chadic;Tchadique;Chadisch;;Chadico;;;;;;;;;x
 
 
 # Overrides
+arabic;Mashriqi;Mashriqi;Mashriqi;;Mashriqi;;;;;;;;;x
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
 west_germanic;Mare Germanic;Mer-Germanique;Meergermanisch;;Oeste Germánica;;;;;;;;;x
 iranian;West Iranian; Ouest Iranien; Westiranisch;;Iraní Occidental;;;;;;;;;x
