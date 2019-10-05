@@ -1,0 +1,57 @@
+cheerful = {
+	opposites = {
+		serious
+		moody
+	}
+
+	personality = yes
+
+	diplomacy = 1
+	learning = -1
+
+	ai_rationality = -10
+
+	sex_appeal_opinion = 10
+	opposite_opinion = -5
+	same_opinion = 5
+	christian_church_opinion = -5
+
+	command_modifier = {
+		morale_offence = 0.05
+	}
+}
+
+moody = {
+	opposites = {
+		cheerful
+	}
+
+	personality = yes
+
+	diplomacy = -1
+	intrigue = 1
+
+	ai_rationality = -10
+	ai_zeal = -10
+	ai_ambition = -10
+
+	sex_appeal_opinion = -5
+	opposite_opinion = -5
+	same_opinion = 5
+}
+
+serious = {
+	opposites = {
+		cheerful
+	}
+
+	personality = yes
+
+	stewardship = 1
+	learning = 1
+
+	ai_rationality = 25
+
+	opposite_opinion = -5
+	same_opinion = 5
+}

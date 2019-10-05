@@ -1,0 +1,32 @@
+spriteTypes = {
+
+	#Order faction
+	spriteType = {
+		name = "GFX_faction_order"
+		texturefile = "gfx/factions/icon_diplomacy.dds"
+	}
+
+	#Glory Faction
+	spriteType = {
+		name = "GFX_faction_glory"
+		texturefile = "gfx/factions/icon_martial.dds"
+	}
+
+	#Prosperity Faction
+	spriteType = {
+		name = "GFX_faction_prosperity"
+		texturefile = "gfx/factions/icon_stewardship.dds"
+	}
+
+	#Court Faction
+	spriteType = {
+		name = "GFX_faction_court"
+		texturefile = "gfx/factions/icon_intrigue.dds"
+	}
+
+	#Tradition Faction
+	spriteType = {
+		name = "GFX_faction_tradition"
+		texturefile = "gfx/factions/icon_learning.dds"
+	}
+}

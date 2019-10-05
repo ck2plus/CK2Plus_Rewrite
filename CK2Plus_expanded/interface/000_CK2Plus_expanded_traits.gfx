@@ -1,0 +1,34 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_machas_javelin"
+		textureFile = "gfx/traits/machas_javelin.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_druid"
+		textureFile = "gfx/traits/druid.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_bad_priest_celtic"
+		textureFile = "gfx/traits/bad_priest_celtic.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_celtic_leader"
+		textureFile = "gfx/traits/celtic_leader.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+}

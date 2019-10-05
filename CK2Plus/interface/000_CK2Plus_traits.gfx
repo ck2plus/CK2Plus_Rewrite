@@ -1,0 +1,162 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_agile"
+		textureFile = "gfx/traits/agile.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_ambidextrous"
+		textureFile = "gfx/traits/ambidextrous.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_calm_voice"
+		textureFile = "gfx/traits/calm_voice.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_cheerful"
+		textureFile = "gfx/traits/cheerful.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_clumsy"
+		textureFile = "gfx/traits/clumsy.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_deaf"
+		textureFile = "gfx/traits/deaf.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_fertile"
+		textureFile = "gfx/traits/fertile.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_melodious_voice"
+		textureFile = "gfx/traits/melodious_voice.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_moody"
+		textureFile = "gfx/traits/moody.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_perceptive"
+		textureFile = "gfx/traits/perceptive.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_powerful_voice"
+		textureFile = "gfx/traits/powerful_voice.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_serious"
+		textureFile = "gfx/traits/serious.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_tall"
+		textureFile = "gfx/traits/tall.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_minus_1_age"
+		textureFile = "gfx/traits/minus1.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_minus_2_age"
+		textureFile = "gfx/traits/minus2.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_minus_4_age"
+		textureFile = "gfx/traits/minus4.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_minus_8_age"
+		textureFile = "gfx/traits/minus8.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_minus_16_age"
+		textureFile = "gfx/traits/minus16.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_minus_32_age"
+		textureFile = "gfx/traits/minus32.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_minus_64_age"
+		textureFile = "gfx/traits/minus64.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+}

@@ -1,5 +1,0 @@
-name="CK2Plus_wip"
-path="mod/CK2Plus_wip"
-replace_path="common/cultures"
-replace_path="common/laws"
-replace_path="common/traits"

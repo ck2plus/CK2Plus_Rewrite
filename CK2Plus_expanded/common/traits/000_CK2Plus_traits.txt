@@ -1,0 +1,97 @@
+celtic_leader = {
+	command_modifier = {
+		terrain = forest
+		terrain = farmlands
+		terrain = hills
+		terrain = plains
+	}
+
+	leader = yes
+	random = no
+}
+
+druid = {
+	potential = {
+		OR = {
+			religion = celtic_pagan
+			religion = celtic_pagan_reformed
+		}
+		is_theocracy = yes
+	}
+
+	opposites =  {
+		bad_priest_celtic
+	}
+
+	customizer = no
+	religious = yes
+
+	learning = 1
+	diplomacy = 1
+}
+
+bad_priest_celtic = { # Plus
+	potential = {
+		OR = {
+			is_theocracy = yes
+			is_ruler = no
+			controls_religion = celtic_pagan_reformed
+		}
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	monthly_character_piety = -1
+
+	church_opinion = -10
+	same_opinion_if_same_religion = 25
+
+	male_insult = INSULT_SCARECROW
+	female_insult = INSULT_SCARECROW
+	child_insult = INSULT_SCARECROW
+	male_insult_adj = INSULT_USELESS
+	female_insult_adj = INSULT_USELESS
+	child_insult_adj = INSULT_CRUMMY
+}
+
+machas_javelin  = {	# Plus
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 5
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}

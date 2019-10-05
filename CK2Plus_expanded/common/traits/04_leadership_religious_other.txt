@@ -1,0 +1,3395 @@
+########################################################################################################
+# WARNING: IF YOU DON'T ADD NEW TRAITS LAST (IN THE LAST READ TRAIT FILE), IT WILL BREAK OLD SAVE GAMES!
+########################################################################################################
+
+#################
+#
+#	Leadership
+#
+#################
+
+aggressive_leader = {
+	leader = yes
+
+	command_modifier = {
+		pursue = 0.25
+		damage = 0.1
+		defence = -0.1
+	}
+}
+
+defensive_leader = {
+	leader = yes
+
+	command_modifier = {
+		defence = 0.25
+		damage = -0.1
+	}
+}
+
+experimenter = { # Direct Leader
+	leader = yes
+
+	command_modifier = {
+		center = 0.2
+	}
+}
+
+flanker = {
+	leader = yes
+
+	command_modifier = {
+		flank = 0.2
+	}
+}
+
+holy_warrior = {
+	leader = yes
+
+	command_modifier = {
+		religious_enemy = 0.3
+	}
+
+	male_compliment = COMPL_HOLY_WARRIOR
+	female_compliment = COMPL_HOLY_WARRIOR
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+}
+
+inspiring_leader = {
+	leader = yes
+
+	command_modifier = {
+		morale_offence = 0.15
+		morale_defence = 0.15
+	}
+}
+
+narrow_flank_leader = {
+	leader = yes
+
+	command_modifier = {
+		narrow_flank = 0.5
+	}
+}
+
+organizer = {
+	leader = yes
+
+	command_modifier = {
+		speed = 0.2
+		retreat = 0.1
+	}
+}
+
+siege_leader = {
+	leader = yes
+
+	command_modifier = {
+		siege = 0.4
+	}
+}
+
+trickster = {
+	leader = yes
+
+	command_modifier = {
+		random = 0.3
+	}
+}
+
+unyielding_leader = {
+	leader = yes
+
+	command_modifier = {
+		morale_defence = 0.2
+		defence = 0.1
+	}
+}
+
+winter_soldier = {
+	leader = yes
+	random = no
+
+	command_modifier = {
+		winter_supply = 4
+		winter_combat = 0.5
+	}
+}
+
+cavalry_leader = {
+	leader = yes
+
+	command_modifier = {
+		cavalry = 0.2
+	}
+}
+
+heavy_infantry_leader = {
+	leader = yes
+
+	command_modifier = {
+		heavy_infantry = 0.2
+	}
+}
+
+light_foot_leader = {
+	leader = yes
+
+	command_modifier = {
+		light_infantry = 0.2
+	}
+}
+
+war_elephant_leader = {
+	leader = yes
+	random = no
+
+	command_modifier = {
+		war_elephants = 0.2
+		morale_offence = 0.2
+	}
+}
+
+desert_terrain_leader = {
+	leader = yes
+	random = no
+
+	command_modifier = {
+		terrain = desert
+	}
+
+	male_insult = INSULT_DESERT_RAT
+	female_insult = INSULT_DESERT_RAT
+}
+
+flat_terrain_leader = {
+	leader = yes
+	random = no
+
+	command_modifier = {
+		terrain = plains
+		terrain = farmlands
+		terrain = steppe
+	}
+}
+
+jungle_terrain_leader = {
+	leader = yes
+	random = no
+
+	command_modifier = {
+		terrain = jungle
+	}
+
+	male_insult = INSULT_JUNGLE_SNAKE
+	female_insult = INSULT_JUNGLE_SNAKE
+}
+
+mountain_terrain_leader = {
+	leader = yes
+	random = no
+
+	command_modifier = {
+		terrain = mountain
+	}
+}
+
+rough_terrain_leader = {
+	leader = yes
+	random = no
+
+	command_modifier = {
+		terrain = forest
+		terrain = hills
+	}
+}
+
+levy_coordinator = { # Way of the Tiger
+	potential = {
+		OR = {
+			culture = han
+			has_character_flag = taught_chinese_strategy
+			has_character_flag = originated_from_chinese_court
+		}
+	}
+
+	leader = yes
+
+	command_modifier = {
+		flank = 0.2
+		speed = 0.3
+		retreat = 0.2
+	}
+}
+
+logistics_expert = { # Way of the Dog
+	potential = {
+		OR = {
+			culture = han
+			has_character_flag = taught_chinese_strategy
+			has_character_flag = originated_from_chinese_court
+		}
+	}
+
+	leader = yes
+
+	attrition = -0.5
+	days_of_supply = 30
+
+	command_modifier = {
+		center = 0.2
+	}
+}
+
+master_of_flame = { # Way of the Dragon
+	potential = {
+		OR = {
+			culture = han
+			has_character_flag = taught_chinese_strategy
+			has_character_flag = originated_from_chinese_court
+		}
+	}
+
+	leader = yes
+
+	command_modifier = {
+		damage = 0.2
+		morale_offence = 0.2
+	}
+}
+
+sapper = { # Way of the Leopard
+	potential = {
+		OR = {
+			culture = han
+			has_character_flag = taught_chinese_strategy
+			has_character_flag = originated_from_chinese_court
+		}
+	}
+
+	leader = yes
+
+	command_modifier = {
+		terrain = forest
+		terrain = hills
+		siege = 0.5
+	}
+}
+
+### Warrior Lodges ###
+baltic_leader = {
+	command_modifier = {
+		terrain = forest
+		defence = 0.15
+		flank = 0.3
+	}
+
+	leader = yes
+	random = no
+}
+
+bon_leader = {
+	command_modifier = {
+		terrain = mountain
+		terrain = hills
+		speed = 0.1
+		light_infantry = 0.2
+	}
+
+	leader = yes
+	random = no
+}
+
+finnish_leader = {
+	command_modifier = {
+		terrain = arctic
+		winter_combat = 0.25
+		winter_supply = 3
+		defence = 0.1
+	}
+
+	leader = yes
+	random = no
+}
+
+hellenic_leader = {
+	command_modifier = {
+		speed = 0.1
+		morale_defence = 0.2
+		morale_offence = 0.3
+	}
+
+	leader = yes
+	random = no
+}
+
+norse_leader = {
+	trait_effect_capture_commanders = 1 #Bonus to capturing commanders
+	command_modifier = {
+		heavy_infantry = 0.25
+	}
+
+	leader = yes
+	random = no
+}
+
+slavic_leader = {
+	command_modifier = {
+		terrain = plains
+		morale_defence = 0.2
+		morale_offence = 0.2
+	}
+
+	leader = yes
+	random = no
+}
+
+tengri_leader = {
+	command_modifier = {
+		terrain = steppe
+		terrain = plains
+		terrain = farmlands
+		light_cavalry = 0.2
+		knights = 0.1
+	}
+
+	leader = yes
+	random = no
+}
+
+west_african_leader = {
+	command_modifier = {
+		terrain = desert
+		light_infantry = 0.2
+		light_cavalry = 0.2
+	}
+
+	leader = yes
+	random = no
+}
+
+zun_leader = {
+	command_modifier = {
+		terrain = desert
+		terrain = mountain
+		siege = 0.2
+		speed = 0.1
+	}
+
+	leader = yes
+	random = no
+}
+
+###############
+#
+#	Religious
+#
+###############
+
+excommunicated = {
+	potential = {
+		NOT = { controls_religion = yes }
+	}
+
+	religious = yes
+
+	diplomacy = -4
+
+	same_religion_opinion = -20
+	same_opinion_if_same_religion = 10
+
+	male_insult = INSULT_RENEGADE
+	female_insult = INSULT_RENEGADE
+	child_insult = INSULT_DEVIL
+	male_insult_adj = INSULT_GODLESS
+	female_insult_adj = INSULT_GODLESS
+	child_insult_adj = INSULT_EVIL
+}
+
+decadent = { # Controls Muslim decadence gain
+	potential = {
+		religion_group = muslim
+	}
+
+	opposites = {
+		zealous
+	}
+
+	customizer = no
+	random = no
+
+	combat_rating = -10
+
+	male_insult = INSULT_SYBARITE
+	female_insult = INSULT_SYBARITE
+	child_insult_adj = INSULT_FARTMASTER
+	male_insult_adj = INSULT_DECADENT
+	female_insult_adj = INSULT_DECADENT
+	child_insult_adj = INSULT_LAZY
+}
+
+heresiarch = {
+	customizer = no
+	rebel_inherited = yes
+	religious = yes
+
+	combat_rating = 3 #new Plus value!
+
+	infidel_opinion = -15
+	same_religion_opinion = 25
+
+	male_insult = INSULT_HERESIARCH
+	female_insult = INSULT_HERESIARCH
+	child_insult = INSULT_PEABRAIN
+}
+
+bad_priest_aztec = {
+	potential = {
+		OR = {
+			is_theocracy = yes
+			is_ruler = no
+		}
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	monthly_character_piety = -1
+
+	church_opinion = -10
+	same_opinion_if_same_religion = 25
+
+	male_insult = INSULT_SCARECROW
+	female_insult = INSULT_SCARECROW
+	child_insult = INSULT_SCARECROW
+	male_insult_adj = INSULT_USELESS
+	female_insult_adj = INSULT_USELESS
+	child_insult_adj = INSULT_CRUMMY
+}
+
+bad_priest_christian = {
+
+	religious = yes
+
+	potential = {
+		OR = {
+			is_theocracy = yes
+			is_ruler = no
+		}
+	}
+
+	church_opinion = -10
+	same_opinion_if_same_religion = 25
+
+	monthly_character_piety = -1
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_SCARECROW
+	female_insult = INSULT_SCARECROW
+	child_insult = INSULT_SCARECROW
+	male_insult_adj = INSULT_DECADENT
+	female_insult_adj = INSULT_CORRUPT
+	child_insult_adj = INSULT_CRUMMY
+}
+
+bad_priest_muslim = {
+
+	religious = yes
+
+	potential = {
+		OR = {
+			controls_religion = sunni
+			controls_religion = shiite
+			controls_religion = ibadi
+			controls_religion = hurufi
+		}
+	}
+
+	church_opinion = -10
+	same_opinion_if_same_religion = 25
+
+	monthly_character_piety = -1
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_SCARECROW
+	female_insult = INSULT_SCARECROW
+	child_insult = INSULT_SCARECROW
+	male_insult_adj = INSULT_DECADENT
+	female_insult_adj = INSULT_CORRUPT
+	child_insult_adj = INSULT_CRUMMY
+}
+
+bad_priest_norse = {
+	potential = {
+		OR = {
+			is_theocracy = yes
+			is_ruler = no
+			controls_religion = norse_pagan_reformed
+		}
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	monthly_character_piety = -1
+
+	church_opinion = -10
+	same_opinion_if_same_religion = 25
+
+	male_insult = INSULT_SCARECROW
+	female_insult = INSULT_SCARECROW
+	child_insult = INSULT_SCARECROW
+	male_insult_adj = INSULT_USELESS
+	female_insult_adj = INSULT_USELESS
+	child_insult_adj = INSULT_CRUMMY
+}
+
+bad_priest_tengri = {
+	potential = {
+		OR = {
+			is_theocracy = yes
+			is_ruler = no
+		}
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	monthly_character_piety = -1
+
+	church_opinion = -10
+	same_opinion_if_same_religion = 25
+
+	male_insult = INSULT_SCARECROW
+	female_insult = INSULT_SCARECROW
+	child_insult = INSULT_SCARECROW
+	male_insult_adj = INSULT_DECADENT
+	female_insult_adj = INSULT_CORRUPT
+	child_insult_adj = INSULT_CRUMMY
+}
+
+bad_priest_zoroastrian = {
+	potential = {
+		OR = {
+			is_theocracy = yes
+			is_ruler = no
+		}
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	monthly_character_piety = -1
+
+	church_opinion = -10
+	same_opinion_if_same_religion = 25
+
+	male_insult = INSULT_SCARECROW
+	female_insult = INSULT_SCARECROW
+	child_insult = INSULT_SCARECROW
+	male_insult_adj = INSULT_DECADENT
+	female_insult_adj = INSULT_CORRUPT
+	child_insult_adj = INSULT_CRUMMY
+}
+
+baptized_by_pope = {
+	opposites =  {
+		baptized_by_patriarch
+		baptized_by_bishop
+		baptized_by_satan
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.1
+
+	christian_opinion = 5
+}
+
+baptized_by_patriarch = { #Same as Pope, only used to prevent localisation from breaking upon death.
+	opposites =  {
+		baptized_by_pope
+		baptized_by_bishop
+		baptized_by_satan
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.1
+
+	christian_opinion = 5
+}
+
+baptized_by_bishop = {
+	opposites =  {
+		baptized_by_patriarch
+		baptized_by_pope
+		baptized_by_satan
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	monthly_character_piety = 0.05
+
+	church_opinion = 5
+}
+
+baptized_by_satan = { # Increases society influence output
+	is_visible = {
+		OR = {
+			character = FROM
+			society_member_of = the_satanists
+		}
+	}
+
+	opposites = {
+		baptized_by_patriarch
+		baptized_by_bishop
+		baptized_by_pope
+	}
+
+	customizer = no
+	random = no
+
+	ai_zeal = -50
+
+	same_opinion = 15
+}
+
+on_hajj = { # Muslim performing hajj
+	potential = {
+		religion_group = muslim
+		NOT = { trait = hajjaj }
+	}
+
+	cached = yes		# Keep a cache of all trait holders, to use with the corresponding scope
+	customizer = no
+	pilgrimage = yes	# Will need a regent, but can still be guardian to children
+
+	monthly_character_piety = 0.2
+
+	muslim_opinion = 10
+}
+
+hajjaj = { # Muslim who has completed the Hajj
+	potential = {
+		religion_group = muslim
+	}
+
+	monthly_character_piety = 0.1
+
+	muslim_opinion = 5
+
+	male_compliment = COMPL_HAJJAJ
+	female_compliment = COMPL_HAJJAJ
+}
+
+on_pilgrimage = { # Christian pilgrim while doing pilgrimage
+	potential = {
+		religion_group = christian
+		NOT = { trait = pilgrim }
+	}
+
+	cached = yes		# Keep a cache of all trait holders, to use with the corresponding scope
+	customizer = no
+	pilgrimage = yes	# Will need a regent, but can still be guardian to children
+
+	monthly_character_piety = 0.2
+
+	same_religion_opinion = 5
+}
+
+pilgrim = { # Christian who has completed a Pilgrimage
+	potential = {
+		religion_group = christian
+	}
+
+	monthly_character_piety = 0.1
+
+	same_religion_opinion = 5
+
+	male_compliment = COMPL_PILGRIM
+	female_compliment = COMPL_PILGRIM
+}
+
+on_indian_pilgrimage = { # Dharmic pilgrim while doing pilgrimage
+	potential = {
+		has_dharmic_religion_trigger = yes
+		NOT = { trait = pilgrim }
+	}
+
+	cached = yes		# Keep a cache of all trait holders, to use with the corresponding scope
+	customizer = no
+	pilgrimage = yes	# Will need a regent, but can still be guardian to children
+
+	monthly_character_piety = 0.2
+
+	same_religion_opinion = 5
+}
+
+indian_pilgrim = { # Dharmic who has completed a Pilgrimage
+	potential = {
+		has_dharmic_religion_trigger = yes
+	}
+
+	monthly_character_piety = 0.1
+
+	same_religion_opinion = 5
+
+	male_compliment = COMPL_PILGRIM
+	female_compliment = COMPL_PILGRIM
+}
+
+faqih = { # Muslim who is schooled in Islamic jurisprudence
+	potential = {
+		religion_group = muslim
+	}
+
+	opposites = {
+		scholar
+	}
+
+	learning = 3
+
+	muslim_opinion = 5
+
+	male_compliment = COMPL_FAQIH
+	female_compliment = COMPL_FAQIH
+	male_compliment_adj = COMPL_WISE
+	female_compliment_adj = COMPL_WISE
+}
+
+hafiz = { # Muslim who has completely memorized the Qur'an
+	potential = {
+		religion_group = muslim
+	}
+
+	muslim_opinion = 5
+
+	male_compliment = COMPL_HAFIZ
+	female_compliment = COMPL_HAFIZ
+}
+
+sayyid = { # Muslim agnatically descended from Muhammed
+	opposites = {
+		mirza
+	}
+
+	agnatic = yes # Always inherited from fathers
+
+	muslim_opinion = 5
+
+	male_compliment = COMPL_SAYYID
+	female_compliment = COMPL_SAYYIDA
+}
+
+mirza = { # Child of a Sayyida mother (hardcoded to be passed on from Sayyid trait)
+	opposites = {
+		sayyid
+	}
+
+	muslim_opinion = 5
+
+	male_compliment = COMPL_MIRZA
+	female_compliment = COMPL_MIRZA
+}
+
+saoshyant = {
+	customizer = no
+
+	combat_rating = 20
+
+	zoroastrian_opinion = 10
+
+	male_compliment = COMPL_SAOSHYANT
+	female_compliment = COMPL_SAOSHYANT
+}
+
+saoshyant_descendant = {
+	customizer = no
+
+	zoroastrian_opinion = 5
+}
+
+reincarnation = { # Character is seen as a reincarnation of another character
+	customizer = no
+	random = no
+}
+
+monk = {
+	potential = {
+		is_ruler = no
+		is_female = no
+	}
+
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 0.3
+
+	same_religion_opinion = 5
+
+	male_compliment = COMPL_MONK
+}
+
+nun = {
+	potential = {
+		is_ruler = no
+		is_female = yes
+	}
+
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 0.3
+
+	same_religion_opinion = 5
+
+	female_compliment = COMPL_NUN
+}
+
+aryika = {
+	potential = {
+		is_ruler = no
+		is_female = yes
+		religion = jain
+	}
+
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 0.3
+
+	same_religion_opinion = 5
+
+	female_compliment = COMPL_NUN
+}
+
+muni = {
+	potential = {
+		is_ruler = no
+		is_female = no
+		religion = jain
+	}
+
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 0.3
+
+	same_religion_opinion = 5
+
+	male_compliment = COMPL_MONK
+}
+
+bhikkhu = {
+	potential = {
+		is_ruler = no
+		is_female = no
+		religion = buddhist
+	}
+
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 0.3
+
+	same_religion_opinion = 5
+
+	male_compliment = COMPL_MONK
+}
+
+bhikkhuni = {
+	potential = {
+		is_ruler = no
+		is_female = yes
+		religion = buddhist
+	}
+
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 0.3
+
+	same_religion_opinion = 5
+
+	female_compliment = COMPL_NUN
+}
+
+sanyasi = {
+	potential = {
+		is_ruler = no
+		is_female = no
+		religion = hindu
+	}
+
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 0.3
+
+	same_religion_opinion = 5
+
+	male_compliment = COMPL_MONK
+}
+
+sanyasini = {
+	potential = {
+		is_ruler = no
+		is_female = yes
+		religion = hindu
+	}
+
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 0.3
+
+	same_religion_opinion = 5
+
+	female_compliment = COMPL_NUN
+}
+
+ashari = {
+	opposites =  {
+		mutazilite
+	}
+
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	monthly_character_piety = 1
+
+	opposite_opinion = -30
+}
+
+mutazilite = {
+	opposites =  {
+		ashari
+	}
+
+	customizer = no
+	random = no
+	religious = yes # Lost immediately on religion change
+
+	learning = 5
+
+	opposite_opinion = -30
+}
+
+brahmin = {
+	potential = {
+		OR = {
+			religion = buddhist
+			religion = hindu
+			religion = jain
+		}
+	}
+
+	opposites = {
+		kshatriya
+		vaishya
+	}
+
+	customizer = no
+	random = no
+
+	monthly_character_piety = 0.1
+
+	caste_tier = 3
+}
+
+kshatriya = {
+	potential = {
+		OR = {
+			religion = buddhist
+			religion = hindu
+			religion = jain
+		}
+	}
+
+	opposites = {
+		brahmin
+		vaishya
+	}
+
+	customizer = no
+	random = no
+
+	monthly_character_prestige = 0.1
+
+	caste_tier = 2
+}
+
+vaishya = {
+	potential = {
+		OR = {
+			religion = buddhist
+			religion = hindu
+			religion = jain
+		}
+	}
+
+	opposites = {
+		brahmin
+		kshatriya
+	}
+
+	customizer = no
+	random = no
+
+	monthly_character_wealth = 0.03
+
+	caste_tier = 1
+}
+
+shaivist_hindu = {
+	potential = { religion = hindu }
+
+	opposites = {
+		vaishnavist_hindu
+		shaktist_hindu
+		smartist_hindu
+	}
+
+	random = no
+	religious = yes
+
+	monthly_character_prestige = 0.5
+
+	opposite_opinion = -5
+
+	religious_branch = hindu
+	ruler_designer_cost = 0
+}
+
+shaktist_hindu = {
+	potential = { religion = hindu }
+
+	opposites = {
+		vaishnavist_hindu
+		shaivist_hindu
+		smartist_hindu
+	}
+
+	random = no
+	religious = yes
+
+	fertility = 0.2
+
+	opposite_opinion = -5
+
+	religious_branch = hindu
+	ruler_designer_cost = 0
+}
+
+smartist_hindu = {
+	potential = { religion = hindu }
+
+	opposites = {
+		vaishnavist_hindu
+		shaktist_hindu
+		shaivist_hindu
+	}
+
+	random = no
+	religious = yes
+
+	monthly_character_piety = 0.5
+
+	opposite_opinion = -5
+
+	religious_branch = hindu
+	ruler_designer_cost = 0
+}
+
+vaishnavist_hindu = {
+	potential = { religion = hindu }
+
+	opposites = {
+		shaivist_hindu
+		shaktist_hindu
+		smartist_hindu
+	}
+
+	random = no
+	religious = yes
+
+	opposite_opinion = -5
+	vassal_opinion = 5
+
+	religious_branch = hindu
+	ruler_designer_cost = 0
+}
+
+mahayana_buddhist = {
+	potential = { religion = buddhist }
+
+	opposites = {
+		vajrayana_buddhist
+		theravada_buddhist
+	}
+
+	random = no
+	religious = yes
+
+	opposite_opinion = -5
+	vassal_opinion = 5
+
+	religious_branch = buddhist
+	ruler_designer_cost = 0
+}
+
+theravada_buddhist = {
+	potential = { religion = buddhist }
+
+	opposites = {
+		vajrayana_buddhist
+		mahayana_buddhist
+	}
+
+	random = no
+	religious = yes
+
+	learning = 1
+
+	opposite_opinion = -5
+
+	religious_branch = buddhist
+	ruler_designer_cost = 0
+}
+
+vajrayana_buddhist = {
+	potential = { religion = buddhist }
+
+	opposites = {
+		mahayana_buddhist
+		theravada_buddhist
+	}
+
+	random = no
+	religious = yes
+
+	health = 1
+
+	opposite_opinion = -5
+
+	religious_branch = buddhist
+	ruler_designer_cost = 0
+}
+
+digambara_jain = {
+	potential = { religion = jain }
+
+	opposites = {
+		svetambara_jain
+	}
+
+	random = no
+	religious = yes
+
+	health = 1
+
+	opposite_opinion = -5
+
+	religious_branch = jain
+	ruler_designer_cost = 0
+}
+
+svetambara_jain = {
+	potential = { religion = jain }
+
+	opposites = {
+		digambara_jain
+	}
+
+	random = no
+	religious = yes
+
+	opposite_opinion = -5
+	vassal_opinion = 5
+
+	religious_branch = jain
+	ruler_designer_cost = 0
+}
+
+sympathy_christendom = {
+	potential = {
+		NOT = { religion_group = christian }
+	}
+
+	opposites =  {
+		zealous
+	}
+
+	customizer = no
+	random = no
+	tolerates_christian = yes # Tolerates and is tolerated by Christians
+
+	same_opinion_if_same_religion = 5
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+sympathy_indian = {
+	potential = {
+		NOT = { religion_group = indian_group }
+	}
+
+	opposites =  {
+		zealous
+	}
+
+	customizer = no
+	random = no
+	tolerates_indian_group = yes # Tolerates and is tolerated by Indian religions
+
+	same_opinion_if_same_religion = 5
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+sympathy_islam = {
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+
+	opposites =  {
+		zealous
+	}
+
+	customizer = no
+	random = no
+	tolerates_muslim = yes # Tolerates and is tolerated by Muslims
+
+	same_opinion_if_same_religion = 5
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+sympathy_judaism = {
+	potential = {
+		NOT = { religion_group = jewish_group }
+	}
+
+	opposites =  {
+		zealous
+	}
+
+	customizer = no
+	random = no
+	tolerates_jewish_group = yes # Tolerates and is tolerated by Jews
+
+	same_opinion_if_same_religion = 5
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+sympathy_pagans = {
+	potential = {
+		NOT = { religion_group = pagan_group }
+	}
+
+	opposites =  {
+		zealous
+	}
+
+	customizer = no
+	random = no
+	tolerates_pagan_group = yes # Tolerates and is tolerated by Pagans
+
+	same_opinion_if_same_religion = 5
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+sympathy_zoroastrianism = {
+	potential = {
+		NOT = { religion_group = zoroastrian_group }
+	}
+
+	opposites =  {
+		zealous
+	}
+
+	customizer = no
+	random = no
+	tolerates_zoroastrian_group = yes # Tolerates and is tolerated by Zoroastrians
+
+	same_opinion_if_same_religion = 5
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+berserker = {
+	potential = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+		}
+	}
+
+	martial = 4
+	diplomacy = -2
+	combat_rating = 25
+
+	ai_rationality = -5
+
+	same_opinion = 10
+
+	male_compliment = COMPL_BERSERKER
+	female_compliment = COMPL_BERSERKER
+	male_insult = INSULT_LUNATIC
+	female_insult = INSULT_LUNATIC
+	child_insult = INSULT_TROLL
+	male_insult_adj = INSULT_CRAZED
+	female_insult_adj = INSULT_CRAZED
+	child_insult_adj = INSULT_CRAZY
+}
+
+viking = {
+	potential = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_viking
+			}
+		}
+	}
+
+	opposites =  {
+		ravager
+		seaking
+		sea_queen
+	}
+
+	martial = 1
+	combat_rating = 10
+
+	monthly_character_prestige = 0.3
+
+	norse_pagan_opinion = 15
+	norse_pagan_reformed_opinion = 15
+	same_opinion = 5
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+	male_compliment = COMPL_VIKING
+	male_compliment_adj = COMPL_VIKING_adj
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+pirate = {
+	potential = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			has_character_flag = acquired_pirate_trait_by_bloodline
+			AND = {
+				has_religion_feature = religion_adventuring
+				has_religion_feature = religion_seafaring
+			}
+		}
+	}
+
+	opposites =  {
+		viking
+		ravager
+		seaking
+		sea_queen
+	}
+
+	martial = 1
+	combat_rating = 10
+
+	monthly_character_prestige = 0.3
+
+	norse_pagan_opinion = 15
+	norse_pagan_reformed_opinion = 15
+	same_opinion = 5
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+}
+
+ravager = {
+	potential = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_viking
+			}
+			AND = {
+				has_religion_feature = religion_adventuring
+				has_religion_feature = religion_seafaring
+			}
+		}
+	}
+
+	opposites =  {
+		pirate
+		viking
+		seaking
+		sea_queen
+	}
+
+	martial = 2
+	combat_rating = 20
+
+	monthly_character_prestige = 0.4
+
+	norse_pagan_opinion = 20
+	norse_pagan_reformed_opinion = 20
+	same_opinion = 5
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+	male_compliment = COMPL_VIKING
+	male_compliment_adj = COMPL_VIKING_adj
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+seaking = {
+	potential = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_viking
+			}
+			AND = {
+				has_religion_feature = religion_adventuring
+				has_religion_feature = religion_seafaring
+			}
+		}
+	}
+
+	opposites =  {
+		pirate
+		viking
+		ravager
+		sea_queen
+	}
+
+	martial = 3
+	combat_rating = 20
+
+	monthly_character_prestige = 0.5
+
+	norse_pagan_opinion = 25
+	norse_pagan_reformed_opinion = 25
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+	male_compliment = COMPL_VIKING
+	male_compliment_adj = COMPL_VIKING_adj
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+sea_queen = {
+	potential = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_viking
+			}
+			AND = {
+				has_religion_feature = religion_adventuring
+				has_religion_feature = religion_seafaring
+			}
+		}
+	}
+
+	opposites =  {
+		pirate
+		viking
+		ravager
+		seaking
+	}
+
+	customizer = no
+
+	martial = 3
+	combat_rating = 20
+
+	monthly_character_prestige = 0.5
+
+	norse_pagan_opinion = 25
+	norse_pagan_reformed_opinion = 25
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+	male_compliment = COMPL_VIKING
+	male_compliment_adj = COMPL_VIKING_adj
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+ares_own = {
+	opposites = {
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+crusader = {
+	opposites = {
+		ares_own
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_compliment = COMPL_CRUSADER
+	female_compliment = COMPL_CRUSADER
+}
+
+crusader_king = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 3
+	combat_rating = 15
+
+	ai_zeal = 20
+
+	global_levy_size = 0.2
+
+	same_religion_opinion = 35
+
+	command_modifier = {
+		religious_enemy = 0.3
+	}
+}
+
+crusader_queen = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 3
+	combat_rating = 15
+
+	ai_zeal = 20
+
+	global_levy_size = 0.2
+
+	same_religion_opinion = 35
+
+	command_modifier = {
+		religious_enemy = 0.3
+	}
+}
+
+eagle_warrior = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+gondi_shahansha = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+kailash_guardian  = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 5
+	same_opinion_if_same_religion = 15
+
+
+	male_compliment = COMPL_KAILASH_GUARDIAN_MALE
+	female_compliment = COMPL_KAILASH_GUARDIAN_FEMALE
+}
+
+# Muslim equivalent of Crusader (HARD STATUS - DO NOT REMOVE!)
+mujahid = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	church_opinion = 5
+	same_opinion_if_same_religion = 15
+
+	ai_zeal = 10
+
+	male_compliment = COMPL_MUJAHID
+	female_compliment = COMPL_MUJAHID
+}
+
+nyames_shield = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+peruns_chosen = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+romuvas_own = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+shaddai = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+sun_warrior = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		tengri_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+tengri_warrior = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		ukkos_shield
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+ukkos_shield = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		valhalla_bound
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+valhalla_bound = {
+	opposites = {
+		ares_own
+		crusader
+		crusader_king
+		crusader_queen
+		eagle_warrior
+		gondi_shahansha
+		kailash_guardian
+		machas_javelin
+		mujahid
+		nyames_shield
+		peruns_chosen
+		romuvas_own
+		shaddai
+		sun_warrior
+		tengri_warrior
+		ukkos_shield
+	}
+
+	customizer = no
+	random = no
+
+	martial = 2
+	combat_rating = 10
+
+	ai_zeal = 10
+
+	church_opinion = 5
+	same_opinion_if_same_religion = 15
+
+	male_compliment = COMPL_VALHALLA_BOUND_MALE
+	female_compliment = COMPL_VALHALLA_BOUND_FEMALE
+}
+
+hedgehog = {
+	customizer = no
+	random = no
+	religious = yes
+
+	health = 0.5
+
+	same_religion_opinion = 5
+}
+
+house_dog = {
+	customizer = no
+	random = no
+	religious = yes
+
+	health = 0.5
+
+	same_religion_opinion = 5
+}
+
+masterless_dog = {
+	customizer = no
+	random = no
+	religious = yes
+
+	health = 0.5
+
+	church_opinion = 5
+	same_religion_opinion = 5
+}
+
+otter = {
+	customizer = no
+	random = no
+	religious = yes
+
+	church_opinion = 5
+	same_religion_opinion = 10
+
+	global_revolt_risk = -0.15
+}
+
+#Zodiac Signs
+zodiac_aquarius = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_leo
+	}
+
+	random = no
+
+	diplomacy = -1
+
+	ai_rationality = -40
+	ai_greed = -20
+
+	monthly_character_prestige = 0.05
+
+	opposite_opinion = -10
+	same_opinion = 5
+}
+
+zodiac_aries = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_libra
+	}
+
+	random = no
+
+	diplomacy = 1
+	intrigue = -1
+
+	ai_zeal = 20
+	ai_honor = 40
+	ai_greed = -20
+
+	opposite_opinion = -15
+	same_opinion = 5
+}
+
+zodiac_cancer = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_capricorn
+	}
+
+	random = no
+
+	diplomacy = -1
+	combat_rating = 5
+
+	ai_rationality = 40
+	ai_zeal = -20
+
+	opposite_opinion = -10
+	same_opinion = 5
+}
+
+zodiac_capricorn = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_cancer
+	}
+
+	random = no
+
+	martial = -1
+	learning = 1
+
+	ai_rationality = 20
+	ai_ambition = 20
+
+	opposite_opinion = -10
+	same_opinion = 5
+}
+
+zodiac_gemini = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_sagittarius
+	}
+
+	random = no
+	stewardship = 1
+
+	ai_rationality = -20
+	ai_ambition = 40
+	ai_greed = 20
+
+	general_opinion = -5
+	opposite_opinion = -15
+	same_opinion = 10
+}
+
+zodiac_leo = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_aquarius
+	}
+
+	random = no
+
+	martial = 1
+
+	ai_ambition = 40
+	ai_zeal = 40
+
+	monthly_character_prestige = 0.05
+	monthly_character_piety = -0.01
+
+	opposite_opinion = -20
+	same_opinion = -5
+}
+
+zodiac_libra = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_aries
+	}
+
+	random = no
+
+	stewardship = 1
+	intrigue = -1
+
+	ai_zeal = -40
+	ai_rationality = 40
+
+	opposite_opinion = -5
+	same_opinion = 5
+}
+
+zodiac_pisces = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_virgo
+	}
+
+	random = no
+
+	diplomacy = -1
+
+	ai_greed = -40
+	ai_ambition = -20
+	ai_honor = 40
+
+	dynasty_opinion = 10
+	opposite_opinion = -5
+	same_opinion = 10
+}
+
+zodiac_sagittarius = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_gemini
+	}
+
+	random = no
+
+	diplomacy = 1
+	martial = 1
+
+	ai_zeal = 20
+	ai_honor = 20
+
+	monthly_character_piety = -0.05
+
+	opposite_opinion = -10
+	same_opinion = 5
+}
+
+zodiac_scorpio = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_taurus
+	}
+
+	random = no
+
+	intrigue = 1
+
+	fertility = 0.1
+
+	ai_zeal = 40
+	ai_rationality = -20
+
+	dynasty_opinion = -10
+	opposite_opinion = -15
+	same_opinion = -5
+}
+
+zodiac_taurus = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_scorpio
+	}
+
+	random = no
+
+	martial = 1
+	intrigue = -1
+
+	ai_rationality = -20
+	ai_ambition = 40
+
+	opposite_opinion = -5
+	same_opinion = 5
+}
+
+zodiac_virgo = {
+	potential = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			has_religion_feature = religion_astrology
+		}
+	}
+
+	opposites = {
+		zodiac_pisces
+	}
+	random = no
+
+	stewardship = 1
+
+	ai_greed = -40
+	ai_ambition = -40
+
+	monthly_character_prestige = -0.05
+	monthly_character_piety = 0.01
+
+	opposite_opinion = -10
+	same_opinion = 5
+}
+
+bloodthirsty_gods_1 = { #10 burned_hearts_points
+	potential = {
+		OR = {
+			has_religion_feature = religion_ritual_sacrifice
+			religion = aztec
+			religion = aztec_reformed
+		}
+	}
+
+	opposites =  {
+		bloodthirsty_gods_2
+		bloodthirsty_gods_3
+	}
+
+	customizer = yes
+	random = no
+
+	ai_rationality = -15
+	ai_zeal = 30
+
+	monthly_character_piety = 0.1
+
+	castle_opinion = -5
+	town_opinion = -5
+	tribal_opinion = 5
+	church_opinion = 5
+	same_opinion = 5
+	opposite_opinion = 5
+	#religious = yes
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	child_insult_adj = INSULT_NASTY
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+	child_compliment_adj = COMPL_GOOD
+
+	ruler_designer_cost = 10
+}
+
+bloodthirsty_gods_2 = { #50 burned_hearts_points
+	potential = {
+		OR = {
+			has_religion_feature = religion_ritual_sacrifice
+			religion = aztec
+			religion = aztec_reformed
+		}
+	}
+
+	opposites =  {
+		bloodthirsty_gods_1
+		bloodthirsty_gods_3
+	}
+
+	customizer = yes
+	random = no
+
+	ai_rationality = -30
+	ai_zeal = 70
+
+	monthly_character_piety = 0.2
+
+	castle_opinion = -10
+	town_opinion = -10
+	tribal_opinion = 10
+	church_opinion = 10
+	same_opinion = 5
+	opposite_opinion = 10
+	#religious = yes
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	child_insult_adj = INSULT_NASTY
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+	child_compliment_adj = COMPL_GOOD
+
+	ruler_designer_cost = 20
+}
+
+bloodthirsty_gods_3 = { #100 burned_hearts_points
+	potential = {
+		OR = {
+			has_religion_feature = religion_ritual_sacrifice
+			religion = aztec
+			religion = aztec_reformed
+		}
+	}
+
+	opposites =  {
+		bloodthirsty_gods_2
+		bloodthirsty_gods_1
+	}
+
+	customizer = yes
+	random = no
+
+	ai_rationality = -75
+	ai_zeal = 100
+
+	monthly_character_piety = 0.3
+
+	castle_opinion = -15
+	town_opinion = -15
+	tribal_opinion = 15
+	church_opinion = 15
+	same_opinion = 5
+	opposite_opinion = 15
+	#religious = yes
+
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	child_insult_adj = INSULT_NASTY
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+	child_compliment_adj = COMPL_GOOD
+
+	ruler_designer_cost = 40
+}
+
+# Used with Autonomous Leadership
+pagan_branch_1 = {
+	potential = {
+		has_religion_feature = religion_no_leader
+	}
+
+	opposites = {
+		pagan_branch_2
+		pagan_branch_3
+		pagan_branch_4
+	}
+
+	random = no
+	religious = yes
+
+	ai_zeal = -30
+
+	christian_opinion = 10
+	muslim_opinion = 10
+	indian_group_opinion = 10
+	jewish_group_opinion = 10
+	zoroastrian_group_opinion = 10
+	same_opinion_if_same_religion = 5
+	opposite_opinion = -5
+
+	religious_branch = pagan_reformation
+	ruler_designer_cost = 0
+}
+
+pagan_branch_2 = {
+	potential = {
+		has_religion_feature = religion_no_leader
+	}
+
+	opposites = {
+		pagan_branch_1
+		pagan_branch_3
+		pagan_branch_4
+	}
+
+	random = no
+	religious = yes
+
+	ai_zeal = 30
+
+	monthly_character_piety = 0.25
+
+	church_opinion = 10
+	opposite_opinion = -5
+
+	religious_branch = pagan_reformation
+	ruler_designer_cost = 0
+}
+
+pagan_branch_3 = {
+	potential = {
+		has_religion_feature = religion_no_leader
+	}
+
+	opposites = {
+		pagan_branch_2
+		pagan_branch_1
+		pagan_branch_4
+	}
+
+	random = no
+	religious = yes
+
+	combat_rating = 10
+
+	ai_ambition = 20
+
+	monthly_character_prestige = 0.3
+
+	opposite_opinion = -5
+
+	religious_branch = pagan_reformation
+	ruler_designer_cost = 0
+}
+
+pagan_branch_4 = {
+	potential = {
+		has_religion_feature = religion_no_leader
+	}
+
+	opposites = {
+		pagan_branch_2
+		pagan_branch_3
+		pagan_branch_1
+	}
+
+	random = no
+	religious = yes
+
+	fertility = 0.1
+
+	ai_honor = 10
+
+	dynasty_opinion = 10
+	opposite_opinion = -5
+
+	religious_branch = pagan_reformation
+	ruler_designer_cost = 0
+}
+
+##########################################################
+#
+#	Other (anything visible with a modifier)
+#
+##########################################################
+
+adventurer = {
+	customizer = no
+	random = no
+
+	diplomacy = -1
+	martial = 1
+	combat_rating = 10
+
+	ai_ambition = 40
+
+	global_levy_size = 0.2
+	max_manpower_mult = 0.1
+
+	same_opinion = 10
+
+	male_insult = INSULT_UPSTART
+	female_insult = INSULT_UPSTART
+	child_insult = INSULT_PEABRAIN
+	male_insult_adj = INSULT_GRABBING
+	female_insult_adj = INSULT_GRABBING
+	child_insult_adj = INSULT_CRUMMY
+	male_compliment = COMPL_CONQUEROR
+	female_compliment = COMPL_CONQUEROR
+	male_compliment_adj = COMPL_AUDACIOUS
+	female_compliment_adj = COMPL_AUDACIOUS
+}
+
+augustus = {
+	customizer = no
+
+	vassal_opinion = 10
+	monthly_character_prestige = 0.5
+
+	male_compliment = COMPL_AUGUSTUS
+	female_compliment = COMPL_AUGUSTUS
+}
+
+beatified = {
+	customizer = no
+	random = no
+
+	church_opinion = 25
+}
+
+saint = {
+	customizer = no
+	random = no
+
+	church_opinion = 100
+}
+
+blessed_ancestor = {
+	customizer = no
+	random = no
+
+	pagan_group_opinion = 50
+}
+
+# Hard coded to be given correctly and affect inheritance laws in the ERE
+born_in_the_purple = {
+	customizer = no
+	random = no
+
+	monthly_character_prestige = 0.5
+
+	vassal_opinion = 5
+
+	male_compliment_adj = COMPL_PURPLE_BORN
+	female_compliment_adj = COMPL_PURPLE_BORN
+}
+
+cannibal_trait = {
+	martial = 3
+	combat_rating = 10
+
+	ai_rationality = -20
+	ai_honor = -10
+
+	monthly_character_piety = -0.1
+
+	general_opinion = -15
+	same_opinion = 25
+
+	male_insult = INSULT_CANNIBAL
+	female_insult = INSULT_CANNIBAL
+	male_insult_adj = INSULT_CANNIBALISTIC
+	female_insult_adj = INSULT_CANNIBALISTIC
+}
+
+###########
+#
+#	Animals
+#
+###########
+
+cat = {
+	potential = {
+		race = cat
+	}
+
+	can_hold_titles = no # Hopefully this will block Glitterhoof from becoming pope again
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+
+	diplomacy = -10
+	martial = -10
+	stewardship = -10
+	intrigue = -10
+	learning = -10
+
+	health = -2
+	fertility = -50.0
+
+	sex_appeal_opinion = -20
+
+	inherit_chance = 100
+}
+
+# Lunatic Special Traits
+horse = {
+	potential = {
+		race = horse
+	}
+
+	can_hold_titles = no # Hopefully this will block Glitterhoof from becoming pope again
+	cannot_inherit = yes
+	cannot_marry = yes
+	customizer = no
+	random = no
+
+	diplomacy = -10
+	martial = -10
+	stewardship = -10
+	intrigue = -10
+	learning = -10
+
+	health = -2
+	fertility = -50.0
+
+	inherit_chance = 100
+
+	sex_appeal_opinion = -20
+}
+
+celibate = {
+	opposites =  {
+		hedonist
+		seducer
+		seductress
+	}
+
+	fertility = -10.0
+
+	ai_zeal = 10
+
+	monthly_character_piety = 0.25
+
+	christian_church_opinion = 5
+	opposite_opinion = -10
+	same_opinion = 15
+	spouse_opinion = -10
+
+	male_compliment_adj = COMPL_VIRTUOUS
+	female_compliment_adj = COMPL_VIRTUOUS
+	child_compliment_adj = COMPL_NICE
+	male_insult_adj = INSULT_UNMANLY
+	female_insult_adj = INSULT_FRIGID
+	child_insult_adj = INSULT_STUPID
+}
+
+falconer = {
+	potential = {
+		NOT = { religion = jain }
+	}
+
+	diplomacy = 1
+
+	health = 0.25
+
+	same_opinion = 10
+	jain_opinion = -5
+}
+
+poet = {
+	diplomacy = 2
+
+	same_opinion = 10
+	sex_appeal_opinion = 10
+
+	male_compliment = COMPL_POET
+	female_compliment = COMPL_POET
+}
+
+crowned_by_priest = {
+	opposites =  {
+		crowned_by_bishop
+		crowned_by_pope
+		crowned_by_myself
+	}
+
+	customizer = no
+	random = no
+
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.1
+}
+
+crowned_by_bishop = {
+	opposites =  {
+		crowned_by_priest
+		crowned_by_pope
+		crowned_by_myself
+	}
+
+	customizer = no
+	random = no
+
+	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.25
+
+	church_opinion = 5
+}
+
+crowned_by_pope = {
+	opposites =  {
+		crowned_by_priest
+		crowned_by_bishop
+		crowned_by_myself
+	}
+
+	customizer = no
+	random = no
+
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+
+	church_opinion = 10
+	vassal_opinion = 5
+}
+
+crowned_by_myself = {
+	opposites =  {
+		crowned_by_priest
+		crowned_by_bishop
+		crowned_by_pope
+	}
+
+	customizer = yes
+	random = no
+
+	monthly_character_prestige = 1.0
+	monthly_character_piety = -0.5
+
+	church_opinion = -25
+	vassal_opinion = 10
+}
+
+### Only for Ruler Designer ###
+crowned_by_priest_rd = {
+	potential = {
+		OR = {
+			religion = catholic
+			religion = fraticelli
+		}
+	}
+
+	opposites =  {
+		crowned_by_bishop_rd
+		crowned_by_pope_rd
+	}
+
+	customizer = yes
+	random = no
+
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.1
+}
+
+crowned_by_bishop_rd = {
+	potential = {
+		OR = {
+			religion = catholic
+			religion = fraticelli
+		}
+	}
+
+	opposites =  {
+		crowned_by_priest_rd
+		crowned_by_pope_rd
+	}
+
+	customizer = yes
+	random = no
+
+	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.25
+
+	church_opinion = 5
+}
+
+crowned_by_pope_rd = {
+	potential = {
+		OR = {
+			religion = catholic
+			religion = fraticelli
+		}
+	}
+
+	opposites =  {
+		crowned_by_priest_rd
+		crowned_by_bishop_rd
+	}
+
+	customizer = yes
+	random = no
+
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+
+	church_opinion = 10
+	vassal_opinion = 5
+}
+
+gladiator = { # Requires Training Academy upgrade for Grand Amphitheater great work
+	attribute = martial
+	education = no
+
+	martial = 5
+	stewardship = -2
+	intrigue = 2
+	learning = -4
+	combat_rating = 15
+
+	health = 1.0
+
+	same_opinion = 15
+	general_opinion = -5
+
+	leadership_traits = 1
+}
+
+# Tiered kinslaying traits
+# Kinslayer in 00_traits	Parents, Grandparents and above, Siblings, Children, Grandchildren and below
+# Familial Kinslayer		Aunts/Uncles (blood only), cousins, nieces/nephews
+# Dynastic Kinslayer		Any other dynasty member
+kinslayer = {
+	potential = {
+		NOT = { religion_group = muslim }
+		is_tribal = no
+	}
+
+	opposites = {
+		familial_kinslayer
+		dynastic_kinslayer
+		tribal_kinslayer
+	}
+
+	random = no
+
+	diplomacy = -5
+
+	dynasty_opinion = -25
+	general_opinion = -10
+
+	male_insult = INSULT_KINSLAYER
+	female_insult = INSULT_KINSLAYER
+}
+
+familial_kinslayer = {
+	potential = {
+		NOT = { religion_group = muslim }
+		is_tribal = no
+	}
+
+	opposites = {
+		kinslayer
+		dynastic_kinslayer
+		tribal_kinslayer
+	}
+
+	random = no
+
+	diplomacy = -4
+
+	dynasty_opinion = -20
+	general_opinion = -5
+
+	male_insult = INSULT_KINSLAYER
+	female_insult = INSULT_KINSLAYER
+}
+
+dynastic_kinslayer = {
+	potential = {
+		NOT = { religion_group = muslim }
+		is_tribal = no
+	}
+
+	opposites = {
+		kinslayer
+		familial_kinslayer
+		tribal_kinslayer
+	}
+
+	random = no
+
+	diplomacy = -3
+
+	dynasty_opinion = -15
+
+	male_insult = INSULT_KINSLAYER
+	female_insult = INSULT_KINSLAYER
+}
+
+tribal_kinslayer = {
+	potential = {
+		is_tribal = yes
+	}
+
+	opposites = {
+		kinslayer
+		familial_kinslayer
+		dynastic_kinslayer
+	}
+
+	random = no
+
+	diplomacy = -3
+
+	dynasty_opinion = -5
+	sex_appeal_opinion = 15
+
+	male_insult = INSULT_KINSLAYER
+	female_insult = INSULT_KINSLAYER
+}
+
+kow_tow_travels = {
+	customizer = no
+	pilgrimage = yes
+	random = no
+
+	health = -0.5
+
+	monthly_character_wealth = -0.2
+}
+
+kow_tow_completed_tier_1 = {
+	customizer = no
+	random = no
+
+	monthly_grace = 1
+	monthly_character_prestige = -0.1
+}
+
+kow_tow_completed_tier_2 = {
+	customizer = no
+	random = no
+
+	monthly_grace = 2
+	monthly_character_prestige = -0.1
+}
+
+kow_tow_completed_tier_3 = {
+	customizer = no
+	random = no
+
+	monthly_grace = 4
+	monthly_character_prestige = -0.1
+}
+
+peasant_leader = {
+	customizer = no
+	rebel_inherited = yes
+
+	diplomacy = -5
+	combat_rating = 3 #new value!
+
+	same_opinion = 25
+	vassal_opinion = -10
+
+	male_insult = INSULT_PEASANT
+	male_insult_adj = INSULT_LOWBORN
+	female_insult = INSULT_PEASANT_WOMAN
+	female_insult_adj = INSULT_LOWBORN
+}
+
+physician = {
+	customizer = no
+	random = no
+
+	diplomacy = 1
+	learning = 2
+
+	health = 0.5
+
+	monthly_character_prestige = 0.25
+
+	general_opinion = 5
+
+	male_compliment = COMPL_SCHOLAR
+	female_compliment = COMPL_SCHOLAR
+	child_compliment = COMPL_SMARTY
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult = INSULT_BOOKWORM
+	female_insult = INSULT_BOOKWORM
+	child_insult = INSULT_BORE
+	male_insult_adj = INSULT_SQUINTEYED
+	female_insult_adj = INSULT_SQUINTEYED
+}
+
+scarred = {
+	opposites = {
+		scarred_mid
+		scarred_high
+	}
+
+	combat_rating = 2
+
+	monthly_character_prestige = 0.1
+
+	sex_appeal_opinion = 10
+	opposite_opinion = 5
+}
+
+scarred_mid = {
+	potential = {
+		has_dlc = "Holy Fury"
+	}
+
+	opposites = {
+		scarred
+		scarred_high
+	}
+
+	random = no
+
+	combat_rating = 5
+
+	monthly_character_prestige = 0.15
+
+	sex_appeal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = 5
+	tribal_opinion = 5
+}
+
+scarred_high = {
+	potential = {
+		has_dlc = "Holy Fury"
+	}
+
+	opposites = {
+		scarred
+		scarred_mid
+	}
+
+	random = no
+
+	combat_rating = 10
+
+	monthly_character_prestige = 0.2
+
+	same_opinion = 10
+	opposite_opinion = 5
+	tribal_opinion = 10
+}
+
+shieldmaiden  = {
+	customizer = no
+
+	combat_rating = 10 #new Plus value
+
+	ai_zeal = 10
+
+	monthly_character_piety = 0.1
+
+	pagan_group_opinion = 5
+	same_opinion_if_same_religion = 15
+
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+travelling = {
+	customizer = no
+	pilgrimage = yes # Will need a regent, but can still be guardian to children.
+}
+
+varangian = {
+	customizer = no
+
+	diplomacy = 1
+	martial = 2
+	combat_rating = 10
+
+	same_opinion = 10
+}

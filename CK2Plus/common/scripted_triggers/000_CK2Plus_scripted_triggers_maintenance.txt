@@ -1,0 +1,27 @@
+#########################################
+#
+#	Plus maintenance scripted triggers
+#
+#	by LordPeter
+#
+#########################################
+
+###
+## These MUST be called in a CHARACTER scope to work properly
+#
+
+ # Don't fire something for animals - needs to include all "animal" culture groups:
+ # HINT COMPATCH CRITICAL
+is_not_animal_culture_group_CK2Plus_trigger = {
+	NOR = {
+		culture_group = horse_group
+		culture_group = cat_group
+		culture_group = bear_group
+		culture_group = hedgehog_group
+		culture_group = duck_group
+		culture_group = dog_group
+		culture_group = elephant_group
+		culture_group = dragon_group
+		culture_group = panda_group
+	}
+}

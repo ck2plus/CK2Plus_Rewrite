@@ -1,0 +1,14 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;;;;;;;;;;;
+
+################################
+#
+#	Plus maintenance events
+#
+################################
+
+#Generic INVISIBLE EVENT:
+PlusMaintenanceDESC_001;You shouldn't be seeing this. This is an automatic maintenance event. If you are seeing this, it means you are either an AI merely disguised as a human, or you have encountered a bug. Report this if the latter case, please refrain from killing humanity in the former.;;;;;;;;;;;;;x
+
+#Toddler:
+PlusMaintenanceDESC_002;Walking has become an easy thing for you, as your legs no longer feel unstead. You also don't just cry anymore when you are hungry, thirsty or tired. Instead, you have learned to communicate by talking, and have begun to explore the world around you, constanly questioning things. Your days as a toddler are over.;;;;;;;;;;;;;x
+PlusMaintenanceOPTA_002;"Dada?" No, sorry, I mean: "Hello World!".;;;;;;;;;;;;;x

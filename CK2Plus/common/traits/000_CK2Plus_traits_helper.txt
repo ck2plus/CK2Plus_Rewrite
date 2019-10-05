@@ -1,0 +1,48 @@
+# Helper traits to assign baby portraits
+baby_boy_fair = {
+	customizer = no
+	hidden = yes
+	random = no
+}
+
+baby_boy_tanned = {
+	customizer = no
+	hidden = yes
+	random = no
+}
+
+baby_boy_dark = {
+	customizer = no
+	hidden = yes
+	random = no
+}
+
+baby_boy_darker = {
+	customizer = no
+	hidden = yes
+	random = no
+}
+
+baby_girl_fair = {
+	customizer = no
+	hidden = yes
+	random = no
+}
+
+baby_girl_tanned = {
+	customizer = no
+	hidden = yes
+	random = no
+}
+
+baby_girl_dark = {
+	customizer = no
+	hidden = yes
+	random = no
+}
+
+baby_girl_darker = {
+	customizer = no
+	hidden = yes
+	random = no
+}

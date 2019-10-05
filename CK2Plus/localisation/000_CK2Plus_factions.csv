@@ -1,0 +1,32 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#####################
+#
+#	Plus factions
+#
+#####################
+
+#Court Faction
+faction_court_short;Court;;;;;;;;;;;;;x
+faction_court_title;Court Faction;;;;;;;;;;;;;x
+faction_court_desc;The §GCourt Faction§! strives for influence and vassal autonomy.;;;;;;;;;;;;;x
+
+#Glory Faction
+faction_glory_short;Glory;;;;;;;;;;;;;x
+faction_glory_title;Glory Faction;;;;;;;;;;;;;x
+faction_glory_desc;The §RGlory Faction§! strives for prestige and the spoils of war.;;;;;;;;;;;;;
+
+#Order Faction
+faction_order_short;Order;;;;;;;;;;;;;x
+faction_order_title;Order Faction;;;;;;;;;;;;;x
+faction_order_desc;The §BOrder Faction§! strives for justice and a stable society.;;;;;;;;;;;;;
+
+#Prosperity Faction
+faction_prosperity_short;Prosperity;;;;;;;;;;;;;x
+faction_prosperity_title;Prosperity Faction;;;;;;;;;;;;;x
+faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a healthy economy.;;;;;;;;;;;;;x
+
+#Tradition Faction
+faction_tradition_short;Tradition;;;;;;;;;;;;;x
+faction_tradition_title;Tradition Faction;;;;;;;;;;;;;x
+faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;;;;;;;;;;;;;x

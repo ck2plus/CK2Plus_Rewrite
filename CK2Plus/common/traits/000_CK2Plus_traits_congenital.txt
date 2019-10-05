@@ -1,0 +1,160 @@
+agile = {
+	birth = 50
+	inherit_chance = 15
+
+	intrigue = 1
+	combat_rating = 15
+
+	health = 0.5
+
+	sex_appeal_opinion = 5
+}
+
+clumsy = {
+	birth = 50
+	inherit_chance = 15
+
+	intrigue = -1
+	combat_rating = -15
+
+	health = -0.25
+
+	vassal_opinion = -5
+}
+
+ambidextrous = {
+	opposites =  {
+		lefthanded
+	}
+
+	birth = 340		# 3.4% science: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2680751/
+	inherit_chance = 15	# no data for this, personal estimate based on lefthanded data (-5%)
+	both_parent_has_trait_inherit_chance = 21 # personal estimate, this whole thing should probably be better made into events
+
+	intrigue = 1
+	learning = -1	# There's actual science to support this, see here: http://www.imperial.ac.uk/news/81322/mixed-handed-children-more-likely-have-mental
+	combat_rating = 20
+}
+
+calm_voice = {
+	opposites =  {
+		melodious_voice
+		powerful_voice
+		lisp
+		stutter
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = 1
+	intrigue = 1
+}
+
+melodious_voice = {
+	opposites =  {
+		calm_voice
+		powerful_voice
+		lisp
+		stutter
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = 1
+	intrigue = 2
+
+	sex_appeal_opinion = 10
+}
+
+powerful_voice = {
+	opposites =  {
+		calm_voice
+		melodious_voice
+		lisp
+		stutter
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = 1
+	martial = 1
+	combat_rating = 3
+
+	command_modifier = {
+		morale_offence = 0.05
+		morale_defence = 0.05
+	}
+
+	sex_appeal_opinion = 5
+}
+
+fertile = {
+	opposites =  {
+		inbred
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	fertility = 0.15
+
+	sex_appeal_opinion = 10
+}
+
+perceptive = {
+	opposites =  {
+		deaf
+		blinded
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = 1
+	martial = 1
+	intrigue = 2
+	combat_rating = 10
+
+	ai_rationality = 5
+
+	command_modifier = {
+		narrow_flank = 0.1
+	}
+}
+
+deaf = {
+	opposites =  {
+		perceptive
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = -1
+	martial = -1
+	intrigue = -2
+	combat_rating = -10
+
+	same_opinion = 5
+	opinion_of_powerful_voice = 10	# custom modifier - can actually hear these characters!
+}
+
+tall = {
+	opposites =  {
+		dwarf
+		giant
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = 1
+	combat_rating = 5
+
+	sex_appeal_opinion = 5
+	tribal_opinion = 5
+	vassal_opinion = 5
+}

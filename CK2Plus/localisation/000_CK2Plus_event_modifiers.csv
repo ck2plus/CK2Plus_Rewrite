@@ -1,0 +1,19 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+###############################
+#
+#	Plus event modifiers
+#
+###############################
+
+plus_construction_focus;Construction Focus;;;;;;;;;;;;;x
+plus_construction_focus_desc;This province is focusing on construction.;;;;;;;;;;;;;x
+
+plus_faction_abandoned;Abandoned Faction;;;;;;;;;;;;;x
+plus_faction_abandoned_desc;This character has previously left one of the main five factions.;;;;;;;;;;;;;x
+
+plus_increased_spy_reports;Increased Spy Reports;;;;;;;;;;;;;x
+plus_increased_spy_reports_desc;This character has more watchful eyes available.;;;;;;;;;;;;;x
+
+plus_new_roads;New Roads;;;;;;;;;;;;;x
+plus_new_roads_desc;This province has improved roads.;;;;;;;;;;;;;x
