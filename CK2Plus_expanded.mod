@@ -1,4 +1,4 @@
-name="CK2Plus_expanded"
+name="CK2Plus Expanded"
 path="mod/CK2Plus_expanded"
 dependencies = { "CK2Plus" }
 replace_path="common/cultures"
