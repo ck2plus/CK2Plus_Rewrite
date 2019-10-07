@@ -11,11 +11,11 @@
 ####################################
 
 bastard = {
-	customizer = no
-
 	opposites =  {
 		legit_bastard
 	}
+
+	customizer = no
 
 	diplomacy = -2
 

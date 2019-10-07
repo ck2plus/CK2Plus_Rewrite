@@ -7,7 +7,7 @@
 	culture = flemish
 }
 1000251997 = {
-	name = "van Gruuthuuse"
+	name = "van Gruuthuse"
 	culture = flemish
 }
 1000251998 = {
@@ -19,46 +19,46 @@
 	culture = flemish
 }
 1000252001 = {
-	name = "Van Rompuy"
+	name = "van Rompuy"
 	culture = flemish
 }
 1000252002 = {
-	name = "Van Lille"
+	name = "van Lille"
 	culture = flemish
 }
 1000252003 = {
-	name = "Van Ronse"
+	name = "van Ronse"
 	culture = flemish
 }
 1000252004 = {
-	name = "Van Damme"
+	name = "van Damme"
 	culture = flemish
 }
 1000252005 = {
-	name = "Van Gistel"
+	name = "van Gistel"
 	culture = flemish
 }
 1000252006 = {
-	name = "Van Lede"
+	name = "van Lede"
 	culture = flemish
 }
 1000252007 = {
-	name = "Van Beke"
+	name = "van Beke"
 	culture = flemish
 }
 1000252008 = {
-	name = "Van Mokker"
+	name = "van Mokker"
 	culture = flemish
 }
 1000252009 = {
-	name = "Van Velle"
+	name = "van Velle"
 	culture = flemish
 }
 1000252010 = {
-	name = "Van Haacht"
+	name = "van Haacht"
 	culture = flemish
 }
 1000252011 = {
-	name = "Van Itegern"
+	name = "van Itegem"
 	culture = flemish
 }

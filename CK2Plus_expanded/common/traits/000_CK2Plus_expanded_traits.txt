@@ -30,7 +30,7 @@ druid = {
 	diplomacy = 1
 }
 
-bad_priest_celtic = { # Plus
+bad_priest_celtic = {
 	potential = {
 		OR = {
 			is_theocracy = yes
@@ -56,7 +56,7 @@ bad_priest_celtic = { # Plus
 	child_insult_adj = INSULT_CRUMMY
 }
 
-machas_javelin  = {	# Plus
+machas_javelin  = {
 	opposites = {
 		ares_own
 		crusader
