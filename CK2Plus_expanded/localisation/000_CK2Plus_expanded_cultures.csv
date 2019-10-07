@@ -65,7 +65,6 @@ burgundian;Burgundian;Burgonde;Burgunder;;Burgundio;;;;;;;;;x
 franco_germanic;Rhine-Weser Germanic;Rhin-Visurge germanique;Rhein-Weser-Germanisch;;Rin-Weser germánico;;;;;;;;;x
 flemish;Flemish;Flamand;Flämisch;;Flamenco;;;;;;;;;x
 
-austrian;Austrian;Autrichienne;Österreicher;;Austríaco;;;;;;;;;x
 bavarian;Bavarian;Bavarois;Bavarian;;Bávaro;;;;;;;;;x
 franconian;Franconian;Francique;Fränkisch;;Franconica;;;;;;;;;x
 german;Alemannic;Alamans;Alemannisch;;Alamana;;;;;;;;;x
@@ -140,6 +139,7 @@ ruthenian;Ruthenian;Ruthène;Ruthenisch;;Rutenio;;;;;;;;;x
 
 chadic_group;Chadic;Tchadique;Chadisch;;Chadico;;;;;;;;;x
 
+tatar;Turco-Mongol;Turco-mongol;Turko-Mongolisch;;Turco-Mongolica;;;;;;;;;x
 
 # Overrides
 arabic;Mashriqi;Mashriqi;Mashriqi;;Mashriqi;;;;;;;;;x

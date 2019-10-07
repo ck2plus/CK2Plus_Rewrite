@@ -9,7 +9,8 @@
 #	 - Khazar*
 #	 - Kirghiz*
 #	 - Pecheneg*
-#	 - Turkish*
+#	 - Turkic* (Turkish)
+#    - Turco-Mongol (Tatar)(Plus culture)(M)
 #	 - Uyghur*
 #
 #	* indicates a vanilla culture moved to a different group
@@ -463,6 +464,71 @@ turkic_group = {
 		allow_looting = yes
 		founder_named_dynasties = yes
 		nomadic_in_alt_start = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	tatar = { # Turco-Mongol
+		graphical_cultures = { mongolgfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.65 0.45 0.25 }
+
+		male_names = {
+		    Abuzar Ahmyetgali Ahtar Airat Aizat Akhat Akhmat Alikber Almaz Amat-Khan Amazat Amerhan Amir Amircan Amirkhan Ansar Anvar Axmat Axmatzaki Axmatzyan Aydar Ayrat Azgar 
+            Batu Barak Bayan Bayaz Baytimer Biktimer 
+			Çiñgiz Chimtay 
+			Edege Erzen
+			Fannur Farhat Farit Fayzulla Firdaves Firdavis 
+            Gabdelxaliq Gabdennasir Gabdulla Gadel Galim Gazizilmetdin  
+            Ildus Ilfar Ilfat Ilgam Ilgiz Ilkay Ilsat Ilshat Irek Iskandar__Alexander Iskhak Islametdin 
+            Karim Khabibulla Khamza Khaydar Khosaen Köcma
+            Latyyf Linar
+            Makhmut_Mahmud Mazhit Mintimer Mirzaj Möbin Möxammat__Muhammad Möxammatcan Möxammatša_Muhammad 
+            Nacip Narat Nariman Nigmat
+			Pulad  
+			Radik Radiq Rafaal Rail Ramil Rashit Rawil Rif Rishat Rushan Rustem 
+			Sabircan Sagit Sahit Sarif Sayet Sharifzyan Solayman_Solomon 
+			Temur-Malik Timerkhan Timerkotlyk Toktamish Toqtaqiya Timur Tuqa-Timur
+			Ulugh Urus
+			Vakhit 
+			Xabib Xabir Xaliulla Xamza Xasan_Hasan Xaydar 
+			Yuldash
+			Zagip Zagir Zahit Zaki Zaribzyan Zaynulla Zinetula Zofar 
+		}
+		
+	   female_names = {	
+		  Adela Aininoor AizatAlbina Alfia Alfira Alfiya Alia Alina Alisa Almaz Alsu Altinçaç Altynbike Altynchüra Amina Anisa Asia Aygol Aysilu Aznagool
+		  Baghazat Bagida Bayaz Bibigaysa Bika 
+		  Çayana Chachak 
+		  Damira Dilbar Dinara 
+		  Elmira Elvira Faniya 
+		  Farida Firaya Firdausa Firdaves Firüza Flyura 
+		  Galia Gawhar Gaysa Gaysabika Golchachak Gölnara Gölnaz Gölsem Gölzada Gusel Guzalia  
+		  Ildusa Ilnara Ilsia Ilsura 
+		  Kailya Khadicha 
+		  Landysh Laysan Lia Lilia Lyalya 
+		  Madina Maftukha Malika Maryam Marziya Mavzida Milawsha Milyausha 
+		  Naciba Nailya Nurdzhamal Nuriya 
+		  Oigul 
+		  Ramziya Rezeda Rezida 
+		  Salavat Samsinisa Saniya Sayfiya Shamsijamal Sibay Sirazi Söyembika 
+		  Talia Taliga Talkha Tansilu Tansylu Tanzila 
+		  Urazbike 
+		  Varakiya Vasila 
+		  Xabira Xaliulla 
+		  Yuldus 
+		  Zahida Zakhira Zaynap Zaytuna Zifa Ziliya Zilya Zohra Zolaykha Zölayxa Zolfiya Zukhra Zulfiya 
+		}
+
+		from_dynasty_prefix = "of"
+		prefix = no
+
+		allow_looting = yes
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		nomadic_in_alt_start = yes
+		horde = yes
 
 		modifier = default_culture_modifier
 	}

@@ -1,0 +1,69 @@
+
+1000104550 = {
+	name="Timurid"
+	culture = tatar
+}
+1000104551 = {
+	name="Qarlughid"
+	culture = tatar
+}
+1000104552 = {
+	name="Shaybanid"
+	culture = tatar	
+}
+1000104553 = {
+	name="Giray"
+	culture = tatar	
+}
+1000104554 = {
+	name="Jochid"
+	culture = tatar	
+}
+1000104555 = {
+	name="Tore"
+	culture = tatar	
+}
+1000104556 = {
+	name="Urusid"
+	culture = tatar	
+}
+1000104557 = {
+	name="Mangghud"
+	culture = tatar	
+}
+1000104558 = {
+	name="Manghit"
+	culture = tatar	
+}
+1000104559 = {
+	name="Chimtayid"
+	culture = tatar
+}
+1000104560 = {
+	name="Bayanid"
+	culture = tatar
+}
+1000104561 = {
+	name="Ilgizid"
+	culture = tatar
+}
+1000104562 = {
+	name="Ulugh"
+	culture = tatar
+}
+1000104563 = {
+	name="Bayad"
+	culture = tatar
+}
+1000104564 = {
+	name="Azgarid"
+	culture = tatar
+}
+1000104565 = {
+	name="Fayzullad"
+	culture = tatar
+}
+1000104566 = {
+	name="Qazan"
+	culture = tatar
+}
