@@ -17,10 +17,41 @@
 #	}
 #
 
+culture_desert_city = {
+	OR = {
+		culture = egyptian_arabic
+		culture = maghreb_arabic
+		#etc
+	}
+}
+
+culture_desert_nomad = {
+	OR = {
+		culture = bedouin_arabic
+		#etc
+	}
+}
+
+culture_horse_lords = {
+	OR = {
+		culture_group = hungarian
+		culture_group = magyar
+		#etc
+	}
+}
+
+culture_northmen = {
+	OR = {
+		culture_group = north_germanic
+		#etc
+	}
+}
+
 culture_raiders = {
 	OR = {
 		culture_group = north_germanic
 		culture = irish
-		# NOTE: More will be added later. I'm just putting this here as an example while I'm thinking of it
+		#etc
 	}
 }
+
