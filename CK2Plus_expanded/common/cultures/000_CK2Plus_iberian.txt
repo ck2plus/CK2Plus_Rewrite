@@ -1,10 +1,12 @@
 ####################################################################
 #
 #	Iberian
-#    - Aragonese (Plus culture)
-#	 - Castillan
-#    - Leonese (Plus culture)
-#	 - Portuguese
+#    - Aragonese (Plus culture)(E)
+#	 - Castillan(E)
+#    - Leonese (Plus culture)(E)
+#	 - Portuguese(E)
+#
+#  (E)indicates a emergent culture
 #
 ####################################################################
 

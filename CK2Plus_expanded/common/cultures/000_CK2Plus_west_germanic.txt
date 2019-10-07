@@ -1,9 +1,12 @@
 ####################################################################
 #
 #	West Germanic
-#	 - English*
+#	 - English* (M)
 #	 - Frisian
 #	 - (Anglo-)Saxon
+#
+#    * indicates a vanilla culture moved to a different group
+#   (M)indicates a melting pot
 #
 ####################################################################
 

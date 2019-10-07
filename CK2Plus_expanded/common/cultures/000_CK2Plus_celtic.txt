@@ -4,11 +4,14 @@
 #	 - Breton
 #	 - Cornish (Plus culture)
 #	 - Cumbric (Plus culture)
-#	 - Gallawa (Plus culture)
+#	 - Gallawa (Plus culture)(M)
 #	 - Irish
 #	 - Pictish
-#	 - Scottish
+#	 - Scottish(E)
 #	 - Welsh
+#  
+#  (E)indicates a emergent culture
+#  (M)indicates a melting pot
 #
 ####################################################################
 

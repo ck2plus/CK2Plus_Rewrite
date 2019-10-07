@@ -1,3 +1,12 @@
+####################################################################
+#
+#	Tocharian
+#	 - Tocharian*
+#
+#   * indicates a vanilla culture moved to a different group
+#
+####################################################################
+
 tocharian_group = {
 	alternate_start = {
 		NOT = {

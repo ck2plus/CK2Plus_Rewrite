@@ -4,8 +4,10 @@
 #	 - Albanian (arberian)
 #	 - Armenian
 #	 - Greek
-#	 - Pontic Greek (Plus culture)
-#	 - Sicilian Greek (Plus culture)
+#	 - Pontic Greek (Plus culture)(E)
+#	 - Sicilian Greek (Plus culture)(E)
+#
+#  (E)indicates a emergent culture
 #
 ####################################################################
 

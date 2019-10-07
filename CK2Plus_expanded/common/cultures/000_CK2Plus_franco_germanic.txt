@@ -1,11 +1,12 @@
 ####################################################################
 #
 #	Franco-Germanic
-#	 - Dutch*
-#	 - Flamish (Plus culture)
+#	 - Dutch*(E)
+#	 - Flamish (Plus culture)(E)
 #	 - (Old) Frankish*
 #
 #	* indicates a vanilla culture moved to a different group
+#  (E)indicates a emergent culture
 #
 ####################################################################
 

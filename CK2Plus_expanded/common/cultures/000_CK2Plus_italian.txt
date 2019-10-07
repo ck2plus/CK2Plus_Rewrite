@@ -1,19 +1,22 @@
 ####################################################################
 #
 #	Italian
-#	 - Dalmation*
-#	 - Emilian (Plus culture)
-#	 - Italian*
-#	 - Ligurian (Plus culture)
-#	 - Lombard*
-#	 - Neapolitan (Plus culture)
-#	 - Roman*
-#	 - Sicilian (Plus culture)
-#	 - Tuscan (Plus culture)
+#	 - Dalmatian*
+#	 - Emilian (Plus culture)(E)
+#	 - Italian*(D)
+#	 - Ligurian (Plus culture)(E)
+#	 - Lombard* 
+#	 - Neapolitan (Plus culture)(E)
+#	 - Roman*(D)
+#	 - Sicilian (Plus culture)(E)
+#	 - Tuscan (Plus culture)(E)
 #	 - Umbrian (Plus culture)
 #	 - Veneto (Plus culture)
 #
 #	* indicates a vanilla culture moved to a different group
+#  (D)indicates a culture created by decision
+#  (E)indicates a emergent culture
+#
 #
 ####################################################################
 

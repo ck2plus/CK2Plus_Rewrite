@@ -1,19 +1,22 @@
 ####################################################################
 #
 #	Central Germanic
+#    - Alemannic (german)
 #	 - Bavarian (Plus culture)
-#	 - Franconian (Plus culture)
-#	 - Germanic
-#	 - Imperial German (Plus culture)
+#	 - Franconian (Plus culture)(E)
+#	 - Imperial German (Plus culture)(D)
 #	 - Longobard
 #	 - (Old) Saxon
 #	 - Suebi
-#	 - Swabian (Plus culture)
-#	 - Swiss (Plus culture)
-#	 - Teutonic (Plus culture)
+#	 - Swabian (Plus culture)(E)
+#	 - Swiss (Plus culture)(E)
+#	 - Teutonic (Plus culture)(M)
 #	 - Thuringian (Plus culture)
 #
 #	* indicates a vanilla culture moved to a different group
+#  (D)indicates a culture created by decision
+#  (E)indicates a emergent culture
+#  (M)indicates a melting pot
 #
 ####################################################################
 
@@ -161,7 +164,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 
-	german = {
+	german = { #Alemannic
 		graphical_cultures = { germangfx }
 
 		color = { 0.5 0.5 0.5 }

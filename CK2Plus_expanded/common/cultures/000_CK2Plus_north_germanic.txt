@@ -1,13 +1,17 @@
 ####################################################################
 #
 #	North Germanic
-#	 - Anglo Norse (Plus Culture)
+#	 - Anglo Norse (Plus Culture)(M)
 #	 - Danish
 #	 - Gaetish (Plus culture)
-#	 - Icelandic (Plus culture)
+#	 - Icelandic (Plus culture)(E)
 #	 - Norse
 #	 - Norwegian
 #	 - Swedish
+#
+#	* indicates a vanilla culture moved to a different group
+#  (M)indicates a melting pot
+#  (E)indicates a emergent culture
 #
 ####################################################################
 

@@ -1,9 +1,7 @@
 ####################################################################
 #
-#	Georgian
-#	 - Georgian*
-#
-#	* indicates a vanilla culture moved to a different group
+#	Magyar
+#	 - Hungarian
 #
 ####################################################################
 

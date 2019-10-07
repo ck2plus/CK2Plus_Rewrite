@@ -2,11 +2,13 @@
 #
 #	East Slavic
 #	 - Ilmenian
-#	 - Novgorodian (Plus culture)
-#	 - Russian
-#	 - Ruthenian (Plus culture)
+#	 - Novgorodian (Plus culture)(M)
+#	 - Russian(M)
+#	 - Ruthenian (Plus culture)(M)
 #	 - Severian
 #	 - Volhynian
+#
+#  (M)indicates a melting pot
 #
 ####################################################################
 

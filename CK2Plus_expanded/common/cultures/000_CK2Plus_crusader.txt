@@ -1,10 +1,11 @@
 ####################################################################
 #
 #	Crusader
-#	 - Latin (Plus culture)
-#	 - Outremer*
+#	 - Latin (Plus culture)(M)
+#	 - Outremer*(M)
 #
 #	* indicates a vanilla culture moved to a different group
+#  (M)indicates a melting pot
 #
 ####################################################################
 

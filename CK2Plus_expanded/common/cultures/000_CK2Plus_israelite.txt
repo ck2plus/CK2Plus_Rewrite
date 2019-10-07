@@ -1,10 +1,12 @@
 ####################################################################
 #
-#	Georgian
+#	Israelite
 #	 - Ashkenazic
-#	 - Israeli (Plus culture)
+#	 - Israeli (Plus culture)(D)
 #	 - Mizrahi (Plus culture)
-#	 - Sephardic
+#    - Sephardic
+#
+#  (D)indicates a culture created by decision
 #
 ####################################################################
 

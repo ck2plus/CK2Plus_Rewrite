@@ -1,7 +1,7 @@
 ####################################################################
 #
 #	Turkic
-#	 - Anatolian (Plus culture)
+#	 - Anatolian (Plus culture)(M)
 #	 - Avar*
 #	 - Bolghar*
 #	 - Cuman*
@@ -13,6 +13,7 @@
 #	 - Uyghur*
 #
 #	* indicates a vanilla culture moved to a different group
+#  (M)indicates a melting pot
 #
 ####################################################################
 

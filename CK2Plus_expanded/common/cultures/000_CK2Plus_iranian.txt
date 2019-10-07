@@ -1,7 +1,7 @@
 ####################################################################
 #
 #	Iranian (Western_Iranian)
-#	 - Azeri(Plus culture)
+#	 - Azeri(Plus culture)(M)
 #	 - Baloch
 #	 - Daylamite (Plus culture)
 #	 - Kurdish
@@ -9,6 +9,7 @@
 #	 - Persian
 #
 #	* indicates a vanilla culture moved to a different
+#  (M)indicates a melting pot
 #
 ####################################################################
 

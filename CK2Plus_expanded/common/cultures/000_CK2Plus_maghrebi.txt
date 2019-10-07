@@ -1,11 +1,12 @@
 ####################################################################
 #
 #	Maghrebi
-#	 - Andalusian Arabic*
+#	 - Andalusian Arabic*(M)
 #	 - Maghreb Arabic*
-#	 - Sicilian Arabic (Plus culture)
+#	 - Sicilian Arabic (Plus culture)(M)
 #
 #	* indicates a vanilla culture moved to a different group
+#  (M)indicates a melting pot
 #
 ####################################################################
 

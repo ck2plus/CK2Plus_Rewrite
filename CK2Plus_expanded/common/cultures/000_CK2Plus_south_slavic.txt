@@ -6,9 +6,10 @@
 #	 - Carantanian
 #	 - Croatian
 #	 - Serbian
-#	 - Yugoslavian (Plus culture)
+#	 - Yugoslavian (Plus culture)(D)
 #
 #	* indicates a vanilla culture moved to a different group
+#  (D)indicates a culture created by decision
 #
 ####################################################################
 

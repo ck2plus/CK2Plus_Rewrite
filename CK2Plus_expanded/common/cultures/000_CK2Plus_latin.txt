@@ -1,9 +1,12 @@
 ####################################################################
 #
 #	Latin (Gallo-Roman)
-#	 - Arpitan (Plus culture)
-#	 - French
-#	 - Norman
+#	 - Arpitan (Plus culture) (E)
+#	 - French (E)
+#	 - Norman (M)
+#
+#  (E)indicates a emergent culture
+#  (M)indicates a melting pot
 #
 ####################################################################
 

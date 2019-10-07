@@ -4,7 +4,7 @@
 #	 - Catalan*
 #	 - Occitan*
 #
-#* indicates a vanilla culture moved to a different group
+#   * indicates a vanilla culture moved to a different group
 #
 ####################################################################
 
