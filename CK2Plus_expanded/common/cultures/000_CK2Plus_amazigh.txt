@@ -1,10 +1,10 @@
 ####################################################################
 #
 #	Amazigh
-#	 - Bafour (Plus culture) 
+#	 - Bafour (Plus culture)
 #	 - Guanche (Plus culture)
-#    - Masmuda (atlasian) (Plus culture)
-#    - Sanhaja (Plus culture) 
+#	 - Masmuda (atlasian) (Plus culture)
+#	 - Sanhaja (Plus culture)
 #	 - Tuareg (Plus culture)
 #	 - Zenati (Plus culture)
 #
@@ -19,7 +19,7 @@ amazigh = {
 			}
 		}
 	}
-	
+
 	bafour = {
 		graphical_cultures = { westafricangfx africangfx }
 
@@ -71,7 +71,7 @@ amazigh = {
 		modifier = default_culture_modifier
 	}
 
-	
+
 	guanche = {
 		graphical_cultures = { berbergfx andalusiangfx }
 
@@ -126,7 +126,7 @@ amazigh = {
 		modifier = default_culture_modifier
 	}
 
-     atlasian = {
+	atlasian = {
 		graphical_cultures = { berbergfx andalusiangfx }
 
 		color = { 0.4 0.9 0.6 }
@@ -180,8 +180,6 @@ amazigh = {
 			Wenza Wnissa Wrina
 			Z'diant Z'ergha Zaghwa Zahida Zamba Zibba Zilgum Zubayda Zunagha Zwina Zwira
 		}
-		
-		graphical_cultures = { muslimgfx }
 
 		from_dynasty_prefix = "mn "
 
@@ -261,8 +259,6 @@ amazigh = {
 			Wenza Wnissa Wrina
 			Z'diant Z'ergha Zaghwa Zahida Zamba Zibba Zilgum Zubayda Zunagha Zwina Zwira
 		}
-		
-		graphical_cultures = { muslimgfx }
 
 		from_dynasty_prefix = "mn "
 

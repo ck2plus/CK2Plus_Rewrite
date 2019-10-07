@@ -23,7 +23,7 @@
 	culture = bafour
 }
 1000124111 = {
-	name = "Fodid
+	name = "Fodid"
 	culture = bafour
 }
 1000124112 = {
