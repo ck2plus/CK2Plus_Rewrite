@@ -23,7 +23,12 @@ religion_tribal = {
 			religion_group = pagan_group
 			is_reformed = no
 		}
-		# religion = some_other_religion
+		AND = {
+			religion_group = pagan_group
+			is_tribal = yes
+			#This is a bit hamfisted. I'll let someone else come up with a more elegant solution
+		}
+		#etc
 	}
 }
 
@@ -32,12 +37,15 @@ religion_monotheist = {
 		religion_group = christian
 		religion_group = muslim
 		religion_group = jewish_group
+		religion_group = zoroastrian_group
+		#etc
 	}
 }
 
 religion_polytheist = {
 	OR = {
 		religion_group = pagan_group
-		# religion = some_other religion
+		religion_group = egyptian_pagan_group
+		#etc
 	}
 }
