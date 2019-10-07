@@ -55,3 +55,15 @@
 	name="Tlebzu"
 	culture = circassian
 }
+1000103264 = {
+	name="Shora"
+	culture = circassian
+}
+1000103265 = {
+	name="Balqar"
+	culture = circassian
+}
+1000103266 = {
+	name="Badenuka"
+	culture = circassian
+}

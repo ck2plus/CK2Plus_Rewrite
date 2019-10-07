@@ -1,0 +1,69 @@
+
+1000104350 = {
+	name="Fathid"
+	culture = atlasian
+}
+1000104351 = {
+	name="Tariqid"
+	culture = atlasian
+}
+1000104352 = {
+	name="Salomonid"
+	culture = atlasian	
+}
+1000104353 = {
+	name="Bukkusid"
+	culture = atlasian	
+}
+1000104354 = {
+	name="Salahid"
+	culture = atlasian	
+}
+1000104355 = {
+	name="Jaffarid"
+	culture = atlasian	
+}
+1000104356 = {
+	name="Ifnid"
+	culture = atlasian	
+}
+1000104357 = {
+	name="Zirid"
+	culture = atlasian	
+}
+1000104358 = {
+	name="Uzzaid"
+	culture = atlasian	
+}
+1000104359 = {
+	name="Masmudid"
+	culture = atlasian
+}
+1000104360 = {
+	name="Gulusid"
+	culture = atlasian
+}
+1000104361 = {
+	name="Guchetl"
+	culture = atlasian
+}
+1000104362 = {
+	name="Matiyad"
+	culture = atlasian
+}
+1000104363 = {
+	name="Yusufid"
+	culture = atlasian
+}
+1000104364 = {
+	name="Iccaamid"
+	culture = atlasian
+}
+1000104365 = {
+	name="Ibizaid"
+	culture = atlasian
+}
+1000104366 = {
+	name="Zayad"
+	culture = atlasian
+}

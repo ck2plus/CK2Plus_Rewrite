@@ -82,10 +82,11 @@ maghrebi;Moorish;Mauresque;Maurisch;;Morisco;;;;;;;;;x
 maghreb_arabic;Maghrebi;Maghrebi;Maghrebi;;Magrebí;;;;;;;;;x
 
 amazigh;Berber;Berber;Berber;;Berber;;;;;;;;;x
+atlasian;Masmuda;Masmouda;Masmuda;;Masmuda;;;;;;;;;x
 bafour;Bafour;Bafot;Bafurisch;;Bafour;;;;;;;;;x
-atlasian;Atlasic;Atlàsique;Atlasisch;;Atlàsic;;;;;;;;;x
 garamante;Garamantian;Garamantian;Garamantisch;;Garamantica;;;;;;;;;x
 guanche;Guanche;Guanche;Guanchisch;;Guanche;;;;;;;;;x
+sanhaja;Sanhaja;Sanhadja;Sanhadscha;;Sanhaya;;;;;;;;;x
 tuareg;Tuareg;Tuareg;Tuareg;;Tuareg;;;;;;;;;x
 zenati;Zenatian;Zénète;Zenatisch;;Zenatí;;;;;;;;;x
 
@@ -143,6 +144,7 @@ chadic_group;Chadic;Tchadique;Chadisch;;Chadico;;;;;;;;;x
 # Overrides
 arabic;Mashriqi;Mashriqi;Mashriqi;;Mashriqi;;;;;;;;;x
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
+manden;Mandinka;Mandingues;Mandinka;;Mandinga;;;;;;;;;x
 west_germanic;Mare Germanic;Mer-Germanique;Meergermanisch;;Oeste Germánica;;;;;;;;;x
 iranian;West Iranian; Ouest Iranien; Westiranisch;;Iraní Occidental;;;;;;;;;x
 latin;Gallo-Roman;Gallo-romaine;Gallorömisch;;Galorromana;;;;;;;;;x

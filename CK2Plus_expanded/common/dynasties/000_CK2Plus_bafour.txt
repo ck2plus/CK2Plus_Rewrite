@@ -18,3 +18,51 @@
 	name = "Bojadour"
 	culture = bafour
 }
+1000124110 = {
+	name = "Tingit"
+	culture = bafour
+}
+1000124111 = {
+	name = "Fodid
+	culture = bafour
+}
+1000124112 = {
+	name = "Gaodid"
+	culture = bafour
+}
+1000124113 = {
+	name = "Nuhid"
+	culture = bafour
+}
+1000124114 = {
+	name = "Ishaqid"
+	culture = bafour
+}
+1000124115 = {
+	name = "Oualid"
+	culture = bafour
+}
+1000124116 = {
+	name = "Kaynad"
+	culture = bafour
+}
+1000124117 = {
+	name = "Harunid"
+	culture = bafour
+}
+1000124118 = {
+	name = "Igoumoud"
+	culture = bafour
+}
+1000124119 = {
+	name = "Mamadid"
+	culture = bafour
+}
+1000124120 = {
+	name = "Musaid"
+	culture = bafour
+}
+1000124121 = {
+	name = "Dawudid"
+	culture = bafour
+}

@@ -1,0 +1,69 @@
+
+1000104450 = {
+	name="Almohad"
+	culture = zenati
+}
+1000104451 = {
+	name="Himmid"
+	culture = zenati
+}
+1000104452 = {
+	name="Tahirid"
+	culture = zenati	
+}
+1000104453 = {
+	name="Kussilid"
+	culture = zenati	
+}
+1000104454 = {
+	name="Zafirid"
+	culture = zenati	
+}
+1000104455 = {
+	name="Zubeyrid"
+	culture = zenati	
+}
+1000104456 = {
+	name="Berkanid"
+	culture = zenati	
+}
+1000104457 = {
+	name="Nasrid"
+	culture = zenati	
+}
+1000104458 = {
+	name="Ghaysanid"
+	culture = zenati	
+}
+1000104459 = {
+	name="Ureghid"
+	culture = zenati
+}
+1000104460 = {
+	name="Jamalid"
+	culture = zenati
+}
+1000104461 = {
+	name="Masnsenid"
+	culture = zenati
+}
+1000104462 = {
+	name="Wahabid"
+	culture = zenati
+}
+1000104463 = {
+	name="Gaudadid"
+	culture = zenati
+}
+1000104464 = {
+	name="Rustamid"
+	culture = zenati
+}
+1000104465 = {
+	name="Tariqid"
+	culture = zenati
+}
+1000104466 = {
+	name="Umarid"
+	culture = zenati
+}

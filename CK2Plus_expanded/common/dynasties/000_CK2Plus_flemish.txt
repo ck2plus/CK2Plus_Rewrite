@@ -18,3 +18,47 @@
 	name = "de Boulers"
 	culture = flemish
 }
+1000252001 = {
+	name = "Van Rompuy"
+	culture = flemish
+}
+1000252002 = {
+	name = "Van Lille"
+	culture = flemish
+}
+1000252003 = {
+	name = "Van Ronse"
+	culture = flemish
+}
+1000252004 = {
+	name = "Van Damme"
+	culture = flemish
+}
+1000252005 = {
+	name = "Van Gistel"
+	culture = flemish
+}
+1000252006 = {
+	name = "Van Lede"
+	culture = flemish
+}
+1000252007 = {
+	name = "Van Beke"
+	culture = flemish
+}
+1000252008 = {
+	name = "Van Mokker"
+	culture = flemish
+}
+1000252009 = {
+	name = "Van Velle"
+	culture = flemish
+}
+1000252010 = {
+	name = "Van Haacht"
+	culture = flemish
+}
+1000252011 = {
+	name = "Van Itegern"
+	culture = flemish
+}

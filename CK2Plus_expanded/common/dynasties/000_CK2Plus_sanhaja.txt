@@ -1,0 +1,69 @@
+
+1000104250 = {
+	name="Adelid"
+	culture = sanhaja
+}
+1000104251 = {
+	name="Nazarid"
+	culture = sanhaja
+}
+1000104252 = {
+	name="Tahirid"
+	culture = sanhaja	
+}
+1000104253 = {
+	name="Kussilid"
+	culture = sanhaja	
+}
+1000104254 = {
+	name="Zafirid"
+	culture = sanhaja	
+}
+1000104255 = {
+	name="Fathid"
+	culture = sanhaja	
+}
+1000104256 = {
+	name="Berkanid"
+	culture = sanhaja	
+}
+1000104257 = {
+	name="Nasrid"
+	culture = sanhaja	
+}
+1000104258 = {
+	name="Ghaysanid"
+	culture = sanhaja	
+}
+1000104259 = {
+	name="Ureghid"
+	culture = sanhaja
+}
+1000104260 = {
+	name="Jamalid"
+	culture = sanhaja
+}
+1000104261 = {
+	name="Masnsenid"
+	culture = sanhaja
+}
+1000104262 = {
+	name="Kenanid"
+	culture = sanhaja
+}
+1000104263 = {
+	name="Gaudadid"
+	culture = sanhaja
+}
+1000104264 = {
+	name="Cucungid"
+	culture = sanhaja
+}
+1000104265 = {
+	name="Tariqid"
+	culture = sanhaja
+}
+1000104266 = {
+	name="Kussilid"
+	culture = sanhaja
+}

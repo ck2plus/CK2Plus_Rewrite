@@ -1,15 +1,68 @@
 1000253074 = {
 	name = "Marwanid"
 	culture = tuareg
-	religion = sunni
 }
 1000253075 = {
 	name = "Issamid"
 	culture = tuareg
-	religion = sunni
 }
 1000253076 = {
 	name = "Ahmadid"
 	culture = tuareg
-	religion = sunni
+}
+1000103053 = {
+	name="Bagayid"
+	culture = tuareg	
+}
+1000103054 = {
+	name="Ixid"
+	culture = tuareg	
+}
+1000103055 = {
+	name="Xamidadid"
+	culture = tuareg	
+}
+1000103056 = {
+	name="Lukid"
+	culture = tuareg	
+}
+1000103057 = {
+	name="Ghanid"
+	culture = tuareg	
+}
+1000103058 = {
+	name="Mahtarid"
+	culture = tuareg	
+}
+1000103059 = {
+	name="Tijanid"
+	culture = tuareg
+}
+1000103060 = {
+	name="Sifalid"
+	culture = tuareg
+}
+1000103061 = {
+	name="Atissid"
+	culture = tuareg
+}
+1000103062 = {
+	name="Mastanid"
+	culture = tuareg
+}
+1000103063 = {
+	name="Jaffarid"
+	culture = tuareg
+}
+1000103064 = {
+	name="Gallusid"
+	culture = tuareg
+}
+1000103065 = {
+	name="Rahmanid"
+	culture = tuareg
+}
+1000103066 = {
+	name="Buctuxid"
+	culture = tuareg
 }
