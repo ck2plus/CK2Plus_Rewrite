@@ -141,6 +141,12 @@ chadic_group;Chadic;Tchadique;Chadisch;;Chadico;;;;;;;;;x
 
 tatar;Turco-Mongol;Turco-mongol;Turko-Mongolisch;;Turco-Mongolica;;;;;;;;;x
 
+cushitic_group;Cushitic;Couchitiques;Kuschitisch;;Cushita;;;;;;;;;x
+
+tigrinyan;Tigrinyan;Tigrigna;Tigrinisch;;Tigriña;;;;;;;;;x
+
+eastern_sudanic_group;Eastern Sudanic;Soudanique orientales;Ostsudanisch;;Sudánica oriental;;;;;;;;;x
+
 # Overrides
 arabic;Mashriqi;Mashriqi;Mashriqi;;Mashriqi;;;;;;;;;x
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
@@ -152,3 +158,5 @@ songhay;Songhai;Songhaï;Songhai;;Songhai;;;;;;;;;x
 indo_aryan_group;Central Aryan;Aryen Central;Mittelarier;;Ario Central;;;;;;;;;x
 west_african;Niger-Congo;Niger-Congo;Niger-Congo;;Niger-Congo;;;;;;;;;x
 central_african;Songhay-Saharan;Songhay-Saharien;Songhay-Saharisch;;Songhay-Sahariano;;;;;;;;;x
+ethiopian;Amharic;Amharique;Amharisch;;Amharico;;;;;;;;;x
+east_african;South Semitic;Sémitique méridionale;Südsemitisch;;Semítica meridional;;;;;;;;;x
