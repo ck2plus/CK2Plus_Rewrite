@@ -7,6 +7,7 @@
 #	 - Cuman*
 #	 - Karluk*
 #	 - Khazar*
+#    - Kipchak (Plus culture)
 #	 - Kirghiz*
 #	 - Pecheneg*
 #	 - Turkic* (Turkish)
@@ -357,6 +358,53 @@ turkic_group = {
 			Umay Usunbike
 			Yasar Yeldem Yildiz Yartilek
 		}
+
+		allow_looting = yes
+		founder_named_dynasties = yes
+		nomadic_in_alt_start = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	kipchak = { # Kipchak 
+		graphical_cultures = { cumangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.75 0.70 0.30 }
+
+		male_names = {
+			Aepak Asalup Asep Atrak
+			Bönek Bachman Begluk Blush Bonyak Borç
+			Çilbu
+			Eldeçyuk Etrek
+			Girgen Gzi
+			Itlar Ituk
+			Könçek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan
+			Pulad
+			Saru Sevenç Sirçan Sokal Sotan Sugr
+			Törtogul Togli Tolun Tugor
+			Uzluk Uzur
+		}
+
+		female_names = {
+			Akgul Asli Ayasun Ayten
+			Bozçin
+			Çiçek_Çiçek Çilen Çiltanesi
+			Dilek
+			Esin
+			Gulçiçek Gulay Gunduz Gundes Gunes
+			Ilkay Ipek Ipekel Irge
+			Karacik
+			Mala Mutlu
+			Özgul Özlem
+			Peksen
+			Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul
+			Tekçe Tura
+			Umay Usunbike
+			Yasar Yeldem Yildiz
+		}
+
+		from_dynasty_prefix = "of "
 
 		allow_looting = yes
 		founder_named_dynasties = yes
