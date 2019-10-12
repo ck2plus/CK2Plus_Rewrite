@@ -1,0 +1,64 @@
+1000253995 = {
+	name = "Meranid"
+	culture = mari
+}
+1000253996 = {
+	name = "Said"
+	culture = mari
+}
+1000253997 = {
+	name = "Muranid"
+	culture = mari
+}
+1000253998 = {
+	name = "Tumoid"
+	culture = mari
+}
+1000253999 = {
+	name = "Echanid"
+	culture = mari
+}
+1000254001 = {
+	name = "Izid"
+	culture = mari
+}
+1000254002 = {
+	name = "Ovtayad"
+	culture = mari
+}
+1000254003 = {
+	name = "Kandeshid"
+	culture = mari
+}
+1000254004 = {
+	name = "Shemid"
+	culture = mari
+}
+1000254005 = {
+	name = "Lumid"
+	culture = mari
+}
+1000254006 = {
+	name = "Chynid"
+	culture = mari
+}
+1000254007 = {
+	name = "Ludoid"
+	culture = mari
+}
+1000254008 = {
+	name = "Inzhayid"
+	culture = mari
+}
+1000254009 = {
+	name = "Uzharad"
+	culture = mari
+}
+1000254010 = {
+	name = "Ioshkarid"
+	culture = mari
+}
+1000254011 = {
+	name = "Ryvyshid"
+	culture = mari
+}
