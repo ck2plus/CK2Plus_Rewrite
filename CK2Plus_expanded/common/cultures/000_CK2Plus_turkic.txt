@@ -3,6 +3,7 @@
 #	Turkic
 #	 - Anatolian (Plus culture)(M)
 #	 - Avar*
+#    - Bashkir (Plus culture)
 #	 - Bolghar*
 #	 - Cuman*
 #	 - Karluk*
@@ -44,7 +45,7 @@ turkic_group = {
 			Çagri Çaka Cuneyd
 			Danismend Davud_David Demir Dogan Dogukan Dukak Dundar
 			Erdem Erkan Ertan Ertekin Ertugrul
-			Fatih
+			Fatih Ferdi Firat
 			Gunduz Güner
 			Hasan_Hasan Hizir
 			Ibrahim_Abraham Ihsan Ilgazi Inal Iskender_Alexander
@@ -91,7 +92,6 @@ turkic_group = {
 		allow_looting = yes
 		dynasty_title_names = yes
 		founder_named_dynasties = yes
-		nomadic_in_alt_start = yes
 
 		modifier = default_culture_modifier
 	}
@@ -160,6 +160,58 @@ turkic_group = {
 		nomadic_in_alt_start = yes
 
 		modifier = default_culture_modifier
+	}
+	
+	bashkir = { # Oghur Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.8 0.75 0.35 }
+
+		male_names = {
+		Afzaletdin Aglametdin Airat Akhat Akhmat Almaz Amir Amirkhan Anuar Anwar Aryslan Aðham Axkam Axmatzaki Aybulat Aydar Aygiz Ayhiliw Ayrat Azamat 
+        Bagiz Bariy Baygötdin Bayras Bikbulat Borxan Büre 
+        Dayan Dim 
+        Fannur Fanur Farit Fayzulla Fazulla 
+		Gabidulla Gali_Ali Galim Galimyan Gaysa Gaziz Gilemdar Gilmetdin Göbayðulla Gotbetdin Gümar_Umar
+        Haziy 
+        Ildus Ilfat Ilgiz Ilnur Il'yas Irandek Irek Iskandar_Alexander Islambek Islametdin Islamgali
+        Kamaletdin Khabibulla Khakim Khamza Khaydar Khosayen_Hussayn 
+        Makhmut Marvan Mazhit Minhažetdin Mintimer Mirgayaz Mirxayzar Mortaza Muhammed-Gabdulkhay Möxammatša_Muhammad Mullayan Musarif 
+        Nagim Nazhip Nigmat Nigmatulla Nil Nögös 
+        Radik Ramazan Ramil Rashit Rasül Rawef Rif Rifqat Rishat Röstam Rustem 
+        Sabir Sabit Sagit Sahit Salawat Salim SamatSarif Sayet Shaikhislam  Shaikhzada Singid Solayman_Solomon
+        Tagir Talgat Talgat Talxa Tashtemir Tayfur Taymaç Timerkhan 
+        Uyildan 
+        Vafa Vakhit Vener Vildan 
+        Xabir Xamza Xasan Xaydar Xozaybirgan Yahüza 
+        Yakhya Yamil Yaqup Yawdat Yaxya Yomabay Yosop_JosephYulay 
+        Zaki Zakiryan Zaynulla Zofar
+
+		female_names = {
+		Aigol Albina Alfia Alia Almabika Almaz Amina Anisa Asia Aybika Aygol Ayša 
+        Bakira Banat Baniw Bayrambika Baz?ar Bibi 
+        Elvira 
+        Fanüna Fariza Farzana Firüza Flyura 
+        Gawhar Gölbaniw Gölsina Golsira Guzal Guzalia Guzel 
+        Hadia 
+        Laysan Lilia Lyalya 
+        Madina Maryam Maymüna Menawra Milawša Milawsha 
+        Narkas Nazhiba Nuriya 
+        Raikhana Ramila Ramzila Ramziya Rasima Rayxana Rezeda Rezida 
+        Sabila Sakina Salima Saria Saüda Šawra Shaura Sulpan 
+        Tanhiliw Tanzila Tanzilya 
+        Vafa Vildan  
+        Xafasa Xazisa 
+        Yamila Yomabika Yüvayria 
+        Zabira Zaynab Zaytuna Zilia Ziliya Zilya Z?layxa  Zöhra Zolaykha Zolfia Zolkhiza Zukhra 
+		}
+
+		modifier = default_culture_modifier
+
+		allow_looting = yes
+		founder_named_dynasties = yes
+		nomadic_in_alt_start = yes
 	}
 
 	bolghar = { # Oghur Turkish
