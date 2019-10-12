@@ -1,13 +1,13 @@
 ####################################################################
 #
-#	Samoyedic
-#	 - Samoyed+
+#	Samodeic
+#	 - Nenets* (samoyed)
 #
 #   * indicates a vanilla culture moved to a different group
 #
 ####################################################################
 
-samoyedic_group = {
+samodeic_group = {
 	alternate_start = {
 		NOT = {
 			has_alternate_start_parameter = {

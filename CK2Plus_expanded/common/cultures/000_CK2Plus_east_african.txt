@@ -80,18 +80,20 @@ east_african = {
 
 		color = { 0.5 0.5 0.3 }
 
-	male_names = {
-			Taqla Hâymânôt 'Amsa Gîyôrgîs Tuqla Gîyôrgîs Zar'a Yâqob Ba'eda Mâryâm 'Amda Seyôn Lebna 
-			Saga Krestos Malta Krestos Dengel Welde Giyorgis Mika'el Sehul Wolda Gabrael Wand Bewossen 
-			Amda Seyon Sarsa Dengel Iyâsû Quastantînôs Salômôn Yôhannes Hezqeyâs Nâ'ôd Galâwdêwôs Mînâs Yâ'qob 
-			Sûsenyôs Fâsîladas Têwôflôs Yôstôs Yônas Dâwît Demetros Gîyôrgîs Fiqtor Menas Marqos Hamalmal Fâsîl 
-			Endreyâs Yeshaq Mika'el Antenatewos Gusho Haile
+		male_names = {
+			Abay Abiel_Gabriel Ablelom Abraham_Abraham Abrehet Abune Adhanom Adjam Afwerki Akberet Aklilu Alula Aman Anbessa Araya Ariam Arkebe Aron_Aaron Asieb Asmerom Awet Baeda-Mariam Bahta Berekhet Berhan Berukh Binjam_Benjamin
+			Daniel_Daniel Dawit_David Dehab Demsas Denait Dogel Eden Edom Efrem_Ephraim Eyasu Fanuel Feben Feday Fenan Fessehaye Fikadu Filiam Filmon_Philemon Fuzum
+			Gebre-Egziabher Gebre-Giyorgis Gebre-Hariat Gebre-Heimanot Gebre-Hiwet Gebre-Leul Gebre-Mariam Gebre-Medhin Gebre-Micael Gebre-Selassie Gebre-Yesus Gebre-Yohanis Geretatios Gidion_Gideon Gidey Girmay
+			Habte_Habte Habteab_Habte Habtegergesch_Habte Habtoom_Habte Hadush Hagos Hanibal_Hannibal Haregu Hayelom Heimanot Henock Huluf Hurui Issayas_Isaiah Kahinu Kibromi Kidan Kidus Kiflom Kinfe Kiros Ksanet
+			Letay Lettichidan Luam Mahatta Makele Mebrahtu Medhin Mehari Mekonnen Meles Mengesha Menkem Merhawi Merich Michret_Michret Michretab_Michret Mikele_Michael Nahom Nardos Natnael_Nathaniel Natzinet Negus Noah_Noah Noham
+			Ogbamichael Onkiel Petros_Peter Phillipos_Philip Raimok Richan Russom Saare Samuel_Samuel Samson_Samson Sebhat Selam Selomon_Solomon Semhar Semien Semen Semere Semrawit_Simret Senai Senait Sibhat Silas Simret_Simret Sirak Siye Sogi
+			Tadios Tarek Tedros Temesgen Tesfalem Tewolde Tiblez Tzegay Wolde Wolde-Giorgis Wolde-Kidan Wolde-Mariam Wolde-Michael Wolde-Rufael Wolde-Selassie Yoel Yohanis_John Yordanos Yosef_Joseph Zekarias_Zechariah Zera-Yacob
 		}
 		female_names = {
-			Abeba Hagos Tenagne Habesha Abeba Abrihet Adanech Adina Alaworld Alitash Amhara Ayana Bathsheba Bekele 
-			Belkis Berhane Berta Desta Dilla Falasha Falashina Fana Fannah Genat Hagos Jahzara Jazarah Kayla Kelile 
-			Kelyle Keren Kess Kifle
-
+			Abraha Abrihet Aida Allem Almaz Amani Ambesa Amleset Andemariam Aranchi Armana Arsema Asmeret Aster_Esther Atsbaha Beilul Bilen Bisrat Blen Daniat Delina Desta Eden Efret Elsa Fiory Fithi Fresgi Freywini Ghebrai Gidey Gidisti
+			Haben Halen_Helene Hana Haile-Mariyam Illilta Illen Lemlem Lete-Berhan Lete-Kidan Lete-Kiros Lete-Mariam Lete-Medhin Lete-Silase Milena Mitslal-Muz Rahel_Rachel Rahua Rahwa Saalem_Jerusalem Saba Salina Sarah_Sarah Saura Semhar Shewit
+			Tigisti Timnit Tzega Winta Welede-Mariyam Weini Wergweha Yehdega Yemane Yorusalem_Jerusalem Yudit_Judith Zenabu Zeudi Zula
+		}
 		founder_named_dynasties = yes
 		dukes_called_kings = yes
 
