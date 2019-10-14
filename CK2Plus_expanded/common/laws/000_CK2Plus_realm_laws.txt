@@ -1,421 +1,65 @@
-######
-#Plus Laws:
+################################
 #
-#Total = 8
-######
+#	Plus realm laws
+#
+################################
+#
+#	tribal_organization_0..4
+#	centralization_0..4
+#	feudal_administration
+#	imperial_administration
+#	ze_administration_laws_0..2
+#	vice_royalty_0..2
+#	revoke_title_law_0..2
+#	status_of_women_0..4
+#
+#	Total groups: 	 8
+#	Total laws:		26
+#
+################################
 
-#Law Groups
+##################
+#
+#	Law groups
+#
+##################
+
 law_groups = {
-	tribal_organization = { #Tribal Organization - Vanilla
+	tribal_organization = { # Vanilla
 		allowed_for_councillors = yes
 		law_type = realm
 	}
-	administration = { #Administration - Vanilla (Charlemagne)
+	centralization = { # Vanilla
 		law_type = realm
 	}
-	ze_administration_laws = { #Administration - Vanilla (Conclave)
+	administration = { # Vanilla (Charlemagne)
 		law_type = realm
 	}
-	centralization = { #Centralization - Vanilla
+	ze_administration_laws = { # Vanilla (Conclave)
 		law_type = realm
 	}
-	revoke_title_law = { #Revoke Title - Vanilla (Conclave)
+	vice_royalty = { # Vanilla
 		law_type = realm
 	}
-	vice_royalty = { #Vice Royalty - Vanilla
+	revoke_title_law = { # Vanilla (Conclave)
 		law_type = realm
 	}
-	status_of_women = { #Whamen - Vanilla (Conclave)
+	status_of_women = { # Vanilla (Conclave)
 		law_type = realm
 	}
 }
 
-#Laws
-#####
 laws = {
-	#Centralization 0
-	centralization_0 = {
-		group = centralization
 
-		potential = {
-			higher_tier_than = count
-			is_nomadic = no
-		}
+	###############################
+	#
+	#	Tribal organization laws
+	#
+	###############################
 
-		allow = {
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = yes
-					}
-				}
-				OR = {
-					has_law = tribal_organization_2
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = no
-					}
-				}
-				OR = {
-					has_crown_law_title = no
-					crownlaw_title = {
-						OR = {
-							has_law = crown_authority_1
-							has_law = crown_authority_2
-							has_law = crown_authority_3
-							has_law = crown_authority_4
-						}
-					}
-				}
-			}
-			has_law = centralization_1
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 2
-				over_max_demesne_size <= -1
-				over_vassal_limit = 1
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_1
-				revoke_law = centralization_2
-				revoke_law = centralization_3
-				revoke_law = centralization_4
-			}
-		}
-
-		demesne_size = -2
-		vassal_limit = 10
-	}
-	#Centralization 1
-	centralization_1 = {
-		group = centralization
-
-		potential = {
-			higher_tier_than = count
-			is_nomadic = no
-		}
-
-		allow = {
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = yes
-					}
-				}
-				OR = {
-					has_law = tribal_organization_2
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = no
-					}
-				}
-				OR = {
-					has_crown_law_title = no
-					crownlaw_title = {
-						OR = {
-							has_law = crown_authority_1
-							has_law = crown_authority_2
-							has_law = crown_authority_3
-							has_law = crown_authority_4
-						}
-					}
-				}
-			}
-			OR = {
-				has_law = centralization_0
-				has_law = centralization_2
-			}
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 2
-				has_law = centralization_2
-				over_max_demesne_size <= -1
-				over_vassal_limit = 1
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_0
-				over_max_demesne_size = 1
-				over_vassal_limit <= -5
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_1
-				revoke_law = centralization_2
-				revoke_law = centralization_3
-				revoke_law = centralization_4
-			}
-		}
-
-		demesne_size = -1
-		vassal_limit = 5
-	}
-	#Centralization 2
-	centralization_2 = {
-		group = centralization
-		default = yes
-
-		potential = {
-			higher_tier_than = count
-			is_nomadic = no
-		}
-
-		allow = {
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = yes
-					}
-				}
-				OR = {
-					has_law = tribal_organization_2
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = no
-					}
-				}
-				OR = {
-					has_crown_law_title = no
-					crownlaw_title = {
-						OR = {
-							has_law = crown_authority_1
-							has_law = crown_authority_2
-							has_law = crown_authority_3
-							has_law = crown_authority_4
-						}
-					}
-				}
-			}
-			OR = {
-				has_law = centralization_1
-				has_law = centralization_3
-			}
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 2
-				has_law = centralization_3
-				over_max_demesne_size <= -1
-				over_vassal_limit = 1
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_1
-				over_max_demesne_size = 1
-				over_vassal_limit <= -5
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_1
-				revoke_law = centralization_2
-				revoke_law = centralization_3
-				revoke_law = centralization_4
-			}
-		}
-	}
-	#Centralization 3
-	centralization_3 = {
-		group = centralization
-
-		potential = {
-			higher_tier_than = count
-			is_nomadic = no
-		}
-
-		allow = {
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = yes
-					}
-				}
-				OR = {
-					has_law = tribal_organization_2
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = no
-					}
-				}
-				OR = {
-					has_crown_law_title = no
-					crownlaw_title = {
-						OR = {
-							has_law = crown_authority_1
-							has_law = crown_authority_2
-							has_law = crown_authority_3
-							has_law = crown_authority_4
-						}
-					}
-				}
-			}
-			OR = {
-				has_law = centralization_2
-				has_law = centralization_4
-			}
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 2
-				has_law = centralization_4
-				over_max_demesne_size <= -1
-				over_vassal_limit = 1
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_2
-				over_max_demesne_size = 1
-				over_vassal_limit <= -5
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_1
-				revoke_law = centralization_2
-				revoke_law = centralization_3
-				revoke_law = centralization_4
-			}
-		}
-
-		vassal_limit = -5
-		demesne_size = 1
-	}
-	#Centralization 4
-	centralization_4 = {
-		group = centralization
-
-		potential = {
-			higher_tier_than = count
-			is_nomadic = no
-		}
-
-		allow = {
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = yes
-					}
-				}
-				OR = {
-					has_law = tribal_organization_2
-					has_law = tribal_organization_3
-					has_law = tribal_organization_4
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = no
-					}
-				}
-				OR = {
-					has_crown_law_title = no
-					crownlaw_title = {
-						OR = {
-							has_law = crown_authority_1
-							has_law = crown_authority_2
-							has_law = crown_authority_3
-							has_law = crown_authority_4
-						}
-					}
-				}
-			}
-			has_law = centralization_3
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 2
-				has_law = centralization_3
-				over_max_demesne_size = 1
-				over_vassal_limit <= -5
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_1
-				revoke_law = centralization_2
-				revoke_law = centralization_3
-				revoke_law = centralization_4
-			}
-		}
-
-		vassal_limit = -10
-		demesne_size = 2
-	}
-
-	#Tribal Organization 0
 	tribal_organization_0 = {
 		group = tribal_organization
+		default = yes
 
 		potential = {
 			holder_scope = {
@@ -434,13 +78,12 @@ laws = {
 
 		pass_effect = {
 			hidden_tooltip = {
-				holder_scope = {
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_lowered_tribal_organization
-							months = 60
-						}
+				if = {
+					limit = {
+						has_law = tribal_organization_1
+					}
+					holder_scope = {
+						plus_decreased_tribal_organization_effect = yes
 					}
 				}
 			}
@@ -456,29 +99,23 @@ laws = {
 			}
 			else_if = {
 				limit = { has_dlc = "Zeus" }
-				enable_council_voting_on_issue = laws
-				enable_council_voting_on_issue = declare_war_interaction
-				enable_council_voting_on_issue = revoke_title_interaction
-				enable_council_voting_on_issue = grant_landed_title_interaction
-				enable_council_voting_on_issue = imprison_character_interaction
-				enable_council_voting_on_issue = exile_imprisoned_interaction
-				enable_council_voting_on_issue = execute_imprisoned_interaction
+				disable_council_voting_on_issue = enforce_peace
+				disable_council_voting_on_issue = laws
+				disable_council_voting_on_issue = declare_war_interaction
 				hidden_tooltip = {
-					add_law = law_voting_power_1
+					revoke_law = law_voting_power_1
+					revoke_law = war_voting_power_1
 				}
 			}
 			hidden_tooltip = {
-				revoke_law = tribal_organization_0
 				revoke_law = tribal_organization_1
 				revoke_law = tribal_organization_2
 				revoke_law = tribal_organization_3
 				revoke_law = tribal_organization_4
 			}
 		}
-
-		unreformed_tribal_opinion = 10
 	}
-	#Tribal Organization 1
+
 	tribal_organization_1 = {
 		group = tribal_organization
 
@@ -491,6 +128,7 @@ laws = {
 
 		allow = {
 			holder_scope = {
+				show_scope_change = no
 				prestige = 250
 			}
 			OR = {
@@ -513,32 +151,16 @@ laws = {
 					limit = {
 						has_law = tribal_organization_0
 					}
-					hidden_tooltip = {
-						holder_scope = {
-							any_realm_character = {
-								opinion = {
-									who = ROOT
-									modifier = opinion_increased_tribal_organization
-									months = 60
-								}
-							}
-						}
+					holder_scope = {
+						plus_increased_tribal_organization_effect = yes
 					}
 				}
 				else_if = {
 					limit = {
 						has_law = tribal_organization_2
 					}
-					hidden_tooltip = {
-						holder_scope = {
-							any_realm_character = {
-								opinion = {
-									who = ROOT
-									modifier = opinion_lowered_tribal_organization
-									months = 60
-								}
-							}
-						}
+					holder_scope = {
+						plus_decreased_tribal_organization_effect = yes
 					}
 				}
 			}
@@ -566,28 +188,27 @@ laws = {
 			}
 			else_if = {
 				limit = { has_dlc = "Zeus" }
-				disable_council_voting_on_issue = declare_war_interaction
-				disable_council_voting_on_issue = imprison_character_interaction
+				enable_council_voting_on_issue = enforce_peace
+				enable_council_voting_on_issue = laws
+				enable_council_voting_on_issue = declare_war_interaction
 				hidden_tooltip = {
-					revoke_law = war_voting_power_1
-					revoke_law = imprison_voting_power_1
+					add_law = law_voting_power_1
+					add_law = war_voting_power_1
 				}
 			}
 			hidden_tooltip = {
 				revoke_law = tribal_organization_0
-				revoke_law = tribal_organization_1
 				revoke_law = tribal_organization_2
 				revoke_law = tribal_organization_3
 				revoke_law = tribal_organization_4
 			}
 		}
 
-		unreformed_tribal_opinion = 5
+		unreformed_tribal_opinion = -5
 	}
-	#Tribal Organization 2
+
 	tribal_organization_2 = {
 		group = tribal_organization
-		default = yes
 
 		potential = {
 			holder_scope = {
@@ -598,6 +219,7 @@ laws = {
 
 		allow = {
 			holder_scope = {
+				show_scope_change = no
 				prestige = 250
 			}
 			OR = {
@@ -620,30 +242,16 @@ laws = {
 					limit = {
 						has_law = tribal_organization_1
 					}
-					hidden_tooltip = {
-						holder_scope = {
-							any_realm_character = {
-								opinion = {
-									who = ROOT
-									modifier = opinion_increased_tribal_organization
-									months = 60
-								}
-							}
-						}
+					holder_scope = {
+						plus_increased_tribal_organization_effect = yes
 					}
 				}
 				else_if = {
-					limit = { has_law = tribal_organization_3 }
-					hidden_tooltip = {
-						holder_scope = {
-							any_realm_character = {
-								opinion = {
-									who = ROOT
-									modifier = opinion_lowered_tribal_organization
-									months = 60
-								}
-							}
-						}
+					limit = {
+						has_law = tribal_organization_3
+					}
+					holder_scope = {
+						plus_decreased_tribal_organization_effect = yes
 					}
 				}
 			}
@@ -671,23 +279,24 @@ laws = {
 			}
 			else_if = {
 				limit = { has_dlc = "Zeus" }
-				disable_council_voting_on_issue = exile_imprisoned_interaction
-				disable_council_voting_on_issue = execute_imprisoned_interaction
+				enable_council_voting_on_issue = grant_landed_title_interaction
+				enable_council_voting_on_issue = revoke_title_interaction
 				hidden_tooltip = {
-					revoke_law = banish_voting_power_1
-					revoke_law = execution_voting_power_1
+					add_law = grant_title_voting_power_1
+					add_law = revoke_title_voting_power_1
 				}
 			}
 			hidden_tooltip = {
 				revoke_law = tribal_organization_0
 				revoke_law = tribal_organization_1
-				revoke_law = tribal_organization_2
 				revoke_law = tribal_organization_3
 				revoke_law = tribal_organization_4
 			}
 		}
+
+		unreformed_tribal_opinion = -10
 	}
-	#Tribal Organization 3
+
 	tribal_organization_3 = {
 		group = tribal_organization
 
@@ -700,6 +309,7 @@ laws = {
 
 		allow = {
 			holder_scope = {
+				show_scope_change = no
 				prestige = 250
 			}
 			OR = {
@@ -722,32 +332,16 @@ laws = {
 					limit = {
 						has_law = tribal_organization_2
 					}
-					hidden_tooltip = {
-						holder_scope = {
-							any_realm_character = {
-								opinion = {
-									who = ROOT
-									modifier = opinion_increased_tribal_organization
-									months = 60
-								}
-							}
-						}
+					holder_scope = {
+						plus_increased_tribal_organization_effect = yes
 					}
 				}
 				else_if = {
 					limit = {
 						has_law = tribal_organization_4
 					}
-					hidden_tooltip = {
-						holder_scope = {
-							any_realm_character = {
-								opinion = {
-									who = ROOT
-									modifier = opinion_lowered_tribal_organization
-									months = 60
-								}
-							}
-						}
+					holder_scope = {
+						plus_decreased_tribal_organization_effect = yes
 					}
 				}
 			}
@@ -775,25 +369,26 @@ laws = {
 			}
 			else_if = {
 				limit = { has_dlc = "Zeus" }
-				disable_council_voting_on_issue = revoke_title_interaction
-				disable_council_voting_on_issue = grant_landed_title_interaction
+				enable_council_voting_on_issue = imprison_character_interaction
+				enable_council_voting_on_issue = exile_imprisoned_interaction
+				enable_council_voting_on_issue = execute_imprisoned_interaction
 				hidden_tooltip = {
-					revoke_law = revoke_title_voting_power_1
-					revoke_law = grant_title_voting_power_1
+					add_law = imprison_voting_power_1
+					add_law = banish_voting_power_1
+					add_law = execution_voting_power_1
 				}
 			}
 			hidden_tooltip = {
 				revoke_law = tribal_organization_0
 				revoke_law = tribal_organization_1
 				revoke_law = tribal_organization_2
-				revoke_law = tribal_organization_3
 				revoke_law = tribal_organization_4
 			}
 		}
 
-		unreformed_tribal_opinion = -5
+		unreformed_tribal_opinion = -15
 	}
-	#Tribal Organization 4
+
 	tribal_organization_4 = {
 		group = tribal_organization
 
@@ -806,6 +401,7 @@ laws = {
 
 		allow = {
 			holder_scope = {
+				show_scope_change = no
 				prestige = 250
 			}
 			has_law = tribal_organization_3
@@ -825,16 +421,8 @@ laws = {
 					limit = {
 						has_law = tribal_organization_3
 					}
-					hidden_tooltip = {
-						holder_scope = {
-							any_realm_character = {
-								opinion = {
-									who = ROOT
-									modifier = opinion_increased_tribal_organization
-									months = 60
-								}
-							}
-						}
+					holder_scope = {
+						plus_increased_tribal_organization_effect = yes
 					}
 				}
 			}
@@ -862,9 +450,10 @@ laws = {
 			}
 			else_if = {
 				limit = { has_dlc = "Zeus" }
-				disable_council_voting_on_issue = laws
 				hidden_tooltip = {
-					revoke_law = law_voting_power_1
+					add_law = succession_voting_power_1
+					add_law = tribal_focus_0
+					add_law = tribal_obligations_0
 				}
 			}
 			custom_tooltip = {
@@ -875,167 +464,420 @@ laws = {
 				revoke_law = tribal_organization_1
 				revoke_law = tribal_organization_2
 				revoke_law = tribal_organization_3
-				revoke_law = tribal_organization_4
 			}
 		}
 
-		unreformed_tribal_opinion = -10
+		unreformed_tribal_opinion = -20
 	}
 
-	#Vice Royalty 0
-	vice_royalty_0 = {
-		group = vice_royalty
-		default = yes
+	###########################
+	#
+	#	Centralization laws
+	#
+	###########################
+
+	centralization_0 = {
+		group = centralization
 
 		potential = {
-			has_dlc = "Charlemagne"
-			higher_tier_than = king
-			holder_scope = {
-				independent = yes
-				is_feudal = yes
-			}
+			higher_tier_than = count
+			is_nomadic = no
 		}
 
 		allow = {
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law = tribal_organization_2
+					has_law = tribal_organization_3
+					has_law = tribal_organization_4
 				}
 			}
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = vice_royalty_0
-				revoke_law = vice_royalty_1
-				revoke_law = vice_royalty_2
-			}
-		}
-	}
-	#Vice Royalty 1
-	vice_royalty_1 = {
-		group = vice_royalty
-
-		potential = {
-			has_dlc = "Charlemagne"
-			higher_tier_than = king
-			holder_scope = {
-				independent = yes
-				is_feudal = yes
-			}
-		}
-
-		allow = {
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
 				}
-				prestige = 250
-			}
-			OR = {
-				has_crown_law_title = no
 				crownlaw_title = {
 					OR = {
-						has_law	= crown_authority_3
+						has_law = crown_authority_1
+						has_law = crown_authority_2
+						has_law = crown_authority_3
 						has_law = crown_authority_4
+					}
+				}
+			}
+			has_law = centralization_1
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
 					}
 				}
 			}
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
 			modifier = {
-				factor = 0
-				has_law = vice_royalty_2
+				factor = 2
+				over_max_demesne_size <= -1
+				over_vassal_limit = 1
 			}
 		}
 
 		effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-#				holder_scope = {
-#					scaled_prestige = {
-#						value = -3
-#						min = -250
-#						max = -1000
-#					}
-#				}
-			}
 			hidden_tooltip = {
-				revoke_law = vice_royalty_0
-				revoke_law = vice_royalty_1
-				revoke_law = vice_royalty_2
+				revoke_law = centralization_1
+				revoke_law = centralization_2
+				revoke_law = centralization_3
+				revoke_law = centralization_4
 			}
-			set_allow_vice_royalties = king
 		}
 
-		vassal_limit = -5
+		demesne_size = -2
+		vassal_limit = 10
 	}
-	#Vice Royalty 2
-	vice_royalty_2 = {
-		group = vice_royalty
+
+	centralization_1 = {
+		group = centralization
 
 		potential = {
-			has_dlc = "Charlemagne"
-			higher_tier_than = king
-			holder_scope = {
-				independent = yes
-				is_feudal = yes
-			}
+			higher_tier_than = count
+			is_nomadic = no
 		}
 
 		allow = {
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
 				}
-				prestige = 250
+				OR = {
+					has_law = tribal_organization_2
+					has_law = tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
+				}
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_1
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
 			}
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					has_law = crown_authority_4
+				has_law = centralization_0
+				has_law = centralization_2
+			}
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
-			has_law = ze_administration_laws_1
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+			modifier = {
+				factor = 2
+				has_law = centralization_2
+				over_max_demesne_size <= -1
+				over_vassal_limit = 1
+			}
+			modifier = {
+				factor = 2
+				has_law = centralization_0
+				over_max_demesne_size = 1
+				over_vassal_limit <= -5
+			}
 		}
 
 		effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-#				holder_scope = {
-#					scaled_prestige = {
-#						value = -6
-#						min = -250
-#						max = -1000
-#					}
-#				}
-			}
 			hidden_tooltip = {
-				revoke_law = vice_royalty_0
-				revoke_law = vice_royalty_1
-				revoke_law = vice_royalty_2
+				revoke_law = centralization_0
+				revoke_law = centralization_2
+				revoke_law = centralization_3
+				revoke_law = centralization_4
 			}
-			set_allow_vice_royalties = duke
+		}
+
+		demesne_size = -1
+		vassal_limit = 5
+	}
+
+	centralization_2 = {
+		group = centralization
+		default = yes
+
+		potential = {
+			higher_tier_than = count
+			is_nomadic = no
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law = tribal_organization_2
+					has_law = tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
+				}
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_1
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+			OR = {
+				has_law = centralization_1
+				has_law = centralization_3
+			}
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 2
+				has_law = centralization_3
+				over_max_demesne_size <= -1
+				over_vassal_limit = 1
+			}
+			modifier = {
+				factor = 2
+				has_law = centralization_1
+				over_max_demesne_size = 1
+				over_vassal_limit <= -5
+			}
+		}
+
+		effect = {
+			hidden_tooltip = {
+				revoke_law = centralization_0
+				revoke_law = centralization_1
+				revoke_law = centralization_3
+				revoke_law = centralization_4
+			}
+		}
+	}
+
+	centralization_3 = {
+		group = centralization
+
+		potential = {
+			higher_tier_than = count
+			is_nomadic = no
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law = tribal_organization_2
+					has_law = tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
+				}
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_1
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+			OR = {
+				has_law = centralization_2
+				has_law = centralization_4
+			}
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 2
+				has_law = centralization_4
+				over_max_demesne_size <= -1
+				over_vassal_limit = 1
+			}
+			modifier = {
+				factor = 2
+				has_law = centralization_2
+				over_max_demesne_size = 1
+				over_vassal_limit <= -5
+			}
+		}
+
+		effect = {
+			hidden_tooltip = {
+				revoke_law = centralization_0
+				revoke_law = centralization_1
+				revoke_law = centralization_2
+				revoke_law = centralization_4
+			}
+		}
+
+		vassal_limit = -5
+		demesne_size = 1
+	}
+
+	centralization_4 = {
+		group = centralization
+
+		potential = {
+			higher_tier_than = count
+			is_nomadic = no
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law = tribal_organization_2
+					has_law = tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
+				}
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_1
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+			has_law = centralization_3
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 2
+				has_law = centralization_3
+				over_max_demesne_size = 1
+				over_vassal_limit <= -5
+			}
+		}
+
+		effect = {
+			hidden_tooltip = {
+				revoke_law = centralization_0
+				revoke_law = centralization_1
+				revoke_law = centralization_2
+				revoke_law = centralization_3
+			}
 		}
 
 		vassal_limit = -10
+		demesne_size = 2
 	}
 
-	#Feudal Administration 0
+
+	#################################
+	#
+	#	Feudal administration laws
+	#	No Conclave
+	#
+	#################################
+
 	feudal_administration = {
 		group = administration
 		default = yes
@@ -1066,7 +908,7 @@ laws = {
 			}
 		}
 	}
-	#Imperial Administration 2
+
 	imperial_administration = {
 		group = administration
 
@@ -1103,8 +945,14 @@ laws = {
 		vassal_opinion = -10
 	}
 
-	#Feudal Administration 0
-	ze_administration_laws_0 = {
+	#################################
+	#
+	#	Feudal administration laws
+	#	Conclave
+	#
+	#################################
+
+	ze_administration_laws_0 = { # Feudal
 		group = ze_administration_laws
 		default = yes
 
@@ -1118,8 +966,14 @@ laws = {
 		allow = {
 			has_law = ze_administration_laws_1
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 		}
@@ -1135,8 +989,8 @@ laws = {
 			}
 		}
 	}
-	#Late Feudal Administration 1
-	ze_administration_laws_1 = {
+
+	ze_administration_laws_1 = { # Late Feudal
 		group = ze_administration_laws
 
 		potential = {
@@ -1148,21 +1002,34 @@ laws = {
 
 		allow = {
 			holder_scope = {
+				show_scope_change = no
 				prestige = 250
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 			OR = {
 				has_law = ze_administration_laws_0
 				has_law = ze_administration_laws_2
 			}
-			OR = {
-				has_crown_law_title = no
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
+				}
 				crownlaw_title = {
-					has_law = crown_authority_2
-					has_law = crown_authority_3
-					has_law = crown_authority_4
+					OR = {
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
 				}
 			}
 		}
@@ -1197,8 +1064,8 @@ laws = {
 		demesne_size = 1
 		vassal_opinion = -5
 	}
-	#Imperial Administration 2
-	ze_administration_laws_2 = {
+
+	ze_administration_laws_2 = { # Imperial
 		group = ze_administration_laws
 
 		potential = {
@@ -1214,15 +1081,26 @@ laws = {
 
 		allow = {
 			holder_scope = {
+				show_scope_change = no
 				prestige = 250
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 			tier = EMPEROR
 			has_law = ze_administration_laws_1
-			OR = {
-				has_crown_law_title = no
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
+				}
 				crownlaw_title = {
 					has_law = crown_authority_4
 				}
@@ -1270,18 +1148,399 @@ laws = {
 		vassal_opinion = -10
 	}
 
-	#Status of Women 0
+	###########################
+	#
+	#	Vice royalty laws
+	#
+	###########################
+
+	vice_royalty_0 = { # none
+		group = vice_royalty
+		default = yes
+
+		potential = {
+			has_dlc = "Charlemagne"
+			higher_tier_than = king
+			holder_scope = {
+				independent = yes
+				is_feudal = yes
+			}
+		}
+
+		allow = {
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		effect = {
+			hidden_tooltip = {
+				revoke_law = vice_royalty_1
+				revoke_law = vice_royalty_2
+			}
+		}
+	}
+
+	vice_royalty_1 = { # kingdom level
+		group = vice_royalty
+
+		potential = {
+			has_dlc = "Charlemagne"
+			higher_tier_than = king
+			holder_scope = {
+				independent = yes
+				is_feudal = yes
+			}
+		}
+
+		allow = {
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+				prestige = 250
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_crown_law_title = yes
+				}
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = vice_royalty_2
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
+			}
+			hidden_tooltip = {
+				revoke_law = vice_royalty_0
+				revoke_law = vice_royalty_2
+			}
+			set_allow_vice_royalties = king
+		}
+
+		vassal_limit = -5
+	}
+
+	vice_royalty_2 = { # duchy level
+		group = vice_royalty
+
+		potential = {
+			has_dlc = "Charlemagne"
+			higher_tier_than = king
+			holder_scope = {
+				independent = yes
+				is_feudal = yes
+			}
+		}
+
+		allow = {
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+				prestige = 250
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						has_crown_law_title = yes
+					}
+				}
+				crownlaw_title = {
+					has_law = crown_authority_4
+				}
+			}
+			has_law = ze_administration_laws_1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
+			}
+			hidden_tooltip = {
+				revoke_law = vice_royalty_0
+				revoke_law = vice_royalty_1
+			}
+			set_allow_vice_royalties = duke
+		}
+
+		vassal_limit = -10
+	}
+
+		#############################
+	#
+	#	Title revocation laws
+	#
+	#############################
+
+	revoke_title_law_0 = { # disabled
+		group = revoke_title_law
+		default = yes
+
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				NOR = {
+					is_nomadic = yes
+					government = confucian_bureaucracy
+				}
+			}
+		}
+
+		allow = {
+			holder_scope = {
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+			}
+			NOT = { has_law = revoke_title_law_2 }
+		}
+
+		ai_will_do = { factor = 0 }
+
+		effect = {
+			hidden_tooltip = {
+				revoke_law = revoke_title_law_1
+				revoke_law = revoke_title_law_2
+			}
+		}
+
+		vassal_opinion = 5
+	}
+
+	revoke_title_law_1 = { # enabled
+		group = revoke_title_law
+
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				NOR = {
+					is_nomadic = yes
+					government = confucian_bureaucracy
+				}
+			}
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
+				}
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_1
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+			holder_scope = {
+				show_scope_change = no
+				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = revoke_title_law_2
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -3
+#						min = -250
+#						max = -1000
+#					}
+#				}
+			}
+			set_allow_title_revokation = yes
+			hidden_tooltip = {
+				revoke_law = revoke_title_law_0
+				revoke_law = revoke_title_law_2
+			}
+		}
+	}
+
+	revoke_title_law_2 = { # religious
+		group = revoke_title_law
+
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = {
+				NOR = {
+					is_nomadic = yes
+					government = confucian_bureaucracy
+					government = chinese_imperial_government
+					has_religion_feature = religion_cosmopolitan
+				}
+			}
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = no
+					}
+					has_crown_law_title = yes
+				}
+				crownlaw_title = {
+					OR = {
+						has_law = crown_authority_2
+						has_law = crown_authority_3
+						has_law = crown_authority_4
+					}
+				}
+			}
+			NOT = { has_law = revoke_title_law_0 }
+			holder_scope = {
+				prestige = 250
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+#				holder_scope = {
+#					scaled_prestige = {
+#						value = -6
+#						min = -250
+#						max = -1000
+#					}
+#				}
+			}
+			set_allow_title_revokation = yes
+			set_allow_free_infidel_revokation = yes
+			hidden_tooltip = {
+				revoke_law = revoke_title_law_0
+				revoke_law = revoke_title_law_1
+			}
+		}
+
+		vassal_opinion = -5
+	}
+
+	#################################
+	#
+	#	Status of women laws
+	#
+	#################################
+
 	status_of_women_0 = {
 		group = status_of_women
+		default = yes
 
 		potential = {
 			has_dlc = "Zeus"
 			holy_order = no
 			NOR = {
 				has_global_flag = gender_equality
-				holder_scope = { has_religion_feature = religion_matriarchal }
-				holder_scope = { has_religion_feature = religion_equal }
-				holder_scope = { has_religion_feature = religion_feature_bon }
+				holder_scope = {
+					OR = {
+						has_religion_feature = religion_matriarchal
+						has_religion_feature = religion_equal
+						has_religion_feature = religion_feature_bon
+					}
+				}
 				has_game_rule = {
 					name = gender
 					value = historical
@@ -1295,25 +1554,23 @@ laws = {
 
 		allow = {
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 			has_law = status_of_women_1
-			hidden_tooltip = {
-				NOR = {
-					holder_scope = { has_religion_feature = religion_matriarchal }
-					holder_scope = { has_religion_feature = religion_equal }
-					holder_scope = { has_religion_feature = religion_feature_bon }
-				}
-			}
 		}
 
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				factor = 0.3
-				holder_scope = { NOT = { is_female = yes } }
+				holder_scope = { is_female = no }
 				has_law = status_of_women_1
 			}
 		}
@@ -1340,20 +1597,23 @@ laws = {
 		male_opinion = 4
 		female_opinion = -8
 	}
-	#Status of Women 1
+
 	status_of_women_1 = {
 		group = status_of_women
-		default = yes
 
 		potential = {
 			has_dlc = "Zeus"
 			holy_order = no
 			NOR = {
 				has_global_flag = gender_equality
-				holder_scope = { has_religion_feature = religion_matriarchal }
-				holder_scope = { has_religion_feature = religion_equal }
-				holder_scope = { has_religion_feature = religion_feature_bon }
-				holder_scope = { has_religion_feature = religion_patriarchal }
+				holder_scope = {
+					OR = {
+						has_religion_feature = religion_matriarchal
+						has_religion_feature = religion_equal
+						has_religion_feature = religion_feature_bon
+						has_religion_feature = religion_patriarchal
+					}
+				}
 				has_game_rule = {
 					name = gender
 					value = historical
@@ -1368,21 +1628,18 @@ laws = {
 		allow = {
 			holder_scope = {
 				prestige = 250
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 			OR = {
 				has_law = status_of_women_0
 				has_law = status_of_women_2
-			}
-			hidden_tooltip = {
-				NOR = {
-					holder_scope = { has_religion_feature = religion_matriarchal }
-					holder_scope = { has_religion_feature = religion_equal }
-					holder_scope = { has_religion_feature = religion_feature_bon }
-					holder_scope = { has_religion_feature = religion_patriarchal }
-				}
 			}
 		}
 
@@ -1395,7 +1652,7 @@ laws = {
 			}
 			modifier = {
 				factor = 0.3
-				holder_scope = { NOT = { is_female = yes } }
+				holder_scope = { is_female = no }
 				has_law = status_of_women_2
 			}
 		}
@@ -1445,19 +1702,23 @@ laws = {
 		male_opinion = 2
 		female_opinion = -4
 	}
-	#Status of Women 2
+
 	status_of_women_2 = {
 		group = status_of_women
 
 		potential = {
 			has_dlc = "Zeus"
-			holy_order = no
 			NOR = {
+				holy_order = yes
 				has_global_flag = gender_equality
-				holder_scope = { has_religion_feature = religion_matriarchal }
-				holder_scope = { has_religion_feature = religion_equal }
-				holder_scope = { has_religion_feature = religion_feature_bon }
-				holder_scope = { has_religion_feature = religion_patriarchal }
+				holder_scope = {
+					OR = {
+						has_religion_feature = religion_matriarchal
+						has_religion_feature = religion_equal
+						has_religion_feature = religion_feature_bon
+						has_religion_feature = religion_patriarchal
+					}
+				}
 				has_game_rule = {
 					name = gender
 					value = historical
@@ -1472,21 +1733,18 @@ laws = {
 		allow = {
 			holder_scope = {
 				prestige = 250
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 			OR = {
 				has_law = status_of_women_1
 				has_law = status_of_women_3
-			}
-			hidden_tooltip = {
-				NOR = {
-					holder_scope = { has_religion_feature = religion_matriarchal }
-					holder_scope = { has_religion_feature = religion_equal }
-					holder_scope = { has_religion_feature = religion_feature_bon }
-					holder_scope = { has_religion_feature = religion_patriarchal }
-				}
 			}
 		}
 
@@ -1499,7 +1757,7 @@ laws = {
 			}
 			modifier = {
 				factor = 0.3
-				holder_scope = { NOT = { is_female = yes } }
+				holder_scope = { is_female = no }
 				has_law = status_of_women_3
 			}
 		}
@@ -1547,7 +1805,7 @@ laws = {
 			}
 		}
 	}
-	#Status of Women 3
+
 	status_of_women_3 = {
 		group = status_of_women
 
@@ -1556,10 +1814,14 @@ laws = {
 			holy_order = no
 			NOR = {
 				has_global_flag = gender_equality
-				holder_scope = { has_religion_feature = religion_matriarchal }
-				holder_scope = { has_religion_feature = religion_equal }
-				holder_scope = { has_religion_feature = religion_feature_bon }
-				holder_scope = { has_religion_feature = religion_patriarchal }
+				holder_scope = {
+					OR = {
+						has_religion_feature = religion_matriarchal
+						has_religion_feature = religion_equal
+						has_religion_feature = religion_feature_bon
+						has_religion_feature = religion_patriarchal
+					}
+				}
 				has_game_rule = {
 					name = gender
 					value = historical
@@ -1574,21 +1836,18 @@ laws = {
 		allow = {
 			holder_scope = {
 				prestige = 250
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 			OR = {
 				has_law = status_of_women_2
 				has_law = status_of_women_4
-			}
-			hidden_tooltip = {
-				NOR = {
-					holder_scope = { has_religion_feature = religion_matriarchal }
-					holder_scope = { has_religion_feature = religion_equal }
-					holder_scope = { has_religion_feature = religion_feature_bon }
-					holder_scope = { has_religion_feature = religion_patriarchal }
-				}
 			}
 		}
 
@@ -1652,7 +1911,7 @@ laws = {
 		female_opinion = 2
 		male_opinion = -4
 	}
-	#Status of Women 4
+
 	status_of_women_4 = {
 		group = status_of_women
 
@@ -1676,16 +1935,17 @@ laws = {
 		allow = {
 			holder_scope = {
 				prestige = 250
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 			has_law = status_of_women_3
-			hidden_tooltip = {
-				NOT = {
-					holder_scope = { has_religion_feature = religion_patriarchal }
-				}
-			}
+
 		}
 
 		ai_will_do = {
@@ -1735,166 +1995,5 @@ laws = {
 
 		female_opinion = 4
 		male_opinion = -8
-	}
-
-	#Revoke Title 0
-	revoke_title_law_0 = {
-		group = revoke_title_law
-
-		potential = {
-			has_dlc = "Zeus"
-			holder_scope = {
-				NOR = {
-					is_nomadic = yes
-					government = confucian_bureaucracy
-				}
-			}
-		}
-
-		allow = {
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
-				}
-			}
-			NOT = { has_law = revoke_title_law_2 }
-		}
-
-		ai_will_do = { factor = 0 }
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = revoke_title_law_1
-				revoke_law = revoke_title_law_2
-			}
-		}
-
-		vassal_opinion = 5
-	}
-	#Revoke Title 1
-	revoke_title_law_1 = {
-		group = revoke_title_law
-		default = yes
-
-		potential = {
-			has_dlc = "Zeus"
-			holder_scope = {
-				NOR = {
-					is_nomadic = yes
-					government = confucian_bureaucracy
-				}
-			}
-		}
-
-		allow = {
-			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_1
-						has_law = crown_authority_2
-						has_law = crown_authority_3
-						has_law = crown_authority_4
-					}
-				}
-			}
-			holder_scope = {
-				prestige = 250
-				NOT = {
-					has_character_modifier = uncrowned_modifier
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_law = revoke_title_law_2
-			}
-		}
-
-		effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-#				holder_scope = {
-#					scaled_prestige = {
-#						value = -3
-#						min = -250
-#						max = -1000
-#					}
-#				}
-			}
-			set_allow_title_revokation = yes
-			hidden_tooltip = {
-				revoke_law = revoke_title_law_0
-				revoke_law = revoke_title_law_2
-			}
-		}
-	}
-	#Revoke Title 2
-	revoke_title_law_2 = {
-		group = revoke_title_law
-
-		potential = {
-			has_dlc = "Zeus"
-			holder_scope = {
-				NOR = {
-					is_nomadic = yes
-					government = confucian_bureaucracy
-					government = chinese_imperial_government
-					has_religion_feature = religion_cosmopolitan
-				}
-			}
-		}
-
-		allow = {
-			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_2
-						has_law = crown_authority_3
-						has_law = crown_authority_4
-					}
-				}
-			}
-			NOT = { has_law = revoke_title_law_0 }
-			holder_scope = {
-				prestige = 250
-				NOT = {
-					has_character_modifier = uncrowned_modifier
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-#				holder_scope = {
-#					scaled_prestige = {
-#						value = -6
-#						min = -250
-#						max = -1000
-#					}
-#				}
-			}
-			set_allow_title_revokation = yes
-			set_allow_free_infidel_revokation = yes
-			hidden_tooltip = {
-				revoke_law = revoke_title_law_0
-				revoke_law = revoke_title_law_1
-			}
-		}
-
-		vassal_opinion = -5
 	}
 }

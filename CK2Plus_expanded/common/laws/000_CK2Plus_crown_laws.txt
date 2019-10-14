@@ -1,15 +1,31 @@
-######
-#Plus Crown Laws:
+###########################
 #
-#Total = 1
-######
+#	Plus crown laws
+#
+###########################
+#
+#	crown_authority_0..4
+#	investiture_law_0..1
+#	out_of_realm_inheritance_law_0..1
+#	vassal_wars_law_0..2
+#	kingdom_lockout_0..2
+#
+#	Total groups:	 5
+#	Total lwas:		15
+#
+###########################
 
-#Law Groups
+###########################
+#
+#	Law groups
+#
+###########################
+
 law_groups = {
 	crown_authority = { #Crown Authority - Vanilla
 		# No law_type specified due to vanilla otherwise putting crown laws onto the wrong tab without Conclave
 	}
-	kingdom_lockout_group = { #Kingdom Lockout - Plus
+	investiture_law = { #Papal Investiture - Vanilla
 		# No law_type specified due to vanilla otherwise putting crown laws onto the wrong tab without Conclave
 	}
 	out_of_realm_inheritance_law = { #Controlled Realm Inheritance - Vanilla (Conclave)
@@ -20,25 +36,27 @@ law_groups = {
 		law_type = realm
 		allowed_for_councillors = yes
 	}
-	investiture_law = { #Papal Investiture - Vanilla
+	kingdom_lockout_group = { #Kingdom Lockout - Plus
 		# No law_type specified due to vanilla otherwise putting crown laws onto the wrong tab without Conclave
 	}
 }
 
-#Crown Laws
-#####
 de_jure_laws = {
-	#Crown Authority 0
+
+	###########################
+	#
+	#	Crown authority laws
+	#
+	###########################
+
 	crown_authority_0 = {
-		show_as_title = yes
 		group = crown_authority
+		default = yes
 
 		potential = {
 			holder_scope = {
-				NOR = {
-					is_tribal = yes
-					is_nomadic = yes
-				}
+				is_tribal = no
+				is_nomadic = no
 			}
 		}
 
@@ -51,21 +69,7 @@ de_jure_laws = {
 		}
 
 		effect = {
-			if = {
-				limit = { has_dlc = "Zeus" }
-				enable_council_voting_on_issue = laws
-				enable_council_voting_on_issue = declare_war_interaction
-				enable_council_voting_on_issue = revoke_title_interaction
-				enable_council_voting_on_issue = grant_landed_title_interaction
-				enable_council_voting_on_issue = imprison_character_interaction
-				enable_council_voting_on_issue = exile_imprisoned_interaction
-				enable_council_voting_on_issue = execute_imprisoned_interaction
-				hidden_tooltip = {
-					add_law = law_voting_power_1
-				}
-			}
 			hidden_tooltip = {
-				revoke_law = crown_authority_0
 				revoke_law = crown_authority_1
 				revoke_law = crown_authority_2
 				revoke_law = crown_authority_3
@@ -79,30 +83,24 @@ de_jure_laws = {
 					limit = {
 						has_law = crown_authority_1
 					}
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_lowered_crown_authority
-						}
+					holder_scope = {
+						plus_decreased_crown_authority_opinion_effect = yes
 					}
 				}
 			}
 		}
 
 		vassal_opinion = 5
+		vassal_limit = 10
 	}
-	#Crown Authority 1
+
 	crown_authority_1 = {
-		show_as_title = yes
 		group = crown_authority
-		default = yes
 
 		potential = {
 			holder_scope = {
-				NOR = {
-					is_tribal = yes
-					is_nomadic = yes
-				}
+				is_tribal = no
+				is_nomadic = no
 			}
 		}
 
@@ -112,10 +110,23 @@ de_jure_laws = {
 				has_law = crown_authority_2
 			}
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 500
+				}
 			}
 		}
 
@@ -129,24 +140,27 @@ de_jure_laws = {
 
 		effect = {
 			if = {
-				limit = { has_dlc = "Zeus" }
-				disable_council_voting_on_issue = declare_war_interaction
-				disable_council_voting_on_issue = imprison_character_interaction
-				hidden_tooltip = {
-					revoke_law = war_voting_power_1
-					revoke_law = imprison_voting_power_1
-				}
-			}
-			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						prestige = -1000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						prestige = -500
+					}
+				}
 			}
 			hidden_tooltip = {
 				set_tribal_vassal_levy_control = yes
 				revoke_law = crown_authority_0
-				revoke_law = crown_authority_1
 				revoke_law = crown_authority_2
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
@@ -159,38 +173,40 @@ de_jure_laws = {
 					limit = {
 						has_law = crown_authority_0
 					}
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_increased_authority
-						}
+					holder_scope = {
+						plus_increased_crown_authority_opinion_effect = yes
 					}
 				}
-				else_if = {
+				if = {
 					limit = {
 						has_law = crown_authority_2
 					}
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_lowered_crown_authority
-						}
+					holder_scope = {
+						plus_decreased_crown_authority_opinion_effect = yes
 					}
 				}
 			}
 		}
+
+		vassal_limit = 5
+		demesne_size = 1
+
+		castle_vassal_max_levy = 0.05
+		city_vassal_max_levy = 0.05
+		temple_vassal_max_levy = 0.05
+
+		castle_vassal_min_levy = 0.05
+		city_vassal_min_levy = 0.05
+		temple_vassal_min_levy = 0.05
 	}
-	#Crown Authority 2
+
 	crown_authority_2 = {
-		show_as_title = yes
 		group = crown_authority
 
 		potential = {
 			holder_scope = {
-				NOR = {
-					is_tribal = yes
-					is_nomadic = yes
-				}
+				is_tribal = no
+				is_nomadic = no
 			}
 		}
 
@@ -200,10 +216,23 @@ de_jure_laws = {
 				has_law = crown_authority_3
 			}
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 2000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 1000
+				}
 			}
 		}
 
@@ -217,25 +246,28 @@ de_jure_laws = {
 
 		effect = {
 			if = {
-				limit = { has_dlc = "Zeus" }
-				disable_council_voting_on_issue = exile_imprisoned_interaction
-				disable_council_voting_on_issue = execute_imprisoned_interaction
-				hidden_tooltip = {
-					revoke_law = banish_voting_power_1
-					revoke_law = execution_voting_power_1
-				}
-			}
-			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						prestige = -2000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						prestige = -1000
+					}
+				}
 			}
 			hidden_tooltip = {
 				set_tribal_vassal_levy_control = yes
 				revoke_law = crown_authority_0
 				revoke_law = crown_authority_1
-				revoke_law = crown_authority_2
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
 			}
@@ -247,40 +279,40 @@ de_jure_laws = {
 					limit = {
 						has_law = crown_authority_1
 					}
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_increased_authority
-						}
+					holder_scope = {
+						plus_increased_crown_authority_opinion_effect = yes
 					}
 				}
-				else_if = {
+				if = {
 					limit = {
 						has_law = crown_authority_3
 					}
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_lowered_crown_authority
-						}
+					holder_scope = {
+						plus_decreased_crown_authority_opinion_effect = yes
 					}
 				}
 			}
 		}
 
 		vassal_opinion = -5
+		demesne_size = 2
+
+		castle_vassal_max_levy = 0.10
+		city_vassal_max_levy = 0.10
+		temple_vassal_max_levy = 0.10
+
+		castle_vassal_min_levy = 0.10
+		city_vassal_min_levy = 0.10
+		temple_vassal_min_levy = 0.10
 	}
-	#Crown Authority 3
+
 	crown_authority_3 = {
-		show_as_title = yes
 		group = crown_authority
 
 		potential = {
 			holder_scope = {
-				NOR = {
-					is_tribal = yes
-					is_nomadic = yes
-				}
+				is_tribal = no
+				is_nomadic = no
 			}
 		}
 
@@ -290,10 +322,23 @@ de_jure_laws = {
 				has_law = crown_authority_4
 			}
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 3000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 1500
+				}
 			}
 		}
 
@@ -307,26 +352,29 @@ de_jure_laws = {
 
 		effect = {
 			if = {
-				limit = { has_dlc = "Zeus" }
-				disable_council_voting_on_issue = revoke_title_interaction
-				disable_council_voting_on_issue = grant_landed_title_interaction
-				hidden_tooltip = {
-					revoke_law = revoke_title_voting_power_1
-					revoke_law = grant_title_voting_power_1
-				}
-			}
-			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -9 min = -250 max = -1000 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						prestige = -3000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						prestige = -1500
+					}
+				}
 			}
 			hidden_tooltip = {
 				set_tribal_vassal_levy_control = yes
 				revoke_law = crown_authority_0
 				revoke_law = crown_authority_1
 				revoke_law = crown_authority_2
-				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
 			}
 		}
@@ -337,50 +385,63 @@ de_jure_laws = {
 					limit = {
 						has_law = crown_authority_2
 					}
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_increased_authority
-						}
+					holder_scope = {
+						plus_increased_crown_authority_opinion_effect = yes
 					}
 				}
-				else_if = {
+				if = {
 					limit = {
 						has_law = crown_authority_4
 					}
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_lowered_crown_authority
-						}
+					holder_scope = {
+						plus_decreased_crown_authority_opinion_effect = yes
 					}
 				}
 			}
 		}
 
 		vassal_opinion = -10
+		demesne_size = 3
+
+		castle_vassal_max_levy = 0.15
+		city_vassal_max_levy = 0.15
+		temple_vassal_max_levy = 0.15
+
+		castle_vassal_min_levy = 0.15
+		city_vassal_min_levy = 0.15
+		temple_vassal_min_levy = 0.15
 	}
-	#Crown Authority 4
+
 	crown_authority_4 = {
-		show_as_title = yes
 		group = crown_authority
 
 		potential = {
 			holder_scope = {
-				NOR = {
-					is_tribal = yes
-					is_nomadic = yes
-				}
+				is_tribal = no
+				is_nomadic = no
 			}
 		}
 
 		allow = {
 			has_law = crown_authority_3
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 4000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 2000
+				}
 			}
 		}
 
@@ -390,17 +451,23 @@ de_jure_laws = {
 
 		effect = {
 			if = {
-				limit = { has_dlc = "Zeus" }
-				disable_council_voting_on_issue = laws
-				hidden_tooltip = {
-					revoke_law = law_voting_power_1
-				}
-			}
-			if = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -12 min = -250 max = -1000 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						prestige = -4000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						prestige = -2000
+					}
+				}
 			}
 			hidden_tooltip = {
 				set_tribal_vassal_levy_control = yes
@@ -408,7 +475,6 @@ de_jure_laws = {
 				revoke_law = crown_authority_1
 				revoke_law = crown_authority_2
 				revoke_law = crown_authority_3
-				revoke_law = crown_authority_4
 			}
 		}
 
@@ -418,31 +484,40 @@ de_jure_laws = {
 					limit = {
 						has_law = crown_authority_3
 					}
-					any_realm_character = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_increased_authority
-						}
+					holder_scope = {
+						plus_increased_crown_authority_opinion_effect = yes
 					}
 				}
 			}
 		}
 
 		vassal_opinion = -15
+		demesne_size = 4
+
+		castle_vassal_max_levy = 0.20
+		city_vassal_max_levy = 0.20
+		temple_vassal_max_levy = 0.20
+
+		castle_vassal_min_levy = 0.20
+		city_vassal_min_levy = 0.20
+		temple_vassal_min_levy = 0.20
 	}
 
-	#Papal Investiture 0
-	investiture_law_0 = {
-		show_as_title = yes
+	#######################
+	#
+	#	Investiture laws
+	#
+	#######################
+
+	investiture_law_0 = { # Papal
 		group = investiture_law
 		default = yes
 
 		potential = {
 			holder_scope = {
-				NOR = {
-					is_tribal = yes
-					is_nomadic = yes
-				}
+				show_scope_change = no
+				is_tribal = no
+				is_nomadic = no
 				OR = {
 					religion = catholic
 					religion = fraticelli
@@ -452,15 +527,36 @@ de_jure_laws = {
 						character = ROOT
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
 			}
 		}
 
 		allow = {
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
-				piety = 125
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					piety = 1000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					piety = 500
+				}
 			}
 		}
 
@@ -477,26 +573,35 @@ de_jure_laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_piety = { value = -3 min = -125 max = -500 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						piety = -1000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						piety = -500
+					}
+				}
 			}
 			hidden_tooltip = {
 				revoke_law = investiture_law_0
-				revoke_law = investiture_law_1
 			}
 			set_investiture = head
 		}
 	}
-	#Free Investiture 1
-	investiture_law_1 = {
-		show_as_title = yes
+
+	investiture_law_1 = { # Free
 		group = investiture_law
 
 		potential = {
 			holder_scope = {
-				NOR = {
-					is_tribal = yes
-					is_nomadic = yes
-				}
+				is_tribal = no
+				is_nomadic = no
 				OR = {
 					religion = catholic
 					religion = fraticelli
@@ -512,10 +617,23 @@ de_jure_laws = {
 		allow = {
 			holy_order = no
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
-				prestige = 250
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 500
+				}
 			}
 		}
 
@@ -532,11 +650,23 @@ de_jure_laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						prestige = -1000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						prestige = -500
+					}
+				}
 			}
 			hidden_tooltip = {
 				revoke_law = investiture_law_0
-				revoke_law = investiture_law_1
 			}
 			set_investiture = any
 		}
@@ -546,8 +676,13 @@ de_jure_laws = {
 		temple_all_opinion = 10
 	}
 
-	#Inheritance Law 0
-	out_of_realm_inheritance_law_0 = {
+	########################################
+	#
+	#	Controlled realm inheritance laws
+	#
+	########################################
+
+	out_of_realm_inheritance_law_0 = { # Free
 		group = out_of_realm_inheritance_law
 		default = yes
 
@@ -566,8 +701,14 @@ de_jure_laws = {
 		allow = {
 			has_law = out_of_realm_inheritance_law_1
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 		}
@@ -583,8 +724,8 @@ de_jure_laws = {
 			set_protected_inheritance = no
 		}
 	}
-	#Inheritance Law 1
-	out_of_realm_inheritance_law_1 = {
+
+	out_of_realm_inheritance_law_1 = { # Illegal
 		group = out_of_realm_inheritance_law
 
 		potential = {
@@ -601,18 +742,47 @@ de_jure_laws = {
 
 		allow = {
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 500
 				}
 			}
-			prestige = 250
 			has_law = out_of_realm_inheritance_law_0
-			has_law = imperial_administration
-			OR = {
-				has_crown_law_title = no
+			conditional_tooltip = {
+				trigger = {
+					NOT = { has_dlc = "Zeus" }
+				}
+				has_law = imperial_administration
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Zeus"
+				}
+				OR = {
+					has_law = ze_administration_laws_1
+					has_law = ze_administration_laws_2
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_crown_law_title = yes
+				}
 				crownlaw_title = {
 					OR = {
-						has_law	= crown_authority_3
+						has_law = crown_authority_3
 						has_law = crown_authority_4
 					}
 				}
@@ -628,7 +798,20 @@ de_jure_laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						prestige = -1000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						prestige = -500
+					}
+				}
 			}
 			hidden_tooltip = {
 				revoke_law = out_of_realm_inheritance_law_0
@@ -639,8 +822,13 @@ de_jure_laws = {
 		vassal_opinion = -5
 	}
 
-	#Vassal Wars 0
-	vassal_wars_law_0 = {
+	##################################
+	#
+	#	Vassal war declaration laws
+	#
+	##################################
+
+	vassal_wars_law_0 = { # Allowed
 		group = vassal_wars_law
 		default = yes
 
@@ -660,8 +848,14 @@ de_jure_laws = {
 		allow = {
 			has_law = vassal_wars_law_1
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 		}
@@ -679,8 +873,8 @@ de_jure_laws = {
 			set_the_kings_full_peace = no
 		}
 	}
-	#Vassal Wars 1
-	vassal_wars_law_1 = {
+
+	vassal_wars_law_1 = { # External
 		group = vassal_wars_law
 
 		potential = {
@@ -697,8 +891,10 @@ de_jure_laws = {
 		}
 
 		allow = {
-			OR = {
-				has_crown_law_title = no
+			conditional_tooltip = {
+				trigger = {
+					has_crown_law_title = yes
+				}
 				crownlaw_title = {
 					OR = {
 						has_law = crown_authority_2
@@ -711,16 +907,40 @@ de_jure_laws = {
 				has_law = vassal_wars_law_0
 				has_law = vassal_wars_law_2
 			}
-			OR = {
-				has_law = ze_administration_laws_1
+			conditional_tooltip = {
+				trigger = {
+					NOT = { has_dlc = "Zeus" }
+				}
 				has_law = imperial_administration
 			}
-			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Zeus"
+				}
+				OR = {
+					has_law = ze_administration_laws_1
+					has_law = ze_administration_laws_2
 				}
 			}
-			prestige = 250
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 500
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -736,7 +956,20 @@ de_jure_laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						prestige = -1000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						prestige = -500
+					}
+				}
 			}
 			hidden_tooltip = {
 				revoke_law = vassal_wars_law_0
@@ -749,8 +982,8 @@ de_jure_laws = {
 		tribal_opinion = -5
 		feudal_opinion = -5
 	}
-	#Vassal Wars 2
-	vassal_wars_law_2 = {
+
+	vassal_wars_law_2 = { # Illegal
 		group = vassal_wars_law
 
 		potential = {
@@ -767,20 +1000,46 @@ de_jure_laws = {
 		}
 
 		allow = {
-			OR = {
-				has_crown_law_title = no
+			conditional_tooltip = {
+				trigger = {
+					has_crown_law_title = yes
+				}
 				crownlaw_title = {
 					has_law = crown_authority_4
 				}
 			}
 			has_law = vassal_wars_law_1
-			has_law = imperial_administration
+			conditional_tooltip = {
+				trigger = {
+					NOT = { has_dlc = "Zeus" }
+				}
+				has_law = imperial_administration
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Zeus"
+				}
+				has_law = ze_administration_laws_2
+			}
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 2000
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 1000
 				}
 			}
-			prestige = 250
 		}
 
 		ai_will_do = {
@@ -792,7 +1051,20 @@ de_jure_laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+				holder_scope = {
+					if = {
+						limit = {
+							tier = EMPEROR
+						}
+						prestige = -2000
+					}
+					else_if = {
+						limit = {
+							tier = KING
+						}
+						prestige = -1000
+					}
+				}
 			}
 			hidden_tooltip = {
 				revoke_law = vassal_wars_law_0
@@ -806,21 +1078,35 @@ de_jure_laws = {
 		feudal_opinion = -10
 	}
 
-	#Kingdom Lockout 0
-	kingdom_lockout_0 = {
-		show_as_title = yes
+	###########################
+	#
+	#	Kingdom lockout laws
+	#
+	###########################
+
+	kingdom_lockout_0 = { # None
 		group = kingdom_lockout_group
 		default = yes
 
 		potential = {
-			tier = EMPEROR
+			holder_scope = {
+				tier = EMPEROR
+				is_nomadic = no
+				is_tribal = no
+			}
 		}
 
 		allow = {
 			has_law = kingdom_lockout_1
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
 			}
 		}
@@ -836,18 +1122,23 @@ de_jure_laws = {
 			}
 		}
 	}
-	#Kingdom Lockout 1
-	kingdom_lockout_1 = {
-		show_as_title = yes
+
+	kingdom_lockout_1 = { # Anyone
 		group = kingdom_lockout_group
 
 		potential = {
-			tier = EMPEROR
+			holder_scope = {
+				tier = EMPEROR
+				is_nomadic = no
+				is_tribal = no
+			}
 		}
 
 		allow = {
-			OR = {
-				has_crown_law_title = no
+			conditional_tooltip = {
+				trigger = {
+					has_crown_law_title = yes
+				}
 				crownlaw_title = {
 					OR = {
 						has_law = crown_authority_1
@@ -857,20 +1148,37 @@ de_jure_laws = {
 					}
 				}
 			}
-			OR = {
-				has_law = ze_administration_laws_1
+			conditional_tooltip = {
+				trigger = {
+					NOT = { has_dlc = "Zeus" }
+				}
 				has_law = imperial_administration
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Zeus"
+				}
+				OR = {
+					has_law = ze_administration_laws_1
+					has_law = ze_administration_laws_2
+				}
 			}
 			OR = {
 				has_law = kingdom_lockout_0
 				has_law = kingdom_lockout_2
 			}
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
+				prestige = 1000
 			}
-			prestige = 250
 		}
 
 		ai_will_do = {
@@ -886,7 +1194,9 @@ de_jure_laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -3 min = -250 max = -1000 } }
+				holder_scope = {
+					prestige = -1000
+				}
 			}
 			hidden_tooltip = {
 				revoke_law = kingdom_lockout_0
@@ -894,18 +1204,23 @@ de_jure_laws = {
 			}
 		}
 	}
-	#Kingdom Lockout 2
-	kingdom_lockout_2 = {
-		show_as_title = yes
+
+	kingdom_lockout_2 = { # Liege
 		group = kingdom_lockout_group
 
 		potential = {
-			tier = EMPEROR
+			holder_scope = {
+				tier = EMPEROR
+				is_nomadic = no
+				is_tribal = no
+			}
 		}
 
 		allow = {
-			OR = {
-				has_crown_law_title = no
+			conditional_tooltip = {
+				trigger = {
+					has_crown_law_title = yes
+				}
 				crownlaw_title = {
 					OR = {
 						has_law = crown_authority_2
@@ -916,8 +1231,20 @@ de_jure_laws = {
 			}
 			has_law = kingdom_lockout_1
 			OR = {
-				has_law = imperial_administration
+				conditional_tooltip = {
+					trigger = {
+						NOT = { has_dlc = "Zeus" }
+					}
+					has_law = imperial_administration
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_dlc = "Zeus"
+					}
+					has_law = ze_administration_laws_2
+				}
 				holder_scope = {
+					show_scope_change = no
 					OR = {
 						government = theocratic_feudal_government
 						government = chinese_imperial_government
@@ -925,11 +1252,17 @@ de_jure_laws = {
 				}
 			}
 			holder_scope = {
-				NOT = {
-					has_character_modifier = uncrowned_modifier
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
 				}
+				prestige = 2000
 			}
-			prestige = 250
 		}
 
 		ai_will_do = {
@@ -941,7 +1274,9 @@ de_jure_laws = {
 				limit = {
 					has_game_started = yes
 				}
-				holder_scope = { scaled_prestige = { value = -6 min = -250 max = -1000 } }
+				holder_scope = {
+					prestige = -2000
+				}
 			}
 			hidden_tooltip = {
 				revoke_law = kingdom_lockout_0

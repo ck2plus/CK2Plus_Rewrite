@@ -1,68 +1,69 @@
-######
-#Plus Laws:
+##############################
 #
-#Total = 0
-######
+#	Plus council power laws
+#
+##############################
+#
+#	Total groups:	 8
+#	Total laws:		16
+#
+##############################
 
 #Law Groups
 law_groups = {
-	law_voting_power = { #Laws Voting - Vanilla (Conclave)
+	law_voting_power = {
 		law_type = council
 		allowed_for_councillors = yes
 	}
-	war_voting_power = { #War Voting - Vanilla (Conclave)
+	war_voting_power = {
 		law_type = council
 		allowed_for_councillors = yes
 	}
-	revoke_title_voting_power = { #Revoke Titles Voting - Vanilla (Conclave)
+	grant_title_voting_power = {
 		law_type = council
 		allowed_for_councillors = yes
 	}
-	imprison_voting_power = { #Imprison Voting - Vanilla (Conclave)
+	revoke_title_voting_power = {
 		law_type = council
 		allowed_for_councillors = yes
 	}
-	grant_title_voting_power = { #Grant Titles Voting - Vanilla (Conclave)
+	imprison_voting_power = {
 		law_type = council
 		allowed_for_councillors = yes
 	}
-	banish_voting_power = { #Banish Voting - Vanilla (Conclave)
+	banish_voting_power = {
 		law_type = council
 		allowed_for_councillors = yes
 	}
-	execution_voting_power = { #Execution Voting - Vanilla (Conclave)
+	execution_voting_power = {
 		law_type = council
 		allowed_for_councillors = yes
 	}
-	succession_voting_power = { #Succession Voting - Vanilla (Conclave)
+	succession_voting_power = {
 		law_type = council
 		allowed_for_councillors = yes
 	}
 }
 
-#Council Power Laws
-#####
+#########################
+#
+#	Council power laws
+#
+#########################
+
 laws = {
-	#Law Voting Power 0
-	law_voting_power_0 = {
+	law_voting_power_0 = { # Council abolished
 		group = law_voting_power
 		default = yes
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-						has_law	= crown_authority_2
-						has_law	= crown_authority_3
-						has_law = crown_authority_4
-					}
-				}
-				has_law = tribal_organization_0
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
 				has_law = tribal_organization_1
 				has_law	= tribal_organization_2
 				has_law	= tribal_organization_3
@@ -71,14 +72,32 @@ laws = {
 		}
 
 		allow = {
-			has_law = law_voting_power_1
-			has_law = war_voting_power_0
-			has_law = revoke_title_voting_power_0
-			has_law = imprison_voting_power_0
-			has_law = grant_title_voting_power_0
-			has_law = banish_voting_power_0
-			has_law = execution_voting_power_0
-			has_law = succession_voting_power_0
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = law_voting_power_1
+				has_law = war_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				has_law = tribal_organization_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = yes
+				}
+				is_nomadic = no
+			}
 		}
 
 		ai_will_do = {
@@ -99,16 +118,7 @@ laws = {
 						has_law = law_voting_power_1
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_decreased_council_power
-								years = 5
-							}
-						}
+						plus_council_decreased_power_effect = yes
 					}
 				}
 				revoke_law = law_voting_power_1
@@ -116,25 +126,18 @@ laws = {
 			}
 		}
 	}
-	#Law Voting Power 1
-	law_voting_power_1 = {
+
+	law_voting_power_1 = { # Council empowered
 		group = law_voting_power
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-						has_law	= crown_authority_2
-						has_law	= crown_authority_3
-						has_law = crown_authority_4
-					}
-				}
-				has_law = tribal_organization_0
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
 				has_law = tribal_organization_1
 				has_law	= tribal_organization_2
 				has_law	= tribal_organization_3
@@ -144,6 +147,30 @@ laws = {
 
 		allow = {
 			has_law = law_voting_power_0
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law	= tribal_organization_1
+					has_law	= tribal_organization_2
+					has_law	= tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+		}
+
+		default_selection = {
+			factor = 0
+
+			additive_modifier = {
+				value = 10
+				holder_scope = {
+					is_nomadic = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -164,16 +191,7 @@ laws = {
 						has_law = law_voting_power_0
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_increased_council_power
-								years = 5
-							}
-						}
+						plus_council_increased_power_effect = yes
 					}
 				}
 				revoke_law = law_voting_power_0
@@ -184,25 +202,53 @@ laws = {
 		vassal_limit = 2
 	}
 
-	#War Voting Power 0
 	war_voting_power_0 = {
 		group = war_voting_power
 		default = yes
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					has_law = crown_authority_0
-				}
-				has_law = tribal_organization_0
+				higher_tier_than = baron
+				is_patrician = yes
 			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law = tribal_organization_1
+				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+			holder_scope = { is_nomadic = no }
 		}
 
 		allow = {
-			has_law = war_voting_power_1
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = law_voting_power_1
+				has_law = war_voting_power_1
+				has_law = grant_title_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				has_law = tribal_organization_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = yes
+				}
+				is_nomadic = no
+			}
 		}
 
 		ai_will_do = {
@@ -220,41 +266,64 @@ laws = {
 						has_law = war_voting_power_1
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_decreased_council_power
-								years = 5
-							}
-						}
+						plus_council_decreased_power_effect = yes
 					}
 				}
 				revoke_law = war_voting_power_1
 			}
 		}
 	}
-	#War Voting Power 1
+
 	war_voting_power_1 = {
 		group = war_voting_power
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					has_law = crown_authority_0
-				}
-				has_law = tribal_organization_0
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law = tribal_organization_1
+				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
 			}
 		}
 
 		allow = {
-			has_law = law_voting_power_1
-			has_law = war_voting_power_0
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = law_voting_power_1
+				has_law = war_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law	= tribal_organization_1
+					has_law	= tribal_organization_2
+					has_law	= tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+		}
+
+		default_selection = {
+			factor = 0
+
+			additive_modifier = {
+				value = 10
+				holder_scope = {
+					is_nomadic = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -272,16 +341,7 @@ laws = {
 						has_law = war_voting_power_0
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_increased_council_power
-								years = 5
-							}
-						}
+						plus_council_increased_power_effect = yes
 					}
 				}
 				revoke_law = war_voting_power_0
@@ -291,245 +351,46 @@ laws = {
 		vassal_limit = 2
 	}
 
-	#Revoke Title Voting Power 0
-	revoke_title_voting_power_0 = {
-		group = revoke_title_voting_power
-		default = yes
-
-		potential = {
-			has_dlc = "Zeus"
-			higher_tier_than = baron
-			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-						has_law	= crown_authority_2
-					}
-				}
-				has_law = tribal_organization_0
-				has_law = tribal_organization_1
-				has_law	= tribal_organization_2
-			}
-		}
-
-		allow = {
-			has_law = revoke_title_voting_power_1
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		effect = {
-			hidden_tooltip = {
-				if = {
-					limit = {
-						has_law = revoke_title_voting_power_1
-					}
-					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_decreased_council_power
-								years = 5
-							}
-						}
-					}
-				}
-				revoke_law = revoke_title_voting_power_1
-			}
-			disable_council_voting_on_issue = revoke_title_interaction
-		}
-	}
-	#Revoke Title Voting Power 1
-	revoke_title_voting_power_1 = {
-		group = revoke_title_voting_power
-
-		potential = {
-			has_dlc = "Zeus"
-			higher_tier_than = baron
-			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-						has_law	= crown_authority_2
-					}
-				}
-				has_law = tribal_organization_0
-				has_law = tribal_organization_1
-				has_law	= tribal_organization_2
-			}
-		}
-
-		allow = {
-			has_law = law_voting_power_1
-			has_law = revoke_title_voting_power_0
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		effect = {
-			hidden_tooltip = {
-				if = {
-					limit = {
-						has_law = revoke_title_voting_power_0
-					}
-					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_increased_council_power
-								years = 5
-							}
-						}
-					}
-				}
-				revoke_law = revoke_title_voting_power_0
-			}
-			enable_council_voting_on_issue = revoke_title_interaction
-		}
-
-		vassal_limit = 2
-	}
-
-	#Imprison Voting Power 0
-	imprison_voting_power_0 = {
-		group = imprison_voting_power
-		default = yes
-
-		potential = {
-			has_dlc = "Zeus"
-			higher_tier_than = baron
-			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					has_law = crown_authority_0
-				}
-				has_law = tribal_organization_0
-			}
-		}
-
-		allow = {
-			has_law = imprison_voting_power_1
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		effect = {
-			hidden_tooltip = {
-				if = {
-					limit = {
-						has_law = imprison_voting_power_1
-					}
-					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_decreased_council_power
-								years = 5
-							}
-						}
-					}
-				}
-				revoke_law = imprison_voting_power_1
-			}
-			disable_council_voting_on_issue = imprison_character_interaction
-		}
-	}
-	#Imprison Voting Power 1
-	imprison_voting_power_1 = {
-		group = imprison_voting_power
-
-		potential = {
-			has_dlc = "Zeus"
-			higher_tier_than = baron
-			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					has_law = crown_authority_0
-				}
-				has_law = tribal_organization_0
-			}
-		}
-
-		allow = {
-			has_law = law_voting_power_1
-			has_law = imprison_voting_power_0
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		effect = {
-			hidden_tooltip = {
-				if = {
-					limit = {
-						has_law = imprison_voting_power_0
-					}
-					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_increased_council_power
-								years = 5
-							}
-						}
-					}
-				}
-				revoke_law = imprison_voting_power_0
-			}
-			enable_council_voting_on_issue = imprison_character_interaction
-		}
-
-		vassal_limit = 2
-	}
-
-	#Grant Title Voting Power 0
 	grant_title_voting_power_0 = {
 		group = grant_title_voting_power
 		default = yes
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-						has_law	= crown_authority_2
-					}
-				}
-				has_law = tribal_organization_0
-				has_law = tribal_organization_1
-				has_law	= tribal_organization_2
+				higher_tier_than = baron
+				is_patrician = yes
 			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+			holder_scope = { is_nomadic = no }
 		}
 
 		allow = {
-			has_law = grant_title_voting_power_1
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = grant_title_voting_power_1
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				has_law = tribal_organization_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = yes
+				}
+				is_nomadic = no
+			}
 		}
 
 		ai_will_do = {
@@ -543,16 +404,7 @@ laws = {
 						has_law = grant_title_voting_power_1
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_decreased_council_power
-								years = 5
-							}
-						}
+						plus_council_decreased_power_effect = yes
 					}
 				}
 				revoke_law = grant_title_voting_power_1
@@ -560,31 +412,56 @@ laws = {
 			disable_council_voting_on_issue = grant_landed_title_interaction
 		}
 	}
-	#Grant Title Voting Power 1
+
 	grant_title_voting_power_1 = {
 		group = grant_title_voting_power
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-						has_law	= crown_authority_2
-					}
-				}
-				has_law = tribal_organization_0
-				has_law = tribal_organization_1
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
 				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
 			}
 		}
 
 		allow = {
-			has_law = law_voting_power_1
-			has_law = grant_title_voting_power_0
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = law_voting_power_1
+				has_law = war_voting_power_1
+				has_law = grant_title_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law	= tribal_organization_2
+					has_law	= tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+		}
+
+		default_selection = {
+			factor = 0
+
+			additive_modifier = {
+				value = 10
+				holder_scope = {
+					is_nomadic = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -598,16 +475,7 @@ laws = {
 						has_law = grant_title_voting_power_0
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_increased_council_power
-								years = 5
-							}
-						}
+						plus_council_increased_power_effect = yes
 					}
 				}
 				revoke_law = grant_title_voting_power_0
@@ -618,29 +486,312 @@ laws = {
 		vassal_limit = 2
 	}
 
-	#Banish Voting Power 0
+	revoke_title_voting_power_0 = {
+		group = revoke_title_voting_power
+		default = yes
+
+		potential = {
+			has_dlc = "Zeus"
+			OR = {
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law = tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+			holder_scope = { is_nomadic = no }
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = revoke_title_voting_power_1
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				has_law = tribal_organization_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = yes
+				}
+				is_nomadic = no
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = revoke_title_voting_power_1
+					}
+					holder_scope = {
+						plus_council_decreased_power_effect = yes
+					}
+				}
+				revoke_law = revoke_title_voting_power_1
+			}
+			disable_council_voting_on_issue = revoke_title_interaction
+		}
+	}
+
+	revoke_title_voting_power_1 = {
+		group = revoke_title_voting_power
+
+		potential = {
+			has_dlc = "Zeus"
+			OR = {
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = law_voting_power_1
+				has_law = war_voting_power_1
+				has_law = revoke_title_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law	= tribal_organization_2
+					has_law	= tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+		}
+
+		default_selection = {
+			factor = 0
+
+			additive_modifier = {
+				value = 10
+				holder_scope = {
+					is_nomadic = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = revoke_title_voting_power_0
+					}
+					holder_scope = {
+						plus_council_increased_power_effect = yes
+					}
+				}
+				revoke_law = revoke_title_voting_power_0
+			}
+			enable_council_voting_on_issue = revoke_title_interaction
+		}
+
+		vassal_limit = 2
+	}
+
+	imprison_voting_power_0 = {
+		group = imprison_voting_power
+		default = yes
+
+		potential = {
+			has_dlc = "Zeus"
+			OR = {
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+			holder_scope = { is_nomadic = no }
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = imprison_voting_power_1
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				has_law = tribal_organization_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = yes
+				}
+				is_nomadic = no
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = imprison_voting_power_1
+					}
+					holder_scope = {
+						plus_council_decreased_power_effect = yes
+					}
+				}
+				revoke_law = imprison_voting_power_1
+			}
+			disable_council_voting_on_issue = imprison_character_interaction
+		}
+	}
+
+	imprison_voting_power_1 = {
+		group = imprison_voting_power
+
+		potential = {
+			has_dlc = "Zeus"
+			OR = {
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+		}
+
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = law_voting_power_1
+				has_law = war_voting_power_1
+				has_law = imprison_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law	= tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+		}
+
+		default_selection = {
+			factor = 0
+
+			additive_modifier = {
+				value = 10
+				holder_scope = {
+					is_nomadic = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = imprison_voting_power_0
+					}
+					holder_scope = {
+						plus_council_increased_power_effect = yes
+					}
+				}
+				revoke_law = imprison_voting_power_0
+			}
+			enable_council_voting_on_issue = imprison_character_interaction
+		}
+
+		vassal_limit = 2
+	}
+
 	banish_voting_power_0 = {
 		group = banish_voting_power
 		default = yes
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-					}
-				}
-				has_law = tribal_organization_0
-				has_law = tribal_organization_1
+				higher_tier_than = baron
+				is_patrician = yes
 			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+			holder_scope = { is_nomadic = no }
 		}
 
 		allow = {
-			has_law = banish_voting_power_1
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = banish_voting_power_1
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				has_law = tribal_organization_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = yes
+				}
+				is_nomadic = no
+			}
 		}
 
 		ai_will_do = {
@@ -654,16 +805,7 @@ laws = {
 						has_law = banish_voting_power_1
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_decreased_council_power
-								years = 5
-							}
-						}
+						plus_council_decreased_power_effect = yes
 					}
 				}
 				revoke_law = banish_voting_power_1
@@ -671,29 +813,54 @@ laws = {
 			disable_council_voting_on_issue = exile_imprisoned_interaction
 		}
 	}
-	#Banish Voting Power 1
+
 	banish_voting_power_1 = {
 		group = banish_voting_power
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-					}
-				}
-				has_law = tribal_organization_0
-				has_law = tribal_organization_1
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
 			}
 		}
 
 		allow = {
-			has_law = law_voting_power_1
-			has_law = banish_voting_power_0
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = law_voting_power_1
+				has_law = war_voting_power_1
+				has_law = banish_title_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law	= tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+		}
+
+		default_selection = {
+			factor = 0
+
+			additive_modifier = {
+				value = 10
+				holder_scope = {
+					is_nomadic = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -707,16 +874,7 @@ laws = {
 						has_law = banish_voting_power_0
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_increased_council_power
-								years = 5
-							}
-						}
+						plus_council_increased_power_effect = yes
 					}
 				}
 				revoke_law = banish_voting_power_0
@@ -727,29 +885,45 @@ laws = {
 		vassal_limit = 2
 	}
 
-	#Execution Voting Power 0
 	execution_voting_power_0 = {
 		group = execution_voting_power
 		default = yes
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-					}
-				}
-				has_law = tribal_organization_0
-				has_law = tribal_organization_1
+				higher_tier_than = baron
+				is_patrician = yes
 			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+			holder_scope = { is_nomadic = no }
 		}
 
 		allow = {
-			has_law = execution_voting_power_1
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = execution_voting_power_1
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				has_law = tribal_organization_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = yes
+				}
+				is_nomadic = no
+			}
 		}
 
 		ai_will_do = {
@@ -763,16 +937,7 @@ laws = {
 						has_law = execution_voting_power_1
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_decreased_council_power
-								years = 5
-							}
-						}
+						plus_council_decreased_power_effect = yes
 					}
 				}
 				revoke_law = execution_voting_power_1
@@ -780,29 +945,54 @@ laws = {
 			disable_council_voting_on_issue = execute_imprisoned_interaction
 		}
 	}
-	#Execution Voting Power 1
+
 	execution_voting_power_1 = {
 		group = execution_voting_power
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
 			OR = {
-				has_crown_law_title = no
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_0
-						has_law = crown_authority_1
-					}
-				}
-				has_law = tribal_organization_0
-				has_law = tribal_organization_1
+				higher_tier_than = baron
+				is_patrician = yes
+			}
+			OR = {
+				holder_scope = { is_tribal = no }
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
 			}
 		}
 
 		allow = {
-			has_law = law_voting_power_1
-			has_law = execution_voting_power_0
+			conditional_tooltip = {
+				trigger = {
+					is_nomadic = no
+				}
+				has_law = law_voting_power_1
+				has_law = war_voting_power_1
+				has_law = execution_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = {
+						is_tribal = yes
+					}
+				}
+				OR = {
+					has_law	= tribal_organization_3
+					has_law = tribal_organization_4
+				}
+			}
+		}
+
+		default_selection = {
+			factor = 0
+
+			additive_modifier = {
+				value = 10
+				holder_scope = {
+					is_nomadic = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -816,16 +1006,7 @@ laws = {
 						has_law = execution_voting_power_0
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_increased_council_power
-								years = 5
-							}
-						}
+						plus_council_increased_power_effect = yes
 					}
 				}
 				revoke_law = execution_voting_power_0
@@ -836,14 +1017,13 @@ laws = {
 		vassal_limit = 2
 	}
 
-	#Succession Voting Power 0
 	succession_voting_power_0 = {
 		group = succession_voting_power
 		default = yes
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
+			higher_tier_than = duke
 			holder_scope = {
 				is_feudal = yes
 			}
@@ -868,29 +1048,20 @@ laws = {
 						has_law = succession_voting_power_1
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_decreased_council_power
-								years = 5
-							}
-						}
+						plus_council_decreased_power_effect = yes
 					}
 				}
 				revoke_law = succession_voting_power_1
 			}
 		}
 	}
-	#Succession Voting Power 1
+
 	succession_voting_power_1 = {
 		group = succession_voting_power
 
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = baron
+			higher_tier_than = duke
 			holder_scope = {
 				is_feudal = yes
 			}
@@ -900,9 +1071,9 @@ laws = {
 		allow = {
 			has_law = law_voting_power_1
 			has_law = war_voting_power_1
+			has_law = grant_title_voting_power_1
 			has_law = revoke_title_voting_power_1
 			has_law = imprison_voting_power_1
-			has_law = grant_title_voting_power_1
 			has_law = banish_voting_power_1
 			has_law = execution_voting_power_1
 			has_law = succession_voting_power_0
@@ -923,16 +1094,7 @@ laws = {
 						has_law = succession_voting_power_0
 					}
 					holder_scope = {
-						any_courtier_or_vassal = {
-							limit = {
-								has_job_title = yes
-							}
-							opinion = {
-								who = PREV
-								modifier = opinion_increased_council_power
-								years = 5
-							}
-						}
+						plus_council_increased_power_effect = yes
 					}
 				}
 				revoke_law = succession_voting_power_0
