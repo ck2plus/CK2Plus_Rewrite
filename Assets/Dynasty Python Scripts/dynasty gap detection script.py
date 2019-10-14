@@ -2,9 +2,13 @@ from itertools import tee
 from re import compile as re_compile
 
 RE_ENTRY = re_compile(r'(\d+)=')
+cult = ''
+
+print('What culture do you want to check for gaps?')
+cult = input()
 
 data = ''
-with open('../../CK2Plus/common/dynasties/00_dynasties.txt') as handle:
+with open(f'../../CK2Plus_expanded/common/dynasties/0000_CK2Plus_{cult}.txt', 'r') as handle:
     data = handle.read()
 
 res = [int(x) for x in RE_ENTRY.findall(data)]

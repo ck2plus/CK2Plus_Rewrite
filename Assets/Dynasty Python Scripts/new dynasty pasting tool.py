@@ -1,41 +1,36 @@
-i = '#'
-dynnumber = 0
+dynnames = []
+dynnames_r = []
+dyninput = 'not empty'
+dynnumber = 13
+dynremaining = 37
+cult = ''
 
-with open('../../CK2Plus/common/dynasties/01_dynasties.txt', 'r') as lines:
+print('Enter dynasties to append, separated with a new line (press return). To end, leave a blank line and just press return.')
+while dyninput != '':
+	dyninput = (str(input('')))
+	if dyninput != '':
+		dynnames_r.append(str(dyninput))
+	elif dyninput == '':
+		pass
+dynremaining = int(len(dynnames_r)-1)
+dynnames = dynnames_r[::-1]
+
+print('Enter the culture the dynasties belong to.')
+cult = input()
+
+with open(f'../../CK2Plus_expanded/common/dynasties/0000_CK2Plus_{cult}.txt', 'r') as lines:
 	for line in lines.readlines():
 		strippedlines = line.strip()
 		if strippedlines.endswith("="):
 			dynnumber = int(strippedlines[:-1])+1
 
-dynname = []
-print('Enter dynasties to append. To end, type nothing and just press enter.')
-while i != '':
-	i = (str(input('')))
-	if i != '':
-		dynname.append(str(i))
-	elif i == '':
-		pass
-i = '#'
-dynremaining = int(len(dynname)-1)
-
-dyncultures = []
-print('Enter cultures to append to. To end, type nothing and just press enter.')
-while i != '':
-	i = (str(input('')))
-	if i != '':
-		dyncultures.append(str(i))
-	elif i == '':
-		pass
-cultremaining = int(len(dyncultures)-1)
-
-file = open('../../CK2Plus/common/dynasties/01_dynasties.txt', 'a')
-while cultremaining != -1:
-	file.write(str('{}={{\n\tname="{}"\n\tculture="{}"\n}}\n'.format(dynnumber, dynname[dynremaining], dyncultures[cultremaining])))
-	dynremaining = dynremaining - 1
-	dynnumber = dynnumber + 1
-	if dynremaining == -1:
-		dynremaining = int(len(dynname)-1)
-		cultremaining = cultremaining - 1
-	else:
-		pass
-file.close()
+file = open(f'../../CK2Plus_expanded/common/dynasties/0000_CK2Plus_{cult}.txt', 'a')
+while dynremaining != -1:
+    file.write(str('{} = {{\n\tname = "{}"\n\tculture = {}\n}}\n'.format(dynnumber, dynnames[dynremaining], cult)))
+    dynremaining = dynremaining - 1
+    dynnumber = dynnumber + 1
+    if dynremaining == -1:
+        file.close()
+        exit()
+    else:
+        pass
