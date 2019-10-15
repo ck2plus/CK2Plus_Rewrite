@@ -1,1 +1,86 @@
 # Dynasty Range 1.000.124.000 - 1.000.127.999
+
+Western Europe
+
+#Aragonese
+#Aromanian
+#Anglo-Norse
+#Icelandic
+#Cumbrian
+#Cornish
+#Gallawa
+#Arpitan
+#Bavarian 
+#Burgundian
+#Corsican
+#Emilian
+#Latin
+#Flemish
+#Franconian 
+#Geatish
+#Imperial German
+#Italian
+#Leonese
+#Ligurian
+#Lombard
+#Neapolitan
+#Sicilian
+#Siculo-Arabic
+#Siculo-Greek
+#Siculo-Norman
+#Swabian
+#Swiss
+#Teutonic 
+#Thuringian
+#Tuscan
+#Umbrian
+#Venetian
+#Yugoslavian
+
+Africa
+
+#Bafour
+#Beja
+#Guanche
+#Masmuda
+#Sanhaja
+#Sosso 
+#Tigrinyan
+#Tuareg
+#Wolof
+#Zenatian
+
+Central Asia
+
+#Bashkir
+#Kipchak
+#Turco-Mongol
+
+Eastern Europe
+
+#Mari
+#Novgorodian
+#Ruthenian
+#Vepsian
+
+Middle East/Caucasia
+
+#Azeri
+#Daylamite
+#Circassian
+#Israeli
+#Khwarezmian
+#Luri
+#Mesopotamian
+#Mizrahi
+#Pontic
+#Turkish (Anatolian)
+
+India
+
+#Bihari
+#Malayalam
+#Dhivehi
+
+
+
