@@ -3,7 +3,7 @@ spriteTypes = {
 	# The Fianna
 	spriteType = {
 		name = "GFX_society_main_background_warrior_lodge_celtic"
-		textureFile = "gfx\\interface\\CK2Plus\\societies\\society_bg_fianna.dds"
+		textureFile = "gfx\\interface\\societies\\society_bg_fianna.dds"
 	}
 
 	spriteType = {
