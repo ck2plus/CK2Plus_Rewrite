@@ -1,86 +1,91 @@
-# Dynasty Range 1.000.124.000 - 1.000.127.999
+# Officially Reserved Dynasty Range 1.000.124.000 - 1.000.127.999
+# Above was reserved for CK2+ in the very beginning, to ensure compatibility with other mods.
+# However, that method is outdated since the dynasties are now in the "extended" submod, which by default is incompatible with other mods.
+# So instead we will henceforth use a method that is easier to maintain for us.
+# Below, you will find the ranges actually used by the mod, per culture.
 
 Western Europe
 
-#Aragonese
-#Aromanian
-#Anglo-Norse
-#Icelandic
-#Cumbrian
-#Cornish
-#Gallawa
-#Arpitan
-#Bavarian 
-#Burgundian
-#Corsican
-#Emilian
-#Latin
-#Flemish
-#Franconian 
-#Geatish
-#Imperial German
-#Italian
-#Leonese
-#Ligurian
-#Lombard
-#Neapolitan
-#Sicilian
-#Siculo-Arabic
-#Siculo-Greek
-#Siculo-Norman
-#Swabian
-#Swiss
-#Teutonic 
-#Thuringian
-#Tuscan
-#Umbrian
-#Venetian
-#Yugoslavian
+#Albanian (arberian)	1.000.124.380-1.000.124.388
+#Anglo-Norse			
+#Aragonese				
+#Aromanian				
+#Arpitan				
+#Bavarian 				
+#Burgundian				
+#Cornish				
+#Corsican				
+#Cumbrian				
+#Emilian				
+#Flemish				
+#Franconian				
+#Gallawa				
+#Geatish				
+#Icelandic				
+#Imperial German		
+#Italian				
+#Latin					
+#Leonese				
+#Ligurian				
+#Lombard				
+#Neapolitan				
+#Sicilian				
+#Siculo-Arabic			
+#Siculo-Greek			
+#Siculo-Norman			
+#Swabian				
+#Swiss					
+#Teutonic 				
+#Thuringian				
+#Tuscan					
+#Umbrian				
+#Venetian				
+#Yugoslavian			
 
 Africa
 
-#Bafour
-#Beja
-#Guanche
-#Masmuda
-#Sanhaja
-#Sosso 
-#Tigrinyan
-#Tuareg
-#Wolof
-#Zenatian
+#Bafour					
+#Beja					
+#Guanche				
+#Masmuda				
+#Sanhaja				
+#Sosso 					
+#Tigrinyan				
+#Tuareg					
+#Wolof					
+#Zenatian				
 
 Central Asia
 
-#Bashkir
-#Kipchak
-#Turco-Mongol
+#Bashkir				
+#Kipchak				
+#Turco-Mongol			
 
 Eastern Europe
 
-#Mari
-#Novgorodian
-#Ruthenian
-#Vepsian
+#Mari					
+#Novgorodian			
+#Ruthenian				
+#Vepsian				
 
 Middle East/Caucasia
 
-#Azeri
-#Daylamite
-#Circassian
-#Israeli
-#Khwarezmian
-#Luri
-#Mesopotamian
-#Mizrahi
-#Pontic
-#Turkish (Anatolian)
+#Afghan					1.000.252.096-1.000.252.102
+#Andalusian Arabic		
+#Azeri					
+#Circassian				
+#Daylamite				
+#Israeli				
+#Khwarezmian			
+#Luri					
+#Mesopotamian			
+#Mizrahi				
+#Pontic					
+#Turkish (Anatolian)	
 
 India
 
-#Bihari
-#Malayalam
-#Dhivehi
-
-
+#Bihari					
+#Malayalam				
+#Dhivehi				
 
