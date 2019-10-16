@@ -9,7 +9,7 @@
 #	plus_decreased_crown_authority_opinion_effect
 #	plus_increased_crown_authority_opinion_effect
 #
-#	Total:	4
+#	Total:	6
 #
 #######################################
 

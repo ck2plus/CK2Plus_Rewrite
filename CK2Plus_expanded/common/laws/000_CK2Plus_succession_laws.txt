@@ -77,7 +77,10 @@ succession_laws = {
 						has_law = tribal_organization_0
 					}
 				}
-				has_law = succession_voting_power_0
+				holder_scope = {
+					show_scope_change = no
+					has_law = succession_voting_power_0
+				}
 			}
 			conditional_tooltip = {
 				trigger = {
@@ -177,10 +180,16 @@ succession_laws = {
 				trigger = {
 					holder_scope = {
 						is_tribal = yes
+						higher_tier_than = DUKE # law below only available for King and Emperor tier titles
+						NOT = {
+							has_law = tribal_organization_0
+						}
+						has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
 					}
-					NOT = {
-						has_law = tribal_organization_0
-					}
+				}
+				holder_scope = {
+					show_scope_change = no
+					has_law = succession_voting_power_0
 				}
 			}
 			holder_scope = {
@@ -213,11 +222,17 @@ succession_laws = {
 
 	succ_eldership = {
 		potential = {
+			has_dlc = "Holy Fury"
 			is_primary_type_title = no
 			holder_scope = {
-				has_dlc = "Holy Fury"
 				OR = {
-					is_tribal = yes
+					AND = {
+						is_tribal = yes
+						OR = {
+							religion = baltic_pagan
+							religion = west_african_pagan
+						}
+					}
 					has_religion_feature = religion_beatification
 					has_religion_feature = religion_feature_baltic
 					has_religion_feature = religion_feature_west_african
@@ -248,18 +263,28 @@ succession_laws = {
 				trigger = {
 					holder_scope = {
 						is_tribal = yes
-					}
-					NOT = {
-						has_law = tribal_organization_0
+						higher_tier_than = DUKE # law below only available for King and Emperor tier titles
+						NOT = {
+							has_law = tribal_organization_0
+						}
+						has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
 					}
 				}
-				has_law = succession_voting_power_0
+				holder_scope = {
+					show_scope_change = no
+					has_law = succession_voting_power_0
+				}
 			}
-			OR = {
-				has_law = tribal_organization_1
-				has_law = tribal_organization_2
-				has_law = tribal_organization_3
-				has_law = tribal_organization_4
+			conditional_tooltip = {
+				trigger = {
+					has_game_started = yes # most rulers don't have one of the required laws enabled at game start, see below
+				}
+				OR = {
+					has_law = tribal_organization_1
+					has_law = tribal_organization_2
+					has_law = tribal_organization_3
+					has_law = tribal_organization_4
+				}
 			}
 			holder_scope = {
 				show_scope_change = no
@@ -295,6 +320,12 @@ succession_laws = {
 			if = {
 				limit = {
 					has_game_started = yes
+					OR = { # workaround for in-game bug that forces prestige loss for some reason
+						has_law = tribal_organization_1
+						has_law = tribal_organization_2
+						has_law = tribal_organization_3
+						has_law = tribal_organization_4
+					}
 				}
 				holder_scope = {
 					scaled_prestige = {
@@ -356,7 +387,10 @@ succession_laws = {
 				trigger = {
 					is_patrician = no
 				}
-				has_law = succession_voting_power_0
+				holder_scope = {
+					show_scope_change = no
+					has_law = succession_voting_power_0
+				}
 			}
 			holder_scope = {
 				show_scope_change = no
@@ -409,7 +443,6 @@ succession_laws = {
 		}
 
 		allow = {
-			has_law = succession_voting_power_0
 			conditional_tooltip = {
 				trigger = {
 					NOT = { has_dlc = "Zeus" }
@@ -438,6 +471,7 @@ succession_laws = {
 			}
 			holder_scope = {
 				show_scope_change = no
+				has_law = succession_voting_power_0
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
@@ -518,9 +552,9 @@ succession_laws = {
 		}
 
 		allow = {
-			has_law = succession_voting_power_0
 			holder_scope = {
 				show_scope_change = no
+				has_law = succession_voting_power_0
 				conditional_tooltip = {
 					trigger = {
 						trait = uncrowned
@@ -583,7 +617,7 @@ succession_laws = {
 		}
 
 		allow = {
-			has_law = succession_voting_power_0
+
 			conditional_tooltip = {
 				trigger = {
 					NOT = { has_dlc = "Zeus" }
@@ -601,6 +635,7 @@ succession_laws = {
 			}
 			holder_scope = {
 				show_scope_change = no
+				has_law = succession_voting_power_0
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
@@ -682,7 +717,6 @@ succession_laws = {
 		}
 
 		allow = {
-			has_law = succession_voting_power_0
 			conditional_tooltip = {
 				trigger = {
 					NOT = { has_dlc = "Zeus" }
@@ -697,6 +731,7 @@ succession_laws = {
 			}
 			holder_scope = {
 				show_scope_change = no
+				has_law = succession_voting_power_0
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
@@ -757,7 +792,7 @@ succession_laws = {
 			is_primary_type_title = no
 			holder_scope = {
 				OR = {
-					is_tribal = yes
+					culture_group = celtic
 					any_owned_bloodline = {
 						has_bloodline_flag = bloodline_tanistry
 					}
@@ -791,7 +826,10 @@ succession_laws = {
 						has_law = tribal_organization_0
 					}
 				}
-				has_law = succession_voting_power_0
+				holder_scope = {
+					show_scope_change = no
+					has_law = succession_voting_power_0
+				}
 			}
 			conditional_tooltip = {
 				trigger = {
@@ -902,7 +940,6 @@ succession_laws = {
 		}
 
 		allow = {
-			has_law = succession_voting_power_0
 			conditional_tooltip = {
 				trigger = {
 					NOT = { has_dlc = "Zeus" }
@@ -932,6 +969,7 @@ succession_laws = {
 			}
 			holder_scope = {
 				show_scope_change = no
+				has_law = succession_voting_power_0
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
@@ -990,10 +1028,8 @@ succession_laws = {
 				is_feudal = yes
 				OR = {
 					religion_group = muslim
-					OR = {
-						has_religion_feature = religion_patriarchal
-						has_religion_feature = religion_matriarchal
-					}
+					has_religion_feature = religion_patriarchal
+					has_religion_feature = religion_matriarchal
 				}
 				OR = {
 					independent = yes
@@ -1016,10 +1052,13 @@ succession_laws = {
 		allow = {
 			conditional_tooltip = {
 				trigger = {
-					has_game_started = yes # no idea why, but this is needed to avoid issues on intial startup and on religion change to muslim
-					higher_tier_than = DUKE
+					higher_tier_than = DUKE # law below only available for King and Emperor tier titles
+					has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
 				}
-				has_law = succession_voting_power_0
+				holder_scope = {
+					show_scope_change = no
+					has_law = succession_voting_power_0
+				}
 			}
 			holder_scope = {
 				show_scope_change = no
