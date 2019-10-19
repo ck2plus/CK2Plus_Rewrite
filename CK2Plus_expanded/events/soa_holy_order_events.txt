@@ -8,7 +8,7 @@
 # ID SoA 1000-2999 is reserved
 #
 ###########################################
-# Written by Henrik Fåhraeus
+# Written by Henrik Fï¿½hraeus
 ###########################################
 
 namespace = SoA
@@ -13864,7 +13864,7 @@ character_event = {
 		text = expel_zun_warriors
 	}
 	# CK2Plus
-	title = { # Keepers of Tír na nÓg
+	title = { # Keepers of Tï¿½r na nï¿½g
 		trigger = {
 			has_character_flag = expel_keepers_tirnanog
 		}
@@ -14509,7 +14509,7 @@ character_event = {
 		}
 	}
 	# CK2Plus
-	option = { # Keepers of Tí na nÓg
+	option = { # Keepers of Tï¿½ na nï¿½g
 		trigger = {
 			has_character_flag = expel_keepers_tirnanog_check
 		}
