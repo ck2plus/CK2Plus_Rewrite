@@ -15,11 +15,10 @@ b_monaco = castle
 #b_contes = castle
 
 # Misc
-culture = lombard
+culture = longobard
 religion = catholic
 
 
 # History
-829.1.1 = { culture = italian }
+829.1.1 = { culture = ligurian }
 1066.1.1 = { trade_post = b_spinola }
-
