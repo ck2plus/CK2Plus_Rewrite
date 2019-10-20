@@ -23,6 +23,6 @@
 	culture = croatian
 }
 1000025007 = {
-	name = "Ragu?ki"
+	name = "Raguški"
 	culture = croatian
 }

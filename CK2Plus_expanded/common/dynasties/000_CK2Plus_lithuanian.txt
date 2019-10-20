@@ -11,7 +11,7 @@
 	culture = lithuanian
 }
 1000065004 = {
-	name = "Leliu?as"
+	name = "Leliušas"
 	culture = lithuanian
 }
 1000065005 = {
@@ -67,7 +67,7 @@
 	culture = lithuanian
 }
 1000065018 = {
-	name = "Ki?ka"
+	name = "Kiška"
 	culture = lithuanian
 }
 1000065019 = {
@@ -99,7 +99,7 @@
 	culture = lithuanian
 }
 1000065026 = {
-	name = "Zavi?a"
+	name = "Zaviša"
 	culture = lithuanian
 }
 1000065027 = {
@@ -123,7 +123,7 @@
 	culture = lithuanian
 }
 1000065032 = {
-	name = "Slu?ka"
+	name = "Sluška"
 	culture = lithuanian
 }
 1000065033 = {
@@ -155,7 +155,7 @@
 	culture = lithuanian
 }
 1000065040 = {
-	name = "?aba"
+	name = "Žaba"
 	culture = lithuanian
 }
 1000065041 = {
@@ -163,7 +163,7 @@
 	culture = lithuanian
 }
 1000065042 = {
-	name = "Bur?inskis"
+	name = "Buržinskis"
 	culture = lithuanian
 }
 1000065043 = {
@@ -199,7 +199,7 @@
 	culture = lithuanian
 }
 1000065051 = {
-	name = "Kir?en?teinas"
+	name = "Kiršenšteinas"
 	culture = lithuanian
 }
 1000065052 = {
@@ -207,7 +207,7 @@
 	culture = lithuanian
 }
 1000065053 = {
-	name = "Dim?a"
+	name = "Dimša"
 	culture = lithuanian
 }
 1000065054 = {
@@ -251,7 +251,7 @@
 	culture = lithuanian
 }
 1000065064 = {
-	name = "?utautas"
+	name = "Žutautas"
 	culture = lithuanian
 }
 1000065065 = {
@@ -259,7 +259,7 @@
 	culture = lithuanian
 }
 1000065066 = {
-	name = "Vai?vila"
+	name = "Vaišvila"
 	culture = lithuanian
 }
 1000065067 = {
@@ -287,7 +287,7 @@
 	culture = lithuanian
 }
 1000065073 = {
-	name = "Bru?ka"
+	name = "Bruška"
 	culture = lithuanian
 }
 1000065074 = {
@@ -335,7 +335,7 @@
 	culture = lithuanian
 }
 1000065085 = {
-	name = "?abauskas"
+	name = "Žabauskas"
 	culture = lithuanian
 }
 1000065086 = {

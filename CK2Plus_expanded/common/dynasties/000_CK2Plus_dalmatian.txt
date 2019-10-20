@@ -19,7 +19,7 @@
 	culture = dalmatian
 }
 1000029006 = {
-	name = "Clemen?i"
+	name = "Clemenši"
 	culture = dalmatian
 }
 1000029007 = {
@@ -51,7 +51,7 @@
 	culture = dalmatian
 }
 1000029014 = {
-	name = "Or?ic"
+	name = "Oršic"
 	culture = dalmatian
 }
 1000029015 = {
@@ -67,7 +67,7 @@
 	culture = dalmatian
 }
 1000029018 = {
-	name = "Beri?lavo"
+	name = "Berišlavo"
 	culture = dalmatian
 }
 1000029019 = {
@@ -95,15 +95,15 @@
 	culture = dalmatian
 }
 1000029025 = {
-	name = "?vetoslava"
+	name = "Švetoslava"
 	culture = dalmatian
 }
 1000029026 = {
-	name = "Cre?imiro"
+	name = "Crešimiro"
 	culture = dalmatian
 }
 1000029027 = {
-	name = "Tripirovi?i"
+	name = "Tripiroviši"
 	culture = dalmatian
 }
 1000029028 = {
@@ -131,7 +131,7 @@
 	culture = dalmatian
 }
 1000029034 = {
-	name = "Bene?ia"
+	name = "Benešia"
 	culture = dalmatian
 }
 1000029035 = {
@@ -147,7 +147,7 @@
 	culture = dalmatian
 }
 1000029038 = {
-	name = "Dobri?va"
+	name = "Dobrišva"
 	culture = dalmatian
 }
 1000029039 = {
@@ -171,7 +171,7 @@
 	culture = dalmatian
 }
 1000029044 = {
-	name = "Debre?a"
+	name = "Debreša"
 	culture = dalmatian
 }
 1000029045 = {
@@ -199,7 +199,7 @@
 	culture = dalmatian
 }
 1000029051 = {
-	name = "Partizipa?io"
+	name = "Partizipašio"
 	culture = dalmatian
 }
 1000029052 = {
@@ -251,7 +251,7 @@
 	culture = dalmatian
 }
 1000029064 = {
-	name = "Pe?iatora"
+	name = "Pešiatora"
 	culture = dalmatian
 }
 1000029065 = {
