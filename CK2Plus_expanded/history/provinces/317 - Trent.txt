@@ -15,8 +15,8 @@ b_riva = city
 #b_bruneck = castle 
 
 # Misc
-culture = lombard
+culture = longobard
 religion = catholic
 
 # History
-905.1.1 = { culture = italian }
+905.1.1 = { culture = veneto }
