@@ -1289,9 +1289,7 @@ laws = {
 			}
 			conditional_tooltip = {
 				trigger = {
-					holder_scope = {
-						has_crown_law_title = yes
-					}
+					has_crown_law_title = yes
 				}
 				crownlaw_title = {
 					has_law = crown_authority_4
