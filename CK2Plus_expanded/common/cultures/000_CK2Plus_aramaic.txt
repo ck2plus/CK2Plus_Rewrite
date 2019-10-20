@@ -20,7 +20,7 @@ aramaic = {
 	graphical_cultures = { muslimgfx }
 
 	assyrian = {
-		graphical_cultures = { persiangfx }
+		graphical_cultures = { levantinegfx persiangfx }
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.4 0.3 0.6 }

@@ -20,7 +20,7 @@ coptic_group = {
 	graphical_cultures = { muslimgfx }
 
 	coptic = { # Sahidic
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { egyptiangfx byzantinegfx }
 
 		color = { 0.6 0.4 0.6 }
 
