@@ -14,10 +14,10 @@ b_st_jacqueme = temple
 #b_st_pierre = temple
 
 # Misc
-culture = lombard
+culture = longobard
 religion = catholic
 
 # History
 760.1.1 = { capital = b_aosta }
-829.1.1 = { culture = italian }
+829.1.1 = { culture = lombard }
 1230.1.1 = { capital = b_fenis }

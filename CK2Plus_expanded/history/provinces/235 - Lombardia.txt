@@ -14,9 +14,9 @@ b_maggiore = castle
 #b_chiavenna = castle
 
 # Misc
-culture = lombard
+culture = longobard
 religion = catholic
 
 # History
-869.1.1 = { culture = italian }
+869.1.1 = { culture = lombard }
 1240.1.1 = { b_chiavenna = castle }
