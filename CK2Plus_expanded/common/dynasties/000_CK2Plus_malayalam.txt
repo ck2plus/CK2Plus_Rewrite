@@ -1,57 +1,57 @@
 
-1000103450 = {
+1000068001 = {
 	name="Chera"
 	culture = malayalam
 }
-1000103451 = {
+1000068002 = {
 	name="Ay"
 	culture = malayalam
 }
-1000103452 = {
+1000068003 = {
 	name="Pandya"
-	culture = malayalam	
+	culture = malayalam
 }
-1000103453 = {
+1000068004 = {
 	name="Sangama"
-	culture = malayalam	
+	culture = malayalam
 }
-1000103454 = {
+1000068005 = {
 	name="Kalachuri"
-	culture = malayalam	
+	culture = malayalam
 }
-1000103455 = {
+1000068006 = {
 	name="Silahara"
-	culture = malayalam	
+	culture = malayalam
 }
-1000103456 = {
+1000068007 = {
 	name="Hoysala"
-	culture = malayalam	
+	culture = malayalam
 }
-1000103457 = {
+1000068008 = {
 	name="Wodeyar"
-	culture = malayalam	
+	culture = malayalam
 }
-1000103458 = {
+1000068009 = {
 	name="Kesari"
-	culture = malayalam	
+	culture = malayalam
 }
-1000103459 = {
+1000068010 = {
 	name="Alupa"
 	culture = malayalam
 }
-1000103460 = {
+1000068011 = {
 	name="Chella"
 	culture = malayalam
 }
-1000103461 = {
+1000068012 = {
 	name="Nolamba"
 	culture = malayalam
 }
-1000103462 = {
+1000068013 = {
 	name="Cinkaiariyan"
 	culture = malayalam
 }
-1000103463 = {
+1000068014 = {
 	name="Aryacakravarti"
 	culture = malayalam
 }

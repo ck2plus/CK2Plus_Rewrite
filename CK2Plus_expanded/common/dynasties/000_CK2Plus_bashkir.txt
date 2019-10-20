@@ -1,64 +1,64 @@
-1000252995 = {
+1000012001 = {
 	name = "Sarek"
 	culture = bashkir
 }
-1000252996 = {
+1000012002 = {
 	name = "Baskatir"
 	culture = bashkir
 }
-1000252997 = {
+1000012003 = {
 	name = "Qazan"
 	culture = bashkir
 }
-1000252998 = {
+1000012004 = {
 	name = "Baskhir"
 	culture = bashkir
 }
-1000252999 = {
+1000012005 = {
 	name = "Ezgil"
 	culture = bashkir
 }
-1000253001 = {
+1000012006 = {
 	name = "Balanjar"
 	culture = bashkir
 }
-1000253002 = {
+1000012007 = {
 	name = "Dayanad"
 	culture = bashkir
 }
-1000253003 = {
+1000012008 = {
 	name = "Nagimid"
 	culture = bashkir
 }
-1000253004 = {
+1000012009 = {
 	name = "Amirid"
 	culture = bashkir
 }
-1000253005 = {
+1000012010 = {
 	name = "Talgayad"
 	culture = bashkir
 }
-1000253006 = {
+1000012011 = {
 	name = "Bagizid"
 	culture = bashkir
 }
-1000253007 = {
+1000012012 = {
 	name = "Anuarid"
 	culture = bashkir
 }
-1000253008 = {
+1000012013 = {
 	name = "Gaysad"
 	culture = bashkir
 }
-1000253009 = {
+1000012014 = {
 	name = "Gilemdarid"
 	culture = bashkir
 }
-1000253010 = {
+1000012015 = {
 	name = "Mortazad"
 	culture = bashkir
 }
-1000253011 = {
+1000012016 = {
 	name = "Zofarid"
 	culture = bashkir
 }

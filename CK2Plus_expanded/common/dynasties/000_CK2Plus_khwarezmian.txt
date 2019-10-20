@@ -1,63 +1,63 @@
 
-1000102250 = {
+1000058001 = {
 	name="Afrighid"
 	culture = khwarazmian
 	religion = zoroastrian
 }
-1000102251 = {
+1000058002 = {
 	name="Ma'munid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102252 = {
+1000058003 = {
 	name="Sohaylid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102253 = {
+1000058004 = {
 	name="Sahrid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102254 = {
+1000058005 = {
 	name="Hamgarid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102255 = {
+1000058006 = {
 	name="Sahhasakid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102256 = {
+1000058007 = {
 	name="Sabrid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102257 = {
+1000058008 = {
 	name="Buzgarid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102258 = {
+1000058009 = {
 	name="Shaushid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102259 = {
+1000058010 = {
 	name="Mansurid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000102260 = {
+1000058011 = {
 	name="Arsamuhid"
 	culture = khwarazmian
 }
-1000102261 = {
+1000058012 = {
 	name="Chakid"
 	culture = khwarazmian
 }
-1000102262 = {
+1000058013 = {
 	name="Muqannid"
 	culture = khwarazmian
 }

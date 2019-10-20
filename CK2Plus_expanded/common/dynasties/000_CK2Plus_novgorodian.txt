@@ -1,48 +1,48 @@
-1000060901 = {
+1000078001 = {
 	name = "Jurevic"
 	culture = novgorodian
 }
-1000060902 = {
+1000078002 = {
 	name = "Onfimov"
 	culture = novgorodian
 }
-1000060903 = {
+1000078003 = {
 	name = "Oparin"
 	culture = novgorodian
 }
-1000060904 = {
+1000078004 = {
 	name = "Sobolcev"
 	culture = novgorodian
 }
-1000060905 = {
+1000078005 = {
 	name = "Sychevich"
 	culture = novgorodian
 }
-1000060906 = {
+1000078006 = {
 	name = "Yurievichi"
 	culture = novgorodian
 }
-1000060907 = {
+1000078007 = {
 	name = "Monomakhovichi"
 	culture = novgorodian
 }
-1000060908 = {
+1000078008 = {
 	name = "Glebov"
 	culture = novgorodian
 }
-1000060909 = {
+1000078009 = {
 	name = "Pavelov"
 	culture = novgorodian
 }
-1000060910 = {
+1000078010 = {
 	name = "Stavrov"
 	culture = novgorodian
 }
-1000060911 = {
+1000078011 = {
 	name = "Jesific"
 	culture = novgorodian
 }
-1000060912 = {
+1000078012 = {
 	name = "Borisovich"
 	culture = novgorodian
 }

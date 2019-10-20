@@ -1,72 +1,72 @@
-1000124661 = {
+1000106001 = {
 	name = "von Dettingen"
 	culture = swiss
 }
-1000124662 = {
+1000106002 = {
 	name = "von Rothenburg"
 	culture = swiss
 }
-1000124663 = {
+1000106003 = {
 	name = "Bodrich"
 	culture = swiss
 }
-1000124664 = {
+1000106004 = {
 	name = "von Walbeck"
 	culture = swiss
 }
-1000124665 = {
+1000106005 = {
 	name = "von Erbach"
 	culture = swiss
 }
-1000124666 = {
+1000106006 = {
 	name = "von Rikdag"
 	culture = swiss
 }
-1000124667 = {
+1000106007 = {
 	name = "Ardennes"
 	culture = swiss
 }
-1000124681 = {
+1000106008 = {
 	name = "Kyburg"
 	culture = swiss
 }
-1000124682 = {
+1000106009 = {
 	name = "Landenberg"
 	culture = swiss
 }
-1000124683 = {
+1000106010 = {
 	name = "Capol"
 	culture = swiss
 }
-1000124684 = {
+1000106011 = {
 	name = "Langenstein"
 	culture = swiss
 }
-1000124685 = {
+1000106012 = {
 	name = "Regensberg"
 	culture = swiss
 }
-1000124686 = {
-	name = "GrÃ¼nenberg"
+1000106013 = {
+	name = "Grünenberg"
 	culture = swiss
 }
-1000124687 = {
+1000106014 = {
 	name = "Diesbach"
 	culture = swiss
 }
-1000124688 = {
-	name = "ZÃ¤hringen"
+1000106015 = {
+	name = "Zähringen"
 	culture = swiss
 }
-1000124689 = {
+1000106016 = {
 	name = "Erlach"
 	culture = swiss
 }
-1000124755 = {
+1000106017 = {
 	name = "Abeln"
 	culture = swiss
 }
-1000124757 = {
+1000106018 = {
 	name = "Bocker"
 	culture = swiss
 }

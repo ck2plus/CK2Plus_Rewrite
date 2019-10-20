@@ -1,88 +1,88 @@
-1000037016 = {
-	name = "DioklÃ¨s"
+1000100001 = {
+	name = "Dioklès"
 	culture = sicilian_greek
 }
-1000037055 = {
+1000100002 = {
 	name = "Hypati"
 	culture = sicilian_greek
 }
-1000124102 = {
+1000100003 = {
 	name = "Caloiri"
 	culture = sicilian_greek
 }
-1000124045 = {
+1000100004 = {
 	name = "Gorgias"
 	culture = sicilian_greek
 }
-1000124046 = {
+1000100005 = {
 	name = "Aurispa"
 	culture = sicilian_greek
 }
-1000124047 = {
+1000100006 = {
 	name = "Cagliostro"
 	culture = sicilian_greek
 }
-1000124048 = {
+1000100007 = {
 	name = "Terranova"
 	culture = sicilian_greek
 }
-1000124049 = {
+1000100008 = {
 	name = "Coroni"
 	culture = sicilian_greek
 }
-1000124050 = {
+1000100009 = {
 	name = "Sesto"
 	culture = sicilian_greek
 }
-1000124051 = {
+1000100010 = {
 	name = "Griko"
 	culture = sicilian_greek
 }
-1000124052 = {
+1000100011 = {
 	name = "Maniots"
 	culture = sicilian_greek
 }
-1000124053 = {
+1000100012 = {
 	name = "Maurolico"
 	culture = sicilian_greek
 }
-1000124794 = {
+1000100013 = {
 	name = "Caloiri"
 	culture = sicilian_greek
 }
-1000252620 = {
-	name = "tes SkylakiÃ³n"
+1000100014 = {
+	name = "tes Skylakión"
 	culture = sicilian_greek
 }
-1000252621 = {
+1000100015 = {
 	name = "tes Atenas"
 	culture = sicilian_greek
 }
-1000252622 = {
-	name = "tes AbÃ³la"
+1000100016 = {
+	name = "tes Abóla"
 	culture = sicilian_greek
 }
-1000252623 = {
-	name = "tes BrentÃ¨sion"
+1000100017 = {
+	name = "tes Brentèsion"
 	culture = sicilian_greek
 }
-1000252624 = {
+1000100018 = {
 	name = "Vitalia"
 	culture = sicilian_greek
 }
-1000252625 = {
+1000100019 = {
 	name = "Zaccaria"
 	culture = sicilian_greek
 }
-1000252626 = {
+1000100020 = {
 	name = "tes Righi"
 	culture = sicilian_greek
 }
-1000252627 = {
-	name = "tes TÃ³kkoi"
+1000100021 = {
+	name = "tes Tókkoi"
 	culture = sicilian_greek
 }
-1000252628 = {
-	name = "tes LuppÃ¬u"
+1000100022 = {
+	name = "tes Luppìu"
 	culture = sicilian_greek
 }

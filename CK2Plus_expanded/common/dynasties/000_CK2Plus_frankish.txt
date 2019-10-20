@@ -1,37 +1,37 @@
-1000083003 = {
+1000041001 = {
 	used_for_random = no
 	name = "Merovingian"
 	culture = frankish
 }
-1000037009 = {
+1000041002 = {
 	name = "de Chevron" # Pope Nicholas II
 	culture = frankish
 }
-1000037052 = {
+1000041003 = {
 	name = "Arnulfien"
 	culture = frankish
 }
-1000037053 = {
+1000041004 = {
 	name = "Nibelungs"
 	culture = frankish
 }
-1000124139 = {
+1000041005 = {
 	name = "de Tours"
 	culture = frankish
 }
-1000124391 = {
+1000041006 = {
 	name = "Valdes"
 	culture = frankish
 }
-1000252122 = {
+1000041007 = {
 	name = "de Sabran"
 	culture = frankish
 }
-1000252123 = {
+1000041008 = {
 	name = "de Savoie"
 	culture = frankish
 }
-1000252129 = {
-	name = "de PiÃ©mont"
+1000041009 = {
+	name = "de Piémont"
 	culture = frankish
 }

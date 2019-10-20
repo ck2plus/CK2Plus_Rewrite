@@ -1,57 +1,57 @@
 
-1000103850 = {
+1000003001 = {
 	name="Sancha"
 	culture = aragonese
 }
-1000103851 = {
+1000003002 = {
 	name="de Aragon"
 	culture = aragonese
 }
-1000103852 = {
+1000003003 = {
 	name="Barcelona"
-	culture = aragonese	
+	culture = aragonese
 }
-1000103853 = {
-	name="√Ålvarez"
-	culture = aragonese	
+1000003004 = {
+	name="¡lvarez"
+	culture = aragonese
 }
-1000103854 = {
+1000003005 = {
 	name="de Zaragosa"
-	culture = aragonese	
+	culture = aragonese
 }
-1000103855 = {
+1000003006 = {
 	name="del Mancha"
-	culture = aragonese	
+	culture = aragonese
 }
-1000103856 = {
+1000003007 = {
 	name="de Molina"
-	culture = aragonese	
+	culture = aragonese
 }
-1000103857 = {
+1000003008 = {
 	name="Diaz"
-	culture = aragonese	
+	culture = aragonese
 }
-1000103858 = {
+1000003009 = {
 	name="Fernandez"
-	culture = aragonese	
-}
-1000103859 = {
-	name="Ru√≠z"
 	culture = aragonese
 }
-1000103860 = {
-	name="L√°inez"
+1000003010 = {
+	name="RuÌz"
 	culture = aragonese
 }
-1000103861 = {
-	name="Guti√©rrez"
+1000003011 = {
+	name="L·inez"
 	culture = aragonese
 }
-1000103862 = {
-	name="Mu√±oz"
+1000003012 = {
+	name="GutiÈrrez"
 	culture = aragonese
 }
-1000103863 = {
-	name="Rodr√≠guez"
+1000003013 = {
+	name="MuÒoz"
+	culture = aragonese
+}
+1000003014 = {
+	name="RodrÌguez"
 	culture = aragonese
 }

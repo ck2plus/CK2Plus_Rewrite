@@ -1,52 +1,52 @@
-1000124503 = {
+1000102001 = {
 	name = "Zuwa"
 	culture = songhay
 }
-1000124504 = {
+1000102002 = {
 	name = "Kulun"
 	culture = songhay
 }
-1000124505 = {
+1000102003 = {
 	name = "Nari"
 	culture = songhay
 }
-1000124506 = {
+1000102004 = {
 	name = "Silman"
 	culture = songhay
 }
-1000124507 = {
+1000102005 = {
 	name = "Sulayman"
 	culture = songhay
 }
-1000124508 = {
+1000102006 = {
 	name = "Ber"
 	culture = songhay
 }
-1000124509 = {
+1000102007 = {
 	name = "Baru"
 	culture = songhay
 }
-1000124510 = {
+1000102008 = {
 	name = "Musa"
 	culture = songhay
 }
-1000124511 = {
+1000102009 = {
 	name = "Bonkana"
 	culture = songhay
 }
-1000124512 = {
+1000102010 = {
 	name = "Ismail"
 	culture = songhay
 }
-1000124513 = {
+1000102011 = {
 	name = "Ishaq"
 	culture = songhay
 }
-1000124514 = {
+1000102012 = {
 	name = "Bani"
 	culture = songhay
 }
-1000124515 = {
+1000102013 = {
 	name = "Amin"
 	culture = songhay
 }

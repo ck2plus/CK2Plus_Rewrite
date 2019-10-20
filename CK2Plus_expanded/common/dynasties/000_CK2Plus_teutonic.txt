@@ -1,76 +1,76 @@
-1000124668 = {
+1000108001 = {
 	name = "von Dettingen"
 	culture = teutonic
 }
-1000124669 = {
+1000108002 = {
 	name = "von Rothenburg"
 	culture = teutonic
 }
-1000124670 = {
+1000108003 = {
 	name = "Bodrich"
 	culture = teutonic
 }
-1000124671 = {
+1000108004 = {
 	name = "von Walbeck"
 	culture = teutonic
 }
-1000124672 = {
+1000108005 = {
 	name = "von Erbach"
 	culture = teutonic
 }
-1000124673 = {
+1000108006 = {
 	name = "von Rikdag"
 	culture = teutonic
 }
-1000124674 = {
+1000108007 = {
 	name = "Ardennes"
 	culture = teutonic
 }
-1000124675 = {
+1000108008 = {
 	name = "von Bismarck"
 	culture = teutonic
 }
-1000124676 = {
+1000108009 = {
 	name = "von Tresckow"
 	culture = teutonic
 }
-1000124677 = {
+1000108010 = {
 	name = "von Witzleben"
 	culture = teutonic
 }
-1000124678 = {
+1000108011 = {
 	name = "von Stauffenberg"
 	culture = teutonic
 }
-1000124679 = {
+1000108012 = {
 	name = "von Steinort"
 	culture = teutonic
 }
-1000124680 = {
+1000108013 = {
 	name = "von Lehndorff"
 	culture = teutonic
 }
-1000124760 = {
+1000108014 = {
 	name = "von Sangershausen"
 	culture = teutonic
 }
-1000124761 = {
+1000108015 = {
 	name = "von Osterna"
 	culture = teutonic
 }
-1000124762 = {
+1000108016 = {
 	name = "von Heldrungen"
 	culture = teutonic
 }
-1000124763 = {
+1000108017 = {
 	name = "von Schwanden"
 	culture = teutonic
 }
-1000124764 = {
+1000108018 = {
 	name = "von Feuchtwangen"
 	culture = teutonic
 }
-1000124765 = {
+1000108019 = {
 	name = "La Marck"
 	culture = teutonic
 }

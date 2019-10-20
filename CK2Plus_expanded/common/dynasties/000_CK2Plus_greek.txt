@@ -1,64 +1,64 @@
-1000037010 = {
-	name = "ThÃ©odosiane"
+1000045001 = {
+	name = "Théodosiane"
 	culture = greek
 }
-1000037011 = {
+1000045002 = {
 	name = "Thrax"
 	culture = greek
 }
-1000037013 = {
+1000045003 = {
 	name = "Ioustinianes"
 	culture = greek
 }
-1000037014 = {
-	name = "HÃ©rakleÃ­os"
+1000045004 = {
+	name = "Hérakleíos"
 	culture = greek
 }
-1000037017 = {
+1000045005 = {
 	name = "Markianos"
 	culture = greek
 }
-1000037018 = {
+1000045006 = {
 	name = "Isaurios"
 	culture = greek
 }
-1000037019 = {
+1000045007 = {
 	name = "Pompeios"
 	culture = greek
 }
-1000037020 = {
+1000045008 = {
 	name = "Paulos"
 	culture = greek
 }
-1000037021 = {
-	name = "AnarkhÃ­a"
+1000045009 = {
+	name = "Anarkhía"
 	culture = greek
 }
-1000037043 = {
+1000045010 = {
 	name = "Basiliscos"
 	culture = greek
 }
-1000037044 = {
+1000045011 = {
 	name = "Kanabos"
 	culture = greek
 }
-1000037045 = {
+1000045012 = {
 	name = "Turkos"
 	culture = greek
 }
-1000037054 = {
+1000045013 = {
 	name = "Katepanikion"
 	culture = greek
 }
-1000124091 = {
+1000045014 = {
 	name = "Pytheid"
 	culture = greek
 }
-1000124152 = {
+1000045015 = {
 	name = "Tarchaneiotes"
 	culture = greek
 }
-1000124223 = {
+1000045016 = {
 	name = "Koronios"
 	culture = greek
 }

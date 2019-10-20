@@ -1,300 +1,300 @@
-1000035851 = {
+1000030001 = {
 	name = "Sested"
 	culture = danish
 }
-1000035852 = {
+1000030002 = {
 	name = "Krag"
 	culture = danish
 }
-1000035853 = {
+1000030003 = {
 	name = "Krummedige"
 	culture = danish
 }
-1000035854 = {
+1000030004 = {
 	name = "Grubbe"
 	culture = danish
 }
-1000035855 = {
+1000030005 = {
 	name = "Krugelund"
 	culture = danish
 }
-1000035856 = {
+1000030006 = {
 	name = "Galskyt"
 	culture = danish
 }
-1000035857 = {
+1000030007 = {
 	name = "Vind"
 	culture = danish
 }
-1000035858 = {
+1000030008 = {
 	name = "Giedde"
 	culture = danish
 }
-1000035859 = {
+1000030009 = {
 	name = "Aasmul"
 	culture = danish
 }
-1000035860 = {
-	name = "KjÃ¦rulf"
+1000030010 = {
+	name = "Kjærulf"
 	culture = danish
 }
-1000035861 = {
+1000030011 = {
 	name = "Lykke"
 	culture = danish
 }
-1000035862 = {
+1000030012 = {
 	name = "Godov"
 	culture = danish
 }
-1000035863 = {
+1000030013 = {
 	name = "Rani"
 	culture = danish
 }
-1000035864 = {
+1000030014 = {
 	name = "Skram"
 	culture = danish
 }
-1000035865 = {
+1000030015 = {
 	name = "Kruse"
 	culture = danish
 }
-1000035866 = {
+1000030016 = {
 	name = "Markmand"
 	culture = danish
 }
-1000035867 = {
-	name = "LÃ¸venbalk"
+1000030017 = {
+	name = "Løvenbalk"
 	culture = danish
 }
-1000035868 = {
+1000030018 = {
 	name = "Lund"
 	culture = danish
 }
-1000035869 = {
+1000030019 = {
 	name = "Pors"
 	culture = danish
 }
-1000035870 = {
+1000030020 = {
 	name = "Lunge"
 	culture = danish
 }
-1000035871 = {
+1000030021 = {
 	name = "Krumpen"
 	culture = danish
 }
-1000035872 = {
+1000030022 = {
 	name = "Prip"
 	culture = danish
 }
-1000035873 = {
+1000030023 = {
 	name = "Mus"
 	culture = danish
 }
-1000035874 = {
+1000030024 = {
 	name = "Kirt"
 	culture = danish
 }
-1000035875 = {
-	name = "Af VadskÃ¦r"
+1000030025 = {
+	name = "Af Vadskær"
 	culture = danish
 }
-1000035876 = {
+1000030026 = {
 	name = "Harbou"
 	culture = danish
 }
-1000035877 = {
+1000030027 = {
 	name = "Glug"
 	culture = danish
 }
-1000035878 = {
+1000030028 = {
 	name = "Due"
 	culture = danish
 }
-1000035879 = {
+1000030029 = {
 	name = "Griis"
 	culture = danish
 }
-1000035880 = {
+1000030030 = {
 	name = "Grim"
 	culture = danish
 }
-1000035881 = {
+1000030031 = {
 	name = "Glob"
 	culture = danish
 }
-1000035882 = {
-	name = "SkovgÃ¥rd"
+1000030032 = {
+	name = "Skovgård"
 	culture = danish
 }
-1000035883 = {
+1000030033 = {
 	name = "Steeg"
 	culture = danish
 }
-1000035884 = {
+1000030034 = {
 	name = "Straale"
 	culture = danish
 }
-1000035885 = {
+1000030035 = {
 	name = "Steen"
 	culture = danish
 }
-1000035886 = {
+1000030036 = {
 	name = "Snekken"
 	culture = danish
 }
-1000035887 = {
+1000030037 = {
 	name = "Sommer"
 	culture = danish
 }
-1000035888 = {
+1000030038 = {
 	name = "Saxtrup"
 	culture = danish
 }
-1000035889 = {
+1000030039 = {
 	name = "Sappi"
 	culture = danish
 }
-1000035890 = {
+1000030040 = {
 	name = "Brock"
 	culture = danish
 }
-1000035891 = {
+1000030041 = {
 	name = "Laxmand"
 	culture = danish
 }
-1000035892 = {
+1000030042 = {
 	name = "Skade"
 	culture = danish
 }
-1000035893 = {
-	name = "RÃ¸de"
+1000030043 = {
+	name = "Røde"
 	culture = danish
 }
-1000035894 = {
-	name = "RÃ¥sted"
+1000030044 = {
+	name = "Råsted"
 	culture = danish
 }
-1000035895 = {
-	name = "RÃ¸d"
+1000030045 = {
+	name = "Rød"
 	culture = danish
 }
-1000035896 = {
+1000030046 = {
 	name = "Abildgaard"
 	culture = danish
 }
-1000035897 = {
+1000030047 = {
 	name = "Hvide"
 	culture = danish
 }
-1000035898 = {
+1000030048 = {
 	name = "Kyrning"
 	culture = danish
 }
-1000035900 = {
+1000030049 = {
 	name = "Dreefeld"
 	culture = danish
 }
-1000053800 = {
+1000030050 = {
 	name = "Dotting"
 	culture = danish
 }
-1000053801 = {
+1000030051 = {
 	name = "Gagge"
 	culture = danish
 }
-1000053802 = {
+1000030052 = {
 	name = "Rudbek"
 	culture = danish
 }
-1000053803 = {
+1000030053 = {
 	name = "Taa"
 	culture = danish
 }
-1000053804 = {
+1000030054 = {
 	name = "Urne"
 	culture = danish
 }
-1000053805 = {
+1000030055 = {
 	name = "Tinhuus"
 	culture = danish
 }
-1000053806 = {
+1000030056 = {
 	name = "Vognsen"
 	culture = danish
 }
-1000053807 = {
+1000030057 = {
 	name = "Udsen"
 	culture = danish
 }
-1000053808 = {
+1000030058 = {
 	name = "Halland"
 	culture = danish
 }
-1000053809 = {
+1000030059 = {
 	name = "Falster"
 	culture = danish
 }
-1000053810 = {
+1000030060 = {
 	name = "Reef"
 	culture = danish
 }
-1000053811 = {
-	name = "HÃ¸rby"
+1000030061 = {
+	name = "Hørby"
 	culture = danish
 }
-1000053812 = {
+1000030062 = {
 	name = "Limbek"
 	culture = danish
 }
-1000053813 = {
+1000030063 = {
 	name = "Krognos"
 	culture = danish
 }
-1000053814 = {
+1000030064 = {
 	name = "Kruckow"
 	culture = danish
 }
-1000053815 = {
+1000030065 = {
 	name = "Smalsted"
 	culture = danish
 }
-1000053816 = {
+1000030066 = {
 	name = "Vinter"
 	culture = danish
 }
-1000053817 = {
+1000030067 = {
 	name = "Panter"
 	culture = danish
 }
-1000053818 = {
+1000030068 = {
 	name = "Skaaning"
 	culture = danish
 }
-1000053819 = {
+1000030069 = {
 	name = "Fasti"
 	culture = danish
 }
-1000053820 = {
+1000030070 = {
 	name = "Stalder"
 	culture = danish
 }
-1000053821 = {
+1000030071 = {
 	name = "Lange"
 	culture = danish
 }
-1000053822 = {
+1000030072 = {
 	name = "Mormand"
 	culture = danish
 }
-1000053823 = {
+1000030073 = {
 	name = "Bodilsen"
 	culture = danish
 }
-1000124146 = {
+1000030074 = {
 	name = "Palnasson"
 	culture = danish
 }
-1000124197 = {
+1000030075 = {
 	name = "Tokesen"
 	culture = danish
 }

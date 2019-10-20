@@ -1,100 +1,100 @@
-1000124005 = {
+1000023001 = {
 	name = "a Lannstefan"
 	culture = cornish
 }
-1000124006 = {
+1000023002 = {
 	name = "a Bosvenegh"
 	culture = cornish
 }
-1000124007 = {
+1000023003 = {
 	name = "a Essa"
 	culture = cornish
 }
-1000124008 = {
+1000023004 = {
 	name = "a Truru"
 	culture = cornish
 }
-1000124009 = {
+1000023005 = {
 	name = "Boscawen"
 	culture = cornish
 }
-1000124010 = {
+1000023006 = {
 	name = "Flamank"
 	culture = cornish
 }
-1000124011 = {
+1000023007 = {
 	name = "Basset"
 	culture = cornish
 }
-1000124012 = {
+1000023008 = {
 	name = "Bolitho"
 	culture = cornish
 }
-1000124013 = {
+1000023009 = {
 	name = "Knuckey"
 	culture = cornish
 }
-1000124014 = {
+1000023010 = {
 	name = "Godolphin"
 	culture = cornish
 }
-1000124015 = {
+1000023011 = {
 	name = "Killigrew"
 	culture = cornish
 }
-1000124016 = {
+1000023012 = {
 	name = "Treffry"
 	culture = cornish
 }
-1000124017 = {
+1000023013 = {
 	name = "Trelawny"
 	culture = cornish
 }
-1000124018 = {
+1000023014 = {
 	name = "Trevanion"
 	culture = cornish
 }
-1000124019 = {
+1000023015 = {
 	name = "Vyvyan"
 	culture = cornish
 }
-1000124020 = {
+1000023016 = {
 	name = "Carminow"
 	culture = cornish
 }
-1000124021 = {
+1000023017 = {
 	name = "Roscarrock"
 	culture = cornish
 }
-1000124022 = {
+1000023018 = {
 	name = "Tremayne"
 	culture = cornish
 }
-1000124023 = {
+1000023019 = {
 	name = "Trevelyan"
 	culture = cornish
 }
-1000124024 = {
+1000023020 = {
 	name = "Arundell"
 	culture = cornish
 }
-1000124025 = {
+1000023021 = {
 	name = "de Cardinham"
 	culture = cornish
 }
-1000124026 = {
+1000023022 = {
 	name = "de Botreaux"
 	culture = cornish
 }
-1000124028 = {
+1000023023 = {
 	name = "de Prideaux"
 	culture = cornish
 }
-1000124029 = {
+1000023024 = {
 	name = "de Bodrugan"
 	culture = cornish
 }
-1000124094 = {
+1000023025 = {
 	name = "Dyntagell"
 	culture = cornish
 }

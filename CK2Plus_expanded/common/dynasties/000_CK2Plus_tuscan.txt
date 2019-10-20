@@ -1,464 +1,464 @@
-1000124791 = {
+1000112001 = {
 	name = "Foschi"
 	culture = tuscan
 }
-1000252629 = {
+1000112002 = {
 	name = "di Ferrara"
 	culture = tuscan
 }
-1000252630 = {
+1000112003 = {
 	name = "d'Appiano"
 	culture = tuscan
 }
-1000252631 = {
+1000112004 = {
 	name = "Antelminelli"
 	culture = tuscan
 }
-1000252632 = {
+1000112005 = {
 	name = "Castracani"
 	culture = tuscan
 }
-1000252633 = {
+1000112006 = {
 	name = "Brictone"
 	culture = tuscan
 }
-1000252634 = {
+1000112007 = {
 	name = "Pettiti"
 	culture = tuscan
 }
-1000252635 = {
+1000112008 = {
 	name = "di Treviso"
 	culture = tuscan
 }
-1000252636 = {
+1000112009 = {
 	name = "Pellari"
 	culture = tuscan
 }
-1000252637 = {
+1000112010 = {
 	name = "Caetani"
 	culture = tuscan
 }
-1000252638 = {
+1000112011 = {
 	name = "di Capraia"
 	culture = tuscan
 }
-1000252639 = {
+1000112012 = {
 	name = "degli Ubaldini"
 	culture = tuscan
 }
-1000252640 = {
+1000112013 = {
 	name = "di Sarzana"
 	culture = tuscan
 }
-1000252641 = {
+1000112014 = {
 	name = "Corvina"
 	culture = tuscan
 }
-1000252642 = {
+1000112015 = {
 	name = "Parentucelli"
 	culture = tuscan
 }
-1000252643 = {
+1000112016 = {
 	name = "di Lucca"
 	culture = tuscan
 }
-1000252644 = {
+1000112017 = {
 	name = "di Valenti"
 	culture = tuscan
 }
-1000252645 = {
+1000112018 = {
 	name = "Monticelli"
 	culture = tuscan
 }
-1000252646 = {
+1000112019 = {
 	name = "di Brunforte"
 	culture = tuscan
 }
-1000252647 = {
+1000112020 = {
 	name = "Bonifazi"
 	culture = tuscan
 }
-1000252648 = {
+1000112021 = {
 	name = "di Montemerlo"
 	culture = tuscan
 }
-1000252649 = {
+1000112022 = {
 	name = "da Monticiano"
 	culture = tuscan
 }
-1000252650 = {
+1000112023 = {
 	name = "Pescatore"
 	culture = tuscan
 }
-1000252651 = {
+1000112024 = {
 	name = "di Lucca"
 	culture = tuscan
 }
-1000252652 = {
+1000112025 = {
 	name = "di Siena"
 	culture = tuscan
 }
-1000252653 = {
+1000112026 = {
 	name = "da Polenta"
 	culture = tuscan
 }
-1000252654 = {
+1000112027 = {
 	name = "di Venezia"
 	culture = tuscan
 }
-1000252655 = {
+1000112028 = {
 	name = "di Corsica"
 	culture = tuscan
 }
-1000252656 = {
+1000112029 = {
 	name = "di Guidoti"
 	culture = tuscan
 }
-1000252657 = {
+1000112030 = {
 	name = "di Castello"
 	culture = tuscan
 }
-1000252658 = {
+1000112031 = {
 	name = "di Soana"
 	culture = tuscan
 }
-1000252659 = {
+1000112032 = {
 	name = "Egidio"
 	culture = tuscan
 }
-1000252660 = {
+1000112033 = {
 	name = "Calcinaia"
 	culture = tuscan
 }
-1000252661 = {
+1000112034 = {
 	name = "Capponi"
 	culture = tuscan
 }
-1000252662 = {
+1000112035 = {
 	name = "di Sorano"
 	culture = tuscan
 }
-1000252663 = {
+1000112036 = {
 	name = "Zen"
 	culture = tuscan
 }
-1000252664 = {
+1000112037 = {
 	name = "Borghesi"
 	culture = tuscan
 }
-1000252665 = {
+1000112038 = {
 	name = "di Firenze"
 	culture = tuscan
 }
-1000252666 = {
+1000112039 = {
 	name = "della Gherardesca"
 	culture = tuscan
 }
-1000252667 = {
+1000112040 = {
 	name = "Giraldi"
 	culture = tuscan
 }
-1000252668 = {
+1000112041 = {
 	name = "di Spoleto"
 	culture = tuscan
 }
-1000252669 = {
+1000112042 = {
 	name = "Vitale"
 	culture = tuscan
 }
-1000252670 = {
+1000112043 = {
 	name = "di Simiano"
 	culture = tuscan
 }
-1000252671 = {
+1000112044 = {
 	name = "di Modena"
 	culture = tuscan
 }
-1000252672 = {
+1000112045 = {
 	name = "di Orbetello"
 	culture = tuscan
 }
-1000252673 = {
+1000112046 = {
 	name = "di Carrara"
 	culture = tuscan
 }
-1000252674 = {
+1000112047 = {
 	name = "di Piombino"
 	culture = tuscan
 }
-1000252675 = {
+1000112048 = {
 	name = "da Rimini"
 	culture = tuscan
 }
-1000252676 = {
+1000112049 = {
 	name = "Antelminelli"
 	culture = tuscan
 }
-1000252677 = {
+1000112050 = {
 	name = "di Montemagno"
 	culture = tuscan
 }
-1000252678 = {
+1000112051 = {
 	name = "di Napoli"
 	culture = tuscan
 }
-1000252679 = {
+1000112052 = {
 	name = "Paganelli di Montemagno"
 	culture = tuscan
 }
-1000252680 = {
+1000112053 = {
 	name = "Concini"
 	culture = tuscan
 }
-1000252681 = {
+1000112054 = {
 	name = "Guerrazzi"
 	culture = tuscan
 }
-1000252682 = {
+1000112055 = {
 	name = "Zaccaria"
 	culture = tuscan
 }
-1000252683 = {
+1000112056 = {
 	name = "Michele"
 	culture = tuscan
 }
-1000252684 = {
+1000112057 = {
 	name = "Delfino"
 	culture = tuscan
 }
-1000252685 = {
+1000112058 = {
 	name = "Tomaselli"
 	culture = tuscan
 }
-1000252686 = {
+1000112059 = {
 	name = "da Promontorio"
 	culture = tuscan
 }
-1000252687 = {
+1000112060 = {
 	name = "degli Alighieri"
 	culture = tuscan
 }
-1000252688 = {
+1000112061 = {
 	name = "Fibonacci"
 	culture = tuscan
 }
-1000252689 = {
+1000112062 = {
 	name = "Petrarca"
 	culture = tuscan
 }
-1000252690 = {
+1000112063 = {
 	name = "Boccaccio"
 	culture = tuscan
 }
-1000252691 = {
+1000112064 = {
 	name = "Alighieri"
 	culture = tuscan
 }
-1000252692 = {
+1000112065 = {
 	name = "Malaspina"
 	culture = tuscan
 }
-1000252693 = {
+1000112066 = {
 	name = "Silvio"
 	culture = tuscan
 }
-1000252694 = {
+1000112067 = {
 	name = "Bandinelli"
 	culture = tuscan
 }
-1000252695 = {
+1000112068 = {
 	name = "Lanfranchi"
 	culture = tuscan
 }
-1000252696 = {
+1000112069 = {
 	name = "Allucingolli"
 	culture = tuscan
 }
-1000252697 = {
+1000112070 = {
 	name = "Latreto"
 	culture = tuscan
 }
-1000252698 = {
+1000112071 = {
 	name = "Guidi"
 	culture = tuscan
 }
-1000252699 = {
+1000112072 = {
 	name = "Gualandi"
 	culture = tuscan
 }
-1000252700 = {
+1000112073 = {
 	name = "Giustiniano"
 	culture = tuscan
 }
-1000252701 = {
+1000112074 = {
 	name = "Borgia"
 	culture = tuscan
 }
-1000252702 = {
+1000112075 = {
 	name = "di Livorno"
 	culture = tuscan
 }
-1000252703 = {
+1000112076 = {
 	name = "Botticelli"
 	culture = tuscan
 }
-1000252704 = {
+1000112077 = {
 	name = "Oristani"
 	culture = tuscan
 }
-1000252705 = {
+1000112078 = {
 	name = "di Patova"
 	culture = tuscan
 }
-1000252706 = {
+1000112079 = {
 	name = "Visconti"
 	culture = tuscan
 }
-1000252707 = {
+1000112080 = {
 	name = "di Bologna"
 	culture = tuscan
 }
-1000252708 = {
+1000112081 = {
 	name = "di Canossa"
 	culture = tuscan
 }
-1000252709 = {
+1000112082 = {
 	name = "Borromeo"
 	culture = tuscan
 }
-1000252710 = {
+1000112083 = {
 	name = "di Oria"
 	culture = tuscan
 }
-1000252711 = {
+1000112084 = {
 	name = "di Torres"
 	culture = tuscan
 }
-1000252712 = {
+1000112085 = {
 	name = "Sismondi"
 	culture = tuscan
 }
-1000252713 = {
+1000112086 = {
 	name = "Suvereto"
 	culture = tuscan
 }
-1000252714 = {
+1000112087 = {
 	name = "di Campiglia"
 	culture = tuscan
 }
-1000252715 = {
+1000112088 = {
 	name = "di Cadolingi"
 	culture = tuscan
 }
-1000252716 = {
+1000112089 = {
 	name = "di Berardeschi"
 	culture = tuscan
 }
-1000252717 = {
+1000112090 = {
 	name = "Strozzi"
 	culture = tuscan
 }
-1000252718 = {
+1000112091 = {
 	name = "da Parlascio"
 	culture = tuscan
 }
-1000252719 = {
+1000112092 = {
 	name = "de Medici"
 	culture = tuscan
 }
-1000252720 = {
+1000112093 = {
 	name = "Pannocchieschi"
 	culture = tuscan
 }
-1000252721 = {
+1000112094 = {
 	name = "Cappai"
 	culture = tuscan
 }
-1000252722 = {
+1000112095 = {
 	name = "Aldobrandeschi"
 	culture = tuscan
 }
-1000252723 = {
+1000112096 = {
 	name = "Tittoni"
 	culture = tuscan
 }
-1000252724 = {
+1000112097 = {
 	name = "Spinola"
 	culture = tuscan
 }
-1000252725 = {
+1000112098 = {
 	name = "Mauro"
 	culture = tuscan
 }
-1000252726 = {
+1000112099 = {
 	name = "Rossi"
 	culture = tuscan
 }
-1000252727 = {
+1000112100 = {
 	name = "Sciarrillo"
 	culture = tuscan
 }
-1000252728 = {
+1000112101 = {
 	name = "Barberini"
 	culture = tuscan
 }
-1000253021 = {
+1000112102 = {
 	name = "da Vinci"
 	culture = tuscan
 }
-1000253022 = {
+1000112103 = {
 	name = "di ser Piero"
 	culture = tuscan
 }
-1000253023 = {
+1000112104 = {
 	name = "del Verrocchio"
 	culture = tuscan
 }
-1000253024 = {
+1000112105 = {
 	name = "di Credi"
 	culture = tuscan
 }
-1000253027 = {
+1000112106 = {
 	name = "di Oderigo"
 	culture = tuscan
 }
-1000253028 = {
+1000112107 = {
 	name = "Barducci"
 	culture = tuscan
 }
-1000253029 = {
+1000112108 = {
 	name = "Botticini"
 	culture = tuscan
 }
-1000253030 = {
+1000112109 = {
 	name = "di Bicci"
 	culture = tuscan
 }
-1000253031 = {
+1000112110 = {
 	name = "di Bicci"
 	culture = tuscan
 }
-1000253032 = {
+1000112111 = {
 	name = "di Cione"
 	culture = tuscan
 }
-1000253033 = {
+1000112112 = {
 	name = "Cioni"
 	culture = tuscan
 }
-1000253034 = {
+1000112113 = {
 	name = "Gerini"
 	culture = tuscan
 }
-1000253035 = {
+1000112114 = {
 	name = "Rosselli"
 	culture = tuscan
 }
-1000253036 = {
+1000112115 = {
 	name = "Ghirlandaio"
 	culture = tuscan
 }
-1000253037 = {
+1000112116 = {
 	name = "Mainardi"
 	culture = tuscan
 }

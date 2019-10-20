@@ -1,64 +1,64 @@
-1000124766 = {
+1000040001 = {
 	name = "Bibra"
 	culture = franconian
 }
-1000124767 = {
+1000040002 = {
 	name = "Guttenberg"
 	culture = franconian
 }
-1000124768 = {
+1000040003 = {
 	name = "Absberg"
 	culture = franconian
 }
-1000124769 = {
+1000040004 = {
 	name = "Gravenreuth"
 	culture = franconian
 }
-1000124770 = {
-	name = "AufseÃŸ"
+1000040005 = {
+	name = "Aufseß"
 	culture = franconian
 }
-1000124771 = {
+1000040006 = {
 	name = "Pfersfeld"
 	culture = franconian
 }
-1000124772 = {
+1000040007 = {
 	name = "Reitzenstein"
 	culture = franconian
 }
-1000124773 = {
+1000040008 = {
 	name = "von Seckendorff"
 	culture = franconian
 }
-1000124774 = {
+1000040009 = {
 	name = "Sparneck"
 	culture = franconian
 }
-1000124775 = {
+1000040010 = {
 	name = "Kotzau"
 	culture = franconian
 }
-1000124776 = {
+1000040011 = {
 	name = "Notthafft"
 	culture = franconian
 }
-1000124777 = {
+1000040012 = {
 	name = "Zedtwtz"
 	culture = franconian
 }
-1000124778 = {
-	name = "KÃ¼nsberg"
+1000040013 = {
+	name = "Künsberg"
 	culture = franconian
 }
-1000124779 = {
+1000040014 = {
 	name = "von Alsace"
 	culture = franconian
 }
-1000124781 = {
+1000040015 = {
 	name = "von Innsbruck"
 	culture = franconian
 }
-1000124783 = {
+1000040016 = {
 	name = "Babenburg"
 	culture = franconian
 }

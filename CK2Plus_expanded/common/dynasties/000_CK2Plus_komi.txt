@@ -1,8 +1,8 @@
-1000124098 = {
+1000059001 = {
 	name = "Valkoinen"
 	culture = komi
 }
-1000124154 = {
+1000059002 = {
 	name = "of Ukhta"
 	culture = komi
 }

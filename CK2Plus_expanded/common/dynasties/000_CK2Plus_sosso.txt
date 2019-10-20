@@ -1,28 +1,28 @@
-1000124073 = {
+1000103001 = {
 	name = "Kante"
 	culture = sosso
 }
-1000124074 = {
+1000103002 = {
 	name = "Cisse"
 	culture = sosso
 }
-1000124075 = {
+1000103003 = {
 	name = "Akba"
 	culture = sosso
 }
-1000124076 = {
+1000103004 = {
 	name = "Soumare"
 	culture = sosso
 }
-1000124077 = {
+1000103005 = {
 	name = "Soukhounou"
 	culture = sosso
 }
-1000124230 = {
+1000103006 = {
 	name = "Bighu"
 	culture = sosso
 }
-1000124502 = {
+1000103007 = {
 	name = "Akba"
 	culture = sosso
 }

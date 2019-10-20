@@ -1,160 +1,160 @@
-1000124393 = {
+1000022001 = {
 	name = "Amoun"
 	culture = coptic
 }
-1000124394 = {
+1000022002 = {
 	name = "Anoub"
 	culture = coptic
 }
-1000124395 = {
+1000022003 = {
 	name = "Apamoun"
 	culture = coptic
 }
-1000124396 = {
+1000022004 = {
 	name = "Apanoub"
 	culture = coptic
 }
-1000124397 = {
+1000022005 = {
 	name = "Barsanouphios"
 	culture = coptic
 }
-1000124398 = {
+1000022006 = {
 	name = "Bishou"
 	culture = coptic
 }
-1000124399 = {
+1000022007 = {
 	name = "Ese"
 	culture = coptic
 }
-1000124400 = {
+1000022008 = {
 	name = "Girgis"
 	culture = coptic
 }
-1000124401 = {
+1000022009 = {
 	name = "Lucra"
 	culture = coptic
 }
-1000124402 = {
+1000022010 = {
 	name = "Mina"
 	culture = coptic
 }
-1000124403 = {
+1000022011 = {
 	name = "Onouphrios"
 	culture = coptic
 }
-1000124404 = {
+1000022012 = {
 	name = "Pamoun"
 	culture = coptic
 }
-1000124405 = {
+1000022013 = {
 	name = "Panoub"
 	culture = coptic
 }
-1000124406 = {
+1000022014 = {
 	name = "Panoute"
 	culture = coptic
 }
-1000124407 = {
+1000022015 = {
 	name = "Papnoute"
 	culture = coptic
 }
-1000124408 = {
+1000022016 = {
 	name = "Patape"
 	culture = coptic
 }
-1000124409 = {
+1000022017 = {
 	name = "Pennouti"
 	culture = coptic
 }
-1000124410 = {
+1000022018 = {
 	name = "Phnouti"
 	culture = coptic
 }
-1000124411 = {
+1000022019 = {
 	name = "Pigol"
 	culture = coptic
 }
-1000124412 = {
+1000022020 = {
 	name = "Psote"
 	culture = coptic
 }
-1000124413 = {
+1000022021 = {
 	name = "Ruweis"
 	culture = coptic
 }
-1000124416 = {
+1000022022 = {
 	name = "Shenoute"
 	culture = coptic
 }
-1000124417 = {
+1000022023 = {
 	name = "Sidhom"
 	culture = coptic
 }
-1000124418 = {
+1000022024 = {
 	name = "Tanoute"
 	culture = coptic
 }
-1000124419 = {
+1000022025 = {
 	name = "Usire"
 	culture = coptic
 }
-1000124420 = {
+1000022026 = {
 	name = "Ramsis"
 	culture = coptic
 }
-1000124421 = {
+1000022027 = {
 	name = "Tafida"
 	culture = coptic
 }
-1000124422 = {
+1000022028 = {
 	name = "Wisa"
 	culture = coptic
 }
-1000124423 = {
+1000022029 = {
 	name = "Moussa"
 	culture = coptic
 }
-1000124424 = {
+1000022030 = {
 	name = "Mourice"
 	culture = coptic
 }
-1000124425 = {
+1000022031 = {
 	name = "Lawandy"
 	culture = coptic
 }
-1000124426 = {
+1000022032 = {
 	name = "Fanous"
 	culture = coptic
 }
-1000124427 = {
+1000022033 = {
 	name = "Fakhri"
 	culture = coptic
 }
-1000124428 = {
+1000022034 = {
 	name = "Salib"
 	culture = coptic
 }
-1000124429 = {
+1000022035 = {
 	name = "Abdelmesseh"
 	culture = coptic
 }
-1000124430 = {
+1000022036 = {
 	name = "Abdelmalek"
 	culture = coptic
 }
-1000124431 = {
+1000022037 = {
 	name = "Arsanios"
 	culture = coptic
 }
-1000124432 = {
+1000022038 = {
 	name = "Abdelshahid"
 	culture = coptic
 }
-1000124433 = {
+1000022039 = {
 	name = "Ghabras"
 	culture = coptic
 }
-1000124434 = {
+1000022040 = {
 	name = "Salama"
 	culture = coptic
 }

@@ -1,69 +1,69 @@
 
-1000104550 = {
+1000107001 = {
 	name="Timurid"
 	culture = tatar
 }
-1000104551 = {
+1000107002 = {
 	name="Qarlughid"
 	culture = tatar
 }
-1000104552 = {
+1000107003 = {
 	name="Shaybanid"
-	culture = tatar	
+	culture = tatar
 }
-1000104553 = {
+1000107004 = {
 	name="Giray"
-	culture = tatar	
+	culture = tatar
 }
-1000104554 = {
+1000107005 = {
 	name="Jochid"
-	culture = tatar	
+	culture = tatar
 }
-1000104555 = {
+1000107006 = {
 	name="Tore"
-	culture = tatar	
+	culture = tatar
 }
-1000104556 = {
+1000107007 = {
 	name="Urusid"
-	culture = tatar	
+	culture = tatar
 }
-1000104557 = {
+1000107008 = {
 	name="Mangghud"
-	culture = tatar	
+	culture = tatar
 }
-1000104558 = {
+1000107009 = {
 	name="Manghit"
-	culture = tatar	
+	culture = tatar
 }
-1000104559 = {
+1000107010 = {
 	name="Chimtayid"
 	culture = tatar
 }
-1000104560 = {
+1000107011 = {
 	name="Bayanid"
 	culture = tatar
 }
-1000104561 = {
+1000107012 = {
 	name="Ilgizid"
 	culture = tatar
 }
-1000104562 = {
+1000107013 = {
 	name="Ulugh"
 	culture = tatar
 }
-1000104563 = {
+1000107014 = {
 	name="Bayad"
 	culture = tatar
 }
-1000104564 = {
+1000107015 = {
 	name="Azgarid"
 	culture = tatar
 }
-1000104565 = {
+1000107016 = {
 	name="Fayzullad"
 	culture = tatar
 }
-1000104566 = {
+1000107017 = {
 	name="Qazan"
 	culture = tatar
 }

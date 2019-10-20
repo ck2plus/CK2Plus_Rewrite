@@ -1,32 +1,32 @@
-1000124633 = {
+1000109001 = {
 	name = "von Dettingen"
 	culture = thuringian
 }
-1000124634 = {
+1000109002 = {
 	name = "von Rothenburg"
 	culture = thuringian
 }
-1000124635 = {
+1000109003 = {
 	name = "Bodrich"
 	culture = thuringian
 }
-1000124636 = {
+1000109004 = {
 	name = "von Walbeck"
 	culture = thuringian
 }
-1000124637 = {
+1000109005 = {
 	name = "von Erbach"
 	culture = thuringian
 }
-1000124638 = {
+1000109006 = {
 	name = "von Rikdag"
 	culture = thuringian
 }
-1000124639 = {
+1000109007 = {
 	name = "Ardennes"
 	culture = thuringian
 }
-1000124759 = {
+1000109008 = {
 	name = "Bocker"
 	culture = thuringian
 }

@@ -1,252 +1,252 @@
-1000124222 = {
+1000024001 = {
 	name = "Morosaglia"
 	culture = corsican
 }
-1000252132 = {
+1000024002 = {
 	name = "di Livornu"
 	culture = corsican
 }
-1000252160 = {
+1000024003 = {
 	name = "d'Ornanu"
 	culture = corsican
 }
-1000252161 = {
+1000024004 = {
 	name = "de Verde"
 	culture = corsican
 }
-1000252162 = {
+1000024005 = {
 	name = "d'Ortu"
 	culture = corsican
 }
-1000252163 = {
+1000024006 = {
 	name = "Moro"
 	culture = corsican
 }
-1000252164 = {
+1000024007 = {
 	name = "Michelu"
 	culture = corsican
 }
-1000252165 = {
+1000024008 = {
 	name = "de Vechju"
 	culture = corsican
 }
-1000252166 = {
+1000024009 = {
 	name = "da Vallerustie"
 	culture = corsican
 }
-1000252167 = {
+1000024010 = {
 	name = "de Valincu"
 	culture = corsican
 }
-1000252168 = {
+1000024011 = {
 	name = "d'Ustriconi"
 	culture = corsican
 }
-1000252169 = {
+1000024012 = {
 	name = "d'Urtolu"
 	culture = corsican
 }
-1000252170 = {
+1000024013 = {
 	name = "da Tuda"
 	culture = corsican
 }
-1000252171 = {
+1000024014 = {
 	name = "da Tuani"
 	culture = corsican
 }
-1000252172 = {
+1000024015 = {
 	name = "di Tenda"
 	culture = corsican
 }
-1000252173 = {
+1000024016 = {
 	name = "di Tavignanu"
 	culture = corsican
 }
-1000252174 = {
+1000024017 = {
 	name = "de Tavagna"
 	culture = corsican
 }
-1000252175 = {
-	name = "di Tall√†"
+1000024018 = {
+	name = "di Tall‡"
 	culture = corsican
 }
-1000252176 = {
+1000024019 = {
 	name = "di Talcini"
 	culture = corsican
 }
-1000252177 = {
+1000024020 = {
 	name = "di Sevinfora"
 	culture = corsican
 }
-1000252178 = {
+1000024021 = {
 	name = "de Sevindentru"
 	culture = corsican
 }
-1000252179 = {
+1000024022 = {
 	name = "di Scupamena"
 	culture = corsican
 }
-1000252180 = {
-	name = "di Sart√®"
+1000024023 = {
+	name = "di SartË"
 	culture = corsican
 }
-1000252181 = {
+1000024024 = {
 	name = "de Santu Andria"
 	culture = corsican
 }
-1000252182 = {
+1000024025 = {
 	name = "de Sampieru"
 	culture = corsican
 }
-1000252183 = {
+1000024026 = {
 	name = "de Portivechju"
 	culture = corsican
 }
-1000252184 = {
+1000024027 = {
 	name = "di Patrimoniu"
 	culture = corsican
 }
-1000252185 = {
+1000024028 = {
 	name = "d'Oranu"
 	culture = corsican
 }
-1000252186 = {
+1000024029 = {
 	name = "d'Orezza"
 	culture = corsican
 }
-1000252187 = {
+1000024030 = {
 	name = "d'Olmia"
 	culture = corsican
 }
-1000252188 = {
+1000024031 = {
 	name = "di Rustinu"
 	culture = corsican
 }
-1000252189 = {
+1000024032 = {
 	name = "de Nonza"
 	culture = corsican
 }
-1000252190 = {
+1000024033 = {
 	name = "de Moriani"
 	culture = corsican
 }
-1000252191 = {
+1000024034 = {
 	name = "de Niolu"
 	culture = corsican
 }
-1000252192 = {
+1000024035 = {
 	name = "de Mercuriu"
 	culture = corsican
 }
-1000252193 = {
+1000024036 = {
 	name = "de Mariana"
 	culture = corsican
 }
-1000252194 = {
+1000024037 = {
 	name = "di Lota"
 	culture = corsican
 }
-1000252195 = {
+1000024038 = {
 	name = "di Lama"
 	culture = corsican
 }
-1000252196 = {
+1000024039 = {
 	name = "da Ghjunsani"
 	culture = corsican
 }
-1000252197 = {
+1000024040 = {
 	name = "da Cuvasina"
 	culture = corsican
 }
-1000252198 = {
+1000024041 = {
 	name = "di Ghjuvellina"
 	culture = corsican
 }
-1000252199 = {
+1000024042 = {
 	name = "di Cursa"
 	culture = corsican
 }
-1000252200 = {
+1000024043 = {
 	name = "de Cruzinu"
 	culture = corsican
 }
-1000252201 = {
+1000024044 = {
 	name = "de Celavu"
 	culture = corsican
 }
-1000252202 = {
+1000024045 = {
 	name = "Castellu"
 	culture = corsican
 }
-1000252203 = {
+1000024046 = {
 	name = "de Carghjese"
 	culture = corsican
 }
-1000252204 = {
+1000024047 = {
 	name = "de Campuloru"
 	culture = corsican
 }
-1000252205 = {
+1000024048 = {
 	name = "da Atene"
 	culture = corsican
 }
-1000252206 = {
+1000024049 = {
 	name = "de Brandu"
 	culture = corsican
 }
-1000252207 = {
+1000024050 = {
 	name = "Boziu"
 	culture = corsican
 }
-1000252208 = {
+1000024051 = {
 	name = "Bonifaziu"
 	culture = corsican
 }
-1000252209 = {
+1000024052 = {
 	name = "de Bigornu"
 	culture = corsican
 }
-1000252210 = {
+1000024053 = {
 	name = "de Bevincu"
 	culture = corsican
 }
-1000252211 = {
+1000024054 = {
 	name = "de Balagna"
 	culture = corsican
 }
-1000252212 = {
+1000024055 = {
 	name = "di Alisgani"
 	culture = corsican
 }
-1000252213 = {
+1000024056 = {
 	name = "di Aiacciu"
 	culture = corsican
 }
-1000252214 = {
+1000024057 = {
 	name = "de Cuvasina"
 	culture = corsican
 }
-1000252215 = {
+1000024058 = {
 	name = "Zaccarias"
 	culture = corsican
 }
-1000252216 = {
+1000024059 = {
 	name = "Rossu"
 	culture = corsican
 }
-1000252217 = {
-	name = "d'√Älandu"
+1000024060 = {
+	name = "d'¿landu"
 	culture = corsican
 }
-1000252218 = {
+1000024061 = {
 	name = "Silviu"
 	culture = corsican
 }
-1000252219 = {
+1000024062 = {
 	name = "de Torinu"
 	culture = corsican
 }
-1000252220 = {
+1000024063 = {
 	name = "de Savoja"
 	culture = corsican
 }

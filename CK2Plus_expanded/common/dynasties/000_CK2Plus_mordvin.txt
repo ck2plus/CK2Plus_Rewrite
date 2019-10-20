@@ -1,12 +1,12 @@
-1000124001 = {
+1000073001 = {
 	name = "Tushtyid"
 	culture = mordvin
 }
-1000124002 = {
+1000073002 = {
 	name = "Kokshid"
 	culture = mordvin
 }
-1000124003 = {
+1000073003 = {
 	name = "Kyaid"
 	culture = mordvin
 }

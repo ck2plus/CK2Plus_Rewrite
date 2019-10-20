@@ -1,296 +1,296 @@
-1000252546 = {
+1000098001 = {
 	name = "Angelerio"
 	culture = sicilian
 }
-1000252547 = {
+1000098002 = {
 	name = "di Bari"
 	culture = sicilian
 }
-1000252548 = {
+1000098003 = {
 	name = "di Seragusa"
 	culture = sicilian
 }
-1000252549 = {
+1000098004 = {
 	name = "Chinard"
 	culture = sicilian
 }
-1000252550 = {
+1000098005 = {
 	name = "di Paliemmu"
 	culture = sicilian
 }
-1000252551 = {
+1000098006 = {
 	name = "di Lecci"
 	culture = sicilian
 }
-1000252552 = {
+1000098007 = {
 	name = "Marinian"
 	culture = sicilian
 }
-1000252553 = {
+1000098008 = {
 	name = "Angelous"
 	culture = sicilian
 }
-1000252554 = {
+1000098009 = {
 	name = "di Gonzaga"
 	culture = sicilian
 }
-1000252555 = {
+1000098010 = {
 	name = "di Giurgenti"
 	culture = sicilian
 }
-1000252556 = {
-	name = "di √Ävula"
+1000098011 = {
+	name = "di ¿vula"
 	culture = sicilian
 }
-1000252557 = {
+1000098012 = {
 	name = "Zerkis"
 	culture = sicilian
 }
-1000252558 = {
+1000098013 = {
 	name = "Caldera"
 	culture = sicilian
 }
-1000252559 = {
+1000098014 = {
 	name = "dell'Egeo"
 	culture = sicilian
 }
-1000252560 = {
+1000098015 = {
 	name = "di Muntimurlu"
 	culture = sicilian
 }
-1000252561 = {
+1000098016 = {
 	name = "di Catanzharu"
 	culture = sicilian
 }
-1000252562 = {
-	name = "di C√†pua"
+1000098017 = {
+	name = "di C‡pua"
 	culture = sicilian
 }
-1000252563 = {
-	name = "di R√¨ggiu"
+1000098018 = {
+	name = "di RÏggiu"
 	culture = sicilian
 }
-1000252564 = {
+1000098019 = {
 	name = "di Lauria"
 	culture = sicilian
 }
-1000252565 = {
+1000098020 = {
 	name = "Tomasi"
 	culture = sicilian
 }
-1000252566 = {
-	name = "di N√†puli"
+1000098021 = {
+	name = "di N‡puli"
 	culture = sicilian
 }
-1000252567 = {
+1000098022 = {
 	name = "di Soranu"
 	culture = sicilian
 }
-1000252568 = {
+1000098023 = {
 	name = "Sinatra"
 	culture = sicilian
 }
-1000252569 = {
+1000098024 = {
 	name = "Zaccaria"
 	culture = sicilian
 }
-1000252570 = {
+1000098025 = {
 	name = "Scorsese"
 	culture = sicilian
 }
-1000252571 = {
+1000098026 = {
 	name = "Pescatoru"
 	culture = sicilian
 }
-1000252572 = {
+1000098027 = {
 	name = "di Conca"
 	culture = sicilian
 }
-1000252573 = {
+1000098028 = {
 	name = "Vitale"
 	culture = sicilian
 }
-1000252574 = {
+1000098029 = {
 	name = "Beccadelli"
 	culture = sicilian
 }
-1000252575 = {
+1000098030 = {
 	name = "di Castalnasetta"
 	culture = sicilian
 }
-1000252576 = {
+1000098031 = {
 	name = "di Savelli"
 	culture = sicilian
 }
-1000252577 = {
+1000098032 = {
 	name = "di Capua"
 	culture = sicilian
 }
-1000252578 = {
+1000098033 = {
 	name = "Greco"
 	culture = sicilian
 }
-1000252579 = {
+1000098034 = {
 	name = "Lanza"
 	culture = sicilian
 }
-1000252580 = {
+1000098035 = {
 	name = "di Surrentu"
 	culture = sicilian
 }
-1000252581 = {
+1000098036 = {
 	name = "Miossi"
 	culture = sicilian
 }
-1000252582 = {
+1000098037 = {
 	name = "Pepoli"
 	culture = sicilian
 }
-1000252583 = {
+1000098038 = {
 	name = "Zacco"
 	culture = sicilian
 }
-1000252584 = {
+1000098039 = {
 	name = "Sasso"
 	culture = sicilian
 }
-1000252585 = {
+1000098040 = {
 	name = "Silvio"
 	culture = sicilian
 }
-1000252586 = {
+1000098041 = {
 	name = "di Beneventu"
 	culture = sicilian
 }
-1000252587 = {
+1000098042 = {
 	name = "Catanese"
 	culture = sicilian
 }
-1000252588 = {
+1000098043 = {
 	name = "Lanza"
 	culture = sicilian
 }
-1000252589 = {
+1000098044 = {
 	name = "di Morra"
 	culture = sicilian
 }
-1000252590 = {
+1000098045 = {
 	name = "di Turinu"
 	culture = sicilian
 }
-1000252591 = {
+1000098046 = {
 	name = "di Pulizzi"
 	culture = sicilian
 }
-1000252592 = {
+1000098047 = {
 	name = "di Trinacria"
 	culture = sicilian
 }
-1000252593 = {
+1000098048 = {
 	name = "Sormella"
 	culture = sicilian
 }
-1000252594 = {
+1000098049 = {
 	name = "di Cartanisetta"
 	culture = sicilian
 }
-1000252595 = {
-	name = "di Tr√†pani"
+1000098050 = {
+	name = "di Tr‡pani"
 	culture = sicilian
 }
-1000252596 = {
+1000098051 = {
 	name = "Navigaiozi"
 	culture = sicilian
 }
-1000252597 = {
+1000098052 = {
 	name = "Grazzianu"
 	culture = sicilian
 }
-1000252598 = {
+1000098053 = {
 	name = "Ruffo"
 	culture = sicilian
 }
-1000252599 = {
+1000098054 = {
 	name = "di Cusenze"
 	culture = sicilian
 }
-1000252600 = {
+1000098055 = {
 	name = "di Castellu"
 	culture = sicilian
 }
-1000252601 = {
+1000098056 = {
 	name = "di Oria"
 	culture = sicilian
 }
-1000252602 = {
+1000098057 = {
 	name = "Agliata"
 	culture = sicilian
 }
-1000252603 = {
+1000098058 = {
 	name = "Sturzo"
 	culture = sicilian
 }
-1000252604 = {
+1000098059 = {
 	name = "di Bulogna"
 	culture = sicilian
 }
-1000252605 = {
-	name = "de M√†ntuva"
+1000098060 = {
+	name = "de M‡ntuva"
 	culture = sicilian
 }
-1000252606 = {
+1000098061 = {
 	name = "di Missina"
 	culture = sicilian
 }
-1000252607 = {
+1000098062 = {
 	name = "del Vasto"
 	culture = sicilian
 }
-1000252608 = {
+1000098063 = {
 	name = "Rossu"
 	culture = sicilian
 }
-1000252609 = {
+1000098064 = {
 	name = "di Pellegrino"
 	culture = sicilian
 }
-1000252610 = {
+1000098065 = {
 	name = "di Foggia"
 	culture = sicilian
 }
-1000252611 = {
+1000098066 = {
 	name = "Cipolla"
 	culture = sicilian
 }
-1000252612 = {
+1000098067 = {
 	name = "Palizzi"
 	culture = sicilian
 }
-1000252613 = {
+1000098068 = {
 	name = "di Chiaramonte"
 	culture = sicilian
 }
-1000252614 = {
+1000098069 = {
 	name = "Moncada"
 	culture = sicilian
 }
-1000252615 = {
+1000098070 = {
 	name = "di Pugghia"
 	culture = sicilian
 }
-1000252616 = {
+1000098071 = {
 	name = "di Muschianu"
 	culture = sicilian
 }
-1000252617 = {
+1000098072 = {
 	name = "di Callari"
 	culture = sicilian
 }
-1000252618 = {
+1000098073 = {
 	name = "di Vizzini"
 	culture = sicilian
 }
-1000252619 = {
+1000098074 = {
 	name = "Sciarria"
 	culture = sicilian
 }

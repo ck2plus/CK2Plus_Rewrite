@@ -1,296 +1,296 @@
-1000252238 = {
+1000064001 = {
 	name = "di Padoa"
 	culture = ligurian
 }
-1000252239 = {
-	name = "de NÃ¶i"
+1000064002 = {
+	name = "de Nöi"
 	culture = ligurian
 }
-1000252240 = {
+1000064003 = {
 	name = "Guercio"
 	culture = ligurian
 }
-1000252241 = {
+1000064004 = {
 	name = "Michele"
 	culture = ligurian
 }
-1000252242 = {
+1000064005 = {
 	name = "di Brignoli"
 	culture = ligurian
 }
-1000252243 = {
+1000064006 = {
 	name = "Silvio"
 	culture = ligurian
 }
-1000252244 = {
+1000064007 = {
 	name = "Cambiano"
 	culture = ligurian
 }
-1000252245 = {
+1000064008 = {
 	name = "d'Orto"
 	culture = ligurian
 }
-1000252246 = {
+1000064009 = {
 	name = "di Treviso"
 	culture = ligurian
 }
-1000252247 = {
+1000064010 = {
 	name = "del Vasto"
 	culture = ligurian
 }
-1000252248 = {
+1000064011 = {
 	name = "Valente"
 	culture = ligurian
 }
-1000252249 = {
+1000064012 = {
 	name = "Fimetta"
 	culture = ligurian
 }
-1000252250 = {
+1000064013 = {
 	name = "Ardoinici"
 	culture = ligurian
 }
-1000252251 = {
+1000064014 = {
 	name = "di Anconna"
 	culture = ligurian
 }
-1000252252 = {
+1000064015 = {
 	name = "Aleramo"
 	culture = ligurian
 }
-1000252253 = {
+1000064016 = {
 	name = "di Lucca"
 	culture = ligurian
 }
-1000252254 = {
+1000064017 = {
 	name = "della Rovere"
 	culture = ligurian
 }
-1000252255 = {
+1000064018 = {
 	name = "Cybo"
 	culture = ligurian
 }
-1000252256 = {
+1000064019 = {
 	name = "di Spiareti"
 	culture = ligurian
 }
-1000252257 = {
+1000064020 = {
 	name = "del Caretto"
 	culture = ligurian
 }
-1000252258 = {
+1000064021 = {
 	name = "di Ferara"
 	culture = ligurian
 }
-1000252259 = {
+1000064022 = {
 	name = "Zaccaria"
 	culture = ligurian
 }
-1000252260 = {
+1000064023 = {
 	name = "Boccanegra"
 	culture = ligurian
 }
-1000252261 = {
+1000064024 = {
 	name = "di Ponzone"
 	culture = ligurian
 }
-1000252262 = {
-	name = "di LivÃ³rno"
+1000064025 = {
+	name = "di Livórno"
 	culture = ligurian
 }
-1000252263 = {
+1000064026 = {
 	name = "di Castello"
 	culture = ligurian
 }
-1000252264 = {
+1000064027 = {
 	name = "d'Ivrea"
 	culture = ligurian
 }
-1000252265 = {
+1000064028 = {
 	name = "Grimaldi"
 	culture = ligurian
 }
-1000252266 = {
+1000064029 = {
 	name = "di Cosceria"
 	culture = ligurian
 }
-1000252267 = {
+1000064030 = {
 	name = "Campofregoso"
 	culture = ligurian
 }
-1000252268 = {
+1000064031 = {
 	name = "di Sarzana"
 	culture = ligurian
 }
-1000252269 = {
+1000064032 = {
 	name = "Parentucelli"
 	culture = ligurian
 }
-1000252270 = {
+1000064033 = {
 	name = "Obertenghi"
 	culture = ligurian
 }
-1000252271 = {
+1000064034 = {
 	name = "di Bologna"
 	culture = ligurian
 }
-1000252272 = {
+1000064035 = {
 	name = "Adorno"
 	culture = ligurian
 }
-1000252273 = {
+1000064036 = {
 	name = "di Ceva"
 	culture = ligurian
 }
-1000252274 = {
+1000064037 = {
 	name = "di Biandrate"
 	culture = ligurian
 }
-1000252275 = {
+1000064038 = {
 	name = "de Candia"
 	culture = ligurian
 }
-1000252276 = {
+1000064039 = {
 	name = "d'Auriate"
 	culture = ligurian
 }
-1000252277 = {
+1000064040 = {
 	name = "Gattilusio"
 	culture = ligurian
 }
-1000252278 = {
+1000064041 = {
 	name = "di Busca"
 	culture = ligurian
 }
-1000252279 = {
+1000064042 = {
 	name = "Beccaria"
 	culture = ligurian
 }
-1000252280 = {
+1000064043 = {
 	name = "Pescatore"
 	culture = ligurian
 }
-1000252281 = {
+1000064044 = {
 	name = "di Saluzzo"
 	culture = ligurian
 }
-1000252282 = {
+1000064045 = {
 	name = "Togliatti"
 	culture = ligurian
 }
-1000252283 = {
-	name = "di MÃ³dena"
+1000064046 = {
+	name = "di Módena"
 	culture = ligurian
 }
-1000252284 = {
+1000064047 = {
 	name = "Vitale"
 	culture = ligurian
 }
-1000252285 = {
+1000064048 = {
 	name = "Vetrano"
 	culture = ligurian
 }
-1000252286 = {
+1000064049 = {
 	name = "di Murta"
 	culture = ligurian
 }
-1000252287 = {
+1000064050 = {
 	name = "da Sabran"
 	culture = ligurian
 }
-1000252288 = {
+1000064051 = {
 	name = "Fieschi"
 	culture = ligurian
 }
-1000252289 = {
+1000064052 = {
 	name = "Guercio"
 	culture = ligurian
 }
-1000252290 = {
+1000064053 = {
 	name = "Rossi"
 	culture = ligurian
 }
-1000252291 = {
+1000064054 = {
 	name = "di Puggia"
 	culture = ligurian
 }
-1000252292 = {
+1000064055 = {
 	name = "Delfino"
 	culture = ligurian
 }
-1000252293 = {
+1000064056 = {
 	name = "di Zena"
 	culture = ligurian
 }
-1000252294 = {
+1000064057 = {
 	name = "Mauro"
 	culture = ligurian
 }
-1000252295 = {
+1000064058 = {
 	name = "Embriaco"
 	culture = ligurian
 }
-1000252296 = {
+1000064059 = {
 	name = "di Oria"
 	culture = ligurian
 }
-1000252297 = {
+1000064060 = {
 	name = "da Piemonte"
 	culture = ligurian
 }
-1000252298 = {
+1000064061 = {
 	name = "Sommariva"
 	culture = ligurian
 }
-1000252299 = {
+1000064062 = {
 	name = "Aleramicci"
 	culture = ligurian
 }
-1000252300 = {
+1000064063 = {
 	name = "di Seborca"
 	culture = ligurian
 }
-1000252301 = {
+1000064064 = {
 	name = "di Parma"
 	culture = ligurian
 }
-1000252302 = {
+1000064065 = {
 	name = "Zoagli"
 	culture = ligurian
 }
-1000252303 = {
+1000064066 = {
 	name = "Mele"
 	culture = ligurian
 }
-1000252304 = {
-	name = "di MilÃ n"
+1000064067 = {
+	name = "di Milàn"
 	culture = ligurian
 }
-1000252305 = {
+1000064068 = {
 	name = "di Nappoli"
 	culture = ligurian
 }
-1000252306 = {
+1000064069 = {
 	name = "Gaulo"
 	culture = ligurian
 }
-1000252307 = {
-	name = "di VintimÃ¬ggia"
+1000064070 = {
+	name = "di Vintimìggia"
 	culture = ligurian
 }
-1000252308 = {
+1000064071 = {
 	name = "Moncada"
 	culture = ligurian
 }
-1000252309 = {
+1000064072 = {
 	name = "Spinola"
 	culture = ligurian
 }
-1000252310 = {
+1000064073 = {
 	name = "di Venessia"
 	culture = ligurian
 }
-1000252311 = {
+1000064074 = {
 	name = "di Monferrato"
 	culture = ligurian
 }

@@ -1,40 +1,40 @@
-1000124054 = {
+1000099001 = {
 	name = "al-Furat"
 	culture = sicilian_arabic
 }
-1000124055 = {
+1000099002 = {
 	name = "Aghlabid"
 	culture = sicilian_arabic
 }
-1000124056 = {
+1000099003 = {
 	name = "al-Khalisa"
 	culture = sicilian_arabic
 }
-1000124057 = {
+1000099004 = {
 	name = "al-Kasr"
 	culture = sicilian_arabic
 }
-1000124058 = {
+1000099005 = {
 	name = "al-Athir"
 	culture = sicilian_arabic
 }
-1000124059 = {
+1000099006 = {
 	name = "al-Akhal"
 	culture = sicilian_arabic
 }
-1000124060 = {
+1000099007 = {
 	name = "Ja'far"
 	culture = sicilian_arabic
 }
-1000124061 = {
+1000099008 = {
 	name = "mn Normandie"
 	culture = sicilian_arabic
 }
-1000124062 = {
+1000099009 = {
 	name = "mn Rum"
 	culture = sicilian_arabic
 }
-1000252134 = {
-	name = "mn PujÃ®"
+1000099010 = {
+	name = "mn Pujî"
 	culture = sicilian_arabic
 }

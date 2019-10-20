@@ -1,44 +1,44 @@
-1000124110 = {
+1000042001 = {
 	name = "Conung"
 	culture = gallawa
 }
-1000124111 = {
+1000042002 = {
 	name = "Tryggvasson"
 	culture = gallawa
 }
-1000124112 = {
+1000042003 = {
 	name = "mac Gofraid"
 	culture = gallawa
 }
-1000124113 = {
+1000042004 = {
 	name = "mac Diarmata"
 	culture = gallawa
 }
-1000124114 = {
+1000042005 = {
 	name = "Sigtryggsson"
 	culture = gallawa
 }
-1000124115 = {
+1000042006 = {
 	name = "mac Ragniall"
 	culture = gallawa
 }
-1000124116 = {
+1000042007 = {
 	name = "mac Corcadail"
 	culture = gallawa
 }
-1000124117 = {
+1000042008 = {
 	name = "Sigurdsson"
 	culture = gallawa
 }
-1000124118 = {
+1000042009 = {
 	name = "mac Coitir"
 	culture = gallawa
 }
-1000124119 = {
-	name = "mac LeÃ²id"
+1000042010 = {
+	name = "mac Leòid"
 	culture = gallawa
 }
-1000124120 = {
+1000042011 = {
 	name = "Find"
 	culture = gallawa
 }

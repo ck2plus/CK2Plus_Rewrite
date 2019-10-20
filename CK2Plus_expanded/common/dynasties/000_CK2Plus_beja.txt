@@ -1,64 +1,64 @@
-1000124474 = {
+1000015001 = {
 	name = "Bisharin"
 	culture = beja
 }
-1000124475 = {
+1000015002 = {
 	name = "Hedareb"
 	culture = beja
 }
-1000124476 = {
+1000015003 = {
 	name = "Hadendowa"
 	culture = beja
 }
-1000124477 = {
+1000015004 = {
 	name = "Hadendoa"
 	culture = beja
 }
-1000124478 = {
+1000015005 = {
 	name = "Amarar"
 	culture = beja
 }
-1000124479 = {
+1000015006 = {
 	name = "Amar'ar"
 	culture = beja
 }
-1000124480 = {
+1000015007 = {
 	name = "Beni-Amer"
 	culture = beja
 }
-1000124481 = {
+1000015008 = {
 	name = "Hallenga"
 	culture = beja
 }
-1000124482 = {
+1000015009 = {
 	name = "Hamran"
 	culture = beja
 }
-1000124483 = {
+1000015010 = {
 	name = "Beni"
 	culture = beja
 }
-1000124484 = {
+1000015011 = {
 	name = "Amer"
 	culture = beja
 }
-1000124485 = {
+1000015012 = {
 	name = "Quata"
 	culture = beja
 }
-1000124486 = {
+1000015013 = {
 	name = "Baklin"
 	culture = beja
 }
-1000124487 = {
+1000015014 = {
 	name = "Naqi"
 	culture = beja
 }
-1000124488 = {
+1000015015 = {
 	name = "Jarin"
 	culture = beja
 }
-1000124489 = {
+1000015016 = {
 	name = "Beja"
 	culture = beja
 }
