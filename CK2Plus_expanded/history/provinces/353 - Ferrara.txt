@@ -15,10 +15,11 @@ b_commacchio = temple
 #b_voghiera = castle
 
 # Misc
-culture = italian
+culture = longobard
 religion = catholic
 
 # History
+756.1.1 = { culture = emilian }
 936.1.1 = {
 	capital = b_commacchio
 }

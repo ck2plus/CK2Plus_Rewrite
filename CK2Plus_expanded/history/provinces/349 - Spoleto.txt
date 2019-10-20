@@ -13,8 +13,8 @@ b_terni = temple
 #b_valva = castle
 
 # Misc
-culture = lombard
+culture = longobard
 religion = catholic
 
 # History
-849.1.1 = { culture = italian }
+849.1.1 = { culture = umbrian }
