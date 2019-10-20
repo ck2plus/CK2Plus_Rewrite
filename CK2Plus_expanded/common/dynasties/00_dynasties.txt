@@ -6855,6 +6855,17 @@
 	}
 }
 
+981 = {
+	name = "Santos"
+	culture = "portuguese"
+	religion = "catholic"
+	is_modified = yes
+	coat_of_arms = {
+		data = { 0 0 23 14 1 3 1 0 14 14 1 3 4 0 0 9 1 3 2 0 0 14 1 3 2	}
+		religion = "catholic"
+	}
+}
+
 1002 = {
 	name = "Banner"
 	culture = danish
@@ -49958,6 +49969,12 @@
 	name = "de Mortagne"
 	culture = frankish
 	religion = catholic
+}
+
+1062609 = {
+	name = "Theoderisian"
+	culture = "lombard"
+	religion = "catholic"
 }
 
 1062610 = {

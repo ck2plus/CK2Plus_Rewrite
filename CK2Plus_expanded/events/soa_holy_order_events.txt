@@ -8,7 +8,7 @@
 # ID SoA 1000-2999 is reserved
 #
 ###########################################
-# Written by Henrik Fåhraeus
+# Written by Henrik Fï¿½hraeus
 ###########################################
 
 namespace = SoA
@@ -21,11 +21,11 @@ namespace = SoA
 character_event = {
 	id = SoA.1000
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = catholic
@@ -44,20 +44,20 @@ character_event = {
 			prisoner = no
 			NOT = { trait = incapable }
 			ROOT = {
-				NOT = { 
-					current_heir = { 
-						character = PREVPREV 
+				NOT = {
+					current_heir = {
+						character = PREVPREV
 					}
 				}
 			}
 		}
 		has_dlc = "Sons of Abraham"
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	immediate = {
 		random_child = {
 			limit = {
@@ -67,9 +67,9 @@ character_event = {
 				prisoner = no
 				NOT = { trait = incapable }
 				ROOT = {
-					NOT = { 
-						current_heir = { 
-							character = PREVPREV 
+					NOT = {
+						current_heir = {
+							character = PREVPREV
 						}
 					}
 				}
@@ -84,9 +84,9 @@ character_event = {
 character_event = {
 	id = SoA.1001
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_templar = {
 			holder_scope = {
@@ -100,11 +100,11 @@ character_event = {
 
 character_event = {
 	id = SoA.1002
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -137,19 +137,19 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1003 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		set_character_flag = sent_son_to_knights_templar
-		
+
 		piety = 100
-		
+
 		d_knights_templar = {
 			holder_scope = {
 				FROMFROM = {
@@ -168,7 +168,7 @@ letter_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1003 # Pay them back
 		wealth = -300
@@ -179,7 +179,7 @@ letter_event = {
 			wealth = 300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_SOA_1003 # Refuse
 		piety = -1000
@@ -189,11 +189,11 @@ letter_event = {
 # Ping event when borrowing money from the Templars
 character_event = {
 	id = SoA.1010
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = -300
 		FROM = {
@@ -201,6 +201,7 @@ character_event = {
 				id = SoA.1011
 			}
 		}
+		abdicate_holy_order_if_religion_changes_effect = yes
 	}
 }
 
@@ -228,9 +229,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -239,11 +240,11 @@ letter_event = {
 # Ping event when vassalizing the Templars
 character_event = {
 	id = SoA.1015
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_defacto_liege = FROM
 		FROM = {
@@ -259,9 +260,9 @@ letter_event = {
 	id = SoA.1016
 	desc = EVTDESC_SOA_1016
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -270,13 +271,13 @@ letter_event = {
 # The Grand Master demands the right to build a castle in your demesne
 character_event = {
 	id = SoA.1020
-	
+
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = catholic
@@ -286,21 +287,21 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		has_character_modifier = borrowed_from_knights_templar
 		NOT = { has_character_flag = sent_son_to_knights_templar }
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		d_knights_templar = {
 			holder_scope = {
 				wealth = 300
 			}
 		}
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_knights_templar }
 		NOT = {
 			any_liege = {
@@ -308,11 +309,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -327,11 +328,11 @@ character_event = {
 
 province_event = {
 	id = SoA.1021
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_templar = {
 			holder_scope = {
@@ -345,11 +346,11 @@ province_event = {
 
 character_event = {
 	id = SoA.1022
-	
+
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -382,15 +383,15 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		hidden_tooltip = {
 			remove_character_modifier = borrowed_from_knights_templar
 			remove_character_modifier = expelled_d_knights_templar
@@ -398,10 +399,10 @@ letter_event = {
 				province_event = { id = SoA.1024 }
 			}
 		}
-		
+
 		piety = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1003 # Pay them back
 		wealth = -300
@@ -412,7 +413,7 @@ letter_event = {
 			wealth = 300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_SOA_1003 # Refuse
 		piety = -1000
@@ -425,15 +426,15 @@ province_event = {
 	desc = EVTDESC_SOA_1024
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -447,14 +448,14 @@ province_event = {
 character_event = {
 	id = SoA.1030
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -465,11 +466,11 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_knights_templar
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -478,7 +479,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -492,16 +493,16 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_knights_templar }
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_knights_templar
 			}
 		}
-		
+
 		NOT = {
 			any_spouse = {
 				OR = {
@@ -514,7 +515,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -588,7 +589,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -604,22 +605,22 @@ character_event = {
 	desc = EVTDESC_SOA_1031
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1032
@@ -627,17 +628,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1033
@@ -651,9 +652,9 @@ character_event = {
 character_event = {
 	id = SoA.1032
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_templar = {
 			holder_scope = {
@@ -670,9 +671,9 @@ character_event = {
 character_event = {
 	id = SoA.1033
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -685,11 +686,11 @@ character_event = {
 character_event = {
 	id = SoA.1050
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = catholic
@@ -699,7 +700,7 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		d_knights_templar = {
 			holder_scope = {
 				wealth = 300
@@ -711,7 +712,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			OR = {
@@ -723,9 +724,9 @@ character_event = {
 				region = world_europe_west
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_knights_templar }
 		NOT = {
 			any_liege = {
@@ -733,7 +734,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -761,7 +762,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -785,9 +786,9 @@ character_event = {
 province_event = {
 	id = SoA.1051
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_templar = {
 			holder_scope = {
@@ -802,9 +803,9 @@ province_event = {
 character_event = {
 	id = SoA.1052
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -837,9 +838,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -849,24 +850,24 @@ letter_event = {
 				has_character_modifier = expelled_d_knights_templar
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1054 }
 			}
 			remove_character_modifier = expelled_d_knights_templar
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -877,15 +878,15 @@ province_event = {
 	desc = EVTDESC_SOA_1054
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -900,9 +901,9 @@ province_event = {
 character_event = {
 	id = SoA.1060
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -918,20 +919,20 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-		
+
 		if = {
 			limit = {
 				is_liege_or_above = FROM
 			}
 			set_defacto_liege = THIS
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.1061
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -963,13 +964,13 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		remove_character_modifier = donated_to_holy_order
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -983,9 +984,9 @@ letter_event = {
 character_event = {
 	id = SoA.1115
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_defacto_liege = FROM
 		FROM = {
@@ -1001,9 +1002,9 @@ letter_event = {
 	id = SoA.1116
 	desc = EVTDESC_SOA_1116
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -1013,14 +1014,14 @@ letter_event = {
 character_event = {
 	id = SoA.1130
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -1031,11 +1032,11 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_knights_hospitaler
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -1044,7 +1045,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -1058,9 +1059,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_knights_hospitaler }
 		NOT = {
 			any_liege = {
@@ -1080,7 +1081,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -1154,7 +1155,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -1170,22 +1171,22 @@ character_event = {
 	desc = EVTDESC_SOA_1131
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1132
@@ -1193,17 +1194,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1133
@@ -1217,9 +1218,9 @@ character_event = {
 character_event = {
 	id = SoA.1132
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_hospitaler = {
 			holder_scope = {
@@ -1236,9 +1237,9 @@ character_event = {
 character_event = {
 	id = SoA.1133
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -1251,9 +1252,9 @@ character_event = {
 character_event = {
 	id = SoA.1140
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		if = {
@@ -1276,6 +1277,7 @@ character_event = {
 			who = FROM
 			modifier = opinion_generous_donation
 		}
+		abdicate_holy_order_if_religion_changes_effect = yes
 	}
 }
 
@@ -1303,9 +1305,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -1315,11 +1317,11 @@ letter_event = {
 character_event = {
 	id = SoA.1150
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = catholic
@@ -1329,7 +1331,7 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		d_knights_hospitaler = {
 			holder_scope = {
 				wealth = 300
@@ -1338,7 +1340,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			OR = {
@@ -1349,9 +1351,9 @@ character_event = {
 				region = world_africa_north
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_knights_hospitaler }
 		NOT = {
 			any_liege = {
@@ -1359,7 +1361,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -1395,7 +1397,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -1418,9 +1420,9 @@ character_event = {
 province_event = {
 	id = SoA.1151
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_hospitaler = {
 			holder_scope = {
@@ -1435,9 +1437,9 @@ province_event = {
 character_event = {
 	id = SoA.1152
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -1470,9 +1472,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -1482,24 +1484,24 @@ letter_event = {
 				has_character_modifier = expelled_d_knights_hospitaler
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1154 }
 			}
 			remove_character_modifier = expelled_d_knights_hospitaler
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -1510,15 +1512,15 @@ province_event = {
 	desc = EVTDESC_SOA_1154
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -1536,11 +1538,11 @@ province_event = {
 character_event = {
 	id = SoA.1200
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = muslim
-	
+
 	trigger = {
 		OR = {
 			religion = sunni
@@ -1557,20 +1559,20 @@ character_event = {
 			prisoner = no
 			NOT = { trait = incapable }
 			ROOT = {
-				NOT = { 
-					current_heir = { 
-						character = PREVPREV 
+				NOT = {
+					current_heir = {
+						character = PREVPREV
 					}
 				}
 			}
 		}
 		has_dlc = "Sons of Abraham"
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	immediate = {
 		random_child = {
 			limit = {
@@ -1580,9 +1582,9 @@ character_event = {
 				prisoner = no
 				NOT = { trait = incapable }
 				ROOT = {
-					NOT = { 
-						current_heir = { 
-							character = PREVPREV 
+					NOT = {
+						current_heir = {
+							character = PREVPREV
 						}
 					}
 				}
@@ -1597,9 +1599,9 @@ character_event = {
 character_event = {
 	id = SoA.1201
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_bektashi = {
 			holder_scope = {
@@ -1614,9 +1616,9 @@ character_event = {
 character_event = {
 	id = SoA.1202
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -1649,19 +1651,19 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1003 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		set_character_flag = sent_son_to_bektashi
-		
+
 		piety = 100
-		
+
 		d_bektashi = {
 			holder_scope = {
 				FROMFROM = {
@@ -1674,7 +1676,7 @@ letter_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1003 # Pay them back
 		wealth = -300
@@ -1685,7 +1687,7 @@ letter_event = {
 			wealth = 300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_SOA_1003 # Refuse
 		piety = -1000
@@ -1699,16 +1701,16 @@ narrative_event = {
 	title = EVTTITLE_SOA_1209
 	desc = EVTDESC_SOA_1209
 	picture = GFX_evt_moors
-	
+
 	major = yes
 	hide_from = yes
-	
+
 	only_playable = yes
 	only_men = yes
 	religion_group = muslim
 	has_global_flag = muslim_jihads_unlocked
 	has_dlc = "Sons of Abraham"
-	
+
 	trigger = {
 		OR = {
 			religion = sunni
@@ -1719,11 +1721,11 @@ narrative_event = {
 		NOT = {
 			is_title_active = d_bektashi
 		}
-		
-		
+
+
 		OR = {
 			year = 1228	# Historical
-			
+
 			693 = { # Baghdad
 				NOT = { owner = { religion_group = muslim } }
 			}
@@ -1744,18 +1746,19 @@ narrative_event = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_bektashi status = yes }
+		d_bektashi = { religion = ROOT }
 		create_character = {
 			random_traits = no
 			name = Bektash
 			dynasty = random
-			religion = ROOT
+			unsafe_religion = ROOT
 			culture = persian
 			female = no
 			age = 25
@@ -1781,7 +1784,6 @@ narrative_event = {
 			wealth = 500
 			d_bektashi = {
 				grant_title = PREV
-				religion = PREV
 			}
 			set_government_type = order_government
 			create_character = {
@@ -1858,7 +1860,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1209
 		trigger = {
@@ -1877,9 +1879,9 @@ narrative_event = {
 character_event = {
 	id = SoA.1210
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = -300
 		FROM = {
@@ -1914,9 +1916,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -1927,11 +1929,11 @@ letter_event = {
 character_event = {
 	id = SoA.1220
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = muslim
-	
+
 	trigger = {
 		OR = {
 			religion = sunni
@@ -1939,21 +1941,21 @@ character_event = {
 			religion = yazidi
 		}
 		is_heretic = no
-		
+
 		has_character_modifier = borrowed_from_bektashi
 		NOT = { has_character_flag = sent_son_to_bektashi }
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		d_bektashi = {
 			holder_scope = {
 				wealth = 300
 			}
 		}
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_bektashi }
 		NOT = {
 			any_liege = {
@@ -1961,11 +1963,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -1981,9 +1983,9 @@ character_event = {
 province_event = {
 	id = SoA.1221
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_bektashi = {
 			holder_scope = {
@@ -1998,9 +2000,9 @@ province_event = {
 character_event = {
 	id = SoA.1222
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -2014,25 +2016,25 @@ letter_event = {
 	id = SoA.1223
 	desc = EVTDESC_SOA_1223
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		hidden_tooltip = {
 			remove_character_modifier = borrowed_from_bektashi
 			FROMFROM = {
 				province_event = { id = SoA.1224 }
 			}
 		}
-		
+
 		piety = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1003 # Pay them back
 		wealth = -300
@@ -2043,7 +2045,7 @@ letter_event = {
 			wealth = 300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_SOA_1003 # Refuse
 		piety = -1000
@@ -2056,15 +2058,15 @@ province_event = {
 	desc = EVTDESC_SOA_1224
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -2078,14 +2080,14 @@ province_event = {
 character_event = {
 	id = SoA.1230
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = muslim
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -2094,11 +2096,11 @@ character_event = {
 			religion = yazidi
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_bektashi
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -2107,7 +2109,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -2125,9 +2127,9 @@ character_event = {
 				NOT = { has_landed_title = d_bektashi }
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_bektashi }
 		NOT = {
 			any_liege = {
@@ -2147,7 +2149,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -2211,7 +2213,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -2227,22 +2229,22 @@ character_event = {
 	desc = EVTDESC_SOA_1231
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1232
@@ -2250,17 +2252,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1233
@@ -2275,9 +2277,9 @@ character_event = {
 	id = SoA.1232
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_bektashi = {
 			holder_scope = {
@@ -2295,9 +2297,9 @@ character_event = {
 	id = SoA.1233
 
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -2311,11 +2313,11 @@ character_event = {
 character_event = {
 	id = SoA.1250
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = muslim
-	
+
 	trigger = {
 		is_heretic = no
 		OR = {
@@ -2335,14 +2337,14 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			port = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_bektashi }
 		NOT = {
 			any_liege = {
@@ -2350,7 +2352,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -2378,7 +2380,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -2395,9 +2397,9 @@ character_event = {
 province_event = {
 	id = SoA.1251
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_bektashi = {
 			holder_scope = {
@@ -2412,9 +2414,9 @@ province_event = {
 character_event = {
 	id = SoA.1252
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -2428,9 +2430,9 @@ letter_event = {
 	id = SoA.1253
 	desc = EVTDESC_SOA_1253
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -2440,24 +2442,24 @@ letter_event = {
 				has_character_modifier = expelled_d_bektashi
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1254 }
 			}
 			remove_character_modifier = expelled_d_bektashi
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -2468,15 +2470,15 @@ province_event = {
 	desc = EVTDESC_SOA_1224
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -2495,14 +2497,14 @@ province_event = {
 character_event = {
 	id = SoA.1330
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -2513,11 +2515,11 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_teutonic_order
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -2526,7 +2528,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -2540,9 +2542,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_teutonic_order }
 		NOT = {
 			any_liege = {
@@ -2562,7 +2564,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -2638,7 +2640,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -2654,22 +2656,22 @@ character_event = {
 	desc = EVTDESC_SOA_1331
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1332
@@ -2677,17 +2679,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1333
@@ -2701,9 +2703,9 @@ character_event = {
 character_event = {
 	id = SoA.1332
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_teutonic_order = {
 			holder_scope = {
@@ -2720,9 +2722,9 @@ character_event = {
 character_event = {
 	id = SoA.1333
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -2735,9 +2737,9 @@ character_event = {
 character_event = {
 	id = SoA.1340
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -2756,12 +2758,12 @@ character_event = {
 character_event = {
 	id = SoA.1350
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	is_triggered_only = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = catholic
@@ -2771,7 +2773,7 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		d_teutonic_order = {
 			holder_scope = {
 				wealth = 300
@@ -2780,7 +2782,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			OR = {
@@ -2788,9 +2790,9 @@ character_event = {
 				region = world_steppe
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_teutonic_order }
 		NOT = {
 			any_liege = {
@@ -2798,7 +2800,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -2818,9 +2820,9 @@ character_event = {
 province_event = {
 	id = SoA.1351
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_teutonic_order = {
 			holder_scope = {
@@ -2835,9 +2837,9 @@ province_event = {
 character_event = {
 	id = SoA.1352
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -2870,9 +2872,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -2886,24 +2888,24 @@ letter_event = {
 				NOT = { culture_group = central_germanic }
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1354 }
 			}
 			remove_character_modifier = expelled_d_teutonic_order
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
@@ -2919,15 +2921,15 @@ province_event = {
 	desc = EVTDESC_SOA_1354
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -2945,11 +2947,11 @@ province_event = {
 character_event = {
 	id = SoA.1400
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = muslim
-	
+
 	trigger = {
 		OR = {
 			religion = shiite
@@ -2966,15 +2968,15 @@ character_event = {
 			prisoner = no
 			NOT = { trait = incapable }
 			ROOT = {
-				NOT = { 
-					current_heir = { 
-						character = PREVPREV 
+				NOT = {
+					current_heir = {
+						character = PREVPREV
 					}
 				}
 			}
 		}
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_hashshashin }
 		NOT = {
 			any_liege = {
@@ -2982,11 +2984,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	immediate = {
 		random_child = {
 			limit = {
@@ -2996,9 +2998,9 @@ character_event = {
 				prisoner = no
 				NOT = { trait = incapable }
 				ROOT = {
-					NOT = { 
-						current_heir = { 
-							character = PREVPREV 
+					NOT = {
+						current_heir = {
+							character = PREVPREV
 						}
 					}
 				}
@@ -3013,9 +3015,9 @@ character_event = {
 character_event = {
 	id = SoA.1401
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_hashshashin = {
 			holder_scope = {
@@ -3030,9 +3032,9 @@ character_event = {
 character_event = {
 	id = SoA.1402
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -3065,16 +3067,16 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1403 # Agree
-		
+
 		set_character_flag = sent_son_to_assassins
-		
+
 		piety = 100
-		
+
 		d_hashshashin = {
 			holder_scope = {
 				FROMFROM = {
@@ -3091,7 +3093,7 @@ letter_event = {
 			factor = 10
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1003 # Pay them back
 		wealth = -300
@@ -3110,7 +3112,7 @@ letter_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_SOA_1003 # Refuse
 
@@ -3150,9 +3152,9 @@ letter_event = {
 character_event = {
 	id = SoA.1410
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = -300
 		FROM = {
@@ -3187,11 +3189,11 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
-	
+
 		name = EXCELLENT
 	}
 }
@@ -3200,11 +3202,11 @@ letter_event = {
 character_event = {
 	id = SoA.1420
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = muslim
-	
+
 	trigger = {
 		OR = {
 			religion = shiite
@@ -3212,21 +3214,21 @@ character_event = {
 			religion = hurufi
 		}
 		is_heretic = no
-		
+
 		has_character_modifier = borrowed_from_assassins
 		NOT = { has_character_flag = sent_son_to_assassins }
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		d_hashshashin = {
 			holder_scope = {
 				wealth = 300
 			}
 		}
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_hashshashin }
 		NOT = {
 			any_liege = {
@@ -3234,11 +3236,11 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -3254,9 +3256,9 @@ character_event = {
 province_event = {
 	id = SoA.1421
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_hashshashin = {
 			holder_scope = {
@@ -3271,9 +3273,9 @@ province_event = {
 character_event = {
 	id = SoA.1422
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -3287,26 +3289,26 @@ letter_event = {
 	id = SoA.1423
 	desc = EVTDESC_SOA_1223
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
-		
+
 		hidden_tooltip = {
 			remove_character_modifier = borrowed_from_assassins
 			FROMFROM = {
 				province_event = { id = SoA.1424 }
 			}
 		}
-		
+
 		piety = 100
 
 		ai_chance = {
 			factor = 10
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1003 # Pay them back
 		wealth = -300
@@ -3323,12 +3325,12 @@ letter_event = {
 				factor = 0
 				NOT = { wealth = 300 }
 			}
-		}	
+		}
 	}
-	
+
 	option = {
 		name = EVTOPTC_SOA_1003 # Refuse
-		
+
 		if = {
 			limit = { NOT = { has_dlc = "Mystics" } }
 			piety = -1000
@@ -3386,15 +3388,15 @@ province_event = {
     }
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -3408,14 +3410,14 @@ province_event = {
 character_event = {
 	id = SoA.1430
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = muslim
-	
+
 	trigger = {
 		OR = {
 			religion = shiite
@@ -3423,13 +3425,13 @@ character_event = {
 			religion = hurufi
 		}
 		is_heretic = no
-		
+
 		is_ruler = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_hashshashin
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -3438,7 +3440,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -3450,9 +3452,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_hashshashin }
 		NOT = {
 			any_liege = {
@@ -3472,7 +3474,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -3536,7 +3538,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -3552,22 +3554,22 @@ character_event = {
 	desc = EVTDESC_SOA_1431
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1432
@@ -3575,17 +3577,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1433
@@ -3599,9 +3601,9 @@ character_event = {
 character_event = {
 	id = SoA.1432
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_hashshashin = {
 			holder_scope = {
@@ -3618,9 +3620,9 @@ character_event = {
 character_event = {
 	id = SoA.1433
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -3633,11 +3635,11 @@ character_event = {
 character_event = {
 	id = SoA.1450
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = muslim
-	
+
 	trigger = {
 		OR = {
 			religion = shiite
@@ -3645,7 +3647,7 @@ character_event = {
 			religion = hurufi
 		}
 		is_heretic = no
-		
+
 		d_hashshashin = {
 			holder_scope = {
 				wealth = 300
@@ -3657,14 +3659,14 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			port = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_hashshashin }
 		NOT = {
 			any_liege = {
@@ -3672,7 +3674,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -3700,7 +3702,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -3717,9 +3719,9 @@ character_event = {
 province_event = {
 	id = SoA.1451
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_hashshashin = {
 			holder_scope = {
@@ -3734,9 +3736,9 @@ province_event = {
 character_event = {
 	id = SoA.1452
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -3750,9 +3752,9 @@ letter_event = {
 	id = SoA.1453
 	desc = EVTDESC_SOA_1253 # Reuse this
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -3762,24 +3764,24 @@ letter_event = {
 				has_character_modifier = expelled_d_hashshashin
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1454 }
 			}
 			remove_character_modifier = expelled_d_hashshashin
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -3790,15 +3792,15 @@ province_event = {
 	desc = EVTDESC_SOA_1454
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -3813,9 +3815,9 @@ province_event = {
 character_event = {
 	id = SoA.1460
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -3831,20 +3833,20 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-		
+
 		if = {
 			limit = {
 				is_liege_or_above = FROM
 			}
 			set_defacto_liege = THIS
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.1461
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -3876,13 +3878,13 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		remove_character_modifier = donated_to_holy_order
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -3897,25 +3899,25 @@ letter_event = {
 character_event = {
 	id = SoA.1530
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = pagan_group
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
 		}
-		
+
 		martial = 5
-		
+
 		is_title_active = d_jomsvikings
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -3924,7 +3926,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -3935,9 +3937,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_jomsvikings }
 		NOT = {
 			any_liege = {
@@ -3957,7 +3959,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -4021,7 +4023,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -4037,22 +4039,22 @@ character_event = {
 	desc = EVTDESC_SOA_1531
 	picture = GFX_evt_vikings_arriving_oldgods
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1532
@@ -4060,17 +4062,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1533
@@ -4084,9 +4086,9 @@ character_event = {
 character_event = {
 	id = SoA.1532
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_jomsvikings = {
 			holder_scope = {
@@ -4103,9 +4105,9 @@ character_event = {
 character_event = {
 	id = SoA.1533
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -4118,9 +4120,9 @@ character_event = {
 character_event = {
 	id = SoA.1540
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -4159,9 +4161,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -4171,17 +4173,17 @@ letter_event = {
 character_event = {
 	id = SoA.1550
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = pagan_group
-	
+
 	trigger = {
 		OR = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
 		}
-		
+
 		d_jomsvikings = {
 			holder_scope = {
 				wealth = 300
@@ -4190,14 +4192,14 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			port = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_jomsvikings }
 		NOT = {
 			any_liege = {
@@ -4205,7 +4207,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -4241,7 +4243,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -4258,9 +4260,9 @@ character_event = {
 province_event = {
 	id = SoA.1551
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_jomsvikings = {
 			holder_scope = {
@@ -4275,9 +4277,9 @@ province_event = {
 character_event = {
 	id = SoA.1552
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -4310,9 +4312,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -4328,24 +4330,24 @@ letter_event = {
 				}
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1554 }
 			}
 			remove_character_modifier = expelled_d_jomsvikings
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1553 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -4356,15 +4358,15 @@ province_event = {
 	desc = EVTDESC_SOA_1554
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -4378,9 +4380,9 @@ province_event = {
 character_event = {
 	id = SoA.1560
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -4396,20 +4398,20 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-		
+
 		if = {
 			limit = {
 				is_liege_or_above = FROM
 			}
 			set_defacto_liege = THIS
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.1561
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -4441,13 +4443,13 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		remove_character_modifier = donated_to_holy_order
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -4463,84 +4465,84 @@ narrative_event = {
 	title = EVTTITLE_SOA_1609
 	desc = EVTDESC_SOA_1609
 	major = yes
-	
+
 	picture = GFX_evt_western_knights_byzantine
 	hide_from = yes
 
 	is_triggered_only = yes
-	
+
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			AND = {
 				764 = { # Antioch is Orthodox
 					holder_scope = { religion = orthodox }
-					religion = orthodox 
+					religion = orthodox
 				}
 				774 = { # Jerusalem is Orthodox
 					holder_scope = { religion = orthodox }
-					religion = orthodox 
+					religion = orthodox
 				}
 				religion = orthodox
 			}
 			AND = {
 				764 = { # Antioch is bogomilist
 					holder_scope = { religion = bogomilist }
-					religion = bogomilist 
+					religion = bogomilist
 				}
 				774 = { # Jerusalem is bogomilist
 					holder_scope = { religion = bogomilist }
-					religion = bogomilist 
+					religion = bogomilist
 				}
 				religion = bogomilist
 			}
 			AND = {
 				764 = { # Antioch is monothelite
 					holder_scope = { religion = monothelite }
-					religion = monothelite 
+					religion = monothelite
 				}
 				774 = { # Jerusalem is monothelite
 					holder_scope = { religion = monothelite }
-					religion = monothelite 
+					religion = monothelite
 				}
 				religion = monothelite
 			}
 			AND = {
 				764 = { # Antioch is iconoclast
 					holder_scope = { religion = iconoclast }
-					religion = iconoclast 
+					religion = iconoclast
 				}
 				774 = { # Jerusalem is iconoclast
 					holder_scope = { religion = iconoclast }
-					religion = iconoclast 
+					religion = iconoclast
 				}
 				religion = iconoclast
 			}
 			AND = {
 				764 = { # Antioch is paulician
 					holder_scope = { religion = paulician }
-					religion = paulician 
+					religion = paulician
 				}
 				774 = { # Jerusalem is paulician
 					holder_scope = { religion = paulician }
-					religion = paulician 
+					religion = paulician
 				}
 				religion = paulician
 			}
 		}
 		is_heretic = no
-			
+
 		NOT = {
 			is_title_active = d_holy_sepulchre
 		}
 	}
-	
+
 	#mean_time_to_happen = {
 		#months = 36
 	#}
-	
+
 	immediate = {
 		activate_title = { title = d_holy_sepulchre status = yes }
 		create_character = {
@@ -4638,7 +4640,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1609
 		trigger = {
@@ -4657,14 +4659,14 @@ narrative_event = {
 character_event = {
 	id = SoA.1630
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -4675,11 +4677,11 @@ character_event = {
 			religion = paulician
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_holy_sepulchre
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -4688,7 +4690,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -4702,9 +4704,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_holy_sepulchre }
 		NOT = {
 			any_liege = {
@@ -4724,7 +4726,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -4788,7 +4790,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -4804,22 +4806,22 @@ character_event = {
 	desc = EVTDESC_SOA_1631
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1632
@@ -4827,17 +4829,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1633
@@ -4851,9 +4853,9 @@ character_event = {
 character_event = {
 	id = SoA.1632
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_holy_sepulchre = {
 			holder_scope = {
@@ -4870,9 +4872,9 @@ character_event = {
 character_event = {
 	id = SoA.1633
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -4885,9 +4887,9 @@ character_event = {
 character_event = {
 	id = SoA.1640
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -4926,9 +4928,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -4938,11 +4940,11 @@ letter_event = {
 character_event = {
 	id = SoA.1650
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = orthodox
@@ -4952,7 +4954,7 @@ character_event = {
 			religion = paulician
 		}
 		is_heretic = no
-		
+
 		d_holy_sepulchre = {
 			holder_scope = {
 				wealth = 300
@@ -4961,13 +4963,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_holy_sepulchre }
 		NOT = {
 			any_liege = {
@@ -4975,7 +4977,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -5011,7 +5013,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -5027,9 +5029,9 @@ character_event = {
 province_event = {
 	id = SoA.1651
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_holy_sepulchre = {
 			holder_scope = {
@@ -5044,9 +5046,9 @@ province_event = {
 character_event = {
 	id = SoA.1652
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -5079,9 +5081,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -5091,24 +5093,24 @@ letter_event = {
 				has_character_modifier = expelled_d_holy_sepulchre
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1654 }
 			}
 			remove_character_modifier = expelled_d_holy_sepulchre
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -5119,15 +5121,15 @@ province_event = {
 	desc = EVTDESC_SOA_1654
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -5141,9 +5143,9 @@ province_event = {
 character_event = {
 	id = SoA.1660
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -5159,13 +5161,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.1661
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -5197,9 +5199,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -5215,13 +5217,13 @@ narrative_event = {
 	title = EVTTITLE_SOA_1709
 	desc = EVTDESC_SOA_1709
 	major = yes
-	
+
 	picture = GFX_evt_western_knights_byzantine
 	hide_from = yes
-	
+
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		NOT = {
 			has_alternate_start_parameter = {
@@ -5233,45 +5235,45 @@ narrative_event = {
 			AND = {
 				875 = { # Aksum is Miaphysite-controlled
 					holder_scope = { religion = miaphysite }
-					religion = miaphysite 
+					religion = miaphysite
 				}
 				793 = { # Makuria is Miaphysite-controlled
 					holder_scope = { religion = miaphysite }
-					religion = miaphysite 
+					religion = miaphysite
 				}
 				802 = { # Alexandria is Miaphysite-controlled
 					holder_scope = { religion = miaphysite }
-					religion = miaphysite 
+					religion = miaphysite
 				}
 				religion = miaphysite
 			}
 			AND = {
 				875 = { # Aksum is monophysite-controlled
 					holder_scope = { religion = monophysite }
-					religion = monophysite 
+					religion = monophysite
 				}
 				793 = { # Makuria is monophysite-controlled
 					holder_scope = { religion = monophysite }
-					religion = monophysite 
+					religion = monophysite
 				}
 				802 = { # Alexandria is monophysite-controlled
 					holder_scope = { religion = monophysite }
-					religion = monophysite 
+					religion = monophysite
 				}
 				religion = monophysite
 			}
 		}
 		is_heretic = no
-		
+
 		NOT = {
 			is_title_active = d_saint_anthony
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_saint_anthony status = yes }
 		create_character = {
@@ -5369,7 +5371,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1709
 		trigger = {
@@ -5388,14 +5390,14 @@ narrative_event = {
 character_event = {
 	id = SoA.1730
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -5403,11 +5405,11 @@ character_event = {
 			religion = monophysite
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_saint_anthony
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -5416,7 +5418,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -5427,9 +5429,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_saint_anthony }
 		NOT = {
 			any_liege = {
@@ -5449,7 +5451,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -5513,7 +5515,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -5529,22 +5531,22 @@ character_event = {
 	desc = EVTDESC_SOA_1731
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1732
@@ -5552,17 +5554,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1733
@@ -5576,9 +5578,9 @@ character_event = {
 character_event = {
 	id = SoA.1732
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_saint_anthony = {
 			holder_scope = {
@@ -5595,9 +5597,9 @@ character_event = {
 character_event = {
 	id = SoA.1733
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -5610,9 +5612,9 @@ character_event = {
 character_event = {
 	id = SoA.1740
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -5651,9 +5653,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -5663,18 +5665,18 @@ letter_event = {
 character_event = {
 	id = SoA.1750
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = miaphysite
 			religion = monophysite
 		}
 		is_heretic = no
-		
+
 		d_saint_anthony = {
 			holder_scope = {
 				wealth = 300
@@ -5683,13 +5685,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_saint_anthony }
 		NOT = {
 			any_liege = {
@@ -5697,7 +5699,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -5733,7 +5735,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -5749,9 +5751,9 @@ character_event = {
 province_event = {
 	id = SoA.1751
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_saint_anthony = {
 			holder_scope = {
@@ -5766,9 +5768,9 @@ province_event = {
 character_event = {
 	id = SoA.1752
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -5801,9 +5803,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -5813,24 +5815,24 @@ letter_event = {
 				has_character_modifier = expelled_d_saint_anthony
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1754 }
 			}
 			remove_character_modifier = expelled_d_saint_anthony
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -5841,15 +5843,15 @@ province_event = {
 	desc = EVTDESC_SOA_1754
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -5863,9 +5865,9 @@ province_event = {
 character_event = {
 	id = SoA.1760
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -5881,13 +5883,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.1761
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -5919,9 +5921,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -5937,26 +5939,26 @@ narrative_event = {
 	title = EVTTITLE_SOA_1809
 	desc = EVTDESC_SOA_1809
 	major = yes
-	
+
 	picture = GFX_evt_melee
 	border = GFX_event_narrative_frame_religion
 	hide_from = yes
-	
+
 	only_playable = yes
 	religion_group = zoroastrian_group
 	has_global_flag = zoroastrian_priesthood_founded
-	
+
 	trigger = {
 		is_heretic = no
 		NOT = {
 			is_title_active = d_immortals
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_immortals status = yes }
 		create_character = {
@@ -6054,7 +6056,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1809
 		trigger = {
@@ -6073,22 +6075,22 @@ narrative_event = {
 character_event = {
 	id = SoA.1830
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = zoroastrian_group
-	
+
 	trigger = {
 		is_ruler = no
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_immortals
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -6097,7 +6099,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			religion_group = zoroastrian_group
@@ -6105,9 +6107,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_immortals }
 		NOT = {
 			any_liege = {
@@ -6127,7 +6129,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -6191,7 +6193,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -6207,22 +6209,22 @@ character_event = {
 	desc = EVTDESC_SOA_1831
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1832
@@ -6230,17 +6232,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1833
@@ -6254,9 +6256,9 @@ character_event = {
 character_event = {
 	id = SoA.1832
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_immortals = {
 			holder_scope = {
@@ -6273,9 +6275,9 @@ character_event = {
 character_event = {
 	id = SoA.1833
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -6288,9 +6290,9 @@ character_event = {
 character_event = {
 	id = SoA.1840
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -6329,9 +6331,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -6341,14 +6343,14 @@ letter_event = {
 character_event = {
 	id = SoA.1850
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = zoroastrian_group
-	
+
 	trigger = {
 		is_heretic = no
-		
+
 		d_immortals = {
 			holder_scope = {
 				wealth = 300
@@ -6357,13 +6359,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_immortals }
 		NOT = {
 			any_liege = {
@@ -6371,7 +6373,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -6407,7 +6409,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -6423,9 +6425,9 @@ character_event = {
 province_event = {
 	id = SoA.1851
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_immortals = {
 			holder_scope = {
@@ -6440,9 +6442,9 @@ province_event = {
 character_event = {
 	id = SoA.1852
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -6475,9 +6477,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -6487,24 +6489,24 @@ letter_event = {
 				has_character_modifier = expelled_d_immortals
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1854 }
 			}
 			remove_character_modifier = expelled_d_immortals
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -6515,15 +6517,15 @@ province_event = {
 	desc = EVTDESC_SOA_1854
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -6537,9 +6539,9 @@ province_event = {
 character_event = {
 	id = SoA.1860
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -6555,13 +6557,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.1861
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -6593,9 +6595,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -6611,25 +6613,25 @@ narrative_event = {
 	title = EVTTITLE_SOA_1909
 	desc = EVTDESC_SOA_1909
 	major = yes
-	
+
 	picture = GFX_evt_melee
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion_group = jewish_group
 	has_global_flag = jewish_priesthood_founded
-	
+
 	trigger = {
 		is_heretic = no
 		NOT = {
 			is_title_active = d_zealots
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_zealots status = yes }
 		create_character = {
@@ -6727,7 +6729,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1909
 		trigger = {
@@ -6746,22 +6748,22 @@ narrative_event = {
 character_event = {
 	id = SoA.1930
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = jewish_group
-	
+
 	trigger = {
 		is_ruler = no
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_zealots
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -6770,7 +6772,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			religion_group = jewish_group
@@ -6778,9 +6780,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_zealots }
 		NOT = {
 			any_liege = {
@@ -6800,7 +6802,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -6864,7 +6866,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -6880,22 +6882,22 @@ character_event = {
 	desc = EVTDESC_SOA_1931
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1932
@@ -6903,17 +6905,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.1933
@@ -6927,9 +6929,9 @@ character_event = {
 character_event = {
 	id = SoA.1932
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_zealots = {
 			holder_scope = {
@@ -6946,9 +6948,9 @@ character_event = {
 character_event = {
 	id = SoA.1933
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -6961,9 +6963,9 @@ character_event = {
 character_event = {
 	id = SoA.1940
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -7002,9 +7004,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -7014,14 +7016,14 @@ letter_event = {
 character_event = {
 	id = SoA.1950
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = jewish_group
-	
+
 	trigger = {
 		is_heretic = no
-		
+
 		d_zealots = {
 			holder_scope = {
 				wealth = 300
@@ -7030,13 +7032,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_zealots }
 		NOT = {
 			any_liege = {
@@ -7044,7 +7046,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -7080,7 +7082,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -7096,9 +7098,9 @@ character_event = {
 province_event = {
 	id = SoA.1951
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_zealots = {
 			holder_scope = {
@@ -7113,9 +7115,9 @@ province_event = {
 character_event = {
 	id = SoA.1952
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -7148,9 +7150,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -7160,24 +7162,24 @@ letter_event = {
 				has_character_modifier = expelled_d_zealots
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.1954 }
 			}
 			remove_character_modifier = expelled_d_zealots
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -7188,15 +7190,15 @@ province_event = {
 	desc = EVTDESC_SOA_1954
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -7210,9 +7212,9 @@ province_event = {
 character_event = {
 	id = SoA.1960
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -7228,13 +7230,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.1961
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -7266,9 +7268,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -7303,14 +7305,14 @@ narrative_event = {
         }
     }
 	major = yes
-	
+
 	picture = GFX_evt_mongols_pillage_oldgods
 	hide_from = yes
-	
+
 	only_playable = yes
 	religion = catholic
 	has_global_flag = tengri_reformation
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		NOT = {
@@ -7318,17 +7320,17 @@ narrative_event = {
 		}
 		controls_religion = yes # Let it happen for the Pope - he's always around
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_sky_lords status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = tengri_pagan_reformed
+			unsafe_religion = tengri_pagan_reformed
 			culture = cuman
 			female = no
 			age = 28
@@ -7419,7 +7421,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2009
 		trigger = {
@@ -7438,21 +7440,21 @@ narrative_event = {
 character_event = {
 	id = SoA.2030
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion = tengri_pagan_reformed
-	
+
 	trigger = {
 		is_ruler = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_sky_lords
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -7461,7 +7463,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			religion = tengri_pagan_reformed
@@ -7469,9 +7471,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_sky_lords }
 		NOT = {
 			any_liege = {
@@ -7491,7 +7493,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -7555,7 +7557,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -7571,22 +7573,22 @@ character_event = {
 	desc = EVTDESC_SOA_2031
 	picture = GFX_evt_throne_room_altaic
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2032
@@ -7594,17 +7596,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2033
@@ -7618,9 +7620,9 @@ character_event = {
 character_event = {
 	id = SoA.2032
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_sky_lords = {
 			holder_scope = {
@@ -7637,9 +7639,9 @@ character_event = {
 character_event = {
 	id = SoA.2033
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -7652,9 +7654,9 @@ character_event = {
 character_event = {
 	id = SoA.2040
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -7693,9 +7695,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -7705,11 +7707,11 @@ letter_event = {
 character_event = {
 	id = SoA.2050
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion = tengri_pagan_reformed
-	
+
 	trigger = {
 		d_sky_lords = {
 			holder_scope = {
@@ -7719,13 +7721,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_sky_lords }
 		NOT = {
 			any_liege = {
@@ -7733,7 +7735,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -7769,7 +7771,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -7785,9 +7787,9 @@ character_event = {
 province_event = {
 	id = SoA.2051
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_sky_lords = {
 			holder_scope = {
@@ -7802,9 +7804,9 @@ province_event = {
 character_event = {
 	id = SoA.2052
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -7837,9 +7839,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -7849,24 +7851,24 @@ letter_event = {
 				has_character_modifier = expelled_d_sky_lords
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2054 }
 			}
 			remove_character_modifier = expelled_d_sky_lords
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -7877,15 +7879,15 @@ province_event = {
 	desc = EVTDESC_SOA_2054
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -7899,9 +7901,9 @@ province_event = {
 character_event = {
 	id = SoA.2060
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -7917,13 +7919,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2061
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -7955,9 +7957,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -7992,32 +7994,32 @@ narrative_event = {
         }
     }
 	major = yes
-	
+
 	picture = GFX_evt_melee
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion = catholic
 	has_dlc = "Sons of Abraham"
 	has_global_flag = west_african_reformation
-	
+
 	trigger = {
 		NOT = {
 			is_title_active = d_spirit_guardians
 		}
 		controls_religion = yes # Let it happen for the Pope - he's always around
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_spirit_guardians status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = west_african_pagan_reformed
+			unsafe_religion = west_african_pagan_reformed
 			culture = manden
 			female = no
 			age = 32
@@ -8108,7 +8110,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2109
 		trigger = {
@@ -8127,21 +8129,21 @@ narrative_event = {
 character_event = {
 	id = SoA.2130
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion = west_african_pagan_reformed
-	
+
 	trigger = {
 		is_ruler = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_spirit_guardians
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -8150,7 +8152,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			religion = west_african_pagan_reformed
@@ -8158,9 +8160,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_spirit_guardians }
 		NOT = {
 			any_liege = {
@@ -8180,7 +8182,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -8244,7 +8246,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -8260,22 +8262,22 @@ character_event = {
 	desc = EVTDESC_SOA_2131
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2132
@@ -8283,17 +8285,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2133
@@ -8307,9 +8309,9 @@ character_event = {
 character_event = {
 	id = SoA.2132
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_spirit_guardians = {
 			holder_scope = {
@@ -8326,9 +8328,9 @@ character_event = {
 character_event = {
 	id = SoA.2133
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -8341,9 +8343,9 @@ character_event = {
 character_event = {
 	id = SoA.2140
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -8382,9 +8384,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -8394,10 +8396,10 @@ letter_event = {
 character_event = {
 	id = SoA.2150
 	hide_window = yes
-	
+
 	only_playable = yes
 	religion = west_african_pagan_reformed
-	
+
 	trigger = {
 		d_spirit_guardians = {
 			holder_scope = {
@@ -8407,13 +8409,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_spirit_guardians }
 		NOT = {
 			any_liege = {
@@ -8421,7 +8423,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -8457,7 +8459,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -8473,9 +8475,9 @@ character_event = {
 province_event = {
 	id = SoA.2151
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_spirit_guardians = {
 			holder_scope = {
@@ -8490,9 +8492,9 @@ province_event = {
 character_event = {
 	id = SoA.2152
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -8525,9 +8527,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -8537,24 +8539,24 @@ letter_event = {
 				has_character_modifier = expelled_d_spirit_guardians
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2154 }
 			}
 			remove_character_modifier = expelled_d_spirit_guardians
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -8565,15 +8567,15 @@ province_event = {
 	desc = EVTDESC_SOA_2154
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -8587,9 +8589,9 @@ province_event = {
 character_event = {
 	id = SoA.2160
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -8605,13 +8607,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2161
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -8643,9 +8645,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -8680,32 +8682,32 @@ narrative_event = {
         }
     }
 	major = yes
-	
+
 	picture = GFX_evt_throne_room_norse_pagan
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion = catholic
 	has_dlc = "Sons of Abraham"
 	has_global_flag = slavic_reformation
-	
+
 	trigger = {
 		NOT = {
 			is_title_active = d_warriors_perun
 		}
 		controls_religion = yes # Let it happen for the Pope - he's always around
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_warriors_perun status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = slavic_pagan_reformed
+			unsafe_religion = slavic_pagan_reformed
 			culture = russian
 			female = no
 			age = 35
@@ -8796,7 +8798,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2209
 		trigger = {
@@ -8815,21 +8817,21 @@ narrative_event = {
 character_event = {
 	id = SoA.2230
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion = slavic_pagan_reformed
-	
+
 	trigger = {
 		is_ruler = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_warriors_perun
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -8838,7 +8840,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			religion = slavic_pagan_reformed
@@ -8846,9 +8848,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_warriors_perun }
 		NOT = {
 			any_liege = {
@@ -8868,7 +8870,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -8932,7 +8934,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -8948,22 +8950,22 @@ character_event = {
 	desc = EVTDESC_SOA_2231
 	picture = GFX_evt_throne_room_norse_pagan
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2232
@@ -8971,17 +8973,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2233
@@ -8995,9 +8997,9 @@ character_event = {
 character_event = {
 	id = SoA.2232
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_warriors_perun = {
 			holder_scope = {
@@ -9014,9 +9016,9 @@ character_event = {
 character_event = {
 	id = SoA.2233
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -9029,9 +9031,9 @@ character_event = {
 character_event = {
 	id = SoA.2240
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -9070,9 +9072,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -9082,11 +9084,11 @@ letter_event = {
 character_event = {
 	id = SoA.2250
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion = slavic_pagan_reformed
-	
+
 	trigger = {
 		d_warriors_perun = {
 			holder_scope = {
@@ -9096,13 +9098,13 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_warriors_perun }
 		NOT = {
 			any_liege = {
@@ -9110,7 +9112,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -9146,7 +9148,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -9162,9 +9164,9 @@ character_event = {
 province_event = {
 	id = SoA.2251
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_warriors_perun = {
 			holder_scope = {
@@ -9179,9 +9181,9 @@ province_event = {
 character_event = {
 	id = SoA.2252
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -9214,9 +9216,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -9226,24 +9228,24 @@ letter_event = {
 				has_character_modifier = expelled_d_warriors_perun
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2254 }
 			}
 			remove_character_modifier = expelled_d_warriors_perun
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -9254,15 +9256,15 @@ province_event = {
 	desc = EVTDESC_SOA_2254
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -9276,9 +9278,9 @@ province_event = {
 character_event = {
 	id = SoA.2260
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -9294,13 +9296,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2261
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -9332,9 +9334,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -9369,32 +9371,32 @@ narrative_event = {
         }
     }
 	major = yes
-	
+
 	picture = GFX_evt_throne_room_norse_pagan
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion = catholic
 	has_dlc = "Sons of Abraham"
 	has_global_flag = baltic_reformation
-	
+
 	trigger = {
 		NOT = {
 			is_title_active = d_chosen_perkunas
 		}
 		controls_religion = yes # Let it happen for the Pope - he's always around
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_chosen_perkunas status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = baltic_pagan_reformed
+			unsafe_religion = baltic_pagan_reformed
 			culture = lettigallish
 			female = no
 			age = 26
@@ -9485,7 +9487,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2309
 		trigger = {
@@ -9504,21 +9506,21 @@ narrative_event = {
 character_event = {
 	id = SoA.2330
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion = baltic_pagan_reformed
-	
+
 	trigger = {
 		is_ruler = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_chosen_perkunas
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -9527,7 +9529,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			religion = baltic_pagan_reformed
@@ -9535,9 +9537,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_chosen_perkunas }
 		NOT = {
 			any_liege = {
@@ -9557,7 +9559,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -9621,7 +9623,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -9637,22 +9639,22 @@ character_event = {
 	desc = EVTDESC_SOA_2331
 	picture = GFX_evt_throne_room_norse_pagan
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2332
@@ -9660,17 +9662,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2333
@@ -9684,9 +9686,9 @@ character_event = {
 character_event = {
 	id = SoA.2332
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_chosen_perkunas = {
 			holder_scope = {
@@ -9703,9 +9705,9 @@ character_event = {
 character_event = {
 	id = SoA.2333
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -9718,9 +9720,9 @@ character_event = {
 character_event = {
 	id = SoA.2340
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -9759,9 +9761,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -9771,11 +9773,11 @@ letter_event = {
 character_event = {
 	id = SoA.2350
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion = baltic_pagan_reformed
-	
+
 	trigger = {
 		d_chosen_perkunas = {
 			holder_scope = {
@@ -9785,11 +9787,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
 		NOT = { has_character_modifier = expelled_d_chosen_perkunas }
 		NOT = {
@@ -9798,7 +9800,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -9834,7 +9836,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -9850,9 +9852,9 @@ character_event = {
 province_event = {
 	id = SoA.2351
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_chosen_perkunas = {
 			holder_scope = {
@@ -9867,9 +9869,9 @@ province_event = {
 character_event = {
 	id = SoA.2352
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -9902,9 +9904,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -9914,24 +9916,24 @@ letter_event = {
 				has_character_modifier = expelled_d_chosen_perkunas
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2354 }
 			}
 			remove_character_modifier = expelled_d_chosen_perkunas
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -9942,15 +9944,15 @@ province_event = {
 	desc = EVTDESC_SOA_2354
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -9964,9 +9966,9 @@ province_event = {
 character_event = {
 	id = SoA.2360
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -9982,13 +9984,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2361
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -10020,9 +10022,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -10057,32 +10059,32 @@ narrative_event = {
         }
     }
 	major = yes
-	
+
 	picture = GFX_evt_throne_room_norse_pagan
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion = catholic
 	has_dlc = "Sons of Abraham"
 	has_global_flag = finnish_reformation
-	
+
 	trigger = {
 		NOT = {
 			is_title_active = d_sons_kaleva
 		}
 		controls_religion = yes # Let it happen for the Pope - he's always around
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_sons_kaleva status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = finnish_pagan_reformed
+			unsafe_religion = finnish_pagan_reformed
 			culture = finnish
 			female = no
 			age = 31
@@ -10173,7 +10175,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2409
 		trigger = {
@@ -10192,21 +10194,21 @@ narrative_event = {
 character_event = {
 	id = SoA.2430
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion = finnish_pagan_reformed
-	
+
 	trigger = {
 		is_ruler = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_sons_kaleva
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -10215,7 +10217,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			religion = finnish_pagan_reformed
@@ -10223,7 +10225,7 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
 		NOT = { has_character_modifier = expelled_d_sons_kaleva }
 		NOT = {
@@ -10244,7 +10246,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -10308,7 +10310,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -10324,22 +10326,22 @@ character_event = {
 	desc = EVTDESC_SOA_2431
 	picture = GFX_evt_throne_room_norse_pagan
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2432
@@ -10347,17 +10349,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2433
@@ -10371,9 +10373,9 @@ character_event = {
 character_event = {
 	id = SoA.2432
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_sons_kaleva = {
 			holder_scope = {
@@ -10390,9 +10392,9 @@ character_event = {
 character_event = {
 	id = SoA.2433
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -10405,9 +10407,9 @@ character_event = {
 character_event = {
 	id = SoA.2440
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -10446,9 +10448,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -10458,11 +10460,11 @@ letter_event = {
 character_event = {
 	id = SoA.2450
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion = finnish_pagan_reformed
-	
+
 	trigger = {
 		d_sons_kaleva = {
 			holder_scope = {
@@ -10472,11 +10474,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
 		NOT = { has_character_modifier = expelled_d_sons_kaleva }
 		NOT = {
@@ -10485,7 +10487,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -10521,7 +10523,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -10537,9 +10539,9 @@ character_event = {
 province_event = {
 	id = SoA.2451
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_sons_kaleva = {
 			holder_scope = {
@@ -10554,9 +10556,9 @@ province_event = {
 character_event = {
 	id = SoA.2452
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -10589,9 +10591,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -10601,24 +10603,24 @@ letter_event = {
 				has_character_modifier = expelled_d_sons_kaleva
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2454 }
 			}
 			remove_character_modifier = expelled_d_sons_kaleva
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -10629,15 +10631,15 @@ province_event = {
 	desc = EVTDESC_SOA_2454
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -10651,9 +10653,9 @@ province_event = {
 character_event = {
 	id = SoA.2460
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -10669,13 +10671,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2461
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -10707,9 +10709,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -10744,32 +10746,32 @@ narrative_event = {
         }
     }
 	major = yes
-	
+
 	picture = GFX_evt_bishop_aztec
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion = catholic
 	has_dlc = "Sons of Abraham"
 	has_global_flag = aztec_reformation
-	
+
 	trigger = {
 		NOT = {
 			is_title_active = d_huitzilopochtli
 		}
 		controls_religion = yes # Let it happen for the Pope - he's always around
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_huitzilopochtli status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = aztec_reformed
+			unsafe_religion = aztec_reformed
 			culture = nahuatl
 			female = no
 			age = 37
@@ -10860,7 +10862,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2509
 		trigger = {
@@ -10879,21 +10881,21 @@ narrative_event = {
 character_event = {
 	id = SoA.2530
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion = aztec_reformed
-	
+
 	trigger = {
 		is_ruler = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_huitzilopochtli
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -10902,7 +10904,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			religion = aztec_reformed
@@ -10910,7 +10912,7 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
 		NOT = { has_character_modifier = expelled_d_huitzilopochtli }
 		NOT = {
@@ -10931,7 +10933,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -10995,7 +10997,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -11011,22 +11013,22 @@ character_event = {
 	desc = EVTDESC_SOA_2531
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2532
@@ -11034,17 +11036,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2533
@@ -11058,9 +11060,9 @@ character_event = {
 character_event = {
 	id = SoA.2532
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_huitzilopochtli = {
 			holder_scope = {
@@ -11077,9 +11079,9 @@ character_event = {
 character_event = {
 	id = SoA.2533
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -11092,9 +11094,9 @@ character_event = {
 character_event = {
 	id = SoA.2540
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -11133,9 +11135,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -11145,11 +11147,11 @@ letter_event = {
 character_event = {
 	id = SoA.2550
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion = aztec_reformed
-	
+
 	trigger = {
 		d_huitzilopochtli = {
 			holder_scope = {
@@ -11159,11 +11161,11 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 		}
-		
+
 		has_dlc = "Sons of Abraham"
 		NOT = { has_character_modifier = expelled_d_huitzilopochtli }
 		NOT = {
@@ -11172,7 +11174,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -11208,7 +11210,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -11224,9 +11226,9 @@ character_event = {
 province_event = {
 	id = SoA.2551
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_huitzilopochtli = {
 			holder_scope = {
@@ -11241,9 +11243,9 @@ province_event = {
 character_event = {
 	id = SoA.2552
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -11276,9 +11278,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -11288,24 +11290,24 @@ letter_event = {
 				has_character_modifier = expelled_d_huitzilopochtli
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2554 }
 			}
 			remove_character_modifier = expelled_d_huitzilopochtli
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -11316,15 +11318,15 @@ province_event = {
 	desc = EVTDESC_SOA_2554
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -11338,9 +11340,9 @@ province_event = {
 character_event = {
 	id = SoA.2560
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -11356,13 +11358,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2561
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -11394,9 +11396,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -11412,14 +11414,14 @@ narrative_event = {
 	title = EVTTITLE_SOA_2609
 	desc = EVTDESC_SOA_2609
 	major = yes
-	
+
 	picture = GFX_evt_knight_kneeling
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion_group = christian
 	has_global_flag = christian_crusades_unlocked
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
@@ -11430,10 +11432,10 @@ narrative_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		NOT = { is_title_active = d_knights_santiago }
-		
-		
+
+
 		OR = {
 			year = 1175	# Historical
 			221 = { # Provence
@@ -11459,17 +11461,17 @@ narrative_event = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_knights_santiago status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = ROOT
+			unsafe_religion = ROOT
 			culture = castillan
 			female = no
 			age = 31
@@ -11561,7 +11563,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2609
 		trigger = {
@@ -11580,14 +11582,14 @@ narrative_event = {
 character_event = {
 	id = SoA.2630
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -11598,11 +11600,11 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_knights_santiago
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -11611,7 +11613,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -11625,9 +11627,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_knights_santiago }
 		NOT = {
 			any_liege = {
@@ -11647,7 +11649,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -11718,7 +11720,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -11734,22 +11736,22 @@ character_event = {
 	desc = EVTDESC_SOA_2631
 	picture = GFX_evt_knight_kneeling
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2632
@@ -11757,17 +11759,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2633
@@ -11781,9 +11783,9 @@ character_event = {
 character_event = {
 	id = SoA.2632
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_santiago = {
 			holder_scope = {
@@ -11800,9 +11802,9 @@ character_event = {
 character_event = {
 	id = SoA.2633
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -11815,9 +11817,9 @@ character_event = {
 character_event = {
 	id = SoA.2640
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -11856,9 +11858,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -11868,11 +11870,11 @@ letter_event = {
 character_event = {
 	id = SoA.2650
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = catholic
@@ -11882,7 +11884,7 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		d_knights_santiago = {
 			holder_scope = {
 				wealth = 300
@@ -11891,12 +11893,12 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			region = world_europe_west_iberia
 		}
-		
+
 		has_dlc = "Sons of Abraham"
 		NOT = { has_character_modifier = expelled_d_knights_santiago }
 		NOT = {
@@ -11905,7 +11907,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -11941,7 +11943,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -11957,9 +11959,9 @@ character_event = {
 province_event = {
 	id = SoA.2651
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_santiago = {
 			holder_scope = {
@@ -11974,9 +11976,9 @@ province_event = {
 character_event = {
 	id = SoA.2652
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -12009,9 +12011,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -12021,24 +12023,24 @@ letter_event = {
 				has_character_modifier = expelled_d_knights_santiago
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2654 }
 			}
 			remove_character_modifier = expelled_d_knights_santiago
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -12049,15 +12051,15 @@ province_event = {
 	desc = EVTDESC_SOA_2654
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -12071,9 +12073,9 @@ province_event = {
 character_event = {
 	id = SoA.2660
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -12089,13 +12091,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2661
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -12127,9 +12129,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -12145,14 +12147,14 @@ narrative_event = {
 	title = EVTTITLE_SOA_2709
 	desc = EVTDESC_SOA_2709
 	major = yes
-	
+
 	picture = GFX_evt_knight_kneeling
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion_group = christian
 	has_global_flag = christian_crusades_unlocked
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
@@ -12163,10 +12165,10 @@ narrative_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		NOT = { is_title_active = d_knights_calatrava }
-		
-		
+
+
 		OR = {
 			year = 1164	# Historical
 			221 = { # Provence
@@ -12192,17 +12194,17 @@ narrative_event = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_knights_calatrava status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = ROOT
+			unsafe_religion = ROOT
 			culture = castillan
 			female = no
 			age = 31
@@ -12294,7 +12296,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2709
 		trigger = {
@@ -12313,14 +12315,14 @@ narrative_event = {
 character_event = {
 	id = SoA.2730
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -12331,11 +12333,11 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_knights_calatrava
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -12344,7 +12346,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -12358,9 +12360,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_knights_calatrava }
 		NOT = {
 			any_liege = {
@@ -12380,7 +12382,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -12451,7 +12453,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -12467,22 +12469,22 @@ character_event = {
 	desc = EVTDESC_SOA_2731
 	picture = GFX_evt_knight_kneeling
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2732
@@ -12490,17 +12492,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2733
@@ -12514,11 +12516,11 @@ character_event = {
 character_event = {
 	id = SoA.2732
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
-		
+
 		d_knights_calatrava = {
 			holder_scope = {
 				save_event_target_as = order_target
@@ -12534,9 +12536,9 @@ character_event = {
 character_event = {
 	id = SoA.2733
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -12549,9 +12551,9 @@ character_event = {
 character_event = {
 	id = SoA.2740
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -12590,9 +12592,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -12602,11 +12604,11 @@ letter_event = {
 character_event = {
 	id = SoA.2750
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = catholic
@@ -12616,7 +12618,7 @@ character_event = {
 			religion = lollard
 		}
 		is_heretic = no
-		
+
 		d_knights_calatrava = {
 			holder_scope = {
 				wealth = 300
@@ -12625,12 +12627,12 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			region = world_europe_west_iberia
 		}
-		
+
 		has_dlc = "Sons of Abraham"
 		NOT = { has_character_modifier = expelled_d_knights_calatrava }
 		NOT = {
@@ -12639,7 +12641,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -12675,7 +12677,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -12691,9 +12693,9 @@ character_event = {
 province_event = {
 	id = SoA.2751
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_knights_calatrava = {
 			holder_scope = {
@@ -12708,9 +12710,9 @@ province_event = {
 character_event = {
 	id = SoA.2752
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -12743,9 +12745,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -12755,24 +12757,24 @@ letter_event = {
 				has_character_modifier = expelled_d_knights_calatrava
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2754 }
 			}
 			remove_character_modifier = expelled_d_knights_calatrava
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -12783,15 +12785,15 @@ province_event = {
 	desc = EVTDESC_SOA_2754
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -12805,9 +12807,9 @@ province_event = {
 character_event = {
 	id = SoA.2760
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -12823,13 +12825,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2761
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -12861,9 +12863,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -12881,46 +12883,46 @@ narrative_event = {
 	title = EVTTITLE_SOA_2809
 	desc = EVTDESC_SOA_2809
 	major = yes
-	
+
 	picture = GFX_evt_knight_kneeling
-	
+
 	only_playable = yes
 	hide_from = yes
 	religion_group = christian
-	
+
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		
+
 		OR = {
 			religion = nestorian
 			religion = messalian
 		}
-		
+
 		is_heretic = no
-		
+
 		NOT = { is_title_active = d_saint_addai }
-		
+
 		OR = {
 			AND = {
 				religion = nestorian
 				693 = { # Baghdad is Nestorian
 					holder_scope = { religion = nestorian }
-					religion = nestorian 
+					religion = nestorian
 				}
 				774 = { # Jerusalem is Nestorian
 					holder_scope = { religion = nestorian }
-					religion = nestorian 
+					religion = nestorian
 				}
 			}
 			AND = {
 				religion = messalian
 				693 = { # Baghdad is Messalian
 					holder_scope = { religion = messalian }
-					religion = messalian 
+					religion = messalian
 				}
 				774 = { # Jerusalem is Messalian
 					holder_scope = { religion = messalian }
-					religion = messalian 
+					religion = messalian
 				}
 			}
 		}
@@ -12928,17 +12930,17 @@ narrative_event = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	immediate = {
 		activate_title = { title = d_saint_addai status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = ROOT
+			unsafe_religion = ROOT
 			culture = persian
 			female = no
 			age = 31
@@ -13030,7 +13032,7 @@ narrative_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_2809
 		trigger = {
@@ -13049,14 +13051,14 @@ narrative_event = {
 character_event = {
 	id = SoA.2830
 	hide_window = yes
-	
+
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
 	religion_group = christian
-	
+
 	trigger = {
 		is_ruler = no
 		OR = {
@@ -13064,11 +13066,11 @@ character_event = {
 			religion = messalian
 		}
 		is_heretic = no
-		
+
 		martial = 5
-		
+
 		is_title_active = d_saint_addai
-		
+
 		OR = {
 			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
@@ -13077,7 +13079,7 @@ character_event = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
-		
+
 		liege = {
 			holy_order = no
 			OR = {
@@ -13088,9 +13090,9 @@ character_event = {
 				holy_order = no
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
-		
+
 		NOT = { has_character_modifier = expelled_d_saint_addai }
 		NOT = {
 			any_liege = {
@@ -13110,7 +13112,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		years = 100
 		modifier = {
@@ -13174,7 +13176,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		liege = {
 			character_event = {
@@ -13190,22 +13192,22 @@ character_event = {
 	desc = EVTDESC_SOA_2831
 	picture = GFX_evt_knight_kneeling
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1031 # Agree
 		ai_chance = {
 			factor = 100
 		}
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = 100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2832
@@ -13213,17 +13215,17 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-		
+
 		if = {
 			limit = {
 				religion = FROM
 			}
 			piety = -100
 		}
-		
+
 		FROM = {
 			character_event = {
 				id = SoA.2833
@@ -13237,9 +13239,9 @@ character_event = {
 character_event = {
 	id = SoA.2832
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_saint_addai = {
 			holder_scope = {
@@ -13256,9 +13258,9 @@ character_event = {
 character_event = {
 	id = SoA.2833
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		opinion = {
 			who = FROM
@@ -13271,9 +13273,9 @@ character_event = {
 character_event = {
 	id = SoA.2840
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		wealth = 300
 		FROM = {
@@ -13312,9 +13314,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EXCELLENT
 	}
@@ -13324,19 +13326,19 @@ letter_event = {
 character_event = {
 	id = SoA.2850
 	hide_window = yes
-	
+
 	min_age = 16
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			religion = nestorian
 			religion = messalian
 		}
-		
+
 		is_heretic = no
-		
+
 		d_saint_addai = {
 			holder_scope = {
 				wealth = 300
@@ -13345,7 +13347,7 @@ character_event = {
 				}
 			}
 		}
-		
+
 		any_demesne_province = {
 			has_empty_holding = yes
 			OR = {
@@ -13356,7 +13358,7 @@ character_event = {
 				region = world_africa_north
 			}
 		}
-		
+
 		has_dlc = "Sons of Abraham"
 		NOT = { has_character_modifier = expelled_d_saint_addai }
 		NOT = {
@@ -13365,7 +13367,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -13401,7 +13403,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		random_demesne_province = {
 			limit = {
@@ -13417,9 +13419,9 @@ character_event = {
 province_event = {
 	id = SoA.2851
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		d_saint_addai = {
 			holder_scope = {
@@ -13434,9 +13436,9 @@ province_event = {
 character_event = {
 	id = SoA.2852
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			letter_event = {
@@ -13469,9 +13471,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTA_SOA_1023 # Agree
 		ai_chance = {
@@ -13481,24 +13483,24 @@ letter_event = {
 				has_character_modifier = expelled_d_saint_addai
 			}
 		}
-		
+
 		hidden_tooltip = {
 			FROMFROM = {
 				province_event = { id = SoA.2854 }
 			}
 			remove_character_modifier = expelled_d_saint_addai
 		}
-		
+
 		piety = 200
 		wealth = 100
 	}
-	
+
 	option = {
 		name = EVTOPTB_SOA_1153 # Refuse
 		ai_chance = {
 			factor = 20
 		}
-		
+
 		piety = -100
 	}
 }
@@ -13509,15 +13511,15 @@ province_event = {
 	desc = EVTDESC_SOA_2854
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROMFROM = {
 			wealth = -300
 		}
 	}
-	
+
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
@@ -13531,9 +13533,9 @@ province_event = {
 character_event = {
 	id = SoA.2860
 	hide_window = yes
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_title_under = {
 			limit = {
@@ -13549,13 +13551,13 @@ character_event = {
 			}
 			usurp_title = FROM
 		}
-	
+
 		FROM = {
 			letter_event = {
 				id = SoA.2861
 			}
 		}
-		
+
 		opinion = {
 			who = FROM
 			modifier = opinion_expelled_from_realm
@@ -13587,9 +13589,9 @@ letter_event = {
         }
     }
 	border = GFX_event_letter_frame_religion
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EVTOPTB_SOA_1061
 	}
@@ -13603,7 +13605,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = ALAS
 		trigger = {
@@ -13628,7 +13630,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = ALAS
 		trigger = {
@@ -13651,7 +13653,7 @@ character_event = {
 	hide_window = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -13688,7 +13690,7 @@ character_event = {
 	desc = "EVTDESC_SOA_2990"
 	picture = "GFX_evt_crusaders"
 	border = "GFX_event_normal_frame_religion"
-	
+
 	desc = {
 		trigger = {
 			religion_group = christian
@@ -13734,7 +13736,7 @@ character_event = {
 		text = EVTDESC_SOA_2990
 		picture = "GFX_evt_synagogue"
 	}
-	
+
 	title = { # Knights Templar
 		trigger = {
 			has_character_flag = expel_the_knights_templar_check
@@ -13862,24 +13864,24 @@ character_event = {
 		text = expel_zun_warriors
 	}
 	# CK2Plus
-	title = { # Keepers of Tír na nÓg
+	title = { # Keepers of Tï¿½r na nï¿½g
 		trigger = {
 			has_character_flag = expel_keepers_tirnanog
 		}
 		text = expel_keepers_tirnanog
 	}
-	
+
 	only_rulers = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = { # Knights Templar
 		trigger = {
 			has_character_flag = expel_the_knights_templar_check
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -13909,7 +13911,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -13939,7 +13941,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -13969,7 +13971,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -13999,7 +14001,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14015,7 +14017,7 @@ character_event = {
 					}
 				}
 			}
-			
+
 			add_character_modifier = {
 				name = expelled_d_hashshashin
 				duration = -1
@@ -14030,7 +14032,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14046,7 +14048,7 @@ character_event = {
 					}
 				}
 			}
-			
+
 			add_character_modifier = {
 				name = expelled_d_hashshashin
 				duration = -1
@@ -14061,7 +14063,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14077,7 +14079,7 @@ character_event = {
 					}
 				}
 			}
-			
+
 			add_character_modifier = {
 				name = expelled_d_haruriyyah
 				duration = -1
@@ -14092,7 +14094,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14122,7 +14124,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14152,7 +14154,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14182,7 +14184,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14212,7 +14214,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14242,7 +14244,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14272,7 +14274,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14302,7 +14304,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14332,7 +14334,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14362,7 +14364,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14392,7 +14394,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14422,7 +14424,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14452,7 +14454,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14482,7 +14484,7 @@ character_event = {
 		}
 		name = "EVTOPTA_SOA_2990"
 		piety = -1000
-		
+
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20
@@ -14507,12 +14509,12 @@ character_event = {
 		}
 	}
 	# CK2Plus
-	option = { # Keepers of Tí na nÓg
+	option = { # Keepers of Tï¿½ na nï¿½g
 		trigger = {
 			has_character_flag = expel_keepers_tirnanog_check
 		}
 		name = "EVTOPTA_SOA_2990"
-		piety = -1000		
+		piety = -1000
 		religion_authority = {
 			modifier = holy_order_expelled
 			years = 20

@@ -111,10 +111,10 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
-			}
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -159,10 +159,10 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
-			}
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -195,14 +195,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -232,17 +232,16 @@ laws = {
 	feudal_focus_3 = {
 		group = feudal_focus
 
-
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -273,17 +272,16 @@ laws = {
 	feudal_focus_4 = {
 		group = feudal_focus
 
-
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -314,14 +312,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -363,14 +361,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -407,14 +405,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -451,14 +449,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -496,14 +494,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -541,14 +539,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -577,14 +575,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -617,14 +615,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -666,14 +664,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -706,14 +704,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -744,14 +742,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -781,14 +779,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -835,14 +833,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -879,14 +877,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -924,14 +922,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				religion_group = muslim
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -969,14 +967,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1005,14 +1003,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1045,14 +1043,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1094,14 +1092,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1134,14 +1132,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1172,14 +1170,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1221,14 +1219,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1265,14 +1263,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1309,14 +1307,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1354,14 +1352,14 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				NOT = { religion_group = muslim }
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1399,13 +1397,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1434,13 +1432,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1473,13 +1471,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1511,13 +1509,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1560,13 +1558,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1597,13 +1595,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1645,13 +1643,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1688,13 +1686,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1731,13 +1729,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1774,13 +1772,13 @@ laws = {
 
 		potential = {
 			temporary = no
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
+				OR = {
+					higher_tier_than = baron
+					is_patrician = yes
+				}
 			}
 		}
 
@@ -1821,7 +1819,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -1871,7 +1869,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -1913,7 +1911,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -1954,7 +1952,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -1996,7 +1994,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -2036,7 +2034,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -2087,7 +2085,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -2133,7 +2131,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -2179,7 +2177,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
@@ -2226,7 +2224,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					NOT = { tier = baron }
+					higher_tier_than = baron
 					is_patrician = yes
 				}
 				OR = {
