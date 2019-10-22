@@ -1,9 +1,0 @@
-First up, you need the latest version of Python 3.
-https://www.python.org/downloads/
-
-To use the script, just double click it (after installing Python 3 obviously).
-It will ask you the dynasty names. Press return after every dynasty. Press return without typing anything to quit. Yes, you can copy-paste lists (if your terminal supports it, Windows' command line does), as long as they each on their own line.
-After that it will ask you for the culture for them to be added to.
-By some abstract Great Old Ones rituals, it will then automagically grab the last number, +1 it, and paste those cultures in 01_dynasties.txt. Numbered and all.
-
-NOTE: Make sure there's always an empty newline before you use it. The script will make add one when it's done.
