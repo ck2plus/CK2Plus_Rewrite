@@ -18,12 +18,12 @@ b_rushen = tribal
 
 # Misc
 terrain = hills
-culture = cumbric
+culture = welsh
 religion = catholic
 
 # History
 836.1.1 = {
-	culture = norse
+	culture = norwegian
 	religion = norse_pagan
 }
 1000.1.1 = {

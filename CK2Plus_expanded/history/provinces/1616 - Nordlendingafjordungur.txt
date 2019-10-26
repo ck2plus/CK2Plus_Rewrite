@@ -1,0 +1,31 @@
+# 1616 - c_nordlendingafjordungur
+
+# County Title
+title = c_nordlendingafjordungur
+
+# Settlements
+max_settlements = 1
+b_husavik = tribal
+
+#b_hrisey = city
+#b_holar = temple
+#b_glaumbaer = castle
+#b_akureyri = castle
+#b_goddalir = castle
+
+# Misc
+culture = norwegian
+religion = norse_pagan
+terrain = arctic
+
+# History
+867.1.1 = {
+	b_husavik = tribal
+	b_husavik = tb_shipyard_1
+}
+1000.1.1 = {
+	culture = icelandic
+	religion = catholic
+	b_husavik = castle
+	#b_husavik = ca_shipyard_1
+}
