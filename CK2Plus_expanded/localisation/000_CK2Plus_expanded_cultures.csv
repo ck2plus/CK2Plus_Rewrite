@@ -6,6 +6,7 @@
 #
 ###########################################
 
+afar;Afar;Afar;Afar;;Afar;;;;;;;;;x
 amazigh;Berber;Berber;Berber;;Berber;;;;;;;;;x
 anatolian;Turkish;Turc;Türkisch;;Turco;;;;;;;;;x
 anglo_norse;Anglo-Norse;Anglo-Norrois;Anglonordisch;;Anglonórdico;;;;;;;;;x
@@ -21,8 +22,9 @@ bashkir;Bashkir;Bachkir;Baschkirisch;;Baskir;;;;;;;;;x
 bavarian;Bavarian;Bavarois;Bavarian;;Bávaro;;;;;;;;;x
 beja;Beja;Bedja;Bedscha;;Beja;;;;;;;;;x
 bihari;Bihari;Bihari;Bihari;;Bihari;;;;;;;;;x
+bodo_kachari;Bodo-Kachari;Bodo-Kachari;Bodo-Kachari;;Bodo-Kachari;;;;;;;;;x
 burgundian;Burgundian;Burgonde;Burgunder;;Burgundio;;;;;;;;;x
-caucasian_group;Caucasian;Caucasien;Kaukasisch;;Caucasico;;;;;;;;;x
+caucasian_avar;Caucasian Avar;Avar Caucasienne;Kaukasus Awarisch;;Avar Cáucasicos;;;;;;;;;x
 chadic_group;Chadic;Tchadique;Chadisch;;Chadico;;;;;;;;;x
 circassian;Circassian;Circassien;Zirkassisch;;Circasiano;;;;;;;;;x
 coptic;Sahidic;Sahidique;Sahidisch;;Sahídico;;;;;;;;;x
@@ -32,6 +34,7 @@ corsican;Corsican;Corse;Korse;;Corsa;;;;;;;;;x
 crusader_group;Crusader;Croisé;Kreuzritter;;Cruzado;;;;;;;;;x
 cumbric;Cumbrian;Cumbrian;Kumbrisch;;Cumbria;;;;;;;;;x
 cushitic_group;Cushitic;Couchitiques;Kuschitisch;;Cushita;;;;;;;;;x
+dardic;Dardic;Dardique;Dardisch;;Dárdicas;;;;;;;;;x
 daylamite;Daylamite;Dailamite;Dailamitisch;;Dailamita;;;;;;;;;x
 dhivehi;Dhivehi;Dhivehi;Dhivehi;;Dhivehi;;;;;;;;;x
 east_aryan_group;East Aryan;Aryen Oriental;Ostarier;;Ario Oriental;;;;;;;;;x
@@ -44,10 +47,9 @@ flemish;Flemish;Flamand;Flämisch;;Flamenco;;;;;;;;;x
 franco_germanic;Rhine-Weser Germanic;Rhin-Visurge germanique;Rhein-Weser-Germanisch;;Rin-Weser germánico;;;;;;;;;x
 franconian;Franconian;Francique;Fränkisch;;Franconica;;;;;;;;;x
 gallawa;Galwegian;Gallovidien;Galwegisch;;Hiberno-Nórdico;;;;;;;;;x
-geatish;Geatish;ötalandais;Geatisch;;Gauta;;;;;;;;;x
-georgian_group;Kartvelian;Kartvélien;Kartwelisch;;Kartveliana;;;;;;;;;x
-german;Alemannic;Alamans;Alemannisch;;Alamana;;;;;;;;;x
+geatish;Geatish;Götalandais;Geatisch;;Gauta;;;;;;;;;x
 guanche;Guanche;Guanche;Guanchisch;;Guanche;;;;;;;;;x
+himachali;Himachali;Himachali;Himachali;;Himachali;;;;;;;;;x
 icelandic;Icelandic;Islandais;Isländisch;;Islandés;;;;;;;;;x
 imperial_german;High German;Haute Allemand;Reichdeutsch;;Alto Alemán;;;;;;;;;x
 insular_aryan_group;Insular Aryan;Aryen Insulaire;Inselarier;;Ario Insular;;;;;;;;;x
@@ -55,6 +57,8 @@ iraqi;Mesopotamian;Mesopotamian;Mesopotamian;;Mesopotamian;;;;;;;;;x
 island_romance;Insular Romance;Romance d'île;Inselromantik;;Romance de las Islas;;;;;;;;;x
 israeli;Israeli;Israélien;Israelisch;;Israelí;;;;;;;;;x
 italian_group;Italo-Romance;Romance d'Italie;Italischer Romantik;;Romance de Italia;;;;;;;;;x
+kafiri;Kafiri;Kafiri;Kafiri;;Kafiri;;;;;;;;;x
+kartvelian_group;Kartvelian;Kartvélien;Kartwelisch;;Kartveliana;;;;;;;;;x
 khwarazmian;Khwarazmian;Chorasmien;Choresmisch;;Corasmia;;;;;;;;;x
 kipchak;Kipchak;Couchitiques;Kaptchak;;Kipchak;;;;;;;;;x
 latin_culture;Latin;Latine;Lateinisch;;Latina;;;;;;;;;x
@@ -69,8 +73,11 @@ malayalam;Malayalam;Malayalam;Malayalam;;Malayalam;;;;;;;;;x
 mari;Mari;Mari;Mari;;Mari;;;;;;;;;x
 mizrahi;Mizrahi;Mizrahim;Mizrachim;;Mizrají;;;;;;;;;x
 neapolitan;Neapolitan;Napolitain;Neapolitanisch;;Napolitano;;;;;;;;;x
+nuristani_group;Nuristani;Nouristani;Nuristani;;Nuristani;;;;;;;;;x
+northeast_caucasian_group;Northeast Caucasian;Caucasien du Nord-Est;Nordost Kaukasisch;;Caucásicas Nororientales;;;;;;;;;x
+northwest_caucasian_group;Northwest Caucasian;Caucasien du Nord-Ouest;Nordwest Kaukasisch;;Caucásicas Noroccidentales;;;;;;;;;x
 novgorodian;Novgorodian;Novgorodien;Novgorodisch;;Nóvgorodo;;;;;;;;;x
-occitano_romance_group;Occitano-Romance;Occitano-romanes;Okzitanisch-Romanisch;;Occitanorromances;;;;;;;;;x
+occitano_romance_group;Occitano-Romance;Occitano-Romanes;Okzitanisch-Romanisch;;Occitanorromances;;;;;;;;;x
 pontic_greek;Pontic;Pontic;Pontic;;Póntica;;;;;;;;;x
 ruthenian;Ruthenian;Ruthène;Ruthenisch;;Rutenio;;;;;;;;;x
 samodeic_group;Samodeic;Samodeic;Samodeic;;Samodeic;;;;;;;;;x
@@ -80,6 +87,7 @@ sicilian;Sicilian;Sicilien;Sizilianisch;;Siciliano;;;;;;;;;x
 sicilian_arabic;Siculo-Arabic;Sicilien-Arabe;Sizilian-Arabisch;;Siciliano-Árabe;;;;;;;;;x
 sicilian_greek;Siculo-Greek;Sicilien-Grec;Sizilian-Griech;;Siciliano-Griego;;;;;;;;;x
 siculo_norman;Siculo-Norman;Italo-Norman:Siculo-Normannen;;Siculo-Normano;;;;;;;;;x
+soqotri;Soqotri;Soqotri;Soqotri;;Socotrí;;;;;;;;;x
 sosso;Susu;Soussou;Susu;;Sosso;;;;;;;;;x
 swabian;Swabian;Souabe;Schwäbisch;;Suabo;;;;;;;;;x
 swiss;Swiss;Suisse;Schweizer;;Suizo;;;;;;;;;x
@@ -92,6 +100,7 @@ tuareg;Tuareg;Tuareg;Tuareg;;Tuareg;;;;;;;;;x
 tungusic_group;Tungusic;Toungouses;Tungusisch;;Tunguses;;;;;;;;;x
 turkic_group;Turkic;Turcique;Turkisch;;Túrcico;;;;;;;;;x
 tuscan;Tuscan;Toscan;Toskanisch;;Toscano;;;;;;;;;x
+udi;Udi;Oudi;Udisch;;Udí;;;;;;;;;x
 umbrian;Umbrian;Ombrien;Umbrisch;;Umbro;;;;;;;;;x
 vasconic;Vasconic;Vasconique;Vasconisch;;Vasca;;;;;;;;;x
 veneto;Venetian;Vénitien;Venetisch;;Véneto;;;;;;;;;x
@@ -111,6 +120,7 @@ central_african;Songhay-Saharan;Songhay-Saharien;Songhay-Saharisch;;Songhay-Saha
 central_germanic;Elbe Germanic;Elbe Germanique;Elbegermanisch;;Elba Germánica;;;;;;;;;x
 east_african;South Semitic;Sémitique méridionale;Südsemitisch;;Semítica meridional;;;;;;;;;x
 ethiopian;Amharic;Amharique;Amharisch;;Amharico;;;;;;;;;x
+german;Alemannic;Alamans;Alemannisch;;Alamana;;;;;;;;;x
 indo_aryan_group;Central Aryan;Aryen Central;Mittelarier;;Ario Central;;;;;;;;;x
 iranian;West Iranian; Ouest Iranien; Westiranisch;;Iraní Occidental;;;;;;;;;x
 latin;Gallo-Roman;Gallo-romaine;Gallorömisch;;Galorromana;;;;;;;;;x

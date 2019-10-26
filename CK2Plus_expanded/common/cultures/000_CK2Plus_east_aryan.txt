@@ -1,10 +1,12 @@
 ####################################################################
 #
 #	East Aryan
-#	 - Assamese
-#	 - Bengali
+#	 - Assamese*
+#	 - Bengali*
 #    - Bihari (Plus culture)
-#	 - Oriya
+#	 - Oriya*
+#
+#   * indicates a vanilla culture moved to a different group
 #
 ####################################################################
 

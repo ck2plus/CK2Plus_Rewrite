@@ -2,7 +2,9 @@
 #
 #	Insular-Aryan
 #    - Dhivehi (Plus culture)
-#	 - Sinhala
+#	 - Sinhala*
+#
+#   * indicates a vanilla culture moved to a different group
 #
 ####################################################################
 
@@ -18,7 +20,7 @@ insular_aryan_group = {
 
 	graphical_cultures = { indiangfx muslimgfx }
 	
-		dhivehi = { # Maldivians
+	dhivehi = { # Maldivians
 		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 
@@ -74,7 +76,6 @@ insular_aryan_group = {
 
 		modifier = default_culture_modifier
 	}
-
 
 	sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
 		graphical_cultures = { indiangfx muslimgfx }

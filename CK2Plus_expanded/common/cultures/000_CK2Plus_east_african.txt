@@ -1,7 +1,8 @@
 ####################################################################
 #
-#	South Semitic (eastern_african)
+#	South Semitic (east_african)
 #	 - Amharic (ethiopian)
+#	 - Soqotri (Plus culture)
 #    - Tigrinyan (Plus culture)
 #
 ####################################################################
@@ -18,7 +19,7 @@ east_african = {
 
 	graphical_cultures = { muslimgfx }
 	
-		ethiopian = { # Amharic
+	ethiopian = { # Amharic
 		graphical_cultures = { africangfx westafricangfx }
 		secondary_event_pictures = bedouin_arabic
 
@@ -72,7 +73,35 @@ east_african = {
 
 		modifier = default_culture_modifier
 	}
-	
+
+	soqotri = {
+		graphical_cultures = { africangfx westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.5 0.5 0.31 }
+
+		male_names = {
+			Abu-Bakr_Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir Abdul-Wahab Abdul_Abdul Abdullah_Abdullah Aghlab Akin Ali_Ali Alim Aram Azam Bahir Burhanaddin
+			Fadil_Fadl Fadl_Fadl Faruk_Farroukh Ghalib Hafiz Halil_Khalil Hasan_Hasan Husam Hussayn_Hussein Ibrahim_Abraham Idris Is'mail_Ismail Isa Jabir Jalil Jibril_Gabriel Khaireddin Khalil_Khalil Mahdi Mahmud_Mahmud
+			Mansur Mirza Mubarak_Barak Muhammad_Muhammad Mukhtar Murad_Morad Musa_Moses Muslihiddin Muzaffaraddin Najib Nasr_Nasr Nizam Qawurd Ramadan_Ramadan Sa'daddin Sadiq Sami Samir Shaiban
+			Shamir Shujah Sulayman_Solomon Talib Ubayd Uways Yahya_Yahya Ya'qub_Jacob Youkhanna_John Yusuf_Joseph Zeyd
+		}
+		female_names = {
+			Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla_Laila Maryam_Maria Nafisa Nyawela Parand Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin_Yasmin Zaynab
+		}
+		from_dynasty_prefix = "mn "
+
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
 
 	tigrinyan = {
 		graphical_cultures = { africangfx westafricangfx }
@@ -81,18 +110,42 @@ east_african = {
 		color = { 0.5 0.5 0.3 }
 
 		male_names = {
-			Abay Abiel_Gabriel Ablelom Abraham_Abraham Abrehet Abune Adhanom Adjam Afwerki Akberet Aklilu Alula Aman Anbessa Araya Ariam Arkebe Aron_Aaron Asieb Asmerom Awet Baeda-Mariam Bahta Berekhet Berhan Berukh Binjam_Benjamin
-			Daniel_Daniel Dawit_David Dehab Demsas Denait Dogel Eden Edom Efrem_Ephraim Eyasu Fanuel Feben Feday Fenan Fessehaye Fikadu Filiam Filmon_Philemon Fuzum
+			Abay Abiel_Gabriel Ablelom Abraham_Abraham Abrehet Abune Adhanom Adjam Afwerki Akberet Aklilu Alula Aman Anbessa Araya Ariam Arkebe Aron_Aaron Asieb Asmerom Awet
+			Baeda-Mariam Bahta Berekhet Berhan Berukh Binjam_Benjamin
+			Daniel_Daniel Dawit_David Dehab Demsas Denait Dogel
+			Eden Edom Efrem_Ephraim Eyasu
+			Fanuel Feben Feday Fenan Fessehaye Fikadu Filiam Filmon_Philemon Fuzum
 			Gebre-Egziabher Gebre-Giyorgis Gebre-Hariat Gebre-Heimanot Gebre-Hiwet Gebre-Leul Gebre-Mariam Gebre-Medhin Gebre-Micael Gebre-Selassie Gebre-Yesus Gebre-Yohanis Geretatios Gidion_Gideon Gidey Girmay
 			Habte_Habte Habteab_Habte Habtegergesch_Habte Habtoom_Habte Hadush Hagos Hanibal_Hannibal Haregu Hayelom Heimanot Henock Huluf Hurui Issayas_Isaiah Kahinu Kibromi Kidan Kidus Kiflom Kinfe Kiros Ksanet
-			Letay Lettichidan Luam Mahatta Makele Mebrahtu Medhin Mehari Mekonnen Meles Mengesha Menkem Merhawi Merich Michret_Michret Michretab_Michret Mikele_Michael Nahom Nardos Natnael_Nathaniel Natzinet Negus Noah_Noah Noham
-			Ogbamichael Onkiel Petros_Peter Phillipos_Philip Raimok Richan Russom Saare Samuel_Samuel Samson_Samson Sebhat Selam Selomon_Solomon Semhar Semien Semen Semere Semrawit_Simret Senai Senait Sibhat Silas Simret_Simret Sirak Siye Sogi
-			Tadios Tarek Tedros Temesgen Tesfalem Tewolde Tiblez Tzegay Wolde Wolde-Giorgis Wolde-Kidan Wolde-Mariam Wolde-Michael Wolde-Rufael Wolde-Selassie Yoel Yohanis_John Yordanos Yosef_Joseph Zekarias_Zechariah Zera-Yacob
+			Letay Lettichidan Luam
+			Mahatta Makele Mebrahtu Medhin Mehari Mekonnen Meles Mengesha Menkem Merhawi Merich Michret_Michret Michretab_Michret Mikele_Michael
+			Nahom Nardos Natnael_Nathaniel Natzinet Negus Noah_Noah Noham
+			Ogbamichael Onkiel
+			Petros_Peter Phillipos_Philip
+			Raimok Richan Russom
+			Saare Samuel_Samuel Samson_Samson Sebhat Selam Selomon_Solomon Semhar Semien Semen Semere Semrawit_Simret Senai Senait Sibhat Silas Simret_Simret Sirak Siye Sogi
+			Tadios Tarek Tedros Temesgen Tesfalem Tewolde Tiblez Tzegay
+			Wolde Wolde-Giorgis Wolde-Kidan Wolde-Mariam Wolde-Michael Wolde-Rufael Wolde-Selassie
+			Yoel Yohanis_John Yordanos Yosef_Joseph
+			Zekarias_Zechariah Zera-Yacob
 		}
 		female_names = {
-			Abraha Abrihet Aida Allem Almaz Amani Ambesa Amleset Andemariam Aranchi Armana Arsema Asmeret Aster_Esther Atsbaha Beilul Bilen Bisrat Blen Daniat Delina Desta Eden Efret Elsa Fiory Fithi Fresgi Freywini Ghebrai Gidey Gidisti
-			Haben Halen_Helene Hana Haile-Mariyam Illilta Illen Lemlem Lete-Berhan Lete-Kidan Lete-Kiros Lete-Mariam Lete-Medhin Lete-Silase Milena Mitslal-Muz Rahel_Rachel Rahua Rahwa Saalem_Jerusalem Saba Salina Sarah_Sarah Saura Semhar Shewit
-			Tigisti Timnit Tzega Winta Welede-Mariyam Weini Wergweha Yehdega Yemane Yorusalem_Jerusalem Yudit_Judith Zenabu Zeudi Zula
+			Abraha Abrihet Aida Allem Almaz Amani Ambesa Amleset Andemariam Aranchi Armana Arsema Asmeret Aster_Esther Atsbaha
+			Beilul Bilen Bisrat Blen
+			Daniat Delina Desta
+			Eden Efret Elsa
+			Fiory Fithi Fresgi Freywini
+			Ghebrai Gidey Gidisti
+			Haben Halen_Helene Hana Haile-Mariyam
+			Illilta Illen
+			Lemlem Lete-Berhan Lete-Kidan Lete-Kiros Lete-Mariam Lete-Medhin Lete-Silase
+			Milena Mitslal-Muz
+			Rahel_Rachel Rahua Rahwa
+			Saalem_Jerusalem Saba Salina Sarah_Sarah Saura Semhar Shewit
+			Tigisti Timnit Tzega
+			Winta Welede-Mariyam Weini Wergweha
+			Yehdega Yemane Yorusalem_Jerusalem Yudit_Judith
+			Zenabu Zeudi Zula
 		}
 		founder_named_dynasties = yes
 		dukes_called_kings = yes

@@ -1,0 +1,92 @@
+####################################################################
+#
+#	Northeast Caucasian
+#	 - Caucasian Avar (Plus culture)
+#    - Udi (Plus culture)
+#
+#	* indicates a vanilla culture moved to a different group
+#
+####################################################################
+
+northwest_caucasian_group = {
+	graphical_cultures =  { easterngfx }
+	
+	caucasian_avar = {
+		graphical_cultures = { easternslavicgfx }
+		
+		color = { 0.0 0.4 0.31 }
+
+		male_names = {
+			Abukhisro Akhsuvar Alp Avaz Awach'i Badr Bukht-Yisho Firudzha Alatey Akhsar Anbal Anbazuk Aravat
+			Arsen Askhkadar Ashot_Ashot Aslan Aspar Athom Balambar Balsag Barlah Bæqætar Basil_Basil Bazuk Beler
+			Ber Biræg Boz-Uruz Buürgur Buriberdi Burikhan Candak Chelakhsartag Davit_David Djadaron Durgulel
+			Dzæræs Gætæg Georgy_George Girgon Gokhar Gubaz Guram_Guaram Hasqar Huddan Istor Itaz Iveri Kandak
+			Kandz Kavtia Kaur Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk Lak Levan_Leo Piruz
+			Pulad Respendial Rosmag Safrak Sakban Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Takho
+			Taymuraz_Teimuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+		}
+		
+		female_names = { 
+			Adadza Alda Altun Ana_Anna Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda
+			Elene_Helen Eliso Gergana Gulchara Guranduht_Gorandukht Kera Keratsa Ketevan_Catherine Koser Lamara
+			Lashin Lela Mariami_Mariam Natia Nino Rusudan Sanatha Sarah Satinik_Satinik Shatana Shorena Shukhia
+			Tamari_Tamar Tinatini Tsiala Vardo Vedokha Yeran
+		}
+		
+		from_dynasty_prefix = "ve "
+		
+		male_patronym = "y fyrt"
+		female_patronym = "y chyzg"
+		prefix = no
+		
+		modifier = default_culture_modifier
+	}
+    
+	udi = {
+		graphical_cultures = { easternslavicgfx }
+		
+		color = { 0.0 0.4 0.3 }
+
+		male_names = {
+			Abatiy Aghwrbiy Albekh Albek Albot Alhx'es Alhx'o Alijiqwe Amish Andeimir Andeimirqan Anzawir Anzoriqwe Areqshu Ariqshu Ashemez Axwemghwet 
+			Bagh Bale Bat'e Bate Batirbiy Batiy Bedin Bediniqwe Beiqan Beird Beizriqwe Belatse Beletoqwe Beresbiy Beroqwe Beterez Betey Betoqwe Betrez Bile Bilu Biybeird Biybolet Biylhosten Blaneshu Bobe Bolet Bore Bot Bube Bubeird 
+			Dariqwe Dat Dawe Debaghwe Degwzkhey Disheshu Diyde Dizkhin Dox'wshiqwe Dzedzu Dzeghashte Dzepsh Dzeshu Dzidzu Dzu Dzudze Dzune 
+			Foqwe 
+			Gankate Gatawe Ghwaze Ghwkh'e Ghwkh'el' Ghwkh'eshawe Ghwk'e Ghwk'el' Ghwk'eshawe Ghwsh'ine Ghwsh'ipse Gilax'sten Girandiqwe 
+			Hebale Hebashe Hebexw Hebiy Hebizh Hekh'ashe Hegwtsire Hek'ashe Hemash Hemashe Hemat' Hemat'e Hemats Hemit'e Hemt'ut' Henash'e Henashx'we Henax'we Hep'at' Hep'ot' Hepash'e Herebiy Hesane Hesansh Hesc'emaxwe Hescawe Heshir Heshore Het'ox'wshiqwe Het'ut'e Hetal Hetaliy Hetaw Hetezkhiqwe Hetiqe Hetiqwe Hetize Hetshiqwe Hetsile Hetsiqe Hetsiqwe Hetsu Hetu Hewtiy Hezeishe 
+			Jankhate Jatawe Jilax'sten Jirandiqwe 
+			K'ishiqwe Kawis Ketsu Kitsu Kwrghwoqwe Kwsh Kwshbiy Kwshikw Kwshmez 
+			L'if' L'imaxwe Lashe Lawirsen Lemashe Lhepsh Lhosten Lhostenash Lhostenbiy 
+			Mamish Mamishe Mamsir Mamsriqwe Mariqwe Mash Mashe Mat'e Mat'u Maxwe Med Men Menshaq Meshiqwe Mile Miqe Misost Mize Mut'e 
+			Nal Nalbiy Nali Napts'e Narikh Narik Nart Nartbiy Nartshawe Nartshu Nash Nashx'we Natbiy Natrib Nawirbiy Nawriz Nax'we Nedighe Neghwey Nep'it' Nerzan Nesren Nex'wat'e Nex'wpsh 
+			P'at' P'it'u Pagwe Paq Paqe Pariyqe Pashe Psebide Pshibiy Pshimaxwe Pshimide Pshiqan Pshizebiy 
+			Qaniqwe Qanshawe Qanshobiy Qashx'we Qeit Qeitiqwe Qex'wn Qideghaze Qilishbiy Qwbatiy Qwlhshiqwe Qwsh 
+			Sengeley Senjeley Serebiy Sha Shabiyix'w Shad Shaghir Shaghirbiy Shaps Shaqmen Shat' Shebet Shebetiqwe Sherel'oqwe Shewey Shihbolet Shihim Shiyherbiy Shiys Sholex'w Shoqal Shore Shu Shumaf'e Shumaxwe Shume Shupagwe Shupashe Shuqe Shuwey Sirixw Sosriqwe 
+			T'emashe T'igwe T'ut' Takwu Tawqan Teimbolet Teimbore Teimbot Teipsiriqwe Teirkhiqwe Teirkiqwe Teiwvezh Tighwen Tighwenbiy Tiqe Tiqire Tolbiy Tolhesten Toqwe Tsane Tsats Tsatsu Tsiqire Tsu Tsumash Tsut'e 
+			Werdeshawe Werdeshiqwe Wezermes Wezirmeg Wezirmej Wezirmes Wezreg Wezrej Wezroqwe Wighwrli Wivzhiqwe 
+			X'imish X'wat'e X'wet Xwemghwet 
+			Yamdezh Yapenes Yedig Yedij Yelbizdiqwe Yelgiriqwe Yelhix'w Yelhqan Yeljiriqwe Yemish Yeristam Yerzhib Yetekh Yetek Yex'wl'e Yinaliqwe Yinarmes 
+			Zawirbiy Zeik'we Zeik'weshu Zeramikw Zhaniqwe Zhanqeit Zhansex'w Zhansiyt Zhanteimir Zhantighwen Zhantiy Zhanx'wet Zhebaghi Zhembolet Zhembore Zhembot Zheriqwe Zhilebiy Zhileghwet Zhiqwe Zhore Ziramikw
+		}
+		female_names = { 
+			Abexw Adiyixw 
+			Babine Babire Babishe Babitse Babixw Babliyne Bariyne Bedexw Bitse Bixwe Biybe Bzho 
+			Dadiy Daduqan Dadusha Dane Daniyzet Daxe Daxeliyne Daxenaghwe Daxewes Dishe Diyne Dumesare Dune
+			Ediyixw
+			Gwashe Gwasheghagh Gwasheliyne Gwashemash'e Gwashenise Gwashepagwe Gwashexwzh Gweshene Gweshenexw Gwlez Gwne Gwnes 
+			Hetsatsa 
+			K'wak'we K'wat'e K'watse K'wk'we K'wlat'e K'wlatse K'wle K'wne K'wratse K'wt'e Kwez Kwl'edem Kwle Kwliyzhan Kwne Kwral 
+			Lalixw Laliyne Laliytse Lane Lawitse Lixwe Liyne 
+			Naghwe Nashx'we Nedaxe Negwresh Nex'daxe Niyne 
+			Pagwe Pizhine 
+			Qan'ef' Qandishe Qanexw Qants'ik'w Qeral Qerelzhan Qwdas 
+			Sase Sat'e Sawise Sete Seteney Susane 
+			Tewzhan Tsatse Tsatsune
+			Wes Wile Witse Wizhe 
+			X'imsad Xwemey Xwniyne Xwriyret Xwske Xwzh Xwzhpagwe 
+			Zaliyne Zhan Zhangwashe Zhanpagwe Zhanqwdas Zhanshir Zhanwes Zhanwise Zhanxwzh Zhanziyle Zheine Zuliy Zuliyzhan
+		}
+
+		modifier = default_culture_modifier
+	}
+}

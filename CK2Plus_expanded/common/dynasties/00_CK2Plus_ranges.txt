@@ -4,88 +4,78 @@
 # So instead we will henceforth use a method that is easier to maintain for us.
 # Below, you will find the ranges actually used by the mod, per culture.
 
-Western Europe
+# Original CK2+ cultures with dynasty ranges assigned alphabetically: (NOTE: Not finished yet!)
 
-#Albanian (arberian)	1.000.124.380-1.000.124.388
+#Afghan					
+#Afghan					
+#Albanian (arberian)	
+#Andalusian Arabic		
+#Andalusian Arabic		
 #Anglo-Norse			
 #Aragonese				
 #Aromanian				
 #Arpitan				
+#Azeri					
+#Bafour					
+#Bashkir				
 #Bavarian 				
+#Beja					
+#Bihari					
 #Burgundian				
+#Circassian				
 #Cornish				
 #Corsican				
 #Cumbrian				
+#Daylamite				
+#Dhivehi				
 #Emilian				
 #Flemish				
 #Franconian				
 #Gallawa				
 #Geatish				
+#Guanche				
 #Icelandic				
 #Imperial German		
+#Israeli				
 #Italian				
+#Khwarezmian			
+#Kipchak				
 #Latin					
 #Leonese				
 #Ligurian				
 #Lombard				
+#Luri					
+#Malayalam				
+#Mari					
+#Masmuda				
+#Mesopotamian			
+#Mizrahi				
 #Neapolitan				
+#Novgorodian			
+#Pontic					
+#Ruthenian				
+#Sanhaja				
 #Sicilian				
 #Siculo-Arabic			
 #Siculo-Greek			
 #Siculo-Norman			
+#Sosso 					
 #Swabian				
 #Swiss					
 #Teutonic 				
 #Thuringian				
+#Tigrinyan				
+#Tuareg					
+#Turco-Mongol			
+#Turkish (Anatolian)	
 #Tuscan					
 #Umbrian				
 #Venetian				
-#Yugoslavian			
-
-Africa
-
-#Bafour					
-#Beja					
-#Guanche				
-#Masmuda				
-#Sanhaja				
-#Sosso 					
-#Tigrinyan				
-#Tuareg					
+#Vepsian				
 #Wolof					
+#Yugoslavian			
 #Zenatian				
 
-Central Asia
+# Cultures that were added later and use additional dynasty ranges as specified:
 
-#Bashkir				
-#Kipchak				
-#Turco-Mongol			
-
-Eastern Europe
-
-#Mari					
-#Novgorodian			
-#Ruthenian				
-#Vepsian				
-
-Middle East/Caucasia
-
-#Afghan					1.000.252.096-1.000.252.102
-#Andalusian Arabic		
-#Azeri					
-#Circassian				
-#Daylamite				
-#Israeli				
-#Khwarezmian			
-#Luri					
-#Mesopotamian			
-#Mizrahi				
-#Pontic					
-#Turkish (Anatolian)	
-
-India
-
-#Bihari					
-#Malayalam				
-#Dhivehi				
-
+#(currently none)

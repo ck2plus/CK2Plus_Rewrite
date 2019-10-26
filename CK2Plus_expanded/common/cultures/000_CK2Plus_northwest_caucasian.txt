@@ -1,15 +1,32 @@
 ####################################################################
 #
-#	Caucasian
+#	Northwest Caucasian
+#	 - Abkhazian (Plus culture)
 #    - Circassian (Plus culture)
 #
 #	* indicates a vanilla culture moved to a different group
 #
 ####################################################################
 
-caucasian_group = {
+northwest_caucasian_group = {
 	graphical_cultures =  { easterngfx }
-     
+	
+	abkhazian = {	# to be filled with Methaneus suggestions
+		graphical_cultures = { easternslavicgfx }
+		
+		color = { 0.0 0.4 0.31 }
+
+		male_names = {
+			Abatiy
+		}
+		
+		female_names = { 
+			Abexw
+		}
+		
+		modifier = default_culture_modifier
+	}
+    
 	circassian = {
 		graphical_cultures = { easternslavicgfx }
 		

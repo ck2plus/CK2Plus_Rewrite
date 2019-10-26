@@ -1,7 +1,7 @@
 ####################################################################
 #
-#	Iranian (Western_Iranian)
-#	 - Azeri(Plus culture)(M)
+#	Western Iranian (iranian)
+#	 - Azeri (Plus culture)(M)
 #	 - Baloch
 #	 - Daylamite (Plus culture)
 #	 - Kurdish

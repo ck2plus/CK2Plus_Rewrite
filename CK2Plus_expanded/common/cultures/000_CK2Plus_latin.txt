@@ -1,8 +1,8 @@
 ####################################################################
 #
-#	Latin (Gallo-Roman)
+#	Gallo-Roman (latin)
 #	 - Arpitan (Plus culture) (E)
-#	 - French (E)
+#	 - French (frankish) (E)
 #	 - Norman (M)
 #    - Siculo-Norman (M)
 #
@@ -213,7 +213,7 @@ latin = { # Gallo-Roman
 		modifier = default_culture_modifier
 	}
 
-siculo_norman = {
+	siculo_norman = {
 		alternate_start = {
 			OR = {
 				year >= 1100

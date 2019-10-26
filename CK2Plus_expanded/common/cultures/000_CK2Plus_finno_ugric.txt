@@ -8,9 +8,8 @@
 #	 - Meshchera
 #    - Mari (Plus culture)
 #	 - Mordvin
-#	 - Samoyed
 #	 - Ugricbaltic
-#    - Vepsian(Plus culture)
+#    - Vepsian (Plus culture)
 #
 ####################################################################
 
@@ -230,40 +229,41 @@ finno_ugric = {
 	}
 	
 	mari = {
-	 graphical_cultures = { ugricgfx }
+		graphical_cultures = { ugricgfx }
+
+		color = { 0.45 0.70 0.85 }
 		
-	color = { 0.45 0.70 0.85 }
-    male_names = {
-		Acha Atyamas Azyren
-		Chever Chyn Chumbylat 
-		Echan Echuk
-		Kandesh Keshyr Kuzo
-		Iakte Itza Izi Ilashi Ioshkari 
-	    Ludo Lum 
-		Meran Muran 
-		Narynesh 
-		Onchych 
-		Pire Pyrys 
-		Ryvysh 
-		Sai 
-		Tumo Tunyash Uryem Ushan 
-		Shem Shogan Shogash Shonsho 
-	}
-	
-    female_names = {
-        Aivika Aka Azaka 
-		Bate Bata 
-		Chevera Chodura
-		Ely Esha Esa 
-		Iakta Iara Ilasha Ioshkara Ioratash 
-		Kanda Kora Kogorchen 
-		Lyve Lyzhga 
-		Mour Mura 
-		Naryncha 
-		Ubyr Udyr Una Ushana Uzhara 
-		Salika Saya Shema Shuzhar 
-		Tavea 
-     }
+		male_names = {
+			Acha Atyamas Azyren
+			Chever Chyn Chumbylat 
+			Echan Echuk
+			Kandesh Keshyr Kuzo
+			Iakte Itza Izi Ilashi Ioshkari 
+			Ludo Lum 
+			Meran Muran 
+			Narynesh 
+			Onchych 
+			Pire Pyrys 
+			Ryvysh 
+			Sai 
+			Tumo Tunyash Uryem Ushan 
+			Shem Shogan Shogash Shonsho 
+		}
+		
+		female_names = {
+			Aivika Aka Azaka 
+			Bate Bata 
+			Chevera Chodura
+			Ely Esha Esa 
+			Iakta Iara Ilasha Ioshkara Ioratash 
+			Kanda Kora Kogorchen 
+			Lyve Lyzhga 
+			Mour Mura 
+			Naryncha 
+			Ubyr Udyr Una Ushana Uzhara 
+			Salika Saya Shema Shuzhar 
+			Tavea 
+		}
 		
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
@@ -271,7 +271,6 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	
-
 	mordvin = {
 		graphical_cultures = { ugricgfx }
 
@@ -366,7 +365,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	
-		vepsian = {
+	vepsian = {
 		graphical_cultures = { ugricgfx }
 
 		color = { 0.5 0.5 0.5 }

@@ -1,8 +1,10 @@
 ####################################################################
 #
-#	East African
-#	 - Daju
-#	 - Nubian
+#	Eastern Sudanic
+#	 - Daju*
+#	 - Nubian*
+#
+#   * indicates a vanilla culture moved to a different group
 #
 ####################################################################
 

@@ -1,13 +1,13 @@
 ####################################################################
 #
-#	Georgian
+#	Kartvelian
 #	 - Georgian*
 #
 #	* indicates a vanilla culture moved to a different group
 #
 ####################################################################
 
-georgian_group = {
+kartvelian_group = {
 	graphical_cultures =  { easterngfx }
 
 	georgian = {

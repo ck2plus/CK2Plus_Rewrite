@@ -1,9 +1,9 @@
 ####################################################################
 #
-#	West African (Niger-Congo)
-#	 - Mande
+#	Niger-Congo (west_african)
+#	 - Mandinka (manden)
 #	 - Soninke
-#	 - Sosso (Plus culture)
+#	 - Susu (sosso) (Plus culture)
 #	 - Wolof (Plus culture)
 #
 ####################################################################

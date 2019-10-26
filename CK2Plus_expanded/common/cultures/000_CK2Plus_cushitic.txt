@@ -1,8 +1,11 @@
 ####################################################################
 #
-#	East African
+#	Cushitic
+#	 - Afar (Plus culture)
 #	 - Beja (Plus culture)
-#	 - Somali
+#	 - Somali*
+#
+#   * indicates a vanilla culture moved to a different group
 #
 ####################################################################
 
@@ -17,6 +20,49 @@ cushitic_group = {
 	}
 
 	graphical_cultures = { muslimgfx }
+
+	afar = { # NOTE ask SWMH again as they seem to have a better namelist
+		graphical_cultures = { africangfx westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.2 0.2 0.1 }
+
+		male_names = {
+			Abdul Abdulkadir Adam Ahmad Ahmed Ali Alimirah Aref Asa Aydahis
+			Badlay Basu Bourhan
+			Daoud_David Dileita
+			Gaas Garad Gashaw
+			Habib Hanfere
+			Illalta
+			Jamal Jasa
+			Kadhafo Kedafu
+			Mafatah Mahammad_Muhammed Mansur Mirah Mohamooda_Mahmud Muhyadin
+			Netsanet
+			Redo
+			Sabr Shamsa
+			Umar Usman
+			Yayyo_John
+		}
+
+		female_names = {
+			Aisha Amina
+			Dohra
+			Fatima Fatuma
+			Hana Hate
+			Kalasa Koyna
+			Laa Layla Lilou
+			Maryam_Maria Meqe
+			Nadia
+			Saaku Salaamata
+			Use
+			Yasmin
+		}
+
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}
 
 	beja = {
 		graphical_cultures = { africangfx }
@@ -69,7 +115,6 @@ cushitic_group = {
 
 		modifier = default_culture_modifier
 	}
-
 
 	somali = {
 		graphical_cultures = { africangfx westafricangfx }
