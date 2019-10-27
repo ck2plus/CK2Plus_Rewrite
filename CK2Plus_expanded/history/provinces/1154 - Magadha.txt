@@ -26,3 +26,6 @@ religion = buddhist
 	b_odantapuri = tp_barracks_1
 	b_odantapuri = tp_wall_1
 }
+1185.1.1 = { 
+        religion = hindu
+}

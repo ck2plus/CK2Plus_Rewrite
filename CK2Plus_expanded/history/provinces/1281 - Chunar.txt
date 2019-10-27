@@ -15,6 +15,10 @@ religion = buddhist
 
 # History
 
+1175.1.1 = { 
+        religion = hindu
+}
+
 1193.1.1={
 	b_kantit = castle	#Continuation of Gahadvala sidebranch
 }

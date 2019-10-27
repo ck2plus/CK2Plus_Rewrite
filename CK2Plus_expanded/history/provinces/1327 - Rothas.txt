@@ -16,3 +16,7 @@ culture = bihari
 religion = buddhist
 
 # History
+
+1175.1.1 = { 
+        religion = hindu
+}
