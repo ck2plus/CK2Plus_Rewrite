@@ -17,7 +17,7 @@ b_dalaborg = tribal
 #b_mellerud
 
 # Misc
-culture = swedish
+culture = geatish
 religion = norse_pagan
 
 # History

@@ -17,7 +17,7 @@ b_lacko = tribal
 
 
 # Misc
-culture = swedish
+culture = geatish
 religion = norse_pagan
 
 # History

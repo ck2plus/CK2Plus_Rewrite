@@ -19,7 +19,7 @@ b_uttersberg = tribal
 #b_jonkoping = city
 
 # Misc
-culture = swedish
+culture = geatish
 religion = norse_pagan
 
 # History

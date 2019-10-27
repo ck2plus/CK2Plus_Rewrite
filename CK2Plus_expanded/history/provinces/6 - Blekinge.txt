@@ -16,7 +16,7 @@ b_solvesborg = tribal
 #b_solvesborg_slott = castle
 
 # Misc
-culture = geatish
+culture = danish
 religion = norse_pagan
 
 # History

@@ -16,7 +16,7 @@ b_varberg = tribal
 #b_getinge = castle
 
 # Misc
-culture = geatish
+culture = danish
 religion = norse_pagan
 
 # History

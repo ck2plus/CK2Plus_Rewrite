@@ -17,7 +17,7 @@ b_lund = temple
 #b_malmo = city
 
 # Misc
-culture = geatish
+culture = danish
 religion = norse_pagan
 terrain = farmlands
 
