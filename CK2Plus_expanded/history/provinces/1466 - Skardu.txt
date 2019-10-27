@@ -19,8 +19,11 @@ religion = bon # Intermarriage and active Tibetization
 # History
 965.1.1 = {
 	religion = buddhist # Tibetan presence gone
-	culture = panjabi # Tibetan presence gone
+	culture = dardic # Tibetan presence gone
 }
 1050.1.1 = { 
         religion = hindu
+} 
+1120.1.1 = { 
+        religion = sunni
 } 
