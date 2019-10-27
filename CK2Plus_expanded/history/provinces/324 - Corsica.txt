@@ -15,19 +15,12 @@ b_morosaglia = temple
 #b_algajola = castle
 
 # Misc
-<<<<<<< HEAD
-culture = italian #sardinian
-=======
 culture = corsican
->>>>>>> a232198... Corsica assigned proper culture
 religion = catholic
 terrain = mountain
 
 # History
-<<<<<<< HEAD
 725.1.1 = { culture = lombard }
 828.1.1 = { culture = italian }
-=======
->>>>>>> a232198... Corsica assigned proper culture
 1077.1.1 = { trade_post = b_della_gherardesca }
 1138.1.1 = { trade_post = b_fieschi }

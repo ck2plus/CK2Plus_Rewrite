@@ -161,7 +161,7 @@ turkic_group = {
 
 		modifier = default_culture_modifier
 	}
-	
+
 	bashkir = { # Oghur Turkish
 		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
@@ -169,43 +169,43 @@ turkic_group = {
 		color = { 0.8 0.75 0.35 }
 
 		male_names = {
-			Afzaletdin Aglametdin Airat Akhat Akhmat Almaz Amir Amirkhan Anuar Anwar Aryslan Aðham Axkam Axmatzaki Aybulat Aydar Aygiz Ayhiliw Ayrat Azamat 
-			Bagiz Bariy Baygötdin Bayras Bikbulat Borxan Büre 
-			Dayan Dim 
-			Fannur Fanur Farit Fayzulla Fazulla 
+			Afzaletdin Aglametdin Airat Akhat Akhmat Almaz Amir Amirkhan Anuar Anwar Aryslan Aðham Axkam Axmatzaki Aybulat Aydar Aygiz Ayhiliw Ayrat Azamat
+			Bagiz Bariy Baygötdin Bayras Bikbulat Borxan Büre
+			Dayan Dim
+			Fannur Fanur Farit Fayzulla Fazulla
 			Gabidulla Gali_Ali Galim Galimyan Gaysa Gaziz Gilemdar Gilmetdin Göbayðulla Gotbetdin Gümar_Umar
-			Haziy 
+			Haziy
 			Ildus Ilfat Ilgiz Ilnur Il'yas Irandek Irek Iskandar_Alexander Islambek Islametdin Islamgali
-			Kamaletdin Khabibulla Khakim Khamza Khaydar Khosayen_Hussayn 
-			Makhmut Marvan Mazhit Minhažetdin Mintimer Mirgayaz Mirxayzar Mortaza Muhammed-Gabdulkhay Möxammatša_Muhammad Mullayan Musarif 
-			Nagim Nazhip Nigmat Nigmatulla Nil Nögös 
-			Radik Ramazan Ramil Rashit Rasül Rawef Rif Rifqat Rishat Röstam Rustem 
-			Sabir Sabit Sagit Sahit Salawat Salim SamatSarif Sayet Shaikhislam  Shaikhzada Singid Solayman_Solomon
-			Tagir Talgat Talgat Talxa Tashtemir Tayfur Taymaç Timerkhan 
-			Uyildan 
-			Vafa Vakhit Vener Vildan 
-			Xabir Xamza Xasan Xaydar Xozaybirgan Yahüza 
-			Yakhya Yamil Yaqup Yawdat Yaxya Yomabay Yosop_JosephYulay 
+			Kamaletdin Khabibulla Khakim Khamza Khaydar Khosayen_Hussayn
+			Makhmut Marvan Mazhit Minhažetdin Mintimer Mirgayaz Mirxayzar Mortaza Muhammed-Gabdulkhay Möxammatša_Muhammad Mullayan Musarif
+			Nagim Nazhip Nigmat Nigmatulla Nil Nögös
+			Radik Ramazan Ramil Rashit Rasül Rawef Rif Rifqat Rishat Röstam Rustem
+			Sabir Sabit Sagit Sahit Salawat Salim Samat Sarif Sayet Shaikhislam  Shaikhzada Singid Solayman_Solomon
+			Tagir Talgat Talgat Talxa Tashtemir Tayfur Taymaç Timerkhan
+			Uyildan
+			Vafa Vakhit Vener Vildan
+			Xabir Xamza Xasan Xaydar Xozaybirgan Yahüza
+			Yakhya Yamil Yaqup Yawdat Yaxya Yomabay Yosop_Joseph Yulay
 			Zaki Zakiryan Zaynulla Zofar
 		}
 
 		female_names = {
-			Aigol Albina Alfia Alia Almabika Almaz Amina Anisa Asia Aybika Aygol Ayša 
-			Bakira Banat Baniw Bayrambika Baz?ar Bibi 
-			Elvira 
-			Fanüna Fariza Farzana Firüza Flyura 
-			Gawhar Gölbaniw Gölsina Golsira Guzal Guzalia Guzel 
-			Hadia 
-			Laysan Lilia Lyalya 
-			Madina Maryam Maymüna Menawra Milawša Milawsha 
-			Narkas Nazhiba Nuriya 
-			Raikhana Ramila Ramzila Ramziya Rasima Rayxana Rezeda Rezida 
-			Sabila Sakina Salima Saria Saüda Šawra Shaura Sulpan 
-			Tanhiliw Tanzila Tanzilya 
-			Vafa Vildan  
-			Xafasa Xazisa 
-			Yamila Yomabika Yüvayria 
-			Zabira Zaynab Zaytuna Zilia Ziliya Zilya Z?layxa  Zöhra Zolaykha Zolfia Zolkhiza Zukhra 
+			Aigol Albina Alfia Alia Almabika Almaz Amina Anisa Asia Aybika Aygol Ayša
+			Bakira Banat Baniw Bayrambika Baz?ar Bibi
+			Elvira
+			Fanüna Fariza Farzana Firüza Flyura
+			Gawhar Gölbaniw Gölsina Golsira Guzal Guzalia Guzel
+			Hadia
+			Laysan Lilia Lyalya
+			Madina Maryam Maymüna Menawra Milawša Milawsha
+			Narkas Nazhiba Nuriya
+			Raikhana Ramila Ramzila Ramziya Rasima Rayxana Rezeda Rezida
+			Sabila Sakina Salima Saria Saüda Šawra Shaura Sulpan
+			Tanhiliw Tanzila Tanzilya
+			Vafa Vildan
+			Xafasa Xazisa
+			Yamila Yomabika Yüvayria
+			Zabira Zaynab Zaytuna Zilia Ziliya Zilya Z?layxa Zöhra Zolaykha Zolfia Zolkhiza Zukhra
 		}
 
 		modifier = default_culture_modifier
@@ -327,6 +327,7 @@ turkic_group = {
 		male_names = {
 			Adigh Adïgh Aghulïq Agut Alïp Alïpqutlugh Alïpshalçi Alïpshul Alïptegin Anar Apït Aqunçï Arslan Aruq Asuq Aydaq Ayçur
 			Bagha Baghïr Barçuq Barïs Barïsbek Baytash Bayça Bayïrqu Bazir Bilge Bilgä Bilgätegin Boyla Bughra Bughraçuq Bumin Bumïn Buqa Buqaçuq Buquq Buyruq Bögü Bökiye Böri Böritegin Börtil Bülin Bülün Büri
+			Çaghrï Çaça Çañ Çeküñ Çeçem Çigshi Çigsü Çor Çuçi Çuçibüri
 			Ebiztir Elig Eltugun Elçi Eneligçur Enoz Erdem Eregje Erin Erkin Esdem Eshime Eshinke Etmish Eçshün
 			Hïdïr
 			Iletmish Ilmïsh Ilterish Iltughun Ilçur Inançu Inek Inel Isbar Ïshbara Istämi Ïtaçïq
@@ -338,8 +339,8 @@ turkic_group = {
 			Qapaghan Qarabarïs Qazghaq Qumash Qunï Qutlugh
 			Saghunaq Saghçïq Sagun Satuq Satuqbughra Sebük Sebüktegin Señram Shalçi Shughur Shöñüz Shümül Soge Suluk Süçüg
 			Tabgaç Tadqïsh Tadqïshçor Tafaç Tamgaç Tamghan Tamghançur Tapa Tardu Tardush Tarqan Tatpar Tegin Tekesh Tersin Teñirikän Tinsi Tirig Toghan Toghrïl Togluq Tojgan Torghul Toñga Toñra Toñrategin Toñuz Tugan Tughrul Tugun Tunyuquq Tutuq Töles Tömür Tüzmish
-			Üçsi Udun Udur Üge Ülüg Umaç Uqugh Uruñ Ushlik Yaghïzçor Yaghïçi Yamtar Yaraq Yaruq Yaruqtegin Yarïsh Yigençur Yola Yollughtegin Yolluq Yorçïn Yïlqï
-			Çaghrï Çaça Çañ Çeküñ Çeçem Çigshi Çigsü Çor Çuçi Çuçibüri
+			Üçsi Udun Udur Üge Ülüg Umaç Uqugh Uruñ Ushlik
+			Yaghïzçor Yaghïçi Yamtar Yaraq Yaruq Yaruqtegin Yarïsh Yigençur Yola Yollughtegin Yolluq Yorçïn Yïlqï
 		}
 
 		female_names = {
@@ -418,8 +419,8 @@ turkic_group = {
 
 		modifier = default_culture_modifier
 	}
-	
-	kipchak = { # Kipchak 
+
+	kipchak = { # Kipchak
 		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 
@@ -475,22 +476,21 @@ turkic_group = {
 		male_names = {
 			Aday Adigh Adïgh Aghulïq Agut Aka Alas Alcibay Alïp Alïpshalçi Alïpshul Amas Anar Anis Apït Aqunçï Arslan Aruk Aruq Astaançï Astam Asuq Aya Ayaltïn Ayan Ayas Aydaq Aydas Ayçur
 			Bagha Baghïr Barsbeg Barçuq Barïs Barïsbek Bayça Bayïrqu Bilge Bilgä Boyla Bughra Bumin Bumïn Buqa Buqaçuq Buquq Buyruq Bögü Bökiye Böri Börtil Bülin Bülün Büri
+			Çabas Çalbah Çama Çarkop Çayah Çaça Çañ Çeküñ Çeçem Çigshi Çigsü Çiis Çola Çolbanah Çor Çortah Çudan Çuhul Çuçi Çuçibüri Çïnma
 			Ebiztir Elig Eltugun Elçi Eneligçur Enoz Erdem Eregje Erin Erkin Esdem Eshime Eshinke Etmish Eçshün
 			Hozan
-			Iletmish Ilterish Iltughun Ilçur Inançu Inek Inel Isbar Ïshbara Istämi
+			Iletmish Ilterish Iltughun Ilçur Inançu Inek Inel Isbar Ïshbara Istämi Ïtaçïq
 			Jaglaqar Jegen Jegin Jelme Jükün Jüküntirig Jürküñ Jürüküm Jüz Jüzyapïq Jüçi Jämï
 			Kanza Kara Karol Ketim Keçig Kokan Kokotoy Kökmish Köpek Körtile Kügir Kül Kültegin Kültudun Külçur Külüg Küni Kürebir Kürtel Küske Küçlüg Küçurï
 			Manas Maqaraç Maqraç Mukan Mukka Mustakkay Mäñlik
 			Oghlan Oghul Oghulbarïs Ontutuq Oudun Ozmush Oçan
+			Öge Ögüne Örge Özmish Öztoghdï Özyegen Özüge Özünçü Öçen
 			Parush Pülüñ
 			Qapaghan Qarabarïs Qazghaq Qumash Qunï Qutlugh
 			Saghunaq Saghçïq Sanaan Sappash Seitek Semetei Señram Shadrash Shalçi Shapkay Sheltrek Shughur Shöñüz Shümül Sodan Süçüg
 			Tadqïsh Tadqïshçor Talay Tamghan Tamghançur Tapa Tardu Tardush Tarqan Tatpar Tegin Tekesh Tersin Teñirikän Tinsi Tirig Toghan Toghrïl Togluq Tojgan Tolday Torday Tottolush Toñra Toñrategin Toñuz Tugan Tugun Tunyuquq Tutuq Töles Tömür Tülgü Tüzmish
 			Üçsi Udun Udur Üge Ulug Ülüg Ulugbash Umaç Uqugh Uruñ
 			Yaghïzçor Yaghïçi Yamtar Yapïq Yaraq Yaruq Yaruqtegin Yarïsh Yigençur Yola Yollughtegin Yolluq Yorçïn Yïlqï
-			Çabas Çalbah Çama Çarkop Çayah Çaça Çañ Çeküñ Çeçem Çigshi Çigsü Çiis Çola Çolbanah Çor Çortah Çudan Çuhul Çuçi Çuçibüri Çïnma
-			Ïtaçïq
-			Öge Ögüne Örge Özmish Öztoghdï Özyegen Özüge Özünçü Öçen
 		}
 
 		female_names = {
@@ -568,7 +568,7 @@ turkic_group = {
 
 		modifier = default_culture_modifier
 	}
-	
+
 	tatar = { # Turco-Mongol
 		graphical_cultures = { mongolgfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
@@ -576,50 +576,50 @@ turkic_group = {
 		color = { 0.65 0.45 0.25 }
 
 		male_names = {
-		    Abuzar Ahmyetgali Ahtar Airat Aizat Akhat Akhmat Alikber Almaz Amat-Khan Amazat Amerhan Amir Amircan Amirkhan Ansar Anvar Axmat Axmatzaki Axmatzyan Aydar Ayrat Azgar 
-            Batu Barak Bayan Bayaz Baytimer Biktimer 
-			Çiñgiz Chimtay 
+		    Abuzar Ahmyetgali Ahtar Airat Aizat Akhat Akhmat Alikber Almaz Amat-Khan Amazat Amerhan Amir Amircan Amirkhan Ansar Anvar Axmat Axmatzaki Axmatzyan Aydar Ayrat Azgar
+            Batu Barak Bayan Bayaz Baytimer Biktimer
+			Çiñgiz Chimtay
 			Edege Erzen
-			Fannur Farhat Farit Fayzulla Firdaves Firdavis 
-            Gabdelxaliq Gabdennasir Gabdulla Gadel Galim Gazizilmetdin  
-            Ildus Ilfar Ilfat Ilgam Ilgiz Ilkay Ilsat Ilshat Irek Iskandar__Alexander Iskhak Islametdin 
+			Fannur Farhat Farit Fayzulla Firdaves Firdavis
+            Gabdelxaliq Gabdennasir Gabdulla Gadel Galim Gazizilmetdin
+            Ildus Ilfar Ilfat Ilgam Ilgiz Ilkay Ilsat Ilshat Irek Iskandar_Alexander Iskhak Islametdin
             Karim Khabibulla Khamza Khaydar Khosaen Köcma
             Latyyf Linar
-            Makhmut_Mahmud Mazhit Mintimer Mirzaj Möbin Möxammat__Muhammad Möxammatcan Möxammatša_Muhammad 
+            Makhmut_Mahmud Mazhit Mintimer Mirzaj Möbin Möxammat_Muhammad Möxammatcan Möxammatša_Muhammad
             Nacip Narat Nariman Nigmat
-			Pulad  
-			Radik Radiq Rafaal Rail Ramil Rashit Rawil Rif Rishat Rushan Rustem 
-			Sabircan Sagit Sahit Sarif Sayet Sharifzyan Solayman_Solomon 
+			Pulad
+			Radik Radiq Rafaal Rail Ramil Rashit Rawil Rif Rishat Rushan Rustem
+			Sabircan Sagit Sahit Sarif Sayet Sharifzyan Solayman_Solomon
 			Temur-Malik Timerkhan Timerkotlyk Toktamish Toqtaqiya Timur Tuqa-Timur
 			Ulugh Urus
-			Vakhit 
-			Xabib Xabir Xaliulla Xamza Xasan_Hasan Xaydar 
+			Vakhit
+			Xabib Xabir Xaliulla Xamza Xasan_Hasan Xaydar
 			Yuldash
-			Zagip Zagir Zahit Zaki Zaribzyan Zaynulla Zinetula Zofar 
+			Zagip Zagir Zahit Zaki Zaribzyan Zaynulla Zinetula Zofar
 		}
-		
-	   female_names = {	
+
+	   female_names = {
 		  Adela Aininoor AizatAlbina Alfia Alfira Alfiya Alia Alina Alisa Almaz Alsu Altinçaç Altynbike Altynchüra Amina Anisa Asia Aygol Aysilu Aznagool
-		  Baghazat Bagida Bayaz Bibigaysa Bika 
-		  Çayana Chachak 
-		  Damira Dilbar Dinara 
-		  Elmira Elvira Faniya 
-		  Farida Firaya Firdausa Firdaves Firüza Flyura 
-		  Galia Gawhar Gaysa Gaysabika Golchachak Gölnara Gölnaz Gölsem Gölzada Gusel Guzalia  
-		  Ildusa Ilnara Ilsia Ilsura 
-		  Kailya Khadicha 
-		  Landysh Laysan Lia Lilia Lyalya 
-		  Madina Maftukha Malika Maryam Marziya Mavzida Milawsha Milyausha 
-		  Naciba Nailya Nurdzhamal Nuriya 
-		  Oigul 
-		  Ramziya Rezeda Rezida 
-		  Salavat Samsinisa Saniya Sayfiya Shamsijamal Sibay Sirazi Söyembika 
-		  Talia Taliga Talkha Tansilu Tansylu Tanzila 
-		  Urazbike 
-		  Varakiya Vasila 
-		  Xabira Xaliulla 
-		  Yuldus 
-		  Zahida Zakhira Zaynap Zaytuna Zifa Ziliya Zilya Zohra Zolaykha Zölayxa Zolfiya Zukhra Zulfiya 
+		  Baghazat Bagida Bayaz Bibigaysa Bika
+		  Çayana Chachak
+		  Damira Dilbar Dinara
+		  Elmira Elvira Faniya
+		  Farida Firaya Firdausa Firdaves Firüza Flyura
+		  Galia Gawhar Gaysa Gaysabika Golchachak Gölnara Gölnaz Gölsem Gölzada Gusel Guzalia
+		  Ildusa Ilnara Ilsia Ilsura
+		  Kailya Khadicha
+		  Landysh Laysan Lia Lilia Lyalya
+		  Madina Maftukha Malika Maryam Marziya Mavzida Milawsha Milyausha
+		  Naciba Nailya Nurdzhamal Nuriya
+		  Oigul
+		  Ramziya Rezeda Rezida
+		  Salavat Samsinisa Saniya Sayfiya Shamsijamal Sibay Sirazi Söyembika
+		  Talia Taliga Talkha Tansilu Tansylu Tanzila
+		  Urazbike
+		  Varakiya Vasila
+		  Xabira Xaliulla
+		  Yuldus
+		  Zahida Zakhira Zaynap Zaytuna Zifa Ziliya Zilya Zohra Zolaykha Zölayxa Zolfiya Zukhra Zulfiya
 		}
 
 		from_dynasty_prefix = "of"

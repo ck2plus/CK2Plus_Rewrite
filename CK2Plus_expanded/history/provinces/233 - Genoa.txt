@@ -19,7 +19,7 @@ religion = catholic
 # History
 
 849.1.1 = { culture = ligurian }
-867.1.1 = { 
+867.1.1 = {
 	b_genoa = ct_wall_1
 	b_genoa = ct_wall_2
 	b_genoa = ct_port_1
@@ -36,7 +36,6 @@ religion = catholic
 	b_luna = ca_wall_2
 	b_luna = ca_shipyard_1
 	b_rapallo = tp_shipyard_1
-	b_savona = ct_shipyard_1
 }
 1066.1.1 = {
 	trade_post = b_doria
