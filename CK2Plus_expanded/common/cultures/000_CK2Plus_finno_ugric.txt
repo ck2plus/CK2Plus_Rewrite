@@ -182,6 +182,49 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 
+	mari = {
+		graphical_cultures = { ugricgfx }
+
+		color = { 0.45 0.70 0.85 }
+		
+		male_names = {
+			Acha Atyamas Azyren
+			Chever Chyn Chumbylat 
+			Echan Echuk
+			Kandesh Keshyr Kuzo
+			Iakte Itza Izi Ilashi Ioshkari 
+			Ludo Lum 
+			Meran Muran 
+			Narynesh 
+			Onchych 
+			Pire Pyrys 
+			Ryvysh 
+			Sai 
+			Tumo Tunyash Uryem Ushan 
+			Shem Shogan Shogash Shonsho 
+		}
+		
+		female_names = {
+			Aivika Aka Azaka 
+			Bate Bata 
+			Chevera Chodura
+			Ely Esha Esa 
+			Iakta Iara Ilasha Ioshkara Ioratash 
+			Kanda Kora Kogorchen 
+			Lyve Lyzhga 
+			Mour Mura 
+			Naryncha 
+			Ubyr Udyr Una Ushana Uzhara 
+			Salika Saya Shema Shuzhar 
+			Tavea 
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
+	
 	meshchera = {
 		graphical_cultures = { ugricgfx }
 
@@ -223,49 +266,6 @@ finno_ugric = {
 
 		from_dynasty_prefix = "of "
 
-		founder_named_dynasties = yes
-
-		modifier = default_culture_modifier
-	}
-	
-	mari = {
-		graphical_cultures = { ugricgfx }
-
-		color = { 0.45 0.70 0.85 }
-		
-		male_names = {
-			Acha Atyamas Azyren
-			Chever Chyn Chumbylat 
-			Echan Echuk
-			Kandesh Keshyr Kuzo
-			Iakte Itza Izi Ilashi Ioshkari 
-			Ludo Lum 
-			Meran Muran 
-			Narynesh 
-			Onchych 
-			Pire Pyrys 
-			Ryvysh 
-			Sai 
-			Tumo Tunyash Uryem Ushan 
-			Shem Shogan Shogash Shonsho 
-		}
-		
-		female_names = {
-			Aivika Aka Azaka 
-			Bate Bata 
-			Chevera Chodura
-			Ely Esha Esa 
-			Iakta Iara Ilasha Ioshkara Ioratash 
-			Kanda Kora Kogorchen 
-			Lyve Lyzhga 
-			Mour Mura 
-			Naryncha 
-			Ubyr Udyr Una Ushana Uzhara 
-			Salika Saya Shema Shuzhar 
-			Tavea 
-		}
-		
-		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
