@@ -1,32 +1,32 @@
-1000252116 = {
+1000020001 = {
 	name = "Montcada"
 	culture = catalan
 }
-1000252117 = {
+1000020002 = {
 	name = "de Ventimigliese"
 	culture = catalan
 }
-1000252130 = {
+1000020003 = {
 	name = "de Liorna"
 	culture = catalan
 }
-1000252136 = {
+1000020004 = {
 	name = "de Borja"
 	culture = catalan
 }
-1000252137 = {
+1000020005 = {
 	name = "za Furlanija"
 	culture = catalan
 }
-1000253010 = {
-	name = "de LlÃºria"
+1000020006 = {
+	name = "de Llúria"
 	culture = catalan
 }
-1000124040 = {
+1000020007 = {
 	name = "Zacco"
 	culture = catalan
 }
-1000124092 = {
+1000020008 = {
 	name = "de Caganer"
 	culture = catalan
 }

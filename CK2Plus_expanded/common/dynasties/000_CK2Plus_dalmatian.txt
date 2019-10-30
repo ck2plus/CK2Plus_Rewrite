@@ -1,260 +1,260 @@
-1000037072 = {
+1000029001 = {
 	name = "Sebenico"
 	culture = dalmatian
 }
-1000124036 = {
+1000029002 = {
 	name = "Zacco"
 	culture = dalmatian
 }
-1000124156 = {
+1000029003 = {
 	name = "d'Istria"
 	culture = dalmatian
 }
-1000124795 = {
+1000029004 = {
 	name = "Silvio"
 	culture = dalmatian
 }
-1000252135 = {
+1000029005 = {
 	name = "Dauria"
 	culture = dalmatian
 }
-1000252949 = {
-	name = "Clemen혳i"
+1000029006 = {
+	name = "Clemen쉏"
 	culture = dalmatian
 }
-1000252950 = {
+1000029007 = {
 	name = "Castelicci"
 	culture = dalmatian
 }
-1000252951 = {
+1000029008 = {
 	name = "Coroccec"
 	culture = dalmatian
 }
-1000252952 = {
+1000029009 = {
 	name = "Crainic"
 	culture = dalmatian
 }
-1000252953 = {
+1000029010 = {
 	name = "Laccovissi"
 	culture = dalmatian
 }
-1000252954 = {
+1000029011 = {
 	name = "Sarcotissi"
 	culture = dalmatian
 }
-1000252955 = {
+1000029012 = {
 	name = "Cranovicci"
 	culture = dalmatian
 }
-1000252956 = {
+1000029013 = {
 	name = "Magorovicco"
 	culture = dalmatian
 }
-1000252957 = {
-	name = "Or혳ic"
+1000029014 = {
+	name = "Or쉏c"
 	culture = dalmatian
 }
-1000252958 = {
+1000029015 = {
 	name = "Sorcoccevi"
 	culture = dalmatian
 }
-1000252959 = {
+1000029016 = {
 	name = "Zovanovicci"
 	culture = dalmatian
 }
-1000252960 = {
+1000029017 = {
 	name = "Saraca"
 	culture = dalmatian
 }
-1000252961 = {
-	name = "Beri혳lavo"
+1000029018 = {
+	name = "Beri쉕avo"
 	culture = dalmatian
 }
-1000252962 = {
+1000029019 = {
 	name = "Zirincci"
 	culture = dalmatian
 }
-1000252963 = {
+1000029020 = {
 	name = "Milinarico"
 	culture = dalmatian
 }
-1000252964 = {
+1000029021 = {
 	name = "Domagos"
 	culture = dalmatian
 }
-1000252965 = {
+1000029022 = {
 	name = "Babons"
 	culture = dalmatian
 }
-1000252966 = {
+1000029023 = {
 	name = "Francopan"
 	culture = dalmatian
 }
-1000252967 = {
+1000029024 = {
 	name = "Bassan"
 	culture = dalmatian
 }
-1000252968 = {
-	name = "혡vetoslava"
+1000029025 = {
+	name = "둽etoslava"
 	culture = dalmatian
 }
-1000252969 = {
-	name = "Cre혳imiro"
+1000029026 = {
+	name = "Cre쉏miro"
 	culture = dalmatian
 }
-1000252970 = {
-	name = "Tripirovi혳i"
+1000029027 = {
+	name = "Tripirovi쉏"
 	culture = dalmatian
 }
-1000252971 = {
+1000029028 = {
 	name = "Zacaria"
 	culture = dalmatian
 }
-1000252972 = {
+1000029029 = {
 	name = "Maltraversa"
 	culture = dalmatian
 }
-1000252973 = {
+1000029030 = {
 	name = "Menccetti"
 	culture = dalmatian
 }
-1000252974 = {
+1000029031 = {
 	name = "Castropola"
 	culture = dalmatian
 }
-1000252975 = {
+1000029032 = {
 	name = "Dipola"
 	culture = dalmatian
 }
-1000252976 = {
+1000029033 = {
 	name = "Zorcci"
 	culture = dalmatian
 }
-1000252977 = {
-	name = "Bene혳ia"
+1000029034 = {
+	name = "Bene쉏a"
 	culture = dalmatian
 }
-1000252978 = {
+1000029035 = {
 	name = "Flavanico"
 	culture = dalmatian
 }
-1000252979 = {
+1000029036 = {
 	name = "Sercci"
 	culture = dalmatian
 }
-1000252980 = {
+1000029037 = {
 	name = "Loredano"
 	culture = dalmatian
 }
-1000252981 = {
-	name = "Dobri혳va"
+1000029038 = {
+	name = "Dobri쉡a"
 	culture = dalmatian
 }
-1000252982 = {
+1000029039 = {
 	name = "Doccas"
 	culture = dalmatian
 }
-1000252983 = {
+1000029040 = {
 	name = "Zian"
 	culture = dalmatian
 }
-1000252984 = {
+1000029041 = {
 	name = "Delfin"
 	culture = dalmatian
 }
-1000252985 = {
+1000029042 = {
 	name = "Morosini"
 	culture = dalmatian
 }
-1000252986 = {
+1000029043 = {
 	name = "Orseolo"
 	culture = dalmatian
 }
-1000252987 = {
-	name = "Debre혳a"
+1000029044 = {
+	name = "Debre쉆"
 	culture = dalmatian
 }
-1000252988 = {
+1000029045 = {
 	name = "Damancano"
 	culture = dalmatian
 }
-1000252989 = {
+1000029046 = {
 	name = "Daponto"
 	culture = dalmatian
 }
-1000252990 = {
+1000029047 = {
 	name = "Vetranova"
 	culture = dalmatian
 }
-1000252991 = {
+1000029048 = {
 	name = "Contarino"
 	culture = dalmatian
 }
-1000252992 = {
+1000029049 = {
 	name = "Colombo"
 	culture = dalmatian
 }
-1000252993 = {
+1000029050 = {
 	name = "Luka"
 	culture = dalmatian
 }
-1000252994 = {
-	name = "Partizipa혳io"
+1000029051 = {
+	name = "Partizipa쉏o"
 	culture = dalmatian
 }
-1000252995 = {
+1000029052 = {
 	name = "Rossa"
 	culture = dalmatian
 }
-1000252996 = {
+1000029053 = {
 	name = "Polani"
 	culture = dalmatian
 }
-1000252997 = {
+1000029054 = {
 	name = "Mosenico"
 	culture = dalmatian
 }
-1000252998 = {
+1000029055 = {
 	name = "Foscaro"
 	culture = dalmatian
 }
-1000252999 = {
+1000029056 = {
 	name = "Vetrano"
 	culture = dalmatian
 }
-1000253000 = {
+1000029057 = {
 	name = "Polo"
 	culture = dalmatian
 }
-1000253001 = {
+1000029058 = {
 	name = "Vallenti"
 	culture = dalmatian
 }
-1000253002 = {
+1000029059 = {
 	name = "Faliero"
 	culture = dalmatian
 }
-1000253003 = {
+1000029060 = {
 	name = "Mastropiro"
 	culture = dalmatian
 }
-1000253004 = {
+1000029061 = {
 	name = "Dandolo"
 	culture = dalmatian
 }
-1000253005 = {
+1000029062 = {
 	name = "Monetta"
 	culture = dalmatian
 }
-1000253006 = {
+1000029063 = {
 	name = "Scripari"
 	culture = dalmatian
 }
-1000253007 = {
-	name = "Pe혳iatora"
+1000029064 = {
+	name = "Pe쉏atora"
 	culture = dalmatian
 }
-1000253008 = {
+1000029065 = {
 	name = "Crivelli"
 	culture = dalmatian
 }

@@ -1,68 +1,68 @@
-1000124086 = {
+1000010001 = {
 	name = "I buedaden"
 	culture = bafour
 }
-1000124106 = {
+1000010002 = {
 	name = "Tingit"
 	culture = bafour
 }
-1000124107 = {
+1000010003 = {
 	name = "Nouakchott"
 	culture = bafour
 }
-1000124108 = {
+1000010004 = {
 	name = "Dakhla"
 	culture = bafour
 }
-1000124109 = {
+1000010005 = {
 	name = "Bojadour"
 	culture = bafour
 }
-1000124110 = {
+1000010006 = {
 	name = "Tingit"
 	culture = bafour
 }
-1000124111 = {
+1000010007 = {
 	name = "Fodid"
 	culture = bafour
 }
-1000124112 = {
+1000010008 = {
 	name = "Gaodid"
 	culture = bafour
 }
-1000124113 = {
+1000010009 = {
 	name = "Nuhid"
 	culture = bafour
 }
-1000124114 = {
+1000010010 = {
 	name = "Ishaqid"
 	culture = bafour
 }
-1000124115 = {
+1000010011 = {
 	name = "Oualid"
 	culture = bafour
 }
-1000124116 = {
+1000010012 = {
 	name = "Kaynad"
 	culture = bafour
 }
-1000124117 = {
+1000010013 = {
 	name = "Harunid"
 	culture = bafour
 }
-1000124118 = {
+1000010014 = {
 	name = "Igoumoud"
 	culture = bafour
 }
-1000124119 = {
+1000010015 = {
 	name = "Mamadid"
 	culture = bafour
 }
-1000124120 = {
+1000010016 = {
 	name = "Musaid"
 	culture = bafour
 }
-1000124121 = {
+1000010017 = {
 	name = "Dawudid"
 	culture = bafour
 }

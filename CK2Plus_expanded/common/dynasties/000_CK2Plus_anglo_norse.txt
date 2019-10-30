@@ -1,56 +1,56 @@
-1000124460 = {
+1000002001 = {
 	name = "Ingvar"
 	culture = anglo_norse
 }
-1000124461 = {
+1000002002 = {
 	name = "Styrmir"
 	culture = anglo_norse
 }
-1000124462 = {
+1000002003 = {
 	name = "Hreidas"
 	culture = anglo_norse
 }
-1000124463 = {
+1000002004 = {
 	name = "Kaupmann"
 	culture = anglo_norse
 }
-1000124464 = {
+1000002005 = {
 	name = "Svenis"
 	culture = anglo_norse
 }
-1000124465 = {
+1000002006 = {
 	name = "Odd"
 	culture = anglo_norse
 }
-1000124466 = {
+1000002007 = {
 	name = "Kabbi"
 	culture = anglo_norse
 }
-1000124467 = {
+1000002008 = {
 	name = "Hromund"
 	culture = anglo_norse
 }
-1000124468 = {
+1000002009 = {
 	name = "Havard"
 	culture = anglo_norse
 }
-1000124469 = {
+1000002010 = {
 	name = "Orgumleidi"
 	culture = anglo_norse
 }
-1000124470 = {
+1000002011 = {
 	name = "Folkmar"
 	culture = anglo_norse
 }
-1000124471 = {
+1000002012 = {
 	name = "Gauk"
 	culture = anglo_norse
 }
-1000124472 = {
+1000002013 = {
 	name = "Atli"
 	culture = anglo_norse
 }
-1000124473 = {
+1000002014 = {
 	name = "Hegg"
 	culture = anglo_norse
 }

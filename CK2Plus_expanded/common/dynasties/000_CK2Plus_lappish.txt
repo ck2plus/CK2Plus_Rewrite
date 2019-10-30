@@ -1,4 +1,4 @@
-1000124224 = {
+1000061001 = {
 	name = "Kraujas"
 	culture = lappish
 }

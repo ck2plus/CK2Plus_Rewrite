@@ -4,7 +4,7 @@
 #	 - Bedouin Arabic
 #	 - Egyptian Arabic
 #	 - Levantine Arabic
-#    - Mesopotamian Arabic (Plus culture)
+#    - Mesopotamian Arabic (iraqi) (Plus culture)
 #
 ####################################################################
 
@@ -50,7 +50,7 @@ arabic = {
 	}
 
 	egyptian_arabic = {
-		graphical_cultures = { levantinegfx arabicgfx muslimgfx }
+		graphical_cultures = { egyptiangfx arabicgfx muslimgfx }
 
 		color = { 0.1 0.6 0.1 }
 

@@ -1,28 +1,28 @@
-1000252096 = {
+1000000001 = {
 	name = "Karranid"
 	culture = afghan
 }
-1000252097 = {
+1000000002 = {
 	name = "Barakzai"
 	culture = afghan
 }
-1000252098 = {
+1000000003 = {
 	name = "Tokhid"
 	culture = afghan
 }
-1000252099 = {
+1000000004 = {
 	name = "Lodi"
 	culture = afghan
 }
-1000252100 = {
+1000000005 = {
 	name = "Nasherid"
 	culture = afghan
 }
-1000252101 = {
+1000000006 = {
 	name = "Hotaki"
 	culture = afghan
 }
-1000252102 = {
+1000000007 = {
 	name = "Karlani"
 	culture = afghan
 }

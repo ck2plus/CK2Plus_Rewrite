@@ -1,110 +1,110 @@
-1000253152 = {
+1000028001 = {
 	name = "Tajuwa" #Daju dynasty
 	culture = daju
 	religion = west_african_pagan
 }
-1000253153 = {
+1000028002 = {
 	name = "Nuba" #Tribal rulers of Nuba, not really daju, but can't have one province culture
 	culture = daju
 	religion = west_african_pagan
 }
-1000253154 = {
+1000028003 = {
 	name = "Shatt"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253155 = {
+1000028004 = {
 	name = "Liguri"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253156 = {
+1000028005 = {
 	name = "Daju Mongo"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253157 = {
+1000028006 = {
 	name = "Sila"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253158 = {
+1000028007 = {
 	name = "Nyala"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253159 = {
+1000028008 = {
 	name = "Bayko"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253160 = {
+1000028009 = {
 	name = "Njalgulgule"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253161 = {
-	name = "FurogÃ©"
+1000028010 = {
+	name = "Furogé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253162 = {
-	name = "TulindjigerkÃ©"
+1000028011 = {
+	name = "Tulindjigerké"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253163 = {
-	name = "ChortinengÃ©"
+1000028012 = {
+	name = "Chortinengé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253164 = {
-	name = "KalwakÃ©"
+1000028013 = {
+	name = "Kalwaké"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253165 = {
-	name = "SumbinangÃ©"
+1000028014 = {
+	name = "Sumbinangé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253166 = {
-	name = "BuharkÃ©"
+1000028015 = {
+	name = "Buharké"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253167 = {
-	name = "DufugÃ©"
+1000028016 = {
+	name = "Dufugé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253168 = {
-	name = "DambogÃ©"
+1000028017 = {
+	name = "Dambogé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253169 = {
-	name = "TumbugÃ©"
+1000028018 = {
+	name = "Tumbugé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253170 = {
-	name = "KeiawarkÃ©"
+1000028019 = {
+	name = "Keiawarké"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253171 = {
-	name = "AdajungÃ©"
+1000028020 = {
+	name = "Adajungé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253172 = {
-	name = "TarunungÃ©"
+1000028021 = {
+	name = "Tarunungé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000253173 = {
-	name = "DoruningÃ©"
+1000028022 = {
+	name = "Doruningé"
 	culture = daju
 	religion = west_african_pagan
 }

@@ -1,100 +1,100 @@
-1000124254 = {
+1000071001 = {
 	name = "Abrach"
 	culture = mizrahi
 }
-1000124255 = {
+1000071002 = {
 	name = "Khardun"
 	culture = mizrahi
 }
-1000124256 = {
+1000071003 = {
 	name = "Sasson"
 	culture = mizrahi
 }
-1000124257 = {
+1000071004 = {
 	name = "Hysh"
 	culture = mizrahi
 }
-1000124258 = {
+1000071005 = {
 	name = "Agmy"
 	culture = mizrahi
 }
-1000124259 = {
+1000071006 = {
 	name = "Zangi"
 	culture = mizrahi
 }
-1000124260 = {
+1000071007 = {
 	name = "Abocassis"
 	culture = mizrahi
 }
-1000124261 = {
+1000071008 = {
 	name = "Sabag"
 	culture = mizrahi
 }
-1000124262 = {
+1000071009 = {
 	name = "Biton"
 	culture = mizrahi
 }
-1000124263 = {
+1000071010 = {
 	name = "Hruschov"
 	culture = mizrahi
 }
-1000124264 = {
+1000071011 = {
 	name = "Sie"
 	culture = mizrahi
 }
-1000124265 = {
+1000071012 = {
 	name = "Boethus"
 	culture = mizrahi
 }
-1000124266 = {
+1000071013 = {
 	name = "Seth"
 	culture = mizrahi
 }
-1000124267 = {
+1000071014 = {
 	name = "Fabus"
 	culture = mizrahi
 }
-1000124268 = {
+1000071015 = {
 	name = "Ananus"
 	culture = mizrahi
 }
-1000124269 = {
+1000071016 = {
 	name = "Camithus"
 	culture = mizrahi
 }
-1000124270 = {
+1000071017 = {
 	name = "Kuppai"
 	culture = mizrahi
 }
-1000124271 = {
+1000071018 = {
 	name = "Simon"
 	culture = mizrahi
 }
-1000124272 = {
+1000071019 = {
 	name = "Camydus"
 	culture = mizrahi
 }
-1000124273 = {
+1000071020 = {
 	name = "Nebedeus"
 	culture = mizrahi
 }
-1000124274 = {
+1000071021 = {
 	name = "Fabus"
 	culture = mizrahi
 }
-1000124275 = {
+1000071022 = {
 	name = "Damneus"
 	culture = mizrahi
 }
-1000124276 = {
+1000071023 = {
 	name = "Gamaliel"
 	culture = mizrahi
 }
-1000124277 = {
+1000071024 = {
 	name = "Theophilus"
 	culture = mizrahi
 }
-1000124278 = {
+1000071025 = {
 	name = "Samuel"
 	culture = mizrahi
 }

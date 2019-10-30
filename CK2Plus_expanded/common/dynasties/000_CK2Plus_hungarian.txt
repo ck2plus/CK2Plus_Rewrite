@@ -1,8 +1,8 @@
-1000124155 = {
+1000047001 = {
 	name = "Fekete"
 	culture = hungarian
 }
-1000124160 = {
+1000047002 = {
 	name = "Glad"
 	culture = hungarian
 }

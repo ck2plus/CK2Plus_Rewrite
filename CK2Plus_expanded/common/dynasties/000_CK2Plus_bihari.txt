@@ -1,57 +1,57 @@
 
-1000103350 = {
+1000016001 = {
 	name="Somavamsi"
 	culture = bihari
 }
-1000103351 = {
+1000016002 = {
 	name="Bhanja"
 	culture = bihari
 }
-1000103352 = {
+1000016003 = {
 	name="Sulki"
-	culture = bihari	
+	culture = bihari
 }
-1000103353 = {
+1000016004 = {
 	name="Tunga"
-	culture = bihari	
+	culture = bihari
 }
-1000103354 = {
+1000016005 = {
 	name="Nandobhava"
-	culture = bihari	
+	culture = bihari
 }
-1000103355 = {
+1000016006 = {
 	name="Gajapati"
-	culture = bihari	
+	culture = bihari
 }
-1000103356 = {
+1000016007 = {
 	name="Mayura"
-	culture = bihari	
+	culture = bihari
 }
-1000103357 = {
+1000016008 = {
 	name="Shailobhava"
-	culture = bihari	
+	culture = bihari
 }
-1000103358 = {
+1000016009 = {
 	name="Kesari"
-	culture = bihari	
+	culture = bihari
 }
-1000103359 = {
+1000016010 = {
 	name="Nagavamsi"
 	culture = bihari
 }
-1000103360 = {
+1000016011 = {
 	name="Deva"
 	culture = bihari
 }
-1000103361 = {
+1000016012 = {
 	name="Rajrappa"
 	culture = bihari
 }
-1000103362 = {
+1000016013 = {
 	name="Pattikara"
 	culture = bihari
 }
-1000103363 = {
+1000016014 = {
 	name="Chero"
 	culture = bihari
 }

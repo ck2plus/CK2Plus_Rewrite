@@ -1,4 +1,4 @@
-1000124167 = {
+1000060001 = {
 	name = "Annazid"
 	culture = kurdish
 }

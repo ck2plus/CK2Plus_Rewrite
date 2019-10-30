@@ -1,88 +1,88 @@
-1000124063 = {
+1000069001 = {
 	name = "Khoto"
 	culture = manden
 }
-1000124064 = {
+1000069002 = {
 	name = "Djata"
 	culture = manden
 }
-1000124065 = {
+1000069003 = {
 	name = "Za"
 	culture = manden
 }
-1000124066 = {
+1000069004 = {
 	name = "Sonni"
 	culture = manden
 }
-1000124067 = {
+1000069005 = {
 	name = "Askiya"
 	culture = manden
 }
-1000124068 = {
+1000069006 = {
 	name = "Bory"
 	culture = manden
 }
-1000124069 = {
+1000069007 = {
 	name = "Denanke"
 	culture = manden
 }
-1000124070 = {
+1000069008 = {
 	name = "Laye"
 	culture = manden
 }
-1000124071 = {
+1000069009 = {
 	name = "Haye"
 	culture = manden
 }
-1000124072 = {
+1000069010 = {
 	name = "Kawkaw"
 	culture = manden
 }
-1000124492 = {
+1000069011 = {
 	name = "Askiya"
 	culture = manden
 }
-1000124493 = {
+1000069012 = {
 	name = "Khoto"
 	culture = manden
 }
-1000124494 = {
+1000069013 = {
 	name = "Za"
 	culture = manden
 }
-1000124495 = {
+1000069014 = {
 	name = "Denanke"
 	culture = manden
 }
-1000124496 = {
+1000069015 = {
 	name = "Haye"
 	culture = manden
 }
-1000124497 = {
+1000069016 = {
 	name = "Djata"
 	culture = manden
 }
-1000124498 = {
+1000069017 = {
 	name = "Sonni"
 	culture = manden
 }
-1000124499 = {
+1000069018 = {
 	name = "Bory"
 	culture = manden
 }
-1000124500 = {
+1000069019 = {
 	name = "Kawkaw"
 	culture = manden
 }
-1000124501 = {
+1000069020 = {
 	name = "Akba"
 	culture = manden
 }
-1000124516 = {
+1000069021 = {
 	name = "Cisse"
 	culture = manden
 }
-1000124517 = {
+1000069022 = {
 	name = "Bassi"
 	culture = manden
 }

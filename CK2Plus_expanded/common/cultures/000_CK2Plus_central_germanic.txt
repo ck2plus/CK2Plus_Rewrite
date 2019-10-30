@@ -6,7 +6,7 @@
 #	 - Franconian (Plus culture)(E)
 #	 - Imperial German (Plus culture)(D)
 #	 - Longobard
-#	 - (Old) Saxon
+#	 - Saxon (old_saxon)
 #	 - Suebi
 #	 - Swabian (Plus culture)(E)
 #	 - Swiss (Plus culture)(E)

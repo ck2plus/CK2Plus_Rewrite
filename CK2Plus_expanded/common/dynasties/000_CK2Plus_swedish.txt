@@ -1,52 +1,52 @@
-1000053700 = {
+1000105001 = {
 	name = "Tillbakaseende Ulv"
 	culture = swedish
 }
-1000053701 = {
+1000105002 = {
 	name = "Hand"
 	culture = swedish
 }
-1000053702 = {
+1000105003 = {
 	name = "Uggla"
 	culture = swedish
 }
-1000053703 = {
+1000105004 = {
 	name = "Gyllenstierna"
 	culture = swedish
 }
-1000053704 = {
-	name = "HÃ¤st"
+1000105005 = {
+	name = "Häst"
 	culture = swedish
 }
-1000053705 = {
-	name = "SabelskjÃ¶ld"
+1000105006 = {
+	name = "Sabelskjöld"
 	culture = swedish
 }
-1000053706 = {
+1000105007 = {
 	name = "Gumsehuvud"
 	culture = swedish
 }
-1000053707 = {
+1000105008 = {
 	name = "Barun"
 	culture = swedish
 }
-1000053708 = {
+1000105009 = {
 	name = "Forstena"
 	culture = swedish
 }
-1000053709 = {
+1000105010 = {
 	name = "Sandbro"
 	culture = swedish
 }
-1000053710 = {
+1000105011 = {
 	name = "Ama"
 	culture = swedish
 }
-1000053711 = {
-	name = "Ã–rnfot"
+1000105012 = {
+	name = "Örnfot"
 	culture = swedish
 }
-1000124090 = {
+1000105013 = {
 	name = "Anward"
 	culture = swedish
 }

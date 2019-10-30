@@ -1,36 +1,36 @@
-1000124125 = {
+1000093001 = {
 	name = "of Chester"
 	culture = saxon
 }
-1000124126 = {
+1000093002 = {
 	name = "Rota"
 	culture = saxon
 }
-1000124127 = {
+1000093003 = {
 	name = "Cerdicingas"
 	culture = saxon
 }
-1000124128 = {
+1000093004 = {
 	name = "of Defnascir"
 	culture = saxon
 }
-1000124133 = {
+1000093005 = {
 	name = "Halfkyng"
 	culture = saxon
 }
-1000124134 = {
+1000093006 = {
 	name = "Of East Saexe"
 	culture = saxon
 }
-1000124216 = {
+1000093007 = {
 	name = "of Gewisse"
 	culture = saxon
 }
-1000124217 = {
+1000093008 = {
 	name = "of Leicester"
 	culture = saxon
 }
-1000124226 = {
+1000093009 = {
 	name = "of Glastonbury"
 	culture = saxon
 }

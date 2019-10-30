@@ -1,72 +1,72 @@
-1000124790 = {
+1000035001 = {
 	name = "Foschi"
 	culture = emilian
 }
-1000252221 = {
+1000035002 = {
 	name = "Vitale"
 	culture = emilian
 }
-1000252222 = {
+1000035003 = {
 	name = "di Salizzolo"
 	culture = emilian
 }
-1000252223 = {
+1000035004 = {
 	name = "di Castello"
 	culture = emilian
 }
-1000252224 = {
+1000035005 = {
 	name = "Michele"
 	culture = emilian
 }
-1000252225 = {
+1000035006 = {
 	name = "di Bonacolsi"
 	culture = emilian
 }
-1000252226 = {
+1000035007 = {
 	name = "di Carmona"
 	culture = emilian
 }
-1000252227 = {
-	name = "di BulÃ¥ggna"
+1000035008 = {
+	name = "di Bulåggna"
 	culture = emilian
 }
-1000252228 = {
+1000035009 = {
 	name = "Segatori"
 	culture = emilian
 }
-1000252229 = {
+1000035010 = {
 	name = "Colombo"
 	culture = emilian
 }
-1000252230 = {
-	name = "di RavÃ¨na"
+1000035011 = {
+	name = "di Ravèna"
 	culture = emilian
 }
-1000252231 = {
+1000035012 = {
 	name = "Ravelli"
 	culture = emilian
 }
-1000252232 = {
+1000035013 = {
 	name = "Scannabecchi"
 	culture = emilian
 }
-1000252233 = {
+1000035014 = {
 	name = "Pizzicolli"
 	culture = emilian
 }
-1000252234 = {
+1000035015 = {
 	name = "Torelli"
 	culture = emilian
 }
-1000252235 = {
+1000035016 = {
 	name = "Bentivoglio"
 	culture = emilian
 }
-1000252236 = {
-	name = "da VrÃ³cc"
+1000035017 = {
+	name = "da Vrócc"
 	culture = emilian
 }
-1000252237 = {
+1000035018 = {
 	name = "di Carrara"
 	culture = emilian
 }

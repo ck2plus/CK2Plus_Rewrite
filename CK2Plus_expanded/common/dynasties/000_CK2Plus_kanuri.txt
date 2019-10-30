@@ -1,44 +1,44 @@
-1000253065 = {
+1000056001 = {
 	name = "Duguwa"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000253066 = {
+1000056002 = {
 	name = "Sayfawa"
 	culture = kanuri
 	religion = sunni
 }
-1000253067 = {
+1000056003 = {
 	name = "Dabbalemi"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000253068 = {
+1000056004 = {
 	name = "Teda"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000253069 = {
+1000056005 = {
 	name = "Tumari"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000253070 = {
+1000056006 = {
 	name = "Bare Bari"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000253071 = {
+1000056007 = {
 	name = "Mangari"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000253072 = {
+1000056008 = {
 	name = "Kanembu"
 	culture = kanuri
 	religion = sunni
 }
-1000253073 = {
+1000056009 = {
 	name = "Sefuwa"
 	culture = kanuri
 	religion = sunni

@@ -1,348 +1,348 @@
-1000053401 = {
+1000065001 = {
 	name = "Palemonas"
 	culture = lithuanian
 }
-1000053405 = {
+1000065002 = {
 	name = "Kentauras"
 	culture = lithuanian
 }
-1000053406 = {
+1000065003 = {
 	name = "Mingailaitis"
 	culture = lithuanian
 }
-1000053407 = {
-	name = "LeliuÂšas"
+1000065004 = {
+	name = "Leliušas"
 	culture = lithuanian
 }
-1000053408 = {
+1000065005 = {
 	name = "Daugirdas"
 	culture = lithuanian
 }
-1000053409 = {
+1000065006 = {
 	name = "Butrimas"
 	culture = lithuanian
 }
-1000053488 = {
+1000065007 = {
 	name = "Sapiega"
 	culture = lithuanian
 }
-1000053489 = {
+1000065008 = {
 	name = "Oginskis"
 	culture = lithuanian
 }
-1000053410 = {
+1000065009 = {
 	name = "Abromavicius"
 	culture = lithuanian
 }
-1000053411 = {
+1000065010 = {
 	name = "Iljinicius"
 	culture = lithuanian
 }
-1000053412 = {
+1000065011 = {
 	name = "Valavicius"
 	culture = lithuanian
 }
-1000053413 = {
+1000065012 = {
 	name = "Gosievskis"
 	culture = lithuanian
 }
-1000053414 = {
+1000065013 = {
 	name = "Olielkaitis"
 	culture = lithuanian
 }
-1000053415 = {
+1000065014 = {
 	name = "Bilevicius"
 	culture = lithuanian
 }
-1000053416 = {
+1000065015 = {
 	name = "Masalskis"
 	culture = lithuanian
 }
-1000053417 = {
+1000065016 = {
 	name = "Chreptavicius"
 	culture = lithuanian
 }
-1000053418 = {
+1000065017 = {
 	name = "Chaleckis"
 	culture = lithuanian
 }
-1000053419 = {
-	name = "KiÂška"
+1000065018 = {
+	name = "Kiška"
 	culture = lithuanian
 }
-1000053420 = {
+1000065019 = {
 	name = "Korsakas"
 	culture = lithuanian
 }
-1000053421 = {
+1000065020 = {
 	name = "Gelgaudas"
 	culture = lithuanian
 }
-1000053422 = {
+1000065021 = {
 	name = "Zbarackis"
 	culture = lithuanian
 }
-1000053423 = {
+1000065022 = {
 	name = "Nemiraitis"
 	culture = lithuanian
 }
-1000053424 = {
+1000065023 = {
 	name = "Putiaticius"
 	culture = lithuanian
 }
-1000053425 = {
+1000065024 = {
 	name = "Glinskis"
 	culture = lithuanian
 }
-1000053426 = {
+1000065025 = {
 	name = "Nemirovicius"
 	culture = lithuanian
 }
-1000053427 = {
-	name = "ZaviÂša"
+1000065026 = {
+	name = "Zaviša"
 	culture = lithuanian
 }
-1000053428 = {
+1000065027 = {
 	name = "Kmita"
 	culture = lithuanian
 }
-1000053490 = {
+1000065028 = {
 	name = "Bareikis"
 	culture = lithuanian
 }
-1000053429 = {
+1000065029 = {
 	name = "Siesickis"
 	culture = lithuanian
 }
-1000053430 = {
+1000065030 = {
 	name = "Tyzenhauzas"
 	culture = lithuanian
 }
-1000053431 = {
+1000065031 = {
 	name = "Stravinskis"
 	culture = lithuanian
 }
-1000053432 = {
-	name = "SluÂška"
+1000065032 = {
+	name = "Sluška"
 	culture = lithuanian
 }
-1000053433 = {
+1000065033 = {
 	name = "Bialozoras"
 	culture = lithuanian
 }
-1000053434 = {
+1000065034 = {
 	name = "Klocka"
 	culture = lithuanian
 }
-1000053435 = {
+1000065035 = {
 	name = "Palubinskis"
 	culture = lithuanian
 }
-1000053436 = {
+1000065036 = {
 	name = "Galminas"
 	culture = lithuanian
 }
-1000053437 = {
+1000065037 = {
 	name = "Mindaugas"
 	culture = lithuanian
 }
-1000053438 = {
+1000065038 = {
 	name = "Pociejus"
 	culture = lithuanian
 }
-1000053439 = {
+1000065039 = {
 	name = "Zenovicius"
 	culture = lithuanian
 }
-1000053440 = {
-	name = "ÂŽaba"
+1000065040 = {
+	name = "Žaba"
 	culture = lithuanian
 }
-1000053441 = {
+1000065041 = {
 	name = "Hilzenas"
 	culture = lithuanian
 }
-1000053442 = {
-	name = "BurÂžinskis"
+1000065042 = {
+	name = "Buržinskis"
 	culture = lithuanian
 }
-1000053443 = {
+1000065043 = {
 	name = "Davaina"
 	culture = lithuanian
 }
-1000053444 = {
+1000065044 = {
 	name = "Chmara"
 	culture = lithuanian
 }
-1000053445 = {
+1000065045 = {
 	name = "Jablonovskis"
 	culture = lithuanian
 }
-1000053446 = {
+1000065046 = {
 	name = "Niesiolovskis"
 	culture = lithuanian
 }
-1000053447 = {
+1000065047 = {
 	name = "Kopecis"
 	culture = lithuanian
 }
-1000053448 = {
+1000065048 = {
 	name = "Denhofas"
 	culture = lithuanian
 }
-1000053449 = {
+1000065049 = {
 	name = "Potockis"
 	culture = lithuanian
 }
-1000053450 = {
+1000065050 = {
 	name = "Sasnauskis"
 	culture = lithuanian
 }
-1000053451 = {
-	name = "KirÂšenÂšteinas"
+1000065051 = {
+	name = "Kiršenšteinas"
 	culture = lithuanian
 }
-1000053452 = {
+1000065052 = {
 	name = "Karpis"
 	culture = lithuanian
 }
-1000053453 = {
-	name = "DimÂša"
+1000065053 = {
+	name = "Dimša"
 	culture = lithuanian
 }
-1000053454 = {
+1000065054 = {
 	name = "Stulpinas"
 	culture = lithuanian
 }
-1000053455 = {
+1000065055 = {
 	name = "Babenskas"
 	culture = lithuanian
 }
-1000053456 = {
+1000065056 = {
 	name = "Liubenskas"
 	culture = lithuanian
 }
-1000053457 = {
+1000065057 = {
 	name = "Nagurskis"
 	culture = lithuanian
 }
-1000053458 = {
+1000065058 = {
 	name = "Butkevicius"
 	culture = lithuanian
 }
-1000053459 = {
+1000065059 = {
 	name = "Darbutas"
 	culture = lithuanian
 }
-1000053460 = {
+1000065060 = {
 	name = "Eitiminavicius"
 	culture = lithuanian
 }
-1000053461 = {
+1000065061 = {
 	name = "Mackevicius"
 	culture = lithuanian
 }
-1000053462 = {
+1000065062 = {
 	name = "Jocas"
 	culture = lithuanian
 }
-1000053463 = {
+1000065063 = {
 	name = "Batavicius"
 	culture = lithuanian
 }
-1000053464 = {
-	name = "ÂŽutautas"
+1000065064 = {
+	name = "Žutautas"
 	culture = lithuanian
 }
-1000053465 = {
+1000065065 = {
 	name = "Gedvilas"
 	culture = lithuanian
 }
-1000053466 = {
-	name = "VaiÂšvila"
+1000065066 = {
+	name = "Vaišvila"
 	culture = lithuanian
 }
-1000053467 = {
+1000065067 = {
 	name = "Kazlauskas"
 	culture = lithuanian
 }
-1000053468 = {
+1000065068 = {
 	name = "Koreivas"
 	culture = lithuanian
 }
-1000053469 = {
+1000065069 = {
 	name = "Daunoravicius"
 	culture = lithuanian
 }
-1000053470 = {
+1000065070 = {
 	name = "Bulatas"
 	culture = lithuanian
 }
-1000053471 = {
+1000065071 = {
 	name = "Beizimas"
 	culture = lithuanian
 }
-1000053472 = {
+1000065072 = {
 	name = "Ditka"
 	culture = lithuanian
 }
-1000053473 = {
-	name = "BruÂška"
+1000065073 = {
+	name = "Bruška"
 	culture = lithuanian
 }
-1000053474 = {
+1000065074 = {
 	name = "Daugirdaitis"
 	culture = lithuanian
 }
-1000053475 = {
+1000065075 = {
 	name = "Baranauskas"
 	culture = lithuanian
 }
-1000053476 = {
+1000065076 = {
 	name = "Jakimavicius"
 	culture = lithuanian
 }
-1000053477 = {
+1000065077 = {
 	name = "Rusteikis"
 	culture = lithuanian
 }
-1000053478 = {
+1000065078 = {
 	name = "Hludzinskis"
 	culture = lithuanian
 }
-1000053479 = {
+1000065079 = {
 	name = "Ginvilas"
 	culture = lithuanian
 }
-1000053480 = {
+1000065080 = {
 	name = "Druckis"
 	culture = lithuanian
 }
-1000053481 = {
+1000065081 = {
 	name = "Vambutaitis"
 	culture = lithuanian
 }
-1000053482 = {
+1000065082 = {
 	name = "Vambuts"
 	culture = lithuanian
 }
-1000053483 = {
+1000065083 = {
 	name = "Rozmiras"
 	culture = lithuanian
 }
-1000053484 = {
+1000065084 = {
 	name = "Ustarbauskis"
 	culture = lithuanian
 }
-1000053485 = {
-	name = "ÂŽabauskas"
+1000065085 = {
+	name = "Žabauskas"
 	culture = lithuanian
 }
-1000053486 = {
+1000065086 = {
 	name = "Naurutavicius"
 	culture = lithuanian
 }
-1000053487 = {
+1000065087 = {
 	name = "Pociejunas"
 	culture = lithuanian
 }

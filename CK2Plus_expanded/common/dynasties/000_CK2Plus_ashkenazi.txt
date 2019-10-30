@@ -1,40 +1,40 @@
-1000124244 = {
+1000007001 = {
 	name = "Ackermann"
 	culture = ashkenazi
 }
-1000124245 = {
+1000007002 = {
 	name = "Brenner"
 	culture = ashkenazi
 }
-1000124246 = {
+1000007003 = {
 	name = "Neuman"
 	culture = ashkenazi
 }
-1000124247 = {
+1000007004 = {
 	name = "Schneider"
 	culture = ashkenazi
 }
-1000124248 = {
+1000007005 = {
 	name = "Wasserstein"
 	culture = ashkenazi
 }
-1000124249 = {
+1000007006 = {
 	name = "Rosental"
 	culture = ashkenazi
 }
-1000124250 = {
+1000007007 = {
 	name = "Kraus"
 	culture = ashkenazi
 }
-1000124251 = {
+1000007008 = {
 	name = "Rosenzweig"
 	culture = ashkenazi
 }
-1000124252 = {
+1000007009 = {
 	name = "Schmulewitz"
 	culture = ashkenazi
 }
-1000124253 = {
+1000007010 = {
 	name = "Stieglitz"
 	culture = ashkenazi
 }

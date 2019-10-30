@@ -1,72 +1,72 @@
-1000124618 = {
+1000104001 = {
 	name = "Hunfriding" #aka Burcharding or Bouchardid
 	culture = swabian
 }
-1000124619 = {
+1000104002 = {
 	name = "von Dettingen"
 	culture = swabian
 }
-1000124620 = {
+1000104003 = {
 	name = "von Rothenburg"
 	culture = swabian
 }
-1000124621 = {
+1000104004 = {
 	name = "Bodrich"
 	culture = swabian
 }
-1000124622 = {
+1000104005 = {
 	name = "von Walbeck"
 	culture = swabian
 }
-1000124623 = {
+1000104006 = {
 	name = "von Erbach"
 	culture = swabian
 }
-1000124624 = {
+1000104007 = {
 	name = "von Rikdag"
 	culture = swabian
 }
-1000124625 = {
+1000104008 = {
 	name = "Ardennes"
 	culture = swabian
 }
-1000124747 = {
-	name = "von GÃ¼nzburg"
+1000104009 = {
+	name = "von Günzburg"
 	culture = swabian
 }
-1000124748 = {
-	name = "von DonauwÃ¶rth"
+1000104010 = {
+	name = "von Donauwörth"
 	culture = swabian
 }
-1000124749 = {
+1000104011 = {
 	name = "von Sonthofen"
 	culture = swabian
 }
-1000124750 = {
+1000104012 = {
 	name = "von Wertingen"
 	culture = swabian
 }
-1000124751 = {
-	name = "von UnterallgÃ¤u"
+1000104013 = {
+	name = "von Unterallgäu"
 	culture = swabian
 }
-1000124752 = {
+1000104014 = {
 	name = "von Bodensee"
 	culture = swabian
 }
-1000124753 = {
+1000104015 = {
 	name = "von Augsburg"
 	culture = swabian
 }
-1000124754 = {
+1000104016 = {
 	name = "Abeln"
 	culture = swabian
 }
-1000124756 = {
-	name = "AdlersflÃ¼gel"
+1000104017 = {
+	name = "Adlersflügel"
 	culture = swabian
 }
-1000124758 = {
+1000104018 = {
 	name = "Bocker"
 	culture = swabian
 }

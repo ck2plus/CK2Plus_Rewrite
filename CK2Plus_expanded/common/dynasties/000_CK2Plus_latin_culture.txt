@@ -1,84 +1,84 @@
-1000124299 = {
+1000062001 = {
 	name = "Orisnos"
 	culture = latin_culture
 }
-1000124300 = {
+1000062002 = {
 	name = "Dandolos"
 	culture = latin_culture
 }
-1000124301 = {
+1000062003 = {
 	name = "Gabrasola"
 	culture = latin_culture
 }
-1000124302 = {
+1000062004 = {
 	name = "Aarada"
 	culture = latin_culture
 }
-1000124303 = {
+1000062005 = {
 	name = "Palizzinos"
 	culture = latin_culture
 }
-1000124304 = {
+1000062006 = {
 	name = "Tzimiglia"
 	culture = latin_culture
 }
-1000124305 = {
+1000062007 = {
 	name = "Kurtikella"
 	culture = latin_culture
 }
-1000124306 = {
+1000062008 = {
 	name = "Murzurato"
 	culture = latin_culture
 }
-1000124307 = {
+1000062009 = {
 	name = "Mastrios"
 	culture = latin_culture
 }
-1000124308 = {
+1000062010 = {
 	name = "Aleranos"
 	culture = latin_culture
 }
-1000124309 = {
+1000062011 = {
 	name = "Viscontos"
 	culture = latin_culture
 }
-1000124310 = {
+1000062012 = {
 	name = "Armeniaffo"
 	culture = latin_culture
 }
-1000124311 = {
+1000062013 = {
 	name = "Falios"
 	culture = latin_culture
 }
-1000124312 = {
+1000062014 = {
 	name = "Logotio"
 	culture = latin_culture
 }
-1000124313 = {
+1000062015 = {
 	name = "Contarinos"
 	culture = latin_culture
 }
-1000124314 = {
+1000062016 = {
 	name = "Skaramo"
 	culture = latin_culture
 }
-1000124315 = {
+1000062017 = {
 	name = "Synkebecchi"
 	culture = latin_culture
 }
-1000124316 = {
+1000062018 = {
 	name = "Caeteas"
 	culture = latin_culture
 }
-1000124317 = {
+1000062019 = {
 	name = "Ardocharzanios"
 	culture = latin_culture
 }
-1000124318 = {
+1000062020 = {
 	name = "Bonimatas"
 	culture = latin_culture
 }
-1000124319 = {
+1000062021 = {
 	name = "Thopia"
 	culture = latin_culture
 	coat_of_arms = {

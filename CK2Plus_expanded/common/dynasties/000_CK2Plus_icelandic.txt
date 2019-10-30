@@ -1,80 +1,80 @@
-1000252067 = {
-	name = "√ùsbirningar"
+1000048001 = {
+	name = "›sbirningar"
 	culture = icelandic
 }
-1000252068 = {
+1000048002 = {
 	name = "Oddaverjar"
 	culture = icelandic
 }
-1000252069 = {
-	name = "Haukd√¶lir"
+1000048003 = {
+	name = "HaukdÊlir"
 	culture = icelandic
 }
-1000252070 = {
-	name = "Vatnsfir√∞ingar"
+1000048004 = {
+	name = "Vatnsfiringar"
 	culture = icelandic
 }
-1000252071 = {
-	name = "Sv√≠nfellingar"
+1000048005 = {
+	name = "SvÌnfellingar"
 	culture = icelandic
 }
-1000252072 = {
+1000048006 = {
 	name = "Sturlungar"
 	culture = icelandic
 }
-1000252073 = {
+1000048007 = {
 	name = "af Orkneyjar"
 	culture = icelandic
 }
-1000252074 = {
+1000048008 = {
 	name = "Wulfling"
 	culture = icelandic
 }
-1000252075 = {
-	name = "St√≥rr"
+1000048009 = {
+	name = "StÛrr"
 	culture = icelandic
 }
-1000252076 = {
+1000048010 = {
 	name = "Ulfling"
 	culture = icelandic
 }
-1000252077 = {
-	name = "Smi√∞r"
+1000048011 = {
+	name = "Smir"
 	culture = icelandic
 }
-1000252078 = {
+1000048012 = {
 	name = "Trolli"
 	culture = icelandic
 }
-1000252079 = {
+1000048013 = {
 	name = "Kven"
 	culture = icelandic
 }
-1000252080 = {
-	name = "H√°rde"
+1000048014 = {
+	name = "H·rde"
 	culture = icelandic
 }
-1000252081 = {
-	name = "Ing√≥lfing"
+1000048015 = {
+	name = "IngÛlfing"
 	culture = icelandic
 }
-1000252082 = {
-	name = "af F√¶reyjar"
+1000048016 = {
+	name = "af FÊreyjar"
 	culture = icelandic
 }
-1000252083 = {
+1000048017 = {
 	name = "Hrafn"
 	culture = icelandic
 }
-1000252084 = {
-	name = "Austma√∞r"
+1000048018 = {
+	name = "Austmar"
 	culture = icelandic
 }
-1000252085 = {
-	name = "S√∫rr"
+1000048019 = {
+	name = "S˙rr"
 	culture = icelandic
 }
-1000252086 = {
-	name = "√ûvari"
+1000048020 = {
+	name = "ﬁvari"
 	culture = icelandic
 }

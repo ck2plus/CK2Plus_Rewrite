@@ -1,68 +1,68 @@
-1000124601 = {
+1000005001 = {
 	name = "Gojdu"
 	culture = aromanian
 }
-1000124602 = {
+1000005002 = {
 	name = "Sinas"
 	culture = aromanian
 }
-1000124603 = {
+1000005003 = {
 	name = "Averoff"
 	culture = aromanian
 }
-1000124604 = {
+1000005004 = {
 	name = "Proeski"
 	culture = aromanian
 }
-1000124605 = {
+1000005005 = {
 	name = "Mocioni"
 	culture = aromanian
 }
-1000124606 = {
+1000005006 = {
 	name = "Gheorghe"
 	culture = aromanian
 }
-1000124607 = {
+1000005007 = {
 	name = "Hagi"
 	culture = aromanian
 }
-1000124608 = {
+1000005008 = {
 	name = "Mumu"
 	culture = aromanian
 }
-1000124609 = {
+1000005009 = {
 	name = "Djuvara"
 	culture = aromanian
 }
-1000124610 = {
+1000005010 = {
 	name = "Halep"
 	culture = aromanian
 }
-1000124611 = {
+1000005011 = {
 	name = "Guli"
 	culture = aromanian
 }
-1000124612 = {
+1000005012 = {
 	name = "Becali"
 	culture = aromanian
 }
-1000124613 = {
+1000005013 = {
 	name = "Bua"
 	culture = aromanian
 }
-1000124614 = {
+1000005014 = {
 	name = "Ghica"
 	culture = aromanian
 }
-1000124615 = {
+1000005015 = {
 	name = "Spata"
 	culture = aromanian
 }
-1000124616 = {
+1000005016 = {
 	name = "Balsic"
 	culture = aromanian
 }
-1000124617 = {
+1000005017 = {
 	name = "Buasic"
 	culture = aromanian
 }

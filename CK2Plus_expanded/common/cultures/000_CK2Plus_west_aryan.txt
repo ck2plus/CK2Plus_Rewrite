@@ -1,10 +1,13 @@
 ####################################################################
 #
 #	West Aryan
-#	 - Gujurati
-#	 - Panjabi
-#	 - Rajput
-#	 - Sindhi
+#	 - Dardic (Plus culture)
+#	 - Gujurati*
+#	 - Panjabi*
+#	 - Rajput*
+#	 - Sindhi*
+#
+#   * indicates a vanilla culture moved to a different group
 #
 ####################################################################
 
@@ -19,6 +22,53 @@ west_aryan_group = {
 	}
 
 	graphical_cultures = { indiangfx muslimgfx }
+
+	dardic = {
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.8 0.3 0.21 }
+
+		male_names = {
+			Ajit Amar "Amar Dasi" Amir Angad Arjun Atar
+			Basawa Bhagwant Bhaimani Budh
+			Chand Charat
+			Damodar Dasu Datu Dayaram Didar
+			Farid Fateh
+			Gobind Gurdita
+			Hargobind Hari "Har Krishan" "Har Rai"
+			"Jai Ram" Jetha Jujhar
+			Kalyan Kapur Kehar Kharak Khushal
+			Lahna Lakhmichand Laxman
+			Mahadev Mohan Mohri
+			Nanak Narayan Nodha
+			Partap Pheru Prithichand Prithvi
+			"Ram Rai" Ranjit Ranjor
+			Sahdev Shamsher Sher Srichand
+			"Tegh Bahadur" "Tej Bhan" Thakur
+			Zorawar
+		}
+
+		female_names = {
+			Amro Anokhi Anup
+			Begum Bhani
+			Dani
+			Gujri
+			Jodhabai
+			Khivi Kishan
+			Lachmi
+			Nanaki Nihal
+			Ramo
+			Sabhirai Sahib Sulakhni Sundari
+			Tripta
+		}
+
+		castes = yes
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
 
 	gujurati = {
 		graphical_cultures = { indiangfx muslimgfx }

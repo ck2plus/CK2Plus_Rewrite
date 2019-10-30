@@ -1,55 +1,67 @@
 
-1000102200 = {
+1000031001 = {
 	name="Kakuyid"
 	culture = daylamite
 	religion = shiite
 }
-1000102201 = {
+1000031002 = {
 	name="Buyid"
 	culture = daylamite
 	religion = shiite
 }
-1000102202 = {
+1000031003 = {
 	name="Rudbarid"
 	culture = daylamite
 }
-1000102203 = {
+1000031004 = {
 	name="Damghanid"
 	culture = daylamite
 	religion = sunni
 }
-1000102204 = {
+1000031005 = {
 	name="Shahanshavand"
 	culture = daylamite
 	religion = zoroastrian
 }
-1000102205 = {
+1000031006 = {
 	name="Sallarid"
 	culture = daylamite
 	religion = shiite
 }
-1000102207 = {
+1000031007 = {
 	name="Qazwinid"
 	culture = daylamite
 	religion = shiite
 }
-1000102208 = {
+1000031008 = {
 	name="Garshaspid"
 	culture = daylamite
 }
-1000102209 = {
+1000031009 = {
 	name="Faramurzid"
 	culture = daylamite
 }
-1000102210 = {
+1000031010 = {
 	name="Baqlid"
 	culture = daylamite
 }
-1000102211 = {
+1000031011 = {
 	name="Kiyadid"
 	culture = daylamite
 }
-1000102212 = {
+1000031012 = {
 	name="Lashkarwarzid"
+	culture = daylamite
+}
+1000031013 = {
+	name="Mosaferid"
+	culture = daylamite
+}
+1000031014 = {
+	name="Kangarid"
+	culture = daylamite
+}
+1000031015 = {
+	name="Jostanid"
 	culture = daylamite
 }

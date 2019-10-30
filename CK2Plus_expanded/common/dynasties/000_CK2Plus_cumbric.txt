@@ -1,296 +1,296 @@
-1001042648 = {
+1000027001 = {
 	name = "Allt"
 	culture = cumbric
 }
-1001042649 = {
+1000027002 = {
 	name = "Ban"
 	culture = cumbric
 }
-1001042650 = {
+1000027003 = {
 	name = "Bech"
 	culture = cumbric
 }
-1001042651 = {
+1000027004 = {
 	name = "Bel"
 	culture = cumbric
 }
-1001042652 = {
+1000027005 = {
 	name = "Bendith"
 	culture = cumbric
 }
-1001042653 = {
+1000027006 = {
 	name = "Blanc"
 	culture = cumbric
 }
-1001042654 = {
+1000027007 = {
 	name = "Braw"
 	culture = cumbric
 }
-1001042655 = {
+1000027008 = {
 	name = "Broch"
 	culture = cumbric
 }
-1001042656 = {
+1000027009 = {
 	name = "Bryd"
 	culture = cumbric
 }
-1001042657 = {
+1000027010 = {
 	name = "Bryn"
 	culture = cumbric
 }
-1001042658 = {
+1000027011 = {
 	name = "Cab"
 	culture = cumbric
 }
-1001042659 = {
+1000027012 = {
 	name = "Calw"
 	culture = cumbric
 }
-1001042660 = {
+1000027013 = {
 	name = "Canyd"
 	culture = cumbric
 }
-1001042661 = {
+1000027014 = {
 	name = "Car"
 	culture = cumbric
 }
-1001042662 = {
+1000027015 = {
 	name = "Clig"
 	culture = cumbric
 }
-1001042663 = {
+1000027016 = {
 	name = "Cybidd"
 	culture = cumbric
 }
-1001042664 = {
+1000027017 = {
 	name = "Cynsie"
 	culture = cumbric
 }
-1001042665 = {
+1000027018 = {
 	name = "Dere"
 	culture = cumbric
 }
-1001042666 = {
+1000027019 = {
 	name = "Dysbellur"
 	culture = cumbric
 }
-1001042667 = {
+1000027020 = {
 	name = "Ffeil"
 	culture = cumbric
 }
-1001042668 = {
+1000027021 = {
 	name = "Ffeirth"
 	culture = cumbric
 }
-1001042669 = {
+1000027022 = {
 	name = "Ffelig'"
 	culture = cumbric
 }
-1001042670 = {
+1000027023 = {
 	name = "Fferreir"
 	culture = cumbric
 }
-1001042671 = {
+1000027024 = {
 	name = "Ffrancis"
 	culture = cumbric
 }
-1001042672 = {
+1000027025 = {
 	name = "Ffurneir"
 	culture = cumbric
 }
-1001042673 = {
+1000027026 = {
 	name = "Glas"
 	culture = cumbric
 }
-1001042674 = {
+1000027027 = {
 	name = "Glythun"
 	culture = cumbric
 }
-1001042675 = {
+1000027028 = {
 	name = "Godwin"
 	culture = cumbric
 }
-1001042676 = {
+1000027029 = {
 	name = "Gran"
 	culture = cumbric
 }
-1001042677 = {
+1000027030 = {
 	name = "Gras"
 	culture = cumbric
 }
-1001042678 = {
+1000027031 = {
 	name = "Griffin"
 	culture = cumbric
 }
-1001042679 = {
+1000027032 = {
 	name = "Gris"
 	culture = cumbric
 }
-1001042680 = {
+1000027033 = {
 	name = "Gwefer"
 	culture = cumbric
 }
-1001042681 = {
+1000027034 = {
 	name = "Gwenadur"
 	culture = cumbric
 }
-1001042682 = {
+1000027035 = {
 	name = "Gwithur"
 	culture = cumbric
 }
-1001042683 = {
+1000027036 = {
 	name = "Harri"
 	culture = cumbric
 }
-1001042684 = {
+1000027037 = {
 	name = "Hewlin"
 	culture = cumbric
 }
-1001042685 = {
+1000027038 = {
 	name = "Iewen"
 	culture = cumbric
 }
-1001042686 = {
+1000027039 = {
 	name = "Lladda"
 	culture = cumbric
 }
-1001042687 = {
+1000027040 = {
 	name = "Llefan"
 	culture = cumbric
 }
-1001042688 = {
+1000027041 = {
 	name = "Lewan"
 	culture = cumbric
 }
-1001042689 = {
+1000027042 = {
 	name = "Llewein"
 	culture = cumbric
 }
-1001042690 = {
-	name = "LlÃ®neir"
+1000027043 = {
+	name = "Llîneir"
 	culture = cumbric
 }
-1001042691 = {
+1000027044 = {
 	name = "Llewel"
 	culture = cumbric
 }
-1001042692 = {
+1000027045 = {
 	name = "Lloneir"
 	culture = cumbric
 }
-1001042693 = {
+1000027046 = {
 	name = "Llyddwig"
 	culture = cumbric
 }
-1001042694 = {
+1000027047 = {
 	name = "Magr"
 	culture = cumbric
 }
-1001042695 = {
+1000027048 = {
 	name = "Manuel"
 	culture = cumbric
 }
-1001042696 = {
+1000027049 = {
 	name = "Meddig"
 	culture = cumbric
 }
-1001042697 = {
+1000027050 = {
 	name = "Mendes"
 	culture = cumbric
 }
-1001042698 = {
+1000027051 = {
 	name = "Molineir"
 	culture = cumbric
 }
-1001042699 = {
+1000027052 = {
 	name = "Morgan"
 	culture = cumbric
 }
-1001042700 = {
+1000027053 = {
 	name = "Muin"
 	culture = cumbric
 }
-1001042701 = {
+1000027054 = {
 	name = "Nesc'"
 	culture = cumbric
 }
-1001042702 = {
-	name = "NÃ®r"
+1000027055 = {
+	name = "Nîr"
 	culture = cumbric
 }
-1001042703 = {
+1000027056 = {
 	name = "Noc"
 	culture = cumbric
 }
-1001042704 = {
+1000027057 = {
 	name = "Pascen"
 	culture = cumbric
 }
-1001042705 = {
+1000027058 = {
 	name = "Pengras"
 	culture = cumbric
 }
-1001042706 = {
+1000027059 = {
 	name = "Penrhys"
 	culture = cumbric
 }
-1001042707 = {
+1000027060 = {
 	name = "Pereirin"
 	culture = cumbric
 }
-1001042708 = {
+1000027061 = {
 	name = "Prefder"
 	culture = cumbric
 }
-1001042709 = {
+1000027062 = {
 	name = "Rhedun"
 	culture = cumbric
 }
-1001042710 = {
+1000027063 = {
 	name = "Rhoch"
 	culture = cumbric
 }
-1001042711 = {
+1000027064 = {
 	name = "Rhui"
 	culture = cumbric
 }
-1001042712 = {
+1000027065 = {
 	name = "Rhys"
 	culture = cumbric
 }
-1001042713 = {
+1000027066 = {
 	name = "Saer"
 	culture = cumbric
 }
-1001042714 = {
+1000027067 = {
 	name = "Saeson"
 	culture = cumbric
 }
-1001042715 = {
+1000027068 = {
 	name = "Serw"
 	culture = cumbric
 }
-1001042716 = {
+1000027069 = {
 	name = "Teg"
 	culture = cumbric
 }
-1001042717 = {
+1000027070 = {
 	name = "Tew"
 	culture = cumbric
 }
-1001042718 = {
+1000027071 = {
 	name = "Traffer"
 	culture = cumbric
 }
-1001042719 = {
+1000027072 = {
 	name = "Uisel"
 	culture = cumbric
 }
-1001042720 = {
+1000027073 = {
 	name = "Yddael"
 	culture = cumbric
 }
-1001042721 = {
+1000027074 = {
 	name = "Yniwr"
 	culture = cumbric
 }

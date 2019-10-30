@@ -1,1 +1,81 @@
-# Dynasty Range 1.000.124.000 - 1.000.127.999
+# Officially Reserved Dynasty Range 1.000.124.000 - 1.000.127.999
+# Above was reserved for CK2+ in the very beginning, to ensure compatibility with other mods.
+# However, that method is outdated since the dynasties are now in the "extended" submod, which by default is incompatible with other mods.
+# So instead we will henceforth use a method that is easier to maintain for us.
+# Below, you will find the ranges actually used by the mod, per culture.
+
+# Original CK2+ cultures with dynasty ranges assigned alphabetically: (NOTE: Not finished yet!)
+
+#Afghan					
+#Afghan					
+#Albanian (arberian)	
+#Andalusian Arabic		
+#Andalusian Arabic		
+#Anglo-Norse			
+#Aragonese				
+#Aromanian				
+#Arpitan				
+#Azeri					
+#Bafour					
+#Bashkir				
+#Bavarian 				
+#Beja					
+#Bihari					
+#Burgundian				
+#Circassian				
+#Cornish				
+#Corsican				
+#Cumbrian				
+#Daylamite				
+#Dhivehi				
+#Emilian				
+#Flemish				
+#Franconian				
+#Gallawa				
+#Geatish				
+#Guanche				
+#Icelandic				
+#Imperial German		
+#Israeli				
+#Italian				
+#Khwarezmian			
+#Kipchak				
+#Latin					
+#Leonese				
+#Ligurian				
+#Lombard				
+#Luri					
+#Malayalam				
+#Mari					
+#Masmuda				
+#Mesopotamian			
+#Mizrahi				
+#Neapolitan				
+#Novgorodian			
+#Pontic					
+#Ruthenian				
+#Sanhaja				
+#Sicilian				
+#Siculo-Arabic			
+#Siculo-Greek			
+#Siculo-Norman			
+#Sosso 					
+#Swabian				
+#Swiss					
+#Teutonic 				
+#Thuringian				
+#Tigrinyan				
+#Tuareg					
+#Turco-Mongol			
+#Turkish (Anatolian)	
+#Tuscan					
+#Umbrian				
+#Venetian				
+#Vepsian				
+#Wolof					
+#Yugoslavian			
+#Zenatian				
+
+# Cultures that were added later and use additional dynasty ranges as specified:
+
+#(currently none)

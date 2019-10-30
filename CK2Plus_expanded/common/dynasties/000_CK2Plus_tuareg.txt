@@ -1,68 +1,68 @@
-1000253074 = {
+1000110001 = {
 	name = "Marwanid"
 	culture = tuareg
 }
-1000253075 = {
+1000110002 = {
 	name = "Issamid"
 	culture = tuareg
 }
-1000253076 = {
+1000110003 = {
 	name = "Ahmadid"
 	culture = tuareg
 }
-1000103053 = {
+1000110004 = {
 	name="Bagayid"
-	culture = tuareg	
+	culture = tuareg
 }
-1000103054 = {
+1000110005 = {
 	name="Ixid"
-	culture = tuareg	
+	culture = tuareg
 }
-1000103055 = {
+1000110006 = {
 	name="Xamidadid"
-	culture = tuareg	
+	culture = tuareg
 }
-1000103056 = {
+1000110007 = {
 	name="Lukid"
-	culture = tuareg	
+	culture = tuareg
 }
-1000103057 = {
+1000110008 = {
 	name="Ghanid"
-	culture = tuareg	
+	culture = tuareg
 }
-1000103058 = {
+1000110009 = {
 	name="Mahtarid"
-	culture = tuareg	
+	culture = tuareg
 }
-1000103059 = {
+1000110010 = {
 	name="Tijanid"
 	culture = tuareg
 }
-1000103060 = {
+1000110011 = {
 	name="Sifalid"
 	culture = tuareg
 }
-1000103061 = {
+1000110012 = {
 	name="Atissid"
 	culture = tuareg
 }
-1000103062 = {
+1000110013 = {
 	name="Mastanid"
 	culture = tuareg
 }
-1000103063 = {
+1000110014 = {
 	name="Jaffarid"
 	culture = tuareg
 }
-1000103064 = {
+1000110015 = {
 	name="Gallusid"
 	culture = tuareg
 }
-1000103065 = {
+1000110016 = {
 	name="Rahmanid"
 	culture = tuareg
 }
-1000103066 = {
+1000110017 = {
 	name="Buctuxid"
 	culture = tuareg
 }

@@ -1,117 +1,117 @@
 #Europa Divsia Garbage. Try to remove
 
-1000037001 = {
-	name = "Sedes Apostolica" # papautÃ© de Saint Lin au Concile de NicÃ©e (325 avec St Silvestre) # Poisson
+1000054001 = {
+	name = "Sedes Apostolica" # papauté de Saint Lin au Concile de Nicée (325 avec St Silvestre) # Poisson
 	culture = italian
 	used_for_random = no
 }
-1000037002 = {
-	name = "Urbs Ã‰piscopus" # papautÃ© entre 325 et 752 (Ã‰tienne II) # Crosse
+1000054002 = {
+	name = "Urbs Épiscopus" # papauté entre 325 et 752 (Étienne II) # Crosse
 	culture = italian
 	used_for_random = no
 }
-1000037003 = {
-	name = "Status Pontificius" # papautÃ© AprÃ¨s la donation de PÃ©pin le Bref  Ã  Ã‰tienne II jusqu'Ã  Silvestre II # Croix
+1000054003 = {
+	name = "Status Pontificius" # papauté Après la donation de Pépin le Bref  à Étienne II jusqu'à Silvestre II # Croix
 	culture = italian
 	used_for_random = no
 }
-1000037004 = {
+1000054004 = {
 	name = "Patriarcha Occidentis" # Family of Sylvester II
 	culture = italian
 	used_for_random = no
 }
-1000037022 = {
+1000054005 = {
 	name = "di Capraia"
 	culture = italian
 }
-1000037025 = {
+1000054006 = {
 	name = "di Asti"
 	culture = italian
 }
 
 # Plus originals
 
-1000037056 = {
+1000054007 = {
 	name = "Docibile"
 	culture = italian
 }
-1000037057 = {
+1000054008 = {
 	name = "di Lombardi"
 	culture = italian
 }
-1000037058 = {
+1000054009 = {
 	name = "di Gaeta"
 	culture = italian
 }
-1000037059 = {
+1000054010 = {
 	name = "da Noli"
 	culture = italian
 }
-1000037060 = {
+1000054011 = {
 	name = "Capuano"
 	culture = italian
 }
-1000037061 = {
+1000054012 = {
 	name = "Gioia"
 	culture = italian
 }
-1000037062 = {
+1000054013 = {
 	name = "Scoppetta"
 	culture = italian
 }
-1000037063 = {
+1000054014 = {
 	name = "Camera"
 	culture = italian
 }
-1000037064 = {
+1000054015 = {
 	name = "de Vio"
 	culture = italian
 }
-1000037065 = {
+1000054016 = {
 	name = "de Tonti"
 	culture = italian
 }
-1000037066 = {
+1000054017 = {
 	name = "de Conca"
 	culture = italian
 }
-1000037067 = {
+1000054018 = {
 	name = "Colombo"
 	culture = italian
 }
-1000037068 = {
+1000054019 = {
 	name = "Giraldi"
 	culture = italian
 }
-1000037069 = {
+1000054020 = {
 	name = "Brignole"
 	culture = italian
 }
-1000037070 = {
+1000054021 = {
 	name = "Alighieri"
 	culture = italian
 }
-1000037071 = {
+1000054022 = {
 	name = "Coniulo"
 	culture = italian
 }
-1000037073 = {
+1000054023 = {
 	name = "Litto"
 	culture = italian
 }
-1000037074 = {
+1000054024 = {
 	name = "Pizzicolli"
 	culture = italian
 }
-1000037075 = {
+1000054025 = {
 	name = "Foschi"
 	culture = italian
 }
-1000037076 = {
+1000054026 = {
 	name = "Segatori"
 	culture = italian
 }
-1000124032 = {
+1000054027 = {
 	name = "Perconti"
 	culture = italian
 	coat_of_arms = {
@@ -126,171 +126,171 @@
 		}
 	}
 }
-1000124033 = {
+1000054028 = {
 	name = "Scorsese"
 	culture = italian
 }
-1000124034 = {
+1000054029 = {
 	name = "Sinatra"
 	culture = italian
 }
-1000124035 = {
+1000054030 = {
 	name = "Tomasi"
 	culture = italian
 }
-1000124037 = {
+1000054031 = {
 	name = "Zacco"
 	culture = italian
 }
-1000124038 = {
+1000054032 = {
 	name = "Miossi"
 	culture = italian
 }
-1000124039 = {
+1000054033 = {
 	name = "Lanza"
 	culture = italian
 }
-1000124041 = {
+1000054034 = {
 	name = "Sesto"
 	culture = italian
 }
-1000124042 = {
+1000054035 = {
 	name = "Greco"
 	culture = italian
 }
-1000124043 = {
+1000054036 = {
 	name = "Vitale"
 	culture = italian
 }
-1000124044 = {
+1000054037 = {
 	name = "Coppola"
 	culture = italian
 }
-1000124101 = {
+1000054038 = {
 	name = "Vanvitelli"
 	culture = italian
 }
-1000124103 = {
+1000054039 = {
 	name = "Benincasa"
 	culture = italian
 }
-1000124104 = {
+1000054040 = {
 	name = "Stracca"
 	culture = italian
 }
-1000124105 = {
+1000054041 = {
 	name = "Lilli"
 	culture = italian
 }
-1000124151 = {
+1000054042 = {
 	name = "di Caldore"
 	culture = italian
 }
-1000124793 = {
+1000054043 = {
 	name = "Caloiri"
 	culture = italian
 }
-1000252119 = {
+1000054044 = {
 	name = "d'Oria"
 	culture = italian
 }
-1000252121 = {
+1000054045 = {
 	name = "da Sabrano"
 	culture = italian
 }
-1000252126 = {
+1000054046 = {
 	name = "di Savoia"
 	culture = italian
 }
-1000252128 = {
+1000054047 = {
 	name = "d'Arena"
 	culture = italian
 }
-1000252138 = {
+1000054048 = {
 	name = "Vacca"
 	culture = italian
 }
-1000252139 = {
+1000054049 = {
 	name = "Floris"
 	culture = italian
 }
-1000252140 = {
+1000054050 = {
 	name = "de Zori"
 	culture = italian
 }
-1000252141 = {
+1000054051 = {
 	name = "de Orrobo"
 	culture = italian
 }
-1000252142 = {
+1000054052 = {
 	name = "Salanis"
 	culture = italian
 }
-1000252143 = {
+1000054053 = {
 	name = "de Serra"
 	culture = italian
 }
-1000252144 = {
+1000054054 = {
 	name = "Sogosti"
 	culture = italian
 }
-1000252145 = {
+1000054055 = {
 	name = "Solino"
 	culture = italian
 }
-1000252146 = {
+1000054056 = {
 	name = "Luchesse"
 	culture = italian
 }
-1000252147 = {
+1000054057 = {
 	name = "de Sanna"
 	culture = italian
 }
-1000252148 = {
+1000054058 = {
 	name = "di Maro"
 	culture = italian
 }
-1000252149 = {
+1000054059 = {
 	name = "di Virdiso"
 	culture = italian
 }
-1000252150 = {
+1000054060 = {
 	name = "di Pira"
 	culture = italian
 }
-1000252151 = {
+1000054061 = {
 	name = "di Mura"
 	culture = italian
 }
-1000252152 = {
+1000054062 = {
 	name = "Meloni"
 	culture = italian
 }
-1000252153 = {
+1000054063 = {
 	name = "Pilloni"
 	culture = italian
 }
-1000252154 = {
+1000054064 = {
 	name = "di Cadedo"
 	culture = italian
 }
-1000252155 = {
+1000054065 = {
 	name = "di Noraschi"
 	culture = italian
 }
-1000252156 = {
+1000054066 = {
 	name = "di Lodo"
 	culture = italian
 }
-1000252157 = {
+1000054067 = {
 	name = "di Aritsi"
 	culture = italian
 }
-1000252158 = {
+1000054068 = {
 	name = "di Zara"
 	culture = italian
 }
-1000252159 = {
+1000054069 = {
 	name = "di Gambella"
 	culture = italian
 }

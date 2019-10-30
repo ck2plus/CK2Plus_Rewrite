@@ -1,12 +1,12 @@
-1000124130 = {
+1000094001 = {
 	name = "Mac Ruardri"
 	culture = scottish
 }
-1000124199 = {
+1000094002 = {
 	name = "Dumnan"
 	culture = scottish
 }
-1000124206 = {
+1000094003 = {
 	name = "mac Cluian"
 	culture = scottish
 }

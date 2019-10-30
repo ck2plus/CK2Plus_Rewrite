@@ -1,73 +1,73 @@
-1000083003 = {
+1000006001 = {
 	used_for_random = no
 	name = "Merovingian"
 	culture = arpitan
 }
-1000037009 = {
+1000006002 = {
 	name = "de Chevron" # Pope Nicholas II
 	culture = arpitan
 }
-1000037052 = {
+1000006003 = {
 	name = "Arnulfien"
 	culture = arpitan
 }
-1000037053 = {
+1000006004 = {
 	name = "Nibelungs"
 	culture = arpitan
 }
-1000124139 = {
+1000006005 = {
 	name = "de Tours"
 	culture = arpitan
 }
-1000124391 = {
+1000006006 = {
 	name = "Valdes"
 	culture = arpitan
 }
-1000252122 = {
+1000006007 = {
 	name = "de Sabran"
 	culture = arpitan
 }
-1000252123 = {
+1000006008 = {
 	name = "de Savoie"
 	culture = arpitan
 }
-1000252129 = {
-	name = "de PiÃ©mont"
+1000006009 = {
+	name = "de Piémont"
 	culture = arpitan
 }
-1000037054 = {
+1000006010 = {
 	name = "de Portois"
 	culture = arpitan
 }
-1000037055 = {
+1000006011 = {
 	name = "de Vienne"
 	culture = arpitan
 }
-1000037056 = {
+1000006012 = {
 	name = "de Aubonne"
 	culture = arpitan
 }
-1000037057 = {
+1000006013 = {
 	name = "de Macon"
 	culture = arpitan
 }
-1000037058 = {
+1000006014 = {
 	name = "de Grenoble"
 	culture = arpitan
 }
-1000037059 = {
-	name = "de ChÃ©mbary"
+1000006015 = {
+	name = "de Chémbary"
 	culture = arpitan
 }
-1000037060 = {
+1000006016 = {
 	name = "de Brindas"
 	culture = arpitan
 }
-1000037061 = {
+1000006017 = {
 	name = "de Martigny"
 	culture = arpitan
 }
-1000037062 = {
+1000006018 = {
 	name = "de Claude"
 	culture = arpitan
 }

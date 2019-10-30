@@ -1,100 +1,100 @@
-1000124435 = {
+1000008001 = {
 	name = "Ador"
 	culture = assyrian
 }
-1000124436 = {
+1000008002 = {
 	name = "Natan"
 	culture = assyrian
 }
-1000124437 = {
+1000008003 = {
 	name = "Hanodeen"
 	culture = assyrian
 }
-1000124438 = {
+1000008004 = {
 	name = "Khonayn"
 	culture = assyrian
 }
-1000124439 = {
+1000008005 = {
 	name = "Ashurseen"
 	culture = assyrian
 }
-1000124440 = {
+1000008006 = {
 	name = "Nardeen"
 	culture = assyrian
 }
-1000124441 = {
+1000008007 = {
 	name = "Rabona"
 	culture = assyrian
 }
-1000124442 = {
+1000008008 = {
 	name = "Ramseen"
 	culture = assyrian
 }
-1000124443 = {
+1000008009 = {
 	name = "Sharokeen"
 	culture = assyrian
 }
-1000124444 = {
+1000008010 = {
 	name = "Zahseen"
 	culture = assyrian
 }
-1000124445 = {
+1000008011 = {
 	name = "Maroeil"
 	culture = assyrian
 }
-1000124446 = {
+1000008012 = {
 	name = "Hawail"
 	culture = assyrian
 }
-1000124447 = {
+1000008013 = {
 	name = "Yadida"
 	culture = assyrian
 }
-1000124448 = {
+1000008014 = {
 	name = "Marbail"
 	culture = assyrian
 }
-1000124449 = {
+1000008015 = {
 	name = "Bailnam"
 	culture = assyrian
 }
-1000124450 = {
+1000008016 = {
 	name = "Demashur"
 	culture = assyrian
 }
-1000124451 = {
+1000008017 = {
 	name = "Danieil"
 	culture = assyrian
 }
-1000124452 = {
+1000008018 = {
 	name = "Nineel"
 	culture = assyrian
 }
-1000124453 = {
+1000008019 = {
 	name = "Nosardeil"
 	culture = assyrian
 }
-1000124454 = {
+1000008020 = {
 	name = "Mardokh"
 	culture = assyrian
 }
-1000124455 = {
+1000008021 = {
 	name = "Asorkhadon"
 	culture = assyrian
 }
-1000124456 = {
+1000008022 = {
 	name = "Eil"
 	culture = assyrian
 }
-1000124457 = {
+1000008023 = {
 	name = "Dematour"
 	culture = assyrian
 }
-1000124458 = {
+1000008024 = {
 	name = "Eilbroon"
 	culture = assyrian
 }
-1000124459 = {
+1000008025 = {
 	name = "Nasirpal"
 	culture = assyrian
 }

@@ -1,57 +1,57 @@
 
-1000103950 = {
+1000063001 = {
 	name="de Leon"
 	culture = leonese
 }
-1000103951 = {
-	name="N√∫√±ez"
+1000063002 = {
+	name="N˙Òez"
 	culture = leonese
 }
-1000103952 = {
+1000063003 = {
 	name="Alonso"
-	culture = leonese	
-}
-1000103953 = {
-	name="de Zamora"
-	culture = leonese	
-}
-1000103954 = {
-	name="de Salamanca"
-	culture = leonese	
-}
-1000103955 = {
-	name="Ramirez"
-	culture = leonese	
-}
-1000103956 = {
-	name="√Ålvarez"
-	culture = leonese	
-}
-1000103957 = {
-	name="de Astorga"
-	culture = leonese	
-}
-1000103958 = {
-	name="Martinez"
-	culture = leonese	
-}
-1000103959 = {
-	name="de Guzm√°n"
 	culture = leonese
 }
-1000103960 = {
+1000063004 = {
+	name="de Zamora"
+	culture = leonese
+}
+1000063005 = {
+	name="de Salamanca"
+	culture = leonese
+}
+1000063006 = {
+	name="Ramirez"
+	culture = leonese
+}
+1000063007 = {
+	name="¡lvarez"
+	culture = leonese
+}
+1000063008 = {
+	name="de Astorga"
+	culture = leonese
+}
+1000063009 = {
+	name="Martinez"
+	culture = leonese
+}
+1000063010 = {
+	name="de Guzm·n"
+	culture = leonese
+}
+1000063011 = {
 	name="Padilla"
 	culture = leonese
 }
-1000103961 = {
+1000063012 = {
 	name="de Alcantara"
 	culture = leonese
 }
-1000103962 = {
+1000063013 = {
 	name="de Luna"
 	culture = leonese
 }
-1000103963 = {
+1000063014 = {
 	name="Lopez"
 	culture = leonese
 }

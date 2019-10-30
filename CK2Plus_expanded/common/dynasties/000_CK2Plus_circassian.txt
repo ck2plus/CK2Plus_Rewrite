@@ -1,69 +1,69 @@
 
-1000103250 = {
+1000021001 = {
 	name="Burji"
 	culture = circassian
 }
-1000103251 = {
+1000021002 = {
 	name="Cherkassky"
 	culture = circassian
 }
-1000103252 = {
+1000021003 = {
 	name="Murza"
-	culture = circassian	
+	culture = circassian
 }
-1000103253 = {
+1000021004 = {
 	name="Chemso"
-	culture = circassian	
+	culture = circassian
 }
-1000103254 = {
+1000021005 = {
 	name="Nibo"
-	culture = circassian	
+	culture = circassian
 }
-1000103255 = {
+1000021006 = {
 	name="Tuguz"
-	culture = circassian	
+	culture = circassian
 }
-1000103256 = {
+1000021007 = {
 	name="Napso"
-	culture = circassian	
+	culture = circassian
 }
-1000103257 = {
+1000021008 = {
 	name="Jaimoukha"
-	culture = circassian	
+	culture = circassian
 }
-1000103258 = {
+1000021009 = {
 	name="Pak"
-	culture = circassian	
+	culture = circassian
 }
-1000103259 = {
+1000021010 = {
 	name="Natok"
 	culture = circassian
 }
-1000103260 = {
+1000021011 = {
 	name="Tsikunib"
 	culture = circassian
 }
-1000103261 = {
+1000021012 = {
 	name="Guchetl"
 	culture = circassian
 }
-1000103262 = {
+1000021013 = {
 	name="Taov"
 	culture = circassian
 }
-1000103263 = {
+1000021014 = {
 	name="Tlebzu"
 	culture = circassian
 }
-1000103264 = {
+1000021015 = {
 	name="Shora"
 	culture = circassian
 }
-1000103265 = {
+1000021016 = {
 	name="Balqar"
 	culture = circassian
 }
-1000103266 = {
+1000021017 = {
 	name="Badenuka"
 	culture = circassian
 }

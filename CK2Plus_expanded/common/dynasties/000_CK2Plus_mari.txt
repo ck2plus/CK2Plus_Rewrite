@@ -1,0 +1,64 @@
+1000070001 = {
+	name = "Meranid"
+	culture = mari
+}
+1000070002 = {
+	name = "Said"
+	culture = mari
+}
+1000070003 = {
+	name = "Muranid"
+	culture = mari
+}
+1000070004 = {
+	name = "Tumoid"
+	culture = mari
+}
+1000070005 = {
+	name = "Echanid"
+	culture = mari
+}
+1000070006 = {
+	name = "Izid"
+	culture = mari
+}
+1000070007 = {
+	name = "Ovtayad"
+	culture = mari
+}
+1000070008 = {
+	name = "Kandeshid"
+	culture = mari
+}
+1000070009 = {
+	name = "Shemid"
+	culture = mari
+}
+1000070010 = {
+	name = "Lumid"
+	culture = mari
+}
+1000070011 = {
+	name = "Chynid"
+	culture = mari
+}
+1000070012 = {
+	name = "Ludoid"
+	culture = mari
+}
+1000070013 = {
+	name = "Inzhayid"
+	culture = mari
+}
+1000070014 = {
+	name = "Uzharad"
+	culture = mari
+}
+1000070015 = {
+	name = "Ioshkarid"
+	culture = mari
+}
+1000070016 = {
+	name = "Ryvyshid"
+	culture = mari
+}

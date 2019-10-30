@@ -1,69 +1,69 @@
 
-1000104250 = {
+1000091001 = {
 	name="Adelid"
 	culture = sanhaja
 }
-1000104251 = {
+1000091002 = {
 	name="Nazarid"
 	culture = sanhaja
 }
-1000104252 = {
+1000091003 = {
 	name="Tahirid"
-	culture = sanhaja	
+	culture = sanhaja
 }
-1000104253 = {
+1000091004 = {
 	name="Kussilid"
-	culture = sanhaja	
+	culture = sanhaja
 }
-1000104254 = {
+1000091005 = {
 	name="Zafirid"
-	culture = sanhaja	
+	culture = sanhaja
 }
-1000104255 = {
+1000091006 = {
 	name="Fathid"
-	culture = sanhaja	
+	culture = sanhaja
 }
-1000104256 = {
+1000091007 = {
 	name="Berkanid"
-	culture = sanhaja	
+	culture = sanhaja
 }
-1000104257 = {
+1000091008 = {
 	name="Nasrid"
-	culture = sanhaja	
+	culture = sanhaja
 }
-1000104258 = {
+1000091009 = {
 	name="Ghaysanid"
-	culture = sanhaja	
+	culture = sanhaja
 }
-1000104259 = {
+1000091010 = {
 	name="Ureghid"
 	culture = sanhaja
 }
-1000104260 = {
+1000091011 = {
 	name="Jamalid"
 	culture = sanhaja
 }
-1000104261 = {
+1000091012 = {
 	name="Masnsenid"
 	culture = sanhaja
 }
-1000104262 = {
+1000091013 = {
 	name="Kenanid"
 	culture = sanhaja
 }
-1000104263 = {
+1000091014 = {
 	name="Gaudadid"
 	culture = sanhaja
 }
-1000104264 = {
+1000091015 = {
 	name="Cucungid"
 	culture = sanhaja
 }
-1000104265 = {
+1000091016 = {
 	name="Tariqid"
 	culture = sanhaja
 }
-1000104266 = {
+1000091017 = {
 	name="Kussilid"
 	culture = sanhaja
 }

@@ -1,512 +1,512 @@
-1000252312 = {
+1000066001 = {
 	name = "di Asti"
 	culture = lombard
 }
-1000252313 = {
+1000066002 = {
 	name = "Giraldi"
 	culture = lombard
 }
-1000252314 = {
+1000066003 = {
 	name = "Michele"
 	culture = lombard
 }
-1000252315 = {
+1000066004 = {
 	name = "di Lombardi"
 	culture = lombard
 }
-1000252316 = {
+1000066005 = {
 	name = "Vitale"
 	culture = lombard
 }
-1000252317 = {
+1000066006 = {
 	name = "Zaccaria"
 	culture = lombard
 }
-1000252318 = {
+1000066007 = {
 	name = "di Ancona"
 	culture = lombard
 }
-1000252319 = {
+1000066008 = {
 	name = "Silvio"
 	culture = lombard
 }
-1000252320 = {
+1000066009 = {
 	name = "del Turin"
 	culture = lombard
 }
-1000252321 = {
+1000066010 = {
 	name = "Gioia"
 	culture = lombard
 }
-1000252322 = {
+1000066011 = {
 	name = "d'Este"
 	culture = lombard
 }
-1000252323 = {
+1000066012 = {
 	name = "di Brindisi"
 	culture = lombard
 }
-1000252324 = {
+1000066013 = {
 	name = "del Vasto"
 	culture = lombard
 }
-1000252325 = {
+1000066014 = {
 	name = "Visconti"
 	culture = lombard
 }
-1000252326 = {
+1000066015 = {
 	name = "Perconti"
 	culture = lombard
 }
-1000252327 = {
+1000066016 = {
 	name = "de Candia"
 	culture = lombard
 }
-1000252328 = {
+1000066017 = {
 	name = "d'Orto"
 	culture = lombard
 }
-1000252329 = {
+1000066018 = {
 	name = "Coniulo"
 	culture = lombard
 }
-1000252330 = {
-	name = "d'IvrÃ¨a"
+1000066019 = {
+	name = "d'Ivrèa"
 	culture = lombard
 }
-1000252331 = {
-	name = "di BiandrÃ "
+1000066020 = {
+	name = "di Biandrà"
 	culture = lombard
 }
-1000252332 = {
+1000066021 = {
 	name = "Guideschi"
 	culture = lombard
 }
-1000252333 = {
+1000066022 = {
 	name = "Tocco"
 	culture = lombard
 }
-1000252334 = {
+1000066023 = {
 	name = "Turchi"
 	culture = lombard
 }
-1000252335 = {
+1000066024 = {
 	name = "de Bergum"
 	culture = lombard
 }
-1000252336 = {
+1000066025 = {
 	name = "de Larsa"
 	culture = lombard
 }
-1000252337 = {
-	name = "di CremÃ¹na"
+1000066026 = {
+	name = "di Cremùna"
 	culture = lombard
 }
-1000252338 = {
+1000066027 = {
 	name = "Amati"
 	culture = lombard
 }
-1000252339 = {
+1000066028 = {
 	name = "di Agledo"
 	culture = lombard
 }
-1000252340 = {
+1000066029 = {
 	name = "di Busca"
 	culture = lombard
 }
-1000252341 = {
+1000066030 = {
 	name = "Arduinici"
 	culture = lombard
 }
-1000252342 = {
+1000066031 = {
 	name = "de Brignoles"
 	culture = lombard
 }
-1000252343 = {
+1000066032 = {
 	name = "di Cosseria"
 	culture = lombard
 }
-1000252344 = {
+1000066033 = {
 	name = "Lilli"
 	culture = lombard
 }
-1000252345 = {
+1000066034 = {
 	name = "di Montemurlo"
 	culture = lombard
 }
-1000252346 = {
+1000066035 = {
 	name = "di Crivelli"
 	culture = lombard
 }
-1000252347 = {
+1000066036 = {
 	name = "di Mulazzano"
 	culture = lombard
 }
-1000252348 = {
+1000066037 = {
 	name = "de Sabran"
 	culture = lombard
 }
-1000252349 = {
+1000066038 = {
 	name = "Stradivari"
 	culture = lombard
 }
-1000252350 = {
+1000066039 = {
 	name = "da Dovara"
 	culture = lombard
 }
-1000252351 = {
+1000066040 = {
 	name = "Caccianemici"
 	culture = lombard
 }
-1000252352 = {
+1000066041 = {
 	name = "Pettiti"
 	culture = lombard
 }
-1000252353 = {
+1000066042 = {
 	name = "Bergonzi"
 	culture = lombard
 }
-1000252354 = {
+1000066043 = {
 	name = "de Brera"
 	culture = lombard
 }
-1000252355 = {
+1000066044 = {
 	name = "di Brayda"
 	culture = lombard
 }
-1000252356 = {
+1000066045 = {
 	name = "Pirovano"
 	culture = lombard
 }
-1000252357 = {
+1000066046 = {
 	name = "di Leone"
 	culture = lombard
 }
-1000252358 = {
+1000066047 = {
 	name = "Guarneri"
 	culture = lombard
 }
-1000252359 = {
+1000066048 = {
 	name = "Aleramicci"
 	culture = lombard
 }
-1000252360 = {
+1000066049 = {
 	name = "de Salusse"
 	culture = lombard
 }
-1000252361 = {
+1000066050 = {
 	name = "da Baggio"
 	culture = lombard
 }
-1000252362 = {
+1000066051 = {
 	name = "di Mansano"
 	culture = lombard
 }
-1000252363 = {
-	name = "di PunsÃ³n"
+1000066052 = {
+	name = "di Punsón"
 	culture = lombard
 }
-1000252364 = {
+1000066053 = {
 	name = "di Montemagno"
 	culture = lombard
 }
-1000252365 = {
+1000066054 = {
 	name = "Aleramo"
 	culture = lombard
 }
-1000252366 = {
+1000066055 = {
 	name = "Gerra"
 	culture = lombard
 }
-1000252367 = {
+1000066056 = {
 	name = "Enganna"
 	culture = lombard
 }
-1000252368 = {
+1000066057 = {
 	name = "di Gucellone"
 	culture = lombard
 }
-1000252369 = {
+1000066058 = {
 	name = "di Castello"
 	culture = lombard
 }
-1000252370 = {
-	name = "di BrÃ¨sa"
+1000066059 = {
+	name = "di Brèsa"
 	culture = lombard
 }
-1000252371 = {
+1000066060 = {
 	name = "Conieu"
 	culture = lombard
 }
-1000252372 = {
+1000066061 = {
 	name = "di Coniulo"
 	culture = lombard
 }
-1000252373 = {
+1000066062 = {
 	name = "da Carmagnola"
 	culture = lombard
 }
-1000252374 = {
+1000066063 = {
 	name = "da Soana"
 	culture = lombard
 }
-1000252375 = {
+1000066064 = {
 	name = "Borri"
 	culture = lombard
 }
-1000252376 = {
+1000066065 = {
 	name = "di Pellegrino"
 	culture = lombard
 }
-1000252377 = {
+1000066066 = {
 	name = "Ossoli"
 	culture = lombard
 }
-1000252378 = {
+1000066067 = {
 	name = "Obertenghi"
 	culture = lombard
 }
-1000252379 = {
+1000066068 = {
 	name = "d'Eril"
 	culture = lombard
 }
-1000252380 = {
+1000066069 = {
 	name = "de Machierato"
 	culture = lombard
 }
-1000252381 = {
+1000066070 = {
 	name = "Zanardelli"
 	culture = lombard
 }
-1000252382 = {
+1000066071 = {
 	name = "di Campija"
 	culture = lombard
 }
-1000252383 = {
+1000066072 = {
 	name = "di Gonzaga"
 	culture = lombard
 }
-1000252384 = {
+1000066073 = {
 	name = "di Tarantasia"
 	culture = lombard
 }
-1000252385 = {
+1000066074 = {
 	name = "di Caltaniseta"
 	culture = lombard
 }
-1000252386 = {
+1000066075 = {
 	name = "de Oria"
 	culture = lombard
 }
-1000252387 = {
+1000066076 = {
 	name = "Colleoni"
 	culture = lombard
 }
-1000252388 = {
-	name = "de BolÃ²gna"
+1000066077 = {
+	name = "de Bològna"
 	culture = lombard
 }
-1000252389 = {
+1000066078 = {
 	name = "Montigli"
 	culture = lombard
 }
-1000252390 = {
+1000066079 = {
 	name = "de Piemont"
 	culture = lombard
 }
-1000252391 = {
+1000066080 = {
 	name = "di Pavia"
 	culture = lombard
 }
-1000252392 = {
+1000066081 = {
 	name = "Monticelli"
 	culture = lombard
 }
-1000252393 = {
+1000066082 = {
 	name = "Taparelli"
 	culture = lombard
 }
-1000252394 = {
+1000066083 = {
 	name = "Pallavicini"
 	culture = lombard
 }
-1000252395 = {
+1000066084 = {
 	name = "Sforza"
 	culture = lombard
 }
-1000252396 = {
+1000066085 = {
 	name = "di Gallen"
 	culture = lombard
 }
-1000252397 = {
+1000066086 = {
 	name = "de Piemont"
 	culture = lombard
 }
-1000252398 = {
-	name = "di FÃ«rara"
+1000066087 = {
+	name = "di Fërara"
 	culture = lombard
 }
-1000252399 = {
+1000066088 = {
 	name = "Valperga"
 	culture = lombard
 }
-1000252400 = {
+1000066089 = {
 	name = "Malaspina"
 	culture = lombard
 }
-1000252401 = {
+1000066090 = {
 	name = "di Ravena"
 	culture = lombard
 }
-1000252402 = {
+1000066091 = {
 	name = "di Bonacolsi"
 	culture = lombard
 }
-1000252403 = {
+1000066092 = {
 	name = "Mandelli"
 	culture = lombard
 }
-1000252404 = {
+1000066093 = {
 	name = "Cardano"
 	culture = lombard
 }
-1000252405 = {
+1000066094 = {
 	name = "d'Aquileia"
 	culture = lombard
 }
-1000252406 = {
-	name = "di VenÃ¨zia"
+1000066095 = {
+	name = "di Venèzia"
 	culture = lombard
 }
-1000252407 = {
-	name = "di PÃ doa"
+1000066096 = {
+	name = "di Pàdoa"
 	culture = lombard
 }
-1000252408 = {
+1000066097 = {
 	name = "Rossi"
 	culture = lombard
 }
-1000252409 = {
+1000066098 = {
 	name = "Tizzoni"
 	culture = lombard
 }
-1000252410 = {
+1000066099 = {
 	name = "di Seva"
 	culture = lombard
 }
-1000252411 = {
+1000066100 = {
 	name = "da Intimiano"
 	culture = lombard
 }
-1000252412 = {
+1000066101 = {
 	name = "da Camino"
 	culture = lombard
 }
-1000252413 = {
+1000066102 = {
 	name = "di Gattinara"
 	culture = lombard
 }
-1000252414 = {
+1000066103 = {
 	name = "de Trevis"
 	culture = lombard
 }
-1000252415 = {
+1000066104 = {
 	name = "de Parma"
 	culture = lombard
 }
-1000252416 = {
+1000066105 = {
 	name = "Maggi"
 	culture = lombard
 }
-1000252417 = {
+1000066106 = {
 	name = "da Velate"
 	culture = lombard
 }
-1000252418 = {
+1000066107 = {
 	name = "di Mirandola"
 	culture = lombard
 }
-1000252419 = {
+1000066108 = {
 	name = "Sfondrati"
 	culture = lombard
 }
-1000252420 = {
+1000066109 = {
 	name = "Avogadro"
 	culture = lombard
 }
-1000252421 = {
+1000066110 = {
 	name = "Sommariva"
 	culture = lombard
 }
-1000252422 = {
+1000066111 = {
 	name = "Terzi"
 	culture = lombard
 }
-1000252423 = {
+1000066112 = {
 	name = "Hucbaldi"
 	culture = lombard
 }
-1000252424 = {
+1000066113 = {
 	name = "Gaulo"
 	culture = lombard
 }
-1000252425 = {
+1000066114 = {
 	name = "Grasso"
 	culture = lombard
 }
-1000252426 = {
-	name = "CavalcabÃ²"
+1000066115 = {
+	name = "Cavalcabò"
 	culture = lombard
 }
-1000252427 = {
+1000066116 = {
 	name = "d'Auriate"
 	culture = lombard
 }
-1000252428 = {
-	name = "di NÃ pul"
+1000066117 = {
+	name = "di Nàpul"
 	culture = lombard
 }
-1000252429 = {
-	name = "di RÃ¨gg"
+1000066118 = {
+	name = "di Règg"
 	culture = lombard
 }
-1000252430 = {
+1000066119 = {
 	name = "Cambiano"
 	culture = lombard
 }
-1000252431 = {
+1000066120 = {
 	name = "di Milan"
 	culture = lombard
 }
-1000252432 = {
+1000066121 = {
 	name = "di Cozzi"
 	culture = lombard
 }
-1000252433 = {
+1000066122 = {
 	name = "Spinola"
 	culture = lombard
 }
-1000252434 = {
+1000066123 = {
 	name = "Vistarino"
 	culture = lombard
 }
-1000252435 = {
+1000066124 = {
 	name = "Ademari"
 	culture = lombard
 }
-1000252436 = {
+1000066125 = {
 	name = "Supponidi"
 	culture = lombard
 }
-1000252437 = {
+1000066126 = {
 	name = "della Torre"
 	culture = lombard
 }
-1000252438 = {
-	name = "de MÃ ntoa"
+1000066127 = {
+	name = "de Màntoa"
 	culture = lombard
 }
-1000252439 = {
-	name = "del MonfrÃ "
+1000066128 = {
+	name = "del Monfrà"
 	culture = lombard
 }

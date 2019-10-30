@@ -1,24 +1,24 @@
-1000252091 = {
+1000017001 = {
 	name = "Gar"
 	culture = bodpa
 	religion = bon
 }
-1000252092 = {
+1000017002 = {
 	name = "Lhomon"
 	culture = bodpa
 	religion = bon
 }
-1000252093 = {
+1000017003 = {
 	name = "Taktse"
 	culture = bodpa
 	religion = bon
 }
-1000252094 = {
+1000017004 = {
 	name = "Mgar"
 	culture = bodpa
 	religion = bon
 }
-1000252095 = {
+1000017005 = {
 	name = "Omade"
 	culture = bodpa
 	religion = bon

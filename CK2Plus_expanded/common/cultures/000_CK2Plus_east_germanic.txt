@@ -1,7 +1,6 @@
 ####################################################################
 #
 #	East Germanic
-#	 - Burgundian
 #	 - Crimean Gothic*
 #	 - Visigothic*
 #
@@ -20,63 +19,6 @@ east_germanic = {
 	}
 
 	graphical_cultures = { germangfx }
-
-	burgundian = {
-		graphical_cultures = { germangfx }
-
-		color = { 0.5 0.35 0.6 }
-
-		male_names = {
-			Adelfonso_Alphonse Agila Airmanagildo Alaricho_Alaric Aloito Assur Athanagildo
-			Beraldo_Berard Berengario_Berengar
-			Chilperic Chlodomer
-			Diaco_Diaco
-			Fafila Friedenando_Ferdinand Friednand_Ferdinand Froila_Froila
-			Gjúki Giselher Gotthorm Godegisel Gundemar Gundioc Gundobad Gundahar Guttier_Walter
-			Johan_John
-			Liuva Liuvericho Lupo_Lupo
-			Mauregato Monnio_Munio
-			Nunno_Nuno
-			Oliba Ordonno_Ordono
-			Pelagio_Pelagius Petro_Peter
-			Ranimiro_Ramiro Rekkaredo Rodericho_Roderick Ricimer
-			Sigismunth_Sigismund Silo Suneario_Sunyer Suniefredo
-			Theodor
-			Vermudo
-			Wifredo_Wilfred Wimarano Wittiza
-		}
-
-		female_names = {
-			Adelgundis Adosinda Agnes_Agnes Aragonte Argilo Ava_Eva
-			Brunechildis
-			Clotilde Chroma
-			Dietlind
-			Egilona Eldonza_Aldonza Elduara_Alduara Elvira_Elvira Ermengardis_Ermengarde Ermenisinda_Ermesinda
-			Flamula Fronilde_Fronilde
-			Gaudiosa Gonterote_Gotruda Gullrond Grimhild
-			Menenda Monnia_Munia Monniadomna
-			Onecca_Oneka
-			Riciberga
-			Sibilia_Sibylla Sisenanda
-			Theodora_Theodora
-			Urraca_Urraca
-			Winidilda_Gunhild
-		}
-
-		from_dynasty_prefix = "af "
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 5
-		father_name_chance = 10
-
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 50
-		mother_name_chance = 5
-
-		modifier = default_culture_modifier
-	}
 
 	crimean_gothic = { # Gothic
 		graphical_cultures = { crimeangfx byzantinegfx }

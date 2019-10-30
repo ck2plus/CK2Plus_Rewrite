@@ -1,69 +1,69 @@
 
-1000104350 = {
+1000009001 = {
 	name="Fathid"
 	culture = atlasian
 }
-1000104351 = {
+1000009002 = {
 	name="Tariqid"
 	culture = atlasian
 }
-1000104352 = {
+1000009003 = {
 	name="Salomonid"
-	culture = atlasian	
+	culture = atlasian
 }
-1000104353 = {
+1000009004 = {
 	name="Bukkusid"
-	culture = atlasian	
+	culture = atlasian
 }
-1000104354 = {
+1000009005 = {
 	name="Salahid"
-	culture = atlasian	
+	culture = atlasian
 }
-1000104355 = {
+1000009006 = {
 	name="Jaffarid"
-	culture = atlasian	
+	culture = atlasian
 }
-1000104356 = {
+1000009007 = {
 	name="Ifnid"
-	culture = atlasian	
+	culture = atlasian
 }
-1000104357 = {
+1000009008 = {
 	name="Zirid"
-	culture = atlasian	
+	culture = atlasian
 }
-1000104358 = {
+1000009009 = {
 	name="Uzzaid"
-	culture = atlasian	
+	culture = atlasian
 }
-1000104359 = {
+1000009010 = {
 	name="Masmudid"
 	culture = atlasian
 }
-1000104360 = {
+1000009011 = {
 	name="Gulusid"
 	culture = atlasian
 }
-1000104361 = {
+1000009012 = {
 	name="Guchetl"
 	culture = atlasian
 }
-1000104362 = {
+1000009013 = {
 	name="Matiyad"
 	culture = atlasian
 }
-1000104363 = {
+1000009014 = {
 	name="Yusufid"
 	culture = atlasian
 }
-1000104364 = {
+1000009015 = {
 	name="Iccaamid"
 	culture = atlasian
 }
-1000104365 = {
+1000009016 = {
 	name="Ibizaid"
 	culture = atlasian
 }
-1000104366 = {
+1000009017 = {
 	name="Zayad"
 	culture = atlasian
 }

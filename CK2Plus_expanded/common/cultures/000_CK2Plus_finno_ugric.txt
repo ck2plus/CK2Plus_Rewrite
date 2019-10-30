@@ -6,8 +6,8 @@
 #	 - Komi
 #	 - Lappish
 #	 - Meshchera
+#    - Mari (Plus culture)
 #	 - Mordvin
-#	 - Samoyed
 #	 - Ugricbaltic
 #    - Vepsian (Plus culture)
 #
@@ -182,6 +182,49 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 
+	mari = {
+		graphical_cultures = { ugricgfx }
+
+		color = { 0.45 0.70 0.85 }
+		
+		male_names = {
+			Acha Atyamas Azyren
+			Chever Chyn Chumbylat 
+			Echan Echuk
+			Kandesh Keshyr Kuzo
+			Iakte Itza Izi Ilashi Ioshkari 
+			Ludo Lum 
+			Meran Muran 
+			Narynesh 
+			Onchych 
+			Pire Pyrys 
+			Ryvysh 
+			Sai 
+			Tumo Tunyash Uryem Ushan 
+			Shem Shogan Shogash Shonsho 
+		}
+		
+		female_names = {
+			Aivika Aka Azaka 
+			Bate Bata 
+			Chevera Chodura
+			Ely Esha Esa 
+			Iakta Iara Ilasha Ioshkara Ioratash 
+			Kanda Kora Kogorchen 
+			Lyve Lyzhga 
+			Mour Mura 
+			Naryncha 
+			Ubyr Udyr Una Ushana Uzhara 
+			Salika Saya Shema Shuzhar 
+			Tavea 
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
+	
 	meshchera = {
 		graphical_cultures = { ugricgfx }
 
@@ -227,7 +270,7 @@ finno_ugric = {
 
 		modifier = default_culture_modifier
 	}
-
+	
 	mordvin = {
 		graphical_cultures = { ugricgfx }
 
@@ -267,45 +310,6 @@ finno_ugric = {
 			Unzhutka Upurga Utyayka
 			Valdava Vergava Vezhav Vidyava Virtyava
 			Yalgava
-		}
-
-		from_dynasty_prefix = "of "
-
-		founder_named_dynasties = yes
-
-		modifier = default_culture_modifier
-	}
-
-	samoyed = { # Nenets
-		graphical_cultures = { ugricgfx }
-
-		color = { 0.3 0.75 0.75 }
-
-		male_names = {
-			Alik
-			Hasaba
-			Kako Kharuchi Kolik
-			Mandak
-			Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku
-			Panay Pudak
-			Salinder Samatu Sarak Sirtya Somatu Syudbya
-			Tatva Tolik
-			Vesei
-			Wayngachi
-			Xëryuchi
-			Yadne Yapti Yar Yavlad Yurak
-		}
-
-		female_names = {
-			Atpälha Auli
-			Galya
-			Ilme
-			Kat Khatyako Kontäw Kujku
-			Laptsui
-			Ngeva
-			Senda Syeju
-			Tada Tadane
-			Yar
 		}
 
 		from_dynasty_prefix = "of "
@@ -361,7 +365,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	
-		vepsian = {
+	vepsian = {
 		graphical_cultures = { ugricgfx }
 
 		color = { 0.5 0.5 0.5 }

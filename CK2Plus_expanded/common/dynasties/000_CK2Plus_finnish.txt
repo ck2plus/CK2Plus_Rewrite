@@ -1,128 +1,128 @@
-1000124207 = {
-	name = "v√µi Muhu"
+1000038001 = {
+	name = "vıi Muhu"
 	culture = finnish
 }
-1000251900 = {
+1000038002 = {
 	name = "Saarelainen"
 	culture = finnish
 }
-1000251901 = {
+1000038003 = {
 	name = "Kaukiainen"
 	culture = finnish
 }
-1000251902 = {
-	name = "M√§kivalta"
+1000038004 = {
+	name = "M‰kivalta"
 	culture = finnish
 }
-1000251903 = {
+1000038005 = {
 	name = "Vihavainio"
 	culture = finnish
 }
-1000251904 = {
-	name = "Kaukop√§iv√§"
+1000038006 = {
+	name = "Kaukop‰iv‰"
 	culture = finnish
 }
-1000251905 = {
-	name = "Vehn√§p√§√§"
+1000038007 = {
+	name = "Vehn‰p‰‰"
 	culture = finnish
 }
-1000251906 = {
+1000038008 = {
 	name = "Viljari"
 	culture = finnish
 }
-1000251907 = {
+1000038009 = {
 	name = "Kalamies"
 	culture = finnish
 }
-1000251908 = {
+1000038010 = {
 	name = "Repolainen"
 	culture = finnish
 }
-1000251909 = {
-	name = "S√§is√§nen"
+1000038011 = {
+	name = "S‰is‰nen"
 	culture = finnish
 }
-1000251910 = {
+1000038012 = {
 	name = "Tammela"
 	culture = finnish
 }
-1000251911 = {
+1000038013 = {
 	name = "Lohikoski"
 	culture = finnish
 }
-1000251912 = {
+1000038014 = {
 	name = "Koskela"
 	culture = finnish
 }
-1000251913 = {
+1000038015 = {
 	name = "Iso-Tuisku"
 	culture = finnish
 }
-1000251914 = {
-	name = "Hirvel√§"
+1000038016 = {
+	name = "Hirvel‰"
 	culture = finnish
 }
-1000251915 = {
+1000038017 = {
 	name = "Tuiskula"
 	culture = finnish
 }
-1000251916 = {
+1000038018 = {
 	name = "Kaukonen"
 	culture = finnish
 }
-1000251917 = {
-	name = "Muurim√§ki"
+1000038019 = {
+	name = "Muurim‰ki"
 	culture = finnish
 }
-1000251918 = {
+1000038020 = {
 	name = "Hurtanmaa"
 	culture = finnish
 }
-1000251919 = {
+1000038021 = {
 	name = "Kaukamoinen"
 	culture = finnish
 }
-1000251920 = {
-	name = "Linnanp√§√§"
+1000038022 = {
+	name = "Linnanp‰‰"
 	culture = finnish
 }
-1000251921 = {
+1000038023 = {
 	name = "Suuronen"
 	culture = finnish
 }
-1000251922 = {
-	name = "Sepp√§inen"
+1000038024 = {
+	name = "Sepp‰inen"
 	culture = finnish
 }
-1000251923 = {
+1000038025 = {
 	name = "Kukonharja"
 	culture = finnish
 }
-1000251924 = {
+1000038026 = {
 	name = "Korpela"
 	culture = finnish
 }
-1000251925 = {
-	name = "Tiet√§v√§l√§"
+1000038027 = {
+	name = "Tiet‰v‰l‰"
 	culture = finnish
 }
-1000251926 = {
+1000038028 = {
 	name = "Repola"
 	culture = finnish
 }
-1000251927 = {
+1000038029 = {
 	name = "Tulisalo"
 	culture = finnish
 }
-1000251928 = {
+1000038030 = {
 	name = "Vahvanen"
 	culture = finnish
 }
-1000251929 = {
-	name = "Karhunp√§√§"
+1000038031 = {
+	name = "Karhunp‰‰"
 	culture = finnish
 }
-1000251930 = {
-	name = "Liekkil√§"
+1000038032 = {
+	name = "Liekkil‰"
 	culture = finnish
 }

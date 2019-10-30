@@ -1,48 +1,48 @@
-1000037046 = {
-	name = "D√°l Fiatach"
+1000052001 = {
+	name = "D·l Fiatach"
 	culture = irish
 }
-1000037047 = {
+1000052002 = {
 	name = "Doire Cholmcille"
 	culture = irish
 }
-1000037048 = {
+1000052003 = {
 	name = "Ard Macha"
 	culture = irish
 }
-1000037049 = {
+1000052004 = {
 	name = "Mac Uidhir"
 	culture = irish
 }
-1000037050 = {
-	name = "Airg√≠alla"
+1000052005 = {
+	name = "AirgÌalla"
 	culture = irish
 }
-1000037051 = {
-	name = "U√≠ Fhearghail"
+1000052006 = {
+	name = "UÌ Fhearghail"
 	culture = irish
 }
-1000124122 = {
+1000052007 = {
 	name = "Ua Aiteidh"
 	culture = irish
 }
-1000124123 = {
+1000052008 = {
 	name = "Ua Chrichain"
 	culture = irish
 }
-1000124124 = {
+1000052009 = {
 	name = "Ui Imair"
 	culture = irish
 }
-1000124198 = {
-	name = "U√≠ F√°el√°in"
+1000052010 = {
+	name = "UÌ F·el·in"
 	culture = irish
 }
-1000124213 = {
+1000052011 = {
 	name = "mac Cerbaill"
 	culture = irish
 }
-1000124214 = {
+1000052012 = {
 	name = "mac Ardgail"
 	culture = irish
 }

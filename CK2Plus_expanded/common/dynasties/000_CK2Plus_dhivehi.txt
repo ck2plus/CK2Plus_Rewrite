@@ -1,57 +1,57 @@
 
-1000103550 = {
+1000032001 = {
 	name="Dhiyamigili "
 	culture = dhivehi
 }
-1000103551 = {
+1000032002 = {
 	name="Hilaalee"
 	culture = dhivehi
 }
-1000103552 = {
+1000032003 = {
 	name="Huraa"
-	culture = dhivehi	
+	culture = dhivehi
 }
-1000103553 = {
+1000032004 = {
 	name=" Isdhoo"
-	culture = dhivehi	
+	culture = dhivehi
 }
-1000103554 = {
+1000032005 = {
 	name="Theemuge"
-	culture = dhivehi	
+	culture = dhivehi
 }
-1000103555 = {
+1000032006 = {
 	name="Utheemu "
-	culture = dhivehi	
+	culture = dhivehi
 }
-1000103556 = {
+1000032007 = {
 	name="Manippulu"
-	culture = dhivehi	
+	culture = dhivehi
 }
-1000103557 = {
+1000032008 = {
 	name="Kuda"
-	culture = dhivehi	
+	culture = dhivehi
 }
-1000103558 = {
+1000032009 = {
 	name="Thakurufan"
-	culture = dhivehi	
+	culture = dhivehi
 }
-1000103559 = {
+1000032010 = {
 	name="Kaamba"
 	culture = dhivehi
 }
-1000103560 = {
+1000032011 = {
 	name="Seedi"
 	culture = dhivehi
 }
-1000103561 = {
+1000032012 = {
 	name="Soru"
 	culture = dhivehi
 }
-1000103562 = {
+1000032013 = {
 	name="Thakuru"
 	culture = dhivehi
 }
-1000103563 = {
+1000032014 = {
 	name="Rahaa"
 	culture = dhivehi
 }

@@ -1,36 +1,36 @@
-1000124380 = {
+1000004001 = {
 	name = "Progoni"
 	culture = arberian
 }
-1000124381 = {
+1000004002 = {
 	name = "Kamonas"
 	culture = arberian
 }
-1000124382 = {
+1000004003 = {
 	name = "Thopia"
 	culture = arberian
 }
-1000124383 = {
+1000004004 = {
 	name = "Balsha"
 	culture = arberian
 }
-1000124384 = {
+1000004005 = {
 	name = "Zenevisi"
 	culture = arberian
 }
-1000124385 = {
+1000004006 = {
 	name = "Spata"
 	culture = arberian
 }
-1000124386 = {
+1000004007 = {
 	name = "Dukagjini"
 	culture = arberian
 }
-1000124387 = {
+1000004008 = {
 	name = "Losha"
 	culture = arberian
 }
-1000124388 = {
+1000004009 = {
 	name = "Zenebishi"
 	culture = arberian
 }

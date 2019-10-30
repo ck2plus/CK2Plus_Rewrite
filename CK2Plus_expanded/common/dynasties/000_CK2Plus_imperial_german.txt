@@ -1,28 +1,28 @@
-1000124647 = {
+1000050001 = {
 	name = "von Dettingen"
 	culture = imperial_german
 }
-1000124648 = {
+1000050002 = {
 	name = "von Rothenburg"
 	culture = imperial_german
 }
-1000124649 = {
+1000050003 = {
 	name = "Bodrich"
 	culture = imperial_german
 }
-1000124650 = {
+1000050004 = {
 	name = "von Walbeck"
 	culture = imperial_german
 }
-1000124651 = {
+1000050005 = {
 	name = "von Erbach"
 	culture = imperial_german
 }
-1000124652 = {
+1000050006 = {
 	name = "von Rikdag"
 	culture = imperial_german
 }
-1000124653 = {
+1000050007 = {
 	name = "Ardennes"
 	culture = imperial_german
 }

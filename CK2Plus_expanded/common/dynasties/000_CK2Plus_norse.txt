@@ -1,28 +1,28 @@
-1000083001 = {
+1000076001 = {
 	name = "Amali"
 	culture = norse
 }
-1000083002 = {
+1000076002 = {
 	name = "Balti"
 	culture = norse
 }
-1000083004 = {
+1000076003 = {
 	name = "Liuvigild"
 	culture = norse
 }
-1000083006 = {
+1000076004 = {
 	name = "Kinthaswinth"
 	culture = norse
 }
-1000124121 = {
-	name = "HÃ¦ngr"
+1000076005 = {
+	name = "Hængr"
 	culture = norse
 }
-1000124210 = {
+1000076006 = {
 	name = "Kambansson"
 	culture = norse
 }
-1000124211 = {
+1000076007 = {
 	name = "Hlodvisson"
 	culture = norse
 }

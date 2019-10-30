@@ -1,90 +1,15 @@
 ####################################################################
 #
 #	Altaic
-#	 - Jurchen
 #	 - Khitan
 #	 - Mongol
 #
+#   * indicates a vanilla culture moved to a different group
+#
 ####################################################################
 
-# Jurchen* - Khitan* - Mongol*
+# Khitan* - Mongol*
 altaic = {
-	jurchen = {
-		graphical_cultures = { chinesegfx mongolgfx muslimgfx }
-		secondary_event_pictures = bedouin_arabic
-
-		alternate_start = {
-			has_alternate_start_parameter = {
-				key = culture
-				value = full_random
-			}
-		}
-
-		color = { 122 114 92 }
-
-		male_names = {
-			Abaohan Abulang Agu Aguda Agunai Aguo Aha Ahacu Ahai Ahaibaifu Aišï Aišïha Ajungha Albasæri Ali Alihan Alihemen Alin Alu Alubu Aludai Aluhan Aluobuhua Aluwan Ancen Ancu Andahai Aodi Asur Ašentan Ašïngha
-			Ælijesænæ Æncïæng Æsuræku Ætæ
-			Bahai Bahei Bahulu Baifu Baoci Baohuoli Barha Beilu Biefoga Bugil Bulo Bulægæmaihu
-			Cala Cangho Caoha Cenhulagæ Cïnu Cotoya Cunggelo Cægæ Cæjæ Cændapan Cænhulagæ
-			Daijuhu Daisu Dalunha Dašïn Digunai Diku Dili Diligi Dingge Dingju Dišun Dorbi Dumu Duši Dzhin
-			Ecu Eiyeku Eiælu Eliduo Elu Elubu Eluguan Elun
-			Fanca Fannu Fænsï
-			Giahucï Giohua Gioli Guantu Gulan Guša Gæcïbuhua Gæjeæ
-			Hacaha Hadar Hanpu Hanšï Hasaiæ Haæu Heda Hela Helibo Hesun Heye Hezhe Hezhenbao Heši Hešitan Hubošu Hudun Huihou Hulijia Hulu Hulubu Hushahu Hushida Husurugai Husurægai Hutunla Hutuwa Huçienu Huša
-			Ibaha Icïgæ Ihalacï Iji Ilungha Inginggia Ingjïna Irnuræu Išiha
-			Jabingia Jahodai Jahudai Jaligi Jogosang Juguta Julæ Jïlunggusu
-			Kunaha Kunuma Kušinu
-			Labuda Loloho Louši
-			Manduhe Mangda Mapo Meng’an Mentemu Miešïnu Moliye Muha Mutalu Mutawuta Mædeæ'æ
-			Naduošï Nanhe Nianhan Nibucï Nigæ Nijængæ Ninggisa Ninggujua Ningji Ningjiasu Nudægæ Nuhu Nujænge Nülinai
-			Ohænægæ Oon
-			Pandu Pocišu Pudu Puladu Pulihei Puluhu Pusulie
-			Sagai Sagezhou Sahamieæ Sahani Saiha Sain Salinian Satšï Soli Songge Sonu Souru Suike Sungida Sïaoha
-			Šalungha Šangnggu Šengguo Šensi’abu Šentumen Šiebucu Šiekude Šielihu Šielu Šieyibao Šigiyanu Šigunai Šijianu Šilu Šilula Šinde Šinilie Šišihuan Šunian Šuntçing Šïbua Šïlangha Šïlu Šïlungha Šïngsï Šïpuni
-			Tege Telin Tudu Tugesu Tunon Tušïnge
-			Uda Udaun Udisa'æ Uhuwæ Ulu Ušïnha
-			Weiçin Wennu Woben Wodai Wohu Wolibu Wolie Woli’an Wolu Wolun Wosai Woye Wozhe Wucimai Wudubu Wugucu Wugunai Wulie Wuyašu Wuzhu Wæuanjæ
-			Yacïnggia Yangdai Yangha Yangmudau Yansun Yawuta Yingge Yinzhuke Yongji Yunji
-			Zhanmeihe Zhušennu
-		}
-
-		female_names = {
-			Abha Abuha Acïburu Aihuma Alan Alihu Ambala Amban Ancun Ania
-			Ærdæ
-			Baiyang Bia Bira Boroæri Buctunggi Bugu Buiyemei Bulæhei Buræki
-			Caca Cïcïhei
-			Dahumo Dala Diben Dirgara Dohomo Dorhon Dulun Dunuke Duwæbæ
-			Eihæn
-			Feicen Fonto Fontomo Fulagiæn
-			Giahun Gluma Gorhon Guifala Gulmahai Gætilæ
-			Indahong Inænggi
-			Jabu Jalur Jaolamai Juhæ Jæku Jïrijïhæi
-			Liwaha Læfu
-			Meihæ Miehæ Minggan Monon Morin Mudur Mudusæ Mulan Munggan Muwæ Mæcu Mædæri Mæjïlæn Mæjïlænbæ
-			Nadan Nailahu Narhun Ngauyahu Nienieæri Niogohæ Nionieha Nongiæn
-			Orho Orhoda Orin Oso Ošïha
-			Pula Puluhuzhi
-			Sadugai Saimanggi Samao Sibiehung Sisæri Sogiæn Songgi Suan Sufa Suhæ Sækæ
-			Šagulizhen Šigge Šigu Šigu’er Šoun Šumu Šunja Šænun Šïlasun Šïlæun Šïngæ Šïrha
-			Tasha Tugi Tumæn Tunggi Tuwæri
-			Ulhu Ulin Ulu Ulya Unduhung Uyewun Ušïn
-			Wanduhung Weihan Wulu
-			Yewuju
-			Zhusiban Zhusihui
-		}
-
-		from_dynasty_prefix = "of "
-
-		allow_looting = yes
-		dynasty_name_first = yes
-		dynasty_title_names = no
-		founder_named_dynasties = yes
-		horde = yes
-		nomadic_in_alt_start = yes
-
-		modifier = default_culture_modifier
-	}
 
 	khitan = {
 		graphical_cultures = { chinesegfx mongolgfx muslimgfx }

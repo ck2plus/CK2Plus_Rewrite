@@ -1,36 +1,36 @@
-1000124159 = {
+1000082001 = {
 	name = "Kangaras"
 	culture = pecheneg
 }
-1000124188 = {
+1000082002 = {
 	name = "Choban"
 	culture = pecheneg
 }
-1000124189 = {
+1000082003 = {
 	name = "Chor"
 	culture = pecheneg
 }
-1000124190 = {
+1000082004 = {
 	name = "Ertim"
 	culture = pecheneg
 }
-1000124191 = {
+1000082005 = {
 	name = "Gyula"
 	culture = pecheneg
 }
-1000124192 = {
+1000082006 = {
 	name = "Kapan"
 	culture = pecheneg
 }
-1000124193 = {
+1000082007 = {
 	name = "Karabai"
 	culture = pecheneg
 }
-1000124194 = {
+1000082008 = {
 	name = "Kukhei"
 	culture = pecheneg
 }
-1000124195 = {
+1000082009 = {
 	name = "Tolmach"
 	culture = pecheneg
 }

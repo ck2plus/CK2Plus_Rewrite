@@ -1,8 +1,8 @@
-1000124227 = {
+1000057001 = {
 	name = "Tzul"
 	culture = khazar
 }
-1000124228 = {
+1000057002 = {
 	name = "Kasog"
 	culture = khazar
 }

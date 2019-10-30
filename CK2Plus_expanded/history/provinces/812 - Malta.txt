@@ -1,0 +1,28 @@
+# 812 - Malta
+
+# County Title
+title = c_malta
+
+# Settlements
+max_settlements = 4
+b_mdina = castle
+b_sliema = city
+#b_sanpawl = temple
+
+#b_gozo = castle
+#b_birzebbuga = castle
+#b_marsascala = castle
+#b_mgarr = castle
+#b_sangjilan = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+870.8.29 = { culture = sicilian_arabic religion = sunni } # Conquest of Malta
+# Between 870 and 1048, the Maltese islands were massively depopulated and practically uninhabited until Muslim Arabs repopulated it in the mid-1000's. The modern Maltese language (descendant from Siculo-Arabic) has zero remnants of a "previous" language.
+1099.1.1 = { trade_post = b_ziani }
+1142.1.1 = { religion = catholic }
+1147.1.1 = { b_sanpawl = temple }

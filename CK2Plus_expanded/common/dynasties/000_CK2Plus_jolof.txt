@@ -1,48 +1,48 @@
-1000124078 = {
+1000055001 = {
 	name = "Joof"
 	culture = wolof
 }
-1000124079 = {
+1000055002 = {
 	name = "Gelwar"
 	culture = wolof
 }
-1000124080 = {
+1000055003 = {
 	name = "Jaabi"
 	culture = wolof
 }
-1000124081 = {
+1000055004 = {
 	name = "Fak"
 	culture = wolof
 }
-1000124082 = {
+1000055005 = {
 	name = "N'Diaye"
 	culture = wolof
 }
-1000124083 = {
+1000055006 = {
 	name = "Kaabu"
 	culture = wolof
 }
-1000124084 = {
+1000055007 = {
 	name = "Fulani"
 	culture = wolof
 }
-1000124085 = {
+1000055008 = {
 	name = "Takur"
 	culture = wolof
 }
-1000124089 = {
+1000055009 = {
 	name = "Mandinka"
 	culture = wolof
 }
-1000124490 = {
+1000055010 = {
 	name = "Takur"
 	culture = wolof
 }
-1000124491 = {
+1000055011 = {
 	name = "Jaabi"
 	culture = wolof
 }
-1000124518 = {
+1000055012 = {
 	name = "Jabi"
 	culture = wolof
 }

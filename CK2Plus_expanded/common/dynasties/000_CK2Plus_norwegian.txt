@@ -1,68 +1,68 @@
-1000053600 = {
-	name = "SlÃ¦Ã°e"
+1000077001 = {
+	name = "Slæðe"
 	culture = norwegian
 }
-1000053601 = {
+1000077002 = {
 	name = "Paus"
 	culture = norwegian
 }
-1000053602 = {
+1000077003 = {
 	name = "Skaktavl"
 	culture = norwegian
 }
-1000053603 = {
+1000077004 = {
 	name = "Hrafn"
 	culture = norwegian
 }
-1000053604 = {
+1000077005 = {
 	name = "Haukur"
 	culture = norwegian
 }
-1000053605 = {
+1000077006 = {
 	name = "Loftur"
 	culture = norwegian
 }
-1000053606 = {
+1000077007 = {
 	name = "Torfi"
 	culture = norwegian
 }
-1000053607 = {
-	name = "BjÃ¸rn"
+1000077008 = {
+	name = "Bjørn"
 	culture = norwegian
 }
-1000053608 = {
+1000077009 = {
 	name = "Eggert"
 	culture = norwegian
 }
-1000053609 = {
+1000077010 = {
 	name = "Hummer"
 	culture = norwegian
 }
-1000053610 = {
+1000077011 = {
 	name = "Skak"
 	culture = norwegian
 }
-1000053611 = {
+1000077012 = {
 	name = "Kalips"
 	culture = norwegian
 }
-1000124129 = {
+1000077013 = {
 	name = "Brestisson"
 	culture = norwegian
 }
-1000124131 = {
+1000077014 = {
 	name = "Melkoff"
 	culture = norwegian
 }
-1000124132 = {
+1000077015 = {
 	name = "Gofraidsson"
 	culture = norwegian
 }
-1000124147 = {
+1000077016 = {
 	name = "af Halogaland"
 	culture = norwegian
 }
-1000124148 = {
+1000077017 = {
 	name = "Gudfastsson"
 	culture = norwegian
 }

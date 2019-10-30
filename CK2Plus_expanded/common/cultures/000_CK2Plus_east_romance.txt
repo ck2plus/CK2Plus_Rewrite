@@ -1,7 +1,7 @@
 ####################################################################
 #
 #	East Romance
-#	 - Aromanian
+#	 - Aromanian (Plus culture)
 #	 - Romanian*
 #
 #	* indicates a vanilla culture moved to a different group

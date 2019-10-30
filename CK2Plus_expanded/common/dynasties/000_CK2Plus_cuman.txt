@@ -1,16 +1,16 @@
-1000124096 = {
+1000026001 = {
 	name = "Kubasarid"
 	culture = cuman
 }
-1000124097 = {
-	name = "SirÃ§anarid"
+1000026002 = {
+	name = "Sirçanarid"
 	culture = cuman
 }
-1000124161 = {
+1000026003 = {
 	name = "Bulanid"
 	culture = cuman
 }
-1000124162 = {
+1000026004 = {
 	name = "Tutukid"
 	culture = cuman
 }

@@ -1,16 +1,16 @@
-1000124140 = {
+1000001001 = {
 	name = "Tujibid"
 	culture = andalusian_arabic
 }
-1000124200 = {
+1000001002 = {
 	name = "Abbadid"
 	culture = andalusian_arabic
 }
-1000124204 = {
+1000001003 = {
 	name = "Hazmid"
 	culture = andalusian_arabic
 }
-1000124205 = {
+1000001004 = {
 	name = "Majritid"
 	culture = andalusian_arabic
 }

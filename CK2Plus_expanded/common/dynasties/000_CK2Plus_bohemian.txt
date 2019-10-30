@@ -1,8 +1,8 @@
-1000124186 = {
+1000018001 = {
 	name = "Slavnik"
 	culture = bohemian
 }
-1000124187 = {
+1000018002 = {
 	name = "Vrsovec"
 	culture = bohemian
 }

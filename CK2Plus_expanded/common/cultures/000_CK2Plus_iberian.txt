@@ -81,7 +81,7 @@ iberian = {
 
 		modifier = default_culture_modifier
 	}
-	
+
 	castillan = {
 		graphical_cultures = { southerngfx }
 
@@ -159,24 +159,24 @@ iberian = {
 			Salvadór Sancho_Sancho Sarracino Sebastián_Sebastian Suero 
 			Telo_Tello 
 			Vedillo Vela Velasco_Vasco Vellito Vermudo_Vermudo Vimaro Vistruario
-			}
+		}
 		female_names = {
-              Aldonza_Aldonza 
-			  Beatriz_Beatrice 
-			  Constanza_Constance Cristina_Christina 
-			  Elo Elvira Enderquina Ermengarda_Ermengarde Estefanía_Stephania Eva_Eva 
-			  Fronilde_Fronilde 
-			  Guntroda Ildaria 
-			  Ines_Agnes 
-			  Jimena 
-			  Lupaa 
-			  Mafalda María_Maria Mayor_Mayor Mencía_Mencia 
-			  Nuna 
-			  Paterna 
-			  Sancha_Sancha 
-			  Tegrida Teresa_Teresa Toda_Toda 
-			  Urraca_Urraca
-			}
+			Aldonza_Aldonza 
+			Beatriz_Beatrice 
+			Constanza_Constance Cristina_Christina 
+			Elo Elvira Enderquina Ermengarda_Ermengarde Estefanía_Stephania Eva_Eva 
+			Fronilde_Fronilde 
+			Guntroda Ildaria 
+			Ines_Agnes 
+			Jimena 
+			Lupaa 
+			Mafalda María_Maria Mayor_Mayor Mencía_Mencia 
+			Nuna 
+			Paterna 
+			Sancha_Sancha 
+			Tegrida Teresa_Teresa Toda_Toda 
+			Urraca_Urraca
+		}
 
 		from_dynasty_prefix = "de "
 		male_patronym = "es"
@@ -192,7 +192,7 @@ iberian = {
 		mother_name_chance = 15
 
 		modifier = default_culture_modifier
-		}
+	}
 
 	portuguese = {
 		graphical_cultures = { southerngfx }

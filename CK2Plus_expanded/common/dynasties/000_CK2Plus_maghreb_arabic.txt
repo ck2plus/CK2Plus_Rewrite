@@ -1,32 +1,32 @@
-1000124087 = {
+1000067001 = {
 	name = "Sanhaja"
 	culture = maghreb_arabic
 }
-1000124088 = {
+1000067002 = {
 	name = "Zenata"
 	culture = maghreb_arabic
 }
-1000124177 = {
+1000067003 = {
 	name = "Siqillid"
 	culture = maghreb_arabic
 }
-1000124178 = {
+1000067004 = {
 	name = "Ameurid"
 	culture = maghreb_arabic
 }
-1000124179 = {
+1000067005 = {
 	name = "Sananid"
 	culture = maghreb_arabic
 }
-1000124180 = {
+1000067006 = {
 	name = "Ifranid"
 	culture = maghreb_arabic
 }
-1000124181 = {
+1000067007 = {
 	name = "Baghawatid"
 	culture = maghreb_arabic
 }
-1000124182 = {
+1000067008 = {
 	name = "Canarid"
 	culture = maghreb_arabic
 }
