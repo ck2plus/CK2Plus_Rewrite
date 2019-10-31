@@ -18,7 +18,7 @@ Mac: ~/Documents/Paradox Interactive/Crusader Kings II/mod/
 
 5) To extract the files from within, you'll first need a program like WinRar or 7-Zip. Once you have that, you should be able to just click to open the .zip file and you can move the files over to the "mod" sub-directory. Alternatively, you can use the extractor program to select the .zip file and select where you want the files extracted (the installation directory in #1).
 
-6) Start the CK2 launcher. Check the "CK2Plus" box in the list of mods. When the title screen comes up make sure the checksum (the four-letter code to the left of the title scree buttons) matches the one listed for that CK2Plus version. If so, you're good to go. If not, you've either made some other alterations, installed some other mods, or made a mistake.
+6) Start the CK2 launcher. Check the "CK2Plus" box in the list of mods, along with "CK2Plus Expanded", if you so choose, then launch the game. When the title screen comes up make sure the checksum (the four-letter code to the left of the title screen buttons) matches the one listed for the CK2Plus release you just downloaded. If so, you're good to go. If not, you've either made some other alterations to the mod, enabled some other mods from the launcher, or made a mistake.
 
 Useful Links
 ===============================================================================
