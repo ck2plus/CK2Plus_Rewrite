@@ -22,4 +22,4 @@ Mac: ~/Documents/Paradox Interactive/Crusader Kings II/mod/
 
 Useful Links
 ===============================================================================
-CK2 Plus Official Forum: https://forum.paradoxplaza.com/forum/index.php?forums/ck2-plus-mod.841/
+[CK2 Plus Official Forum](https://forum.paradoxplaza.com/forum/index.php?forums/ck2-plus-mod.841/)
