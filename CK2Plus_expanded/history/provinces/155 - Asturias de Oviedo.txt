@@ -35,9 +35,7 @@ religion = catholic
 	b_norena = ca_wall_2
 }
 
-950.1.1 = {
-	culture = castillan
-}
+950.1.1 = { culture = leonese }
 
 1108.1.1 = { capital = b_norena }
 
