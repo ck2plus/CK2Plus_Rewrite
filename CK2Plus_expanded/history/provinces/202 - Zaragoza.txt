@@ -20,7 +20,7 @@ religion = catholic
 
 # History
 
-950.1.1 = { culture = andalusian }
+950.1.1 = { culture = andalusian_arabic }
 
 1100.1.1 = { culture = aragonese }
 
