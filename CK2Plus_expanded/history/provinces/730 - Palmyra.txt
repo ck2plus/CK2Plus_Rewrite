@@ -17,7 +17,7 @@ b_arraml = temple
 #b_khirbat = castle
 
 # Misc
-culture = assyrian
+culture = syriac
 religion = orthodox
 
 # History
