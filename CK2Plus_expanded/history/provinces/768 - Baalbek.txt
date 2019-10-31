@@ -18,12 +18,13 @@ b_halbah = temple
 #b_krakdeschevaliers = castle
 
 # Misc
-culture = levantine_arabic
+culture = syriac
 religion = monothelite
 
 # History
 
 867.1.1 = { religion = sunni }
+867.1.1 = { culture = levantine_arabic }
 1016.1.1 = { religion = druze }
 
 #The Hospitales built the Krak des Chevaliers

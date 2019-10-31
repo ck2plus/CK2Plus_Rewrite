@@ -16,8 +16,9 @@ b_banyas = temple
 #b_belvoir = castle
 
 # Misc
-culture = levantine_arabic
+culture = syriac
 religion = monothelite
 
 # History
 867.1.1 = { religion = sunni }
+867.1.1 = { culture = levantine_arabic }

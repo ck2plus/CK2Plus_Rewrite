@@ -17,8 +17,9 @@ b_arraml = temple
 #b_khirbat = castle
 
 # Misc
-culture = levantine_arabic
+culture = syriac
 religion = orthodox
 
 # History
 900.1.1 = { religion = sunni }
+900.1.1 = { culture = levantine_arabic }

@@ -16,9 +16,10 @@ b_zweitina = temple
 #b_qatna = castle
 
 # Misc
-culture = levantine_arabic
+culture = syriac
 religion = orthodox
 
 # History
 867.1.1 = { religion = sunni }
+867.1.1 = { culture = levantine_arabic }
 1187.1.1 = { b_alkhazandar = castle } 

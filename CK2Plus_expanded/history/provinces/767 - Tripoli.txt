@@ -20,7 +20,7 @@ b_boutron = temple
 #b_nephin = castle
 
 # Misc
-culture = levantine_arabic
+culture = syriac
 religion = monothelite
 
 # History
@@ -30,3 +30,4 @@ religion = monothelite
 # Mamluks take the county of Tripoli
 
 1295.1.1 = { religion = sunni } 
+1295.1.1 = { culture = levantine_arabic }
