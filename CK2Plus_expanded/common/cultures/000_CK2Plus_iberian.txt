@@ -141,7 +141,7 @@ iberian = {
 
 	leonese = { 
 		graphical_cultures = { southerngfx }
-		color = { 0.45 0.75 0.35 }
+		color = { 0.78 0.47 0.85 }
 
 		male_names = {
             Adulfo Alfonso_Alphonse Alvar Alvito Amentario Amor Ansuro Antonio_Antoninus Arias Auderico Aznaro_Aznar 
