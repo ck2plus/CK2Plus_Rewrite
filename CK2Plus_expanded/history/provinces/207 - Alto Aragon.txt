@@ -15,7 +15,7 @@ b_loarre = castle
 #b_uncastillo = castle
 
 # Misc
-culture = basque
+culture = visigothic
 religion = catholic
 
 # History
@@ -35,4 +35,4 @@ religion = catholic
 	b_loarre = ca_wall_2
 }
 
-940.1.1 = { culture = castillan }
+940.1.1 = { culture = aragonese }

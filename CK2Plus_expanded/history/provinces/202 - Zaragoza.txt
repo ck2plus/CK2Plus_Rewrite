@@ -20,7 +20,9 @@ religion = catholic
 
 # History
 
-950.1.1 = { culture = castillan }
+950.1.1 = { culture = andalusian }
+
+1100.1.1 = { culture = aragonese }
 
 1133.1.1 = { religion = catholic }
 
