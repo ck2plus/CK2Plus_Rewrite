@@ -14,7 +14,7 @@ Mac: ~/Documents/Paradox Interactive/Crusader Kings II/mod/
 
 3) If you already have a "mod" sub-directory there, excellent. Make sure you delete anything related to CK2Plus prior to the manual installation -- this includes any old versions of the mod, anything that was installed by Steam Workshop (which we no longer use), etc. You want a clean slate when installing, even if you're just updating to a new mod version.
 
-4) Make sure you've downloaded the .zip file from the link at the top of this page.
+4) Make sure you've downloaded the [latest .zip from the releases page](github.com/ck2plus/CK2Plus_Rewrite/releases/latest)
 
 5) To extract the files from within, you'll first need a program like WinRar or 7-Zip. Once you have that, you should be able to just click to open the .zip file and you can move the files over to the "mod" sub-directory. Alternatively, you can use the extractor program to select the .zip file and select where you want the files extracted (the installation directory in #1).
 
