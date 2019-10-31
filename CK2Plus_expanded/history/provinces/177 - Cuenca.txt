@@ -21,5 +21,10 @@ terrain = hills
 
 955.1.1 = {
 	culture = andalusian_arabic
+  religion = sunni
+}
 
+1187.1.1 = {
+  culture = castillan
+  religion = catholic
 }
