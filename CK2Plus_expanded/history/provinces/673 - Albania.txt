@@ -15,7 +15,7 @@ b_ganja = city
 #b_kabala = city
 
 # Misc
-culture = armenian
+culture = udi
 religion = miaphysite
 
 # History
