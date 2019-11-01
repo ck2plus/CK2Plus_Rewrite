@@ -25,10 +25,11 @@ religion = slavic_pagan
 	b_bazin = city
 	b_modor = castle
 }
+861.1.1 = { religion = catholic }
 930.1.1 = {
 	b_pressburg = tribal
 }
 950.1.1 = {
 	b_pressburg = castle
+	culture = szekely
 }
-861.1.1 = { religion = catholic }

@@ -34,3 +34,6 @@ religion = tengri_pagan
 	b_csik = castle
 	b_haromszek = city
 }
+1140.1.1 = {
+    culture = szekely
+}
