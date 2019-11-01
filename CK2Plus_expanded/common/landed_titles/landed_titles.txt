@@ -12,6 +12,10 @@ e_rebels = {
 
 	color={ 0 0 0 }
 	color2={ 0 0 0 }
+
+	allow = {
+		always = no
+	}
 }
 
 e_pirates = {
@@ -25,6 +29,10 @@ e_pirates = {
 
 	color={ 0 0 0 }
 	color2={ 0 0 0 }
+
+	allow = {
+		always = no
+	}
 }
 
 # SPECIAL TITLES
@@ -36,6 +44,7 @@ e_outremer = {
 	capital = 774
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				NOR = {
@@ -74,6 +83,7 @@ e_nicaea = {
 	has_top_de_jure_capital = yes
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				e_nicaea = {
@@ -95,6 +105,7 @@ e_lechczechrus = {
 	capital = 547	#Kiev
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				e_lechczechrus = {
@@ -117,6 +128,7 @@ e_bulgaria = {
 	capital = 499 # Tyrnovo
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				e_bulgaria = {
@@ -272,6 +284,7 @@ k_antioch = {
 	title_prefix = "principality_prefix"
 
 	allow = {
+		has_ck2plus_kingdom_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				k_antioch = {
@@ -300,6 +313,7 @@ k_switzerland = {
 	short_name = yes
 
 	allow = {
+		has_ck2plus_kingdom_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				k_switzerland = {
@@ -330,6 +344,8 @@ e_sunni = {
 	# controls_religion = sunni
 
 	caliphate = yes
+
+	allow = { always = no }
 }
 
 e_shiite = {
@@ -349,6 +365,8 @@ e_shiite = {
 	# controls_religion = shiite
 
 	caliphate = yes
+
+	allow = { always = no }
 }
 
 d_sunni = {
@@ -372,6 +390,7 @@ d_sunni = {
 	controls_religion = sunni
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				NOT = {
@@ -568,6 +587,7 @@ d_shiite = {
 	controls_religion = shiite
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				NOT = {
@@ -785,6 +805,7 @@ d_qarmatian = {
 	controls_religion = qarmatian
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		religion = qarmatian
 		piety = 500
 		OR = {
@@ -3867,6 +3888,9 @@ e_hre = {                      # Created by special decision only
 	short_name = yes
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
+		# Put actual creation reqs here later
+
 		always = no # Only created through special decisions
 	}
 
@@ -3881,6 +3905,7 @@ e_hre = {                      # Created by special decision only
 		title_female = "GRAND_DUCHY_RULER_FEMALE"
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				k_saxon = {
 					is_titular = yes
@@ -3906,6 +3931,7 @@ e_hre = {                      # Created by special decision only
 		title_female = "GRAND_DUCHY_RULER_FEMALE"
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				k_franconia = {
 					is_titular = yes
@@ -3927,6 +3953,7 @@ e_hre = {                      # Created by special decision only
 		title_female = "GRAND_DUCHY_RULER_FEMALE"
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				k_swabia = {
 					is_titular = yes
@@ -3949,6 +3976,7 @@ e_germany = {
 	culture = german
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		hidden_tooltip = {
 			OR = {
 				ai = no
@@ -3972,6 +4000,7 @@ e_germany = {
 		title_prefix = "archduchy_prefix"
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				trigger = {
 					k_austria = {
@@ -3992,6 +4021,7 @@ e_germany = {
 		capital = 449
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				trigger = {
 					k_eastern_marches = {
@@ -4014,6 +4044,7 @@ e_germany = {
 		dignity = 200 # Never want the Hanseatic League to change primary title
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				trigger = {
 					k_hansa = {
@@ -4035,6 +4066,7 @@ e_germany = {
 		capital = 257 # Brunswick
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -4056,6 +4088,10 @@ e_germany = {
 			capital = 257 # Brunswick
 
 			old_saxon = Ostfalia
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_luneburg = {
 				color={ 195 195 195 }
@@ -4171,16 +4207,20 @@ e_germany = {
 			capital = 257 # Brunswick
 
 			allow = {
-				conditional_tooltip = {
-					trigger = {
-						d_brunswick = {
-							is_titular = yes
-						}
-					}
-					d_brunswick = {
-						is_titular = no
-					}
-				}
+				has_ck2plus_duchy_reqs = yes
+
+				# Commented this out because it ammounts to an always = no as duchies can't drift between landed and titular
+				#
+				# conditional_tooltip = {
+				# 	trigger = {
+				# 		d_brunswick = {
+				# 			is_titular = yes
+				# 		}
+				# 	}
+				# 	d_brunswick = {
+				# 		is_titular = no
+				# 	}
+				# }
 			}
 		}
 		d_bremen = {
@@ -4202,6 +4242,10 @@ e_germany = {
 					color = 3
 					color = 13
 				}
+			}
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
 			}
 
 			c_bremen = {
@@ -4269,6 +4313,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 1979 # Minden
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_osnabruck = {
 				color={ 213 213 213 }
@@ -4341,6 +4389,10 @@ e_germany = {
 
 			old_saxon = Westfalia
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_munster = {
 				color={ 212 212 212 }
 				color2={ 255 255 255 }
@@ -4405,6 +4457,7 @@ e_germany = {
 		capital = 80 #Holland
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -4426,6 +4479,10 @@ e_germany = {
 			capital = 80 #Holland
 
 			culture = dutch
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_holland = {
 				color={ 235 85 30 }
@@ -4523,6 +4580,10 @@ e_germany = {
 
 			culture = dutch
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_gelre = {
 				color={ 200 100 30 }
 				color2={ 255 255 255 }
@@ -4607,6 +4668,7 @@ e_germany = {
 		capital = 115 #Luxemburg
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -4631,6 +4693,10 @@ e_germany = {
 			capital = 117 #Brabant
 
 			culture = dutch
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_brabant = {
 				color={ 200 100 65 }
@@ -4701,6 +4767,11 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 127 #Lorraine
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_lorraine = {
 				color={ 92 92 127 }
 				color2={ 255 255 255 }
@@ -4787,6 +4858,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 115 #Luxembourg
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_luxembourg = {
 				color={ 113 113 158 }
@@ -4879,6 +4954,10 @@ e_germany = {
 
 			capital = 118 # Trier
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_trier = {
 				color={ 144 144 177 }
 				color2={ 255 255 255 }
@@ -4939,6 +5018,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 119 #Cologne
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			norse = Köln
 			swedish = Köln
@@ -5046,6 +5129,7 @@ e_germany = {
 		capital = 1700 # Regensburg
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -5066,6 +5150,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 1700 # Regensburg
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_passau = {
 				color={ 54 54 54 }
@@ -5146,6 +5234,10 @@ e_germany = {
 
 			capital = 314 # Nurnberg
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_nurnberg = {
 				color={ 57 57 57 }
 				color2={ 255 255 255 }
@@ -5183,6 +5275,10 @@ e_germany = {
 			color2= { 255 255 255 }
 
 			capital = 448 # Salzburg
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_salzburg = {
 				color={ 63 63 63 }
@@ -5229,6 +5325,10 @@ e_germany = {
 			capital = 449 #Österreich
 
 			roman = "Noricum"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_steiermark = {
 				color={ 45 45 45 }
@@ -5354,6 +5454,10 @@ e_germany = {
 			german = "Steiermark"
 			carantanian = "Gradec"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_leoben = {
 				color={ 50 30 40 }
 				color2={ 255 255 255 }
@@ -5407,6 +5511,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 316 #Tirol
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_tirol = {
 				color={ 90 90 90 }
@@ -5510,6 +5618,7 @@ e_germany = {
 		carantanian = "Carantania"
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -5523,6 +5632,10 @@ e_germany = {
 			color2 = { 255 255 255 }
 
 			capital = 358 # Aquileia
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_aquileia = {
 				color={ 115 205 175 }
@@ -5604,6 +5717,10 @@ e_germany = {
 			carantanian = "Kranj"
 			bosnian = "Kranj"
 			german = "Krain"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_istria = {
 				color={ 165 245 200 }
@@ -5695,6 +5812,10 @@ e_germany = {
 			german = "Kärnten"
 			carantanian = "Carantania"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_karnten = {
 				color={ 125 225 195 }
 				color2={ 255 255 255 }
@@ -5749,11 +5870,19 @@ e_germany = {
 		baltic_pagan_reformed = 50
 		celtic_pagan_reformed = 250
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_hesse = {
 			color={ 160 160 120 }
 			color2={ 255 255 255 }
 
 			capital = 1987 # Hesse
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_hesse = {
 				color={ 173 173 160 }
@@ -5798,6 +5927,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 255 #Thuringen
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_thuringen = {
 				color={ 42 42 42 }
@@ -5847,6 +5980,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 254 # Würzburg
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_leiningen = {
 				color={ 126 126 126 }
@@ -5926,6 +6063,10 @@ e_germany = {
 
 			capital = 123 # Mainz
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_pfalz = {
 				color={ 140 140 170 }
 				color2={ 255 255 255 }
@@ -5970,6 +6111,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 125 #Baden
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_baden = {
 				color={ 102 102 102 }
@@ -6021,17 +6166,19 @@ e_germany = {
 			capital = 248 # Thurgau
 
 			allow = {
-				conditional_tooltip = {
-					trigger = {
-						d_thurgau = {
-							is_titular = yes
-						}
-					}
+				has_ck2plus_duchy_reqs = yes
 
-					d_thurgau = {
-						is_titular = no
-					}
-				}
+				# conditional_tooltip = {
+				#	trigger = {
+				#		d_thurgau = {
+				#			is_titular = yes
+				#		}
+				#	}
+				#
+				#	d_thurgau = {
+				#		is_titular = no
+				#	}
+				# }
 			}
 
 			c_zurichgau = {
@@ -6099,17 +6246,19 @@ e_germany = {
 			capital = 247 # Chur
 
 			allow = {
-				conditional_tooltip = {
-					trigger = {
-						d_raetia = {
-							is_titular = yes
-						}
-					}
+				has_ck2plus_duchy_reqs = yes
 
-					d_raetia = {
-						is_titular = no
-					}
-				}
+				# conditional_tooltip = {
+				#	trigger = {
+				#		d_raetia = {
+				#			is_titular = yes
+				#		}
+				#	}
+				#
+				#	d_raetia = {
+				#		is_titular = no
+				#	}
+				# }
 			}
 
 			german = "Churrätien"
@@ -6178,6 +6327,10 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			capital = 249 #Schwaben
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_schwaben = {
 				color={ 81 81 81 }
@@ -6291,6 +6444,10 @@ e_germany = {
 
 			capital = 134 #Sundgau
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_nordgau = {
 				color={ 160 160 210 }
 				color2={ 255 255 255 }
@@ -6341,6 +6498,7 @@ e_germany = {
 			capital = 123 # Mainz
 
 			allow = {
+				has_ck2plus_duchy_reqs = yes
 				is_theocracy = yes
 			}
 		}
@@ -6351,6 +6509,11 @@ e_germany = {
 		color2={ 255 255 255 }
 
 		capital = 254 # Würzburg
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+			always = no # These three look like event titles. I want to know what they are before I nail down requirements on them.
+		}
 	}
 
 	k_thuringia_otto = {
@@ -6358,6 +6521,11 @@ e_germany = {
 		color2={ 255 255 255 }
 
 		capital = 255 # Thuringen
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+			always = no # These three look like event titles. I want to know what they are before I nail down requirements on them.
+		}
 	}
 
 	k_swabia_otto = {
@@ -6365,6 +6533,11 @@ e_germany = {
 		color2={ 255 255 255 }
 
 		capital = 249 # Schwaben
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+			always = no # These three look like event titles. I want to know what they are before I nail down requirements on them.
+		}
 	}
 }
 
@@ -6382,6 +6555,7 @@ e_roman_empire = {
 	#religion = orthodox
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		always = no # Only created through special event
 	}
 }
