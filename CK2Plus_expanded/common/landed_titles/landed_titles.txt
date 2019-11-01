@@ -6512,7 +6512,13 @@ e_germany = {
 
 		allow = {
 			has_ck2plus_kingdom_reqs = yes
-			always = no # These three look like event titles. I want to know what they are before I nail down requirements on them.
+		}
+
+		gain_effect = {
+			if = {
+				limit = { NOT = { is_title_active = k_franconia_otto } }
+				activate_title = { title = k_franconia_otto status = yes }
+			}
 		}
 	}
 
@@ -6524,7 +6530,13 @@ e_germany = {
 
 		allow = {
 			has_ck2plus_kingdom_reqs = yes
-			always = no # These three look like event titles. I want to know what they are before I nail down requirements on them.
+		}
+
+		gain_effect = {
+			if = {
+				limit = { NOT = { is_title_active = k_thuringia_otto } }
+				activate_title = { title = k_thuringia_otto status = yes }
+			}
 		}
 	}
 
@@ -6536,8 +6548,15 @@ e_germany = {
 
 		allow = {
 			has_ck2plus_kingdom_reqs = yes
-			always = no # These three look like event titles. I want to know what they are before I nail down requirements on them.
 		}
+
+		gain_effect = {
+			if = {
+				limit = { NOT = { is_title_active = k_swabia_otto } }
+				activate_title = { title = k_swabia_otto status = yes }
+			}
+		}
+
 	}
 }
 
