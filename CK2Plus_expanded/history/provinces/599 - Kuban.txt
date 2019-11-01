@@ -17,7 +17,7 @@ b_khumar = tribal
 #b_beshtau = castle
 #b_kirpili = castle
 
-culture = khazar
+culture = circassian
 religion = tengri_pagan
 
 # History

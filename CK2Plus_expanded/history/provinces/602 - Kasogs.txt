@@ -17,7 +17,7 @@ b_myequape = tribal
 #b_sarytyuz = city
 
 # Misc
-culture = alan
+culture = circassian
 religion = tengri_pagan
 
 # History
