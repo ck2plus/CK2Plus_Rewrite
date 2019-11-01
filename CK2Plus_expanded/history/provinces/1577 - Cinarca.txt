@@ -15,7 +15,7 @@ b_bonifacio = temple
 #b_propriano = castle
 
 # Misc
-culture = corsican
+culture = italian #sardinian
 religion = catholic
 terrain = mountain
 

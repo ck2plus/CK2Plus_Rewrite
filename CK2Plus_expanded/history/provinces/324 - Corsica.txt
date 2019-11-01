@@ -15,7 +15,7 @@ b_morosaglia = temple
 #b_algajola = castle
 
 # Misc
-culture = corsican
+culture = italian #sardinian
 religion = catholic
 terrain = mountain
 
