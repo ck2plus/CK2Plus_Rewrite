@@ -28,7 +28,7 @@ religion = slavic_pagan
 }
 988.1.1 = { religion = orthodox }
 
-1250.1.1 = {
+1220.1.1 = {
     culture = szekely
     religion = catholic
 }
