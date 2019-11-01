@@ -8,7 +8,7 @@ max_settlements = 3
 b_balanjar = tribal
 
 # Misc
-culture = alan
+culture = caucasian_avar
 religion = tengri_pagan
 
 # History
