@@ -20,11 +20,13 @@ religion = miaphysite
 
 # History
 500.1.1 = { b_barda = temple }
+900.1.1 = {
+    culture = persian
+    religion = sunni
+}
 1066.1.1= { 
 		remove_settlement = b_barda
-		b_shaki = temple
-		religion = sunni
-		culture = persian }
+		b_shaki = temple }
 1124.1.1= { 
 		remove_settlement = b_shaki
 		culture = armenian
