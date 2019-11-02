@@ -6599,6 +6599,7 @@ e_byzantium = {
 	purple_born_heirs = yes
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		conditional_tooltip = {
 			trigger = {
 				e_roman_empire = {
@@ -6632,6 +6633,7 @@ e_byzantium = {
 		dignity = 20
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				trigger = {
 					k_amalfi = {
@@ -6654,6 +6656,7 @@ e_byzantium = {
 		hellenic_pagan_reformed = 500
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				trigger = {
 					k_cyprus = {
@@ -6676,6 +6679,10 @@ e_byzantium = {
 	k_saruhan = {
 		color = { 144 171 225 }
 		culture = turkish
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_trinacria = {
@@ -6683,6 +6690,7 @@ e_byzantium = {
 		capital = 340 #	Palermo
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			OR = {
 				religion = catholic
 				is_heresy_of = catholic
@@ -6708,44 +6716,80 @@ e_byzantium = {
 
 	k_tekke = {
 		color={ 244 153 189 }
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_ottoman = {
 		color = { 247 145 30 }
 		culture = turkish
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_rum = {
 		color = { 144 182 161 }
 		culture = turkish
 		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_mentese = {
 		color = { 60 130 20 }
 		culture = turkish
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_karaman = {
 		color = { 120 41 92 }
 		culture = turkish
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_germiyan = {
 		color = { 255 180 180 }
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_eretnid = {
 		color = { 253 182 182 }
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_aydin = {
 		color = { 238 43 172 }
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_candar = {
 		color = { 238 79 182 }
 		culture = turkish
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 	}
 
 	k_trebizond = {
@@ -6757,6 +6801,10 @@ e_byzantium = {
 		orthodox = 1000
 		hellenic_pagan_reformed = 5000
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_trebizond = {
 			color={ 125 160 30 }
 			color2={ 255 255 255 }
@@ -6764,6 +6812,10 @@ e_byzantium = {
 			capital = 678 # Trepezous
 
 			dignity = 7
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_theodosiopolis = {
 				color={ 140 50 100 }
@@ -6834,6 +6886,10 @@ e_byzantium = {
 
 			capital = 738 # Amisos
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_amisos = {
 				color={ 255 2 169 }
 				color2={ 255 255 20 }
@@ -6874,6 +6930,10 @@ e_byzantium = {
 			color2={ 255 255 20 }
 
 			capital = 751 # Paphlagonia
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_paphlagonia = {
 				color={ 231 74 177 }
@@ -6934,6 +6994,7 @@ e_byzantium = {
 		roman = "Thracia"
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -6954,6 +7015,10 @@ e_byzantium = {
 			capital = 741 # Nikomedia
 
 			turkish = "Izmit"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_nikomedeia = {
 				color={ 208 107 173 }
@@ -7009,6 +7074,10 @@ e_byzantium = {
 			capital = 744 # Abydos
 
 			turkish = "Balakhisar"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_abydos = {
 				color={ 147 55 115 }
@@ -7097,6 +7166,10 @@ e_byzantium = {
 			orthodox = 250
 			catholic = 125
 			muslim = 100
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kaliopolis = {
 				color={ 176 80 143 }
@@ -7192,6 +7265,10 @@ e_byzantium = {
 
 			capital = 494 # Adrianopolis
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_adrianopolis = {
 				color={ 216 77 168 }
 				color2={ 255 255 20 }
@@ -7261,6 +7338,8 @@ e_byzantium = {
 
 		# Creation/Usurp Trigger
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -7279,6 +7358,10 @@ e_byzantium = {
 			color2={ 255 255 20 }
 
 			capital = 490 # Thessalonike
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_chalkidike = {
 				color={ 192 22 133 }
@@ -7340,6 +7423,10 @@ e_byzantium = {
 			color2={ 255 255 20 }
 
 			capital = 475 # Thebes
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_demetrias = {
 				color={ 209 69 161 }
@@ -7426,6 +7513,10 @@ e_byzantium = {
 			color2={ 255 255 20 }
 
 			capital = 481 # Korinthos
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_achaia = {
 				color={ 192 31 136 }
@@ -7521,6 +7612,10 @@ e_byzantium = {
 
 			capital = 484 # Naxos
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_naxos = {
 				color={ 149 57 117 }
 				color2={ 255 255 20 }
@@ -7584,6 +7679,10 @@ e_byzantium = {
 			color2={ 255 255 20 }
 
 			capital = 480 # Chandax
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kaneia = {
 				color={ 178 11 120 }
@@ -7665,6 +7764,10 @@ e_byzantium = {
 		# Crusade target weights
 		hellenic_pagan_reformed = 2000
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_ohrid = {
 			color={ 150 30 70 }
 			color2={ 255 255 20 }
@@ -7673,6 +7776,10 @@ e_byzantium = {
 
 			greek = "Lychnidos"
 			arberian = "Ohri"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_ochrid = {
 				color={ 141 31 103 }
@@ -7739,6 +7846,10 @@ e_byzantium = {
 
 			arberian = "Arbanon"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_dyrrachion = {
 				color={ 143 33 105 }
 				color2={ 255 255 20 }
@@ -7786,6 +7897,10 @@ e_byzantium = {
 			color2={ 255 255 20 }
 
 			capital = 473 # Arta
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_epeiros = {
 				color={ 138 67 113 }
@@ -7850,6 +7965,10 @@ e_byzantium = {
 			color2={ 255 255 20 }
 
 			capital = 474
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_cephalonia = {
 				color={ 146 75 121 }
@@ -7917,6 +8036,10 @@ e_byzantium = {
 		catholic = 75
 		muslim = 100
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_nikaea = {
 			color={ 202 101 167 }
 			color2={ 255 255 20 }
@@ -7924,6 +8047,10 @@ e_byzantium = {
 			capital = 750 # Nikaea
 
 			turkish = "Iznik"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_nikaea = {
 				color={ 205 104 170 }
@@ -8007,6 +8134,10 @@ e_byzantium = {
 
 			capital = 486 # Samos
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_ephesos = {
 				color={ 237 42 171 }
 				color2={ 255 255 20 }
@@ -8088,6 +8219,10 @@ e_byzantium = {
 
 			capital = 755 # Attaleia
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_attaleia = {
 				color={ 112 33 84 }
 				color2={ 255 255 20 }
@@ -8167,6 +8302,10 @@ e_byzantium = {
 
 			capital = 759 # Ikonion
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_ikonion = {
 				color={ 178 27 126 }
 				color2={ 255 255 20 }
@@ -8224,6 +8363,10 @@ e_byzantium = {
 			color2={ 255 255 20 }
 
 			capital = 748 # Laodikeia
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_sozopolis = {
 				color={ 158 47 120 }
@@ -8295,6 +8438,10 @@ e_byzantium = {
 
 			roman = "Galatia"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_charsianon = {
 				color={ 230 80 170 }
 				color2={ 255 255 20 }
@@ -8365,6 +8512,10 @@ e_byzantium = {
 
 			capital = 760
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_tyana = {
 				color={ 246 77 187 }
 				color2={ 255 255 20 }
@@ -8403,6 +8554,10 @@ e_byzantium = {
 
 			greek = "Boukellarion"
 			turkish = "Ankara"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_ankyra = {
 				color={ 239 82 185 }
@@ -8443,6 +8598,10 @@ e_byzantium = {
 			capital = 761 # Tarsos
 
 			armenian = "Armenia Minor"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_lykandos = {
 				color={ 214 140 195 }
@@ -8576,6 +8735,10 @@ e_byzantium = {
 
 			capital = 757 # Famagusta
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_famagusta = {
 				color={ 228 19 156 }
 				color2={ 255 255 20 }
@@ -8642,6 +8805,8 @@ e_byzantium = {
 
 		# Creation/usurpation trigger
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -8655,6 +8820,10 @@ e_byzantium = {
 			color2={ 255 255 255 }
 
 			capital = 682 # Vaspurakan
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_vaspurakan = {
 				color={ 144 67 36 }
@@ -8746,6 +8915,10 @@ e_byzantium = {
 
 			capital = 702 # Mesopotamia
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_karin = {
 				color={ 155 95 20 }
 				color2={ 255 255 255 }
@@ -8819,6 +8992,10 @@ e_byzantium = {
 
 			capital = 699 # Edessa
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_edessa = {
 				color={ 175 105 45 }
 				color2={ 255 255 255 }
@@ -8891,6 +9068,10 @@ e_byzantium = {
 
 			capital = 706 # Koloneia
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_koloneia = {
 				color={ 195 120 50 }
 				color2={ 255 255 255 }
@@ -8949,6 +9130,10 @@ e_byzantium = {
 		slavic_pagan_reformed = 50
 		tengri_pagan_reformed = 50
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_vidin = {
 			color={ 122 103 58 }
 			color2={ 255 255 255 }
@@ -8956,6 +9141,10 @@ e_byzantium = {
 			capital = 506 # Vidin
 
 			greek = "Bononia"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_vidin = {
 				color={ 124 105 60 }
@@ -9014,6 +9203,10 @@ e_byzantium = {
 			color2={ 255 255 255 }
 
 			capital = 499 # Tyrnovo
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_tyrnovo = {
 				color={ 156 41 199 }
@@ -9122,6 +9315,10 @@ e_byzantium = {
 
 			capital = 509 # Karvuna
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_mesembria = {
 				color={ 207 92 250 }
 				color2={ 255 255 255 }
@@ -9197,6 +9394,10 @@ e_byzantium = {
 
 			capital = 492
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_strymon = {
 				color={ 139 29 101 }
 				color2={ 255 255 20 }
@@ -9243,6 +9444,10 @@ e_byzantium = {
 		orthodox = 300
 		catholic = 100
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_rashka = {
 			color={ 168 135 57 }
 			color2={ 255 255 255 }
@@ -9252,6 +9457,10 @@ e_byzantium = {
 			greek = "Dardania"
 			roman = "Dardania"
 			dalmatian = "Dardania"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_rashka = {
 				color={ 172 139 61 }
@@ -9374,6 +9583,10 @@ e_byzantium = {
 			bosnian = "Duklja"
 			roman = "Praevalitana"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_zeta = {
 				color={ 131 96 15 }
 				color2={ 255 255 255 }
@@ -9464,6 +9677,10 @@ e_byzantium = {
 		orthodox = 300
 		catholic = 1000
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_slavonia = {
 			color={ 184 137 137 }
 			color2={ 255 255 255 }
@@ -9473,6 +9690,10 @@ e_byzantium = {
 			roman = "Pannonia"
 			greek = "Pannonia"
 			dalmatian = "Pannonia"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_krizevci = {
 				color={ 186 139 139 }
@@ -9546,6 +9767,10 @@ e_byzantium = {
 
 			capital = 1968 # Syrmia
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_syrmia = {
 				color={ 174 144 119 }
 				color2={ 255 255 255 }
@@ -9576,6 +9801,10 @@ e_byzantium = {
 			color2={ 255 255 255 }
 
 			capital = 1971 # Vrhbosna
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_rama = {
 				color={ 197 118 118 }
@@ -9669,6 +9898,10 @@ e_byzantium = {
 			roman = "Liburnia"
 			dalmatian = "Liburnia"
 			greek = "Liburnia"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_zadar = {
 				color={ 188 141 141 }
@@ -9812,6 +10045,10 @@ e_byzantium = {
 
 			dalmatian = "Dalmatia"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_imotski = {
 				color={ 170 80 100 }
 				color2={ 255 255 255 }
@@ -9889,6 +10126,8 @@ e_byzantium = {
 		celtic_pagan_reformed = 250
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			conditional_tooltip = {
 				trigger = {
 					k_sicily = {
@@ -9909,6 +10148,10 @@ e_byzantium = {
 
 			# Crusade target weights
 			catholic = 250
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_benevento = {
 				color = { 209 170 75 }
@@ -9961,6 +10204,10 @@ e_byzantium = {
 
 			# Crusade target weights
 			catholic = 250
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_capua = {
 				color = { 240 209 100 }
@@ -10021,6 +10268,10 @@ e_byzantium = {
 
 			# Crusade target weights
 			catholic = 250
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_apulia = {
 				color={ 167 172 63 }
@@ -10101,6 +10352,10 @@ e_byzantium = {
 
 			capital = 929 # Teramo
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_chieti = {
 				color={ 200 220 200 }
 				color2={ 255 255 255 }
@@ -10149,6 +10404,10 @@ e_byzantium = {
 
 			# Crusade target weights
 			catholic = 250
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_salerno = {
 				color={ 245 194 199 }
@@ -10227,6 +10486,10 @@ e_byzantium = {
 			# Crusade target weights
 			catholic = 250
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_consenza = {
 				color={ 170 142 70 }
 				color2={ 255 255 255 }
@@ -10287,6 +10550,10 @@ e_byzantium = {
 			color2={ 255 255 255 }
 
 			capital = 340 # Palermo
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_palermo = {
 				color={ 155 254 86 }
@@ -10496,11 +10763,19 @@ e_byzantium = {
 		tengri_pagan_reformed = 50
 		zoroastrian_group = 200
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_kartli = {
 			color={ 234 119 119 }
 			color2={ 255 255 255 }
 
 			capital = 679 # Kartli
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kartli = {
 				color={ 196 121 121 }
@@ -10553,6 +10828,10 @@ e_byzantium = {
 			color2={ 255 255 255 }
 
 			capital = 680 # Tao
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_tao = {
 				color={ 238 183 183 }
@@ -10611,6 +10890,10 @@ e_byzantium = {
 			color2={ 255 255 255 }
 
 			capital = 673 # Albania
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kakheti = {
 				color={ 202 147 147 }
@@ -10688,6 +10971,10 @@ e_byzantium = {
 
 			capital = 601 # Imeretia
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_abkhazia = {
 				color={ 254 160 160 }
 				color2={ 255 255 255 }
@@ -10732,6 +11019,8 @@ e_italy = {
 	culture = italian
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
+
 		hidden_tooltip = {
 			OR = {
 				ai = no
@@ -10912,6 +11201,7 @@ e_italy = {
 		dignity = 200 # Never want the Republic of Genoa to change primary title
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			is_republic = yes
 			k_genoa = {
 				is_titular = no
@@ -10929,6 +11219,7 @@ e_italy = {
 		dignity = 200 # Never want the Republic of Pisa to change primary title
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			is_republic = yes
 			k_pisa = {
 				is_titular = no
@@ -10941,6 +11232,8 @@ e_italy = {
 		capital = 334 # Napoli
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			conditional_tooltip = {
 				trigger = {
 					FROM = {
@@ -10974,6 +11267,8 @@ e_italy = {
 		christian = 10000
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -11021,6 +11316,8 @@ e_italy = {
 		hellenic_pagan_reformed = 5000
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			conditional_tooltip = {
 				trigger = {
 					k_papacy = {
@@ -11093,6 +11390,10 @@ e_italy = {
 
 			capital = 351 # Ravenna
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_bologna = {
 				color={ 244 180 130 }
 				color2={ 255 255 255 }
@@ -11161,6 +11462,10 @@ e_italy = {
 
 			capital = 350 # Ancona
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_ancona = {
 				color={ 224 249 224 }
 				color2={ 255 255 255 }
@@ -11220,6 +11525,10 @@ e_italy = {
 
 			capital = 349 # Spoleto
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_spoleto = {
 				color={ 225 250 235 }
 				color2={ 255 255 255 }
@@ -11260,6 +11569,10 @@ e_italy = {
 
 			# Crusade target weights
 			christian = 750
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_roma = {
 				color={ 242 233 156 }
@@ -11388,6 +11701,8 @@ e_italy = {
 
 		# Creation/usurpation trigger
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -11406,6 +11721,10 @@ e_italy = {
 			color2={ 255 255 255 }
 
 			capital = 319 # Verona
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_verona = {
 				color={ 255 230 230 }
@@ -11476,6 +11795,10 @@ e_italy = {
 			color2={ 255 255 255 }
 
 			capital = 236 # Piemonte
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_piemonte = {
 				color={ 104 12 38 }
@@ -11559,6 +11882,10 @@ e_italy = {
 			capital = 235 # Lombardia
 
 			lombard = "Lombardy"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_brescia = {
 				color={ 249 235 224 }
@@ -11688,6 +12015,10 @@ e_italy = {
 
 			dignity = 10
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_genoa = {
 				color={ 253 247 228 }
 				color2={ 255 255 255 }
@@ -11723,6 +12054,10 @@ e_italy = {
 			color2={ 255 255 255 }
 
 			capital = 322 # Modena
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_modena = {
 				color={ 251 250 226 }
@@ -11772,6 +12107,10 @@ e_italy = {
 			color2={ 255 255 255 }
 
 			capital = 328 # Firenze
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_lucca = {
 				color = { 232 186 25 }
@@ -11879,6 +12218,10 @@ e_italy = {
 
 			capital = 327 # Pisa
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_pisa = {
 				color={ 232 251 226 }
 				color2={ 255 255 255 }
@@ -11930,6 +12273,7 @@ e_italy = {
 		dignity = 200 # Never want the Republic of Venice to change primary title
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			is_republic = yes
 			k_venice = {
 				is_titular = no
@@ -11941,6 +12285,10 @@ e_italy = {
 			capital = 356 # Venice
 
 			dignity = 10
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_venezia = {
 				color = { 40 143 132 }
@@ -11983,6 +12331,10 @@ e_italy = {
 		#greek = "Sardhnia kai thn Korsikn"
 		#italian = "Sardegna e Corsica"
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_sardinia = {
 			color={ 217 159 255 }
 			color2={ 255 255 255 }
@@ -11992,6 +12344,10 @@ e_italy = {
 			#italian = "Sardegna"
 
 			capital = 326 # Cagliari
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_arborea = {
 				color={ 170 182 225 }
@@ -12137,6 +12493,10 @@ e_italy = {
 			frankish = "Corse"
 			greek = "Korsikn"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_corsica = {
 				color={ 226 248 251 }
 				color2={ 255 255 255 }
@@ -12204,6 +12564,8 @@ e_scandinavia = {
 
 	# Creation/usurpation trigger
 	allow = {
+		has_ck2plus_empire_reqs = yes
+
 		hidden_tooltip = {
 			OR = {
 				ai = no
@@ -12232,6 +12594,10 @@ e_scandinavia = {
 		norse = Sviþjod
 		#swedish = "Svea Rike"
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_gotland = {
 			color = { 170 25 25 }
 			color2={ 255 255 255 }
@@ -12241,6 +12607,7 @@ e_scandinavia = {
 			dignity = 10
 
 			allow = {
+				has_ck2plus_duchy_reqs = yes
 				conditional_tooltip = {
 					trigger = {
 						d_gotland = {
@@ -12307,6 +12674,10 @@ e_scandinavia = {
 					color = 0
 				}
 				religion = "norse_pagan"
+			}
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
 			}
 
 			c_uppland = {
@@ -12439,6 +12810,10 @@ e_scandinavia = {
 			norse = "Austergautland"
 			swedish = "Östergötland"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_ostergotland = {
 				color={ 50 50 149 }
 				color2={ 255 255 255 }
@@ -12553,6 +12928,10 @@ e_scandinavia = {
 					color = 0
 				}
 				religion = "norse_pagan"
+			}
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
 			}
 
 			c_vastergotland = {
@@ -12679,6 +13058,10 @@ e_scandinavia = {
 
 			capital = 285 # Hälsingland
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_angermanland = {
 				color={ 24 0 255 }
 				color2={ 255 255 255 }
@@ -12769,6 +13152,10 @@ e_scandinavia = {
 			color={ 60 60 200 }
 			color2={ 255 255 255 }
 			capital = 289 # Västmanland
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_dalarna = {
 				color={ 20 20 230 }
@@ -12861,6 +13248,10 @@ e_scandinavia = {
 			capital = 931 # Möre
 
 			norse = "Smáland"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_more = {
 				color={ 105 55 215 }
@@ -12998,6 +13389,10 @@ e_scandinavia = {
 				religion = "norse_pagan"
 			}
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_smaland = { # Now called Värend
 				color={ 95 30 215 }
 				color2={ 255 255 255 }
@@ -13083,6 +13478,10 @@ e_scandinavia = {
 		#swedish = Danmark
 		#norwegian = Danmark
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_skane = {
 			color={ 210 2 2 }
 			color2={ 255 255 255 }
@@ -13093,6 +13492,10 @@ e_scandinavia = {
 			norse = Skåne
 			danish = Skåne
 			norwegian = Skåne
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_skane = {
 				color={ 215 5 5 }
@@ -13226,6 +13629,10 @@ e_scandinavia = {
 				religion = "norse_pagan"
 			}
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_sjaelland = {
 				color={ 216 50 50 }
 				color2={ 255 255 255 }
@@ -13316,6 +13723,10 @@ e_scandinavia = {
 				religion = "norse_pagan"
 			}
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_jylland = {
 				color={ 225 84 84 }
 				color2={ 255 255 255 }
@@ -13387,6 +13798,10 @@ e_scandinavia = {
 			capital = 263 #Holstein
 
 			old_saxon = Albingia
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_slesvig = {
 				color={ 225 78 78 }
@@ -13490,6 +13905,10 @@ e_scandinavia = {
 		#swedish = Norge
 		#norwegian = Norge
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_iceland = {
 			color={ 195 190 255 }
 			color2={ 220 220 220 }
@@ -13500,6 +13919,10 @@ e_scandinavia = {
 			danish = Island
 			swedish = Island
 			norwegian = Island
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_vestisland = {
 				color={ 190 230 250 }
@@ -13614,6 +14037,10 @@ e_scandinavia = {
 					color = 0
 				}
 				religion = "norse_pagan"
+			}
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
 			}
 
 			c_faereyar = {
@@ -13792,6 +14219,10 @@ e_scandinavia = {
 
 			norse = "Egðafylki"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_agder = {
 				color={ 40 85 255 }
 				color2={ 255 255 255 }
@@ -13867,6 +14298,10 @@ e_scandinavia = {
 			color2={ 255 255 255 }
 
 			capital = 274 # Bergenhus
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_romsdal = {
 				color = { 20 20 240 }
@@ -13983,6 +14418,10 @@ e_scandinavia = {
 
 			capital = 273
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_oppland = {
 				color={ 94 120 215 }
 				color2={ 255 255 255 }
@@ -14089,6 +14528,10 @@ e_scandinavia = {
 				religion = "norse_pagan"
 			}
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_vestfold = {
 				color={ 89 100 195 }
 				color2={ 255 255 255 }
@@ -14179,6 +14622,10 @@ e_scandinavia = {
 				religion = "norse_pagan"
 			}
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_trondelag = {
 				color={ 20 155 255 }
 				color2={ 255 255 255 }
@@ -14254,6 +14701,10 @@ e_scandinavia = {
 			danish = "Jemtland"
 			norse = "Jamtaland"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_jamtland = {
 				color={ 45 85 255 }
 				color2={ 255 255 255 }
@@ -14327,6 +14778,7 @@ e_scandinavia = {
 
 		# Creation/usurpation trigger
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -14347,6 +14799,10 @@ e_scandinavia = {
 			norse = "Karelen"
 			norwegian = "Karelen"
 			russian = "Kareliya"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_onega = {
 				color={ 165 45 45 }
@@ -14531,6 +14987,10 @@ e_scandinavia = {
 			samoyed = Suomi
 			mordvin = Suomi
 			meshchera = Suomi
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_nyland = {
 				color={ 185 65 65 }
@@ -14744,6 +15204,10 @@ e_scandinavia = {
 			lappish = Pohjanmaa
 			ugricbaltic = Pohjanmaa
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_osterbotten = {	#moved here in HF
 				color={ 152 66 66 }
 				color2={ 255 255 255 }
@@ -14861,6 +15325,10 @@ e_scandinavia = {
 			color2={ 255 255 255 }
 
 			capital = 390 # Savolaks
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_savolaks = {
 				color={ 120 10 10 }
@@ -15012,6 +15480,7 @@ e_scandinavia = {
 
 		# Creation/usurpation trigger
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -15032,6 +15501,10 @@ e_scandinavia = {
 			danish = Norrland
 			finnish=Lappi
 			lappish=Sápmi
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_lappland = {
 				color={ 255 70 70 }
@@ -15101,6 +15574,10 @@ e_scandinavia = {
 
 			lappish=Finnmárku
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_finnmark = {
 				color={ 190 45 45 }
 				color2={ 255 255 255 }
@@ -15155,6 +15632,10 @@ e_scandinavia = {
 			culture = lappish
 			title = "HIGH_CHIEF"
 			foa = "HIGH_CHIEF_FOA"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kola = {
 				color={ 230 60 35 }
@@ -15260,7 +15741,11 @@ e_scandinavia = {
 		# Crusade target weights
         catholic = 50
         finnish_pagan_reformed = 300
-        baltic_pagan_reformed = 250
+		baltic_pagan_reformed = 250
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 
 		d_esthonia = {
 			color={ 150 75 75 }
@@ -15269,6 +15754,10 @@ e_scandinavia = {
 			capital = 378 # Kalevan
 
 			culture = ugricbaltic
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_reval = {
 				color={ 160 85 85 }
@@ -15425,6 +15914,10 @@ e_scandinavia = {
 
 			culture = ugricbaltic
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_lettigalians = {
 				color={ 125 50 50 }
 				color2={ 255 255 255 }
@@ -15551,6 +16044,7 @@ e_wendish_empire = {
 	culture = polish
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		hidden_tooltip = {
 			OR = {
 				ai = no
@@ -15574,6 +16068,7 @@ e_wendish_empire = {
 		slavic_pagan_reformed = 100
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			conditional_tooltip = {
 				trigger = {
 					k_moravia = {
@@ -15603,11 +16098,19 @@ e_wendish_empire = {
 		slavic_pagan_reformed = 500
 		baltic_pagan_reformed = 100
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_mazovia = {
 			color={ 125 46 36 }
 			color2={ 255 255 255 }
 
 			capital = 529 # Plock
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_plock = {
 				color={ 127 30 2 }
@@ -15695,6 +16198,10 @@ e_wendish_empire = {
 			color2={ 255 255 255 }
 
 			capital = 431 # Poznanskie
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_lubusz = {
 				color={ 135 30 30 }
@@ -15807,6 +16314,10 @@ e_wendish_empire = {
 			color2={ 255 255 255 }
 
 			capital = 435 # Upper Silesia
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_lower_silesia = {
 				color={ 170 30 30 }
@@ -15948,6 +16459,10 @@ e_wendish_empire = {
 
 			capital = 527 # Krakowskie
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_krakowskie = {
 				color={ 137 6 20 }
 				color2={ 255 255 255 }
@@ -16072,6 +16587,10 @@ e_wendish_empire = {
 
 			capital = 428 # Kujawy
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_kujawy = {			#In HF moved to more geographically accurate location
 				color={ 210 50 10 }
 				color2={ 255 255 255 }
@@ -16177,6 +16696,8 @@ e_wendish_empire = {
 		baltic_pagan_reformed = 100
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -16190,6 +16711,10 @@ e_wendish_empire = {
 			color2={ 220 220 20 }
 
 			capital = 364 # Lausitz
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_lausitz = {
 				color={ 174 174 174 }
@@ -16274,6 +16799,10 @@ e_wendish_empire = {
 			capital = 260 #mecklemburg
 
 			pommeranian = Obotritia
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_mecklemburg = {
 				color={ 207 207 207 }
@@ -16390,6 +16919,10 @@ e_wendish_empire = {
 			pommeranian = Rana
 			danish = Rugia
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_rostock = {
 				color={ 204 204 204 }
 				color2={ 255 255 255 }
@@ -16479,6 +17012,10 @@ e_wendish_empire = {
 
 			capital = 366 # Stettin
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_wolgast = {
 				color={ 121 163 58 }
 				color2={ 255 255 255 }
@@ -16558,6 +17095,10 @@ e_wendish_empire = {
 			color2={ 255 255 255 }
 
 			capital = 368 # Danzig
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_danzig = {
 				color={ 115 139 70 }
@@ -16663,6 +17204,10 @@ e_wendish_empire = {
 
 			pommeranian = "Sorbia" # Brennaburg
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_brandenburg = {
 				color={ 186 186 186 }
 				color2={ 255 255 255 }
@@ -16715,6 +17260,10 @@ e_wendish_empire = {
 			capital = 312 #Meissen
 
 			pommeranian = Nisani
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_meissen = {
 				color={ 177 177 177 }
@@ -16785,6 +17334,10 @@ e_wendish_empire = {
 		baltic_pagan_reformed = 500
 		finnish_pagan_reformed = 100
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_prussia = {
 			color={ 200 100 100 }
 			color2={ 255 255 255 }
@@ -16794,6 +17347,10 @@ e_wendish_empire = {
 			prussian = "Pruthenia"
 			lithuanian = "Pruthenia"
 			lettigallish = "Pruthenia"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_marienburg = {
 				color={ 185 90 90 }
@@ -16921,6 +17478,10 @@ e_wendish_empire = {
 			color2={ 255 255 255 }
 
 			capital = 420 # Aukshayts
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_aukshayts = {				#Vilnius
 				color={ 146 17 17 }
@@ -17066,6 +17627,10 @@ e_wendish_empire = {
 			lithuanian = Curonia
 			prussian = Curonia
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_kurs = {
 				color={ 182 24 24 }
 				color2={ 255 255 255 }
@@ -17125,6 +17690,10 @@ e_wendish_empire = {
 			pommeranian = "Skalowia"
 			bohemian = "Skalowia "
 			lettigallish = "Skalva"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_scalovia = {
 				color={ 190 85 85 }
@@ -17191,6 +17760,10 @@ e_wendish_empire = {
 			color2={ 255 255 255 }
 
 			capital = 1594 # Jersika
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_west_dvina = {			#Moved here from Polock
 				color={ 125 18 18 }
@@ -17323,6 +17896,11 @@ e_wendish_empire = {
 				}
 				religion = "norse_pagan"
 			}
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_riga = {
 				color={ 100 50 50 }
 				color2={ 255 255 255 }
@@ -17421,6 +17999,10 @@ e_wendish_empire = {
 
 			capital = 424 # Grodno
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_jacwiez = { # Grodno
 				color={ 141 32 30 }
 				color2={ 255 255 255 }
@@ -17478,73 +18060,102 @@ e_wendish_empire = {
         baltic_pagan_reformed = 50
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			k_moravia = { has_holder = no }
 		}
 
         d_bohemia = {
-           		color={ 195 110 11 }
-           		color2={ 255 255 255 }
+			color={ 195 110 11 }
+			color2={ 255 255 255 }
 
-           		capital = 437 # Praha
+			capital = 437 # Praha
 
-           		c_domazlice = {
-               		color={ 197 112 13 }
-               		color2={ 255 255 255 }
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
-               		bohemian = "Jižní Cechy"
-               		pommeranian = "Jizni Cechy"
-               		polish = "Jizni Cechy"
-               		croatian = "Jizni Cechy"
-               		serbian = "Jizni Cechy"
-               		bulgarian = "Jizni Cechy"
-					bosnian = "Jizni Cechy"
-                	russian = "Jizni Cechy"
-                	ilmenian = "Jizni Cechy"
-                	severian = "Jizni Cechy"
-                	volhynian = "Jizni Cechy"
-                	german = "Sudböhmen"
-                	norse = "Sudböhmen"
-                	swedish = "Sudböhmen"
-                	danish = "Sudböhmen"
-                	norwegian = "Sudböhmen"
-                	old_frankish = "Sudböhmen"
-                	old_saxon = "Sudböhmen"
-                	saxon = "Sudböhmen"
-                	suebi = "Sudböhmen"
-					slovieni = "Jižní Cechy"
+			c_domazlice = {
+				color={ 197 112 13 }
+				color2={ 255 255 255 }
 
-                	b_prachen = {
-                	}
-                	b_doudleby = {
-                	}
-                	b_chynov = {
-                	}
-                	b_hohenfurth = {
-						bohemian = "Vyšší Brod"
-						slovieni = "Vyšší Brod"
-                	}
-                	b_rosenberg = {
-						bohemian = "Rožmberk"
-						slovieni = "Rožmberk"
-                	}
-                	b_budejovice = {
-						german = "Budweis"
-                	}
-                	b_pisek = {
-                	}
-                	b_krumlov = {
-						german = "Krumau"
-                	}
-                	b_goldenkron = {
-						bohemian = "Zlatá Koruna"
-						slovieni = "Zlatá Koruna"
-                	}
-                	b_resenberg = {}
-            		}
-            	c_praha = {
-                color={ 199 114 15 }
-                color2={ 255 255 255 }
+				bohemian = "Jižní Cechy"
+				pommeranian = "Jizni Cechy"
+				polish = "Jizni Cechy"
+				croatian = "Jizni Cechy"
+				serbian = "Jizni Cechy"
+				bulgarian = "Jizni Cechy"
+				bosnian = "Jizni Cechy"
+				russian = "Jizni Cechy"
+				ilmenian = "Jizni Cechy"
+				severian = "Jizni Cechy"
+				volhynian = "Jizni Cechy"
+				german = "Sudböhmen"
+				norse = "Sudböhmen"
+				swedish = "Sudböhmen"
+				danish = "Sudböhmen"
+				norwegian = "Sudböhmen"
+				old_frankish = "Sudböhmen"
+				old_saxon = "Sudböhmen"
+				saxon = "Sudböhmen"
+				suebi = "Sudböhmen"
+				slovieni = "Jižní Cechy"
 
+				b_prachen = {
+				}
+				b_doudleby = {
+				}
+				b_chynov = {
+				}
+				b_hohenfurth = {
+					bohemian = "Vyšší Brod"
+					slovieni = "Vyšší Brod"
+				}
+				b_rosenberg = {
+					bohemian = "Rožmberk"
+					slovieni = "Rožmberk"
+				}
+				b_budejovice = {
+					german = "Budweis"
+				}
+				b_pisek = {
+				}
+				b_krumlov = {
+					german = "Krumau"
+				}
+				b_goldenkron = {
+					bohemian = "Zlatá Koruna"
+					slovieni = "Zlatá Koruna"
+				}
+				b_resenberg = {}
+			}
+			c_praha = {
+				color={ 199 114 15 }
+				color2={ 255 255 255 }
+
+				norse = Prag
+				swedish = Prag
+				danish = Prag
+				norwegian = Prag
+				german = Prag
+				lombard = Prag
+				old_frankish = Prag
+				suebi = Prag
+				saxon = Prag
+				old_saxon = Prag
+				pommeranian = Praha
+				bohemian = Praha
+				slovieni = Praha
+				polish = Praha
+				croatian = Praha
+				serbian = Praha
+				bulgarian = Praha
+				bosnian = "Praha"
+				russian = Praga
+				ilmenian = Praha
+				severian = Praha
+				volhynian = Praha
+
+				b_praha = {
 					norse = Prag
 					swedish = Prag
 					danish = Prag
@@ -17563,169 +18174,149 @@ e_wendish_empire = {
 					serbian = Praha
 					bulgarian = Praha
 					bosnian = "Praha"
-					russian = Praga
+					russian = Praha
 					ilmenian = Praha
 					severian = Praha
 					volhynian = Praha
-
-					b_praha = {
-						norse = Prag
-						swedish = Prag
-						danish = Prag
-						norwegian = Prag
-						german = Prag
-						lombard = Prag
-						old_frankish = Prag
-						suebi = Prag
-						saxon = Prag
-						old_saxon = Prag
-						pommeranian = Praha
-						bohemian = Praha
-						slovieni = Praha
-						polish = Praha
-						croatian = Praha
-						serbian = Praha
-						bulgarian = Praha
-						bosnian = "Praha"
-						russian = Praha
-						ilmenian = Praha
-						severian = Praha
-						volhynian = Praha
-					}
-                	b_brevnov = {
-                	}
-                	b_kuttenberg = {
-						german = Kuttenberg
-						norse = Kuttenberg
-						swedish = Kuttenberg
-						danish = Kuttenberg
-						saxon = Kuttenberg
-						old_saxon = Kuttenberg
-						bohemian = "Kutna Hora"
-						slovieni = "Kutná Hora"
-                	}
-                	b_vysehrad = {
-                	}
-                	b_kourim = {
-                	}
-                	b_kolin = {
-                	}
-                	b_stare_mesto = {
-                	}
-                	b_zbraslav = {
-                	}
-                	b_sazava = {
-						german = "Sassau"
-                	}
 				}
-            	c_litomerice = {
-              		color={ 203 118 19 }
-              		color2={ 255 255 255 }
+				b_brevnov = {
+				}
+				b_kuttenberg = {
+					german = Kuttenberg
+					norse = Kuttenberg
+					swedish = Kuttenberg
+					danish = Kuttenberg
+					saxon = Kuttenberg
+					old_saxon = Kuttenberg
+					bohemian = "Kutna Hora"
+					slovieni = "Kutná Hora"
+				}
+				b_vysehrad = {
+				}
+				b_kourim = {
+				}
+				b_kolin = {
+				}
+				b_stare_mesto = {
+				}
+				b_zbraslav = {
+				}
+				b_sazava = {
+					german = "Sassau"
+				}
+			}
+			c_litomerice = {
+				color={ 203 118 19 }
+				color2={ 255 255 255 }
 
-              		german = "Leitmeritz"
+				german = "Leitmeritz"
+				swedish = "Leitmeritz"
+				norse = "Leitmeritz"
+				danish = "Leitmeritz"
+				norwegian = "Leitmeritz"
+
+				b_litomerice = {
+					german = "Leitmeritz"
 					swedish = "Leitmeritz"
 					norse = "Leitmeritz"
 					danish = "Leitmeritz"
 					norwegian = "Leitmeritz"
-
-              		b_litomerice = {
-						german = "Leitmeritz"
-						swedish = "Leitmeritz"
-						norse = "Leitmeritz"
-						danish = "Leitmeritz"
-						norwegian = "Leitmeritz"
-             		}
-					b_melnik_bohemia = {}
-					b_mnichovo_hradiste = {}
-					b_zitava = {}
-					b_duba_litomerice = {}
-					b_decin = {}
-					b_ceskalipa = {}
-					b_boleslav = {}
-					b_nymburk = {}
 				}
-				c_hradec = {
-                	color={ 200 104 38 }
-            		color2={ 255 255 255 }
+				b_melnik_bohemia = {}
+				b_mnichovo_hradiste = {}
+				b_zitava = {}
+				b_duba_litomerice = {}
+				b_decin = {}
+				b_ceskalipa = {}
+				b_boleslav = {}
+				b_nymburk = {}
+			}
+			c_hradec = {
+				color={ 200 104 38 }
+				color2={ 255 255 255 }
 
+				german = "Grätz"
+
+				b_hradeckralove = {
 					german = "Grätz"
-
-                	b_hradeckralove = {
-						german = "Grätz"
-                	}
-					b_kladsko = {
-						german = "Glatz"
-						polish = "Klodzko"
-					}
-					b_zleby = {
-               		}
-					b_chrudim = {
-					}
-					b_caslav = {
-                	}
-					b_jaromer = {
-                	}
-                	b_litomysl = {
-                	}
 				}
-				c_plzen = {
-                	color={ 205 120 21 }
-                	color2={ 255 255 255 }
+				b_kladsko = {
+					german = "Glatz"
+					polish = "Klodzko"
+				}
+				b_zleby = {
+				}
+				b_chrudim = {
+				}
+				b_caslav = {
+				}
+				b_jaromer = {
+				}
+				b_litomysl = {
+				}
+			}
+			c_plzen = {
+				color={ 205 120 21 }
+				color2={ 255 255 255 }
 
-                	german = Pilsen
+				german = Pilsen
+				swedish = Pilsen
+				norse = Pilsen
+				danish = Pilsen
+				norwegian = Pilsen
+
+				b_plzen = {
+					german = Pilsen
 					swedish = Pilsen
 					norse = Pilsen
 					danish = Pilsen
 					norwegian = Pilsen
+				}
+				b_plasy = {
+				}
+				b_stribo = {
+				}
+				b_klatovy = {
+				}
+				b_kladruby = {
+				}
+				b_primda = {
+				}
+				b_domazlice = {
+				}
+			}
+			c_zatec = {
+				color={ 155 105 30 }
+				color2={ 255 255 255 }
 
-                	b_plzen = {
-                		german = Pilsen
-						swedish = Pilsen
-						norse = Pilsen
-						danish = Pilsen
-						norwegian = Pilsen
-                	}
-                	b_plasy = {
-                	}
-               		b_stribo = {
-                	}
-                	b_klatovy = {
-                	}
-                	b_kladruby = {
-                	}
-                	b_primda = {
-                	}
-                	b_domazlice = {
-                	}
-            	}
-				c_zatec = {
-                	color={ 155 105 30 }
-                	color2={ 255 255 255 }
+				german = "Saaz"
 
+				b_zatec = {
 					german = "Saaz"
-
-                	b_zatec = {
-						german = "Saaz"
-                	}
-					b_osek = {
-					}
-					b_louny = {
-                	}
-					b_bilina = {
-					}
-					b_kadan = {
-                	}
-					b_teplice = {
-                	}
-                	b_chomutov = {
-                	}
-            	}
+				}
+				b_osek = {
+				}
+				b_louny = {
+				}
+				b_bilina = {
+				}
+				b_kadan = {
+				}
+				b_teplice = {
+				}
+				b_chomutov = {
+				}
+			}
         }
         d_moravia = {
             color={ 157 101 35 }
             color2={ 255 255 255 }
 
-            capital = 440 # Olomouc
+			capital = 440 # Olomouc
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_znojmo = {
 				color={ 51 51 51 }
@@ -17849,6 +18440,7 @@ e_russia = {
 	short_name = yes
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		hidden_tooltip = {
 			OR = {
 				ai = no
@@ -17882,6 +18474,7 @@ e_russia = {
 		finnish_pagan_reformed = 50
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -17908,6 +18501,10 @@ e_russia = {
 					color = 0
 				}
 				religion = "slavic_pagan"
+			}
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
 			}
 
 			c_vladimir_volynsky = {
@@ -18006,6 +18603,10 @@ e_russia = {
 			color2={ 255 255 255 }
 
 			capital = 536 # Galich
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_galich = {
 				color={ 224 112 130 }
@@ -18119,6 +18720,10 @@ e_russia = {
 
 			capital = 1635 # Cherven
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_cherven = {
 				color={ 224 70 70 }
 				color2={ 255 255 255 }
@@ -18204,6 +18809,7 @@ e_russia = {
 		finnish_pagan_reformed = 100
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -18255,6 +18861,10 @@ e_russia = {
 			#	}
 			#	religion = "slavic_pagan"
 			#}
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kiev = {
 				color={ 106 106 26 }
@@ -18353,6 +18963,10 @@ e_russia = {
 
 			ilmenian = "Dregovichia"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_turov = {
 				color={ 135 160 100 }
 				color2={ 255 255 255 }
@@ -18450,6 +19064,10 @@ e_russia = {
 				religion = "slavic_pagan"
 			}
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_minsk = {
 				color={ 60 105 2 }
 				color2={ 255 255 255 }
@@ -18517,6 +19135,10 @@ e_russia = {
 
 			severian = "Krivichia"
 			ilmenian = "Krivichia"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_polotsk = {
 				color={ 125 14 14 }
@@ -18613,6 +19235,10 @@ e_russia = {
 
 			severian = "Radimichia"
 			ilmenian = "Radimichia"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_smolensk = {
 				color={ 229 244 185 }
@@ -18725,6 +19351,10 @@ e_russia = {
 
 			capital = 555 # Pereyaslavl
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_pereyaslavl = {
 				color={ 235 205 118 }
 				color2={ 255 255 255 }
@@ -18818,6 +19448,8 @@ e_russia = {
 		finnish_pagan_reformed = 50
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -18837,6 +19469,10 @@ e_russia = {
 			ilmenian = "Severia"
 			mordvin = "Severia"
 			meshchera = "Severia"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_lyubech = {
 				color={ 238 253 194 }
@@ -18921,6 +19557,10 @@ e_russia = {
 			color2={ 255 255 255 }
 
 			capital = 576 # Bryansk
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_bryansk = {
 				color = { 160 175 40 }
@@ -19012,6 +19652,10 @@ e_russia = {
 			mordvin = Meshchera
 			meshchera = Meshchera
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_pronsk = {
 				color={ 101 110 45 }
 				color2={ 255 255 255 }
@@ -19098,6 +19742,10 @@ e_russia = {
 
 			capital = 581 # Murom
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_murom = {
 				color={ 101 130 50 }
 				color2={ 255 255 255 }
@@ -19152,6 +19800,10 @@ e_russia = {
 
 			capital = 1666 # Karachev
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_karachev = {
 				color={ 165 180 65 }
 				color2={ 255 255 255 }
@@ -19196,6 +19848,10 @@ e_russia = {
 			color2={ 255 255 255 }
 
 			capital = 1634 # Novosil
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_novosil = {
 				color={ 115 130 15 }
@@ -19273,6 +19929,8 @@ e_russia = {
 		culture = russian
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
+
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -19288,6 +19946,10 @@ e_russia = {
 			color2={ 255 255 255 }
 
 			capital = 412 # Torzhok
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_zaozerye = {
 				color={ 134 150 90 }
@@ -19421,6 +20083,10 @@ e_russia = {
 				religion = "norse_pagan"
 			}
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_bezhetsky_verh = { # Ladoga
 				color={ 144 161 101 }
 				color2={ 255 255 255 }
@@ -19540,6 +20206,10 @@ e_russia = {
 			capital = 413 # Pskov
 
 			german = "Pleskau"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_pskov = {
 				color={ 151 167 107 }
@@ -19691,6 +20361,7 @@ e_russia = {
 		}
 
 		allow = {
+			has_ck2plus_kingdom_reqs = yes
 			hidden_tooltip = {
 				OR = {
 					ai = no
@@ -19718,6 +20389,10 @@ e_russia = {
 					color = 0
 				}
 				religion = "slavic_pagan"
+			}
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
 			}
 
 			c_gorodez = {
@@ -19876,6 +20551,10 @@ e_russia = {
 			mordvin = Mochkava
 			meshchera = Mochkava
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_moskva = {
 				color={ 220 235 176 }
 				color2={ 255 255 255 }
@@ -19925,6 +20604,10 @@ e_russia = {
 			color2={ 255 255 255 }
 
 			capital = 572 # Yaroslavl
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kostroma = {
 				color={ 181 195 137 }
@@ -20003,6 +20686,10 @@ e_russia = {
 			samoyed = Merya
 			mordvin = Merya
 			meshchera = Merya
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_rostov = {
 				color={ 166 180 122 }
@@ -20108,6 +20795,10 @@ e_russia = {
 
 			ilmenian = "Vyatichia"
 			severian = "Vyatichia"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_tver = {
 				color={ 172 186 128 }
