@@ -16,7 +16,7 @@ b_narona = temple
 #b_sipan = castle
 
 # Misc
-culture = dalmatian
+culture = croatian
 religion = catholic
 terrain = mountain
 

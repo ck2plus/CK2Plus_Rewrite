@@ -14,7 +14,7 @@ b_veglia = tribal
 #b_vrbovsko = castle
 
 # Misc
-culture = dalmatian
+culture = croatian
 religion = catholic
 
 # History
@@ -24,7 +24,6 @@ religion = catholic
 	b_krk = temple
 	capital = b_veglia
 }
-1000.1.1 = { culture = croatian }
 1000.1.1 = {
 	capital = b_frankopan
 }

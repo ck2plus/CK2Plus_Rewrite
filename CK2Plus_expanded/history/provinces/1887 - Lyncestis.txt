@@ -9,9 +9,7 @@ b_bitola = castle
 b_lyncestis = temple
 
 # Misc
-culture = serbian
+culture = aromanian
 religion = orthodox
 
 # History
-930.1.1 = { culture = bulgarian }
-1066.1.1 = { culture = serbian }

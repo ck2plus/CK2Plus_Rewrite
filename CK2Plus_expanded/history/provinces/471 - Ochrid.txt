@@ -15,7 +15,7 @@ b_ohrid = temple
 #b_krusevo = castle
 
 # Misc
-culture = serbian
+culture = aromanian
 religion = orthodox
 
 # History

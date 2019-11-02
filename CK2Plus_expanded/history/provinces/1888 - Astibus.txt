@@ -9,7 +9,7 @@ b_astibus = castle
 b_veles = city
 
 # Misc
-culture = serbian
+culture = aromanian
 religion = orthodox
 
 # History
