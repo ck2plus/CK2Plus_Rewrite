@@ -16,7 +16,7 @@ terrain = hills
 
 # History
 
-1120.1.1={ 
-	culture = italian 
-	religion = catholic 
+1077.1.1={
+	culture = sicilian_greek
+	religion = catholic
 }
