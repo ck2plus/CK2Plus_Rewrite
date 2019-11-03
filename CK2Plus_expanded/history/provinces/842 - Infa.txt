@@ -23,7 +23,7 @@ religion = shiite
 
 # History
 767.1.1 = { religion = ibadi }
-790.1.1 = { culture = maghrebi_arabic }
+790.1.1 = { culture = maghreb_arabic }
 867.1.1 = {
 	b_infa = castle
 	b_rabat = city
