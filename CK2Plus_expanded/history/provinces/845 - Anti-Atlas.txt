@@ -19,15 +19,17 @@ b_safi = tribal
 #b_aguedal
 
 # Misc
-culture = maghreb_arabic
+culture = atlasian
 religion = shiite
 
 # History
 947.1.1 = { religion = sunni }
+1060.1.1 = { culture = sanhaja }
 1062.1.1 = {
 	b_safi = castle
 	b_agadir = city
 	b_argana = temple
 	b_essaouira = castle
 }
+1147.1.1 = { culture = zenati }
 1156.1.1 = { trade_post = b_doria }

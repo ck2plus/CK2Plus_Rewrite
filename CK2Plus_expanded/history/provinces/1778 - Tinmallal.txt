@@ -11,7 +11,7 @@ b_tinmallal = tribal
 #b_aghmat
 
 # Misc
-culture = maghreb_arabic
+culture = atlasian
 religion = shiite
 
 # History
@@ -25,3 +25,5 @@ religion = shiite
 	b_tinmallal = ca_wall_2
 }
 947.1.1 = { religion = sunni }
+1060.1.1 = { culture = sanhaja }
+1147.1.1 = { culture = zenati }

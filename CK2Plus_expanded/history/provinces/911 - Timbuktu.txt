@@ -16,12 +16,11 @@ b_sankore = temple
 #b_gundam = castle
 
 # Misc
-culture = soninke
+culture = tuareg
 religion = west_african_pagan
 
 # History
 1050.1.1 = {
-	culture = maghreb_arabic
 	#culture = butr
 	religion = sunni 
 	b_tirakka = castle 
@@ -30,4 +29,7 @@ religion = west_african_pagan
 	b_timbuktu = city
 	b_sankore = temple
 }
-1300.1.1 = { b_safanqu = castle }
+1300.1.1 = {
+    b_safanqu = castle
+    culture = manden
+}

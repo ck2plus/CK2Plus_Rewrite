@@ -22,7 +22,7 @@ b_sidirahhal = temple
 #b_alnif = castle
 
 # Misc
-culture = maghreb_arabic
+culture = atlasian
 religion = shiite
 
 # History
@@ -44,3 +44,5 @@ religion = shiite
 }
 
 947.1.1 = { religion = sunni }
+1062.1.1 = { culture = sanhaja }
+1147.1.1 = { culture = zenati }

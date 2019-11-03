@@ -18,11 +18,12 @@ b_infa = tribal
 #b_oulmes = castle
 
 # Misc
-culture = maghreb_arabic
+culture = sanhaja
 religion = shiite
 
 # History
 767.1.1 = { religion = ibadi }
+790.1.1 = { culture = maghrebi_arabic }
 867.1.1 = {
 	b_infa = castle
 	b_rabat = city

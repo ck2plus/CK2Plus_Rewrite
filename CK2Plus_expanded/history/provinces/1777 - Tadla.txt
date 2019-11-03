@@ -16,7 +16,7 @@ b_afza = temple
 #b_ait_itab
 
 # Misc
-culture = maghreb_arabic
+culture = atlasian
 religion = shiite
 
 # History
@@ -34,3 +34,5 @@ religion = shiite
 	b_tadla = ca_wall_2
 }
 947.1.1 = { religion = sunni }
+1060.1.1 = { culture = sanhaja }
+1140.1.1 = { culture = zenati }

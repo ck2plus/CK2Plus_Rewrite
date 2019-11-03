@@ -11,12 +11,11 @@ b_tadmekka = tribal
 #b_kidal = castle
 
 # Misc
-culture = songhay
+culture = tuareg
 religion = west_african_pagan
 
 # History
 1050.1.1 = {
 	religion = sunni
-	culture = maghreb_arabic
 	#culture = butr
 }

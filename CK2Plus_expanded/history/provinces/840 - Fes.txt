@@ -16,11 +16,12 @@ b_izerhan = temple
 #b_bouanane = castle
 
 # Misc
-culture = maghreb_arabic
+culture = sanhaja
 religion = shiite
 
 # History
 767.1.1 = { religion = ibadi }
+789.1.1 = { culture = maghrebi_arabic }
 867.1.1 = {
 	b_fes = ca_keep_1
 	b_fes = ca_training_grounds_1
