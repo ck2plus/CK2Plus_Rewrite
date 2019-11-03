@@ -13,3 +13,5 @@ culture = aromanian
 religion = orthodox
 
 # History
+
+930.1.1 = { culture = bulgarian }
