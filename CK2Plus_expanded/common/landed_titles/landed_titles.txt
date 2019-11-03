@@ -43241,6 +43241,8 @@ e_mali = {
 
 	# Creation/usurpation trigger
 	allow = {
+		has_ck2plus_empire_reqs = yes
+
 		hidden_tooltip = {
 			OR = {
 				ai = no
@@ -43257,11 +43259,19 @@ e_mali = {
 
 		culture = manden
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_mali = { # Manding
 			color={ 130 180 61 } #80 120 70
 			color2={ 255 255 255 }
 
 			capital = 925 # Mali/Niani
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_mali = { # Niani
 				color={ 108 170 48 }
@@ -43320,6 +43330,10 @@ e_mali = {
 
 			capital = 926 # Bambuk
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_bambuk = {
 				color={ 90 138 64 }
 				color2={ 255 255 255 }
@@ -43363,6 +43377,10 @@ e_mali = {
 			color2={ 255 255 255 }
 
 			capital = 1757 # Yatenga
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_yatenga = {
 				color={ 108 148 13 }
@@ -43411,11 +43429,19 @@ e_mali = {
 
 		culture = manden
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_ghana = {
 			color={ 62 150 247 }
 			color2={ 255 255 255 }
 
 			capital = 913 # Ghana/Wagadu
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_ghana = { # Wagadu
 				color={ 52 130 227 }
@@ -43477,6 +43503,10 @@ e_mali = {
 
 			capital = 912 # Aoudaghost
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_aoudaghost = {
 				color={ 10 88 176 }
 				color2={ 255 255 255 }
@@ -43507,6 +43537,10 @@ e_mali = {
 			color2={ 255 255 255 }
 
 			capital = 911 # Timbuktu
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_timbuktu = {
 				color={ 35 75 209 }
@@ -43558,11 +43592,19 @@ e_mali = {
 
 		culture = manden
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_songhay = {
 			color={ 210 82 89 }
 			color2={ 255 255 255 }
 
 			capital = 914 # Gao
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_songhay = {
 				color={ 225 92 79 }
@@ -43622,6 +43664,10 @@ e_mali = {
 
 			capital = 928 # Gurma
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_gurma = {
 				color={ 161 101 104 }
 				color2={ 255 255 255 }
@@ -43657,17 +43703,29 @@ e_kanem = {
 	color={ 50 230 235 }
 	color2={ 255 255 255 }
 
+	allow = {
+		has_ck2plus_empire_reqs = yes
+	}
+
 	k_kanem = {
 		color={ 10 215 225 }
 		color2={ 255 255 255 }
 
 		capital = 1739 # Djimi
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_bornu = {
 			color={ 96 120 185 }
 			color2={ 255 255 255 }
 
 			capital = 1743 # Bornu
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_bornu = {
 				color={ 81 105 170 }
@@ -43748,6 +43806,10 @@ e_kanem = {
 
 			capital = 1739 # Djimi
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_djimi = {
 				color={ 70 185 190 }
 				color2={ 255 255 255 }
@@ -43794,6 +43856,10 @@ e_kanem = {
 
 			capital = 1730 # Murzuk
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_murzuk = {
 				color={ 15 146 129 }
 				color2={ 255 255 255 }
@@ -43836,6 +43902,10 @@ e_kanem = {
 			color2={ 255 255 255 }
 
 			capital = 1770 # Wadai
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_fitri = {
 				color={ 32 212 170 }
@@ -43882,11 +43952,19 @@ e_kanem = {
 
 		capital = 1746 # Kano
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_hausaland = {
 			color={ 179 85 237 }
 			color2={ 255 255 255 }
 
 			capital = 1746 # Kano
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kano = {
 				color={ 159 75 217 }
@@ -43958,6 +44036,10 @@ e_kanem = {
 
 			capital = 1752 # Kebbi
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_kebbi = {
 				color={ 124 41 134 }
 				color2={ 255 255 255 }
@@ -44013,6 +44095,10 @@ e_kanem = {
 
 			capital = 1738 # Air
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_air = {
 				color={ 85 10 135 }
 				color2={ 255 255 255 }
@@ -44047,6 +44133,8 @@ d_abbasid = {
 	color = { 19 180 16 }
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 }
@@ -44056,49 +44144,103 @@ d_oxford = { # Obsolete
 	color2={ 255 255 255 }
 	capital = 22 # Oxford
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 }
 
 d_arabia_felix = {
 	color = { 163 254 56 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_arabs = {
 	color = { 38 157 35 }
 	culture = bedouin_arabic
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_assassin = {
 	color = { 58 97 57 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_balearic = {
 	color={ 13 170 54 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_belgrade = {
 	color = { 151 125 62 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_bergen = {
 	color = { 47 27 255 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_bordeaux = {
 	color = { 59 15 248 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_braganza = {
 	color = { 219 195 35 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_butrinto = {
 	color = { 148 68 154 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_campania = {
 	color = { 226 204 228 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_catalonia = {
 	color = { 255 210 57 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_chaldea = {
 	color = { 107 159 41 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_cumberland = {
 	color = { 31 186 244 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_curonian = {
 	color = { 141 55 29 }
@@ -44106,6 +44248,8 @@ d_curonian = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44126,6 +44270,8 @@ d_danes = {
 	capital	= 266 # Sjaelland
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44133,18 +44279,38 @@ d_danes = {
 }
 d_don = {
 	color = { 247 211 116 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_dorostotum = {
 	color = { 163 48 206 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_el_rif = {
 	color = { 29 241 64 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_el-arish = {
 	color = { 148 206 13 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_erzerum = {
 	color = { 103 84 255 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_estonia = {
 	color = { 94 60 22 }
@@ -44152,6 +44318,8 @@ d_estonia = {
 	capital	= 378 # Reval
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44163,9 +44331,17 @@ d_estonia = {
 }
 d_galatia = {
 	color = { 244 75 185 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_georgia = {
 	color = { 251 184 184 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 #d_gilan = {
 #	color = { 65 90 137 }
@@ -44180,6 +44356,8 @@ d_geats = {
 	capital	= 297 # Västergötland
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44187,9 +44365,17 @@ d_geats = {
 }
 d_hellas = {
 	color = { 213 73 165 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_ikonion = {
 	color = { 179 28 127 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_ingers = {
 	color={ 125 125 40 }
@@ -44197,6 +44383,7 @@ d_ingers = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		always = no
 	}
 
@@ -44210,6 +44397,8 @@ d_kajaneborg = { # Kvens
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44219,9 +44408,17 @@ d_kajaneborg = { # Kvens
 }
 d_kappadokia = {
 	color = { 255 3 170 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_karnten = {
 	color = { 229 254 242 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_kexholm = {
 	color={ 121 98 20 }
@@ -44229,6 +44426,7 @@ d_kexholm = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		always = no
 	}
 
@@ -44247,12 +44445,17 @@ d_khazars = {
 
 	# Creation/Usurp Trigger
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		always = no
 	}
 }
 
 d_kirkuk = {
 	color = { 142 182 255 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_sami = {
 	color = { 101 99 35 }
@@ -44260,6 +44463,8 @@ d_sami = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44270,9 +44475,17 @@ d_sami = {
 
 d_krakow = {
 	color = { 253 129 129 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_laodikeia = {
 	color = { 163 52 125 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_lettigalians = {
 	color = { 126 51 51 }
@@ -44280,6 +44493,8 @@ d_lettigalians = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44289,18 +44504,38 @@ d_lettigalians = {
 }
 d_luristan = {
 	color = { 77 114 183 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_lut = {
 	color = { 119 170 29 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_lykia = {
 	color = { 121 42 93 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_mar = {
 	color = { 16 211 246 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_milano = {
 	color = { 252 238 227 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 #d_minsk = {
 #	color = { 175 44 44 }
@@ -44314,6 +44549,8 @@ d_muromians = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44324,6 +44561,10 @@ d_muromians = {
 
 d_nikomedeia = {
 	color = { 209 108 174 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_pechenegs = {
 	# OBSOLETE
@@ -44336,6 +44577,8 @@ d_pechenegs = {
 	culture = pecheneg
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 }
@@ -44343,11 +44586,19 @@ d_pechenegs = {
 d_kimak = {
 	color={ 151 114 58 }
 	color2={ 255 255 255 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 
-d_kirghiz  = {
+d_kirghiz = {
 	color={ 155 140 78 }
 	color2={ 255 255 255 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 
 d_kipchak = {
@@ -44355,13 +44606,25 @@ d_kipchak = {
 	color2={ 255 255 255 }
 
 	#pecheneg = "Pecheneg"
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 
 d_pressburg = {
 	color = { 218 70 70 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_pronsk = {
 	color = { 23 132 81 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_pruthenians = {
 	color = { 159 195 75 }
@@ -44369,6 +44632,8 @@ d_pruthenians = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44380,12 +44645,24 @@ d_pruthenians = {
 }
 d_qom = {
 	color = { 188 229 116 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_romagna = {
 	color = { 243 234 157 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_salamanca = {
 	color = { 251 229 34 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 
 d_sames = {
@@ -44395,6 +44672,8 @@ d_sames = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44404,6 +44683,10 @@ d_sames = {
 }
 d_sandomiersk = {
 	color = { 253 137 137 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_satakunta = {
 	color = { 117 47 47 }
@@ -44411,6 +44694,8 @@ d_satakunta = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44421,12 +44706,24 @@ d_satakunta = {
 }
 d_shiraz = {
 	color = { 155 189 97 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_sinope = {
 	color = { 255 6 172 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_slovakia = {
 	color = { 209 61 61 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_sweden = {
 	color={ 55 112 170 }
@@ -44438,6 +44735,8 @@ d_sweden = {
 	capital	= 290 # Uppland
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44449,6 +44748,8 @@ d_swiss = {
 	capital = 246 # Schwyz
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		conditional_tooltip = {
 			trigger = {
 				d_swiss = {
@@ -44468,6 +44769,8 @@ d_tavasts = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44483,6 +44786,8 @@ d_meryas = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44496,6 +44801,8 @@ d_veps = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44511,6 +44818,8 @@ d_meshcheras = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44526,6 +44835,8 @@ d_drevlians = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44535,15 +44846,31 @@ d_drevlians = {
 }
 d_varna = {
 	color = { 208 93 251 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_wielkopolska = {
 	color = { 252 144 144 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_vlachs = {
 	color = { 239 193 70 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_volga = {
 	color = { 168 135 47 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_votes = {
 	color = { 0 193 119 }
@@ -44551,6 +44878,8 @@ d_votes = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44561,9 +44890,17 @@ d_votes = {
 }
 d_zara = {
 	color = { 203 217 255 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_zaragoza = {
 	color = { 80 220 10 }
+
+	allow = {
+		has_ck2plus_duchy_reqs = yes
+	}
 }
 d_zemigalians = {
 	color = { 183 21 21 }
@@ -44571,6 +44908,8 @@ d_zemigalians = {
 #	tribe = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44587,6 +44926,8 @@ d_lendians = { # aka Ledzianie or Lechs
 	capital = 527 # Krakowskie
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44604,6 +44945,8 @@ d_kryvians = { # aka Krivichi
 	capital = 419 # Polotsk
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44621,6 +44964,8 @@ d_ilmenians = { # aka Ilmen Slavs
 	capital = 414 # Novgorod
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44638,6 +44983,8 @@ d_severians = { # aka Severiane
 	capital = 567 # Novgorod Seversky
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44655,6 +45002,8 @@ d_vyatichi = {
 	capital = 570 # Tver
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44672,6 +45021,8 @@ d_dregovichi = {
 	capital = 548 # Pinsk
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44689,6 +45040,8 @@ d_radimichi = {
 	capital = 551 # Mstislavl
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44706,6 +45059,8 @@ d_glomacze = { # Aka Dolomici
 	capital = 312 # Meissen
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44723,6 +45078,8 @@ d_sorbs = {
 	capital = 364 # Luzycka
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44740,6 +45097,8 @@ d_obotrites = {
 	capital = 260 # Mecklenburg
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 
@@ -44752,6 +45111,8 @@ d_thessalia = {
 	color2={ 255 255 20 }
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		conditional_tooltip = {
 			trigger = {
 				d_thessalia = {
@@ -44770,6 +45131,8 @@ d_peloponnese = {
 	color2={ 255 255 20 }
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		conditional_tooltip = {
 			trigger = {
 				d_peloponnese = {
@@ -44795,19 +45158,33 @@ k_pechenegs = {
 	culture = pecheneg
 
 	allow = {
+		has_ck2plus_kingdom_reqs = yes
+
 		always = no
 	}
 }
 
 k_almohad = {
 	color = { 0 105 56 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 k_al-murabitids = {
 	color = { 10 105 56 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 
 k_beni_helal = {
 	color = { 128 163 56 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 k_fatimids = {
 	# OBSOLETE
@@ -44817,35 +45194,51 @@ k_fatimids = {
 	culture = egyptian_arabic
 
 	allow = {
+		has_ck2plus_kingdom_reqs = yes
+
 		always = no
 	}
 }
 k_hammadid = {
 	color = { 149 180 17 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 k_kafsid = {
 	color = { 109 130 20 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 k_marinid = {
 	color = { 46 255 5 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 k_bosnia = {
 	color = { 16 125 74 }
 	culture = bosnian
 
 	capital = 1971 # Vrhbosna
-		allow = {
-			conditional_tooltip = {
-				trigger = {
-					k_bosnia = {
-						is_titular = yes
-					}
-				}
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+
+		conditional_tooltip = {
+			trigger = {
 				k_bosnia = {
-					is_titular = no
+					is_titular = yes
 				}
 			}
+			k_bosnia = {
+				is_titular = no
+			}
 		}
+	}
 }
 
 e_seljuk_turks = { # Seljuk Turks
@@ -44861,17 +45254,31 @@ e_seljuk_turks = { # Seljuk Turks
 #	landless = yes
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
+
 		always = no
 	}
 }
 k_zenata = {
 	color = { 0 71 189 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 k_zirid = {
 	color = { 90 195 49 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 k_ziyanids = {
 	color = { 5 76 194 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 k_avaria = {
 	color={ 250 120 90 }  # Only for the CoA
@@ -44880,6 +45287,8 @@ k_avaria = {
 	capital = 444 # Anhalt
 
 	allow = {
+		has_ck2plus_kingdom_reqs = yes
+
 		always = no
 	}
 }
@@ -44890,6 +45299,8 @@ k_lombardy = {
 	capital = 234 # Anhalt
 
 	allow = {
+		has_ck2plus_kingdom_reqs = yes
+
 		always = no
 	}
 }
@@ -44901,6 +45312,8 @@ d_amalfi = {
 	dignity = 10
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		is_republic = yes
 	}
 }
@@ -44911,6 +45324,8 @@ d_pechina = {
 	capital = 168 # Almeria
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		is_republic = yes
 	}
 }
@@ -44926,6 +45341,8 @@ d_ragusa = {
 	dignity = 10
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		is_republic = yes
 	}
 }
@@ -44941,6 +45358,7 @@ e_latin_empire = {
 
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
 		OR = {
 			religion = catholic
 			is_heresy_of = catholic
@@ -45152,6 +45570,7 @@ d_fraticelli = {
 	location_ruler_title = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		always = no # Only by special decision
 	}
 
@@ -45187,6 +45606,7 @@ d_iconoclast = {
 	short_name = yes
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		always = no # Only by special decision
 	}
 
@@ -45233,6 +45653,7 @@ d_yazidi = {
 	controls_religion = yazidi
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
 		piety = 1000
 	}
 
@@ -45269,6 +45690,8 @@ d_ibadi = {
 	controls_religion = ibadi
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		conditional_tooltip = {
 			trigger = {
 				NOT = {
@@ -45427,6 +45850,8 @@ d_kharijite = {
 	controls_religion = kharijite
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		conditional_tooltip = {
 			trigger = {
 				NOT = {
@@ -45577,6 +46002,8 @@ d_hurufi = {
 	controls_religion = hurufi
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		conditional_tooltip = {
 			trigger = {
 				NOT = {
@@ -45728,6 +46155,10 @@ e_mexikha = {
 
 	culture = nahuatl
 	religion = aztec
+
+	allow = {
+		has_ck2plus_empire_reqs = yes
+	}
 }
 
 #d_hansa = {
@@ -46088,6 +46519,8 @@ d_norse_pagan_reformed = {
 	creation_requires_capital = no
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		religion = norse_pagan_reformed
 		num_of_holy_sites = 3
 		piety = 500
@@ -46374,6 +46807,8 @@ e_india = {                      # Titular, created by special decision only if 
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
+
 		always = no # Only created through special decision
 	}
 }
@@ -46383,6 +46818,10 @@ e_rajastan = {
 	color2={ 255 255 255 }
 
 	capital = 1356 # Kanyakubja
+
+	allow = {
+		has_ck2plus_empire_reqs = yes
+	}
 
 	k_sindh = {
 		color={ 225 135 20 }
@@ -46394,11 +46833,19 @@ e_rajastan = {
 		zun_pagan_reformed = 100
 		zoroastrian_group = 50
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_sauvira = {
 			color={ 230 135 20 }
 			color2={ 255 255 255 }
 
 			capital = 1297 # Debul
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_debul = {
 				color={ 230 155 20 }
@@ -46503,6 +46950,10 @@ e_rajastan = {
 			color2={ 255 255 255 }
 
 			capital = 1138 # Bhakkar
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_bhakkar = {
 				color={ 220 105 18 }
@@ -46631,11 +47082,19 @@ e_rajastan = {
 		zun_pagan_reformed = 150
 		zoroastrian_group = 50
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_multan = {
 			color={ 234 100 21 }
 			color2={ 255 255 255 }
 
 			capital = 1338 # Multan
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_multan = {
 				color={ 234 110 21 }
@@ -46761,6 +47220,10 @@ e_rajastan = {
 
 			capital = 1362 # Lahur
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_lahur = {
 				color={ 180 130 41 }
 				color2={ 255 255 255 }
@@ -46845,6 +47308,10 @@ e_rajastan = {
 
 			capital = 1193 # Trigarta
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_trigarta = {
 				color={ 155 80 15 }
 				color2={ 255 255 255 }
@@ -46911,6 +47378,10 @@ e_rajastan = {
 			color2={ 255 255 255 }
 
 			capital = 1180 # Udabhanda
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_udabhanda = {
 				color={ 255 130 31 }
@@ -46999,11 +47470,19 @@ e_rajastan = {
 
 		capital = 1365 # Delhi
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_kuru = {
 			color={ 210 65 13 }
 			color2={ 255 255 255 }
 
 			capital = 1365 # Delhi
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_delhi = {
 				color={ 230 65 12 }
@@ -47069,6 +47548,10 @@ e_rajastan = {
 
 			capital = 1364 # Tribandapura
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_hisar = {
 				color={ 100 25 23 }
 				color2={ 255 255 255 }
@@ -47132,6 +47615,10 @@ e_rajastan = {
 			color2={ 255 255 255 }
 
 			capital = 1359 # Mathura
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_mathura = {
 				color={ 170 45 20 }
@@ -47201,6 +47688,10 @@ e_rajastan = {
 
 			capital = 1358 # Vodamayuta
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_vodamayutja = {
 				color={ 195 90 10 }
 				color2={ 255 255 255 }
@@ -47266,11 +47757,19 @@ e_rajastan = {
 
 		capital = 1292 # Sarasvata Mandala
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_gurjara_mandala = {
 			color={ 175 80 20 }
 			color2={ 255 255 255 }
 
 			capital = 1292 # Sarasvata Mandala
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_sarasvata_mandala = {
 				color={ 155 80 20 }
@@ -47338,6 +47837,10 @@ e_rajastan = {
 
 			capital = 1136 # Dvaraka
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_dhamalpur = {
 				color={ 195 50 30 }
 				color2={ 255 255 255 }
@@ -47403,6 +47906,10 @@ e_rajastan = {
 			color2={ 255 255 255 }
 
 			capital = 1134 # Bhumilka
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_bhumilka = {
 				color={ 220 120 50 }
@@ -47489,6 +47996,10 @@ e_rajastan = {
 
 			capital = 1133 # Vadodara
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_navasarika = {
 				color={ 200 120 90 }
 				color2={ 255 255 255 }
@@ -47568,11 +48079,19 @@ e_rajastan = {
 
 		capital = 1346 # Ajayameru
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_maru = {
 			color={ 194 67 10 }
 			color2={ 255 255 255 }
 
 			capital = 1130 # Mandavyapura
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_mandavyapura = {
 				color={ 194 87 10 }
@@ -47642,6 +48161,10 @@ e_rajastan = {
 
 			capital = 1354 # Nagauda
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_vikramapura = {
 				color={ 144 47 20 }
 				color2={ 255 255 255 }
@@ -47705,6 +48228,10 @@ e_rajastan = {
 			color2={ 255 255 255 }
 
 			capital = 1304 # Ludrava
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_ludrava = {
 				color={ 170 60 30 }
@@ -47770,6 +48297,10 @@ e_rajastan = {
 
 			capital = 1345 # Medapata
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_medapata = {
 				color={ 136 86 32 }
 				color2={ 255 255 255 }
@@ -47833,6 +48364,10 @@ e_rajastan = {
 			color2={ 255 255 255 }
 
 			capital = 1346 # Ajayameru
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_ajayameru = {
 				color={ 210 190 51 }
@@ -47920,11 +48455,19 @@ e_rajastan = {
 
 		capital = 1288 # Ujjayini
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_dadhipadra = { # Avanti
 			color={ 245 200 20 }
 			color2={ 255 255 255 }
 
 			capital = 1288 # Ujjayini
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_dadhipadra = {
 				color={ 245 200 40 }
@@ -48010,6 +48553,10 @@ e_rajastan = {
 			color2={ 255 255 255 }
 
 			capital = 1170 # Vidisa
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_sarangpur = {
 				color={ 210 150 35 }
@@ -48459,17 +49006,29 @@ e_bengal = {
 
 	short_name = yes
 
+	allow = {
+		has_ck2plus_empire_reqs = yes
+	}
+
 	k_gondwana = {
 		color = { 32 128 55 }
 		color2={ 255 255 255 }
 
 		capital = 1271 # Tripuri
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_dahala = {
 			color = { 30 125 55 }
 			color2={ 255 255 255 }
 
 			capital = 1271 # Tripuri
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_tripuri = {
 				color = { 50 125 55 }
@@ -48524,6 +49083,10 @@ e_bengal = {
 			color2={ 255 255 255 }
 
 			capital = 1272 # Ratanpur
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_tummana = {
 				color = { 56 175 65 }
@@ -48590,11 +49153,19 @@ e_bengal = {
 
 		capital = 1151 # Laksmanavati
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_vanga = {
 			color = { 35 190 35 }
 			color2={ 255 255 255 }
 
 			capital = 1319 # Bikrampur
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_bikrampur = {
 				color = { 35 220 35 }
@@ -48698,6 +49269,10 @@ e_bengal = {
 
 			capital = 1381 # Pundravardhana
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_madhupur = {
 				color = { 40 125 20 }
 				color2={ 255 255 255 }
@@ -48761,6 +49336,10 @@ e_bengal = {
 			color2={ 255 255 255 }
 
 			capital = 1151 # Laksmanavati
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_gauda = {
 				color = { 60 180 60 }
@@ -48845,6 +49424,10 @@ e_bengal = {
 
 			capital = 1323 # Nabadwipa
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_nabadwipa = {
 				color = { 120 255 100 }
 				color2={ 255 255 255 }
@@ -48908,6 +49491,10 @@ e_bengal = {
 			color2={ 255 255 255 }
 
 			capital = 1238 # Mallabhum
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_tamralipti = {
 				color = { 20 100 20 }
@@ -48974,11 +49561,19 @@ e_bengal = {
 
 		capital = 1321 # Kamarupanagara
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_kamarupanagara = {
 			color={ 15 140 50 }
 			color2={ 255 255 255 }
 
 			capital = 1321 # Kamarupanagara
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kamarupanagara = {
 				color={ 15 120 50 }
@@ -49046,6 +49641,10 @@ e_bengal = {
 
 			capital = 1246 # Goalpara
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_goalpara = {
 				color={ 15 200 80 }
 				color2={ 255 255 255 }
@@ -49109,6 +49708,10 @@ e_bengal = {
 			color2={ 255 255 255 }
 
 			capital = 1418 # Haruppeswara
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_haruppeswara = {
 				color={ 60 200 150 }
@@ -49194,11 +49797,19 @@ e_bengal = {
 
 		capital = 1129 # Kataka
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_daksina_kosala = {
 			color={ 105 150 41 }
 			color2={ 255 255 255 }
 
 			capital = 1160 # Rayapura
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_sripuri = {
 				color={ 125 150 41 }
@@ -49301,6 +49912,10 @@ e_bengal = {
 			color2={ 255 255 255 }
 
 			capital = 1129 # Kataka
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kataka = {
 				color={ 135 190 30 }
@@ -49406,6 +50021,10 @@ e_bengal = {
 
 			capital = 1224 # Kalinganagar
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_puri = {
 				color={ 60 220 135 }
 				color2={ 255 255 255 }
@@ -49489,6 +50108,10 @@ e_bengal = {
 
 			capital = 1227 # Cakrakuta
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_cakrakuta = {
 				color={ 58 150 70 }
 				color2={ 255 255 255 }
@@ -49554,11 +50177,19 @@ e_bengal = {
 
 		capital = 1154 # Magadha
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_tirabhukti = {
 			color={ 58 178 41 }
 			color2={ 255 255 255 }
 
 			capital = 1419 # Mithila
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_mithila = {
 				color={ 58 158 41 }
@@ -49623,6 +50254,10 @@ e_bengal = {
 			color2={ 255 255 255 }
 
 			capital = 1166 # Jaunpur
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_varanasi = {
 				color={ 140 235 101 }
@@ -49690,6 +50325,10 @@ e_bengal = {
 			color2={ 255 255 255 }
 
 			capital = 1248 # Munda
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_jharkand = {
 				color={ 58 138 41 }
@@ -49795,6 +50434,10 @@ e_bengal = {
 
 			capital = 1154 # Magadha
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_magadha = {
 				color={ 35 122 25 }
 				color2={ 255 255 255 }
@@ -49886,17 +50529,29 @@ e_deccan = {
 
 	short_name = yes
 
+	allow = {
+		has_ck2plus_empire_reqs = yes
+	}
+
 	k_maharastra = {
 		color={ 150 0 20 }
 		color2={ 255 255 255 }
 
 		capital = 1145 # Devagiri
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_vidharba = {
 			color={ 155 5 30 }
 			color2={ 255 255 255 }
 
 			capital = 1285 # Acalapura
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_acalapura = {
 				color={ 155 5 50 }
@@ -50000,6 +50655,10 @@ e_deccan = {
 
 			capital = 1125 # Thana
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_goa = {
 				color={ 115 40 40 }
 				color2={ 255 255 255 }
@@ -50063,6 +50722,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1213 # Kondana
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_nasikya = {
 				color={ 140 50 90 }
@@ -50133,6 +50796,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1145 # Devagiri
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_devagiri = {
 				color={ 220 119 85 }
@@ -50238,6 +50905,10 @@ e_deccan = {
 
 			capital = 1206 # Taradavadi
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_lattalura = {
 				color={ 235 70 160 }
 				color2={ 255 255 255 }
@@ -50322,11 +50993,19 @@ e_deccan = {
 
 		capital = 1143 # Kalyani
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_kalyani = {
 			color={ 110 25 2 }
 			color2={ 255 255 255 }
 
 			capital = 1143 # Kalyani
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kalyani = {
 				color={ 110 25 22 }
@@ -50410,6 +51089,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1196 # Srirangapatna
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_srirangapatna = {
 				color={ 108 23 49 }
@@ -50498,6 +51181,10 @@ e_deccan = {
 
 			capital = 1197 # Dwarasamudra
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_uchangidurga = {
 				color={ 178 93 49 }
 				color2={ 255 255 255 }
@@ -50561,6 +51248,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1203 # Idatarainadu
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_idatarainadu = {
 				color={ 188 153 35 }
@@ -50650,11 +51341,19 @@ e_deccan = {
 
 		capital = 1115 # Cholamandalam
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_chola_nadu = {
 			color={ 140 65 65 }
 			color2={ 255 255 255 }
 
 			capital = 1115 # Cholamandalam
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_cholamandalam = {
 				color={ 140 45 65 }
@@ -50702,6 +51401,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1112 # Madurai
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_madurai = {
 				color={ 160 80 130 }
@@ -50789,6 +51492,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1114 # Mahoyadapuram
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_mahoyadapuram = {
 				color={ 160 75 75 }
@@ -50897,6 +51604,10 @@ e_deccan = {
 
 			capital = 1119 # Kanchipuram
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_kanchipuram = {
 				color={ 180 120 120 }
 				color2={ 255 255 255 }
@@ -50943,11 +51654,19 @@ e_deccan = {
 
 		capital = 1122 # Udayagiri
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_vengi = {
 			color={ 190 40 60 }
 			color2={ 255 255 255 }
 
 			capital = 1221 # Vijayawada
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_vengipura = {
 				color={ 190 60 60 }
@@ -51031,6 +51750,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1122 # Udayagiri
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_udayagiri = {
 				color={ 197 40 90 }
@@ -51120,11 +51843,19 @@ e_deccan = {
 
 		capital	= 1256 # Orangallu
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_warangal = {
 			color={ 185 39 45 }
 			color2={ 255 255 255 }
 
 			capital = 1256 # Orangallu
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_orangallu = {
 				color={ 185 59 45 }
@@ -51208,6 +51939,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1209 # Racakonda
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_racakonda = {
 				color={ 130 20 20 }
@@ -51312,11 +52047,19 @@ e_deccan = {
 
 		capital = 1215 # Dakhina Desa
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_lanka = {
 			color = { 231 195 85 }
 			color2={ 255 255 255 }
 
 			capital = 1215 # Dakhina Desa
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_dakhina_desa = {
 				color = { 231 175 85 }
@@ -51366,6 +52109,10 @@ e_deccan = {
 			color2={ 255 255 255 }
 
 			capital = 1195 # Pihiti
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_phiti = { # Pihiti
 				color = { 181 135 55 }
@@ -51437,6 +52184,10 @@ e_tibet = {
 	#bodpa = "Bodchenpo"
 	han = "Tubo"
 
+	allow = {
+		has_ck2plus_empire_reqs = yes
+	}
+
 	k_yarlung = {
 		color={ 209 52 80 }
 		color2= { 255 255 255 }
@@ -51446,6 +52197,10 @@ e_tibet = {
 		culture = bodpa
 
 		han = "Tubo"
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 
 		d_lhasa = { # A.k.a "Ü-Tsang"
 			color={ 225 75 0 }
@@ -51457,6 +52212,10 @@ e_tibet = {
 
 			bodpa = "Lhasa"
 			han = "Lasa"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_lhasa = {
 				color={ 170 10 0 }
@@ -51557,6 +52316,10 @@ e_tibet = {
 
 			han = "Yalu"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_taktse = {
 				color={ 191 13 0 }
 				color2= { 255 255 255 }
@@ -51651,6 +52414,10 @@ e_tibet = {
 
 			bodpa = "Xigazê"
 			han = "Rikaze"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_shigatse = {
 				color={ 195 63 0 }
@@ -51854,6 +52621,10 @@ e_tibet = {
 
 			culture = sumpa
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_nagchu = {
 				color={ 165 136 3 }
 				color2= { 255 255 255 }
@@ -51949,6 +52720,10 @@ e_tibet = {
 
 			han = "Supi"
 			mongol = "Hoh Xil"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_samtho = {
 				color={ 190 140 0 }
@@ -52082,6 +52857,10 @@ e_tibet = {
 
 			han = "Budan"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_bumthang = {
 				color={ 160 70 20 }
 				color2= { 255 255 255 }
@@ -52136,6 +52915,10 @@ e_tibet = {
 
 		culture = zhangzhung
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_purang = {
 			color={ 67 130 219 }
 			color2= { 255 255 255 }
@@ -52143,6 +52926,10 @@ e_tibet = {
 			capital = 1491 # Purang
 
 			zhangzhung = "Zhangzhung"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_tsaparang = {
 				color={ 85 155 200 }
@@ -52307,6 +53094,10 @@ e_tibet = {
 			capital = 1487 # Gar
 
 			han = "Ali"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_gar = {
 				color={ 154 152 190 }
@@ -52493,6 +53284,10 @@ e_tibet = {
 			bodpa = "Maryul"
 			han = "Ladake"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_leh = {
 				color= { 73 113 168 }
 				color2= { 255 255 255 }
@@ -52570,6 +53365,10 @@ e_tibet = {
 
 		han = "Kang"
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_dege = {
 			color={ 150 20 11 }
 			color2= { 255 255 255 }
@@ -52577,6 +53376,10 @@ e_tibet = {
 			capital = 1506 # Dege
 
 			bodpa = "Dêgê"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_dege = {
 				color={ 151 11 0 }
@@ -52660,6 +53463,10 @@ e_tibet = {
 			capital = 1508 # Qamdo
 
 			han = "Changdu"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_qamdo = {
 				color={ 140 9 29 }
@@ -52752,6 +53559,10 @@ e_tibet = {
 			capital = 1500 # Nyingchi
 
 			han = "Linzhi"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_nyingchi = {
 				color={ 120 20 11 }
@@ -52848,6 +53659,10 @@ e_tibet = {
 
 		han = "Nibo'er"
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_kathmandu = {
 			color= { 175 60 30 }
 			color2= { 255 255 255 }
@@ -52855,6 +53670,10 @@ e_tibet = {
 			capital = 1478 # Kathmandu
 
 			han = "Jiademandu"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kathmandu = {
 				color= { 175 60 30 }
@@ -52928,6 +53747,10 @@ e_tibet = {
 
 			bodpa = "Yartse"
 			han = "Kuoerka"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_pokhara = {
 				color={ 195 100 20 }
@@ -53045,12 +53868,20 @@ e_tibet = {
 
 		capital = 1161 # Kasmira
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_kashmir = {
 
 			color={ 204 180 30 }
 			color2= { 255 255 255 }
 
 			capital = 1161 # Kasmira
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kasmira = {
 				color={ 245 160 31 }
@@ -53121,6 +53952,10 @@ e_tibet = {
 
 			capital = 1511 # Pamir
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_pamir = {
 				color={ 174 120 0 }
 				color2= { 255 255 255 }
@@ -53169,6 +54004,10 @@ e_tibet = {
 			color2= { 255 255 255 }
 
 			capital = 1470 # Garhwal
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_kangra = {
 				color= { 150 140 30 }
@@ -53246,12 +54085,20 @@ e_tibet = {
 		#tangut = "Minyak"
 		mongol = "Tangghut"
 
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+
 		d_jiuquan = {
 			color={ 31 186 165 }
 
 			capital = 1513 # Jiuquan
 
 			uyghur = "Yugur"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_jiuquan = {
 				color={ 8 119 114 }
@@ -53361,6 +54208,10 @@ e_tibet = {
 			khitan = "Tuyuhun"
 			mongol = "Kokonur"
 
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
+
 			c_fuqi = {
 				color={ 48 109 104 }
 				color2= { 255 255 255 }
@@ -53437,6 +54288,10 @@ e_tibet = {
 			khitan = "Golmud"
 			uyghur = "Golmud"
 			han = "Ge'ermu"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_nagormo = {
 				color={ 28 139 134 }
@@ -53548,6 +54403,10 @@ e_tibet = {
 
 			bodpa = "Nangqên"
 			han = "Nangqian"
+
+			allow = {
+				has_ck2plus_duchy_reqs = yes
+			}
 
 			c_nangqen = {
 
@@ -54418,6 +55277,10 @@ e_china_west_governor = { #placeholder for the Chinese Empire Western Governor
 }
 k_sakya_trizin = {
 	color = { 95 190 50 }
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 
 d_manichean = {
@@ -54785,6 +55648,8 @@ e_russian_empire = {
 	culture = russian
 
 	allow = {
+		has_ck2plus_empire_reqs = yes
+
 		always = no # Only created through special event
 	}
 }
@@ -54794,6 +55659,10 @@ k_liao = {
 	color2= { 255 255 255 }
 
 	culture = khitan
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
 }
 d_guiyi = { #
 	color={ 202 26 26 }
@@ -54804,6 +55673,8 @@ d_guiyi = { #
 	dignity = 200
 
 	allow = {
+		has_ck2plus_duchy_reqs = yes
+
 		always = no
 	}
 }
