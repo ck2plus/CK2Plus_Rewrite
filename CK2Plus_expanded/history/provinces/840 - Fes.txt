@@ -21,7 +21,7 @@ religion = shiite
 
 # History
 767.1.1 = { religion = ibadi }
-789.1.1 = { culture = maghreb_arabic }
+789.1.1 = { culture = andalusian_arabic }
 867.1.1 = {
 	b_fes = ca_keep_1
 	b_fes = ca_training_grounds_1

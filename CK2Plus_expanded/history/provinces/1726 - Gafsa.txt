@@ -15,7 +15,9 @@ b_nafta = city
 #b_tozeur
 
 # Misc
-culture = maghreb_arabic
+culture = houara
 religion = sunni
+
+900.1.1 = { culture = maghreb_arabic }
 
 # History

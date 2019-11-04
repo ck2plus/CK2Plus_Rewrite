@@ -10,7 +10,7 @@ b_tazagourt = tribal
 b_tizgui = temple
 
 # Misc
-culture = atlasian
+culture = tuareg
 religion = shiite
 
 # History

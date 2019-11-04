@@ -16,8 +16,10 @@ b_kebili = temple
 #b_al_hamma
 
 # Misc
-culture = maghreb_arabic
+culture = houara
 religion = sunni
+
+900.1.1 = { culture = maghreb_arabic }
 
 # History
 1132.1.1 = { trade_post = b_caetani }

@@ -17,12 +17,12 @@ b_ajim = temple
 #b_taguermess = castle
 
 # Misc
-culture = maghreb_arabic
+culture = houara
 religion = ibadi
 terrain = desert
 
 # History
-
+900.1.1 = { culture = maghreb_arabic }
 1050.1.1 = { religion = sunni }
 
 1126.1.1 = {

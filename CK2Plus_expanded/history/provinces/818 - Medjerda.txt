@@ -16,7 +16,9 @@ b_siliana = temple
 #b_elkrib = castle
 
 # Misc
-culture = maghreb_arabic
+culture = kutama
 religion = sunni
+
+800.1.1 = { culture = maghreb_arabic }
 
 # History

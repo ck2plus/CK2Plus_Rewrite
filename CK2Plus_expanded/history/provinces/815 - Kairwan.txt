@@ -16,7 +16,11 @@ b_sidibouzid = city
 #b_meknassy = castle
 
 # Misc
-culture = maghreb_arabic
+culture = kutama
 religion = sunni
+
+800.1.1 = {
+    culture = maghreb_arabic
+}
 
 # History
