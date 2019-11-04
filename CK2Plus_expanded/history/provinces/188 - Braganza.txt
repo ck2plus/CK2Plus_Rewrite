@@ -24,8 +24,9 @@ religion = catholic
 # History
 
 926.1.1 = {
-	culture = portuguese
+	culture = galician
 }
+1150.1.1 = { culture = portuguese }
 
 1066.1.1 = { 
 	b_braganza = ca_wall_1

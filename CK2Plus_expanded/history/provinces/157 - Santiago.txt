@@ -34,7 +34,7 @@ religion = catholic
 }
 
 926.1.1 = {
-	culture = portuguese
+	culture = galician
 }
 
 1126.3.8 = { capital = b_santiago }

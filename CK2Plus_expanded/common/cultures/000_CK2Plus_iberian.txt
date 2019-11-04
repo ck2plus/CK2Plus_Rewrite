@@ -139,6 +139,51 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 
+	galician = {
+	    graphical_cultures = { southerngfx }
+	    color = { 1.0 0.77 0.47 }
+
+	    male_names = {
+	        Aitor Alexandre_Alexander Afonso_Alphonse Alonso_Alphonse André_Andrew Antón_Antonius Anxo
+	        Bara Benito_Benedict Bermudo_Vermudo Breixo Breógan
+	        Caetano
+	        Diego_Jacob
+            Eduardo_Edward Emilio_Emilio Estevo_Stephen
+	        Félix_Felix Fernando_Ferdinand Filipe_Philip Fruela_Froila
+	        Garcia_Garcia Guillermo_William
+	        Hugo_Hugh
+	        Iago_Jacob Ignacio_Ignacio
+	        Juan_John
+	        Leopoldo_Leopold Lois_Louis Lucio_Lucius
+	        Manuel_Manuel Mateo_Matthew Miguel_Michael
+	        Nicolao_Nicholas
+	        Ordoño_Ordono
+	        Paulo_Paul Pedro_Peter
+	        Ramiro_Ramiro Rodrigo_Roderick
+	        Sancho_Sancho Silvestre_Silvester
+	        Tomé_Thomas
+	        Xacobe_Jacob Xaime_James Xavier_Javier Xerardo_Gerard Xesús_Jesus Xián_John Xoán_John Xoel_Joel Xosé_Jose Xurxo_George Ximeno_Simon
+	    }
+
+	    female_names = {
+	        Ágata_Agatha Ana_Anna Ariana_Ariana
+	        Beatriz_Beatrice
+	        Cataliña_Katherine Catuxa Claudia_Claudia Cristina_Christina
+	        Dulce
+	        Eldara Elena_Helen Elisa_Elisabeth Elvira_Elvira Estefanía_Stephania Eva_Eva
+	        Ines_Agnes Iratxe
+	        Jimena_Ximena
+	        Luisa_Louise Lúa_Luna
+	        Manuela Margarida_Margaret María_Maria
+	        Paula_Paula
+	        Rocío Rodolfa Rosalia
+	        Sancha_Sancha Sandra Silvia_Silvia Sonia
+	        Urraca_Urraca Uxía_Eugenia
+	        Valería_Valeria Veronica Virxinia_Virgin
+	        Xacquelina_Jacqueline Xaquína Xaviera_Javiera Xiana_Joan Xoana_Joan Xudit_Judith Xulia_Julia
+	    }
+	}
+
 	leonese = { 
 		graphical_cultures = { southerngfx }
 		color = { 0.78 0.47 0.85 }
