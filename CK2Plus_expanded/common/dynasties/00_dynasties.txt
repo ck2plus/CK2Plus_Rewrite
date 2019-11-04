@@ -50496,8 +50496,8 @@
 }
 
 1069086 = {
-	name = "Tânmak"   # Sanhaja/Tagelmust rulers over Tadmekka's Zanâta Berbers
-	culture = maghreb_arabic
+	name = "Tânmak"
+	culture = sanhaja
 	religion = ibadi
 }
 
@@ -50521,18 +50521,30 @@
 
 1069090 = {
 	name = "al-Ma'afiri"
-	culture = maghreb_arabic #zanata
+	culture = zenati
 	religion = ibadi
 }
 
 1069091 = {
 	name = "al-Mazâtî"
-	culture = maghreb_arabic #zanata
+	culture = zenati
 	religion = ibadi
 }
 
 1069092 = {
 	name = "Hawwâra"
-	culture = maghreb_arabic #zanata
+	culture = houara
 	religion = ibadi
+}
+
+1069092 = {
+    name = "Béni Irmazyan"
+    culture = houara
+    religion = ibadi
+}
+
+1069092 = {
+    name = "Haragha"
+    culture = houara
+    religion = ibadi
 }

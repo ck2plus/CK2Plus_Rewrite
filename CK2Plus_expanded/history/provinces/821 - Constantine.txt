@@ -16,7 +16,7 @@ b_guelma = city
 #b_mechtakebira = castle
 
 # Misc
-culture = kutama
+culture = sanhaja
 religion = sunni
 
 800.1.1 = {

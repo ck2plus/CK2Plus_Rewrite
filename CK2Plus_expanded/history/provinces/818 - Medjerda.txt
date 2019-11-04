@@ -16,7 +16,7 @@ b_siliana = temple
 #b_elkrib = castle
 
 # Misc
-culture = kutama
+culture = sanhaja
 religion = sunni
 
 800.1.1 = { culture = maghreb_arabic }

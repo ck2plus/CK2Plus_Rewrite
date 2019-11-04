@@ -10,7 +10,7 @@ b_arigh = castle
 #b_ajlu
 
 # Misc
-culture = kutama
+culture = sanhaja
 religion = kharijite
 
 # History
