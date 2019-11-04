@@ -15,3 +15,5 @@ religion = miaphysite
 
 # History
 
+1225.1.1 = { religion = sunni }
+1225.1.1 = { culture = egyptian_arabic }

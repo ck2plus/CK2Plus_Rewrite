@@ -21,3 +21,6 @@ religion = miaphysite
 
 # History
 1203.1.1 = { trade_post = b_faliero }
+
+1265.1.1 = { religion = sunni }
+1265.1.1 = { culture = egyptian_arabic }

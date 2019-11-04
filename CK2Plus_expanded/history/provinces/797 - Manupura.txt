@@ -12,7 +12,7 @@ b_tanta = temple
 b_mansoura = castle
 
 # Misc
-culture = egyptian_arabic
+culture = coptic
 religion = miaphysite
 
 # History
@@ -32,4 +32,5 @@ religion = miaphysite
 	b_athribis = ca_militia_barracks_1
 }
 
-# 1171.1.1 = { religion = sunni }
+1171.1.1 = { religion = sunni }
+1171.1.1 = { culture = egyptian_arabic }

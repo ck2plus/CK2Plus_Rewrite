@@ -14,4 +14,5 @@ culture = coptic
 religion = miaphysite
 
 # History
-# 1171.1.1 = { religion = sunni}
+1295.1.1 = { religion = sunni }
+1279.1.1 = { culture = egyptian_arabic }

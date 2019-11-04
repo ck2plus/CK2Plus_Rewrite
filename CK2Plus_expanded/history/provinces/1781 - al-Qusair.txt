@@ -13,7 +13,10 @@ b_safaga = city
 #b_ummrus
 
 # Misc
-culture = egyptian_arabic
+culture = coptic
 religion = miaphysite
 
 # History
+
+1000.1.1 = { religion = sunni }
+1000.1.1 = { culture = egyptian_arabic }
