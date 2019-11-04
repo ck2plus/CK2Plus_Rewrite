@@ -15,3 +15,5 @@ religion = sunni
 
 
 # History
+
+1059.1.1 = { culture = maghreb_arabic }

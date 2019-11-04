@@ -14,4 +14,7 @@ culture = kutama
 religion = kharijite
 
 # History
-1000.1.1 = { religion = sunni }
+1000.1.1 = {
+    religion = sunni
+    culture = maghreb_arabic
+}

@@ -14,4 +14,7 @@ culture = houara
 religion = ibadi
 
 # History
-1171.1.1 = { religion = sunni }
+1171.1.1 = {
+    religion = sunni
+    culture = maghreb_arabic
+}
