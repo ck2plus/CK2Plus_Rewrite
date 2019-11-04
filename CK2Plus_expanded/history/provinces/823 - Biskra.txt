@@ -1,0 +1,27 @@
+# 823 - Biskra
+
+# County Title
+title = c_biskra
+
+# Settlements
+max_settlements = 4
+
+b_biskra = castle
+b_magra = city
+#b_batna = temple
+
+#b_sidiokba = castle
+#b_nebka = castle
+#b_bigou = castle
+#b_mekhadma = castle
+#b_branis = castle
+
+# Misc
+culture = kutama
+religion = ibadi
+
+# History
+900.1.1 = { culture = maghreb_arabic }
+1000.1.1 = {
+	religion = sunni
+}
