@@ -182,6 +182,21 @@ iberian = {
 	        Valería_Valeria Veronica Virxinia_Virgin
 	        Xacquelina_Jacqueline Xaquína Xaviera_Javiera Xiana_Joan Xoana_Joan Xudit_Judith Xulia_Julia
 	    }
+
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+
+		modifier = default_culture_modifier
 	}
 
 	leonese = { 
