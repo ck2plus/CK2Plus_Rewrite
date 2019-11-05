@@ -1,0 +1,22 @@
+# 1781 - al-Qusair
+
+# County Title
+title = c_alqusair
+
+# Settlements
+max_settlements = 3
+
+b_kosseir = castle
+b_safaga = city
+
+#b_abughusun
+#b_ummrus
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+
+1000.1.1 = { religion = sunni }
+1000.1.1 = { culture = egyptian_arabic }
