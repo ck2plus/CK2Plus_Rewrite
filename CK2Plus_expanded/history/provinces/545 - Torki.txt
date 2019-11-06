@@ -21,7 +21,7 @@ religion = slavic_pagan
 
 # History
 867.1.1 = {
-	culture = russian
+	culture = ruthenian
 	b_suceava = castle
 	b_radauti = city
 	b_bogdana = temple

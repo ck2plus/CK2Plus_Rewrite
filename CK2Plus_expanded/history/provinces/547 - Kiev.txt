@@ -27,7 +27,7 @@ terrain = plains
 	b_kiev = tb_market_town_1
 }
 867.1.1 = {
-	culture = russian
+	culture = ruthenian
 }
 988.1.1 = {
 	religion = orthodox

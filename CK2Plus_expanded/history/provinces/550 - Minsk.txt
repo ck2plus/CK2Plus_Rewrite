@@ -22,7 +22,7 @@ terrain = forest
 
 # History
 867.1.1 = {
-	culture = russian
+	culture = ruthenian
 }
 988.1.1 = { religion = orthodox }
 1150.1.1 = {

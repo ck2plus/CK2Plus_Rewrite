@@ -21,7 +21,7 @@ religion = slavic_pagan
 
 # History
 867.1.1 = {
-	culture = russian
+	culture = ruthenian
 	b_smolensk = ca_keep_1
 	b_smolensk = ca_wall_1
 }

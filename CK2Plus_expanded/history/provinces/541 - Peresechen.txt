@@ -21,7 +21,7 @@ religion = slavic_pagan
 
 # History
 867.1.1 = {
-	culture = russian
+	culture = ruthenian
 	b_soroca = castle
 	b_orhei = city
 	b_butuceni = temple

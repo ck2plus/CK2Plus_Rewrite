@@ -29,4 +29,4 @@ terrain = steppe
 	religion = orthodox
 }
 1091.1.1 = { culture = cuman }
-1238.1.1 = { culture = russian }
+1238.1.1 = { culture = ruthenian }

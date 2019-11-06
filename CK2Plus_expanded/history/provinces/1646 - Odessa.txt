@@ -25,5 +25,5 @@ religion = slavic_pagan
 	religion = tengri_pagan
 }
 1171.1.1 = { culture = cuman }
-1238.1.1 = { culture = russian } 
+1238.1.1 = { culture = ruthenian } 
 1238.1.1 = { religion = orthodox }

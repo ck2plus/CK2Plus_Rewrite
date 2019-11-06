@@ -21,7 +21,7 @@ religion = slavic_pagan
 
 # History
 867.1.1 = {
-	culture = russian
+	culture = ruthenian
 }
 947.1.1 = {
 	b_vitebsk = tb_hillfort_1
