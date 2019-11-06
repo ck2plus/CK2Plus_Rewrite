@@ -1,0 +1,4456 @@
+##################################################################################################################
+#
+#	CK2Plus Combat Tactics
+#
+##################################################################################################################
+#
+#	SKIRMISH			Type		Primary troops			Affinity						Notes
+#
+#	Volley				defensive	archers					swarm, cavalry charge
+#	Swarm				offensive	horse archers			raid, harass
+#	Harass				offensive	light cavalry			raid, volley
+#	Raid				offensive	light infantry
+#	Feint				defensive	light infantry			swarm, harass, raid
+#	Shock Charge		offensive	heavy cavalry			volley 							hit and run
+#	Skirmish Charge		offensive	various infantry										change to melee
+#	Cavalry Charge		offensive	various cavalry			skirmish charge					change to melee
+#	Elephant Charge		offensive	war elephants			shock/skirmish charge, approach	change to melee
+#	Approach			defensive	pikemen					cavalry charge					change to melee
+#
+#	MELEE
+#
+#	Shieldwall			defensive	heavy infantry
+#	Advance				offensive	pikemen					shieldwall
+#	Ambush				defensive	various
+#	Hammer and Anvil	offensive	heavy cavalry/infantry	shieldwall, advance				must be flanking
+#
+##################################################################################################################
+
+# Must be first in file. This tactic will be set if anything goes wrong
+no_tactic = {
+	days = 1
+	sprite = 1 # Light Infantry
+
+	trigger = {
+		always = no # Never use unless set explicitly by code
+	}
+}
+
+##################################################################################################################
+#
+#	Skirmish tactics
+#
+##################################################################################################################
+
+volley_tier_1 = { # Very bad
+	days = 6
+	sprite = 6 # Archers
+	group = volley
+
+	trigger = {
+		phase = skirmish
+
+		location = {
+			NOR = {
+				terrain = forest
+				terrain = woods
+				terrain = jungle
+			}
+		}
+
+		troops = {
+			who = archers
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		volley_flank_composition_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	archers_offensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.20
+	heavy_infantry_morale = -0.20
+	light_cavalry_morale = -0.20
+	horse_archers_morale = -0.20
+	camel_cavalry_morale = -0.20
+	war_elephants_morale = -0.20
+	pikemen_morale = -0.20
+	archers_morale = -0.20
+	knights_morale = -0.20
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.10
+	}
+	enemy = {
+		group = cavalry_charge
+		factor = 0.20
+	}
+}
+
+volley_tier_2 = { # Bad
+	days = 6
+	sprite = 6 # Archers
+	group = volley
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = archers
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		light_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		volley_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	archers_offensive = 0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.10
+	heavy_infantry_morale = -0.10
+	light_cavalry_morale = -0.10
+	horse_archers_morale = -0.10
+	camel_cavalry_morale = -0.10
+	war_elephants_morale = -0.10
+	pikemen_morale = -0.10
+	archers_morale = -0.10
+	knights_morale = -0.10
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.20
+	}
+	enemy = {
+		group = cavalry_charge
+		factor = 0.40
+	}
+}
+
+volley_tier_3 = { # Average
+	days = 6
+	sprite = 6 # Archers
+	group = volley
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = archers
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		light_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		volley_flank_composition_factor = yes
+
+		# Tier 3 specific
+		mult_modifier = {
+			factor = 0.67
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	archers_offensive = 0.60
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.30
+	}
+	enemy = {
+		group = cavalry_charge
+		factor = 0.60
+	}
+}
+
+volley_tier_4 = { # Good
+	days = 6
+	sprite = 6 # Archers
+	group = volley
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = archers
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		light_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		volley_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	archers_offensive = 0.80
+	horse_archers_offensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = 0.10
+	heavy_infantry_morale = 0.10
+	light_cavalry_morale = 0.10
+	horse_archers_morale = 0.10
+	camel_cavalry_morale = 0.10
+	war_elephants_morale = 0.10
+	pikemen_morale = 0.10
+	archers_morale = 0.10
+	knights_morale = 0.10
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.40
+	}
+	enemy = {
+		group = cavalry_charge
+		factor = 0.80
+	}
+}
+
+volley_tier_5 = { # Excellent
+	days = 6
+	sprite = 6 # Archers
+	group = volley
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = archers
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		light_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		volley_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	archers_offensive = 1.00
+	horse_archers_offensive = 0.40
+
+	# Seconday effects
+	light_infantry_morale = 0.20
+	heavy_infantry_morale = 0.20
+	light_cavalry_morale = 0.20
+	horse_archers_morale = 0.20
+	camel_cavalry_morale = 0.20
+	war_elephants_morale = 0.20
+	pikemen_morale = 0.20
+	archers_morale = 0.20
+	knights_morale = 0.20
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.50
+	}
+	enemy = {
+		group = cavalry_charge
+		factor = 1.00
+	}
+}
+
+swarm_tier_1 = { # Very bad
+	days = 6
+	sprite = 7 # Horse Archers
+	group = swarm
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = horse_archers
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		swarm_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	horse_archers_offensive = 0.20
+	horse_archers_defensive = -0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+
+	# Affinity
+	enemy = {
+		group = raid
+		factor = -0.10
+	}
+	enemy = {
+		group = harass
+		factor = 0.10
+	}
+}
+
+swarm_tier_2 = { # Bad
+	days = 6
+	sprite = 7 # Horse Archers
+	group = swarm
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = horse_archers
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		mounted_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		swarm_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	horse_archers_offensive = 0.40
+	horse_archers_defensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+
+	# Affinity
+	enemy = {
+		group = harass
+		factor = 0.20
+	}
+}
+
+swarm_tier_3 = { # Average
+	days = 6
+	sprite = 7 # Horse Archers
+	group = swarm
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = horse_archers
+			value = 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		mounted_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		swarm_flank_composition_factor = yes
+
+		# Tier 3 specific
+		mult_modifier = {
+			factor = 0.67
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	horse_archers_offensive = 0.60
+
+	# Affinity
+	enemy = {
+		group = raid
+		factor = 0.10
+	}
+	enemy = {
+		group = harass
+		factor = 0.30
+	}
+}
+
+swarm_tier_4 = { # Good
+	days = 6
+	sprite = 7 # Horse Archers
+	group = swarm
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = horse_archers
+			value = 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		mounted_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		swarm_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	horse_archers_offensive = 0.80
+	archers_offensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = 0.15
+	heavy_infantry_morale = 0.15
+	light_cavalry_morale = 0.15
+	horse_archers_morale = 0.15
+	camel_cavalry_morale = 0.15
+	war_elephants_morale = 0.15
+	pikemen_morale = 0.15
+	archers_morale = 0.15
+	knights_morale = 0.15
+
+	# Affinity
+	enemy = {
+		group = raid
+		factor = 0.20
+	}
+	enemy = {
+		group = harass
+		factor = 0.40
+	}
+}
+
+swarm_tier_5 = { # Excellent
+	days = 6
+	sprite = 7 # Horse Archers
+	group = swarm
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = horse_archers
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		mounted_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		swarm_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	horse_archers_offensive = 1.00
+	archers_offensive = 0.40
+
+	# Seconday effects
+	light_infantry_morale = 0.30
+	heavy_infantry_morale = 0.30
+	light_cavalry_morale = 0.30
+	horse_archers_morale = 0.30
+	camel_cavalry_morale = 0.30
+	war_elephants_morale = 0.30
+	pikemen_morale = 0.30
+	archers_morale = 0.30
+	knights_morale = 0.30
+
+	# Affinity
+	enemy = {
+		group = raid
+		factor = 0.30
+	}
+	enemy = {
+		group = harass
+		factor = 0.50
+	}
+}
+
+harass_tier_1 = { # Very bad
+	days = 6
+	sprite = 4 # Light Cavalry
+	group = harass
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		harass_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_cavalry_offensive = 0.20
+	light_cavalry_defensive = -0.40
+	camel_cavalry_offensive = 0.20
+	camel_cavalry_defensive = -0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+
+	# Affinity
+	enemy = {
+		group = raid
+		factor = -0.10
+	}
+	enemy = {
+		group = volley
+		factor = 0.10
+	}
+}
+
+harass_tier_2 = { # Bad
+	days = 6
+	sprite = 4 # Light Cavalry
+	group = harass
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		mounted_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		harass_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_cavalry_offensive = 0.40
+	light_cavalry_defensive = -0.20
+	camel_cavalry_offensive = 0.40
+	camel_cavalry_defensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+
+	# Affinity
+	enemy = {
+		group = volley
+		factor = 0.20
+	}
+}
+
+harass_tier_3 = { # Average
+	days = 6
+	sprite = 4 # Light Cavalry
+	group = harass
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		mounted_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		harass_flank_composition_factor = yes
+
+		# Tier 3 specific
+		mult_modifier = {
+			factor = 0.67
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	light_cavalry_offensive = 0.60
+	camel_cavalry_offensive = 0.60
+
+	# Affinity
+	enemy = {
+		group = raid
+		factor = 0.10
+	}
+	enemy = {
+		group = volley
+		factor = 0.30
+	}
+}
+
+harass_tier_4 = { # Good
+	days = 6
+	sprite = 4 # Light Cavalry
+	group = harass
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		mounted_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		harass_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_cavalry_offensive = 0.80
+	camel_cavalry_offensive = 0.80
+	horse_archers_offensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = 0.15
+	heavy_infantry_morale = 0.15
+	light_cavalry_morale = 0.15
+	horse_archers_morale = 0.15
+	camel_cavalry_morale = 0.15
+	war_elephants_morale = 0.15
+	pikemen_morale = 0.15
+	archers_morale = 0.15
+	knights_morale = 0.15
+
+	# Affinity
+	enemy = {
+		group = raid
+		factor = 0.20
+	}
+	enemy = {
+		group = volley
+		factor = 0.40
+	}
+}
+
+harass_tier_5 = { # Excellent
+	days = 6
+	sprite = 4 # Light Cavalry
+	group = harass
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		mounted_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		harass_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	light_cavalry_offensive = 1.00
+	camel_cavalry_offensive = 1.00
+	horse_archers_offensive = 0.40
+
+	# Seconday effects
+	light_infantry_morale = 0.30
+	heavy_infantry_morale = 0.30
+	light_cavalry_morale = 0.30
+	horse_archers_morale = 0.30
+	camel_cavalry_morale = 0.30
+	war_elephants_morale = 0.30
+	pikemen_morale = 0.30
+	archers_morale = 0.30
+	knights_morale = 0.30
+
+	# Affinity
+	enemy = {
+		group = raid
+		factor = 0.30
+	}
+	enemy = {
+		group = volley
+		factor = 0.50
+	}
+}
+
+raid_tier_1 = { # Very bad
+	days = 6
+	sprite = 1 # Light Infantry
+	group = raid
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		raid_flank_composition_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	light_infantry_offensive = 0.20
+	light_infantry_defensive = -0.30
+	archers_defensive = -0.30
+	light_cavalry_defensive = -0.30
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+}
+
+raid_tier_2 = { # Bad
+	days = 6
+	sprite = 1 # Light Infantry
+	group = raid
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		light_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		raid_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_offensive = 0.40
+	light_infantry_defensive = -0.15
+	archers_defensive = -0.15
+	light_cavalry_defensive = -0.15
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+}
+
+raid_tier_3 = { # Average
+	days = 6
+	sprite = 1 # Light Infantry
+	group = raid
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		light_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		raid_flank_composition_factor = yes
+
+		# Tier 3 specific
+		mult_modifier = {
+			factor = 0.67
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	light_infantry_offensive = 0.60
+	archers_offensive = 0.15
+	light_cavalry_offensive = 0.15
+}
+
+raid_tier_4 = { # Good
+	days = 6
+	sprite = 1 # Light Infantry
+	group = raid
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		light_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		raid_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_offensive = 0.80
+	archers_offensive = 0.30
+	light_cavalry_offensive = 0.30
+
+	# Seconday effects
+	light_infantry_morale = 0.15
+	heavy_infantry_morale = 0.15
+	light_cavalry_morale = 0.15
+	horse_archers_morale = 0.15
+	camel_cavalry_morale = 0.15
+	war_elephants_morale = 0.15
+	pikemen_morale = 0.15
+	archers_morale = 0.15
+	knights_morale = 0.15
+}
+
+raid_tier_5 = { # Excellent
+	days = 6
+	sprite = 1 # Light Infantry
+	group = raid
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		light_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		raid_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
+	}
+
+	# Primary effects
+	light_infantry_offensive = 1.00
+	archers_offensive = 0.50
+	light_cavalry_offensive = 0.50
+
+	# Seconday effects
+	light_infantry_morale = 0.30
+	heavy_infantry_morale = 0.30
+	light_cavalry_morale = 0.30
+	horse_archers_morale = 0.30
+	camel_cavalry_morale = 0.30
+	war_elephants_morale = 0.30
+	pikemen_morale = 0.30
+	archers_morale = 0.30
+	knights_morale = 0.30
+}
+
+feint_tier_1 = { # Very bad
+	days = 6
+	sprite = 1 # Light Infantry
+	group = feint
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		feint_selection_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_offensive = -0.20
+	light_infantry_defensive = -0.30
+	archers_offensive = -0.20
+	archers_defensive = -0.30
+	light_cavalry_offensive = -0.20
+	light_cavalry_defensive = -0.30
+
+	# Seconday effects
+	light_infantry_morale = -0.20
+	heavy_infantry_morale = -0.20
+	light_cavalry_morale = -0.20
+	horse_archers_morale = -0.20
+	camel_cavalry_morale = -0.20
+	war_elephants_morale = -0.20
+	pikemen_morale = -0.20
+	archers_morale = -0.20
+	knights_morale = -0.20
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.10
+	}
+	enemy = {
+		group = harass
+		factor = 0.10
+	}
+	enemy = {
+		group = raid
+		factor = 0.10
+	}
+}
+
+feint_tier_2 = { # Bad
+	days = 6
+	sprite = 1 # Light Infantry
+	group = feint
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		light_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		feint_selection_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_offensive = -0.10
+	light_infantry_defensive = -0.15
+	archers_offensive = -0.10
+	archers_defensive = -0.15
+	light_cavalry_offensive = -0.10
+	light_cavalry_defensive = -0.15
+
+	# Seconday effects
+	light_infantry_morale = -0.10
+	heavy_infantry_morale = -0.10
+	light_cavalry_morale = -0.10
+	horse_archers_morale = -0.10
+	camel_cavalry_morale = -0.10
+	war_elephants_morale = -0.10
+	pikemen_morale = -0.10
+	archers_morale = -0.10
+	knights_morale = -0.10
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.20
+	}
+	enemy = {
+		group = harass
+		factor = 0.20
+	}
+	enemy = {
+		group = raid
+		factor = 0.20
+	}
+}
+
+feint_tier_3 = { # Average
+	days = 6
+	sprite = 1 # Light Infantry
+	group = feint
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		light_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		feint_selection_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_offensive = 0.20
+	light_infantry_defensive = 0.15
+	archers_offensive = 0.20
+	archers_defensive = 0.15
+	light_cavalry_offensive = 0.20
+	light_cavalry_defensive = 0.15
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.30
+	}
+	enemy = {
+		group = harass
+		factor = 0.30
+	}
+	enemy = {
+		group = raid
+		factor = 0.30
+	}
+}
+
+feint_tier_4 = { # Good
+	days = 6
+	sprite = 1 # Light Infantry
+	group = feint
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		light_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		feint_selection_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_offensive = 0.40
+	light_infantry_defensive = 0.30
+	archers_offensive = 0.40
+	archers_defensive = 0.30
+	light_cavalry_offensive = 0.40
+	light_cavalry_defensive = 0.30
+
+	# Seconday effects
+	light_infantry_morale = 0.10
+	heavy_infantry_morale = 0.10
+	light_cavalry_morale = 0.10
+	horse_archers_morale = 0.10
+	camel_cavalry_morale = 0.10
+	war_elephants_morale = 0.10
+	pikemen_morale = 0.10
+	archers_morale = 0.10
+	knights_morale = 0.10
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.40
+	}
+	enemy = {
+		group = harass
+		factor = 0.40
+	}
+	enemy = {
+		group = raid
+		factor = 0.40
+	}
+}
+
+feint_tier_5 = { # Excellent
+	days = 6
+	sprite = 1 # Light Infantry
+	group = feint
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = light_infantry
+			value >= 0.05
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		light_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		feint_selection_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_offensive = 0.80
+	light_infantry_defensive = 0.60
+	archers_offensive = 0.80
+	archers_defensive = 0.60
+	light_cavalry_offensive = 0.80
+	light_cavalry_defensive = 0.60
+
+	# Seconday effects
+	light_infantry_morale = 0.20
+	heavy_infantry_morale = 0.20
+	light_cavalry_morale = 0.20
+	horse_archers_morale = 0.20
+	camel_cavalry_morale = 0.20
+	war_elephants_morale = 0.20
+	pikemen_morale = 0.20
+	archers_morale = 0.20
+	knights_morale = 0.20
+
+	# Affinity
+	enemy = {
+		group = swarm
+		factor = 0.50
+	}
+	enemy = {
+		group = harass
+		factor = 0.50
+	}
+	enemy = {
+		group = raid
+		factor = 0.50
+	}
+}
+
+close_formation_tier_1 = { # Very bad
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = close_formation
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		close_formation_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = -0.40
+	pikemen_defensive = -0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.20
+	heavy_infantry_morale = -0.20
+	light_cavalry_morale = -0.20
+	horse_archers_morale = -0.20
+	camel_cavalry_morale = -0.20
+	war_elephants_morale = -0.20
+	pikemen_morale = -0.20
+	archers_morale = -0.20
+	knights_morale = -0.20
+}
+
+close_formation_tier_2 = { # Bad
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = close_formation
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		heavy_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		close_formation_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = -0.20
+	pikemen_defensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.10
+	heavy_infantry_morale = -0.10
+	light_cavalry_morale = -0.10
+	horse_archers_morale = -0.10
+	camel_cavalry_morale = -0.10
+	war_elephants_morale = -0.10
+	pikemen_morale = -0.10
+	archers_morale = -0.10
+	knights_morale = -0.10
+}
+
+close_formation_tier_3 = { # Average
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = close_formation
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		heavy_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		close_formation_flank_composition_factor = yes
+	}
+}
+
+close_formation_tier_4 = { # Good
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = close_formation
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		heavy_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		close_formation_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = 0.20
+	pikemen_defensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = 0.10
+	heavy_infantry_morale = 0.10
+	light_cavalry_morale = 0.10
+	horse_archers_morale = 0.10
+	camel_cavalry_morale = 0.10
+	war_elephants_morale = 0.10
+	pikemen_morale = 0.10
+	archers_morale = 0.10
+	knights_morale = 0.10
+}
+
+close_formation_tier_5 = { # Excellent
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = close_formation
+
+	trigger = {
+		phase = skirmish
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		heavy_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		close_formation_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = 0.40
+	pikemen_defensive = 0.40
+
+	# Seconday effects
+	light_infantry_morale = 0.20
+	heavy_infantry_morale = 0.20
+	light_cavalry_morale = 0.20
+	horse_archers_morale = 0.20
+	camel_cavalry_morale = 0.20
+	war_elephants_morale = 0.20
+	pikemen_morale = 0.20
+	archers_morale = 0.20
+	knights_morale = 0.20
+}
+
+
+shock_charge_tier_1 = { # Very bad
+	days = 3
+	sprite = 5 # Heavy Cavalry
+	group = shock_charge
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = heavy_cavalry
+			value >= 0.025
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		shock_charge_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 0.40
+	knights_defensive = -0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+
+	# Affinity
+	enemy = {
+		group = volley
+		factor = 0.20
+	}
+}
+
+shock_charge_tier_2 = { # Bad
+	days = 3
+	sprite = 5 # Heavy Cavalry
+	group = shock_charge
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = knights
+			value >= 0.025
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		mounted_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		shock_charge_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 0.60
+	knights_defensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+
+	# Affinity
+	enemy = {
+		group = volley
+		factor = 0.40
+	}
+}
+
+shock_charge_tier_3 = { # Average
+	days = 3
+	sprite = 5 # Heavy Cavalry
+	group = shock_charge
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = knights
+			value >= 0.025
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		mounted_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		shock_charge_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 0.80
+
+	# Affinity
+	enemy = {
+		group = volley
+		factor = 0.60
+	}
+}
+
+shock_charge_tier_4 = { # Good
+	days = 3
+	sprite = 5 # Heavy Cavalry
+	group = shock_charge
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = knights
+			value >= 0.025
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		mounted_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		shock_charge_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 1.00
+	light_cavalry_offensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = 0.15
+	heavy_infantry_morale = 0.15
+	light_cavalry_morale = 0.15
+	horse_archers_morale = 0.15
+	camel_cavalry_morale = 0.15
+	war_elephants_morale = 0.15
+	pikemen_morale = 0.15
+	archers_morale = 0.15
+	knights_morale = 0.15
+
+	# Affinity
+	enemy = {
+		group = volley
+		factor = 0.80
+	}
+}
+
+shock_charge_tier_5 = { # Excellent
+	days = 3
+	sprite = 5 # Heavy Cavalry
+	group = shock_charge
+
+	trigger = {
+		phase = skirmish
+
+		troops = {
+			who = knights
+			value >= 0.025
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		mounted_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		shock_charge_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 1.20
+	light_cavalry_offensive = 0.40
+
+	# Seconday effects
+	light_infantry_morale = 0.30
+	heavy_infantry_morale = 0.30
+	light_cavalry_morale = 0.30
+	horse_archers_morale = 0.30
+	camel_cavalry_morale = 0.30
+	war_elephants_morale = 0.30
+	pikemen_morale = 0.30
+	archers_morale = 0.30
+	knights_morale = 0.30
+
+	# Affinity
+	enemy = {
+		group = volley
+		factor = 1.00
+	}
+}
+
+skirmish_charge_tier_1 = { # Very bad
+	days = 3
+	sprite = 1 # Light Infantry
+	group = skirmish_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		skirmish_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.10
+	light_infantry_defensive = -0.40
+	heavy_infantry_offensive = 0.10
+	heavy_infantry_defensive = -0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+}
+
+skirmish_charge_tier_2 = { # Bad
+	days = 3
+	sprite = 1 # Light Infantry
+	group = skirmish_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		light_troops_tier_2_factor = yes
+		heavy_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		skirmish_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.20
+	light_infantry_defensive = -0.20
+	heavy_infantry_offensive = 0.20
+	heavy_infantry_defensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+}
+
+skirmish_charge_tier_3 = { # Average
+	days = 3
+	sprite = 1 # Light Infantry
+	group = skirmish_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		light_troops_tier_3_factor = yes
+		heavy_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		skirmish_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.40
+	heavy_infantry_offensive = 0.40
+}
+
+skirmish_charge_tier_4 = { # Good
+	days = 3
+	sprite = 1 # Light Infantry
+	group = skirmish_charge
+
+	trigger = {
+		phase = skirmish
+		days = 9
+
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		light_troops_tier_4_factor = yes
+		heavy_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		skirmish_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.60
+	heavy_infantry_offensive = 0.60
+	light_cavalry_offensive = 0.15
+	camel_cavalry_offensive = 0.15
+	horse_archers_offensive = 0.15
+	knights_offensive = 0.15
+
+	# Seconday effects
+	light_infantry_morale = 0.15
+	heavy_infantry_morale = 0.15
+	light_cavalry_morale = 0.15
+	horse_archers_morale = 0.15
+	camel_cavalry_morale = 0.15
+	war_elephants_morale = 0.15
+	pikemen_morale = 0.15
+	archers_morale = 0.15
+	knights_morale = 0.15
+}
+
+skirmish_charge_tier_5 = { # Excellent
+	days = 3
+	sprite = 1 # Light Infantry
+	group = skirmish_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		light_troops_tier_5_factor = yes
+		heavy_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		skirmish_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.80
+	heavy_infantry_offensive = 0.80
+	light_cavalry_offensive = 0.30
+	camel_cavalry_offensive = 0.30
+	horse_archers_offensive = 0.30
+	knights_offensive = 0.30
+
+	# Seconday effects
+	light_infantry_morale = 0.30
+	heavy_infantry_morale = 0.30
+	light_cavalry_morale = 0.30
+	horse_archers_morale = 0.30
+	camel_cavalry_morale = 0.30
+	war_elephants_morale = 0.30
+	pikemen_morale = 0.30
+	archers_morale = 0.30
+	knights_morale = 0.30
+}
+
+cavalry_charge_tier_1 = { # Very bad
+	days = 3
+	sprite = 1 # Heavy Cavalry
+	group = cavalry_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = horse_archers
+				value >= 0.05
+			}
+			troops = {
+				who = knights
+				value >= 0.025
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		cavalry_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.10
+	light_infantry_defensive = -0.40
+	heavy_infantry_offensive = 0.10
+	heavy_infantry_defensive = -0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+
+	# Affinity
+	enemy = {
+		group = skirmish_charge
+		factor = 0.20
+	}
+}
+
+cavalry_charge_tier_2 = { # Bad
+	days = 3
+	sprite = 1 # Heavy Cavalry
+	group = cavalry_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = horse_archers
+				value >= 0.05
+			}
+			troops = {
+				who = knights
+				value >= 0.025
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		mounted_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		cavalry_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.20
+	light_infantry_defensive = -0.20
+	heavy_infantry_offensive = 0.20
+	heavy_infantry_defensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+
+	# Affinity
+	enemy = {
+		group = skirmish_charge
+		factor = 0.40
+	}
+}
+
+cavalry_charge_tier_3 = { # Average
+	days = 3
+	sprite = 1 # Heavy Cavalry
+	group = cavalry_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = horse_archers
+				value >= 0.05
+			}
+			troops = {
+				who = knights
+				value >= 0.025
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		mounted_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		cavalry_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.40
+	heavy_infantry_offensive = 0.40
+
+	# Affinity
+	enemy = {
+		group = skirmish_charge
+		factor = 0.60
+	}
+}
+
+cavalry_charge_tier_4 = { # Good
+	days = 3
+	sprite = 1 # Heavy Cavalry
+	group = cavalry_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = horse_archers
+				value >= 0.05
+			}
+			troops = {
+				who = knights
+				value >= 0.025
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		mounted_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		cavalry_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.60
+	heavy_infantry_offensive = 0.60
+	light_cavalry_offensive = 0.15
+	camel_cavalry_offensive = 0.15
+	horse_archers_offensive = 0.15
+	knights_offensive = 0.15
+
+	# Seconday effects
+	light_infantry_morale = 0.15
+	heavy_infantry_morale = 0.15
+	light_cavalry_morale = 0.15
+	horse_archers_morale = 0.15
+	camel_cavalry_morale = 0.15
+	war_elephants_morale = 0.15
+	pikemen_morale = 0.15
+	archers_morale = 0.15
+	knights_morale = 0.15
+
+	# Affinity
+	enemy = {
+		group = skirmish_charge
+		factor = 0.80
+	}
+}
+
+cavalry_charge_tier_5 = { # Excellent
+	days = 3
+	sprite = 1 # Heavy Cavalry
+	group = cavalry_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.05
+			}
+			troops = {
+				who = horse_archers
+				value >= 0.05
+			}
+			troops = {
+				who = knights
+				value >= 0.025
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		mounted_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		cavalry_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.80
+	heavy_infantry_offensive = 0.80
+	light_cavalry_offensive = 0.30
+	camel_cavalry_offensive = 0.30
+	horse_archers_offensive = 0.30
+	knights_offensive = 0.30
+
+	# Seconday effects
+	light_infantry_morale = 0.30
+	heavy_infantry_morale = 0.30
+	light_cavalry_morale = 0.30
+	horse_archers_morale = 0.30
+	camel_cavalry_morale = 0.30
+	war_elephants_morale = 0.30
+	pikemen_morale = 0.30
+	archers_morale = 0.30
+	knights_morale = 0.30
+
+	# Affinity
+	enemy = {
+		group = skirmish_charge
+		factor = 1.00
+	}
+}
+
+elephant_charge_tier_1 = { # Very bad
+	days = 3
+	sprite = 9 # War Elephant
+	group = elephant_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		location = {
+			NOR = {
+				terrain = woods
+				terrain = forest
+				terrain = jungle
+				terrain = marsh
+			}
+		}
+
+		troops = {
+			who = war_elephants
+			value >= 0.01
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		elephant_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	war_elephants_offensive = 0.30
+	war_elephants_defensive = -0.30
+	knights_defensive = -0.30
+	light_cavalry_defensive = -0.30
+	camel_cavalry_defensive = -0.30
+	horse_archers_defensive = -0.30
+
+	# Seconday effects
+	light_infantry_morale = -0.40
+	heavy_infantry_morale = -0.40
+	light_cavalry_morale = -0.40
+	horse_archers_morale = -0.40
+	camel_cavalry_morale = -0.40
+	war_elephants_morale = -0.40
+	pikemen_morale = -0.40
+	archers_morale = -0.40
+	knights_morale = -0.40
+
+	# Affinity
+	enemy = {
+		group = shock_charge
+		factor = 0.20
+	}
+	enemy = {
+		group = skirmish_charge
+		factor = 0.20
+	}
+	enemy = {
+		group = approach
+		factor = 0.20
+	}
+}
+
+elephant_charge_tier_2 = { # Bad
+	days = 3
+	sprite = 9 # War Elephant
+	group = elephant_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		location = {
+			NOR = {
+				terrain = woods
+				terrain = forest
+				terrain = jungle
+				terrain = marsh
+			}
+		}
+
+		troops = {
+			who = war_elephants
+			value >= 0.01
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		elephant_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		elephant_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	war_elephants_offensive = 0.60
+
+	# Seconday effects
+	light_infantry_morale = -0.20
+	heavy_infantry_morale = -0.20
+	light_cavalry_morale = -0.20
+	horse_archers_morale = -0.20
+	camel_cavalry_morale = -0.20
+	war_elephants_morale = -0.20
+	pikemen_morale = -0.20
+	archers_morale = -0.20
+	knights_morale = -0.20
+
+	# Affinity
+	enemy = {
+		group = shock_charge
+		factor = 0.40
+	}
+	enemy = {
+		group = skirmish_charge
+		factor = 0.40
+	}
+	enemy = {
+		group = approach
+		factor = 0.40
+	}
+}
+
+elephant_charge_tier_3 = { # Average
+	days = 3
+	sprite = 9 # War Elephant
+	group = elephant_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		location = {
+			NOR = {
+				terrain = woods
+				terrain = forest
+				terrain = jungle
+				terrain = marsh
+			}
+		}
+
+		troops = {
+			who = war_elephants
+			value >= 0.01
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		elephant_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		elephant_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	war_elephants_offensive = 0.90
+	knights_offensive = 0.30
+	light_cavalry_offensive = 0.30
+	camel_cavalry_offensive = 0.30
+	horse_archers_offensive = 0.30
+
+	# Affinity
+	enemy = {
+		group = shock_charge
+		factor = 0.60
+	}
+	enemy = {
+		group = skirmish_charge
+		factor = 0.60
+	}
+	enemy = {
+		group = approach
+		factor = 0.60
+	}
+}
+
+elephant_charge_tier_4 = { # Good
+	days = 3
+	sprite = 9 # War Elephant
+	group = elephant_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		location = {
+			NOR = {
+				terrain = woods
+				terrain = forest
+				terrain = jungle
+				terrain = marsh
+			}
+		}
+
+		troops = {
+			who = war_elephants
+			value >= 0.01
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		elephant_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		elephant_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	war_elephants_offensive = 1.20
+	knights_offensive = 0.70
+	light_cavalry_offensive = 0.70
+	camel_cavalry_offensive = 0.70
+	horse_archers_offensive = 0.70
+
+	# Seconday effects
+	light_infantry_morale = 0.20
+	heavy_infantry_morale = 0.20
+	light_cavalry_morale = 0.20
+	horse_archers_morale = 0.20
+	camel_cavalry_morale = 0.20
+	war_elephants_morale = 0.20
+	pikemen_morale = 0.20
+	archers_morale = 0.20
+	knights_morale = 0.20
+
+	# Affinity
+	enemy = {
+		group = shock_charge
+		factor = 0.80
+	}
+	enemy = {
+		group = skirmish_charge
+		factor = 0.80
+	}
+	enemy = {
+		group = approach
+		factor = 0.80
+	}
+}
+
+elephant_charge_tier_5 = { # Excellent
+	days = 3
+	sprite = 9 # War Elephant
+	group = elephant_charge
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		location = {
+			NOR = {
+				terrain = woods
+				terrain = forest
+				terrain = jungle
+				terrain = marsh
+			}
+		}
+
+		troops = {
+			who = war_elephants
+			value >= 0.01
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		elephant_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		elephant_charge_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	war_elephants_offensive = 1.50
+	knights_offensive = 1.00
+	light_cavalry_offensive = 1.00
+	camel_cavalry_offensive = 1.00
+	horse_archers_offensive = 1.00
+
+	# Seconday effects
+	light_infantry_morale = 0.40
+	heavy_infantry_morale = 0.40
+	light_cavalry_morale = 0.40
+	horse_archers_morale = 0.40
+	camel_cavalry_morale = 0.40
+	war_elephants_morale = 0.40
+	pikemen_morale = 0.40
+	archers_morale = 0.40
+	knights_morale = 0.40
+
+	# Affinity
+	enemy = {
+		group = shock_charge
+		factor = 1.00
+	}
+	enemy = {
+		group = skirmish_charge
+		factor = 1.00
+	}
+	enemy = {
+		group = approach
+		factor = 1.00
+	}
+}
+
+approach_tier_1 = { # Very bad
+	days = 6
+	sprite = 3 # Pikemen
+	group = approach
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		approach_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_defensive = -0.30
+	light_infantry_offensive = -0.40
+	heavy_infantry_defensive = -0.30
+	heavy_infantry_offensive = -0.40
+	pikemen_defensive = -0.30
+	pikemen_offensive = -0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.20
+	heavy_infantry_morale = -0.20
+	light_cavalry_morale = -0.20
+	horse_archers_morale = -0.20
+	camel_cavalry_morale = -0.20
+	war_elephants_morale = -0.20
+	pikemen_morale = -0.20
+	archers_morale = -0.20
+	knights_morale = -0.20
+
+	# Affinity
+	enemy = {
+		group = cavalry_charge
+		factor = 0.20
+	}
+}
+
+approach_tier_2 = { # Bad
+	days = 6
+	sprite = 3 # Pikemen
+	group = approach
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		light_troops_tier_2_factor = yes
+		heavy_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		approach_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_defensive = -0.15
+	light_infantry_offensive = -0.20
+	heavy_infantry_defensive = -0.15
+	heavy_infantry_offensive = -0.20
+	pikemen_defensive = -0.15
+	pikemen_offensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.10
+	heavy_infantry_morale = -0.10
+	light_cavalry_morale = -0.10
+	horse_archers_morale = -0.10
+	camel_cavalry_morale = -0.10
+	war_elephants_morale = -0.10
+	pikemen_morale = -0.10
+	archers_morale = -0.10
+	knights_morale = -0.10
+
+	# Affinity
+	enemy = {
+		group = cavalry_charge
+		factor = 0.40
+	}
+}
+
+approach_tier_3 = { # Average
+	days = 6
+	sprite = 3 # Pikemen
+	group = approach
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		light_troops_tier_3_factor = yes
+		heavy_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		approach_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_defensive = 0.15
+	heavy_infantry_defensive = 0.15
+	pikemen_defensive = 0.15
+
+	# Affinity
+	enemy = {
+		group = cavalry_charge
+		factor = 0.60
+	}
+}
+
+approach_tier_4 = { # Good
+	days = 6
+	sprite = 3 # Pikemen
+	group = approach
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		light_troops_tier_4_factor = yes
+		heavy_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		approach_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.20
+	light_infantry_defensive = 0.30
+	heavy_infantry_offensive = 0.20
+	heavy_infantry_defensive = 0.30
+	pikemen_offensive = 0.20
+	pikemen_defensive = 0.30
+
+	# Seconday effects
+	light_infantry_morale = 0.10
+	heavy_infantry_morale = 0.10
+	light_cavalry_morale = 0.10
+	horse_archers_morale = 0.10
+	camel_cavalry_morale = 0.10
+	war_elephants_morale = 0.10
+	pikemen_morale = 0.10
+	archers_morale = 0.10
+	knights_morale = 0.10
+
+	# Affinity
+	enemy = {
+		group = cavalry_charge
+		factor = 0.80
+	}
+}
+
+approach_tier_5 = { # Excellent
+	days = 6
+	sprite = 3 # Pikemen
+	group = approach
+
+	trigger = {
+		phase = skirmish
+		OR = {
+			days = 9
+			is_flanking = yes
+		}
+		OR = {
+			troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		light_troops_tier_5_factor = yes
+		heavy_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		approach_flank_composition_factor = yes
+		change_to_melee_selection_factor = yes
+	}
+
+	change_phase_to = melee
+
+	# Primary effects
+	light_infantry_offensive = 0.40
+	light_infantry_defensive = 0.60
+	heavy_infantry_offensive = 0.40
+	heavy_infantry_defensive = 0.60
+	pikemen_offensive = 0.40
+	pikemen_defensive = 0.60
+
+	# Seconday effects
+	light_infantry_morale = 0.20
+	heavy_infantry_morale = 0.20
+	light_cavalry_morale = 0.20
+	horse_archers_morale = 0.20
+	camel_cavalry_morale = 0.20
+	war_elephants_morale = 0.20
+	pikemen_morale = 0.20
+	archers_morale = 0.20
+	knights_morale = 0.20
+
+	# Affinity
+	enemy = {
+		group = cavalry_charge
+		factor = 1.00
+	}
+}
+
+##################################################################################################################
+#
+#	Melee tactics
+#
+##################################################################################################################
+
+shieldwall_tier_1 = { # Very bad
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = shieldwall
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		shieldwall_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_defensive = -0.40
+	heavy_infantry_defensive = -0.40
+	heavy_infantry_offensive = -0.20
+	pikemen_defensive = -0.40
+	pikemen_offensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.20
+	heavy_infantry_morale = -0.20
+	light_cavalry_morale = -0.20
+	horse_archers_morale = -0.20
+	camel_cavalry_morale = -0.20
+	war_elephants_morale = -0.20
+	pikemen_morale = -0.20
+	archers_morale = -0.20
+	knights_morale = -0.20
+}
+
+shieldwall_tier_2 = { # Bad
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = shieldwall
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		heavy_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		shieldwall_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_defensive = -0.20
+	heavy_infantry_defensive = -0.10
+	pikemen_defensive = -0.10
+
+	# Seconday effects
+	light_infantry_morale = -0.10
+	heavy_infantry_morale = -0.10
+	light_cavalry_morale = -0.10
+	horse_archers_morale = -0.10
+	camel_cavalry_morale = -0.10
+	war_elephants_morale = -0.10
+	pikemen_morale = -0.10
+	archers_morale = -0.10
+	knights_morale = -0.10
+}
+
+shieldwall_tier_3 = { # Average
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = shieldwall
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		heavy_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		shieldwall_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_defensive = 0.30
+	heavy_infantry_offensive = 0.20
+	heavy_infantry_defensive = 0.30
+	pikemen_defensive = 0.10
+	archers_defensive = 0.10
+}
+
+shieldwall_tier_4 = { # Good
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = shieldwall
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		heavy_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		shieldwall_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_defensive = 0.60
+	heavy_infantry_offensive = 0.40
+	heavy_infantry_defensive = 0.60
+	pikemen_offensive = 0.20
+	pikemen_defensive = 0.30
+	archers_defensive = 0.40
+
+	# Seconday effects
+	light_infantry_morale = 0.10
+	heavy_infantry_morale = 0.10
+	light_cavalry_morale = 0.10
+	horse_archers_morale = 0.10
+	camel_cavalry_morale = 0.10
+	war_elephants_morale = 0.10
+	pikemen_morale = 0.10
+	archers_morale = 0.10
+	knights_morale = 0.10
+}
+
+shieldwall_tier_5 = { # Excellent
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = shieldwall
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.05
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		heavy_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		shieldwall_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_defensive = 0.80
+	heavy_infantry_offensive = 0.60
+	heavy_infantry_defensive = 0.80
+	pikemen_offensive = 0.40
+	pikemen_defensive = 0.60
+	archers_defensive = 0.80
+
+	# Seconday effects
+	light_infantry_morale = 0.20
+	heavy_infantry_morale = 0.20
+	light_cavalry_morale = 0.20
+	horse_archers_morale = 0.20
+	camel_cavalry_morale = 0.20
+	war_elephants_morale = 0.20
+	pikemen_morale = 0.20
+	archers_morale = 0.20
+	knights_morale = 0.20
+}
+
+advance_tier_1 = { # Very bad
+	days = 6
+	sprite = 3 # Pikemen
+	group = advance
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		advance_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_defensive = -0.40
+	light_infantry_offensive = -0.20
+	heavy_infantry_defensive = -0.40
+	heavy_infantry_offensive = -0.20
+	pikemen_defensive = -0.40
+	pikemen_offensive = -0.20
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+}
+
+advance_tier_2 = { # Bad
+	days = 6
+	sprite = 3 # Pikemen
+	group = advance
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		heavy_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		advance_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	light_infantry_defensive = -0.20
+	heavy_infantry_defensive = -0.10
+	pikemen_defensive = -0.10
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+}
+
+advance_tier_3 = { # Average
+	days = 6
+	sprite = 3 # Pikemen
+	group = advance
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		heavy_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		advance_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	pikemen_offensive = 0.40
+	heavy_infantry_offensive = 0.20
+	light_infantry_offensive = 0.20
+	archers_offensive = 0.20
+}
+
+advance_tier_4 = { # Good
+	days = 6
+	sprite = 3 # Pikemen
+	group = advance
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		heavy_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		advance_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	pikemen_offensive = 0.60
+	pikemen_defensive = 0.30
+	heavy_infantry_offensive = 0.40
+	heavy_infantry_defensive = 0.20
+	light_infantry_offensive = 0.40
+	light_infantry_defensive = 0.20
+	archers_offensive = 0.40
+	archers_defensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = 0.15
+	heavy_infantry_morale = 0.15
+	light_cavalry_morale = 0.15
+	horse_archers_morale = 0.15
+	camel_cavalry_morale = 0.15
+	war_elephants_morale = 0.15
+	pikemen_morale = 0.15
+	archers_morale = 0.15
+	knights_morale = 0.15
+}
+
+advance_tier_5 = { # Excellent
+	days = 6
+	sprite = 3 # Pikemen
+	group = advance
+
+	trigger = {
+		phase = melee
+
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.05
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		heavy_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		advance_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	pikemen_offensive = 1.00
+	pikemen_defensive = 0.50
+	heavy_infantry_offensive = 0.60
+	heavy_infantry_defensive = 0.30
+	light_infantry_offensive = 0.60
+	light_infantry_defensive = 0.30
+	archers_offensive = 0.60
+	archers_defensive = 0.30
+
+	# Seconday effects
+	light_infantry_morale = 0.30
+	heavy_infantry_morale = 0.30
+	light_cavalry_morale = 0.30
+	horse_archers_morale = 0.30
+	camel_cavalry_morale = 0.30
+	war_elephants_morale = 0.30
+	pikemen_morale = 0.30
+	archers_morale = 0.30
+	knights_morale = 0.30
+}
+
+ambush_tier_1 = { # Very bad
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = ambush
+
+	trigger = {
+		phase = melee
+
+		location = {
+			NOR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		ambush_selection_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = -0.20
+	heavy_infantry_offensive = -0.40
+	light_infantry_defensive = -0.30
+	light_infantry_offensive = -0.60
+	light_cavalry_defensive = -0.30
+	light_cavalry_offensive = -0.60
+	camel_cavalry_defensive = -0.30
+	camel_cavalry_offensive = -0.60
+	horse_archers_defensive = -0.30
+	horse_archers_offensive = -0.60
+	war_elephants_defensive = -0.30
+	war_elephants_offensive = -0.60
+	pikemen_defensive = -0.30
+	pikemen_offensive = -0.60
+	archers_defensive = -0.30
+	archers_offensive = -0.60
+	knights_defensive = -0.30
+	knights_offensive = -0.60
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+}
+
+ambush_tier_2 = { # Bad
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = ambush
+
+	trigger = {
+		phase = melee
+
+		location = {
+			NOR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		heavy_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		ambush_selection_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = 0.20
+	heavy_infantry_offensive = -0.20
+	light_infantry_defensive = -0.20
+	light_infantry_offensive = -0.40
+	light_cavalry_defensive = -0.20
+	light_cavalry_offensive = -0.40
+	camel_cavalry_defensive = -0.20
+	camel_cavalry_offensive = -0.40
+	horse_archers_defensive = -0.20
+	horse_archers_offensive = -0.40
+	war_elephants_defensive = -0.20
+	war_elephants_offensive = -0.40
+	pikemen_defensive = -0.20
+	pikemen_offensive = -0.40
+	archers_defensive = -0.20
+	archers_offensive = -0.40
+	knights_defensive = -0.20
+	knights_offensive = -0.40
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+}
+
+ambush_tier_3 = { # Average
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = ambush
+
+	trigger = {
+		phase = melee
+
+		location = {
+			NOR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		heavy_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		ambush_selection_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = 0.40
+	heavy_infantry_offensive = 0.20
+	light_infantry_defensive = 0.20
+	light_cavalry_defensive = 0.20
+	camel_cavalry_defensive = 0.20
+	horse_archers_defensive = 0.20
+	war_elephants_defensive = 0.20
+	pikemen_defensive = 0.20
+	archers_defensive = 0.20
+	knights_defensive = 0.20
+}
+
+ambush_tier_4 = { # Good
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = ambush
+
+	trigger = {
+		phase = melee
+
+		location = {
+			NOR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		heavy_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		ambush_selection_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = 0.60
+	heavy_infantry_offensive = 0.30
+	light_infantry_defensive = 0.40
+	light_infantry_offensive = 0.20
+	light_cavalry_defensive = 0.40
+	light_cavalry_offensive = 0.20
+	camel_cavalry_defensive = 0.40
+	camel_cavalry_offensive = 0.20
+	horse_archers_defensive = 0.40
+	horse_archers_offensive = 0.20
+	war_elephants_defensive = 0.40
+	war_elephants_offensive = 0.20
+	pikemen_defensive = 0.40
+	pikemen_offensive = 0.20
+	archers_defensive = 0.40
+	archers_offensive = 0.20
+	knights_defensive = 0.40
+	knights_offensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = 0.20
+	heavy_infantry_morale = 0.20
+	light_cavalry_morale = 0.20
+	horse_archers_morale = 0.20
+	camel_cavalry_morale = 0.20
+	war_elephants_morale = 0.20
+	pikemen_morale = 0.20
+	archers_morale = 0.20
+	knights_morale = 0.20
+}
+
+ambush_tier_5 = { # Excellent
+	days = 6
+	sprite = 2 # Heavy Infantry
+	group = ambush
+
+	trigger = {
+		phase = melee
+
+		location = {
+			NOR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+
+		# Tactic group selection
+		defensive_tactic_factor = yes
+		ambush_selection_factor = yes
+	}
+
+	# Primary effects
+	heavy_infantry_defensive = 0.80
+	heavy_infantry_offensive = 0.40
+	light_infantry_defensive = 0.60
+	light_infantry_offensive = 0.30
+	light_cavalry_defensive = 0.60
+	light_cavalry_offensive = 0.30
+	camel_cavalry_defensive = 0.60
+	camel_cavalry_offensive = 0.30
+	horse_archers_defensive = 0.60
+	horse_archers_offensive = 0.30
+	war_elephants_defensive = 0.60
+	war_elephants_offensive = 0.30
+	pikemen_defensive = 0.60
+	pikemen_offensive = 0.30
+	archers_defensive = 0.60
+	archers_offensive = 0.30
+	knights_defensive = 0.60
+	knights_offensive = 0.30
+
+	# Seconday effects
+	light_infantry_morale = 0.40
+	heavy_infantry_morale = 0.40
+	light_cavalry_morale = 0.40
+	horse_archers_morale = 0.40
+	camel_cavalry_morale = 0.40
+	war_elephants_morale = 0.40
+	pikemen_morale = 0.40
+	archers_morale = 0.40
+	knights_morale = 0.40
+}
+
+hammer_and_anvil_tier_1 = { # Very bad
+	days = 6
+	sprite = 5 # Heavy Cavalry
+	group = hammer_and_anvil
+
+	trigger = {
+		phase = melee
+		is_flanking = yes
+
+		location = {
+			NOR = {
+				terrain = mountain
+				terrain = marsh
+			}
+		}
+
+		OR = {
+			troops = {
+				who = knights
+				value >= 0.05
+			}
+			troops = {
+				who = light_cavalry
+				value >= 0.10
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.10
+			}
+		}
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 16
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		hammer_and_anvil_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_defensive = -0.30
+	light_cavalry_defensive = -0.30
+	camel_cavalry_defensive = -0.30
+	heavy_infantry_defensive = -0.50
+	heavy_infantry_offensive = -0.30
+	pikemen_defensive = -0.50
+	pikemen_offensive = -0.30
+
+	# Seconday effects
+	light_infantry_morale = -0.30
+	heavy_infantry_morale = -0.30
+	light_cavalry_morale = -0.30
+	horse_archers_morale = -0.30
+	camel_cavalry_morale = -0.30
+	war_elephants_morale = -0.30
+	pikemen_morale = -0.30
+	archers_morale = -0.30
+	knights_morale = -0.30
+
+	# Affinity
+	enemy = {
+		group = shieldwall
+		factor = -0.20
+	}
+	enemy = {
+		group = advance
+		factor = -0.20
+	}
+}
+
+hammer_and_anvil_tier_2 = { # Bad
+	days = 6
+	sprite = 5 # Heavy Cavalry
+	group = hammer_and_anvil
+
+	trigger = {
+		phase = melee
+		is_flanking = yes
+
+		location = {
+			NOR = {
+				terrain = mountain
+				terrain = marsh
+			}
+		}
+
+		OR = {
+			troops = {
+				who = knights
+				value >= 0.05
+			}
+			troops = {
+				who = light_cavalry
+				value >= 0.10
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.10
+			}
+		}
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8
+
+		# Tactic quality selection
+		martial_tier_2_factor = yes
+		traits_tier_2_factor = yes
+		heavy_troops_tier_2_factor = yes
+		mounted_troops_tier_2_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		hammer_and_anvil_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 0.30
+	light_cavalry_offensive = 0.30
+	camel_cavalry_offensive = 0.30
+	heavy_infantry_defensive = -0.30
+	pikemen_defensive = -0.30
+
+	# Seconday effects
+	light_infantry_morale = -0.15
+	heavy_infantry_morale = -0.15
+	light_cavalry_morale = -0.15
+	horse_archers_morale = -0.15
+	camel_cavalry_morale = -0.15
+	war_elephants_morale = -0.15
+	pikemen_morale = -0.15
+	archers_morale = -0.15
+	knights_morale = -0.15
+
+	# Affinity
+	enemy = {
+		group = shieldwall
+		factor = 0.10
+	}
+	enemy = {
+		group = advance
+		factor = 0.10
+	}
+}
+
+hammer_and_anvil_tier_3 = { # Average
+	days = 6
+	sprite = 5 # Heavy Cavalry
+	group = hammer_and_anvil
+
+	trigger = {
+		phase = melee
+		is_flanking = yes
+
+		location = {
+			NOR = {
+				terrain = mountain
+				terrain = marsh
+			}
+		}
+
+		OR = {
+			troops = {
+				who = knights
+				value >= 0.05
+			}
+			troops = {
+				who = light_cavalry
+				value >= 0.10
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.10
+			}
+		}
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+
+		# Tactic quality selection
+		martial_tier_3_factor = yes
+		traits_tier_3_factor = yes
+		heavy_troops_tier_3_factor = yes
+		mounted_troops_tier_3_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		hammer_and_anvil_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 0.60
+	light_cavalry_offensive = 0.60
+	camel_cavalry_offensive = 0.60
+
+	# Affinity
+	enemy = {
+		group = shieldwall
+		factor = 0.40
+	}
+	enemy = {
+		group = advance
+		factor = 0.40
+	}
+}
+
+hammer_and_anvil_tier_4 = { # Good
+	days = 6
+	sprite = 5 # Heavy Cavalry
+	group = hammer_and_anvil
+
+	trigger = {
+		phase = melee
+		is_flanking = yes
+
+		location = {
+			NOR = {
+				terrain = mountain
+				terrain = marsh
+			}
+		}
+
+		OR = {
+			troops = {
+				who = knights
+				value >= 0.05
+			}
+			troops = {
+				who = light_cavalry
+				value >= 0.15
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.15
+			}
+		}
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.15
+			}
+			troops = {
+				who = pikemen
+				value >= 0.15
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+
+		# Tactic quality selection
+		martial_tier_4_factor = yes
+		traits_tier_4_factor = yes
+		heavy_troops_tier_4_factor = yes
+		mounted_troops_tier_4_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		hammer_and_anvil_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 1.00
+	light_cavalry_offensive = 1.00
+	camel_cavalry_offensive = 1.00
+	heavy_infantry_defensive = 0.20
+	pikemen_defensive = 0.20
+
+	# Seconday effects
+	light_infantry_morale = 0.15
+	heavy_infantry_morale = 0.15
+	light_cavalry_morale = 0.15
+	horse_archers_morale = 0.15
+	camel_cavalry_morale = 0.15
+	war_elephants_morale = 0.15
+	pikemen_morale = 0.15
+	archers_morale = 0.15
+	knights_morale = 0.15
+
+	# Affinity
+	enemy = {
+		group = shieldwall
+		factor = 0.70
+	}
+	enemy = {
+		group = advance
+		factor = 0.70
+	}
+}
+
+hammer_and_anvil_tier_5 = { # Excellent
+	days = 6
+	sprite = 5 # Heavy Cavalry
+	group = hammer_and_anvil
+
+	trigger = {
+		phase = melee
+		is_flanking = yes
+
+		location = {
+			NOR = {
+				terrain = mountain
+				terrain = marsh
+			}
+		}
+
+		OR = {
+			troops = {
+				who = knights
+				value >= 0.05
+			}
+			troops = {
+				who = light_cavalry
+				value >= 0.10
+			}
+			troops = {
+				who = camel_cavalry
+				value >= 0.10
+			}
+		}
+		OR = {
+			troops = {
+				who = heavy_infantry
+				value >= 0.10
+			}
+			troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+		# Tactic quality selection
+		martial_tier_5_factor = yes
+		traits_tier_5_factor = yes
+		heavy_troops_tier_5_factor = yes
+		mounted_troops_tier_5_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		hammer_and_anvil_flank_composition_factor = yes
+	}
+
+	# Primary effects
+	knights_offensive = 1.50
+	light_cavalry_offensive = 1.50
+	camel_cavalry_offensive = 1.50
+	heavy_infantry_defensive = 0.50
+	pikemen_defensive = 0.50
+
+	# Seconday effects
+	light_infantry_morale = 0.30
+	heavy_infantry_morale = 0.30
+	light_cavalry_morale = 0.30
+	horse_archers_morale = 0.30
+	camel_cavalry_morale = 0.30
+	war_elephants_morale = 0.30
+	pikemen_morale = 0.30
+	archers_morale = 0.30
+	knights_morale = 0.30
+
+	# Affinity
+	enemy = {
+		group = shieldwall
+		factor = 1.00
+	}
+	enemy = {
+		group = advance
+		factor = 1.00
+	}
+}
+
+##################################################################################################################
+#
+#	Siege offensive tactics
+#
+##################################################################################################################
+
+# Must be first "siege = attacker"
+no_siege_offense_tactic = {
+	days = 1
+	sprite = 1 # Light Infantry
+
+	siege = attacker
+
+	trigger = {
+		always = no # Never use unless set explicitly by code
+	}
+}
+
+default_siege_offense_tactic = {
+	days = 5
+	sprite = 2 # Heavy Infantry
+
+	siege = attacker
+
+	trigger = {
+		always = yes
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+}
+
+##################################################################################################################
+#
+#	Siege defensive tactics
+#
+##################################################################################################################
+
+# Must be first "siege = defender"
+no_siege_defense_tactic = {
+	days = 1
+	sprite = 1 # Light Infantry
+
+	siege = defender
+
+	trigger = {
+		always = no # Never use unless set explicitly by code
+	}
+}
+
+default_siege_defense_tactic = {
+	days = 5
+	sprite = 2 # Heavy Infantry
+
+	siege = defender
+
+	trigger = {
+		always = yes
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+}
+
+##################################################################################################################
+#
+#	Combat MTTH definitions (do not remove)
+#
+##################################################################################################################
+
+flank_retreat_odds = {
+	# MTTH range is 0-100, if flank morale is below MTTH, flank will retreat
+	mean_time_to_happen = {
+		days = 20
+
+		mult_modifier = {
+			factor = 0.5
+			leader = {
+				OR = {
+					trait = unyielding_leader
+					trait = stubborn
+				}
+			}
+		}
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = craven }
+		}
+	}
+}
+
+flank_pursue_odds = {
+	# MTTH range is 0-100, chance (in %) of pursuing a fleeing flank
+	mean_time_to_happen = {
+		days = 25
+
+		mult_modifier = {
+			factor = 2
+			leader = {
+				OR = {
+					trait = wroth
+					trait = hunter
+					trait = aggressive_leader
+				}
+			}
+		}
+		mult_modifier = {
+			factor = 0.6
+			leader = {
+				OR = {
+					trait = patient
+					trait = strategist
+					trait = defensive_leader
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,70 @@
+##################################################################
+#
+#	Each tactic's sprite shows the unit receiving the biggest bonus
+#
+#	combat_tactic_strip.dds
+#	 1 = Light Infantry
+#	 2 = Heavy Infantry
+#	 3 = Pikemen
+#	 4 = Light Cavalry
+#	 5 = Heavy Cavalry
+#	 6 = Archers
+#	 7 = Horse Archers
+#	 8 = Ships
+#	 9 = War Elephants
+#	10 = Camel Cavalry
+#	11 = ?
+#
+##################################################################
+
+tactic_name = { 					# Tactic name, localised
+	days = 6 						# In-game duration
+
+	sprite = 4 						# Appropriate unit sprite, see above
+
+	group = skirmish 				# Used to define affinity bonus
+
+	trigger = {						# Contains list of requirements for this tactic to
+									# be added to the pool of available tactics
+
+		phase = skirmish 			# Required combat phase
+
+		flank_has_leader = yes		# Restrict to flanks with or without a commander
+
+		light_cavalry >= 0.1 		# At least 10% of flank must be this troop type
+
+		troops = { 					# Above also includes special troops based
+			who = light_cavalry		# on light cavalry (horse archers,
+			value <= 0.1				# camel cavalry, see 00_special_troops.txt)
+		}							# This nested check is troop-type specific
+	}
+
+	mean_time_to_happen = {			# Likelihood of being selected
+		days = 10					# Base weight for selection
+
+		additive_modifier = {		# Additive modifiers are added first
+			value = 3				# Added to base weight
+
+			triggers				# Requirements to use above factor
+		}
+
+		mult_modifier = {			# Multiplicative modifiers are used afterwards
+			factor = 1.5			# Tactic's weight is multiplied by this,
+									# can be zero to eliminate tactic
+			triggers				# Requirements to use above factor
+		}
+	}
+
+	light_infantry_morale = 0.2		# 20% morale increase
+	knights_defensive = -0.1		# 10% defense decrease
+	horse_archers_offensive = 1.0	# 100% attack increase
+
+	enemy = {						# Define affinity, more than one is possible
+		group = swarm				# Against this group of tactics
+		factor = 0.5				# 50% bonus
+	}
+}
+
+ROOT is own combat flank
+'enemy' scopes to enemy combat flank, available from own combat flank scope
+'leader' scopes to leader of currently scoped flank

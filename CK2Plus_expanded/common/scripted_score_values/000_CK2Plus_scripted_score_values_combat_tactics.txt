@@ -1,0 +1,7335 @@
+##################################################################
+#
+#	CK2Plus Scripted Score Values used in Combat Tactics
+#
+##################################################################
+#
+#	Starting scope is 'combat' (one of three flanks in battle)
+#
+##################################################################
+
+##################################################################
+#
+#	INDEX
+#
+#	martial_tier_2_factor
+#	martial_tier_3_factor
+#	martial_tier_4_factor
+#	martial_tier_5_factor
+#
+#	traits_tier_2_factor
+#	traits_tier_3_factor
+#	traits_tier_4_factor
+#	traits_tier_5_factor
+#
+#	light_troops_tier_2_factor
+#	light_troops_tier_3_factor
+#	light_troops_tier_4_factor
+#	light_troops_tier_5_factor
+#
+#	heavy_troops_tier_2_factor
+#	heavy_troops_tier_3_factor
+#	heavy_troops_tier_4_factor
+#	heavy_troops_tier_5_factor
+#
+#	mounted_troops_tier_2_factor
+#	mounted_troops_tier_3_factor
+#	mounted_troops_tier_4_factor
+#	mounted_troops_tier_5_factor
+#
+#	elephants_troops_tier_2_factor
+#	elephants_troops_tier_3_factor
+#	elephants_troops_tier_4_factor
+#	elephants_troops_tier_5_factor
+#
+#	offensive_tactic_factor
+#	defensive_tactic_factor
+#
+#	volley_flank_composition_factor
+#	swarm_flank_composition_factor
+#	harass_flank_composition_factor
+#	raid_flank_composition_factor
+#	feint_selection_factor
+#	shock_charge_flank_composition_factor
+#	skirmish_charge_flank_composition_factor
+#	elephant_charge_flank_composition_factor
+#	approach_flank_composition_factor
+#
+#	shieldwall_flank_composition_factor
+#	advance_flank_composition_factor
+#	ambush_selection_factor
+#	hammer_and_anvil_flank_composition_factor
+#	single_envelopment_flank_composition_factor
+#
+##################################################################
+
+##################################################################
+#
+#	Quality selection factors
+#
+##################################################################
+
+# Martial modifiers for tactics
+martial_tier_2_factor = {
+	# Martial <= 25
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 1 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 2 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 3 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 4 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 5 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 6 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 7 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 8 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 9 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 10 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 11 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 12 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 13 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 14 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 15 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 16 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 17 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 18 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 19 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 20 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 21 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 22 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 23 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 24 }
+	}
+	mult_modifier = {
+		factor = 1.05
+		leader = { martial >= 25 }
+	}
+
+	# Martial > 25
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 26 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 27 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 28 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 29 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 30 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 31 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 32 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 33 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 34 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 35 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 36 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 37 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 38 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 39 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 40 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 41 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 42 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 43 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 44 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 45 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 46 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 47 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 48 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 49 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 50 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 51 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 52 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 53 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 54 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 55 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 56 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 57 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 58 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 59 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 60 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 61 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 62 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 63 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 64 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 65 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 66 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 67 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 68 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 69 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 70 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 71 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 72 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 73 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 74 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 75 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 76 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 77 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 78 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 79 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 80 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 81 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 82 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 83 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 84 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 85 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 86 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 87 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 88 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 89 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 90 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 91 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 92 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 93 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 94 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 95 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 96 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 97 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 98 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 99 }
+	}
+	mult_modifier = {
+		factor = 1.01
+		leader = { martial >= 100 }
+	}
+}
+
+martial_tier_3_factor = {
+	# Martial <= 25
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 1 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 2 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 3 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 4 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 5 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 6 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 7 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 8 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 9 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 10 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 11 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 12 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 13 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 14 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 15 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 16 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 17 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 18 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 19 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 20 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 21 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 22 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 23 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 24 }
+	}
+	mult_modifier = {
+		factor = 1.10
+		leader = { martial >= 25 }
+	}
+
+	# Martial > 25
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 26 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 27 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 28 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 29 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 30 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 31 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 32 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 33 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 34 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 35 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 36 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 37 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 38 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 39 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 40 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 41 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 42 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 43 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 44 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 45 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 46 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 47 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 48 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 49 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 50 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 51 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 52 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 53 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 54 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 55 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 56 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 57 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 58 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 59 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 60 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 61 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 62 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 63 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 64 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 65 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 66 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 67 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 68 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 69 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 70 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 71 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 72 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 73 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 74 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 75 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 76 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 77 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 78 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 79 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 80 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 81 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 82 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 83 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 84 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 85 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 86 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 87 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 88 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 89 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 90 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 91 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 92 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 93 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 94 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 95 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 96 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 97 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 98 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 99 }
+	}
+	mult_modifier = {
+		factor = 1.02
+		leader = { martial >= 100 }
+	}
+}
+
+martial_tier_4_factor = {
+	# Martial <= 25
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 1 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 2 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 3 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 4 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 5 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 6 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 7 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 8 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 9 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 10 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 11 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 12 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 13 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 14 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 15 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 16 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 17 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 18 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 19 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 20 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 21 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 22 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 23 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 24 }
+	}
+	mult_modifier = {
+		factor = 1.15
+		leader = { martial >= 25 }
+	}
+
+	# Martial > 25
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 26 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 27 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 28 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 29 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 30 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 31 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 32 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 33 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 34 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 35 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 36 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 37 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 38 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 39 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 40 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 41 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 42 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 43 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 44 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 45 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 46 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 47 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 48 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 49 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 50 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 51 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 52 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 53 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 54 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 55 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 56 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 57 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 58 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 59 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 60 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 61 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 62 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 63 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 64 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 65 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 66 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 67 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 68 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 69 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 70 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 71 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 72 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 73 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 74 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 75 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 76 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 77 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 78 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 79 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 80 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 81 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 82 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 83 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 84 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 85 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 86 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 87 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 88 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 89 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 90 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 91 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 92 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 93 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 94 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 95 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 96 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 97 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 98 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 99 }
+	}
+	mult_modifier = {
+		factor = 1.03
+		leader = { martial >= 100 }
+	}
+}
+
+martial_tier_5_factor = {
+	# Martial <= 25
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 1 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 2 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 3 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 4 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 5 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 6 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 7 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 8 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 9 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 10 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 11 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 12 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 13 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 14 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 15 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 16 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 17 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 18 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 19 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 20 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 21 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 22 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 23 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 24 }
+	}
+	mult_modifier = {
+		factor = 1.20
+		leader = { martial >= 25 }
+	}
+
+	# Martial > 25
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 26 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 27 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 28 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 29 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 30 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 31 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 32 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 33 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 34 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 35 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 36 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 37 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 38 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 39 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 40 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 41 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 42 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 43 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 44 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 45 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 46 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 47 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 48 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 49 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 50 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 51 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 52 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 53 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 54 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 55 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 56 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 57 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 58 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 59 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 60 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 61 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 62 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 63 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 64 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 65 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 66 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 67 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 68 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 69 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 70 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 71 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 72 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 73 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 74 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 75 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 76 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 77 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 78 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 79 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 80 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 81 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 82 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 83 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 84 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 85 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 86 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 87 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 88 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 89 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 90 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 91 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 92 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 93 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 94 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 95 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 96 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 97 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 98 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 99 }
+	}
+	mult_modifier = {
+		factor = 1.04
+		leader = { martial >= 100 }
+	}
+}
+
+# Trait modifiers for tactics
+traits_tier_2_factor = {
+	# Terrain traits
+	mult_modifier = {
+		factor = 1.33 # roughly 6 martial
+		location = {
+			OR = {
+				is_winter = yes
+				terrain = arctic
+			}
+		}
+		leader = {
+			OR = {
+				trait = winter_soldier
+				trait = finnish_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+		leader = {
+			OR = {
+				trait = flat_terrain_leader
+				trait = tengri_leader
+				trait = slavic_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = forest
+				terrain = woods
+				terrain = marsh
+			}
+		}
+		leader = {
+			OR = {
+				trait = rough_terrain_leader
+				trait = sapper # Way of the Leopard
+				trait = baltic_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = hills
+				terrain = mountain
+				terrain = impassable_mountains
+			}
+		}
+		leader = {
+			OR = {
+				trait = mountain_terrain_leader
+				trait = bon_leader
+				trait = zun_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = desert
+				terrain = coastal_desert
+			}
+		}
+		leader = { trait = desert_terrain_leader }
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		location = { terrain = jungle }
+		leader = { trait = jungle_terrain_leader }
+	}
+
+	# Education traits
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		leader = { trait = brilliant_strategist }
+	}
+	mult_modifier = {
+		factor = 1.15 # roughly 3 martial
+		leader = { trait = skilled_tactician }
+	}
+	mult_modifier = {
+		factor = 1.1 # roughly 2 martial
+		leader = { trait = tough_soldier }
+	}
+	mult_modifier = {
+		factor = 1.05 # roughly 1 martial
+		leader = {	trait = misguided_warrior }
+	}
+
+	# Other military traits
+	mult_modifier = {
+		factor = 1.33 # roughly 6 martial
+		leader = { trait = holy_warrior }
+		enemy = { # Enemy flank
+			leader = { # Enemy commander
+				OR = {
+					# ROOT is own combat flank
+					# PREVPREV is enemy commander
+					ROOT = { # These consider everyone their religious enemy
+						leader = {
+							OR = {
+								religion_group = zoroastrian_group
+								religion_group = jewish_group
+								AND = { # But pagans must not be cosmopolitan
+									religion_group = pagan_group
+									NOT = {
+										has_religion_feature = religion_cosmopolitan
+									}
+								}
+							}
+							NOT = { # Anyone with a different religion
+								religion = PREVPREV
+							}
+						}
+					}
+					ROOT = { # Christians only fight heresies of own branch
+						leader = {
+							religion_group = christian
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+					}
+					ROOT = { # Muslims also fight non-heretic Muslims
+						leader = {
+							religion_group = muslim
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOR = { # Non-heretics of different branches
+									is_heretic = yes
+									PREVPREV = { is_heretic = yes }
+									religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+					}
+					ROOT = { # Dharmans avoid religious infighting
+						leader = {
+							religion_group = indian_group
+							NOR = { # Pacifist
+								religion = taoist
+								religion = jain
+							}
+							OR = {
+								NOT = { # Anyone outside own religious group
+									religion_group = PREVPREV
+								}
+								PREVPREV = { # Following regular Holy War CB
+									religion = taoist
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	# Flanking
+	mult_modifier = { # Non-functional
+		factor = 1.2
+		leader = {
+			center_flank_leader = {
+				character = PREV
+			}
+			OR = {
+				trait = experimenter # Direct Leader
+				trait = logistics_expert # Way of the Dog
+			}
+		}
+	}
+	mult_modifier = { # Non-functional
+		factor = 1.2
+		leader = {
+			OR = {
+				center_flank_leader = {
+					NOT = { character = PREV }
+				}
+				ROOT = { is_flanking = yes }
+			}
+			OR = {
+				trait = flanker
+				trait = levy_coordinator # Way of the Tiger
+				trait = baltic_leader
+				trait = gamer
+			}
+		}
+	}
+}
+
+traits_tier_3_factor = {
+	# Terrain traits
+	mult_modifier = {
+		factor = 1.75 # roughly 6 martial
+		location = {
+			OR = {
+				is_winter = yes
+				terrain = arctic
+			}
+		}
+		leader = {
+			OR = {
+				trait = winter_soldier
+				trait = finnish_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+		leader = {
+			OR = {
+				trait = flat_terrain_leader
+				trait = tengri_leader
+				trait = slavic_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = forest
+				terrain = woods
+				terrain = marsh
+			}
+		}
+		leader = {
+			OR = {
+				trait = rough_terrain_leader
+				trait = sapper # Way of the Leopard
+				trait = baltic_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = hills
+				terrain = mountain
+				terrain = impassable_mountains
+			}
+		}
+		leader = {
+			OR = {
+				trait = mountain_terrain_leader
+				trait = bon_leader
+				trait = zun_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = desert
+				terrain = coastal_desert
+			}
+		}
+		leader = { trait = desert_terrain_leader }
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		location = { terrain = jungle }
+		leader = { trait = jungle_terrain_leader }
+	}
+
+	# Education traits
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		leader = { trait = brilliant_strategist }
+	}
+	mult_modifier = {
+		factor = 1.33 # roughly 3 martial
+		leader = { trait = skilled_tactician }
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 2 martial
+		leader = { trait = tough_soldier }
+	}
+	mult_modifier = {
+		factor = 1.1 # roughly 1 martial
+		leader = {	trait = misguided_warrior }
+	}
+
+	# Other military traits
+	mult_modifier = {
+		factor = 1.75 # roughly 6 martial
+		leader = { trait = holy_warrior }
+		enemy = { # Enemy flank
+			leader = { # Enemy commander
+				OR = {
+					# ROOT is own combat flank
+					# PREVPREV is enemy commander
+					ROOT = { # These consider everyone their religious enemy
+						leader = {
+							OR = {
+								religion_group = zoroastrian_group
+								religion_group = jewish_group
+								AND = { # But pagans must not be cosmopolitan
+									religion_group = pagan_group
+									NOT = {
+										has_religion_feature = religion_cosmopolitan
+									}
+								}
+							}
+							NOT = { # Anyone with a different religion
+								religion = PREVPREV
+							}
+						}
+					}
+					ROOT = { # Christians only fight heresies of own branch
+						leader = {
+							religion_group = christian
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+					}
+					ROOT = { # Muslims also fight non-heretic Muslims
+						leader = {
+							religion_group = muslim
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOR = { # Non-heretics of different branches
+									is_heretic = yes
+									PREVPREV = { is_heretic = yes }
+									religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+					}
+					ROOT = { # Dharmans avoid religious infighting
+						leader = {
+							religion_group = indian_group
+							NOR = { # Pacifist
+								religion = taoist
+								religion = jain
+							}
+							OR = {
+								NOT = { # Anyone outside own religious group
+									religion_group = PREVPREV
+								}
+								PREVPREV = { # Following regular Holy War CB
+									religion = taoist
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	# Flanking
+	mult_modifier = { # Non-functional
+		factor = 1.5
+		leader = {
+			center_flank_leader = {
+				character = PREV
+			}
+			OR = {
+				trait = experimenter # Direct Leader
+				trait = logistics_expert # Way of the Dog
+			}
+		}
+	}
+	mult_modifier = { # Non-functional
+		factor = 1.5
+		leader = {
+			OR = {
+				center_flank_leader = {
+					NOT = { character = PREV }
+				}
+				ROOT = { is_flanking = yes }
+			}
+			OR = {
+				trait = flanker
+				trait = levy_coordinator # Way of the Tiger
+				trait = baltic_leader
+				trait = gamer
+			}
+		}
+	}
+}
+
+traits_tier_4_factor = {
+	# Terrain traits
+	mult_modifier = {
+		factor = 2.3 # roughly 6 martial
+		location = {
+			OR = {
+				is_winter = yes
+				terrain = arctic
+			}
+		}
+		leader = {
+			OR = {
+				trait = winter_soldier
+				trait = finnish_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+		leader = {
+			OR = {
+				trait = flat_terrain_leader
+				trait = tengri_leader
+				trait = slavic_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = forest
+				terrain = woods
+				terrain = marsh
+			}
+		}
+		leader = {
+			OR = {
+				trait = rough_terrain_leader
+				trait = sapper # Way of the Leopard
+				trait = baltic_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = hills
+				terrain = mountain
+				terrain = impassable_mountains
+			}
+		}
+		leader = {
+			OR = {
+				trait = mountain_terrain_leader
+				trait = bon_leader
+				trait = zun_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = desert
+				terrain = coastal_desert
+			}
+		}
+		leader = { trait = desert_terrain_leader }
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = { terrain = jungle }
+		leader = { trait = jungle_terrain_leader }
+	}
+
+	# Education traits
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		leader = { trait = brilliant_strategist }
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 3 martial
+		leader = { trait = skilled_tactician }
+	}
+	mult_modifier = {
+		factor = 1.33 # roughly 2 martial
+		leader = { trait = tough_soldier }
+	}
+	mult_modifier = {
+		factor = 1.15 # roughly 1 martial
+		leader = {	trait = misguided_warrior }
+	}
+
+	# Other military traits
+	mult_modifier = {
+		factor = 2.3 # roughly 6 martial
+		leader = { trait = holy_warrior }
+		enemy = { # Enemy flank
+			leader = { # Enemy commander
+				OR = {
+					# ROOT is own combat flank
+					# PREVPREV is enemy commander
+					ROOT = { # These consider everyone their religious enemy
+						leader = {
+							OR = {
+								religion_group = zoroastrian_group
+								religion_group = jewish_group
+								AND = { # But pagans must not be cosmopolitan
+									religion_group = pagan_group
+									NOT = {
+										has_religion_feature = religion_cosmopolitan
+									}
+								}
+							}
+							NOT = { # Anyone with a different religion
+								religion = PREVPREV
+							}
+						}
+					}
+					ROOT = { # Christians only fight heresies of own branch
+						leader = {
+							religion_group = christian
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+					}
+					ROOT = { # Muslims also fight non-heretic Muslims
+						leader = {
+							religion_group = muslim
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOR = { # Non-heretics of different branches
+									is_heretic = yes
+									PREVPREV = { is_heretic = yes }
+									religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+					}
+					ROOT = { # Dharmans avoid religious infighting
+						leader = {
+							religion_group = indian_group
+							NOR = { # Pacifist
+								religion = taoist
+								religion = jain
+							}
+							OR = {
+								NOT = { # Anyone outside own religious group
+									religion_group = PREVPREV
+								}
+								PREVPREV = { # Following regular Holy War CB
+									religion = taoist
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	# Flanking
+	mult_modifier = { # Non-functional
+		factor = 1.75
+		leader = {
+			center_flank_leader = {
+				character = PREV
+			}
+			OR = {
+				trait = experimenter # Direct Leader
+				trait = logistics_expert # Way of the Dog
+			}
+		}
+	}
+	mult_modifier = { # Non-functional
+		factor = 1.75
+		leader = {
+			OR = {
+				center_flank_leader = {
+					NOT = { character = PREV }
+				}
+				ROOT = { is_flanking = yes }
+			}
+			OR = {
+				trait = flanker
+				trait = levy_coordinator # Way of the Tiger
+				trait = baltic_leader
+				trait = gamer
+			}
+		}
+	}
+}
+
+traits_tier_5_factor = {
+	# Terrain traits
+	mult_modifier = {
+		factor = 3 # roughly 6 martial
+		location = {
+			OR = {
+				is_winter = yes
+				terrain = arctic
+			}
+		}
+		leader = {
+			OR = {
+				trait = winter_soldier
+				trait = finnish_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+		leader = {
+			OR = {
+				trait = flat_terrain_leader
+				trait = tengri_leader
+				trait = slavic_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = forest
+				terrain = woods
+				terrain = marsh
+			}
+		}
+		leader = {
+			OR = {
+				trait = rough_terrain_leader
+				trait = sapper # Way of the Leopard
+				trait = baltic_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = hills
+				terrain = mountain
+				terrain = impassable_mountains
+			}
+		}
+		leader = {
+			OR = {
+				trait = mountain_terrain_leader
+				trait = bon_leader
+				trait = zun_leader
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = {
+			OR = {
+				terrain = desert
+				terrain = coastal_desert
+			}
+		}
+		leader = { trait = desert_terrain_leader }
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		location = { terrain = jungle }
+		leader = { trait = jungle_terrain_leader }
+	}
+
+	# Education traits
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		leader = { trait = brilliant_strategist }
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 3 martial
+		leader = { trait = skilled_tactician }
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 2 martial
+		leader = { trait = tough_soldier }
+	}
+	mult_modifier = {
+		factor = 1.25 # roughly 1 martial
+		leader = {	trait = misguided_warrior }
+	}
+
+	# Other military traits
+	mult_modifier = {
+		factor = 3 # roughly 6 martial
+		leader = {
+			OR =  {
+				trait = holy_warrior
+				trait = crusader_king
+				trait = crusader_queen
+			}
+		}
+		enemy = { # Enemy flank
+			leader = { # Enemy commander
+				OR = {
+					# ROOT is own combat flank
+					# PREVPREV is enemy commander
+					ROOT = { # These consider everyone their religious enemy
+						leader = {
+							OR = {
+								religion_group = zoroastrian_group
+								religion_group = jewish_group
+								AND = { # But pagans must not be cosmopolitan
+									religion_group = pagan_group
+									NOT = {
+										has_religion_feature = religion_cosmopolitan
+									}
+								}
+							}
+							NOT = { # Anyone with a different religion
+								religion = PREVPREV
+							}
+						}
+					}
+					ROOT = { # Christians only fight heresies of own branch
+						leader = {
+							religion_group = christian
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+					}
+					ROOT = { # Muslims also fight non-heretic Muslims
+						leader = {
+							religion_group = muslim
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOR = { # Non-heretics of different branches
+									is_heretic = yes
+									PREVPREV = { is_heretic = yes }
+									religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+					}
+					ROOT = { # Dharmans avoid religious infighting
+						leader = {
+							religion_group = indian_group
+							NOR = { # Pacifist
+								religion = taoist
+								religion = jain
+							}
+							OR = {
+								NOT = { # Anyone outside own religious group
+									religion_group = PREVPREV
+								}
+								PREVPREV = { # Following regular Holy War CB
+									religion = taoist
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	# Flanking
+	mult_modifier = { # Non-functional
+		factor = 2
+		leader = {
+			center_flank_leader = { # Doesn't work in combat?
+				character = PREV
+			}
+			OR = {
+				trait = experimenter # Direct Leader
+				trait = logistics_expert # Way of the Dog
+			}
+		}
+	}
+	mult_modifier = { # Non-functional
+		factor = 2
+		leader = {
+			OR = {
+				center_flank_leader = { # Doesn't work in combat?
+					NOT = { character = PREV }
+				}
+				ROOT = { is_flanking = yes }
+			}
+			OR = {
+				trait = flanker
+				trait = levy_coordinator # Way of the Tiger
+				trait = baltic_leader
+				trait = gamer
+			}
+		}
+	}
+}
+
+# Increases chance of picking a higher tier tactic involving light infantry
+light_troops_tier_2_factor = {
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = light_foot_leader
+				trait = bon_leader
+				trait = west_african_leader
+			}
+		}
+	}
+}
+
+light_troops_tier_3_factor = {
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = light_foot_leader
+				trait = bon_leader
+				trait = west_african_leader
+			}
+		}
+	}
+}
+
+light_troops_tier_4_factor = {
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = light_foot_leader
+				trait = bon_leader
+				trait = west_african_leader
+			}
+		}
+	}
+}
+
+light_troops_tier_5_factor = {
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = light_foot_leader
+				trait = bon_leader
+				trait = west_african_leader
+			}
+		}
+	}
+}
+
+# Increases chance of picking a higher tier tactic involving heavy infantry
+heavy_troops_tier_2_factor = {
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = heavy_infantry_leader
+				trait = norse_leader
+			}
+		}
+	}
+}
+
+heavy_troops_tier_3_factor = {
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = heavy_infantry_leader
+				trait = norse_leader
+			}
+		}
+	}
+}
+
+heavy_troops_tier_4_factor = {
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = heavy_infantry_leader
+				trait = norse_leader
+			}
+		}
+	}
+}
+
+heavy_troops_tier_5_factor = {
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = heavy_infantry_leader
+				trait = norse_leader
+			}
+		}
+	}
+}
+
+# Increases chance of picking a higher tier tactic involving cavalry
+mounted_troops_tier_2_factor = {
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = cavalry_leader
+				trait = tengri_leader
+			}
+		}
+	}
+}
+
+mounted_troops_tier_3_factor = {
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = cavalry_leader
+				trait = tengri_leader
+			}
+		}
+	}
+}
+
+mounted_troops_tier_4_factor = {
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = cavalry_leader
+				trait = tengri_leader
+			}
+		}
+	}
+}
+
+mounted_troops_tier_5_factor = {
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		leader = {
+			OR = {
+				trait = cavalry_leader
+				trait = tengri_leader
+			}
+		}
+	}
+}
+
+# Increases chance of picking a higher tier tactic involving war elephants
+elephant_troops_tier_2_factor = {
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		leader = {
+			trait = war_elephant_leader
+		}
+	}
+}
+
+elephant_troops_tier_3_factor = {
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		leader = {
+			trait = war_elephant_leader
+		}
+	}
+}
+
+elephant_troops_tier_4_factor = {
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		leader = {
+			trait = war_elephant_leader
+		}
+	}
+}
+
+elephant_troops_tier_5_factor = {
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		leader = {
+			trait = war_elephant_leader
+		}
+	}
+}
+
+##################################################################
+#
+#	Group type selection factors
+#
+##################################################################
+
+# Increases chances of selecting an offensive tactic group
+offensive_tactic_factor = {
+	# Aggressive traits
+	mult_modifier = {
+		factor = 1.5
+		leader = { trait = aggressive_leader }
+	}
+	mult_modifier = {
+		factor = 2
+		leader = { trait = master_of_flame } # Way of the Dragon
+	}
+	mult_modifier = {
+		factor = 2
+		leader = { trait = wroth }
+	}
+	mult_modifier = {
+		factor = 3
+		leader = { trait = berserker }
+	}
+	mult_modifier = {
+		factor = 2
+		flank_has_leader = yes
+		is_attacker = yes
+		leader = {
+			ai_rationality > 0
+		}
+	}
+	mult_modifier = {
+		factor = 2
+		is_attacker = yes
+		location = {
+			OR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2
+		leader = {
+			has_religion_feature = religion_warlike
+		}
+	}
+}
+
+# Increases chances of selecting a defensive tactic group
+defensive_tactic_factor = {
+	# Defensive traits
+	mult_modifier = {
+		factor = 1.5
+		leader = { trait = unyielding_leader }
+	}
+	mult_modifier = {
+		factor = 2
+		leader = { trait = defensive_leader }
+	}
+	mult_modifier = {
+		factor = 2
+		leader = { trait = strategist }
+	}
+	mult_modifier = {
+		factor = 1.5
+		leader = { trait = patient }
+	}
+	mult_modifier = {
+		factor = 2
+		flank_has_leader = yes
+		is_attacker = no
+		leader = {
+			ai_rationality > 0
+		}
+	}
+	mult_modifier = {
+		factor = 2
+		is_attacker = no
+		location = {
+			OR = {
+				terrain = forest
+				terrain = woods
+				terrain = jungle
+				terrain = marsh
+				terrain = hills
+				terrain = mountain
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 2
+		leader = {
+			has_religion_feature = religion_defensive
+		}
+	}
+}
+
+change_to_melee_selection_factor = {
+	mult_modifier = {
+		factor = 1.5
+		days = 12
+	}
+	mult_modifier = {
+		factor = 1.5
+		days = 15
+	}
+	mult_modifier = {
+		factor = 1.5
+		days = 18
+	}
+	mult_modifier = {
+		factor = 1.5
+		days = 21
+	}
+	mult_modifier = {
+		factor = 1.5
+		days = 24
+	}
+	mult_modifier = {
+		factor = 1.5
+		days = 27
+	}
+}
+
+##################################################################
+#
+#	Group selection factors (skirmish phase)
+#
+##################################################################
+
+# Affects chance of selecting a volley group tactic, more likely with more archers, and against more horse archers
+volley_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = archers
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = archers
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = archers
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = archers
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = archers
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = archers
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = archers
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 0.83
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value <= 0.10
+			}
+			leader = {
+				martial >= 8
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.83
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value <= 0.20
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.80
+			}
+		}
+
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects chance of selecting a swarm group tactic, more likely with more horse archers, and against more light cavalry
+swarm_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 0.83
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value <= 0.10
+			}
+		leader = {
+			martial >= 20
+		}
+		}
+	}
+	mult_modifier = {
+		factor = 0.83
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value <= 0.20
+			}
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.80
+			}
+		}
+
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects chance of selecting a harass group tactic, more likely with more light/camel cavalry, and against more light infantry/archers
+harass_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 0.83
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value <= 0.10
+			}
+			leader = {
+				martial >= 8
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.83
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value <= 0.20
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.80
+			}
+		}
+
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 0.83
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value <= 0.10
+			}
+			leader = {
+				martial >= 8
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.83
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value <= 0.20
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.80
+			}
+		}
+
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects chance of selecting a raid group tactic, more likely with more light infantry, and against a balanced flank
+raid_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_infantry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = archers
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+}
+
+# Affects likelihood of attempting a feint group tactic
+feint_selection_factor = {
+	# Education traits
+	mult_modifier = {
+		factor = 3
+		leader = { trait = elusive_shadow }
+	}
+	mult_modifier = {
+		factor = 2.5
+		leader = { trait = intricate_webweaver }
+	}
+	mult_modifier = {
+		factor = 2
+		leader = { trait = flamboyant_schemer }
+	}
+	mult_modifier = {
+		factor = 1.5
+		leader = { trait = amateurish_plotter }
+	}
+
+	# Other traits
+	mult_modifier = {
+		factor = 1.5
+		leader = { is_smart_trigger = yes }
+	}
+	mult_modifier = {
+		factor = 1.5
+		leader = { trait = gamer }
+	}
+	mult_modifier = {
+		factor = 2
+		leader = { trait = trickster }
+	}
+	mult_modifier = {
+		factor = 3
+		leader = { trait = deceitful }
+	}
+
+	# Terrain
+	mult_modifier = {
+		factor = 3
+		location = {
+			OR = {
+				terrain = forest
+				terrain = woods
+				terrain = jungle
+				terrain = marsh
+				terrain = hills
+				terrain = mountain
+			}
+		}
+	}
+
+	# Defender
+	mult_modifier = {
+		factor = 2
+		flank_has_leader = yes
+		is_attacker = no
+	}
+}
+
+# Affects chance of selecting a close formation group tactic, more likely with more heavy infantry, and against cavalry and archers
+close_formation_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.10
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.60
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.70
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.80
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.90
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = heavy_infantry
+			value >= 0.100
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.10
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.20
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.30
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.40
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.50
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.60
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.70
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.80
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.90
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = pikemen
+			value >= 0.100
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = archers
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = light_cavalry
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = camel_cavalry
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = horse_archers
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			troops = {
+				who = knights
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects chance of selecting a shock charge group tactic, more likely with more cavalry, and against little cavalry
+shock_charge_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.05
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.075
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.10
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.15
+		}
+		leader = {
+			martial >= 24
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.25
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+}
+
+# Affects chance of selecting a shock charge group tactic, more likely with more cavalry, and against few pikemen
+cavalry_charge_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.05
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.075
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.10
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.125
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.15
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		heavy_troops = {
+			who = knights
+			value >= 0.175
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.10
+		}
+		leader = {
+			martial >= 24
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = light_cavalry
+			value >= 0.60
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.10
+		}
+		leader = {
+			martial >= 24
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = camel_cavalry
+			value >= 0.60
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.10
+		}
+		leader = {
+			martial >= 24
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.20
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.30
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.40
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.50
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		light_troops = {
+			who = horse_archers
+			value >= 0.60
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 20
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = pikemen
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects chance of selecting a raid group tactic, more likely with more light/heavy infantry, and against few elephants/cavalry
+skirmish_charge_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = light_infantry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			troops = {
+				who = war_elephants
+				value >= 0.025
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			troops = {
+				who = war_elephants
+				value >= 0.05
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			troops = {
+				who = war_elephants
+				value >= 0.075
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			troops = {
+				who = war_elephants
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			troops = {
+				who = war_elephants
+				value >= 0.125
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			troops = {
+				who = war_elephants
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			troops = {
+				who = war_elephants
+				value >= 0.175
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			troops = {
+				who = war_elephants
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects chance of selecting an elephant charge group tactic, more likely with more elephants
+elephant_charge_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.2
+
+		troops = {
+			who = war_elephants
+			value >= 0.02
+		}
+		leader = {
+			martial >= 18
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = war_elephants
+			value >= 0.03
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = war_elephants
+			value >= 0.04
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = war_elephants
+			value >= 0.05
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = war_elephants
+			value >= 0.06
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = war_elephants
+			value >= 0.07
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = war_elephants
+			value >= 0.08
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = war_elephants
+			value >= 0.09
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		troops = {
+			who = war_elephants
+			value >= 0.10
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects chance of selecting an approach group tactic, more likely with more pikemen, and against more cavalry
+approach_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = pikemen
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.025
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.05
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.075
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.125
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.175
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.25
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.35
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.45
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.25
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.35
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.45
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = camel_cavalry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.25
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.35
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.45
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = horse_archers
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+##################################################################
+#
+#	Quality selection factors (melee phase)
+#
+##################################################################
+
+# Affects chance of selecting a shieldwall group tactic, more likely with more heavy infantry and against less cavalry
+shieldwall_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = heavy_infantry
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = heavy_infantry
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.05
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.075
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.125
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.175
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects chance of selecting a shieldwall group tactic, more likely with more pikemen and against more cavalry
+advance_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.20
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.25
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.30
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.35
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.40
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		light_troops = {
+			who = pikemen
+			value >= 0.45
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.50
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.05
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.075
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.125
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.175
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.2
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
+
+# Affects likelihood of attempting a feint group tactic
+ambush_selection_factor = {
+	# Education traits
+	mult_modifier = {
+		factor = 3
+		leader = { trait = elusive_shadow }
+	}
+	mult_modifier = {
+		factor = 2.5
+		leader = { trait = intricate_webweaver }
+	}
+	mult_modifier = {
+		factor = 2
+		leader = { trait = flamboyant_schemer }
+	}
+	mult_modifier = {
+		factor = 1.5
+		leader = { trait = amateurish_plotter }
+	}
+
+	# Other traits
+	mult_modifier = {
+		factor = 1.5
+		leader = { is_smart_trigger = yes }
+	}
+	mult_modifier = {
+		factor = 1.5
+		leader = { trait = gamer }
+	}
+	mult_modifier = {
+		factor = 2
+		leader = { trait = trickster }
+	}
+	mult_modifier = {
+		factor = 3
+		leader = { trait = deceitful }
+	}
+
+	# Terrain
+	mult_modifier = {
+		factor = 2
+		location = {
+			NOT = {
+				terrain = desert
+			}
+		}
+	}
+
+	# Defender
+	mult_modifier = {
+		factor = 2
+		flank_has_leader = yes
+		is_attacker = no
+	}
+}
+
+# Affects likelihood of attempting a feint group tactic
+hammer_and_anvil_flank_composition_factor = {
+	# Own flank composition
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.05
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.10
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.15
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.20
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.25
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 1.1
+
+		heavy_troops = {
+			who = pikemen
+			value >= 0.30
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+
+	# Opposite flank composition
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.05
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.075
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.10
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.125
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.15
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.175
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			heavy_troops = {
+				who = knights
+				value >= 0.20
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.30
+			}
+		}
+		leader = {
+			martial >= 16
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.40
+			}
+		}
+		leader = {
+			martial >= 14
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.50
+			}
+		}
+		leader = {
+			martial >= 12
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.60
+			}
+		}
+		leader = {
+			martial >= 10
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.70
+			}
+		}
+		leader = {
+			martial >= 8
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.80
+			}
+		}
+		leader = {
+			martial >= 6
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 0.90
+			}
+		}
+		leader = {
+			martial >= 4
+		}
+	}
+	mult_modifier = {
+		factor = 0.8
+
+		enemy = {
+			light_troops = {
+				who = light_cavalry
+				value >= 1.00
+			}
+		}
+		leader = {
+			martial >= 2
+		}
+	}
+}
