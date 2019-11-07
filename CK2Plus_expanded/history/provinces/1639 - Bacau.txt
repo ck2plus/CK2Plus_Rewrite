@@ -21,13 +21,15 @@ religion = slavic_pagan
 
 # History
 867.1.1 = {
-	culture = russian
+	culture = ruthenian
 	b_bacau = castle
 	b_targu_neamnt = city
 	b_neamnt = temple
 }
-988.1.1 = { religion = orthodox }
-
+900.1.1 = {
+	religion = orthodox
+	culture = romanian
+}
 1220.1.1 = {
     culture = szekely
     religion = catholic
