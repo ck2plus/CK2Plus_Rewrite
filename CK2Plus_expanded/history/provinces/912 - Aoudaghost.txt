@@ -13,7 +13,7 @@ b_moudjeria = temple
 #b_kedama = city
 
 # Misc
-culture = soninke
+culture = wolof
 religion = west_african_pagan
 
 # History

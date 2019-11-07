@@ -9,7 +9,7 @@ b_tagant = tribal
 #b_tichitt = city
 
 # Misc
-culture = soninke
+culture = wolof
 religion = west_african_pagan
 
 # History

@@ -11,7 +11,7 @@ b_diafunu = tribal
 #b_galam = temple
 
 # Misc
-culture = soninke
+culture = wolof
 religion = west_african_pagan
 
 # History
