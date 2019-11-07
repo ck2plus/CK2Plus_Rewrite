@@ -12,5 +12,7 @@ culture = samoyed
 religion = finnish_pagan
 
 # History
-1207.1.1 = { culture = russian }
-1207.1.1 = { religion = orthodox }
+1207.1.1 = {
+	religion = orthodox
+	culture = russian
+}

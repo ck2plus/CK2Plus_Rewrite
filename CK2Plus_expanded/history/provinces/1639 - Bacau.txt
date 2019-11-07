@@ -26,8 +26,10 @@ religion = slavic_pagan
 	b_targu_neamnt = city
 	b_neamnt = temple
 }
-900.1.1 = { religion = orthodox }
-900.1.1 = { culture = romanian }
+900.1.1 = {
+	religion = orthodox
+	culture = romanian
+}
 1220.1.1 = {
     culture = szekely
     religion = catholic
