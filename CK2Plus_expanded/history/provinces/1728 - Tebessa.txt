@@ -19,6 +19,4 @@ b_baghaya = city
 culture = sanhaja
 religion = sunni
 
-800.1.1 = { culture = maghreb_arabic }
-
-# History
+#History
