@@ -15,5 +15,4 @@ religion = ibadi
 # History
 909.1.1 = {
     religion = sunni
-    culture = maghreb_arabic
 }
