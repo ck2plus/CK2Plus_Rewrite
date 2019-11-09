@@ -11,18 +11,55 @@
 northwest_caucasian_group = {
 	graphical_cultures =  { easterngfx }
 	
-	abkhazian = {	# to be filled with Methaneus suggestions
+	abkhazian = {
 		graphical_cultures = { easternslavicgfx }
 		
 		color = { 0.0 0.4 0.31 }
 
 		male_names = {
-			Abatiy
+			Abga Adamer Adgur Akhmat_Ahmed Akhra Akhrik Alkhas Almasbei Alyksandr_Alexander Anatolii Arut Arutan Arzadin Astamur_Astamur Astamyr_Astamur Astan Atata Axra Azax
+			Bagrat_Bagrat Batal Beslan
+			Daur Dawet_David Dyrmit_Demetrius
+			Eberham_Abraham Estat_Eustace
+			Fardawes_Ferdows Fazil_Fadl
+			Gazia Gozar_Azar Gudisa
+			Huenap
+			Iurii_George
+			Kuebre Khasik Khados
+			Macues Mamser
+			Nart Nugzar Nuri
+			Ovanes_John
+			Salikh Satbei Sejed Setrak Šuarax Sokrat
+			Talikh Temyr_Timur Tengiz
+			Uazha_John
+			Valerii_Valerius
+			Yaozar_Azar
 		}
 		
 		female_names = { 
-			Abexw
+			Amra Amza Aphuezba Apša Asida
+			Berfenka
+			Cebra Cesna
+			Esma
+			Gunda
+			Hanem
+			Kaka Khibla Kuarasa
+			Mra-Laša Mramza
+			Naala
+			Quarasa
+			Safrahanem Zherkuej
+			Tuana
+			Xe-Bla
+			Xe-Mra
 		}
+		
+		male_patronym = "ba"
+		female_patronym = "pha"
+		prefix = no
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		father_name_chance = 30
+		pat_grf_name_chance = 20
 		
 		modifier = default_culture_modifier
 	}

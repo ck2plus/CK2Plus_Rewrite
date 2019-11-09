@@ -1,0 +1,84 @@
+1000000001 = {
+	name = "Šašba"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Ašba"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Ajemxaa"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Šaabalerxua"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Šixotua"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Gašba"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Inal-jepa"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Maršan"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Šapš-jepa"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Akertaa"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Ašuaxuacaa"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Cešba"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Jašba"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Lakerba"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Maan"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Šuanba"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Adlejba"
+	culture = abkhazian
+}

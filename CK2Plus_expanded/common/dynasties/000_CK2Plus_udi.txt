@@ -1,0 +1,304 @@
+1000000001 = {
+	name = "Aluen"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Barmak"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Cor"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Diwatakan"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Dshorly"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Gardman"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Gargar"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Jangi Kend"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Khalkhal"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Kish"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Mec Arank"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Mirsa"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Nij"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Nucha"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Oktomberi"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Perozkavad"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Qebele"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Shemakha"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Tigranakert"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Tri"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Vartashen"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Ajz"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Arux"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Atababa"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Azatk"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Azgapetk"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Bex"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Buš"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Daftar"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Duzne"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Ga"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Haso"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Hend"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Iaq"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Ioldaš"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Kala"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Kalaka"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Kual"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Laqmox"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Mingecaur"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Niko"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Ocal"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Otag"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Qonzug"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Qulurux"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Wug"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Xalx"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Xaxapi"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Xorag"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Camat"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Caplug"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Clax"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Com"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Danakiri"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Gukasyan"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Kecaari"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Meshari"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Mobili"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Shirvari"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Mactoc"
+	culture = udi
+}
+
+1000000001 = {
+	name = "Mihrakan"
+	culture = udi
+}

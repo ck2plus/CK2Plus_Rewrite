@@ -77,7 +77,7 @@ byzantine = {
 
 		male_names = {
 			Abas Abirad Aboughamr Aboulgharib Aleksandr_Alexander Artashes Artashir_Ardeshir Artavazd_Ardabast Arsen Arshak Ashot_Ashot Athom Atrnerseh_Atrnerseh Avag Avedis
-			Bagour_Bagour Bagrat Bedros_Peter Boghos_Paul
+			Bagour_Bagour Bagrat_Bagrat Bedros_Peter Boghos_Paul
 			Davit_David
 			Eshkhan
 			Gagik_Gagik Gevorg_George Gosdantin_Constantine Grigor_Gregory Gurgen_Lupo
@@ -95,7 +95,7 @@ byzantine = {
 		}
 
 		female_names = {
-			Aghavni Alitz_Alice Almasd Anahid Anna_Anna Anoush Arda Arevig Arin
+			Aghavni Alitz_Alice Almasd Anahid Anna_Anna Anoush Araxia Arda Arevig Arin
 			Baydzar Berjanoush Berjouhi
 			Datevig Dalita
 			Eliz_Eloise
