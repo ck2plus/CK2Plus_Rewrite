@@ -1,3 +1,6 @@
+1.1.1 = {
+	de_jure_liege = k_khazaria
+}
 936.1.1 = {
 	liege = k_cuman
 	historical_nomad = yes

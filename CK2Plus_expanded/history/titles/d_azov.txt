@@ -1,120 +1,111 @@
-654.1.1={
-	liege=k_khazaria
-	holder=74004
+1.1.1 = {
+	de_jure_liege = k_alania
 }
-662.1.1= {
-	holder=74005
+654.1.1 = {
+	liege = k_khazaria
+	holder = 74004
 }
-704.1.1= {
-	holder=146195
+662.1.1 = {
+	holder = 74005
 }
-743.1.1={
-	holder=146196
+704.1.1 = {
+	holder = 146195
 }
-774.1.1={
-	holder=146197
+743.1.1 = {
+	holder = 146196
 }
-797.1.1={
-	holder=146198
+774.1.1 = {
+	holder = 146197
 }
-800.1.1={
-	holder=146199
+797.1.1 = {
+	holder = 146198
 }
-805.1.1={
-	holder=74013
+800.1.1 = {
+	holder = 146199
 }
-810.1.1={
-	holder=74014
+805.1.1 = {
+	holder = 74013
 }
-825.1.1={
-	holder=74015
+810.1.1 = {
+	holder = 74014
 }
-830.1.1={
-	holder=74016
+825.1.1 = {
+	holder = 74015
 }
-864.1.1={
-	holder=74025
+830.1.1 = {
+	holder = 74016
 }
-886.1.1={
-	holder=74025
+864.1.1 = {
+	holder = 74025
 }
-888.1.1={
-	holder=74026
+886.1.1 = {
+	holder = 74025
 }
-899.1.1={
-	holder=146187
+888.1.1 = {
+	holder = 74026
 }
-916.1.1={
-	holder=146188
+899.1.1 = {
+	holder = 146187
 }
-920.1.1={
-	holder=146189
+916.1.1 = {
+	holder = 146188
 }
-928.1.1={
-	holder=146190
+920.1.1 = {
+	holder = 146189
+}
+928.1.1 = {
+	holder = 146190
 }
 936.1.1 = {
 	holder = 260702
 	historical_nomad = yes
 	liege = k_khazaria
 }
-945.1.1={
-	holder=146191
+945.1.1 = {
+	holder = 146191
 }
-969.1.1={
-	holder=146193
+969.1.1 = {
+	holder = 146193
 }
-993.1.1={
-	holder=146194
+993.1.1 = {
+	holder = 146194
 }
 1016.1.1 = {
-	liege=0
-	holder=0
+	liege = 0
+	holder = 0
 	historical_nomad = no
-}	
-1066.1.1=
-{
-liege="k_cuman"
 }
-1066.1.1=
-{
-holder=20655
+1066.1.1 = {
+liege = "k_cuman"
 }
-1089.1.1=
-{
-holder=228059
+1066.1.1 = {
+holder = 20655
 }
-1110.1.1=
-{
-holder=479240
+1089.1.1 = {
+holder = 228059
 }
-1150.1.1=
-{
-holder=34882
+1110.1.1 = {
+holder = 479240
 }
-1180.1.1=
-{
-holder=34883
+1150.1.1 = {
+holder = 34882
 }
-1210.1.1=
-{
-holder=34884
+1180.1.1 = {
+holder = 34883
 }
-1238.1.1=
-{
-liege="e_golden_horde"
-holder=34885
+1210.1.1 = {
+holder = 34884
 }
-1270.1.1=
-{
-holder=34886
+1238.1.1 = {
+liege = "e_golden_horde"
+holder = 34885
 }
-1300.1.1=
-{
-holder=34887
+1270.1.1 = {
+holder = 34886
 }
-1315.1.1=
-{
-holder=34888
+1300.1.1 = {
+holder = 34887
 }
-
+1315.1.1 = {
+holder = 34888
+}

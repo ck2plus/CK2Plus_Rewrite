@@ -1,127 +1,130 @@
-646.1.1={
-	holder=145996
+1.1.1 = {
+	de_jure_liege = k_armenia
 }
-653.1.1={
-	holder=70454
+646.1.1 = {
+	holder = 145996
 }
-654.1.1={
-	holder=145996
+653.1.1 = {
+	holder = 70454
 }
-655.1.1={
-	holder=159871
+654.1.1 = {
+	holder = 145996
 }
-661.1.1={
-	holder=70452
+655.1.1 = {
+	holder = 159871
 }
-684.1.1={
-	holder=70448
+661.1.1 = {
+	holder = 70452
 }
-690.1.1={
-	holder=159571
+684.1.1 = {
+	holder = 70448
 }
-693.8.29={
-	holder=70447
+690.1.1 = {
+	holder = 159571
 }
-726.1.1={
-	holder=41500
+693.8.29 = {
+	holder = 70447
 }
-732.1.1={
-	liege="k_armenia"
+726.1.1 = {
+	holder = 41500
 }
-745.1.1={
-	holder=70451
+732.1.1 = {
+	liege = "k_armenia"
 }
-746.1.1={
-	holder=41500
+745.1.1 = {
+	holder = 70451
 }
-749.1.1={
-	holder=70451
+746.1.1 = {
+	holder = 41500
 }
-750.1.1={
-	holder=70450
+749.1.1 = {
+	holder = 70451
 }
-754.1.1={
-	holder=145998
+750.1.1 = {
+	holder = 70450
 }
-761.1.1={
-	holder=41501
+754.1.1 = {
+	holder = 145998
 }
-775.4.15={
-	holder=41502
+761.1.1 = {
+	holder = 41501
 }
-826.1.1={
-	holder=41530
+775.4.15 = {
+	holder = 41502
 }
-851.1.1={
-	holder=41504
+826.1.1 = {
+	holder = 41530
 }
-852.3.1={
-	liege=0
+851.1.1 = {
+	holder = 41504
 }
-857.1.1={
-	liege="k_armenia"
+852.3.1 = {
+	liege = 0
 }
-862.1.1={
-	holder=41505
+857.1.1 = {
+	liege = "k_armenia"
 }
-863.1.1={
-	liege=0
+862.1.1 = {
+	holder = 41505
 }
-870.1.1={
-	liege="k_armenia"
+863.1.1 = {
+	liege = 0
 }
-878.1.1={
-	liege=0
+870.1.1 = {
+	liege = "k_armenia"
 }
-886.1.1={
-	liege="k_armenia"
+878.1.1 = {
+	liege = 0
 }
-890.1.1={
-	holder=41506
+886.1.1 = {
+	liege = "k_armenia"
 }
-912.1.1={
-	holder=41507
+890.1.1 = {
+	holder = 41506
 }
-928.1.1={
-	holder=41508
+912.1.1 = {
+	holder = 41507
 }
-951.1.1={
-	holder=41509
+928.1.1 = {
+	holder = 41508
 }
-977.1.1={
-	holder=41510
+951.1.1 = {
+	holder = 41509
 }
-990.1.1={
-	holder=41519
+977.1.1 = {
+	holder = 41510
 }
-1020.1.1={
-	holder=41520
+990.1.1 = {
+	holder = 41519
 }
-1041.1.1={
-	holder=41521
+1020.1.1 = {
+	holder = 41520
 }
-1041.9.1={
-	holder=41522
+1041.1.1 = {
+	holder = 41521
 }
-1045.1.1={
-	holder=0
-	liege="e_byzantium"
+1041.9.1 = {
+	holder = 41522
+}
+1045.1.1 = {
+	holder = 0
+	liege = "e_byzantium"
 	vice_royalty = yes
 }
-1060.1.1={
-	holder=41585
+1060.1.1 = {
+	holder = 41585
 }
-1071.8.26={
-	holder = 0 
+1071.8.26 = {
+	holder = 0
 	vice_royalty = no
 }
-1191.1.1={
-	liege="k_georgia"
+1191.1.1 = {
+	liege = "k_georgia"
 	holder = 232759
 }
-1223.1.1={
+1223.1.1 = {
 	holder = 159206
 }
-1247.1.1={
+1247.1.1 = {
 	holder = 0
 }

@@ -2,7 +2,8 @@
 	active = no
 }
 
-760.1.1={
-	liege="k_papal_state"
+760.1.1 = {
+	de_jure_liege = k_papal_state
+	liege = "k_papal_state"
 	active = yes
 }

@@ -1,131 +1,134 @@
-765.1.1={
-	liege=e_arabia
-	holder=188644 # Yahya Barmakid
+1.1.1 = {
+	de_jure_liege = k_daylam
 }
-780.1.1={
-	holder=146071
+765.1.1 = {
+	liege = e_arabia
+	holder = 188644 # Yahya Barmakid
 }
-816.1.1={
-	holder=146075
+780.1.1 = {
+	holder = 146071
 }
-823.1.1={
-	holder=146076
+816.1.1 = {
+	holder = 146075
 }
-844.1.1={
-	holder=159733
+823.1.1 = {
+	holder = 146076
 }
-861.1.1={
-	liege=0
-	#law = agnatic_succession
-	#law = succ_primogeniture
+844.1.1 = {
+	holder = 159733
 }
-887.1.1={
-	holder=163167
+861.1.1 = {
+	liege = 0
+	# law = agnatic_succession
+	# law = succ_primogeniture
 }
-898.1.1={
-	holder=146082
+887.1.1 = {
+	holder = 163167
 }
-913.1.1={
-	holder=146083
+898.1.1 = {
+	holder = 146082
 }
-915.1.1={
-	holder=146086
+913.1.1 = {
+	holder = 146083
 }
-917.1.1={
-	holder=146087
+915.1.1 = {
+	holder = 146086
 }
-948.9.1={
-	holder=146088
+917.1.1 = {
+	holder = 146087
 }
-956.6.4={
-	holder=146090
+948.9.1 = {
+	holder = 146088
 }
-981.6.1={
-	holder=146092
+956.6.4 = {
+	holder = 146090
 }
-991.6.1={
-	holder=146093
+981.6.1 = {
+	holder = 146092
 }
-1027.11.1={
-	holder=146094
+991.6.1 = {
+	holder = 146093
 }
-1034.1.1={
-	holder=146097
+1027.11.1 = {
+	holder = 146094
 }
-1043.1.1={
-	holder=146098
+1034.1.1 = {
+	holder = 146097
 }
-1049.7.28={
-	holder=146100
+1043.1.1 = {
+	holder = 146098
 }
-1050.3.1={
-	holder=146101
+1049.7.28 = {
+	holder = 146100
 }
-1063.2.20={
-	holder=20734
+1050.3.1 = {
+	holder = 146101
 }
-1067.2.24={
-	liege="k_persia"
+1063.2.20 = {
+	holder = 20734
 }
-1096.1.1={
-	holder=146104
+1067.2.24 = {
+	liege = "k_persia"
 }
-1106.1.1={
-	holder=144567
+1096.1.1 = {
+	holder = 146104
 }
-1120.1.1={
-	liege=0
-	holder=232753
+1106.1.1 = {
+	holder = 144567
 }
-1160.1.1={
-	holder=146105
+1120.1.1 = {
+	liege = 0
+	holder = 232753
 }
-1160.6.1={
-	holder=144568
+1160.1.1 = {
+	holder = 146105
 }
-1197.1.1={
-	holder=146113
+1160.6.1 = {
+	holder = 144568
 }
-1200.1.1={
-	holder=146114
+1197.1.1 = {
+	holder = 146113
 }
-1204.1.1={
-	holder=144569
+1200.1.1 = {
+	holder = 146114
 }
-1204.8.1={
-	holder=144570
+1204.1.1 = {
+	holder = 144569
 }
-1225.1.1={
-	liege="e_mongol_empire"
-	holder=144571
+1204.8.1 = {
+	holder = 144570
 }
-1227.12.2={
-	liege="e_golden_horde"
+1225.1.1 = {
+	liege = "e_mongol_empire"
+	holder = 144571
 }
-1243.1.1={
-	holder=144572
+1227.12.2 = {
+	liege = "e_golden_horde"
 }
-1260.1.1={
-	holder=144573
+1243.1.1 = {
+	holder = 144572
 }
-1278.1.1={
-	liege="e_il-khanate"
+1260.1.1 = {
+	holder = 144573
 }
-1282.1.1={
-	holder=146118
+1278.1.1 = {
+	liege = "e_il-khanate"
 }
-1294.1.1={
-	holder=146120
+1282.1.1 = {
+	holder = 146118
 }
-1317.1.1={
-	holder=144574
+1294.1.1 = {
+	holder = 146120
 }
-1348.1.1={
-	holder=146121
+1317.1.1 = {
+	holder = 144574
 }
-1372.1.1={
-	holder=146124
+1348.1.1 = {
+	holder = 146121
 }
-1382.1.1={
-	holder=146125
+1372.1.1 = {
+	holder = 146124
+}
+1382.1.1 = {
+	holder = 146125
 }

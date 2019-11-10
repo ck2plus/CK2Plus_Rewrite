@@ -1,6 +1,7 @@
 1.1.1 = {
+	de_jure_liege = e_hre
 	active = no
 }
-1360.1.1 = {
+962.2.2 = {
 	active = yes
 }

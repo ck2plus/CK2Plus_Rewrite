@@ -1,12 +1,15 @@
-760.1.1={
-	holder=191380	#Nandaraja
+1.1.1 = {
+	de_jure_liege = k_malwa
+}
+760.1.1 = {
+	holder = 191380	# Nandaraja
 	liege = k_maharastra
 }
-860.1.1={
+860.1.1 = {
 	holder = 74417
 	liege = k_maharastra
 }
-914.1.1={
+914.1.1 = {
 	holder = 0
 }
 936.1.1 = {

@@ -1,4 +1,4 @@
-20.1.1={
+20.1.1 = {
 	active = no
 	law = revoke_title_law_2
 	law = ze_administration_laws_1
@@ -9,6 +9,6 @@
 	law = grant_title_voting_power_0
 	law = banish_voting_power_0
 	law = execution_voting_power_0
-	law = succession_voting_power_0	
+	law = succession_voting_power_0
 	law = centralization_3
 }
