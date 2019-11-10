@@ -100,8 +100,6 @@ pagan_group = {
 		intermarry = norse_pagan_reformed
 		intermarry = slavic_pagan
 		intermarry = slavic_pagan_reformed
-		intermarry = basque_pagan
-		intermarry = basque_pagan_reformed
 	}
 	basque_pagan_reformed = {
 		graphical_culture = norsegfx #For on-map CoA's
