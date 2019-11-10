@@ -4085,7 +4085,16 @@ add_crusade_trait_effect = {
 		add_trait = machas_javelin
 		break = yes
 	}
-
+	if = {
+		limit = {
+			OR = {
+				religion = basque_pagan
+				religion = basque_pagan_reformed
+			}
+		}
+		add_trait = flame_of_eate
+		break = yes
+	}
 }
 
 ###MONKS & MYSTICS###
@@ -5199,6 +5208,10 @@ join_prev_warrior_lodge_society_effect = {
 		limit = { PREV = { society_member_of = warrior_lodge_celtic } }
 		join_society = warrior_lodge_celtic
 	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_basque } }
+		join_society = warrior_lodge_basque
+	}
 }
 give_this_warrior_lodge_religion_effect = { #Mostly for spawned characters.
 	if = {
@@ -5334,6 +5347,13 @@ give_this_warrior_lodge_religion_effect = { #Mostly for spawned characters.
 			has_global_flag = celtic_reformation
 		}
 		religion = celtic_pagan_reformed
+	}
+	if = {
+		limit = {
+			society_member_of = warrior_lodge_basque
+			has_global_flag = basque_reformation
+		}
+		religion = basque_pagan_reformed
 	}
 }
 
@@ -9456,6 +9476,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = catholic
@@ -9529,6 +9551,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = cathar
@@ -9602,6 +9626,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = fraticelli
@@ -9675,6 +9701,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = waldensian
@@ -9748,6 +9776,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = lollard
@@ -9821,6 +9851,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = orthodox
@@ -9894,6 +9926,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = miaphysite
@@ -9967,6 +10001,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = monophysite
@@ -10040,6 +10076,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = bogomilist
@@ -10113,6 +10151,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = monothelite
@@ -10186,6 +10226,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = iconoclast
@@ -10259,6 +10301,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = paulician
@@ -10332,6 +10376,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = nestorian
@@ -10405,6 +10451,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = messalian
@@ -10478,6 +10526,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = sunni
@@ -10551,6 +10601,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = zikri
@@ -10624,6 +10676,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = yazidi
@@ -10697,6 +10751,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = ibadi
@@ -10770,6 +10826,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = kharijite
@@ -10843,6 +10901,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = shiite
@@ -10916,6 +10976,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = druze
@@ -10989,6 +11051,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = hurufi
@@ -11062,6 +11126,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = jewish
@@ -11135,6 +11201,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = karaite
@@ -11208,6 +11276,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = samaritan
@@ -11281,6 +11351,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = zoroastrian
@@ -11354,6 +11426,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = mazdaki
@@ -11427,6 +11501,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = manichean
@@ -11500,6 +11576,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = khurmazta
@@ -11573,6 +11651,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = bon
@@ -11646,6 +11726,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = bon_reformed
@@ -11719,6 +11801,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = hellenic_pagan
@@ -11792,6 +11876,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = hellenic_pagan_reformed
@@ -11865,6 +11951,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = taoist
@@ -11938,6 +12026,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = hindu
@@ -12011,6 +12101,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = buddhist
@@ -12084,6 +12176,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = jain
@@ -12157,6 +12251,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = norse_pagan_reformed
@@ -12230,6 +12326,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = slavic_pagan_reformed
@@ -12303,6 +12401,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = tengri_pagan_reformed
@@ -12376,6 +12476,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = baltic_pagan_reformed
@@ -12449,6 +12551,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = finnish_pagan_reformed
@@ -12522,6 +12626,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = west_african_pagan_reformed
@@ -12595,6 +12701,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = zun_pagan_reformed
@@ -12668,6 +12776,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = norse_pagan
@@ -12741,6 +12851,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = slavic_pagan
@@ -12814,6 +12926,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = tengri_pagan
@@ -12887,6 +13001,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = baltic_pagan
@@ -12960,6 +13076,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = finnish_pagan
@@ -13033,6 +13151,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = west_african_pagan
@@ -13106,6 +13226,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = zun_pagan
@@ -13180,6 +13302,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = celtic_pagan
@@ -13253,6 +13377,8 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							# CK2Plus
 							has_character_flag = character_was_celtic_pagam
 							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
     					}
     				}
     				religion = celtic_pagan_reformed
@@ -13262,6 +13388,156 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
     	}
     	set_secret_religion = celtic_pagan_reformed
     	clr_character_flag = character_was_celtic_pagan_reformed
+		break = yes
+    }
+	if = {
+    	limit = {
+    		OR = {
+    			AND = {
+    				NOT = {
+    					OR = {
+    						has_character_flag = character_was_catholic
+							has_character_flag = character_was_cathar
+							has_character_flag = character_was_fraticelli
+							has_character_flag = character_was_waldensian
+							has_character_flag = character_was_lollard
+							has_character_flag = character_was_orthodox
+							has_character_flag = character_was_miaphysite
+							has_character_flag = character_was_monophysite
+							has_character_flag = character_was_bogomilist
+							has_character_flag = character_was_monothelite
+							has_character_flag = character_was_iconoclast
+							has_character_flag = character_was_paulician
+							has_character_flag = character_was_nestorian
+							has_character_flag = character_was_messalian
+							has_character_flag = character_was_sunni
+							has_character_flag = character_was_zikri
+							has_character_flag = character_was_yazidi
+							has_character_flag = character_was_ibadi
+							has_character_flag = character_was_kharijite
+							has_character_flag = character_was_shiite
+							has_character_flag = character_was_druze
+							has_character_flag = character_was_hurufi
+							has_character_flag = character_was_jewish
+							has_character_flag = character_was_karaite
+							has_character_flag = character_was_samaritan
+							has_character_flag = character_was_zoroastrian
+							has_character_flag = character_was_mazdaki
+							has_character_flag = character_was_manichean
+							has_character_flag = character_was_khurmazta
+							has_character_flag = character_was_bon
+							has_character_flag = character_was_bon_reformed
+							has_character_flag = character_was_hellenic_pagan
+							has_character_flag = character_was_hellenic_pagan_reformed
+							has_character_flag = character_was_taoist
+							has_character_flag = character_was_hindu
+							has_character_flag = character_was_buddhist
+							has_character_flag = character_was_jain
+							has_character_flag = character_was_norse_pagan_reformed
+							has_character_flag = character_was_slavic_pagan_reformed
+							has_character_flag = character_was_tengri_pagan_reformed
+							has_character_flag = character_was_baltic_pagan_reformed
+							has_character_flag = character_was_finnish_pagan_reformed
+							has_character_flag = character_was_west_african_pagan_reformed
+							has_character_flag = character_was_zun_pagan_reformed
+							has_character_flag = character_was_norse_pagan
+							has_character_flag = character_was_slavic_pagan
+							has_character_flag = character_was_tengri_pagan
+							has_character_flag = character_was_baltic_pagan
+							has_character_flag = character_was_finnish_pagan
+							has_character_flag = character_was_west_african_pagan
+							has_character_flag = character_was_zun_pagan
+							has_character_flag = character_was_aztec
+							has_character_flag = character_was_aztec_reformed
+							# CK2Plus
+							has_character_flag = character_was_celtic_pagam
+							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
+    					}
+    				}
+    				religion = basque_pagan
+    			}
+    			has_character_flag = character_was_basque_pagan
+			}
+    	}
+    	set_secret_religion = basque_pagan
+    	clr_character_flag = character_was_basque_pagan
+		break = yes
+    }
+	if = {
+    	limit = {
+    		OR = {
+    			AND = {
+    				NOT = {
+    					OR = {
+    						has_character_flag = character_was_catholic
+							has_character_flag = character_was_cathar
+							has_character_flag = character_was_fraticelli
+							has_character_flag = character_was_waldensian
+							has_character_flag = character_was_lollard
+							has_character_flag = character_was_orthodox
+							has_character_flag = character_was_miaphysite
+							has_character_flag = character_was_monophysite
+							has_character_flag = character_was_bogomilist
+							has_character_flag = character_was_monothelite
+							has_character_flag = character_was_iconoclast
+							has_character_flag = character_was_paulician
+							has_character_flag = character_was_nestorian
+							has_character_flag = character_was_messalian
+							has_character_flag = character_was_sunni
+							has_character_flag = character_was_zikri
+							has_character_flag = character_was_yazidi
+							has_character_flag = character_was_ibadi
+							has_character_flag = character_was_kharijite
+							has_character_flag = character_was_shiite
+							has_character_flag = character_was_druze
+							has_character_flag = character_was_hurufi
+							has_character_flag = character_was_jewish
+							has_character_flag = character_was_karaite
+							has_character_flag = character_was_samaritan
+							has_character_flag = character_was_zoroastrian
+							has_character_flag = character_was_mazdaki
+							has_character_flag = character_was_manichean
+							has_character_flag = character_was_khurmazta
+							has_character_flag = character_was_bon
+							has_character_flag = character_was_bon_reformed
+							has_character_flag = character_was_hellenic_pagan
+							has_character_flag = character_was_hellenic_pagan_reformed
+							has_character_flag = character_was_taoist
+							has_character_flag = character_was_hindu
+							has_character_flag = character_was_buddhist
+							has_character_flag = character_was_jain
+							has_character_flag = character_was_norse_pagan_reformed
+							has_character_flag = character_was_slavic_pagan_reformed
+							has_character_flag = character_was_tengri_pagan_reformed
+							has_character_flag = character_was_baltic_pagan_reformed
+							has_character_flag = character_was_finnish_pagan_reformed
+							has_character_flag = character_was_west_african_pagan_reformed
+							has_character_flag = character_was_zun_pagan_reformed
+							has_character_flag = character_was_norse_pagan
+							has_character_flag = character_was_slavic_pagan
+							has_character_flag = character_was_tengri_pagan
+							has_character_flag = character_was_baltic_pagan
+							has_character_flag = character_was_finnish_pagan
+							has_character_flag = character_was_west_african_pagan
+							has_character_flag = character_was_zun_pagan
+							has_character_flag = character_was_aztec
+							has_character_flag = character_was_aztec_reformed
+							# CK2Plus
+							has_character_flag = character_was_celtic_pagam
+							has_character_flag = character_was_celtic_pagan_reformed
+							has_character_flag = character_was_basque_pagam
+							has_character_flag = character_was_basque_pagan_reformed
+    					}
+    				}
+    				religion = basque_pagan_reformed
+    			}
+    			has_character_flag = character_was_basque_pagan_reformed
+			}
+    	}
+    	set_secret_religion = basque_pagan_reformed
+    	clr_character_flag = character_was_basque_pagan_reformed
 		break = yes
     }
 }
@@ -13488,6 +13764,14 @@ add_religion_char_flag_effect = {
     	limit = { religion = celtic_pagan_reformed }
     	set_character_flag = character_was_celtic_pagan_reformed
     }
+	if = {
+    	limit = { religion = basque_pagan }
+    	set_character_flag = character_was_basque_pagan
+    }
+	if = {
+    	limit = { religion = basque_pagan_reformed }
+    	set_character_flag = character_was_basque_pagan_reformed
+    }
 }
 
 clr_religion_char_flag_effect = {
@@ -13544,6 +13828,8 @@ clr_religion_char_flag_effect = {
 	# CK2Plus
 	clr_character_flag = character_was_celtic_pagan
 	clr_character_flag = character_was_celtic_pagan_reformed
+	clr_character_flag = character_was_basque_pagan
+	clr_character_flag = character_was_basque_pagan_reformed
 }
 
 event_target_old_religion_from_flag_effect = {
@@ -13875,6 +14161,18 @@ event_target_old_religion_from_flag_effect = {
 	if = {
     	limit = { has_character_flag = character_was_celtic_pagan_reformed }
     	celtic_pagan_reformed = {
+    		save_event_target_as = old_religion
+    	}
+    }
+	if = {
+    	limit = { has_character_flag = character_was_basque_pagan }
+    	basque_pagan = {
+    		save_event_target_as = old_religion
+    	}
+    }
+	if = {
+    	limit = { has_character_flag = character_was_basque_pagan_reformed }
+    	basque_pagan_reformed = {
     		save_event_target_as = old_religion
     	}
     }
@@ -15955,6 +16253,28 @@ flip_secret_religious_community_provinces = {
 					}
 					religion = celtic_pagan
 					remove_province_modifier = secret_celtic_pagan_community
+				}
+			}
+		}
+		secret_religious_society_basque_pagan_reformed = {
+			ROOT = {
+				any_demesne_province = {
+					limit = {
+						has_province_modifier = secret_basque_pagan_reformed_community
+					}
+					religion = basque_pagan_reformed
+					remove_province_modifier = secret_basque_pagan_reformed_community
+				}
+			}
+		}
+		secret_religious_society_basque_pagan = {
+			ROOT = {
+				any_demesne_province = {
+					limit = {
+						has_province_modifier = secret_basque_pagan_community
+					}
+					religion = basque_pagan
+					remove_province_modifier = secret_basque_pagan_community
 				}
 			}
 		}
@@ -20284,6 +20604,28 @@ root_secret_religion_provinces_convert_effect = {
 						}
 						religion = celtic_pagan
 						remove_province_modifier = secret_celtic_pagan_community
+					}
+				}
+			}
+			secret_religious_society_basque_pagan_reformed = {
+				PREV = {
+					any_demesne_province = {
+						limit = {
+							has_province_modifier = secret_basque_pagan_reformed_community
+						}
+						religion = basque_pagan_reformed
+						remove_province_modifier = secret_basque_pagan_reformed_community
+					}
+				}
+			}
+			secret_religious_society_basque_pagan = {
+				PREV = {
+					any_demesne_province = {
+						limit = {
+							has_province_modifier = secret_basque_pagan_community
+						}
+						religion = basque_pagan
+						remove_province_modifier = secret_basque_pagan_community
 					}
 				}
 			}
@@ -25003,6 +25345,9 @@ add_warrior_lodge_leader_trait_effect = {
 		warrior_lodge_celtic = {
 			add_trait = celtic_leader
 		}
+		warrior_lodge_basque = {
+			add_trait = basque_leader
+		}
 	}
 }
 fire_haruspicy_event_effect = {
@@ -25575,6 +25920,8 @@ apply_dogmatic_on_start_effect = {
 	#CK2Plus
 	remove_intermarry = celtic_pagan
 	remove_intermarry = celtic_pagan_reformed
+	remove_intermarry = basque_pagan
+	remove_intermarry = basque_pagan_reformed
 }
 
 bloodthirsty_tiered_traits_effect = {
@@ -26044,6 +26391,20 @@ transfer_crown_on_abdication_effect = {
 				}
 			}
 	}
+	if = {
+		limit = {
+			has_landed_title = d_basque_pagan_reformed
+			any_artifact = { artifact_type = scepter_basque_fylkir }
+		}
+			current_heir = { save_event_target_as = scepter_basque_fylkir_heir }
+			any_artifact = {
+				limit = { artifact_type = scepter_basque_fylkir }
+				transfer_artifact = {
+					from = PREV
+					to = event_target:scepter_basque_fylkir_heir
+				}
+			}
+	}
 	#Now transfer all other remaining artifacts to the player_heir, who may or may not be the current_heir.
 	player_heir = { save_event_target_as = scoped_player_heir }
 	any_artifact = {
@@ -26064,6 +26425,7 @@ transfer_crown_on_abdication_effect = {
 				artifact_type = scepter_hellenic_fylkir
 				# CK2Plus
 				artifact_type = crown_celtic_fylkir
+				artifact_type = scepter_basque_fylkir
 			}
 		}
 		transfer_artifact = {

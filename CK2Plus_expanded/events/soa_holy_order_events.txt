@@ -13870,6 +13870,12 @@ character_event = {
 		}
 		text = expel_keepers_tirnanog
 	}
+	title = { # Sword of Ama Lur
+		trigger = {
+			has_character_flag = expel_sword_of_ama_lur
+		}
+		text = expel_sword_ama_lur
+	}
 
 	only_rulers = yes
 
@@ -14534,6 +14540,31 @@ character_event = {
 			}
 		}
 	}
+	option = {
+		trigger = {
+			has_character_flag = expel_sword_of_ama_lur
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		hidden_tooltip = {
+			d_sword_of_ama_lur = {
+				holder_scope = {
+					character_event = {
+						id = PlusBasque.331
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_sword_of_ama_lur
+				duration = -1
+				inherit = yes
+			}
+		}
+	}
 	option = { # Allow them to stay
 		name = "EVTOPTB_SOA_2990"
 		custom_tooltip = {
@@ -14561,6 +14592,9 @@ character_event = {
 			clr_character_flag = expel_knights_calatrava_check
 			clr_character_flag = expel_order_of_addai_check
 			clr_character_flag = expel_zun_warriors_check
+			# CK2Plus
+			clr_character_flag = expel_keepers_tirnanog_check
+			clr_character_flag = expel_sword_of_ama_lur_check
 		}
 	}
 }

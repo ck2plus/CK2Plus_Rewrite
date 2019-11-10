@@ -1873,6 +1873,10 @@ set_bloodline_founder_religion_flag_effect = {
 		limit = { religion_openly_celtic_or_reformed_trigger = yes }
 		new_bloodline = { set_bloodline_flag = requires_celtic_pagan_religion }
 	}
+	else_if = {
+		limit = { religion_openly_basque_or_reformed_trigger = yes }
+		new_bloodline = { set_bloodline_flag = requires_basque_pagan_religion }
+	}
 	else = {
 		# Add new religions in new else-if limits.
 	}

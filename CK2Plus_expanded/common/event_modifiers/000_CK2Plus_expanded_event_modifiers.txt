@@ -9,7 +9,9 @@
 #	Total = 2
 #
 #	celtic_battle_cry
+#	basque_black_sabbath
 #	expelled_d_keepers_tirnanog
+#	expelled_d_sword_of_ama_lur
 #
 #########################################
 
@@ -98,8 +100,20 @@ celtic_battle_cry = {
 	}
 }
 
+# Basque Black Sabbath
+basque_black_sabbath = {
+	icon = 52
+	command_modifier = {
+		speed = 0.1
+		religious_enemy = 0.1
+	}
+}
+
 # The format for these must be "expelled_[title tag]" or you will be able to employ expelled orders
 expelled_d_keepers_tirnanog = {
+	icon = 35
+}
+expelled_d_sword_of_ama_lur = {
 	icon = 35
 }
 
@@ -113,5 +127,17 @@ secret_celtic_pagan_reformed_community = {
 	icon = 18
 	is_visible = {
 		society_member_of = secret_religious_society_celtic_pagan_reformed
+	}
+}
+secret_basque_pagan_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_basque_pagan
+	}
+}
+secret_basque_pagan_reformed_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_basque_pagan_reformed
 	}
 }

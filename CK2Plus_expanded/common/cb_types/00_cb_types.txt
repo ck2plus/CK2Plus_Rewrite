@@ -11911,6 +11911,7 @@ pagan_holy_war = {
 				religion = zun_pagan_reformed
 				# CK2Plus
 				religion = celtic_pagan_reformed
+				religion = basque_pagan_reformed
 			}
 			NOT = { has_religion_feature = religion_peaceful }
 			NOT = { same_realm = FROM }
@@ -11994,6 +11995,7 @@ pagan_holy_war = {
 				religion = zun_pagan_reformed
 				# CK2Plus
 				religion = celtic_pagan_reformed
+				religion = basque_pagan_reformed
 			}
 			NOT = { same_realm = FROM }
 			NOT = { religion = FROM }

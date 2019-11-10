@@ -2,6 +2,7 @@
 #####
 
 # WARRIOR LODGES:
+# Celtic:
 warrior_lodge_celtic;[GetCelticWarriorSocietyName];[GetCelticWarriorSocietyName];[GetCelticWarriorSocietyName];;[GetCelticWarriorSocietyName];;;;;;;;x
 warrior_lodge_celtic_real;The Fianna;Les Fianna;Die Fianna;;Los Fianna;;;;;;;;;x
 warrior_lodge_celtic_random;The Wood Wanderers;Les Vagabonds en bois;Waldwanderer;;Los Vagabundos de madera;;;;;;;;x
@@ -38,3 +39,37 @@ string_battle_nick_celtic_symbol;Boar Spirit;;;;;;;;;;;;;x
 string_WL_celtic_religion;§Y[celtic_pagan_reformed.GetName]§! religion;;;;;;;;;;;;;x
 
 has_liege_vassal_or_neighbor_of_celtic_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YCeltic§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yvoisin§! qui suit la religion §Yceltique§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §YKeltischen§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §Ycéltico§! \n;;;;;;;;;x
+
+# Basque:
+warrior_lodge_basque;Protectors of Mari;Protecteurs de Mari;Beschützer von Mari;;Protectores de Mari;;;;;;;;;;;;;x
+warrior_lodge_basque_desc;TODO;TODO;TODO;;TODO;;;;;;;;;;;;;x
+
+warrior_lodge_basque_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+warrior_lodge_basque_black_sabbath;Call a Black Sabbath;Appeler une Messe Noire;Ruf einen Hexensabbat;;Llamar a un Aquelarre;;;;;;;;;x
+warrior_lodge_basque_black_sabbath_desc;[Root.GetBerserkerDecisionDesc];;;;;;;;;;;;;x
+warrior_lodge_basque_black_sabbath_power_desc;Enables §Gright-clicking§! on your own character portrait to temporarily improve your martial prowess.;Permet d'améliorer temporairement vos prouesses martiales.\n(Faites un clic droit sur votre portrait);Ermöglicht Euch, auf Euer eigenes Charakterporträt einen §GRechtsklick§! zu machen, um Ihre Kampfkunst vorübergehend zu verbessern.;;Puedes §Ghacer clic derecho§! en el retrato de tu personaje para mejorar temporalmente tu destreza marcial.;;;;;;;;;x
+basque_black_sabbath_decision;Black Sabbath;Messe Noire;Hexensabbat;;Aquelarre;;;;;;;;x
+basque_black_sabbath_decision_desc;Call a Black Sabbath;Appeler une Messe Noire;Ruf einen Hexensabbat;;Llamar a un Aquelarre;;;;;;;;;x
+basque_black_sabbath;Called a Black Sabbath;Appelé une masse noire;Hat einen Hexensabbat genannt;;Llamado un aquelarre;;;;;;;;;x
+not_already_called_black_sabbath_tt;Has NOT already called a black sabbath;N'a PAS déjà appelé une messe noire;Hat NICHT schon einen Hexensabbat gerufen;;NO ha llamado ya un aquelarre;;;;;;;;;x
+black_sabbath_tt;Movement Speed: §G+10.0%§!\nDamage Against Religious Enemies: §G+10.0%§!;Vitesse de déplacement: §G+10.0%§!\nDégâts contre ses ennemis religieux: §G+10.0%§!;Bewegungsgeschwindigkeit: §G+10.0%§!\nSchaden gegen religiöse Feinde: §G+10.0%§!;;Velocidad de movimiento: §G+10.0%§!\nDaño producido a un enemigo religioso: §G+10.0%§!;;;;;;;;;x
+
+currency_name_warrior_lodge_basque;Renown;Renommée;Bekanntheit;;Renombre;;;;;;;;;x
+
+warrior_lodge_basque_rank_1_female;Fledgling;Novice;Anfängerin;;Novata;;;;;;;;;x
+warrior_lodge_basque_rank_2_female;Warrior;Guerrière;Kriegerin;;Guerrera;;;;;;;;;x
+warrior_lodge_basque_rank_3_female;Veteran;Vétérane;Veteranin;;Veterana;;;;;;;;;x
+warrior_lodge_basque_rank_4_female;Heroine;Héroïne;Heldin;;Heroína;;;;;;;;;x
+warrior_lodge_basque_rank_1_male;Fledgling;Novice;Anfänger;;Novato;;;;;;;;;x
+warrior_lodge_basque_rank_2_male;Warrior;Guerrier;Krieger;;Guerrero;;;;;;;;;x
+warrior_lodge_basque_rank_3_male;Veteran;Vétéran;Veteran;;Veterano;;;;;;;;;x
+warrior_lodge_basque_rank_4_male;Hero;Héros;Held;;Héroe;;;;;;;;;x
+
+string_basque_training;adjusting the fit of [fellow_member.GetHerHis] pack, pointing out that our hike has gone on longer than planned. The [fellow_member.GetManWoman] smirks before remarking: "you're a natural in these hills, my friend.";;;;;;;;;;;;;x
+string_basque_symbol;Indalo;;;;;;;;;;;;;x
+string_basque_symbol_short;Indalo;;;;;;;;;;;;;x
+string_basque_symbol_short_cap;Indalo;;;;;;;;;;;;;x
+string_battle_nick_basque_symbol;Indalo;;;;;;;;;;;;;x
+string_WL_basque_religion;§Y[basque_pagan_reformed.GetName]§! religion;;;;;;;;;;;;;x
+
+has_liege_vassal_or_neighbor_of_basque_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YVasconic§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yvoisin§! qui suit la religion §YVasconique§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §YVasconisch§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §YVasconico§! \n;;;;;;;;;x

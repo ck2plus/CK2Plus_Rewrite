@@ -92,11 +92,138 @@ pagan_group = {
 
 		intermarry = baltic_pagan
 		intermarry = baltic_pagan_reformed
+		intermarry = basque_pagan
+		intermarry = basque_pagan_reformed
 		intermarry = finnish_pagan
 		intermarry = finnish_pagan_reformed
 		intermarry = norse_pagan
 		intermarry = norse_pagan_reformed
 		intermarry = slavic_pagan
 		intermarry = slavic_pagan_reformed
+		intermarry = basque_pagan
+		intermarry = basque_pagan_reformed
+	}
+	basque_pagan_reformed = {
+		graphical_culture = norsegfx #For on-map CoA's
+		alternate_start = { always = no }
+
+		reformed = basque_pagan_reformed
+
+		ai_convert_other_group = 2 #Always proselytize
+		ai_convert_same_group = 2  #Always proselytize
+
+		color = { 0.15 0.35 0.15 } # TODO
+
+		icon = 60 # TODO
+		heresy_icon = 62 # TODO
+
+		scripture_name = THE_FOLKLORE # TODO
+		priest_title = SORGIN
+        crusade_name = GREAT_HOLY_WAR
+		high_god_name = GOD_MARI
+
+		god_names = {
+			GOD_MARI GOD_SUGAAR GOD_URTZI GOD_EKHI GOD_AMALUR GOD_ILARGI GOD_ORKO GOD_EGOI GOD_EATE
+		}
+		evil_god_names = {
+			EVIL_INGUMA EVIL_AIDE EVIL_GAIZKIN EVIL_GAUEKO
+		}
+
+		allow_rivermovement = yes
+		defensive_attrition = yes
+		priests_can_marry = yes
+		join_crusade_if_bordering_hostile = yes
+		allow_in_ruler_designer = no
+		feminist = yes
+		women_can_take_consorts = yes
+		men_can_take_consorts = no
+		female_temple_holders = yes
+		male_temple_holders = no
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+
+		unit_home_modifier = {
+			land_morale = 0.5
+			light_infantry_defensive = 0.5
+			heavy_infantry_defensive = 0.5
+			pikemen_defensive = 0.5
+			light_cavalry_defensive = 0.5
+			knights_defensive = 0.5
+			archers_defensive = 0.5
+			horse_archers_defensive = 0.5
+			camel_cavalry_defensive = 0.5
+			war_elephants_defensive = 0.5
+
+			garrison_size = 0.2
+
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+	}
+	basque_pagan = {
+		graphical_culture = norsegfx #For on-map CoA's
+
+		reformed = basque_pagan_reformed
+
+		ai_convert_other_group = 2 #Always proselytize
+		ai_convert_same_group = 2  #Always proselytize
+
+		color = { 0.15 0.35 0.15 } # TODO
+
+		icon = 60 # TODO
+		heresy_icon = 62 # TODO
+
+		scripture_name = THE_FOLKLORE # TODO
+		priest_title = SORGIN
+        crusade_name = GREAT_HOLY_WAR
+		high_god_name = GOD_MARI
+
+		god_names = {
+			GOD_MARI GOD_SUGAAR GOD_URTZI GOD_EKHI GOD_AMALUR GOD_ILARGI GOD_ORKO GOD_EGOI
+		}
+		evil_god_names = {
+			EVIL_INGUMA EVIL_AIDE EVIL_GAIZKIN
+		}
+
+		allow_rivermovement = yes
+		defensive_attrition = yes
+		priests_can_marry = yes
+		hard_to_convert = yes
+		feminist = yes
+		women_can_take_consorts = yes
+		men_can_take_consorts = no
+		female_temple_holders = yes
+		male_temple_holders = no
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+
+		unit_home_modifier = {
+			land_morale = 0.5
+			light_infantry_defensive = 0.5
+			heavy_infantry_defensive = 0.5
+			pikemen_defensive = 0.5
+			light_cavalry_defensive = 0.5
+			knights_defensive = 0.5
+			archers_defensive = 0.5
+			horse_archers_defensive = 0.5
+			camel_cavalry_defensive = 0.5
+			war_elephants_defensive = 0.5
+
+			garrison_size = 0.2
+
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+
+		intermarry = baltic_pagan
+		intermarry = baltic_pagan_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = norse_pagan
+		intermarry = norse_pagan_reformed
+		intermarry = slavic_pagan
+		intermarry = slavic_pagan_reformed
+		intermarry = celtic_pagan
+		intermarry = celtic_pagan_reformed
 	}
 }

@@ -4794,6 +4794,16 @@ narrative_event = {
 						}
 					}
 				}
+				if = {
+					limit = { ROOT = { NOT = { religion = basque_pagan_reformed } } }
+					random_playable_ruler = {
+						limit = { religion = basque_pagan }
+						religion_authority = {
+							modifier = pagan_revival
+							years = 20
+						}
+					}
+				}
 			}
 			if = {
 				limit = { #Modifier not applied correctly by pagan reformation screen.
@@ -4873,6 +4883,8 @@ narrative_event = {
 					#CK2Plus religions
 					remove_intermarry = celtic_pagan
 					remove_intermarry = celtic_pagan_reformed
+					remove_intermarry = basque_pagan
+					remove_intermarry = basque_pagan_reformed
 				}
 			}
 			if = {
@@ -5241,6 +5253,14 @@ narrative_event = {
 				}
 				add_artifact = crown_celtic_fylkir
 			}
+			if = {
+				limit = {
+					has_religion_feature = religion_temporal_head
+					religion = basque_pagan_reformed
+
+				}
+				add_artifact = scepter_basque_fylkir
+			}
 			hidden_effect = { reformation_god_names_changes_effect = yes }
 			#Opinion boost to new religious head (if any) and Reformer.
 			if = {
@@ -5300,6 +5320,10 @@ narrative_event = {
 			if = {
 				limit = { religion = celtic_pagan_reformed }
 				set_global_flag = celtic_reformation
+			}
+			if = {
+				limit = { religion = basque_pagan_reformed }
+				set_global_flag = basque_reformation
 			}
         }
 	}

@@ -1,18 +1,17 @@
-namespace = PlusCeltic
+namespace = PlusBasque
 
 #######################################
 #
-# CK2Plus Celtic Events
+# CK2Plus Basque Events
 #
 #######################################
 #
 # CATALOG
 #
 # 001 - 100: General events
-# 101 - 200: Changelings (supernatural)
-# 201 - 300: Celtic feast events
+# 101 - 200: Supernatural events
+# 201 - 300: Basque feast events
 # 301 - 400: Holy Order events
-# 401 - 500: Tailteann Games events
 #
 #######################################
 
@@ -24,35 +23,35 @@ namespace = PlusCeltic
 #
 # INDEX
 #
-# 001: Druid trait for new temple holders
-# 002: Celtic Druid becomes an unworthy priest
+# 001: Sorgin trait for new temple holders
+# 002: Basque Sorgin becomes an unworthy priest
 #
 #######################################
 
-# New temple holders gain Druid trait, called on_new_holder
+# New temple holders gain Sorgin trait, called on_new_holder
 character_event = {
-	id = PlusCeltic.001
+	id = PlusBasque.001
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
 		is_ruler = yes
 		is_theocracy = yes
-		religion_openly_celtic_or_reformed_trigger = yes
+		religion_openly_basque_or_reformed_trigger = yes
 		NOR = {
-			trait = druid
-			trait = bad_priest_celtic
+			trait = sorgin
+			trait = bad_priest_basque
 		}
 	}
 
 	immediate = {
-		add_trait = druid
+		add_trait = sorgin
 	}
 }
 
-# Celtic Druid becomes an unworthy priest
+# Basque Sorgin becomes an unworthy priest
 character_event = {
-	id = PlusCeltic.002
+	id = PlusBasque.002
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -67,12 +66,12 @@ character_event = {
 		is_priest = yes
 		NOR = {
 			intrigue = 3
-			diplomacy = 4 # Higher than vanilla check, to compensate for Druid trait bonus
-			trait = bad_priest_celtic
+			diplomacy = 4 # Higher than vanilla check, to compensate for Sorgin trait bonus
+			trait = bad_priest_basque
 		}
 		OR = {
-			religion = celtic_pagan
-			religion = celtic_pagan_reformed
+			religion = basque_pagan
+			religion = basque_pagan_reformed
 		}
 		OR = {
 			trait = cynical
@@ -90,7 +89,7 @@ character_event = {
 	}
 
 	immediate = {
-		add_trait = bad_priest_celtic
+		add_trait = bad_priest_basque
 		if = {
 			limit = {
 				is_ruler = yes
@@ -127,10 +126,10 @@ character_event = {
 #
 # INDEX
 #
-# 301: Keepers of TÌr na n”g created
-# 302: Son of ruler volunteers to join
-# 303: Son or brother asks to join
-# 304: Son or brother joins
+# 301: Sword of Ama Lur created
+# 302: Daughter of ruler volunteers to join
+# 303: Daughter or sister asks to join
+# 304: Daughter or sister joins
 # 305: Liege refuses request to join
 #
 # 310: Ping event when donating money
@@ -149,12 +148,12 @@ character_event = {
 
 
 
-# The birth of the Keepers of TÌr na n”g
+# The birth of the Sword of Ama Lur
 narrative_event = {
-	id = PlusCeltic.301
-	title = PlusCeltic_301
+	id = PlusBasque.301
+	title = PlusBasque_301
 	desc = {
-		text = PlusCeltic_301_desc
+		text = PlusBasque_301_desc
 		trigger = {
 			NOT = {
 				has_alternate_start_parameter = {
@@ -179,13 +178,13 @@ narrative_event = {
 	hide_from = yes
 	
 	only_playable = yes
-	religion = celtic_pagan_reformed
-	has_global_flag = celtic_reformation
+	religion = basque_pagan_reformed
+	has_global_flag = basque_reformation
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		NOT = {
-			is_title_active = d_keepers_tirnanog
+			is_title_active = d_sword_of_ama_lur
 		}
 		controls_religion = yes # Let it happen for the Pope - he's always around
 	}
@@ -195,13 +194,13 @@ narrative_event = {
 	}
 	
 	immediate = {
-		activate_title = { title = d_keepers_tirnanog status = yes }
+		activate_title = { title = d_sword_of_ama_lur status = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random
-			religion = celtic_pagan_reformed
-			culture = irish
-			female = no
+			religion = basque_pagan_reformed
+			culture = basque
+			female = yes
 			age = 28
 			trait = brilliant_strategist
 			trait = zealous
@@ -212,79 +211,79 @@ narrative_event = {
 		}
 		new_character = {
 			wealth = 500
-			d_keepers_tirnanog = {
+			d_sword_of_ama_lur = {
 				grant_title = PREV
 			}
 			set_government_type = order_government
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
+				religion = basque_pagan_reformed
+				culture = basque
 				female = no
 				age = 16
 			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
+				religion = basque_pagan_reformed
+				culture = basque
 				female = no
 				age = 18
 			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
+				religion = basque_pagan_reformed
+				culture = basque
 				female = no
 				age = 18
 			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
-				female = no
+				religion = basque_pagan_reformed
+				culture = basque
+				female = yes
 				age = 20
 			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
-				female = no
+				religion = basque_pagan_reformed
+				culture = basque
+				female = yes
 				age = 25
 			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
-				female = no
+				religion = basque_pagan_reformed
+				culture = basque
+				female = yes
 				age = 26
 			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
-				female = no
+				religion = basque_pagan_reformed
+				culture = basque
+				female = yes
 				age = 28
 			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
+				religion = basque_pagan_reformed
+				culture = basque
 				female = yes
 				age = 16
 			}
 			create_character = {
 				random_traits = yes
 				dynasty = random
-				religion = celtic_pagan_reformed
-				culture = irish
+				religion = basque_pagan_reformed
+				culture = basque
 				female = yes
 				age = 17
 			}
@@ -292,37 +291,37 @@ narrative_event = {
 	}
 	
 	option = {
-		name = PlusCeltic_301_a
+		name = PlusBasque_301_a
 		trigger = {
-			religion = celtic_pagan_reformed
+			religion = basque_pagan_reformed
 		}
 	}
 	option = {
-		name = PlusCeltic_301_b
+		name = PlusBasque_301_b
 		trigger = {
-			NOT = { religion = celtic_pagan_reformed }
+			NOT = { religion = basque_pagan_reformed }
 		}
 	}
 }
 
-# The son of a ruler volunteers to join the Keepers of TÌr na n”g
+# The daughter of a ruler volunteers to join the Sword of Ama Lur
 character_event = {
-	id = PlusCeltic.302
+	id = PlusBasque.302
 	hide_window = yes
 	
-	only_men = yes
+	only_women = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
-	religion = celtic_pagan_reformed
+	religion = basque_pagan_reformed
 	
 	trigger = {
 		is_ruler = no
 		
 		martial = 5
 		
-		is_title_active = d_keepers_tirnanog
+		is_title_active = d_sword_of_ama_lur
 		
 		OR = {
 			father_even_if_dead = {
@@ -335,7 +334,7 @@ character_event = {
 		
 		liege = {
 			holy_order = no
-			religion = celtic_pagan_reformed
+			religion = basque_pagan_reformed
 			liege = {
 				holy_order = no
 			}
@@ -343,23 +342,16 @@ character_event = {
 		
 		has_dlc = "Sons of Abraham"
 		
-		NOT = { has_character_modifier = expelled_d_keepers_tirnanog }
+		NOT = { has_character_modifier = expelled_d_sword_of_ama_lur }
 		NOT = {
 			any_liege = {
-				has_character_modifier = expelled_d_keepers_tirnanog
+				has_character_modifier = expelled_d_sword_of_ama_lur
 			}
 		}
 
-		NOT = {
-			any_spouse = {
-				OR = {
-					is_landed = yes
-					AND = {
-						is_pregnant = yes
-					father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
-					}
-				}
-			}
+		NOR = {
+			any_spouse = { is_landed = yes }
+			is_pregnant = yes
 		}
 	}
 	
@@ -430,23 +422,23 @@ character_event = {
 	immediate = {
 		liege = {
 			character_event = {
-				id = PlusCeltic.303
+				id = PlusBasque.303
 			}
 		}
 	}
 }
 
-# Son or brother asks to join the Keepers of TÌr na n”g
+# Daughter or sister asks to join the Sword of Ama Lur
 character_event = {
-	id = PlusCeltic.303
-	desc = PlusCeltic_303_desc
+	id = PlusBasque.303
+	desc = PlusBasque_303_desc
 	picture = GFX_evt_throne_room_altaic
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = PlusCeltic_303_a # Agree
+		name = PlusBasque_303_a # Agree
 		ai_chance = {
 			factor = 100
 		}
@@ -460,14 +452,14 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PlusCeltic.304
-				tooltip = PlusCeltic_304_tt
+				id = PlusBasque.304
+				tooltip = PlusBasque_304_tt
 			}
 		}
 	}
 	
 	option = {
-		name = PlusCeltic_303_b # Refuse
+		name = PlusBasque_303_b # Refuse
 		
 		if = {
 			limit = {
@@ -478,22 +470,22 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PlusCeltic.305
-				tooltip = PlusCeltic_305_tt
+				id = PlusBasque.305
+				tooltip = PlusBasque_305_tt
 			}
 		}
 	}
 }
 
-# Son or brother joins the Keepers of TÌr na n”g
+# Daughter or sister joins the Sword of Ama Lur
 character_event = {
-	id = PlusCeltic.304
+	id = PlusBasque.304
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
-		d_keepers_tirnanog = {
+		d_sword_of_ama_lur = {
 			holder_scope = {
 				save_event_target_as = order_target
 				ROOT = {
@@ -504,9 +496,9 @@ character_event = {
 	}
 }
 
-# Liege refuses request to join the Keepers of TÌr na n”g
+# Liege refuses request to join the Sword of Ama Lur
 character_event = {
-	id = PlusCeltic.305
+	id = PlusBasque.305
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -519,9 +511,9 @@ character_event = {
 	}
 }
 
-# Ping event when donating money to the Keepers of TÌr na n”g
+# Ping event when donating money to the Sword of Ama Lur
 character_event = {
-	id = PlusCeltic.311
+	id = PlusBasque.311
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -530,7 +522,7 @@ character_event = {
 		wealth = 300
 		FROM = {
 			letter_event = {
-				id = PlusCeltic.312
+				id = PlusBasque.312
 			}
 		}
 		opinion = {
@@ -540,11 +532,11 @@ character_event = {
 	}
 }
 
-# Notification event when donating money to the Keepers of TÌr na n”g
+# Notification event when donating money to the Sword of Ama Lur
 letter_event = {
-	id = PlusCeltic.312
+	id = PlusBasque.312
 	desc = {
-		text = PlusCeltic_312_desc
+		text = PlusBasque_312_desc
 		trigger = {
 			NOT = {
 				has_alternate_start_parameter = {
@@ -574,15 +566,15 @@ letter_event = {
 
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
-	id = PlusCeltic.321
+	id = PlusBasque.321
 	hide_window = yes
 	
 	min_age = 16
 	only_playable = yes
-	religion = celtic_pagan_reformed
+	religion = basque_pagan_reformed
 	
 	trigger = {
-		d_keepers_tirnanog = {
+		d_sword_of_ama_lur = {
 			holder_scope = {
 				wealth = 300
 				NOT = {
@@ -597,10 +589,10 @@ character_event = {
 		
 		has_dlc = "Sons of Abraham"
 		
-		NOT = { has_character_modifier = expelled_d_keepers_tirnanog }
+		NOT = { has_character_modifier = expelled_d_sword_of_ama_lur }
 		NOT = {
 			any_liege = {
-				has_character_modifier = expelled_d_keepers_tirnanog
+				has_character_modifier = expelled_d_sword_of_ama_lur
 			}
 		}
 	}
@@ -609,7 +601,7 @@ character_event = {
 		months = 240
 		modifier = {
 			factor = 0.5
-			d_keepers_tirnanog = {
+			d_sword_of_ama_lur = {
 				holder_scope = {
 					NOT = { demesne_size = 1 }
 				}
@@ -617,7 +609,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			d_keepers_tirnanog = {
+			d_sword_of_ama_lur = {
 				holder_scope = {
 					NOT = { demesne_size = 2 }
 				}
@@ -625,7 +617,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			d_keepers_tirnanog = {
+			d_sword_of_ama_lur = {
 				holder_scope = {
 					num_of_count_titles = 1
 				}
@@ -633,7 +625,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			d_keepers_tirnanog = {
+			d_sword_of_ama_lur = {
 				holder_scope = {
 					realm_size = 5
 				}
@@ -647,23 +639,23 @@ character_event = {
 				has_empty_holding = yes
 			}
 			province_event = {
-				id = PlusCeltic.322
+				id = PlusBasque.322
 			}
 		}
 	}
 }
 
 province_event = {
-	id = PlusCeltic.322
+	id = PlusBasque.322
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
-		d_keepers_tirnanog = {
+		d_sword_of_ama_lur = {
 			holder_scope = {
 				character_event = {
-					id = PlusCeltic.323
+					id = PlusBasque.323
 				}
 			}
 		}
@@ -671,7 +663,7 @@ province_event = {
 }
 
 character_event = {
-	id = PlusCeltic.323
+	id = PlusBasque.323
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -679,16 +671,16 @@ character_event = {
 	immediate = {
 		FROMFROM = {
 			letter_event = {
-				id = PlusCeltic.324
+				id = PlusBasque.324
 			}
 		}
 	}
 }
 
 letter_event = {
-	id = PlusCeltic.324
+	id = PlusBasque.324
 	desc = {
-		text = PlusCeltic_324_desc
+		text = PlusBasque_324_desc
 		trigger = {
 			NOT = {
 				has_alternate_start_parameter = {
@@ -717,15 +709,15 @@ letter_event = {
 			factor = 80
 			modifier = {
 				factor = 0
-				has_character_modifier = expelled_d_keepers_tirnanog
+				has_character_modifier = expelled_d_sword_of_ama_lur
 			}
 		}
 		
 		hidden_tooltip = {
 			FROMFROM = {
-				province_event = { id = PlusCeltic.325 }
+				province_event = { id = PlusBasque.325 }
 			}
-			remove_character_modifier = expelled_d_keepers_tirnanog
+			remove_character_modifier = expelled_d_sword_of_ama_lur
 		}
 		
 		piety = 200
@@ -744,8 +736,8 @@ letter_event = {
 
 # Castle has been erected
 province_event = {
-	id = PlusCeltic.325
-	desc = PlusCeltic_325_desc
+	id = PlusBasque.325
+	desc = PlusBasque_325_desc
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -766,9 +758,9 @@ province_event = {
 	}
 }
 
-# Ping event when expelling the Keepers of TÌr na n”g
+# Ping event when expelling the Sword of Ama Lur
 character_event = {
-	id = PlusCeltic.331
+	id = PlusBasque.331
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -791,7 +783,7 @@ character_event = {
 	
 		FROM = {
 			letter_event = {
-				id = PlusCeltic.332
+				id = PlusBasque.332
 			}
 		}
 		
@@ -802,11 +794,11 @@ character_event = {
 	}
 }
 
-# Notification event when expelling the Keepers of TÌr na n”g
+# Notification event when expelling the Sword of Ama Lur
 letter_event = {
-	id = PlusCeltic.332
+	id = PlusBasque.332
 	desc = {
-		text = PlusCeltic_332_desc
+		text = PlusBasque_332_desc
 		trigger = {
 			NOT = {
 				has_alternate_start_parameter = {

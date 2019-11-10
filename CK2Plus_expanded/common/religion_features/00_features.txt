@@ -1520,7 +1520,29 @@ religion_doctrine = {
         ai_will_do = {
             factor = 50
         }
-    }
+	}
+	
+	religion_feature_basque = {
+		picture = TODO
+		potential = {
+			has_game_started = yes
+			religion = basque_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			religion = basque_pagan_reformed
+			# TODO
+		}
+		effect = {
+			# TODO
+		}
+		ai_will_do = { factor = 50 }
+	}
 }
 
 religion_leadership = {

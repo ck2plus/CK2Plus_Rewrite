@@ -407,6 +407,21 @@ defined_text = {
 		}
 	}
 	text = {
+		localisation_key = String_Basque
+		trigger = {
+			OR = {
+				true_religion_basque_pagan_reformed_trigger = yes
+				true_religion_basque_pagan_trigger = yes
+			}
+		}
+		NOT = {
+			has_alternate_start_parameter = {
+				key = religion_names
+				value = random
+			}
+		}
+	}
+	text = {
 		localisation_key = String_Slavic
 		trigger = {
 			OR = {
@@ -976,6 +991,18 @@ defined_text = {
 		}
 	}
 	text = {
+		localisation_key = String_Basque_Follower
+		trigger = {
+			true_religion_basque_pagan_reformed_trigger = yes
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+	}
+	text = {
 		localisation_key = String_Slav
 		trigger = {
 			true_religion_slavic_pagan_reformed_trigger = yes
@@ -1087,6 +1114,18 @@ defined_text = {
 		localisation_key = String_Celtic_Follower
 		trigger = {
 			true_religion_celtic_pagan_trigger = yes
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = String_Basque_Follower
+		trigger = {
+			true_religion_basque_pagan_trigger = yes
 			NOT = {
 				has_alternate_start_parameter = {
 					key = religion_names
@@ -1347,6 +1386,21 @@ defined_text = {
 			OR = {
 				true_religion_celtic_pagan_trigger = yes
 				true_religion_celtic_pagan_reformed_trigger = yes
+			}
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = String_Basque
+		trigger = {
+			OR = {
+				true_religion_basque_pagan_trigger = yes
+				true_religion_basque_pagan_reformed_trigger = yes
 			}
 			NOT = {
 				has_alternate_start_parameter = {
@@ -1700,6 +1754,21 @@ defined_text = {
 		}
 	}
 	text = {
+		localisation_key = String_Basque_Follower
+		trigger = {
+			OR = {
+				religion = basque_pagan_reformed
+				religion = basque_pagan
+			}
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+	}
+	text = {
 		localisation_key = String_Slav
 		trigger = {
 			OR = {
@@ -1944,6 +2013,8 @@ defined_text = {
 						religion = hellenic_pagan_reformed
 						religion = bon
 						religion = bon_reformed
+						religion = basque_pagan
+						religion = basque_pagan_reformed
 					}
 				}
 				ROOT = {
@@ -1952,6 +2023,8 @@ defined_text = {
 						religion = hellenic_pagan_reformed
 						religion = bon
 						religion = bon_reformed
+						religion = basque_pagan
+						religion = basque_pagan_reformed
 					}
 				}
 			}
