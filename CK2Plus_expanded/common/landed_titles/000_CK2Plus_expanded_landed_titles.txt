@@ -14,3 +14,29 @@ e_karling = {
 		always = no
 	}
 }
+k_neustria = {
+	color={ 110 110 160 }
+	color2={ 220 220 20 }
+
+	culture = old_frankish
+
+	capital = 112 # Ile de France
+
+	allow = {
+		# TODO: Put in actual requirements
+		always = no
+	}
+}
+k_austrasia = {
+	color={ 160 160 160 }
+	color2={ 220 220 20 }
+
+	culture = old_frankish
+
+	capital = 90 # Julich
+
+	allow = {
+		# TODO: Put in actual requirements
+		always = no
+	}
+}
