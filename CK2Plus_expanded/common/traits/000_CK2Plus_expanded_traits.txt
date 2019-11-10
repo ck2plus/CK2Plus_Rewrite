@@ -105,7 +105,7 @@ basque_leader = {
 		terrain = plains
 	}
 	leader = yes
-	commander = no
+	random = no
 }
 
 sorgin = {
