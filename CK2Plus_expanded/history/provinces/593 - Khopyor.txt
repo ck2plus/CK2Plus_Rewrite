@@ -23,10 +23,22 @@ religion = finnish_pagan
 
 # History
 
-826.1.1 = { culture = pecheneg } 
+826.1.1 = { culture = alan } 
 826.1.1 = { religion = tengri_pagan } 
 
-1227.1.1 = { religion = sunni } 
+900.1.1 = {
+	culture = khazar
+}
 
-1238.1.1 = { culture = mongol }
+980.1.1 = {
+	culture = cuman
+}
+
+1227.1.1 = { culture = mongol } 
+
+1312.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+
 

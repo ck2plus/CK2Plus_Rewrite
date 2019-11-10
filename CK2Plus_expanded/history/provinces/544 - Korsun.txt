@@ -33,3 +33,16 @@ terrain = steppe
 1091.1.1 = {
 	culture = cuman
 }
+
+1238.1.1 = {
+	culture = mongol
+	religion = tengri_pagan
+}
+
+1312.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+
+
+

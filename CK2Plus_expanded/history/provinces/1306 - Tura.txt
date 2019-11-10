@@ -14,11 +14,9 @@ b_tura = tribal
 #b_kishkenekol
 
 # Misc
-culture = cuman
+culture = kipchak
 religion = tengri_pagan
 
 # History
 
-1060.1.1 = { culture = turkish }
-
-1218.1.1 = { culture = mongol } 
+1227.1.1 = { culture = mongol } 

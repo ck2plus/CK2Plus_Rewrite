@@ -23,11 +23,14 @@ religion = tengri_pagan
 
 # History
 
-833.1.1 = { culture = hungarian }
-892.1.1 = { culture = pecheneg } 
-
-1227.1.1 = { religion = sunni } 
+1000.1.1 = { culture = cuman } 
 
 1238.1.1 = { culture = mongol } 
+
 1283.1.1 = { trade_post = b_grimaldi }
+
+1312.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
 

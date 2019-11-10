@@ -25,8 +25,12 @@ religion = tengri_pagan
 
 1060.1.1 = { culture = cuman }
 
-1100.1.1 = { religion = sunni } 
-
 1227.1.1 = { culture = mongol } 
+
+1312.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+
 
 

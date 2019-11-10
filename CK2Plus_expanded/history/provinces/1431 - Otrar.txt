@@ -29,3 +29,9 @@ religion = manichean
 1227.1.1 = { religion = sunni } 
 
 1230.1.1 = { culture = mongol } 
+1230.1.1={ religion = tengri_pagan }
+
+1325.1.1 = { 
+    culture = tatar
+	religion = sunni
+}

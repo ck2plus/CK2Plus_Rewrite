@@ -17,7 +17,7 @@ b_novgorodseversky = tribal		#Xth
 #b_atyshua
 
 # Misc
-culture = turkish
+culture = severian
 religion = slavic_pagan
 
 # History

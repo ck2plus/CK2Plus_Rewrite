@@ -22,7 +22,11 @@ religion = tengri_pagan
 
 # History
 
-1060.1.1 = { culture = turkish }
+1000.1.1= { culture = kipchak }
 
-1218.1.1 = { culture = mongol } 
+1227.1.1 = { culture = mongol } 
 
+1325.1.1 = { 
+    culture = tatar
+	religion = sunni
+}

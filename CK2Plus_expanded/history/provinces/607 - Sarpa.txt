@@ -22,6 +22,17 @@ religion = tengri_pagan
 
 # History
 
-1227.1.1 = { religion = sunni } 
+850.1.1 = { religion = jewish } 
+
+980.1.1 = {
+	culture = cuman
+	religion = tengri_pagan
+}
 
 1238.1.1 = { culture = mongol }
+
+1312.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+

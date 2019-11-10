@@ -8,7 +8,7 @@ max_settlements = 3
 b_belaya = tribal
 
 # Misc
-culture = bolghar
+culture = bashkir
 religion = tengri_pagan
 
 # History

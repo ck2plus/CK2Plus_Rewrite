@@ -17,14 +17,18 @@ b_hradyzk = tribal	#865
 #b_kobeliaky	#1620
 
 # Misc
-culture = severian
-religion = slavic_pagan
+culture = hungarian
+religion = tengri_pagan
 
 # History
 833.1.1 = {
-	culture = ruthenian
+	culture = khazar
+}
+933.1.1 = {
+	culture = pecheneg
 }
 988.1.1 = {
+    culture = ruthenian
 	religion = orthodox
 }
 1083.1.1 = {

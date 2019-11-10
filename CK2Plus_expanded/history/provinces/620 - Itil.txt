@@ -50,12 +50,20 @@ religion = tengri_pagan
 #	b_xacitarxan = ct_guard_2
 #}
 
-1089.1.1 = { religion = sunni }
+1089.1.1 = {
+	culture = cuman
+	religion = tengri_pagan
+}
 
 #Mongol invasion
 #1227.1.1 = { remove_settlement = b_xacitarxan }
 
 1227.1.1 = { culture = mongol } 
+
+1320.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
 
 #1337.1.1 = { b_khaganbaligh = city }
 

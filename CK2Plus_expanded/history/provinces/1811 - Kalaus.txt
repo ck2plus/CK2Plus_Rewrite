@@ -11,5 +11,15 @@ culture = alan
 religion = tengri_pagan
 
 # History
-900.1.1 = { religion = orthodox } 
-1313.1.1= { religion = sunni } 
+
+850.1.1 = {
+	culture = khazar
+	religion = jewish
+}
+
+1000.1.1 = {
+	culture = alan
+	religion = orthodox
+}
+
+1313.1.1= { religion = sunni }

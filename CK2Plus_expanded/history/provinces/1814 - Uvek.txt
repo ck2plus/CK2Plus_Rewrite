@@ -15,9 +15,20 @@ religion = tengri_pagan
 
 822.1.1 = { culture = pecheneg } 
 
-1060.1.1 = { culture = cuman }
+930.1.1 = { 
+	culture = bolghar
+	religion = sunni
+}
 
-1200.1.1 = { religion = sunni } 
+1060.1.1 = { 
+     culture = cuman 
+     religion = tengri_pagan
+}
 
 1227.1.1 = { culture = mongol } 
+
+1312.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
 

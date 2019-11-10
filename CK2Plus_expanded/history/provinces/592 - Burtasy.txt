@@ -21,9 +21,17 @@ culture = mordvin
 religion = finnish_pagan
 
 # History
+
+800.1.1 = {
+	culture = alan
+	religion = tengri_pagan
+}
+
 1000.1.1 = {
 #	b_atkarsk = castle 
 	b_pokrovsk = temple
+	culture = mordvin
+	religion = finnic_pagan
 }
 
 #Mongol invasion

@@ -20,10 +20,24 @@ culture = volhynian
 religion = slavic_pagan
 
 # History
-892.1.1 = { 
-	culture = pecheneg
+
+832.1.1 = {
+	culture = hungarian
 	religion = tengri_pagan
 }
+
+
+892.1.1 = { 
+	culture = pecheneg
+}
 1171.1.1 = { culture = cuman }
-1238.1.1 = { culture = ruthenian } 
-1238.1.1 = { religion = orthodox }
+
+1238.1.1 = {
+	culture = mongol
+}
+
+1312.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+ 

@@ -7,11 +7,14 @@ max_settlements = 2
 b_buzachi = tribal
 
 # Misc
-culture = turkish
-religion = zoroastrian
+culture = pecheneg
+religion = tengri_pagan
 terrain = marsh
 
 # History
+
+800.1.1 = { culture = turkish }
+
 1187.1.1 = {
 	religion = sunni
 }

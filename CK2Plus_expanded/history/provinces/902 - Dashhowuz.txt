@@ -22,6 +22,7 @@ religion = nestorian
 # History
 1187.1.1 = {
 	religion = sunni
+	culture = persian
 }
 
 1230.1.1 = { culture = mongol }

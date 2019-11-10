@@ -17,7 +17,7 @@ b_ufa = tribal
 #b_sterlitamak = castle
 
 # Misc
-culture = bolghar
+culture = bashkir
 religion = tengri_pagan
 
 # History

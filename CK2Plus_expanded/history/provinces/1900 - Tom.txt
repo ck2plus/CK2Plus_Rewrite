@@ -1,18 +1,16 @@
-# 1877 - Buqtirma
+# 1900 - Tom
 
 # County Title
-title = c_buqtirma
+title = c_tom
 
 # Settlements
 max_settlements = 2
-b_buqtirma = tribal
+b_tom = tribal
 
 # Misc
 culture = kirghiz
 religion = tengri_pagan
 
-terrain = steppe
-
 # History
 
-900.1.1 = { religion = manichean }
+1227.1.1={ culture = mongol }

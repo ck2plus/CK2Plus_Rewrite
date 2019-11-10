@@ -16,13 +16,21 @@ b_rylsk = tribal	#1152
 #b_glushkvo
 
 # Misc
-culture = turkish
-religion = slavic_pagan
+culture = alan
+religion = tengri_pagan
 
 # History
-867.1.1 = {
-	culture = ruthenian
+
+830.1.1 = {
+	culture = khazar
+	religion = jewish
 }
+
+900.1.1 = {
+	culture = ruthenian
+	religion = slavic_pagan
+}
+
 988.1.1 = {
 	religion = orthodox
 	b_vyr = temple

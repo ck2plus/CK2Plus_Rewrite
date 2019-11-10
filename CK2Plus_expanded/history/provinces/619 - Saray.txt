@@ -37,15 +37,27 @@ religion = tengri_pagan
 #	b_chernyyar = ca_steppe_stable_1
 #}
 
-1100.1.1 = { religion = sunni }
-
 #Mongol invasion
 
+850.1.1 = { religion = jewish } 
+
+1080.1.1 = {
+	culture = cuman
+	religion = tengri_pagan
+}
+
 1227.1.1 = { culture = mongol } 
+
 #1227.1.1 = { remove_settlement = b_akhtuba }
  
 #1236.1.1 = { b_saray = castle }
 #1236.1.1 = { capital = b_saray }
+
+
+1320.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
 
 #1337.1.1 = { b_bataevka = castle }
 
