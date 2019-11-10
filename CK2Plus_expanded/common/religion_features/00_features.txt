@@ -862,6 +862,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_equal
 				has_selected_religion_feature = religion_feature_bon
 				has_selected_religion_feature = religion_meritocratic
+				religion = basque_pagan_reformed # Redundant
 				trigger_if = {
 					limit = { has_game_started = yes }
 					FROM = { 
