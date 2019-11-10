@@ -99,7 +99,7 @@ machas_javelin  = {
 
 basque_leader = {
 	command_modifier = {
-		terrain = mountains
+		terrain = mountain
 		terrain = hills
 		terrain = forest
 		terrain = plains
