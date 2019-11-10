@@ -33443,6 +33443,9 @@ e_spain = {
 				color = { 248 202 18 }
 				color2={ 255 255 255 }
 
+				holy_site = basque_pagan
+				holy_site = basque_pagan_reformed
+
 				b_valladolid = {
 				}
 				b_tordesillas = {
@@ -33709,9 +33712,6 @@ e_spain = {
 			c_urgell = {
 				color = { 196 110 60 }
 				color2={ 255 255 255 }
-
-				holy_site = basque_pagan
-				holy_site = basque_pagan_reformed
 
 				b_pallars = {
 				}
