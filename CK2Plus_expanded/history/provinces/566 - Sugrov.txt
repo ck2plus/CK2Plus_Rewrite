@@ -1,0 +1,37 @@
+# 566 - Sugrov
+
+# County Title
+title = c_sugrov
+
+# Settlements
+max_settlements = 4
+b_sugrov = tribal
+
+#b_khursa = city
+#b_yauchy = temple
+
+#b_khazar = castle
+#b_khratayak = castle
+#b_oboyan = castle
+#b_tim = castle
+#b_fatezh = castle
+
+# Misc
+culture = hungarian
+religion = tengri_pagan
+
+# History
+
+833.1.1 = { culture = khazar }
+
+980.1.1 = {
+	culture = cuman
+}
+
+1227.1.1 = { culture = mongol } 
+
+1312.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+

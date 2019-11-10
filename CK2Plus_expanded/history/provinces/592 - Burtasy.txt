@@ -1,0 +1,40 @@
+# 592 - Burtasy
+
+# County Title
+title = c_burtasy
+
+# Settlements
+max_settlements = 5
+b_saratov = tribal
+
+#b_mechetnaya = city
+
+#b_pokrovsk = temple
+#b_atkarsk = castle
+#b_sosnovyostrov = castle
+#b_balakova = castle
+#b_golykaramysh = castle
+#b_rtishchevo = castle
+
+# Misc
+culture = mordvin
+religion = finnish_pagan
+
+# History
+
+800.1.1 = {
+	culture = alan
+	religion = tengri_pagan
+}
+
+1000.1.1 = {
+#	b_atkarsk = castle 
+	b_pokrovsk = temple
+	culture = mordvin
+	religion = finnic_pagan
+}
+
+#Mongol invasion
+#1236.1.1 = { remove_settlement = b_atkarsk }
+ 
+#1337.1.1 = { b_balakova = castle }

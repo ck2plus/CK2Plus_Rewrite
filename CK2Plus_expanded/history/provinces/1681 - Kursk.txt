@@ -16,16 +16,25 @@ b_kursk = tribal	#1036
 #b_zolotukhino
 
 # Misc
-culture = turkish
-religion = slavic_pagan
+culture = alan
+religion = tengri_pagan
 
 # History
-867.1.1 = {
-	culture = ruthenian
+
+830.1.1 = {
+	culture = khazar
+	religion = jewish
 }
+
+900.1.1 = {
+	culture = ruthenian
+	religion = slavic_pagan
+}
+
 988.1.1 = {
 	religion = orthodox
 }
+
 1150.1.1 = {
 	b_kursk = castle
 }

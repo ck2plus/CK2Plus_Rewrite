@@ -17,8 +17,8 @@ b_pereyaslavl = tribal	#907
 #b_berezan		#1616
 
 # Misc
-culture = severian
-religion = slavic_pagan
+culture = hungarian
+religion = tengri_pagan
 
 # History
 833.1.1 = {

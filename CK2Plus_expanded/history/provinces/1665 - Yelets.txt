@@ -16,8 +16,8 @@ b_yelets = tribal	#1146
 #b_terbuny
 
 #Misc
-culture = turkish
-religion = finnish_pagan
+culture = alan
+religion = tengri_pagan
 terrain = plains
 
 # History

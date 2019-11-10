@@ -16,8 +16,8 @@ b_voin = tribal		#russian settlement between 900-1000
 #b_pishchane	#?
 
 # Misc
-culture = severian
-religion = slavic_pagan
+culture = hungarian
+religion = tengri_pagan
 
 # History
 833.1.1 = {

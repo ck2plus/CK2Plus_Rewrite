@@ -1,0 +1,26 @@
+# 1856 - Ubagan
+
+# County Title
+title = c_ubagan
+
+# Settlements
+max_settlements = 2
+b_ubagan = tribal
+
+# Misc
+culture = cuman
+religion = tengri_pagan
+terrain = steppe
+
+# History
+
+1000.1.1= { culture = kipchak }
+
+
+1227.1.1={ culture = mongol }
+1227.1.1={ religion = tengri_pagan }
+1325.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+ 

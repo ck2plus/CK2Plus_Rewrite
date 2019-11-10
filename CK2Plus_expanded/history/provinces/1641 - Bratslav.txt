@@ -21,6 +21,12 @@ religion = slavic_pagan
 terrain = steppe
 
 # History
+
+832.1.1 = {
+	culture = hungarian
+	religion = tengri_pagan
+}
+
 892.1.1 = { 
 	culture = pecheneg
 	religion = tengri_pagan
@@ -28,5 +34,5 @@ terrain = steppe
 988.1.1 = {
 	religion = orthodox
 }
-1091.1.1 = { culture = cuman }
+1171.1.1 = { culture = cuman }
 1238.1.1 = { culture = ruthenian }

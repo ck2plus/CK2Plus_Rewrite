@@ -16,7 +16,7 @@ b_kromy = tribal	#1147
 #b_sakovnina
 
 # Misc
-culture = turkish
+culture = severian
 religion = slavic_pagan
 
 # History

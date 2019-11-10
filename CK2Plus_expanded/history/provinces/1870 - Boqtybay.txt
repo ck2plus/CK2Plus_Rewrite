@@ -1,0 +1,24 @@
+# 1870 - Boqtybay
+
+# County Title
+title = c_boqtybay
+
+# Settlements
+max_settlements = 2 
+b_boqtybay = tribal
+
+# Misc
+culture = cuman
+religion = manichean
+	
+# History
+800.1.1 = {
+	religion = tengri_pagan
+}
+
+1227.1.1={ culture = mongol }
+1227.1.1={ religion = tengri_pagan }
+1325.1.1 = { 
+    culture = tatar
+	religion = sunni
+}

@@ -1,0 +1,21 @@
+# 1858 - Tavda
+
+# County Title
+title = c_tavda
+
+# Settlements
+max_settlements = 2
+b_tavda = tribal
+
+# Misc
+culture = cuman
+religion = tengri_pagan
+
+# History
+
+1227.1.1 = { culture = mongol } 
+
+1325.1.1 = { 
+    culture = tatar
+	religion = sunni
+}

@@ -16,12 +16,13 @@ b_vorotynsk = tribal	#1155
 #b_somovo
 
 # Misc
-culture = turkish
-religion = slavic_pagan
+culture = alan
+religion = tengri_pagan
 
 # History
 867.1.1 = {
 	culture = russian
+	religion = tengri_pagan
 }
 988.1.1 = {
 	religion = orthodox
