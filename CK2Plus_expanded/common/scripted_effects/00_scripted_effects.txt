@@ -13391,12 +13391,12 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 		break = yes
     }
 	if = {
-    	limit = {
-    		OR = {
-    			AND = {
-    				NOT = {
-    					OR = {
-    						has_character_flag = character_was_catholic
+		limit = {
+			OR = {
+				AND = {
+					NOT = {
+						OR = {
+							has_character_flag = character_was_catholic
 							has_character_flag = character_was_cathar
 							has_character_flag = character_was_fraticelli
 							has_character_flag = character_was_waldensian
@@ -13454,15 +13454,15 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							has_character_flag = character_was_celtic_pagan_reformed
 							has_character_flag = character_was_basque_pagam
 							has_character_flag = character_was_basque_pagan_reformed
-    					}
-    				}
-    				religion = basque_pagan
-    			}
-    			has_character_flag = character_was_basque_pagan
+						}
+					}
+					religion = basque_pagan
+				}
+				has_character_flag = character_was_basque_pagan
 			}
-    	}
-    	set_secret_religion = basque_pagan
-    	clr_character_flag = character_was_basque_pagan
+		}
+		set_secret_religion = basque_pagan
+		clr_character_flag = character_was_basque_pagan
 		break = yes
     }
 	if = {
@@ -14165,17 +14165,17 @@ event_target_old_religion_from_flag_effect = {
     	}
     }
 	if = {
-    	limit = { has_character_flag = character_was_basque_pagan }
-    	basque_pagan = {
-    		save_event_target_as = old_religion
-    	}
-    }
+		limit = { has_character_flag = character_was_basque_pagan }
+		basque_pagan = {
+			save_event_target_as = old_religion
+		}
+	}
 	if = {
-    	limit = { has_character_flag = character_was_basque_pagan_reformed }
-    	basque_pagan_reformed = {
-    		save_event_target_as = old_religion
-    	}
-    }
+		limit = { has_character_flag = character_was_basque_pagan_reformed }
+		basque_pagan_reformed = {
+			save_event_target_as = old_religion
+		}
+	}
 }
 
 increase_visibility_effect = {
@@ -26396,14 +26396,14 @@ transfer_crown_on_abdication_effect = {
 			has_landed_title = d_basque_pagan_reformed
 			any_artifact = { artifact_type = scepter_basque_fylkir }
 		}
-			current_heir = { save_event_target_as = scepter_basque_fylkir_heir }
-			any_artifact = {
-				limit = { artifact_type = scepter_basque_fylkir }
-				transfer_artifact = {
-					from = PREV
-					to = event_target:scepter_basque_fylkir_heir
-				}
+		current_heir = { save_event_target_as = scepter_basque_fylkir_heir }
+		any_artifact = {
+			limit = { artifact_type = scepter_basque_fylkir }
+			transfer_artifact = {
+				from = PREV
+				to = event_target:scepter_basque_fylkir_heir
 			}
+		}
 	}
 	#Now transfer all other remaining artifacts to the player_heir, who may or may not be the current_heir.
 	player_heir = { save_event_target_as = scoped_player_heir }
