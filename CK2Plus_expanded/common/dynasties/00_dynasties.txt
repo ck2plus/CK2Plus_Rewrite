@@ -22032,7 +22032,7 @@
 
 100566 = {
 	name = "Kipchak"
-	culture = cuman
+	culture = kipchak	# NOTE reassigned in CK2+ (was cuman)
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 1 0 3 12 1 1 }
@@ -39749,7 +39749,7 @@
 
 1042195 = {
 	name = "Kipchaki"
-	culture = cuman
+	culture = kipchak	# NOTE reassigned in CK2+ (was cuman)
 	religion = tengri_pagan
 }
 
