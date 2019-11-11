@@ -16,9 +16,6 @@ celtic_leader;Fian;Fian;Fian;;Fian;;;;;;;;;x
 celtic_leader_desc;This character is a Féinnid, a veteran of the Fianna warbands.;Cette personne est un Féinnid, un vétéran de la compagnie de Fianna.;Dieser Charakter ist ein Féinnid, [Root.Geteineine] Veteran[Root.GetinFemale] der Fianna-Kriegsbande..;;Esta persona es un Féinnid, un veterano de la compañía Fianna.;;;;;;;;;x
 
 #Basque
-sorgin;Sorgin;;;;;;;;;;;;;x
-sorgin_desc;Sorginak, often referred to by outsiders as witches, lead their people in worship and sacrifice.;Sorginak, souvent qualifié de sorcière par les étrangers, mène le peuple au culte et au sacrifice.;Sorginak, von Außenstehenden oft als Hexen bezeichnet, führen ihr Volk in Anbetung und Opferbereitschaft.;;Sorginak, a menudo referido por extraños como brujas, dirige a su gente en adoración y sacrificio.;;;;;;;;;x
-
 bad_priest_basque;[GetBadPriestBasqueMaleFemale];[GetBadPriestBasqueMaleFemale];[GetBadPriestBasqueMaleFemale];;[GetBadPriestBasqueMaleFemale];;;;;;;;;x
 bad_priest_basque_desc;The personality and habits of this sorgin are very inappropriate for [GetHerHis] position. And what's worse, [GetSheHe] has been unable to hide them from public view.;La personnalité et les moeurs de ce[GetEEtte] sorgin sont très inappropriées pour quelqu'un de sa fonction. Pire encore, [GetIlElle] est incapable de commettre ses actes impies discrètement.;Die Persönlichkeit und Gewohnheiten [Getdiesesdieser] [GetDruidMaleFemale] sind äußerst unpassend für [GetHerHis]en Stand. Auch vermag [GetSheHe] es keineswegs, seine schlechten Eigenschaften vor der Allgemeinheit zu verbergen.;;La personalidad y hábitos de este sorgin son muy inapropiados para esta posición. Y lo peor es que no es capaz de esconderlos en público.;;;;;;;;;x
 BadPriestBasqueMale;Wicked Sorgin;Sorgin Mauvais;Teuflisch Sorgin;;Sorgin Malvado;;;;;;;;;x

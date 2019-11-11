@@ -108,26 +108,6 @@ basque_leader = {
 	random = no
 }
 
-sorgin = {
-	potential = {
-		OR = {
-			religion = basque_pagan
-			religion = basque_pagan_reformed
-		}
-		is_theocracy = yes
-	}
-
-	opposites =  {
-		bad_priest_basque
-	}
-
-	customizer = no
-	religious = yes
-
-	learning = 1
-	diplomacy = 1
-}
-
 bad_priest_basque = {
 	potential = {
 		OR = {

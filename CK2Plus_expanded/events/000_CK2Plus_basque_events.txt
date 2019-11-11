@@ -23,35 +23,13 @@ namespace = PlusBasque
 #
 # INDEX
 #
-# 001: Sorgin trait for new temple holders
-# 002: Basque Sorgin becomes an unworthy priest
+# 001: Basque Sorgin becomes an unworthy priest
 #
 #######################################
 
-# New temple holders gain Sorgin trait, called on_new_holder
-character_event = {
-	id = PlusBasque.001
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		is_ruler = yes
-		is_theocracy = yes
-		religion_openly_basque_or_reformed_trigger = yes
-		NOR = {
-			trait = sorgin
-			trait = bad_priest_basque
-		}
-	}
-
-	immediate = {
-		add_trait = sorgin
-	}
-}
-
 # Basque Sorgin becomes an unworthy priest
 character_event = {
-	id = PlusBasque.002
+	id = PlusBasque.001
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -66,7 +44,7 @@ character_event = {
 		is_priest = yes
 		NOR = {
 			intrigue = 3
-			diplomacy = 4 # Higher than vanilla check, to compensate for Sorgin trait bonus
+			diplomacy = 3
 			trait = bad_priest_basque
 		}
 		OR = {
