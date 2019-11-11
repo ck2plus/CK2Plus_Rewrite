@@ -66,10 +66,10 @@ warrior_lodge_basque_rank_3_male;Veteran;Vétéran;Veteran;;Veterano;;;;;;;;;x
 warrior_lodge_basque_rank_4_male;Hero;Héros;Held;;Héroe;;;;;;;;;x
 
 string_basque_training;adjusting the fit of [fellow_member.GetHerHis] pack, pointing out that our hike has gone on longer than planned. The [fellow_member.GetManWoman] smirks before remarking: "you're a natural in these hills, my friend.";;;;;;;;;;;;;x
-string_basque_symbol;Indalo;;;;;;;;;;;;;x
-string_basque_symbol_short;Indalo;;;;;;;;;;;;;x
-string_basque_symbol_short_cap;Indalo;;;;;;;;;;;;;x
-string_battle_nick_basque_symbol;Indalo;;;;;;;;;;;;;x
+string_basque_symbol;young bull;;;;;;;;;;;;;x
+string_basque_symbol_short;bull;;;;;;;;;;;;;x
+string_basque_symbol_short_cap;Young Bull;;;;;;;;;;;;;x
+string_battle_nick_basque_symbol;Bull Spirit;;;;;;;;;;;;;x
 string_WL_basque_religion;§Y[basque_pagan_reformed.GetName]§! religion;;;;;;;;;;;;;x
 
 has_liege_vassal_or_neighbor_of_basque_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YVasconic§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yvoisin§! qui suit la religion §YVasconique§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §YVasconisch§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §YVasconico§! \n;;;;;;;;;x
