@@ -55,7 +55,7 @@ northeast_caucasian_group = {
 			Grigori_Gregory
 			Hel
 			Iakovi_Jacob Ieremi_Jeremy Ili_Elias Ioan_John Is Isaak_Isaac Iskapos Iusus_Jesus
-			Jora_George
+			Javanshir Jora_George
 			Kaban Karlen Kiro Kul
 			Manak Marakesun Mesrob Movses_Moses Murad
 			Namoc Nawasardun
@@ -80,7 +80,7 @@ northeast_caucasian_group = {
 			Hawke Hez
 			Ihal Ingen
 			Karavano Ke Kebin Kici
-			Majrami_Maria Maral Mare Meresimleri Muca
+			Majrami_Maria Maral Mare Meresimleri Muca Muca
 			Naiow Nana Nedun Nikar Nisanlu Nora
 			Ocaq Occal Olia Ot Orayin
 			Qehbelug Quš
