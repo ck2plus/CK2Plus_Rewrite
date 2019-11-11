@@ -693,6 +693,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_jizya
 				has_selected_religion_feature = religion_dogmatic
 				has_selected_religion_feature = religion_feature_hellenic # Redundant Doctrine
+				has_selected_religion_feature = religion_feature_basque
 			}
 		}
 		effect = {
@@ -1540,12 +1541,14 @@ religion_doctrine = {
 			religion = basque_pagan_reformed
 			NOT = {
 				has_selected_religion_feature = religion_ritual_sacrifice
+				has_selected_religion_feature = religion_syncretic
 			}
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_aztec_sacrifices }
 			custom_tooltip = { text = tooltip_religion_feature_bloodthirsty_mechanics }
 			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
+			custom_tooltip = { text = tooltip_religion_feature_syncretic }
 			hidden_tooltip = { 
 				set_hard_to_convert = yes
 				set_short_reign_opinion_year_mult = 0
