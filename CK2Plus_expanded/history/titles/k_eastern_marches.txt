@@ -1,0 +1,11 @@
+1.1.1 = {
+	active = no
+	de_jure_liege = 0
+}
+962.2.2 = {
+	active = yes
+	de_jure_liege = e_hre
+}
+1192.5.8 = {
+	active = no
+}

@@ -1,0 +1,22 @@
+1.1.1 = {
+	pentarch = b_roma
+	active = no
+	de_jure_liege = 0
+}
+817.1.1 = {
+	active = yes
+	de_jure_liege = e_karling
+	liege = e_karling
+	holder = 30227 #Lothair I
+	law = agnatic_succession
+}
+855.8.22 = {
+	holder = 144998 #Lothair II
+	name = LOTHARINGIA
+	adjective = LOTHARINGIA_ADJ
+	set_global_flag = middle_francia_renamed
+}
+870.8.8 = { # Treaty of Meerssen
+	holder = 0
+	active = no
+}

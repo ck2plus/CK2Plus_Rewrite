@@ -1,0 +1,52 @@
+1.1.1 = {
+	active = no
+}
+450.1.1 = {
+	active = yes
+	holder = 168671 #Merovech
+}
+458.1.1 = {
+	holder = 168672 #Childeric I
+}
+481.1.1 = {
+	holder = 168673 #Clovis I
+}
+511.11.27 = {
+	holder = 0
+}
+679.12.23 = {
+	holder = 168703 #Thierry III
+}
+691.4.12 = {
+	holder = 168709 #Clovis IV
+}
+695.1.1 = {
+	holder = 168711 #Childebert IV
+}
+711.4.14 = {
+	holder = 168712 #Dagobert III
+}
+715.12.31 = {
+	holder = 168706 #Chilpéric II
+}
+717.1.1 = {
+	holder = 0
+}
+719.1.1 = {
+	holder = 168706 #Chilpéric II
+}
+721.2.13 = {
+	holder = 168713 #Thierry IV
+}
+737.1.1 = {
+	holder = 0
+}
+743.2.15 = {
+	holder = 168707 #Childéric III
+}
+751.11.1 = {
+	holder = 131722 #Pépin le Bref
+}
+768.9.24 = {
+	holder = 0
+}

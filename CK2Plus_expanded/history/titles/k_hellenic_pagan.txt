@@ -1,0 +1,8 @@
+
+363.6.26 = { # Death of the last Pagan Roman Emperor
+	holder = 0
+	effect = {
+		insert_title_history = e_byzantium
+	}
+	active = no
+}
