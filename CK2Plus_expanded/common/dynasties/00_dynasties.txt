@@ -44679,12 +44679,6 @@
 	religion = baltic_pagan
 }
 
-1061019 = {
-	name = "von Hanover"
-	culture = german
-	religion = catholic
-}
-
 1040150 = {
 	name = "Mac Dalach"
 	culture = irish
@@ -47189,11 +47183,6 @@
 }
 
 105946 = {
-	name = "Kernev"
-	culture = breton
-}
-
-105946 = {
 	name = "Builth"
 	culture = welsh
 	religion = catholic
@@ -47334,12 +47323,6 @@
 	name = "Shansabani"
 	culture = persian
 	religion = buddhist
-}
-
-1059971 = {
-	name = "Kaukabi"
-	culture = persian
-	religion = shiite
 }
 
 1059976 = {
@@ -47581,11 +47564,6 @@
 1900040 = {
 	name = "de Tilly"
 	culture = outremer
-}
-
-1062594 = {
-	name = "Faroaldingi"
-	culture = longobard
 }
 
 1062205 = {
@@ -48915,12 +48893,6 @@
 }
 
 1062442 = {
-	name = "Ubayid"
-	culture = bedouin_arabic
-	religion = shiite
-}
-
-1062442 = {
 	name = "Ifranid"
 	culture = maghreb_arabic
 	religion = ibadi
@@ -49827,11 +49799,6 @@
 	religion = sunni
 }
 
-1062594 = {
-	name = "Faroaldingi"
-	culture = lombard
-}
-
 1062595 = {
 	name = "Kál"
 	culture = hungarian
@@ -49915,12 +49882,6 @@
 	name = "Meginhardi"
 	culture = german
 	religion = catholic
-}
-
-1062595 = {
-	name = "Shahin"
-	culture = levantine_arabic
-	religion = pagan
 }
 
 1062594 = {
@@ -50537,14 +50498,32 @@
 	religion = ibadi
 }
 
-1069092 = {
-    name = "Béni Irmazyan"
-    culture = houara
-    religion = ibadi
+# The following are fixes for duplicate vanilla entries (pending related character history adjustments):
+
+1069093 = { # NOTE character 221101 "Faroald" in lombard.txt still wrongfully uses the old duplicate dynasty - fix if possible
+	name = "Faroaldingi"
+	culture = lombard
 }
 
-1069092 = {
-    name = "Haragha"
-    culture = houara
-    religion = ibadi
+1069094 = { # NOTE character 260860 "Ubayd" in bedouin_arabic.txt still wrongfully uses the old duplicate dynasty - fix if possible
+	name = "Ubayid"
+	culture = bedouin_arabic
+	religion = shiite
+}
+
+1069095 = { # NOTE character 248695 "Hossein" in persian.txt still wrongfully uses the old duplicate dynasty - fix if possible
+	name = "Kaukabi"
+	culture = persian
+	religion = shiite
+}
+
+1069096 = { # NOTE 3 characterS 252344 "Deniel", 252345 "Iahan" & 252346 "Deniel" in breton.txt still wrongfully uses the old duplicate dynasty - fix if possible
+	name = "Kernev"
+	culture = breton
+}
+
+1069097 = { # NOTE character 256041 "Berthold" in german.txt still wrongfully uses the old duplicate dynasty - fix if possible
+	name = "von Hanover"
+	culture = german
+	religion = catholic
 }

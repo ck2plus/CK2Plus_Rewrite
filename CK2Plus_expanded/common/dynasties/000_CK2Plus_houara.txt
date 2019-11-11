@@ -1,6 +1,6 @@
 # Valid IDs 1000199001 - 1000200000
 1000199001 = {
-    name = "Bï¿½ni Irmazyan"
+    name = "Béni Irmazyan"
     culture = houara
     religion = ibadi
 }
