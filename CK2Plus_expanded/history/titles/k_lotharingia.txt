@@ -1,9 +1,12 @@
 1.1.1 = {
 	pentarch = b_roma
 	active = no
+	de_jure_liege = 0
 }
 817.1.1 = {
 	active = yes
+	de_jure_liege = e_karling
+	liege = e_karling
 	holder = 30227 #Lothair I
 	law = agnatic_succession
 }
@@ -13,30 +16,7 @@
 	adjective = LOTHARINGIA_ADJ
 	set_global_flag = middle_francia_renamed
 }
-867.1.1 = {
-	de_jure_liege = e_hre
-}
-869.8.8 = {
-	holder = 90104 #Charles I the Bald
-}
-877.6.10 = {
-	holder = 42019 #Louis I the Younger
-}
-882.1.20 = {
-	holder = 90105 #Charles II the Fat
-}
-888.1.1 = {
-	holder = 7945 #Arnulf of Carinthia
-}
-895.1.1 = {
-	holder = 144997 #Zwentibold
-}
-900.8.13 = {
-	holder = 7949 #Louis III the Child
-}
-911.9.20 = {
-	holder = 90111 #Charles III the Simple
-}
-923.1.1 = {
+870.8.8 = { # Treaty of Meerssen
 	holder = 0
+	active = no
 }

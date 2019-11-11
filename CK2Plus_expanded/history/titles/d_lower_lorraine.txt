@@ -1,5 +1,16 @@
-903.1.1={
-	liege = "k_lotharingia"
+1.1.1 = {
+	de_jure_liege = 0
+}
+760.1.1 = {
+	de_jure_liege = k_neustria
+}
+817.1.1 = {
+	de_jure_liege = k_lotharingia
+	liege = k_lotharingia
+}
+870.9.15 = { # Treaty of Meerssen
+	de_jure_liege = k_germany
+	liege = k_germany
 }
 903.1.1={
 	holder = 7961 #Gebhard
