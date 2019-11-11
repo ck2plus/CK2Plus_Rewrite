@@ -45,7 +45,7 @@
 
 7 = {
 	name = "Ottoman"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 43 12 3 10 }
@@ -10962,7 +10962,7 @@
 
 7335 = {
 	name = "Salaghurid"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
@@ -11012,7 +11012,7 @@
 
 7342 = {
 	name = "Pishkinoghlu"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
@@ -11140,7 +11140,7 @@
 
 7362 = {
 	name = "Dulkadir"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 20 6 1 0 }
@@ -11150,7 +11150,7 @@
 
 7363 = {
 	name = "Inalid"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
@@ -13752,7 +13752,7 @@
 
 12101 = {
 	name = "Pervane"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 32 6 0 12 }
@@ -13762,13 +13762,13 @@
 
 12102 = {
 	name = "Qayi"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
 12103 = {
 	name = "Eretnid"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 23 12 2 7 }
@@ -13778,7 +13778,7 @@
 
 12104 = {
 	name = "Germiyan"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 18 4 12 12 }
@@ -13788,7 +13788,7 @@
 
 12105 = {
 	name = "Saruhan"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 53 6 1 1 }
@@ -13798,7 +13798,7 @@
 
 12106 = {
 	name = "Mentese"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 5 11 1 1 }
@@ -13808,7 +13808,7 @@
 
 12107 = {
 	name = "Aydin"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 3 3 12 12 }
@@ -13818,7 +13818,7 @@
 
 12108 = {
 	name = "Karaman"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 4 4 1 12 }
@@ -13828,7 +13828,7 @@
 
 12109 = {
 	name = "Tekke"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 41 10 12 0 }
@@ -16398,7 +16398,7 @@
 
 17004 = {
 	name = "Balik"
-	culture = turkish
+	culture = anatolian
 }
 
 17005 = {
@@ -22440,7 +22440,7 @@
 
 100621 = {
 	name = "Ecevit"
-	culture = turkish
+	culture = anatolian
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 0 0 9 4 1 13 }
@@ -22450,7 +22450,7 @@
 
 100622 = {
 	name = "Gökhan"
-	culture = turkish
+	culture = anatolian
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 0 0 5 11 1 1 }
@@ -22460,7 +22460,7 @@
 
 100623 = {
 	name = "Ilhan"
-	culture = turkish
+	culture = anatolian
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 0 0 9 2 13 0 }
@@ -22506,7 +22506,7 @@
 
 100628 = {
 	name = "Tarkan"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 12 3 0 1 }
@@ -22521,7 +22521,7 @@
 
 100630 = {
 	name = "Yavuz"
-	culture = turkish
+	culture = anatolian
 }
 
 100631 = {
@@ -22829,7 +22829,7 @@
 
 100674 = {
 	name = "Özkan"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 3 10 0 12 }
@@ -22839,7 +22839,7 @@
 
 100675 = {
 	name = "Doganin"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 16 3 12 9 }
@@ -29337,7 +29337,7 @@
 
 20089 = {
 	name = "Candar"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 23 2 9 9 }
@@ -35824,7 +35824,7 @@
 
 1040210 = {
 	name = "Saifuddin"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
@@ -38354,7 +38354,7 @@
 
 1042151 = {
 	name = "Simsek"
-	culture = turkish
+	culture = anatolian
 	religion = manichean
 }
 
@@ -39168,7 +39168,7 @@
 
 1042153 = {
 	name = "Kirazid"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
@@ -39767,13 +39767,13 @@
 
 1042198 = {
 	name = "Kayi"
-	culture = turkish
+	culture = anatolian
 	religion = tengri_pagan
 }
 
 1042199 = {
 	name = "Bozok"
-	culture = turkish
+	culture = anatolian
 	religion = tengri_pagan
 }
 
@@ -40472,19 +40472,19 @@
 
 1051105 = {
 	name = "Sarigül"
-	culture = turkish
+	culture = anatolian
 	religion = tengri_pagan
 }
 
 1051106 = {
 	name = "koray"
-	culture = turkish
+	culture = anatolian
 	religion = tengri_pagan
 }
 
 1051107 = {
 	name = "korkmaz"
-	culture = turkish
+	culture = anatolian
 	religion = tengri_pagan
 }
 
@@ -40635,7 +40635,7 @@
 
 1051122 = {
 	name = "Bayezid"
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
@@ -42311,31 +42311,31 @@
 
 1053008 = {
 	name = "Mavi" #Ficticious
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
 1053009 = {
 	name = "Yesil" #Ficticious
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
 1053010 = {
 	name = "Güçlü" #Ficticious
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
 1053011 = {
 	name = "Rüzgar" #Ficticious
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
 1053012 = {
 	name = "Üzengi" #Ficticious
-	culture = turkish
+	culture = anatolian
 	religion = sunni
 }
 
