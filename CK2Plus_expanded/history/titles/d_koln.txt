@@ -8,7 +8,7 @@
     de_jure_liege = k_lotharingia
 }
 843.8.1 = { # Treaty of Verdun
-    de_jure_liege = k_germany
+    de_jure_liege = k_lotharingia # No change yet
 }
 1190.8.21={
     liege="e_hre"
@@ -50,5 +50,5 @@
     holder=33173
 }
 1332.1.5={
-    holder=487032 #Walram von Jülich
+    holder=487032 #Walram von JÃ¼lich
 }
