@@ -30,37 +30,49 @@ west_aryan_group = {
 		color = { 0.8 0.3 0.21 }
 
 		male_names = {
-			Ajit Amar "Amar Dasi" Amir Angad Arjun Atar
-			Basawa Bhagwant Bhaimani Budh
-			Chand Charat
-			Damodar Dasu Datu Dayaram Didar
-			Farid Fateh
-			Gobind Gurdita
-			Hargobind Hari "Har Krishan" "Har Rai"
-			"Jai Ram" Jetha Jujhar
-			Kalyan Kapur Kehar Kharak Khushal
-			Lahna Lakhmichand Laxman
-			Mahadev Mohan Mohri
-			Nanak Narayan Nodha
-			Partap Pheru Prithichand Prithvi
-			"Ram Rai" Ranjit Ranjor
-			Sahdev Shamsher Sher Srichand
-			"Tegh Bahadur" "Tej Bhan" Thakur
-			Zorawar
+			Abhimanyu Ajitapida Amitabh Anandapala Anangapida Ananta Avanti Avantivarman
+			Bhikshachara Bhimadeva Bhimagupta Bhimpala Bhoja Boomersing "Boonyal Sing" Braj
+			Chakravarman Chandra Chandrapida Chippatajayapida "Chumar Sing"
+			Dharmma Dingoo Durlabhaka Durlabhavardhana
+			Gargachandra Gelsing Gissing Gopalavarman Gulhana
+			Haladhara Hariraja Harsha Hinnasing "Hubba Sing"
+			Jagadeva Jassaka Jayapala Jayapida Jayasimha Jawaharlal Jonaraja
+			Kailas Kalasha Kalhana Kalyana Kanaka Kashyap Khankha Kshemagupta Kuldeep Kumar Kummosing Kusalsri Kuvalayapida
+			Laksmandadeva Lal Lalitaditya Lalitapida Lawik Lothana
+			Mallajuna Mamma Melsing Mohan Moosing Motilal Muktapida
+			Nandigupta Narayan Nath Nilkanth Nirjitavarman
+			Padma Paramanuka Parmeshwar Partha Parvagupta "Poonyar Sing" Prajyabhatta
+			Radda Rahul Rajadeva Ram Rameshwar "Ram Sing" Ravinder
+			Salhana Samgramadeva Sangramadeva Sangramapida Sangramaraja Sankata Shankaravardhana Shankaravarman Shura Shuravarman Sikandar Simhadeva Simharaja Singoo Srivara Suhadeva Suka Sussala Swaroop
+			Tarapida "Tej Bahadur" Tribhuvanagupta Trilochanpala Triloki
+			Uchchala Unmattavanti Utkarsha Utpalaka Utpalapida
+			Vajraditya Vantideva Varnata Vijaymalla Vuppadeva
+			Yashaskara Yashovarman
 		}
 
 		female_names = {
-			Amro Anokhi Anup
-			Begum Bhani
-			Dani
-			Gujri
-			Jodhabai
-			Khivi Kishan
-			Lachmi
-			Nanaki Nihal
-			Ramo
-			Sabhirai Sahib Sulakhni Sundari
-			Tripta
+			Aarti Abha Aditi Ajita Anamika Anangalekha Anjana Asha
+			Bai Bappika Bibi
+			Chakramardika Chandrakanta Chandravati Chandri Chither
+			Devalekha Didda Doodi Durga Durgi
+			Ekta
+			Ganga Girja
+			"Habba Khatoon" Hamsi Harud Heeposh Hyderi
+			Inayat Indira Iravati Ishika Ishita
+			Jaheel Jaishree Jaya Jayadevi Jayalakshmi
+			Kalyana Kamala Kamaladevi Kamlesh Kapila Kashi Kavita Kavya Khayaal Khushnaseeb Kishori Kongposh Kota Krishna
+			Lalita Lakshmi
+			Mala Mangjarika Manju Massa Mayur
+			Naga Nagalata Nanda Nandita Narendraprabha Nidhi Nirupama
+			Padmasri Padmavati Pamposh Poti Preeti Punim
+			Raat Radha Rajalaksmi Rameshwari Rani Ratna Ratnaprabha Ratnavali "Rozi Bai"
+			Sanwari Sarada Saraswati Sharadaa Shashi Sheen "Sheli Bai" Shermull Shireen "Shoosha Bai" Shradha Shrilakha Shuhul Smriti Soni Sonth Sookoomull Soti Sugandha Sulla Suryamati Sushma Swarup Sweta Syamala
+			Tilaka 
+			Urmila
+			Vasu Veena Vijaya Vimala
+			Wahidah
+			Yasomati
+			Zarine Ziya Zoon Zoongaash
 		}
 
 		castes = yes
