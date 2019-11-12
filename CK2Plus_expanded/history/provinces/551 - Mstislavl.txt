@@ -24,7 +24,7 @@ religion = slavic_pagan
 	culture = ruthenian
 }
 988.1.1 = {
-	religion = ruthenian
+	religion = orthodox
 }
 1150.1.1 = {
 	b_mstitslavl = castle
