@@ -131,7 +131,7 @@ egyptian_pagan_group = {
 		icon = 67
 		heresy_icon = 68
 		
-		color = { 0.5 0.4 0 }
+#		color = { 0.5 0.4 0 }
 		
 		scripture_name = BOOK_OF_THE_DEAD
 		crusade_name = GREAT_HOLY_WAR
