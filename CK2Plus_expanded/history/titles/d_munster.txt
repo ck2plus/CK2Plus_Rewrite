@@ -146,10 +146,6 @@ holder=83658 #Máel-Gualae
 {
 holder=83763 #Cenn-Fáelad
 }
-859.1.1=
-{
-holder=83763 #Cenn-Fáelad
-}
 872.1.1=
 {
 holder=83672 #Dúnchad son of Dub-dá-Bairenn
