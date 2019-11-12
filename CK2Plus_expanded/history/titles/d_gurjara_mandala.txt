@@ -133,9 +133,6 @@
 }
 1304.1.1={
 	liege = k_delhi
-}
-1304.1.1={
-	liege = e_rajastan
 	holder = 170246 #Ala-ud-din Muhammad
 }
 1316.1.3={
