@@ -45,7 +45,6 @@ religion_monotheist = {
 religion_polytheist = {
 	OR = {
 		religion_group = pagan_group
-		religion_group = egyptian_pagan_group
 		#etc
 	}
 }
