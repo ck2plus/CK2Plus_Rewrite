@@ -8,7 +8,7 @@
 #
 ####################################################################
 
-northwest_caucasian_group = {
+northeast_caucasian_group = {
 	graphical_cultures =  { easterngfx }
 	
 	caucasian_avar = {
