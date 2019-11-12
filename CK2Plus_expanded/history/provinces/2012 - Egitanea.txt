@@ -8,7 +8,6 @@ max_settlements = 4
 b_rodao = castle
 b_idanha = city
 #b_covilha = city
-#b_castelobranco = castle
 #b_alcains = city
 #b_penha = temple
 #b_belver = castle
@@ -23,6 +22,3 @@ religion = catholic
 	culture = galician
 }
 1150.1.1 = { culture = portuguese }
-1214.1.1 = { 
-	b_castelobranco = castle
-}

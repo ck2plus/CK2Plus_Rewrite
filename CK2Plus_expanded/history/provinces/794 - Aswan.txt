@@ -6,9 +6,9 @@ title = c_aswan
 # Settlements
 max_settlements = 5
 b_aswan = castle
-b_faras = city
 b_elefantina = temple
-b_qasribrim = castle
+b_bigeh = castle
+b_shellal = city
 
 #b_veset = castle
 #b_philae = castle
