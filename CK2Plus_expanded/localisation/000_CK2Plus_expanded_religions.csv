@@ -208,8 +208,8 @@ temple_empire_of_basque_pagan;Sacred Realm of;Sacré Domaine de;Sakrales Reich vo
 temple_empire_of_basque_pagan_reformed;Sacred Realm of;Sacré Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
 
 # Artifacts
-scepter_basque_fylkir;TODO;TODO;TODO;;TODO;;;;;;;;;x
-scepter_basque_fylkir_desc;TODO;TODO;TODO;;TODO;;;;;;;;;x
+scepter_basque_fylkir;Makila of the High Sorgin;Makila du Grand Sorgin;Makila der Hohen Sorgin;;Makila de la Gran Sorgin;;;;;;;;;x
+scepter_basque_fylkir_desc;The sacred scepter held by the High Sorgin, head of the Euskara faith.;Le sceptre sacré tenu par le Grand Sorgin, chef de la foi Euskara.;Das heilige Zepter der Hohen Sorgin, dem Oberhaupt des Euskara-Glaubens.;;El cetro sagrado sostenido por la Gran Sorgin, jefe de la fe Euskara.;;;;;;;;;x
 
 # Triggers
 religion_openly_basque_or_reformed_tooltip;Publicly follows the §Y[basque_pagan.GetName]§! religion;Suit publiquement la religion §Y[basque_pagan.GetName]§!;Folgt öffentlich der §Y[basque_pagan.GetName]en§! Religion;;Sigue públicamente la religión §Y[basque_pagan.GetName]§!;;;;;;;;x
