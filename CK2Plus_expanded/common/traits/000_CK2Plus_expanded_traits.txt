@@ -65,7 +65,6 @@ machas_javelin  = {
 		eagle_warrior
 		gondi_shahansha
 		kailash_guardian
-		machas_javelin
 		mujahid
 		nyames_shield
 		peruns_chosen
