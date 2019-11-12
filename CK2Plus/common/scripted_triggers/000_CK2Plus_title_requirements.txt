@@ -35,6 +35,11 @@ has_ck2plus_duchy_reqs = {
 		trigger = { FROM = { is_landed = yes } }
 		#TODO: Add landed reqs
 	}
+	# If holder is a vassal
+	conditional_tooltip = {
+		trigger = { independent = no }
+		lower_real_tier_than = DUKE
+	}
 	# Apply regardless
 	is_adult = yes
 	has_regent = no
@@ -50,6 +55,11 @@ has_ck2plus_kingdom_reqs = {
 	conditional_tooltip = {
 		trigger = { FROM = { is_landed = yes } }
 		# TODO: Add landed reqs
+	}
+	# If holder is a vassal
+	conditional_tooltip = {
+		trigger = { independent = no }
+		lower_real_tier_than = KING
 	}
 	# Apply Regardless
 	is_title_active = FROM
