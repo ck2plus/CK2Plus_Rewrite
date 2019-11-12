@@ -138,10 +138,6 @@ holder=83657 #Áilgenán
 {
 holder=83658 #Máel-Gualae
 }
-853.1.1=
-{
-holder=83658 #Máel-Gualae
-}
 859.1.1=
 {
 holder=83763 #Cenn-Fáelad
