@@ -1,14 +1,14 @@
 1120.1.1 = {
 	holder = 260223
 }
-1145.1.1 = {
-	holder = 260224
-}
 1138.1.1 = {
 	set_tribute_suzerain = {
 		who = k_rus
 		type = permanent 
 	}
+}
+1145.1.1 = {
+	holder = 260224
 }
 1153.1.1 = {
 	clear_tribute_suzerain = k_rus
