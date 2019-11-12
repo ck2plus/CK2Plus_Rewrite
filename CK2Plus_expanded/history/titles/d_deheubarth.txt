@@ -159,13 +159,13 @@
 1201.8.1={
 	holder = 332039 #Maelgwn ap Rhys
 }
-1231.1.1={
-	holder = 454522
-}
 1219.5.4={
 	clear_tribute_suzerain = d_gwynedd
 	liege = k_england
 	holder = 7348 #William Marshal
+}
+1231.1.1={
+	holder = 454522
 }
 1231.4.6 = {
 	holder = 0
