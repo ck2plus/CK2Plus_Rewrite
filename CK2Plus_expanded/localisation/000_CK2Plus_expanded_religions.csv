@@ -119,9 +119,9 @@ basque_pagan_reformed;Euskara;Euskara;Euskara;;Euskara;;;;;;;;;x
 basque_pagan_DESC;Vasconic paganism was the religion of many tribes centered around Northeast Iberia and Southwest France which predate Europeans, but now only has adherents among the Basque people. Vasconic paganism is known for its matriarchical structure; women are the primary priests of the religion. The main figure of worship is Mari, mother goddess of the weather, and her consort Sugaar, god of thunder.;;;;;;;;;;;;;x
 basque_pagan_reformed_DESC;After many sacrifices to the Gods, the sorginak have seen signs in their divinations. The Euskara religion is revived, and ready to defend against false gods old and new.;;;;;;;;;;;;;x
 
-religion_feature_basque;TODO;TODO;TODO;;TODO;;;;;;;;;x
+religion_feature_basque;Daughters of Mari;Filles de Mari;Töchter von Mari;;Hijas de Mari;;;;;;;;;x
 religion_feature_basque_desc;TODO;;;;;;;;;;;;;x
-religion_feature_basque_feature;TODO;TODO;TODO;;TODO;;;;;;;;x
+religion_feature_basque_feature;Rulers follow the Vasconic principles of sacrifice and syncretism.;TODO;TODO;;TODO;;;;;;;;x
 
 GOD_MARI;Mari;;;;;;;;;;;;;x
 GOD_SUGAAR;Sugaar;;;;;;;;;;;;;x
@@ -139,6 +139,7 @@ EVIL_GAIZKIN;Gaizkin;;;;;;;;;;;;;x
 EVIL_GAUEKO;Gaueko;;;;;;;;;;;;;x
 
 SORGIN;Sorgin;;;;;;;;;;;;;x
+THE_OMENS;The Omens;Les Présages;Die Omen;;Los Presagios;;;;;;;;;x
 
 # Coven title
 d_basque_pagan_reformed;The High Coven;Le Grand Coven;Der Hoher Hexenzirkel;;El Gran Aquelarre;;;;;;;;;x
@@ -208,7 +209,7 @@ temple_empire_of_basque_pagan;Sacred Realm of;Sacré Domaine de;Sakrales Reich vo
 temple_empire_of_basque_pagan_reformed;Sacred Realm of;Sacré Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
 
 # Artifacts
-scepter_basque_fylkir;Makila of the High Sorgin;Makila du Grand Sorgin;Makila der Hohen Sorgin;;Makila de la Gran Sorgin;;;;;;;;;x
+scepter_basque_fylkir;Makila of the High Sorgin;Makila du le Grand Sorgin;Makila der Hohen Sorgin;;Makila de la Gran Sorgin;;;;;;;;;x
 scepter_basque_fylkir_desc;The sacred scepter held by the High Sorgin, head of the Euskara faith.;Le sceptre sacré tenu par le Grand Sorgin, chef de la foi Euskara.;Das heilige Zepter der Hohen Sorgin, dem Oberhaupt des Euskara-Glaubens.;;El cetro sagrado sostenido por la Gran Sorgin, jefe de la fe Euskara.;;;;;;;;;x
 
 # Triggers

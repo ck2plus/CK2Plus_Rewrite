@@ -112,10 +112,10 @@ pagan_group = {
 
 		color = { 0.15 0.35 0.15 } # TODO
 
-		icon = 64 # TODO
-		heresy_icon = 65 # TODO
+		icon = 64
+		heresy_icon = 65
 
-		scripture_name = THE_FOLKLORE # TODO
+		scripture_name = THE_OMENS
 		priest_title = SORGIN
         crusade_name = GREAT_HOLY_WAR
 		high_god_name = GOD_MARI
@@ -168,10 +168,10 @@ pagan_group = {
 
 		color = { 0.15 0.35 0.15 } # TODO
 
-		icon = 63 # TODO
-		heresy_icon = 65 # TODO
+		icon = 63
+		heresy_icon = 65
 
-		scripture_name = THE_FOLKLORE # TODO
+		scripture_name = THE_OMENS
 		priest_title = SORGIN
         crusade_name = GREAT_HOLY_WAR
 		high_god_name = GOD_MARI
