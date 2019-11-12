@@ -153,9 +153,6 @@
 1157.1.1={
 	holder = 214800 #Rhys ap Gruffyd
 }
-1157.1.1={
-	holder = 214800 #Rhys ap Gruffyd
-}
 1197.4.28={
 	holder = 214803 # Gruffydd ap Rhys
 }
