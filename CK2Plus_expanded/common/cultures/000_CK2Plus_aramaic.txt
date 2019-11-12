@@ -90,7 +90,7 @@ aramaic = {
 			Elisha'_Elisha Eliya Emmanuel_Emmanuel Enosh Ezekiel_Ezekiel
 			Farbokht_Farbokht Foma
 			Giwargis_George Grwgari_Gregory
-			Hanina Idan Hnanisho' Hozai_Chozai
+			Hanina Hnanisho' Hozai_Chozai
 			Idan Idra Ila Isaac_Isaac Isho' Isho'yahb Israel_Israel
 			Kaiapha Karna Katsiu
 			Laszio_Lazarus Lazar_Lazarus Lazare_Lazarus Lazaro_Lazarus Lazaros_Lazarus Lazarus_Lazarus Lazarz_Lazarus Lazer_Lazarus Lebbaeus

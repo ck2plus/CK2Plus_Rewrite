@@ -27,14 +27,14 @@ religion = orthodox
 	build_wonder_upgrade = upgrade_quadriga_statue
 }
 
+1175.1.1 = { trade_post = b_morosini }
+
 # Exact destruction date unknown, probably between 1200-1300, probably by earthquake
 1200.1.1 = {
 	set_wonder_stage = 2
 	destroy_wonder_upgrade = upgrade_quadriga_statue
 	set_wonder_damaged = yes
 }
-
-1175.1.1 = { trade_post = b_morosini }
 
 1328.1.1 = { culture = anatolian }
 1328.1.1 = { religion = sunni }

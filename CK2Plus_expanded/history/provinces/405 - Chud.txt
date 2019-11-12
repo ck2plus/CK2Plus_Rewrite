@@ -23,6 +23,6 @@ terrain = forest
 # History
 
 1087.1.2 = {
-	religion = novgorodian
-	culture = russian
+	culture = novgorodian
+	religion = orthodox
 }

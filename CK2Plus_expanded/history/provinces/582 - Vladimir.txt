@@ -30,14 +30,12 @@ religion = finnish_pagan
 }
 1108.1.1 = {
 	b_vladimir = castle
+	b_gorokhovets = castle
 }
 1152.1.1 = {
 	b_starodub_vladimirsky = city
 	b_rochdestvenskoye = temple
 	b_bogolyubovo = castle
-}
-1108.1.1 = {
-	b_gorokhovets = castle
 }
 1239.1.1 = {
 	remove_settlement = b_gorokhovets	#Mongol invasion
