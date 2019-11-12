@@ -31,7 +31,7 @@ religion = finnish_pagan
 #	b_atkarsk = castle 
 	b_pokrovsk = temple
 	culture = mordvin
-	religion = finnic_pagan
+	religion = finnish_pagan
 }
 
 #Mongol invasion
