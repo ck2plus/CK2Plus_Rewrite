@@ -1,0 +1,108 @@
+namespace = plusEmpire
+
+########################
+#
+# Empire Destruction Mechanics
+#
+########################
+#
+# Catalog
+#
+# 001 - 009: Destruction Events
+# 010 - 019: Singular Empire Enforcement
+#
+########################
+
+################################
+#
+# 001 - 009: Destruction Events
+#
+################################
+#
+# Index
+#
+# 001: Trigger Destruction
+# 002: Inform
+#
+################################
+
+# Trigger Destruction
+character_event = {
+	id = plusEmpire.001
+
+	hide_window = yes
+	is_triggered_only = yes
+	# Fires on succession
+
+	only_independent = yes
+	only_playable = yes
+
+	trigger = {
+		real_tier = EMPEROR
+		is_empire_destruction_candidate = yes
+		is_exempt_title = no
+	}
+	immediate = {
+		ROOT = { character_event = { id = PlusEmpire.002 } } # Inform
+		# Emergency Kingdom for dumb emperors (usually AI)
+		if = {
+			limit = {
+				num_of_king_titles < 1
+				capital_scope = { kingdom = { has_holder = no } }
+			}
+			capital_scope = { kingdom = { gain_title = ROOT }}
+		}
+		else = {
+			log = "Unable to create emergency kingdom when shattering empire. Ruler rank demoted."
+		}
+		# You are the weakest link, goodbye.
+		primary_title = { destroy_landed_title = THIS }
+	}
+}
+# Inform
+character_event = {
+	id = plusEmpire.002
+	picture = "GFX_evt_council"
+
+	is_triggered_only = yes
+	# Fired by plusEmpire.001
+
+	desc = plusEmpire002_DESC
+
+	option = {
+		name = plusEmpire002_OPTA
+		prestige = -1000
+	}
+}
+
+
+################################
+#
+# 001 - 009: Singular Empire Enforcement
+#
+################################
+#
+# Index
+#
+# 010: Emperor holds multiple  Empires
+# 011: Emperor prompted to choose
+#
+################################
+
+# Emperor holds multiple  Empires
+character_event = {
+	id = plusEmpire.010
+	#TODO
+
+	hide_window = yes
+	is_triggered_only = yes
+	# Fires on new holder
+
+	only_independent = yes
+	only_playable = yes
+
+	trigger = {
+		real_tier = EMPEROR
+		is_exempt_title = no
+	}
+}
