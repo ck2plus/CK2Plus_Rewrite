@@ -35,7 +35,7 @@ spriteTypes = {
 	# The Protectors of Mari
 	spriteType = {
 		name = "GFX_society_main_background_warrior_lodge_basque"
-		textureFile = "gfx\\interface\\societies\\society_bg_fianna.dds"
+		textureFile = "gfx\\interface\\societies\\society_bg_protectors_of_mari.dds"
 	}
 
 	spriteType = {
@@ -45,7 +45,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_icon_small_warrior_lodge_basque"
-		textureFile = "gfx\\interface\\societies\\symbol_small_band_of_medeina.dds"
+		texturefile = "gfx\\interface\\societies\\symbol_small_protectors_of_mari.dds"
 		noOfFrames = 2
 	}
 
