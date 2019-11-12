@@ -37,8 +37,8 @@ religion = norse_pagan
 1066.1.1 = {
 	b_enkoping = city
 }
+1090.1.1 = { religion = catholic }
 1187.1.1 = {
 	b_stockholm = city
 }
-1090.1.1 = { religion = catholic }
 1249.1.1= { trade_post = b_wittenborg }
