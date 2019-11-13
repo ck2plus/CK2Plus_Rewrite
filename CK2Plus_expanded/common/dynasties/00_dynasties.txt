@@ -44679,7 +44679,7 @@
 	religion = baltic_pagan
 }
 
-1061019 = {
+1061029 = {
 	name = "von Hanover"
 	culture = german
 	religion = catholic
