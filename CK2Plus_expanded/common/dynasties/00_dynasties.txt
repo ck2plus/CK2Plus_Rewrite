@@ -3975,7 +3975,7 @@
 
 613 = {
 	name = "Seljuk"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 11 0 2 2 }
@@ -4000,7 +4000,7 @@
 
 616 = {
 	name = "Tigin"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 34 7 12 0 }
@@ -4020,7 +4020,7 @@
 
 619 = {
 	name = "Arslan"
-	culture = oghuz
+	culture = turkish
 }
 
 620 = {
@@ -5206,7 +5206,7 @@
 
 790 = {
 	name = "Ghaznavid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	used_for_random = no
 }
@@ -10468,7 +10468,7 @@
 
 7267 = {
 	name = "Bunduqdarid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 40 2 0 12 }
@@ -10479,7 +10479,7 @@
 
 7268 = {
 	name = "Aybakid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 26 7 1 9 }
@@ -10490,7 +10490,7 @@
 
 7269 = {
 	name = "Qutuzid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 11 12 10 4 }
@@ -10501,7 +10501,7 @@
 
 7270 = {
 	name = "Kitbughai"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 9 0 2 3 }
@@ -10512,7 +10512,7 @@
 
 7271 = {
 	name = "Lajinli"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 28 6 9 9 }
@@ -10523,7 +10523,7 @@
 
 7272 = {
 	name = "Jashnakirid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 8 6 9 0 }
@@ -10714,7 +10714,7 @@
 
 7300 = {
 	name = "Karesili"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 46 11 12 1 }
@@ -10724,7 +10724,7 @@
 
 7301 = {
 	name = "Tzachas"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -10893,13 +10893,13 @@
 
 7327 = {
 	name = "Oghuz"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7328 = {
 	name = "Qocharid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -10952,7 +10952,7 @@
 
 7334 = {
 	name = "Khurshidi"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 4 9 10 7 }
@@ -10968,7 +10968,7 @@
 
 7336 = {
 	name = "Ghuzz"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -11034,7 +11034,7 @@
 
 7345 = {
 	name = "Gauhar Ayin"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -11046,7 +11046,7 @@
 
 7347 = {
 	name = "Bohruz"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -11086,55 +11086,55 @@
 
 7353 = {
 	name = "Kerbogali"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7354 = {
 	name = "Altuntekin"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7355 = {
 	name = "Saqawa"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7356 = {
 	name = "Sonqorjali"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7357 = {
 	name = "Juyushli"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7358 = {
 	name = "Aq Sonqor"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7359 = {
 	name = "Sökmenid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7360 = {
 	name = "Begtimurid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7361 = {
 	name = "Hazardinari"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -11180,13 +11180,13 @@
 
 7368 = {
 	name = "Kwarazmid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7369 = {
 	name = "Burid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -11230,7 +11230,7 @@
 
 7375 = {
 	name = "Inanj"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 26 2 1 9 }
@@ -11424,7 +11424,7 @@
 
 7517 = {
 	name = "al-Turki"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -11436,25 +11436,25 @@
 
 7519 = {
 	name = "al-Sharabi"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7520 = {
 	name = "al-Armani"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7521 = {
 	name = "Ashinas"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 7522 = {
 	name = "Bajkam"
-	culture = oghuz
+	culture = turkish
 }
 
 7700 = {
@@ -14736,7 +14736,7 @@
 
 12272 = {
 	name = "Yabguid"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 0 0 4 7 1 1 }
@@ -18647,7 +18647,7 @@
 
 25201 = {
 	name = "Kvirikian"
-	culture = oghuz
+	culture = turkish
 	religion = orthodox
 }
 
@@ -22032,7 +22032,7 @@
 
 100566 = {
 	name = "Kipchak"
-	culture = kipchak	# NOTE reassigned in CK2+ (was cuman)
+	culture = kipchak
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 1 0 3 12 1 1 }
@@ -22278,7 +22278,7 @@
 
 100604 = {
 	name = "Alp"
-	culture = oghuz
+	culture = turkish
 	religion = orthodox
 	coat_of_arms = {
 		data = { 2 4 0 15 7 1 14 4 0 15 7 1 14 }
@@ -22410,7 +22410,7 @@
 
 100618 = {
 	name = "Altar"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 1 0 1 6 13 1 }
@@ -22420,7 +22420,7 @@
 
 100619 = {
 	name = "Aybars"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 0 0 5 5 0 0 }
@@ -22430,7 +22430,7 @@
 
 100620 = {
 	name = "Doganin"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 1 0 7 4 1 1 }
@@ -22470,7 +22470,7 @@
 
 100624 = {
 	name = "Kagan"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 1 0 8 1 12 11 }
@@ -22480,7 +22480,7 @@
 
 100625 = {
 	name = "Metehan"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 0 0 1 9 10 5 }
@@ -22490,13 +22490,13 @@
 
 100626 = {
 	name = "Ozan"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
 100627 = {
 	name = "Senol"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 	coat_of_arms = {
 		data = { 0 0 0 9 7 9 9 }
@@ -22516,7 +22516,7 @@
 
 100629 = {
 	name = "Utku"
-	culture = oghuz
+	culture = turkish
 }
 
 100630 = {
@@ -22526,7 +22526,7 @@
 
 100631 = {
 	name = "Olcayto"
-	culture = oghuz
+	culture = turkish
 }
 
 100632 = {
@@ -23020,7 +23020,7 @@
 
 100701 = {
 	name = "Ortokid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 3 2 12 12 }
@@ -23042,7 +23042,7 @@
 
 100704 = {
 	name = "Mengujek"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -23064,7 +23064,7 @@
 
 100707 = {
 	name = "Artuqid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -25164,7 +25164,7 @@
 
 101158 = {
 	name = "Kazanjian"
-	culture = oghuz
+	culture = turkish
 }
 
 101159 = {
@@ -27551,7 +27551,7 @@
 
 101687 = {
 	name = "Zengi"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -27875,7 +27875,7 @@
 
 101738 = {
 	name = "Namrun Kalesi"
-	culture = oghuz
+	culture = turkish
 }
 
 101739 = {
@@ -28567,7 +28567,7 @@
 
 101866 = {
 	name = "Anushtegid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -28631,7 +28631,7 @@
 
 101876 = {
 	name = "Ildeguzid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -29347,7 +29347,7 @@
 
 20090 = {
 	name = "Doranites"
-	culture = oghuz
+	culture = turkish
 	religion = orthodox
 	coat_of_arms = {
 		data = { 2 2 0 25 12 0 0 2 0 25 12 0 0 }
@@ -29357,7 +29357,7 @@
 
 20091 = {
 	name = "Kabasites"
-	culture = oghuz
+	culture = turkish
 	religion = orthodox
 	coat_of_arms = {
 		data = { 3 0 0 33 8 14 14 0 0 33 8 14 14 0 0 33 8 14 14 0 0 33 8 14 14 }
@@ -29367,7 +29367,7 @@
 
 20092 = {
 	name = "Meizomates"
-	culture = oghuz
+	culture = turkish
 	religion = orthodox
 	coat_of_arms = {
 		data = { 1 2 0 30 1 13 11 2 0 30 1 13 11 }
@@ -29377,7 +29377,7 @@
 
 20093 = {
 	name = "Tzanichites"
-	culture = oghuz
+	culture = turkish
 	religion = orthodox
 	coat_of_arms = {
 		data = { 1 1 0 19 8 14 14 1 0 19 8 14 14 }
@@ -34875,7 +34875,7 @@
 
 1043006 = {
 	name = "Shahi"
-	culture = oghuz
+	culture = turkish
 	religion = hindu
 	coat_of_arms = {
 		data = { 0 0 0 13 0 5 5 }
@@ -35772,43 +35772,43 @@
 
 1040201 = {
 	name = "Mamluk"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040202 = {
 	name = "Delhi"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040203 = {
 	name = "Altunia"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040204 = {
 	name = "Balban"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040205 = {
 	name = "Khilji"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040207 = {
 	name = "Kushru"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040208 = {
 	name = "Tughluq"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 15 0 11 4 }
@@ -35818,7 +35818,7 @@
 
 1040209 = {
 	name = "Alauddin"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -35830,43 +35830,43 @@
 
 1040211 = {
 	name = "Awar"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040212 = {
 	name = "Tughral"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040213 = {
 	name = "Tamar"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040214 = {
 	name = "Iuzbaki"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040215 = {
 	name = "Tatar"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040216 = {
 	name = "Iitigin"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040217 = {
 	name = "Sonargaon"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 0 0 30 4 0 0 }
@@ -35876,7 +35876,7 @@
 
 1040218 = {
 	name = "Lakhnauti"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 40 9 5 2 }
@@ -35886,7 +35886,7 @@
 
 1040219 = {
 	name = "Satgaon"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 4 11 0 1 }
@@ -35896,19 +35896,19 @@
 
 1040220 = {
 	name = "Qabajah"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040221 = {
 	name = "Yildoz"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1040222 = {
 	name = "Ghanzi"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -36777,7 +36777,7 @@
 	religion = catholic
 }
 
-1044083 = {
+1044083 = { # This originally had some duplicate dynasties, which have been deleted
 	name = "Faroaldingi"
 	culture = longobard
 	religion = catholic
@@ -38342,7 +38342,7 @@
 
 1042149 = {
 	name = "Harashid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -38628,7 +38628,7 @@
 
 1044381 = {
 	name = "Toghril"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -38688,7 +38688,7 @@
 
 1044389 = {
 	name = "Multani"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 	coat_of_arms = {
 		data = { 0 1 0 39 0 5 8 }
@@ -39035,7 +39035,7 @@
 }
 
 1048004 = {
-	name = "Ifrinid"
+	name = "Ifranid" # Merged with vanilla "Ifrinid" because of duplicate ids; Plus, they are the same dynasty
 	culture = maghreb_arabic
 	religion = ibadi
 }
@@ -39749,7 +39749,7 @@
 
 1042195 = {
 	name = "Kipchaki"
-	culture = kipchak	# NOTE reassigned in CK2+ (was cuman)
+	culture = kipchak
 	religion = tengri_pagan
 }
 
@@ -39779,19 +39779,19 @@
 
 214000 = {
 	name = "Ucok"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
 214001 = {
 	name = "Tartan"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
 214002 = {
 	name = "Kyzilid"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
@@ -40294,55 +40294,55 @@
 
 1045059 = {
 	name = "Ajmerid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1045060 = {
 	name = "Kasid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1045061 = {
 	name = "Magadhid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1045062 = {
 	name = "Maturid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1045063 = {
 	name = "Lahurid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1045064 = {
 	name = "Bhadrid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1045065 = {
 	name = "Maymanid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1045066 = {
 	name = "Kyzylid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1045067 = {
 	name = "Tabasid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -40378,7 +40378,7 @@
 
 1045073 = {
 	name = "Barhid"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -40613,7 +40613,7 @@
 
 1051119 = {
 	name = "Uzgen"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -42305,7 +42305,7 @@
 
 1053007 = {
 	name = "Gök" #Ficticious
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -43267,13 +43267,13 @@
 
 105851 = {
 	name = "Trakhan"
-	culture = oghuz
+	culture = turkish
 	religion = buddhist
 }
 
 105852 = {
 	name = "Raisiyya"
-	culture = oghuz
+	culture = turkish
 	religion = shiite
 }
 
@@ -43321,7 +43321,7 @@
 
 1059007 = {
 	name = "Muhtajid"
-	culture = oghuz #uzbek
+	culture = turkish #uzbek
 	religion = sunni
 }
 
@@ -44604,7 +44604,7 @@
 
 5062098 = {
 	name = "Bunduqdarid"
-	culture = oghuz
+	culture = turkish
 }
 
 1061007 = {				#Fictional, for Zemgale 769
@@ -44677,6 +44677,12 @@
 	name = "Lamati"
 	culture = lithuanian
 	religion = baltic_pagan
+}
+
+1061029 = { # Changed from vanilla due to duplicate ids
+	name = "von Hanover"
+	culture = german
+	religion = catholic
 }
 
 1040150 = {
@@ -45091,13 +45097,13 @@
 
 1061033 = {
 	name = "Burtas"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
 1061034 = {
 	name = "Oghuz"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
@@ -45685,7 +45691,7 @@
 
 1100011 = {
 	name = "Subashi"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
@@ -45697,13 +45703,13 @@
 
 1100013 = {
 	name = "Kul-Eerkin"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1100014 = {
 	name = "Hizlioklar"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -46864,7 +46870,7 @@
 	religion = west_african_pagan
 }
 
-1000101153 = {
+1060031 = { # Changed from vanilla due to overlapping with CK2Plus ids
 	name = "Gobiri"
 	culture = hausa
 	religion = west_african_pagan
@@ -47182,6 +47188,11 @@
 	culture = breton
 }
 
+105948 = { # Changed from vanilla due to duplicate ids
+	name = "Kernev"
+	culture = breton
+}
+
 105946 = {
 	name = "Builth"
 	culture = welsh
@@ -47323,6 +47334,12 @@
 	name = "Shansabani"
 	culture = persian
 	religion = buddhist
+}
+
+1059977 = { # Changed from vanilla due to duplicate ids
+	name = "Kaukabi"
+	culture = persian
+	religion = shiite
 }
 
 1059976 = {
@@ -48199,7 +48216,7 @@
 
 1062325 = {
 	name = "Oghuz"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
@@ -48893,9 +48910,9 @@
 }
 
 1062442 = {
-	name = "Ifranid"
-	culture = maghreb_arabic
-	religion = ibadi
+	name = "Ubayid"
+	culture = bedouin_arabic
+	religion = shiite
 }
 
 1062443 = {
@@ -49161,13 +49178,13 @@
 
 1062488 = {
 	name = "al-Makani"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
 1062489 = {
 	name = "Tuzun"
-	culture = oghuz
+	culture = turkish
 	religion = sunni
 }
 
@@ -49191,19 +49208,19 @@
 
 1062493 = {
 	name = "Kara-Bogaz"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
 1062494 = {
 	name = "Emba"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
 1062495 = {
 	name = "Usturt"
-	culture = oghuz
+	culture = turkish
 	religion = tengri_pagan
 }
 
@@ -49943,7 +49960,7 @@
 	culture = greek
 }
 
-1062611 = {
+1062611 = { # There was a duplicate of this dynasty that has since been deleted
 	name = "Shahin"
 	culture = levantine_arabic
 	religion = pagan
@@ -50496,34 +50513,4 @@
 	name = "Hawwâra"
 	culture = houara
 	religion = ibadi
-}
-
-# The following are fixes for duplicate vanilla entries (pending related character history adjustments):
-
-1069093 = { # NOTE character 221101 "Faroald" in lombard.txt still wrongfully uses the old duplicate dynasty - fix if possible
-	name = "Faroaldingi"
-	culture = lombard
-}
-
-1069094 = { # NOTE character 260860 "Ubayd" in bedouin_arabic.txt still wrongfully uses the old duplicate dynasty - fix if possible
-	name = "Ubayid"
-	culture = bedouin_arabic
-	religion = shiite
-}
-
-1069095 = { # NOTE character 248695 "Hossein" in persian.txt still wrongfully uses the old duplicate dynasty - fix if possible
-	name = "Kaukabi"
-	culture = persian
-	religion = shiite
-}
-
-1069096 = { # NOTE 3 characterS 252344 "Deniel", 252345 "Iahan" & 252346 "Deniel" in breton.txt still wrongfully uses the old duplicate dynasty - fix if possible
-	name = "Kernev"
-	culture = breton
-}
-
-1069097 = { # NOTE character 256041 "Berthold" in german.txt still wrongfully uses the old duplicate dynasty - fix if possible
-	name = "von Hanover"
-	culture = german
-	religion = catholic
 }
