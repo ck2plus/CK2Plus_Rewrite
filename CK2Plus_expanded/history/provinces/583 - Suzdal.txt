@@ -23,10 +23,6 @@ religion = finnish_pagan
 	culture = russian
 	religion = orthodox
 }
-999.1.1 = {
-	b_kiev = tb_hillfort_1
-	b_kiev = tb_market_town_1
-}
 1024.1.1 = {
 	b_suzdal = castle
 	b_sudalyvka = temple
