@@ -29,5 +29,5 @@ religion = orthodox
 	culture = kurdish
 	religion = sunni 
 }
-1190.1.1 = { culture = anatolian }
+1190.1.1 = { culture = turkish }
 1337.1.1 = { b_gerjanis = castle }

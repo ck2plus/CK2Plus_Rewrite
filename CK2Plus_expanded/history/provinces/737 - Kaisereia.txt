@@ -25,7 +25,7 @@ religion = orthodox
 930.1.1 = { religion = orthodox }
 
 # The Seljuks take over Anatolia
-1097.8.26 = { culture = anatolian }
+1097.8.26 = { culture = turkish }
 1097.8.26 = { religion = sunni }
 #1097.8.26 = { remove_settlement = b_kaisereia } 
 

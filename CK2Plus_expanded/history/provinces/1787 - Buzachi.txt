@@ -13,7 +13,7 @@ terrain = marsh
 
 # History
 
-800.1.1 = { culture = turkish }
+800.1.1 = { culture = oghuz }
 
 1187.1.1 = {
 	religion = sunni

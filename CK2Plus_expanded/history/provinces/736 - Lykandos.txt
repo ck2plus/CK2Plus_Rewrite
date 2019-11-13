@@ -29,6 +29,6 @@ religion = orthodox
 	religion = miaphysite
 }
 
-1177.1.1 = { culture = anatolian }
+1177.1.1 = { culture = turkish }
 1177.1.1 = { religion = sunni }
 1187.1.1 = { b_germanikeia = city }

@@ -9,7 +9,6 @@
 abkhazian;Abkhazian;Abkhaze;Abchasische;;Abjasio;;;;;;;;;x
 afar;Afar;Afar;Afar;;Afar;;;;;;;;;x
 amazigh;Berber;Berber;Berber;;Berber;;;;;;;;;x
-anatolian;Turkish;Turc;Türkisch;;Turco;;;;;;;;;x
 anglo_norse;Anglo-Norse;Anglo-Norrois;Anglonordisch;;Anglonórdico;;;;;;;;;x
 aragonese;Aragonese;Aragonais;Aragonesisch;;Aragonesa;;;;;;;;;x
 aramaic;Aramaic;Araméen;Aramaïsch;;Aramea;;;;;;;;;x
@@ -80,6 +79,7 @@ northeast_caucasian_group;Northeast Caucasian;Caucasien du Nord-Est;Nordost Kauk
 northwest_caucasian_group;Northwest Caucasian;Caucasien du Nord-Ouest;Nordwest Kaukasisch;;Caucásicas Noroccidentales;;;;;;;;;x
 novgorodian;Novgorodian;Novgorodien;Novgorodisch;;Nóvgorodo;;;;;;;;;x
 occitano_romance_group;Occitano-Romance;Occitano-Romanes;Okzitanisch-Romanisch;;Occitanorromances;;;;;;;;;x
+oghuz;Oghuz;Oghouz;Oghusisch;;Oguz;;;;;;;;;x
 pontic_greek;Pontic;Pontic;Pontic;;Póntica;;;;;;;;;x
 ruthenian;Ruthenian;Ruthène;Ruthenisch;;Rutenio;;;;;;;;;x
 samodeic_group;Samodeic;Samodeic;Samodeic;;Samodeic;;;;;;;;;x
@@ -88,7 +88,7 @@ sephardic;Sephardic;Séfarade;Sephardisch;;Sephardic;;;;;;;;;x
 sicilian;Sicilian;Sicilien;Sizilianisch;;Siciliano;;;;;;;;;x
 sicilian_arabic;Siculo-Arabic;Sicilien-Arabe;Sizilian-Arabisch;;Siciliano-Árabe;;;;;;;;;x
 sicilian_greek;Griko;Griko;Griko;;Griko;;;;;;;;;x
-siculo_norman;Siculo-Norman;Italo-Norman;Siculo-Normannen;;Siculo-Normano;;;;;;;;;x
+siculo_norman;Siculo-Norman;Italo-Norman:Siculo-Normannen;;Siculo-Normano;;;;;;;;;x
 soqotri;Soqotri;Soqotri;Soqotri;;Socotrí;;;;;;;;;x
 sosso;Susu;Soussou;Susu;;Sosso;;;;;;;;;x
 swabian;Swabian;Souabe;Schwäbisch;;Suabo;;;;;;;;;x
@@ -103,6 +103,7 @@ tocharian_group;Tocharian;Tokharien;Tocharer;;Tocario;;;;;;;;;x
 tuareg;Tuareg;Tuareg;Tuareg;;Tuareg;;;;;;;;;x
 tungusic_group;Tungusic;Toungouses;Tungusisch;;Tunguses;;;;;;;;;x
 turkic_group;Turkic;Turcique;Turkisch;;Túrcico;;;;;;;;;x
+turkish;Turkish;Turc;Türkisch;;Turco;;;;;;;;;x
 tuscan;Tuscan;Toscan;Toskanisch;;Toscano;;;;;;;;;x
 udi;Udi;Oudi;Udisch;;Udí;;;;;;;;;x
 umbrian;Umbrian;Ombrien;Umbrisch;;Umbro;;;;;;;;;x
@@ -133,6 +134,5 @@ pommeranian;Wend;Wende;Wendisch;;Wendo;;;;;;;;;x
 romanian;Wallachian;Roumain;Rumänisch;;Rumano;;;;;;;;;x
 russian;Rus;Rus;Rus;;Rus;;;;;;;;;x
 songhay;Songhai;Songhaï;Songhai;;Songhai;;;;;;;;;x
-turkish;Oghuz;Oghouz;Oghusisch;;Oguz;;;;;;;;;x
 west_african;Niger-Congo;Niger-Congo;Niger-Congo;;Niger-Congo;;;;;;;;;x
 west_germanic;Mare Germanic;Mer-Germanique;Meergermanisch;;Oeste Germánica;;;;;;;;;x

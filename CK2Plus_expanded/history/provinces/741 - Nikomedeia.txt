@@ -33,5 +33,5 @@ religion = orthodox
 
 1337.1.1 = { b_palodes = castle } 
 
-1338.1.1 = { culture = anatolian }
+1338.1.1 = { culture = turkish }
 1338.1.1 = { religion = sunni }

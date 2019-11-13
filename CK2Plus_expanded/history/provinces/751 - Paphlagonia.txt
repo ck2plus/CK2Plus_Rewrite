@@ -32,7 +32,7 @@ religion = orthodox
  # Fourth Crusade
 
 1204.5.16 = { 
-	culture = anatolian
+	culture = turkish
 	religion = sunni 
 }
 

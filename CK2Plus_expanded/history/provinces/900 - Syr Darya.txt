@@ -17,7 +17,7 @@ b_syganak = temple # Tengri Holy Site
 #b_sarytogay = city
 
 # Misc
-culture = turkish
+culture = oghuz
 religion = manichean
 
 # History

@@ -36,5 +36,5 @@ religion = orthodox
 	set_wonder_damaged = yes
 }
 
-1328.1.1 = { culture = anatolian }
+1328.1.1 = { culture = turkish }
 1328.1.1 = { religion = sunni }

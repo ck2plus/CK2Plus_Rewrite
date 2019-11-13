@@ -8,7 +8,7 @@ max_settlements = 4
 
 b_cetatea_alba = castle
 b_belgorod = city
-b_tighina = temple	#"Bender" in Turkish
+b_tighina = temple	#"Bender" in oghuz
 
 #b_capriana = temple
 #b_chisinau = temple
