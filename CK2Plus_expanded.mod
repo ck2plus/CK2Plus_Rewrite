@@ -4,3 +4,4 @@ dependencies = { "CK2Plus" }
 replace_path="common/cultures"
 replace_path="common/laws"
 replace_path="common/traits"
+replace_path="history/provinces/"
