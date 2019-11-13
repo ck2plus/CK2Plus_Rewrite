@@ -1,3 +1,4 @@
+# Valid ids 1000014001 - 1000015000
 1000014001 = {
 	name = "Al-thalab"
 	culture = bedouin_arabic

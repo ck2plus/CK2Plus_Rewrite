@@ -1,3 +1,4 @@
+# Valid ids 1000005001 - 1000006000
 1000005001 = {
 	name = "Gojdu"
 	culture = aromanian

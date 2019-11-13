@@ -1,3 +1,4 @@
+# Valid ids 1000002001 - 1000003000
 1000002001 = {
 	name = "Ingvar"
 	culture = anglo_norse

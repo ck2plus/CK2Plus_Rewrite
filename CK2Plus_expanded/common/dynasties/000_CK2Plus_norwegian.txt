@@ -1,3 +1,4 @@
+# Valid ids 1000077001 - 1000078000
 1000077001 = {
 	name = "Slæðe"
 	culture = norwegian

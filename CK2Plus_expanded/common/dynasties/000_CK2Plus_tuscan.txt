@@ -1,3 +1,4 @@
+# Valid ids 1000112001 - 1000113000
 1000112001 = {
 	name = "Foschi"
 	culture = tuscan

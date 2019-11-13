@@ -1,3 +1,4 @@
+# Valid ids 1000061001 - 1000062000
 1000061001 = {
 	name = "Kraujas"
 	culture = lappish

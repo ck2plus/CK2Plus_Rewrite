@@ -1,3 +1,4 @@
+# Valid ids 1000027001 - 1000028000
 1000027001 = {
 	name = "Allt"
 	culture = cumbric

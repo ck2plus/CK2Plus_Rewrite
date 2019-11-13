@@ -1,3 +1,4 @@
+# Valid ids       1000094001 095000
 1000094001 = {
 	name = "Mac Ruardri"
 	culture = scottish

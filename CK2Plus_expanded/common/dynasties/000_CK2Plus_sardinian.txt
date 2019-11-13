@@ -1,3 +1,4 @@
+# Valid ids 1000092001 - 1000093000
 1000092001 = {
 	name = "di Gallura"
 	culture = sardinian

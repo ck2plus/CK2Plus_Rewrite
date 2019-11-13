@@ -1,3 +1,4 @@
+# Valid ids 1000100001 - 1000101000
 1000100001 = {
 	name = "Dioklès"
 	culture = sicilian_greek

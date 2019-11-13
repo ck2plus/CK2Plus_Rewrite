@@ -1,3 +1,4 @@
+# Valid ids 1000024001 - 1000025000
 1000024001 = {
 	name = "Morosaglia"
 	culture = corsican

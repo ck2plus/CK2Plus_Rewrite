@@ -1,3 +1,4 @@
+# Valid ids 1000046001 - 1000047000
 1000046001 = {
 	name = "Sullubawa"
 	culture = hausa

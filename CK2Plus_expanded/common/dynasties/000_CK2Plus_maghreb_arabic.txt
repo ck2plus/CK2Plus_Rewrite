@@ -1,3 +1,4 @@
+# Valid ids 1000067001 - 1000068000
 1000067001 = {
 	name = "Sanhaja"
 	culture = maghreb_arabic

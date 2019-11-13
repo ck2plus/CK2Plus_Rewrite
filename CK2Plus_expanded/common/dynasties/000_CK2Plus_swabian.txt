@@ -1,3 +1,4 @@
+# Valid ids 1000104001 - 1000105000
 1000104001 = {
 	name = "Hunfriding" #aka Burcharding or Bouchardid
 	culture = swabian

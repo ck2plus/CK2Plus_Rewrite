@@ -1,3 +1,4 @@
+# Valid ids 1000023001 - 1000024000
 1000023001 = {
 	name = "a Lannstefan"
 	culture = cornish

@@ -1,3 +1,4 @@
+# Valid ids 1000026001 - 1000027000
 1000026001 = {
 	name = "Kubasarid"
 	culture = cuman

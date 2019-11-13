@@ -1,3 +1,4 @@
+# Valid ids 1000086001 - 1000087000
 1000086001 = {
 	name = "Barnekow"
 	culture = pommeranian

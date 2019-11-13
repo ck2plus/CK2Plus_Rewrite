@@ -1,3 +1,5 @@
+# Valid ids 1000111001 - 1000112000
+# Valid ids 1000123001 - 1000124000
 1000111001 = {
 	name = "Ertenid"
 	culture = anatolian

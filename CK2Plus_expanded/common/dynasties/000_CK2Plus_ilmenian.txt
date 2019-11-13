@@ -1,3 +1,4 @@
+# Valid ids 1000049001 - 1000050000
 1000049001 = {
 	name = "Balashov"
 	culture = ilmenian

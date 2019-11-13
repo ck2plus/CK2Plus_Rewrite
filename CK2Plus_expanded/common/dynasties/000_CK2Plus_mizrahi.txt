@@ -1,3 +1,4 @@
+# Valid ids 1000071001 - 1000072000
 1000071001 = {
 	name = "Abrach"
 	culture = mizrahi

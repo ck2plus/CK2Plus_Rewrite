@@ -1,3 +1,4 @@
+# Valid ids 1000105001 - 1000106000
 1000105001 = {
 	name = "Tillbakaseende Ulv"
 	culture = swedish

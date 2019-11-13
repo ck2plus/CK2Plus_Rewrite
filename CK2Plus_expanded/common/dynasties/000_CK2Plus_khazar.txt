@@ -1,3 +1,4 @@
+# Valid ids 1000057001 - 1000058000
 1000057001 = {
 	name = "Tzul"
 	culture = khazar

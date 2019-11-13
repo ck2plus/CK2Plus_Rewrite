@@ -1,3 +1,4 @@
+# Valid ids 1000022001 - 1000023000
 1000022001 = {
 	name = "Amoun"
 	culture = coptic

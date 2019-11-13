@@ -1,3 +1,4 @@
+# Valid ids 1000010001 - 1000011000
 1000010001 = {
 	name = "I buedaden"
 	culture = bafour

@@ -1,3 +1,4 @@
+# Valid ids 1000033001 - 1000034000
 1000033001 = {
 	name = "van Hoei"
 	culture = dutch

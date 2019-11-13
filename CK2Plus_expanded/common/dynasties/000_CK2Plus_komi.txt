@@ -1,3 +1,4 @@
+# Valid ids 1000059001 - 1000060000
 1000059001 = {
 	name = "Valkoinen"
 	culture = komi

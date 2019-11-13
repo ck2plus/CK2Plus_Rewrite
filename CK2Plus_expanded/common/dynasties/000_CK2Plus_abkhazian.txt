@@ -1,3 +1,4 @@
+# Valid ids 1000120001 - 1000121000
 1000000001 = {
 	name = "Šašba"
 	culture = abkhazian

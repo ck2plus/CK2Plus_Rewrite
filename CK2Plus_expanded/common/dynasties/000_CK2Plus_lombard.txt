@@ -1,3 +1,4 @@
+# Valid ids 1000066001 - 1000067000
 1000066001 = {
 	name = "di Asti"
 	culture = lombard

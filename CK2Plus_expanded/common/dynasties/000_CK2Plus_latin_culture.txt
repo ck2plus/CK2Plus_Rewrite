@@ -1,3 +1,4 @@
+# Valid ids 1000062001 - 1000063000
 1000062001 = {
 	name = "Orisnos"
 	culture = latin_culture

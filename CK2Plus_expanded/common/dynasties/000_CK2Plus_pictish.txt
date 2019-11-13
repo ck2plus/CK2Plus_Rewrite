@@ -1,3 +1,4 @@
+# Valid ids 1000084001 - 1000085000
 1000084001 = {
 	name = "Fib"
 	culture = pictish

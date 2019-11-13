@@ -1,3 +1,4 @@
+# Valid ids 1000040001 - 1000041000
 1000040001 = {
 	name = "Bibra"
 	culture = franconian

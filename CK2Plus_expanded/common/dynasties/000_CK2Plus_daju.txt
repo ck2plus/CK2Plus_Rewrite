@@ -1,3 +1,4 @@
+# Valid ids 1000028001 - 1000029000
 1000028001 = {
 	name = "Tajuwa" #Daju dynasty
 	culture = daju

@@ -1,3 +1,4 @@
+# Valid ids 1000101001 - 1000102000
 1000101001 = {
 	name = "Mangnejo"
 	culture = sindhi

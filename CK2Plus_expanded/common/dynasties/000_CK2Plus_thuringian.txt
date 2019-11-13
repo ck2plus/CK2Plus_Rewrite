@@ -1,3 +1,4 @@
+# Valid ids 1000109001 - 1000110000
 1000109001 = {
 	name = "von Dettingen"
 	culture = thuringian

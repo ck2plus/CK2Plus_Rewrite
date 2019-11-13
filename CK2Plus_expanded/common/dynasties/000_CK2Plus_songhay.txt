@@ -1,3 +1,4 @@
+# Valid ids 1000102001 - 1000103000
 1000102001 = {
 	name = "Zuwa"
 	culture = songhay

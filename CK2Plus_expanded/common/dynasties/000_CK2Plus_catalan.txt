@@ -1,3 +1,4 @@
+# Valid ids 1000020001 - 1000021000
 1000020001 = {
 	name = "Montcada"
 	culture = catalan
