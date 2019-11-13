@@ -23,7 +23,7 @@ k_neustria = {
 
 	capital = 112 # Ile de France
 
-	dignity = 200
+	dignity = 300
 
 	allow = {
 		# TODO: Put in actual requirements
