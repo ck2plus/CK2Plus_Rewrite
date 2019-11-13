@@ -21,7 +21,7 @@ religion = slavic_pagan
 
 # History
 867.1.1 = {
-	culture = novgorodian
+	culture = ruthenian
 }
 988.1.1 = {
 	religion = orthodox
