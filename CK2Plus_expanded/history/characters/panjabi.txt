@@ -2015,15 +2015,15 @@
 		add_spouse = 247111
 	}
 	746.6.1 = {
-		#effect = { add_consort = c_247006 }
+		#effect = { add_consort = 247006 }
 		effect = { add_lover = 247006 }
 	}
 	750.1.1 = {
-		#effect = { add_consort = c_247112 }
+		#effect = { add_consort = 247112 }
 		effect = { add_lover = 247112 }
 	}
 	755.1.1 = {
-		#effect = { add_consort = c_247113 }
+		#effect = { add_consort = 247113 }
 		effect = { add_lover = 247113 }
 	}
 	765.1.1 = {
@@ -2033,7 +2033,7 @@
 		}
 	}
 	768.1.1 = {
-		effect = { add_consort = c_247114 }
+		effect = { add_consort = 247114 }
 	}
 	795.1.1 = {
 		death = yes

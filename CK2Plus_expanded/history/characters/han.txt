@@ -40,30 +40,30 @@
 		add_spouse = 247866
 	}
 	617.6.1 = {
-		effect = { add_consort = c_247770 }
+		effect = { add_consort = 247770 }
 	}
 	#Consort Yin
 	618.6.18 = {
-		effect = { add_consort = c_247757 }
+		effect = { add_consort = 247757 }
 	}
 	#Consort Yang
 	619.1.1 = {
-		effect = { add_consort = c_247769 }
+		effect = { add_consort = 247769 }
 	}
 	#Consort Wei
 	619.1.1 = {
-		effect = { add_consort = c_247771 }
+		effect = { add_consort = 247771 }
 	}
 	#Consort Yan
 	626.9.4 = {
 		name = "Taizong"
 	}
 	637.1.1 = {
-		effect = { add_consort = c_217704 }
+		effect = { add_consort = 217704 }
 	}
 	#Wu Cairen
 	641.1.1 = {
-		effect = { add_consort = c_247868 }
+		effect = { add_consort = 247868 }
 	}
 	#Xu Cairen
 	649.7.10 = {
@@ -91,22 +91,22 @@
 	}
 	# Empress Wang
 	644.2.1 = {
-		effect = { add_consort = c_247905 }
+		effect = { add_consort = 247905 }
 	}
 	# Consort Liu
 	644.5.1 = {
-		effect = { add_consort = c_247904 }
+		effect = { add_consort = 247904 }
 	}
 	# Consort Xiao
 	648.1.1 = {
-		effect = { add_lover = c_217704 }
+		effect = { add_lover = 217704 }
 	}
 	#reported affair with Wu Zetian while his father was still alive
 	649.7.15 = {
 		name = Gaozong
 	}
 	650.1.1 = {
-		effect = { add_consort = c_217704 }
+		effect = { add_consort = 217704 }
 	}
 	#Wu Zhaoyi (Wu Zetian)
 	655.12.1 = {
@@ -142,7 +142,7 @@
 		name = Zhongzong
 	}
 	705.3.1 = {
-		effect = { add_consort = c_247927 }
+		effect = { add_consort = 247927 }
 	}
 	710.7.3 = {
 		death = { death_reason = death_offmap }
@@ -174,11 +174,11 @@
 	678.1.1 = {
 		name = "Dan"
 		add_spouse = 247931
-		effect = { add_consort = c_247946 }
+		effect = { add_consort = 247946 }
 	}
 	# Empress Liu and Consort Dou (really at an earlier date)
 	679.1.1 = {
-		effect = { add_consort = c_247945 }
+		effect = { add_consort = 247945 }
 	}
 	# Consort Doulu (really 676)
 	684.2.27 = {
@@ -259,22 +259,22 @@
 		add_spouse = 247964
 	}
 	710.1.1 = {
-		effect = { add_consort = c_247970 }
+		effect = { add_consort = 247970 }
 	}
 	# Consort Yang
 	712.9.8 = {
 		name = Xuanzong
 	}
 	713.1.1 = {
-		effect = { add_consort = c_247967 }
+		effect = { add_consort = 247967 }
 	}
 	# Consort Wu
 	726.1.1 = {
-		effect = { add_consort = c_247971 }
+		effect = { add_consort = 247971 }
 	}
 	# Consort Mei
 	745.1.1 = {
-		effect = { add_consort = c_247972 }
+		effect = { add_consort = 247972 }
 	}
 	# Consort Yang Guifei
 	762.5.3 = {
@@ -296,7 +296,7 @@
 	}
 	725.1.1 = {
 		name = "Jun"
-		effect = { add_consort = c_247993 }
+		effect = { add_consort = 247993 }
 	}
 	# Consort Wu
 	728.1.1 = {
@@ -313,7 +313,7 @@
 		name = "Heng"
 	}
 	744.1.1 = {
-		effect = { add_consort = c_247991 }
+		effect = { add_consort = 247991 }
 	}
 	# Empress Zhang as Consort
 	746.1.1 = {
@@ -342,15 +342,15 @@
 		birth = yes
 	}
 	741.1.1 = {
-		effect = { add_consort = c_247994 }
+		effect = { add_consort = 247994 }
 	}
 	# Consort Shen
 	746.1.1 = {
-		effect = { add_consort = c_247995 }
+		effect = { add_consort = 247995 }
 	}
 	# Consort Cui
 	757.1.1 = {
-		effect = { add_consort = c_247997 }
+		effect = { add_consort = 247997 }
 	}
 	# Consort Dugu
 	758.1.1 = {
@@ -377,11 +377,11 @@
 		birth = yes
 	}
 	760.1.1 = {
-		effect = { add_consort = c_247998 }
+		effect = { add_consort = 247998 }
 	}
 	# Consort Wang, later Empress
 	762.1.1 = {
-		effect = { add_consort = c_247999 }
+		effect = { add_consort = 247999 }
 	}
 	# Consort Wei
 	779.6.12 = {
