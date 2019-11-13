@@ -39035,7 +39035,7 @@
 }
 
 1048004 = {
-	name = "Ifrinid"
+	name = "Ifranid"
 	culture = maghreb_arabic
 	religion = ibadi
 }
@@ -48913,12 +48913,6 @@
 	name = "Ubayid"
 	culture = bedouin_arabic
 	religion = shiite
-}
-
-1062442 = {
-	name = "Ifranid"
-	culture = maghreb_arabic
-	religion = ibadi
 }
 
 1062443 = {
