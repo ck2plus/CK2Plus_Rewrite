@@ -3,7 +3,7 @@
 # County Title
 title = c_pinega
 
-# Settlements 
+# Settlements
 max_settlements = 1
 b_kuloy = tribal
 

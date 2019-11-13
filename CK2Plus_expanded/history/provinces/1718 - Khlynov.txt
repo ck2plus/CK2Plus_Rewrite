@@ -20,4 +20,4 @@ culture = komi
 religion = finnish_pagan
 
 # History
-1000.1.1 = { b_uchel = temple } 
+1000.1.1 = { b_uchel = temple }

@@ -24,7 +24,7 @@ religion = finnish_pagan
 
 # History
 
-1283.1.1= { trade_post = b_pat_luneburg }
+1283.1.1 = { trade_post = b_pat_luneburg }
 1290.1.1 = {
 	religion = catholic
 	b_tukums = castle

@@ -1,6 +1,6 @@
-# 1817 - Syktyvkar 
+# 1817 - Syktyvkar
 
-# County title 
+# County title
 title = c_syktyvkar
 
 # Settlements

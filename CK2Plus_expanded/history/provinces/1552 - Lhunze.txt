@@ -5,12 +5,12 @@ title = c_lhunze
 max_settlements = 3
 
 b_lhunze = tribal
-#b_yumai = 
-#b_sangngagqoiling = 
-#b_cona = 
-#b_ritang = 
-#b_zhunba = 
-#b_nariyong = 
+#b_yumai =
+#b_sangngagqoiling =
+#b_cona =
+#b_ritang =
+#b_zhunba =
+#b_nariyong =
 
 # Misc
 culture = bodpa

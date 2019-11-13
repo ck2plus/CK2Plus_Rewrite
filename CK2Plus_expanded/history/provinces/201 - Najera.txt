@@ -20,7 +20,7 @@ religion = catholic
 
 # History
 
-867.1.1 = { 
+867.1.1 = {
 	b_najera = ca_town_1
 	b_najera = ca_keep_1
 	b_najera = ca_stable_1

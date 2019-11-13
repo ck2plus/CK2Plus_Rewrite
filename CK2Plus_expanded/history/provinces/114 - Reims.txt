@@ -13,7 +13,7 @@ b_rethel = city
 b_chalons = castle
 #b_attigny
 #b_epernay
-#b_roucy 
+#b_roucy
 #b_dampierre
 
 culture = old_frankish

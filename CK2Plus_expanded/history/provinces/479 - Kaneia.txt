@@ -35,10 +35,10 @@ terrain = mountain
 # 4th crusade: to Venice
 
 #1205.1.1 = { culture = italian }
-#1205.1.1 = { religion = catholic } 
+#1205.1.1 = { religion = catholic }
 
 #1211.1.1 = { b_kandia = city }
-1211.1.1 = { capital = b_rethymno } 
+1211.1.1 = { capital = b_rethymno }
 
 
 

@@ -29,8 +29,8 @@ religion = tengri_pagan
 	b_pest = tribal
 }
 930.1.1 = { culture = hungarian }
-950.1.1 = { 
-	religion = catholic 
+950.1.1 = {
+	religion = catholic
 	b_pest = castle
 	b_kecskemet = city
 }

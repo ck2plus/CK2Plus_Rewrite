@@ -27,14 +27,14 @@ religion = tengri_pagan
 }
 856.1.1 = {
 	culture = slovieni
-	religion = catholic 
+	religion = catholic
 }
 895.1.1 = {
 	remove_settlement = b_kaposvar
 	b_szekezfehervar = tribal
 }
-930.1.1 = { 
-	culture = hungarian 
+930.1.1 = {
+	culture = hungarian
 	religion = tengri_pagan
 }
 950.1.1 = {

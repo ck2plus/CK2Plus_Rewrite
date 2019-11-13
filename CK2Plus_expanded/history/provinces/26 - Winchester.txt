@@ -26,7 +26,7 @@ religion = catholic
 }
 
 1070.1.1 = { capital = b_st_swithun }
-1100.11.11 = { culture = english } 
+1100.11.11 = { culture = english }
 1187.1.1 = { b_andover = castle }
 
 #Hugh Despencer, Earl of Winchester

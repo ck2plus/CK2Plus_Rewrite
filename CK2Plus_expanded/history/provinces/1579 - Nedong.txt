@@ -9,8 +9,8 @@ b_zetang = city
 b_tradruk = temple #(built by Songtsen Gampo around 642)
 b_nedong = city
 #b_phagmodru = castle
-#b_sangri = 
-#b_zengqi = 
+#b_sangri =
+#b_zengqi =
 
 # Misc
 culture = bodpa

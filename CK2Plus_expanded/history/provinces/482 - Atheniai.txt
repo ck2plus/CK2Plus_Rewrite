@@ -26,7 +26,7 @@ religion = orthodox
 # 4th crusade
 
 #1205.1.1 = { culture = frankish }
-#1205.1.1 = { religion = catholic } 
+#1205.1.1 = { religion = catholic }
 
 1205.1.1 = { b_megara = castle }
 
@@ -42,9 +42,9 @@ religion = orthodox
 
 # Venetians take over Athens
 
-#1395.1.1 = { b_athens = city } 
+#1395.1.1 = { b_athens = city }
 
 
 # Acciaiolli restored
 
-#1402.1.1 = { b_athens = castle } 
+#1402.1.1 = { b_athens = castle }

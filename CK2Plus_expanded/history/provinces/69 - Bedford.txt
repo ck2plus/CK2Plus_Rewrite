@@ -21,7 +21,7 @@ religion = catholic
 
 # History
 
-867.1.1 = { 
+867.1.1 = {
 	b_bedford = ca_keep_1
 	b_bedford = ca_training_grounds_1
 	b_bedford = ca_stable_1

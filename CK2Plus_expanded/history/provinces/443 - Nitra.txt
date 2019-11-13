@@ -20,8 +20,8 @@ culture = slovieni
 religion = slavic_pagan
 
 # History
-842.1.1 = { 
-	religion = catholic 
+842.1.1 = {
+	religion = catholic
 	b_nyitra = castle
 	b_stbenedek = temple
 }

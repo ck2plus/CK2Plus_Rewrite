@@ -20,8 +20,8 @@ religion = orthodox
 
 1082.1.1 = { religion = orthodox }
 
-#4th crusade 
-1205.1.1 = { remove_settlement = b_klokoknitsa } 
+#4th crusade
+1205.1.1 = { remove_settlement = b_klokoknitsa }
 
 1337.1.1 = { b_klokoknitsa = city }
 

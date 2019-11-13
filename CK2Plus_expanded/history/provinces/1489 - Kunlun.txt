@@ -5,12 +5,12 @@ title = c_kunlun
 max_settlements = 2
 
 b_seldang = tribal
-#b_ashi = 
-#b_ulug = 
-#b_pur = 
-#b_yulya = 
-#b_bangdag = 
-#b_dulihri = 
+#b_ashi =
+#b_ulug =
+#b_pur =
+#b_yulya =
+#b_bangdag =
+#b_dulihri =
 
 # Misc
 culture = zhangzhung

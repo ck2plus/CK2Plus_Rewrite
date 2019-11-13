@@ -22,8 +22,8 @@ religion = slavic_pagan
 # History
 
 861.1.1 = { religion = catholic }
-930.1.1 = { 
-	culture = hungarian 
+930.1.1 = {
+	culture = hungarian
 	religion = tengri_pagan
 }
 1000.1.1 = {

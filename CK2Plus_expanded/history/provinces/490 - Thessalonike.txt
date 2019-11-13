@@ -27,8 +27,8 @@ religion = orthodox
 
 #1205.1.1 = { culture = italian }
 #1205.1.1 = { religion = catholic }
- 
-1205.1.1 = { remove_settlement = b_voden } 
+
+1205.1.1 = { remove_settlement = b_voden }
 
 
 # To the despotate of Epirus, Serbian Empire, Byzantine Empire

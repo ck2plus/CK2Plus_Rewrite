@@ -13,7 +13,7 @@ b_al_mahjam = temple
 #b_mawr = castle
 #b_ghalafiqa = castle
 #b_hays = temple
- 
+
 # Misc
 culture = bedouin_arabic
 religion = sunni

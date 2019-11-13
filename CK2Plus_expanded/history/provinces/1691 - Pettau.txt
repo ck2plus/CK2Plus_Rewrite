@@ -1,9 +1,9 @@
-# 1691 - Pettau 
+# 1691 - Pettau
 
 # County title
 title = c_pettau
 
-# Max settlements 
+# Max settlements
 max_settlements = 4
 b_pettau = tribal
 

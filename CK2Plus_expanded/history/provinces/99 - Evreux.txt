@@ -7,7 +7,7 @@ title = c_evreux
 max_settlements = 5
 b_evreux = castle
 b_alencon = city
-b_lisieux = temple 
+b_lisieux = temple
 #b_argentan = castle
 #b_honfleur = city
 #b_falaise = castle
@@ -34,7 +34,7 @@ religion = catholic
 	b_evreux = ca_militia_barracks_1
 	b_evreux = ca_barracks_1
 	b_evreux = ca_town_1
-	
+
 	b_argentan = ca_keep_1
 	b_argentan = ca_training_grounds_1
 	b_argentan = ca_stable_1
@@ -43,7 +43,7 @@ religion = catholic
 	b_argentan = ca_militia_barracks_1
 	b_argentan = ca_barracks_1
 	b_argentan = ca_town_1
-	
+
 	b_alencon = ct_port_1
 }
 

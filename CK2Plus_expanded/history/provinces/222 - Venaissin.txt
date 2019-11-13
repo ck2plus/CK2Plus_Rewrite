@@ -23,7 +23,7 @@ religion = catholic
 
 # History
 867.1.1 = { culture = occitan }
-1274.1.1 = { capital = b_avignon } 
-1274.1.1 = { b_stpaul = temple } 
-1318.1.1 = { b_chateauneufdupape = castle } 
+1274.1.1 = { capital = b_avignon }
+1274.1.1 = { b_stpaul = temple }
+1318.1.1 = { b_chateauneufdupape = castle }
 

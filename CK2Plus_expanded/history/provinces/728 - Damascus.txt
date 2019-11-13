@@ -22,7 +22,7 @@ religion = sunni
 
 # History
 
-867.1.1 = { 
+867.1.1 = {
 	b_qsarbardawil = ca_keep_1
 	b_qsarbardawil = ca_training_grounds_1
 	#b_qsarbardawil = ca_desert_stable_1

@@ -19,7 +19,7 @@ culture = saxon
 religion = catholic
 
 # History
-1000.1.1={ # Bristol founded
+1000.1.1 = { # Bristol founded
 	b_bristol = city
 }
 1100.11.11 = { culture = english }

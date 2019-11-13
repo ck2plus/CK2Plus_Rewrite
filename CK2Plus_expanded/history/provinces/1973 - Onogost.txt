@@ -19,5 +19,5 @@ religion = slavic_pagan
 870.1.1 = {
 	religion = orthodox
 }
-1050.1.1= { religion = bogomilist }
-1200.1.1= { religion = orthodox } 
+1050.1.1 = { religion = bogomilist }
+1200.1.1 = { religion = orthodox }

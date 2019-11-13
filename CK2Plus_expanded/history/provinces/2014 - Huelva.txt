@@ -1,7 +1,7 @@
 # 2014 - Huelva
 
 # County Title
-title = c_huelva 
+title = c_huelva
 
 # Settlements
 max_settlements = 4

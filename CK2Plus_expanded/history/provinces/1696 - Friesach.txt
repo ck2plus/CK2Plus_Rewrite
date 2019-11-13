@@ -5,9 +5,9 @@ title = c_friesach
 b_wolfsberg = tribal
 
 #terrain
-terrain=marsh
+terrain =marsh
 
-# Settlements 
+# Settlements
 max_settlements = 4
 
 # Misc
@@ -16,7 +16,7 @@ religion = slavic_pagan
 
 # History
 
-846.1.1 = { 
+846.1.1 = {
 	religion = catholic
 	b_petersberg = castle
 	b_sankt_veit = temple

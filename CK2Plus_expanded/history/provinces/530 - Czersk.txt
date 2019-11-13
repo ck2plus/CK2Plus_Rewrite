@@ -4,7 +4,7 @@
 title = c_czersk		#Is more or less "Liw" since HF
 
 # Terrain
-terrain=forest
+terrain =forest
 
 # Settlements
 max_settlements = 2

@@ -15,7 +15,7 @@ b_ragnit = tribal
 #b_jomsberg = castle
 #b_splitter = castle
 #b_skomanten = castle
-#b_tilgit = castle 
+#b_tilgit = castle
 #b_strewa = castle
 
 # Misc
@@ -23,7 +23,7 @@ culture = lithuanian
 religion = baltic_pagan
 
 # History
-1255.1.1= { trade_post = b_pat_luneburg }
+1255.1.1 = { trade_post = b_pat_luneburg }
 1290.1.1 = {
 	religion = catholic
 	b_ragnit = castle

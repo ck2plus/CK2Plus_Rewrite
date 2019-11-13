@@ -30,7 +30,7 @@ religion = tengri_pagan
 }
 930.1.1 = { culture = hungarian }
 950.1.1 = {
-	religion = catholic	
+	religion = catholic
 	b_heves = castle
 	b_gyongyos = city
 }

@@ -21,4 +21,4 @@ religion = catholic
 
 # History
 1100.11.11 = { culture = english }
-1187.1.1 = { b_corfe= castle }
+1187.1.1 = { b_corfe = castle }

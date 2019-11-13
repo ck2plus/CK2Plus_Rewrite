@@ -25,4 +25,4 @@ terrain = mountain
 1205.1.1 = { b_kalavryta = castle }
 
 #1205.1.1 = { culture = frankish }
-#1205.1.1 = { religion = catholic } 
+#1205.1.1 = { religion = catholic }

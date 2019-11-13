@@ -3,7 +3,7 @@
 # County Title
 title = c_naupactus
 
-# Settlements 
+# Settlements
 max_settlements = 3
 b_naupaktos = castle
 b_paravola = city

@@ -19,9 +19,9 @@ culture = armenian
 religion = miaphysite
 
 # History
-1164.1.1 = { 
-	culture = kurdish 
+1164.1.1 = {
+	culture = kurdish
 	religion = sunni
-	b_tulupe = castle 
+	b_tulupe = castle
 }
 1337.1.1 = { b_samsat = castle }

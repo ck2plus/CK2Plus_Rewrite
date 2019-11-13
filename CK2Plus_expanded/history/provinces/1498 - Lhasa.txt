@@ -9,8 +9,8 @@ b_lhasa = city #(original city built by Songtsen Gampo in 637)
 b_jokhang = temple #(built by Songtsen Gampo in 641)
 b_ramoche = temple #(built by Songtsen Gampo in 641)
 b_barkhor = city #(subdistrict of the city of Lhasa built by Songtsen Gampo around 641)
-#b_donggar = 
-#b_naiqung = 
+#b_donggar =
+#b_naiqung =
 
 # Misc
 culture = sumpa

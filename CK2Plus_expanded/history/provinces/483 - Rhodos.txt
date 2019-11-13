@@ -28,4 +28,4 @@ terrain = mountain
 #The Knights Hospitaler take over Rhodos
 
 #1309.1.1 = { culture = frankish }
-#1309.1.1 = { religion = catholic } 
+#1309.1.1 = { religion = catholic }

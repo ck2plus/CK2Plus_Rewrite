@@ -23,7 +23,7 @@ religion = orthodox
 # 4th crusade, kingdom of Thessaloniki
 
 #1205.1.1 = { culture = italian }
-#1205.1.1 = { religion = catholic } 
+#1205.1.1 = { religion = catholic }
 
 1205.1.1 = { remove_settlement = b_neopetra }
 

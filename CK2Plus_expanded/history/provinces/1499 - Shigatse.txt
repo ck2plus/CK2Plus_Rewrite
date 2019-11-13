@@ -8,7 +8,7 @@ b_shigatse = castle
 b_gongon_lhakhang = temple #(Temple built by Songtsen Gampo and freqented by Padmasambhava, Namkhai Nyingpo, and King Trisong Detsen)
 b_samzhubze = city
 #b_yungdrungling = temple #(Important Bon Monastery)
-#b_namling = 
+#b_namling =
 #b_shalu = temple
 #b_tashilhunpo = temple
 

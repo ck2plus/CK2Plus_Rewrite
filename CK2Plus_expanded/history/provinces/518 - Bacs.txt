@@ -28,8 +28,8 @@ religion = tengri_pagan
 	b_bacs = tribal
 	remove_settlement = b_szintarev
 }
-930.1.1 = { 
-	culture = hungarian 
+930.1.1 = {
+	culture = hungarian
 }
 950.1.1 = {
 	religion = catholic

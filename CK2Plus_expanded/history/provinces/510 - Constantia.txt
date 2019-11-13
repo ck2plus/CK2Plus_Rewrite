@@ -22,11 +22,11 @@ culture = bulgarian
 religion = orthodox
 
 # History
-681.1.1= { religion = slavic_pagan } 
-875.1.1= { religion = orthodox } 
+681.1.1 = { religion = slavic_pagan }
+875.1.1 = { religion = orthodox }
 
 1187.1.1 = {
 	max_settlements = 4
 	b_mesgidia = castle
-} 
+}
 1229.1.1 = { trade_post = b_doria }

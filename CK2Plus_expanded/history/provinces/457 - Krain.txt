@@ -28,5 +28,5 @@ religion = slavic_pagan
 	religion = catholic
 }
 
-1286.1.1 = { capital = b_gorz } 
+1286.1.1 = { capital = b_gorz }
 

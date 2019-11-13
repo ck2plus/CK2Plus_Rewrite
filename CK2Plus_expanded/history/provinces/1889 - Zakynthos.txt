@@ -3,7 +3,7 @@
 # County Title
 title = c_zakynthos
 
-# Settlements 
+# Settlements
 max_settlements = 1
 b_zakynthos = castle
 

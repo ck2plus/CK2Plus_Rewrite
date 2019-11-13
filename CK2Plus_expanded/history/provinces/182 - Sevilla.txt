@@ -8,7 +8,7 @@ max_settlements = 6
 b_sevilla = castle
 b_carmona = temple
 b_ecija = city
-b_utrera= castle
+b_utrera = castle
 b_sevimoron = city
 
 #b_alcaladeguadaira

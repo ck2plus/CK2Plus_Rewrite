@@ -19,9 +19,8 @@ culture = saxon
 religion = catholic
 
 # History
-1094.1.1={ # Herbert de Losinga relocates the diocese to Norwich
+1094.1.1 = { # Herbert de Losinga relocates the diocese to Norwich
 	remove_settlement = b_elmham
 	b_norwich = temple
 }
 1100.11.11 = { culture = english }
- 

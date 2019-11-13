@@ -5,7 +5,7 @@ title = c_xainza
 max_settlements = 2
 
 b_xainza = tribal
-#b_baingoin = 
+#b_baingoin =
 #b_siling = {
 #b_maryo = {
 #b_zhago = {

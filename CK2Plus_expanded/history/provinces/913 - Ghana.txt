@@ -29,5 +29,5 @@ religion = west_african_pagan
 #Decline of Wagadu
 1150.1.1 = {
 	# VERY IMPORTANT: remove_settlement must always be scripted AFTER a 'capital' switch away from the same settlement
-	remove_settlement = b_goumbou 
+	remove_settlement = b_goumbou
 }

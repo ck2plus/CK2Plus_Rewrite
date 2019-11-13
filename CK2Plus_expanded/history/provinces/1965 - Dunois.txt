@@ -8,7 +8,7 @@ max_settlements = 4
 
 b_chateaudun = castle
 b_freteval = city
-b_tiron = temple 
+b_tiron = temple
 
 #b_cloyes
 #b_bonneval

@@ -19,8 +19,8 @@ culture = armenian
 religion = miaphysite
 
 # History
-1177.1.1 = { 
-	culture = kurdish 
+1177.1.1 = {
+	culture = kurdish
 	religion = sunni
 }
 1320.1.1 = { culture = levantine_arabic }

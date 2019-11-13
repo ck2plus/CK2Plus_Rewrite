@@ -25,6 +25,6 @@ terrain = mountain
 1234.1.1 = { trade_post = b_dandolo }
 # 4th crusade
 
-1304.1.1 = { b_chios = castle } 
-1304.1.1 = { capital = b_chios } 
-1304.1.1 = { b_samos = city } 
+1304.1.1 = { b_chios = castle }
+1304.1.1 = { capital = b_chios }
+1304.1.1 = { b_samos = city }

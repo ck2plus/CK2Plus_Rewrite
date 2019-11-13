@@ -23,7 +23,7 @@ terrain = forest
 # History
 1187.1.1 = {
 	b_sortavala = castle
-	
+
 	b_sortavala = ca_keep_1
 	b_sortavala = ca_militia_barracks_1
 	b_sortavala = ca_wall_1

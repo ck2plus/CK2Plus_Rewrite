@@ -13,7 +13,7 @@ b_ust-onega = tribal
 #b_kondopoga = city
 #b_pudoga = castle
 #b_petrozavodsk = city
-#b_medvezhyegorsk = castle 
+#b_medvezhyegorsk = castle
 #b_pryazha = castle
 
 # Misc

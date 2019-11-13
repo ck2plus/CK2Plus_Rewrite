@@ -26,4 +26,4 @@ terrain = mountain
 # 4th crusade
 
 #1205.1.1 = { culture = italian }
-#1205.1.1 = { religion = catholic } 
+#1205.1.1 = { religion = catholic }

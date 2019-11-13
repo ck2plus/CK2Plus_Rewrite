@@ -21,7 +21,7 @@ terrain = hills
 
 # History
 1159.1.1 = { b_conwy = castle }
-1215.1.1 = { 
+1215.1.1 = {
 	b_abergwyngregyn = castle
 	capital = b_abergwyngregyn
 }

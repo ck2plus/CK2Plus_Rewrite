@@ -28,7 +28,7 @@ terrain = hills
 # 4th crusade
 
 #1205.1.1 = { culture = frankish }
-#1205.1.1 = { religion = catholic } 
+#1205.1.1 = { religion = catholic }
 
 # Guillaume de Villehardouin hands it over to the Byzantine Empire
 

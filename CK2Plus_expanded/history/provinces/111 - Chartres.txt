@@ -8,7 +8,7 @@ max_settlements = 4
 
 b_bretigny = castle
 b_chartres = temple
-b_dreux = city 
+b_dreux = city
 
 #b_nogent
 #b_gallardon

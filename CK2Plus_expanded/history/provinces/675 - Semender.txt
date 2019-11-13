@@ -23,7 +23,7 @@ religion = tengri_pagan
 
 865.1.1 = {
 	religion = sunni
-	
+
 	b_kumukh = castle
 	b_semender = temple
 	b_khattibaku = city

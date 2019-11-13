@@ -14,7 +14,7 @@ culture = afghan
 religion = buddhist
 
 # History
-800.1.1={
-	culture=baloch
-	religion=sunni
+800.1.1 = {
+	culture =baloch
+	religion =sunni
 }

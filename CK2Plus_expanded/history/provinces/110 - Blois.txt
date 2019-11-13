@@ -8,7 +8,7 @@ max_settlements = 4
 
 b_blois = castle
 b_staignan = temple
-b_beaugency = city 
+b_beaugency = city
 
 #b_chaumontsurloire = castle
 #b_stgeorgesdubois = temple

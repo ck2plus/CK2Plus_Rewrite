@@ -32,10 +32,10 @@ religion = tengri_pagan
 	b_komarom = tribal
 }
 
-950.1.1 = { 
+950.1.1 = {
 	b_kakath = city
 	b_komarom = castle
-	culture = hungarian 
+	culture = hungarian
 }
 1187.1.1 = { b_tatabanya = castle }
 

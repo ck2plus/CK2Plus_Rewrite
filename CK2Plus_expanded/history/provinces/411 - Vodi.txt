@@ -8,7 +8,7 @@ max_settlements = 2
 
 b_noteborg = tribal
 #b_nyen = city
-#b_kingisepp= temple
+#b_kingisepp = temple
 
 #b_ivanovskaya = castle
 #b_jogopera = castle
@@ -26,4 +26,4 @@ religion = finnish_pagan
 	b_noteborg = castle
 	b_ivanovskaya = castle  #Swedish fortress
 }
-1313.1.1= { trade_post = b_wittenborg }
+1313.1.1 = { trade_post = b_wittenborg }

@@ -6,7 +6,7 @@ max_settlements = 3
 
 b_tashkurgan = castle
 b_jianggala = city
-#b_hangdi = 
+#b_hangdi =
 #b_kaladong = {
 #b_zankan = {
 #b_qiate = {

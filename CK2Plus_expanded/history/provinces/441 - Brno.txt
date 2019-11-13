@@ -22,20 +22,21 @@ religion = slavic_pagan
 
 # History
 
-842.1.1 = {
-	religion = catholic
-}
 800.1.1 = {
 	b_veligrad = castle
 	b_mikulcice = city
 }
+842.1.1 = {
+	religion = catholic
+}
+
 #Magyar destruction of Great Moravia
 907.1.1 = {
 	b_brno = castle
 	capital = b_brno
 	# VERY IMPORTANT: remove_settlement must always be scripted AFTER a 'capital' switch away from the same settlement
-	remove_settlement = b_veligrad 
-	remove_settlement = b_mikulcice 
+	remove_settlement = b_veligrad
+	remove_settlement = b_mikulcice
 }
 1030.1.1 = {
 	b_hodonin = city
@@ -46,5 +47,5 @@ religion = slavic_pagan
 1252.1.1 = {
 	b_zdar = temple
 	# VERY IMPORTANT: remove_settlement must always be scripted AFTER a 'capital' switch away from the same settlement
-	remove_settlement = b_rajhrad 
+	remove_settlement = b_rajhrad
 }

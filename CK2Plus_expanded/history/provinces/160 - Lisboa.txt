@@ -15,7 +15,7 @@ b_alcobaca = temple
 #b_batalha = castle
 #b_alenquer = castle
 #b_atouguia = castle
-#b_tomar = castle 
+#b_tomar = castle
 
 # Misc
 culture = visigothic

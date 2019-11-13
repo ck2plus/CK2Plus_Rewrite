@@ -25,10 +25,10 @@ religion = sunni
 
 1070.1.1 = { capital = b_alcolea }
 
-1236.1.1 = { 
+1236.1.1 = {
 	b_cordoba = castle
 	capital = b_belalcazar
-	
+
 	# VERY IMPORTANT: remove_settlement must always be scripted AFTER a 'capital' switch away from the same settlement
 	remove_settlement = b_alcolea
 }

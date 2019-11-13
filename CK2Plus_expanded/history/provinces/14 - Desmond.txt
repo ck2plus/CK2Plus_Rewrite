@@ -11,7 +11,7 @@ b_clone = temple
 
 #b_youghal = castle
 #b_fermoy = castle
-#b_blarney = castle 
+#b_blarney = castle
 #b_kilbrittain = castle
 
 # Misc

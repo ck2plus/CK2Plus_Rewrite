@@ -34,7 +34,7 @@ religion = slavic_pagan
 	b_pisek = castle
 	capital = b_pisek
 	# VERY IMPORTANT: remove_settlement must always be scripted AFTER a 'capital' switch away from the same settlement
-	remove_settlement = b_prachen 
+	remove_settlement = b_prachen
 	}
 
 1250.1.1 = { b_resenberg = castle }
@@ -43,8 +43,8 @@ religion = slavic_pagan
 #Elvain: quoted out cultural change. Colonists were invited, but only to cities, the country remained mainly Czech/Bohemian
 #1259.1.1 = { culture = german }
 
-1265.1.1 = { 
-	b_budejovice = city 
+1265.1.1 = {
+	b_budejovice = city
 	# VERY IMPORTANT: remove_settlement must always be scripted AFTER a 'capital' switch away from the same settlement
-	remove_settlement = b_doudleby 
+	remove_settlement = b_doudleby
 	}

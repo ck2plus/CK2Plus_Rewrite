@@ -26,4 +26,4 @@ religion = miaphysite
 	b_entoto = castle
 	b_shewa = city
 }
-1187.1.1 = { b_hayq = temple } 
+1187.1.1 = { b_hayq = temple }

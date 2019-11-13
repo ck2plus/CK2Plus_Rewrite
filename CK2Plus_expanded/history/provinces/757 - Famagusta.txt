@@ -22,6 +22,6 @@ religion = orthodox
 
 # History
 1165.1.1 = { trade_post = b_faliero }
-1200.1.1 = { b_kyrenia = castle } 
+1200.1.1 = { b_kyrenia = castle }
 
 

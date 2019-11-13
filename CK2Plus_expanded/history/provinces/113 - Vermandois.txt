@@ -19,4 +19,4 @@ religion = catholic
 
 # History
 790.1.1 = { culture = frankish }
-1187.1.1 = { b_coucy = castle } 
+1187.1.1 = { b_coucy = castle }

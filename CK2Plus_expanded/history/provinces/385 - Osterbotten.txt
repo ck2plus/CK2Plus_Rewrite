@@ -10,7 +10,7 @@ b_vaasa = tribal
 
 #b_kristinestad = city
 
-#b_korsholm = temple 
+#b_korsholm = temple
 #b_liminka = castle
 #b_kalajoki = castle
 #b_kaskinen = castle

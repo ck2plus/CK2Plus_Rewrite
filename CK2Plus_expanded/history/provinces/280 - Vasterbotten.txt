@@ -24,7 +24,7 @@ terrain = forest
 
 # History
 1066.1.1 = {
-	culture = swedish 
+	culture = swedish
 	religion = norse_pagan
 }
 1090.1.1 = { religion = catholic }

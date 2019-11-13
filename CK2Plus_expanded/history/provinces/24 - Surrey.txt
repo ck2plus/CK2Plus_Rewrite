@@ -20,4 +20,4 @@ culture = saxon
 religion = catholic
 
 # History
-1100.11.11 = { culture = english } 
+1100.11.11 = { culture = english }

@@ -6,7 +6,7 @@ max_settlements = 4
 
 b_bome = tribal
 b_zhamo = city
-#b_alamdo = 
+#b_alamdo =
 #b_yupu = {
 #b_naha = {
 #b_cizula = {

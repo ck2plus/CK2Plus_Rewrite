@@ -24,9 +24,9 @@ religion = finnish_pagan
 
 #1224.1.1 = { b_jarva = city } #bishopric of Dorpat
 #1224.1.1 = { b_tartu = temple }
-1202.1.1 = { 
+1202.1.1 = {
 	b_tartu = temple
-	capital = b_tartu 
+	capital = b_tartu
 }
 1224.1.1 = {
 	religion = catholic

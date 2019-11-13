@@ -21,7 +21,7 @@ religion = catholic
 
 # History
 874.1.1 = { remove_settlement = b_tamworth  } # Danish sacking
-1075.8.28={ # Council of London moves bishopric from Lichfield
+1075.8.28 = { # Council of London moves bishopric from Lichfield
 	remove_settlement = b_lichfield
 	b_coventry = temple
 }

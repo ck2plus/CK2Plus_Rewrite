@@ -7,10 +7,10 @@ max_settlements = 5
 b_dege = castle
 b_dzongsar = temple
 #b_palpung = temple
-#b_dama = 
-#b_baiya = 
-#b_babang = 
-#b_gongya = 
+#b_dama =
+#b_baiya =
+#b_babang =
+#b_gongya =
 
 # Misc
 culture = tangut #Qiang/Rrmea

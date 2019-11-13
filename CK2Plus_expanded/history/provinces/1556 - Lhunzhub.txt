@@ -6,11 +6,11 @@ max_settlements = 4
 
 b_lhunzhub = tribal
 #b_reting = temple
-#b_codoi = 
-#b_karze =  
-#b_ngarnang = 
-#b_poindo = 
-#b_sumcheng = 
+#b_codoi =
+#b_karze =
+#b_ngarnang =
+#b_poindo =
+#b_sumcheng =
 
 # Misc
 culture = sumpa
