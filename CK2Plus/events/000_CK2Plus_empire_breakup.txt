@@ -89,20 +89,21 @@ character_event = {
 #
 ################################
 
+# WIP
 # Emperor holds multiple  Empires
-character_event = {
-	id = plusEmpire.010
+#character_event = {
+#	id = plusEmpire.010
 	#TODO
-
-	hide_window = yes
-	is_triggered_only = yes
+#
+#	hide_window = yes
+#	is_triggered_only = yes
 	# Fires on new holder
 
-	only_independent = yes
-	only_playable = yes
+#	only_independent = yes
+#	only_playable = yes
 
-	trigger = {
-		real_tier = EMPEROR
-		is_exempt_title = no
-	}
-}
+#	trigger = {
+#		real_tier = EMPEROR
+#		is_exempt_title = no
+#	}
+#}
