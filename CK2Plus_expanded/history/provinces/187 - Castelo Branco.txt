@@ -22,8 +22,4 @@ religion = catholic
 931.1.1={
 	culture = galician
 }
-1066.1.1 = { 
-	b_castelobranco = ca_wall_1
-	b_castelobranco = ca_wall_2
-}
 1150.1.1 = { culture = portuguese }

@@ -4,15 +4,12 @@
 title = c_quena
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 b_quena = castle
-b_kosseir = city
-b_qus = temple
-b_qift = city
+b_qus = city
+b_qift = temple
 
-#b_abughusun = castle
-#b_safaga = castle
-#b_ummrus = castle
+#b_luxor
 
 # Misc
 culture = coptic

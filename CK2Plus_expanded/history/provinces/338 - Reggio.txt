@@ -27,4 +27,3 @@ terrain = hills
 	religion = catholic
 }
 #1187.1.1={ culture = neapolitan }
-1337.1.1 = { b_belcastro = castle }
