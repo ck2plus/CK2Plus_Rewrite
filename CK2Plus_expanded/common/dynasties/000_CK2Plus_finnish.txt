@@ -1,3 +1,4 @@
+# Valid ids 1000038001 - 1000039000
 1000038001 = {
 	name = "või Muhu"
 	culture = finnish

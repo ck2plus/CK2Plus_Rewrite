@@ -1,3 +1,4 @@
+# Valid ids 1000093001 - 1000094000
 1000093001 = {
 	name = "of Chester"
 	culture = saxon

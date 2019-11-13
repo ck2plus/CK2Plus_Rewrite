@@ -1,3 +1,4 @@
+# Valid ids 1000075001 - 1000076000
 1000075001 = {
 	name = "de Valletort"
 	culture = norman

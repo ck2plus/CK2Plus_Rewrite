@@ -1,3 +1,4 @@
+# Valid ids 1000072001 - 1000073000
 1000072001 = {
 	name = "Batuid"
 	culture = mongol

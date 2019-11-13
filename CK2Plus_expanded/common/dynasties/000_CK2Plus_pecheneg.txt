@@ -1,3 +1,4 @@
+# Valid ids 1000082001 - 1000083000
 1000082001 = {
 	name = "Kangaras"
 	culture = pecheneg

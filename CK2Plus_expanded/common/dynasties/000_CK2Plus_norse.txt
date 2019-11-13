@@ -1,3 +1,4 @@
+# Valid ids 1000076001 - 1000077000
 1000076001 = {
 	name = "Amali"
 	culture = norse

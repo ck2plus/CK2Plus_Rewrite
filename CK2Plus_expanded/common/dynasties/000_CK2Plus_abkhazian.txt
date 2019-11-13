@@ -1,84 +1,85 @@
-1000000001 = {
+# Valid ids 1000120001 - 1000121000
+1000120001 = {
 	name = "Šašba"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120002 = {
 	name = "Ašba"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120003 = {
 	name = "Ajemxaa"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120004 = {
 	name = "Šaabalerxua"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120005 = {
 	name = "Šixotua"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120006 = {
 	name = "Gašba"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120007 = {
 	name = "Inal-jepa"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120008 = {
 	name = "Maršan"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120009 = {
 	name = "Šapš-jepa"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120010 = {
 	name = "Akertaa"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120011 = {
 	name = "Ašuaxuacaa"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120012 = {
 	name = "Cešba"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120013 = {
 	name = "Jašba"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120014 = {
 	name = "Lakerba"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120015 = {
 	name = "Maan"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120016 = {
 	name = "Šuanba"
 	culture = abkhazian
 }
 
-1000000001 = {
+1000120017 = {
 	name = "Adlejba"
 	culture = abkhazian
 }

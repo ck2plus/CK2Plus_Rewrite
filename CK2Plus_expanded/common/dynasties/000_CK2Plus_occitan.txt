@@ -1,3 +1,4 @@
+# Valid ids 1000079001 - 1000080000
 1000079001 = {
 	name = "de Rouergue"
 	culture = occitan

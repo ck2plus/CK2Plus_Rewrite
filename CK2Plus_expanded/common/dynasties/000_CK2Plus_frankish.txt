@@ -1,3 +1,4 @@
+# Valid ids 1000041001 - 1000042000
 1000041001 = {
 	used_for_random = no
 	name = "Merovingian"

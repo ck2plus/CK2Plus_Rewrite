@@ -1,3 +1,4 @@
+# Valid ids 1000042001 - 1000043000
 1000042001 = {
 	name = "Conung"
 	culture = gallawa

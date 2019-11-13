@@ -1,3 +1,4 @@
+# Valid ids 1000064001 - 1000065000
 1000064001 = {
 	name = "di Padoa"
 	culture = ligurian

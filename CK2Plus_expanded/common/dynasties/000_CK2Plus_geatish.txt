@@ -1,3 +1,4 @@
+# Valid ids 1000043001 - 1000044000
 1000043001 = {
 	name = "Av Folke"
  	culture = geatish

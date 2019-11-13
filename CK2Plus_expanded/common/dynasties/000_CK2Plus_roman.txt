@@ -1,3 +1,4 @@
+# Valid ids 1000089001 - 1000090000
 1000089001 = {
 	name = "Publicius"
 	culture = roman

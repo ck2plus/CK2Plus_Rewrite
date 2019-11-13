@@ -1,3 +1,4 @@
+# Valid ids 1000030001 - 1000031000
 1000030001 = {
 	name = "Sested"
 	culture = danish

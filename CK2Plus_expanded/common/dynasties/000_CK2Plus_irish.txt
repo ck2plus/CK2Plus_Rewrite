@@ -1,3 +1,4 @@
+# Valid ids 1000052001 - 1000053000
 1000052001 = {
 	name = "Dál Fiatach"
 	culture = irish

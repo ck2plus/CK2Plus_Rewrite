@@ -1,3 +1,4 @@
+# Valid ids 1000065001 - 1000066000
 1000065001 = {
 	name = "Palemonas"
 	culture = lithuanian

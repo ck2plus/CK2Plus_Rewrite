@@ -1,3 +1,4 @@
+# Valid ids 1000029001 - 1000030000
 1000029001 = {
 	name = "Sebenico"
 	culture = dalmatian

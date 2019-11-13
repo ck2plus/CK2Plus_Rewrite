@@ -1,3 +1,4 @@
+# Valid ids 1000004001 - 1000005000
 1000004001 = {
 	name = "Progoni"
 	culture = arberian

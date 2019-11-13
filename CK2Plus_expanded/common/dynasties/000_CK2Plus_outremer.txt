@@ -1,3 +1,4 @@
+# Valid ids 1000081001 - 1000082000
 1000081001 = {
 	name = "Muaynier"
 	culture = outremer

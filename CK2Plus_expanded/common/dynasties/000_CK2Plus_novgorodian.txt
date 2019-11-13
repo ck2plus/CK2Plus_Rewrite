@@ -1,3 +1,4 @@
+# Valid ids 1000078001 - 1000079000
 1000078001 = {
 	name = "Jurevic"
 	culture = novgorodian

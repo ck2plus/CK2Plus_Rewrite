@@ -1,3 +1,4 @@
+# Valid ids 1000037001 - 1000038000
 1000037001 = {
 	name = "of Makuria"
 	culture = ethiopian
