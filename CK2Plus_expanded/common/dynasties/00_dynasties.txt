@@ -47188,7 +47188,7 @@
 	culture = breton
 }
 
-105946 = {
+105948 = {
 	name = "Kernev"
 	culture = breton
 }
