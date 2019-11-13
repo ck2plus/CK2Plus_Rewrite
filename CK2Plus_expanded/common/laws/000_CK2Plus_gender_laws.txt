@@ -532,6 +532,7 @@ gender_laws = {
 
 		pass_effect = {
 			holder_scope = {
+				show_scope_change = no
 				if = {
 					limit = {
 						has_game_started = yes
@@ -758,6 +759,7 @@ gender_laws = {
 
 		pass_effect = {
 			holder_scope = {
+				show_scope_change = no
 				if = {
 					limit = {
 						has_game_started = yes
@@ -1003,6 +1005,7 @@ gender_laws = {
 
 		pass_effect = {
 			holder_scope = {
+				show_scope_change = no
 				if = {
 					limit = {
 						has_game_started = yes
