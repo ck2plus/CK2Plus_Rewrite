@@ -1,2 +1,74 @@
-# Valid ids 1000191001 - 1000192000
-
+# Valid ids 1000111001 - 1000112000
+# Valid ids 1000123001 - 1000124000
+1000111001 = {
+	name = "Ertenid"
+	culture = turkish
+}
+1000111002 = {
+	name = "Süleymid"
+	culture = turkish
+}
+1000111003 = {
+	name = "Erenid"
+	culture = turkish
+}
+1000111004 = {
+	name = "Zengid"
+	culture = turkish
+}
+1000111005 = {
+	name = "Baharid"
+	culture = turkish
+}
+1000111006 = {
+	name = "Simjurid"
+	culture = turkish
+}
+1000111007 = {
+	name = "Ghazi"
+	culture = turkish
+}
+1000111008 = {
+	name = "Aslan"
+	culture = turkish
+}
+1000111009 = {
+	name = "Rum"
+	culture = turkish
+}
+1000111010 = {
+	name = "Teke"
+	culture = turkish
+}
+1000111011 = {
+	name = "Jandarid"
+	culture = turkish
+}
+1000111012 = {
+	name = "Kayid"
+	culture = turkish
+}
+1000111013 = {
+	name = "Afsharid"
+	culture = turkish
+}
+1000111014 = {
+	name = "Kara"
+	culture = turkish
+}
+1000111015 = {
+	name = "Yasar"
+	culture = turkish
+}
+1000111016 = {
+	name = "Orhanid"
+	culture = turkish
+}
+1000111017 = {
+	name = "Musaid"
+	culture = turkish
+}
+1000111018 = {
+	name = "Inalid"
+	culture = turkish
+}

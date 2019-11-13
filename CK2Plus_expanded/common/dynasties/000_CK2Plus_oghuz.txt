@@ -2,13 +2,13 @@
 
 1000080001 = {
 	name = "Zahirid"
-	culture = turkish
+	culture = oghuz
 }
 1000080002 = {
 	name = "Burjid"
-	culture = turkish
+	culture = oghuz
 }
 1000080003 = {
 	name = "Bahrid"
-	culture = turkish
+	culture = oghuz
 }
