@@ -54851,7 +54851,7 @@
 
 256041 = { 		#Berthold of Hannover, 2nd bishop of Riga
 	name = "Berthold"
-	dynasty = 1061019
+	dynasty = 1061029
 	religion = catholic
 	culture = german
 	1136.1.1 = {

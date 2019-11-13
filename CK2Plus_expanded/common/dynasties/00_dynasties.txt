@@ -39035,7 +39035,7 @@
 }
 
 1048004 = {
-	name = "Ifrinid"
+	name = "Ifranid"
 	culture = maghreb_arabic
 	religion = ibadi
 }
@@ -44679,7 +44679,7 @@
 	religion = baltic_pagan
 }
 
-1061019 = {
+1061029 = {
 	name = "von Hanover"
 	culture = german
 	religion = catholic
@@ -46870,7 +46870,7 @@
 	religion = west_african_pagan
 }
 
-1000101153 = {
+1060031 = {
 	name = "Gobiri"
 	culture = hausa
 	religion = west_african_pagan
@@ -47188,7 +47188,7 @@
 	culture = breton
 }
 
-105946 = {
+105948 = {
 	name = "Kernev"
 	culture = breton
 }
@@ -47336,7 +47336,7 @@
 	religion = buddhist
 }
 
-1059971 = {
+1059977 = {
 	name = "Kaukabi"
 	culture = persian
 	religion = shiite
@@ -47581,11 +47581,6 @@
 1900040 = {
 	name = "de Tilly"
 	culture = outremer
-}
-
-1062594 = {
-	name = "Faroaldingi"
-	culture = longobard
 }
 
 1062205 = {
@@ -48920,12 +48915,6 @@
 	religion = shiite
 }
 
-1062442 = {
-	name = "Ifranid"
-	culture = maghreb_arabic
-	religion = ibadi
-}
-
 1062443 = {
 	name = "Ahisid"
 	culture = maghreb_arabic
@@ -49827,11 +49816,6 @@
 	religion = sunni
 }
 
-1062594 = {
-	name = "Faroaldingi"
-	culture = lombard
-}
-
 1062595 = {
 	name = "Kál"
 	culture = hungarian
@@ -49915,12 +49899,6 @@
 	name = "Meginhardi"
 	culture = german
 	religion = catholic
-}
-
-1062595 = {
-	name = "Shahin"
-	culture = levantine_arabic
-	religion = pagan
 }
 
 1062594 = {
