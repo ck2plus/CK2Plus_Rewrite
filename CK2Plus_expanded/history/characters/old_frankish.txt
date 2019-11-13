@@ -34,11 +34,11 @@
 	}
 	768.9.24 = {
 		add_claim = k_austrasia
-#		add_claim = k_burgundy
+		add_claim = k_burgundy
 	}
 	771.12.4 = { # Karloman's death, inheritance
 		remove_claim = k_austrasia
-#		remove_claim = k_burgundy
+		remove_claim = k_burgundy
 	}
 	772.1.1 = {
 		add_spouse = 167827
@@ -70,11 +70,9 @@
 	}
 	768.9.24 = {
 		add_claim = k_neustria
-#		effect = {
-#			k_austrasia = {
-#				make_primary_title = yes
-#			}
-#		}
+		effect = {
+			grant_title_no_opinion = k_burgundy
+		}
 	}
 	771.12.4 = {
 		death = yes
