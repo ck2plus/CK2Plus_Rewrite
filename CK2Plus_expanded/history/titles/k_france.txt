@@ -75,12 +75,11 @@
 
 954.11.12 = {
 	holder = 90125 #Lothaire
-
+}
 
 986.6.8 = {
 	holder = 90126 #Louis V le Fainéant
 }
-
 
 #Direct Capetians
 987.7.3 = {

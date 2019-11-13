@@ -23,6 +23,8 @@ k_neustria = {
 
 	capital = 112 # Ile de France
 
+	dignity = 200
+
 	allow = {
 		# TODO: Put in actual requirements
 		always = no
@@ -36,6 +38,8 @@ k_austrasia = {
 	culture = old_frankish
 
 	capital = 90 # Julich
+
+	dignity = 200
 
 	allow = {
 		# TODO: Put in actual requirements
