@@ -126,8 +126,6 @@
 # welsh                     1000118001 - 1000119000
 # zenati                    1000119001 - 1000120000	
 
-# Now unused:
-# 1000019001 - 1000020000
 
 # Cultures that were added later and use additional dynasty ranges as specified:
 
