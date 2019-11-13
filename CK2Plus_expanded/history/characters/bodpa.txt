@@ -7161,9 +7161,9 @@
 	}
 	750.1.1 = {
 		effect = {
-			c_252002 = { add_friend = ROOT }
-			c_247342 = { add_friend = ROOT }
-			c_252005 = { add_friend = ROOT }
+			add_friend = 252002
+			add_friend = 247342
+			add_friend = 252005
 		}
 	}
 	755.1.2 = {
