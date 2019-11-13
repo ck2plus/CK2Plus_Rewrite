@@ -3678,7 +3678,7 @@
 	culture = welsh
 	father = 159038 # Coel
 	mother = 159951 #Ystradwel of Dumnonia
-	355.1.1 = {
+	370.1.1 = {
 		birth = yes
 	}
 	390.1.2 = {
