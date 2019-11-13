@@ -231,18 +231,18 @@
 		add_spouse = 252004
 	}
 	754.1.1 = {
-		#effect = { add_consort = c_242405 }
-		effect = { add_friend = c_247342 }
+		#effect = { add_consort = 242405 }
+		effect = { add_friend = 247342 }
 	}
 	764.1.1 = {
 		effect = {
-			add_consort = c_252003
-			add_friend = c_247106
-			add_friend = c_252002
+			add_consort = 252003
+			add_friend = 247106
+			add_friend = 252002
 		}
 	}
 	768.1.1 = {
-		effect = { add_consort = c_247107 }
+		effect = { add_consort = 247107 }
 	}
 	769.1.1 = {
 		effect = {
