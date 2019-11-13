@@ -11,7 +11,7 @@
 
 814.1.28 = {
 	holder = 90095 # Louis I 'the Pious'
-
+}
 
 840.6.20 = {
 #	liege = e_france
