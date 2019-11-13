@@ -4,7 +4,7 @@
 745.1.1 = {
 	set_tribute_suzerain = {
 		who = k_bavaria
-		type = permanent 
+		type = permanent
 	}
 }
 750.1.1 = {
@@ -16,6 +16,11 @@
 769.1.1 = {
 	holder = 260385 # Prince Valhun of Carantania
 }
+
+788.1.1 = {
+	liege = e_france
+}
+
 867.1.1 = {
 	holder = 0
 	clear_tribute_suzerain = k_bavaria
@@ -112,7 +117,7 @@
 }
 1295.10.1=
 {
-	holder=462714 
+	holder=462714
 }
 1310.3.28=
 {

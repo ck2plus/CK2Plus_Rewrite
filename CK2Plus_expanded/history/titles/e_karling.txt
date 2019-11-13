@@ -1,25 +1,32 @@
 1.1.1 = {
 	active = no
 }
+
 800.12.25 = {
 	active = yes
 	holder = 6392 #Charlemagne
 }
+
 814.1.28 = {
 	holder = 90095 # Louis I
 }
+
 822.4.5 = {
-	holder=30227 # Lothaire
+	holder = 30227 # Lothaire
 }
-855.9.20={
-	holder=30228 # Louis II
+
+855.9.20 = {
+	holder = 30228 # Louis II
 }
+
 875.8.12={
-	holder=90104 # Charles 'the Bald'
+	holder = 90104 # Charles 'the Bald'
 }
+
 876.8.28 = {
 	holder = 90105 #Charles 'the Fat'
 }
+
 924.7.4 = {
 	holder = 0
 	active = no

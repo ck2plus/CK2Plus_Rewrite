@@ -1,5 +1,5 @@
 1.1.1 = {
-	de_jure_liege = 0
+	de_jure_liege = e_germany
 }
 740.1.1 = {
 	holder = 190455 #Theoderic

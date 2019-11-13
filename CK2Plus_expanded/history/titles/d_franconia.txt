@@ -1,71 +1,98 @@
-100.1.1={
-	liege=k_germany
-}
-637.1.1={
-	liege=k_germany
-}
-637.1.1={
-	holder = 190388 #Hruodis
-}
-651.1.1={
-	holder = 190389 #Hetan
-}
-677.1.1={
-	holder = 190390 #Gozbert
-}
-697.1.1={
-	holder = 190391 #Hetan
-}
-733.1.1={
-	holder = 190392 #Thuringus
-}
-769.1.1={
-	liege = k_france
-}
-770.1.1={
-	holder = 190393 #Ado
-}
-805.1.1={
-	holder = 0
-}
-865.1.1={
-	holder = 42019 #Ludwig II 
+100.1.1 = {
 	liege = k_germany
 }
-906.1.1={
+
+637.1.1 = {
+	liege = k_germany
+}
+
+637.1.1 = {
+	holder = 190388 #Hruodis
+}
+
+651.1.1 = {
+	holder = 190389 #Hetan
+}
+
+677.1.1 = {
+	holder = 190390 #Gozbert
+}
+
+697.1.1 = {
+	holder = 190391 #Hetan
+}
+
+733.1.1 = {
+	holder = 190392 #Thuringus
+}
+
+769.1.1 = {
+	de_jure_liege = k_austrasia
+	liege = k_neustria
+}
+
+770.1.1 = {
+	holder = 190393 #Ado
+}
+
+790.1.1 = {
+	liege = k_francia
+}
+
+805.1.1 = {
+	holder = 0
+}
+
+865.1.1 = {
+	holder = 42019 #Ludwig II
+	liege = k_germany
+}
+
+906.1.1 = {
 	holder = 7952
 }
-918.12.23={
+
+918.12.23 = {
 	holder = 7953
 }
-939.1.1={
+
+939.1.1 = {
 	holder = 1306
 }
-955.8.10={
+
+955.8.10 = {
 	holder = 1308
 }
-1004.11.30={
+
+1004.11.30 = {
 	holder = 1312
 }
-1024.7.13={
-	liege=e_hre
+
+1024.7.13 = {
+	liege = e_hre
 }
-1039.6.4={
+
+1039.6.4 = {
 	holder = 1314
 }
-1056.5.10 = {	
+
+1056.5.10 = {
 	holder = 1316
 }
-1106.7.8={
+
+1106.7.8 = {
 	holder = 7901
 }
-1125.5.23={
+
+1125.5.23 = {
 	holder = 212495
 }
-1147.1.22={
+
+1147.1.22 = {
 	holder = 7903
 }
-1152.2.15={
+
+1152.2.15 = {
 	holder = 0
 	liege = 0
 }
