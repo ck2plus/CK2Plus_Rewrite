@@ -1,0 +1,72 @@
+1000111001 = {
+	name = "Ertenid"
+	culture = anatolian
+}
+1000111002 = {
+	name = "Süleymid"
+	culture = anatolian
+}
+1000111003 = {
+	name = "Erenid"
+	culture = anatolian
+}
+1000111004 = {
+	name = "Zengid"
+	culture = anatolian
+}
+1000111005 = {
+	name = "Baharid"
+	culture = anatolian
+}
+1000111006 = {
+	name = "Simjurid"
+	culture = anatolian
+}
+1000111007 = {
+	name = "Ghazi"
+	culture = anatolian
+}
+1000111008 = {
+	name = "Aslan"
+	culture = anatolian
+}
+1000111009 = {
+	name = "Rum"
+	culture = anatolian
+}
+1000111010 = {
+	name = "Teke"
+	culture = anatolian
+}
+1000111011 = {
+	name = "Jandarid"
+	culture = anatolian
+}
+1000111012 = {
+	name = "Kayid"
+	culture = anatolian
+}
+1000111013 = {
+	name = "Afsharid"
+	culture = anatolian
+}
+1000111014 = {
+	name = "Kara"
+	culture = anatolian
+}
+1000111015 = {
+	name = "Yasar"
+	culture = anatolian
+}
+1000111016 = {
+	name = "Orhanid"
+	culture = anatolian
+}
+1000111017 = {
+	name = "Musaid"
+	culture = anatolian
+}
+1000111018 = {
+	name = "Inalid"
+	culture = anatolian
+}
