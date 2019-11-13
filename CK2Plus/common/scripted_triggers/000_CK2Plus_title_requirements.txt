@@ -26,14 +26,13 @@ is_exempt_title = { # Empires that are exempt from the breakup rules
 
 has_ck2plus_duchy_reqs = {
 	# If title is titular
-	conditional_tooltip = {
-		trigger = { FROM = { is_titular = yes } }
+	trigger_if = {
+		limit = { FROM = { is_titular = yes } }
 		lower_real_tier_than = DUKE
 	}
 	# If title is landed
-	conditional_tooltip = {
-		trigger = { FROM = { is_landed = yes } }
-		#TODO: Add landed reqs
+	trigger_else = {
+		# Alternate Reqs to go here later
 	}
 	# If holder is a vassal
 	conditional_tooltip = {
@@ -47,14 +46,13 @@ has_ck2plus_duchy_reqs = {
 }
 has_ck2plus_kingdom_reqs = {
 	# If title is titular
-	conditional_tooltip = {
-		trigger = { FROM = { is_titular = yes } }
+	trigger_if = {
+		limit = { FROM = { is_titular = yes } }
 		lower_real_tier_than = KING
 	}
 	# If title is landed
-	conditional_tooltip = {
-		trigger = { FROM = { is_landed = yes } }
-		# TODO: Add landed reqs
+	trigger_else = {
+		# Alternate Reqs to go here later
 	}
 	# If holder is a vassal
 	conditional_tooltip = {
@@ -70,14 +68,13 @@ has_ck2plus_kingdom_reqs = {
 }
 has_ck2plus_empire_reqs = {
 	# If title is titular
-	conditional_tooltip = {
-		trigger = { FROM = { is_titular = yes } }
+	trigger_if = {
+		limit = { FROM = { is_titular = yes } }
 		lower_real_tier_than = EMPEROR
 	}
 	# If title is landed
-	conditional_tooltip = {
-		trigger = { FROM = { is_landed = yes } }
-		# TODO: Add landed reqs
+	trigger_else = {
+		# Alternate Reqs to go here later
 	}
 	# Apply regardless
 	is_title_active = FROM
