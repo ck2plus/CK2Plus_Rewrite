@@ -1,0 +1,12 @@
+# Valid IDs 1000199001 - 1000200000
+1000199001 = {
+    name = "B�ni Irmazyan"
+    culture = houara
+    religion = ibadi
+}
+
+1000199002 = {
+    name = "Haragha"
+    culture = houara
+    religion = ibadi
+}
