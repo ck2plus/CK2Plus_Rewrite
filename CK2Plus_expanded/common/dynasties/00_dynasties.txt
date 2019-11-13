@@ -50536,15 +50536,3 @@
 	culture = houara
 	religion = ibadi
 }
-
-1069092 = {
-    name = "Béni Irmazyan"
-    culture = houara
-    religion = ibadi
-}
-
-1069092 = {
-    name = "Haragha"
-    culture = houara
-    religion = ibadi
-}
