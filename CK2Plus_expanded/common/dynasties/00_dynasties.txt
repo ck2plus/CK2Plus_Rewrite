@@ -46870,7 +46870,7 @@
 	religion = west_african_pagan
 }
 
-1000101153 = {
+1060031 = {
 	name = "Gobiri"
 	culture = hausa
 	religion = west_african_pagan
