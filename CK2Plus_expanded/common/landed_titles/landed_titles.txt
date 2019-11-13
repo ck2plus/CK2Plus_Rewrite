@@ -30298,8 +30298,8 @@ e_carpathia = {
 }
 
 e_france = {
-	color={ 11 22 170 }
-	color2={ 255 255 20 }
+	color = { 11 22 170 }
+	color2 = { 255 255 20 }
 
 	capital = 112 # Ile de France
 

@@ -1,47 +1,127 @@
-100.1.1=
-{
+100.1.1 = {
 	pentarch = b_roma
 }
 
-751.1.1={
+# do something with Childebert I, Theudebert I and Chlothar I?
+
+561.1.1 = {
+	holder = 1000250001 # St. Gontrand
+}
+
+592.3.28 = {
+	holder = 168691 # Childebert II
+}
+
+595.3.28 = {
+	holder = 168693 # Theuderic II
+}
+
+613.1.1 = {
+	holder = 168694 # Sigebert II
+}
+
+# United with Neustria, but under separate administration
+
+613.7.1 = {
+	holder = 168695 # Chlothar II
+}
+
+629.10.18 = {
+	holder = 168696 # Dagobert I
+}
+
+639.11.1 = {
+	holder = 168699 # Clovis II
+}
+
+657.11.1 = {
+	holder = 168701 # Chlothar III
+}
+
+673.5.9 = {
+	holder = 168703 # Theuderic III
+}
+
+691.4.12 = {
+	holder = 168709 # Clovis IV
+}
+
+695.1.1 = {
+	holder = 168711 # Childebert III
+}
+
+711.4.14 = {
+	holder = 168712 # Dagobert III
+}
+
+715.12.31 = {
+	holder = 168706 # Chilperic II
+}
+
+721.2.13 = {
+	holder = 168713 # Theuderic IV
+}
+
+737.1.1 = {
+	holder = 0 # Throne remained vacant for seven years
+}
+
+743.1.1 = {
+	holder = 168707 # Childeric III
+}
+
+# Karlings
+
+751.3.1 = {
+	holder = 0 # deposed by Pope Zacharius at behest of Pepin the Short
 	law = agnatic_succession
 }
-771.12.4={
-	holder = 144999
+
+#768.9.24 = {
+#	holder = 144999 # Karloman
+#}
+
+#771.12.4 = {
+#	holder = 6392 # Karl the Great
+#}
+
+814.1.2 = {
+	holder = 90095 # Louis the Pious
 }
-814.1.2={
-	holder = 90095
+
+817.1.1 = {
+	holder = 30227 # Lothair I
 }
-817.1.1={
-	holder = 30227
+
+855.8.23 = {
+	holder = 144998 # Lothair II
 }
-855.8.23={
-	holder = 144998
+
+869.8.8 = {
+	holder = 90105 # Karl the Fat
 }
-869.8.8={
-	holder = 90105
+
+888.1.14 = {
+	holder = 7984 # Rudolf I
 }
-888.1.14=
-{
-holder=7984
+
+911.10.25 = {
+	holder = 1144 # Rudolf II
 }
-911.10.25=
-{
-holder=1144
-}
+
 933.1.1 = {
 	name = ARLES
 	adjective = ARLES_ADJ
 }
-937.12.1=
-{
-holder=1146
+
+937.12.1 = {
+	holder = 1146 # Konrad I
 }
-993.10.19=
-{
-holder=1148
+
+993.10.19 = {
+	holder = 1148 # Rudolf III
 }
-1032.9.5=
-{
-holder=0
+
+1032.9.5 = {
+	holder = 0
 }

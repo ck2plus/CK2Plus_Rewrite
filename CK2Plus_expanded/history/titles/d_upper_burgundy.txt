@@ -1,5 +1,5 @@
 760.1.1={
-	liege=k_lotharingia
+	liege = k_austrasia
 }
 760.1.1={
 	holder = 190562 #Hugh I

@@ -1,0 +1,19 @@
+#Carolingians
+1.1.1 = {
+	active = no
+}
+
+790.1.1 = {
+	active = yes
+	holder = 40994 # Charles 'the Younger'
+	liege = e_france
+}
+
+800.12.25 = {
+	liege = e_karling
+}
+
+811.12.4 = {
+	holder = 0
+	active = no
+}

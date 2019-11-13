@@ -1,12 +1,12 @@
 e_karling = {
-	color = { 155 155 155 }
-	color2 = { 220 220 20 }
 	color = { 250 250 250 }
 	color2 = { 0 0 0 }
 	culture = frankish
+
 	dynasty_title_names = no
 	creation_requires_capital = no
 	short_name = yes
+
 	capital = 90 # Julich
 
 	allow = {
@@ -14,9 +14,10 @@ e_karling = {
 		always = no
 	}
 }
+
 k_neustria = {
-	color={ 110 110 160 }
-	color2={ 220 220 20 }
+	color = { 110 110 160 }
+	color2 = { 220 220 20 }
 
 	culture = old_frankish
 
@@ -27,13 +28,30 @@ k_neustria = {
 		always = no
 	}
 }
+
 k_austrasia = {
-	color={ 160 160 160 }
-	color2={ 220 220 20 }
+	color = { 220 138 57 }
+	color2 = { 255 255 255 }
 
 	culture = old_frankish
 
 	capital = 90 # Julich
+
+	allow = {
+		# TODO: Put in actual requirements
+		always = no
+	}
+}
+
+k_francia = {
+	color = { 11 22 170 }
+	color2 = { 255 255 20 }
+
+	culture = old_frankish
+
+	capital = 90 # Julich
+
+	short_name = yes
 
 	allow = {
 		# TODO: Put in actual requirements

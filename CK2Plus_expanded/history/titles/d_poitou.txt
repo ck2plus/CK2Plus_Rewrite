@@ -1,5 +1,5 @@
 769.1.1 = {
-	de_jure_liege = k_france
+	de_jure_liege = k_aquitaine
 }
 852.1.1 = {
 	de_jure_liege = k_aquitaine
@@ -87,7 +87,7 @@
 	holder = 455526 # Philippe IV
 }
 1311.12.1 = {
-	holder= 455509 # Philippe, V in 1316 
+	holder= 455509 # Philippe, V in 1316
 }
 1322.1.3 = {
 	holder = 455414 # Charles IV
