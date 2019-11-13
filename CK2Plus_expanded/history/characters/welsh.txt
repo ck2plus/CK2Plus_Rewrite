@@ -112,8 +112,8 @@
 	dynasty = 101919 #Dinefrw
 	religion = catholic
 	culture = welsh
-	trait = bastard
 	father = 81816 #Rhys ap Tewdr
+	mother = 40506 #Gwladys ap Rhiwallon
 	1085.1.1 = {
 		birth = yes
 	}
