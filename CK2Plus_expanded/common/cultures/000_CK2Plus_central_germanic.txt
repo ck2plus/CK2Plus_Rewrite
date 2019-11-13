@@ -1,10 +1,10 @@
 ####################################################################
 #
 #	Central Germanic
-#    - Alemannic (german)
+#    - Alemannic (Plus culture)
 #	 - Bavarian (Plus culture)
 #	 - Franconian (Plus culture)(E)
-#	 - Imperial German (Plus culture)(D)
+#	 - German*(D)
 #	 - Longobard
 #	 - Saxon (old_saxon)
 #	 - Suebi
@@ -31,6 +31,65 @@ central_germanic = {
 	}
 
 	graphical_cultures = { germangfx }
+	
+	alemannic = {
+		graphical_cultures = germangfx
+		
+		color = { 0.75 0.5 0.3 }
+
+		male_names = {
+		Adalrich Agenarich Agilo
+		Bitherid Butilin 
+		Chnodomar Chrodobert Croc 
+		Egino Eticho
+		Gibuld Gotfrid Gomohari Gundomad Gunzo 
+		Fraomar
+		Haming Hariobaud Heddo Hnabi Hortar 
+		Knodomar 
+		Lantachar Lantfrid Leutfred Leuthar Leodegar 
+		Magnachar Makrian Mederich
+        Nebi		
+		Odilo 
+		Priar 
+		Rando 
+		Skudilo Suomar 
+		Theodefrid Theudebald 
+		Uncilin Ur Ursicin 
+		Vadomar Vaefar Vangio Vann Verrit Vestralp Vincomal Vithicab 
+		Willehar Wisimar 
+		}
+		
+		female_names = {
+		Agenarina 
+		Bereswinde Bissula Butilda
+		Chrodoberta 
+		Fridiburga
+		Gerberge Gibulge Gotfridia 
+		Hamingda Hariore Hortare 
+		Leudefindis Leuthia 
+		Makria Mederihe 
+		Randota 
+		Sigrade 
+		Theofridma Thiota Theubalda 
+		Ukia Uncilinge Ursita Urta 
+		Vadomaria Vestrama Vithima 
+		Wilibalda		
+		}
+		
+		from_dynasty_prefix = "von "
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
 
 	bavarian = {
 		graphical_cultures = { germangfx }
@@ -164,7 +223,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 
-	german = { #Alemannic
+	german = { 
 		graphical_cultures = { germangfx }
 
 		color = { 0.5 0.5 0.5 }
@@ -203,73 +262,6 @@ central_germanic = {
 			Gerberga_Gerberga Gerhild Gertrude_Gertrude Gisela_Gisela Gudrun_Gudrun Gunhilda_Gunhild
 			Hedwig_Hedwig Heike Heilwiva Helene_Helen Helga Hemma_Emma Henrike Hildeburg Hildegard_Hildegard
 			Ida_Ida Ilsa Inga_Inge Ingeltrude Irmele Irmeltrud Irmgard_Ermengarde Isentrude
-			Jutta_Judith
-			Karlotte_Caroline Katharina_Catherine Klara_Clara Klementia_Clementia Konstanze_Constance Kriemhild Kunigunde_Kunigunde
-			Luitgard_Luitgard
-			Margarete_Margaret Maria_Maria Mechthild_Matilda
-			Oda Osterhild
-			Richara_Ricarda Richenza_Richeza Richwara Romilda
-			Serhilda_Serhilda Sofie_Sophia Sybille_Sibylla
-			Trude_Gertrude
-			Ulrike Ursula_Ursula Ute_Ute
-			Walpurga Wilhelmina_Wilhelmina Winfrida Wulfhilde_Ulfhild
-		}
-
-		from_dynasty_prefix = "von "
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 5
-		father_name_chance = 10
-
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 50
-		mother_name_chance = 5
-
-		modifier = default_culture_modifier
-	}
-
-	imperial_german = {
-		graphical_cultures = { germangfx }
-
-		color = { 0.52 0.51 0.51 }
-
-		male_names = {
-			Adalbero_Adalbero Adalbert_Albert Adalhard_Adalhard Adam_Adam Ademar_Adémar Adolf_Adolf Alarich_Alaric Alberich_Aubrey Albrecht_Albert Aldrich_Aldric Alois_Louis Amadeus_Amadeus Amalrich_Amalric Andreas_Andrew Anselm_Anselm Ansgar_Oscar Archembald_Archibald Arnold_Arnold Arnulf_Arnulf Augustin_Augustine
-			Baldarich_Baldric Baldewin_Baldwin Baldomar Baldur_Balder Berard_Berard Berengar_Berengar Bernhard_Bernard Berthold_Berthold Burchard_Bouchard
-			Christopher_Christopher
-			Dieter_Dieter Dietmar_Dietmar Dietpold_Dietpold Dietrich_Thierry Dietwin
-			Eberhard_Everard Eginolf_Eginolf Ehrenfried_Ehrenfried Ekbert_Egbert Ekkehard_Ekkehard Emelrich_Aymeric Emich Emmerich_Aymeric Emund_Emund Engelbert_Engelbert Erich_Erik Ernst_Ernest
-			Ferdinand_Ferdinand Filibert_Filibert Folkhard_Folkhard Folkmar_Folkmar Franz_Francis Friedrich_Frederick
-			Gautselin_Joscelin Gebhard_Gebhard Georg_George Gerhard_Gerard Gerlach_Gerlach Giselbert_Gilbert Gottfried_Godfrey Gotthard Gottschalk_Gottschalk Gotzelo Guntram Gunzelin_Günther Günther_Gunnar
-			Hans_Hans Hartmann Hartwig_Hartwig Hartwin_Hartwin Heinrich_Henry Helferich Heribert_Herbert Hermann_Herman Hesso Hugo_Hugh Humbert_Humbert Hupold
-			Iwo_Ivo
-			Jakob_Jacob Johann_John Jürgen_George
-			Karl_Charles Karlmann_Carloman Kaspar_Caspar Konrad_Conrad Kuno_Kuno
-			Lambert_Lambert Landolf_Landolf Leopold_Leopold Liudolf_Ludolf Liutbert_Lutbert Liutbrand Liutpold_Leopold Lothar_Lothair Ludolf_Ludolf Ludwig_Louis Lutbert_Lutbert
-			Magnus_Magnus Manegold Manfred_Manfred Markward_Markward Martin_Martin Matthias_Matthew Meinhard Michael_Michael Milo_Miles
-			Nikolaus_Nicholas Norbert_Norbert
-			Otto_Otto
-			Peter_Peter Philipp_Philip Poppo
-			Radbot_Radbot Reinhard_Renard Reinhold_Reginald Rudolf_Ralph Ruprecht_Robert Rutger_Roger
-			Siegfried_Siegfried	Sieghard Siegmund_Sigmund Sigismund_Sigmund Simon_Simon Stefan_Stephen
-			Theodorich_Thierry Thietmar_Dietmar Thomas_Thomas
-			Udalrich_Ulrich Ulrich_Ulrich
-			Viktor_Victor Waldemar_Vladimir
-			Walram_Walram Walther_Walter Welf_Lupo Wenzel_Vaclav Werner_Werner Wido_Guy	Wigerich Wilhelm_William Wolfgang_Wolfgang Wolfram_Wolfram
-		}
-
-		female_names = {
-			Adela_Adela Adelheid_Adelaide Adelinde Agathe_Agatha Agnes_Agnes Alberade Amalberga Amalie_Amelia
-			Barbara_Barbara	Beatrix_Beatrice Benedicta_Benedicta Berchte Berta_Bertha Binhilde Brunhilde_Brunhilda
-			Cecilie_Cecilia Christine_Christina Cothilda_Clotilde
-			Dorothea_Dorothy
-			Elisabeth_Elizabeth Emma_Emma Engeltraud Ermengard_Ermengarde Eufemia_Euphemia
-			Frida Friedrica_Frederique
-			Gerberga_Gerberga Gerhild Gertrude_Gertrude Gisela_Gisela Gudrun_Gudrun Gundula_Gunnr Gunhilda_Gunhild
-			Hedwig_Hedwig Heike Heilwiva Helene_Helen Helga Hemma_Emma Henrike Hildeburg Hildegard_Hildegard
-			Ida_Ida Ilsa Inga_Inga Ingeltrude Irmele Irmeltrud Irmgard_Ermengarde Isentrude
 			Jutta_Judith
 			Karlotte_Caroline Katharina_Catherine Klara_Clara Klementia_Clementia Konstanze_Constance Kriemhild Kunigunde_Kunigunde
 			Luitgard_Luitgard
