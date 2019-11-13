@@ -10,7 +10,7 @@ b_djend = tribal
 b_yangikent = city
 
 # Misc
-culture = turkish
+culture = oghuz
 religion = tengri_pagan
 
 # History

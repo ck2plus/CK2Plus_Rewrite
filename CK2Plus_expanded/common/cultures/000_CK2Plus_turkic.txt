@@ -1,7 +1,6 @@
 ####################################################################
 #
 #	Turkic
-#	 - Anatolian (Plus culture)(M)
 #	 - Avar*
 #    - Bashkir (Plus culture)
 #	 - Bolghar*
@@ -10,8 +9,9 @@
 #	 - Khazar*
 #    - Kipchak (Plus culture)
 #	 - Kirghiz*
+#    - Oghuz (Plus culture)
 #	 - Pecheneg*
-#	 - Turkic* (Turkish)
+#	 - Turkish (Plus culture)(M)
 #    - Turco-Mongol (Tatar)(Plus culture)(M)
 #	 - Uyghur*
 #
@@ -23,7 +23,7 @@
 turkic_group = {
 	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
 
-	anatolian = { # Anatolian Turkish
+	turkish = { # Anatolian Turkish
 		alternate_start = {
 			OR = {
 				year >= 1150
@@ -181,7 +181,7 @@ turkic_group = {
 			Nagim Nazhip Nigmat Nigmatulla Nil Nögös
 			Radik Ramazan Ramil Rashit Rasül Rawef Rif Rifqat Rishat Röstam Rustem
 			Sabir Sabit Sagit Sahit Salawat Salim Samat Sarif Sayet Shaikhislam  Shaikhzada Singid Solayman_Solomon
-			Tagir Talgat Talxa Tashtemir Tayfur Taymaç Timerkhan
+			Tagir Talgat Talgat Talxa Tashtemir Tayfur Taymaç Timerkhan
 			Uyildan
 			Vafa Vakhit Vener Vildan
 			Xabir Xamza Xasan Xaydar Xozaybirgan Yahüza
@@ -634,7 +634,7 @@ turkic_group = {
 		modifier = default_culture_modifier
 	}
 
-	turkish = { # Oghuz Turkish
+	oghuz = { # Oghuz Turkish
 		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 

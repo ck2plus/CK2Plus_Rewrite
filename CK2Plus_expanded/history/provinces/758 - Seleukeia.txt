@@ -26,5 +26,5 @@ religion = orthodox
 1187.1.1 = { b_corycus = castle } 
 
 
-1270.1.1 = { culture = anatolian }
+1270.1.1 = { culture = turkish }
 1270.1.1 = { religion = sunni }
