@@ -1,1 +1,80 @@
 # Valid ids 1000139001 - 1000140000
+1000139001 = {
+	name = "Chak"
+	culture = dardic
+}
+
+1000139002 = {
+	name = "Lohara"
+	culture = dardic
+}
+
+1000139003 = {
+	name = "Shahi"
+	culture = dardic
+}
+
+1000139004 = {
+	name = "Karkota"
+	culture = dardic
+}
+
+1000139005 = {
+	name = "Utpala"
+	culture = dardic
+}
+
+1000139006 = {
+	name = "Tantrin"
+	culture = dardic
+}
+
+1000139007 = {
+	name = "Ekanga"
+	culture = dardic
+}
+
+1000139008 = {
+	name = "Damara"
+	culture = dardic
+}
+
+1000139009 = {
+	name = "Turushka"
+	culture = dardic
+}
+
+1000139010 = {
+	name = "Shah Mir"
+	culture = dardic
+}
+
+1000139011 = {
+	name = "Vuppadevas"
+	culture = dardic
+}
+
+1000139012 = {
+	name = "Shina"
+	culture = dardic
+}
+
+1000139013 = {
+	name = "Kho"
+	culture = dardic
+}
+
+1000139014 = {
+	name = "Pashayi"
+	culture = dardic
+}
+
+1000139015 = {
+	name = "Chitrali"
+	culture = dardic
+}
+
+1000139016 = {
+	name = "Khoshey"
+	culture = dardic
+}

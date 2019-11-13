@@ -17,20 +17,41 @@ northeast_caucasian_group = {
 		color = { 0.0 0.4 0.31 }
 
 		male_names = {
-			Abukhisro Akhsuvar Alp Avaz Awach'i Badr Bukht-Yisho Firudzha Alatey Akhsar Anbal Anbazuk Aravat
-			Arsen Askhkadar Ashot_Ashot Aslan Aspar Athom Balambar Balsag Barlah Bæqætar Basil_Basil Bazuk Beler
-			Ber Biræg Boz-Uruz Buürgur Buriberdi Burikhan Candak Chelakhsartag Davit_David Djadaron Durgulel
-			Dzæræs Gætæg Georgy_George Girgon Gokhar Gubaz Guram_Guaram Hasqar Huddan Istor Itaz Iveri Kandak
-			Kandz Kavtia Kaur Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk Lak Levan_Leo Piruz
-			Pulad Respendial Rosmag Safrak Sakban Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Takho
-			Taymuraz_Teimuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+			Abukhisro Akhsar Akhsuvar Alatey Alp Anbal Anbazuk Andunik-Nutsal Aravat Arsen Ashot_Ashot Askhkadar Aslan Aspar Athom Avaz Awach'i
+			Badr Balambar Balsag Barlah Bæqætar Basil_Basil Bazuk Beler Ber Biræg Boz-Uruz Bukht-Yisho Buürgur Buriberdi Burikhan
+			Candak Chelakhsartag
+			Davit_David Djadaron Dugry-Nutsal Durgulel Dzæræs
+			Firudzha
+			Gætæg Georgy_George Girgon Gokhar Gubaz Guram_Guaram
+			Hasqar Huddan
+			Istor Itaz Iveri
+			Kandak Kandz Kavtia Kaur Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk
+			Lak Levan_Leo
+			Piruz Pulad
+			Respendial Rosmag
+			Safrak Sakban Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Surakat Syrdon
+			Takho Taymuraz_Teimuraz Taus Totraz
+			Urdure Uruzma Uturku
+			Yasynya
+			Zaur
 		}
 		
 		female_names = { 
-			Adadza Alda Altun Ana_Anna Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda
-			Elene_Helen Eliso Gergana Gulchara Guranduht_Gorandukht Kera Keratsa Ketevan_Catherine Koser Lamara
-			Lashin Lela Mariami_Mariam Natia Nino Rusudan Sanatha Sarah Satinik_Satinik Shatana Shorena Shukhia
-			Tamari_Tamar Tinatini Tsiala Vardo Vedokha Yeran
+			Adadza Alda Altun Ana_Anna Atsyrukhs
+			Baia Bedisa Borena Btsenon Burudukan
+			Duda
+			Elene_Helen Eliso
+			Gergana Gulchara Guranduht_Gorandukht
+			Kera Keratsa Ketevan_Catherine Koser
+			Lamara
+			Lashin Lela
+			Mariami_Mariam
+			Natia Nino
+			Rusudan
+			Sanatha Sarah Satinik_Satinik Shatana Shorena Shukhia
+			Tamari_Tamar Tinatini Tsiala
+			Vardo Vedokha
+			Yeran
 		}
 		
 		from_dynasty_prefix = "ve "
@@ -55,7 +76,7 @@ northeast_caucasian_group = {
 			Grigori_Gregory
 			Hel
 			Iakovi_Jacob Ieremi_Jeremy Ili_Elias Ioan_John Is Isaak_Isaac Iskapos Iusus_Jesus
-			Jora_George
+			Javanshir Jora_George
 			Kaban Karlen Kiro Kul
 			Manak Marakesun Mesrob Movses_Moses Murad
 			Namoc Nawasardun
@@ -80,7 +101,7 @@ northeast_caucasian_group = {
 			Hawke Hez
 			Ihal Ingen
 			Karavano Ke Kebin Kici
-			Majrami_Maria Maral Mare Meresimleri Muca
+			Majrami_Maria Maral Mare Meresimleri Muca Muca
 			Naiow Nana Nedun Nikar Nisanlu Nora
 			Ocaq Occal Olia Ot Orayin
 			Qehbelug Quš

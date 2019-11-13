@@ -1,1 +1,35 @@
 # Valid ids 1000127001 - 1000128000
+1000127001 = {
+	name = "Khorramdin"
+	culture = azeri
+}
+
+1000127002 = {
+	name = "Tabrizi"
+	culture = azeri
+}
+
+1000127003 = {
+	name = "Safina"
+	culture = azeri
+}
+
+1000127004 = {
+	name = "Ardabili"
+	culture = azeri
+}
+
+1000127005 = {
+	name = "Zhaatah"
+	culture = azeri
+}
+
+1000127006 = {
+	name = "Kojjani"
+	culture = azeri
+}
+
+1000127007 = {
+	name = "Maraghi"
+	culture = azeri
+}

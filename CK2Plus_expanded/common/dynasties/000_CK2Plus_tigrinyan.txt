@@ -1,0 +1,65 @@
+# Valid ids 1000189001 - 1000190000
+1000109001 = {
+	name = "Agame"
+	culture = tigrinyan
+}
+
+1000109002 = {
+	name = "Senadegle"
+	culture = tigrinyan
+}
+
+1000109003 = {
+	name = "Meretta"
+	culture = tigrinyan
+}
+
+1000109004 = {
+	name = "Hamasenay"
+	culture = tigrinyan
+}
+
+1000109005 = {
+	name = "Wajjarat"
+	culture = tigrinyan
+}
+
+1000109006 = {
+	name = "Shewatte Anseba"
+	culture = tigrinyan
+}
+
+1000109007 = {
+	name = "Deqqi Tesfa"
+	culture = tigrinyan
+}
+
+1000109008 = {
+	name = "Seazzega"
+	culture = tigrinyan
+}
+
+1000109009 = {
+	name = "Ad Deggiyat"
+	culture = tigrinyan
+}
+
+1000109010 = {
+	name = "Mereb Melash"
+	culture = tigrinyan
+}
+
+1000109011 = {
+	name = "Agaziyan"
+	culture = tigrinyan
+}
+
+1000109012 = {
+	name = "Sabawiyan"
+	culture = tigrinyan
+}
+
+1000109013 = {
+	name = "Awa"
+	culture = tigrinyan
+}

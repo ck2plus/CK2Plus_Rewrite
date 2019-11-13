@@ -42,11 +42,12 @@ iranian = {
 			Abu Abdul Abdullah Akhsatan Ali Anar
 			Babak Bahmanyar Bukhtnassar Burhan
 			Diwdad_David
-			Elçin
+			Elçin Eskandar
 			Farid Fariburz_Fariborz Farrukh_Farroukh Farrukhzad_Farrukhzad Farrukhsiyar Fereydun Fuzuli
 			Garrshasp Ghazi
 			Hakim Haytham Heydar Huseyn_Hussayn
 			Ibrahim_Abraham Ildeniz Ilkin Ilyas Imadaddin Isa Islam
+			Javidhan
 			Kafiaddin Kawus Khalil Khaqani
 			Mahmud Mahammad_Muhammad Mamlan Manuchehr_Manuchihr Mirza Murtuza
 			Najmaddin Nesimi Nizami Masiraddin
@@ -65,6 +66,7 @@ iranian = {
 			Baghdagul Bahar Basti Bika Brilyant
 			Chichak
 			Dilbar
+			Esmat
 			Farah Fatma_Fatima Fazila Fidan
 			Garagila Goncha Govhar Gozal Gulbahar Gulbaniz Guljahan Gulchin Gulchohra Gular Gulgaz Gulgun Gullu Gulnara Gulpari Gulsabah Gulsum Gunel Günay
 			Hafiza Hajar Hamida Hijran Humay

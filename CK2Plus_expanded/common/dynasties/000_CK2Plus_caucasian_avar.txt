@@ -1,1 +1,45 @@
 # Valid ids 1000137001 - 1000138000
+1000137001 = {
+	name = "Qahtan"
+	culture = caucasian_avar
+}
+
+1000137002 = {
+	name = "Sarir"
+	culture = caucasian_avar
+}
+
+1000137003 = {
+	name = "Awar"
+	culture = caucasian_avar
+}
+
+1000137004 = {
+	name = "Shamkhal"
+	culture = caucasian_avar
+}
+
+1000137005 = {
+	name = "Gumiq"
+	culture = caucasian_avar
+}
+
+1000137006 = {
+	name = "Jurshan"
+	culture = caucasian_avar
+}
+
+1000137007 = {
+	name = "Khaydaq"
+	culture = caucasian_avar
+}
+
+1000137008 = {
+	name = "Shand"
+	culture = caucasian_avar
+}
+
+1000137009 = {
+	name = "Tabarsaran"
+	culture = caucasian_avar
+}

@@ -1,1 +1,110 @@
 # Valid ids 1000121001 - 1000122000
+1000121001 = {
+    name = "Mudaito"
+    culture = afar
+}
+
+1000121002 = {
+    name = "Dawe"
+    culture = afar
+}
+
+1000121003 = {
+    name = "Abli Adoimara"
+    culture = afar
+}
+
+1000121004 = {
+    name = "Dardar"
+    culture = afar
+}
+
+1000121005 = {
+    name = "Ad-Ali"
+    culture = afar
+}
+
+1000121006 = {
+    name = "Asaimara"
+    culture = afar
+}
+
+1000121007 = {
+    name = "Adoimara"
+    culture = afar
+}
+
+1000121008 = {
+    name = "Erta Ale"
+    culture = afar
+}
+
+1000121009 = {
+    name = "Ale Bagu"
+    culture = afar
+}
+
+1000121010 = {
+    name = "Saho"
+    culture = afar
+}
+
+1000121011 = {
+    name = "Awsa"
+    culture = afar
+}
+
+1000121012 = {
+    name = "Abbe"
+    culture = afar
+}
+
+1000121013 = {
+    name = "Silay"
+    culture = afar
+}
+
+1000121014 = {
+    name = "Dini"
+    culture = afar
+}
+
+1000121015 = {
+    name = "Robleh"
+    culture = afar
+}
+
+1000121016 = {
+    name = "Hanfare"
+    culture = afar
+}
+
+1000121017 = {
+    name = "Watta"
+    culture = afar
+}
+
+1000121018 = {
+    name = "Dileita"
+    culture = afar
+}
+
+1000121019 = {
+    name = "Laqde"
+    culture = afar
+}
+
+1000121020 = {
+    name = "Barkat"
+    culture = afar
+}
+
+1000121021 = {
+    name = "Siro"
+    culture = afar
+}
+
+1000121022 = {
+    name = "Mussa"
+    culture = afar
+}

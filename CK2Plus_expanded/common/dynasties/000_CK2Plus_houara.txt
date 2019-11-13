@@ -1,6 +1,6 @@
 # Valid IDs 1000199001 - 1000200000
 1000199001 = {
-    name = "Bï¿½ni Irmazyan"
+    name = "Béni Irmazyan"
     culture = houara
     religion = ibadi
 }
@@ -9,4 +9,129 @@
     name = "Haragha"
     culture = houara
     religion = ibadi
+}
+
+1000199003 = {
+    name = "Addasa"
+    culture = houara
+}
+
+1000199004 = {
+    name = "Andara"
+    culture = houara
+}
+
+1000199005 = {
+    name = "Awtita"
+    culture = houara
+}
+
+1000199006 = {
+    name = "Baswa"
+    culture = houara
+}
+
+1000199007 = {
+    name = "Gharyan"
+    culture = houara
+}
+
+1000199008 = {
+    name = "Kaldin"
+    culture = houara
+}
+
+1000199009 = {
+    name = "Kamlan"
+    culture = houara
+}
+
+1000199010 = {
+    name = "Karkuda"
+    culture = houara
+}
+
+1000199011 = {
+    name = "Lahan"
+    culture = houara
+}
+
+1000199012 = {
+    name = "Maghar"
+    culture = houara
+}
+
+1000199013 = {
+    name = "Malila"
+    culture = houara
+}
+
+1000199014 = {
+    name = "Maslata"
+    culture = houara
+}
+
+1000199015 = {
+    name = "Mindasa"
+    culture = houara
+}
+
+1000199016 = {
+    name = "Misrata"
+    culture = houara
+}
+
+1000199017 = {
+    name = "Razin"
+    culture = houara
+}
+
+1000199018 = {
+    name = "Satat"
+    culture = houara
+}
+
+1000199019 = {
+    name = "Tarhuna"
+    culture = houara
+}
+
+1000199020 = {
+    name = "Wannifan"
+    culture = houara
+}
+
+1000199021 = {
+    name = "Warfalla"
+    culture = houara
+}
+
+1000199022 = {
+    name = "Wargha"
+    culture = houara
+}
+
+1000199023 = {
+    name = "Warsatis"
+    culture = houara
+}
+
+1000199024 = {
+    name = "Washtata"
+    culture = houara
+}
+
+1000199025 = {
+    name = "Yaghmorasen"
+    culture = houara
+}
+
+1000199026 = {
+    name = "Zakkawa"
+    culture = houara
+}
+
+1000199027 = {
+    name = "Zanzafa"
+    culture = houara
 }
