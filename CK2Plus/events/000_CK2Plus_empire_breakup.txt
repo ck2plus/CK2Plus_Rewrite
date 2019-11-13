@@ -1,4 +1,4 @@
-namespace = plusEmpire
+namespace = PlusEmpire
 
 ########################
 #
@@ -28,7 +28,7 @@ namespace = plusEmpire
 
 # Trigger Destruction
 character_event = {
-	id = plusEmpire.001
+	id = PlusEmpire.001
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -61,16 +61,16 @@ character_event = {
 }
 # Inform
 character_event = {
-	id = plusEmpire.002
+	id = PlusEmpire.002
 	picture = "GFX_evt_council"
 
 	is_triggered_only = yes
-	# Fired by plusEmpire.001
+	# Fired by PlusEmpire.001
 
-	desc = plusEmpire002_DESC
+	desc = PlusEmpire002_DESC
 
 	option = {
-		name = plusEmpire002_OPTA
+		name = PlusEmpire002_OPTA
 		prestige = -1000
 	}
 }
@@ -92,7 +92,7 @@ character_event = {
 # WIP
 # Emperor holds multiple  Empires
 #character_event = {
-#	id = plusEmpire.010
+#	id = PlusEmpire.010
 	#TODO
 #
 #	hide_window = yes
