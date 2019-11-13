@@ -386,6 +386,7 @@
 	trait = diligent
 	trait = just
 	trait = patient
+	trait = legit_bastard
 	father = 214710
 	mother = 214713
 	1130.1.2 = {
