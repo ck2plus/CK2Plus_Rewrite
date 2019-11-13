@@ -1,12 +1,28 @@
 #########################################
 #
-#
 # Title Requirement Triggers
-#
 #
 #########################################
 
-#These MUST be called in a CHARACTER scope to work properly
+# These MUST be called in a CHARACTER scope to work properly
+
+# Empire Breakup Triggers
+is_empire_destruction_candidate = {
+	OR = {
+		realm_size < 100
+		num_of_count_titles_in_realm < 35
+	}
+}
+is_exempt_title = { # Empires that are exempt from the breakup rules
+	OR = {
+		is_offmap_ruler = yes
+		is_nomadic = yes
+		num_of_emperor_titles >= 2
+		primary_title = { is_landless_type_title = yes }
+	}
+}
+
+# Title Creation Requirements
 
 has_ck2plus_duchy_reqs = {
 	# If title is titular
@@ -17,14 +33,18 @@ has_ck2plus_duchy_reqs = {
 	# If title is landed
 	conditional_tooltip = {
 		trigger = { FROM = { is_landed = yes } }
-		# Alternate Reqs to go here later
+		#TODO: Add landed reqs
+	}
+	# If holder is a vassal
+	conditional_tooltip = {
+		trigger = { independent = no }
+		lower_real_tier_than = DUKE
 	}
 	# Apply regardless
 	is_adult = yes
 	has_regent = no
 	war = no
 }
-
 has_ck2plus_kingdom_reqs = {
 	# If title is titular
 	conditional_tooltip = {
@@ -34,7 +54,12 @@ has_ck2plus_kingdom_reqs = {
 	# If title is landed
 	conditional_tooltip = {
 		trigger = { FROM = { is_landed = yes } }
-		# Alternate Reqs to go here later
+		# TODO: Add landed reqs
+	}
+	# If holder is a vassal
+	conditional_tooltip = {
+		trigger = { independent = no }
+		lower_real_tier_than = KING
 	}
 	# Apply Regardless
 	is_title_active = FROM
@@ -43,7 +68,6 @@ has_ck2plus_kingdom_reqs = {
 	war = no
 	ruled_years = 5
 }
-
 has_ck2plus_empire_reqs = {
 	# If title is titular
 	conditional_tooltip = {
@@ -53,7 +77,7 @@ has_ck2plus_empire_reqs = {
 	# If title is landed
 	conditional_tooltip = {
 		trigger = { FROM = { is_landed = yes } }
-		# Alternate Reqs to go here later
+		# TODO: Add landed reqs
 	}
 	# Apply regardless
 	is_title_active = FROM
