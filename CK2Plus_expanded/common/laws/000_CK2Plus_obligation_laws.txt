@@ -112,7 +112,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -160,7 +160,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -200,7 +200,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -239,7 +239,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -279,7 +279,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -317,7 +317,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -366,7 +366,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -410,7 +410,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -454,7 +454,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -499,7 +499,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -544,7 +544,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -580,7 +580,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -620,7 +620,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -669,7 +669,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -709,7 +709,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -747,7 +747,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -784,7 +784,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -838,7 +838,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -882,7 +882,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -927,7 +927,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -972,7 +972,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1008,7 +1008,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1048,7 +1048,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1097,7 +1097,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1137,7 +1137,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1175,7 +1175,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1224,7 +1224,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1268,7 +1268,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1312,7 +1312,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1357,7 +1357,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1401,7 +1401,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1436,7 +1436,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1475,7 +1475,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1513,7 +1513,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1562,7 +1562,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1599,7 +1599,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1647,7 +1647,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1690,7 +1690,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1733,7 +1733,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1776,7 +1776,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1819,7 +1819,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -1869,7 +1869,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -1911,7 +1911,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -1952,7 +1952,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -1994,7 +1994,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2034,7 +2034,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2085,7 +2085,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2131,7 +2131,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2177,7 +2177,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2224,7 +2224,7 @@ laws = {
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {

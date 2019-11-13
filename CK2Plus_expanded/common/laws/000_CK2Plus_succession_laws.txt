@@ -39,6 +39,9 @@
 succession_laws = {
 
 	succ_gavelkind = {
+		child_opinion = 30
+		oldest_child_opinion = -45
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -73,20 +76,6 @@ succession_laws = {
 					holder_scope = {
 						is_tribal = yes
 					}
-					NOT = {
-						has_law = tribal_organization_0
-					}
-				}
-				holder_scope = {
-					show_scope_change = no
-					has_law = succession_voting_power_0
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = yes
-					}
 				}
 				OR = {
 					has_law = tribal_organization_3
@@ -97,9 +86,12 @@ succession_laws = {
 				show_scope_change = no
 				conditional_tooltip = {
 					trigger = {
-						has_game_started = yes
+						is_tribal = yes
+						NOT = {
+							has_law = tribal_organization_0
+						}
 					}
-					prestige = 250
+					has_law = succession_voting_power_0
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -120,6 +112,34 @@ succession_laws = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 250
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 2000
+				}
 			}
 		}
 
@@ -129,10 +149,13 @@ succession_laws = {
 					has_game_started = yes
 				}
 				holder_scope = {
-					scaled_prestige = {
-						value = -3
-						min = -250
-						max = -1000
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -250 }
+						DUKE = { prestige = -500 }
+						KING = { prestige = -1000 }
+						EMPEROR = { prestige = -2000 }
 					}
 				}
 			}
@@ -141,12 +164,14 @@ succession_laws = {
 		effect = {
 			succession = gavelkind
 		}
-
-		child_opinion = 30
-		oldest_child_opinion = -45
 	}
 
 	succ_elective_gavelkind = {
+		child_opinion = 15
+		dynasty_opinion = 5
+		oldest_child_opinion = -15
+		vassal_opinion = 5
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -176,24 +201,19 @@ succession_laws = {
 		}
 
 		allow = {
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
 						is_tribal = yes
 						higher_tier_than = DUKE # law below only available for King and Emperor tier titles
 						NOT = {
-							has_law = tribal_organization_0
+						has_law = tribal_organization_0
 						}
 						has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
 					}
-				}
-				holder_scope = {
-					show_scope_change = no
 					has_law = succession_voting_power_0
 				}
-			}
-			holder_scope = {
-				show_scope_change = no
 				conditional_tooltip = {
 					trigger = {
 						independent = no
@@ -214,13 +234,13 @@ succession_laws = {
 				voting_rules = elective_gavelkind
 			}
 		}
-
-		dynasty_opinion = 5
-		vassal_opinion = 5
-		oldest_child_opinion = -15
 	}
 
 	succ_eldership = {
+		child_opinion = -30
+		dynasty_opinion = 10
+		vassal_opinion = 5
+
 		potential = {
 			has_dlc = "Holy Fury"
 			is_primary_type_title = no
@@ -261,22 +281,6 @@ succession_laws = {
 		allow = {
 			conditional_tooltip = {
 				trigger = {
-					holder_scope = {
-						is_tribal = yes
-						higher_tier_than = DUKE # law below only available for King and Emperor tier titles
-						NOT = {
-							has_law = tribal_organization_0
-						}
-						has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
-					}
-				}
-				holder_scope = {
-					show_scope_change = no
-					has_law = succession_voting_power_0
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
 					has_game_started = yes # most rulers don't have one of the required laws enabled at game start, see below
 				}
 				OR = {
@@ -290,9 +294,14 @@ succession_laws = {
 				show_scope_change = no
 				conditional_tooltip = {
 					trigger = {
-						has_game_started = yes
+						is_tribal = yes
+						higher_tier_than = DUKE # law below only available for King and Emperor tier titles
+						NOT = {
+							has_law = tribal_organization_0
+						}
+						has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
 					}
-					prestige = 250
+					has_law = succession_voting_power_0
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -313,6 +322,34 @@ succession_laws = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 250
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 2000
+				}
 			}
 		}
 
@@ -320,7 +357,7 @@ succession_laws = {
 			if = {
 				limit = {
 					has_game_started = yes
-					OR = { # workaround for in-game bug that forces prestige loss for some reason
+					OR = { # workaround for in-game bug that forces prestige loss for some reason, see event HFP.24025, HFP_eldership_events.txt
 						has_law = tribal_organization_1
 						has_law = tribal_organization_2
 						has_law = tribal_organization_3
@@ -328,10 +365,13 @@ succession_laws = {
 					}
 				}
 				holder_scope = {
-					scaled_prestige = {
-						value = -6
-						min = -250
-						max = -1000
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -250 }
+						DUKE = { prestige = -500 }
+						KING = { prestige = -1000 }
+						EMPEROR = { prestige = -2000 }
 					}
 				}
 			}
@@ -343,18 +383,16 @@ succession_laws = {
 				voting_rules = eldership_rules
 			}
 		}
-
-		dynasty_opinion = 10
-		vassal_opinion = 5
-		child_opinion = -30
 	}
 
 	succ_seniority = {
+		child_opinion = -30
+		dynasty_opinion = 15
+
 		potential = {
 			is_primary_type_title = no
-			is_merchant_republic = no
 			holder_scope = {
-				is_patrician = yes
+				is_merchant_republic = no
 				OR = {
 					is_patrician = yes
 					NOR = {
@@ -383,17 +421,14 @@ succession_laws = {
 		}
 
 		allow = {
-			conditional_tooltip = {
-				trigger = {
-					is_patrician = no
-				}
-				holder_scope = {
-					show_scope_change = no
-					has_law = succession_voting_power_0
-				}
-			}
 			holder_scope = {
 				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						is_patrician = no
+					}
+					has_law = succession_voting_power_0
+				}
 				conditional_tooltip = {
 					trigger = {
 						independent = no
@@ -405,6 +440,34 @@ succession_laws = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 125
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 250
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 1000
+				}
 			}
 		}
 
@@ -412,11 +475,29 @@ succession_laws = {
 			succession = seniority
 		}
 
-		dynasty_opinion = 15
-		child_opinion = -30
+		pass_effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -125 }
+						DUKE = { prestige = -250 }
+						KING = { prestige = -500 }
+						EMPEROR = { prestige = -1000 }
+					}
+				}
+			}
+		}
 	}
 
 	succ_primogeniture = {
+		child_opinion = -30
+		oldest_child_opinion = 45
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -445,13 +526,13 @@ succession_laws = {
 		allow = {
 			conditional_tooltip = {
 				trigger = {
-					NOT = { has_dlc = "Zeus" }
+					NOT = { has_dlc = "Conclave" }
 				}
 				has_law = imperial_administration
 			}
 			conditional_tooltip = {
 				trigger = {
-					has_dlc = "Zeus"
+					has_dlc = "Conclave"
 				}
 				OR = {
 					has_law = ze_administration_laws_1
@@ -474,12 +555,6 @@ succession_laws = {
 				has_law = succession_voting_power_0
 				conditional_tooltip = {
 					trigger = {
-						has_game_started = yes
-					}
-					prestige = 250
-				}
-				conditional_tooltip = {
-					trigger = {
 						trait = uncrowned
 					}
 					NOT = {
@@ -497,6 +572,34 @@ succession_laws = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 2000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 4000
+				}
 			}
 		}
 
@@ -506,10 +609,13 @@ succession_laws = {
 					has_game_started = yes
 				}
 				holder_scope = {
-					scaled_prestige = {
-						value = -9
-						min = -250
-						max = -1000
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -500 }
+						DUKE = { prestige = -1000 }
+						KING = { prestige = -2000 }
+						EMPEROR = { prestige = -4000 }
 					}
 				}
 			}
@@ -518,12 +624,13 @@ succession_laws = {
 		effect = {
 			succession = primogeniture
 		}
-
-		oldest_child_opinion = 45
-		child_opinion = -30
 	}
 
 	succ_feudal_elective = {
+		child_opinion = -20
+		dynasty_opinion = -5
+		vassal_opinion = 10
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -538,13 +645,26 @@ succession_laws = {
 							is_vice_royalty = yes
 						}
 					}
+					OR = {
+						AND = {
+							NOR = {
+								religion_group = muslim
+								religion_group = indian_group
+							}
+							OR = {
+								NOT = { religion_group = pagan_group }
+								is_reformed_religion = yes
+								religion = hellenic_pagan
+							}
+						}
+						has_law = succession_voting_power_1
+						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
+					}
 				}
 				NOR = {
 					has_landed_title = e_hre
 					has_landed_title = e_byzantium
 					has_landed_title = e_roman_empire
-					religion_group = muslim
-					religion_group = indian_group
 					government = confucian_bureaucracy
 					government = chinese_imperial_government
 				}
@@ -573,6 +693,34 @@ succession_laws = {
 							has_character_flag = liege_forced_succ_law
 						}
 					}
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 125
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 250
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 1000
 				}
 			}
 		}
@@ -584,12 +732,31 @@ succession_laws = {
 			}
 		}
 
-		vassal_opinion = 15
-		dynasty_opinion = -5
-		child_opinion = -20
+		pass_effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -125 }
+						DUKE = { prestige = -250 }
+						KING = { prestige = -500 }
+						EMPEROR = { prestige = -1000 }
+					}
+				}
+			}
+		}
 	}
 
 	succ_hre_elective = { # Princely Elective
+		child_opinion = -10
+		dynasty_opinion = -10
+		vassal_opinion = 15
+		vassal_limit = 20
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -620,13 +787,13 @@ succession_laws = {
 
 			conditional_tooltip = {
 				trigger = {
-					NOT = { has_dlc = "Zeus" }
+					NOT = { has_dlc = "Conclave" }
 				}
 				has_law = imperial_administration
 			}
 			conditional_tooltip = {
 				trigger = {
-					has_dlc = "Zeus"
+					has_dlc = "Conclave"
 				}
 				OR = {
 					has_law = ze_administration_laws_1
@@ -636,12 +803,6 @@ succession_laws = {
 			holder_scope = {
 				show_scope_change = no
 				has_law = succession_voting_power_0
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-					}
-					prestige = 250
-				}
 				conditional_tooltip = {
 					trigger = {
 						trait = uncrowned
@@ -661,6 +822,34 @@ succession_laws = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 2000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 4000
+				}
 			}
 		}
 
@@ -670,10 +859,13 @@ succession_laws = {
 					has_game_started = yes
 				}
 				holder_scope = {
-					scaled_prestige = {
-						value = -12
-						min = -250
-						max = -1000
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -500 }
+						DUKE = { prestige = -1000 }
+						KING = { prestige = -2000 }
+						EMPEROR = { prestige = -4000 }
 					}
 				}
 			}
@@ -685,13 +877,13 @@ succession_laws = {
 				voting_rules = hre_feudal_elective
 			}
 		}
-
-		vassal_opinion = 15
-		dynasty_opinion = -10
-		child_opinion = -10
 	}
 
-	succ_byzantine_elective = {
+	succ_byzantine_elective = { # Imperial Elective
+		child_opinion = -10
+		dynasty_opinion = -5
+		vassal_opinion = 10
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -719,25 +911,19 @@ succession_laws = {
 		allow = {
 			conditional_tooltip = {
 				trigger = {
-					NOT = { has_dlc = "Zeus" }
+					NOT = { has_dlc = "Conclave" }
 				}
 				has_law = imperial_administration
 			}
 			conditional_tooltip = {
 				trigger = {
-					has_dlc = "Zeus"
+					has_dlc = "Conclave"
 				}
 				has_law = ze_administration_laws_2
 			}
 			holder_scope = {
 				show_scope_change = no
 				has_law = succession_voting_power_0
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-					}
-					prestige = 250
-				}
 				conditional_tooltip = {
 					trigger = {
 						trait = uncrowned
@@ -757,6 +943,34 @@ succession_laws = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 2000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 4000
+				}
 			}
 		}
 
@@ -766,10 +980,13 @@ succession_laws = {
 					has_game_started = yes
 				}
 				holder_scope = {
-					scaled_prestige = {
-						value = -12
-						min = -250
-						max = -1000
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -500 }
+						DUKE = { prestige = -1000 }
+						KING = { prestige = -2000 }
+						EMPEROR = { prestige = -4000 }
 					}
 				}
 			}
@@ -781,13 +998,13 @@ succession_laws = {
 				voting_rules = byzantine_elective
 			}
 		}
-
-		vassal_opinion = 10
-		dynasty_opinion = -5
-		child_opinion = -10
 	}
 
 	succ_tanistry = {
+		child_opinion = -30
+		dynasty_opinion = 5
+		vassal_opinion = 5
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -822,20 +1039,6 @@ succession_laws = {
 					holder_scope = {
 						is_tribal = yes
 					}
-					NOT = {
-						has_law = tribal_organization_0
-					}
-				}
-				holder_scope = {
-					show_scope_change = no
-					has_law = succession_voting_power_0
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					holder_scope = {
-						is_tribal = yes
-					}
 				}
 				OR = {
 					has_law = tribal_organization_2
@@ -860,9 +1063,12 @@ succession_laws = {
 				show_scope_change = no
 				conditional_tooltip = {
 					trigger = {
-						has_game_started = yes
+						is_tribal = yes
+						NOT = {
+							has_law = tribal_organization_0
+						}
 					}
-					prestige = 250
+					has_law = succession_voting_power_0
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -883,6 +1089,34 @@ succession_laws = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 250
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 2000
+				}
 			}
 		}
 
@@ -892,10 +1126,13 @@ succession_laws = {
 					has_game_started = yes
 				}
 				holder_scope = {
-					scaled_prestige = {
-						value = -6
-						min = -250
-						max = -1000
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -250 }
+						DUKE = { prestige = -500 }
+						KING = { prestige = -1000 }
+						EMPEROR = { prestige = -2000 }
 					}
 				}
 			}
@@ -907,13 +1144,12 @@ succession_laws = {
 				voting_rules = tanistry
 			}
 		}
-
-		dynasty_opinion = 5
-		vassal_opinion = 10
-		child_opinion = -30
 	}
 
 	succ_ultimogeniture = {
+		child_opinion = -30
+		youngest_child_opinion = 45
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -942,13 +1178,13 @@ succession_laws = {
 		allow = {
 			conditional_tooltip = {
 				trigger = {
-					NOT = { has_dlc = "Zeus" }
+					NOT = { has_dlc = "Conclave" }
 				}
 				has_law = imperial_administration
 			}
 			conditional_tooltip = {
 				trigger = {
-					has_dlc = "Zeus"
+					has_dlc = "Conclave"
 				}
 				OR = {
 					has_law = ze_administration_laws_1
@@ -972,12 +1208,6 @@ succession_laws = {
 				has_law = succession_voting_power_0
 				conditional_tooltip = {
 					trigger = {
-						has_game_started = yes
-					}
-					prestige = 250
-				}
-				conditional_tooltip = {
-					trigger = {
 						trait = uncrowned
 					}
 					NOT = {
@@ -995,6 +1225,34 @@ succession_laws = {
 						}
 					}
 				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = COUNT
+					}
+					prestige = 250
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 2000
+				}
 			}
 		}
 
@@ -1004,10 +1262,13 @@ succession_laws = {
 					has_game_started = yes
 				}
 				holder_scope = {
-					scaled_prestige = {
-						value = -6
-						min = -250
-						max = -1000
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -250 }
+						DUKE = { prestige = -500 }
+						KING = { prestige = -1000 }
+						EMPEROR = { prestige = -2000 }
 					}
 				}
 			}
@@ -1016,12 +1277,12 @@ succession_laws = {
 		effect = {
 			succession = ultimogeniture
 		}
-
-		youngest_child_opinion = 45
-		child_opinion = -30
 	}
 
 	succ_turkish_succession = { # Open
+		dynasty_opinion = 5
+		child_opinion = -10
+
 		potential = {
 			is_primary_type_title = no
 			holder_scope = {
@@ -1050,18 +1311,15 @@ succession_laws = {
 		}
 
 		allow = {
-			conditional_tooltip = {
-				trigger = {
-					higher_tier_than = DUKE # law below only available for King and Emperor tier titles
-					has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
-				}
-				holder_scope = {
-					show_scope_change = no
-					has_law = succession_voting_power_0
-				}
-			}
 			holder_scope = {
 				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						higher_tier_than = DUKE # law below only available for King and Emperor tier titles
+						has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
+					}
+					has_law = succession_voting_power_0
+				}
 				conditional_tooltip = {
 					trigger = {
 						independent = no
@@ -1079,9 +1337,6 @@ succession_laws = {
 		effect = {
 			succession = turkish_succession
 		}
-
-		dynasty_opinion = 5
-		child_opinion = -10
 	}
 
 	succ_papal_succession = {
@@ -1139,8 +1394,16 @@ succession_laws = {
 						religion_group = muslim
 					}
 					has_landed_title = k_papal_state
-					has_landed_title = d_celtic_pagan_reformed
 					has_landed_title = d_fraticelli
+
+					# Plus religious head titles
+					AND = {
+						has_landed_title = d_celtic_pagan_reformed
+						OR = {
+							has_religion_feature = religion_theocratic_head
+							has_religion_feature = religion_temporal_head
+						}
+					}
 				}
 			}
 		}
@@ -1159,12 +1422,14 @@ succession_laws = {
 				is_theocracy = yes
 				OR = {
 					religion = catholic
-					religion = celtic_pagan_reformed
 					religion = hellenic_pagan
 					religion = cathar
 					religion = bogomilist
 					religion = manichean
 					religion = fraticelli
+
+					# Plus
+					religion = celtic_pagan_reformed
 				}
 				OR = {
 					independent = yes
@@ -1214,6 +1479,10 @@ succession_laws = {
 	}
 
 	succ_nomad_succession = {
+		child_opinion = -20
+		dynasty_opinion = 5
+		vassal_opinion = 5
+
 		potential = {
 			holder_scope = {
 				is_nomadic = yes
@@ -1225,10 +1494,6 @@ succession_laws = {
 		}
 
 		allow = {}
-
-		dynasty_opinion = 5
-		vassal_opinion = 5
-		child_opinion = -20
 	}
 
 	succ_offmap_succession = { # China, offmap
