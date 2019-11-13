@@ -47583,11 +47583,6 @@
 	culture = outremer
 }
 
-1062594 = {
-	name = "Faroaldingi"
-	culture = longobard
-}
-
 1062205 = {
 	name = "af Hvamm"
 	culture = norse
@@ -49825,11 +49820,6 @@
 	name = "Dawlaid"
 	culture = egyptian_arabic
 	religion = sunni
-}
-
-1062594 = {
-	name = "Faroaldingi"
-	culture = lombard
 }
 
 1062595 = {
