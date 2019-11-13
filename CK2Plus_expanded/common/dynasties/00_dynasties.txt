@@ -49907,12 +49907,6 @@
 	religion = catholic
 }
 
-1062595 = {
-	name = "Shahin"
-	culture = levantine_arabic
-	religion = pagan
-}
-
 1062594 = {
 	name = "Khursid"
 	culture = persian
