@@ -47336,7 +47336,7 @@
 	religion = buddhist
 }
 
-1059971 = {
+1059977 = {
 	name = "Kaukabi"
 	culture = persian
 	religion = shiite
