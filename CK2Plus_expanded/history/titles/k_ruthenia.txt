@@ -114,5 +114,6 @@ holder=222522
 holder=0		#more or less the moment when Kiev's supremacy didn't mean anything anymore among the "anarchy"
 }
 1336.12.01={
+    set_tribute_suzerain = { who = e_golden_horde type = nomadic }
 	holder=472510
 }

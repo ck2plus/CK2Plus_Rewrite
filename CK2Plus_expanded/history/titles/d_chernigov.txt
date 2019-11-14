@@ -116,7 +116,7 @@ holder=222658
 holder=222654
 }
 1239.10.15={
-liege="e_golden_horde"
+set_tribute_suzerain = { who = e_golden_horde type = nomadic }
 }
 1241.1.2=
 {

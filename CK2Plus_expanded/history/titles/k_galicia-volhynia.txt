@@ -44,7 +44,7 @@
 	holder=125114
 }
 1246.1.1={
-	liege="e_golden_horde"
+	set_tribute_suzerain = { who = e_golden_horde type = nomadic }
 }
 1264.1.2={
 	holder=125116
