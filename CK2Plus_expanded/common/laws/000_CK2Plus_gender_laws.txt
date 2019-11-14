@@ -28,6 +28,9 @@ gender_laws = {
 	agnatic_succession = {
 		default = yes
 
+		male_dynasty_opinion = 5
+		female_dynasty_opinion = -5
+
 		potential = {
 			holder_scope = {
 				NOR = {
@@ -122,9 +125,6 @@ gender_laws = {
 			}
 			gender_succ = agnatic
 		}
-
-		male_dynasty_opinion = 5
-		female_dynasty_opinion = -5
 	}
 
 	cognatic_succession = { # agnatic-cognatic
@@ -532,7 +532,6 @@ gender_laws = {
 
 		pass_effect = {
 			holder_scope = {
-				show_scope_change = no
 				if = {
 					limit = {
 						has_game_started = yes
@@ -759,7 +758,6 @@ gender_laws = {
 
 		pass_effect = {
 			holder_scope = {
-				show_scope_change = no
 				if = {
 					limit = {
 						has_game_started = yes
@@ -808,6 +806,9 @@ gender_laws = {
 	}
 
 	enatic_succession = {
+		female_dynasty_opinion = 5
+		male_dynasty_opinion = -5
+
 		potential = {
 			is_primary_type_title = no
 			is_patrician = no
@@ -1002,7 +1003,6 @@ gender_laws = {
 
 		pass_effect = {
 			holder_scope = {
-				show_scope_change = no
 				if = {
 					limit = {
 						has_game_started = yes
@@ -1048,8 +1048,5 @@ gender_laws = {
 			}
 			gender_succ = enatic
 		}
-
-		female_dynasty_opinion = 5
-		male_dynasty_opinion = -5
 	}
 }

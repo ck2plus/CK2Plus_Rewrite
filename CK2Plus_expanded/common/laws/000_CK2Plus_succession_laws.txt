@@ -208,7 +208,7 @@ succession_laws = {
 						is_tribal = yes
 						higher_tier_than = DUKE # law below only available for King and Emperor tier titles
 						NOT = {
-						has_law = tribal_organization_0
+							has_law = tribal_organization_0
 						}
 						has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
 					}
@@ -471,10 +471,6 @@ succession_laws = {
 			}
 		}
 
-		effect = {
-			succession = seniority
-		}
-
 		pass_effect = {
 			if = {
 				limit = {
@@ -491,6 +487,10 @@ succession_laws = {
 					}
 				}
 			}
+		}
+
+		effect = {
+			succession = seniority
 		}
 	}
 
@@ -725,13 +725,6 @@ succession_laws = {
 			}
 		}
 
-		effect = {
-			succession = {
-				base_type = feudal_elective
-				voting_rules = feudal_elective
-			}
-		}
-
 		pass_effect = {
 			if = {
 				limit = {
@@ -747,6 +740,13 @@ succession_laws = {
 						EMPEROR = { prestige = -1000 }
 					}
 				}
+			}
+		}
+
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = feudal_elective
 			}
 		}
 	}
@@ -784,7 +784,6 @@ succession_laws = {
 		}
 
 		allow = {
-
 			conditional_tooltip = {
 				trigger = {
 					NOT = { has_dlc = "Conclave" }
