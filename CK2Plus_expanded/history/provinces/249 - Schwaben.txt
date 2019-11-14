@@ -16,7 +16,7 @@ b_konstanz = temple
 #b_lindau = castle
 
 # Misc
-culture = german
+culture = alemannic
 religion = catholic
 
 # History
