@@ -1380,6 +1380,7 @@ succession_laws = {
 
 	succ_open_elective = {
 		potential = {
+			temporary = no
 			holder_scope = {
 				OR = {
 					AND = {
@@ -1387,6 +1388,8 @@ succession_laws = {
 						is_patrician = no
 					}
 					is_theocracy = yes
+					holy_order = yes
+					mercenary = yes
 				}
 				NOR = {
 					AND = {
