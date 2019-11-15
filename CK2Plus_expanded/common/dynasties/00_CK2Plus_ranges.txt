@@ -203,3 +203,7 @@
 # zaghawa                1000194000 - 1000194999
 # zenati                 1000195000 - 1000195999
 # zhangzhung             1000196000 - 1000196999
+
+# Cultures that were added later and use additional dynasty ranges as specified:
+
+# (None so far)
