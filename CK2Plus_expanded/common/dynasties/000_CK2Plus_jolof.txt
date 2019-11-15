@@ -1,49 +1,49 @@
-# Valid ids 1000055001 - 1000056000
-1000055001 = {
+# Valid IDs: 1000082000 - 1000082999
+1000082000 = {
 	name = "Joof"
 	culture = wolof
 }
-1000055002 = {
+1000082001 = {
 	name = "Gelwar"
 	culture = wolof
 }
-1000055003 = {
+1000082002 = {
 	name = "Jaabi"
 	culture = wolof
 }
-1000055004 = {
+1000082003 = {
 	name = "Fak"
 	culture = wolof
 }
-1000055005 = {
+1000082004 = {
 	name = "N'Diaye"
 	culture = wolof
 }
-1000055006 = {
+1000082005 = {
 	name = "Kaabu"
 	culture = wolof
 }
-1000055007 = {
+1000082006 = {
 	name = "Fulani"
 	culture = wolof
 }
-1000055008 = {
+1000082007 = {
 	name = "Takur"
 	culture = wolof
 }
-1000055009 = {
+1000082008 = {
 	name = "Mandinka"
 	culture = wolof
 }
-1000055010 = {
+1000082009 = {
 	name = "Takur"
 	culture = wolof
 }
-1000055011 = {
+1000082010 = {
 	name = "Jaabi"
 	culture = wolof
 }
-1000055012 = {
+1000082011 = {
 	name = "Jabi"
 	culture = wolof
 }

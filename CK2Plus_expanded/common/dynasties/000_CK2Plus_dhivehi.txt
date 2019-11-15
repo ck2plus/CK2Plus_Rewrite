@@ -1,58 +1,58 @@
-# Valid ids 1000032001 - 1000033000
+# Valid IDs: 1000051000 - 1000051999
 
-1000032001 = {
+1000051000 = {
 	name="Dhiyamigili "
 	culture = dhivehi
 }
-1000032002 = {
+1000051001 = {
 	name="Hilaalee"
 	culture = dhivehi
 }
-1000032003 = {
+1000051002 = {
 	name="Huraa"
 	culture = dhivehi
 }
-1000032004 = {
+1000051003 = {
 	name=" Isdhoo"
 	culture = dhivehi
 }
-1000032005 = {
+1000051004 = {
 	name="Theemuge"
 	culture = dhivehi
 }
-1000032006 = {
+1000051005 = {
 	name="Utheemu "
 	culture = dhivehi
 }
-1000032007 = {
+1000051006 = {
 	name="Manippulu"
 	culture = dhivehi
 }
-1000032008 = {
+1000051007 = {
 	name="Kuda"
 	culture = dhivehi
 }
-1000032009 = {
+1000051008 = {
 	name="Thakurufan"
 	culture = dhivehi
 }
-1000032010 = {
+1000051009 = {
 	name="Kaamba"
 	culture = dhivehi
 }
-1000032011 = {
+1000051010 = {
 	name="Seedi"
 	culture = dhivehi
 }
-1000032012 = {
+1000051011 = {
 	name="Soru"
 	culture = dhivehi
 }
-1000032013 = {
+1000051012 = {
 	name="Thakuru"
 	culture = dhivehi
 }
-1000032014 = {
+1000051013 = {
 	name="Rahaa"
 	culture = dhivehi
 }

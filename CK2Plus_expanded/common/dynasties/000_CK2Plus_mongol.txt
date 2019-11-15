@@ -1,17 +1,17 @@
-# Valid ids 1000072001 - 1000073000
-1000072001 = {
+# Valid IDs: 1000113000 - 1000113999
+1000113000 = {
 	name = "Batuid"
 	culture = mongol
 }
-1000072002 = {
+1000113001 = {
 	name = "Hulaguid"
 	culture = mongol
 }
-1000072003 = {
+1000113002 = {
 	name = "Mongekid"
 	culture = mongol
 }
-1000072004 = {
+1000113003 = {
 	name = "Ögedeid"
 	culture = mongol
 }

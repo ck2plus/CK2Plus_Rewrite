@@ -1,29 +1,29 @@
-# Valid ids 1000079001 - 1000080000
-1000079001 = {
+# Valid IDs: 1000123000 - 1000123999
+1000123000 = {
 	name = "de Rouergue"
 	culture = occitan
 }
-1000079002 = {
+1000123001 = {
 	name = "de Sitten"
 	culture = occitan
 }
-1000079003 = {
+1000123002 = {
 	name = "de Ventemilha"
 	culture = occitan
 }
-1000079004 = {
+1000123003 = {
 	name = "de Savòia"
 	culture = occitan
 }
-1000079005 = {
+1000123004 = {
 	name = "de Buscha"
 	culture = occitan
 }
-1000079006 = {
+1000123005 = {
 	name = "di Ligorna"
 	culture = occitan
 }
-1000079007 = {
+1000123006 = {
 	name = "de Piemont"
 	culture = occitan
 }

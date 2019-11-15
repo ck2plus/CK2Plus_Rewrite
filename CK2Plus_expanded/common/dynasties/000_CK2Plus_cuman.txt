@@ -1,17 +1,17 @@
-# Valid ids 1000026001 - 1000027000
-1000026001 = {
+# Valid IDs: 1000044000 - 1000044999
+1000044000 = {
 	name = "Kubasarid"
 	culture = cuman
 }
-1000026002 = {
+1000044001 = {
 	name = "Sirçanarid"
 	culture = cuman
 }
-1000026003 = {
+1000044002 = {
 	name = "Bulanid"
 	culture = cuman
 }
-1000026004 = {
+1000044003 = {
 	name = "Tutukid"
 	culture = cuman
 }

@@ -1,69 +1,69 @@
-# Valid ids 1000010001 - 1000011000
-1000010001 = {
+# Valid IDs: 1000018000 - 1000018999
+1000018000 = {
 	name = "I buedaden"
 	culture = bafour
 }
-1000010002 = {
+1000018001 = {
 	name = "Tingit"
 	culture = bafour
 }
-1000010003 = {
+1000018002 = {
 	name = "Nouakchott"
 	culture = bafour
 }
-1000010004 = {
+1000018003 = {
 	name = "Dakhla"
 	culture = bafour
 }
-1000010005 = {
+1000018004 = {
 	name = "Bojadour"
 	culture = bafour
 }
-1000010006 = {
+1000018005 = {
 	name = "Tingit"
 	culture = bafour
 }
-1000010007 = {
+1000018006 = {
 	name = "Fodid"
 	culture = bafour
 }
-1000010008 = {
+1000018007 = {
 	name = "Gaodid"
 	culture = bafour
 }
-1000010009 = {
+1000018008 = {
 	name = "Nuhid"
 	culture = bafour
 }
-1000010010 = {
+1000018009 = {
 	name = "Ishaqid"
 	culture = bafour
 }
-1000010011 = {
+1000018010 = {
 	name = "Oualid"
 	culture = bafour
 }
-1000010012 = {
+1000018011 = {
 	name = "Kaynad"
 	culture = bafour
 }
-1000010013 = {
+1000018012 = {
 	name = "Harunid"
 	culture = bafour
 }
-1000010014 = {
+1000018013 = {
 	name = "Igoumoud"
 	culture = bafour
 }
-1000010015 = {
+1000018014 = {
 	name = "Mamadid"
 	culture = bafour
 }
-1000010016 = {
+1000018015 = {
 	name = "Musaid"
 	culture = bafour
 }
-1000010017 = {
+1000018016 = {
 	name = "Dawudid"
 	culture = bafour
 }

@@ -1,17 +1,17 @@
-# Valid ids 1000084001 - 1000085000
-1000084001 = {
+# Valid IDs: 1000132000 - 1000132999
+1000132000 = {
 	name = "Fib"
 	culture = pictish
 }
-1000084002 = {
+1000132001 = {
 	name = "Fotla"
 	culture = pictish
 }
-1000084003 = {
+1000132002 = {
 	name = "Fidach"
 	culture = pictish
 }
-1000084004 = {
+1000132003 = {
 	name = "Fortriu"
 	culture = pictish
 }

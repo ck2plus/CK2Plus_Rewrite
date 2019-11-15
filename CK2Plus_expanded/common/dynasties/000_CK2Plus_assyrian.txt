@@ -1,101 +1,101 @@
-# Valid ids 1000008001 - 1000009000
-1000008001 = {
+# Valid IDs: 1000014000 - 1000014999
+1000014000 = {
 	name = "Ador"
 	culture = assyrian
 }
-1000008002 = {
+1000014001 = {
 	name = "Natan"
 	culture = assyrian
 }
-1000008003 = {
+1000014002 = {
 	name = "Hanodeen"
 	culture = assyrian
 }
-1000008004 = {
+1000014003 = {
 	name = "Khonayn"
 	culture = assyrian
 }
-1000008005 = {
+1000014004 = {
 	name = "Ashurseen"
 	culture = assyrian
 }
-1000008006 = {
+1000014005 = {
 	name = "Nardeen"
 	culture = assyrian
 }
-1000008007 = {
+1000014006 = {
 	name = "Rabona"
 	culture = assyrian
 }
-1000008008 = {
+1000014007 = {
 	name = "Ramseen"
 	culture = assyrian
 }
-1000008009 = {
+1000014008 = {
 	name = "Sharokeen"
 	culture = assyrian
 }
-1000008010 = {
+1000014009 = {
 	name = "Zahseen"
 	culture = assyrian
 }
-1000008011 = {
+1000014010 = {
 	name = "Maroeil"
 	culture = assyrian
 }
-1000008012 = {
+1000014011 = {
 	name = "Hawail"
 	culture = assyrian
 }
-1000008013 = {
+1000014012 = {
 	name = "Yadida"
 	culture = assyrian
 }
-1000008014 = {
+1000014013 = {
 	name = "Marbail"
 	culture = assyrian
 }
-1000008015 = {
+1000014014 = {
 	name = "Bailnam"
 	culture = assyrian
 }
-1000008016 = {
+1000014015 = {
 	name = "Demashur"
 	culture = assyrian
 }
-1000008017 = {
+1000014016 = {
 	name = "Danieil"
 	culture = assyrian
 }
-1000008018 = {
+1000014017 = {
 	name = "Nineel"
 	culture = assyrian
 }
-1000008019 = {
+1000014018 = {
 	name = "Nosardeil"
 	culture = assyrian
 }
-1000008020 = {
+1000014019 = {
 	name = "Mardokh"
 	culture = assyrian
 }
-1000008021 = {
+1000014020 = {
 	name = "Asorkhadon"
 	culture = assyrian
 }
-1000008022 = {
+1000014021 = {
 	name = "Eil"
 	culture = assyrian
 }
-1000008023 = {
+1000014022 = {
 	name = "Dematour"
 	culture = assyrian
 }
-1000008024 = {
+1000014023 = {
 	name = "Eilbroon"
 	culture = assyrian
 }
-1000008025 = {
+1000014024 = {
 	name = "Nasirpal"
 	culture = assyrian
 }

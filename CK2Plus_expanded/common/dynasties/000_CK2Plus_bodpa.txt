@@ -1,25 +1,25 @@
-# Valid ids 1000017001 - 1000018000
-1000017001 = {
+# Valid IDs: 1000028000 - 1000028999
+1000028000 = {
 	name = "Gar"
 	culture = bodpa
 	religion = bon
 }
-1000017002 = {
+1000028001 = {
 	name = "Lhomon"
 	culture = bodpa
 	religion = bon
 }
-1000017003 = {
+1000028002 = {
 	name = "Taktse"
 	culture = bodpa
 	religion = bon
 }
-1000017004 = {
+1000028003 = {
 	name = "Mgar"
 	culture = bodpa
 	religion = bon
 }
-1000017005 = {
+1000028004 = {
 	name = "Omade"
 	culture = bodpa
 	religion = bon

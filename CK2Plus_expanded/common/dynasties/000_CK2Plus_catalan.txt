@@ -1,33 +1,33 @@
-# Valid ids 1000020001 - 1000021000
-1000020001 = {
+# Valid IDs: 1000036000 - 1000036999
+1000036000 = {
 	name = "Montcada"
 	culture = catalan
 }
-1000020002 = {
+1000036001 = {
 	name = "de Ventimigliese"
 	culture = catalan
 }
-1000020003 = {
+1000036002 = {
 	name = "de Liorna"
 	culture = catalan
 }
-1000020004 = {
+1000036003 = {
 	name = "de Borja"
 	culture = catalan
 }
-1000020005 = {
+1000036004 = {
 	name = "za Furlanija"
 	culture = catalan
 }
-1000020006 = {
+1000036005 = {
 	name = "de Llúria"
 	culture = catalan
 }
-1000020007 = {
+1000036006 = {
 	name = "Zacco"
 	culture = catalan
 }
-1000020008 = {
+1000036007 = {
 	name = "de Caganer"
 	culture = catalan
 }

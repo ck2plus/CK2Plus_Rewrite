@@ -1,49 +1,49 @@
-# Valid ids 1000052001 - 1000053000
-1000052001 = {
+# Valid IDs: 1000079000 - 1000079999
+1000079000 = {
 	name = "Dál Fiatach"
 	culture = irish
 }
-1000052002 = {
+1000079001 = {
 	name = "Doire Cholmcille"
 	culture = irish
 }
-1000052003 = {
+1000079002 = {
 	name = "Ard Macha"
 	culture = irish
 }
-1000052004 = {
+1000079003 = {
 	name = "Mac Uidhir"
 	culture = irish
 }
-1000052005 = {
+1000079004 = {
 	name = "Airgíalla"
 	culture = irish
 }
-1000052006 = {
+1000079005 = {
 	name = "Uí Fhearghail"
 	culture = irish
 }
-1000052007 = {
+1000079006 = {
 	name = "Ua Aiteidh"
 	culture = irish
 }
-1000052008 = {
+1000079007 = {
 	name = "Ua Chrichain"
 	culture = irish
 }
-1000052009 = {
+1000079008 = {
 	name = "Ui Imair"
 	culture = irish
 }
-1000052010 = {
+1000079009 = {
 	name = "Uí Fáeláin"
 	culture = irish
 }
-1000052011 = {
+1000079010 = {
 	name = "mac Cerbaill"
 	culture = irish
 }
-1000052012 = {
+1000079011 = {
 	name = "mac Ardgail"
 	culture = irish
 }

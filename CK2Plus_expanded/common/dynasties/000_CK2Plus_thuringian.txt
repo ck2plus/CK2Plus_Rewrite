@@ -1,33 +1,33 @@
-# Valid ids 1000109001 - 1000110000
-1000109001 = {
+# Valid IDs: 1000177000 - 1000177999
+1000177000 = {
 	name = "von Dettingen"
 	culture = thuringian
 }
-1000109002 = {
+1000177001 = {
 	name = "von Rothenburg"
 	culture = thuringian
 }
-1000109003 = {
+1000177002 = {
 	name = "Bodrich"
 	culture = thuringian
 }
-1000109004 = {
+1000177003 = {
 	name = "von Walbeck"
 	culture = thuringian
 }
-1000109005 = {
+1000177004 = {
 	name = "von Erbach"
 	culture = thuringian
 }
-1000109006 = {
+1000177005 = {
 	name = "von Rikdag"
 	culture = thuringian
 }
-1000109007 = {
+1000177006 = {
 	name = "Ardennes"
 	culture = thuringian
 }
-1000109008 = {
+1000177007 = {
 	name = "Bocker"
 	culture = thuringian
 }

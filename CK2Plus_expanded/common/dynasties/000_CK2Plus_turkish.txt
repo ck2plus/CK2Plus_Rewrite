@@ -1,75 +1,75 @@
-# Valid ids 1000111001 - 1000112000
-# Valid ids 1000123001 - 1000124000
+# Valid IDs: 1000181000 - 1000181999
+# Valid ids 1000181000 - 1000181001
 
-1000111001 = {
+1000181000 = {
 	name = "Ertenid"
 	culture = turkish
 }
-1000111002 = {
+1000181001 = {
 	name = "Süleymid"
 	culture = turkish
 }
-1000111003 = {
+1000181002 = {
 	name = "Erenid"
 	culture = turkish
 }
-1000111004 = {
+1000181003 = {
 	name = "Zengid"
 	culture = turkish
 }
-1000111005 = {
+1000181004 = {
 	name = "Baharid"
 	culture = turkish
 }
-1000111006 = {
+1000181005 = {
 	name = "Simjurid"
 	culture = turkish
 }
-1000111007 = {
+1000181006 = {
 	name = "Ghazi"
 	culture = turkish
 }
-1000111008 = {
+1000181007 = {
 	name = "Aslan"
 	culture = turkish
 }
-1000111009 = {
+1000181008 = {
 	name = "Rum"
 	culture = turkish
 }
-1000111010 = {
+1000181009 = {
 	name = "Teke"
 	culture = turkish
 }
-1000111011 = {
+1000181010 = {
 	name = "Jandarid"
 	culture = turkish
 }
-1000111012 = {
+1000181011 = {
 	name = "Kayid"
 	culture = turkish
 }
-1000111013 = {
+1000181012 = {
 	name = "Afsharid"
 	culture = turkish
 }
-1000111014 = {
+1000181013 = {
 	name = "Kara"
 	culture = turkish
 }
-1000111015 = {
+1000181014 = {
 	name = "Yasar"
 	culture = turkish
 }
-1000111016 = {
+1000181015 = {
 	name = "Orhanid"
 	culture = turkish
 }
-1000111017 = {
+1000181016 = {
 	name = "Musaid"
 	culture = turkish
 }
-1000111018 = {
+1000181017 = {
 	name = "Inalid"
 	culture = turkish
 }

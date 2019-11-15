@@ -1,481 +1,481 @@
-# Valid ids 1000114001 - 1000115000
-1000114001 = {
+# Valid IDs: 1000185000 - 1000185999
+1000185000 = {
 	name = "di Venezia"
 	culture = umbrian
 }
-1000114002 = {
+1000185001 = {
 	name = "Silvio"
 	culture = umbrian
 }
-1000114003 = {
+1000185002 = {
 	name = "di Rocca"
 	culture = umbrian
 }
-1000114004 = {
+1000185003 = {
 	name = "Michele"
 	culture = umbrian
 }
-1000114005 = {
+1000185004 = {
 	name = "Navigaiozi"
 	culture = umbrian
 }
-1000114006 = {
+1000185005 = {
 	name = "di Oria"
 	culture = umbrian
 }
-1000114007 = {
+1000185006 = {
 	name = "de Vio"
 	culture = umbrian
 }
-1000114008 = {
+1000185007 = {
 	name = "Prignano"
 	culture = umbrian
 }
-1000114009 = {
+1000185008 = {
 	name = "Beccharius"
 	culture = umbrian
 }
-1000114010 = {
+1000185009 = {
 	name = "Tonti"
 	culture = umbrian
 }
-1000114011 = {
+1000185010 = {
 	name = "Bonifazi"
 	culture = umbrian
 }
-1000114012 = {
+1000185011 = {
 	name = "Pescatore"
 	culture = umbrian
 }
-1000114013 = {
+1000185012 = {
 	name = "Camera"
 	culture = umbrian
 }
-1000114014 = {
+1000185013 = {
 	name = "di Treviso"
 	culture = umbrian
 }
-1000114015 = {
+1000185014 = {
 	name = "di Montemorlo"
 	culture = umbrian
 }
-1000114016 = {
+1000185015 = {
 	name = "Barberini"
 	culture = umbrian
 }
-1000114017 = {
+1000185016 = {
 	name = "Piccinino"
 	culture = umbrian
 }
-1000114018 = {
+1000185017 = {
 	name = "di Battifolle"
 	culture = umbrian
 }
-1000114019 = {
+1000185018 = {
 	name = "da Montone"
 	culture = umbrian
 }
-1000114020 = {
+1000185019 = {
 	name = "Fortebracci"
 	culture = umbrian
 }
-1000114021 = {
+1000185020 = {
 	name = "Fortebraccio"
 	culture = umbrian
 }
-1000114022 = {
+1000185021 = {
 	name = "della Stella"
 	culture = umbrian
 }
-1000114023 = {
+1000185022 = {
 	name = "di Roma"
 	culture = umbrian
 }
-1000114024 = {
+1000185023 = {
 	name = "di Brindisi"
 	culture = umbrian
 }
-1000114025 = {
+1000185024 = {
 	name = "Pierleoni"
 	culture = umbrian
 }
-1000114026 = {
+1000185025 = {
 	name = "Stracca"
 	culture = umbrian
 }
-1000114027 = {
+1000185026 = {
 	name = "di Agledo"
 	culture = umbrian
 }
-1000114028 = {
+1000185027 = {
 	name = "di Montelongo"
 	culture = umbrian
 }
-1000114029 = {
+1000185028 = {
 	name = "Acuto"
 	culture = umbrian
 }
-1000114030 = {
+1000185029 = {
 	name = "Pettiti"
 	culture = umbrian
 }
-1000114031 = {
+1000185030 = {
 	name = "di Livorno"
 	culture = umbrian
 }
-1000114032 = {
+1000185031 = {
 	name = "del Balzo"
 	culture = umbrian
 }
-1000114033 = {
+1000185032 = {
 	name = "Tusculani"
 	culture = umbrian
 }
-1000114034 = {
+1000185033 = {
 	name = "del Vasto"
 	culture = umbrian
 }
-1000114035 = {
+1000185034 = {
 	name = "d'Aquino"
 	culture = umbrian
 }
-1000114036 = {
+1000185035 = {
 	name = "di Poli"
 	culture = umbrian
 }
-1000114037 = {
+1000185036 = {
 	name = "Montecchio"
 	culture = umbrian
 }
-1000114038 = {
+1000185037 = {
 	name = "della Rovere"
 	culture = umbrian
 }
-1000114039 = {
+1000185038 = {
 	name = "Angelerio"
 	culture = umbrian
 }
-1000114040 = {
+1000185039 = {
 	name = "de Pecoraro"
 	culture = umbrian
 }
-1000114041 = {
+1000185040 = {
 	name = "Caetani"
 	culture = umbrian
 }
-1000114042 = {
+1000185041 = {
 	name = "Zaccaria"
 	culture = umbrian
 }
-1000114043 = {
+1000185042 = {
 	name = "Sciarria"
 	culture = umbrian
 }
-1000114044 = {
+1000185043 = {
 	name = "di Castello"
 	culture = umbrian
 }
-1000114045 = {
+1000185044 = {
 	name = "Moneta"
 	culture = umbrian
 }
-1000114046 = {
+1000185045 = {
 	name = "Sciarrillo"
 	culture = umbrian
 }
-1000114047 = {
+1000185046 = {
 	name = "di Serrone"
 	culture = umbrian
 }
-1000114048 = {
+1000185047 = {
 	name = "Capponi"
 	culture = umbrian
 }
-1000114049 = {
+1000185048 = {
 	name = "Torda"
 	culture = umbrian
 }
-1000114050 = {
+1000185049 = {
 	name = "Mancini"
 	culture = umbrian
 }
-1000114051 = {
+1000185050 = {
 	name = "di L'Aquila"
 	culture = umbrian
 }
-1000114052 = {
+1000185051 = {
 	name = "Cenci"
 	culture = umbrian
 }
-1000114053 = {
+1000185052 = {
 	name = "Monticelli"
 	culture = umbrian
 }
-1000114054 = {
+1000185053 = {
 	name = "di Perugia"
 	culture = umbrian
 }
-1000114055 = {
+1000185054 = {
 	name = "da Morrone"
 	culture = umbrian
 }
-1000114056 = {
+1000185055 = {
 	name = "Torlonia"
 	culture = umbrian
 }
-1000114057 = {
+1000185056 = {
 	name = "da Polenta"
 	culture = umbrian
 }
-1000114058 = {
+1000185057 = {
 	name = "da Rimini"
 	culture = umbrian
 }
-1000114059 = {
+1000185058 = {
 	name = "Giustiniano"
 	culture = umbrian
 }
-1000114060 = {
+1000185059 = {
 	name = "Farnese"
 	culture = umbrian
 }
-1000114061 = {
+1000185060 = {
 	name = "Savelli"
 	culture = umbrian
 }
-1000114062 = {
+1000185061 = {
 	name = "di Orvieto"
 	culture = umbrian
 }
-1000114063 = {
+1000185062 = {
 	name = "Bobone"
 	culture = umbrian
 }
-1000114064 = {
+1000185063 = {
 	name = "Scolari"
 	culture = umbrian
 }
-1000114065 = {
+1000185064 = {
 	name = "di Jenne"
 	culture = umbrian
 }
-1000114066 = {
+1000185065 = {
 	name = "di Molise"
 	culture = umbrian
 }
-1000114067 = {
+1000185066 = {
 	name = "de Conti di Segni"
 	culture = umbrian
 }
-1000114068 = {
+1000185067 = {
 	name = "di Brunforte"
 	culture = umbrian
 }
-1000114069 = {
+1000185068 = {
 	name = "di Salerno"
 	culture = umbrian
 }
-1000114070 = {
+1000185069 = {
 	name = "Papareschi"
 	culture = umbrian
 }
-1000114071 = {
+1000185070 = {
 	name = "de Migliorati"
 	culture = umbrian
 }
-1000114072 = {
+1000185071 = {
 	name = "de Sulmona"
 	culture = umbrian
 }
-1000114073 = {
+1000185072 = {
 	name = "Delfino"
 	culture = umbrian
 }
-1000114074 = {
+1000185073 = {
 	name = "Buonromei"
 	culture = umbrian
 }
-1000114075 = {
+1000185074 = {
 	name = "Gioia"
 	culture = umbrian
 }
-1000114076 = {
+1000185075 = {
 	name = "da Montefeltro"
 	culture = umbrian
 }
-1000114077 = {
+1000185076 = {
 	name = "Colonna"
 	culture = umbrian
 }
-1000114078 = {
+1000185077 = {
 	name = "della Suburra"
 	culture = umbrian
 }
-1000114079 = {
+1000185078 = {
 	name = "di Modena"
 	culture = umbrian
 }
-1000114080 = {
+1000185079 = {
 	name = "di Lucca"
 	culture = umbrian
 }
-1000114081 = {
+1000185080 = {
 	name = "Demetri"
 	culture = umbrian
 }
-1000114082 = {
+1000185081 = {
 	name = "Romano"
 	culture = umbrian
 }
-1000114083 = {
+1000185082 = {
 	name = "Masci"
 	culture = umbrian
 }
-1000114084 = {
+1000185083 = {
 	name = "di Cosenza"
 	culture = umbrian
 }
-1000114085 = {
+1000185084 = {
 	name = "di Celano"
 	culture = umbrian
 }
-1000114086 = {
+1000185085 = {
 	name = "di Rienzi"
 	culture = umbrian
 }
-1000114087 = {
+1000185086 = {
 	name = "Gerra"
 	culture = umbrian
 }
-1000114088 = {
+1000185087 = {
 	name = "di Benevento"
 	culture = umbrian
 }
-1000114089 = {
+1000185088 = {
 	name = "di Patova"
 	culture = umbrian
 }
-1000114090 = {
+1000185089 = {
 	name = "Corvina"
 	culture = umbrian
 }
-1000114091 = {
+1000185090 = {
 	name = "di Napoli"
 	culture = umbrian
 }
-1000114092 = {
+1000185091 = {
 	name = "Rossi"
 	culture = umbrian
 }
-1000114093 = {
+1000185092 = {
 	name = "Chigi"
 	culture = umbrian
 }
-1000114094 = {
+1000185093 = {
 	name = "di Cavanesse"
 	culture = umbrian
 }
-1000114095 = {
+1000185094 = {
 	name = "di Spoleto"
 	culture = umbrian
 }
-1000114096 = {
+1000185095 = {
 	name = "da Verucchio"
 	culture = umbrian
 }
-1000114097 = {
+1000185096 = {
 	name = "di Ferrara"
 	culture = umbrian
 }
-1000114098 = {
+1000185097 = {
 	name = "di Bologna"
 	culture = umbrian
 }
-1000114099 = {
+1000185098 = {
 	name = "di Valenti"
 	culture = umbrian
 }
-1000114100 = {
+1000185099 = {
 	name = "Traversari"
 	culture = umbrian
 }
-1000114101 = {
+1000185100 = {
 	name = "di Loritello"
 	culture = umbrian
 }
-1000114102 = {
+1000185101 = {
 	name = "di Roma"
 	culture = umbrian
 }
-1000114103 = {
+1000185102 = {
 	name = "di Ancona"
 	culture = umbrian
 }
-1000114104 = {
+1000185103 = {
 	name = "di Orbetello"
 	culture = umbrian
 }
-1000114105 = {
+1000185104 = {
 	name = "di Piombino"
 	culture = umbrian
 }
-1000114106 = {
+1000185105 = {
 	name = "Egidio"
 	culture = umbrian
 }
-1000114107 = {
+1000185106 = {
 	name = "Angelous"
 	culture = umbrian
 }
-1000114108 = {
+1000185107 = {
 	name = "Aldobrandeschi"
 	culture = umbrian
 }
-1000114109 = {
+1000185108 = {
 	name = "Rainalducci"
 	culture = umbrian
 }
-1000114110 = {
+1000185109 = {
 	name = "Urso"
 	culture = umbrian
 }
-1000114111 = {
+1000185110 = {
 	name = "Musco"
 	culture = umbrian
 }
-1000114112 = {
+1000185111 = {
 	name = "da Montecchio"
 	culture = umbrian
 }
-1000114113 = {
+1000185112 = {
 	name = "di Urbino"
 	culture = umbrian
 }
-1000114114 = {
+1000185113 = {
 	name = "Castracani"
 	culture = umbrian
 }
-1000114115 = {
+1000185114 = {
 	name = "di Ravenna"
 	culture = umbrian
 }
-1000114116 = {
+1000185115 = {
 	name = "Sasso"
 	culture = umbrian
 }
-1000114117 = {
+1000185116 = {
 	name = "Vitale"
 	culture = umbrian
 }
-1000114118 = {
+1000185117 = {
 	name = "Orsini"
 	culture = umbrian
 }
-1000114119 = {
+1000185118 = {
 	name = "Perugino"
 	culture = umbrian
 }
-1000114120 = {
+1000185119 = {
 	name = "Vannucci"
 	culture = umbrian
 }

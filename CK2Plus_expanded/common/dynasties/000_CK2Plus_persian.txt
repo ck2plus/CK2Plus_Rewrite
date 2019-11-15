@@ -1,29 +1,29 @@
-# Valid ids 1000083001 - 1000084000
-1000083001 = {
+# Valid IDs: 1000131000 - 1000131999
+1000131000 = {
 	name = "Simjurid"
 	culture = persian
 }
-1000083002 = {
+1000131001 = {
 	name = "Buyid"
 	culture = persian
 }
-1000083003 = {
+1000131002 = {
 	name = "Bavandid"
 	culture = persian
 }
-1000083004 = {
+1000131003 = {
 	name = "Musafarid"
 	culture = persian
 }
-1000083005 = {
+1000131004 = {
 	name = "Yazidid"
 	culture = persian
 }
-1000083006 = {
+1000131005 = {
 	name = "Hasanawayhid"
 	culture = persian
 }
-1000083007 = {
+1000131006 = {
 	name = "Astarabadi"
 	culture = persian
 }

@@ -1,58 +1,58 @@
-# Valid ids 1000063001 - 1000064000
+# Valid IDs: 1000098000 - 1000098999
 
-1000063001 = {
+1000098000 = {
 	name="de Leon"
 	culture = leonese
 }
-1000063002 = {
+1000098001 = {
 	name="Núñez"
 	culture = leonese
 }
-1000063003 = {
+1000098002 = {
 	name="Alonso"
 	culture = leonese
 }
-1000063004 = {
+1000098003 = {
 	name="de Zamora"
 	culture = leonese
 }
-1000063005 = {
+1000098004 = {
 	name="de Salamanca"
 	culture = leonese
 }
-1000063006 = {
+1000098005 = {
 	name="Ramirez"
 	culture = leonese
 }
-1000063007 = {
+1000098006 = {
 	name="Álvarez"
 	culture = leonese
 }
-1000063008 = {
+1000098007 = {
 	name="de Astorga"
 	culture = leonese
 }
-1000063009 = {
+1000098008 = {
 	name="Martinez"
 	culture = leonese
 }
-1000063010 = {
+1000098009 = {
 	name="de Guzmán"
 	culture = leonese
 }
-1000063011 = {
+1000098010 = {
 	name="Padilla"
 	culture = leonese
 }
-1000063012 = {
+1000098011 = {
 	name="de Alcantara"
 	culture = leonese
 }
-1000063013 = {
+1000098012 = {
 	name="de Luna"
 	culture = leonese
 }
-1000063014 = {
+1000098013 = {
 	name="Lopez"
 	culture = leonese
 }

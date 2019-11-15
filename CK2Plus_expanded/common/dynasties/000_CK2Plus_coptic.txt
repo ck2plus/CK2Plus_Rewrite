@@ -1,161 +1,161 @@
-# Valid ids 1000022001 - 1000023000
-1000022001 = {
+# Valid IDs: 1000039000 - 1000039999
+1000039000 = {
 	name = "Amoun"
 	culture = coptic
 }
-1000022002 = {
+1000039001 = {
 	name = "Anoub"
 	culture = coptic
 }
-1000022003 = {
+1000039002 = {
 	name = "Apamoun"
 	culture = coptic
 }
-1000022004 = {
+1000039003 = {
 	name = "Apanoub"
 	culture = coptic
 }
-1000022005 = {
+1000039004 = {
 	name = "Barsanouphios"
 	culture = coptic
 }
-1000022006 = {
+1000039005 = {
 	name = "Bishou"
 	culture = coptic
 }
-1000022007 = {
+1000039006 = {
 	name = "Ese"
 	culture = coptic
 }
-1000022008 = {
+1000039007 = {
 	name = "Girgis"
 	culture = coptic
 }
-1000022009 = {
+1000039008 = {
 	name = "Lucra"
 	culture = coptic
 }
-1000022010 = {
+1000039009 = {
 	name = "Mina"
 	culture = coptic
 }
-1000022011 = {
+1000039010 = {
 	name = "Onouphrios"
 	culture = coptic
 }
-1000022012 = {
+1000039011 = {
 	name = "Pamoun"
 	culture = coptic
 }
-1000022013 = {
+1000039012 = {
 	name = "Panoub"
 	culture = coptic
 }
-1000022014 = {
+1000039013 = {
 	name = "Panoute"
 	culture = coptic
 }
-1000022015 = {
+1000039014 = {
 	name = "Papnoute"
 	culture = coptic
 }
-1000022016 = {
+1000039015 = {
 	name = "Patape"
 	culture = coptic
 }
-1000022017 = {
+1000039016 = {
 	name = "Pennouti"
 	culture = coptic
 }
-1000022018 = {
+1000039017 = {
 	name = "Phnouti"
 	culture = coptic
 }
-1000022019 = {
+1000039018 = {
 	name = "Pigol"
 	culture = coptic
 }
-1000022020 = {
+1000039019 = {
 	name = "Psote"
 	culture = coptic
 }
-1000022021 = {
+1000039020 = {
 	name = "Ruweis"
 	culture = coptic
 }
-1000022022 = {
+1000039021 = {
 	name = "Shenoute"
 	culture = coptic
 }
-1000022023 = {
+1000039022 = {
 	name = "Sidhom"
 	culture = coptic
 }
-1000022024 = {
+1000039023 = {
 	name = "Tanoute"
 	culture = coptic
 }
-1000022025 = {
+1000039024 = {
 	name = "Usire"
 	culture = coptic
 }
-1000022026 = {
+1000039025 = {
 	name = "Ramsis"
 	culture = coptic
 }
-1000022027 = {
+1000039026 = {
 	name = "Tafida"
 	culture = coptic
 }
-1000022028 = {
+1000039027 = {
 	name = "Wisa"
 	culture = coptic
 }
-1000022029 = {
+1000039028 = {
 	name = "Moussa"
 	culture = coptic
 }
-1000022030 = {
+1000039029 = {
 	name = "Mourice"
 	culture = coptic
 }
-1000022031 = {
+1000039030 = {
 	name = "Lawandy"
 	culture = coptic
 }
-1000022032 = {
+1000039031 = {
 	name = "Fanous"
 	culture = coptic
 }
-1000022033 = {
+1000039032 = {
 	name = "Fakhri"
 	culture = coptic
 }
-1000022034 = {
+1000039033 = {
 	name = "Salib"
 	culture = coptic
 }
-1000022035 = {
+1000039034 = {
 	name = "Abdelmesseh"
 	culture = coptic
 }
-1000022036 = {
+1000039035 = {
 	name = "Abdelmalek"
 	culture = coptic
 }
-1000022037 = {
+1000039036 = {
 	name = "Arsanios"
 	culture = coptic
 }
-1000022038 = {
+1000039037 = {
 	name = "Abdelshahid"
 	culture = coptic
 }
-1000022039 = {
+1000039038 = {
 	name = "Ghabras"
 	culture = coptic
 }
-1000022040 = {
+1000039039 = {
 	name = "Salama"
 	culture = coptic
 }

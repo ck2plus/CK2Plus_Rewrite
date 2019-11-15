@@ -1,5 +1,5 @@
-# Valid ids 1000113001 - 1000114000
-1000113001 = {
+# Valid IDs: 1000184000 - 1000184999
+1000184000 = {
 	name = "Saarlane"
 	culture = ugricbaltic
 }

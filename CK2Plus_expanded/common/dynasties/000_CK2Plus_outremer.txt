@@ -1,81 +1,81 @@
-# Valid ids 1000081001 - 1000082000
-1000081001 = {
+# Valid IDs: 1000128000 - 1000128999
+1000128000 = {
 	name = "Muaynier"
 	culture = outremer
 }
-1000081002 = {
+1000128001 = {
 	name = "Chamillavid"
 	culture = outremer
 }
-1000081003 = {
+1000128002 = {
 	name = "Khamonnois"
 	culture = outremer
 }
-1000081004 = {
+1000128003 = {
 	name = "Taghville"
 	culture = outremer
 }
-1000081005 = {
+1000128004 = {
 	name = "Futoville"
 	culture = outremer
 }
-1000081006 = {
+1000128005 = {
 	name = "Shukrolay"
 	culture = outremer
 }
-1000081007 = {
+1000128006 = {
 	name = "Mazyarrois"
 	culture = outremer
 }
-1000081008 = {
+1000128007 = {
 	name = "Mazyeding"
 	culture = outremer
 }
-1000081009 = {
+1000128008 = {
 	name = "Chateqid"
 	culture = outremer
 }
-1000081010 = {
+1000128009 = {
 	name = "Mustemps"
 	culture = outremer
 }
-1000081011 = {
+1000128010 = {
 	name = "Caimid"
 	culture = outremer
 }
-1000081012 = {
+1000128011 = {
 	name = "Taidant"
 	culture = outremer
 }
-1000081013 = {
+1000128012 = {
 	name = "Alemenon"
 	culture = outremer
 }
-1000081014 = {
+1000128013 = {
 	name = "Zahipenel"
 	culture = outremer
 }
-1000081015 = {
+1000128014 = {
 	name = "Jamaledier"
 	culture = outremer
 }
-1000081016 = {
+1000128015 = {
 	name = "Vienizzid"
 	culture = outremer
 }
-1000081017 = {
+1000128016 = {
 	name = "Tenqaid"
 	culture = outremer
 }
-1000081018 = {
+1000128017 = {
 	name = "Bouchardhabid"
 	culture = outremer
 }
-1000081019 = {
+1000128018 = {
 	name = "Rorgonalalid"
 	culture = outremer
 }
-1000081020 = {
+1000128019 = {
 	name = "Yamingian"
 	culture = outremer
 }

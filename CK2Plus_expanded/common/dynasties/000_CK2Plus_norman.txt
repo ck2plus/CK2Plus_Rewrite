@@ -1,13 +1,13 @@
-# Valid ids 1000075001 - 1000076000
-1000075001 = {
+# Valid IDs: 1000118000 - 1000118999
+1000118000 = {
 	name = "de Valletort"
 	culture = norman
 }
-1000075002 = {
+1000118001 = {
 	name = "Bouchardides"
 	culture = norman
 }
-1000075003 = {
+1000118002 = {
 	name = "d'Oyly"
 	culture = norman
 }

@@ -1,41 +1,41 @@
-# Valid ids 1000095001 - 1000096000
-1000095001 = {
+# Valid IDs: 1000149000 - 1000149999
+1000149000 = {
 	name = "Mendez"
 	culture = sephardi
 }
-1000095002 = {
+1000149001 = {
 	name = "Hala"
 	culture = sephardi
 }
-1000095003 = {
+1000149002 = {
 	name = "Gomes"
 	culture = sephardi
 }
-1000095004 = {
+1000149003 = {
 	name = "Garcon"
 	culture = sephardi
 }
-1000095005 = {
+1000149004 = {
 	name = "Gabriel"
 	culture = sephardi
 }
-1000095006 = {
+1000149005 = {
 	name = "Salazar"
 	culture = sephardi
 }
-1000095007 = {
+1000149006 = {
 	name = "Dalmeida"
 	culture = sephardi
 }
-1000095008 = {
+1000149007 = {
 	name = "Crastoz"
 	culture = sephardi
 }
-1000095009 = {
+1000149008 = {
 	name = "Solomon"
 	culture = sephardi
 }
-1000095010 = {
+1000149009 = {
 	name = "Seraf"
 	culture = sephardi
 }

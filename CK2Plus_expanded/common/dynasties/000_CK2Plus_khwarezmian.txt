@@ -1,64 +1,64 @@
-# Valid ids 1000058001 - 1000059000
+# Valid IDs: 1000091000 - 1000091999
 
-1000058001 = {
+1000091000 = {
 	name="Afrighid"
 	culture = khwarazmian
 	religion = zoroastrian
 }
-1000058002 = {
+1000091001 = {
 	name="Ma'munid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058003 = {
+1000091002 = {
 	name="Sohaylid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058004 = {
+1000091003 = {
 	name="Sahrid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058005 = {
+1000091004 = {
 	name="Hamgarid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058006 = {
+1000091005 = {
 	name="Sahhasakid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058007 = {
+1000091006 = {
 	name="Sabrid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058008 = {
+1000091007 = {
 	name="Buzgarid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058009 = {
+1000091008 = {
 	name="Shaushid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058010 = {
+1000091009 = {
 	name="Mansurid"
 	culture = khwarazmian
 	religion = sunni
 }
-1000058011 = {
+1000091010 = {
 	name="Arsamuhid"
 	culture = khwarazmian
 }
-1000058012 = {
+1000091011 = {
 	name="Chakid"
 	culture = khwarazmian
 }
-1000058013 = {
+1000091012 = {
 	name="Muqannid"
 	culture = khwarazmian
 }

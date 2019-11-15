@@ -1,110 +1,110 @@
-# Valid ids 1000028001 - 1000029000
-1000028001 = {
+# Valid IDs: 1000046000 - 1000046999
+1000046000 = {
 	name = "Tajuwa" #Daju dynasty
 	culture = daju
 	religion = west_african_pagan
 }
-1000028002 = {
+1000046001 = {
 	name = "Nuba" #Tribal rulers of Nuba, not really daju, but can't have one province culture
 	culture = daju
 	religion = west_african_pagan
 }
-1000028003 = {
+1000046002 = {
 	name = "Shatt"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028004 = {
+1000046003 = {
 	name = "Liguri"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028005 = {
+1000046004 = {
 	name = "Daju Mongo"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028006 = {
+1000046005 = {
 	name = "Sila"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028007 = {
+1000046006 = {
 	name = "Nyala"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028008 = {
+1000046007 = {
 	name = "Bayko"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028009 = {
+1000046008 = {
 	name = "Njalgulgule"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028010 = {
+1000046009 = {
 	name = "Furogé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028011 = {
+1000046010 = {
 	name = "Tulindjigerké"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028012 = {
+1000046011 = {
 	name = "Chortinengé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028013 = {
+1000046012 = {
 	name = "Kalwaké"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028014 = {
+1000046013 = {
 	name = "Sumbinangé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028015 = {
+1000046014 = {
 	name = "Buharké"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028016 = {
+1000046015 = {
 	name = "Dufugé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028017 = {
+1000046016 = {
 	name = "Dambogé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028018 = {
+1000046017 = {
 	name = "Tumbugé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028019 = {
+1000046018 = {
 	name = "Keiawarké"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028020 = {
+1000046019 = {
 	name = "Adajungé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028021 = {
+1000046020 = {
 	name = "Tarunungé"
 	culture = daju
 	religion = west_african_pagan
 }
-1000028022 = {
+1000046021 = {
 	name = "Doruningé"
 	culture = daju
 	religion = west_african_pagan

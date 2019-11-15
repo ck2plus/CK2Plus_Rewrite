@@ -1,70 +1,70 @@
-# Valid ids 1000091001 - 1000092000
+# Valid IDs: 1000145000 - 1000145999
 
-1000091001 = {
+1000145000 = {
 	name="Adelid"
 	culture = sanhaja
 }
-1000091002 = {
+1000145001 = {
 	name="Nazarid"
 	culture = sanhaja
 }
-1000091003 = {
+1000145002 = {
 	name="Tahirid"
 	culture = sanhaja
 }
-1000091004 = {
+1000145003 = {
 	name="Kussilid"
 	culture = sanhaja
 }
-1000091005 = {
+1000145004 = {
 	name="Zafirid"
 	culture = sanhaja
 }
-1000091006 = {
+1000145005 = {
 	name="Fathid"
 	culture = sanhaja
 }
-1000091007 = {
+1000145006 = {
 	name="Berkanid"
 	culture = sanhaja
 }
-1000091008 = {
+1000145007 = {
 	name="Nasrid"
 	culture = sanhaja
 }
-1000091009 = {
+1000145008 = {
 	name="Ghaysanid"
 	culture = sanhaja
 }
-1000091010 = {
+1000145009 = {
 	name="Ureghid"
 	culture = sanhaja
 }
-1000091011 = {
+1000145010 = {
 	name="Jamalid"
 	culture = sanhaja
 }
-1000091012 = {
+1000145011 = {
 	name="Masnsenid"
 	culture = sanhaja
 }
-1000091013 = {
+1000145012 = {
 	name="Kenanid"
 	culture = sanhaja
 }
-1000091014 = {
+1000145013 = {
 	name="Gaudadid"
 	culture = sanhaja
 }
-1000091015 = {
+1000145014 = {
 	name="Cucungid"
 	culture = sanhaja
 }
-1000091016 = {
+1000145015 = {
 	name="Tariqid"
 	culture = sanhaja
 }
-1000091017 = {
+1000145016 = {
 	name="Kussilid"
 	culture = sanhaja
 }

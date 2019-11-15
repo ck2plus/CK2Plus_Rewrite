@@ -1,261 +1,261 @@
-# Valid ids 1000029001 - 1000030000
-1000029001 = {
+# Valid IDs: 1000047000 - 1000047999
+1000047000 = {
 	name = "Sebenico"
 	culture = dalmatian
 }
-1000029002 = {
+1000047001 = {
 	name = "Zacco"
 	culture = dalmatian
 }
-1000029003 = {
+1000047002 = {
 	name = "d'Istria"
 	culture = dalmatian
 }
-1000029004 = {
+1000047003 = {
 	name = "Silvio"
 	culture = dalmatian
 }
-1000029005 = {
+1000047004 = {
 	name = "Dauria"
 	culture = dalmatian
 }
-1000029006 = {
+1000047005 = {
 	name = "Clemenši"
 	culture = dalmatian
 }
-1000029007 = {
+1000047006 = {
 	name = "Castelicci"
 	culture = dalmatian
 }
-1000029008 = {
+1000047007 = {
 	name = "Coroccec"
 	culture = dalmatian
 }
-1000029009 = {
+1000047008 = {
 	name = "Crainic"
 	culture = dalmatian
 }
-1000029010 = {
+1000047009 = {
 	name = "Laccovissi"
 	culture = dalmatian
 }
-1000029011 = {
+1000047010 = {
 	name = "Sarcotissi"
 	culture = dalmatian
 }
-1000029012 = {
+1000047011 = {
 	name = "Cranovicci"
 	culture = dalmatian
 }
-1000029013 = {
+1000047012 = {
 	name = "Magorovicco"
 	culture = dalmatian
 }
-1000029014 = {
+1000047013 = {
 	name = "Oršic"
 	culture = dalmatian
 }
-1000029015 = {
+1000047014 = {
 	name = "Sorcoccevi"
 	culture = dalmatian
 }
-1000029016 = {
+1000047015 = {
 	name = "Zovanovicci"
 	culture = dalmatian
 }
-1000029017 = {
+1000047016 = {
 	name = "Saraca"
 	culture = dalmatian
 }
-1000029018 = {
+1000047017 = {
 	name = "Berišlavo"
 	culture = dalmatian
 }
-1000029019 = {
+1000047018 = {
 	name = "Zirincci"
 	culture = dalmatian
 }
-1000029020 = {
+1000047019 = {
 	name = "Milinarico"
 	culture = dalmatian
 }
-1000029021 = {
+1000047020 = {
 	name = "Domagos"
 	culture = dalmatian
 }
-1000029022 = {
+1000047021 = {
 	name = "Babons"
 	culture = dalmatian
 }
-1000029023 = {
+1000047022 = {
 	name = "Francopan"
 	culture = dalmatian
 }
-1000029024 = {
+1000047023 = {
 	name = "Bassan"
 	culture = dalmatian
 }
-1000029025 = {
+1000047024 = {
 	name = "Švetoslava"
 	culture = dalmatian
 }
-1000029026 = {
+1000047025 = {
 	name = "Crešimiro"
 	culture = dalmatian
 }
-1000029027 = {
+1000047026 = {
 	name = "Tripiroviši"
 	culture = dalmatian
 }
-1000029028 = {
+1000047027 = {
 	name = "Zacaria"
 	culture = dalmatian
 }
-1000029029 = {
+1000047028 = {
 	name = "Maltraversa"
 	culture = dalmatian
 }
-1000029030 = {
+1000047029 = {
 	name = "Menccetti"
 	culture = dalmatian
 }
-1000029031 = {
+1000047030 = {
 	name = "Castropola"
 	culture = dalmatian
 }
-1000029032 = {
+1000047031 = {
 	name = "Dipola"
 	culture = dalmatian
 }
-1000029033 = {
+1000047032 = {
 	name = "Zorcci"
 	culture = dalmatian
 }
-1000029034 = {
+1000047033 = {
 	name = "Benešia"
 	culture = dalmatian
 }
-1000029035 = {
+1000047034 = {
 	name = "Flavanico"
 	culture = dalmatian
 }
-1000029036 = {
+1000047035 = {
 	name = "Sercci"
 	culture = dalmatian
 }
-1000029037 = {
+1000047036 = {
 	name = "Loredano"
 	culture = dalmatian
 }
-1000029038 = {
+1000047037 = {
 	name = "Dobrišva"
 	culture = dalmatian
 }
-1000029039 = {
+1000047038 = {
 	name = "Doccas"
 	culture = dalmatian
 }
-1000029040 = {
+1000047039 = {
 	name = "Zian"
 	culture = dalmatian
 }
-1000029041 = {
+1000047040 = {
 	name = "Delfin"
 	culture = dalmatian
 }
-1000029042 = {
+1000047041 = {
 	name = "Morosini"
 	culture = dalmatian
 }
-1000029043 = {
+1000047042 = {
 	name = "Orseolo"
 	culture = dalmatian
 }
-1000029044 = {
+1000047043 = {
 	name = "Debreša"
 	culture = dalmatian
 }
-1000029045 = {
+1000047044 = {
 	name = "Damancano"
 	culture = dalmatian
 }
-1000029046 = {
+1000047045 = {
 	name = "Daponto"
 	culture = dalmatian
 }
-1000029047 = {
+1000047046 = {
 	name = "Vetranova"
 	culture = dalmatian
 }
-1000029048 = {
+1000047047 = {
 	name = "Contarino"
 	culture = dalmatian
 }
-1000029049 = {
+1000047048 = {
 	name = "Colombo"
 	culture = dalmatian
 }
-1000029050 = {
+1000047049 = {
 	name = "Luka"
 	culture = dalmatian
 }
-1000029051 = {
+1000047050 = {
 	name = "Partizipašio"
 	culture = dalmatian
 }
-1000029052 = {
+1000047051 = {
 	name = "Rossa"
 	culture = dalmatian
 }
-1000029053 = {
+1000047052 = {
 	name = "Polani"
 	culture = dalmatian
 }
-1000029054 = {
+1000047053 = {
 	name = "Mosenico"
 	culture = dalmatian
 }
-1000029055 = {
+1000047054 = {
 	name = "Foscaro"
 	culture = dalmatian
 }
-1000029056 = {
+1000047055 = {
 	name = "Vetrano"
 	culture = dalmatian
 }
-1000029057 = {
+1000047056 = {
 	name = "Polo"
 	culture = dalmatian
 }
-1000029058 = {
+1000047057 = {
 	name = "Vallenti"
 	culture = dalmatian
 }
-1000029059 = {
+1000047058 = {
 	name = "Faliero"
 	culture = dalmatian
 }
-1000029060 = {
+1000047059 = {
 	name = "Mastropiro"
 	culture = dalmatian
 }
-1000029061 = {
+1000047060 = {
 	name = "Dandolo"
 	culture = dalmatian
 }
-1000029062 = {
+1000047061 = {
 	name = "Monetta"
 	culture = dalmatian
 }
-1000029063 = {
+1000047062 = {
 	name = "Scripari"
 	culture = dalmatian
 }
-1000029064 = {
+1000047063 = {
 	name = "Pešiatora"
 	culture = dalmatian
 }
-1000029065 = {
+1000047064 = {
 	name = "Crivelli"
 	culture = dalmatian
 }

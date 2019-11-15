@@ -1,45 +1,45 @@
-# Valid ids 1000056001 - 1000057000
-1000056001 = {
+# Valid IDs: 1000086000 - 1000086999
+1000086000 = {
 	name = "Duguwa"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000056002 = {
+1000086001 = {
 	name = "Sayfawa"
 	culture = kanuri
 	religion = sunni
 }
-1000056003 = {
+1000086002 = {
 	name = "Dabbalemi"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000056004 = {
+1000086003 = {
 	name = "Teda"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000056005 = {
+1000086004 = {
 	name = "Tumari"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000056006 = {
+1000086005 = {
 	name = "Bare Bari"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000056007 = {
+1000086006 = {
 	name = "Mangari"
 	culture = kanuri
 	religion = west_african_pagan
 }
-1000056008 = {
+1000086007 = {
 	name = "Kanembu"
 	culture = kanuri
 	religion = sunni
 }
-1000056009 = {
+1000086008 = {
 	name = "Sefuwa"
 	culture = kanuri
 	religion = sunni

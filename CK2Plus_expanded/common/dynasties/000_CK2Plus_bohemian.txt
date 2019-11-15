@@ -1,9 +1,9 @@
-# Valid ids 1000018001 - 1000019000
-1000018001 = {
+# Valid IDs: 1000029000 - 1000029999
+1000029000 = {
 	name = "Slavnik"
 	culture = bohemian
 }
-1000018002 = {
+1000029001 = {
 	name = "Vrsovec"
 	culture = bohemian
 }

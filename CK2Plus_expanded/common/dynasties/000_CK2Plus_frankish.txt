@@ -1,38 +1,38 @@
-# Valid ids 1000041001 - 1000042000
-1000041001 = {
+# Valid IDs: 1000060000 - 1000060999
+1000060000 = {
 	used_for_random = no
 	name = "Merovingian"
 	culture = frankish
 }
-1000041002 = {
+1000060001 = {
 	name = "de Chevron" # Pope Nicholas II
 	culture = frankish
 }
-1000041003 = {
+1000060002 = {
 	name = "Arnulfien"
 	culture = frankish
 }
-1000041004 = {
+1000060003 = {
 	name = "Nibelungs"
 	culture = frankish
 }
-1000041005 = {
+1000060004 = {
 	name = "de Tours"
 	culture = frankish
 }
-1000041006 = {
+1000060005 = {
 	name = "Valdes"
 	culture = frankish
 }
-1000041007 = {
+1000060006 = {
 	name = "de Sabran"
 	culture = frankish
 }
-1000041008 = {
+1000060007 = {
 	name = "de Savoie"
 	culture = frankish
 }
-1000041009 = {
+1000060008 = {
 	name = "de Piémont"
 	culture = frankish
 }

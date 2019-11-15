@@ -1,65 +1,65 @@
-# Valid ids 1000015001 - 1000016000
-1000015001 = {
+# Valid IDs: 1000024000 - 1000024999
+1000024000 = {
 	name = "Bisharin"
 	culture = beja
 }
-1000015002 = {
+1000024001 = {
 	name = "Hedareb"
 	culture = beja
 }
-1000015003 = {
+1000024002 = {
 	name = "Hadendowa"
 	culture = beja
 }
-1000015004 = {
+1000024003 = {
 	name = "Hadendoa"
 	culture = beja
 }
-1000015005 = {
+1000024004 = {
 	name = "Amarar"
 	culture = beja
 }
-1000015006 = {
+1000024005 = {
 	name = "Amar'ar"
 	culture = beja
 }
-1000015007 = {
+1000024006 = {
 	name = "Beni-Amer"
 	culture = beja
 }
-1000015008 = {
+1000024007 = {
 	name = "Hallenga"
 	culture = beja
 }
-1000015009 = {
+1000024008 = {
 	name = "Hamran"
 	culture = beja
 }
-1000015010 = {
+1000024009 = {
 	name = "Beni"
 	culture = beja
 }
-1000015011 = {
+1000024010 = {
 	name = "Amer"
 	culture = beja
 }
-1000015012 = {
+1000024011 = {
 	name = "Quata"
 	culture = beja
 }
-1000015013 = {
+1000024012 = {
 	name = "Baklin"
 	culture = beja
 }
-1000015014 = {
+1000024013 = {
 	name = "Naqi"
 	culture = beja
 }
-1000015015 = {
+1000024014 = {
 	name = "Jarin"
 	culture = beja
 }
-1000015016 = {
+1000024015 = {
 	name = "Beja"
 	culture = beja
 }

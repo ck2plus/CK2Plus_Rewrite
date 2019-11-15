@@ -1,101 +1,101 @@
-# Valid ids 1000023001 - 1000024000
-1000023001 = {
+# Valid IDs: 1000040000 - 1000040999
+1000040000 = {
 	name = "a Lannstefan"
 	culture = cornish
 }
-1000023002 = {
+1000040001 = {
 	name = "a Bosvenegh"
 	culture = cornish
 }
-1000023003 = {
+1000040002 = {
 	name = "a Essa"
 	culture = cornish
 }
-1000023004 = {
+1000040003 = {
 	name = "a Truru"
 	culture = cornish
 }
-1000023005 = {
+1000040004 = {
 	name = "Boscawen"
 	culture = cornish
 }
-1000023006 = {
+1000040005 = {
 	name = "Flamank"
 	culture = cornish
 }
-1000023007 = {
+1000040006 = {
 	name = "Basset"
 	culture = cornish
 }
-1000023008 = {
+1000040007 = {
 	name = "Bolitho"
 	culture = cornish
 }
-1000023009 = {
+1000040008 = {
 	name = "Knuckey"
 	culture = cornish
 }
-1000023010 = {
+1000040009 = {
 	name = "Godolphin"
 	culture = cornish
 }
-1000023011 = {
+1000040010 = {
 	name = "Killigrew"
 	culture = cornish
 }
-1000023012 = {
+1000040011 = {
 	name = "Treffry"
 	culture = cornish
 }
-1000023013 = {
+1000040012 = {
 	name = "Trelawny"
 	culture = cornish
 }
-1000023014 = {
+1000040013 = {
 	name = "Trevanion"
 	culture = cornish
 }
-1000023015 = {
+1000040014 = {
 	name = "Vyvyan"
 	culture = cornish
 }
-1000023016 = {
+1000040015 = {
 	name = "Carminow"
 	culture = cornish
 }
-1000023017 = {
+1000040016 = {
 	name = "Roscarrock"
 	culture = cornish
 }
-1000023018 = {
+1000040017 = {
 	name = "Tremayne"
 	culture = cornish
 }
-1000023019 = {
+1000040018 = {
 	name = "Trevelyan"
 	culture = cornish
 }
-1000023020 = {
+1000040019 = {
 	name = "Arundell"
 	culture = cornish
 }
-1000023021 = {
+1000040020 = {
 	name = "de Cardinham"
 	culture = cornish
 }
-1000023022 = {
+1000040021 = {
 	name = "de Botreaux"
 	culture = cornish
 }
-1000023023 = {
+1000040022 = {
 	name = "de Prideaux"
 	culture = cornish
 }
-1000023024 = {
+1000040023 = {
 	name = "de Bodrugan"
 	culture = cornish
 }
-1000023025 = {
+1000040024 = {
 	name = "Dyntagell"
 	culture = cornish
 }
