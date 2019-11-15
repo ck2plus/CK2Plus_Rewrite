@@ -4,6 +4,10 @@
 # So instead we will henceforth use a method that is easier to maintain for us.
 # Below, you will find the ranges actually used by the mod, per culture.
 
+# When you add a new dynasty file, reserve 1000 IDs starting from the highest ID in this file + 1, and add a line to this file
+# showing your reserved ids. Additionally, add a comment to the top of the dynasty file you added stating what IDs it has
+# reserved for it.
+
 # Original CK2 and CK2+ cultures with dynasty ranges assigned alphabetically:
 
 # abkhazian              1000000000 - 1000000999
