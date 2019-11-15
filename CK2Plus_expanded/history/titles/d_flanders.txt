@@ -4,10 +4,6 @@
 	liege = k_neustria
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 862.1.1 = {
 	liege = k_france
 	holder = 90109 #Boudewijn I

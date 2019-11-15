@@ -7,10 +7,6 @@
 	holder = 0
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 867.1.1 = {
 	holder = 245003
 	liege = k_lotharingia

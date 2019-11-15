@@ -20,10 +20,6 @@
 	de_jure_liege = k_burgundy
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 798.1.1 = {
 	holder = 190512 #Teudoin
 }

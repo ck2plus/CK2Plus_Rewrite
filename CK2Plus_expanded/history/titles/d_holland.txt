@@ -15,10 +15,6 @@
 	de_jure_liege = k_neustria
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 817.1.1 = {
 	de_jure_liege = k_lotharingia
 	liege = k_lotharingia

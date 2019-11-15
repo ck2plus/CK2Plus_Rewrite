@@ -3,10 +3,6 @@
 	liege = k_austrasia
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 936.1.1 = {
 	liege = k_burgundy
 }

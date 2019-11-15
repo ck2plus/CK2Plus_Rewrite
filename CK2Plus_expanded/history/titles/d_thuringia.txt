@@ -55,10 +55,6 @@
 	holder = 168226 #Thankulf
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 815.1.1 = {
 	holder = 168227 #Hadulf
 }

@@ -3,10 +3,6 @@
 	holder = 245000
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 860.1.1 = {
 	holder = 245001
 	liege = k_lotharingia
