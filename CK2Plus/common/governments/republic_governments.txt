@@ -22,52 +22,57 @@ republic_governments = {
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "city_"
 		potential = {
-			OR = {
-				controls_religion = no
-				religion_group = muslim
-				has_religion_feature = religion_temporal_head
-				AND = {
-					religion = norse_pagan_reformed
-					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
-				}
-			}
-			#is_female = no
-			OR = {
-				AND = {
-					is_patrician = yes
-					OR = {
+			trigger_if = {
+				limit = { has_game_started = yes }
+				OR = {
+					AND = {
+						is_patrician = yes
 						liege_before_war = {
-							NOT = { character = PREV }
 							is_merchant_republic = yes
-							NOT = {
+							NOR = {
+								character = PREV
 								liege_before_war = {
 									NOT = { character = PREV }
 									is_merchant_republic = yes
 								}
 							}
 						}
-						has_game_started = no
+					}
+					AND = {
+						is_merchant_republic = yes
+						higher_real_tier_than = count
+						any_demesne_province = { always = yes }
+						NOT = {
+							liege_before_war = {
+								NOT = { character = PREV }
+								is_merchant_republic = yes
+							}
+						}
 					}
 				}
-				AND = {
-					OR = {
-						AND = {
-							has_game_started = yes
-							is_merchant_republic = yes
-						}
+			}
+			trigger_else = {
+				OR = {
+					is_patrician = yes
+					AND = {
 						capital_scope = { port = yes }
-					}
-					higher_real_tier_than = count
-					any_demesne_province = {
-						always = yes
-					}
-					NOT = {
-						liege_before_war = {
-							NOT = { character = PREV }
-							is_merchant_republic = yes
+						capital_holding = { holding_type = CITY }
+						higher_real_tier_than = count
+						any_demesne_province = { always = yes }
+						NOT = {
+							liege_before_war = {
+								is_merchant_republic = yes
+								NOT = { character = PREV }
+							}
 						}
 					}
 				}
+			}
+			NOR = {
+				is_government_potential = confucian_bureaucracy
+				is_government_potential = mercenary_government
+				is_government_potential = order_government
+				is_government_potential = theocracy_government
 			}
 		}
 
@@ -114,12 +119,19 @@ republic_governments = {
 		frame_suffix = "_republic"
 		title_prefix = "city_"
 		potential = {
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = muslim }
+			trigger_if = {
+				limit = { ai = yes}
+				NOR = {
+					is_government_potential = confucian_bureaucracy
+					is_government_potential = merchant_republic_government
+					is_government_potential = mercenary_government
+					is_government_potential = order_government
+					is_government_potential = theocracy_government
+				}
 			}
-			NOT = { is_government_potential = merchant_republic_government }
-			holy_order = no
+			trigger_else = {
+				always = no
+			}
 		}
 
 		color = { 209 125 130 }
