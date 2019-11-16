@@ -1,0 +1,46 @@
+feudal_governments = {
+
+	mercenary_government = {
+		preferred_holdings = { CASTLE }
+		# Are allowed to hold any holding, but no vassals will accept them
+		allowed_holdings = {
+			CASTLE
+			CITY
+			TEMPLE
+			TRIBAL
+			FORT
+			HOSPITAL
+		}
+		forced_contract = {
+			mercenary_government
+			order_government
+		}
+		free_revoke_on_tiers = {
+			BARON
+			COUNT
+		}
+
+		frame_suffix = "_order"
+		title_prefix = "order_"
+
+		potential = {
+			mercenary = yes
+		}
+
+		color = { 0 0 0 }
+
+		have_gender_laws = no
+		can_create_kingdoms = no
+		can_create_empires = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		dukes_called_kings = no
+		barons_need_dynasty = no
+		can_usurp_kingdoms_and_empires = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+		can_inherit = no
+		free_retract_vassalage = yes
+	}
+
+}
