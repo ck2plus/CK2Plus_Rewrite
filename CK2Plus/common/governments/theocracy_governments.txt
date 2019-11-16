@@ -50,17 +50,6 @@ theocracy_governments = {
 			trigger_else = {
 				always = no
 			}
-			NOT = {	religion_group = muslim	}
-			holy_order = no
-			is_patrician = no
-			OR = {
-				is_female = no
-				religion_allows_female_temple_holders = yes
-			}
-			OR = {
-				is_female = yes
-				religion_allows_male_temple_holders = yes
-			}
 		}
 
 		color = { 220 220 220 }
