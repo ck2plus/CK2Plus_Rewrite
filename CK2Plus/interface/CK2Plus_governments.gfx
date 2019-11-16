@@ -1,0 +1,7 @@
+ spriteTypes = {
+  # Mercenary Government (Thanks Maal and MightNight)
+	spriteType = {
+		name = "GFX_icon_mercenary_government"
+		texturefile = "gfx\\interface\\governments\\government_icon_mercenary.dds"
+	}
+ }
