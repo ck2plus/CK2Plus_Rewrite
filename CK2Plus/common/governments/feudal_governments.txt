@@ -385,10 +385,13 @@ feudal_governments = {
 		}
 		frame_suffix = "_romanimperial"
 		potential = {
-			OR = {
-				AND = {
+			is_patrician = no
+			trigger_if = {
+				limit = {
 					is_save_game = no
 					has_game_started = no
+				}
+				top_liege = {
 					primary_title = {
 						OR = {
 							title = e_byzantium
@@ -396,15 +399,18 @@ feudal_governments = {
 						}
 					}
 				}
-				primary_title = {
-					OR = {
-						title = e_byzantium
-						title = e_roman_empire
+			}
+			trigger_else = {
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_byzantium
+							title = e_roman_empire
+						}
+						has_law = succ_byzantine_elective
 					}
-					has_law = succ_byzantine_elective
 				}
 			}
-			is_patrician = no
 		}
 
 		color = { 143 12 125 }
