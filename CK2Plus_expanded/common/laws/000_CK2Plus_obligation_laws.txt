@@ -105,6 +105,8 @@ laws = {
 		group = feudal_focus
 		default = yes
 
+		castle_vassal_max_levy = 0.20
+
 		potential = {
 			temporary = no
 			holder_scope = {
@@ -112,7 +114,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -146,12 +148,13 @@ laws = {
 				revoke_law = feudal_focus_4
 			}
 		}
-
-		castle_vassal_max_levy = 0.20
 	}
 
 	feudal_focus_1 = {
 		group = feudal_focus
+
+		castle_vassal_max_levy = 0.10
+		castle_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
@@ -160,7 +163,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -185,13 +188,12 @@ laws = {
 				revoke_law = feudal_focus_4
 			}
 		}
-
-		castle_vassal_max_levy = 0.10
-		castle_vassal_tax_modifier = 0.05
 	}
 
 	feudal_focus_2 = {
 		group = feudal_focus
+
+		castle_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
@@ -200,7 +202,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -225,12 +227,13 @@ laws = {
 				revoke_law = feudal_focus_4
 			}
 		}
-
-		castle_vassal_tax_modifier = 0.10
 	}
 
 	feudal_focus_3 = {
 		group = feudal_focus
+
+		castle_vassal_max_levy = -0.10
+		castle_vassal_tax_modifier = 0.15
 
 		potential = {
 			temporary = no
@@ -239,7 +242,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -264,13 +267,13 @@ laws = {
 				revoke_law = feudal_focus_4
 			}
 		}
-
-		castle_vassal_max_levy = -0.10
-		castle_vassal_tax_modifier = 0.15
 	}
 
 	feudal_focus_4 = {
 		group = feudal_focus
+
+		castle_vassal_max_levy = -0.20
+		castle_vassal_tax_modifier = 0.20
 
 		potential = {
 			temporary = no
@@ -279,7 +282,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -301,14 +304,14 @@ laws = {
 				revoke_law = feudal_focus_3
 			}
 		}
-
-		castle_vassal_max_levy = -0.20
-		castle_vassal_tax_modifier = 0.20
 	}
 
 	feudal_obligations_0 = {
 		group = feudal_obligations
 		default = yes
+
+		feudal_opinion = 5
+		castle_vassal_max_levy = -0.10
 
 		potential = {
 			temporary = no
@@ -317,7 +320,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -351,13 +354,13 @@ laws = {
 				revoke_law = feudal_obligations_4
 			}
 		}
-
-		feudal_opinion = 5
-		castle_vassal_max_levy = -0.10
 	}
 
 	feudal_obligations_1 = {
 		group = feudal_obligations
+
+		castle_vassal_max_levy = -0.05
+		castle_vassal_tax_modifier = 0.025
 
 		potential = {
 			temporary = no
@@ -366,7 +369,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -395,13 +398,13 @@ laws = {
 				revoke_law = feudal_obligations_4
 			}
 		}
-
-		castle_vassal_max_levy = -0.05
-		castle_vassal_tax_modifier = 0.025
 	}
 
 	feudal_obligations_2 = {
 		group = feudal_obligations
+
+		feudal_opinion = -5
+		castle_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
@@ -410,7 +413,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -439,13 +442,14 @@ laws = {
 				revoke_law = feudal_obligations_4
 			}
 		}
-
-		feudal_opinion = -5
-		castle_vassal_tax_modifier = 0.05
 	}
 
 	feudal_obligations_3 = {
 		group = feudal_obligations
+
+		feudal_opinion = -10
+		castle_vassal_min_levy = 0.05
+		castle_vassal_tax_modifier = 0.075
 
 		potential = {
 			temporary = no
@@ -454,7 +458,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -483,14 +487,14 @@ laws = {
 				revoke_law = feudal_obligations_4
 			}
 		}
-
-		feudal_opinion = -10
-		castle_vassal_min_levy = 0.05
-		castle_vassal_tax_modifier = 0.075
 	}
 
 	feudal_obligations_4 = {
 		group = feudal_obligations
+
+		feudal_opinion = -15
+		castle_vassal_min_levy = 0.10
+		castle_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
@@ -499,7 +503,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -521,10 +525,6 @@ laws = {
 				revoke_law = feudal_obligations_3
 			}
 		}
-
-		feudal_opinion = -15
-		castle_vassal_min_levy = 0.10
-		castle_vassal_tax_modifier = 0.10
 	}
 
 	####################################
@@ -537,6 +537,8 @@ laws = {
 		group = iqta_focus
 		default = yes
 
+		castle_vassal_max_levy = 0.20
+
 		potential = {
 			temporary = no
 			holder_scope = {
@@ -544,7 +546,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -566,12 +568,13 @@ laws = {
 				revoke_law = iqta_focus_4
 			}
 		}
-
-		castle_vassal_max_levy = 0.20
 	}
 
 	iqta_focus_1 = {
 		group = iqta_focus
+
+		castle_vassal_max_levy = 0.10
+		castle_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
@@ -580,7 +583,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -605,13 +608,12 @@ laws = {
 				revoke_law = iqta_focus_4
 			}
 		}
-
-		castle_vassal_max_levy = 0.10
-		castle_vassal_tax_modifier = 0.05
 	}
 
 	iqta_focus_2 = {
 		group = iqta_focus
+
+		castle_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
@@ -620,7 +622,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -655,12 +657,13 @@ laws = {
 				revoke_law = iqta_focus_4
 			}
 		}
-
-		castle_vassal_tax_modifier = 0.10
 	}
 
 	iqta_focus_3 = {
 		group = iqta_focus
+
+		castle_vassal_max_levy = -0.10
+		castle_vassal_tax_modifier = 0.15
 
 		potential = {
 			temporary = no
@@ -669,7 +672,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -694,13 +697,13 @@ laws = {
 				revoke_law = iqta_focus_4
 			}
 		}
-
-		castle_vassal_max_levy = -0.10
-		castle_vassal_tax_modifier = 0.15
 	}
 
 	iqta_focus_4 = {
 		group = iqta_focus
+
+		castle_vassal_max_levy = -0.20
+		castle_vassal_tax_modifier = 0.20
 
 		potential = {
 			temporary = no
@@ -709,7 +712,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -731,14 +734,14 @@ laws = {
 				revoke_law = iqta_focus_3
 			}
 		}
-
-		castle_vassal_max_levy = -0.20
-		castle_vassal_tax_modifier = 0.20
 	}
 
 	iqta_obligations_0 = {
 		group = iqta_obligations
 		default = yes
+
+		feudal_opinion = 5
+		castle_vassal_max_levy = -0.10
 
 		potential = {
 			temporary = no
@@ -747,7 +750,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -769,13 +772,13 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-
-		feudal_opinion = 5
-		castle_vassal_max_levy = -0.10
 	}
 
 	iqta_obligations_1 = {
 		group = iqta_obligations
+
+		castle_vassal_max_levy = -0.05
+		castle_vassal_tax_modifier = 0.025
 
 		potential = {
 			temporary = no
@@ -784,7 +787,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -823,13 +826,13 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-
-		castle_vassal_max_levy = -0.05
-		castle_vassal_tax_modifier = 0.025
 	}
 
 	iqta_obligations_2 = {
 		group = iqta_obligations
+
+		feudal_opinion = -5
+		castle_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
@@ -838,7 +841,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -867,13 +870,14 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-
-		feudal_opinion = -5
-		castle_vassal_tax_modifier = 0.05
 	}
 
 	iqta_obligations_3 = {
 		group = iqta_obligations
+
+		feudal_opinion = -10
+		castle_vassal_min_levy = 0.05
+		castle_vassal_tax_modifier = 0.075
 
 		potential = {
 			temporary = no
@@ -882,7 +886,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -911,14 +915,14 @@ laws = {
 				revoke_law = iqta_obligations_4
 			}
 		}
-
-		feudal_opinion = -10
-		castle_vassal_min_levy = 0.05
-		castle_vassal_tax_modifier = 0.075
 	}
 
 	iqta_obligations_4 = {
 		group = iqta_obligations
+
+		feudal_opinion = -15
+		castle_vassal_min_levy = 0.10
+		castle_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
@@ -927,7 +931,7 @@ laws = {
 				is_nomadic = no
 				religion_group = muslim
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -949,10 +953,6 @@ laws = {
 				revoke_law = iqta_obligations_3
 			}
 		}
-
-		feudal_opinion = -15
-		castle_vassal_min_levy = 0.10
-		castle_vassal_tax_modifier = 0.10
 	}
 
 	########################################
@@ -965,6 +965,8 @@ laws = {
 		group = temple_focus
 		default = yes
 
+		temple_vassal_max_levy = 0.20
+
 		potential = {
 			temporary = no
 			holder_scope = {
@@ -972,7 +974,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -994,12 +996,13 @@ laws = {
 				revoke_law = temple_focus_4
 			}
 		}
-
-		temple_vassal_max_levy = 0.20
 	}
 
 	temple_focus_1 = {
 		group = temple_focus
+
+		temple_vassal_max_levy = 0.10
+		temple_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
@@ -1008,7 +1011,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1033,13 +1036,12 @@ laws = {
 				revoke_law = temple_focus_4
 			}
 		}
-
-		temple_vassal_max_levy = 0.10
-		temple_vassal_tax_modifier = 0.05
 	}
 
 	temple_focus_2 = {
 		group = temple_focus
+
+		temple_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
@@ -1048,7 +1050,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1083,12 +1085,13 @@ laws = {
 				revoke_law = temple_focus_4
 			}
 		}
-
-		temple_vassal_tax_modifier = 0.10
 	}
 
 	temple_focus_3 = {
 		group = temple_focus
+
+		temple_vassal_max_levy = -0.10
+		temple_vassal_tax_modifier = 0.15
 
 		potential = {
 			temporary = no
@@ -1097,7 +1100,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1122,13 +1125,13 @@ laws = {
 				revoke_law = temple_focus_4
 			}
 		}
-
-		temple_vassal_max_levy = -0.10
-		temple_vassal_tax_modifier = 0.15
 	}
 
 	temple_focus_4 = {
 		group = temple_focus
+
+		temple_vassal_max_levy = -0.20
+		temple_vassal_tax_modifier = 0.20
 
 		potential = {
 			temporary = no
@@ -1137,7 +1140,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1159,14 +1162,14 @@ laws = {
 				revoke_law = temple_focus_3
 			}
 		}
-
-		temple_vassal_max_levy = -0.20
-		temple_vassal_tax_modifier = 0.20
 	}
 
 	temple_obligations_0 = {
 		group = temple_obligations
 		default = yes
+
+		temple_opinion = 5
+		temple_vassal_max_levy = -0.10
 
 		potential = {
 			temporary = no
@@ -1175,7 +1178,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1209,13 +1212,13 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-
-		temple_opinion = 5
-		temple_vassal_max_levy = -0.10
 	}
 
 	temple_obligations_1 = {
 		group = temple_obligations
+
+		temple_vassal_max_levy = -0.05
+		temple_vassal_tax_modifier = 0.025
 
 		potential = {
 			temporary = no
@@ -1224,7 +1227,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1253,13 +1256,13 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-
-		temple_vassal_max_levy = -0.05
-		temple_vassal_tax_modifier = 0.025
 	}
 
 	temple_obligations_2 = {
 		group = temple_obligations
+
+		temple_opinion = -5
+		temple_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
@@ -1268,7 +1271,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1297,13 +1300,14 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-
-		temple_opinion = -5
-		temple_vassal_tax_modifier = 0.05
 	}
 
 	temple_obligations_3 = {
 		group = temple_obligations
+
+		temple_opinion = -10
+		temple_vassal_min_levy = 0.05
+		temple_vassal_tax_modifier = 0.075
 
 		potential = {
 			temporary = no
@@ -1312,7 +1316,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1341,14 +1345,14 @@ laws = {
 				revoke_law = temple_obligations_4
 			}
 		}
-
-		temple_opinion = -10
-		temple_vassal_min_levy = 0.05
-		temple_vassal_tax_modifier = 0.075
 	}
 
 	temple_obligations_4 = {
 		group = temple_obligations
+
+		temple_opinion = -15
+		temple_vassal_min_levy = 0.10
+		temple_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
@@ -1357,7 +1361,7 @@ laws = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1379,10 +1383,6 @@ laws = {
 				revoke_law = temple_obligations_3
 			}
 		}
-
-		temple_opinion = -15
-		temple_vassal_min_levy = 0.10
-		temple_vassal_tax_modifier = 0.10
 	}
 
 #####################################
@@ -1395,13 +1395,15 @@ laws = {
 		group = city_focus
 		default = yes
 
+		city_vassal_max_levy = 0.20
+
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1423,12 +1425,13 @@ laws = {
 				revoke_law = city_focus_4
 			}
 		}
-
-		city_vassal_max_levy = 0.20
 	}
 
 	city_focus_1 = {
 		group = city_focus
+
+		city_vassal_max_levy = 0.10
+		city_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
@@ -1436,7 +1439,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1461,13 +1464,12 @@ laws = {
 				revoke_law = city_focus_4
 			}
 		}
-
-		city_vassal_max_levy = 0.10
-		city_vassal_tax_modifier = 0.05
 	}
 
 	city_focus_2 = {
 		group = city_focus
+
+		city_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
@@ -1475,7 +1477,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1500,12 +1502,13 @@ laws = {
 				revoke_law = city_focus_4
 			}
 		}
-
-		city_vassal_tax_modifier = 0.10
 	}
 
 	city_focus_3 = {
 		group = city_focus
+
+		city_vassal_max_levy = -0.10
+		city_vassal_tax_modifier = 0.15
 
 		potential = {
 			temporary = no
@@ -1513,7 +1516,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1548,13 +1551,13 @@ laws = {
 				revoke_law = city_focus_4
 			}
 		}
-
-		city_vassal_max_levy = -0.10
-		city_vassal_tax_modifier = 0.15
 	}
 
 	city_focus_4 = {
 		group = city_focus
+
+		city_vassal_max_levy = -0.20
+		city_vassal_tax_modifier = 0.20
 
 		potential = {
 			temporary = no
@@ -1562,7 +1565,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1584,14 +1587,14 @@ laws = {
 				revoke_law = city_focus_3
 			}
 		}
-
-		city_vassal_max_levy = -0.20
-		city_vassal_tax_modifier = 0.20
 	}
 
 	city_obligations_0 = {
 		group = city_obligations
 		default = yes
+
+		city_opinion = 5
+		city_vassal_max_levy = -0.10
 
 		potential = {
 			temporary = no
@@ -1599,7 +1602,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1633,13 +1636,13 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-
-		city_opinion = 5
-		city_vassal_max_levy = -0.10
 	}
 
 	city_obligations_1 = {
 		group = city_obligations
+
+		city_vassal_min_levy = 0.1
+		city_vassal_tax_modifier = 0.1
 
 		potential = {
 			temporary = no
@@ -1647,7 +1650,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1676,13 +1679,13 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-
-		city_vassal_min_levy = 0.1
-		city_vassal_tax_modifier = 0.1
 	}
 
 	city_obligations_2 = {
 		group = city_obligations
+
+		city_vassal_max_levy = -0.05
+		city_vassal_tax_modifier = 0.025
 
 		potential = {
 			temporary = no
@@ -1690,7 +1693,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1719,13 +1722,13 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-
-		city_vassal_max_levy = -0.05
-		city_vassal_tax_modifier = 0.025
 	}
 
 	city_obligations_3 = {
 		group = city_obligations
+
+		city_opinion = -5
+		city_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
@@ -1733,7 +1736,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1762,13 +1765,14 @@ laws = {
 				revoke_law = city_obligations_4
 			}
 		}
-
-		city_opinion = -5
-		city_vassal_tax_modifier = 0.05
 	}
 
 	city_obligations_4 = {
 		group = city_obligations
+
+		city_opinion = -15
+		city_vassal_min_levy = 0.10
+		city_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
@@ -1776,7 +1780,7 @@ laws = {
 				is_tribal = no
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 			}
@@ -1798,10 +1802,6 @@ laws = {
 				revoke_law = city_obligations_3
 			}
 		}
-
-		city_opinion = -15
-		city_vassal_min_levy = 0.10
-		city_vassal_tax_modifier = 0.10
 	}
 
 ####################################
@@ -1814,12 +1814,14 @@ laws = {
 		group = tribal_focus
 		default = yes
 
+		tribal_vassal_max_levy = 0.20
+
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -1857,19 +1859,20 @@ laws = {
 				revoke_law = tribal_focus_4
 			}
 		}
-
-		tribal_vassal_max_levy = 0.20
 	}
 
 	tribal_focus_1 = {
 		group = tribal_focus
+
+		tribal_vassal_max_levy = 0.10
+		tribal_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -1898,20 +1901,19 @@ laws = {
 				revoke_law = tribal_focus_4
 			}
 		}
-
-		tribal_vassal_max_levy = 0.10
-		tribal_vassal_tax_modifier = 0.05
 	}
 
 	tribal_focus_2 = {
 		group = tribal_focus
+
+		tribal_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -1940,19 +1942,20 @@ laws = {
 				revoke_law = tribal_focus_4
 			}
 		}
-
-		tribal_vassal_tax_modifier = 0.10
 	}
 
 	tribal_focus_3 = {
 		group = tribal_focus
+
+		tribal_vassal_max_levy = -0.10
+		tribal_vassal_tax_modifier = 0.15
 
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -1981,20 +1984,20 @@ laws = {
 				revoke_law = tribal_focus_4
 			}
 		}
-
-		tribal_vassal_max_levy = -0.10
-		tribal_vassal_tax_modifier = 0.15
 	}
 
 	tribal_focus_4 = {
 		group = tribal_focus
+
+		tribal_vassal_max_levy = -0.20
+		tribal_vassal_tax_modifier = 0.20
 
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2020,21 +2023,21 @@ laws = {
 				revoke_law = tribal_focus_3
 			}
 		}
-
-		tribal_vassal_max_levy = -0.20
-		tribal_vassal_tax_modifier = 0.20
 	}
 
 	tribal_obligations_0 = {
 		group = tribal_obligations
 		default = yes
 
+		tribal_opinion = 5
+		tribal_vassal_max_levy = -0.10
+
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2072,20 +2075,20 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-
-		tribal_opinion = 5
-		tribal_vassal_max_levy = -0.10
 	}
 
 	tribal_obligations_1 = {
 		group = tribal_obligations
+
+		tribal_vassal_max_levy = -0.05
+		tribal_vassal_tax_modifier = 0.025
 
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2118,20 +2121,20 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-
-		tribal_vassal_max_levy = -0.05
-		tribal_vassal_tax_modifier = 0.025
 	}
 
 	tribal_obligations_2 = {
 		group = tribal_obligations
+
+		tribal_opinion = -5
+		tribal_vassal_tax_modifier = 0.05
 
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2164,20 +2167,21 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-
-		tribal_opinion = -5
-		tribal_vassal_tax_modifier = 0.05
 	}
 
 	tribal_obligations_3 = {
 		group = tribal_obligations
+
+		tribal_opinion = -10
+		tribal_vassal_min_levy = 0.05
+		tribal_vassal_tax_modifier = 0.075
 
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2210,21 +2214,21 @@ laws = {
 				revoke_law = tribal_obligations_4
 			}
 		}
-
-		tribal_opinion = -10
-		tribal_vassal_min_levy = 0.05
-		tribal_vassal_tax_modifier = 0.075
 	}
 
 	tribal_obligations_4 = {
 		group = tribal_obligations
+
+		tribal_opinion = -15
+		tribal_vassal_min_levy = 0.10
+		tribal_vassal_tax_modifier = 0.10
 
 		potential = {
 			temporary = no
 			holder_scope = {
 				is_nomadic = no
 				OR = {
-					higher_tier_than = baron
+					higher_tier_than = BARON
 					is_patrician = yes
 				}
 				OR = {
@@ -2250,9 +2254,5 @@ laws = {
 				revoke_law = tribal_obligations_3
 			}
 		}
-
-		tribal_opinion = -15
-		tribal_vassal_min_levy = 0.10
-		tribal_vassal_tax_modifier = 0.10
 	}
 }
