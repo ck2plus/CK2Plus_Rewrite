@@ -2,8 +2,10 @@ feudal_governments = {
 
 	mercenary_government = {
 		preferred_holdings = { CASTLE }
+		# Are allowed to hold any holding, but no vassals will accept them
 		allowed_holdings = {
 			CASTLE
+			CITY
 			TEMPLE
 			TRIBAL
 			FORT
@@ -25,7 +27,7 @@ feudal_governments = {
 			mercenary = yes
 		}
 
-		color = { 169 169 169 }
+		color = { 0 0 0 }
 
 		have_gender_laws = no
 		can_create_kingdoms = no
