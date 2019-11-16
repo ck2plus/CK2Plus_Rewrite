@@ -16,7 +16,7 @@
 	culture = norse
 }
 1000119004 = {
-	name = "Hængr"
+	name = "Hï¿½ngr"
 	culture = norse
 }
 1000119005 = {
@@ -25,5 +25,13 @@
 }
 1000119006 = {
 	name = "Hlodvisson"
+	culture = norse
+}
+
+
+
+# Historical
+1000119500 = {
+	name = Sigfreding
 	culture = norse
 }

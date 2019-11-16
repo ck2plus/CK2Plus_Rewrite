@@ -1,0 +1,69 @@
+1000254000 = {
+	name = "Sigfriðr" # Sigfred I
+	dynasty = 1000119500 # Sigfreding
+	religion = norse_pagan
+	culture = norse
+	743.1.1 = {
+		birth = yes
+	}
+	804.1.1 = {
+		death = yes
+	}
+}
+
+1000254001 = {
+	name = "Guðfriðr" # Gudfred, successor to Sigfred I
+	dynasty = 1000119500 # Sigfreding
+	religion = norse_pagan
+	culture = norse
+	750.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+
+1000254002 = {
+	name = "Hemming" # Hemming I, successor to Gudfred
+	dynasty = 1000119500 # Sigfreding
+#	uncle = 1000254001 # Gudfred
+	religion = norse_pagan
+	culture = norse
+	753.1.1 = {
+		birth = yes
+	}
+	812.1.1 = {
+		death = yes
+	}
+}
+
+1000254003 = {
+	name = "Sigfriðr" # Sigfred II, vied for kingship, but died in doing so
+	dynasty = 1000119500 # Sigfreding
+#	father =
+	religion = norse_pagan
+	culture = norse
+	753.1.1 = {
+		birth = yes
+	}
+	812.6.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+1000254004 = {
+	name = "Hårik" # Horik I
+#	dynasty =
+	father = 1000254001 # Gudfred
+	religion = norse_pagan
+	culture = norse
+	770.1.1 = {
+		birth = yes
+	}
+	854.1.1 = {
+		death = yes
+	}
+}
