@@ -2704,7 +2704,7 @@
 	add_trait = ambitious
 	add_trait = tough_soldier
 	father = 70529
- 	452.1.1 = {
+ 	450.2.2 = {
 		birth = yes
 	}
 	527.8.1 = {
@@ -2757,7 +2757,7 @@
 }
 
 70529 = {
-	name = "Justinian"
+	name = "Savarus"
 	dynasty = 1022186
 	martial = 6
 	diplomacy = 3
