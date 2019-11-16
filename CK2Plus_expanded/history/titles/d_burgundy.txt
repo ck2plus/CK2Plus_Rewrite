@@ -5,11 +5,11 @@
 #House of Arnulfing
 
 697.1.1 = {
-	holder = 131719 #Drogo Dreux
+	holder = 131719 # Drogo
 }
 
 745.1.1 = {
-	holder = 190511 #Theoderic
+	holder = 190511 # Theoderic
 }
 
 745.1.1 = {
@@ -21,17 +21,17 @@
 }
 
 798.1.1 = {
-	holder = 190512 #Teudoin
+	holder = 190512 # Teudoin
 }
 
 827.1.1 = {
-	holder = 190513 #Theoderic
+	holder = 190513 # Theoderic
 }
 
 #Carolingians
 
 840.6.20 = {
-	holder = 90104 #Charles 'the Bald'
+	holder = 90104 # Charles 'the Bald'
 }
 
 867.1.1 = {
@@ -39,7 +39,7 @@
 }
 
 879.1.1 = {
-	holder = 90155 #Carloman
+	holder = 90155 # Carloman
 }
 
 #Bosonids
@@ -78,7 +78,7 @@
 }
 
 1004.1.1 = { #Annexed to France
-#	liege = "k_france"
+#	liege = k_france
 #	holder = 206 #Robert II of France
 	holder = 0
 	liege = 0
@@ -89,7 +89,7 @@
 #}
 
 1032.1.1 = {
-	liege="k_france"
+	liege = k_france
 	holder = 210 #Robert I le Vieux
 	#law = agnatic_succession
 	#law = succ_primogeniture

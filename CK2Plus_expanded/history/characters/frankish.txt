@@ -1988,7 +1988,7 @@
 
 150951 = {
 	name = "Lothaire"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 5
 	intrigue = 7
@@ -2009,7 +2009,7 @@
 151301 = {
 	name = "Rotrude"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -9860,7 +9860,7 @@
 
 30227 = {
 	name = "Lothaire" # Lothair I
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -9882,7 +9882,7 @@
 
 30228 = {
 	name = "Louis"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -11326,7 +11326,7 @@
 359 = {
 	name = "Adele"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 5
 	intrigue = 7
@@ -13751,7 +13751,7 @@
 
 40430 = {
 	name = "Archambaud"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 144980
@@ -13767,7 +13767,7 @@
 	name = "Adèle"
 	# AKA: Adele
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 8
 	diplomacy = 6
 	intrigue = 7
@@ -13785,7 +13785,7 @@
 
 40432 = {
 	name = "Eudes"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 4
 	intrigue = 4
@@ -13807,7 +13807,7 @@
 
 40434 = {
 	name = "Eudes"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 6
 	intrigue = 5
@@ -13828,7 +13828,7 @@
 
 40436 = {
 	name = "Pierre"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 8
 	intrigue = 7
@@ -13849,7 +13849,7 @@
 
 40438 = {
 	name = "Renaud"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 8
 	diplomacy = 6
 	intrigue = 7
@@ -13870,7 +13870,7 @@
 	name = "Adélaïde"
 	# AKA: Adelaide
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 6
 	intrigue = 6
@@ -14202,7 +14202,7 @@
 
 40994 = {
 	name = "Charles" # Charles 'the Younger'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 6
 	intrigue = 6
@@ -14227,7 +14227,7 @@
 411 = {
 	name = "Luitgard"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 5
 	intrigue = 7
@@ -14248,7 +14248,7 @@
 
 412 = {
 	name = "Adalbert"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 7
 	intrigue = 4
@@ -14422,7 +14422,7 @@
 413 = {
 	name = "Adelais"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 8
 	diplomacy = 7
 	intrigue = 6
@@ -14442,7 +14442,7 @@
 
 414 = {
 	name = "Herbert"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 8
@@ -14484,7 +14484,7 @@
 
 416 = {
 	name = "Eudes"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 4
 	intrigue = 6
@@ -14556,7 +14556,7 @@
 	name = "Herbert"
 	dna = comnsylfabj
 	properties = eexeik000000000000
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 4
 	intrigue = 4
@@ -14585,7 +14585,7 @@
 	name = "Adèle"
 	# AKA: Adele
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 7
 	intrigue = 4
@@ -14607,7 +14607,7 @@
 
 42020 = {
 	name = "Charles" # Charles 'the Child'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -14627,7 +14627,7 @@
 
 42021 = {
 	name = "Carloman"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -21693,7 +21693,7 @@
 
 6394 = {
 	name = "Carloman" # Pepin 'Carloman'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 6
 	intrigue = 6
@@ -21715,7 +21715,7 @@
 
 6396 = {
 	name = "Bernard"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 4
 	intrigue = 2
@@ -21739,9 +21739,8 @@
 }
 
 6398 = {
-	name = "Pepin"
-	# AKA: Pepin 'Quentin'
-	dynasty = 25061
+	name = "Pepin" # Pepin II 'Quentin'
+	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 5
 	intrigue = 6
@@ -21763,7 +21762,7 @@
 
 6400 = {
 	name = "Herbert"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 8
 	intrigue = 8
@@ -21787,7 +21786,7 @@
 6401 = {
 	name = "Beatrix"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 5
 	intrigue = 7
@@ -21807,7 +21806,7 @@
 
 6402 = {
 	name = "Herbert"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 4
 	intrigue = 8
@@ -21830,7 +21829,7 @@
 6403 = {
 	name = "Kunigunde"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 8
 	diplomacy = 8
 	intrigue = 5
@@ -21850,7 +21849,7 @@
 
 6404 = {
 	name = "Robert"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 6
 	intrigue = 4
@@ -21875,7 +21874,7 @@
 
 6406 = {
 	name = "Luidorf"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 4
 	intrigue = 5
@@ -21897,7 +21896,7 @@
 
 6408 = {
 	name = "Guy"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 7
 	intrigue = 4
@@ -21940,7 +21939,7 @@
 
 6410 = {
 	name = "Eudes"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 4
 	intrigue = 7
@@ -21963,7 +21962,7 @@
 	name = "Aelis"
 	# AKA: aelis
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 8
 	intrigue = 4
@@ -22010,7 +22009,7 @@
 6441 = {
 	name = "Adelaide"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 6
 	intrigue = 5
@@ -25559,7 +25558,7 @@
 7814 = {
 	name = "Ermengarde"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 6
 	intrigue = 7
@@ -25603,7 +25602,7 @@
 
 7902 = {
 	name = "Eudes"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -25623,7 +25622,7 @@
 7907 = {
 	name = "Gisela"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 6
 	intrigue = 5
@@ -25644,7 +25643,7 @@
 7920 = {
 	name = "Bertha"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 6
 	intrigue = 5
@@ -25739,7 +25738,7 @@
 	name = "Mathilde"
 	# AKA: Matilda
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -25827,7 +25826,7 @@
 7982 = {
 	name = "Irmengarde"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 6
 	intrigue = 5
@@ -25948,7 +25947,7 @@
 7997 = {
 	name = "Adelaide"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 8
 	diplomacy = 7
 	intrigue = 6
@@ -25969,7 +25968,7 @@
 7999 = {
 	name = "Gerberga"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -26737,7 +26736,7 @@
 90095 = {
 	name = "Louis"
 	# AKA: Louis 'le Pieux'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 5
 	intrigue = 7
@@ -26764,7 +26763,7 @@
 
 90096 = {
 	name = "Pepin"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -26784,7 +26783,7 @@
 90097 = {
 	name = "Pepin"
 	# AKA: Pepin 'le Jeune'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 5
 	intrigue = 3
@@ -26805,7 +26804,7 @@
 
 90098 = {
 	name = "Charles"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 6
 	intrigue = 5
@@ -26825,7 +26824,7 @@
 90102 = {
 	name = "Hugues"
 	# AKA: Hugh of Alsace
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 6
 	intrigue = 5
@@ -26849,7 +26848,7 @@
 
 90103 = {
 	name = "Charles"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 6
 	intrigue = 4
@@ -26869,7 +26868,7 @@
 
 90104 = {
 	name = "Charles" # Charles II 'the Bald'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	dna = cjlcjygaaar
 	properties = an0abb000000
 	martial = 6
@@ -26901,7 +26900,7 @@
 90110 = {
 	name = "Judith"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90104
@@ -26917,7 +26916,7 @@
 90111 = {
 	name = "Charles"
 	# AKA: Charles 'le Simple'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -26941,7 +26940,7 @@
 90112 = {
 	name = "Ermentrude"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90123 # Louis le Bègue
@@ -26957,7 +26956,7 @@
 90113 = {
 	name = "Cunigunde"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -27102,7 +27101,7 @@
 90120 = {
 	name = "Louis"
 	# AKA: Louis 'Transmarinus'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -27122,7 +27121,7 @@
 
 90121 = {
 	name = "Charles"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -27145,7 +27144,7 @@
 90122 = {
 	name = "Ermengarde"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -27164,7 +27163,7 @@
 
 90123 = {
 	name = "Louis" # Louis 'the Stammerer'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	trait = grey_eminence
@@ -27195,7 +27194,7 @@
 
 90125 = {
 	name = "Lothaire"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 5
 	intrigue = 6
@@ -27218,7 +27217,7 @@
 90126 = {
 	name = "Louis"
 	# AKA: Louis 'le Faineant'
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -27344,7 +27343,7 @@
 
 90154 = {
 	name = "Louis" # Louis III
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90123 # Louis le Bègue
@@ -27359,7 +27358,7 @@
 
 90155 = {
 	name = "Carloman" # Carloman II
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90123 # Louis le Bègue
@@ -36470,7 +36469,7 @@
 
 91210 = {
 	name = "Heribert" #Heribert V le Jeune
-	dynasty = 25061 #Vermandois
+	dynasty = 25061 # Karling #Vermandois
 	religion = catholic
 	culture = frankish
 	father = 6404 #Robert de Vermandois
@@ -36485,7 +36484,7 @@
 
 91211 = {
 	name = "Étienne" #Étienne I de Troyes
-	dynasty = 25061 #Vermandois
+	dynasty = 25061 # Karling #Vermandois
 	religion = catholic
 	culture = frankish
 	father = 91210 #Herbert IV de Vermandois
@@ -37752,7 +37751,7 @@
 
 71907 = {
 	name = "Adelaide"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	female = yes
 	religion = catholic
 	culture = frankish
@@ -40462,7 +40461,7 @@
 
 144975 = {
 	name = "Arnoul"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90095
@@ -40489,7 +40488,7 @@
 
 144977 = {
 	name = "Hugues"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 6402
@@ -40504,7 +40503,7 @@
 
 144978 = {
 	name = "Arnulf"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	trait = bastard
@@ -40519,7 +40518,7 @@
 
 144980 = {
 	name = "Pepin"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 144981
@@ -40533,7 +40532,7 @@
 
 144981 = {
 	name = "Pepin"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 6398
@@ -40606,7 +40605,7 @@
 
 144998 = {
 	name = Lothaire # Lothair II
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	martial = 6
 	diplomacy = 4
 	intrigue = 4
@@ -42910,7 +42909,7 @@
 
 167005 = {
 	name = "Eudes"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90125
@@ -44087,7 +44086,7 @@
 167754 = {
 	name = "Ida"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 144999
@@ -44101,7 +44100,7 @@
 
 167764 = {
 	name = "Aeda"
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	female = yes
 	religion = catholic
 	culture = frankish
@@ -44552,7 +44551,7 @@
 168024 = {
 	name = "Rotrud"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 6392
@@ -45116,7 +45115,7 @@
 168080 = {
 	name = "Alpais"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	trait = bastard
@@ -45393,7 +45392,7 @@
 163170 = {
 	name = "Cunegundis"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 6398
@@ -45409,7 +45408,7 @@
 163171 = {
 	name = "Adelheid"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 6398
@@ -45425,7 +45424,7 @@
 163172 = {
 	name = "Gisele"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 30228
@@ -45441,7 +45440,7 @@
 163174 = {
 	name = "Irmgard"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	trait = bastard
@@ -45458,7 +45457,7 @@
 163175 = {
 	name = "Ermentrude"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90104
@@ -45474,7 +45473,7 @@
 163176 = {
 	name = "Hildegard"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90104
@@ -45490,7 +45489,7 @@
 163177 = {
 	name = "Gisele"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90104
@@ -45506,7 +45505,7 @@
 163178 = {
 	name = "Rotryde"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	religion = catholic
 	culture = frankish
 	father = 90104
@@ -45961,7 +45960,7 @@
 168315 = {
 	name = "Gisela"
 	female = yes
-	dynasty = 25061
+	dynasty = 25061 # Karling
 	trait = bastard
 	religion = catholic
 	culture = frankish

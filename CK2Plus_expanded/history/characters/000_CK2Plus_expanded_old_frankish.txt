@@ -26,3 +26,16 @@
 		death = yes
 	}
 }
+
+1000250002 = {
+	name = "Wichman" # (Italian: Wicheramo) Frankish nobleman, travelled with Charlemagne into Italy and purchased land
+#	dynasty = ?
+	religion = catholic
+	culture = old_frankish
+	770.1.1 = {
+		birth = yes
+	}
+	812.1.1 = {
+		death = yes
+	}
+}
