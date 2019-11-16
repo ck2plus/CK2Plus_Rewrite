@@ -1,58 +1,58 @@
-# Valid ids 1000016001 - 1000017000
+# Valid IDs: 1000026000 - 1000026999
 
-1000016001 = {
+1000026000 = {
 	name="Somavamsi"
 	culture = bihari
 }
-1000016002 = {
+1000026001 = {
 	name="Bhanja"
 	culture = bihari
 }
-1000016003 = {
+1000026002 = {
 	name="Sulki"
 	culture = bihari
 }
-1000016004 = {
+1000026003 = {
 	name="Tunga"
 	culture = bihari
 }
-1000016005 = {
+1000026004 = {
 	name="Nandobhava"
 	culture = bihari
 }
-1000016006 = {
+1000026005 = {
 	name="Gajapati"
 	culture = bihari
 }
-1000016007 = {
+1000026006 = {
 	name="Mayura"
 	culture = bihari
 }
-1000016008 = {
+1000026007 = {
 	name="Shailobhava"
 	culture = bihari
 }
-1000016009 = {
+1000026008 = {
 	name="Kesari"
 	culture = bihari
 }
-1000016010 = {
+1000026009 = {
 	name="Nagavamsi"
 	culture = bihari
 }
-1000016011 = {
+1000026010 = {
 	name="Deva"
 	culture = bihari
 }
-1000016012 = {
+1000026011 = {
 	name="Rajrappa"
 	culture = bihari
 }
-1000016013 = {
+1000026012 = {
 	name="Pattikara"
 	culture = bihari
 }
-1000016014 = {
+1000026013 = {
 	name="Chero"
 	culture = bihari
 }

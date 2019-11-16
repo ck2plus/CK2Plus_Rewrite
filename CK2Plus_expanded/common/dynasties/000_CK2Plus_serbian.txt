@@ -1,5 +1,5 @@
-# Valid ids 1000096001 - 1000097000
-1000096001 = {
+# Valid IDs: 1000150000 - 1000150999
+1000150000 = {
 	name = "Nobrevic"
 	culture = serbian
 }

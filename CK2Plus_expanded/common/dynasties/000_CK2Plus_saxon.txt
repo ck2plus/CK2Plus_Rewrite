@@ -1,37 +1,37 @@
-# Valid ids 1000093001 - 1000094000
-1000093001 = {
+# Valid IDs: 1000147000 - 1000147999
+1000147000 = {
 	name = "of Chester"
 	culture = saxon
 }
-1000093002 = {
+1000147001 = {
 	name = "Rota"
 	culture = saxon
 }
-1000093003 = {
+1000147002 = {
 	name = "Cerdicingas"
 	culture = saxon
 }
-1000093004 = {
+1000147003 = {
 	name = "of Defnascir"
 	culture = saxon
 }
-1000093005 = {
+1000147004 = {
 	name = "Halfkyng"
 	culture = saxon
 }
-1000093006 = {
+1000147005 = {
 	name = "Of East Saexe"
 	culture = saxon
 }
-1000093007 = {
+1000147006 = {
 	name = "of Gewisse"
 	culture = saxon
 }
-1000093008 = {
+1000147007 = {
 	name = "of Leicester"
 	culture = saxon
 }
-1000093009 = {
+1000147008 = {
 	name = "of Glastonbury"
 	culture = saxon
 }

@@ -1,5 +1,5 @@
-# Valid ids 1000087001 - 1000088000
-1000087001 = {
+# Valid IDs: 1000135000 - 1000135999
+1000135000 = {
 	name = "Kantakouzenos"
 	culture = pontic_greek
 	religion = orthodox
@@ -15,12 +15,12 @@
 		}
 	}
 }
-1000087002 = {
+1000135001 = {
 	name = "Kilikos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087003 = {
+1000135002 = {
 	name = "Palaiologos"
 	culture = pontic_greek
 	religion = orthodox
@@ -30,111 +30,111 @@
 	}
 	used_for_random = no
 }
-1000087004 = {
+1000135003 = {
 	name = "Macrodoukas"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087005 = {
+1000135004 = {
 	name = "Aineidas"
 	culture = pontic_greek
 }
-1000087006 = {
+1000135005 = {
 	name = "Komnenos"
 	culture = pontic_greek
 }
-1000087007 = {
+1000135006 = {
 	name = "Matteski"
 	culture = pontic_greek
 	religion = orthodox
 	used_for_random = no
 }
-1000087008 = {
+1000135007 = {
 	name = "Kalavros"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087009 = {
+1000135008 = {
 	name = "Sikelos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087010 = {
+1000135009 = {
 	name = "Vonos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087011 = {
+1000135010 = {
 	name = "Mystakon"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087012 = {
+1000135011 = {
 	name = "Pterotos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087013 = {
+1000135012 = {
 	name = "Monotes"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087014 = {
+1000135013 = {
 	name = "Makroleon"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087015 = {
+1000135014 = {
 	name = "Kalopragmon"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087016 = {
+1000135015 = {
 	name = "Karphitzes"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087017 = {
+1000135016 = {
 	name = "Trichares"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087018 = {
+1000135017 = {
 	name = "Kokkalos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087019 = {
+1000135018 = {
 	name = "Kritharatos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087020 = {
+1000135019 = {
 	name = "Kretikos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087021 = {
+1000135020 = {
 	name = "Tourkos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087022 = {
+1000135021 = {
 	name = "Symvatikes"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087023 = {
+1000135022 = {
 	name = "Glykomachaires"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087024 = {
+1000135023 = {
 	name = "Chrysochoos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087025 = {
+1000135024 = {
 	name = "Neapolites"
 	culture = pontic_greek
 	religion = "iconoclast"
@@ -143,7 +143,7 @@
 		religion = "catholic"
 	}
 }
-1000087026 = {
+1000135025 = {
 	name = "Kameniatis"
 	culture = pontic_greek
 	religion = orthodox
@@ -152,17 +152,17 @@
 		religion = orthodox
 	}
 }
-1000087027 = {
+1000135026 = {
 	name = "Chameas"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087028 = {
+1000135027 = {
 	name = "Demetrianos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087029 = {
+1000135028 = {
 	name = "Laloudios"
 	culture = pontic_greek
 	religion = "iconoclast"
@@ -171,22 +171,22 @@
 		religion = orthodox
 	}
 }
-1000087030 = {
+1000135029 = {
 	name = "Stamopatas"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087031 = {
+1000135030 = {
 	name = "Peloponnesites"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087032 = {
+1000135031 = {
 	name = "Klados"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087033 = {
+1000135032 = {
 	name = "Avastaktos"
 	culture = pontic_greek
 	religion = orthodox
@@ -195,12 +195,12 @@
 		religion = orthodox
 	}
 }
-1000087034 = {
+1000135033 = {
 	name = "Lardotyros"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087035 = {
+1000135034 = {
 	name = "Kyritzios"
 	culture = pontic_greek
 	religion = orthodox
@@ -209,17 +209,17 @@
 		religion = orthodox
 	}
 }
-1000087036 = {
+1000135035 = {
 	name = "Kolovos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087037 = {
+1000135036 = {
 	name = "Podopagouros"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087038 = {
+1000135037 = {
 	name = "Touvakes"
 	culture = pontic_greek
 	religion = "iconoclast"
@@ -228,12 +228,12 @@
 		religion = orthodox
 	}
 }
-1000087039 = {
+1000135038 = {
 	name = "Peteinakes"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087040 = {
+1000135039 = {
 	name = "Ooryphas"
 	culture = pontic_greek
 	religion = orthodox
@@ -242,22 +242,22 @@
 		religion = orthodox
 	}
 }
-1000087041 = {
+1000135040 = {
 	name = "Myxares"
 	culture = pontic_greek
 	religion = "iconoclast"
 }
-1000087042 = {
+1000135041 = {
 	name = "Toxias"
 	culture = pontic_greek
 	religion = "iconoclast"
 }
-1000087043 = {
+1000135042 = {
 	name = "Bardouchos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087044 = {
+1000135043 = {
 	name = "Boilas"
 	culture = pontic_greek
 	religion = orthodox
@@ -266,17 +266,17 @@
 		religion = orthodox
 	}
 }
-1000087045 = {
+1000135044 = {
 	name = "Skepides"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087046 = {
+1000135045 = {
 	name = "Mamoulianos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087047 = {
+1000135046 = {
 	name = "Katakylas"
 	culture = pontic_greek
 	religion = orthodox
@@ -285,77 +285,77 @@
 		religion = orthodox
 	}
 }
-1000087048 = {
+1000135047 = {
 	name = "Drakokephalos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087049 = {
+1000135048 = {
 	name = "Rentakes"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087050 = {
+1000135049 = {
 	name = "Exarchos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087051 = {
+1000135050 = {
 	name = "Skepastos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087052 = {
+1000135051 = {
 	name = "Kyminas"
 	culture = pontic_greek
 	religion = "iconoclast"
 }
-1000087053 = {
+1000135052 = {
 	name = "Krasas"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087054 = {
+1000135053 = {
 	name = "Konstantinakes"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087055 = {
+1000135054 = {
 	name = "Mouzelis"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087056 = {
+1000135055 = {
 	name = "Souanites"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087057 = {
+1000135056 = {
 	name = "Karteroukas"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087058 = {
+1000135057 = {
 	name = "Machairas"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087059 = {
+1000135058 = {
 	name = "Koutzodaktylos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087060 = {
+1000135059 = {
 	name = "Kanakaris"
 	culture = pontic_greek
 	religion = "catholic"
 }
-1000087061 = {
+1000135060 = {
 	name = "Vamvaloudes"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087062 = {
+1000135061 = {
 	name = "Leontares"
 	culture = pontic_greek
 	religion = orthodox
@@ -364,12 +364,12 @@
 		religion = orthodox
 	}
 }
-1000087063 = {
+1000135062 = {
 	name = "Klokas"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087064 = {
+1000135063 = {
 	name = "Axiotes"
 	culture = pontic_greek
 	religion = orthodox
@@ -378,17 +378,17 @@
 		religion = orthodox
 	}
 }
-1000087065 = {
+1000135064 = {
 	name = "Chrysouchos"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087066 = {
+1000135065 = {
 	name = "Pyrrogenes"
 	culture = pontic_greek
 	religion = orthodox
 }
-1000087067 = {
+1000135066 = {
 	name = "Kophinas"
 	culture = pontic_greek
 	religion = orthodox

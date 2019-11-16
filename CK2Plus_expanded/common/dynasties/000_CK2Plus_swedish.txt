@@ -1,53 +1,53 @@
-# Valid ids 1000105001 - 1000106000
-1000105001 = {
+# Valid IDs: 1000168000 - 1000168999
+1000168000 = {
 	name = "Tillbakaseende Ulv"
 	culture = swedish
 }
-1000105002 = {
+1000168001 = {
 	name = "Hand"
 	culture = swedish
 }
-1000105003 = {
+1000168002 = {
 	name = "Uggla"
 	culture = swedish
 }
-1000105004 = {
+1000168003 = {
 	name = "Gyllenstierna"
 	culture = swedish
 }
-1000105005 = {
+1000168004 = {
 	name = "Häst"
 	culture = swedish
 }
-1000105006 = {
+1000168005 = {
 	name = "Sabelskjöld"
 	culture = swedish
 }
-1000105007 = {
+1000168006 = {
 	name = "Gumsehuvud"
 	culture = swedish
 }
-1000105008 = {
+1000168007 = {
 	name = "Barun"
 	culture = swedish
 }
-1000105009 = {
+1000168008 = {
 	name = "Forstena"
 	culture = swedish
 }
-1000105010 = {
+1000168009 = {
 	name = "Sandbro"
 	culture = swedish
 }
-1000105011 = {
+1000168010 = {
 	name = "Ama"
 	culture = swedish
 }
-1000105012 = {
+1000168011 = {
 	name = "Örnfot"
 	culture = swedish
 }
-1000105013 = {
+1000168012 = {
 	name = "Anward"
 	culture = swedish
 }

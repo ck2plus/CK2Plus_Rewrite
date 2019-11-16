@@ -1,73 +1,73 @@
-# Valid ids 1000104001 - 1000105000
-1000104001 = {
+# Valid IDs: 1000167000 - 1000167999
+1000167000 = {
 	name = "Hunfriding" #aka Burcharding or Bouchardid
 	culture = swabian
 }
-1000104002 = {
+1000167001 = {
 	name = "von Dettingen"
 	culture = swabian
 }
-1000104003 = {
+1000167002 = {
 	name = "von Rothenburg"
 	culture = swabian
 }
-1000104004 = {
+1000167003 = {
 	name = "Bodrich"
 	culture = swabian
 }
-1000104005 = {
+1000167004 = {
 	name = "von Walbeck"
 	culture = swabian
 }
-1000104006 = {
+1000167005 = {
 	name = "von Erbach"
 	culture = swabian
 }
-1000104007 = {
+1000167006 = {
 	name = "von Rikdag"
 	culture = swabian
 }
-1000104008 = {
+1000167007 = {
 	name = "Ardennes"
 	culture = swabian
 }
-1000104009 = {
+1000167008 = {
 	name = "von Günzburg"
 	culture = swabian
 }
-1000104010 = {
+1000167009 = {
 	name = "von Donauwörth"
 	culture = swabian
 }
-1000104011 = {
+1000167010 = {
 	name = "von Sonthofen"
 	culture = swabian
 }
-1000104012 = {
+1000167011 = {
 	name = "von Wertingen"
 	culture = swabian
 }
-1000104013 = {
+1000167012 = {
 	name = "von Unterallgäu"
 	culture = swabian
 }
-1000104014 = {
+1000167013 = {
 	name = "von Bodensee"
 	culture = swabian
 }
-1000104015 = {
+1000167014 = {
 	name = "von Augsburg"
 	culture = swabian
 }
-1000104016 = {
+1000167015 = {
 	name = "Abeln"
 	culture = swabian
 }
-1000104017 = {
+1000167016 = {
 	name = "Adlersflügel"
 	culture = swabian
 }
-1000104018 = {
+1000167017 = {
 	name = "Bocker"
 	culture = swabian
 }

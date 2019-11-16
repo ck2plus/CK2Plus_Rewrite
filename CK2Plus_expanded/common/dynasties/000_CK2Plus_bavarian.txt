@@ -1,433 +1,433 @@
-# Valid ids 1000013001 - 1000014000
-1000013001 = {
+# Valid IDs: 1000022000 - 1000022999
+1000022000 = {
 	name = "von Dettingen"
 	culture = bavarian
 }
-1000013002 = {
+1000022001 = {
 	name = "von Rothenburg"
 	culture = bavarian
 }
-1000013003 = {
+1000022002 = {
 	name = "Bodrich"
 	culture = bavarian
 }
-1000013004 = {
+1000022003 = {
 	name = "von Walbeck"
 	culture = bavarian
 }
-1000013005 = {
+1000022004 = {
 	name = "von Erbach"
 	culture = bavarian
 }
-1000013006 = {
+1000022005 = {
 	name = "von Rikdag"
 	culture = bavarian
 }
-1000013007 = {
+1000022006 = {
 	name = "Ardennes"
 	culture = bavarian
 }
-1000013008 = {
+1000022007 = {
 	name = "Abensberg"
 	culture = bavarian
 }
-1000013009 = {
+1000022008 = {
 	name = "Adelshausen"
 	culture = bavarian
 }
-1000013010 = {
+1000022009 = {
 	name = "Arnolt"
 	culture = bavarian
 }
-1000013011 = {
+1000022010 = {
 	name = "Asch"
 	culture = bavarian
 }
-1000013012 = {
+1000022011 = {
 	name = "Andechs"
 	culture = bavarian
 }
-1000013013 = {
+1000022012 = {
 	name = "Aurach"
 	culture = bavarian
 }
-1000013014 = {
+1000022013 = {
 	name = "Aurberg"
 	culture = bavarian
 }
-1000013015 = {
+1000022014 = {
 	name = "Amsheim"
 	culture = bavarian
 }
-1000013016 = {
+1000022015 = {
 	name = "Cassel"
 	culture = bavarian
 }
-1000013017 = {
+1000022016 = {
 	name = "Dumperg"
 	culture = bavarian
 }
-1000013018 = {
+1000022017 = {
 	name = "Dachsperg"
 	culture = bavarian
 }
-1000013019 = {
+1000022018 = {
 	name = "Cammer"
 	culture = bavarian
 }
-1000013020 = {
+1000022019 = {
 	name = "Closen"
 	culture = bavarian
 }
-1000013021 = {
+1000022020 = {
 	name = "Dortzer"
 	culture = bavarian
 }
-1000013022 = {
+1000022021 = {
 	name = "Doneckh"
 	culture = bavarian
 }
-1000013023 = {
+1000022022 = {
 	name = "D�chtel"
 	culture = bavarian
 }
-1000013024 = {
+1000022023 = {
 	name = "Dabertzhofen"
 	culture = bavarian
 }
-1000013025 = {
+1000022024 = {
 	name = "Brandt"
 	culture = bavarian
 }
-1000013026 = {
+1000022025 = {
 	name = "Baymundt"
 	culture = bavarian
 }
-1000013027 = {
+1000022026 = {
 	name = "von Adelshausen"
 	culture = bavarian
 }
-1000013028 = {
+1000022027 = {
 	name = "B�lling"
 	culture = bavarian
 }
-1000013029 = {
+1000022028 = {
 	name = "Murhaimer"
 	culture = bavarian
 }
-1000013030 = {
+1000022029 = {
 	name = "Murach"
 	culture = bavarian
 }
-1000013031 = {
+1000022030 = {
 	name = "Medorff"
 	culture = bavarian
 }
-1000013032 = {
+1000022031 = {
 	name = "Messenbach"
 	culture = bavarian
 }
-1000013033 = {
+1000022032 = {
 	name = "Sexten"
 	culture = bavarian
 }
-1000013034 = {
+1000022033 = {
 	name = "Adelshofen"
 	culture = bavarian
 }
-1000013035 = {
+1000022034 = {
 	name = "Albrechtsheim"
 	culture = bavarian
 }
-1000013036 = {
+1000022035 = {
 	name = "Allerspach"
 	culture = bavarian
 }
-1000013037 = {
+1000022036 = {
 	name = "Alnbach"
 	culture = bavarian
 }
-1000013038 = {
+1000022037 = {
 	name = "Armansperg"
 	culture = bavarian
 }
-1000013039 = {
+1000022038 = {
 	name = "Baurenfreund"
 	culture = bavarian
 }
-1000013040 = {
+1000022039 = {
 	name = "Berchtoltzhofen"
 	culture = bavarian
 }
-1000013041 = {
+1000022040 = {
 	name = "Berwang"
 	culture = bavarian
 }
-1000013042 = {
+1000022041 = {
 	name = "Betzenstein"
 	culture = bavarian
 }
-1000013043 = {
+1000022042 = {
 	name = "Blankfels"
 	culture = bavarian
 }
-1000013044 = {
+1000022043 = {
 	name = "Seuss" # Easter Egg, but actually a real Bavarian name
 	culture = bavarian
 }
-1000013045 = {
+1000022044 = {
 	name = "Blittersdorf"
 	culture = bavarian
 }
-1000013046 = {
+1000022045 = {
 	name = "Braidenbach"
 	culture = bavarian
 }
-1000013047 = {
+1000022046 = {
 	name = "Breitenstein"
 	culture = bavarian
 }
-1000013048 = {
+1000022047 = {
 	name = "Breckendorf"
 	culture = bavarian
 }
-1000013049 = {
+1000022048 = {
 	name = "Breitenbuch"
 	culture = bavarian
 }
-1000013050 = {
+1000022049 = {
 	name = "Bülling"
 	culture = bavarian
 }
-1000013051 = {
+1000022050 = {
 	name = "Eschelbach"
 	culture = bavarian
 }
-1000013052 = {
+1000022051 = {
 	name = "Kassel"
 	culture = bavarian
 }
-1000013053 = {
+1000022052 = {
 	name = "Eubing"
 	culture = bavarian
 }
-1000013054 = {
+1000022053 = {
 	name = "Donnerstein"
 	culture = bavarian
 }
-1000013055 = {
+1000022054 = {
 	name = "Dreschwitz"
 	culture = bavarian
 }
-1000013056 = {
+1000022055 = {
 	name = "Düchtel"
 	culture = bavarian
 }
-1000013057 = {
+1000022056 = {
 	name = "Eberspach"
 	culture = bavarian
 }
-1000013058 = {
+1000022057 = {
 	name = "Edlweck"
 	culture = bavarian
 }
-1000013059 = {
+1000022058 = {
 	name = "Egk"
 	culture = bavarian
 }
-1000013060 = {
+1000022059 = {
 	name = "Egkher"
 	culture = bavarian
 }
-1000013061 = {
+1000022060 = {
 	name = "Ehrenbeck"
 	culture = bavarian
 }
-1000013062 = {
+1000022061 = {
 	name = "Elriching"
 	culture = bavarian
 }
-1000013063 = {
+1000022062 = {
 	name = "Elsenbeck"
 	culture = bavarian
 }
-1000013064 = {
+1000022063 = {
 	name = "Engelshofen"
 	culture = bavarian
 }
-1000013065 = {
+1000022064 = {
 	name = "Erlbach"
 	culture = bavarian
 }
-1000013066 = {
+1000022065 = {
 	name = "Eysen"
 	culture = bavarian
 }
-1000013067 = {
+1000022066 = {
 	name = "Eysenreich"
 	culture = bavarian
 }
-1000013068 = {
+1000022067 = {
 	name = "Falkenstein"
 	culture = bavarian
 }
-1000013069 = {
+1000022068 = {
 	name = "Flitzing"
 	culture = bavarian
 }
-1000013070 = {
+1000022069 = {
 	name = "Florian"
 	culture = bavarian
 }
-1000013071 = {
+1000022070 = {
 	name = "Floss"
 	culture = bavarian
 }
-1000013072 = {
+1000022071 = {
 	name = "Franckenreiter"
 	culture = bavarian
 }
-1000013073 = {
+1000022072 = {
 	name = "Franking"
 	culture = bavarian
 }
-1000013074 = {
+1000022073 = {
 	name = "Fraunberg"
 	culture = bavarian
 }
-1000013075 = {
+1000022074 = {
 	name = "Freising"
 	culture = bavarian
 }
-1000013076 = {
+1000022075 = {
 	name = "Freudenberg"
 	culture = bavarian
 }
-1000013077 = {
+1000022076 = {
 	name = "Freyberg"
 	culture = bavarian
 }
-1000013078 = {
+1000022077 = {
 	name = "Fronberg"
 	culture = bavarian
 }
-1000013079 = {
+1000022078 = {
 	name = "Fuchsstein"
 	culture = bavarian
 }
-1000013080 = {
+1000022079 = {
 	name = "Gabelkhoven"
 	culture = bavarian
 }
-1000013081 = {
+1000022080 = {
 	name = "Gasmer"
 	culture = bavarian
 }
-1000013082 = {
+1000022081 = {
 	name = "Gebeck"
 	culture = bavarian
 }
-1000013083 = {
+1000022082 = {
 	name = "Gibing"
 	culture = bavarian
 }
-1000013084 = {
+1000022083 = {
 	name = "Goldacker"
 	culture = bavarian
 }
-1000013085 = {
+1000022084 = {
 	name = "Göltling"
 	culture = bavarian
 }
-1000013086 = {
+1000022085 = {
 	name = "Gravenreuth"
 	culture = bavarian
 }
-1000013087 = {
+1000022086 = {
 	name = "Häckelöder"
 	culture = bavarian
 }
-1000013088 = {
+1000022087 = {
 	name = "Halder"
 	culture = bavarian
 }
-1000013089 = {
+1000022088 = {
 	name = "Haller"
 	culture = bavarian
 }
-1000013090 = {
+1000022089 = {
 	name = "Haslang"
 	culture = bavarian
 }
-1000013091 = {
+1000022090 = {
 	name = "Hautzenberg"
 	culture = bavarian
 }
-1000013092 = {
+1000022091 = {
 	name = "Haydenreich"
 	culture = bavarian
 }
-1000013093 = {
+1000022092 = {
 	name = "Hegnenberg"
 	culture = bavarian
 }
-1000013094 = {
+1000022093 = {
 	name = "Heinberg"
 	culture = bavarian
 }
-1000013095 = {
+1000022094 = {
 	name = "Hertzenkraft"
 	culture = bavarian
 }
-1000013096 = {
+1000022095 = {
 	name = "Hohenfels"
 	culture = bavarian
 }
-1000013097 = {
+1000022096 = {
 	name = "Ingelsteter"
 	culture = bavarian
 }
-1000013098 = {
+1000022097 = {
 	name = "Kärgl"
 	culture = bavarian
 }
-1000013099 = {
+1000022098 = {
 	name = "Kemnat"
 	culture = bavarian
 }
-1000013100 = {
+1000022099 = {
 	name = "Kienburg"
 	culture = bavarian
 }
-1000013101 = {
+1000022100 = {
 	name = "Klammenstein"
 	culture = bavarian
 }
-1000013102 = {
+1000022101 = {
 	name = "Klugheim"
 	culture = bavarian
 }
-1000013103 = {
+1000022102 = {
 	name = "Königsfeld"
 	culture = bavarian
 }
-1000013104 = {
+1000022103 = {
 	name = "Krafthofen"
 	culture = bavarian
 }
-1000013105 = {
+1000022104 = {
 	name = "Kranichsperg"
 	culture = bavarian
 }
-1000013106 = {
+1000022105 = {
 	name = "Kreit"
 	culture = bavarian
 }
-1000013107 = {
+1000022106 = {
 	name = "Kürmreuth"
 	culture = bavarian
 }
-1000013108 = {
+1000022107 = {
 	name = "Kuttenau"
 	culture = bavarian
 }

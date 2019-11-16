@@ -1,41 +1,41 @@
-# Valid ids 1000099001 - 1000100000
-1000099001 = {
+# Valid IDs: 1000153000 - 1000153999
+1000153000 = {
 	name = "al-Furat"
 	culture = sicilian_arabic
 }
-1000099002 = {
+1000153001 = {
 	name = "Aghlabid"
 	culture = sicilian_arabic
 }
-1000099003 = {
+1000153002 = {
 	name = "al-Khalisa"
 	culture = sicilian_arabic
 }
-1000099004 = {
+1000153003 = {
 	name = "al-Kasr"
 	culture = sicilian_arabic
 }
-1000099005 = {
+1000153004 = {
 	name = "al-Athir"
 	culture = sicilian_arabic
 }
-1000099006 = {
+1000153005 = {
 	name = "al-Akhal"
 	culture = sicilian_arabic
 }
-1000099007 = {
+1000153006 = {
 	name = "Ja'far"
 	culture = sicilian_arabic
 }
-1000099008 = {
+1000153007 = {
 	name = "mn Normandie"
 	culture = sicilian_arabic
 }
-1000099009 = {
+1000153008 = {
 	name = "mn Rum"
 	culture = sicilian_arabic
 }
-1000099010 = {
+1000153009 = {
 	name = "mn Pujî"
 	culture = sicilian_arabic
 }

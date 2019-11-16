@@ -1,33 +1,33 @@
-# Valid ids 1000067001 - 1000068000
-1000067001 = {
+# Valid IDs: 1000106000 - 1000106999
+1000106000 = {
 	name = "Sanhaja"
 	culture = maghreb_arabic
 }
-1000067002 = {
+1000106001 = {
 	name = "Zenata"
 	culture = maghreb_arabic
 }
-1000067003 = {
+1000106002 = {
 	name = "Siqillid"
 	culture = maghreb_arabic
 }
-1000067004 = {
+1000106003 = {
 	name = "Ameurid"
 	culture = maghreb_arabic
 }
-1000067005 = {
+1000106004 = {
 	name = "Sananid"
 	culture = maghreb_arabic
 }
-1000067006 = {
+1000106005 = {
 	name = "Ifranid"
 	culture = maghreb_arabic
 }
-1000067007 = {
+1000106006 = {
 	name = "Baghawatid"
 	culture = maghreb_arabic
 }
-1000067008 = {
+1000106007 = {
 	name = "Canarid"
 	culture = maghreb_arabic
 }

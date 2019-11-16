@@ -1,15 +1,14 @@
-# Valid ids 1000080001 - 1000081000
-# Valid ids 1000191001 - 1000192000
+# Valid IDs: 1000124000 - 1000124999
 
-1000080001 = {
+1000124000 = {
 	name = "Zahirid"
 	culture = oghuz
 }
-1000080002 = {
+1000124001 = {
 	name = "Burjid"
 	culture = oghuz
 }
-1000080003 = {
+1000124002 = {
 	name = "Bahrid"
 	culture = oghuz
 }

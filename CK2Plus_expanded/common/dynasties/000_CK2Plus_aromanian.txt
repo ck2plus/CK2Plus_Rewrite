@@ -1,69 +1,69 @@
-# Valid ids 1000005001 - 1000006000
-1000005001 = {
+# Valid IDs: 1000010000 - 1000010999
+1000010000 = {
 	name = "Gojdu"
 	culture = aromanian
 }
-1000005002 = {
+1000010001 = {
 	name = "Sinas"
 	culture = aromanian
 }
-1000005003 = {
+1000010002 = {
 	name = "Averoff"
 	culture = aromanian
 }
-1000005004 = {
+1000010003 = {
 	name = "Proeski"
 	culture = aromanian
 }
-1000005005 = {
+1000010004 = {
 	name = "Mocioni"
 	culture = aromanian
 }
-1000005006 = {
+1000010005 = {
 	name = "Gheorghe"
 	culture = aromanian
 }
-1000005007 = {
+1000010006 = {
 	name = "Hagi"
 	culture = aromanian
 }
-1000005008 = {
+1000010007 = {
 	name = "Mumu"
 	culture = aromanian
 }
-1000005009 = {
+1000010008 = {
 	name = "Djuvara"
 	culture = aromanian
 }
-1000005010 = {
+1000010009 = {
 	name = "Halep"
 	culture = aromanian
 }
-1000005011 = {
+1000010010 = {
 	name = "Guli"
 	culture = aromanian
 }
-1000005012 = {
+1000010011 = {
 	name = "Becali"
 	culture = aromanian
 }
-1000005013 = {
+1000010012 = {
 	name = "Bua"
 	culture = aromanian
 }
-1000005014 = {
+1000010013 = {
 	name = "Ghica"
 	culture = aromanian
 }
-1000005015 = {
+1000010014 = {
 	name = "Spata"
 	culture = aromanian
 }
-1000005016 = {
+1000010015 = {
 	name = "Balsic"
 	culture = aromanian
 }
-1000005017 = {
+1000010016 = {
 	name = "Buasic"
 	culture = aromanian
 }

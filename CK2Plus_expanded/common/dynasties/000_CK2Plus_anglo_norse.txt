@@ -1,57 +1,57 @@
-# Valid ids 1000002001 - 1000003000
-1000002001 = {
+# Valid IDs: 1000006000 - 1000006999
+1000006000 = {
 	name = "Ingvar"
 	culture = anglo_norse
 }
-1000002002 = {
+1000006001 = {
 	name = "Styrmir"
 	culture = anglo_norse
 }
-1000002003 = {
+1000006002 = {
 	name = "Hreidas"
 	culture = anglo_norse
 }
-1000002004 = {
+1000006003 = {
 	name = "Kaupmann"
 	culture = anglo_norse
 }
-1000002005 = {
+1000006004 = {
 	name = "Svenis"
 	culture = anglo_norse
 }
-1000002006 = {
+1000006005 = {
 	name = "Odd"
 	culture = anglo_norse
 }
-1000002007 = {
+1000006006 = {
 	name = "Kabbi"
 	culture = anglo_norse
 }
-1000002008 = {
+1000006007 = {
 	name = "Hromund"
 	culture = anglo_norse
 }
-1000002009 = {
+1000006008 = {
 	name = "Havard"
 	culture = anglo_norse
 }
-1000002010 = {
+1000006009 = {
 	name = "Orgumleidi"
 	culture = anglo_norse
 }
-1000002011 = {
+1000006010 = {
 	name = "Folkmar"
 	culture = anglo_norse
 }
-1000002012 = {
+1000006011 = {
 	name = "Gauk"
 	culture = anglo_norse
 }
-1000002013 = {
+1000006012 = {
 	name = "Atli"
 	culture = anglo_norse
 }
-1000002014 = {
+1000006013 = {
 	name = "Hegg"
 	culture = anglo_norse
 }

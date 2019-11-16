@@ -1,69 +1,69 @@
-# Valid ids       1000110001 - 1000
-1000110001 = {
+# Valid IDs: 1000180000 - 1000180999
+1000180000 = {
 	name = "Marwanid"
 	culture = tuareg
 }
-1000110002 = {
+1000180001 = {
 	name = "Issamid"
 	culture = tuareg
 }
-1000110003 = {
+1000180002 = {
 	name = "Ahmadid"
 	culture = tuareg
 }
-1000110004 = {
+1000180003 = {
 	name="Bagayid"
 	culture = tuareg
 }
-1000110005 = {
+1000180004 = {
 	name="Ixid"
 	culture = tuareg
 }
-1000110006 = {
+1000180005 = {
 	name="Xamidadid"
 	culture = tuareg
 }
-1000110007 = {
+1000180006 = {
 	name="Lukid"
 	culture = tuareg
 }
-1000110008 = {
+1000180007 = {
 	name="Ghanid"
 	culture = tuareg
 }
-1000110009 = {
+1000180008 = {
 	name="Mahtarid"
 	culture = tuareg
 }
-1000110010 = {
+1000180009 = {
 	name="Tijanid"
 	culture = tuareg
 }
-1000110011 = {
+1000180010 = {
 	name="Sifalid"
 	culture = tuareg
 }
-1000110012 = {
+1000180011 = {
 	name="Atissid"
 	culture = tuareg
 }
-1000110013 = {
+1000180012 = {
 	name="Mastanid"
 	culture = tuareg
 }
-1000110014 = {
+1000180013 = {
 	name="Jaffarid"
 	culture = tuareg
 }
-1000110015 = {
+1000180014 = {
 	name="Gallusid"
 	culture = tuareg
 }
-1000110016 = {
+1000180015 = {
 	name="Rahmanid"
 	culture = tuareg
 }
-1000110017 = {
+1000180016 = {
 	name="Buctuxid"
 	culture = tuareg
 }

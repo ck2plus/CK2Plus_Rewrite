@@ -1,73 +1,73 @@
-# Valid ids 1000092001 - 1000093000
-1000092001 = {
+# Valid IDs: 1000146000 - 1000146999
+1000146000 = {
 	name = "di Gallura"
 	culture = sardinian
 }
-1000092002 = {
+1000146001 = {
 	name = "di Gunale"
 	culture = sardinian
 }
-1000092003 = {
+1000146002 = {
 	name = "di Auria"
 	culture = sardinian
 }
-1000092004 = {
+1000146003 = {
 	name = "da Livornu"
 	culture = sardinian
 }
-1000092005 = {
+1000146004 = {
 	name = "de Nàpoli"
 	culture = sardinian
 }
-1000092006 = {
+1000146005 = {
 	name = "Mauro"
 	culture = sardinian
 }
-1000092007 = {
+1000146006 = {
 	name = "Zaccaria"
 	culture = sardinian
 }
-1000092008 = {
+1000146007 = {
 	name = "de Tharros"
 	culture = sardinian
 }
-1000092009 = {
+1000146008 = {
 	name = "Cappai"
 	culture = sardinian
 }
-1000092010 = {
+1000146009 = {
 	name = "Silviu"
 	culture = sardinian
 }
-1000092011 = {
+1000146010 = {
 	name = "di Turris"
 	culture = sardinian
 }
-1000092012 = {
+1000146011 = {
 	name = "di Rezu"
 	culture = sardinian
 }
-1000092013 = {
+1000146012 = {
 	name = "di Torinu"
 	culture = sardinian
 }
-1000092014 = {
+1000146013 = {
 	name = "Rossu"
 	culture = sardinian
 }
-1000092015 = {
+1000146014 = {
 	name = "Michellu"
 	culture = sardinian
 }
-1000092016 = {
+1000146015 = {
 	name = "Visconti"
 	culture = sardinian
 }
-1000092017 = {
+1000146016 = {
 	name = "de Aristanis"
 	culture = sardinian
 }
-1000092018 = {
+1000146017 = {
 	name = "di Savoja"
 	culture = sardinian
 }

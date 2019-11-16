@@ -1,137 +1,137 @@
-# Valid ids 1000037001 - 1000038000
-1000037001 = {
+# Valid IDs: 1000056000 - 1000056999
+1000056000 = {
 	name = "of Makuria"
 	culture = ethiopian
 }
-1000037002 = {
+1000056001 = {
 	name = "Makhzumi"
 	culture = ethiopian
 }
-1000037003 = {
+1000056002 = {
 	name = "Na'od"
 	culture = ethiopian
 }
-1000037004 = {
+1000056003 = {
 	name = "of Aksum"
 	culture = ethiopian
 }
-1000037005 = {
+1000056004 = {
 	name = "Wedam"
 	culture = ethiopian
 }
-1000037006 = {
+1000056005 = {
 	name = "Walashma"
 	culture = ethiopian
 }
-1000037007 = {
+1000056006 = {
 	name = "of Alodia"
 	culture = ethiopian
 }
-1000037008 = {
+1000056007 = {
 	name = "Ya'la"
 	culture = ethiopian
 }
-1000037009 = {
+1000056008 = {
 	name = "Bisharin"
 	culture = ethiopian
 }
-1000037010 = {
+1000056009 = {
 	name = "Sila"
 	culture = ethiopian
 }
-1000037011 = {
+1000056010 = {
 	name = "Mongo"
 	culture = ethiopian
 }
-1000037012 = {
+1000056011 = {
 	name = "Njalgulgule"
 	culture = ethiopian
 }
-1000037013 = {
+1000056012 = {
 	name = "Nyala"
 	culture = ethiopian
 }
-1000037014 = {
+1000056013 = {
 	name = "Beygo"
 	culture = ethiopian
 }
-1000037015 = {
+1000056014 = {
 	name = "Liguri"
 	culture = ethiopian
 }
-1000037016 = {
+1000056015 = {
 	name = "Shatt"
 	culture = ethiopian
 }
-1000037017 = {
+1000056016 = {
 	name = "Guhwah"
 	culture = ethiopian
 }
-1000037018 = {
+1000056017 = {
 	name = "Kondjara"
 	culture = ethiopian
 }
-1000037019 = {
+1000056018 = {
 	name = "Kadirgi"
 	culture = ethiopian
 }
-1000037020 = {
+1000056019 = {
 	name = "Maban"
 	culture = ethiopian
 }
-1000037021 = {
+1000056020 = {
 	name = "Fora"
 	culture = ethiopian
 }
-1000037022 = {
+1000056021 = {
 	name = "Dala"
 	culture = ethiopian
 }
-1000037023 = {
+1000056022 = {
 	name = "Lali"
 	culture = ethiopian
 }
-1000037024 = {
+1000056023 = {
 	name = "Agadawa"
 	culture = ethiopian
 }
-1000037025 = {
+1000056024 = {
 	name = "Alawa"
 	culture = ethiopian
 }
-1000037026 = {
+1000056025 = {
 	name = "Djanawa"
 	culture = ethiopian
 }
-1000037027 = {
+1000056026 = {
 	name = "Dokawa"
 	culture = ethiopian
 }
-1000037028 = {
+1000056027 = {
 	name = "Wakawa"
 	culture = ethiopian
 }
-1000037029 = {
+1000056028 = {
 	name = "Tabe"
 	culture = ethiopian
 }
-1000037030 = {
+1000056029 = {
 	name = "Atanabe"
 	culture = ethiopian
 }
-1000037031 = {
+1000056030 = {
 	name = "Kanabe"
 	culture = ethiopian
 }
-1000037032 = {
+1000056031 = {
 	name = "Sokotwa"
 	culture = ethiopian
 }
-1000037033 = {
+1000056032 = {
 	name = "Mutwa"
 	culture = ethiopian
 }
-1000037034 = {
+1000056033 = {
 	name = "Zadokid"
 	culture = ethiopian
 }

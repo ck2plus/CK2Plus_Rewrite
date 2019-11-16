@@ -1,81 +1,81 @@
-# Valid ids 1000048001 - 1000049000
-1000048001 = {
+# Valid IDs: 1000076000 - 1000076999
+1000076000 = {
 	name = "Ýsbirningar"
 	culture = icelandic
 }
-1000048002 = {
+1000076001 = {
 	name = "Oddaverjar"
 	culture = icelandic
 }
-1000048003 = {
+1000076002 = {
 	name = "Haukdælir"
 	culture = icelandic
 }
-1000048004 = {
+1000076003 = {
 	name = "Vatnsfirðingar"
 	culture = icelandic
 }
-1000048005 = {
+1000076004 = {
 	name = "Svínfellingar"
 	culture = icelandic
 }
-1000048006 = {
+1000076005 = {
 	name = "Sturlungar"
 	culture = icelandic
 }
-1000048007 = {
+1000076006 = {
 	name = "af Orkneyjar"
 	culture = icelandic
 }
-1000048008 = {
+1000076007 = {
 	name = "Wulfling"
 	culture = icelandic
 }
-1000048009 = {
+1000076008 = {
 	name = "Stórr"
 	culture = icelandic
 }
-1000048010 = {
+1000076009 = {
 	name = "Ulfling"
 	culture = icelandic
 }
-1000048011 = {
+1000076010 = {
 	name = "Smiðr"
 	culture = icelandic
 }
-1000048012 = {
+1000076011 = {
 	name = "Trolli"
 	culture = icelandic
 }
-1000048013 = {
+1000076012 = {
 	name = "Kven"
 	culture = icelandic
 }
-1000048014 = {
+1000076013 = {
 	name = "Hárde"
 	culture = icelandic
 }
-1000048015 = {
+1000076014 = {
 	name = "Ingólfing"
 	culture = icelandic
 }
-1000048016 = {
+1000076015 = {
 	name = "af Færeyjar"
 	culture = icelandic
 }
-1000048017 = {
+1000076016 = {
 	name = "Hrafn"
 	culture = icelandic
 }
-1000048018 = {
+1000076017 = {
 	name = "Austmaðr"
 	culture = icelandic
 }
-1000048019 = {
+1000076018 = {
 	name = "Súrr"
 	culture = icelandic
 }
-1000048020 = {
+1000076019 = {
 	name = "Þvari"
 	culture = icelandic
 }

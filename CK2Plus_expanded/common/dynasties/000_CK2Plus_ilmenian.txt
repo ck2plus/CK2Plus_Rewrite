@@ -1,81 +1,81 @@
-# Valid ids 1000049001 - 1000050000
-1000049001 = {
+# Valid IDs: 1000077000 - 1000077999
+1000077000 = {
 	name = "Balashov"
 	culture = ilmenian
 }
-1000049002 = {
+1000077001 = {
 	name = "Rumyanets"
 	culture = ilmenian
 }
-1000049003 = {
+1000077002 = {
 	name = "Matveev"
 	culture = ilmenian
 }
-1000049004 = {
+1000077003 = {
 	name = "Artamonovich"
 	culture = ilmenian
 }
-1000049005 = {
+1000077004 = {
 	name = "Osipovich"
 	culture = ilmenian
 }
-1000049006 = {
+1000077005 = {
 	name = "Ignatiev"
 	culture = ilmenian
 }
-1000049007 = {
+1000077006 = {
 	name = "Bestuzhev-Ryumin"
 	culture = ilmenian
 }
-1000049008 = {
+1000077007 = {
 	name = "Cherkassky"
 	culture = ilmenian
 }
-1000049009 = {
+1000077008 = {
 	name = "Chernyshev"
 	culture = ilmenian
 }
-1000049010 = {
+1000077009 = {
 	name = "Galitsyn"
 	culture = ilmenian
 }
-1000049011 = {
+1000077010 = {
 	name = "Dashkov"
 	culture = ilmenian
 }
-1000049012 = {
+1000077011 = {
 	name = "Demidov"
 	culture = ilmenian
 }
-1000049013 = {
+1000077012 = {
 	name = "Alexandrov"
 	culture = ilmenian
 }
-1000049014 = {
+1000077013 = {
 	name = "Sobakin"
 	culture = ilmenian
 }
-1000049015 = {
+1000077014 = {
 	name = "Glinsky"
 	culture = ilmenian
 }
-1000049016 = {
+1000077015 = {
 	name = "Morozov"
 	culture = ilmenian
 }
-1000049017 = {
+1000077016 = {
 	name = "Naryshkin"
 	culture = ilmenian
 }
-1000049018 = {
+1000077017 = {
 	name = "Poluektovich"
 	culture = ilmenian
 }
-1000049019 = {
+1000077018 = {
 	name = "Neplyuyev"
 	culture = ilmenian
 }
-1000049020 = {
+1000077019 = {
 	name = "Obolensky"
 	culture = ilmenian
 }

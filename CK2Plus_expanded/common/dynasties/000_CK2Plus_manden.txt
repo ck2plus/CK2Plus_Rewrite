@@ -1,89 +1,89 @@
-# Valid ids 1000069001 - 1000070000
-1000069001 = {
+# Valid IDs: 1000108000 - 1000108999
+1000108000 = {
 	name = "Khoto"
 	culture = manden
 }
-1000069002 = {
+1000108001 = {
 	name = "Djata"
 	culture = manden
 }
-1000069003 = {
+1000108002 = {
 	name = "Za"
 	culture = manden
 }
-1000069004 = {
+1000108003 = {
 	name = "Sonni"
 	culture = manden
 }
-1000069005 = {
+1000108004 = {
 	name = "Askiya"
 	culture = manden
 }
-1000069006 = {
+1000108005 = {
 	name = "Bory"
 	culture = manden
 }
-1000069007 = {
+1000108006 = {
 	name = "Denanke"
 	culture = manden
 }
-1000069008 = {
+1000108007 = {
 	name = "Laye"
 	culture = manden
 }
-1000069009 = {
+1000108008 = {
 	name = "Haye"
 	culture = manden
 }
-1000069010 = {
+1000108009 = {
 	name = "Kawkaw"
 	culture = manden
 }
-1000069011 = {
+1000108010 = {
 	name = "Askiya"
 	culture = manden
 }
-1000069012 = {
+1000108011 = {
 	name = "Khoto"
 	culture = manden
 }
-1000069013 = {
+1000108012 = {
 	name = "Za"
 	culture = manden
 }
-1000069014 = {
+1000108013 = {
 	name = "Denanke"
 	culture = manden
 }
-1000069015 = {
+1000108014 = {
 	name = "Haye"
 	culture = manden
 }
-1000069016 = {
+1000108015 = {
 	name = "Djata"
 	culture = manden
 }
-1000069017 = {
+1000108016 = {
 	name = "Sonni"
 	culture = manden
 }
-1000069018 = {
+1000108017 = {
 	name = "Bory"
 	culture = manden
 }
-1000069019 = {
+1000108018 = {
 	name = "Kawkaw"
 	culture = manden
 }
-1000069020 = {
+1000108019 = {
 	name = "Akba"
 	culture = manden
 }
-1000069021 = {
+1000108020 = {
 	name = "Cisse"
 	culture = manden
 }
-1000069022 = {
+1000108021 = {
 	name = "Bassi"
 	culture = manden
 }

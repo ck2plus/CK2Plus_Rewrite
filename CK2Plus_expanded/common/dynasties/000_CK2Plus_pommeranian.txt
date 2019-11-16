@@ -1,65 +1,65 @@
-# Valid ids 1000086001 - 1000087000
-1000086001 = {
+# Valid IDs: 1000134000 - 1000134999
+1000134000 = {
 	name = "Barnekow"
 	culture = pommeranian
 }
-1000086002 = {
+1000134001 = {
 	name = "Linstow"
 	culture = pommeranian
 }
-1000086003 = {
+1000134002 = {
 	name = "Vestenie"
 	culture = pommeranian
 }
-1000086004 = {
+1000134003 = {
 	name = "Normann"
 	culture = pommeranian
 }
-1000086005 = {
+1000134004 = {
 	name = "Santz"
 	culture = pommeranian
 }
-1000086006 = {
+1000134005 = {
 	name = "Steinwehr"
 	culture = pommeranian
 }
-1000086007 = {
+1000134006 = {
 	name = "Moltke"
 	culture = pommeranian
 }
-1000086008 = {
+1000134007 = {
 	name = "Pressentin"
 	culture = pommeranian
 }
-1000086009 = {
+1000134008 = {
 	name = "Knuth"
 	culture = pommeranian
 }
-1000086010 = {
+1000134009 = {
 	name = "Dodenberg"
 	culture = pommeranian
 }
-1000086011 = {
+1000134010 = {
 	name = "Göretze"
 	culture = pommeranian
 }
-1000086012 = {
+1000134011 = {
 	name = "Mule"
 	culture = pommeranian
 }
-1000086013 = {
+1000134012 = {
 	name = "Krakewitz"
 	culture = pommeranian
 }
-1000086014 = {
+1000134013 = {
 	name = "Velunzani"
 	culture = pommeranian
 }
-1000086015 = {
+1000134014 = {
 	name = "Licicaviki"
 	culture = pommeranian
 }
-1000086016 = {
+1000134015 = {
 	name = "Lutici"
 	culture = pommeranian
 }

@@ -1,77 +1,77 @@
-# Valid ids 1000108001 - 1000109000
-1000108001 = {
+# Valid IDs: 1000176000 - 1000176999
+1000176000 = {
 	name = "von Dettingen"
 	culture = teutonic
 }
-1000108002 = {
+1000176001 = {
 	name = "von Rothenburg"
 	culture = teutonic
 }
-1000108003 = {
+1000176002 = {
 	name = "Bodrich"
 	culture = teutonic
 }
-1000108004 = {
+1000176003 = {
 	name = "von Walbeck"
 	culture = teutonic
 }
-1000108005 = {
+1000176004 = {
 	name = "von Erbach"
 	culture = teutonic
 }
-1000108006 = {
+1000176005 = {
 	name = "von Rikdag"
 	culture = teutonic
 }
-1000108007 = {
+1000176006 = {
 	name = "Ardennes"
 	culture = teutonic
 }
-1000108008 = {
+1000176007 = {
 	name = "von Bismarck"
 	culture = teutonic
 }
-1000108009 = {
+1000176008 = {
 	name = "von Tresckow"
 	culture = teutonic
 }
-1000108010 = {
+1000176009 = {
 	name = "von Witzleben"
 	culture = teutonic
 }
-1000108011 = {
+1000176010 = {
 	name = "von Stauffenberg"
 	culture = teutonic
 }
-1000108012 = {
+1000176011 = {
 	name = "von Steinort"
 	culture = teutonic
 }
-1000108013 = {
+1000176012 = {
 	name = "von Lehndorff"
 	culture = teutonic
 }
-1000108014 = {
+1000176013 = {
 	name = "von Sangershausen"
 	culture = teutonic
 }
-1000108015 = {
+1000176014 = {
 	name = "von Osterna"
 	culture = teutonic
 }
-1000108016 = {
+1000176015 = {
 	name = "von Heldrungen"
 	culture = teutonic
 }
-1000108017 = {
+1000176016 = {
 	name = "von Schwanden"
 	culture = teutonic
 }
-1000108018 = {
+1000176017 = {
 	name = "von Feuchtwangen"
 	culture = teutonic
 }
-1000108019 = {
+1000176018 = {
 	name = "La Marck"
 	culture = teutonic
 }

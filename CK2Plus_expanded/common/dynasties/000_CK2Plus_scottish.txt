@@ -1,13 +1,13 @@
-# Valid ids       1000094001 095000
-1000094001 = {
+# Valid IDs: 1000148000 - 1000148999
+1000148000 = {
 	name = "Mac Ruardri"
 	culture = scottish
 }
-1000094002 = {
+1000148001 = {
 	name = "Dumnan"
 	culture = scottish
 }
-1000094003 = {
+1000148002 = {
 	name = "mac Cluian"
 	culture = scottish
 }

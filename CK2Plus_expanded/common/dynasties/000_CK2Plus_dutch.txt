@@ -1,13 +1,13 @@
-# Valid ids 1000033001 - 1000034000
-1000033001 = {
+# Valid IDs: 1000052000 - 1000052999
+1000052000 = {
 	name = "van Hoei"
 	culture = dutch
 }
-1000033002 = {
+1000052001 = {
 	name = "Elzas"
 	culture = dutch
 }
-1000033003 = {
+1000052002 = {
 	name = "van Veluwe"
 	culture = dutch
 }

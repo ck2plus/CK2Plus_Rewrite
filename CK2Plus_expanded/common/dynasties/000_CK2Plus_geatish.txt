@@ -1,49 +1,49 @@
-# Valid ids 1000043001 - 1000044000
-1000043001 = {
+# Valid IDs: 1000064000 - 1000064999
+1000064000 = {
 	name = "Av Folke"
  	culture = geatish
 }
-1000043002 = { # coa  Gold Lioneagle on Red, same as Fånö-ätten
+1000064001 = { # coa  Gold Lioneagle on Red, same as Fånö-ätten
 	name = "Aspenäs"
  	culture = geatish
 }
-1000043003 = { #
+1000064002 = { #
 	name = "Gumsehuvud" # coa guld hvædder hoved på blå
  	culture = geatish
 }
-1000043004 = {
+1000064003 = {
 	name = "Glysing"  # same coa as "Fargalt".# nr 1009 swedish.
  	culture = geatish
 }
-1000043005 = {
-	name = "Gädda" #same coa as 1000035858 "Giedde"
+1000064004 = {
+	name = "Gädda" #same coa as 1000064005 "Giedde"
  	culture = geatish
 }
-1000043006 = {
+1000064005 = {
 	name = "Hjärne" # coa boat with fleur de lis ontop, on silver
  	culture = geatish
 }
-1000043007 = {
+1000064006 = {
 	name = "Läma" #
  	culture = geatish
 }
-1000043008 = {
+1000064007 = {
 	name = "Änga" #
  	culture = geatish
 }
-1000043009 = {
+1000064008 = {
 	name = "Näf" #
  	culture = geatish
 }
-1000043010 = {
+1000064009 = {
 	name = "Stjärnbåt" #
  	culture = geatish
 }
-1000043011 = {
+1000064010 = {
 	name = "Rakered" #
  	culture = geatish
 }
-1000043012 = {
+1000064011 = {
 	name = "Hatt" #
  	culture = geatish
 }

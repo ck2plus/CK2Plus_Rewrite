@@ -1,68 +1,68 @@
-# Valid ids 1000031001 - 1000032000
+# Valid IDs: 1000050000 - 1000050999
 
-1000031001 = {
+1000050000 = {
 	name="Kakuyid"
 	culture = daylamite
 	religion = shiite
 }
-1000031002 = {
+1000050001 = {
 	name="Buyid"
 	culture = daylamite
 	religion = shiite
 }
-1000031003 = {
+1000050002 = {
 	name="Rudbarid"
 	culture = daylamite
 }
-1000031004 = {
+1000050003 = {
 	name="Damghanid"
 	culture = daylamite
 	religion = sunni
 }
-1000031005 = {
+1000050004 = {
 	name="Shahanshavand"
 	culture = daylamite
 	religion = zoroastrian
 }
-1000031006 = {
+1000050005 = {
 	name="Sallarid"
 	culture = daylamite
 	religion = shiite
 }
-1000031007 = {
+1000050006 = {
 	name="Qazwinid"
 	culture = daylamite
 	religion = shiite
 }
-1000031008 = {
+1000050007 = {
 	name="Garshaspid"
 	culture = daylamite
 }
-1000031009 = {
+1000050008 = {
 	name="Faramurzid"
 	culture = daylamite
 }
-1000031010 = {
+1000050009 = {
 	name="Baqlid"
 	culture = daylamite
 }
-1000031011 = {
+1000050010 = {
 	name="Kiyadid"
 	culture = daylamite
 }
-1000031012 = {
+1000050011 = {
 	name="Lashkarwarzid"
 	culture = daylamite
 }
-1000031013 = {
+1000050012 = {
 	name="Mosaferid"
 	culture = daylamite
 }
-1000031014 = {
+1000050013 = {
 	name="Kangarid"
 	culture = daylamite
 }
-1000031015 = {
+1000050014 = {
 	name="Jostanid"
 	culture = daylamite
 }
