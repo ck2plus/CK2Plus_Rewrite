@@ -19,39 +19,16 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			OR = {
-				controls_religion = no
-				religion_group = muslim
-				has_religion_feature = religion_temporal_head
-				AND = {
-					religion = norse_pagan_reformed
-					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
-				}
-			}
-			NOT = {	religion_group = muslim	}
-			NOT = { is_government_potential = roman_imperial_government }
-			NOT = { is_government_potential = order_government }
-			NAND = {
-				culture_group = tibetan_group
-				OR = {
-					religion = bon
-					religion = bon_reformed
-					religion = buddhist
-				}
-				higher_tier_than = BARON
-			}
-			NAND = {
-				tier = EMPEROR
-				primary_title = { has_title_flag = pretender_chinese_empire }
-				OR = {
-					culture_group = chinese_group
-					culture = khitan
-					culture = tangut
-					culture = jurchen
-					has_character_flag = chinese_imperial_government_preserve
-				}
-			}
 			is_patrician = no
+			NOR = {
+				is_government_potential = chinese_imperial_government
+				is_government_potential = mercenary_government # CK2Plus
+				is_government_potential = muslim_government
+				is_government_potential = order_government
+				is_government_potential = roman_imperial_government
+				is_government_potential = theocratic_feudal_government
+				is_government_potential = theocracy_government
+			}
 		}
 
 		color = { 91 133 207 }
@@ -94,30 +71,13 @@ feudal_governments = {
 		}
 		frame_suffix = "_iqta"
 		potential = {
-			OR = {
-				controls_religion = no
-				religion_group = muslim
-				has_religion_feature = religion_temporal_head
-				AND = {
-					religion = norse_pagan_reformed
-					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
-				}
-			}
-			religion_group = muslim
-			NOT = { is_government_potential = roman_imperial_government }
-			NOT = { is_government_potential = order_government }
-			NAND = {
-				tier = EMPEROR
-				primary_title = { has_title_flag = pretender_chinese_empire }
-				OR = {
-					culture_group = chinese_group
-					culture = khitan
-					culture = tangut
-					culture = jurchen
-					has_character_flag = chinese_imperial_government_preserve
-				}
-			}
 			is_patrician = no
+			religion_group = muslim
+			NOR = {
+				is_government_potential = chinese_imperial_government
+				is_government_potential = order_government
+				is_government_potential = mercenary_government # CK2Plus
+			}
 		}
 
 		color = { 10 138 57 }
@@ -166,19 +126,7 @@ feudal_governments = {
 		}
 		frame_suffix = "_theocraticfeudal"
 		potential = {
-			OR = {
-				controls_religion = no
-				religion_group = muslim
-				has_religion_feature = religion_temporal_head
-				AND = {
-					religion = norse_pagan_reformed
-					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
-				}
-			}
-			NOT = {	religion_group = muslim	}
-			NOT = { is_government_potential = roman_imperial_government }
-			NOT = { is_government_potential = order_government }
-
+			is_patrician = no
 			culture_group = tibetan_group
 			OR = {
 				religion = bon
@@ -186,19 +134,13 @@ feudal_governments = {
 				religion = buddhist
 			}
 			higher_tier_than = BARON
-
-			NAND = {
-				tier = EMPEROR
-				primary_title = { has_title_flag = pretender_chinese_empire }
-				OR = {
-					culture_group = chinese_group
-					culture = khitan
-					culture = tangut
-					culture = jurchen
-					has_character_flag = chinese_imperial_government_preserve
-				}
+			NOR = {
+				is_government_potential = chinese_imperial_government
+				is_government_potential = muslim_government
+				is_government_potential = order_government
+				is_government_potential = roman_imperial_government
+				is_government_potential = mercenary_government # CK2Plus
 			}
-			is_patrician = no
 		}
 
 		color = { 207 145 90 }
@@ -241,6 +183,7 @@ feudal_governments = {
 		}
 		frame_suffix = "_chineseimperial"
 		potential = {
+			is_patrician = no
 			tier = EMPEROR
 			primary_title = { has_title_flag = pretender_chinese_empire }
 			OR = {
@@ -250,7 +193,6 @@ feudal_governments = {
 				culture = jurchen
 				has_character_flag = chinese_imperial_government_preserve #keeps government when player is given culture change opton
 			}
-			is_patrician = no
 		}
 
 		color = { 118 255 163 }
@@ -314,39 +256,7 @@ feudal_governments = {
 		title_prefix = "order_"
 
 		potential = {
-			OR = {
-				holy_order = yes
-				AND = {
-					any_liege = {
-						holy_order = yes
-						religion = ROOT
-					}
-					ai = yes
-					NAND = {
-						is_government_potential = merchant_republic_government
-						OR = {
-							tier = DUKE
-							is_patrician = yes
-						}
-						any_demesne_province = {
-							any_province_holding = {
-								OR = {
-									AND = {
-										tier = BARON
-										holding_type = family_palace
-									}
-									AND = {
-										NOT = {
-											tier = BARON
-										}
-										holding_type = city
-									}
-								}
-							}
-						}
-					}
-				}
-			}
+			holy_order = yes
 		}
 
 		color = { 169 169 169 }
@@ -364,6 +274,7 @@ feudal_governments = {
 		can_inherit = no
 		free_retract_vassalage = yes
 	}
+
 	roman_imperial_government = {
 		preferred_holdings = { CASTLE CITY }
 		allowed_holdings = {
@@ -391,25 +302,28 @@ feudal_governments = {
 					is_save_game = no
 					has_game_started = no
 				}
-				top_liege = {
-					primary_title = {
-						OR = {
-							title = e_byzantium
-							title = e_roman_empire
-						}
+				realm = {
+					OR = {
+						title = e_byzantium
+						title = e_roman_empire
 					}
 				}
 			}
 			trigger_else = {
-				top_liege = {
-					primary_title = {
-						OR = {
-							title = e_byzantium
-							title = e_roman_empire
-						}
-						has_law = succ_byzantine_elective
+				realm = {
+					OR = {
+						title = e_byzantium
+						title = e_roman_empire
 					}
+					has_law = succ_byzantine_elective
 				}
+			}
+			NOR = {
+				is_government_potential = chinese_imperial_government
+				is_government_potential = muslim_government
+				is_government_potential = order_government
+				is_government_potential = mercenary_government # CK2Plus
+				is_government_potential = theocracy_government
 			}
 		}
 
@@ -435,4 +349,5 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 15
 	}
+
 }
