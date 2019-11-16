@@ -205,12 +205,33 @@
 423.7.2 = {
 	holder =  145229 # Valentinian III
 }
-# 455.3.17 Petronius Maximus
-# 455.5.31 Avitus
-# 456.10.17 Majorian
-# 461.8.2 Libius Severus
-# 467.4.12 Anthemius
-# 472.3.23 Olybrius
-# 472.11.2 Glycerius
-# 474.6.1 Julius Nepos
-# 475.8.28 Romulus Augustulus
+455.3.17 = {
+	holder = 1000251000 # Petronius Maximus
+}
+455.5.31 = {
+	holder = 1000251001 # Avitus
+}
+457.4.1 = {
+	holder = 1000251002 # Majorian
+}
+461.11.19 = {
+	holder = 1000251003 # Libius Severus
+}
+467.4.12 = {
+	holder = 1000251004 # Anthemius
+}
+472.3.23 = {
+	holder = 1000251005 # Olybrius
+}
+472.11.2 = {
+	holder = 1000251006 # Glycerius
+}
+474.6.1 = {
+	holder = 1000251007 # Julius Nepos
+}
+475.10.31 = {
+	holder = 1000251008 # Romulus Augustulus
+}
+476.9.4 = {
+	holder = 0
+}
