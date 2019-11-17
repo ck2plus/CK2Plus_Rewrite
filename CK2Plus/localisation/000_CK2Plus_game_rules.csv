@@ -7,6 +7,6 @@
 ###########################
 
 RULE_GROUP_PLUS;Plus;;;;;;;;;;;;;x
-BABY_PORTRAITS;§GCK2+§!: Baby Portraits;;;;;;;;;;;;;x
-BABY_PORTRAITS_YES_DESC;Children under two years of age will have different portraits.;;;;;;;;;;;;;x
-BABY_PORTRAITS_NO_DESC;All children will use vanilla portraits.;;;;;;;;;;;;;x
+BABY_PORTRAITS;§GCK2+§!: Baby Portraits;§GCK2+§!: Portraits de Bébé;§GCK2+§!: Baby-Porträts;;§GCK2+§!: Retratos de Bebé;;;;;;;;;x
+BABY_PORTRAITS_YES_DESC;Children under two years of age will have different portraits.;Les enfants de moins de deux ans auront des portraits différents.;Kinder unter zwei Jahren haben unterschiedliche Porträts.;;Los niños menores de dos años tendrán diferentes retratos.;;;;;;;;;x
+BABY_PORTRAITS_NO_DESC;All children will use vanilla portraits.;Tous les enfants utiliseront des portraits à la vanille.;Alle Kinder verwenden Vanilleporträts.;;Todos los niños usarán retratos de vainilla.;;;;;;;;;x

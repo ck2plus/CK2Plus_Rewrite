@@ -7,8 +7,8 @@
 ###########################
 
 #GetFactionName
-GetFactionName_Court;Court;;;;;;;;;;;;;x
-GetFactionName_Glory;Glory;;;;;;;;;;;;;x
-GetFactionName_Order;Order;;;;;;;;;;;;;x
-GetFactionName_Prosperity;Prosperity;;;;;;;;;;;;;x
-GetFactionName_Tradition;Tradition;;;;;;;;;;;;;x
+GetFactionName_Court;Court;Cour;Hof;Courte;;;;;;;;;;x
+GetFactionName_Glory;Glory;Gloire;Ruhm;;Gloria;;;;;;;;;x
+GetFactionName_Order;Order;Ordre;Ordnung;;Orden;;;;;;;;;x
+GetFactionName_Prosperity;Prosperity;Prospérité;Wohlstand;;Prosperidad;;;;;;;;;x
+GetFactionName_Tradition;Tradition;Tradition;Tradition;;Tradicion;;;;;;;;;x
