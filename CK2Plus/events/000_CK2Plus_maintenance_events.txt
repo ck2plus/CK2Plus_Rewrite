@@ -31,7 +31,6 @@ namespace = PlusMaintenance
 ################################
 
 # Give newborn baby trait
-
 character_event = {
 	id = PlusMaintenance.001
 
@@ -75,7 +74,6 @@ character_event = {
 
 
 # Remove baby at 2 years
-
 character_event = {
 	id = PlusMaintenance.002
 	desc = PlusMaintenanceDESC_002
@@ -107,7 +105,6 @@ character_event = {
 }
 
 # Startup: Give baby traits
-
 character_event = {
 	id = PlusMaintenance.003
 
@@ -149,7 +146,7 @@ character_event = {
 			}
 			assign_proper_baby_trait_CK2Plus_effect = yes	# Automatically choses the proper trait based on gender & ethnicity
 		}
-		
+
 	}
 }
 
@@ -191,10 +188,11 @@ character_event = {
 	is_triggered_only = yes		# from previous event
 
 	immediate = {
-		any_character = {	# WARNING INCREDIBLY EXPENSIVE !!! DANGER WARNING CRITICAL
-			# Fire event to assign traits again, so that all characters that are babies at gamestart get it.
-			character_event = {
-				id = PlusMaintenance.003
+		any_independent_ruler = {
+			any_realm_character = {
+				limit = { age < 2 }
+				# Fire event to assign traits again, so that all characters that are babies at gamestart get it.
+				character_event = { id = PlusMaintenance.003 }
 			}
 		}
 	}
