@@ -1,0 +1,210 @@
+# CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#####################
+#
+#	Plus Title Holders (Culture Groups)
+#
+#####################
+
+# ALTAIC GROUP OVERRIDES
+king_altaic;Khan;;;;;;;;;;;;;x
+king_female_altaic;Khanum;;;;;;;;;;;;;x
+emperor_altaic;Khagan;;;;;;;;;;;;;x
+emperor_female_altaic;Khatun;;;;;;;;;;;;;x
+
+# ARABIC GROUP OVERRIDES
+family_palace_baron_arabic;Rais;;;;;;;;;;;;;x
+count_arabic;Sheikh;;;;;;;;;;;;;x
+count_female_arabic;Shaykhah;;;;;;;;;;;;;x
+duke_arabic;Emir;;;;;;;;;;;;;x
+duke_female_arabic;Emira;;;;;;;;;;;;;x
+king_arabic;Sultan;;;;;;;;;;;;;x
+king_female_arabic;Sultana;;;;;;;;;;;;;x
+
+# ARAMAIC GROUP OVERRIDES
+king_assyrian;Mandic;;;;;;;;;;;;;x
+emperor_assyrian;Sar-šarrani;;;;;;;;;;;;;x
+
+# BYZANTINE GROUP OVERRIDES
+city_duke_byzantine;Archon;Archonte;Archonte;;Archonte;;;;;;;;;x
+city_king_byzantine;Tribune;Tribun;Volkstribun;;Tribuno;;;;;;;;;x
+city_emperor_byzantine;Hypatos;;;;;;;;;;;;;x
+emperor_byzantine;Basileus;;;;;;;;;;;;;x
+emperor_female_byzantine;Basilissa;;;;;;;;;;;;;x
+
+# CELTIC GROUP OVERRIDES
+family_palace_baron_celtic;Clan Chief;Chef de Clan;Clanchef;;Jefe del Clan;;;;;;;;;x
+city_duke_celtic;Prince;Prince;Prinz;;Príncipe;;;;;;;;;x
+city_duke_female_celtic;Princess;Princesse;Prinzessin;;Princesa;;;;;;;;;x
+city_king_celtic;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_celtic;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+
+# CENTRAL_AFRICAN GROUP OVERRIDES
+duke_central_african;Shehu;;;;;;;;;;;;;x
+tribal_duke_central_african;Shehu;;;;;;;;;;;;;x
+king_central_african;Mai;;;;;;;;;;;;;x
+tribal_king_central_african;Mai;;;;;;;;;;;;;x
+city_emperor_central_african;Mai;;;;;;;;;;;;;x
+emperor_central_african;Grand Mai;;;;;;;;;;;;;x
+tribal_emperor_central_african;Grand Mai;;;;;;;;;;;;;x
+
+# CENTRAL GERMANIC OVERRIDES
+family_palace_baron_central_germanic;Grand Burgher;Grand Bourgeois;Großbürger;;Gran Burgués;;;;;;;;;x
+family_palace_baron_female_central_germanic;Grand Burgheress;Grande Bourgeoise;Großbürgerin;;Gran Burguesa;;;;;;;;;x
+baron_central_germanic;Burgrave;Burgrave;Burggraf;;Burgrave;;;;;;;;;x
+city_duke_central_germanic;First Mayor;Premier Maire;Erster Bürgermeister;;Primer Alcalde;;;;;;;;;x
+city_king_central_germanic;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_central_germanic;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+emperor_title_queen_mother_female_central_germanic;Kaiserin Witwe;Kaiserin Witwe;Kaiserin Witwe;;Kaiserin Witwe;;;;;;;;;x
+emperor_central_germanic;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
+emperor_female_central_germanic;Kaiserin;Kaiserin;Kaiserin;;Kaiserin;;;;;;;;;x
+
+# COPTIC GROUP OVERRIDES
+title_prince_coptic_group;Irypat;;;;;;;;;;;;;x
+title_prince_female_coptic_group;Irypat;;;;;;;;;;;;;x
+baron_coptic_group;Hatya;;;;;;;;;;;;;x
+baron_female_coptic_group;Hatya;;;;;;;;;;;;;x
+count_coptic_group;Pagarch;;;;;;;;;;;;;x
+count_female_coptic_Group;Pagarch;;;;;;;;;;;;;x
+duke_coptic_group;Nomarch;Nomarque;;;;;;;;;;;;x
+duke_female_coptic_group;Nomarch;Nomarque;;;;;;;;;;;;x
+
+# EAST_AFRICAN GROUP OVERRIDES ;;;;;;;;;;;;;;x
+family_palace_baron_east_african;Pasha;;;;;;;;;;;;;x
+city_count_east_african;Mekonnen;;;;;;;;;;;;;x
+city_duke_east_african;Liqat;;;;;;;;;;;;;x
+duke_east_african;Prince;Prince;Prinz;;Príncipe;;;;;;;;;x
+duke_female_east_african;Princess;Princesse;Fürstin;;Princesa;;;;;;;;;x
+city_king_east_african;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_east_african;Tsehafi Tezaz;;;;;;;;;;;;;x
+
+# EAST_SLAVIC GROUP OVERRIDES
+family_palace_baron_east_slavic;Magnate;Magnat;Magnat;;Magnate;;;;;;;;;x
+family_palace_baron_female_east_slavic;Lady;Dame;Frau;;Señora;;;;;;;;;x
+city_count_east_slavic;Posadnik;;;;;;;;;;;;;x
+count_east_slavic;Grand Boyar;Grand-Boyard;Großen Bojare;;Gran Boyardo;;;;;;;;;x
+duke_east_slavic;Knyaz;;;;;;;;;;;;;x
+duke_female_east_slavic;Knyaginya;;;;;;;;;;;;;x
+city_king_east_slavic;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+king_east_slavic;Velikii Kniaz;;;;;;;;;;;;;x
+king_female_east_slavic;Velikaya Knyaginya;;;;;;;;;;;;;x
+city_emperor_east_slavic;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+emperor_east_slavic;Tsar;;;;;;;;;;;;;x
+emperor_female_east_slavic;Tsaritsa;;;;;;;;;;;;;x
+
+# FINNO_UGRIC GROUP OVERRIDES
+family_palace_baron_finno_ugric;Magnate;Magnat;Magnat;;Magnate;;;;;;;;;x
+city_duke_finno_ugric;First Mayor;Premier Maire;Erster Bürgermeister;;Primer Alcalde;;;;;;;;;x
+city_king_finno_ugric;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_finno_ugric;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+
+# IBERIAN GROUP OVERRIDES
+family_palace_baron_iberian;Grandee;;;;;;;;;;;;;x
+city_king_iberian;Tribune;Tribun;Volkstribun;;Tribuno;;;;;;;;;x
+
+# IRANIAN GROUP OVERRIDES
+title_prince_iranian;Shahzadeh;;;;;;;;;;;;;x
+title_prince_female_iranian;Shahdokht;;;;;;;;;;;;;x
+emperor_title_queen_mother_female_iranian;Shahmam;;;;;;;;;;;;;x
+family_palace_baron_iranian;Pasha;;;;;;;;;;;;;x
+baron_iranian;Argbed;;;;;;;;;;;;;x
+city_count_iranian;Shahrdar;;;;;;;;;;;;;x
+count_iranian;Marzban;;;;;;;;;;;;;x
+duke_iranian;Satrap;;;;;;;;;;;;;x
+duke_female_iranian;Satrap Banu;;;;;;;;;;;;;x
+king_iranian;Shah;;;;;;;;;;;;;x
+king_female_iranian;Shahbanu;;;;;;;;;;;;;x
+city_emperor_iranian;Shahanshah;;;;;;;;;;;;;x
+emperor_female_iranian;Shahanshahbanu;;;;;;;;;;;;;x
+emperor_iranian;Shahanshah;;;;;;;;;;;;;x
+
+# ISRAELITE GROUP OVERRIDES
+title_lord_israelite;Adon;;;;;;;;;;;;;x
+baron_female_israelite;Nagidah;;;;;;;;;;;;;x
+baron_israelite;Nagid;;;;;;;;;;;;;x
+city_baron_female_israelite;Sar;;;;;;;;;;;;;x
+city_baron_israelite;Sar;;;;;;;;;;;;;x
+city_count_female_israelite;Parnas;;;;;;;;;;;;;x
+city_count_israelite;Parnas;;;;;;;;;;;;;x
+count_female_israelite;Shiltanah;;;;;;;;;;;;;x
+count_israelite;Shilton;;;;;;;;;;;;;x
+city_duke_female_israelite;Shofet;;;;;;;;;;;;;x
+city_duke_israelite;Shofet;;;;;;;;;;;;;x
+duke_female_israelite;Alufa;;;;;;;;;;;;;x
+duke_israelite;Aluf;;;;;;;;;;;;;x
+city_king_female_israelite;Nesi;;;;;;;;;;;;;x
+city_king_israelite;Nesi;;;;;;;;;;;;;x
+king_female_israelite;Malcah;;;;;;;;;;;;;x
+king_israelite;Melech;;;;;;;;;;;;;x
+city_emperor_female_israelite;Rosh HaMemshala;;;;;;;;;;;;;x
+city_emperor_israelite;Rosh HaMemshala;;;;;;;;;;;;;x
+emperor_female_israelite;Malcah ha-M'lachim;;;;;;;;;;;;;x
+emperor_israelite;Melech ha-M'lachim;;;;;;;;;;;;;x
+
+# LATIN GROUP OVERRIDES
+city_king_latin;Tribune;Tribun;Volkstribun;;Tribuno;;;;;;;;;x
+
+# MAGYAR GROUP OVERRIDES
+family_palace_baron_magyar;Magnate;Magnat;Magnat;;Magnate;;;;;;;;;x
+city_duke_magyar;Rector;Recteur;Rektor;;Rectorado;;;;;;;;;x
+duke_female_magyar;Banna;;;;;;;;;;;;;x
+duke_magyar;Ban;;;;;;;;;;;;;x
+city_king_magyar;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_magyar;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+nomadic_king_magyar;Úr;;;;;;;;;;;;;x
+nomadic_king_female_magyar;Úrun;;;;;;;;;;;;;x
+nomadic_emperor_magyar;Gyula;;;;;;;;;;;;;x
+nomadic_emperor_female_hmagyar;Gyulun;;;;;;;;;;;;;x
+
+#NORTH GERMANIC OVERRIDES
+family_palace_baron_north_germanic;Magnate;Magnat;Magnat;;Magnate;;;;;;;;;x
+city_baron_north_germanic;Alderman;;;;;;;;;;;;;x
+city_count_north_germanic;Lagman;;;;;;;;;;;;;x
+city_duke_north_germanic;First Mayor;Premier Maire;Erster Bürgermeister;;Primer Alcalde;;;;;;;;;x
+city_king_north_germanic;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_north_germanic;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+count_north_germanic;Thane;;;;;;;;;;;;;x
+count_female_north_germanic;Thane;;;;;;;;;;;;;x
+emperor_north_germanic;High King;Haut Roi;Hoher König;;Alto Rey;;;;;;;;;x
+emperor_female_north_germanic;High Queen;Haute Reine;Hohe Königin;;Alta Reina;;;;;;;;;x
+tribal_count_north_germanic;Thane;;;;;;;;;;;;;x
+tribal_count_female_north_germanic;Thane;;;;;;;;;;;;;x
+tribal_duke_north_germanic;Jarl;;;;;;;;;;;;;x
+tribal_duke_female_north_germanic;Jarlinna;;;;;;;;;;;;;x
+
+# SOUTH_SLAVIC GROUP OVERRIDES
+city_duke_south_slavic;Rector;Recteur;Rektor;;Rectorado;;;;;;;;;x
+city_king_south_slavic;Tribune;Tribun;Volkstribun;;Tribuno;;;;;;;;;x
+
+# WEST_AFRICAN GROUP OVERRIDES
+title_prince_west_african;Farin;;;;;;;;;;;;;x
+family_palace_baron_west_african;Horon;;;;;;;;;;;;;x
+baron_west_african;Ton-Tigui;;;;;;;;;;;;;x
+city_baron_west_african;Dougou-Tigui;;;;;;;;;;;;;x
+city_count_west_african;Kafo-Tigui;;;;;;;;;;;;;x
+count_female_west_african;Farina;;;;;;;;;;;;;x
+count_west_african;Farin;;;;;;;;;;;;;x
+city_duke_west_african;Dyamani-Tigui;;;;;;;;;;;;;x
+duke_west_african;Faama;;;;;;;;;;;;;x
+tribal_duke_west_african;Faama;;;;;;;;;;;;;x
+city_king_west_african;Mansa;;;;;;;;;;;;;x
+king_west_african;Mansa;;;;;;;;;;;;;x
+tribal_king_west_african;Mansa;;;;;;;;;;;;;x
+city_emperor_west_african;Grand Mansa;;;;;;;;;;;;;x
+emperor_west_african;Grand Mansa;;;;;;;;;;;;;x
+tribal_emperor_west_african;Grand Mansa;;;;;;;;;;;;;x
+
+#WEST GERMANIC OVERRIDES
+family_palace_baron_west_germanic;Grand Burgher;Grand Bourgeois;Großbürger;;Gran Burgués;;;;;;;;;x
+family_palace_baron_female_west_germanic;Grand Burgheress;Grande Bourgeoise;Großbürgerin;;Gran Burguesa;;;;;;;;;x
+city_count_west_germanic;High-Reeve;Haut-Reeve;Hoher-Reeve;;Alta Reeve;;;;;;;;;x
+city_duke_west_germanic;First Mayor;Premier Maire;Erster Bürgermeister;;Primer Alcalde;;;;;;;;;x
+city_king_west_germanic;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_west_germanic;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+
+# WEST_SLAVIC GROUP OVERRIDES
+family_palace_baron_west_slavic;Grand Burgher;Grand Bourgeois;Großbürger;;Gran Burgués;;;;;;;;;x
+family_palace_baron_female_west_slavic;Grand Burgheress;Grande Bourgeoise;Großbürgerin;;Gran Burguesa;;;;;;;;;x
+city_duke_west_slavic;Voivode;;;;;;;;;;;;;x
+city_king_west_slavic;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_west_slavic;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
