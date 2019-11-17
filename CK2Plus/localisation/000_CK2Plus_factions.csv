@@ -23,10 +23,10 @@ faction_order_desc;The §BOrder Faction§! strives for justice and a stable societ
 
 #Prosperity Faction
 faction_prosperity_short;Prosperity;Prospérité;Wohlstand;;Prosperidad;;;;;;;;;x
-faction_prosperity_title;Prosperity Faction;;;;;;;;;;;;;x
-faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a healthy economy.;;;;;;;;;;;;;x
+faction_prosperity_title;Prosperity Faction;Faction de la Prospérité;;Wohlstandsfraktion;Facción de Prosperidad;;;;;;;;;x
+faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a healthy economy.;La §YFaction de la Prospérité§! aspire à la richesse et à une économie saine.;Die §YWohlstandsfraktion§! strebt nach Wohlstand und einer gesunden Wirtschaft.;;La §YFacción de la Prosperidad§! lucha por la riqueza y una economía saludable.;;;;;;;;;x
 
 #Tradition Faction
 faction_tradition_short;Tradition;Tradition;Tradition;;Tradicion;;;;;;;;;x
-faction_tradition_title;Tradition Faction;;;;;;;;;;;;;x
-faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;;;;;;;;;;;;;x
+faction_tradition_title;Tradition Faction;Faction de la Tradition;Traditionsfraktion;;Facción de la Tradición;;;;;;;;;x
+faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;La §PFaction de la Tradition§! aspire à la piété et à la suprématie de la religion.;Die §PTraditionsfraktion§! strebt nach Frömmigkeit und der Vorherrschaft der Religion.;;La §PFacción de la Tradición§! lucha por la piedad y la supremacía de la religión.;;;;;;;;;x
