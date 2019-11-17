@@ -1,8 +1,8 @@
 
-363.6.26 = { # Death of the last Pagan Roman Emperor
+337.5.22 = { # Death of Constantine I
 	holder = 0
 	effect = {
-		insert_title_history = e_byzantium
+		insert_title_history = e_roman_empire
 	}
 	active = no
 }

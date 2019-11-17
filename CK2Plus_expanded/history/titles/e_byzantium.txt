@@ -1,5 +1,9 @@
-3.1.27={
-	holder=145290
+285.7.1 = {
+	holder = 145241 # Diocletian
+	pentarch = b_hagiasophia
+	effect = {
+		insert_title_history = e_roman_empire
+	}
 	law = crown_authority_2
 	law = succ_byzantine_elective
 	law = centralization_3
@@ -7,452 +11,288 @@
 	law = ze_administration_laws_2
 	law = vice_royalty_2
 	law = revoke_title_law_1
-} # this way Jan 27 BC is displayed in his date, only backwards!
-24.8.19={
-	holder=145075
-} # moved date 10 years later so Augustus is not portrayed as child
-37.3.16={
-	holder=145289
 }
-41.1.24={
-	holder=145288
+306.7.25 = {
+	holder = 145240 #Galerius
 }
-54.10.13={
-	holder=145287
+311.6.5 = {
+	holder = 145239 # Maximinus II
 }
-68.6.9={
-	holder=145286
+313.8.1 = {
+	holder = 145238 # Licinius
 }
-69.1.15={
-	holder=145285
+324.9.19 = {
+	holder = 70523 # Constantine The Great
 }
-69.4.16={
-	holder=145284
+337.5.22 = {
+	holder = 70520 # Constantine II
 }
-69.12.20={
-	holder=145281
+340.4.1 = {
+	holder = 70522 # Constans
 }
-79.6.23={
-	holder=145282
+350.2.1 = {
+	holder = 70521 # Constantius II
 }
-81.9.13={
-	holder=145283
+361.11.3 = {
+	holder = 145237 # Julian
 }
-96.9.18={
-	holder=145280
+363.6.26 = {
+	holder = 145235 # Jovian
 }
-98.1.27={
-	holder=145279
+364.3.28 = {
+	holder = 145232 # Valens
 }
-100.1.1=
-{
-	pentarch = b_hagiasophia
+378.8.9 = {
+	holder = 145233 # Gratian
 }
-117.8.9={
-	holder=145278
+379.1.19 = {
+	holder = 70534 # Theodosius I "The Great"
 }
-138.7.10={
-	holder=145277
+395.5.1 = {
+	holder = 70519 # Arcadius
 }
-161.3.7={
-	holder=145276
+408.5.1 = {
+	holder = 70533 # Theodosius II
 }
-169.2.1={
-	holder=145274
+450.7.28 = {
+	holder = 70531 # Pulcheria
 }
-180.3.17={
-	holder=145275
+450.8.25 = {
+	holder = 70518 # Marcian
 }
-193.1.1={
-	holder=145273
+457.1.27 = {
+	holder = 70517 # Leo I "The Thracian"
 }
-193.3.29={
-	holder=145272
+474.1.18 = {
+	holder = 70516 # Leo II
 }
-193.6.1={
-	holder=145269
+474.11.17 = {
+	holder = 70515 # Zeno
 }
-211.2.4={
-	holder=145271
+475.1.9 = {
+	holder = 145226 # Basiliscus
 }
-211.12.19={
-	holder=145270
+476.8.15 = {
+	holder = 70515 # Zeno (Restored)
 }
-217.4.8={
-	holder=145268
+491.4.9 = {
+	holder = 70514 # Anastasius I Dicorus
 }
-218.6.8={
-	holder=145267
+518.7.9 = {
+	holder = 70513 # Justin I
 }
-222.3.11={
-	holder=145266
+527.8.1 = {
+	holder = 70512 #Justinian I "The Great"
 }
-235.3.19={
-	holder=145265
+565.11.14 = {
+	holder = 70511 # Justin II
 }
-238.3.22={
-	holder=145259
+578.10.5 = {
+    holder = 145073 # Tiberius II Constantine
 }
-238.4.1={
-	holder=145260
+582.8.14 = {
+	holder = 70510 # Maurice
 }
-238.4.12={
-	holder=145264
+602.11.27 = {
+    holder = 145072 # Phocas
 }
-238.6.1={
-	holder=145263
+610.10.5 = {
+    holder = 145071 # Heraclius
 }
-238.7.29={
-	holder=145262
+641.2.11 = {
+	holder = 70509 # Constantine III
 }
-244.2.11={
-	holder=70526
+641.4.20 = {
+    holder = 145070 # Heraklonas
 }
-249.9.1={
-	holder=145258
+641.10.1 = {
+	holder = 70508 # Constans II
 }
-251.6.1={
-	holder=145257
+668.7.15 = {
+	holder = 70507 # Constantine IV
 }
-253.7.1={
-	holder=145256
+685.9.14 = {
+	holder = 70506 # Justinian II
 }
-253.8.1={
-	holder=145254
+695.11.1 = {
+	holder = 70505 # Leontios
 }
-260.6.1={
-	holder=145255
+698.11.1 = {
+	holder = 145069 # Tiberius III
 }
-268.8.1={
-	holder=145252
+705.8.21 = {
+	holder = 70506 # Justinian II
 }
-270.1.15={
-	holder=145253
+711.11.24 = {
+    holder = 145068 # Philippikos Bardanes
 }
-270.5.1={
-	holder=145250
+713.6.3 = {
+	holder = 70504 # Anastasios II
 }
-275.7.1={
-	holder=145249
+715.11.1 = {
+	holder = 70532 # Theodosius III
 }
-275.9.25={
-	holder=145247
+717.3.25 = {
+	holder = 70502 # Leo III "the Isaurian"
 }
-276.6.1={
-	holder=145248
+741.6.18 = {
+	holder = 70501 # Constantine V
 }
-276.9.1={
-	holder=145245
+742.7.1 = {
+	holder = 145225 # Artabasdos (Rebelled)
 }
-282.10.1={
-	holder=145242
+743.11.2 = {
+	holder = 70501 # Constantine V
 }
-283.8.1={
-	holder=145243
+775.9.14 = {
+	holder = 70500 # Leo IV "The Khazar"
 }
-284.11.1={
-	holder=145244
+780.9.8 = {
+	holder = 70499 # Constantine VI
 }
-285.7.1={
-	holder=145241
+797.4.19 = {
+	holder = 70498 # Irene of Athens
 }
-305.4.1={
-	holder=145293
-} # Maximian
-305.5.1={
-	holder=70524
+802.10.31 = {
+	holder = 70497 # Nikephoros I
 }
-306.7.25={
-	holder=145240
+811.7.26 = {
+	holder = 70496 # Staurakios
 }
-311.5.5={
-	holder=145294
-} # Maxentius
-311.6.5={
-	holder=145239
-} # Maximinus II
-313.8.1={
-	holder=145238
+811.10.2 = {
+	holder = 70494 # Michael I Rangabe
 }
-324.9.19={
-	holder=70523
+813.7.11 = {
+	holder = 70493 # Leo V the Armenian
 }
-337.5.22={
-	holder=70520
+820.12.27 = {
+	holder = 70492 # Michael II
 }
-340.4.1={
-	holder=70522
+829.10.2 = {
+	holder = 70491 # Theophilos
 }
-350.2.1={
-	holder=70521
+842.1.20 = {
+	holder = 70490 # Michael III
 }
-361.11.3={
-	holder=145237
+866.9.24 = { #Scaled back a year for gameplay reasons
+	holder = 1700 # Basil "the Macedonian"
 }
-363.6.26={
-	holder=145235
+886.8.29 = {
+	holder = 1702 # Leo VI "The Wise"
 }
-364.2.17={
-	holder=145231
+912.5.11 = {
+	holder = 1704 # Alexander
 }
-364.3.28={
-	holder=145232
+913.6.6 = {
+	holder = 1708 # Constantine VII
 }
-378.8.9={
-	holder=145233
+920.12.17 = {
+	holder = 1706 #Romanos I Lekapenos
 }
-378.12.19={
-	holder=145234
-} # Valentinian II
-379.1.19={
-	holder=70534
+924.1.1 = {
+	holder = 145222 # Christopher Lekapenos
 }
-395.1.17={
-	holder=70519
+944.12.16 = {
+	holder = 145223 # Stephen Lekapenos
 }
-408.5.1={
-	holder=145227
+945.1.27 = {
+	holder = 1708 # Constantine VII
 }
-421.2.8={
-	holder=145228
+959.11.9 = {
+	holder = 1710 # Romanos II
 }
-421.9.2={
-	holder=70533
+963.3.15 = {
+	holder = 1712 # Nikephoros II Phokas
 }
-450.7.28={
-	holder=145229
-} # Valentinian III
-450.8.25={
-	holder=70518
+969.12.10 = {
+	holder = 1714 # John I Tzimiskes
 }
-457.1.27={
-	holder=70517
+976.1.10 = {
+	holder = 1716 # Basil II
 }
-474.1.18={
-	holder=70516
+1025.12.15 = {
+	holder = 1718 # Constantine VIII
 }
-474.11.17={
-	holder=70515
+1028.11.15 = {
+	holder = 1720 # Romanos III Argyros
 }
-475.1.9={
-	holder=145226
+1034.4.11 = {
+	holder = 1722 # Michael IV the Paphlagonian
 }
-476.8.15={
-	holder=70515
+1041.12.10 = {
+	holder = 1724 # Michael V
 }
-491.4.9={
-	holder=70514
+1042.4.20 = {
+	holder = 1717 # Zoë Porphyrogenita
 }
-518.7.9={
-	holder=70513
+1042.6.11 = {
+	holder = 1726 # Constantine IX Monomachos
 }
-527.8.1={
-	holder=70512
+1055.1.11 = {
+	holder = 1719 # Theodora Porphyrogenita
 }
-565.11.14={
-	holder=70511
+1056.8.31 = {
+	holder = 70432 # Michael VI
 }
-578.10.5={
-        holder=145073
+1057.8.31 = {
+	holder = 1730 # Isaac I Komnenos
 }
-582.8.14={
-	holder=70510
+1059.11.22 = {
+	holder = 1732 # Constantine X Doukas
 }
-602.11.27={
-        holder=145072
+1067.5.22 = {
+	holder = 1733 # Eudokia Makrembolites
 }
-610.10.5={
-        holder=145071
+1068.1.1 = {
+	holder = 1734 # Romanos IV Diogenes
 }
-641.2.11={
-	holder=70509
+1071.8.26 = {
+	holder = 1736 # Michael VII Doukas
 }
-641.4.20={
-        holder=145070
+1078.3.31 = {
+	holder = 1740 # Nikephoros III
 }
-641.10.1={
-	holder=70508
+1081.4.1 = {
+	holder = 1742 # Alexios I Komnenos
 }
-668.7.15={
-	holder=70507
+1118.8.15 = {
+	holder = 223023 # John II Komnenos
 }
-685.9.14={
-	holder=70506
+1143.4.8 = {
+	holder = 215530 # Manuel I Komnenos
 }
-695.11.1={
-	holder=70505
+1180.9.24 = {
+	holder = 215531 # Alexios II Komnenos
 }
-698.11.1={
-	holder=145069
+1183.9.24 = {
+	holder = 215529 # Andronikos I Komnenos
 }
-705.8.21={
-	holder=70506
+1185.9.12 = {
+	holder = 215500 # Isaac II Angelos
 }
-711.11.24={
-        holder=145068
+1195.6.1 = {
+	holder = 215503 # Alexios III Angelos
 }
-713.6.3={
-	holder=70504
+1203.7.18 = {
+	holder = 215507 # Alexios IV Angelos
 }
-715.11.1={
-	holder=70532
+1204.1.28 = {
+	holder = 125710 # Alexios V Doukas
 }
-717.3.25={
-	holder=70502
+1204.5.16 = {
+	holder = 0 # Latin Empire
 }
-741.6.18={
-	holder=70501
+1261.7.25 = {
+	holder = 465527 # Michael VIII Palaiologos
 }
-742.7.1={
-	holder=145225
+1282.12.11 = {
+	holder = 465521 # Andronikos II Palaiologos
 }
-743.11.2={
-	holder=70501
+1328.5.24 = {
+	holder = 465500 # Andronikos III Palaiologos
 }
-775.9.14={
-	holder=70500
-}
-780.9.8={
-	holder=70499
-}
-797.8.15={
-	holder=70498
-}
-802.10.31={
-	holder=70497
-}
-811.7.26={
-	holder=70496
-}
-811.10.2={
-	holder=70494
-}
-813.7.11={
-	holder=70493
-}
-820.12.27={
-	holder=70492
-}
-829.10.2={
-	holder=70491
-}
-842.1.20={
-	holder=70490
-}
-866.9.24={
-	holder=1700
-}
-#867.9.24={ # The historical date, but we want the Macedonian dynasty in place at the bookmark start
-#	holder=1700
-#}
-886.8.29={
-	holder=1702
-}
-912.5.11={
-	holder=1704
-}
-913.6.6={
-	holder=1708
-}
-920.12.17={
-	holder=1706
-}
-944.12.16={
-	holder=145223
-}
-945.1.27={
-	holder=1708
-}
-959.11.9={
-	holder=1710
-}
-963.3.15={
-	holder=1712
-}
-969.12.10={
-	holder=1714
-}
-976.1.10={
-	holder=1716
-}
-1025.12.15={
-	holder=1718
-}
-1028.11.15={
-	holder=1720
-}
-1034.4.11={
-	holder=1722
-}
-1041.12.10={
-	holder=1724
-}
-1042.4.20={
-	holder=1717
-}
-1042.6.11={
-	holder=1726
-}
-1055.1.11={
-	holder=1719
-}
-1056.8.31={
-	holder=70432
-}
-1057.8.31={
-	holder=1730
-}
-1059.11.22={
-	holder=1732
-}
-1067.5.22={
-	holder=1733
-} # Eudokia Makrembolites
-1068.1.1={
-	holder=1734
-} # Romanos IV Diogenes
-1071.8.26={
-	holder=1736
-}
-1078.3.31={
-	holder=1740
-}
-1081.4.1={
-	holder=1742
-}
-1118.8.15={
-	holder=223023
-}
-1143.4.8={
-	holder=215530
-}
-1180.9.24={
-	holder=215531
-}
-1183.9.24={
-	holder=215529
-}
-1185.9.12={
-	holder=215500
-}
-1195.6.1={
-	holder=215503
-}
-1203.7.18={
-	holder=215507
-}
-1204.1.28={
-	holder=125710
-}
-1204.5.16={
-	holder=0
-}
-1261.7.25={
-	holder=465527
-}
-1282.12.11={
-	holder=465521
-}
-1328.5.24={
-	holder=465500
-}
+# 1341.6.15 Andronikos III Palaiologos
+# 1391.2.14 Manuel II Palaiologos
+# 1425 John VIII Palaiologos
+# 1449.1.6 Constantine XI Palaiologos
+# 1453.5.29 NONE
