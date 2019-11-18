@@ -5,7 +5,7 @@
 # do something with Childebert I, Theudebert I and Chlothar I?
 
 561.1.1 = {
-	holder = 1000250001 # St. Gontrand
+	holder = 1000125001 # St. Gontrand
 }
 
 592.3.28 = {

@@ -3,10 +3,6 @@
 	holder = 91501 #Wido, historical as place	holder
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 842.1.1 = {
 	holder = 7979
 }

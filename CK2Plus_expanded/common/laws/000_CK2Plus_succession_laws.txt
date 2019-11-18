@@ -208,7 +208,7 @@ succession_laws = {
 						is_tribal = yes
 						higher_tier_than = DUKE # law below only available for King and Emperor tier titles
 						NOT = {
-							has_law = tribal_organization_0
+						has_law = tribal_organization_0
 						}
 						has_game_started = yes # most rulers don't have the required council law enabled at game start, see below
 					}
@@ -477,7 +477,6 @@ succession_laws = {
 					has_game_started = yes
 				}
 				holder_scope = {
-					show_scope_change = no
 					trigger_switch = {
 						on_trigger = tier
 						COUNT = { prestige = -125 }

@@ -4,8 +4,8 @@
 	liege = k_austrasia
 }
 
-790.1.1 = {
-	liege = k_francia
+781.1.1 = {
+	liege = k_aquitaine
 }
 
 826.1.1 = {
@@ -23,7 +23,6 @@
 }
 
 1040.1.1 = {
-
 	holder = 91324 #Geoffroy IV le Meschin
 	liege = k_france
 	law = succ_primogeniture

@@ -10,10 +10,6 @@
 	liege = k_bavaria
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 859.1.1 = {
 	holder = 163056
 }

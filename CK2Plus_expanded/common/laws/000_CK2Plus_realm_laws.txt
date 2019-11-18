@@ -76,19 +76,6 @@ laws = {
 			factor = 0
 		}
 
-		pass_effect = {
-			hidden_tooltip = {
-				if = {
-					limit = {
-						has_law = tribal_organization_1
-					}
-					holder_scope = {
-						plus_decreased_tribal_organization_effect = yes
-					}
-				}
-			}
-		}
-
 		effect = {
 			if = {
 				limit = { NOT = { has_dlc = "Conclave" } }
@@ -114,6 +101,19 @@ laws = {
 				revoke_law = tribal_organization_4
 			}
 		}
+
+		pass_effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = tribal_organization_1
+					}
+					holder_scope = {
+						plus_decreased_tribal_organization_effect = yes
+					}
+				}
+			}
+		}
 	}
 
 	tribal_organization_1 = {
@@ -129,6 +129,30 @@ laws = {
 		}
 
 		allow = {
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = DUKE
+					}
+					prestige = 250
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = KING
+					}
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+						tier = EMPEROR
+					}
+					prestige = 1000
+				}
+			}
 			OR = {
 				has_law = tribal_organization_0
 				has_law = tribal_organization_2
@@ -167,6 +191,32 @@ laws = {
 			}
 		}
 
+		effect = {
+			if = {
+				limit = { NOT = { has_dlc = "Conclave" } }
+				set_allow_title_revokation = yes
+				set_allow_free_infidel_revokation = no
+				set_tribal_vassal_levy_control = no
+				set_tribal_vassal_tax_income = no
+			}
+			else_if = {
+				limit = { has_dlc = "Conclave" }
+				enable_council_voting_on_issue = laws
+				enable_council_voting_on_issue = declare_war_interaction
+				hidden_tooltip = {
+					enable_council_voting_on_issue = enforce_peace
+					add_law = law_voting_power_1
+					add_law = war_voting_power_1
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = tribal_organization_0
+				revoke_law = tribal_organization_2
+				revoke_law = tribal_organization_3
+				revoke_law = tribal_organization_4
+			}
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -201,32 +251,6 @@ laws = {
 				}
 			}
 		}
-
-		effect = {
-			if = {
-				limit = { NOT = { has_dlc = "Conclave" } }
-				set_allow_title_revokation = yes
-				set_allow_free_infidel_revokation = no
-				set_tribal_vassal_levy_control = no
-				set_tribal_vassal_tax_income = no
-			}
-			else_if = {
-				limit = { has_dlc = "Conclave" }
-				enable_council_voting_on_issue = laws
-				enable_council_voting_on_issue = declare_war_interaction
-				hidden_tooltip = {
-					enable_council_voting_on_issue = enforce_peace
-					add_law = law_voting_power_1
-					add_law = war_voting_power_1
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = tribal_organization_0
-				revoke_law = tribal_organization_2
-				revoke_law = tribal_organization_3
-				revoke_law = tribal_organization_4
-			}
-		}
 	}
 
 	tribal_organization_2 = {
@@ -242,6 +266,26 @@ laws = {
 		}
 
 		allow = {
+			holder_scope = {
+				show_scope_change = no
+				trigger_if = {
+					limit = {
+						has_game_started = yes
+					}
+					conditional_tooltip = {
+						trigger = { tier = DUKE }
+						prestige = 500
+					}
+					conditional_tooltip = {
+						trigger = { tier = KING }
+						prestige = 1000
+					}
+					conditional_tooltip = {
+						trigger = { tier = EMPEROR }
+						prestige = 2000
+					}
+				}
+			}
 			OR = {
 				has_law = tribal_organization_1
 				has_law = tribal_organization_3
@@ -273,6 +317,31 @@ laws = {
 			modifier = {
 				factor = 2
 				has_law = tribal_organization_1
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { NOT = { has_dlc = "Conclave" } }
+				set_allow_title_revokation = yes
+				set_allow_free_infidel_revokation = yes
+				set_tribal_vassal_levy_control = no
+				set_tribal_vassal_tax_income = no
+			}
+			else_if = {
+				limit = { has_dlc = "Conclave" }
+				enable_council_voting_on_issue = grant_landed_title_interaction
+				enable_council_voting_on_issue = revoke_title_interaction
+				hidden_tooltip = {
+					add_law = grant_title_voting_power_1
+					add_law = revoke_title_voting_power_1
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = tribal_organization_0
+				revoke_law = tribal_organization_1
+				revoke_law = tribal_organization_3
+				revoke_law = tribal_organization_4
 			}
 		}
 
@@ -310,31 +379,6 @@ laws = {
 				}
 			}
 		}
-
-		effect = {
-			if = {
-				limit = { NOT = { has_dlc = "Conclave" } }
-				set_allow_title_revokation = yes
-				set_allow_free_infidel_revokation = yes
-				set_tribal_vassal_levy_control = no
-				set_tribal_vassal_tax_income = no
-			}
-			else_if = {
-				limit = { has_dlc = "Conclave" }
-				enable_council_voting_on_issue = grant_landed_title_interaction
-				enable_council_voting_on_issue = revoke_title_interaction
-				hidden_tooltip = {
-					add_law = grant_title_voting_power_1
-					add_law = revoke_title_voting_power_1
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = tribal_organization_0
-				revoke_law = tribal_organization_1
-				revoke_law = tribal_organization_3
-				revoke_law = tribal_organization_4
-			}
-		}
 	}
 
 	tribal_organization_3 = {
@@ -350,6 +394,26 @@ laws = {
 		}
 
 		allow = {
+			holder_scope = {
+				show_scope_change = no
+				trigger_if = {
+					limit = {
+						has_game_started = yes
+					}
+					conditional_tooltip = {
+						trigger = { tier = DUKE }
+						prestige = 750
+					}
+					conditional_tooltip = {
+						trigger = { tier = KING }
+						prestige = 1500
+					}
+					conditional_tooltip = {
+						trigger = { tier = EMPEROR }
+						prestige = 3000
+					}
+				}
+			}
 			OR = {
 				has_law = tribal_organization_2
 				has_law = tribal_organization_4
@@ -381,6 +445,33 @@ laws = {
 			modifier = {
 				factor = 2
 				has_law = tribal_organization_2
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { NOT = { has_dlc = "Conclave" } }
+				set_allow_title_revokation = yes
+				set_allow_free_infidel_revokation = yes
+				set_tribal_vassal_levy_control = yes
+				set_tribal_vassal_tax_income = yes
+			}
+			else_if = {
+				limit = { has_dlc = "Conclave" }
+				enable_council_voting_on_issue = imprison_character_interaction
+				enable_council_voting_on_issue = exile_imprisoned_interaction
+				enable_council_voting_on_issue = execute_imprisoned_interaction
+				hidden_tooltip = {
+					add_law = imprison_voting_power_1
+					add_law = banish_voting_power_1
+					add_law = execution_voting_power_1
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = tribal_organization_0
+				revoke_law = tribal_organization_1
+				revoke_law = tribal_organization_2
+				revoke_law = tribal_organization_4
 			}
 		}
 
@@ -416,33 +507,6 @@ laws = {
 						plus_decreased_tribal_organization_effect = yes
 					}
 				}
-			}
-		}
-
-		effect = {
-			if = {
-				limit = { NOT = { has_dlc = "Conclave" } }
-				set_allow_title_revokation = yes
-				set_allow_free_infidel_revokation = yes
-				set_tribal_vassal_levy_control = yes
-				set_tribal_vassal_tax_income = yes
-			}
-			else_if = {
-				limit = { has_dlc = "Conclave" }
-				enable_council_voting_on_issue = imprison_character_interaction
-				enable_council_voting_on_issue = exile_imprisoned_interaction
-				enable_council_voting_on_issue = execute_imprisoned_interaction
-				hidden_tooltip = {
-					add_law = imprison_voting_power_1
-					add_law = banish_voting_power_1
-					add_law = execution_voting_power_1
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = tribal_organization_0
-				revoke_law = tribal_organization_1
-				revoke_law = tribal_organization_2
-				revoke_law = tribal_organization_4
 			}
 		}
 	}
@@ -491,33 +555,6 @@ laws = {
 			}
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					show_scope_change = no
-					trigger_switch = {
-						on_trigger = tier
-						DUKE = { prestige = -1000 }
-						KING = { prestige = -2000 }
-						EMPEROR = { prestige = -4000 }
-					}
-				}
-			}
-			hidden_tooltip = {
-				if = {
-					limit = {
-						has_law = tribal_organization_3
-					}
-					holder_scope = {
-						plus_increased_tribal_organization_effect = yes
-					}
-				}
-			}
-		}
-
 		effect = {
 			if = {
 				limit = { NOT = { has_dlc = "Conclave" } }
@@ -542,6 +579,33 @@ laws = {
 				revoke_law = tribal_organization_1
 				revoke_law = tribal_organization_2
 				revoke_law = tribal_organization_3
+			}
+		}
+
+		pass_effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						DUKE = { prestige = -1000 }
+						KING = { prestige = -2000 }
+						EMPEROR = { prestige = -4000 }
+					}
+				}
+			}
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = tribal_organization_3
+					}
+					holder_scope = {
+						plus_increased_tribal_organization_effect = yes
+					}
+				}
 			}
 		}
 	}
@@ -1005,6 +1069,12 @@ laws = {
 			has_law = crown_authority_4
 			holder_scope = {
 				show_scope_change = no
+				trigger_if = {
+					limit = {
+						has_game_started = yes
+					}
+					prestige = 2000
+				}
 				conditional_tooltip = {
 					trigger = {
 						trait = uncrowned
@@ -1012,12 +1082,6 @@ laws = {
 					NOT = {
 						trait = uncrowned
 					}
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-					}
-					prestige = 2000
 				}
 			}
 		}
@@ -1157,21 +1221,22 @@ laws = {
 			}
 		}
 
+		effect = {
+			hidden_tooltip = {
+				revoke_law = ze_administration_laws_0
+				revoke_law = ze_administration_laws_2
+			}
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
 					has_game_started = yes
 				}
 				holder_scope = {
+					show_scope_change = no
 					prestige = -2000
 				}
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = ze_administration_laws_0
-				revoke_law = ze_administration_laws_2
 			}
 		}
 	}
@@ -1231,17 +1296,6 @@ laws = {
 			factor = 1
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					prestige = -4000
-				}
-			}
-		}
-
 		effect = {
 			set_title_flag = has_imperial_administration
 			if = {
@@ -1260,6 +1314,18 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = ze_administration_laws_0
 				revoke_law = ze_administration_laws_1
+			}
+		}
+
+		pass_effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					prestige = -4000
+				}
 			}
 		}
 	}
@@ -1362,23 +1428,24 @@ laws = {
 			}
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					prestige = -2000
-				}
-			}
-		}
-
 		effect = {
 			hidden_tooltip = {
 				revoke_law = vice_royalty_0
 				revoke_law = vice_royalty_2
 			}
 			set_allow_vice_royalties = KING
+		}
+
+		pass_effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					prestige = -2000
+				}
+			}
 		}
 	}
 
@@ -1429,23 +1496,24 @@ laws = {
 			factor = 1
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					prestige = -4000
-				}
-			}
-		}
-
 		effect = {
 			hidden_tooltip = {
 				revoke_law = vice_royalty_0
 				revoke_law = vice_royalty_1
 			}
 			set_allow_vice_royalties = DUKE
+		}
+
+		pass_effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					prestige = -4000
+				}
+			}
 		}
 	}
 
@@ -1528,6 +1596,27 @@ laws = {
 			}
 			holder_scope = {
 				show_scope_change = no
+				trigger_if = {
+					limit = {
+						has_game_started = yes
+					}
+					conditional_tooltip = {
+						trigger = { tier = COUNT }
+						prestige = 125
+					}
+					conditional_tooltip = {
+						trigger = { tier = DUKE }
+						prestige = 250
+					}
+					conditional_tooltip = {
+						trigger = { tier = KING }
+						prestige = 500
+					}
+					conditional_tooltip = {
+						trigger = { tier = EMPEROR }
+						prestige = 1000
+					}
+				}
 				conditional_tooltip = {
 					trigger = {
 						trait = uncrowned
@@ -1575,6 +1664,14 @@ laws = {
 			}
 		}
 
+		effect = {
+			set_allow_title_revokation = yes
+			hidden_tooltip = {
+				revoke_law = revoke_title_law_0
+				revoke_law = revoke_title_law_2
+			}
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -1592,20 +1689,11 @@ laws = {
 				}
 			}
 		}
-
-		effect = {
-			set_allow_title_revokation = yes
-			hidden_tooltip = {
-				revoke_law = revoke_title_law_0
-				revoke_law = revoke_title_law_2
-			}
-		}
 	}
 
 	revoke_title_law_2 = { # religious
 		group = revoke_title_law
 
-		same_religion_opinion = 5
 		vassal_opinion = -5
 
 		potential = {
@@ -1639,6 +1727,27 @@ laws = {
 			NOT = { has_law = revoke_title_law_0 }
 			holder_scope = {
 				show_scope_change = no
+				trigger_if = {
+					limit = {
+						has_game_started = yes
+					}
+					conditional_tooltip = {
+						trigger = { tier = COUNT }
+						prestige = 250
+					}
+					conditional_tooltip = {
+						trigger = { tier = DUKE }
+						prestige = 500
+					}
+					conditional_tooltip = {
+						trigger = { tier = KING }
+						prestige = 1000
+					}
+					conditional_tooltip = {
+						trigger = { tier = EMPEROR }
+						prestige = 2000
+					}
+				}
 				conditional_tooltip = {
 					trigger = {
 						trait = uncrowned
@@ -1682,6 +1791,15 @@ laws = {
 			factor = 1
 		}
 
+		effect = {
+			set_allow_title_revokation = yes
+			set_allow_free_infidel_revokation = yes
+			hidden_tooltip = {
+				revoke_law = revoke_title_law_0
+				revoke_law = revoke_title_law_1
+			}
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -1697,15 +1815,6 @@ laws = {
 						EMPEROR = { prestige = -2000 }
 					}
 				}
-			}
-		}
-
-		effect = {
-			set_allow_title_revokation = yes
-			set_allow_free_infidel_revokation = yes
-			hidden_tooltip = {
-				revoke_law = revoke_title_law_0
-				revoke_law = revoke_title_law_1
 			}
 		}
 	}
@@ -1756,51 +1865,30 @@ laws = {
 						trait = uncrowned
 					}
 				}
-
-				# Very expensive for those who should like equality
-				conditional_tooltip = {
-					trigger = {
+				trigger_if = {
+					limit = {
 						has_game_started = yes
-						tier = COUNT
 						OR = {
 							has_religion_feature = religion_equal
 							has_religion_feature = religion_feature_bon
 						}
 					}
-					prestige = 500
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = DUKE
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
+					conditional_tooltip = {
+						trigger = { tier = COUNT }
+						prestige = 500
 					}
-					prestige = 1000
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = KING
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
+					conditional_tooltip = {
+						trigger = { tier = DUKE }
+						prestige = 1000
 					}
-					prestige = 2000
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = EMPEROR
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
+					conditional_tooltip = {
+						trigger = { tier = KING }
+						prestige = 2000
 					}
-					prestige = 4000
+					conditional_tooltip = {
+						trigger = { tier = EMPEROR }
+						prestige = 4000
+					}
 				}
 			}
 		}
@@ -1897,97 +1985,52 @@ laws = {
 						trait = uncrowned
 					}
 				}
-
-				# More expensive for those who should like equality
-				conditional_tooltip = {
-					trigger = {
+				trigger_if = {
+					limit = {
 						has_game_started = yes
-						tier = COUNT
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
+					}
+					trigger_if = {
+						limit = {
+							OR = {
+								has_religion_feature = religion_equal
+								has_religion_feature = religion_feature_bon
+							}
+						}
+						conditional_tooltip = {
+							trigger = { tier = COUNT }
+							prestige = 375
+						}
+						conditional_tooltip = {
+							trigger = { tier = DUKE }
+							prestige = 750
+						}
+						conditional_tooltip = {
+							trigger = { tier = KING }
+							prestige = 1500
+						}
+						conditional_tooltip = {
+							trigger = { tier = EMPEROR }
+							prestige = 3000
 						}
 					}
-					prestige = 375
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = DUKE
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
+					trigger_else = {
+						conditional_tooltip = {
+							trigger = { tier = COUNT }
+							prestige = 125
+						}
+						conditional_tooltip = {
+							trigger = { tier = DUKE }
+							prestige = 250
+						}
+						conditional_tooltip = {
+							trigger = { tier = KING }
+							prestige = 500
+						}
+						conditional_tooltip = {
+							trigger = { tier = EMPEROR }
+							prestige = 1000
 						}
 					}
-					prestige = 750
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = KING
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 1500
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = EMPEROR
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 3000
-				}
-
-				# Less expensive for everybody else
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = COUNT
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 125
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = DUKE
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 250
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = KING
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 500
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = EMPEROR
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 1000
 				}
 			}
 		}
@@ -2003,6 +2046,36 @@ laws = {
 				factor = 0.3
 				holder_scope = { is_female = no }
 				has_law = status_of_women_2
+			}
+		}
+
+		effect = {
+			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
+			if = {
+				limit = {
+					has_law = status_of_women_0
+				}
+				custom_tooltip = {
+					text = TOOLTIP_ALLOW_FEMALE_SPYMASTER
+				}
+			}
+			else_if = {
+				limit = {
+					has_law = status_of_women_2
+				}
+				custom_tooltip = {
+					text = TOOLTIP_DISALLOW_FEMALE_CHANCELLOR
+				}
+				custom_tooltip = {
+					text = TOOLTIP_DISALLOW_FEMALE_TREASURER
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = status_of_women_0
+				revoke_law = status_of_women_2
+				revoke_law = status_of_women_3
+				revoke_law = status_of_women_4
+				law_set_allow_matrilineal_marriage = yes
 			}
 		}
 
@@ -2037,36 +2110,6 @@ laws = {
 						}
 					}
 				}
-			}
-		}
-
-		effect = {
-			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
-			if = {
-				limit = {
-					has_law = status_of_women_0
-				}
-				custom_tooltip = {
-					text = TOOLTIP_ALLOW_FEMALE_SPYMASTER
-				}
-			}
-			else_if = {
-				limit = {
-					has_law = status_of_women_2
-				}
-				custom_tooltip = {
-					text = TOOLTIP_DISALLOW_FEMALE_CHANCELLOR
-				}
-				custom_tooltip = {
-					text = TOOLTIP_DISALLOW_FEMALE_TREASURER
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = status_of_women_0
-				revoke_law = status_of_women_2
-				revoke_law = status_of_women_3
-				revoke_law = status_of_women_4
-				law_set_allow_matrilineal_marriage = yes
 			}
 		}
 	}
@@ -2148,24 +2191,6 @@ laws = {
 			}
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					show_scope_change = no
-					trigger_switch = {
-						on_trigger = tier
-						COUNT = { prestige = -250 }
-						DUKE = { prestige = -500 }
-						KING = { prestige = -1000 }
-						EMPEROR = { prestige = -2000 }
-					}
-				}
-			}
-		}
-
 		effect = {
 			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 			if = {
@@ -2194,6 +2219,24 @@ laws = {
 				revoke_law = status_of_women_4
 				law_set_allow_matrilineal_marriage = yes
 
+			}
+		}
+
+		pass_effect = {
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -250 }
+						DUKE = { prestige = -500 }
+						KING = { prestige = -1000 }
+						EMPEROR = { prestige = -2000 }
+					}
+				}
 			}
 		}
 	}
@@ -2240,97 +2283,52 @@ laws = {
 						trait = uncrowned
 					}
 				}
-
-				# Less expensive for those who should like equality
-				conditional_tooltip = {
-					trigger = {
+				trigger_if = {
+					limit = {
 						has_game_started = yes
-						tier = COUNT
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
+					}
+					trigger_if = {
+						limit = {
+							OR = {
+								has_religion_feature = religion_equal
+								has_religion_feature = religion_feature_bon
+							}
+						}
+						conditional_tooltip = {
+							trigger = { tier = COUNT }
+							prestige = 125
+						}
+						conditional_tooltip = {
+							trigger = { tier = DUKE }
+							prestige = 250
+						}
+						conditional_tooltip = {
+							trigger = { tier = KING }
+							prestige = 500
+						}
+						conditional_tooltip = {
+							trigger = { tier = EMPEROR }
+							prestige = 1000
 						}
 					}
-					prestige = 125
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = DUKE
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
+					trigger_else = {
+						conditional_tooltip = {
+							trigger = { tier = COUNT }
+							prestige = 375
+						}
+						conditional_tooltip = {
+							trigger = { tier = DUKE }
+							prestige = 750
+						}
+						conditional_tooltip = {
+							trigger = { tier = KING }
+							prestige = 1500
+						}
+						conditional_tooltip = {
+							trigger = { tier = EMPEROR }
+							prestige = 3000
 						}
 					}
-					prestige = 250
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = KING
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 500
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = EMPEROR
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 1000
-				}
-
-				# More expensive for everybody else
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = COUNT
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 375
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = DUKE
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 750
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = KING
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 1500
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = EMPEROR
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 3000
 				}
 			}
 		}
@@ -2347,6 +2345,37 @@ laws = {
 				holder_scope = { NOT = { is_female = yes } }
 				has_law = status_of_women_4
 			}
+		}
+
+		effect = {
+			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
+			if = {
+				limit = {
+					has_law = status_of_women_2
+				}
+				custom_tooltip = {
+					text = TOOLTIP_ALLOW_FEMALE_MARSHAL
+				}
+			}
+			else_if = {
+				limit = {
+					has_law = status_of_women_4
+				}
+				custom_tooltip = {
+					text = TOOLTIP_DISALLOW_TRUE_COGNATIC
+				}
+				custom_tooltip = {
+					text = TOOLTIP_DISALLOW_FEMALE_COMMANDERS
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = status_of_women_0
+				revoke_law = status_of_women_1
+				revoke_law = status_of_women_2
+				revoke_law = status_of_women_4
+				law_set_allow_matrilineal_marriage = yes
+			}
+			set_allow_gender_laws = yes
 		}
 
 		pass_effect = {
@@ -2383,37 +2412,6 @@ laws = {
 					}
 				}
 			}
-		}
-
-		effect = {
-			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
-			if = {
-				limit = {
-					has_law = status_of_women_2
-				}
-				custom_tooltip = {
-					text = TOOLTIP_ALLOW_FEMALE_MARSHAL
-				}
-			}
-			else_if = {
-				limit = {
-					has_law = status_of_women_4
-				}
-				custom_tooltip = {
-					text = TOOLTIP_DISALLOW_TRUE_COGNATIC
-				}
-				custom_tooltip = {
-					text = TOOLTIP_DISALLOW_FEMALE_COMMANDERS
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = status_of_women_0
-				revoke_law = status_of_women_1
-				revoke_law = status_of_women_2
-				revoke_law = status_of_women_4
-				law_set_allow_matrilineal_marriage = yes
-			}
-			set_allow_gender_laws = yes
 		}
 	}
 
@@ -2456,51 +2454,34 @@ laws = {
 						trait = uncrowned
 					}
 				}
-
-				# Very expensive for those who shouldn't like equality
-				conditional_tooltip = {
-					trigger = {
+				trigger_if = {
+					limit = {
 						has_game_started = yes
-						tier = COUNT
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
+					}
+					trigger_if = {
+						limit = {
+							NOR = {
+								has_religion_feature = religion_equal
+								has_religion_feature = religion_feature_bon
+							}
+						}
+						conditional_tooltip = {
+							trigger = { tier = COUNT }
+							prestige = 500
+						}
+						conditional_tooltip = {
+							trigger = { tier = DUKE }
+							prestige = 1000
+						}
+						conditional_tooltip = {
+							trigger = { tier = KING }
+							prestige = 2000
+						}
+						conditional_tooltip = {
+							trigger = { tier = EMPEROR }
+							prestige = 4000
 						}
 					}
-					prestige = 500
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = DUKE
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 1000
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = KING
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 2000
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = EMPEROR
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					prestige = 4000
 				}
 			}
 		}
@@ -2511,28 +2492,6 @@ laws = {
 				factor = 0.3
 				holder_scope = { is_female = yes }
 				has_law = status_of_women_3
-			}
-		}
-
-		pass_effect = {
-			holder_scope = {
-				show_scope_change = no
-				if = {
-					limit = {
-						has_game_started = yes
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					trigger_switch = {
-						on_trigger = tier
-						COUNT = { prestige = -500 }
-						DUKE = { prestige = -1000 }
-						KING = { prestige = -2000 }
-						EMPEROR = { prestige = -4000 }
-					}
-				}
 			}
 		}
 
@@ -2558,6 +2517,28 @@ laws = {
 			}
 			set_allow_gender_laws = yes
 			set_allow_feminism = yes
+		}
+
+		pass_effect = {
+			holder_scope = {
+				show_scope_change = no
+				if = {
+					limit = {
+						has_game_started = yes
+						NOR = {
+							has_religion_feature = religion_equal
+							has_religion_feature = religion_feature_bon
+						}
+					}
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -500 }
+						DUKE = { prestige = -1000 }
+						KING = { prestige = -2000 }
+						EMPEROR = { prestige = -4000 }
+					}
+				}
+			}
 		}
 	}
 }

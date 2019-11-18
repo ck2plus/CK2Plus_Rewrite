@@ -29,10 +29,6 @@
 	holder = 190238 #Erbio
 }
 
-790.1.1 = {
-	liege = k_francia
-}
-
 794.1.1 = {
 	holder = 190239 #Udo
 }

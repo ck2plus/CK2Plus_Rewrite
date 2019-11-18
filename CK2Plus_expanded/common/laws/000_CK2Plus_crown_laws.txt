@@ -104,10 +104,6 @@ de_jure_laws = {
 		city_vassal_max_levy = 0.05
 		temple_vassal_max_levy = 0.05
 
-		castle_vassal_min_levy = 0.05
-		city_vassal_min_levy = 0.05
-		temple_vassal_min_levy = 0.05
-
 		potential = {
 			holder_scope = {
 				is_tribal = no
@@ -202,10 +198,6 @@ de_jure_laws = {
 		castle_vassal_max_levy = 0.10
 		city_vassal_max_levy = 0.10
 		temple_vassal_max_levy = 0.10
-
-		castle_vassal_min_levy = 0.10
-		city_vassal_min_levy = 0.10
-		temple_vassal_min_levy = 0.10
 
 		potential = {
 			holder_scope = {
@@ -302,10 +294,6 @@ de_jure_laws = {
 		city_vassal_max_levy = 0.15
 		temple_vassal_max_levy = 0.15
 
-		castle_vassal_min_levy = 0.15
-		city_vassal_min_levy = 0.15
-		temple_vassal_min_levy = 0.15
-
 		potential = {
 			holder_scope = {
 				is_tribal = no
@@ -400,10 +388,6 @@ de_jure_laws = {
 		castle_vassal_max_levy = 0.20
 		city_vassal_max_levy = 0.20
 		temple_vassal_max_levy = 0.20
-
-		castle_vassal_min_levy = 0.20
-		city_vassal_min_levy = 0.20
-		temple_vassal_min_levy = 0.20
 
 		potential = {
 			holder_scope = {
@@ -531,6 +515,13 @@ de_jure_laws = {
 			}
 		}
 
+		effect = {
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+			}
+			set_investiture = head
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -544,13 +535,6 @@ de_jure_laws = {
 					}
 				}
 			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = investiture_law_0
-			}
-			set_investiture = head
 		}
 	}
 
@@ -608,6 +592,13 @@ de_jure_laws = {
 			}
 		}
 
+		effect = {
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+			}
+			set_investiture = any
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -621,13 +612,6 @@ de_jure_laws = {
 					}
 				}
 			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = investiture_law_0
-			}
-			set_investiture = any
 		}
 	}
 
@@ -698,6 +682,25 @@ de_jure_laws = {
 		}
 
 		allow = {
+			holder_scope = {
+				show_scope_change = no
+				conditional_tooltip = {
+					trigger = {
+						trait = uncrowned
+					}
+					NOT = {
+						trait = uncrowned
+					}
+				}
+				conditional_tooltip = {
+					trigger = { tier = KING }
+					prestige = 500
+				}
+				conditional_tooltip = {
+					trigger = { tier = EMPEROR }
+					prestige = 1000
+				}
+			}
 			has_law = out_of_realm_inheritance_law_0
 			conditional_tooltip = {
 				trigger = {
@@ -750,6 +753,13 @@ de_jure_laws = {
 			factor = 1
 		}
 
+		effect = {
+			hidden_tooltip = {
+				revoke_law = out_of_realm_inheritance_law_0
+			}
+			set_protected_inheritance = yes
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -763,13 +773,6 @@ de_jure_laws = {
 					}
 				}
 			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = out_of_realm_inheritance_law_0
-			}
-			set_protected_inheritance = yes
 		}
 	}
 
@@ -996,6 +999,15 @@ de_jure_laws = {
 			factor = 1
 		}
 
+		effect = {
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_0
+				revoke_law = vassal_wars_law_1
+			}
+			set_the_kings_peace = yes
+			set_the_kings_full_peace = yes
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -1009,15 +1021,6 @@ de_jure_laws = {
 					}
 				}
 			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = vassal_wars_law_0
-				revoke_law = vassal_wars_law_1
-			}
-			set_the_kings_peace = yes
-			set_the_kings_full_peace = yes
 		}
 	}
 
@@ -1132,6 +1135,13 @@ de_jure_laws = {
 			}
 		}
 
+		effect = {
+			hidden_tooltip = {
+				revoke_law = kingdom_lockout_0
+				revoke_law = kingdom_lockout_2
+			}
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -1140,13 +1150,6 @@ de_jure_laws = {
 				holder_scope = {
 					prestige = -1000
 				}
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = kingdom_lockout_0
-				revoke_law = kingdom_lockout_2
 			}
 		}
 	}
@@ -1217,6 +1220,13 @@ de_jure_laws = {
 			factor = 1
 		}
 
+		effect = {
+			hidden_tooltip = {
+				revoke_law = kingdom_lockout_0
+				revoke_law = kingdom_lockout_1
+			}
+		}
+
 		pass_effect = {
 			if = {
 				limit = {
@@ -1225,13 +1235,6 @@ de_jure_laws = {
 				holder_scope = {
 					prestige = -2000
 				}
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = kingdom_lockout_0
-				revoke_law = kingdom_lockout_1
 			}
 		}
 	}

@@ -585,7 +585,6 @@
 	name = "Odelric"
 	dynasty = 1046011
 
-
 	religion = catholic
 	culture = old_frankish
 
@@ -2683,7 +2682,6 @@
 
 168671 = {
 	name = "Mérovech" # Merovech
-
 	dynasty = 542
 	religion = norse_pagan
 	culture = old_frankish
@@ -4254,7 +4252,7 @@
 	726.1.1 = {
 		birth = yes
 	}
-	752.1.1 = {
+	753.1.1 = {
 		death = yes
 	}
 }

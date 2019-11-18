@@ -1,14 +1,13 @@
-1.1.1 = {
-	de_jure_liege = 0
-}
 762.1.1 = {
 	de_jure_liege = k_saxony
-	holder = 190466 #Lothar
 	liege = k_saxony
+	holder = 190466 #Lothar
 }
+
 782.1.1 = {
 	de_jure_liege = k_germany
 }
+
 782.1.1 = {
 	holder = 0
 }

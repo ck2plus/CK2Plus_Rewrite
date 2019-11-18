@@ -86,7 +86,7 @@
 }
 
 675.1.1 = {
-	holder = 1000250000 # Clovis III
+	holder = 1000125000 # Clovis III
 }
 
 676.1.1 = {

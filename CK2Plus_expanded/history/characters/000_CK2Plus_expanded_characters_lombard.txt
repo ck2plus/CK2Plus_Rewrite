@@ -1,0 +1,14 @@
+# Valid IDs: 1000103000 - 1000103999
+
+1000103000 = {
+	name = "Allone"
+#	dynasty =
+	religion = catholic
+	culture = lombard
+	750.1.1 = {
+		birth = yes
+	}
+	797.1.1 = {
+		death = yes
+	}
+}

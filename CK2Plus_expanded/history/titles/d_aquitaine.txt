@@ -42,8 +42,8 @@
 	liege = k_neustria
 }
 
-790.1.1 = {
-	liege = k_francia
+781.1.1 = {
+	liege = k_aquitaine
 }
 
 852.1.1 = {
