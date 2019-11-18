@@ -1,0 +1,16 @@
+# Valid IDs: 1000061000 - 1000061999
+
+1000061000 = {
+	name = "Heila" # wife of Ethelhard
+	female = yes
+	dynasty = 246 # Folcwalding
+	father = 131725 # Redbad
+	religion = norse_pagan
+	culture = old_saxon
+	700.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}

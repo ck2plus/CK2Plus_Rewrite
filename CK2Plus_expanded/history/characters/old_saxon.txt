@@ -28,14 +28,14 @@
 190457 = {
 	name = "Bruno" # Bruno II of Angria
 	dynasty = 669 #Liudolfing
-	father = 1000253050 # Bruno I of Angria
+	father = 1000126050 # Bruno I of Angria
 	religion = norse_pagan
 	culture = old_saxon
 	756.1.1 = {
 		birth = yes
 	}
 	780.1.1 = {
-		add_spouse = 1000253052 # Hasalda of Westphalia
+		add_spouse = 1000126023 # Hasalda of Westphalia
 	}
 	813.1.1 = {
 		death = yes
@@ -48,7 +48,7 @@
 	religion = norse_pagan
 	culture = old_saxon
 	father = 190457 # Bruno II of
-	mother = 1000253052 # Hasalda of Westphalia
+	mother = 1000126023 # Hasalda of Westphalia
 	769.1.1 = {
 		birth = yes
 	}
@@ -81,7 +81,7 @@
 	religion = norse_pagan
 	culture = old_saxon
 	father = 190457 # Bruno II
-	mother = 1000253052 # Hasalda of Westphalia
+	mother = 1000126023 # Hasalda of Westphalia
 	789.1.1 = {
 		birth = yes
 	}
@@ -99,7 +99,7 @@
 	religion = catholic
 	culture = old_saxon
 	father = 190457 # Bruno II
-	mother = 1000253052 # Hasalda of Westphalia
+	mother = 1000126023 # Hasalda of Westphalia
 	801.1.1 = {
 		birth = yes
 	}

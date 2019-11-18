@@ -2948,6 +2948,9 @@
 	610.1.1 = {
 		birth = yes
 	}
+	630.1.1 = {
+		add_spouse = 1000147000 # Oslafa
+	}
 	665.1.1 = {
 		death = yes
 	}
@@ -2973,7 +2976,8 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205035
+	father = 205035 # Eormenred
+	mother = 1000147000 # Oslafa
 	630.1.1 = {
 		birth = yes
 	}
@@ -2987,7 +2991,8 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205035
+	father = 205035 # Eormenred
+	mother = 1000147000 # Oslafa
 	632.1.1 = {
 		birth = yes
 	}
@@ -3001,7 +3006,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205036
+	father = 205036 # Eorcenberht
 	630.1.1 = {
 		birth = yes
 	}
@@ -3015,7 +3020,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205036
+	father = 205036 # Eorcenberht
 	635.1.1 = {
 		birth = yes
 	}
@@ -3029,7 +3034,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205039
+	father = 205039 # Ecgberht
 	650.1.1 = {
 		birth = yes
 	}
@@ -3043,7 +3048,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205038
+	father = 205038 # Æthelred
 	661.1.1 = {
 		birth = yes
 	}
@@ -3057,7 +3062,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205039
+	father = 205039 # Ecgberht
 	655.1.1 = {
 		birth = yes
 	}
@@ -3071,7 +3076,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205043
+	father = 205043 # Wihtræd
 	685.1.1 = {
 		birth = yes
 	}
@@ -3085,7 +3090,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205043
+	father = 205043 # Wihtræd
 	680.1.1 = {
 		birth = yes
 	}
@@ -3099,7 +3104,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205043
+	father = 205043 # Wihtræd
 	679.1.1 = {
 		birth = yes
 	}
@@ -3113,7 +3118,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205045
+	father = 205045 # Eadberht
 	700.1.1 = {
 		birth = yes
 	}
@@ -3127,7 +3132,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205044
+	father = 205044 # Æthelberht
 	710.1.1 = {
 		birth = yes
 	}
@@ -3137,11 +3142,11 @@
 }
 
 205049 = {
-	name = "Ecgberht"
+	name = "Ecgberht" # II
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205048
+	father = 205048 # Eadberht
 	735.1.1 = {
 		birth = yes
 	}
@@ -3155,7 +3160,7 @@
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
-	father = 205049
+	father = 205049 # Eadberht
 	755.1.1 = {
 		birth = yes
 	}

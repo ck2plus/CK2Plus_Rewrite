@@ -1,0 +1,44 @@
+# Valid IDs: 1000134000 - 1000134999
+
+1000134000 = {
+	name = "Goswin"
+#	dynasty =
+	religion = norse_pagan
+	culture = pommeranian
+	590.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+1000134001 = {
+	name = "Julanda"
+	female = yes
+#	dynasty =
+	father = 1000134000 # Goswin of the Obotrites
+	religion = norse_pagan
+	culture = pommeranian
+	630.1.1 = {
+		birth = yes
+	}
+	675.1.1 = {
+		death = yes
+	}
+}
+
+1000134050 = {
+	name = "Dobzogera" # Dobiogera
+	female = yes
+#	father = Billung I. von Wenden
+#	mother = Freduna de Wenden
+	religion = norse_pagan
+	culture = pommeranian
+	675.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}

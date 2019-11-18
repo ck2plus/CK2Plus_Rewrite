@@ -86,7 +86,7 @@
 }
 
 131730 = {
-	name = "Radboud" # King of the Frisians
+	name = "Redbad" # King of the Frisians
 	dynasty = 246 # Folcwalding
 	religion = catholic
 	culture = frisian
@@ -170,7 +170,6 @@
 	}
 }
 
-
 168620 = {
 	name = "Aldgisl"
 	dynasty = 246 # Folcwalding
@@ -185,10 +184,8 @@
 	}
 }
 
-
-
 168621 = {
-	name = "Radboud"
+	name = "Redbad"
 	dynasty = 246 # Folcwalding
 	religion = catholic
 	culture = frisian
@@ -201,15 +198,13 @@
 	}
 }
 
-
-
 168622 = {
 	name = "Odrade"
 	female = yes
 	dynasty = 246 # Folcwalding
 	religion = catholic
 	culture = frisian
-	father = 168620
+	father = 168620 # Aldgisl
 	775.1.1 = {
 		birth = yes
 	}
@@ -233,7 +228,7 @@
 }
 
 168626 = {
-	name = "Radboud"
+	name = "Redbad"
 	dynasty = 246 # Folcwalding
 	religion = catholic
 	culture = frisian

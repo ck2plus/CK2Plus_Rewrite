@@ -90,10 +90,6 @@
 	holder = 190196 #Liutprand
 }
 
-774.1.1 = {
-	liege = e_france
-}
-
 744.1.1 = {
 	holder = 190198 #Hildeprand
 }
@@ -108,6 +104,10 @@
 
 756.1.1 = {
 	holder = 190347 #Desiderius
+}
+
+774.1.1 = {
+	liege = e_france
 }
 
 781.1.1 = {

@@ -206,31 +206,31 @@
 	holder =  145229 # Valentinian III
 }
 455.3.17 = {
-	holder = 1000251000 # Petronius Maximus
+	holder = 1000139000 # Petronius Maximus
 }
 455.5.31 = {
-	holder = 1000251001 # Avitus
+	holder = 1000139001 # Avitus
 }
 457.4.1 = {
-	holder = 1000251002 # Majorian
+	holder = 1000139002 # Majorian
 }
 461.11.19 = {
-	holder = 1000251003 # Libius Severus
+	holder = 1000139003 # Libius Severus
 }
 467.4.12 = {
-	holder = 1000251004 # Anthemius
+	holder = 1000139004 # Anthemius
 }
 472.3.23 = {
-	holder = 1000251005 # Olybrius
+	holder = 1000139005 # Olybrius
 }
 472.11.2 = {
-	holder = 1000251006 # Glycerius
+	holder = 1000139006 # Glycerius
 }
 474.6.1 = {
-	holder = 1000251007 # Julius Nepos
+	holder = 1000139007 # Julius Nepos
 }
 475.10.31 = {
-	holder = 1000251008 # Romulus Augustulus
+	holder = 1000139008 # Romulus Augustulus
 }
 476.9.4 = {
 	holder = 0

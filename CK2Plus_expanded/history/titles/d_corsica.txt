@@ -1,5 +1,5 @@
 774.1.1 = {
-	liege = e_francia
+	liege = e_france
 	holder = 235002 #Burchard
 }
 

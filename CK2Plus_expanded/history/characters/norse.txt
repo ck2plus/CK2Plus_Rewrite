@@ -5182,7 +5182,7 @@
 		birth = yes
 	}
 	755.1.1 = {
-		add_spouse = 1000254101 # Hild
+		add_spouse = 1000119101 # Hild
 	}
 	790.1.1 = {
 		death = yes

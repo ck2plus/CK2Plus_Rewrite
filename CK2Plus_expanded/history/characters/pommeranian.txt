@@ -734,7 +734,6 @@
 
 	father = 30481 #Wartislaw
 
-
 	1104.1.1 = {
 		birth = yes
 	}
@@ -749,8 +748,6 @@
 
 	religion = slavic_pagan
 	culture = pommeranian
-
-
 
 	955.1.1 = {
 		birth = yes

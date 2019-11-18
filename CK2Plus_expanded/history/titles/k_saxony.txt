@@ -3,51 +3,51 @@
 }
 
 460.1.1 = {
-	holder = 1000253000 # Hartwaker
+	holder = 1000126000 # Hartwaker
 }
 
 480.1.1 = {
-	holder = 1000253001 #Hathwigate
+	holder = 1000126001 #Hathwigate
 }
 
 524.1.1 = {
-	holder = 1000253003 # Hulderic
+	holder = 1000126003 # Hulderic
 }
 
 540.1.1 = {
-	holder = 1000253004 # Wiric
+	holder = 1000126004 # Wiric
 }
 
 545.1.1 = {
-	holder = 1000253005 # Budic
+	holder = 1000126005 # Budic
 }
 
 568.1.1 = {
-	holder = 1000253007 # Berthold
+	holder = 1000126007 # Berthold
 }
 
 633.1.1 = {
-	holder = 1000253008 # Sieghard
+	holder = 1000126008 # Sieghard
 }
 
 691.1.1 = {
-	holder = 1000253010 # Willehari
+	holder = 1000126009 # Willehari
 }
 
 700.1.1 = {
-	holder = 1000253012 # Theoderic
+	holder = 1000126011 # Theoderic
 }
 
 748.1.1 = {
-	holder = 1000253015 # Ethelhard
+	holder = 1000126013 # Ethelhard
 }
 
 757.1.1 = {
-	holder = 1000253014 # Wernicke
+	holder = 1000126012 # Wernicke
 }
 
 768.1.1 = {
-	holder = 1000253020 # Widukind
+	holder = 1000126018 # Widukind
 }
 
 772.1.1 = {

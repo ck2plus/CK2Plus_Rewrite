@@ -1,6 +1,6 @@
 756.1.1 = {
 	liege = d_thuringia
-	holder = 1000255000 # Ekbert I
+	holder = 1000066000 # Ekbert I
 }
 
 772.1.1 = {

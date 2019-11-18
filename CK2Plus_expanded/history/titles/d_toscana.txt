@@ -15,11 +15,11 @@
 }
 
 774.1.1 = {
-	holder = 1000251000 # Allone
+	holder = 1000103000 # Allone
 }
 
 797.1.1 = {
-	holder = 1000250002 # Wicheramo
+	holder = 1000125002 # Wicheramo
 }
 
 812.1.1 = {

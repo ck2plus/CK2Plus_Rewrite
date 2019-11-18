@@ -11,15 +11,15 @@
 }
 
 770.7.7 = {
-	holder = 1000254000 # Sigfrid I
+	holder = 1000119000 # Sigfrid I
 }
 
 804.1.1 = {
-	holder = 1000254001 # Gudfred
+	holder = 1000119001 # Gudfred
 }
 
 810.1.1 = {
-	holder = 1000254002 # Hemming I
+	holder = 1000119002 # Hemming I
 }
 
 812.1.1 = {
@@ -27,7 +27,7 @@
 }
 
 813.1.1 = {
-	holder = 1000254004 # Horik I
+	holder = 1000119004 # Horik I
 }
 
 854.1.1 = {
