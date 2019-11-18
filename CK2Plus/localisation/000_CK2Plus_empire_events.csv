@@ -1,0 +1,10 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+###########################
+#
+#	Event Localization
+#
+###########################
+
+EVTDESC_PlusEmpire_001;The sharp decline of my power and territories have not gone unnoticed by other rulers. While I continue to insist on my claims to Imperial dignity, it is clear that my peers no longer take them seriously.;Le déclin brutal de mon pouvoir et de mes territoires n'a pas échappé à l'attention des autres dirigeants. Bien que je continue d’insister sur mes revendications de la dignité impériale, il est clair que mes pairs ne les prennent plus au sérieux.;Der starke Niedergang meiner Macht und meiner Territorien ist für andere Herrscher nicht unbemerkt geblieben. Während ich weiterhin auf meinen Ansprüchen auf die kaiserliche Würde bestehe, ist es klar, dass meine Kollegen sie nicht mehr ernst nehmen.;;El fuerte declive de mi poder y territorios no ha pasado desapercibido para otros gobernantes. Si bien sigo insistiendo en mis reclamos de dignidad imperial, está claro que mis compañeros ya no los toman en serio.;;;;;;;;;x
+EVTOPTA_PlusEmpire_001;But I *am* the [Root.GetTitle]!;Mais je * suis * [Root.GetTitle];Aber ich bin [Root.GetTitle];;Pero yo * soy * [Root.GetTitle];;;;;;;;;x

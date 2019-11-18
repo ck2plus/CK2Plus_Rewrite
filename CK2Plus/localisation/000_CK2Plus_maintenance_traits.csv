@@ -6,5 +6,5 @@
 #
 ######################################
 
-baby_toddler;Baby ([Root.GetBoyGirlCap]);;;;;;;;;;;;;x
-baby_toddler_desc;This child is just a toddler, and still has to learn basic things like talking and walking. Having this character as a ruler will cause serious problems, as he will totally depend on the regent, and vassals will disapprove.;;;;;;;;;;;;;x
+baby_toddler;Baby ([Root.GetBoyGirlCap]);Bébé ([Root.GetBoyGirlCap]);Baby ([Root.GetBoyGirlCap]);;Bébé ([Root.GetBoyGirlCap]);;;;;;;;;x
+baby_toddler_desc;This child is just a baby, and still has to learn basic things like talking and walking. Having this character as a ruler will cause serious problems, as he will totally depend on the regent, and vassals will disapprove.;Cet enfant n’est qu’un bébé et doit encore apprendre des techniques de base comme parler et marcher. Avoir ce personnage en tant que dirigeant causera de graves problèmes, car il dépendra totalement du régent et les vassaux désapprouveront.;Dieses Kind ist nur ein Baby und muss noch grundlegende Dinge wie Sprechen und Gehen lernen. Diesen Charakter als Herrscher zu haben, wird ernsthafte Probleme verursachen, da er völlig vom Regenten abhängt und Vasallen dies missbilligen.;;Este niño es solo un bebé y todavía tiene que aprender cosas básicas como hablar y caminar. Tener a este personaje como gobernante causará serios problemas, ya que dependerá totalmente del regente y los vasallos lo desaprobarán.;;;;;;;;;x

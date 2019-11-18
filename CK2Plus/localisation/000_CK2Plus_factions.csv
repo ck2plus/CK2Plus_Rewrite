@@ -7,26 +7,26 @@
 #####################
 
 #Court Faction
-faction_court_short;Court;;;;;;;;;;;;;x
-faction_court_title;Court Faction;;;;;;;;;;;;;x
-faction_court_desc;The §GCourt Faction§! strives for influence and vassal autonomy.;;;;;;;;;;;;;x
+faction_court_short;Court;Cour;Hof;Courte;;;;;;;;;;x
+faction_court_title;Court Faction;Faction de la Cour;Gerichtsfraktion;;Facción de la corte;;;;;;;;;x
+faction_court_desc;The §GCourt Faction§! strives for influence and vassal autonomy.;La §Faction de la Cour§! aspire à l'influence et à l'autonomie vassale.;Die Hoffraktion strebt nach Einfluss und Autonomie der Vasallen.;;La Facción de la Corte se esfuerza por la influencia y la autonomía vasalla.;;;;;;;;;x
 
 #Glory Faction
-faction_glory_short;Glory;;;;;;;;;;;;;x
-faction_glory_title;Glory Faction;;;;;;;;;;;;;x
-faction_glory_desc;The §RGlory Faction§! strives for prestige and the spoils of war.;;;;;;;;;;;;;
+faction_glory_short;Glory;Gloire;Ruhm;;Gloria;;;;;;;;;x
+faction_glory_title;Glory Faction;Faction de Gloire;Ruhmfraktion;;Facción de la Gloria;;;;;;;;;x
+faction_glory_desc;The §RGlory Faction§! strives for prestige and the spoils of war.;La §RFaction de Gloire§! aspire au prestige et au butin de la guerre.;Die §RRuhmfraktion§! strebt nach Prestige und Kriegsbeute.;;La §RFacción de la Gloria§! lucha por el prestigio y el botín de la guerra.;;;;;;;;;
 
 #Order Faction
-faction_order_short;Order;;;;;;;;;;;;;x
-faction_order_title;Order Faction;;;;;;;;;;;;;x
-faction_order_desc;The §BOrder Faction§! strives for justice and a stable society.;;;;;;;;;;;;;
+faction_order_short;Order;Ordre;Ordnung;;Orden;;;;;;;;;x
+faction_order_title;Order Faction;Faction de l'Ordre;Ordnungfraktion;;Facción de Orden;;;;;;;;;x
+faction_order_desc;The §BOrder Faction§! strives for justice and a stable society.;La §BFaction de l'Ordre§! aspire à la justice et à une société stable.;Die §BOrdnungfraktion§! strebt nach Gerechtigkeit und einer stabilen Gesellschaft.;;La §BFacción de Orden§! lucha por la justicia y una sociedad estable.;;;;;;;;;
 
 #Prosperity Faction
-faction_prosperity_short;Prosperity;;;;;;;;;;;;;x
-faction_prosperity_title;Prosperity Faction;;;;;;;;;;;;;x
-faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a healthy economy.;;;;;;;;;;;;;x
+faction_prosperity_short;Prosperity;Prospérité;Wohlstand;;Prosperidad;;;;;;;;;x
+faction_prosperity_title;Prosperity Faction;Faction de la Prospérité;;Wohlstandsfraktion;Facción de Prosperidad;;;;;;;;;x
+faction_prosperity_desc;The §YProsperity Faction§! strives for wealth and a healthy economy.;La §YFaction de la Prospérité§! aspire à la richesse et à une économie saine.;Die §YWohlstandsfraktion§! strebt nach Wohlstand und einer gesunden Wirtschaft.;;La §YFacción de la Prosperidad§! lucha por la riqueza y una economía saludable.;;;;;;;;;x
 
 #Tradition Faction
-faction_tradition_short;Tradition;;;;;;;;;;;;;x
-faction_tradition_title;Tradition Faction;;;;;;;;;;;;;x
-faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;;;;;;;;;;;;;x
+faction_tradition_short;Tradition;Tradition;Tradition;;Tradicion;;;;;;;;;x
+faction_tradition_title;Tradition Faction;Faction de la Tradition;Traditionsfraktion;;Facción de la Tradición;;;;;;;;;x
+faction_tradition_desc;The §PTradition Faction§! strives for piety and the supremacy of religion.;La §PFaction de la Tradition§! aspire à la piété et à la suprématie de la religion.;Die §PTraditionsfraktion§! strebt nach Frömmigkeit und der Vorherrschaft der Religion.;;La §PFacción de la Tradición§! lucha por la piedad y la supremacía de la religión.;;;;;;;;;x

@@ -22,17 +22,16 @@ namespace = PlusEmpire
 # Index
 #
 # 001: Trigger Destruction
-# 002: Inform
 #
 ################################
 
 # Trigger Destruction
 character_event = {
 	id = PlusEmpire.001
+	picture = "GFX_evt_council"
+	desc = EVTDESC_PlusEmpire_001
 
-	hide_window = yes
-	is_triggered_only = yes
-	# Fires on succession
+	is_triggered_only = yes # Fires on succession
 
 	only_independent = yes
 	only_playable = yes
@@ -43,7 +42,6 @@ character_event = {
 		is_exempt_title = no
 	}
 	immediate = {
-		ROOT = { character_event = { id = PlusEmpire.002 } } # Inform
 		# Emergency Kingdom for dumb emperors (usually AI)
 		if = {
 			limit = {
@@ -55,23 +53,13 @@ character_event = {
 		else = {
 			log = "Unable to create emergency kingdom when shattering empire. Ruler rank demoted."
 		}
+	}
+	option = {
+		name = EVTOPTA_PlusEmpire_001
+		prestige = -1000
+
 		# You are the weakest link, goodbye.
 		primary_title = { destroy_landed_title = THIS }
-	}
-}
-# Inform
-character_event = {
-	id = PlusEmpire.002
-	picture = "GFX_evt_council"
-
-	is_triggered_only = yes
-	# Fired by PlusEmpire.001
-
-	desc = PlusEmpire002_DESC
-
-	option = {
-		name = PlusEmpire002_OPTA
-		prestige = -1000
 	}
 }
 
@@ -107,3 +95,6 @@ character_event = {
 #		is_exempt_title = no
 #	}
 #}
+
+EVTDESC_Plus_303
+EVTOPTA_Plus_303

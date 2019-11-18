@@ -6,14 +6,14 @@
 #
 ###############################
 
-plus_construction_focus;Construction Focus;;;;;;;;;;;;;x
-plus_construction_focus_desc;This province is focusing on construction.;;;;;;;;;;;;;x
+plus_construction_focus;Construction Focus;Focus de la construction;Baufokus;;Enfoque de construcción;;;;;;;;;x
+plus_construction_focus_desc;This province is focusing on construction.;Cette province se concentre sur la construction.;Diese Provinz konzentriert sich auf den Bau.;;Esta provincia se está centrando en la construcción.;;;;;;;;;x
 
-plus_faction_abandoned;Abandoned Faction;;;;;;;;;;;;;x
-plus_faction_abandoned_desc;This character has previously left one of the main five factions.;;;;;;;;;;;;;x
+plus_faction_abandoned;Abandoned Faction;Faction Abandonnée;Verlassene Fraktion;;Facción abandonada;;;;;;;;;x
+plus_faction_abandoned_desc;This character has previously left one of the main five factions.;Ce personnage a précédemment quitté l'une des cinq principales factions.;Dieser Charakter hat zuvor eine der fünf Hauptfraktionen verlassen.;;Este personaje ha dejado previamente una de las cinco facciones principales.;;;;;;;;;x
 
-plus_increased_spy_reports;Increased Spy Reports;;;;;;;;;;;;;x
-plus_increased_spy_reports_desc;This character has more watchful eyes available.;;;;;;;;;;;;;x
+plus_increased_spy_reports;Increased Spy Reports;Augmentation des Rapports d'espionnage;Erhöhte Spionageberichte;;Aumento de Informes de Espías;;;;;;;;;x
+plus_increased_spy_reports_desc;This character has more watchful eyes available.;Ce personnage a des yeux plus vigilants disponibles.;Dieser Charakter hat wachsamere Augen zur Verfügung.;;Este personaje tiene más ojos vigilantes disponibles.;;;;;;;;;x
 
-plus_new_roads;New Roads;;;;;;;;;;;;;x
-plus_new_roads_desc;This province has improved roads.;;;;;;;;;;;;;x
+plus_new_roads;New Roads;Nouvelles Routes;Neue Straßen;;Nuevos Caminos;;;;;;;;;x
+plus_new_roads_desc;This province has improved roads.;Cette province a amélioré les routes.;Diese Provinz hat Straßen verbessert.;;Esta provincia ha mejorado las carreteras.;;;;;;;;;x
