@@ -1,0 +1,61 @@
+# CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#####################
+#
+#	Plus Title Holders (Religion)
+#	NOTE: Religious title overrides should be limited to non-secular titles
+#
+#####################
+
+# CHRISTIAN GROUP OVERRIDES
+temple_barony_christian;Church;Église;Kirche;;Iglesia;;;;;;;;;x
+temple_barony_of_christian;Church of;Église de;Kirche von;;Iglesia de;;;;;;;;;x
+temple_county_christian;Principality;Principauté;Fürstentum;;Principado;;;;;;;;;x
+temple_county_of_christian;Principality of;Principauté de;Fürstentum von;;Principado de;;;;;;;;;x
+temple_duchy_christian;Principality;Principauté;Fürstentum;;Principado;;;;;;;;;x
+temple_duchy_of_christian;Principality of;Principauté de;Fürstentum von;;Principado de;;;;;;;;;x
+
+# JEWISH GROUP OVERRIDES
+temple_barony_jewish_group;Synagogue;;;;;;;;;;;;;x
+temple_barony_of_jewish_group;Synagogue of;Synagogue de;Synagogue von;;Synagogue de;;;;;;;;;x
+temple_county_jewish_group;Nafa;;;;;;;;;;;;;x
+temple_county_of_jewish_group;Nafa of;Nafa de;Nafa von;;Nafa of;;;;;;;;;x
+temple_duchy_jewish_group;Mahoz;;;;;;;;;;;;;x
+temple_duchy_of_jewish_group;Mahoz of;Mahoz de;Mahoz von;;Mahoz of;;;;;;;;;x
+temple_kingdom_jewish_group;Mamlacha;;;;;;;;;;;;;x
+temple_kingdom_of_jewish_group;Mamlacha of;Mamlacha de;Mamlacha of;;Mamlacha of;;;;;;;;;x
+
+# ZOROASTRIAN GROUP OVERRIDES
+temple_barony_zoroastrian_group;Atashkada;Atashkada;Atashkada;;Atashkada;;;;;;;;;x
+temple_barony_of_zoroastrian_group;Atashkada of;Atashkada de;Atashkada von;;Atashkada de;;;;;;;;;x
+temple_county_zoroastrian_group;Atash i-Adaran;;;;;;;;;;;;;x
+temple_county_of_zoroastrian_group;Atash i-Adaran of;Atash i-Adaran de;Atash i-Adaran von;;Atash i-Adaran del jeque de;;;;;;;;;x
+temple_duchy_zoroastrian_group;Atash i-Vahram;;;;;;;;;;;;;x
+temple_duchy_of_zoroastrian_group;Atash i-Vahram of;Atash i-Vahram de;Atash i-Vahram von;;Atash i-Vahram de;;;;;;;;;x
+temple_kingdom_zoroastrian_group;Atash i-Shahdom;;;;;;;;;;;;;x
+temple_kingdom_of_zoroastrian_group;Atash i-Shahdom of;Atash i-Shahdom de;Atash i-Shahdom von;;Atash i-Shahdom de;;;;;;;;;x
+temple_empire_zoroastrian_group;Atash i-Shahanshahdom;;;;;;;;;;;;;x
+temple_empire_of_zoroastrian_group;Atash i-Shahanshahdom of;Atash i-Shahanshahdom de;Atash i-Shahanshahdom von;;Atash i-Shahanshahdom de;;;;;;;;;x
+
+# DRUZE OVERRIDES
+temple_barony_druze;Khalwat;Khalwat;Khalwat;;Khalwat;;;;;;;;;x
+temple_barony_of_druze;Khalwat of;Khalwat de;Khalwat von;;Khalwat de;;;;;;;;;x
+temple_county_druze;Khalwat;;;;;;;;;;;;;x
+temple_county_of_druze;Khalwat of;Khalwat de;Khalwat von;;Khalwat de;;;;;;;;;x
+temple_duchy_druze;Grand Khalwat;;;;;;;;;;;;;x
+temple_duchy_of_druze;Grand Khalwat of;Grand Khalwat de;Grand Khalwat von;;Grand Khalwat de;;;;;;;;;x
+temple_kingdom_druze;Ajawidh;;;;;;;;;;;;;x
+temple_kingdom_of_druze;Ajawidh of;Ajawidh de;Ajawidh von;;Ajawidh de;;;;;;;;;x
+temple_empire_of_druze;Sacred Ajawidh of;Sacré Ajawidh de;Heiliges Ajawidh von;;Sagrado Ajawidh de;;;;;;;;;x
+
+# MANICHEAN OVERRIDES
+temple_barony_manichean;Bishopric;Bishopric;Bishopric;;Bishopric;;;;;;;;;x
+temple_barony_of_manichean;Bishopric of;Bishopric of;Bishopric of;;Bishopric of;;;;;;;;;x
+
+# ORTHODOX OVERRIDES
+temple_barony_orthodox;Eparchy;Éparchie;Eparchie;;Eparquía;;;;;;;;;x
+temple_barony_of_orthodox;Eparchy of;Éparchie de;Eparchie von;;Eparquía de;;;;;;;;;x
+temple_couny_orthodox;Metropolite;Métropolite;Metropoliten;Metropolita;;;;;;;;;x
+temple_county_of_orthodox;Metropolite of;Métropolite de;Metropoliten von;;Metropolita de;;;;;;;;;x
+temple_duchy_orthodox;Exarchate;Exarchat;Exarchat;;Exarcado;;;;;;;;;x
+temple_duchy_of_orthodox;Exarchate of;Exarchat de;Exarchat von;;Exarcado de;;;;;;;;;x

@@ -1,0 +1,37 @@
+# Celtic Pagan
+job_spiritual_celtic_pagan;Fáidh;;;;;;;;;;;;;x
+job_spiritual_celtic_pagan_reformed;Fáidh;;;;;;;;;;;;;x
+job_spiritual_female_celtic_pagan;Banfháidh;;;;;;;;;;;;;x
+job_spiritual_female_celtic_pagan_reformed;Banfháidh;;;;;;;;;;;;;x
+city_job_spiritual_celtic_pagan;Fáidh;;;;;;;;;;;;;x
+city_job_spiritual_celtic_pagan_reformed;Fáidh;;;;;;;;;;;;;x
+city_job_spiritual_female_celtic_pagan;Banfháidh;;;;;;;;;;;;;x
+city_job_spiritual_female_celtic_pagan_reformed;Banfháidh;;;;;;;;;;;;;x
+nomad_job_spiritual_celtic_pagan;Fáidh;;;;;;;;;;;;;x
+nomad_job_spiritual_celtic_pagan_reformed;Fáidh;;;;;;;;;;;;;x
+nomad_job_spiritual_female_celtic_pagan;Banfháidh;;;;;;;;;;;;;x
+nomad_job_spiritual_female_celtic_pagan_reformed;Banfháidh;;;;;;;;;;;;;x
+tribal_job_spiritual_celtic_pagan;Fáidh;;;;;;;;;;;;;x
+tribal_job_spiritual_celtic_pagan_reformed;Fáidh;;;;;;;;;;;;;x
+tribal_job_spiritual_female_celtic_pagan;Banfháidh;;;;;;;;;;;;;x
+tribal_job_spiritual_female_celtic_pagan_reformed;Banfháidh;;;;;;;;;;;;;x
+temple_baron_celtic_pagan;Druid;Druide;Druide;;Druida;;;;;;;;;x
+temple_baron_celtic_pagan_reformed;Druid;Druide;Druide;;Druida;;;;;;;;;x
+temple_baron_female_celtic_pagan;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+temple_baron_female_celtic_pagan_reformed;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+temple_count_celtic_pagan;Druid;Druide;Druide;;Druida;;;;;;;;;x
+temple_count_celtic_pagan_reformed;Druid;Druide;Druide;;Druida;;;;;;;;;x
+temple_count_female_celtic_pagan;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+temple_count_female_celtic_pagan_reformed;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
+temple_duke_celtic_pagan;Head Druid;Druide supérieur;Hauptdruide;;Cabeza Druidesa;;;;;;;;;x
+temple_duke_celtic_pagan_reformed;Head Druid;Druide supérieur;Hauptdruide;;Cabeza Druidesa;;;;;;;;;x
+temple_duke_female_celtic_pagan;Head Druidess;Druidesse Supérieure;Hauptdruidin;;Cabeza Druidesa;;;;;;;;;x
+temple_duke_female_celtic_pagan_reformed;Head Druidess;Druidesse Supérieure;Hauptdruidin;;Cabeza Druidesa;;;;;;;;;x
+temple_king_celtic_pagan;Great Druid;Grand Druide;Großdruide;;Gran Druida;;;;;;;;;x
+temple_king_celtic_pagan_reformed;Great Druid;Grand Druide;Großdruide;;Gran Druida;;;;;;;;;x
+temple_king_female_celtic_pagan;Great Druidess;Grande Druidesse;Großdruidin;;Gran Druidesa;;;;;;;;;x
+temple_king_female_celtic_pagan_reformed;Great Druidess;Grande Druidesse;Großdruidin;;Gran Druidesa;;;;;;;;;x
+temple_emperor_celtic_pagan;Myrdynn;;;;;;;;;;;;;x
+temple_emperor_female_celtic_pagan;Myrdynn;;;;;;;;;;;;;x
+temple_emperor_celtic_pagan_reformed;Myrdynn;;;;;;;;;;;;;x
+temple_emperor_female_celtic_pagan_reformed;Myrdynn;;;;;;;;;;;;;x

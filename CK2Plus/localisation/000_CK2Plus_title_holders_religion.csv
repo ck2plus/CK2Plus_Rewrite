@@ -1,0 +1,76 @@
+# CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#####################
+#
+#	Plus Title Holders (Religion)
+#	NOTE: Religious title overrides should be limited to non-secular titles
+#
+#####################
+
+# CHRISTIAN GROUP OVERRIDES
+temple_emperor_christian;Emperor-Bishop;Empereur-Évêque;Kaiser-Bischof;;Emperador-obispo;;;;;;;;;x
+temple_king_christian;King-Bishop;Roi-Évêque;König-Bischof;;Rey-obispo;;;;;;;;;x
+temple_duke_christian;Prince-Archbishop;Prince-Archevêque;Prinz-Erzbischof;;Príncipe arzobispo;;;;;;;;;x
+temple_count_christian;Prince-Bishop;Prince-Évêque;Prinz-Bischof;;Príncipe obispo;;;;;;;;;x
+temple_baron_christian;Bishop;Évêque;Bischof;;Obispo;;;;;;;;;x
+temple_emperor_female_christian;Empress-Bishop;Impératrice-Évêque;Kaiserin-Bischof;;Emperatriz-obispo;;;;;;;;;x
+temple_king_female_christian;Queen-Bishop;Reine-Évêque;Königin-Bischof;;Reina-obispo;;;;;;;;;x
+temple_duke_female_christian;Princess-Archbishop;Princesse-Archevêque;Prinzessin-Erzbischof;;Princesa arzobispo;;;;;;;;;x
+temple_count_female_christian;Princess-Bishop;Princesse-Évêque;Prinzessin-Bischof;;Princesa obispo;;;;;;;;;x
+temple_baron_female_christian;Bishop;Évêque;Bischof;;Obispo;;;;;;;;;x
+
+# JEWISH GROUP OVERRIDES
+temple_baron_jewish_group;Rabbi;;;;;;;;;;;;;x
+temple_baron_female_jewish_group;Rabbi;;;;;;;;;;;;;x
+temple_count_jewish_group;Maran;;;;;;;;;;;;;x
+temple_count_female_jewish_group;Maran;;;;;;;;;;;;;x
+temple_duke_jewish_group;Rabban;;;;;;;;;;;;;x
+temple_duke_female_jewish_group;Rabban;;;;;;;;;;;;;x
+temple_king_jewish_group;Ba'al Shem;;;;;;;;;;;;;x
+temple_king_female_jewish_group;Ba'alah Shem;;;;;;;;;;;;;x
+temple_emperor_jewish_group;Kohen Gadol;;;;;;;;;;;;;x
+temple_emperor_female_jewish_group;Kohen Gadol;;;;;;;;;;;;;x
+
+# ZOROASTRIAN GROUP OVERRIDES
+temple_baron_zoroastrian_group;Herbad;;;;;;;;;;;;;x
+temple_count_zoroastrian_group;Mobad;;;;;;;;;;;;;x
+temple_duke_zoroastrian_group;Dastur;;;;;;;;;;;;;x
+temple_king_zoroastrian_group;Dastur i-Shah;;;;;;;;;;;;;x
+temple_emperor_zoroastrian_group;Shahanshah;;;;;;;;;;;;;x
+
+# SPECIFIC CHRISTIAN OVERRIDES
+# Orthodox
+temple_baron_orthodox;Eparch;Éparque;Eparchen;;Eparca;;;;;;;;;x
+temple_count_orthodox;Metropolitan;Métropolitain;Metropolit;;Metropolitano;;;;;;;;;x
+temple_duke_orthodox;Exarch;Exarque;Exarchen;;Exarca;;;;;;;;;x
+temple_king_orthodox;Patriarch;Patriarcat;Patriarchat;;Patriarcado;;;;;;;;;x
+# Bogomilist
+temple_count_bogomilist;Disciple;Disciple;Disciple;;Disciple;;;;;;;;;x
+temple_duke_bogomilist;Apostle;Apostle;Apostle;;Apostle;;;;;;;;;x
+temple_king_bogomilist;King-Apostle;King-Apostle;King-Apostle;;King-Apostle;;;;;;;;;x
+
+# SPECIFIC PAGAN OVERRIDES
+# Norse Pagan
+temple_baron_norse_pagan;Godi;;;;;;;;;;;;;x
+temple_baron_female_norse_pagan;Gydja;;;;;;;;;;;;;x
+temple_baron_norse_pagan_reformed;Godi;;;;;;;;;;;;;x
+temple_baron_female_norse_pagan_reformed;Gydja;;;;;;;;;;;;;x
+temple_duke_norse_pagan;Hofgoði;;;;;;;;;;;;;x
+temple_duke_norse_pagan_reformed;Hofgoði;;;;;;;;;;;;;x
+temple_duke_female_norse_pagan;Hofgyðja;;;;;;;;;;;;;x
+temple_duke_female_norse_pagan_reformed;Hofgyðja;;;;;;;;;;;;;x
+temple_king_norse_pagan;Allsherjargoði;;;;;;;;;;;;;x
+temple_king_norse_pagan_reformed;Allsherjargoði;;;;;;;;;;;;;x
+temple_king_female_norse_pagan;Allsherjargyðja;;;;;;;;;;;;;x
+temple_king_female_norse_pagan_reformed;Allsherjargyðja;;;;;;;;;;;;;x
+# West African;;;;;;;;;;;;;;x
+temple_king_west_african_pagan;Hierophant;Hiérophante;Hierophant;;Hierofante;;;;;;;;;x
+# Actually hellenic
+temple_baron_hellenic_pagan;Iereús;;;;;;;;;;;;;x
+temple_baron_female_hellenic_pagan;Hiereús;;;;;;;;;;;;;x
+
+# SPECIFIC ZOROASTRIAN OVERRIDES
+temple_baron_mandaean;Tarmid;;;;;;;;;;;;;x
+temple_baron_manichean;Bishop;Évêque;Bischof;;Obispo;;;;;;;;;x
+temple_count_manichean;High Bishop;Grand Évêque;Hoher Bischof;;Alto Obispo;;;;;;;;;x
+temple_king_manichean;High Disciple;Haut Disciple;Hoher Schüler;;Alto Discípulo;;;;;;;;;x

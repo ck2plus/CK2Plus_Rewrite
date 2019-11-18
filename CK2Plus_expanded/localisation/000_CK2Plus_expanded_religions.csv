@@ -90,90 +90,6 @@ expected_next_title_senior_druid;Expected next Senior Druid;Prochain Senior Drui
 #expected_next_title_senior_druid;Expected next Senior [GetDruidMaleFemale];Prochain Senior Druide attendu;;;;;;;;;;;;x
 expected_next_title_senior_druid_tooltip;This druid is probably the next member of the Circle, once a position becomes available;Ce druide est probablement le prochain membre du Cercle, dés qu'un siège sera vacant.;;;;;;;;;;;;x
 
-# Job titles
-job_spiritual_celtic_pagan;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
-job_spiritual_celtic_pagan_reformed;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
-job_spiritual_female_celtic_pagan;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
-job_spiritual_female_celtic_pagan_reformed;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
-city_job_spiritual_celtic_pagan;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
-city_job_spiritual_celtic_pagan_reformed;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
-city_job_spiritual_female_celtic_pagan;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
-city_job_spiritual_female_celtic_pagan_reformed;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
-nomad_job_spiritual_celtic_pagan;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
-nomad_job_spiritual_celtic_pagan_reformed;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
-nomad_job_spiritual_female_celtic_pagan;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
-nomad_job_spiritual_female_celtic_pagan_reformed;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
-tribal_job_spiritual_celtic_pagan;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
-tribal_job_spiritual_celtic_pagan_reformed;Fáidh;Fáidh;Fáidh;;Fáidh;;;;;;;;;x
-tribal_job_spiritual_female_celtic_pagan;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
-tribal_job_spiritual_female_celtic_pagan_reformed;Banfháidh;Banfháidh;Banfháidh;;Banfháidh;;;;;;;;;x
-
-# Landed titles
-temple_baron_celtic_pagan;Druid;Druide;Druide;;Druida;;;;;;;;;x
-temple_baron_celtic_pagan_reformed;Druid;Druide;Druide;;Druida;;;;;;;;;x
-temple_baron_female_celtic_pagan;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
-temple_baron_female_celtic_pagan_reformed;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
-
-temple_barony_celtic_pagan;Sacred Grove;Bosquet sacré;Sakrales Hain;;Arboleda sagrada;;;;;;;;;x
-temple_barony_celtic_pagan_reformed;Sacred Grove;Bosquet sacré;Sakrales Hain;;Arboleda sagrada;;;;;;;;;x
-temple_barony_of_celtic_pagan;Sacred Grove of;Bosquet sacré de;Sakrales Hain von;;Arboleda sagrada de;;;;;;;;;x
-temple_barony_of_celtic_pagan_reformed;Sacred Grove of;Bosquet sacré de;Sakrales Hain von;;Arboleda sagrada de;;;;;;;;;x
-
-barony_celtic_pagan;Dún;;;;;;;;;x
-barony_celtic_pagan_reformed;Dún;;;;;;;;;x
-barony_of_celtic_pagan;Dún of;;;;;;;;;x
-barony_of_celtic_pagan_reformed;Dún of;;;;;;;;;x
-
-city_barony_celtic_pagan;Cathair;;;;;;;;;x
-city_barony_celtic_pagan_reformed;Cathair;;;;;;;;;x
-city_barony_of_celtic_pagan;Cathair of;;;;;;;;;x
-city_barony_of_celtic_pagan_reformed;Cathair of;;;;;;;;;x
-
-county_celtic_pagan;Baile;;;;;;;;;x
-county_celtic_pagan_reformed;Baile;;;;;;;;;x
-county_of_celtic_pagan;Baile of;;;;;;;;;x
-county_of_celtic_pagan_reformed;Baile of;;;;;;;;;x
-
-temple_count_celtic_pagan;Druid;Druide;Druide;;Druida;;;;;;;;;x
-temple_count_celtic_pagan_reformed;Druid;Druide;Druide;;Druida;;;;;;;;;x
-temple_count_female_celtic_pagan;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
-temple_count_female_celtic_pagan_reformed;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
-
-temple_county_celtic_pagan;Temple;Temple;Tempel;;Templo;;;;;;;;;x
-temple_county_celtic_pagan_reformed;Temple;Temple;Tempel;;Templo;;;;;;;;;x
-temple_county_of_celtic_pagan;Temple of;Temple de;Tempel von;;Templo de;;;;;;;;;x
-temple_county_of_celtic_pagan_reformed;Temple of;Temple de;Tempel von;;Templo de;;;;;;;;;x
-
-temple_duke_celtic_pagan;Head Druid;Druide supérieur;Hauptdruide;;Cabeza Druidesa;;;;;;;;;x
-temple_duke_celtic_pagan_reformed;Head Druid;Druide supérieur;Hauptdruide;;Cabeza Druidesa;;;;;;;;;x
-temple_duke_female_celtic_pagan;Head Druidess;Druidesse Supérieure;Hauptdruidin;;Cabeza Druidesa;;;;;;;;;x
-temple_duke_female_celtic_pagan_reformed;Head Druidess;Druidesse Supérieure;Hauptdruidin;;Cabeza Druidesa;;;;;;;;;x
-
-tribal_duchy_celtic;Túath;Túath;Túath;;Túath;;;;;;;;;x
-tribal_duchy_celtic_reformed;Túath;Túath;Túath;;Túath;;;;;;;;;x
-tribal_duchy_of_celtic;Túath of;Túath de;Túath von;;Túath de;;;;;;;;;x
-tribal_duchy_of_celtic_reformed;Túath of;Túath de;Túath von;;Túath de;;;;;;;;;x
-
-kingdom_celtic_pagan;Rígdacht;Rígdacht;Rígdacht;;Rígdacht;;;;;;;;;x
-kingdom_celtic_pagan_reformed;Rígdacht;Rígdacht;Rígdacht;;Rígdacht;;;;;;;;;x
-kingdom_of_celtic_pagan;Rígdacht of;Rígdacht de;Rígdacht von;;Rígdacht de;;;;;;;;;x
-kingdom_of_celtic_pagan_reformed;Rígdacht of;Rígdacht de;Rígdacht von;;Rígdacht de;;;;;;;;;x
-
-temple_king_celtic_pagan;Great Druid;Grand Druide;Großdruide;;Gran Druida;;;;;;;;;x
-temple_king_celtic_pagan_reformed;Great Druid;Grand Druide;Großdruide;;Gran Druida;;;;;;;;;x
-temple_king_female_celtic_pagan;Great Druidess;Grande Druidesse;Großdruidin;;Gran Druidesa;;;;;;;;;x
-temple_king_female_celtic_pagan_reformed;Great Druidess;Grande Druidesse;Großdruidin;;Gran Druidesa;;;;;;;;;x
-
-temple_kingdom_celtic_pagan;Federation;Fédération;Föderation;;Federación;;;;;;;;;x
-temple_kingdom_celtic_pagan_reformed;Federation;Fédération;Föderation;;Federación;;;;;;;;;x
-temple_kingdom_of_celtic_pagan;Federation of;Fédération de;Föderation von;;Federación de;;;;;;;;;x
-temple_kingdom_of_celtic_pagan_reformed;Federation of;Fédération de;Föderation von;;Federación de;;;;;;;;;x
-
-temple_empire_celtic_pagan;Nation;Nation;Nation;;Nación;;;;;;;;;x
-temple_empire_celtic_pagan_reformed;Nation;Nation;Nation;;Nación;;;;;;;;;x
-temple_empire_of_celtic_pagan;Sacred Realm of;Sacré Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
-temple_empire_of_celtic_pagan_reformed;Sacred Realm of;Sacré Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
-
 # Artifacts
 crown_celtic_fylkir;Crown of Oak;Couronne de chêne;Eichenkrone;;Corona de roble;;;;;;;;;x
 crown_celtic_fylkir_desc;The sacred crown worn by the reigning Archdruid, head of the Gentlidecht faith.;La couronne sacrée portée par l'Archidruide régnant, chef de la foi de Gentlidecht.;Die heilige Krone des regierenden Erzdruiden, Oberhaupt des Gentlidecht-Glaubens.;;La corona sagrada llevada por el reinado Arzodruida, cabeza de la fe Gentlidecht.;;;;;;;;;x
@@ -189,4 +105,4 @@ expelled_d_keepers_tirnanog;Expelled the Keepers of Tír na nÓg;Gardiens du Tír n
 
 # Customizable localisatoin
 String_Celtic_Follower;Celtic follower;celtique;Anhänger des keltischen Glaubens;;Seguidor céltico;;;;;;;;;x
-String_Celtic;Celt;celte;Kelt;;celta;;;;;;;;;x
+String_Celtic;Celt;Celte;Kelt;;Celta;;;;;;;;;x

@@ -1,0 +1,61 @@
+# CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#####################
+#
+#	Plus Title Types
+#
+#####################
+
+# SPECIAL LOCALIZATION KEYS
+TRIBAL_NAME_PROV;Village of $PROV$;Village de $PROV$;Dorf von $PROV$;;Pueblo de $PROV$;;;;;;;;;;x
+TRIBAL_NAME_PROV_CLAN;Village of $PROV$;Village de $PROV$;Dorf von $PROV$;;Pueblo de $PROV$;;;;;;;;;;x
+
+# DEFAULT BARONY
+barony;Castle;Château;Schloss;;Castillo;;;;;;;;;x
+barony_of;Castle;Château;Schloss;;Castillo;;;;;;;;;x
+city_barony;City;Ville;Stadt;;Ciudad;;;;;;;;;x
+city_barony_of;City of;Ville de;Stadt von;;Ciudad de;;;;;;;;;x
+temple_barony;Temple;Temple;Tempel;;Templo;;;;;;;;;x
+temple_barony_of;Temple of;Temple de;Tempel von;;Templo de;;;;;;;;;x
+tribal_barony_of;Village of;Village de;Dorf von;;Pueblo de;;;;;;;;;;x
+tribal_barony;Village;Village;Dorf;;Pueblo;;;;;;;;;;x
+
+# DEFAULT COUNTY
+county;County;Comté;Bezirk;;Condado;;;;;;;;;x
+county_of;County of;Comté de;Bezirk von;;Condado de;;;;;;;;;x
+city_county;Grand City;Grande Ville;Großartige Stadt;;Gran Ciudad;;;;;;;;;x
+city_county_of;Grand City of; Grande Ville de;Großartige Stadt von;;Gran Ciudad de;;;;;;;;;x
+temple_county;Grand Temple;Grand Temple;Großartiger Tempel;;Gran Templo;;;;;;;;;x
+temple_county_of;Grand Temple of;Grand Temple de;Großartiger Tempel von;;Gran Templo de;;;;;;;;;x
+tribal_county;Chiefdom;Chefferie;Stamm;;Cacicazgo;;;;;;;;;x
+tribal_county_of;Chiefdom of;Chefferie de;Häuptling von;;Cacicazgo de;;;;;;;;;x
+
+# DEFAULT DUCHY
+duchy;Duchy;Duché;Herzogtum;;Ducado;;;;;;;;;x
+duchy_of;Duchy of;Duché de;Herzogtum von;;Ducado de;;;;;;;;;x
+city_duchy;Republic;République;Republik;República;;;;;;;;;x
+city_duchy_of;Republic of;République de;Republik von;República de;;;;;;;;;x
+temple_duchy;Theocracy;Théocratie;Theokratie;;Teocracia;;;;;;;;;x
+temple_duchy_of;Theocracy of;Théocratie de;Theokratie von;;Teocracia de;;;;;;;;;x
+tribal_duchy;High Chiefdom;Haute Chefferie;Oberhäuptling;Alto Cacicazgo;;;;;;;;;x
+tribal_duchy_of;High Chiefdom of;Haute Chefferie de;Oberhäuptling von;Alto Cacicazgo de;;;;;;;;;x
+
+# DEFAULT KINGDOM
+kingdom;Kingdom;Royaume;Königreich;Reino;;;;;;;;;x
+kingdom_of;Kingdom of;Royaume de;Königreich von;Reino de;;;;;;;;;x
+city_kingdom;Federation;Fédération;Föderation;;Federación;;;;;;;;;x
+city_kingdom_of;Federation of;Fédération de;Föderation von;;Federación de;;;;;;;;;x
+temple_kingdom;Holy Kingdom;Royaume Sacré;Heiliges Königreich;;Reino Santo;;;;;;;;;x
+temple_kingdom_of;Holy Kingdom of;Royaume Sacré de;Heiliges Königreich von;;Reino Santo de;;;;;;;;;x
+tribal_kingdom;Kingdom;Royaume;Königreich;Reino;;;;;;;;;x
+tribal_kingdom_of;Kingdom of;Royaume de;Königreich von;Reino de;;;;;;;;;x
+
+# Default Empire
+empire;Empire;Empire;Reich;;Imperio;;;;;;;;;x
+empire_of;Empire of;Empire de;Reich von;;Imperio de;;;;;;;;;x
+city_empire;Confederation;Confédération;Konföderation;;Confederación;;;;;;;;;x
+city_empire_of;Confederation of;Confédération de;Konföderation von;;Confederación de;;;;;;;;;x
+temple_empire;Holy Empire;Saint Empire;Heiliges Reich;;Sacro Imperio;;;;;;;;;x
+temple_empire_of;Holy Empire of;Saint Empire de;Heiliges Reich von;;Sacro Imperio de;;;;;;;;;x
+tribal_empire;High Kingdom;Haut Royaume;Hohes Königreich;;Reino Alto;;;;;;;;;x
+tribal_empire_of;High Kingdom of;Haut Royaume de;Hohes Königreich von;;Reino Alto de;;;;;;;;;x

@@ -1,0 +1,154 @@
+# CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+####################################
+#
+#	Plus Title Holders (Individual Cultures)
+#
+####################################
+
+# ARMENIAN OVERRIDES
+duke_armenian;Melik;;;;;;;;;;;;;x
+duke_female_armenian;Melika;;;;;;;;;;;;;x
+
+# BRETON OVERRIDES
+city_king_breton;Tribune;Tribun;Volkstribun;;Tribuno;;;;;;;;;x
+
+# BULGARIAN OVERRIDES
+count_bulgarian;Boyar;Boyard;Bojare;;Boyardo;;;;;;;;;x
+duke_bulgarian;Grand Boyar;Grand-Boyard;Großen Bojare;;Gran Boyardo;;;;;;;;;x
+king_bulgarian;Grand Prince;Grand Prince;Großfürst;;Grand Prince;;;;;;;;;x
+king_female_bulgarian;Grand Princess;Grande Princesse;Großfürstin;;Gran Princesa;;;;;;;;;x
+city_duke_bulgarian;Voyvoda;;;;;;;;;;;;;x
+city_king_bulgarian;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_bulgarian;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+emperor_bulgarian;Tsar;;;;;;;;;;;;;x
+emperor_female_bulgarian;Tsaritsa;;;;;;;;;;;;;x
+
+# CUMAN OVERRIDES
+baron_cuman;Taishi;;;;;;;;;;;;;x
+
+# DAJU OVERRIDES
+king_daju;Bugur;;;;;;;;;;;;;x
+tribal_king_daju;Bugur;;;;;;;;;;;;;x
+
+# ENGLISH OVERRIDES
+baron_english;Baron;Baron;Baron;;Barón;;;;;;;;;;;;;x
+baron_female_english;Baroness;Baronne;Baronin;;Baronesa;;;;;;;;;;;;;x
+count_english;Earl;;;;;;;;;;;;;x
+city_emperor_english;Lord Protector;Seigneur Protecteur;Herr Beschützer;;Señor Protector;;;;;;;;;x
+
+# GERMAN OVERRIDES
+city_emperor_german;High Chancellor;Grand Chancelier;Großkanzler;;Gran Canciller;;;;;;;;;x
+
+# GREEK OVERRIDES
+count_greek;Komes;;;;;;;;;;;;;x
+count_female_greek;Komissa;;;;;;;;;;;;;x
+duke_greek;Doux;;;;;;;;;;;;;x
+city_king_greek;Grand Archon;Grand Archonte;Großartiger Archon;;Gran Arconte;;;;;;;;;x
+king_greek;Despot;Despote;Despot;;Déspota;;;;;;;;;x
+king_female_greek;Despotess;Despotess;Despotin;;Desprecio;;;;;;;;;x
+
+# ITALIAN OVERRIDES
+city_duke_italian;Doge;;;;;;;;;;;;;x
+city_king_italian;Grand Doge;;;;;;;;;;;;;x
+
+# KHAZAR OVERRIDES
+baron_khazar;Taishi;;;;;;;;;;;;;x
+
+# MONGOL OVERRIDES
+baron_mongol;Taishi;;;;;;;;;;;;;x
+
+# NORMAN OVERRIDES
+city_duke_norman;First Mayor;Premier Maire;Erster Bürgermeister;;Primer Alcalde;;;;;;;;;x
+city_king_norman;Chancellor;Chancellier;Kanzler;;Canciller;;;;;;;;;x
+city_emperor_norman;Grand Chancellier;Grand Chancelier;Grand Chancelier;;Grand Chancelier;;;;;;;;;x
+
+# NORSE OVERRIDES
+city_duke_norse;Prince;Prince;Prinz;;Príncipe;;;;;;;;;x
+city_king_norse;Grand Prince;Grand Prince;Großtyrann;;Gran Príncipe;;;;;;;;;x
+city_king_female_norse;Grand Princess;Grande Princesse;Großfürstin;;Gran Princesa;;;;;;;;;x
+
+# PECHENEG OVERRIDES
+baron_pecheneg;Taishi;;;;;;;;;;;;;x
+
+# POLISH OVERRIDES
+family_palace_baron_polish;Magnate;Magnat;Magnat;;Magnate;;;;;;;;;x
+
+# ROMAN OVERRIDES
+family_palace_baron_roman;Pater Familias;;;;;;;;;;;;;x
+family_palace_baron_female_roman;Mater Familias;;;;;;;;;;;;;x
+baron_roman;Eques;;;;;;;;;;;;;x
+baron_female_roman;Domina;;;;;;;;;;;;;x
+count_roman;Legatus;;;;;;;;;;;;;x
+count_female_roman;Legata;;;;;;;;;;;;;x
+duke_roman;Legatus Augusti;;;;;;;;;;;;;x
+duke_female_roman;Legata Augusti;;;;;;;;;;;;;x
+king_roman;Rex;;;;;;;;;;;;;x
+king_female_roman;Regina;;;;;;;;;;;;;x
+emperor_roman;Imperator;;;;;;;;;;;;;x
+emperor_female_roman;Imperatrix;;;;;;;;;;;;;x
+city_baron_roman;Praefectus;;;;;;;;;;;;;x
+city_count_roman;Praefectus Urbanus;;;;;;;;;;;;;x
+city_duke_roman;Proconsul;;;;;;;;;;;;;x
+city_king_roman;Consul;;;;;;;;;;;;;x
+city_emperor_roman;Dictator;;;;;;;;;;;;;x
+
+# SAXON OVERRIDES (anglo-saxon)
+title_prince_saxon;Ætheling;;;;;;;;;;;;;x
+title_prince_female_saxon;Æthelmægden;;;;;;;;;;;;;x
+tribal_title_prince_saxon;Ætheling;;;;;;;;;;;;;x
+tribal_title_prince_female_saxon;Æthelmægden;;;;;;;;;;;;;x
+family_palace_baron_saxon;Magnate;Magnat;Magnat;;Magnate;;;;;;;;;x
+baron_saxon;Baron;Baron;Baron;;Barón;;;;;;;;;;;;;x
+baron_female_saxon;Baroness;Baronne;Baronin;;Baronesa;;;;;;;;;;;;;x
+count_saxon;Thegn;;;;;;;;;;;;;x
+count_female_saxon;Thegnwyf;;;;;;;;;;;;;x
+duke_saxon;Eorl;;;;;;;;;;;;;x
+duke_female_saxon;Eorlwyf;;;;;;;;;;;;;x
+emperor_saxon;Bretwalda;Bretwalda;Bretwalda;;Bretwalda;;;;;;;;;x
+emperor_female_saxon;Bretwaldawyf;Bretwaldawyf;Bretwaldawyf;;Bretwaldawyf;;;;;;;;;x
+tribal_emperor_saxon;Bretwalda;Bretwalda;Bretwalda;;Bretwalda;;;;;;;;;x
+tribal_emperor_female_saxon;Bretwaldawyf;Bretwaldawyf;Bretwaldawyf;;Bretwaldawyf;;;;;;;;;x
+city_baron_saxon;Reeve;Reeve;Reeve;;Reeve;;;;;;;;;x
+city_count_saxon;Shire-Reeve;Shire-Reeve;Auenland-Reeve;;Comarca-Reeve;;;;;;;;;x
+tribal_count_saxon;Thegn;;;;;;;;;;;;;x
+tribal_count_female_saxon;Thegnwyf;;;;;;;;;;;;;x
+
+# SCOTTISH OVERRIDES
+city_count_scottish;Lord Provost;Seigneur Prévôt;Herr Propst;;Señor Preboste;;;;;;;;;x
+count_scottish;Thane;;;;;;;;;;;;;x
+count_female_scottish;Thane;;;;;;;;;;;;;x
+duke_scottish;Mormaer;;;;;;;;;;;;;x
+duke_female_scottish;Mormaer;;;;;;;;;;;;;x
+
+# SOMALI OVERRIDES
+baron_somali;Wâli;;;;;;;;;;;;;x
+baron_female_somali;Wâliad;;;;;;;;;;;;;x
+count_somali;Islan;;;;;;;;;;;;;x
+count_female_somali;Islanad;;;;;;;;;;;;;x
+duke_somali;Ughaz;;;;;;;;;;;;;x
+duke_female_somali;Ughazad;;;;;;;;;;;;;x
+king_somali;Sultan;Boqor;;;;;;;;;;;;x
+king_somali_female;Boqorad;;;;;;;;;;;;;x
+
+# TURKISH OVERRIDES
+title_prince_turkish;Sehzade;;;;;;;;;;;;;x
+title_prince_female_turkish;Hatun;;;;;;;;;;;;;x
+emperor_title_queen_mother_female_turkish;Valide;;;;;;;;;;;;;x
+family_palace_baron_turkish;Effendi;;;;;;;;;;;;;x
+baron_turkish;Timariot;;;;;;;;;;;;;x
+count_turkish;Bey;;;;;;;;;;;;;x
+count_female_turkish;Begum;;;;;;;;;;;;;x
+duke_turkish;Beylerbey;;;;;;;;;;;;;x
+duke_female_turkish;Begum;;;;;;;;;;;;;x
+king_turkish;Pasha;;;;;;;;;;;;;x
+king_female_turkish;Pasha;;;;;;;;;;;;;x
+emperor_turkish;Sultan;;;;;;;;;;;;;x
+emperor_female_turkish;Sultana;;;;;;;;;;;;;x
+
+# UGRIGBALTIC OVERRIDES
+city_duke_ugricbaltic;Voivode;Voïvode;Woiwode;;Voïvode;;;;;;;;;x
+
+# WELSH OVERRIDES
+duke_welsh;Prince;Prince;Prinz;;Príncipe;;;;;;;;;x
+duke_female_welsh;Princess;Princesse;Fürstin;;Princesa;;;;;;;;;x
