@@ -16,7 +16,7 @@
 	culture = norse
 }
 1000119004 = {
-	name = "H�ngr"
+	name = "Hængr"
 	culture = norse
 }
 1000119005 = {

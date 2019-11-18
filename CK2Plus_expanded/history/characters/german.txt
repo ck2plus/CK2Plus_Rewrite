@@ -466,7 +466,7 @@
 
 106516 = {
 	name = "Billung"
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 6
 	diplomacy = 8
 	intrigue = 5
@@ -543,7 +543,7 @@
 106521 = {
 	name = "Gertrud"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 8
 	diplomacy = 5
 	intrigue = 4
@@ -987,7 +987,7 @@
 11022 = {
 	name = "Mechthild"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 5
 	diplomacy = 7
 	intrigue = 3
@@ -1325,7 +1325,7 @@
 11063 = {
 	name = "Mechthild"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 4
 	diplomacy = 6
 	intrigue = 7
@@ -1957,9 +1957,8 @@
 }
 
 1280 = {
-	name = "Heinrich"
-	# AKA: Heinrich 'der Fogler'
-	dynasty = 669
+	name = "Heinrich" # Henry 'the Fowler'
+	dynasty = 669  # Liudolfinger
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -1986,7 +1985,7 @@
 1281 = {
 	name = "Mechthild"
 	female = yes
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	martial = 5
 	diplomacy = 8
 	intrigue = 6
@@ -2004,11 +2003,10 @@
 }
 
 1282 = {
-	name = "Otto"
-	# AKA: Otto 'der Grosse'
+	name = "Otto" # Otto 'the Great'
 	dna = rcrfdblvsvv
 	prp = aj000a00000000000000000000000000000000
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 8
 	diplomacy = 7
 	intrigue = 8
@@ -2059,7 +2057,7 @@
 1283 = {
 	name = "Hedwig"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 5
 	diplomacy = 4
 	intrigue = 7
@@ -2080,7 +2078,7 @@
 1284 = {
 	name = "Liutgard"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 5
 	diplomacy = 4
 	intrigue = 8
@@ -2103,7 +2101,7 @@
 
 1286 = {
 	name = "Otto"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 5
 	diplomacy = 4
 	intrigue = 8
@@ -2126,7 +2124,7 @@
 
 1288 = {
 	name = "Otto"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 8
 	diplomacy = 7
 	intrigue = 4
@@ -2148,7 +2146,7 @@
 1289 = {
 	name = "Gerberga"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 6
 	diplomacy = 7
 	intrigue = 5
@@ -2171,7 +2169,7 @@
 
 1290 = {
 	name = "Bruno"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 8
 	diplomacy = 8
 	intrigue = 5
@@ -2208,7 +2206,7 @@
 
 1292 = {
 	name = "Heinrich"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 6
 	diplomacy = 6
 	intrigue = 7
@@ -2233,7 +2231,7 @@
 
 1294 = {
 	name = "Heinrich"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -2261,7 +2259,7 @@
 1295 = {
 	name = "Hedwig"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 4
 	diplomacy = 7
 	intrigue = 8
@@ -2283,7 +2281,7 @@
 
 1296 = {
 	name = "Heinrich"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 6
 	diplomacy = 5
 	intrigue = 4
@@ -2308,7 +2306,7 @@
 1297 = {
 	name = "Gisela"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 6
 	diplomacy = 8
 	intrigue = 6
@@ -2329,7 +2327,7 @@
 
 1298 = {
 	name = "Bruno"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 8
 	diplomacy = 4
 	intrigue = 7
@@ -2731,8 +2729,8 @@
 		birth = yes
 	}
 	996.5.3 = {
-	name = "Gregorius"
-	# AKA: Bruno
+		name = "Gregorius"
+		# AKA: Bruno
 	}
 	999.2.18 = {
 		death = yes
@@ -3514,7 +3512,7 @@
 
 1410 = {
 	name = "Hermann"
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 5
 	diplomacy = 5
 	intrigue = 8
@@ -3536,7 +3534,7 @@
 	name = "Mechthild"
 	# AKA: Matilda 'Mechtildis'
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 7
 	diplomacy = 7
 	intrigue = 6
@@ -3556,7 +3554,7 @@
 
 1412 = {
 	name = "Bernhard"
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 8
 	diplomacy = 4
 	intrigue = 7
@@ -3576,7 +3574,7 @@
 1413 = {
 	name = "Swanhild"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 6
 	diplomacy = 4
 	intrigue = 6
@@ -3597,7 +3595,7 @@
 
 1414 = {
 	name = "Bernhard"
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 8
 	diplomacy = 7
 	intrigue = 4
@@ -3624,7 +3622,7 @@
 1415 = {
 	name = "Ida"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 8
 	diplomacy = 8
 	intrigue = 7
@@ -3645,7 +3643,7 @@
 1416 = {
 	name = "Ordulf"
 	# AKA: Otho Ordulf
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 4
 	diplomacy = 2
 	intrigue = 3
@@ -3676,7 +3674,7 @@
 
 1418 = {
 	name = "Magnus"
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 7
 	diplomacy = 4
 	intrigue = 7
@@ -5138,7 +5136,7 @@
 20207 = {
 	name = "Mechthild"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 5
 	diplomacy = 4
 	intrigue = 6
@@ -9405,7 +9403,7 @@
 		birth = yes
 	}
 	1142.1.1 = {
-	give_nickname = nick_the_lion
+		give_nickname = nick_the_lion
 	}
 	1147.1.2 = {
 		add_spouse = 212601
@@ -12875,7 +12873,7 @@
 30209 = {
 	name = "Hedwig"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 5
 	diplomacy = 8
 	intrigue = 5
@@ -13008,7 +13006,7 @@
 
 30216 = {
 	name = "Hermann"
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 7
 	diplomacy = 4
 	intrigue = 7
@@ -13110,7 +13108,7 @@
 30223 = {
 	name = "Eilika"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 4
 	diplomacy = 7
 	intrigue = 7
@@ -18966,7 +18964,7 @@
 
 41731 = {
 	name = "Hermann"
-	dynasty = 656
+	dynasty = 656 # Billung
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -30171,7 +30169,7 @@
 7638 = {
 	name = "Wulfhilde"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 1418
@@ -31080,8 +31078,8 @@
 }
 
 7908 = {
-	name = "Otto"
-	dynasty = 669
+	name = "Otto" # Otto 'the Illustrious'
+	dynasty = 669 # Liudolfinger
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -31089,8 +31087,8 @@
 	religion = catholic
 	culture = german
 	trait = tough_soldier
-	father = 7959
-	mother = 167765
+	father = 7959 # Liudolf 'the Great'
+	mother = 167765 # Oda Billung
 	851.1.1 = {
 		birth = yes
 	}
@@ -31475,7 +31473,7 @@
 7954 = {
 	name = "Liutgard"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -31483,8 +31481,8 @@
 	religion = catholic
 	culture = german
 	trait = tough_soldier
-	father = 7959
-	mother = 167765
+	father = 7959 # Liudolf 'the Great'
+	mother = 167765 # Oda Billung
 	845.1.1 = {
 		birth = yes
 	}
@@ -31588,9 +31586,8 @@
 }
 
 7959 = {
-	name = "Luidolf"
-	# AKA: Liudolf
-	dynasty = 669
+	name = "Liudolf" # Liudolf 'the Great'
+	dynasty = 669 # Liudolfinger
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -31598,13 +31595,13 @@
 	religion = catholic
 	culture = german
 	trait = tough_soldier
-	father = 167766
-	mother = 167767
-	809.1.1 = {
+	father = 167766 # Bruno III
+	mother = 167767 # Adela
+	805.1.1 = {
 		birth = yes
 	}
 	830.1.1 = {
-		add_spouse = 167765
+		add_spouse = 167765 # Oda Billung
 	}
 	866.1.1 = {
 		death = yes
@@ -31678,7 +31675,7 @@
 
 7964 = {
 	name = "Liudolf"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 5
 	diplomacy = 4
 	intrigue = 8
@@ -31704,7 +31701,7 @@
 
 7965 = {
 	name = "Otto"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	martial = 5
 	diplomacy = 4
 	intrigue = 8
@@ -34412,7 +34409,7 @@
 
 33242 = {
 	name = "Liutger"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 1410
@@ -34430,7 +34427,7 @@
 33243 = {
 	name = "Emma"
 	female = yes
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	father = 33245
@@ -34444,7 +34441,7 @@
 
 33244 = {
 	name = "Immed"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 33242
@@ -34460,7 +34457,7 @@
 
 33245 = {
 	name = "Immed"
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	father = 33246
@@ -34475,7 +34472,7 @@
 
 33246 = {
 	name = "Immed"
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	father = 33247
@@ -34489,7 +34486,7 @@
 
 33247 = {
 	name = "Reginbern"
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	father = 33248
@@ -34503,7 +34500,7 @@
 
 33248 = {
 	name = "Walbert"
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	father = 33249
@@ -34518,7 +34515,7 @@
 
 33249 = {
 	name = "Wigbert"
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	# father = 33250, Widukind
@@ -36822,7 +36819,7 @@
 
 33331 = {
 	name = "Theodorich"
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	father = 33247
@@ -39389,7 +39386,8 @@
 	father = 31799
 	1250.1.1 = {
 		birth = yes
-	}	1307.6.25 = {
+	}
+	1307.6.25 = {
 		death = yes
 	}
 }
@@ -39497,7 +39495,7 @@
 
 33457 = {
 	name = "Liudolf"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = tough_soldier
@@ -39513,7 +39511,7 @@
 
 33458 = {
 	name = "Ekkehard"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = tough_soldier
@@ -39528,7 +39526,7 @@
 
 33459 = {
 	name = "Günther"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = tough_soldier
@@ -39549,7 +39547,7 @@
 
 33460 = {
 	name = "Ekkehard"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = tough_soldier
@@ -39569,7 +39567,7 @@
 
 33461 = {
 	name = "Günzelin"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = tough_soldier
@@ -39587,7 +39585,7 @@
 
 33462 = {
 	name = "Ekkehard"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = tough_soldier
@@ -39604,7 +39602,7 @@
 
 33463 = {
 	name = "Hermann"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = tough_soldier
@@ -44509,7 +44507,7 @@
 }
 
 144955 = {
-	name = "Ludolf"
+	name = "Ludolf" # Ludolf 'the Great'
 	dynasty = 435
 	martial = 6
 	diplomacy = 8
@@ -44517,7 +44515,7 @@
 	stewardship = 7
 	religion = catholic
 	culture = german
-	father = 144957
+	father = 144957 # Bruno
 	870.1.1 = {
 		birth = yes
 	}
@@ -44525,7 +44523,6 @@
 		death = yes
 	}
 }
-
 
 144956 = {
 	name = "Bruno"
@@ -44545,12 +44542,12 @@
 
 144957 = {
 	name = "Bruno"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
-	father = 7959
-	mother = 167765
-	840.1.1 = {
+	father = 7959 # Liudolf 'the Great'
+	mother = 167765 # Oda Billung
+	835.1.1 = {
 		birth = yes
 	}
 	880.2.2 = {
@@ -44805,7 +44802,7 @@
 
 163047 = {
 	name = "Wilhelm"
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = legit_bastard
@@ -49554,10 +49551,12 @@
 }
 
 167750 = {
-	name = "Ekbert"
-	dynasty = 9550
+	name = "Ekbert" # Ekbert II 'le Feal'
+	dynasty = 9550 # Ekbertiner
 	religion = catholic
 	culture = german
+	father = 1000255000 # Ekbert I
+	mother = 1000255001 # Ida
 	756.1.1 = {
 		birth = yes
 	}
@@ -49569,14 +49568,12 @@
 	}
 }
 
-
-
 167751 = {
 	name = "Cobbo"
-	dynasty = 9550
+	dynasty = 9550 # Ekbertiner
 	religion = catholic
 	culture = german
-	father = 167750
+	father = 167750 # Ekbert II 'le Feal'
 	mother = 167754
 	790.1.1 = {
 		birth = yes
@@ -49586,14 +49583,12 @@
 	}
 }
 
-
-
 167752 = {
 	name = "Warin"
-	dynasty = 9550
+	dynasty = 9550 # Ekbertiner
 	religion = catholic
 	culture = german
-	father = 167750
+	father = 167750 # Ekbert II 'le Feal'
 	mother = 167754
 	800.1.1 = {
 		birth = yes
@@ -49603,15 +49598,13 @@
 	}
 }
 
-
-
 167753 = {
 	name = "Ida"
 	female = yes
-	dynasty = 9550
+	dynasty = 9550 # Ekbertiner
 	religion = catholic
 	culture = german
-	father = 167750
+	father = 167750 # Ekbert II 'le Feal'
 	mother = 167754
 	802.1.1 = {
 		birth = yes
@@ -49635,8 +49628,6 @@
 	}
 }
 
-
-
 167756 = {
 	name = "Adalrich"
 	dynasty = 9551
@@ -49654,9 +49645,6 @@
 	}
 }
 
-
-
-
 167757 = {
 	name = "Cobbo"
 	dynasty = 9551
@@ -49672,7 +49660,6 @@
 		death = yes
 	}
 }
-
 
 167758 = {
 	name = "Hedwig"
@@ -49691,11 +49678,9 @@
 	}
 }
 
-
-
 167759 = {
 	name = "Wichmann"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 106516
@@ -49707,11 +49692,9 @@
 	}
 }
 
-
-
 167760 = {
 	name = "Amelung"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 106516
@@ -49725,7 +49708,7 @@
 
 167761 = {
 	name = "Wichmann"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 167759
@@ -49737,10 +49720,9 @@
 	}
 }
 
-
 167762 = {
 	name = "Ekbert"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 167759
@@ -49754,7 +49736,7 @@
 
 167763 = {
 	name = "Billung"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 190463
@@ -49772,7 +49754,7 @@
 167765 = {
 	name = "Oda"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung #
 	religion = catholic
 	culture = german
 	father = 167763
@@ -49787,18 +49769,19 @@
 }
 
 167766 = {
-	name = "Bruno"
-	dynasty = 669
+	name = "Bruno" # Bruno III of Angria
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
-	father = 190457
+	father = 190457 # Bruno II
+	mother = 1000253052 # Hasilda of Westphalia
 	785.1.1 = {
 		birth = yes
 	}
 	807.1.1 = {
-		add_spouse = 167767
+		add_spouse = 167767 # Adela
 	}
-	835.1.1 = {
+	843.1.1 = {
 		death = yes
 	}
 }
@@ -49806,10 +49789,10 @@
 167767 = {
 	name = "Adela"
 	female = yes
-	dynasty = 9550
+	dynasty = 9550 # Ekbertiner
 	religion = catholic
 	culture = german
-	father = 167750
+	father = 167750 # Ekbert II
 	mother = 167754
 	791.1.1 = {
 		birth = yes
@@ -49819,11 +49802,9 @@
 	}
 }
 
-
-
 167768 = {
 	name = "Amelung"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 167763
@@ -49839,7 +49820,7 @@
 
 167769 = {
     name = "Wichmann"
-    dynasty = 656
+    dynasty = 656 # Billung
     religion = catholic
     culture = german
     father = 167763
@@ -49857,7 +49838,7 @@
 
 167770 = {
 	name = "Wichmann"
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 167769
@@ -49873,7 +49854,7 @@
 167771 = {
 	name = "Alberada"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 167768
@@ -49889,7 +49870,7 @@
 167772 = {
 	name = "Hemma"
 	female = yes
-	dynasty = 656
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 167768
@@ -49984,13 +49965,13 @@
 }
 
 167786 = {
-	name = "Edda"
+	name = "Edda" # Oda
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
-	father = 7959
-	mother = 167765
+	father = 7959 # Liudolf 'the Great'
+	mother = 167765 # Oda Billung
 	846.1.1 = {
 		birth = yes
 	}
@@ -50426,7 +50407,6 @@
 	}
 }
 
-
 167817 = {
 	name = "Ida" #real name unknown
 	female = yes
@@ -50443,8 +50423,6 @@
 	}
 }
 
-
-
 167818 = {
 	name = "Ernst"
 	dynasty = 9556
@@ -50459,8 +50437,6 @@
 		death = yes
 	}
 }
-
-
 
 167819 = {
 	name = "Hartwig"
@@ -50491,7 +50467,6 @@
 		death = yes
 	}
 }
-
 
 167821 = {
 	name = "Hartwig"
@@ -50740,7 +50715,7 @@
 
 167838 = {
 	name = "Wigbert"
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	father = 33248
@@ -50754,7 +50729,7 @@
 
 167839 = {
 	name = "Widukind"
-	dynasty = 7282
+	dynasty = 7282 # Immedinger
 	religion = catholic
 	culture = german
 	father = 33247
@@ -52568,7 +52543,7 @@
 168546 = {
 	name = "Liutgard"
 	female = yes
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	father = 33460
@@ -54258,8 +54233,6 @@
 	}
 }
 
-
-
 168776 = {
 	name = "Theodimund"
 	dynasty = 9617
@@ -54274,9 +54247,6 @@
 		death = yes
 	}
 }
-
-
-
 
 168777 = {
 	name = "Amalfrida"
@@ -54296,9 +54266,6 @@
 	}
 }
 
-
-
-
 168778 = {
 	name = "Theodahad"
 	dynasty = 9617
@@ -54313,8 +54280,6 @@
 		death = yes
 	}
 }
-
-
 
 168779 = {
 	name = "Amalaberga"
@@ -54331,8 +54296,6 @@
 		death = yes
 	}
 }
-
-
 
 168780 = {
 	name = "Theudigisel"
@@ -57380,7 +57343,7 @@
 	intrigue = 5
 	learning = 4
 
-	dynasty = 669
+	dynasty = 669 # Liudolfinger
 	religion = catholic
 	culture = german
 	trait = bastard

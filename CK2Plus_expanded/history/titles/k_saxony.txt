@@ -1,10 +1,56 @@
 1.1.1 = {
 	de_jure_liege = e_germany
 }
-740.1.1 = {
-	holder = 190455 #Theoderic
+
+460.1.1 = {
+	holder = 1000253000 # Hartwaker
 }
-781.1.1 = {
+
+480.1.1 = {
+	holder = 1000253001 #Hathwigate
+}
+
+524.1.1 = {
+	holder = 1000253003 # Hulderic
+}
+
+540.1.1 = {
+	holder = 1000253004 # Wiric
+}
+
+545.1.1 = {
+	holder = 1000253005 # Budic
+}
+
+568.1.1 = {
+	holder = 1000253007 # Berthold
+}
+
+633.1.1 = {
+	holder = 1000253008 # Sieghard
+}
+
+691.1.1 = {
+	holder = 1000253010 # Willehari
+}
+
+700.1.1 = {
+	holder = 1000253012 # Theoderic
+}
+
+748.1.1 = {
+	holder = 1000253015 # Ethelhard
+}
+
+757.1.1 = {
+	holder = 1000253014 # Wernicke
+}
+
+768.1.1 = {
+	holder = 1000253020 # Widukind
+}
+
+772.1.1 = {
 	holder = 0
 	active = no
 }

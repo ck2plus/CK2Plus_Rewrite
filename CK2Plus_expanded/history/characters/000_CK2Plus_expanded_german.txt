@@ -1,0 +1,101 @@
+##############
+#
+#	German
+#
+##############
+
+# early ancestors of house Liudolfinger
+
+1000255000 = {
+	name = "Ekbert" # Ekbert I
+	dynasty = 9550 # Ekbertiner
+	religion = catholic
+	culture = german
+	730.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		add_spouse = 1000255001 # Ida
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+
+1000255001 = {
+	name = "Ida"
+	female = yes
+#	dynasty =
+	religion = catholic
+	culture = german
+	730.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+
+# more children of Liudolf 'the Great'
+# another daughter and three sons died young
+
+1000255002 = {
+	name = "Thankmar" # Abbot of Corvey from 877 to 878
+	dynasty = 669 # Liudolfinger
+	religion = catholic
+	culture = german
+	father = 7959 # Liudolf 'the Great'
+	mother = 167765 # Oda Billung
+	839.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+
+1000255003 = {
+	name = "Hathumoda" # first Abbess of Brunshausen from 852
+	female = yes
+	dynasty = 669 # Liudolfinger
+	religion = catholic
+	culture = german
+	father = 7959 # Liudolf 'the Great'
+	mother = 167765 # Oda Billung
+	840.1.1 = {
+		birth = yes
+	}
+	874.11.29 = {
+		death = yes
+	}
+}
+
+1000255004 = {
+	name = "Gerberga" # Abbess of Brunshausen from 874
+	dynasty = 669 # Liudolfinger
+	religion = catholic
+	culture = german
+	father = 7959 # Liudolf 'the Great'
+	mother = 167765 # Oda Billung
+	841.1.1 = {
+		birth = yes
+	}
+	896.9.5 = {
+		death = yes
+	}
+}
+
+1000255005 = {
+	name = "Christina" # Abbess of Gandersheim from 896/97
+	dynasty = 669 # Liudolfinger
+	religion = catholic
+	culture = german
+	father = 7959 # Liudolf 'the Great'
+	mother = 167765 # Oda Billung
+	842.1.1 = {
+		birth = yes
+	}
+	919.4.1 = {
+		death = yes
+	}
+}

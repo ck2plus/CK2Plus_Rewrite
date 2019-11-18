@@ -1,54 +1,59 @@
-190455 = {
-	name = "Theoderic" #duke of Saxony
-	dynasty = 1044105 #Theodericing
-	religion = norse_pagan
-	culture = old_saxon
-	720.1.1 = {
-		birth = yes
-	}
-	781.1.1 = {
-		death = yes
-	}
-}
-
-190456 = {
-	name = "Wichimann" #count of Altmark
-	dynasty = 1044105 #Theodericing
-	religion = norse_pagan
-	culture = old_saxon
-	father = 190455
-	741.1.1 = {
-		birth = yes
-	}
-	781.1.1 = {
-		death = yes
-	}
-}
+#190455 = {
+#	name = "Theoderic" #duke of Saxony
+#	dynasty = 1044105 #Theodericing
+#	religion = norse_pagan
+#	culture = old_saxon
+#	720.1.1 = {
+#		birth = yes
+#	}
+#	781.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#190456 = {
+#	name = "Wichimann" #count of Altmark
+#	dynasty = 1044105 #Theodericing
+#	religion = norse_pagan
+#	culture = old_saxon
+#	father = 190455
+#	741.1.1 = {
+#		birth = yes
+#	}
+#	781.1.1 = {
+#		death = yes
+#	}
+#}
 
 190457 = {
-	name = "Bruno" #count of Brauschweig and Celle
+	name = "Bruno" # Bruno II of Angria
 	dynasty = 669 #Liudolfing
+	father = 1000253050 # Bruno I of Angria
 	religion = norse_pagan
 	culture = old_saxon
-	750.1.1 = {
+	756.1.1 = {
 		birth = yes
 	}
-	803.1.1 = {
+	780.1.1 = {
+		add_spouse = 1000253052 # Hasalda of Westphalia
+	}
+	813.1.1 = {
 		death = yes
 	}
 }
 
 190458 = {
-	name = "Ekbert"
+	name = "Ekbert" # Ekbert II
 	dynasty = 669 #Liudolfing
 	religion = norse_pagan
 	culture = old_saxon
-	father = 190457
+	father = 190457 # Bruno II of
+	mother = 1000253052 # Hasalda of Westphalia
 	769.1.1 = {
 		birth = yes
 	}
 	801.1.1 = {
-		add_spouse = 190448
+		add_spouse = 190448 # Ida Bernhard-Karling
 	}
 	836.1.1 = {
 		death = yes
@@ -60,8 +65,8 @@
 	dynasty = 669 #Liudolfing
 	religion = catholic
 	culture = old_saxon
-	father = 190458
-	mother = 190448
+	father = 190458 # Ekbert
+	mother = 190448 # Ida
 	802.1.1 = {
 		birth = yes
 	}
@@ -75,7 +80,8 @@
 	dynasty = 669 #Liudolfing
 	religion = norse_pagan
 	culture = old_saxon
-	father = 190457
+	father = 190457 # Bruno II
+	mother = 1000253052 # Hasalda of Westphalia
 	789.1.1 = {
 		birth = yes
 	}
@@ -92,7 +98,8 @@
 	dynasty = 669 #Liudolfing
 	religion = catholic
 	culture = old_saxon
-	father = 190457
+	father = 190457 # Bruno II
+	mother = 1000253052 # Hasalda of Westphalia
 	801.1.1 = {
 		birth = yes
 	}

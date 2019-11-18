@@ -39,3 +39,16 @@
 		death = yes
 	}
 }
+
+1000250003 = {
+	name = "Suana" # Suana de Montfort
+#	dynasty =
+	religion = catholic
+	culture = old_frankish
+	785.1.1 = {
+		birth = yes
+	}
+	835.1.1 = {
+		death = yes
+	}
+}

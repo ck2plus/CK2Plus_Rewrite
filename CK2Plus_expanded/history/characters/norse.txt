@@ -1858,7 +1858,7 @@
 
 102500 = {
 	name = "Sigurðr" # "Syr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 6
 	diplomacy = 8
 	intrigue = 7
@@ -1903,7 +1903,7 @@
 
 102502 = {
 	name = "Halfdan"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 8
 	diplomacy = 8
 	intrigue = 4
@@ -1926,7 +1926,7 @@
 102503 = {
 	name = "Þorbjörg"
 	female = yes
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 7
 	diplomacy = 7
 	intrigue = 7
@@ -1994,7 +1994,7 @@
 
 102507 = {
 	name = "Eirikr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 7
 	diplomacy = 5
 	intrigue = 8
@@ -2097,7 +2097,7 @@
 
 102508 = {
 	name = "Haraldr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 7
 	diplomacy = 5
 	intrigue = 5
@@ -2126,7 +2126,7 @@
 102509 = {
 	name = "Bertrada"
 	female = yes
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 8
 	diplomacy = 7
 	intrigue = 5
@@ -2412,7 +2412,7 @@
 
 102526 = {
 	name = "Haraldr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 6
 	diplomacy = 8
 	intrigue = 4
@@ -2435,7 +2435,7 @@
 
 102527 = {
 	name = "Olafr" # den helige
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 7
 	diplomacy = 4
 	intrigue = 6
@@ -2459,7 +2459,7 @@
 
 102529 = {
 	name = "Magnus" # den Gode
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 7
 	diplomacy = 7
 	intrigue = 4
@@ -2526,7 +2526,7 @@
 102544 = {
 	name = "Astrid"
 	female = yes
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 6
 	diplomacy = 8
 	intrigue = 5
@@ -2547,7 +2547,7 @@
 102545 = {
 	name = "Ingibjörg"
 	female = yes
-	dynasty = 499
+	dynasty = 499 # Yngling
 	martial = 8
 	diplomacy = 8
 	intrigue = 7
@@ -2938,7 +2938,7 @@
 
 144000 = {
 	name = "Haraldr" # "Fairhair"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	dna = "bhjaavafacj"
 	properties = "0b00d0"
 	religion = norse_pagan
@@ -3046,7 +3046,7 @@
 	name = "Hakon"
 	dna = bpjkavjfspx
 	prp = 0h00ib00000000000000000000000000000000
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = catholic
 	culture = norse
 	father = 144000
@@ -3093,7 +3093,7 @@
 
 144002 = {
 	name = "Olafr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = catholic
 	culture = norse
 	father = 144000
@@ -3108,7 +3108,7 @@
 
 144003 = {
 	name = "Tryggve"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 144002
@@ -3125,7 +3125,7 @@
 
 144004 = {
 	name = "Olafr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = catholic
 	culture = norse
 	father = 144003
@@ -3140,7 +3140,7 @@
 
 144005 = {
 	name = "Björn"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = catholic
 	culture = norse
 	father = 144000
@@ -3155,7 +3155,7 @@
 
 144006 = {
 	name = "Guðröðr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 144005
@@ -3169,7 +3169,7 @@
 
 144007 = {
 	name = "Sigurdr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = catholic
 	culture = norse
 	father = 144000
@@ -3183,7 +3183,7 @@
 
 144008 = {
 	name = "Halfdan"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 144007
@@ -3196,7 +3196,7 @@
 }
 
 161301 = {
-	name = "Öysteinn"
+	name = "Eysteinn"
 	dynasty = 1043303
 	religion = norse_pagan
 	culture = norse
@@ -3478,7 +3478,7 @@
 161320 = {
 	name = "Rögnhildr"
 	female = yes
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = catholic
 	culture = norse
 	father = 102507
@@ -4362,7 +4362,7 @@
 166045 = {
 	name = "Froði" #Fródi Haraldsson
 	female = yes
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 144000
@@ -5160,8 +5160,8 @@
 }
 
 168316 = {
-	name = "Halfdan"
-	dynasty = 499
+	name = "Halfdan" # Halfdan Hvitbeinn, leader of group of Swedes to settle in Norway https://en.wikipedia.org/wiki/Halfdan_Hvitbeinn
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	705.1.1 = {
@@ -5173,13 +5173,16 @@
 }
 
 168317 = {
-	name = "Öysteinn"
-	dynasty = 499
+	name = "Eysteinn" # Eysteinn Halfdansson, https://en.wikipedia.org/wiki/Eystein_Halfdansson
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168316
 	740.1.1 = {
 		birth = yes
+	}
+	755.1.1 = {
+		add_spouse = 1000254101 # Hild
 	}
 	790.1.1 = {
 		death = yes
@@ -5188,7 +5191,7 @@
 
 168318 = {
 	name = "Guðröðr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168316
@@ -5202,7 +5205,7 @@
 
 168319 = {
 	name = "Halfdan"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168317
@@ -5216,7 +5219,7 @@
 
 168320 = {
 	name = "Guðröðr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168319
@@ -5230,7 +5233,7 @@
 
 168321 = {
 	name = "Olafr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168320
@@ -5244,7 +5247,7 @@
 
 168322 = {
 	name = "Rögnvaldr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168321
@@ -5258,7 +5261,7 @@
 
 168323 = {
 	name = "Halfdan"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	give_nickname = nick_the_black
@@ -5276,7 +5279,7 @@
 
 168324 = {
 	name = "Sigurðr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168323
@@ -5292,7 +5295,7 @@
 
 168325 = {
 	name = "Helgi"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168318
@@ -5306,7 +5309,7 @@
 
 168326 = {
 	name = "Guðröðr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168325
@@ -5320,7 +5323,7 @@
 
 168327 = {
 	name = "Þor"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168326
@@ -5334,7 +5337,7 @@
 
 168328 = {
 	name = "Helgi"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168327
@@ -5347,7 +5350,7 @@
 }
 168329 = {
 	name = "Þor"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168328
@@ -5361,7 +5364,7 @@
 
 168330 = {
 	name = "Olafr"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168326
@@ -5377,8 +5380,8 @@
 }
 
 168331 = {
-	name = "Öysteinn"
-	dynasty = 499
+	name = "Eysteinn"
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168330
@@ -5393,7 +5396,7 @@
 
 168332 = {
 	name = "Þorsteinn"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168330
@@ -5408,7 +5411,7 @@
 
 168333 = {
 	name = "Karl"
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 168330
@@ -8211,7 +8214,7 @@
 261159 = {
 	name = "Ålov"
 	female = yes
-	dynasty = 499
+	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
 	father = 144000
