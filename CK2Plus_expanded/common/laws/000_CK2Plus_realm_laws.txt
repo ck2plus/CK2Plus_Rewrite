@@ -1114,18 +1114,6 @@ laws = {
 				revoke_law = feudal_administration
 			}
 		}
-
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					show_scope_change = no
-					prestige = -2000
-				}
-			}
-		}
 	}
 
 	#################################
@@ -1951,27 +1939,6 @@ laws = {
 				revoke_law = status_of_women_3
 				revoke_law = status_of_women_4
 				law_set_allow_matrilineal_marriage = no
-			}
-		}
-
-		pass_effect = {
-			holder_scope = {
-				if = {
-					limit = {
-						has_game_started = yes
-						OR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					trigger_switch = {
-						on_trigger = tier
-						COUNT = { prestige = -500 }
-						DUKE = { prestige = -1000 }
-						KING = { prestige = -2000 }
-						EMPEROR = { prestige = -4000 }
-					}
-				}
 			}
 		}
 	}

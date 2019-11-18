@@ -477,7 +477,6 @@ succession_laws = {
 					has_game_started = yes
 				}
 				holder_scope = {
-					show_scope_change = no
 					trigger_switch = {
 						on_trigger = tier
 						COUNT = { prestige = -125 }
@@ -491,24 +490,6 @@ succession_laws = {
 
 		effect = {
 			succession = seniority
-		}
-
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					show_scope_change = no
-					trigger_switch = {
-						on_trigger = tier
-						COUNT = { prestige = -125 }
-						DUKE = { prestige = -250 }
-						KING = { prestige = -500 }
-						EMPEROR = { prestige = -1000 }
-					}
-				}
-			}
 		}
 	}
 
