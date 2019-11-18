@@ -1,0 +1,101 @@
+# CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+####################################
+#
+#	Plus Title Types (Individual Cultures)
+#
+####################################
+
+# ARMENIAN OVERRIDES
+duchy_armenian;Melikdom;Melikdome;Meliktum;;Meliko;;;;;;;;;x
+duchy_of_armenian;Melikdom of;Melikdome de;Meliktum von;;Meliko de;;;;;;;;;x
+
+# BULGARIAN OVERRIDES
+county_bulgarian;Boyardom;Boyardome;Bojartum;;Boyardomo;;;;;;;;;x
+county_of_bulgarian;Boyardom of;Boyardome de;Bojartum von;;Boyardomo de;;;;;;;;;x
+duchy_bulgarian;Grand Boyardom;Grand Boyardome;Großen Bojardom;;Gran Boyardomo;;;;;;;;;x
+duchy_of_bulgarian;Grand Boyardom of;Grand Boyardome de;Großen Bojardom von;;Gran Boyardomo de;;;;;;;;;x
+city_kingdom_bulgarian;Grand Republic;Grande République;Großen Republik;Gran República;;;;;;;;;x
+city_kingdom_of_bulgarian;Grand Republic of;Grande République de;Großen Republik;;Gran República de;;;;;;;;;x
+kingdom_bulgarian;Grand Principality;Grande Principauté;Großfürstentum;;Gran Principado;;;;;;;;;x
+kingdom_of_bulgarian;Grand Principality of;Grande Principauté de;Großfürstentum von;;Gran Principado de;;;;;;;;;x
+city_empire_bulgarian;Confederation;Confédération;Konföderation;;Confederación;;;;;;;;;x
+city_empire_of_bulgarian;Confederation of;Confédération de;Konföderation von;;Confederación de;;;;;;;;;x
+
+# CUMAN OVERRIDES
+barony_cuman;Taishi;;;;;;;;;;;;;x
+barony_of_cuman;Taishi of;Taishi de;Taishi von;;Taishi de;;;;;;;;;x
+duchy_of_cuman;High Chiefdom of;Grande chefferie de;Großstamm von;;Alto Cacicazgo de;;;;;;;;;x
+duchy_cuman;High Chiefdom;Grande chefferie;Großstamm;;Alto Cacicazgo;;;;;;;;;x
+
+# ENGLISH OVERRIDES
+barony_english;Barony;Baronnie;Baronie;;Baronía;;;;;;;;;x
+barony_of_english;Barony of;Baronnie de;Baronie von;;Baronía de;;;;;;;;;x
+county_english;Earldom;Earldom;Earldom;;Earldom;;;;;;;;;x
+county_of_english;Earldom of;Earldom de;Earldom von;;Earldom de;;;;;;;;;x
+
+# GREEK OVERRIDES
+kingdom_greek;Despotate;Despotat;Despotate;;Despotado;;;;;;;;;x
+kingdom_of_greek;Despotate of;Despotat de;Despotate von;;Despotado de;;;;;;;;;x
+
+# HUNGARIAN OVERRIDES
+nomadic_kingdom_hungarian;Ország;Ország;Ország;;Ország;;;;;;;;;x
+nomadic_kingdom_of_hungarian;Ország of;Ország of;Ország of;;Ország of;;;;;;;;;x
+
+# IRISH OVERRIDES
+tribal_duchy_irish;Túath;;;;;;;;;;;;;x
+tribal_duchy_of_irish;Túath of;Túath de;Túath von;;Túath de;;;;;;;;;x
+
+# KHAZAR OVERRIDES
+barony_khazar;Taishi;;;;;;;;;;;;;x
+barony_of_khazar;Taishi of;Taishi de;Taishi von;;Taishi de;;;;;;;;;x
+duchy_khazar;High Chiefdom;Grande chefferie;Großstamm;;Alto Cacicazgo;;;;;;;;;x
+duchy_of_khazar;High Chiefdom of;Grande chefferie de;Großstamm von;;Alto Cacicazgo de;;;;;;;;;x
+
+# MONGOL OVERRIDES
+barony_mongol;Taishi;;;;;;;;;;;;;x
+barony_of_mongol;Taishi of;Taishi de;Taishi von;;Taishi de;;;;;;;;;x
+duchy_mongol;High Chiefdom;Grande chefferie;Großstamm;;Alto Cacicazgo;;;;;;;;;x
+duchy_of_mongol;High Chiefdom of;Grande chefferie de;Großstamm von;;Alto Cacicazgo de;;;;;;;;;x
+
+# PECHENEG OVERRIDES
+barony_pecheneg;Taishi;;;;;;;;;;;;;x
+barony_of_pecheneg;Taishi of;Taishi de;Taishi von;;Taishi de;;;;;;;;;x
+
+# SAXON OVERRIDES (anglo-saxon)
+barony_saxon;Barony;Baronnie;Baronie;;Baronía;;;;;;;;;x
+barony_of_saxon;Barony of;Baronnie de;Baronie von;;Baronía de;;;;;;;;;x
+county_saxon;Shire;Comté;Shire;;Comarca;;;;;;;;;x
+county_of_saxon;Shire of;Comté de;Shire von;;Comarca de;;;;;;;;;x
+duchy_saxon;Eorldom;Eorldom;Eorldom;;Eorldom;;;;;;;;;x
+duchy_of_saxon;Eorldom of;Eorldom de;Eorldom von;;Eorldom de;;;;;;;;;x
+
+# SCOTTISH OVERRIDES
+county_scottish;Thanage;Thanage;Thanatum;;Thanago;;;;;;;;;x
+county_of_scottish;Thanage of;Thanage de;Thanatum von;;Thanago de;;;;;;;;;x
+duchy_of_scottish;Mormaerdom of;Mormaerdome de;Mormaertum von;;Mormaerdomo de;;;;;;;;;x
+duchy_scottish;Mormaerdom;Mormaerdome;Mormaertum;;Mormaerdomo;;;;;;;;;x
+
+# SOMALI OVERRIDES
+barony_somali;Wilayah;;;;;;;;;;;;;x
+barony_of_somali;Wilayah of;Wilaya de;Wilayah von;;Vilayato de;;;;;;;;;x
+county_somali;Islanate;;;;;;;;;;;;;x
+county_of_somali;Islanate of;Islanate de;Islanate von;;Islanate de;;;;;;;;;x
+duchy_somali;Ughazate;;;;;;;;;;;;;x
+duchy_of_somali;Ughazate of;Ughazate de;Ughazate von;;Ughazate de;;;;;;;;;x
+kingdom_somali;Sultanate;Sultanat;Sultanat;;Sultanato;;;;;;;;;x
+kingdom_of_somali;Sultanate of;Sultanat de;Sultanat von;;Sultanato de;;;;;;;;;x
+
+# TURKISH OVERRIDES
+barony_turkish;Timar;;;;;;;;;x
+barony_of_turkish;Timar of;Timar de;Timar von;;Timariot de;;;;;;;;;x
+county_turkish;Beylik;Beylik;Beylik;;Beylicato;;;;;;;;;x
+county_of_turkish;Beylik of;Beylik de;Beylik von;;Beylicato de;;;;;;;;;x
+duchy_turkish;Beylerbeylik;;;;;;;;;;;;;x
+duchy_of_turkish;Beylerbeylik of;Beylerbeylik de;Beylerbeylik von;;Beylicato de Beylicatos de;;;;;;;;;x
+kingdom_turkish;Sultanate;Sultanat;Sultanat;;Sultanato;;;;;;;;;x
+kingdom_of_turkish;Sultanate of;Sultanat de;Sultanat von;;Sultanato de;;;;;;;;;x
+
+# WELSH OVERRIDES
+duchy_of_welsh;Principality of;Principauté de;Fürstentum von;;Principado de;;;;;;;;;x
+duchy_welsh;Principality;Principauté;Fürstentum;;Principado;;;;;;;;;x

@@ -48,6 +48,10 @@ city_king_greek;Grand Archon;Grand Archonte;Großartiger Archon;;Gran Arconte;;;;
 king_greek;Despot;Despote;Despot;;Déspota;;;;;;;;;x
 king_female_greek;Despotess;Despotess;Despotin;;Desprecio;;;;;;;;;x
 
+# ITALIAN OVERRIDES
+city_duke_italian;Doge;;;;;;;;;;;;;x
+city_king_italian;Grand Doge;;;;;;;;;;;;;x
+
 # KHAZAR OVERRIDES
 baron_khazar;Taishi;;;;;;;;;;;;;x
 
@@ -118,7 +122,8 @@ duke_scottish;Mormaer;;;;;;;;;;;;;x
 duke_female_scottish;Mormaer;;;;;;;;;;;;;x
 
 # SOMALI OVERRIDES
-baron_somali;Wâli;Wâli;Wâli;;Valí;;;;;;;;;x
+baron_somali;Wâli;;;;;;;;;;;;;x
+baron_female_somali;Wâliad;;;;;;;;;;;;;x
 count_somali;Islan;;;;;;;;;;;;;x
 count_female_somali;Islanad;;;;;;;;;;;;;x
 duke_somali;Ughaz;;;;;;;;;;;;;x
@@ -144,6 +149,6 @@ emperor_female_turkish;Sultana;;;;;;;;;;;;;x
 # UGRIGBALTIC OVERRIDES
 city_duke_ugricbaltic;Voivode;Voïvode;Woiwode;;Voïvode;;;;;;;;;x
 
-# WELSH
+# WELSH OVERRIDES
 duke_welsh;Prince;Prince;Prinz;;Príncipe;;;;;;;;;x
 duke_female_welsh;Princess;Princesse;Fürstin;;Princesa;;;;;;;;;x

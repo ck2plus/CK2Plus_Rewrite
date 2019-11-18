@@ -39,7 +39,7 @@ tribal_count_female;Chieftess;Cheftaine;Stammesführerin;;Jefa;;;;;;;;;x
 # DEFAULT DUKES
 duke;Duke;Duc;Herzog;;Duque;;;;;;;;;x
 duke_female;Duchess;Duchesse;Herzogin;;Duquesa;;;;;;;;;x
-city_duke;Grand Mayor;Doge;Großregent;;Gran Alcalde;;;;;;;;;x
+city_duke;Grand Mayor;Grand maire;Großregent;;Gran Alcalde;;;;;;;;;x
 city_duke_female;Lady;Dame;Frau;;Señora;;;;;;;;;x
 temple_duke;Archpriest;Archiprêtre;Erzpriester;;Arcipreste;;;;;;;;;x
 temple_duke_female;Archpriestess;Archiprêtresse;Erzpriesterin;;Arcisacerdotisa;;;;;;;;;x

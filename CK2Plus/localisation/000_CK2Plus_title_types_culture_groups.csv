@@ -1,0 +1,101 @@
+# CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+###############################
+#
+#	Plus Title Types (Culture Groups)
+#
+###############################
+
+# ALTAIC OVERRIDES
+kingdom_altaic;Khanate;Khanat;Khanat;;Kanato;;;;;;;;;x
+kingdom_of_altaic;Khanate of;Khanat de;Khanat von;;Kanato de;;;;;;;;;x
+empire_altaic;Khaganate;Khaganat;Großkhanat;;Kaganato;;;;;;;;;x
+empire_of_altaic;Khaganate of;Khaganat de;Großkhanat von;;Kaganato de;;;;;;;;;x
+
+# ARABIC OVERRIDES
+barony_arabic;Wilayah;;;;;;;;;;;;;x
+barony_of_arabic;Wilayah of;Wilaya de;Wilayah von;;Vilayato de;;;;;;;;;x
+county_arabic;Sheikhdom;Cheikat;Scheichtum;;Dominiol Jeque;;;;;;;;;x
+county_of_arabic;Sheikhdom of;Cheikat de;Scheichtum von;;Dominio del Jeque;;;;;;;;;x
+duchy_maghrebi;Emirate;Émirat;Emirat;;Emirato;;;;;;;;;x
+duchy_of_maghrebi;Emirate of;Émirat de;Emirat von;;Emirato de;;;;;;;;;x
+kingdom_of_maghrebi;Sultanate of;Sultanat de;Sultanat von;;Sultanato de;;;;;;;;;x
+kingdom_maghrebi;Sultanate;Sultanat;Sultanat;;Sultanato;;;;;;;;;x
+
+# CENTRAL GERMANIC OVERRIDES
+barony_central_germanic;Burgraviate;Burgraviat;Burggrafen;;Burgraviato;;;;;;;;;x
+barony_of_central_germanic;Burgraviate of;Burgraviat de;Burggrafen von;;Burgraviato de;;;;;;;;;x
+city_county_central_germanic;Free City;Ville Libre;Freie Reichsstadt;;Ciudad Libre;;;;;;;;;x
+city_county_of_central_germanic;Free City of;Ville Libre de;Freie Reichsstadt von;;Ciudad Libre de;;;;;;;;;x
+
+# COPTIC GROUP OVERRIDES
+barony_coptic_group;Fortress;Forteresse;Festung;;Fortaleza;;;;;;;;;x
+barony_of_coptic_group;Fortress of;Forteresse de;Festung von;;Fortaleza de;;;;;;;;;x
+county_coptic_group;Pagarchy;Pagarchy;Pagarchy;;Pagarchy;;;;;;;;;x
+county_of_coptic_group;Pagarchy of;Pagarchy de; Pagarchy von; Pagarchy de;;;;;;;;;x
+duchy_coptic_group;Nomarchy;Nomarquie;Nomarchy;;Nomarchy;;;;;;;;;x
+duchy_of_coptic_group;Nomarchy;Nomarquie;Nomarchy;;Nomarchy;;;;;;;;;x
+
+# EAST AFRICAN GROUP OVERRIDES
+duchy_east_african;Principality;Principality;Principality;;Principality;;;;;;;;;x
+duchy_of_east_african;Principality of;Principality of;Principality of;;Principality of;;;;;;;;;x
+
+# EAST SLAVIC GROUP OVERRIDES
+county_east_slavic;Grand Boyardom;Grand Boyardome;Großen Bojardom;;Gran Boyardomo;;;;;;;;;x
+county_of_east_slavic;Grand Boyardom of;Grand Boyardome de;Großen Bojardom von;;Gran Boyardomo de;;;;;;;;;x
+kingdom_east_slavic;Grand Principality;Grande Principauté;Großfürstentum;;Gran Principado;;;;;;;;;x
+kingdom_of_east_slavic;Grand Principality of;Grande Principauté de;Großfürstentum von;;Gran Principado de;;;;;;;;;x
+
+# IRANIAN GROUP OVERRIDES
+barony_iranian;Arg;;;;;;;;;;;;;x
+barony_of_iranian;Arg of;Arg de;Arg von;;Arg de;;;;;;;;;x
+county_iranian;Marzpanate;Marzpanat;Marzpanat;;Marzpanate;;;;;;;;;x
+county_of_iranian;Marzpanate of;Marzpanat de;Marzpanat von;;Marzpanate de;;;;;;;;;x
+duchy_iranian;Satrapy;Satrapie;Satrapy;;Satrapía;;;;;;;;;x
+duchy_of_iranian;Satrapy of;Satrapie de;Satrapy von;;Satrapía de;;;;;;;;;x
+kingdom_iranian;Shahdom;;;;;;;;;;;;;x
+kingdom_of_iranian;Shahdom of;Shahdom de;Shahdom von;;Shahdom de;;;;;;;;;x
+
+# ISRAELITE GROUP OVERRIDES
+barony_israelite;Migdal;;;;;;;;;;;;;x
+barony_of_israelite;Migdal of;Migdal de;Migdal von;;Migdal of;;;;;;;;;x
+county_israelite;Nafa;;;;;;;;;;;;;x
+county_of_israelite;Nafa of;Nafa de;Nafa von;;Nafa of;;;;;;;;;x
+city_county_israelite;Nafa;;;;;;;;;;;;;x
+city_county_of_israelite;Nafa of;Nafa de;Nafa von;;Nafa of;;;;;;;;;x
+city_duchy_israelite;Mahoz;;;;;;;;;;;;;;x
+city_duchy_of_israelite;Mahoz of;Mahoz de;Mahoz von;;Mahoz of;;;;;;;;;x
+duchy_israelite;Mahoz;;;;;;;;;;;;;x
+duchy_of_israelite;Mahoz of;Mahoz de;Mahoz von;;Mahoz of;;;;;;;;;x
+kingdom_israelite;Memlekt;;;;;;;;;;;;;x
+kingdom_of_israelite;Memlekt;;;;;;;;;;;;;x
+
+# LATIN GROUP OVERRITES
+city_duchy_latin;Serene Republic;République Sereine;Ruhige Republik;;República Serena;;;;;;;;;x
+city_duchy_of_latin;Serene Republic of;République Sereine de;Ruhige Republik von;;República Serena de;;;;;;;;;x
+city_empire_latin;Grand Republic;Grande République;Große Republik;;Grand Republic;;;;;;;;;x
+city_empire_of_latin;Grand Republic of;Grande République de;Große Republik von;;Grand Republic of;;;;;;;;;x
+
+# MAGYAR GROUP OVERRIDES
+duchy_magyar;Banate;;;;;;;;;;;;;x
+duchy_of_magyar;Banate of;Banate de;Banate von;;Banate de;;;;;;;;;x
+
+# NORTH GERMANIC GROUP OVERRIDES
+county_north_germanic;Thanage;Thanage;Thanatum;;Thanago;;;;;;;;;x
+county_of_north_germanic;Thanage of;Thanage de;Thanatum von;;Thanago de;;;;;;;;;x
+tribal_county_north_germanic;Thanage;Thanage;Thanatum;;Thanago;;;;;;;;;x
+tribal_county_of_north_germanic;Thanage of;Thanage de;Thanatum von;;Thanago de;;;;;;;;;x
+tribal_duchy_north_germanic;Jarldom;Jarldom;Jarldom;;Jarldom;;;;;;;;;x
+tribal_duchy_of_north_germanic;Jarldom of;Jarldom de;Jarldom von;;Jarldom de;;;;;;;;;x
+
+# SOUTH SLAVIC GROUP OVERRIDES
+empire_south_slavic;Tsardom;Tsarat;Zarenreich;;Zarato;;;;;;;;;x
+empire_of_south_slavic;Tsardom of;Tsarat de;Zarenreich von;;Zarato de;;;;;;;;;x
+
+# WEST AFRICAN GROUP OVERRIDES
+barony_west_african;Horon;;;;;;;;;x
+barony_of_west_african;Horon of;Horon de;Horon von;;Horon de;;;;;;;;;x
+city_county_west_african;Kafu;;;;;;;;;;;;;x
+city_county_of_west_african;Kafu of;Kafu de;Kafu von;;Kafu del Jeque;;;;;;;;;x
+county_west_african;Kafu;;;;;;;;;;;;;x
+county_of_west_african;Kafu of;Kafu de;Kafu von;;Kafu del Jeque de;;;;;;;;;x

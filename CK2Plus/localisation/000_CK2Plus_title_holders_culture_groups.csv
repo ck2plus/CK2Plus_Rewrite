@@ -14,6 +14,8 @@ emperor_female_altaic;Khatun;;;;;;;;;;;;;x
 
 # ARABIC GROUP OVERRIDES
 family_palace_baron_arabic;Rais;;;;;;;;;;;;;x
+baron_arabic;Wâli;;;;;;;;;;;;;x
+baron_female_arabic;Wâlia;;;;;;;;;;;;;x
 count_arabic;Sheikh;;;;;;;;;;;;;x
 count_female_arabic;Shaykhah;;;;;;;;;;;;;x
 duke_arabic;Emir;;;;;;;;;;;;;x
@@ -21,7 +23,7 @@ duke_female_arabic;Emira;;;;;;;;;;;;;x
 king_arabic;Sultan;;;;;;;;;;;;;x
 king_female_arabic;Sultana;;;;;;;;;;;;;x
 
-# ARAMAIC GROUP OVERRIDES
+# ASSYRIAN OVERRIDES
 king_assyrian;Mandic;;;;;;;;;;;;;x
 emperor_assyrian;Sar-šarrani;;;;;;;;;;;;;x
 
