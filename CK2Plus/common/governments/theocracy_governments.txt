@@ -29,10 +29,8 @@ theocracy_governments = {
 				limit = { ai = yes }
 				OR = {
 					controls_religion = yes
-					primary_title = {
-						capital_holding = {
-							holding_type = TEMPLE
-						}
+					capital_holding = {
+						holding_type = TEMPLE
 					}
 				}
 				NOR = {
