@@ -16,7 +16,8 @@
 }
 1238.3.4=
 {
-liege="e_golden_horde"
+set_tribute_suzerain = { who = e_golden_horde type = nomadic }
+liege = 0
 #law = succ_seniority
 #law = agnatic_succession
 }
