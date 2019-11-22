@@ -1,17 +1,18 @@
 # Valid IDs: 1000126000 - 1000126999
 
-########################
+#########################
 #
 # 	Kingdom of Saxony
+#	Immedinger dynasty
 #
-########################
+#########################
 
 1000126000 = {
-	name = "Hartwaker"
+	name = "Hartwacker"
 	dynasty = 7282 # Immedinger
 	religion = norse_pagan
 	culture = old_saxon
-	455.1.1 = {
+	418.1.1 = {
 		birth = yes
 	}
 	480.1.1 = {
@@ -22,10 +23,10 @@
 1000126001 = {
 	name = "Hathwigate"
 	dynasty = 7282 # Immedinger
-	father = 1000126000 # Hartwaker
+	father = 1000126000 # Hartwacker
 	religion = norse_pagan
 	culture = old_saxon
-	480.1.1 = {
+	444.1.1 = {
 		birth = yes
 	}
 	498.1.1 = {
@@ -42,7 +43,7 @@
 #	dynasty =
 	religion = norse_pagan
 	culture = old_saxon
-	485.1.1 = {
+	480.1.1 = {
 		birth = yes
 	}
 	540.1.1 = {
@@ -136,7 +137,7 @@
 		birth = yes
 	}
 	645.1.1 = {
-		add_spouse = 1000134001 # Julanda
+		add_spouse = 1000134004 # Julanda
 	}
 	691.1.1 = {
 		death = yes
@@ -147,7 +148,7 @@
 	name = "Willehari"
 	dynasty = 7282 # Immedinger
 	father = 1000126008 # Sieghard
-	mother = 1000134001 # Julanda
+	mother = 1000134004 # Julanda
 	religion = norse_pagan
 	culture = old_saxon
 	650.1.1 = {
@@ -163,7 +164,7 @@
 	female = yes
 	dynasty = 7282 # Immedinger
 	father = 1000126008 # Sieghard
-	mother = 1000134001 # Julanda
+	mother = 1000134004 # Julanda
 	religion = norse_pagan
 	culture = old_saxon
 	645.1.1 = {
@@ -178,14 +179,14 @@
 	name = "Theoderic"
 	dynasty = 7282 # Immedinger
 	father = 1000126008 # Sieghard
-	mother = 1000134001 # Julanda
+	mother = 1000134004 # Julanda
 	religion = norse_pagan
 	culture = old_saxon
-	675.1.1 = {
+	667.1.1 = {
 		birth = yes
 	}
-	690.1.1 = {
-		add_spouse = 1000126016 # Dobzogera
+	700.1.1 = {
+		add_spouse = 1000134006 # Debrogera
 	}
 	748.1.1 = {
 		death = yes
@@ -193,17 +194,17 @@
 }
 
 1000126012 = {
-	name = "Wernicke" # Warnechin
+	name = "Wernikind" # Warnechin, Wernicke, Weybrecht
 	dynasty = 7282 # Immedinger
 	father = 1000126011 # Theoderic
-	mother = 1000134050 # Dobzogera
+	mother = 1000134006 # Debrogera
 	religion = norse_pagan
 	culture = old_saxon
 	700.1.1 = {
 		birth = yes
 	}
 	720.1.1 = {
-		add_spouse = 1000126018 # Kunhilde
+		add_spouse = 1000126016 # Kunhilde
 	}
 	768.1.1 = {
 		death = yes
@@ -214,7 +215,7 @@
 	name = "Ethelhard"
 	dynasty = 7282 # Immedinger
 	father = 1000126011 # Theoderic
-	mother = 1000134050 # Dobzogera
+	mother = 1000134006 # Debrogera
 	religion = norse_pagan
 	culture = old_saxon
 	701.1.1 = {
@@ -232,7 +233,7 @@
 	name = "Berthold" # Duke of Angria
 	dynasty = 7282 # Immedinger
 	father = 1000126011 # Theoderic
-	mother = 1000134050 # Dobzogera
+	mother = 1000134006 # Debrogera
 	religion = norse_pagan
 	culture = old_saxon
 	702.1.1 = {
@@ -244,10 +245,11 @@
 }
 
 1000126015 = {
-	name = "Hildegardis"
+	name = "Hildegardis" # Herswinde?
+	female = yes
 	dynasty = 7282 # Immedinger
 	father = 1000126011 # Theoderic
-	mother = 1000134050 # Dobzogera
+	mother = 1000134006 # Debrogera
 	religion = norse_pagan
 	culture = old_saxon
 	703.1.1 = {
@@ -278,7 +280,7 @@
 	name = "Hermann"
 	dynasty = 7282 # Immedinger
 	father = 1000126011 # Theoderic
-	mother = 1000134050 # Dobzogera
+	mother = 1000134006 # Debrogera
 	religion = norse_pagan
 	culture = old_saxon
 	735.1.1 = {
@@ -292,7 +294,7 @@
 1000126018 = {
 	name = "Widukind" # Duke of Saxony, Westphalia
 	dynasty = 7282 # Immedinger
-	father = 1000126012 # Wernicke
+	father = 1000126012 # Wernikind
 	mother = 1000126016 # Kunhilde
 	religion = norse_pagan
 	culture = old_saxon
@@ -316,8 +318,11 @@
 		birth = yes
 		effect = { set_character_flag = is_widukind }
 	}
-	760.1.1 = {
+	769.1.1 = {
 		add_spouse = 1000119102 # Geva, elsewhere Théodrade of Herstal is mentioned
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	807.1.1 = {
 		death = yes
@@ -327,7 +332,7 @@
 1000126019 = {
 	name = "Brunhart" # Duke of Saxony
 	dynasty = 7282 # Immedinger
-	father = 1000126012 # Wernicke
+	father = 1000126012 # Wernikind
 	mother = 1000126016 # Kunhilde
 	religion = norse_pagan
 	culture = old_saxon
@@ -388,14 +393,14 @@
 }
 
 1000126023 = {
-	name = "Hasilda" # Hasilda of Westphalia
+	name = "Hasilda" # Hasilda of Westphalia, Hasela
 	female = yes
 	dynasty = 7282 # Immedinger
 	father = 1000126018 # Widukind
 	mother = 1000119102 # Geva
 	religion = norse_pagan
 	culture = old_saxon
-	756.1.1 = {
+	769.1.1 = {
 		birth = yes
 	}
 	800.1.1 = {
@@ -403,11 +408,11 @@
 	}
 }
 
-######################
+#########################
 #
-#	Duchy of Angria
+#	Liudolfing dynasty
 #
-######################
+#########################
 
 1000126050 = {
 	name = "Bruno" # Bruno I of Angria
@@ -422,11 +427,73 @@
 	}
 }
 
-##########################
+######################
 #
-#	Duchy of Westphalia
+#	Billung dynasty
 #
-##########################
+######################
 
-# Alfric (Abbo) von Dreini (Dreingau) - c_munster
+1000126100 = {
+	name = "Freduna"
+	female = yes
+	religion = norse_pagan
+	culture = old_saxon
+	660.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
 
+1000126101 = {
+	name = "Billung" # Billung I
+	dynasty = 656 # Billung
+	father = 205037 # Æthelberht I
+	mother = 1000134105 # Mandana
+	religion = norse_pagan
+	culture = old_saxon
+	660.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		add_spouse = 1000134106 # Freduna
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+
+#1000126102 = {
+#	name = "Dobzogera" # Dobiogera
+#	female = yes
+#	dynasty = 656 # Billung
+#	father = 1000126101 # Billung I
+#	mother = 1000126100 # Freduna
+#	religion = norse_pagan
+#	culture = old_saxon
+#	681.1.1 = {
+#		birth = yes
+#	}
+#	740.1.1 = {
+#		death = yes
+#	}
+#}
+
+1000126103 = {
+	name = "Æthelberht" # Æthelberht II
+	dynasty = 656 # Billung
+	father = 1000126101 # Billung I
+	mother = 1000126100 # Freduna
+	religion = norse_pagan
+	culture = old_saxon
+	685.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		add_spouse = 1000061100 # Meili
+	}
+	762.1.1 = {
+		death = yes
+	}
+}

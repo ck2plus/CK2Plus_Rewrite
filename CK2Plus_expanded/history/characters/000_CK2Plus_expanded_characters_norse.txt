@@ -1,6 +1,10 @@
 # Valid IDs: 1000119000 - 1000119999
 
-# Danish characters
+########################
+#
+#	Danish characters
+#
+########################
 
 1000119000 = {
 	name = "Sigfriðr" # Sigfred I
@@ -72,7 +76,11 @@
 	}
 }
 
-# Swedish, goes very far back
+#########################
+#
+#	Swedish characters
+#
+#########################
 
 1000119200 = {
 	name = "Angantyr" # Old English: Ongenþeow, also known as Egil
@@ -100,7 +108,11 @@
 	}
 }
 
-# Norwegian
+###########################
+#
+#	Norwegian characters
+#
+###########################
 
 1000119100 = {
 	name = "Halfdan" # Halfdan Hvitbeinn,
@@ -117,30 +129,51 @@
 }
 
 1000119101 = {
-	name = "Hild" # Wife of Eysteinn
+	name = "Hild" # Hildi Eriksdatter, wife of Eysteinn
 	female = yes
 	dynasty = 499 # Yngling
 	religion = norse_pagan
 	culture = norse
-	740.1.1 = {
+	730.1.1 = {
 		birth = yes
 	}
-	762.1.1 = {
+	789.1.1 = {
 		death = yes
 	}
 }
 
 1000119102 = {
-	name = "Geva" # Wife of Widukind
+	name = "Geva" # wife of Widukind, sister of Sigfred of Danmark ?
+	# https://www.geni.com/people/Geva/6000000003645712670
 	female = yes
 	dynasty = 499 # Yngling
 	father = 168317 # Eysteinn
+	mother = 1000119101 # Hild
 	religion = norse_pagan
 	culture = norse
-	740.1.1 = {
+	753.1.1 = {
 		birth = yes
 	}
 	804.1.1 = {
+		death = yes
+	}
+}
+
+#############################
+#
+#	Unconnected characters
+#
+#############################
+
+1000119500 = {
+	name = "Hagiza" # wife of Wisislaus, of Jutland ?
+	female = yes
+	religion = norse_pagan
+	culture = norse
+	625.1.1 = {
+		birth = yes
+	}
+	695.1.1 = {
 		death = yes
 	}
 }

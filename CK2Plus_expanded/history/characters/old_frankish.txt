@@ -41,7 +41,7 @@
 		remove_claim = k_burgundy
 	}
 	772.1.1 = {
-		add_spouse = 167827
+		add_spouse = 167827 # Hildegard
 	}
 	784.1.1 = {
 		add_spouse = 168225
@@ -3527,7 +3527,7 @@
 		birth = yes
 	}
 
-	530.1.1 = {
+	563.13.8 = {
 		death = yes
 	}
 }

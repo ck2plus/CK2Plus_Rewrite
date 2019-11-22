@@ -1196,7 +1196,7 @@
 }
 
 190184 = {
-	name = "Aripert" #king of Lombards
+	name = "Aripert" # Aripert II, king of Lombards
 	dynasty = 1044046 #Bavarae
 	religion = catholic
 	culture = lombard
@@ -1298,7 +1298,7 @@
 }
 
 190191 = {
-	name = "Ratberg" #marries Pemmo son of Billo
+	name = "Ratperga" # Ratberg/Redburh, marries Pemmo, son of Billo
 	female = yes
 	dynasty = 1044046 #Bavarae
 	religion = catholic

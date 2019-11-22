@@ -1,13 +1,20 @@
-762.1.1 = {
+150.1.1 = { # Saxons first mentioned in Ptolemy's Geographia
 	de_jure_liege = k_saxony
 	liege = k_saxony
-	holder = 190466 #Lothar
+}
+
+761.1.1 = {
+	holder = 1000126050 # Bruno I
 }
 
 782.1.1 = {
-	de_jure_liege = k_germany
+	holder = 190457 # Bruno II
 }
 
-782.1.1 = {
-	holder = 0
+813.1.1 = {
+	holder = 190458 # Ekbert II
+}
+
+825.1.1 = {
+	holder = 7959 # Liudolf 'the Great'
 }

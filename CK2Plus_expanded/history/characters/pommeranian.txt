@@ -1130,7 +1130,7 @@
 
 30507 = {
 	name = "Przybyslaw"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	religion = catholic
 	culture = pommeranian
 	father = 8400 #Budivoj
@@ -1144,7 +1144,7 @@
 
 30508 = {
 	name = "Swietopelk"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	religion = catholic
 	culture = pommeranian
 	father = 8402 #Henrik
@@ -1159,7 +1159,7 @@
 
 30509 = {
 	name = "Kanut"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	religion = catholic
 	culture = pommeranian
 	father = 8402 #Henrik
@@ -1174,7 +1174,7 @@
 
 30510 = {
 	name = "Msciwoj"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	religion = catholic
 	culture = pommeranian
 	father = 8402 #Henrik
@@ -1188,7 +1188,7 @@
 
 30511 = {
 	name = "Valdemar"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	religion = catholic
 	culture = pommeranian
 	father = 8402 #Henrik
@@ -1202,7 +1202,7 @@
 
 30512 = {
 	name = "Zvinike"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	religion = catholic
 	culture = pommeranian
 	father = 30508 #Swietopelk
@@ -2158,7 +2158,7 @@
 
 8400 = {
 	name = "Budivoj"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	martial = 4
 	diplomacy = 8
 	intrigue = 5
@@ -2179,7 +2179,7 @@
 
 8402 = {
 	name = "Henrik"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	martial = 6
 	diplomacy = 5
 	intrigue = 8
@@ -2205,7 +2205,7 @@
 8410 = {
 	name = "Guthskalco"
 	# AKA: Gottschalk
-	dynasty = 101906 #Nakonid
+	dynasty = 101906 # Nakonid
 	martial = 7
 	diplomacy = 7
 	intrigue = 7
@@ -2230,7 +2230,7 @@
 
 8411 = {
 	name = "Pribigniew"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	martial = 5
 	diplomacy = 6
 	intrigue = 7
@@ -2345,7 +2345,7 @@
 101552 = {
 	name = "Tove" #fra Venden
 	female = yes
-	dynasty = 101906 #Nakonid
+	dynasty = 101906 # Nakonid
 	martial = 6
 	diplomacy = 4
 	intrigue = 5
@@ -2368,14 +2368,18 @@
 
 161118 = {
 	name = "Nakon"
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
+	father = 1000134016 # Selibur
 	religion = slavic_pagan
 	culture = pommeranian
 	910.1.1 = {
 		birth = yes
 	}
 	928.1.1 = {
-		add_spouse = 261216
+		add_spouse = 261216 # Branislava
+	}
+	955.10.16 = {
+		religion = catholic # Battle on the Raxa
 	}
 	966.1.1 = {
 		death = yes
@@ -2383,11 +2387,11 @@
 }
 
 161119 = {
-	name = "Msciwoj"
-	dynasty = 101906
+	name = "Msciwoj" # Mistiwoj
+	dynasty = 101906 # Nakonid
 	religion = slavic_pagan
 	culture = pommeranian
-	father = 161118
+	father = 161118 # Nakon
 	mother = 261216
 	930.1.1 = {
 		birth = yes
@@ -2398,8 +2402,8 @@
 }
 
 161120 = {
-	name = "Msctidrag"
-	dynasty = 101906
+	name = "Msctidrag" # Mstidrag
+	dynasty = 101906 # Nakonid
 	religion = slavic_pagan
 	culture = pommeranian
 	father = 161118
@@ -2414,7 +2418,7 @@
 
 161121 = {
 	name = Mscislaw
-	dynasty = 101906
+	dynasty = 101906 # Nakonid
 	religion = slavic_pagan
 	culture = pommeranian
 	father = 161119
@@ -2663,35 +2667,35 @@
 	}
 }
 
-168582 = {
-	name = "Mscislaw"
-	#placeholder
-	dynasty = 9605
-	religion = slavic_pagan
-	culture = pommeranian
-	848.1.1 = {
-		birth = yes
-	}
-
-	898.1.1 = {
-		death = yes
-	}
-}
-
-168583 = {
-	name = "Radoslav"
-	#placeholder
-	dynasty = 9606
-	religion = slavic_pagan
-	culture = pommeranian
-	847.1.1 = {
-		birth = yes
-	}
-
-	898.1.1 = {
-		death = yes
-	}
-}
+#168582 = {
+#	name = "Mscislaw"
+#	#placeholder
+#	dynasty = 9605
+#	religion = slavic_pagan
+#	culture = pommeranian
+#	848.1.1 = {
+#		birth = yes
+#	}
+#
+#	898.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#168583 = {
+#	name = "Radoslav"
+#	#placeholder
+#	dynasty = 9606
+#	religion = slavic_pagan
+#	culture = pommeranian
+#	847.1.1 = {
+#		birth = yes
+#	}
+#
+#	898.1.1 = {
+#		death = yes
+#	}
+#}
 
 168584 = {
 	name = "Bretislav"

@@ -1,12 +1,22 @@
-769.1.1 = {
+150.1.1 = { # Saxons first mentioned in Ptolemy's Geographia
 	de_jure_liege = d_angria
 	liege = d_angria
-	holder = 190468 #Richfrid
 }
 
-782.1.1 = {
-	liege = d_saxony
-	holder = 0
+761.1.1 = {
+	holder = 1000126050 # Bruno I
+}
+
+767.1.1 = {
+	holder = 190457 # Bruno II
+}
+
+813.1.1 = {
+	holder = 190458 # Ekbert II
+}
+
+825.1.1 = {
+	holder = 7959 # Liudolf 'the Great'
 }
 
 936.1.1 = {
