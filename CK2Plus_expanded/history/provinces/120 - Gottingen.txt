@@ -20,10 +20,22 @@ culture = old_saxon
 religion = norse_pagan
 
 # History
-790.1.1 = {
+
+777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
 	religion = catholic
-	
-	b_gottingen = castle
-	b_goslar = castle	## silver mines of Goslar
 }
+
+782.1.1 = { # Widukind returns, stirs rebellion
+	religion = norse_pagan
+}
+
+785.1.1 = { # rebellion defeated
+	religion = catholic
+}
+
+805.1.1 = {
+	b_gottingen = castle
+	b_goslar = castle
+}
+
 1337.1.1 = { b_lippe = city }

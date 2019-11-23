@@ -44832,7 +44832,7 @@
 }
 
 163054 = {
-	name = "Luitbert"
+	name = "Liutbert" # elected first Archbishop of Köln
 	religion = catholic
 	culture = german
 	790.1.1 = {
@@ -52526,7 +52526,7 @@
 }
 
 168593 = {
-	name = "Liutbert"
+	name = "Liutbert" # Archbishop of Mainz
 	religion = catholic
 	culture = german
 	830.1.1 = {

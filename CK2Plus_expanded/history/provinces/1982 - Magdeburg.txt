@@ -12,12 +12,27 @@ culture = old_saxon
 religion = norse_pagan
 
 # History
-790.1.1 = {
-	religion = catholic
 
-	b_magdeburg = castle
-	b_mansfeld = city
+777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
+	religion = catholic
+	b_mansfeld = tribal
+	capital = b_mansfeld
+	b_magdeburg = temple
+}
+
+782.1.1 = { # Widukind returns, stirs rebellion
+	religion = norse_pagan
+}
+
+785.1.1 = { # rebellion defeated
+	religion = catholic
+}
+
+805.1.1 = {
+	b_mansfeld = castle
 	b_haldensleben = castle
 }
 
-1187.1.1= { b_haldensleben = city } 
+1187.1.1 = {
+	b_haldensleben = city
+}

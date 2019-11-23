@@ -50,7 +50,42 @@
 	holder = 1000126018 # Widukind
 }
 
-#782.1.1 = {
+# Subjugated by Karl
+775.1.1 = {
+	liege = e_france
+}
+
+# Widukind flees to Denmark, brother takes over
+777.1.1 = {
+	holder = 1000126019 # Brunhart
+}
+
+# Eastphalia, Angria and Westphalia rebel, but are soon reconquered
+779.1.1 = {
+	liege = k_saxony
+}
+
+780.1.1 = {
+	liege = e_france
+}
+
+# Widukind returns, stirs rebellion
+782.1.1 = {
+	holder = 1000126018 # Widukind
+	liege = k_saxony
+}
+
+# Widukind defeated, swears fealty, converts
+785.1.1 = {
+	holder = 1000126019 # Brunhart
+}
+
+# k_saxony destroyed after final big rebellion
+794.1.1 = {
+	liege = e_france
+}
+
+#814.1.28 = {
 #	de_jure_liege = k_germany
 #	holder = 0
 #}

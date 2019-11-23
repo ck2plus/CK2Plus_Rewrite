@@ -50,7 +50,54 @@
 	holder = 1000126018 # Widukind
 }
 
-772.1.1 = {
+# Westphalia conquered, Nordalbingia still independent
+775.1.1 = {
+	holder = 190466 # Lothar
+}
+
+# All of Saxony conquered
+776.1.1 = {
+	holder = 1000126018 # Widukind
+	liege = e_france
+}
+
+# Widukind not present at Paderborn, brother takes over
+777.1.1 = {
+	holder = 1000126019 # Brunhart
+}
+
+# Eastphalia, Angria and Westphalia rebel, but are soon reconquered
+779.1.1 = {
+	liege = 0
+}
+
+780.1.1 = {
+	liege = e_france
+}
+
+# Widukind returns, stirs rebellion
+782.1.1 = {
+	holder = 1000126018 # Widukind
+	liege = 0
+}
+
+# Widukind defeated, swears fealty, converts
+785.1.1 = {
+	holder = 1000126019 # Brunhart
+	liege = e_france
+}
+
+# Westphalia rebels
+792.1.1 = {
+	liege = 0
+}
+
+794.1.1 = {
 	holder = 0
+	liege = 0
+}
+
+# End of Saxon Wars
+804.1.1 = {
 	active = no
 }

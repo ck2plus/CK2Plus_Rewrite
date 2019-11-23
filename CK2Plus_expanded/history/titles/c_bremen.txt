@@ -7,7 +7,7 @@
 	holder = 1000126050 # Bruno I
 }
 
-767.1.1 = {
+766.1.1 = {
 	holder = 190457 # Bruno II
 }
 

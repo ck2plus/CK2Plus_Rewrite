@@ -3,13 +3,15 @@
 	liege = d_saxony
 }
 
-# Billung
+# Hessing
 
-740.1.1 = {
-	holder = 190462 # Billung
+753.1.1 = {
+	holder = 190474 # Hesso
 }
 
-771.1.1 = {
+# Billung
+
+779.1.1 = {
 	holder = 190463 # Amelung
 }
 

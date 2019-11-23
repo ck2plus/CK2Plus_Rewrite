@@ -13,6 +13,24 @@
 	holder = 190467 # Udo
 }
 
+# Nordalbingia attempts last rebellion, deported, land give to Obotrites
+804.1.1 = {
+	holder = 1000134010 # Dražko/Thrasco
+	liege = d_mecklemburg
+}
+
+# Conquered by Danes in 808
+808.1.1 = {
+	holder = 1000119001 # Gudfred
+	liege = d_sjaelland
+}
+
+# Conquered back by Karl, Saxons move back in
+810.1.1 = {
+	holder = 190467 # Udo
+	liege = e_karling
+}
+
 837.1.1 = {
 	holder = 167785 # Lothar
 }

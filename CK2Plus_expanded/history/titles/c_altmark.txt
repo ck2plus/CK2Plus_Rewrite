@@ -9,7 +9,7 @@
 	holder = 190462 # Billung
 }
 
-771.1.1 = {
+762.1.1 = {
 	holder = 190463 # Amelung
 }
 

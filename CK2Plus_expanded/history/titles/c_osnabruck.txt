@@ -51,10 +51,6 @@
 	liege = d_munster_germany
 }
 
-782.1.1 = {
-	holder = 0
-}
-
 844.1.1 = {
 	liege = d_saxony
 	holder = 7959

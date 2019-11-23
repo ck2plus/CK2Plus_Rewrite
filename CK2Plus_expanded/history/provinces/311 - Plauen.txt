@@ -16,12 +16,7 @@ b_merseburg = temple
 #b_naumburg = castle
 
 # Misc
-culture = pommeranian
-religion = slavic_pagan
+culture = thuringian
+religion = catholic
 
 # History
-
-1000.1.1 = {
-	culture = thuringian
-	religion = catholic
-}

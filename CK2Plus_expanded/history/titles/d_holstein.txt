@@ -9,8 +9,55 @@
 	holder = 190466 # Lothar
 }
 
+# Subjugated by Karl
+776.1.1 = {
+	liege = e_france
+}
+
+# Widukind returns, stirs rebellion
+782.1.1 = {
+	liege = k_saxony
+}
+
+# Widukind defeated, swears fealty, converts
+785.1.1 = {
+	liege = e_france
+}
+
 791.1.1 = {
 	holder = 190467 # Udo
+}
+
+# Joins Westphalian rebellion
+793.1.1 = {
+	liege = k_saxony
+}
+
+794.1.1 = {
+	liege = e_france
+}
+
+# Nordalbingia revolts, converts after defeat
+798.1.1 = {
+	liege = 0
+}
+
+799.1.1 = {
+	liege = e_france
+}
+
+# Nordalbingia attempts last rebellion, deported, land give to Obotrites
+804.1.1 = {
+	liege = 0
+	holder = 0
+}
+
+# Conquered by Danes in 808
+
+# Conquered back by Karl, Saxons move back in
+810.1.1 = {
+	holder = 190467 # Udo
+	liege = e_karling
 }
 
 837.1.1 = {

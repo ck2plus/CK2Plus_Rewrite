@@ -286,6 +286,15 @@
 	735.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	798.1.1 = {
 		death = yes
 	}
@@ -342,6 +351,15 @@
 #	760.1.1 = {
 #		add_spouse = Princess Svana von Assebourg
 #	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	807.1.7 = {
 		death = yes
 	}
@@ -351,7 +369,7 @@
 	name = "Aldburg" # Alburgis of Lesmonia
 	female = yes
 #	dynasty =
-	religion = norse_pagan
+	religion = catholic
 	culture = old_saxon
 	815.1.1 = {
 		birth = yes
@@ -366,7 +384,7 @@
 	dynasty = 7282 # Immedinger
 	father = 33248 # Waltbert
 	mother = 1000126020 # Aldburg
-	religion = norse_pagan
+	religion = catholic
 	culture = old_saxon
 	835.1.1 = {
 		birth = yes
@@ -382,7 +400,7 @@
 	dynasty = 7282 # Immedinger
 	father = 33248 # Waltbert
 	mother = 1000126020 # Aldburg
-	religion = norse_pagan
+	religion = catholic
 	culture = old_saxon
 	836.1.1 = {
 		birth = yes
@@ -403,6 +421,15 @@
 	769.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	800.1.1 = {
 		death = yes
 	}
@@ -422,7 +449,11 @@
 	726.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
 	782.1.1 = {
+		religion = norse_pagan
 		death = yes
 	}
 }

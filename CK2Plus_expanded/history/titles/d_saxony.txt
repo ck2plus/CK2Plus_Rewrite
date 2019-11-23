@@ -3,14 +3,46 @@
 	liege = k_saxony
 }
 
-# Billung
+# Hessing
 
-740.1.1 = {
-	holder = 190462 # Billung
+753.1.1 = {
+	holder = 190474 # Hesso
 }
 
-771.1.1 = {
+# Subjugated by Karl
+775.1.1 = {
+	liege = e_france
+}
+
+# Billung
+
+# Eastphalia, Angria and Westphalia rebel, but are soon reconquered
+779.1.1 = {
 	holder = 190463 # Amelung
+	liege = k_saxony
+}
+
+780.1.1 = {
+	liege = e_france
+}
+
+# Widukind returns, stirs rebellion
+782.1.1 = {
+	liege = k_saxony
+}
+
+# Widukind defeated, swears fealty, converts
+785.1.1 = {
+	liege = e_france
+}
+
+# Joins Westphalian rebellion
+793.1.1 = {
+	liege = k_saxony
+}
+
+794.1.1 = {
+	liege = e_france
 }
 
 800.1.1 = {

@@ -34,8 +34,17 @@
 	750.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
 	780.1.1 = {
 		add_spouse = 1000126023 # Hasalda of Westphalia
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	813.1.1 = {
 		death = yes
@@ -51,6 +60,15 @@
 	mother = 1000126023 # Hasalda of Westphalia
 	769.1.1 = {
 		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	801.1.1 = {
 		add_spouse = 190448 # Ida Bernhard-Karling
@@ -84,6 +102,15 @@
 	mother = 1000126023 # Hasalda of Westphalia
 	789.1.1 = {
 		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	805.1.1 = {
 		add_spouse = 190469
@@ -136,6 +163,15 @@
 	745.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	811.1.1 = {
 		death = yes
 	}
@@ -149,6 +185,15 @@
 	father = 190463
 	759.1.1 = {
 		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	814.1.1 = {
 		death = yes
@@ -164,6 +209,15 @@
 	768.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	828.1.1 = {
 		death = yes
 	}
@@ -176,6 +230,15 @@
 	culture = old_saxon
 	742.1.1 = {
 		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	791.1.1 = {
 		death = yes
@@ -191,6 +254,15 @@
 	768.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	837.1.1 = {
 		death = yes
 	}
@@ -204,6 +276,15 @@
 	741.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	797.1.1 = {
 		death = yes
 	}
@@ -213,7 +294,7 @@
 	name = "Richeit" # wife of Liudolf
 	female = yes
 	dynasty = 1044106 #Richfriding
-	religion = norse_pagan
+	religion = catholic
 	culture = old_saxon
 	father = 190468
 	788.1.1 = {
@@ -232,6 +313,15 @@
 	751.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	811.1.1 = {
 		death = yes
 	}
@@ -244,6 +334,15 @@
 	culture = old_saxon
 	753.1.1 = {
 		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	810.1.1 = {
 		death = yes
@@ -261,6 +360,15 @@
 	769.1.1 = {
 		add_spouse = 190476
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	789.1.1 = {
 		death = yes
 	}
@@ -276,18 +384,36 @@
 	769.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	823.1.1 = {
 		death = yes
 	}
 }
 
 190474 = {
-	name = "Hesso" #count of Holstein
+	name = "Hesso"
 	dynasty = 1044110 #Hessing
 	religion = norse_pagan
 	culture = old_saxon
 	737.1.1 = {
 		birth = yes
+	}
+	775.1.1 = { # first Saxon ruler to convert
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	804.1.1 = {
 		death = yes
@@ -303,6 +429,15 @@
 	768.1.1 = {
 		birth = yes
 	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
 	846.1.1 = {
 		death = yes
 	}
@@ -317,6 +452,15 @@
 	father = 190474
 	753.1.1 = {
 		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
 	}
 	840.1.1 = {
 		death = yes
