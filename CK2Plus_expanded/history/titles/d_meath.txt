@@ -1,26 +1,56 @@
-862.11.22={
-	holder=944
+1.1.1 = {
+	de_jure_liege = k_ireland
+}
+759.1.1 = {
+	holder = 7273 # Niall Frossach
+	liege = k_ireland
+}
+765.1.1 = {
+	holder = 7274 # Donnchad Midi
+}
+792.1.1 = {
+	holder = 7275 # çed Oirdnide
+}
+819.1.1 = {
+	holder = 252135 # Conchobar mac Donnchada Midi
+}
+833.1.1 = {
+	holder = 945 # Niall Callie
+}
+836.1.1 = {
+	holder = 83633 # Feidlimid mac Crimthainn
+}
+841.1.1 = {
+	holder = 945 # Niall Callie
+}
+846.1.1 = {
+	holder = 131501 # Máel Sechnaill
+}
+860.11.22 = {
+	holder = 944 #Áed Findliath
+}
+862.11.22 = {
+	holder = 944
 	law = agnatic_succession
 	law = succ_tanistry
 }
-879.11.20={
-	holder=0
+879.11.20 = {
+	holder = 0
 }
-1185.1.1={
-	liege="k_england"
-}
-1185.1.1={
+1185.1.1 = {
+	# Representing the Lordship of Ireland
+	liege = "k_england"
 	holder = 204514 #John of England
 }
-1203.1.1={
+1203.1.1 = {
 	holder = 454124 #Maurice FitzGerald
 }
-1254.1.1={
+1254.1.1 = {
 	holder = 454520 #Edward I of England
 }
-1307.7.8={
+1307.7.8 = {
 	holder = 454510 #Edward II of England
 }
-1327.2.1={
-	holder=454500 #Edward III of England
+1327.2.1 = {
+	holder = 454500 #Edward III of England
 }
