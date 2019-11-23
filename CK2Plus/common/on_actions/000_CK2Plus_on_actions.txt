@@ -2,12 +2,14 @@
 on_startup = {
 	events = {
 		PlusFaction.77 #Checks faction status
+		PlusTitular.001 # Destroy Dead Nations
 	}
 }
 
 #character
 on_yearly_pulse = {
 	events = {
+		PlusTitular.001 # Destroy Dead Nations
 	}
 
 	random_events = {
