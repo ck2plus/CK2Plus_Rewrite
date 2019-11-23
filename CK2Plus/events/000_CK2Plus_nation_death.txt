@@ -1,0 +1,51 @@
+namespace = PlusTitular
+
+########################
+#
+# Death of Nations
+#
+########################
+#
+# Catalog
+#
+# 001 - 009: Setup
+#
+########################
+
+################################
+#
+# 001 - 009: Setup
+#
+################################
+#
+# Index
+#
+# 001: End it.
+#
+################################
+
+# 001: End it.
+character_event = {
+	id = PlusTitular.001
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = b_roma
+	}
+	immediate = {
+		any_title = {
+			limit = {
+				higher_tier_than = DUKE
+				de_jure_liege = 0
+				has_holder = no
+				is_titular = no
+				NOT = { any_claimant = { is_alive = yes } }
+			}
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = 0
+			}
+		}
+	}
+}
