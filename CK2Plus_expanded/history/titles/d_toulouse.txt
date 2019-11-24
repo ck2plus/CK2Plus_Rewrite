@@ -54,6 +54,10 @@
 	holder = 163063 #Bernard I Gellones
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
+}
+
 844.5.1 = {
 	holder = 73784 #Guillaume II Gellones
 }

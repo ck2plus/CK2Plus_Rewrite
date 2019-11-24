@@ -31,6 +31,11 @@
 	holder = 163055
 }
 
+843.8.10 = { # Treaty of Verdun
+	holder = 0
+	liege = k_germany
+}
+
 864.1.1 = {
 	holder = 163095
 }

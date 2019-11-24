@@ -41,6 +41,10 @@
 	liege = k_france
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
+}
+
 865.1.1 = {
 	liege = d_franconia
 }

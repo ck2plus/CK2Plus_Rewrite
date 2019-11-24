@@ -46,6 +46,10 @@
 	liege = k_aquitaine
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
+}
+
 852.1.1 = {
 	holder = 90129 # Ramnulf I
 }

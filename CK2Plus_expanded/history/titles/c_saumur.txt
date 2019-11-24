@@ -11,6 +11,10 @@
 	liege = e_karling
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
+}
+
 853.1.1 = {
 	liege = d_anjou
 	holder = 6440 #Robert le fort

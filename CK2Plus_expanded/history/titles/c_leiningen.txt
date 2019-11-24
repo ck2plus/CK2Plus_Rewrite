@@ -19,6 +19,10 @@
 	liege = k_france
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
+}
+
 860.1.1 = {
 	holder = 7950
 }

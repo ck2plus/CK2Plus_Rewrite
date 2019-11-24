@@ -43,6 +43,10 @@
 	liege = k_lotharingia
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
+}
+
 870.8.8 = { # Treaty of Meerssen
 	liege = k_germany
 }

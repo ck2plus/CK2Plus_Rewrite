@@ -67,6 +67,7 @@
 
 843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_germany
+	liege = k_germany
 }
 
 # Liudolfing

@@ -3,6 +3,10 @@
 	holder = 260392
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
+}
+
 867.1.1 = {
 	liege = k_bavaria
 	holder = 260026		# Place	holder

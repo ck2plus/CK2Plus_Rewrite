@@ -38,6 +38,10 @@
 	holder = 190501 #Guillaume
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
+}
+
 866.1.1 = {
 	liege = d_gascogne
 	holder = 138162 #Loup Centule I de Béarn
