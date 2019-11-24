@@ -42,7 +42,7 @@ has_liege_vassal_or_neighbor_of_celtic_religion_tt;Has a §YLiege§!, §YVassal§!, 
 
 # Basque:
 warrior_lodge_basque;Protectors of Mari;Protecteurs de Mari;Beschützer von Mari;;Protectores de Mari;;;;;;;;;;;;;x
-warrior_lodge_basque_desc;TODO;TODO;TODO;;TODO;;;;;;;;;;;;;x
+warrior_lodge_basque_desc;The Protectors of Mari protect the worshippers of all Basque godesses and gods, and particularly of Mari, from harm, from external and internal sources.;;;;;;;;;;;;;;x
 
 warrior_lodge_basque_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
 warrior_lodge_basque_black_sabbath;Call a Black Sabbath;Appeler une Messe Noire;Ruf einen Hexensabbat;;Llamar a un Aquelarre;;;;;;;;;x
