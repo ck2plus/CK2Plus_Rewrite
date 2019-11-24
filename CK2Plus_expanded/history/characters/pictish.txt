@@ -1815,7 +1815,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = celtic_pagan
 	culture = pictish
 	father = 166614
 	750.1.1 = {
@@ -1873,7 +1873,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = celtic_pagan
 	culture = pictish
 	700.1.1 = {
 		birth = yes
