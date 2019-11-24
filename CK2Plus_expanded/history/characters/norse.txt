@@ -5178,10 +5178,10 @@
 	religion = norse_pagan
 	culture = norse
 	father = 168316
-	740.1.1 = {
+	726.1.1 = {
 		birth = yes
 	}
-	755.1.1 = {
+	751.1.1 = {
 		add_spouse = 1000119101 # Hild
 	}
 	790.1.1 = {

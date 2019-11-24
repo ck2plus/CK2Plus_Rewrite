@@ -5,7 +5,7 @@
 	female = yes
 	religion = norse_pagan
 	culture = old_saxon
-	700.1.1 = {
+	610.1.1 = {
 		birth = yes
 	}
 	664.1.1 = {

@@ -3,6 +3,10 @@
 	holder = 91491 #VUODO, historical count as place	holder
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 855.8.23 = {
 	liege = k_burgundy
 	holder = 144998

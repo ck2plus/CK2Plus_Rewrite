@@ -6,6 +6,10 @@
 	holder = 190565 #Lullus
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 856.2.4 = {
 	liege = k_germany
 	holder = 90098

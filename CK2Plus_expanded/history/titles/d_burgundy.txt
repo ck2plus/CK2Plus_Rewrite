@@ -24,6 +24,10 @@
 	holder = 190512 # Teudoin
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 827.1.1 = {
 	holder = 190513 # Theoderic
 }

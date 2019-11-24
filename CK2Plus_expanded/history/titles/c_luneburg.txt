@@ -1,54 +1,37 @@
-460.1.1 = {
-	holder = 1000126000 # Hartwaker
+150.1.1 = { # Saxons first mentioned in Ptolemy's Geographia
+	de_jure_liege = d_saxony
+	liege = d_saxony
 }
 
-480.1.1 = {
-	holder = 1000126001 #Hathwigate
+# Hessing
+
+753.1.1 = {
+	holder = 190474 # Hesso
 }
 
-524.1.1 = {
-	holder = 1000126003 # Hulderic
+# Billung
+
+779.1.1 = {
+	holder = 190463 # Amelung
 }
 
-540.1.1 = {
-	holder = 1000126004 # Wiric
+800.1.1 = {
+	holder = 190464 # Bennit
 }
 
-545.1.1 = {
-	holder = 1000126005 # Budic
+814.1.1 = {
+	holder = 167768 # Amelung
 }
 
-568.1.1 = {
-	holder = 1000126007 # Berthold
-}
+#814.1.1 = {
+#	holder = 190465 # Enno, gavelsplit
+#}
 
-633.1.1 = {
-	holder = 1000126008 # Sieghard
-}
+#814.1.1 = {
+#	holder = 167763 # Billung, gavelsplit
+#}
 
-691.1.1 = {
-	holder = 1000126009 # Willehari
-}
-
-700.1.1 = {
-	holder = 1000126011 # Theoderic
-}
-
-748.1.1 = {
-	holder = 1000126013 # Ethelhard
-}
-
-757.1.1 = {
-	holder = 1000126012 # Wernicke
-}
-
-768.1.1 = {
-	holder = 1000126018 # Widukind
-}
-
-781.1.1 = {
-	holder = 0
-}
+# Liudolfing
 
 825.1.1 = {
 	holder = 7959

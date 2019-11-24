@@ -3,6 +3,10 @@
 	holder = 91482 #FREDERIC, count of Transjuranie
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 855.1.1 = {
 	liege = d_upper_burgundy
 	holder = 7977

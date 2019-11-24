@@ -6,6 +6,10 @@
 	holder = 194040 #Thomas
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 855.1.1 = {
 	liege = k_burgundy
 }

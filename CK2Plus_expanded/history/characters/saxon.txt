@@ -2972,7 +2972,7 @@
 }
 
 205037 = {
-	name = "Æthelberht"
+	name = "Æthelberht" # Æthelberht I
 	dynasty = 1047001
 	religion = catholic
 	culture = saxon
@@ -2980,6 +2980,9 @@
 	mother = 1000147000 # Oslafa
 	630.1.1 = {
 		birth = yes
+	}
+	650.1.1 = {
+		add_spouse = 1000134105 # Mandana
 	}
 	669.1.1 = {
 		death = yes

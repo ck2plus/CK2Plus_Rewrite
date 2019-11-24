@@ -55,6 +55,10 @@
 	holder = 168226 #Thankulf
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 815.1.1 = {
 	holder = 168227 #Hadulf
 }

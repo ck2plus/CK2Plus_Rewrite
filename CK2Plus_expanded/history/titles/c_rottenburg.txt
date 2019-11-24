@@ -32,6 +32,7 @@
 
 805.1.1 = {
 	holder = 0
+	liege = e_karling
 }
 
 839.1.1 = {

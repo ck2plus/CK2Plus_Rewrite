@@ -6,7 +6,6 @@ title = c_munster
 # Settlements
 max_settlements = 4
 b_essen = tribal
-b_munster = temple
 
 #b_greven = castle
 #b_gutersloh = castle
@@ -19,12 +18,22 @@ culture = old_saxon
 religion = norse_pagan
 
 # History
-790.1.1 = {
+
+777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
 	religion = catholic
-	
-	b_essen = castle
-	b_dortmund = city
-	capital = b_munster
+	b_munster = temple
 }
 
+782.1.1 = { # Widukind returns, stirs rebellion
+	religion = norse_pagan
+}
 
+785.1.1 = { # rebellion defeated
+	religion = catholic
+}
+
+805.1.1 = {
+	b_essen = castle
+	b_dortmund = city
+	capital = b_munster # diocese of Münster founded by Karl
+}

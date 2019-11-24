@@ -44832,7 +44832,7 @@
 }
 
 163054 = {
-	name = "Luitbert"
+	name = "Liutbert" # elected first Archbishop of Köln
 	religion = catholic
 	culture = german
 	790.1.1 = {
@@ -49484,7 +49484,7 @@
 	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
-	father = 190463
+	father = 190463 # Amelung
 	780.1.1 = {
 		birth = yes
 	}
@@ -49499,7 +49499,7 @@
 167765 = {
 	name = "Oda"
 	female = yes
-	dynasty = 656 # Billung #
+	dynasty = 656 # Billung
 	religion = catholic
 	culture = german
 	father = 167763
@@ -49557,7 +49557,6 @@
 	808.1.1 = {
 		birth = yes
 	}
-
 	850.1.1 = {
 		death = yes
 	}
@@ -49572,13 +49571,13 @@
     mother = 167764
     809.1.1 = {
         birth = yes
-}
+	}
     830.1.1 = {
         add_spouse = 263003
-}
+	}
     855.11.10 = {
         death = yes
-}
+	}
 }
 
 167770 = {
@@ -49590,7 +49589,6 @@
 	840.1.1 = {
 		birth = yes
 	}
-
 	885.1.1 = {
 		death = yes
 	}
@@ -52528,7 +52526,7 @@
 }
 
 168593 = {
-	name = "Liutbert"
+	name = "Liutbert" # Archbishop of Mainz
 	religion = catholic
 	culture = german
 	830.1.1 = {

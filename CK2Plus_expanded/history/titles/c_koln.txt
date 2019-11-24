@@ -3,6 +3,10 @@
 	liege = k_neustria
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 855.1.1 = {
 	liege = k_lotharingia
 }

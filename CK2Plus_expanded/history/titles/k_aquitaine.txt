@@ -13,7 +13,6 @@
 }
 
 800.12.25 = {
-	holder = 6392 #Charlemagne
 	liege = e_karling
 }
 
