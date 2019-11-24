@@ -43,6 +43,10 @@
 	liege = k_lotharingia
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
+}
+
 898.1.1 = {
 	holder = 1326
 }

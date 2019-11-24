@@ -95,6 +95,7 @@
 
 855.8.23 = {
 	holder = 144998 # Lothair II
+	liege = e_karling
 }
 
 869.8.8 = {

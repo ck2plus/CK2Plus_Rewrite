@@ -25,6 +25,10 @@
 	holder = 131715
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_france
+}
+
 890.1.2 = {
 	holder = 131714
 }

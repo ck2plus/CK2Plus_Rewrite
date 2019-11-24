@@ -13,11 +13,14 @@
 	holder = 90095 # Louis I 'the Pious'
 }
 
+822.4.5 = { # death of Louis I 'the Pious'
+	liege = e_karling
+}
+
 840.6.20 = {
 #	liege = e_france
 	holder = 90104 # Charles II 'the Bald'
 	set_global_flag = charlemagne_hre
-	liege = e_karling
 }
 
 877.10.6 = {
@@ -32,9 +35,8 @@
 	holder = 90155 # Carloman II
 }
 
-#Robertian (=Capetians)
+# Robertian (= Capetians)
 888.1.13 = {
-	liege = 0
 	holder = 6448 #Eudes
 	reset_name = yes
 	reset_adjective = yes

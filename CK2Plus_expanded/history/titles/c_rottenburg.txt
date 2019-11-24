@@ -36,11 +36,9 @@
 }
 
 839.1.1 = {
-	liege = k_germany
-}
-
-839.1.1 = {
 	holder = 7910
+#	liege = k_germany
+	liege = k_france
 }
 
 865.1.1 = {

@@ -19,6 +19,10 @@
 	liege = k_lotharingia
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
+}
+
 903.1.1 = {
 	liege = d_lower_lorraine
 }

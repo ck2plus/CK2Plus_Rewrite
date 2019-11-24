@@ -3,7 +3,7 @@
 }
 
 778.1.1 = {
-	holder = 6392 # Karl the Great
+	holder = 6392 # Karl 'the Great'
 	liege = e_france
 	law = agnatic_succession
 }
@@ -17,10 +17,14 @@
 }
 
 817.1.1 = {
-	holder = 90096 # Pepin I of Aquitaine
+	holder = 90096 # Pepin I
 }
 
 838.1.14 = {
+	holder = 90097 # Pepin II 'the Younger'
+}
+
+852.1.1 = {
 	holder = 90104 # Charles II the Bald
 }
 

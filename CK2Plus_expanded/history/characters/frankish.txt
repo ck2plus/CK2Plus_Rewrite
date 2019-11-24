@@ -26781,8 +26781,7 @@
 }
 
 90097 = {
-	name = "Pepin"
-	# AKA: Pepin 'le Jeune'
+	name = "Pepin" # Pepin II 'the Young'
 	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 5
@@ -26790,7 +26789,7 @@
 	stewardship = 5
 	religion = catholic
 	culture = frankish
-	father = 90096
+	father = 90096 # Pepin I
 	823.1.2 = {
 		birth = yes
 	}

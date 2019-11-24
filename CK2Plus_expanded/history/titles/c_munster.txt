@@ -73,6 +73,10 @@
 	holder = 163054 # Liutbert
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
+}
+
 936.1.1 = {
 	holder = 260591
 }

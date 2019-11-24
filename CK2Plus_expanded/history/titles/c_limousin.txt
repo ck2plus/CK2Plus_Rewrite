@@ -11,6 +11,10 @@
 	liege = e_karling
 }
 
+#822.4.5 = { # death of Louis I 'the Pious'
+#	liege = k_france
+#}
+
 864.1.1 = {
 	liege = k_aquitaine
 	holder = 168055

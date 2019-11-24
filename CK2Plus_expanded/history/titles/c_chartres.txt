@@ -12,7 +12,7 @@
 }
 
 834.1.1 = {
-	liege = d_anjou
+	liege = k_france
 	holder = 6440 #Robert le fort
 	law = succ_primogeniture
 	law = cognatic_succession

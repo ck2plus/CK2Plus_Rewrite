@@ -31,6 +31,10 @@
 	holder = 90104 #Charles I the Bald
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_france
+}
+
 877.6.10 = {
 	holder = 42019 #Louis I the Younger
 }

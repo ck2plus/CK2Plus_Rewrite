@@ -32168,11 +32168,14 @@
 		add_spouse = 167847
 		give_nickname = nick_the_fat
 		effect = {
-		set_variable = { which = physique_variable value = 15}
+			set_variable = {
+				which = physique_variable
+				value = 15
+			}
 		}
 		trait = is_fat
 	}
-	888.1.14 = {
+	888.1.13 = {
 		death = yes
 	}
 }

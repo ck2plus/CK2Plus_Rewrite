@@ -17,6 +17,10 @@
 	holder = 167775
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
+}
+
 880.1.1 = {
 	liege = d_saxony
 }

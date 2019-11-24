@@ -15,13 +15,13 @@
 }
 
 859.1.1 = {
-	liege = k_germany
-	holder = 7990
+#	holder = 7990
+	holder = 90105 # Karl 'the Fat'
 }
 
-867.1.1 = {
-	holder = 167832
-}
+#867.1.1 = {
+#	holder = 167832
+#}
 
 936.1.1 = {
 	liege = d_swabia

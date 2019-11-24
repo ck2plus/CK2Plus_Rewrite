@@ -18,7 +18,7 @@
 	holder = 168191 #Sieghard
 }
 
-843.1.1 = {
+843.8.11 = { # Treaty of Verdun
 	liege = k_germany
 	holder = 168191
 }
