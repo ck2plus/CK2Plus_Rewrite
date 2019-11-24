@@ -121,7 +121,7 @@ basque_pagan_reformed_DESC;After many sacrifices to the Gods, the sorginak have 
 
 religion_feature_basque;Daughters of Mari;Filles de Mari;Töchter von Mari;;Hijas de Mari;;;;;;;;;x
 religion_feature_basque_desc;TODO;;;;;;;;;;;;;x
-religion_feature_basque_feature;Rulers follow the Vasconic principles of sacrifice and syncretism.;TODO;TODO;;TODO;;;;;;;;x
+religion_feature_basque_feature;Rulers follow the Vasconic principles of sacrifice and syncretism.;Les seigneurs suivent les principes vasconiques de sacrifice et de syncrétisme.;Herrscher folgen den vaskonischen Prinzipien von Opferbereitschaft und Synkretismus.;;Los gobernantes siguen los principios vasconicos de sacrificio y sincretismo.;;;;;;;;x
 
 GOD_MARI;Mari;;;;;;;;;;;;;x
 GOD_SUGAAR;Sugaar;;;;;;;;;;;;;x
