@@ -110,7 +110,7 @@ pagan_group = {
 		ai_convert_other_group = 2 #Always proselytize
 		ai_convert_same_group = 2  #Always proselytize
 
-		color = { 0.15 0.35 0.15 } # TODO
+		color = { 0.612 0.114 0.067 }
 
 		icon = 64
 		heresy_icon = 65
@@ -167,7 +167,7 @@ pagan_group = {
 		ai_convert_other_group = 2 #Always proselytize
 		ai_convert_same_group = 2  #Always proselytize
 
-		color = { 0.15 0.35 0.15 } # TODO
+		color = { 0.839 0.153 0.094 }
 
 		icon = 63
 		heresy_icon = 65
