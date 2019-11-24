@@ -693,6 +693,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_jizya
 				has_selected_religion_feature = religion_dogmatic
 				has_selected_religion_feature = religion_feature_hellenic # Redundant Doctrine
+				has_selected_religion_feature = religion_feature_basque
 			}
 		}
 		effect = {
@@ -862,6 +863,7 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_equal
 				has_selected_religion_feature = religion_feature_bon
 				has_selected_religion_feature = religion_meritocratic
+				religion = basque_pagan_reformed # Redundant
 				trigger_if = {
 					limit = { has_game_started = yes }
 					FROM = { 
@@ -910,6 +912,7 @@ religion_doctrine = {
 				religion_openly_aztec_or_reformed_trigger = yes
 				has_selected_religion_feature = religion_peaceful
 				has_selected_religion_feature = religion_proselytizing
+				has_selected_religion_feature = religion_feature_basque
 			}
 		}
 		effect = {
@@ -1520,7 +1523,39 @@ religion_doctrine = {
         ai_will_do = {
             factor = 50
         }
-    }
+	}
+	
+	religion_feature_basque = {
+		picture = GFX_religion_feature_basque
+		potential = {
+			has_game_started = yes
+			religion = basque_pagan_reformed
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			religion = basque_pagan_reformed
+			NOT = {
+				has_selected_religion_feature = religion_ritual_sacrifice
+				has_selected_religion_feature = religion_syncretic
+			}
+		}
+		effect = {
+			custom_tooltip = { text = tooltip_religion_feature_aztec_sacrifices }
+			custom_tooltip = { text = tooltip_religion_feature_bloodthirsty_mechanics }
+			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
+			custom_tooltip = { text = tooltip_religion_feature_syncretic }
+			hidden_tooltip = { 
+				set_hard_to_convert = yes
+				set_short_reign_opinion_year_mult = 0
+			}
+		}
+		ai_will_do = { factor = 50 }
+	}
 }
 
 religion_leadership = {

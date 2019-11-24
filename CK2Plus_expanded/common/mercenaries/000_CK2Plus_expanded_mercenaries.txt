@@ -10,3 +10,11 @@ keepers_tirnanog_composition = {
 	light_infantry = 300
 	heavy_infantry = 250
 }
+
+sword_of_ama_lur_composition = {
+	levy_size = 6
+	archers = 75
+	light_cavalry = 125
+	light_infantry = 300
+	heavy_infantry = 250
+}

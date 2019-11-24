@@ -11,16 +11,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_religion_icon_strip"
 		texturefile = "gfx\\interface\\religion_icon_strip.dds"
-		noOfFrames = 62 # vanilla: 59
+		noOfFrames = 65 # vanilla: 59
 	}
 	spriteType = {
 		name = "GFX_religion_icon_strip_small"
 		texturefile = "gfx\\interface\\religion_icon_strip_small.dds"
-		noOfFrames = 62 # vanilla: 59
+		noOfFrames = 65 # vanilla: 59
 	}
 	spriteType = {
 		name = "GFX_religion_icon_strip_big"
 		texturefile = "gfx\\interface\\religion_icon_strip_big.dds"
-		noOfFrames = 62 # vanilla: 59
+		noOfFrames = 65 # vanilla: 59
 	}
 }

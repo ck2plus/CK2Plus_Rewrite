@@ -37,3 +37,31 @@ has_followers_of_fomorians_prerequisites = {
 	has_common_devilworship_prerequisites = yes
 	religion_openly_celtic_or_reformed_trigger = yes
 }
+
+religion_openly_basque_or_reformed_trigger = {
+	custom_tooltip = {
+		text = religion_openly_basque_or_reformed_tooltip
+		hidden_trigger = {
+			OR = {
+				religion = basque_pagan
+				religion = basque_pagan_reformed
+			}
+		}
+	}
+}
+
+true_religion_basque_pagan_trigger = {
+	true_religion = basque_pagan
+}
+
+true_religion_basque_pagan_reformed_trigger = {
+	true_religion = basque_pagan_reformed
+}
+
+is_basque_secret_religious_society_member_trigger = {
+	society_member_of = secret_religious_cult
+	OR = {
+		society_member_of = secret_religious_society_basque_pagan_reformed
+		society_member_of = secret_religious_society_basque_pagan
+	}
+}

@@ -19,3 +19,12 @@ defined_text = {
 		localisation_key = warrior_lodge_celtic_desc_real
 	}
 }
+## Basque
+defined_text = {
+	name = GetBasqueWarriorSocietyName
+	text = { localisation_key = warrior_lodge_basque }
+}
+defined_text = {
+	name = GetBasqueWarriorSocietyDesc
+	text = { localisation_key = warrior_lodge_basque_desc }
+}

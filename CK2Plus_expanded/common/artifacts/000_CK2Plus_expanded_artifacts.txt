@@ -21,3 +21,31 @@ crown_celtic_fylkir = {
 		always = no
 	}
 }
+
+# Basque pagan
+#####
+
+scepter_basque_fylkir = {
+	monthly_character_prestige = 0.4
+	monthly_character_piety = 0.7
+	stewardship = 2
+	learning = 2
+	tribal_opinion = 10
+	quality = 4
+	active = {
+		has_landed_title = d_basque_pagan_reformed
+	}
+	flags = {
+		religious
+		unique
+		scepter
+		jewelry
+	}
+	stacking = no
+	picture = GFX_scepter_emerald
+	slot = scepter
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}

@@ -16,11 +16,11 @@ b_calahorra = temple
 
 # Misc
 culture = basque
-religion = catholic
+religion = basque_pagan
 
 # History
 
-867.1.1 = {
+867.1.1 = { 
 	b_najera = ca_town_1
 	b_najera = ca_keep_1
 	b_najera = ca_stable_1
@@ -28,3 +28,4 @@ religion = catholic
 	b_najera = ca_wall_1
 	b_najera = ca_wall_2
 }
+1000.1.1 = { religion = catholic }

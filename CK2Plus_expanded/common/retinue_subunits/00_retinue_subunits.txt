@@ -53,6 +53,8 @@ TRIBAL_PIETY_RET_1 = {
 			# CK2Plus
 			religion = celtic_pagan
 			religion = celtic_pagan_reformed
+			religion = basque_pagan
+			religion = basque_pagan_reformed
 		}
 	}
 	
@@ -91,6 +93,8 @@ TRIBAL_PIETY_RET_2 = {
 			# CK2Plus
 			religion = celtic_pagan
 			religion = celtic_pagan_reformed
+			religion = basque_pagan
+			religion = basque_pagan_reformed
 		}
 	}
 	
