@@ -72,7 +72,7 @@
 	holder = 90095 # Louis I 'the Pious'
 }
 
-829.1.1 = {
+826.1.1 = {
 	holder = 90107 # Louis II 'the German'
 }
 

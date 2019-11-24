@@ -26734,8 +26734,7 @@
 
 
 90095 = {
-	name = "Louis"
-	# AKA: Louis 'le Pieux'
+	name = "Louis" # Louis I 'the Pious'
 	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 5
@@ -26745,7 +26744,7 @@
 	culture = frankish
 	trait = skilled_tactician
 	trait = zealous
-	father = 6392
+	father = 6392 # Karl 'the Great'
 	mother = 167827
 	778.1.1 = {
 		birth = yes

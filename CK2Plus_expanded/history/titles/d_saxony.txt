@@ -65,6 +65,10 @@
 #	holder = 167763 # Billung, gavelsplit
 #}
 
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_germany
+}
+
 # Liudolfing
 
 844.1.1 = {

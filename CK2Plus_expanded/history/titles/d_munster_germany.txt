@@ -93,3 +93,7 @@
 #	de_jure_liege = k_germany
 #	holder = 0
 #}
+
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_germany
+}

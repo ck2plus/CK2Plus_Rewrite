@@ -2,6 +2,10 @@
 	de_jure_liege = k_austrasia
 }
 
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_germany
+}
+
 1291.7.15 = {
 	active = no
 }

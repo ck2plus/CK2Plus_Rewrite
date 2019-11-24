@@ -52,3 +52,7 @@
 825.1.1 = {
 	holder = 7959 # Liudolf 'the Great'
 }
+
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_germany
+}

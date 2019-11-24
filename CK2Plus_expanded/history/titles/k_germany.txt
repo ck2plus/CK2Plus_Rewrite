@@ -21,9 +21,8 @@
 	liege = e_karling
 }
 
-843.8.11 = { # Treaty of Verdun
+843.8.10 = { # Treaty of Verdun
 	holder = 90107 # Ludwig 'the German'
-
 }
 
 867.1.1 = {

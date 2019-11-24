@@ -12,11 +12,11 @@
 	holder = 90095 # Louis I
 }
 
-822.4.5 = {
+840.6.20 = {
 	holder = 30227 # Lothaire I
 }
 
-855.9.20 = {
+855.9.29 = {
 	holder = 30228 # Louis II
 }
 
@@ -24,7 +24,7 @@
 	holder = 90104 # Charles II 'the Bald'
 }
 
-876.8.28 = {
+876.10.6 = {
 	holder = 90105 # Karl III 'the Fat'
 }
 

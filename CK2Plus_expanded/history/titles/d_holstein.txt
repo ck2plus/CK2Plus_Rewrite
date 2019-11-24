@@ -68,6 +68,10 @@
 	holder = 167785 # Lothar
 }
 
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_germany
+}
+
 1129.7.1 = {
 	liege = k_denmark
 #	law = agnatic_succession
