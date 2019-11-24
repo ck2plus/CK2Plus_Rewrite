@@ -147,11 +147,15 @@
 	liege = e_france
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 810.7.8 = {
 	holder = 6396 # Bernard
 }
 
-818.8.17 = {
+818.4.17 = {
 	holder = 90095 # Louis I
 }
 

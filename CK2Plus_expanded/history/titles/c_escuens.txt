@@ -3,6 +3,10 @@
 	holder = 245000
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 860.1.1 = {
 	holder = 245001
 	liege = k_lotharingia

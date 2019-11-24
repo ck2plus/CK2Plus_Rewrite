@@ -8,6 +8,10 @@
 	liege = d_anjou
 }
 
+811.12.4 = { # death of Charles 'the Younger'
+	liege = e_karling
+}
+
 812.1.1 = {
 	holder = 168020
 }

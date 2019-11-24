@@ -7,6 +7,10 @@
 	liege = k_francia
 }
 
+811.12.4 = { # death of Charles 'the Younger'
+	liege = e_karling
+}
+
 834.1.1 = {
 	liege = d_anjou
 	holder = 6440 #Robert le fort

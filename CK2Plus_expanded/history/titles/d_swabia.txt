@@ -33,6 +33,10 @@
 	holder = 190239 #Udo
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 810.1.1 = {
 	holder = 0
 }

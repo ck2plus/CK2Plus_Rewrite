@@ -1,36 +1,16 @@
-1.1.1 = {
-	de_jure_liege = 0
-}
-
-760.1.1 = {
-	de_jure_liege = k_austrasia
-}
-
 769.1.1 = {
 	holder = 194170
 	liege = k_neustria
 }
 
-788.1.2 = {
-	holder = 0
-}
-
-790.1.1 = {
-	liege = k_francia
-}
-
-817.1.1 = {
-	de_jure_liege = k_lotharingia
-}
-
-870.8.8 = { # Treaty of Meerssen
-	de_jure_liege = k_germany
+800.12.25 = {
+	liege = e_karling
 }
 
 1190.8.21 = {
 	liege = e_hre
-	#law = agnatic_succession
-	#law = succ_primogeniture
+#	law = agnatic_succession
+#	law = succ_primogeniture
 }
 
 1190.8.21 = {

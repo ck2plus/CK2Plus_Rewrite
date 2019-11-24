@@ -4,6 +4,10 @@
 	liege = k_neustria
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 862.1.1 = {
 	liege = k_france
 	holder = 90109 #Boudewijn I
@@ -13,19 +17,19 @@
 	holder = 90108 #Boudewijn II
 }
 
-918.9.10={
+918.9.10 = {
 	holder = 358 #Arnulf I
 }
 
-958.1.1={
+958.1.1 = {
 	holder = 360 #Boudewijn III
 }
 
-962.11.1={
+962.11.1 = {
 	holder = 361 #Arnulf II
 }
 
-987.3.10={
+987.3.10 = {
 	holder = 362 #Boudewijn IV
 }
 
@@ -91,7 +95,7 @@
 	holder = 94024 #Margaretha II
 }
 
-1251.6.6={
+1251.6.6 = {
 	holder = 455769 #Guy I Dampierre
 }
 

@@ -11,6 +11,10 @@
 	holder = 6392 # Karl 'the Great'
 }
 
+814.1.28 = {
+	liege = e_karling
+}
+
 834.1.1 = {
 	liege = k_france
 	holder = 6398 # Pepin II 'Quentin'

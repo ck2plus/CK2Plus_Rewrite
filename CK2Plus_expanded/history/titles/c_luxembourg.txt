@@ -8,6 +8,10 @@
 	liege = e_france
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 842.1.1 = {
 	liege = k_lotharingia
 	holder = 7979

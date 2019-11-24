@@ -7,6 +7,10 @@
 	holder = 168161
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 867.1.1 = {
 	holder = 168082
 	liege = k_lotharingia

@@ -85,6 +85,10 @@
 	liege = e_france
 }
 
+800.12.25 = {
+	liege = e_karling
+}
+
 #814.1.28 = {
 #	de_jure_liege = k_germany
 #	holder = 0
