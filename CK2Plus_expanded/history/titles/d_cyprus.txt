@@ -59,6 +59,7 @@
 1192.5.3=
 {
 	liege="k_cyprus"
+	de_jure_liege = k_cyprus
 }
 1192.5.3=
 {

@@ -1,5 +1,5 @@
 1.1.1 = {
-	de_jure_liege = k_thrace
+	de_jure_liege = k_anatolia
 }
 330.1.1 = {
 	liege = "e_byzantium"

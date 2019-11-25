@@ -4,7 +4,7 @@
 }
 1077.1.1=
 {
-	liege="k_rum"
+	liege= 0
 }
 1102.1.1={
 	holder = 144045
@@ -26,6 +26,7 @@
 }
 1202.1.1={
 	holder = 34397
+	liege="k_rum"
 }
 1202.7.1={
 
@@ -51,6 +52,5 @@
 	holder = 34401
 }
 1335.1.1={
-	liege="k_eretnid" 
-	holder=71864
+	liege= 0
 }
