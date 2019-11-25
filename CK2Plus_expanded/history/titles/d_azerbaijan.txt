@@ -1,5 +1,5 @@
 1.1.1 = {
-	de_jure_liege = k_daylam
+	de_jure_liege = k_azerbaijan
 }
 765.1.1 = {
 	liege = e_arabia

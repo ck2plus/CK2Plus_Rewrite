@@ -1,3 +1,6 @@
+1.1.1 = {
+	de_jure_liege = k_algiers
+}
 767.1.1={	
 	liege = k_africa
 	holder = 210035

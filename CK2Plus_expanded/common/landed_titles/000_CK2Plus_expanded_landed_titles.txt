@@ -62,3 +62,61 @@ k_francia = {
 		always = no
 	}
 }
+
+k_azerbaijan = {
+	color = { 112 223 170 }
+	color2 = { 255 255 20 }
+
+	culture = persian
+
+	capital = 667 # Tabriz
+
+	short_name = yes
+
+	# Crusade target weights
+		muslim = 400
+		zoroastrian_group = 500
+		zun_pagan_reformed = 300
+		jewish_group = 100
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+}
+
+k_oman = {
+	color = { 150 10 15 }
+	color2 = { 255 255 20 }
+
+	culture = bedouin
+
+	capital = 868 # Muscat
+
+	short_name = yes
+
+	# Crusade target weights
+		muslim = 400
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+}
+
+k_algiers = {
+	color = { 100 120 90}
+	color2 = { 255 255 20 }
+
+	culture = maghreb_arabic
+
+	capital = 831 # Al-Djzair
+
+	short_name = yes
+
+	# Crusade target weights
+		muslim = 400
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
+}
+
