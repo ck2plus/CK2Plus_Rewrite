@@ -17,7 +17,7 @@ b_cunningsburgh = tribal
 
 # Misc
 culture = pictish
-religion = catholic
+religion = celtic_pagan
 terrain = hills
 
 # History
