@@ -1,10 +1,5 @@
-1.1.1 = {
-	de_jure_liege = k_ireland
-}
 430.1.1 = {
 	holder = 83160 #Énna Cennsalach
-	law = agnatic_succession
-	law = succ_tanistry
 }
 450.7.1 = {
 	holder = 83161 #Crimthann son of Énna Cennsalach
@@ -38,12 +33,6 @@
 }
 644.7.1 = {
 	holder = 83182  #Élothach son of Fáelchú
-}
-723.1.1 = {
-	set_tribute_suzerain = {
-		who = k_ireland
-		type = permanent
-	}
 }
 728.7.1 = {
 	holder = 83171  #Áed Ua Cheinnselaig son of Colcú
@@ -102,20 +91,30 @@
 1128.1.1 = {
 	holder = 214550 #Diarmait son of Donnchad
 }
-1166.7.1={
-	holder = 214510 #Ruaidri Ua Conchobair
-	clear_tribute_suzerain = k_ireland
-	liege = k_ireland
+1166.7.1 = {
+	liege = d_leinster
 }
-1170.7.1={
-	holder = 214550 #Diarmait of Leinster
+1171.5.1 = {
+	holder = 214555 #Domnall Cáemánach
 }
-1171.5.1={
-	holder = 214553 #wife of Richard de Clare
+1175.7.1 = {
+	holder = 83200 #Muirchertach Mac Murchada-Cennselach
 }
-1172.1.1={
-	liege="k_england"
+1185.1.1 = {
+	liege = d_meath
 }
-1185.1.1={
-	holder = 0
+1193.7.1 = {
+	holder = 83195 #Domnall son of Domnall Cáemánach
+}
+1250.7.1 = {
+	holder = 83196 #Muirchertach son of Domnall
+}
+1282.7.1 = {
+	holder = 83201 #Muiris son of Muirchertach
+}
+1327.7.1 = {
+	holder = 83202 #Domnall son of Art
+}
+1339.7.1 = {
+	holder = 83203 #Domnall son of Domnall
 }

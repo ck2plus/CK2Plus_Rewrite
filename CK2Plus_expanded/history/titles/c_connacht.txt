@@ -1,10 +1,5 @@
-1.1.1 = {
-	de_jure_liege = k_ireland
-}
 622.7.1 = {
 	holder = 83397 #Rogallach mac Uatach
-	law = agnatic_succession
-	law = succ_tanistry
 }
 649.7.1 = {
 	holder = 83447 #Cenn-Fáelad Ua Briúin Sola
@@ -20,12 +15,6 @@
 }
 714.7.1 = {
 	holder = 83407 #Indrechtach mac Muiredaig
-}
-723.1.1 = {
-	set_tribute_suzerain = {
-		who = k_ireland
-		type = permanent
-	}
 }
 723.7.1 = {
 	holder = 83401 #Domnall mac Cellaig
@@ -44,6 +33,10 @@
 }
 768.7.1 = {
 	holder = 83403 #Flaithrí mac Domnaill
+	liege = d_connacht
+}
+773.1.1 = {
+	liege = 0
 }
 777.7.1 = {
 	holder = 83412 #Artgal mac Cathail
@@ -78,10 +71,6 @@
 843.7.1 = {
 	holder = 83394 #Fínsnechta mac Tommaltaigh
 }
-846.1.1 = {
-	clear_tribute_suzerain = k_ireland
-	liege = "k_ireland"
-}
 848.7.1 = {
 	holder = 83417 #Mugrón mac Maíl COthaid
 }
@@ -101,142 +90,137 @@
 	holder = 83387 #Tadg mac Cathail
 }
 956.7.1 = {
+	holder = 83536 # Fergal Ua Ruairc
+}
+967.1.1 = {
+	holder = 83388 # Conchobar mac Taidg meic Conchobair
+}
+973.7.1 = {
 	holder = 83386 #Cathal mac Taidg meic Conchobair
 }
 973.11.1 = {
 	holder = 83389 #Cathal mac Conchobair
 }
-925.7.1={
-	holder = 83387 #Tadg mac Cathail
+1010.7.1 = {
+	liege = d_connacht
 }
-1010.7.1={
+1010.7.1 = {
 	holder = 909 #Tadg in Eich Gil
-	#law = agnatic_succession
-	#law = succ_seniority
 }
-1022.9.2 = {
-	liege = 0
+1030.7.1 = {
+	holder = 910 #Áed in Gai Bernaig
 }
-1030.7.1={
-	holder = 910 #Áed in Gai Bernaig Ua COncochobair
+1067.7.1 = {
+	holder = 911 #Ruaidrí na Saide Buide
 }
-1067.7.1={
-	holder = 1000 #Áed Ua Ruairc
+1092.7.1 = {
+	holder = 83457 #Tadg mac Ruaidrí
 }
-1087.7.1={
-	holder = 911 #Ruaidrí na Saide Buide Ua Conchobair
-}
-1092.7.1={
-	holder = 83457 #Tadg Ua Conchobair
-}
-1097.7.1={
+1097.7.1 = {
 	holder = 83119 #Flaithbertach Ua Flaithbertaig
 }
-1098.7.1={
-	holder= 1004 #Domnall Ua Ruairc
+1098.7.1 = {
+	holder = 83458 #Domnall mac Ruaidrí
 }
-1102.7.1={
-	holder = 83458 #Domnall Ua COncochobair
+1106.7.1 = {
+	holder = 214520 #Toirrdelbach mac Ruaidrí
 }
-1106.7.1={
-	holder = 214520 #Toirrdelbach Ua COncochobair
+1156.5.20 = {
+	holder = 214510 #Ruaidrí mac Toirrdelbaig
 }
-1156.5.20={
-	holder = 214510 #Ruaidrí Ua COncochobair
-}
-1183.7.1={
+1183.7.1 = {
 	holder = 214500 #Conchobar Máenmaige mac Ruaidrí
 }
-1189.7.1={
+1189.7.1 = {
 	holder = 214505 #Cathal Carrach mac Conchobar
 }
-1202.7.1={
+1202.7.1 = {
 	holder = 83462 #Cathal Crobderg mac Toirrdelbaig
 }
-1224.7.1={
+1224.7.1 = {
 	holder = 83467 #Áed mac Cathail
 }
-1225.3.1={
+1225.3.1 = {
 	holder = 214501 #Toirrdelbach mac Ruaidrí
 }
-1225.9.1={
+1225.9.1 = {
 	holder = 83467 #Áed mac Cathail
 }
-1228.7.1={
+1228.7.1 = {
 	holder = 214501 #Toirrdelbach mac Ruaidrí
 }
-1230.7.1={
+1230.7.1 = {
 	holder = 83468 #Fedlimid mac Cathail
 }
-1231.7.1={
+1231.7.1 = {
 	holder = 214502 #Áed mac Ruaidrí
 }
-1233.7.1={
+1233.7.1 = {
 	holder = 83468 #Fedlimid mac Cathail
 }
-1236.7.1={
+1236.7.1 = {
 	holder = 83469 #Brian mac Toirrdelbaig
 }
-1237.7.1={
+1237.7.1 = {
 	holder = 83468 #Fedlimid mac Cathail
 }
-1249.7.1={
+1249.7.1 = {
 	holder = 83509 #Toirrdelbach mac Áeda
 }
-1250.7.1={
+1250.7.1 = {
 	holder = 83468 #Fedlimid mac Cathail
 }
-1265.7.1={
+1265.7.1 = {
 	holder = 83504 #Áed son of Fedlimid
 }
-1274.1.1={
+1274.1.1 = {
 	holder = 83512 #Áed mac Cathail
 }
-1274.5.1={
+1274.5.1 = {
 	holder = 83513 #Eógan mac Ruaidrí
 }
-1274.11.1={
+1274.11.1 = {
 	holder = 83511 #Tadg Ruad mac Toirrdelbaig
 }
-1278.7.1={
+1278.7.1 = {
 	holder = 83505 #Áed Muimnech son of Fedlimid
 }
-1280.7.1={
+1280.7.1 = {
 	holder = 83497 #Cathal Ruad mac Conchobair Ruaid
 }
-1288.7.1={
+1288.7.1 = {
 	holder = 83498 #Magnus mac Conchobair Ruaid
 }
-1293.7.1={
+1293.7.1 = {
 	holder = 83515 #Áed mac Eógain
 }
-1309.7.1={
+1309.7.1 = {
 	holder = 83500 #Áed Bréifnech mac Cathail
 }
-1310.7.1={
+1310.7.1 = {
 	holder = 83517 #Fedlimid mac Áeda
 }
-1315.7.1={
+1315.7.1 = {
 	holder = 83501 #Ruaidrí mac Cathail Ruaid
 }
-1316.2.23={
+1316.2.23 = {
 	holder = 83517 #Fedlimid mac Áeda
 }
-1316.9.10={
+1316.9.10 = {
 	holder = 83516 #Ruaidrí na Fed
 }
-1317.7.1={
+1317.7.1 = {
 	holder = 83519 #Toirrdelbach mac Áeda
 }
-1318.7.1={
+1318.7.1 = {
 	holder = 83484 #Cathal mac Domnaill
 }
-1324.7.1={
+1324.7.1 = {
 	holder = 83519 #Toirrdelbach mac Áeda
 }
-1342.7.1={
+1342.7.1 = {
 	holder = 83502 #Áed son of Áed Bréifnech
 }
-1343.7.1={
+1343.7.1 = {
 	holder = 83519 #Toirrdelbach mac Áeda
 }
