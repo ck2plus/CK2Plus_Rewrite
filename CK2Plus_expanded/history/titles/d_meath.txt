@@ -1,9 +1,20 @@
 1.1.1 = {
 	de_jure_liege = k_ireland
 }
+723.1.1 = {
+	holder = 7244 # Flaithbertach mac Loingsig
+	liege = k_ireland
+	law = agnatic_succession
+	law = succ_tanistry
+}
+730.1.1 = {
+	holder = 252136 # çed All‡n
+}
+739.1.1 = {
+	holder = 7272 # Domnall Midi
+}
 759.1.1 = {
 	holder = 7273 # Niall Frossach
-	liege = k_ireland
 }
 765.1.1 = {
 	holder = 7274 # Donnchad Midi

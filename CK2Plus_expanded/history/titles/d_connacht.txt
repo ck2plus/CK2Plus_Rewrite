@@ -21,9 +21,14 @@
 714.7.1 = {
 	holder = 83407 #Indrechtach mac Muiredaig
 }
+723.1.1 = {
+	set_tribute_suzerain = {
+		who = k_ireland
+		type = permanent
+	}
+}
 723.7.1 = {
 	holder = 83401 #Domnall mac Cellaig
-	set_tribute_suzerian = k_ireland
 }
 728.7.1 = {
 	holder = 83408 #Cathal mac Muiredaig
@@ -74,6 +79,7 @@
 	holder = 83394 #Fínsnechta mac Tommaltaigh
 }
 846.1.1 = {
+	clear_tribute_suzerain = k_ireland
 	liege = "k_ireland"
 }
 848.7.1 = {

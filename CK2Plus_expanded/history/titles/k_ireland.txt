@@ -4,6 +4,7 @@
 #Historical High Kings of Ireland, have no vassals but their own, yet title gives them proper cb's
 723.1.1 = {
 	holder = 7244 # Flaithbertach mac Loingsig
+	law = succ_tanistry
 }
 730.1.1 = {
 	holder = 252136 # çed All‡n

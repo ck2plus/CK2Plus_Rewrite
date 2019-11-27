@@ -1,8 +1,51 @@
 1.1.1 = {
 	de_jure_liege = k_ireland
 }
+430.1.1 = {
+	holder = 7255 #Niall Noigiallach
+	set_tribute_suzerain = k_ireland
+	law = agnatic_succession
+	law = succ_tanistry
+}
+450.1.1 = {
+	holder = 7257 #Eogan son of Conal Gulban
+}
+465.1.1 = {
+	holder = 7259 #Muiredach son of Eogan
+}
+489.1.1 = {
+	holder = 7261 #Muirchertach son of Muiredach
+}
+534.1.1 = {
+	holder = 7263 #Donall son of Muirchertach
+}
+566.1.1 = {
+	holder = 7265 #Aed Uaridnach son of Donall
+}
+612.1.1 = {
+	holder = 7267 #Máel Fithrich son of Aed
+}
+630.1.1 = {
+	holder = 7269 #Máel Duin son of Máel Fithrich
+}
+681.1.1 = {
+	holder = 7271 #Fergal son of Máel Duin
+}
+722.12.11 = {
+	holder = 7273 #Niall Frossach
+}
+723.1.1 = {
+	set_tribute_suzerain = {
+		who = k_ireland
+		type = permanent
+	}
+}
+778.1.1 = {
+	holder = 7275 #Aed Oirdnide
+}
 819.1.1 = {
 	holder = 945 #Niall Caille
+	clear_tribute_suzerain = k_ireland
 	liege = "k_ireland"
 }
 846.1.1 = {
@@ -108,13 +151,12 @@
 1243.1.1={
 	holder = 454152
 }
-1271.12.28=
-{
+1271.12.28 = {
 	holder = 454106
 }
-1329.7.29={
+1329.7.29 = {
 	holder = 454613
 }
-1333.6.6={
+1333.6.6 = {
 	holder=454614
 }
