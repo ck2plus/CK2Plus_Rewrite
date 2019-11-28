@@ -28,7 +28,7 @@
 #Muhallabids
 768.1.1={
 	holder = 210014
-	de_jure_liege = e_arabia
+	de_jure_liege = e_maghreb
 }
 #768.1.1={
 #	liege = "e_arabia"
