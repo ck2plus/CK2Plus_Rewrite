@@ -1,10 +1,6 @@
 774.1.1 = {
-	liege = e_france
+	liege = k_italy
 	holder = 235002 #Burchard
-}
-
-800.12.25 = {
-	liege = e_karling
 }
 
 828.1.1 = {

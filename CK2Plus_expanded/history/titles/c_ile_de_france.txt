@@ -1,10 +1,10 @@
 #county of Paris
 #Karling
 687.1.1 = {
-	holder = 131720
+	holder = 131720 # Pepin I
 }
 
-714.1.17 = {
+714.12.16 = {
 	holder = 131721
 }
 

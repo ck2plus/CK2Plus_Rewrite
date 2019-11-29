@@ -3,7 +3,11 @@
 	liege = k_austrasia
 }
 
-800.12.25 = {
+790.1.1 = { # Charles 'the Younger' becomes 'Ducatus Cenomannicus'
+	liege = k_francia
+}
+
+811.12.4 = { # Death of Charles 'the Younger'
 	liege = e_karling
 }
 

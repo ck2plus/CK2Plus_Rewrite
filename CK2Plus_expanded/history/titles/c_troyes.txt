@@ -1,10 +1,27 @@
-#House of Vermandois (Carolingien)
-769.1.1 = {
-	holder = 144999
+# Karlings (Pippinids)
+
+690.1.1 = {
+	holder = 131719 # Drogo
+}
+
+708.1.1 = {
+	holder = 131718 # Arnulf
+}
+
+#728.1.1 = {
+#	holder =
+#}
+
+768.9.24 = {
+	holder = 144999 # Karloman
 }
 
 771.12.4 = {
 	holder = 6392 # Karl the Great
+}
+
+790.1.1 = { # Charles 'the Younger' becomes 'Ducatus Cenomannicus'
+	liege = k_francia
 }
 
 814.1.28 = {

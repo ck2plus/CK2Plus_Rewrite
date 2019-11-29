@@ -59,6 +59,7 @@
 
 805.1.1 = {
 	holder = 1000061100 # Liudger
+	liege = e_karling
 }
 
 809.3.26 = {
@@ -83,6 +84,7 @@
 
 1063.1.1 = {
 	holder = 20218 #Friedrich Wettin
+	liege = d_saxony
 }
 
 1084.4.18 = {
@@ -167,9 +169,6 @@
 	holder = 30334 #Konrad von Berg
 }
 
-1313.5.25 =
-
-{
+1313.5.25 = {
 	holder = 462003 #Ludwig von Hessen
 }
-

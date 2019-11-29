@@ -1,10 +1,16 @@
 769.1.1 = {
 	holder = 194170
+	de_jure_liege = k_austrasia
 	liege = k_neustria
 }
 
-800.12.25 = {
+800.12.15 = { # Coronation of Karl as EMPEROR
 	liege = e_karling
+}
+
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_france
+	liege = k_france
 }
 
 1190.8.21 = {

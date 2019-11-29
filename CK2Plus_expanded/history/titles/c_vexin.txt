@@ -2,7 +2,7 @@
 	holder = 131720
 }
 
-714.1.17 = {
+714.12.16 = {
 	holder = 144988
 }
 
@@ -15,11 +15,15 @@
 	holder = 144986
 }
 
+790.1.1 = { # Charles 'the Younger' becomes 'Ducatus Cenomannicus'
+	liege = k_francia
+}
+
 796.1.1 = {
 	holder = 144985
 }
 
-800.12.25 = {
+811.12.4 = { # death of Charles 'the Younger'
 	liege = e_karling
 }
 

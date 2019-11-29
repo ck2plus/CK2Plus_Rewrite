@@ -1132,7 +1132,7 @@
 
 1354 = {
 	name = "Hugues" # http://en.wikipedia.org/wiki/Hugh_III_of_Maine
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 6
 	diplomacy = 4
 	intrigue = 8
@@ -1153,7 +1153,7 @@
 
 1356 = {
 	name = "Hugues"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 5
 	diplomacy = 7
 	intrigue = 8
@@ -1178,7 +1178,7 @@
 	name = "Mélisende"
 	# AKA: Melisent
 	female = yes
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 4
 	diplomacy = 4
 	intrigue = 8
@@ -1196,7 +1196,7 @@
 
 1358 = {
 	name = "Heribert" #  http://en.wikipedia.org/wiki/Herbert_I,_Count_of_Maine
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 4
 	diplomacy = 4
 	intrigue = 8
@@ -1217,7 +1217,7 @@
 1359 = {
 	name = "Garsende"
 	female = yes
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 8
 	diplomacy = 5
 	intrigue = 8
@@ -9829,7 +9829,7 @@
 		birth = yes
 	}
 	1092.5.1 = {
-		add_spouse = 207660
+		add_spouse = 207660 # de Maine
 	}
 	1107.9.20 = {
 		death = yes
@@ -30414,7 +30414,7 @@
 	}
 }
 
-31660 = {
+31660 # de Maine = {
 	name = "Gérard"
 	dynasty = 7227
 	religion = catholic
@@ -30812,7 +30812,7 @@
 	1169.6.1 = {
 		birth = yes
 	}
-	#1189 married Hugues IX de Lusignan 205660
+	#1189 married Hugues IX de Lusignan 205660 # de Maine
 	1233.8.29 = {
 		death = yes
 	}
@@ -30824,7 +30824,7 @@
 	dynasty = 93
 	religion = catholic
 	culture = frankish
-	father = 205660
+	father = 205660 # de Maine
 	mother = 138009
 	1189.1.1 = {
 		birth = yes
@@ -31330,7 +31330,7 @@
 	}
 }
 
-205660 = {
+205660 # de Maine = {
 	name = "Hugues" #Hugues IX de Lusignan
 	dynasty = 93
 	religion = catholic
@@ -40226,7 +40226,7 @@
 
 144951 = {
 	name = "Hugues"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	father = 144952
@@ -40241,7 +40241,7 @@
 
 144952 = {
 	name = "Hugues"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	father = 144953
@@ -40258,7 +40258,7 @@
 
 144953 = {
 	name = "Roger"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	840.1.1 = {
@@ -40271,7 +40271,7 @@
 
 144954 = {
 	name = "Herbert"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	trait = honest
@@ -40820,7 +40820,7 @@
 161293 = {
 	name = "Marguerite"
 	female = yes
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	father = 1356
@@ -40836,7 +40836,7 @@
 161294 = {
 	name = "Biote"
 	female = yes
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	father = 1358
@@ -46667,7 +46667,7 @@
 
 261391 = {
 	name = "Melisende"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	female = yes
 	religion = catholic
 	culture = frankish

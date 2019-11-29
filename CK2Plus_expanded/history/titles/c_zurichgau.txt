@@ -15,6 +15,10 @@
 	holder = 7985
 }
 
+800.12.25 = { # Coronation of Karl as Emperor
+	liege = e_karling
+}
+
 810.1.1 = {
 	liege = e_karling
 }

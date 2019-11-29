@@ -10,15 +10,11 @@
 	adjective = WEST_FRISIA_ADJ
 }
 
-#775.1.1 = {
-#	de_jure_liege = k_neustria
-#}
-
-800.12.25 = {
+800.12.15 = { # Coronation of Karl as EMPEROR
 	liege = e_karling
 }
 
-817.1.1 = {
+843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_lotharingia
 	liege = k_lotharingia
 }

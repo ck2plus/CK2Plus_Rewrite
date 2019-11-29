@@ -3,12 +3,20 @@
 	holder = 131720 # Pepin II 'the Middle' of Herstal
 }
 
-714.1.17 = {
+714.12.16 = {
 	holder = 131721 # Charles 'the Hammer'
 }
 
-769.1.1 = {
+741.1.23 = {
+	holder = 131722 # Pepin 'the Short'
+}
+
+768.9.24 = {
 	holder = 6392 # Karl 'the Great'
+}
+
+790.1.1 = { # Charles 'the Younger' becomes 'Ducatus Cenomannicus'
+	liege = k_francia
 }
 
 814.1.28 = {

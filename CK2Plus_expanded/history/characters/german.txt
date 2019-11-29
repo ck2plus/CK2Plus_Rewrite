@@ -45381,7 +45381,7 @@
 	culture = alemannic
 	religion = catholic
 	father = 161482
-	770.1.1 = {
+	775.1.1 = {
 		birth = yes
 	}
 	837.10.27 = {
