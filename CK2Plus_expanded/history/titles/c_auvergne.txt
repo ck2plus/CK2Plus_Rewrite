@@ -7,7 +7,7 @@
 	holder = 190507 #Hugh
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	liege = k_aquitaine
 }
 

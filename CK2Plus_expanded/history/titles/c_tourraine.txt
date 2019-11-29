@@ -3,7 +3,7 @@
 	liege = d_aquitaine
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	liege = k_aquitaine
 }
 
@@ -11,7 +11,7 @@
 	holder = 161483 # Hugo
 }
 
-806.1.1 = { # Partition of Thionville
+806.2.6 = { # Divisio Regnorum/Partition at Thionville
 	liege = k_francia
 }
 

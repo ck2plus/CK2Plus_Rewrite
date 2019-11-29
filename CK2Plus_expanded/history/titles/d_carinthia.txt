@@ -25,7 +25,7 @@
 	holder = 260385 # Prince Valhun of Carantania
 }
 
-788.1.1 = {
+788.3.30 = { # Tassilo submits to Karl in Ingelheim at Easter
 	liege = e_france
 }
 

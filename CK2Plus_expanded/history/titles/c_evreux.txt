@@ -3,7 +3,7 @@
 	holder = 91476 #Australdis, historical place	holder
 }
 
-790.1.1 = {
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
 	liege = k_francia
 }
 

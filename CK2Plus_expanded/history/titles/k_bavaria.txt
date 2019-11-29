@@ -58,7 +58,7 @@
 	holder = 190228 # Tassilo III
 }
 
-788.1.1 = {
+788.3.30 = { # Tassilo submits to Karl in Ingelheim at Easter
 	holder = 6392 # Karl 'the Great'
 	law = agnatic_succession
 }

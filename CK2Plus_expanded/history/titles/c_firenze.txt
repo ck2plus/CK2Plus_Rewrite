@@ -110,7 +110,7 @@
 	liege = e_france
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	liege = k_italy
 }
 

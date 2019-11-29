@@ -6,7 +6,7 @@
 	liege = d_aquitaine
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	liege = k_aquitaine
 }
 
@@ -35,7 +35,7 @@
 }
 
 945.1.1 = {
-	holder = 138110 #Bernard I de périgord
+	holder = 138110 #Bernard I de pï¿½rigord
 }
 
 950.1.1 = {

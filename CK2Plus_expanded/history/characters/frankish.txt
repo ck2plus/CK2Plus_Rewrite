@@ -30414,7 +30414,7 @@
 	}
 }
 
-31660 # de Maine = {
+31660 = {
 	name = "Gérard"
 	dynasty = 7227
 	religion = catholic
@@ -31330,7 +31330,7 @@
 	}
 }
 
-205660 # de Maine = {
+205660 = {
 	name = "Hugues" #Hugues IX de Lusignan
 	dynasty = 93
 	religion = catholic

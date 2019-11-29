@@ -142,7 +142,7 @@
 	set_global_flag = fall_of_lombard_kingdom
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	holder = 6394 # Pepin 'Carloman' (renamed upon coronation)
 	liege = e_france
 }

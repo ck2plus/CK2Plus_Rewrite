@@ -10,7 +10,7 @@
 	holder = 168104 #Lope II de Vasconia
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	liege = k_aquitaine
 }
 

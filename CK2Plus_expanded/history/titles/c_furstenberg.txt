@@ -19,7 +19,7 @@
 	holder = 190234 #Hnabi
 }
 
-788.1.1 = {
+788.3.30 = { # Tassilo submits to Karl in Ingelheim at Easter
 	holder = 190238 #Erbio
 }
 

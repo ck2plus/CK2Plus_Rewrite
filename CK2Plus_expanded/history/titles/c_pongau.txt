@@ -6,7 +6,7 @@
 	holder = 190368 #Fagulf
 }
 
-788.1.1 = {
+788.3.30 = { # Tassilo submits to Karl in Ingelheim at Easter
 	liege = k_bavaria
 }
 

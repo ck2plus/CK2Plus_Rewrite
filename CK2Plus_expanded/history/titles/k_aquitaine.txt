@@ -8,7 +8,7 @@
 	law = agnatic_succession
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	holder = 90095 # Louis I 'the Pious'
 }
 

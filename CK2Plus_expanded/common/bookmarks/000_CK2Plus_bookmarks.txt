@@ -27,7 +27,7 @@ bm_child_kings = {
 	desc = "He's mad!"
 #	name = BM_CHILD_KINGS
 #	desc = BM_CHILD_KINGS_DESC
-	date = 781.1.1
+	date = 781.4.15 # Coronation at Easter in Rome
 
 	selectable_character = {
 		id = 6392 # Karl 'the Great'
@@ -47,7 +47,7 @@ bm_submission_of_bavaria = {
 	desc = "He's sad!"
 #	name = BM_SUBMISSION_OF_BAVARIA
 #	desc = BM_SUBMISSION_OF_BAVARIA_DESC
-	date = 788.1.1
+	date = 788.3.30 # Tassilo submits to Karl at Easter in Ingelheim
 
 	selectable_character = {
 		id = 6392 # Karl 'the Great'
@@ -67,7 +67,7 @@ bm_charles_of_the_franks = {
 	desc = "He's sad!"
 #	name = BM_CHARLES_OF_THE_FRANKS
 #	desc = BM_CHARLES_OF_THE_FRANKS_DESC
-	date = 790.1.1
+	date = 790.4.11 # Diet of Worms at Easter
 
 	selectable_character = {
 		id = 6392 # Karl 'the Great'
@@ -110,11 +110,35 @@ bm_coronation_of_charlemagne = {
 	}
 }
 
+bm_partition_of_thionville = {
+	name = "Partition of Thionville/Divisio Regnorum"
+	desc = "He's decided!"
+#	name = BM_PARTITION_OF_THIONVILLE
+#	desc = BM_PARTITION_OF_THIONVILLE_DESC
+	date = 806.2.6
+
+	selectable_character = {
+		id = 6392 # Karl 'the Great'
+	}
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = {
+		id = 6394 # Pepin I
+	}
+
+	selectable_character = {
+		id = 40994 # Charles 'the Younger'
+	}
+}
+
 bm_death_of_pepin_i = {
 	name = "Death of Pepin I"
 	desc = "He's sick!"
-#	name = BM_DEATH_OF_KARLOMAN
-#	desc = BM_DEATH_OF_KARLOMAN_DESC
+#	name = BM_DEATH_OF_PEPIN_I
+#	desc = BM_DEATH_OF_PEPIN_I_DESC
 	date = 810.7.8
 
 	selectable_character = {
@@ -166,10 +190,6 @@ bm_death_of_charlemagne = {
 	}
 
 	selectable_character = {
-		id = 30227 # Lothaire I
-	}
-
-	selectable_character = {
 		id = 6396 # Bernard
 	}
 }
@@ -177,8 +197,8 @@ bm_death_of_charlemagne = {
 bm_ordinatio_imperii = {
 	name = "Ordinatio Imperii"
 	desc = "Not dead yet!"
-#	name = BM_DEATH_OF_CHARLEMAGNE
-#	desc = BM_DEATH_OF_CHARLEMAGNE_DESC
+#	name = BM_ORDINATIO_IMPERII
+#	desc = BM_ORDINATIO_IMPERII_DESC
 	date = 817.7.1
 
 	selectable_character = {
@@ -186,11 +206,15 @@ bm_ordinatio_imperii = {
 	}
 
 	selectable_character = {
-		id = 30227 # Lothaire I
+		id = 90096 # Pepin I 'the Young'
 	}
 
 	selectable_character = {
-		id = 90096 # Pepin I 'the Young'
+		id = 90107 # Ludwig 'the German'
+	}
+
+	selectable_character = {
+		id = 6396 # Bernard
 	}
 }
 
@@ -212,9 +236,37 @@ bm_death_of_bernard = {
 	selectable_character = {
 		id = 90096 # Pepin I 'the Young'
 	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
 }
 
-bm_death_of_louis_the_pious= {
+bm_death_of_pepin_i_of_aquitaine = {
+	name = "Death of Pepin I of Aquitaine"
+	desc = "He's dead!"
+#	name = BM_DEATH_OF_PEPIN_I_OF_AQUITAINE
+#	desc = BM_DEATH_OF_PEPIN_I_OF_AQUITAINE_DESC
+	date = 838.12.13
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+
+	selectable_character = {
+		id = 90097 # Pepin II 'the Younger'
+	}
+}
+
+bm_death_of_louis_the_pious = {
 	name = "Death of Louis 'the Pious'"
 	desc = "He's also dead!"
 #	name = BM_DEATH_OF_LOUIS_THE_PIOUS
@@ -226,11 +278,15 @@ bm_death_of_louis_the_pious= {
 	}
 
 	selectable_character = {
-		id = 90096 # Pepin I 'the Young'
+		id = 90104 # Charles II 'the Bald'
 	}
 
 	selectable_character = {
 		id = 90107 # Ludwig 'the German'
+	}
+
+	selectable_character = {
+		id = 90097 # Pepin II 'the Younger'
 	}
 }
 
@@ -252,6 +308,10 @@ bm_treaty_of_verdun = {
 	selectable_character = {
 		id = 90107 # Ludwig 'the German'
 	}
+
+	selectable_character = {
+		id = 90097 # Pepin II 'the Younger'
+	}
 }
 
 bm_treaty_of_prum = {
@@ -262,7 +322,7 @@ bm_treaty_of_prum = {
 	date = 855.9.29
 
 	selectable_character = {
-		id = 30228 # Louis II
+		id = 30228 # Louis II 'the Younger'
 	}
 
 	selectable_character = {
@@ -280,6 +340,10 @@ bm_treaty_of_prum = {
 	selectable_character = {
 		id = 90103 # Charles of Provence
 	}
+
+	selectable_character = {
+		id = 42020 # Charles III 'the Child'
+	}
 }
 
 bm_death_of_charles_of_provence = {
@@ -290,7 +354,7 @@ bm_death_of_charles_of_provence = {
 	date = 863.1.25
 
 	selectable_character = {
-		id = 30228 # Louis II
+		id = 30228 # Louis II 'the Younger'
 	}
 
 	selectable_character = {
@@ -304,17 +368,21 @@ bm_death_of_charles_of_provence = {
 	selectable_character = {
 		id = 90107 # Ludwig 'the German'
 	}
-}
-
-bm_treaty_of_meerssen = {
-	name = "Treaty of Meerssen"
-	desc = "5 for 5"
-#	name = BM_DEATH_OF_CHARLES_OF_PROVENCE
-#	desc = BM_DEATH_OF_CHARLES_OF_PROVENCE_DESC
-	date = 870.8.8
 
 	selectable_character = {
-		id = 30228 # Louis II
+		id = 42020 # Charles III 'the Child'
+	}
+}
+
+bm_louis_the_stammerer = {
+	name = "Louis 'the Stammerer' of Aquitaine"
+	desc = "He holds no real power."
+#	name = BM_LOUIS_THE_STAMMERER
+#	desc = BM_LOUIS_THE_STAMMERER_DESC
+	date = 866.9.29
+
+	selectable_character = {
+		id = 30228 # Louis II 'the Younger'
 	}
 
 	selectable_character = {
@@ -323,5 +391,293 @@ bm_treaty_of_meerssen = {
 
 	selectable_character = {
 		id = 90107 # Ludwig 'the German'
+	}
+
+	selectable_character = {
+		id = 90123 # Louis II 'the Stammerer'
+	}
+}
+
+bm_treaty_of_meerssen = {
+	name = "Treaty of Meerssen"
+	desc = "5 for 5"
+#	name = BM_TREATY_OF_MEERSSEN
+#	desc = BM_TREATY_OF_MEERSSEN_DESC
+	date = 870.8.8
+
+	selectable_character = {
+		id = 30228 # Louis II 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+
+	selectable_character = {
+		id = 90123 # Louis II 'the Stammerer'
+	}
+}
+
+bm_death_of_louis_ii = {
+	name = "Death of Louis II 'the Younger'"
+	desc = "Why won't you live?"
+#	name = BM_DEATH_OF_LOUIS_II_THE_YOUNGER
+#	desc = BM_DEATH_OF_LOUIS_II_THE_YOUNGER_DESC
+	date = 875.8.12
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+
+	selectable_character = {
+		id = 90123 # Louis II 'the Stammerer'
+	}
+}
+
+bm_death_of_ludwig_the_german = {
+	name = "Death of Ludwig 'the German'"
+	desc = "Never became emperor..."
+#	name = BM_DEATH_OF_LUDWIG_THE_GERMAN
+#	desc = BM_DEATH_OF_LUDWIG_THE_GERMAN_DESC
+	date = 876.8.26
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
+		id = 90123 # Louis II 'the Stammerer'
+	}
+
+	selectable_character = {
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig III 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+}
+
+bm_death_of_charles_the_bald = {
+	name = "Death of Charles 'the Bald'"
+	desc = "Didn't think he'd ever get this far..."
+#	name = BM_DEATH_OF_CHARLES_THE_BALD
+#	desc = BM_DEATH_OF_CHARLES_THE_BALD_DESC
+	date = 877.10.6
+
+	selectable_character = {
+		id = 90123 # Louis II 'the Stammerer'
+	}
+
+	selectable_character = {
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig III 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+}
+
+bm_death_of_louis_the_stammerer = {
+	name = "Death of Louis 'the Stammerer'"
+	desc = "Didn't want to be emperor"
+#	name = BM_DEATH_OF_LOUIS_THE_STAMMERER
+#	desc = BM_DEATH_OF_LOUIS_THE_STAMMERER_DESC
+	date = 879.4.10
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+
+	selectable_character = {
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig III 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90154 # Louis III of West-Francia
+	}
+
+	selectable_character = {
+		id = 90155 # Carloman II of Aquitaine/Burgundy
+	}
+}
+
+bm_boso_of_provence = {
+	name = "Boso of Provence"
+	desc = "Look at me! I'm a non-Karling King!"
+#	name = BM_BOSO_OF_PROVENCE
+#	desc = BM_BOSO_OF_PROVENCE_DESC
+	date = 879.10.15
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+
+	selectable_character = {
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig III 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90154 # Louis III of West-Francia
+	}
+
+	selectable_character = {
+		id = 90155 # Carloman II of Aquitaine/Burgundy
+	}
+
+	selectable_character = {
+		id = 7981 # Boso of Provence
+	}
+}
+
+bm_death_of_karlmann = {
+	name = "Death of Karlmann"
+	desc = "He's sick!"
+#	name = BM_DEATH_OF_KARLMANN
+#	desc = BM_DEATH_OF_KARLMANN_DESC
+	date = 880.3.22
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig III 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90154 # Louis III of West-Francia
+	}
+
+	selectable_character = {
+		id = 90155 # Carloman II of Aquitaine/Burgundy
+	}
+
+	selectable_character = {
+		id = 7981 # Boso of Provence
+	}
+}
+
+bm_death_of_ludwig_iii = {
+	name = "Death of Ludwig III 'the Younger'"
+	desc = "Very shortlived"
+#	name = BM_DEATH_OF_LUDWIG_III
+#	desc = BM_DEATH_OF_LUDWIG_III_DESC
+	date = 880.3.22
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+
+	selectable_character = {
+		id = 90154 # Louis III of West-Francia
+	}
+
+	selectable_character = {
+		id = 90155 # Carloman II of Aquitaine/Burgundy
+	}
+
+	selectable_character = {
+		id = 7981 # Boso of Provence
+	}
+}
+
+bm_death_of_louis_iii = {
+	name = "Death of Louis III"
+	desc = "Again, shortlived"
+#	name = BM_DEATH_OF_LOUIS_III
+#	desc = BM_DEATH_OF_LOUIS_III_DESC
+	date = 882.8.5
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+
+	selectable_character = {
+		id = 90155 # Carloman II of Aquitaine/Burgundy
+	}
+
+	selectable_character = {
+		id = 7981 # Boso of Provence
+	}
+}
+
+bm_boso_defeated = {
+	name = "Boso Defeated"
+	desc = "No more uppity!"
+#	name = BM_BOSO_DEFEATED
+#	desc = BM_BOSO_DEFEATED_DESC
+	date = 882.9.1
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+
+	selectable_character = {
+		id = 90155 # Carloman II of Aquitaine/Burgundy
+	}
+}
+
+bm_death_of_carloman_ii = {
+	name = "Death of Carloman II"
+	desc = "Also shortlived"
+#	name = BM_DEATH_OF_CARLOMAN_II
+#	desc = BM_DEATH_OF_CARLOMAN_II_DESC
+	date = 884.12.12
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+}
+
+bm_abdication_of_karl_the_fat = {
+	name = "Abdication of Karl 'the Fat'"
+	desc = "No more empire!"
+#	name = BM_ABDICATION_OF_KARL_THE_FAT
+#	desc = BM_ABDICATION_OF_KARL_THE_FAT_DESC
+	date = 887.11.17
+
+	selectable_character = {
+		id = 6448 # Odo of France
+	}
+
+	selectable_character = {
+		id = 7984 # Rudolf of Burgundy
+	}
+
+	selectable_character = {
+		id = 1164 # Louis the Blind of Provence
+	}
+
+	selectable_character = {
+		id = 71901 # Berengar I of Italy
+	}
+
+	selectable_character = {
+		id = 7945 # Arnulf of Carinthia
 	}
 }

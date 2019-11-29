@@ -3,7 +3,7 @@
 	holder = 91490 #VULFARD, historical place holder
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	holder = 90095 # Louis I 'the Pious'
 }
 

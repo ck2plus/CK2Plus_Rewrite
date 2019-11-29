@@ -3,7 +3,7 @@
 	holder = 91478 #BAUGULF, historical count as place	holder
 }
 
-790.1.1 = {
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
 	liege = d_anjou
 }
 
