@@ -133,7 +133,7 @@
 	holder = 190347 # Desiderius
 }
 
-774.1.1 = {
+774.6.5 = { # Fall of the Lombards
 	holder = 6392 # Karl the Great
 	law = agnatic_succession
 	reset_name = yes

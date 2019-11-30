@@ -14,7 +14,7 @@
 	holder = 190280 # Tachiperto
 }
 
-774.1.1 = {
+774.6.5 = { # Fall of the Lombards
 	holder = 1000103100 # Allone
 }
 

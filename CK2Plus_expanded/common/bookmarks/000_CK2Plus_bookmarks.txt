@@ -15,7 +15,7 @@ bm_fall_of_the_lombards = {
 	desc = "He's dead!"
 #	name = BM_FALL_OF_THE_LOMBARDS
 #	desc = BM_FALL_OF_THE_LOMBARDS_DESC
-	date = 774.1.1
+	date = 774.6.5 # Pavia surrenders to two year siege
 
 	selectable_character = {
 		id = 6392 # Karl 'the Great'
