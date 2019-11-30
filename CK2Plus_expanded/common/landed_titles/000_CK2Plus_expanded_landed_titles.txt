@@ -15,20 +15,22 @@ e_karling = {
 	}
 }
 
-k_neustria = {
-	color = { 110 110 160 }
-	color2 = { 220 220 20 }
+k_algiers = {
+	color = { 100 120 90}
+	color2 = { 255 255 20 }
 
-	culture = old_frankish
+	culture = maghreb_arabic
 
-	capital = 112 # Ile de France
+	capital = 831 # Al-Djzair
 
-	dignity = 300
+	short_name = yes
 
-	allow = {
-		# TODO: Put in actual requirements
-		always = no
-	}
+	# Crusade target weights
+		muslim = 400
+
+		allow = {
+			has_ck2plus_kingdom_reqs = yes
+		}
 }
 
 k_austrasia = {
@@ -40,22 +42,6 @@ k_austrasia = {
 	capital = 90 # Julich
 
 	dignity = 200
-
-	allow = {
-		# TODO: Put in actual requirements
-		always = no
-	}
-}
-
-k_francia = {
-	color = { 11 22 170 }
-	color2 = { 255 255 20 }
-
-	culture = old_frankish
-
-	capital = 90 # Julich
-
-	short_name = yes
 
 	allow = {
 		# TODO: Put in actual requirements
@@ -84,6 +70,51 @@ k_azerbaijan = {
 		}
 }
 
+k_francia = {
+	color = { 11 22 170 }
+	color2 = { 255 255 20 }
+
+	culture = old_frankish
+
+	capital = 90 # Julich
+
+	short_name = yes
+
+	allow = {
+		# TODO: Put in actual requirements
+		always = no
+	}
+}
+
+k_neustria = {
+	color = { 110 110 160 }
+	color2 = { 220 220 20 }
+
+	culture = old_frankish
+
+	capital = 112 # Ile de France
+
+	dignity = 300
+
+	allow = {
+		# TODO: Put in actual requirements
+		always = no
+	}
+}
+
+k_norman_ireland = {
+	color = { 202 26 26 }
+	color2 = { 255 255 255 }
+
+	culture = norman
+
+	capital = 11 # Dublin
+
+	allow = {
+		has_ck2plus_kingdom_reqs = yes
+	}
+}
+
 k_oman = {
 	color = { 150 10 15 }
 	color2 = { 255 255 20 }
@@ -101,22 +132,3 @@ k_oman = {
 			has_ck2plus_kingdom_reqs = yes
 		}
 }
-
-k_algiers = {
-	color = { 100 120 90}
-	color2 = { 255 255 20 }
-
-	culture = maghreb_arabic
-
-	capital = 831 # Al-Djzair
-
-	short_name = yes
-
-	# Crusade target weights
-		muslim = 400
-
-		allow = {
-			has_ck2plus_kingdom_reqs = yes
-		}
-}
-
