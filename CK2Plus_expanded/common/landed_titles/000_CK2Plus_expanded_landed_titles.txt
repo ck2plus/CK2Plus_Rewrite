@@ -103,12 +103,14 @@ k_neustria = {
 }
 
 k_norman_ireland = {
-	color = { 202 26 26 }
+	color = { 26 26 202 }
 	color2 = { 255 255 255 }
 
 	culture = norman
 
 	capital = 11 # Dublin
+
+	short_name = yes
 
 	allow = {
 		has_ck2plus_kingdom_reqs = yes
