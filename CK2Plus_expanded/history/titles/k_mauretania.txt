@@ -1,5 +1,5 @@
 769.1.1={
-	de_jure_liege = e_arabia
+	de_jure_liege = e_maghreb
 }
 788.1.1={
 	holder = 159501
@@ -18,7 +18,6 @@
 }
 864.1.1={
 	holder = 159506
-	de_jure_liege = e_maghreb
 }
 909.1.1 = { # al-Mahdi settles down as ruler in the east
 	set_tribute_suzerain = {
