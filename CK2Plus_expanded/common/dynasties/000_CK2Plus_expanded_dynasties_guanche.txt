@@ -1,1 +1,160 @@
 # Valid IDs: 1000068000 - 1000068999
+1000068000 = {
+	name = "Daute"
+	culture = guanche
+}
+
+1000068001 = {
+	name = "Icod"
+	culture = guanche
+}
+
+1000068002 = {
+	name = "Taoro"
+	culture = guanche
+}
+
+1000068003 = {
+	name = "Tacoronte"
+	culture = guanche
+}
+
+1000068004 = {
+	name = "Tegueste"
+	culture = guanche
+}
+
+1000068005 = {
+	name = "Anaga"
+	culture = guanche
+}
+
+1000068006 = {
+	name = "G��mar"
+	culture = guanche
+}
+
+1000068007 = {
+	name = "Abona"
+	culture = guanche
+}
+
+1000068008 = {
+	name = "Adeje"
+	culture = guanche
+}
+
+1000068009 = {
+	name = "Gomero"
+	culture = guanche
+}
+
+1000068010 = {
+	name = "Achinet"
+	culture = guanche
+}
+
+1000068011 = {
+	name = "Agulo"
+	culture = guanche
+}
+
+1000068012 = {
+	name = "Erbania"
+	culture = guanche
+}
+
+1000068013 = {
+	name = "Jand�a"
+	culture = guanche
+}
+
+1000068014 = {
+	name = "Maxorata"
+	culture = guanche
+}
+
+1000068015 = {
+	name = "Tamar�n"
+	culture = guanche
+}
+
+1000068016 = {
+	name = "Majos"
+	culture = guanche
+}
+
+1000068017 = {
+	name = "Auaritas"
+	culture = guanche
+}
+
+1000068018 = {
+	name = "Benahoare"
+	culture = guanche
+}
+
+1000068019 = {
+	name = "Acer�"
+	culture = guanche
+}
+
+1000068020 = {
+	name = "Adamacansis"
+	culture = guanche
+}
+
+1000068021 = {
+	name = "Bimbache"
+	culture = guanche
+}
+
+1000068022 = {
+	name = "Eser�"
+	culture = guanche
+}
+
+1000068023 = {
+	name = "Maxos"
+	culture = guanche
+}
+
+1000068024 = {
+	name = "Telde"
+	culture = guanche
+}
+
+1000068025 = {
+	name = "G�ldar"
+	culture = guanche
+}
+
+1000068026 = {
+	name = "Tagoror"
+	culture = guanche
+}
+
+1000068027 = {
+	name = "Titerogakaet"
+	culture = guanche
+}
+
+1000068028 = {
+	name = "Agana"
+	culture = guanche
+}
+
+1000068029 = {
+	name = "Mulagua"
+	culture = guanche
+}
+
+1000068030 = {
+	name = "Hipal�n"
+	culture = guanche
+}
+
+1000068031 = {
+	name = "Orone"
+	culture = guanche
+}

@@ -261,44 +261,48 @@ iranian = {
 
 		male_names = {
 			Abbas Abolhassan Afshar_Afshar Ahmad_Ahmad Akbar_Akbar Ali_Ali Allahyar Amin Anushirvan_Anushirvan Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir Assad Aurang Ayeshah
-			Babak_Babak Bahman Bahram_Bahram Bakhtiar_Bakhtiar Behrad Behrouz Bozorg
+			Babak_Babak Badr Bahman Bahram_Bahram Bakhtiar_Bakhtiar Behrad Behrouz Bozorg
 			Danush_Danush Darab Dariush_Darius Davud_David Djamasp
 			Ebrahim_Abraham Ehsan Esfandiar_Esfandiar Eskander_Alexander Esma'il_Ismail
-			Faramarz_Faramarz Faraz_Faraz Fareed_Farid Farhad_Farhad Fariborz_Fariborz Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fath Ferdows_Ferdows Fereedun_Feridun
+			Falak Faramarz_Faramarz Faraz_Faraz Fareed_Farid Farhad_Farhad Fariborz_Fariborz Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fath Ferdows_Ferdows Fereedun_Feridun
 			Ghobad Gholam Godarz Goshtasb_Goshtasb
-			Hafez Hassan_Hasan Hazarasp_Hazarasp Hedayat Hooshyar_Hooshyar Hormazd_Hormazd Hormoz Hossein_Hussein Humayun
-			Jahandar_Jahandar Jahangir_Jahangir Jahanshah_Jahanshah Jamshid_Jamshid Javeed_Javeed
-			Kambiz Kamran Kavoos_Kavoos Keyghobad Keykhosrau_Keykhosrau Kharmandar_Kharmandar Khashayar_Khashayar Kavadh Khodadad_Khodadad Khosrau_Khosrau Khudayar_Khudayar Khurshid_Khurshid Kurush_Cyrus
+			Hafez Hassan_Hasan Hazarasp_Hazarasp Hedayat Hisam Hooshyar_Hooshyar Hormazd_Hormazd Hormoz Hossein_Hussein Humayun
+			Izz
+			Jahandar_Jahandar Jahangir_Jahangir Jahanshah_Jahanshah Jamal Jamshid_Jamshid Javeed_Javeed
+			Kambiz Kamran Karim Kavoos_Kavoos Këkhaqani Keyghobad Keykhosrau_Keykhosrau Kharmandar_Kharmandar Khashayar_Khashayar Kavadh Khodadad_Khodadad Khosrau_Khosrau Khudayar_Khudayar Khurshid_Khurshid Kurush_Cyrus
 			Mahmud_Mahmud Manuchihr_Manuchihr Manushihr_Manushihr Marzuban_Marzuban Mashad_Mashad Maziar Mehrab Mehrzad Mohammed_Muhammad Morad_Morad Morteza Mozaffar
 			Nard Naveed Nawid Nezam
+			Oghur
 			Parviz Pashang_Pashang Peroz_Peroz Pujman
 			Reza Rostam_Rostam Ruhollah
-			Sadri Salman Shahab_Shahab Shahbaz_Shahbaz Shahin_Shahin Shahram_Shahram Shahrokh_Sharokh Shahruz_Shahruz Shahryar_Shahryar Shapur_Shapur Shayan_Shayan Sina
-			Tahmasb_Tahmasb
-			Vahhab_Vahhab Vahid Vali Vandad Varshasb_Varshasb Vishtasb_Vishtasb
+			Sadri Safqoli Saif Salman Shahab_Shahab Shahbaz_Shahbaz Shahin_Shahin Shahmirza Shahram_Shahram Shahrokh_Sharokh Shahruz_Shahruz Shahryar_Shahryar Shams Shapur_Shapur Sharaf Shayan_Shayan Shuja Sidi Sina
+			Tahmasb_Tahmasb Taj
+			Vahhab_Vahhab Vahid Vali Vandad Varshasb_Varshasb Verdi Vishtasb_Vishtasb
 			Yazdegerd Yousef_Joseph
 			Zahak Zakaria_Zachary Zand Zartosht_Zartosht Zia
 		}
 
 		female_names = {
-			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh
-			Bahar Banafsheh Behnaz Burandokht_Pourandokht
-			Darya Delaram Delbar Dinah Donya
+			Afsaneh Agha Ahu Arghavan Azarmidokht Asa Azadeh
+			Bahar Banafsheh Bay Behnaz Bibi Burandokht_Pourandokht
+			Darya Dawlat Delaram Delbar Dinah Donya
 			Elham Elnaz
 			Farah Fareedeh Farnaz Farrin Farva Furuzan
 			Ghamze Ghazal Ghoncheh_Ghoncheh Golbahar_Golbahar Golnaz_Golnaz Golpari Golshan
 			Hamdam Hurmat
 			Irandokht
-			Jamileh Javaneh
+			Jamileh Javaher Javaneh
+			Khadijeh
 			Leila
 			Mahdokht Mahtab Mariam_Maria
-			Navvaba Nazgol_Nazgol Nazilla Noor
+			Narges Navvaba Nazgol_Nazgol Nazilla Noor
 			Parvaneh_Parvaneh Parvin Pertevniyal Pourandokht_Pourandokht
+			"Qadam Kheyr"
 			Roshanora Roxana
 			Salomeh Shahrzad Shahzadeh Shirin Soraya
 			Touran Tourandokht
 			Yasaman_Yasmin Yekta
-			Zarrindokht Zeynab Zohreh
+			Zarrindokht Zeynab Ziba Zohreh
 		}
 
 		male_patronym = "zade"

@@ -1,1 +1,110 @@
 # Valid IDs: 1000171000 - 1000171999
+1000171000 = {
+	name = "Lud�ny"
+	culture = szekely
+}
+
+1000171001 = {
+	name = "�kos"
+	culture = szekely
+}
+
+1000171002 = {
+	name = "B�"
+	culture = szekely
+}
+
+1000171003 = {
+	name = "Losonci"
+	culture = szekely
+}
+
+1000171004 = {
+	name = "Kacsics"
+	culture = szekely
+}
+
+1000171005 = {
+	name = "Herm�n"
+	culture = szekely
+}
+
+1000171006 = {
+	name = "Zs�mboki"
+	culture = szekely
+}
+
+1000171007 = {
+	name = "Cs�ki"
+	culture = szekely
+}
+
+1000171008 = {
+	name = "Marcali"
+	culture = szekely
+}
+
+1000171009 = {
+	name = "Harapki"
+	culture = szekely
+}
+
+1000171010 = {
+	name = "Monostori"
+	culture = szekely
+}
+
+1000171011 = {
+	name = "N�dasi"
+	culture = szekely
+}
+
+1000171012 = {
+	name = "Jakcs"
+	culture = szekely
+}
+
+1000171013 = {
+	name = "Tam�si"
+	culture = szekely
+}
+
+1000171014 = {
+	name = "Cs�ki"
+	culture = szekely
+}
+
+1000171015 = {
+	name = "B�nfi"
+	culture = szekely
+}
+
+1000171016 = {
+	name = "Hidv�gi"
+	culture = szekely
+}
+
+1000171017 = {
+	name = "Bakonyai"
+	culture = szekely
+}
+
+1000171018 = {
+	name = "Palinai"
+	culture = szekely
+}
+
+1000171019 = {
+	name = "Meszesi"
+	culture = szekely
+}
+
+1000171020 = {
+	name = "Szebenyei"
+	culture = szekely
+}
+
+1000171021 = {
+	name = "Makrai"
+	culture = szekely
+}

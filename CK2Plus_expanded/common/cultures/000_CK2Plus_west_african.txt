@@ -173,34 +173,36 @@ west_african = {
 		color = { 0.9 0.4 0.2 }
 
 		male_names = {
-			Amar
-			Bakar Biram Boukar Brak
+			Abdoulaye_Abdullah Aboubacar_Abu-Bakr Akon Alioune_Ali Amar Amadou_Ahmad Aliaune
+			Badara Bakar Biram Birayma Boukar Boubacar_Abu-Bakr Brak
 			Caaka
-			Djillakh
+			Damala Diop Djibril Djillakh Dogo
 			Fanaan
-			Gejopal Gnilane Godomat
+			Gejopal Gnilane Godomat Gorgui
+			Ibrahima_Abraham
 			Jegan Jogo Jom
-			Kumba
-			Laasuk
-			Maane Maha Mahecor Maysa Mbanyik Mbar Mbooj Mbouna
-			Ndoffene Niokhobaye Njekeh
+			Kumba Kuran
+			Laasuk Leele Leeyti
+			Maane Maha Mahecor Mamadou_Muhammad Maysa Mbanyik Mbar Mbarick Mbayang Mbey Mbooj Mbouna Moctar Mor
+			Ndiadiane Ndiklam Ndoffene Niokhobaye Njekeh
 			Pateh
-			Sanjan Sanmoon Semou
-			Tasse Tening
+			Sanjan Sanmoon Sare Semou Seydou
+			Tasse Tening Tyukuli
 			Waagaan Waali
-			Yandeh Yerim
+			Yandeh Yerim Youssou
 		}
 
 		female_names = {
-			Awo
+			Amul-Yaakaar Anta Awo
 			Demba Doye
-			Faaduma Fatim Fatoumata
-			Malado Maram Mbodj
+			Faaduma Fatamatu_Fatima Fatim Fatimatou_Fatima Fatoumata
+			Madjiguene Malado Maram Mbodj
 			Ndate Ndieumbeutt Ndoung Ndoye
 			Sall
-			Yalla Yumeyga
+			Yalla Yeggul-Ngon Yengiga Yumeyga
 		}
 
+		male_patronym = ""
 		allow_looting = yes
 		dukes_called_kings = yes
 

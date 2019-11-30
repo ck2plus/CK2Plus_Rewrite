@@ -21318,7 +21318,7 @@
 
 100444 = {
 	name = "Székely"
-	culture = hungarian
+	culture = szekely
 	religion = catholic
 }
 
