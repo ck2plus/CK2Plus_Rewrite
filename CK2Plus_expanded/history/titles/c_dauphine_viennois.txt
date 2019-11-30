@@ -3,6 +3,14 @@
 	holder = 91490 #VULFARD, historical place	holder
 }
 
+803.1.1 = {
+	liege = e_karling
+}
+
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = k_aquitaine
+}
+
 855.1.1 = {
 	liege = k_burgundy
 }
@@ -65,7 +73,7 @@
 
 1240.9.24 = {
 	liege = d_savoie
-}	
+}
 1269.1.1 = {
 	holder = 7495 #Jean I de Viennois
 }

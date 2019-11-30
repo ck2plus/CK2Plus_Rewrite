@@ -111,7 +111,7 @@ bm_coronation_of_charlemagne = {
 }
 
 bm_partition_of_thionville = {
-	name = "Partition of Thionville/Divisio Regnorum"
+	name = "Partition at Thionville/Divisio Regnorum"
 	desc = "He's decided!"
 #	name = BM_PARTITION_OF_THIONVILLE
 #	desc = BM_PARTITION_OF_THIONVILLE_DESC

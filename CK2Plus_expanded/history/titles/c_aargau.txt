@@ -10,7 +10,7 @@
 	holder = 0
 }
 
-810.1.1 = {
+806.2.6 = { # Partition at Thionville/Divisio Regnorum
 	liege = e_karling
 }
 

@@ -7,6 +7,10 @@
 	holder = 190563 #Hugh II
 }
 
+803.1.1 = {
+	liege = e_karling
+}
+
 855.1.1 = {
 	holder = 7977
 }

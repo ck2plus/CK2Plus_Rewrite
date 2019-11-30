@@ -33,6 +33,14 @@
 	liege = e_karling
 }
 
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = k_italy
+}
+
+810.7.8 = { # Death of Pepin
+	liege = e_karling
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_germany
 }

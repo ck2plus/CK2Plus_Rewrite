@@ -3,12 +3,13 @@
 	holder = 91471 #HILDEGAR, historical place	holder
 }
 
-790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
 	holder = 40994 # Charles 'the Younger'
 	liege = d_anjou
 }
 
 811.12.4 = { # death of Charles 'the Younger'
+	holder = 0
 	liege = e_karling
 }
 

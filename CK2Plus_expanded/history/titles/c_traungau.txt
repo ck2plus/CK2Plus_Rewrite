@@ -6,6 +6,14 @@
 	holder = 260023 	# Place	holder
 }
 
+806.2.6 = { # Partition at Thionville/Divisio Regnorum
+	liege = k_italy
+}
+
+810.7.8 = { # Death of Pepin
+	liege = e_karling
+}
+
 867.1.1 = {
 	holder = 260024		# Place	holder
 }

@@ -14,6 +14,10 @@
 	holder = 7985 #Welf
 }
 
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = e_karling
+}
+
 810.1.1 = {
 	liege = e_karling
 }
