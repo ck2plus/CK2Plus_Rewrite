@@ -114,7 +114,7 @@
 	holder = 214553 #wife of Richard de Clare
 }
 1172.1.1={
-	liege="k_england"
+	liege="k_norman_ireland"
 }
 1185.1.1={
 	holder = 0

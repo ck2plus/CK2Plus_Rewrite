@@ -112,11 +112,11 @@
 	holder = 83373 #last known king of Waterford
 }
 1172.1.1 = {
-	liege = k_england
+	liege = k_norman_ireland
 }
-1185.1.1 = {
-	liege = d_meath
-}
+#1185.1.1 = {
+	#liege = d_meath
+#}
 1185.1.1 = {
 	holder = 204038
 }

@@ -96,7 +96,7 @@
 	holder = 214610 #Diarmait son of Cormac
 }
 1172.1.1 = {
-	liege = k_england
+	liege = k_norman_ireland
 }
 1175.7.1 = {
 	holder = 83271 #Cormac Liathánach son of Diarmait
@@ -104,9 +104,9 @@
 1176.7.1 = {
 	holder = 214600 #Domnall Mór na Corra son of Diarmait
 }
-1185.1.1 = {
-	liege = d_meath
-}
+#1185.1.1 = {
+	#liege = d_meath
+#}
 1206.7.1 = {
 	holder = 214609 #Fingen son of Diarmait
 }

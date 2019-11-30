@@ -128,7 +128,7 @@
 	liege = d_leinster
 }
 1172.1.1 = {
-	liege = k_england
+	liege = k_norman_ireland
 }
 1176.1.1 = {
 	holder = 204770 #Richard de Clare
@@ -136,9 +136,9 @@
 1176.4.20 = {
 	holder = 204771 #Gilbert de Clare
 }
-1185.1.1 = {
-	liege = d_meath
-}
+#1185.1.1 = {
+	#liege = d_meath
+#}
 1185.7.1 = {
 	holder = 204772 #Isabel de Clare wife of William Marshal
 }

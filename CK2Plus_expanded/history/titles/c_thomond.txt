@@ -157,11 +157,11 @@
 	holder = 214580 #Domnall Mór son of Toirrdellbach mac Diarmata
 }
 1172.1.1 = {
-	liege = k_england
+	liege = k_norman_ireland
 }
-1185.1.1 = {
-	liege = d_meath
-}
+#1185.1.1 = {
+	#liege = d_meath
+#}
 1194.7.1 = {
 	holder = 214582 #Conchobar Ruad mac Domnaill Móír
 }
