@@ -4,7 +4,7 @@
 	de_jure_liege = 0
 }
 
-817.1.1 = {
+843.8.10 = { # Treaty of Verdun
 	active = yes
 	de_jure_liege = e_karling
 	liege = e_karling

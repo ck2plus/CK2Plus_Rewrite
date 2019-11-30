@@ -18,6 +18,10 @@
 	liege = e_karling
 }
 
+817.7.1 = { # Ordinatio Imperii
+	liege = k_bavaria
+}
+
 859.1.1 = {
 	holder = 163056
 }

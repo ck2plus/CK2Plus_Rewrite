@@ -7,6 +7,10 @@
 	liege = e_karling
 }
 
+817.7.1 = { # Ordinatio Imperii
+	liege = k_bavaria
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_germany
 }

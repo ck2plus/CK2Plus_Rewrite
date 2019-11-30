@@ -6,7 +6,7 @@
 	de_jure_liege = k_austrasia
 }
 
-817.1.1 = { # Karl dies
+843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_lotharingia
 }
 

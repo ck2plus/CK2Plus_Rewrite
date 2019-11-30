@@ -7,7 +7,6 @@
 }
 
 806.2.6 = { # Partition at Thionville/Diviso Regnorum
-	holder = 90095 # Louis 'the Pious'
 	liege = k_aquitaine
 }
 

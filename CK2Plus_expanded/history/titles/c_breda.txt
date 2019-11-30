@@ -5,10 +5,6 @@
 	adjective = TOXANDRIA_ADJ
 }
 
-817.1.1 = {
-	liege = k_lotharingia
-}
-
 841.1.1 = {
 	holder = 7815
 }

@@ -10,6 +10,10 @@
 	liege = k_aquitaine
 }
 
+817.7.1 = { # Ordinatio Imperii
+	liege = d_burgundy
+}
+
 864.1.1 = {
 	liege = k_aquitaine
 	holder = 167924

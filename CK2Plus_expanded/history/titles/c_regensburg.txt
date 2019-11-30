@@ -67,12 +67,8 @@
 	liege = e_karling
 }
 
-814.1.28 = {
-	holder = 30227 #Lothair I
-}
-
-817.1.1 = {
-	holder = 90095 #Louis I the Pious
+817.7.1 = { # Ordinatio Imperii
+	holder = 90107 # Ludwig 'the German'
 }
 
 829.1.1 = {

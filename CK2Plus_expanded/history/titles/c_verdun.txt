@@ -7,10 +7,6 @@
 	liege = e_karling
 }
 
-817.1.1 = {
-	holder = 30227 #Lothair I
-}
-
 855.8.23 = {
 	holder = 144998 #Lothair II
 }

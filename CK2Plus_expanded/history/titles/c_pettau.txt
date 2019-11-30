@@ -7,6 +7,10 @@
 	liege = e_karling
 }
 
+817.7.1 = { # Ordinatio Imperii
+	liege = k_bavaria
+}
+
 867.1.1 = {
 	liege = d_slavonia
 	holder = 260062		# Place	holder

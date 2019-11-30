@@ -11,6 +11,10 @@
 	liege = k_aquitaine
 }
 
+817.7.1 = { # Ordinatio Imperii
+	liege = e_karling
+}
+
 855.1.1 = {
 	liege = k_burgundy
 }

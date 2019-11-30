@@ -206,6 +206,10 @@ bm_ordinatio_imperii = {
 	}
 
 	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
 		id = 90096 # Pepin I 'the Young'
 	}
 

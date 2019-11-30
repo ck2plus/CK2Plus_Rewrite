@@ -156,10 +156,6 @@
 }
 
 818.4.17 = {
-	holder = 90095 # Louis I
-}
-
-840.6.20 = {
 	holder = 30227 # Lothaire
 }
 
