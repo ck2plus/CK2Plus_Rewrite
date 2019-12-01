@@ -100,9 +100,9 @@
 1175.7.1 = {
 	holder = 83200 #Muirchertach Mac Murchada-Cennselach
 }
-1185.1.1 = {
-	liege = d_meath
-}
+#1185.1.1 = {
+	#liege = d_meath
+#}
 1193.7.1 = {
 	holder = 83195 #Domnall son of Domnall Cáemánach
 }

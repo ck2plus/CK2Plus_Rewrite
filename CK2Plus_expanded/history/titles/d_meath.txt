@@ -42,15 +42,13 @@
 }
 862.11.22 = {
 	holder = 944
-	law = agnatic_succession
-	law = succ_tanistry
 }
 879.11.20 = {
 	holder = 0
 }
 1185.1.1 = {
 	# Representing the Lordship of Ireland
-	liege = "k_england"
+	liege = "k_norman_ireland"
 	holder = 204514 #John of England
 }
 1203.1.1 = {

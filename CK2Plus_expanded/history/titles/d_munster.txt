@@ -165,11 +165,6 @@
 	liege = "k_ireland"
 	law = agnatic_succession
 	law = succ_tanistry
-	effect = {
-		suzerain = {
-			remove_tributary = PREV
-		}
-	}
 }
 1014.4.23 = {
 	holder = 83647 #Dœngal Hua Donnchada

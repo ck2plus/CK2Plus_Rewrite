@@ -43,7 +43,7 @@
 	holder = 83001
 }
 1185.1.1 = {
-	liege = k_england
+	liege = k_norman_ireland
 }
 1229.1.2 = {
 	holder = 83002
