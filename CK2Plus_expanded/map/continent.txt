@@ -1,0 +1,34 @@
+#empty for now, can support this if need be.
+
+region_scandinavia = {
+}
+
+region_british_isles = {
+	regions = {
+		region_britain
+		region_ireland
+		region_isle_of_man
+		region_orkney
+	}
+}
+
+region_iberia = {
+}
+
+region_italy = {
+}
+
+region_france = {
+}
+
+region_north_africa = {
+}
+
+region_levant = {
+}
+
+region_balkans = {
+}
+
+region_eastern_europe = {
+}
