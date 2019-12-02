@@ -150,50 +150,26 @@ character_event = {
 	}
 }
 
-# TEMPORARY (?) PATCH AGAINST BUG (NOTE):
-
-# This whole event should later be removed, but atm it is necessary because of a vanilla bug/problem
+# This event is fired from on-action for any newly created character, including by hardcoded means
 character_event = {
 	id = PlusMaintenance.004
 
 	hide_window = yes
 
-	is_triggered_only = yes		# from on_chronicle_startup - only for the player
+	is_triggered_only = yes		# from on_host_change - for any character that changes hosts
 
 	trigger = {
-		# Now, check if "generate families" vanilla game rule is active, because that is screwing with trait assignment (fires earlier than the regular event)
-		NOT = {	# is not disabled (easier than checking for both "on" options)
-			has_game_rule = {
-				name = generate_families
-				value = off
-			}
+		# Important: Check if charcter is newly created
+		FROM = {	# the previous host
+			character = no	# If old host is undefined, the Root character is newly created!
 		}
 	}
 
 	immediate = {
-		# this just waits a day, and then fires the actual fixing event
+		# Apply any event here that should affect a newly created character
 		character_event = {
-			id = PlusMaintenance.005
-			days = 1	# just wait a day or so, then the game generated new babys should exist
+			id = PlusMaintenance.003	# Apply baby traits (and portraits if gamerule)
 		}
 	}
-}
-
-# This whole event should later be removed, but atm it is necessary because of a vanilla bug/problem
-character_event = {
-	id = PlusMaintenance.005
-
-	hide_window = yes
-
-	is_triggered_only = yes		# from previous event
-
-	immediate = {
-		any_independent_ruler = {
-			any_realm_character = {
-				limit = { age < 2 }
-				# Fire event to assign traits again, so that all characters that are babies at gamestart get it.
-				character_event = { id = PlusMaintenance.003 }
-			}
-		}
-	}
+	#NOTE: This whole thing is currently untested, need to check if it actually works as advertised by vanilla patch notes...
 }

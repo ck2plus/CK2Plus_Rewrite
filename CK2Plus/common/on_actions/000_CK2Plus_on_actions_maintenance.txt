@@ -17,9 +17,10 @@ on_yearly_childhood_pulse = {
 	}
 }
 
-# TEMPORARY (?) PATCH AGAINST BUG (NOTE):
-on_chronicle_start = {
+# Proper solution for newly created characters (catches both events and hardcoded):
+on_host_change = {
 	events = {
-		PlusMaintenance.004		# This whole event should later be removed, but atm it is necessary because of a vanilla bug/problem
+		# NOTE: Currently untested whether it actually works! Test that at some point.
+		PlusMaintenance.004		# Applies any CK2+ stuff we want to see on new characters, including baby faces (if game rule)
 	}
 }
