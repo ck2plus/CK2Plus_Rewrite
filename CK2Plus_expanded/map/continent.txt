@@ -4,12 +4,6 @@ region_scandinavia = {
 }
 
 region_british_isles = {
-	regions = {
-		region_britain
-		region_ireland
-		region_isle_of_man
-		region_orkney
-	}
 }
 
 region_iberia = {

@@ -242,7 +242,6 @@ world_india = {
 		world_india_deccan world_india_bengal world_india_rajastan
 	}
 }
-
 world_himalayas = {
 	inclusive = yes
 	duchies = {
@@ -338,7 +337,6 @@ custom_chinese_invasion_target_region = {
 		world_india_bengal world_steppe_tarim world_steppe_east world_himalayas
 	}
 }
-
 custom_eastern_access = {
 	duchies = {
 		d_kumul d_karashar d_kashgar d_khotan d_ferghana d_samarkand d_syr_darya d_kirghiz d_juyan d_barkul d_beshbaliq
@@ -347,61 +345,51 @@ custom_eastern_access = {
 		world_himalayas
 	}
 }
-
 custom_leon = {
 	duchies = {
 		d_leon d_asturias
 	}
 }
-
 custom_galicia = {
 	duchies = {
 		d_galicia d_porto
 	}
 }
-
 custom_beja = {
 	duchies = {
 		d_beja d_algarve d_balata
 	}
 }
-
 custom_granada = {
 	duchies = {
 		d_granada d_sevilla
 	}
 }
-
 custom_castille = {
 	duchies = {
 		d_castilla d_toledo
 	}
 }
-
 custom_aragon = {
 	duchies = {
 		d_aragon d_barcelona
 	}
 }
-
 custom_cordoba = {
 	duchies = {
 		d_cordoba d_badajoz
 	}
 }
-
 custom_valencia = {
 	duchies = {
 		d_valencia d_murcia
 	}
 }
-
 custom_navarra = {
 	duchies = {
 		d_navarra
 	}
 }
-
 custom_balearic = {
 	duchies = {
 		d_mallorca
