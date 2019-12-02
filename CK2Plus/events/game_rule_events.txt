@@ -7924,5 +7924,15 @@ character_event = { # Generate 'Fake Family' for characters without any
 			}
 		}
 		recalc_succession = yes
+		
+		# CK2Plus: Add baby trait/portrait
+		any_child = {
+			limit = {
+				age < 2
+			}
+			character_event = {
+				id = PlusMaintenance.003
+			}
+		}
 	}
 }
