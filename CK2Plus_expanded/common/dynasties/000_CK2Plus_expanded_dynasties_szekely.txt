@@ -1,16 +1,16 @@
 # Valid IDs: 1000171000 - 1000171999
 1000171000 = {
-	name = "Ludï¿½ny"
+	name = "Ludány"
 	culture = szekely
 }
 
 1000171001 = {
-	name = "ï¿½kos"
+	name = "Ákos"
 	culture = szekely
 }
 
 1000171002 = {
-	name = "Bï¿½"
+	name = "Bö"
 	culture = szekely
 }
 
@@ -25,17 +25,17 @@
 }
 
 1000171005 = {
-	name = "Hermï¿½n"
+	name = "Hermán"
 	culture = szekely
 }
 
 1000171006 = {
-	name = "Zsï¿½mboki"
+	name = "Zsámboki"
 	culture = szekely
 }
 
 1000171007 = {
-	name = "Csï¿½ki"
+	name = "Csáki"
 	culture = szekely
 }
 
@@ -55,7 +55,7 @@
 }
 
 1000171011 = {
-	name = "Nï¿½dasi"
+	name = "Nádasi"
 	culture = szekely
 }
 
@@ -65,22 +65,22 @@
 }
 
 1000171013 = {
-	name = "Tamï¿½si"
+	name = "Tamási"
 	culture = szekely
 }
 
 1000171014 = {
-	name = "Csï¿½ki"
+	name = "Csáki"
 	culture = szekely
 }
 
 1000171015 = {
-	name = "Bï¿½nfi"
+	name = "Bánfi"
 	culture = szekely
 }
 
 1000171016 = {
-	name = "Hidvï¿½gi"
+	name = "Hidvégi"
 	culture = szekely
 }
 
