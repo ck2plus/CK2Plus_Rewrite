@@ -30,7 +30,7 @@
 }
 
 1000068006 = {
-	name = "Gï¿½ï¿½mar"
+	name = "Güímar"
 	culture = guanche
 }
 
@@ -65,7 +65,7 @@
 }
 
 1000068013 = {
-	name = "Jandï¿½a"
+	name = "Jandía"
 	culture = guanche
 }
 
@@ -75,7 +75,7 @@
 }
 
 1000068015 = {
-	name = "Tamarï¿½n"
+	name = "Tamarán"
 	culture = guanche
 }
 
@@ -95,7 +95,7 @@
 }
 
 1000068019 = {
-	name = "Acerï¿½"
+	name = "Aceró"
 	culture = guanche
 }
 
@@ -110,7 +110,7 @@
 }
 
 1000068022 = {
-	name = "Eserï¿½"
+	name = "Eseró"
 	culture = guanche
 }
 
@@ -125,7 +125,7 @@
 }
 
 1000068025 = {
-	name = "Gï¿½ldar"
+	name = "Gáldar"
 	culture = guanche
 }
 
@@ -150,7 +150,7 @@
 }
 
 1000068030 = {
-	name = "Hipalï¿½n"
+	name = "Hipalán"
 	culture = guanche
 }
 
