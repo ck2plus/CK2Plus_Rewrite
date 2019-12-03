@@ -134,3 +134,36 @@ k_oman = {
 			has_ck2plus_kingdom_reqs = yes
 		}
 }
+
+k_jalayarid = {
+	color = { 190 158 217 }
+	color2 = { 255 255 20 }
+	
+	culture = mongol
+	
+	allow = {
+		always = no
+	}
+}
+
+k_chupanid = {
+	color = { 0 0 100 }
+	color2 = { 255 255 20 }
+	
+	culture = mongol
+	
+	allow = {
+		always = no
+	}
+}
+
+k_injuid = {
+	color = { 238 210 2 }
+	color2 = { 255 255 20 }
+	
+	culture = mongol
+	
+	allow = {
+		always = no
+	}
+}
