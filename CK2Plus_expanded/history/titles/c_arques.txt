@@ -4,12 +4,8 @@
 	holder = 91477 #BAUGULF, historical count as place	holder
 }
 
-790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
-	liege = k_francia
-}
-
-811.12.4 = { # death of Charles 'the Younger'
-	liege = e_karling
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = k_neustria
 }
 
 843.8.10 = { # Treaty of Verdun

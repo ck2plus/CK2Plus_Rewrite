@@ -23,12 +23,7 @@
 }
 
 820.1.1 = {
-	liege = k_lotharingia
 	holder = 161483
-}
-
-823.1.1 = {
-	liege = k_france
 }
 
 837.10.27 = {

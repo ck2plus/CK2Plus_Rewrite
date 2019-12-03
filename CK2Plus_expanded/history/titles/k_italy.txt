@@ -155,8 +155,12 @@
 	holder = 6396 # Bernard
 }
 
-818.4.17 = {
-	holder = 30227 # Lothaire
+818.4.17 = { # death of Bernard
+	holder = 90095 # Louis I 'the Pious'
+}
+
+822.8.1 = { # Assembly at Attigny
+	holder = 30227 # Lothaire I
 }
 
 855.9.20 = {

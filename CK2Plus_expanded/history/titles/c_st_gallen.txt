@@ -19,6 +19,10 @@
 }
 
 810.1.1 = {
+	liege = k_italy
+}
+
+810.7.8 = { # Death of Pepin
 	liege = e_karling
 }
 

@@ -7,7 +7,7 @@
 	holder = 194450 #Robert II de Hesbaye
 }
 
-790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
 	liege = e_france
 }
 

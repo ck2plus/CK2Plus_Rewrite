@@ -35,10 +35,6 @@
 	liege = e_karling
 }
 
-814.1.28 = {
-	holder = 90095 #Louis I
-}
-
 840.1.21 = {
 	holder = 90107 #Ludwig I
 }

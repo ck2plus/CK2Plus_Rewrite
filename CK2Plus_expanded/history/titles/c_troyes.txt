@@ -20,21 +20,20 @@
 	holder = 6392 # Karl the Great
 }
 
-790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
-	liege = k_francia
-}
-
-814.1.28 = {
-	liege = e_karling
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = k_neustria
 }
 
 817.1.1 = {
-	liege = k_france
 	holder = 144975
 }
 
 841.1.1 = {
 	holder = 144974
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 866.1.1 = {

@@ -6,6 +6,10 @@
 	liege = d_burgundy
 }
 
+790.1.1 = {
+	holder = 190511 # temporary
+}
+
 806.2.6 = { # Partition at Thionville/Diviso Regnorum
 	liege = k_aquitaine
 }

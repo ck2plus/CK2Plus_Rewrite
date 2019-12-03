@@ -153,7 +153,15 @@
 	holder = 6392 # Karl the Great
 }
 
-800.12.25 = {
+814.1.28 = {
+	holder = 90095 # Louis I 'the Pious'
+}
+
+840.6.20 = {
+	holder = 30227 # Lothair I
+}
+
+843.8.10 = { # Treaty of Verdun
+	holder = 0
 	active = no
-	holder = 0 # Karl the Great
 }

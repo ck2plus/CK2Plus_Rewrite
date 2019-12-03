@@ -6,6 +6,10 @@
 	holder = 161742 #Hunfrid
 }
 
+810.1.1 = {
+	liege = k_italy
+}
+
 810.7.8 = { # Death of Pepin
 	holder = 190356 # temporary
 	liege = e_karling

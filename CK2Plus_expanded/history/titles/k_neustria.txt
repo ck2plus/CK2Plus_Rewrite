@@ -3,7 +3,7 @@
 	pentarch = b_roma
 }
 
-#Merovingians
+# Merovingians
 
 450.1.1 = {
 	holder = 168671 # Merovech
@@ -50,7 +50,7 @@
 
 639.1.19 = {
 	liege = 0
-	holder = 168699 # Clovis II, the Lazy (for regnal numbering)
+	holder = 168699 # Clovis II 'the Lazy' (for regnal numbering)
 }
 
 657.10.31 = {
@@ -97,17 +97,46 @@
 	holder = 168707 # Childéric III
 }
 
-751.11.1 = {
-	holder = 131722 # Pepin the Short
-}
-
 # Karlings
 
+751.11.1 = {
+	holder = 131722 # Pepin 'the Short'
+}
+
 768.9.24 = {
-	holder = 6392 # Karl the Great
+	holder = 6392 # Karl 'the Great'
+}
+
+790.4.11 = {
+	holder = 40994 # Charles 'the Younger'
+	liege = e_france
 }
 
 800.12.25 = {
+	liege = e_karling
+}
+
+811.12.4 = { # Death of Charles 'the Younger'
+	holder = 6392 # Karl 'the Great'
+}
+
+814.1.28 = {
+	holder = 90095 # Louis I 'the Pious'
+}
+
+817.7.1 = {
+	holder = 30227 # Lothair I
+}
+
+831.2.2 = { # Lothair I disgraced after revolt
+	holder = 90095 # Louis I 'the Pious'
+}
+
+837.10.1 = { # Charles II 'the Bald' finally receives land
+	holder = 90104 # Charles II 'the Bald'
+}
+
+843.8.10 = { # Treaty of Verdun
+	holder = 0
 	active = no
-	holder = 0 # Karl the Great
 }

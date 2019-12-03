@@ -12,11 +12,15 @@
 }
 
 806.2.6 = { # Divisio Regnorum/Partition at Thionville
-	liege = k_francia
+	liege = k_neustria
 }
 
 811.12.4 = { # Death of Charles 'the Younger'
 	liege = e_karling
+}
+
+817.7.1 = { # Ordinatio Imperii
+	liege = k_aquitaine
 }
 
 837.10.27 = {

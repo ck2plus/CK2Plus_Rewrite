@@ -16,16 +16,19 @@
 }
 
 790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
-	liege = k_francia
+	liege = k_neustria
 }
 
-814.1.28 = {
-	liege = e_karling
+817.7.1 = { # Ordinatio Imperii
+	liege = k_neustria
 }
 
 834.1.1 = {
-	liege = k_france
 	holder = 6398 # Pepin II 'Quentin'
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 892.1.1 = {

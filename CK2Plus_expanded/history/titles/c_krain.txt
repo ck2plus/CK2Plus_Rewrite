@@ -6,14 +6,6 @@
 	holder = 260385 # Prince Valhun of Carantania
 }
 
-810.7.8 = { # Death of Pepin
-	liege = e_karling
-}
-
-817.7.1 = { # Ordinatio Imperii
-	liege = k_bavaria
-}
-
 863.1.1 = {
 	liege = d_friuli
 }

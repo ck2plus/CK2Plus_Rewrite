@@ -4,17 +4,16 @@
 	holder = 91484 #GISELHAR [Gislarius], count of Betoricas, historical count as place	holder
 }
 
-790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
-	liege = k_francia
-}
-
-811.12.4 = { # death of Charles 'the Younger'
-	liege = e_karling
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = k_neustria
 }
 
 817.1.1 = {
-	liege = k_france
 	holder = 144975
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 841.1.1 = {

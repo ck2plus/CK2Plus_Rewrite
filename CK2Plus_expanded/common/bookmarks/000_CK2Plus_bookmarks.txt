@@ -190,6 +190,10 @@ bm_death_of_charlemagne = {
 	}
 
 	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
 		id = 6396 # Bernard
 	}
 }
@@ -246,6 +250,82 @@ bm_death_of_bernard = {
 	}
 }
 
+bm_assembly_at_attigny = {
+	name = "Assembly at Attigny"
+	desc = "He's moved!"
+#	name = BM_ASSEMBLY_AT_ATTIGNY
+#	desc = BM_ASSEMBLY_AT_ATTIGNY_DESC
+	date = 822.8.1
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90096 # Pepin I 'the Young'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+}
+
+bm_redivision_at_aachen = {
+	name = "Redevision at Aachen"
+	desc = "He's moved!"
+#	name = BM_REDIVISION_AT_AACHEN
+#	desc = BM_REDIVISION_AT_AACHEN_DESC
+	date = 831.2.2
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90096 # Pepin I 'the Young'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+}
+
+bm_redivision_of_837 = {
+	name = "Redivision of 837 "
+	desc = "He's redecided!"
+#	name = BM_REDIVISION_OF_837
+#	desc = BM_REDIVISION_OF_837_DESC
+	date = 837.10.1
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
+		id = 90096 # Pepin I 'the Young'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+}
+
 bm_death_of_pepin_i_of_aquitaine = {
 	name = "Death of Pepin I of Aquitaine"
 	desc = "He's dead!"
@@ -262,11 +342,43 @@ bm_death_of_pepin_i_of_aquitaine = {
 	}
 
 	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
 		id = 90107 # Ludwig 'the German'
 	}
 
 	selectable_character = {
 		id = 90097 # Pepin II 'the Younger'
+	}
+}
+
+bm_redivision_of_839 = {
+	name = "Redivision at Worms"
+	desc = "He's redecided again!"
+#	name = BM_REDIVISION_OF_839
+#	desc = BM_REDIVISION_OF_839_DESC
+	date = 839.5.30
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
+		id = 90096 # Pepin I 'the Young'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
 	}
 }
 

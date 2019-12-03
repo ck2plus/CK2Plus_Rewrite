@@ -3,6 +3,10 @@
 	liege = k_neustria
 }
 
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = e_france
+}
+
 800.12.25 = {
 	liege = e_karling
 }

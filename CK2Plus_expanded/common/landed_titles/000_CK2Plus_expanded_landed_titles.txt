@@ -49,6 +49,22 @@ k_austrasia = {
 	}
 }
 
+
+#}
+#	}
+#		always = no
+#		# TODO: Put in actual requirements
+#	allow = {
+#	short_name = yes
+#
+#
+#
+#	capital = 90 # Julich
+#	culture = old_frankish
+#
+#	color2 = { 255 255 20 }
+#	color = { 11 22 170 }
+#k_francia = {
 k_azerbaijan = {
 	color = { 112 223 170 }
 	color2 = { 255 255 20 }

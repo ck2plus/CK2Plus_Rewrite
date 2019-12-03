@@ -5,16 +5,15 @@
 }
 
 790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
-	liege = k_francia
-}
-
-811.12.4 = { # death of Charles 'the Younger'
-	liege = e_karling
+	liege = k_neustria
 }
 
 815.1.1 = {
-	liege = k_france
 	holder = 163092
+}
+
+831.2.2 = { # Redivision at Aachen
+	liege = k_aquitaine
 }
 
 840.6.20 = {

@@ -23,7 +23,7 @@
 
 # Karling
 
-790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
 	holder = 40994 # Charles 'the Younger'
 	liege = d_anjou
 }
@@ -39,11 +39,19 @@
 	holder = 168020 # Rorgon
 }
 
+817.7.1 = { # Ordinatio Imperii
+	liege = k_neustria
+}
+
+831.2.2 = { # Redivision at Aachen
+	liege = k_aquitaine
+}
+
 839.6.16 = {
 	holder = 168019 # Gauzbert
 }
 
-843.8.10 = { # Treaty of Verdun
+840.6.20 = {
 	liege = k_france
 }
 

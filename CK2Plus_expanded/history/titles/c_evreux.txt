@@ -3,12 +3,12 @@
 	holder = 91476 #Australdis, historical place	holder
 }
 
-790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
-	liege = k_francia
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = k_neustria
 }
 
-811.12.4 = { # death of Charles 'the Younger'
-	liege = e_karling
+831.2.2 = { # Redivision at Aachen
+	liege = k_aquitaine
 }
 
 843.8.10 = { # Treaty of Verdun

@@ -10,7 +10,11 @@
 	adjective = WEST_FRISIA_ADJ
 }
 
-800.12.15 = { # Coronation of Karl as EMPEROR
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = e_france
+}
+
+800.12.15 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
