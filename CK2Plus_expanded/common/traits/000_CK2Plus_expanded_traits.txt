@@ -63,9 +63,9 @@ machas_javelin  = {
 		crusader_king
 		crusader_queen
 		eagle_warrior
+		flame_of_eate
 		gondi_shahansha
 		kailash_guardian
-		machas_javelin
 		mujahid
 		nyames_shield
 		peruns_chosen
@@ -140,9 +140,9 @@ flame_of_eate = {
 		crusader_king
 		crusader_queen
 		eagle_warrior
-		flame_of_eate
 		gondi_shahansha
 		kailash_guardian
+		machas_javelin
 		mujahid
 		nyames_shield
 		peruns_chosen
