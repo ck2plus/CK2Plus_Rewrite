@@ -3,7 +3,7 @@
 
 religion_nature = {
 	buttons = { nature }
-	
+
 	religion_peaceful = {
 		picture = GFX_religion_feature_peaceful
 		effect = {
@@ -11,7 +11,7 @@ religion_nature = {
 			custom_tooltip = { text = tooltip_religion_feature_peace_piety }
 			custom_tooltip = { text = tooltip_religion_feature_no_looting }
 			custom_tooltip = { text = tooltip_religion_feature_no_crusade }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_allow_looting = no
 				set_can_call_crusade = no
 				set_hard_to_convert = no
@@ -27,11 +27,11 @@ religion_nature = {
 		}
 		ai_will_do = {
 			factor = 100
-			modifier = { 	
+			modifier = {
 				factor = 0.01
 				FROM = {
-					character = yes 
-					NOT = { religion = bon } 
+					character = yes
+					NOT = { religion = bon }
 				}
 			}
 			modifier = { #Handles feature randomization in AltStart to make unreformed pagans still have "paganish" features.
@@ -67,12 +67,12 @@ religion_nature = {
 		}
 		ai_will_do = {
 			factor = 100
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
+				FROM = {
 					character = yes
-					OR = { 
-						religion = bon 
+					OR = {
+						religion = bon
 						religion = slavic_pagan
 						religion = baltic_pagan
 						religion = finnish_pagan
@@ -80,60 +80,60 @@ religion_nature = {
 					}
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.01
-				FROM = { 
+				FROM = {
 					character = yes
-					religion = bon 
+					religion = bon
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
 				FROM = {
-					character = yes 
-					trait = zealous 
+					character = yes
+					trait = zealous
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = lunatic 
+				FROM = {
+					character = yes
+					trait = lunatic
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = possessed 
+				FROM = {
+					character = yes
+					trait = possessed
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = wroth 
+				FROM = {
+					character = yes
+					trait = wroth
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = craven 
+				FROM = {
+					character = yes
+					trait = craven
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = patient 
+				FROM = {
+					character = yes
+					trait = patient
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = cynical 
+				FROM = {
+					character = yes
+					trait = cynical
 				}
 			}
 		}
@@ -144,7 +144,7 @@ religion_nature = {
 			custom_tooltip = { text = tooltip_religion_feature_defensive }
 			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
 			custom_tooltip = { text = tooltip_religion_feature_crusade }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_pacifist = no
 				set_peace_piety_gain = 0
 				set_raised_vassal_opinion_loss = yes
@@ -155,10 +155,10 @@ religion_nature = {
 				set_convert_other_groups = 1
 				set_convert_same_group = 1
 				set_ai_aggression = 0.5
-				set_unit_modifier = {		
+				set_unit_modifier = {
 					garrison_size = 0.3
 					levy_size = 0.2
-					
+
 					key = "DEF_RELIGION"
 				}
 				set_unit_home_modifier = {
@@ -172,20 +172,20 @@ religion_nature = {
 					horse_archers_defensive = 0.8
 					camel_cavalry_defensive = 0.8
 					war_elephants_defensive = 0.8
-					
+
 					garrison_size = 0.4
-					
+
 					key = "DEF_RELIGION_HOME_TERRITORY"
 				}
 			}
 		}
 		ai_will_do = {
 			factor = 100
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					OR = { 
+				FROM = {
+					character = yes
+					OR = {
 						religion = norse_pagan
 						religion = tengri_pagan
 						religion = zun_pagan
@@ -194,53 +194,53 @@ religion_nature = {
 					}
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.001
-				FROM = { 
-					character = yes 
-					religion = aztec 
+				FROM = {
+					character = yes
+					religion = aztec
 				}
 			}
-			modifier = { 	
-				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = zealous 
-				}
-			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
 				FROM = {
-					character = yes 
-					trait = lunatic 
+					character = yes
+					trait = zealous
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = possessed 
+				FROM = {
+					character = yes
+					trait = lunatic
 				}
 			}
-			modifier = { 	
-				factor = 5
-				FROM = { 
-					character = yes 
-					trait = craven 
+			modifier = {
+				factor = 0.1
+				FROM = {
+					character = yes
+					trait = possessed
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = patient 
+				FROM = {
+					character = yes
+					trait = craven
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = cynical 
+				FROM = {
+					character = yes
+					trait = patient
+				}
+			}
+			modifier = {
+				factor = 5
+				FROM = {
+					character = yes
+					trait = cynical
 				}
 			}
 		}
@@ -251,7 +251,7 @@ religion_nature = {
 			custom_tooltip = { text = tooltip_religion_feature_proselytizing }
 			custom_tooltip = { text = tooltip_religion_feature_crusade }
 			custom_tooltip = { text = tooltip_religion_feature_piety_same_religion_loss }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_pacifist = no
 				set_peace_piety_gain = 0
 				set_raised_vassal_opinion_loss = yes
@@ -266,71 +266,71 @@ religion_nature = {
 		}
 		ai_will_do = {
 			factor = 80
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					NOR = { 
+				FROM = {
+					character = yes
+					NOR = {
 						religion = zun_pagan
 						religion = hellenic_pagan
 						religion = west_african_pagan
 					}
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.01
-				FROM = { 
-					character = yes 
-					religion = bon 
+				FROM = {
+					character = yes
+					religion = bon
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = zealous 
+				FROM = {
+					character = yes
+					trait = zealous
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = gregarious 
+				FROM = {
+					character = yes
+					trait = gregarious
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = socializer 
+				FROM = {
+					character = yes
+					trait = socializer
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = wroth 
+				FROM = {
+					character = yes
+					trait = wroth
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = possessed 
+				FROM = {
+					character = yes
+					trait = possessed
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = brave 
+				FROM = {
+					character = yes
+					trait = brave
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = cynical 
+				FROM = {
+					character = yes
+					trait = cynical
 				}
 			}
 			modifier = { #Handles feature randomization in AltStart to make unreformed pagans still have "paganish" features.
@@ -354,7 +354,7 @@ religion_nature = {
 			custom_tooltip = { text = tooltip_religion_feature_crusade }
 			custom_tooltip = { text = tooltip_religion_feature_dogmatic_2 }
 			custom_tooltip = { text = tooltip_religion_feature_piety_same_religion_loss }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_pacifist = no
 				set_peace_piety_gain = 0
 				set_raised_vassal_opinion_loss = yes
@@ -369,49 +369,49 @@ religion_nature = {
 		}
 		ai_will_do = {
 			factor = 50
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					NOR = { 
+				FROM = {
+					character = yes
+					NOR = {
 						religion = zun_pagan
 						religion = west_african_pagan
 					}
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.01
-				FROM = { 
-					character = yes 
-					religion = bon 
+				FROM = {
+					character = yes
+					religion = bon
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = paranoid 
+				FROM = {
+					character = yes
+					trait = paranoid
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = cruel 
+				FROM = {
+					character = yes
+					trait = cruel
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = kind 
+				FROM = {
+					character = yes
+					trait = kind
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = cynical 
+				FROM = {
+					character = yes
+					trait = cynical
 				}
 			}
 			modifier = { #Handles feature randomization in AltStart to make unreformed pagans still have "paganish" features.
@@ -432,7 +432,7 @@ religion_nature = {
 			custom_tooltip = { text = tooltip_religion_feature_crusade }
 			custom_tooltip = { text = tooltip_religion_feature_impotent }
 			custom_tooltip = { text = tooltip_religion_feature_cosmopolitan_1 }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_pacifist = no
 				set_peace_piety_gain = 0
 				set_raised_vassal_opinion_loss = yes
@@ -447,57 +447,57 @@ religion_nature = {
 		}
 		ai_will_do = {
 			factor = 50
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					NOR = { 
+				FROM = {
+					character = yes
+					NOR = {
 						religion = hellenic_pagan
 						religion = west_african_pagan
 						religion = slavic_pagan
 					}
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 2
-				FROM = { 
-					character = yes 
-					religion = hellenic_pagan 
+				FROM = {
+					character = yes
+					religion = hellenic_pagan
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = paranoid 
+				FROM = {
+					character = yes
+					trait = paranoid
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = zealous 
+				FROM = {
+					character = yes
+					trait = zealous
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = gregarious 
+				FROM = {
+					character = yes
+					trait = gregarious
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = kind 
+				FROM = {
+					character = yes
+					trait = kind
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = cynical 
+				FROM = {
+					character = yes
+					trait = cynical
 				}
 			}
 			modifier = { #Handles feature randomization in AltStart to make unreformed pagans still have "paganish" features.
@@ -515,7 +515,7 @@ religion_nature = {
 
 religion_doctrine = {
 	buttons = { doctrine1 doctrine2 }
-	
+
 	#religion_ravager = {
 	#	picture = GFX_religion_feature_ravager
 	#	effect = {
@@ -531,17 +531,17 @@ religion_doctrine = {
 	religion_holy_family = {
 		picture = GFX_religion_feature_holy_family
 		trigger = {
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_feature_zun #Redundant
 				has_selected_religion_feature = religion_feature_bon
 				religion = zoroastrian #Random World.
 				religion = messalian
-			} 
+			}
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_incest }
 			custom_tooltip = { text = tooltip_religion_feature_holy_family }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_divine_blood = yes
 				set_psc_marriage = yes
 				set_bs_marriage = yes
@@ -551,11 +551,11 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					NOT = { 
+				FROM = {
+					character = yes
+					NOT = {
 						religion = zun_pagan
 					}
 				}
@@ -570,15 +570,15 @@ religion_doctrine = {
 	religion_harems = {
 		picture = GFX_religion_feature_harems
 		trigger = {
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_matriarchal #Incompatible
 				has_selected_religion_feature = religion_feature_zun #Redundant
 				has_selected_religion_feature = religion_feature_tengri
-			} 
+			}
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_harems }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_max_consorts = 0
 				set_max_wives = 4
 			}
@@ -587,7 +587,7 @@ religion_doctrine = {
 	religion_meritocratic = {
 		picture = GFX_religion_feature_meritocratic
 		trigger = {
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_feature_hellenic # Redundant Doctrine
 				has_selected_religion_feature = religion_feature_bon # Redundant Doctrine
 				has_selected_religion_feature = religion_patriarchal # Incompatible
@@ -612,15 +612,15 @@ religion_doctrine = {
 	religion_stable = {
 		picture = GFX_religion_feature_stable
 		trigger = {
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_feature_slavic # Redundant Doctrine
 				has_selected_religion_feature = religion_feature_finnish # Redundant Doctrine
 			}
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_stable }
-			custom_tooltip = { text = tooltip_religion_feature_meliorism } 
-			hidden_tooltip = { 
+			custom_tooltip = { text = tooltip_religion_feature_meliorism }
+			hidden_tooltip = {
 				set_short_reign_opinion_year_mult = 0
 			}
 		}
@@ -643,7 +643,7 @@ religion_doctrine = {
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_jizya }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_jizya_tax = yes
 			}
 		}
@@ -667,7 +667,7 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_monastic }
 			custom_tooltip = { text = tooltip_religion_feature_learning_boost }
 			custom_tooltip = { text = tooltip_religion_feature_celibate_priests }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_can_retire_to_monastery = yes
 				set_priests_can_marry = no
 				set_priests_can_inherit = no
@@ -701,11 +701,11 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 0.5
-				FROM = { 
-					character = yes 
-					OR = { 
+				FROM = {
+					character = yes
+					OR = {
 						religion = aztec
 						religion = baltic_pagan
 						religion = finnish_pagan
@@ -729,7 +729,7 @@ religion_doctrine = {
 		trigger = {
 			NOT = { has_selected_religion_feature = religion_feature_celtic } #Redundant
 		}
-		
+
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_haruspicy }
 		}
@@ -750,10 +750,10 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
-				factor = 0.01 
-				FROM = { 
-					character = yes 
+			modifier = {
+				factor = 0.01
+				FROM = {
+					character = yes
 					OR = { #Too Western for them.
 						religion = bon
 						religion = tengri_pagan
@@ -779,7 +779,7 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_open_succession }
 			custom_tooltip = { text = tooltip_religion_feature_patriarchal_negatives }
 			custom_tooltip = { text = tooltip_religion_feature_no_matrimarriage }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_allows_matrilineal_marriage = no
 				set_feminist = no
 				set_female_temple_holders = no
@@ -791,18 +791,18 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 0.01
-				FROM = { 
-					character = yes 
-					is_female = yes 
+				FROM = {
+					character = yes
+					is_female = yes
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					current_heir = { is_female = yes } 
+				FROM = {
+					character = yes
+					current_heir = { is_female = yes }
 				}
 			}
 		}
@@ -816,9 +816,9 @@ religion_doctrine = {
 				has_selected_religion_feature = religion_feature_bon
 				trigger_if = {
 					limit = { has_game_started = yes }
-					FROM = { 
-						character = yes 
-						government = merchant_republic_government 
+					FROM = {
+						character = yes
+						government = merchant_republic_government
 					}
 				}
 			}
@@ -826,31 +826,31 @@ religion_doctrine = {
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_cognatic }
 			custom_tooltip = { text = tooltip_religion_feature_feminist }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_allows_matrilineal_marriage = yes
 				set_feminist = yes
 				set_women_can_take_consorts = yes
 				set_men_can_take_consorts = yes
 				set_female_temple_holders = yes
 				set_male_temple_holders = yes
-				#FROM = { any_demesne_title = { add_law = status_of_women_4 } } 
+				#FROM = { any_demesne_title = { add_law = status_of_women_4 } }
 			}
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 0.01
-				NOT = { 
-					FROM = { 
-						character = yes 
+				NOT = {
+					FROM = {
+						character = yes
 						OR = {
 							trait = just
-							AND = { 
-								is_female = yes 
+							AND = {
+								is_female = yes
 								trait = ambitious
 							}
-						}   
-					} 
+						}
+					}
 				}
 			}
 		}
@@ -866,9 +866,9 @@ religion_doctrine = {
 				religion = basque_pagan_reformed # Redundant
 				trigger_if = {
 					limit = { has_game_started = yes }
-					FROM = { 
-						character = yes 
-						government = merchant_republic_government 
+					FROM = {
+						character = yes
+						government = merchant_republic_government
 					}
 				}
 			}
@@ -877,9 +877,9 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_matriarchal }
 			custom_tooltip = { text = tooltip_religion_feature_open_succession }
 			custom_tooltip = { text = tooltip_religion_feature_matriarchal_negatives }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_allows_matrilineal_marriage = yes
-				set_feminist = yes 
+				set_feminist = yes
 				set_women_can_take_consorts = yes
 				set_men_can_take_consorts = no
 				set_female_temple_holders = yes
@@ -889,18 +889,18 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 0.001
-				NOT = { 
-					FROM = { 
-						character = yes 
-						is_female = yes 
+				NOT = {
+					FROM = {
+						character = yes
+						is_female = yes
 						OR = {
 							trait = lunatic
 							trait = possessed
 							trait = ambitious
-						}   
-					} 
+						}
+					}
 				}
 			}
 		}
@@ -921,14 +921,14 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					NOR = { 
-						trait = cruel 
-						trait = impaler 
-					} 
+				FROM = {
+					character = yes
+					NOR = {
+						trait = cruel
+						trait = impaler
+					}
 				}
 			}
 		}
@@ -948,17 +948,17 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 1.5
-				FROM = { 	
-					character = yes 
+				FROM = {
+					character = yes
 					religion = norse_pagan
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 1.5
-				FROM = { 	
-					character = yes 
+				FROM = {
+					character = yes
 					religion = baltic_pagan
 				}
 			}
@@ -982,11 +982,11 @@ religion_doctrine = {
 				set_allow_rivermovement = yes
 				if = {
 					limit = { #Unlock looting for religions which do not have it already.
-						FROM = { 
-						character = yes 
+						FROM = {
+						character = yes
 							NOT = { has_selected_religion_feature = religion_peaceful }
-							OR = { 
-								religion = pagan 
+							OR = {
+								religion = pagan
 								religion = zun_pagan
 								religion = aztec
 								religion = hellenic_pagan
@@ -999,34 +999,34 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 1.5
-				FROM = { 
-					character = yes 
+				FROM = {
+					character = yes
 					religion = norse_pagan
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 1.5
-				FROM = { 
-					character = yes 
+				FROM = {
+					character = yes
 					religion = aztec
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
+				FROM = {
+					character = yes
 					government = nomadic_government
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0
-				FROM = { 
-					character = yes 
-					NOT = { 
-						any_demesne_province = { 
-							port = yes 
+				FROM = {
+					character = yes
+					NOT = {
+						any_demesne_province = {
+							port = yes
 							TECH_NAVAL = 1
 						}
 					}
@@ -1047,14 +1047,14 @@ religion_doctrine = {
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_anti_attrition }
 			custom_tooltip = { text = tooltip_religion_feature_offensive }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_ignores_defensive_attrition = yes
-				set_unit_modifier = { 
+				set_unit_modifier = {
 					light_infantry_offensive = 0.1
 					heavy_infantry_offensive = 0.1
-					light_cavalry_offensive = 0.1 
-					knights_offensive = 0.1 
-					pikemen_offensive = 0.1 
+					light_cavalry_offensive = 0.1
+					knights_offensive = 0.1
+					pikemen_offensive = 0.1
 					archers_offensive = 0.1
 					horse_archers_offensive = 0.1
 					camel_cavalry_offensive = 0.1
@@ -1065,17 +1065,17 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 1.5
-				FROM = { 
-					character = yes 
+				FROM = {
+					character = yes
 					religion = aztec
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 1.5
-				FROM = { 
-					character = yes 
+				FROM = {
+					character = yes
 					religion = tengri_pagan
 				}
 			}
@@ -1089,16 +1089,16 @@ religion_doctrine = {
 				religion = west_african_pagan_reformed #Redundant
 			}
 		}
-		
+
 		trigger = {
 			NOT = { has_selected_religion_feature = religion_feature_celtic } #Redundant
 		}
-		
+
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_land_morale }
 			custom_tooltip = { text = tooltip_religion_feature_adulthood_rite }
-			hidden_tooltip = { 
-				set_unit_modifier = { 
+			hidden_tooltip = {
+				set_unit_modifier = {
 					land_morale = 0.05
 					key = "ANIMISTIC_RELIGION"
 				}
@@ -1106,17 +1106,17 @@ religion_doctrine = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 	
+			modifier = {
 				factor = 1.5
-				FROM = { 
-					character = yes 
+				FROM = {
+					character = yes
 					religion = aztec
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 1.5
-				FROM = { 
-					character = yes 
+				FROM = {
+					character = yes
 					religion = tengri_pagan
 				}
 			}
@@ -1154,7 +1154,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = norse_pagan_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_adventuring
 				has_selected_religion_feature = religion_seafaring
 			}
@@ -1164,7 +1164,7 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
 			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
 			custom_tooltip = { text = tooltip_religion_feature_seafaring }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				enable_prepared_invasion = yes
 				set_seafaring = yes
 				set_allow_rivermovement = yes
@@ -1185,7 +1185,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = tengri_pagan_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_relentless
 				has_selected_religion_feature = religion_harems
 			}
@@ -1198,12 +1198,12 @@ religion_doctrine = {
 				set_max_consorts = 0
 				set_max_wives = 4
 				set_ignores_defensive_attrition = yes
-				set_unit_modifier = { 
+				set_unit_modifier = {
 					light_infantry_offensive = 0.1
 					heavy_infantry_offensive = 0.1
-					light_cavalry_offensive = 0.1 
-					knights_offensive = 0.1 
-					pikemen_offensive = 0.1 
+					light_cavalry_offensive = 0.1
+					knights_offensive = 0.1
+					pikemen_offensive = 0.1
 					archers_offensive = 0.1
 					horse_archers_offensive = 0.1
 					camel_cavalry_offensive = 0.1
@@ -1227,14 +1227,14 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = baltic_pagan_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_meritocratic
 			}
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
 			custom_tooltip = { text = tooltip_religion_feature_eldership }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_hard_to_convert = yes
 			}
 		}
@@ -1253,14 +1253,14 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = slavic_pagan_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_stable
 			}
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
 			custom_tooltip = { text = tooltip_religion_feature_stable }
-			custom_tooltip = { text = tooltip_religion_feature_meliorism } 
+			custom_tooltip = { text = tooltip_religion_feature_meliorism }
 			hidden_tooltip = {
 				set_short_reign_opinion_year_mult = 0
 				set_allow_rivermovement = yes
@@ -1281,15 +1281,15 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = finnish_pagan_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_stable
 			}
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
 			custom_tooltip = { text = tooltip_religion_feature_stable }
-			custom_tooltip = { text = tooltip_religion_feature_meliorism } 
-			hidden_tooltip = { 
+			custom_tooltip = { text = tooltip_religion_feature_meliorism }
+			hidden_tooltip = {
 				set_hard_to_convert = yes
 				set_short_reign_opinion_year_mult = 0
 			}
@@ -1309,7 +1309,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = west_african_pagan_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_monastic
 				has_selected_religion_feature = religion_jizya
 			}
@@ -1318,7 +1318,7 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_monastic }
 			custom_tooltip = { text = tooltip_religion_feature_jizya }
 			custom_tooltip = { text = tooltip_religion_feature_eldership }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_priests_can_marry = no
 				set_priests_can_inherit = no
 				set_jizya_tax = yes
@@ -1340,7 +1340,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = zun_pagan_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_harems
 				has_selected_religion_feature = religion_holy_family
 			}
@@ -1349,7 +1349,7 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_harems }
 			custom_tooltip = { text = tooltip_religion_feature_incest }
 			custom_tooltip = { text = tooltip_religion_feature_holy_family }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_max_consorts = 0
 				set_max_wives = 4
 				set_pc_marriage = yes
@@ -1374,7 +1374,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = bon_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_holy_family
 				has_selected_religion_feature = religion_meritocratic
 				has_selected_religion_feature = religion_equal
@@ -1387,7 +1387,7 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_meritocratic }
 			custom_tooltip = { text = tooltip_religion_feature_feminist }
 			custom_tooltip = { text = tooltip_religion_feature_cognatic }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_allows_matrilineal_marriage = yes
 				set_heir_designation = yes
 				set_feminist = yes
@@ -1412,7 +1412,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = aztec_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_seafaring #Redundant
 				has_selected_religion_feature = religion_ritual_sacrifice #Redundant
 				has_selected_religion_feature = religion_relentless #Redundant
@@ -1426,16 +1426,16 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_rivermovement }
 			#custom_tooltip = { text = tooltip_religion_feature_seafaring }
 			custom_tooltip = { text = tooltip_religion_feature_ship_maintenance }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_ignores_defensive_attrition = yes
 				set_seafaring = yes
 				set_allow_rivermovement = yes
-				set_unit_modifier = { 
+				set_unit_modifier = {
 					light_infantry_offensive = 0.1
 					heavy_infantry_offensive = 0.1
-					light_cavalry_offensive = 0.1 
-					knights_offensive = 0.1 
-					pikemen_offensive = 0.1 
+					light_cavalry_offensive = 0.1
+					knights_offensive = 0.1
+					pikemen_offensive = 0.1
 					archers_offensive = 0.1
 					horse_archers_offensive = 0.1
 					camel_cavalry_offensive = 0.1
@@ -1459,7 +1459,7 @@ religion_doctrine = {
 		}
 		trigger = {
 			religion = hellenic_pagan_reformed
-			NOR = { 
+			NOR = {
 				has_selected_religion_feature = religion_syncretic
 				has_selected_religion_feature = religion_dogmatic
 				has_selected_religion_feature = religion_meritocratic
@@ -1469,7 +1469,7 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_syncretic }
 			custom_tooltip = { text = tooltip_religion_feature_meritocratic }
 			custom_tooltip = { text = tooltip_religion_feature_war_levies }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_heir_designation = yes
 				set_raised_vassal_opinion_loss = no
 			}
@@ -1478,7 +1478,7 @@ religion_doctrine = {
 			factor = 50
 		}
 	}
-	
+
 	religion_feature_pyramids = {
 		picture = GFX_religion_feature_pyramids
 		potential = {
@@ -1513,8 +1513,8 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_adulthood_rite }
 			custom_tooltip = { text = tooltip_religion_feature_haruspicy }
 
-			hidden_tooltip = { 
-				set_unit_modifier = { 
+			hidden_tooltip = {
+				set_unit_modifier = {
 					land_morale = 0.05
 					key = "ANIMISTIC_RELIGION"
 				}
@@ -1524,7 +1524,7 @@ religion_doctrine = {
             factor = 50
         }
 	}
-	
+
 	religion_feature_basque = {
 		picture = GFX_religion_feature_basque
 		potential = {
@@ -1549,9 +1549,15 @@ religion_doctrine = {
 			custom_tooltip = { text = tooltip_religion_feature_bloodthirsty_mechanics }
 			custom_tooltip = { text = tooltip_religion_feature_hard_conversion }
 			custom_tooltip = { text = tooltip_religion_feature_syncretic }
-			hidden_tooltip = { 
-				set_hard_to_convert = yes
+			hidden_tooltip = {
+				#set_hard_to_convert = yes
 				set_short_reign_opinion_year_mult = 0
+				law_set_allow_matrilineal_marriage = yes
+				set_feminist = yes
+				set_women_can_take_consorts = yes
+				set_men_can_take_consorts = no
+				set_female_temple_holders = yes
+				set_male_temple_holders = no
 			}
 		}
 		ai_will_do = { factor = 50 }
@@ -1560,7 +1566,7 @@ religion_doctrine = {
 
 religion_leadership = {
 	buttons = { leadership }
-	
+
 	religion_temporal_head = {
 		picture = GFX_religion_feature_temporal_head
 		potential = {
@@ -1582,10 +1588,10 @@ religion_leadership = {
 		}
 		ai_will_do = {
 			factor = 50
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					NOR = { 
+				FROM = {
+					NOR = {
 						religion = norse_pagan
 						religion = aztec
 					}
@@ -1600,7 +1606,7 @@ religion_leadership = {
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_theocratic_head }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_can_excommunicate = yes
 				set_can_grant_divorce = yes
 				set_can_grant_invasion_cb = yes
@@ -1609,11 +1615,11 @@ religion_leadership = {
 		}
 		ai_will_do = {
 			factor = 50
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					NOR = { 
+				FROM = {
+					character = yes
+					NOR = {
 						religion = tengri_pagan
 						religion = zun_pagan
                         religion = celtic_pagan
@@ -1629,7 +1635,7 @@ religion_leadership = {
 		}
 		effect = {
 			custom_tooltip = { text = tooltip_religion_feature_autocephaly }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_autocephaly = yes
 				set_can_excommunicate = yes
 				set_can_grant_divorce = yes
@@ -1639,11 +1645,11 @@ religion_leadership = {
 		}
 		ai_will_do = {
 			factor = 50
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					NOR = { 
+				FROM = {
+					character = yes
+					NOR = {
 						religion = finnish_pagan
 						religion = slavic_pagan
 						religion = baltic_pagan
@@ -1670,20 +1676,20 @@ religion_leadership = {
 			custom_tooltip = { text = tooltip_religion_feature_dynamic }
 			custom_tooltip = { text = tooltip_religion_feature_no_leader }
 			custom_tooltip = { text = tooltip_religion_feature_no_crusade }
-			hidden_tooltip = { 
+			hidden_tooltip = {
 				set_no_head_of_religion = yes
 				set_religion_head = none
 				set_can_call_crusade = no
 				set_religious_branch = pagan_reformation
 			}
 			if = {
-				limit = { 
-					FROM = { 
-						character = yes 
-						OR = { 
-							religion = norse_pagan 
-							religion = tengri_pagan 
-						} 
+				limit = {
+					FROM = {
+						character = yes
+						OR = {
+							religion = norse_pagan
+							religion = tengri_pagan
+						}
 					}
 					has_selected_religion_feature = religion_monastic
 				}
@@ -1693,29 +1699,29 @@ religion_leadership = {
 					key = "MONASTIC_AUTONOMOUS_ATTR_RELIGION"
 				}
 			}
-			else_if = { 
-				limit = { 
-					FROM = { 
-						character = yes 
-						OR = { 
-							religion = norse_pagan 
-							religion = tengri_pagan 
-						} 
-					} 
+			else_if = {
+				limit = {
+					FROM = {
+						character = yes
+						OR = {
+							religion = norse_pagan
+							religion = tengri_pagan
+						}
+					}
 				}
 				set_character_modifier = {
 					martial = 2
 					key = "AUTONOMOUS_ATTR_RELIGION"
 				}
 			}
-			if = { 
-				limit = { 
-					FROM = { 
-						character = yes 
-						OR = { 
-							religion = baltic_pagan 
-							religion = slavic_pagan 
-						} 
+			if = {
+				limit = {
+					FROM = {
+						character = yes
+						OR = {
+							religion = baltic_pagan
+							religion = slavic_pagan
+						}
 					}
 					has_selected_religion_feature = religion_monastic
 				}
@@ -1725,14 +1731,14 @@ religion_leadership = {
 					key = "MONASTIC_AUTONOMOUS_ATTR_RELIGION"
 				}
 			}
-			else_if = { 
-				limit = { 
-					FROM = { 
-						character = yes 
-						OR = { 
-							religion = baltic_pagan 
-							religion = slavic_pagan 
-						} 
+			else_if = {
+				limit = {
+					FROM = {
+						character = yes
+						OR = {
+							religion = baltic_pagan
+							religion = slavic_pagan
+						}
 					}
 				}
 				set_character_modifier = {
@@ -1740,10 +1746,10 @@ religion_leadership = {
 					key = "AUTONOMOUS_ATTR_RELIGION"
 				}
 			}
-			if = { 
-				limit = { 
-					FROM = { 
-						character = yes 
+			if = {
+				limit = {
+					FROM = {
+						character = yes
 						religion = finnish_pagan
 					}
 					has_selected_religion_feature = religion_monastic
@@ -1754,10 +1760,10 @@ religion_leadership = {
 					key = "MONASTIC_AUTONOMOUS_ATTR_RELIGION"
 				}
 			}
-			else_if = { 
-				limit = { 
-					FROM = { 
-						character = yes 
+			else_if = {
+				limit = {
+					FROM = {
+						character = yes
 						religion = finnish_pagan
 					}
 				}
@@ -1766,11 +1772,11 @@ religion_leadership = {
 					key = "AUTONOMOUS_ATTR_RELIGION"
 				}
 			}
-			if = { 
-				limit = { 
-					FROM = { 
-						character = yes 
-						OR = { 
+			if = {
+				limit = {
+					FROM = {
+						character = yes
+						OR = {
 							religion = west_african_pagan
 							religion = zun_pagan
 						}
@@ -1783,11 +1789,11 @@ religion_leadership = {
 					key = "MONASTIC_AUTONOMOUS_ATTR_RELIGION"
 				}
 			}
-			else_if = { 
-				limit = { 
-					FROM = { 
-						character = yes 
-						OR = { 
+			else_if = {
+				limit = {
+					FROM = {
+						character = yes
+						OR = {
 							religion = west_african_pagan
 							religion = zun_pagan
 						}
@@ -1799,10 +1805,10 @@ religion_leadership = {
 				}
 			}
 			if = {
-				limit = { 
-					FROM = { 
-						character = yes 
-						OR = { 
+				limit = {
+					FROM = {
+						character = yes
+						OR = {
 							religion = hellenic_pagan
 							religion = bon
 						}
@@ -1815,10 +1821,10 @@ religion_leadership = {
 				}
 			}
 			else_if = {
-				limit = { 
-					FROM = { 
-						character = yes 
-						OR = { 
+				limit = {
+					FROM = {
+						character = yes
+						OR = {
 							religion = hellenic_pagan
 							religion = bon
 						}
@@ -1832,56 +1838,56 @@ religion_leadership = {
 		}
 		ai_will_do = {
 			factor = 50
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					NOR = { 
+				FROM = {
+					character = yes
+					NOR = {
 						religion = bon
 						religion = west_african_pagan
 					}
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					religion = zun_pagan 
+				FROM = {
+					character = yes
+					religion = zun_pagan
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					religion = norse_pagan 
+				FROM = {
+					character = yes
+					religion = norse_pagan
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
+				FROM = {
+					character = yes
 					trait = zealous
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = lunatic 
+				FROM = {
+					character = yes
+					trait = lunatic
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 0.1
-				FROM = { 
-					character = yes 
-					trait = possessed 
+				FROM = {
+					character = yes
+					trait = possessed
 				}
 			}
-			modifier = { 	
+			modifier = {
 				factor = 5
-				FROM = { 
-					character = yes 
-					trait = cynical 
+				FROM = {
+					character = yes
+					trait = cynical
 				}
 			}
 		}
@@ -1901,33 +1907,33 @@ religion_leadership = {
 			custom_tooltip = { text = tooltip_religion_feature_default_claim_dynamic }
 			hidden_tooltip = {
 				if = {
-					limit = { 
-						religion_group = christian 
+					limit = {
+						religion_group = christian
 					}
 					set_can_excommunicate = yes
 				}
 				if = {
-					limit = { 
-						OR = { 
-							religion = orthodox 
+					limit = {
+						OR = {
+							religion = orthodox
 							religion = monothelite
 							religion = iconoclast
 							religion = paulician
 							religion = miaphysite
 							religion = monophysite
-						} 
+						}
 					}
 					set_autocephaly = yes
 				}
 				if = {
-					limit = { 
-						OR = { 
+					limit = {
+						OR = {
 							religion_group = christian
 							religion_group = zoroastrian_group
 							religion_group = jewish_group
 							religion_group = indian_group
                            	religion = celtic_pagan_reformed
-						} 
+						}
 						NOR = {
 							religion = cathar
 							religion = waldensian
@@ -1939,8 +1945,8 @@ religion_leadership = {
 					set_can_grant_divorce = yes
 				}
 				if = {
-					limit = { 
-						OR = { 
+					limit = {
+						OR = {
 							religion = catholic
 							religion = fraticelli
 							religion = orthodox
@@ -1952,21 +1958,21 @@ religion_leadership = {
 							religion = nestorian
 							religion_group = zoroastrian_group
 							religion_group = jewish_group
-						} 
+						}
 					}
 					set_can_grant_invasion_cb = yes
 				}
 				if = {
-					limit = { 
-						OR = { 
+					limit = {
+						OR = {
 							religion = catholic
 							religion = fraticelli
-						} 
+						}
 					}
 					set_can_grant_claim = yes
 				}
 				if = {
-					limit = { 
+					limit = {
 						religion = taoist
 						NOT = {
 							has_alternate_start_parameter = { key = religion_names value = random }
@@ -1977,7 +1983,7 @@ religion_leadership = {
 					}
 				}
 				if = {
-					limit = { 
+					limit = {
 						religion = buddhist
 						NOT = {
 							has_alternate_start_parameter = { key = religion_names value = random }
