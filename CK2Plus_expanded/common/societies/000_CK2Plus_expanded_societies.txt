@@ -330,6 +330,14 @@ warrior_lodge_celtic = {
 			trait = tengri_warrior
 			value = 1
 		}
+		has_trait = {
+			trait = machas_javelin
+			value = 1
+		}
+		has_trait = {
+			trait = flame_of_eate
+			value = 1
+		}
 		#NEGATIVE modifiers
 		has_trait = {
 			trait = craven
@@ -904,6 +912,14 @@ warrior_lodge_basque = {
 		}
 		has_trait = {
 			trait = tengri_warrior
+			value = 1
+		}
+		has_trait = {
+			trait = machas_javelin
+			value = 1
+		}
+		has_trait = {
+			trait = flame_of_eate
 			value = 1
 		}
 		#NEGATIVE modifiers
