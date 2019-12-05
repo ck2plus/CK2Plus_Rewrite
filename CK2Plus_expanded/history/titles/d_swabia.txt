@@ -49,7 +49,7 @@
 	de_jure_liege = k_germany
 }
 
-865.1.1 = {
+865.4.22 = { # Ludwig 'the German' partitions his realm
 	reset_name = yes
 	reset_adjective = yes
 	holder = 90105 # Charles the Fat

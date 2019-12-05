@@ -47,9 +47,13 @@
 	de_jure_liege = k_germany
 }
 
-865.1.1 = {
+865.4.22 = { # Ludwig 'the German' partitions his realm
 	holder = 42019 #Ludwig II
 	liege = k_germany
+}
+
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
 }
 
 906.1.1 = {

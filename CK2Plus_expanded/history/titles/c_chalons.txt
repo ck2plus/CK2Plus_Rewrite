@@ -18,6 +18,10 @@
 	holder = 167925
 }
 
+879.4.10 = { # death of Louis 'the Stammerer'
+	liege = k_aquitaine
+}
+
 925.8.27 = {
 	holder = 168240  #Artaud I de Forez
 }

@@ -58,6 +58,14 @@
 	holder = 90128 # Ramnulf II
 }
 
+879.4.10 = {
+	liege = k_aquitaine
+}
+
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
+}
+
 #889.12.12 = {
 # 	liege = k_france
 #}

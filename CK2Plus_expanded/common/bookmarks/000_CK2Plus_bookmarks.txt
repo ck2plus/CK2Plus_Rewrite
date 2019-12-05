@@ -538,6 +538,38 @@ bm_death_of_charles_of_provence = {
 	}
 }
 
+bm_division_of_east_francia = {
+	name = "Division of East Francia"
+	desc = "Bunch of rebels!"
+#	name = BM_DIVISION_OF_EAST_FRANCIA
+#	desc = BM_DIVISION_OF_EAST_FRANCIA_DESC
+	date = 865.4.22
+
+	selectable_character = {
+		id = 30228 # Louis II 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+
+	selectable_character = {
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig II 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+}
+
 bm_louis_the_stammerer = {
 	name = "Louis 'the Stammerer' of Aquitaine"
 	desc = "He holds no real power."
@@ -554,11 +586,23 @@ bm_louis_the_stammerer = {
 	}
 
 	selectable_character = {
+		id = 90123 # Louis II 'the Stammerer'
+	}
+
+	selectable_character = {
 		id = 90107 # Ludwig 'the German'
 	}
 
 	selectable_character = {
-		id = 90123 # Louis II 'the Stammerer'
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig II 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
 	}
 }
 
@@ -578,11 +622,23 @@ bm_treaty_of_meerssen = {
 	}
 
 	selectable_character = {
+		id = 90123 # Louis II 'the Stammerer'
+	}
+
+	selectable_character = {
 		id = 90107 # Ludwig 'the German'
 	}
 
 	selectable_character = {
-		id = 90123 # Louis II 'the Stammerer'
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig II 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
 	}
 }
 
@@ -598,11 +654,23 @@ bm_death_of_louis_ii = {
 	}
 
 	selectable_character = {
+		id = 90123 # Louis II 'the Stammerer'
+	}
+
+	selectable_character = {
 		id = 90107 # Ludwig 'the German'
 	}
 
 	selectable_character = {
-		id = 90123 # Louis II 'the Stammerer'
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig II 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
 	}
 }
 
@@ -611,7 +679,7 @@ bm_death_of_ludwig_the_german = {
 	desc = "Never became emperor..."
 #	name = BM_DEATH_OF_LUDWIG_THE_GERMAN
 #	desc = BM_DEATH_OF_LUDWIG_THE_GERMAN_DESC
-	date = 876.8.26
+	date = 876.8.28
 
 	selectable_character = {
 		id = 90104 # Charles II 'the Bald'
@@ -626,7 +694,7 @@ bm_death_of_ludwig_the_german = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig III 'the Younger'
+		id = 42019 # Ludwig II 'the Younger'
 	}
 
 	selectable_character = {
@@ -674,35 +742,7 @@ bm_death_of_louis_the_stammerer = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig III 'the Younger'
-	}
-
-	selectable_character = {
-		id = 90154 # Louis III of West-Francia
-	}
-
-	selectable_character = {
-		id = 90155 # Carloman II of Aquitaine/Burgundy
-	}
-}
-
-bm_boso_of_provence = {
-	name = "Boso of Provence"
-	desc = "Look at me! I'm a non-Karling King!"
-#	name = BM_BOSO_OF_PROVENCE
-#	desc = BM_BOSO_OF_PROVENCE_DESC
-	date = 879.10.15
-
-	selectable_character = {
-		id = 90105 # Karl III 'the Fat'
-	}
-
-	selectable_character = {
-		id = 42018 # Karlmann
-	}
-
-	selectable_character = {
-		id = 42019 # Ludwig III 'the Younger'
+		id = 42019 # Ludwig II 'the Younger'
 	}
 
 	selectable_character = {
@@ -718,19 +758,51 @@ bm_boso_of_provence = {
 	}
 }
 
-bm_death_of_karlmann = {
-	name = "Death of Karlmann"
+bm_abdication_of_karlmann = {
+	name = "Abdication of Karlmann"
 	desc = "He's sick!"
-#	name = BM_DEATH_OF_KARLMANN
-#	desc = BM_DEATH_OF_KARLMANN_DESC
-	date = 880.3.22
+#	name = BM_ABDICATION_OF_KARLMANN
+#	desc = BM_ABDICATION_OF_KARLMANN_DESC
+	date = 879.11.11
 
 	selectable_character = {
 		id = 90105 # Karl III 'the Fat'
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig III 'the Younger'
+		id = 42019 # Ludwig II 'the Younger'
+	}
+
+	selectable_character = {
+		id = 90154 # Louis III of West-Francia
+	}
+
+	selectable_character = {
+		id = 90155 # Carloman II of Aquitaine/Burgundy
+	}
+
+	selectable_character = {
+		id = 7981 # Boso of Provence
+	}
+}
+
+bm_treaty_of_ribemont = {
+	name = "Treaty of Ribemont"
+	desc = "Finally settled! Now, to deal with that Boso..."
+#	name = BM_TREATY_OF_RIBEMONT
+#	desc = BM_TREATY_OF_RIBEMONT_DESC
+	date = 880.2.1
+
+	selectable_character = {
+		id = 90105 # Karl III 'the Fat'
+	}
+
+	selectable_character = {
+		id = 42018 # Karlmann
+	}
+
+	selectable_character = {
+		id = 42019 # Ludwig II 'the Younger'
 	}
 
 	selectable_character = {
@@ -747,7 +819,7 @@ bm_death_of_karlmann = {
 }
 
 bm_death_of_ludwig_iii = {
-	name = "Death of Ludwig III 'the Younger'"
+	name = "Death of Ludwig II 'the Younger'"
 	desc = "Very shortlived"
 #	name = BM_DEATH_OF_LUDWIG_III
 #	desc = BM_DEATH_OF_LUDWIG_III_DESC
@@ -834,7 +906,7 @@ bm_abdication_of_karl_the_fat = {
 	}
 
 	selectable_character = {
-		id = 1164 # Louis the Blind of Provence
+		id = 1164 # Louis 'the Blind' of Provence
 	}
 
 	selectable_character = {

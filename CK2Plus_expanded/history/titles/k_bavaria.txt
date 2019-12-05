@@ -68,11 +68,11 @@
 	liege = e_karling
 }
 
-814.7.1 = { # Ordinatio Imperii
+817.7.1 = { # Ordinatio Imperii
 	holder = 90107 # Ludwig 'the German'
 }
 
-864.1.1 = {
+865.4.22 = { # Ludwig 'the German' partitions his realm
 	holder = 42018 # Karlmann
 }
 
@@ -81,15 +81,15 @@
 	liege = e_karling
 }
 
-880.9.29 = {
-	holder = 42019  # Louis III 'the Younger'
+879.11.1 = { # Karlmann abdicates after becoming incapacitated early that year
+	holder = 42019 # Ludwig II 'the Younger'
 }
 
-882.1.21 = {
-	holder = 90105 # Charles II 'the Fat'
+882.1.20 = {
+	holder = 90105 # Karl II 'the Fat'
 }
 
-887.1.1 = {
+887.11.17 = { # Karl deposed by Arnulf
 	holder = 7945 # Arnulf of Carinthia
 }
 

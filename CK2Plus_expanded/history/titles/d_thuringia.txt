@@ -80,12 +80,20 @@
 	holder = 168229
 }
 
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
+}
+
 880.1.1 = {
 	holder = 33428
 }
 
 882.1.1 = {
 	holder = 168231
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
 }
 
 886.1.1 = {

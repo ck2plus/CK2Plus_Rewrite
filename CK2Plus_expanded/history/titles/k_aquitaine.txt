@@ -43,5 +43,9 @@
 }
 
 884.12.12 = {
+	holder = 90105 # Karl the Fat
+}
+
+887.11.17 = { # Karl deposed
 	holder = 0
 }

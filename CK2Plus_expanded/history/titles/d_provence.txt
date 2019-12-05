@@ -48,6 +48,10 @@
 	holder = 1164
 }
 
+887.11.17 = { # abdication of Karl 'the Fat'
+	liege = 0
+}
+
 928.1.2 = {
 	holder = 7923
 }

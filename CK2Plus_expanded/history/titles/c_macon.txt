@@ -26,6 +26,10 @@
 	holder = 167925
 }
 
+879.4.10 = { # death of Louis 'the Stammerer'
+	liege = k_aquitaine
+}
+
 884.12.12 = {
 	liege = k_france
 }

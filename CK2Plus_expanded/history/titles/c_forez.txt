@@ -36,6 +36,14 @@
 	holder = 168239  #Guilhem II de Forez
 }
 
+879.4.10 = {
+	liege = k_burgundy
+}
+
+887.11.17 = { # abdication of Karl 'the Fat'
+	liege = d_provence
+}
+
 925.8.27 = {
 	holder = 168240  #Artaud I de Forez
 }

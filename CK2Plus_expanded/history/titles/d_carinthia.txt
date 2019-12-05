@@ -45,10 +45,6 @@
 	liege = k_bavaria
 }
 
-843.8.10 = { # Treaty of Verdun
-	liege = k_germany
-}
-
 867.1.1 = {
 	holder = 0
 	clear_tribute_suzerain = k_bavaria

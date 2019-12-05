@@ -101,3 +101,16 @@
 804.1.1 = {
 	active = no
 }
+
+# Temporarily used
+876.8.28 = { # death of Ludwig 'the German'
+	active = yes
+	holder = 42019 # Ludwig II 'the Younger'
+	liege = e_karling
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger', East Francia reunited under Karl 'the Fat'
+	active = no
+	holder = 0
+	liege = 0
+}

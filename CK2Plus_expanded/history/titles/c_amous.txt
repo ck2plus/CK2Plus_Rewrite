@@ -20,6 +20,14 @@
 	liege = k_france
 }
 
+879.4.10 = { # death of Louis 'the Stammerer'
+	liege = k_aquitaine
+}
+
+887.11.17 = { # abdication of Karl 'the Fat', Rudolf elected by Burgundian nobles
+	liege = k_burgundy
+}
+
 936.1.1 = {
 	liege = k_burgundy
 	holder = 260598

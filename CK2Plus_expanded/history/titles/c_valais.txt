@@ -15,6 +15,10 @@
 	liege = k_burgundy
 }
 
+882.8.5 = {
+	liege = d_upper_burgundy
+}
+
 933.1.1 = {
 	holder = 260597
 }

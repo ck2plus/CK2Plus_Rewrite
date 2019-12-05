@@ -31,8 +31,16 @@
 	liege = k_germany
 }
 
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
+}
+
 880.1.1 = {
 	holder = 168336
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
 }
 
 885.1.1 = {

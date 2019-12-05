@@ -34,8 +34,8 @@
 	holder = 42018 #Carloman
 }
 
-880.9.29 = {
-	holder = 42019  #Louis III the Younger
+879.11.1 = { # Karlmann abdicates after becoming incapacitated early that year
+	holder = 42019 # Ludwig II 'the Younger'
 }
 
 882.1.21 = {

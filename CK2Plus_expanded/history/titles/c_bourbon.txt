@@ -15,6 +15,15 @@
 	liege = k_france
 }
 
+879.4.10 = { # death of Louis 'the Stammerer'
+	holder = 90155 # Carloman II
+	liege = k_aquitaine
+}
+
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
+}
+
 884.12.12 = {
 	liege = d_poitou
 }

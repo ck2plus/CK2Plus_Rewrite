@@ -4,8 +4,11 @@
 }
 
 863.1.1 = {
-	liege = d_friuli
 	holder = 168302
+}
+
+867.1.1 = {
+	liege = k_bavaria
 }
 
 936.1.1 = {

@@ -12,23 +12,31 @@
 }
 
 870.8.8 = { # Treaty of Meerssen
-	holder = 90104 #Charles I the Bald
+	holder = 90104 # Charles II 'the Bald'
 }
 
-877.6.10 = {
-	holder = 42019 #Louis I the Younger
+877.10.6 = {
+	holder = 90123 # Louis II 'the Stammerer'
+}
+
+879.4.10 = {
+	holder = 90154 # Louis III
+}
+
+880.2.1 = { # Treaty of Ribemont
+	holder = 42019 # Ludwig II 'the Younger'
 }
 
 882.1.20 = {
-	holder = 90105 #Charles II the Fat
+	holder = 90105 # Karl 'the Fat'
 }
 
-888.1.1 = {
-	holder = 7945 #Arnulf of Carinthia
+887.11.17 = { # Karl 'the Fat' deposed by Arnulf
+	holder = 7945 # Arnulf of Carinthia
 }
 
 895.1.1 = {
-	holder = 144997 #Zwentibold
+	holder = 144997 # Zwentibold
 }
 
 895.8.14 = {

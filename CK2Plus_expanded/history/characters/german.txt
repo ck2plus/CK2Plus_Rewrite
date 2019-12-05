@@ -19010,7 +19010,7 @@
 		birth = yes
 		give_nickname = nick_the_younger
 	}
-	882.1.21 = {
+	882.1.20 = {
 		death = yes
 	}
 }
@@ -32201,7 +32201,7 @@
 		add_spouse = 7987
 		give_nickname = nick_the_german
 	}
-	876.1.29 = {
+	876.8.28 = {
 		death = yes
 	}
 }

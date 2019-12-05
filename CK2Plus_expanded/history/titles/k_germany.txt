@@ -24,15 +24,15 @@
 }
 
 876.8.28 = {
-	holder = 90105 # Charles 'the Fat'
+	holder = 90105 # Karl 'the Fat'
 }
 
-887.11.30 = {
-	holder = 7945 #Arnulf of Carinthia
+887.11.17 = { # Karl deposed by Arnulf
+	holder = 7945 # Arnulf of Carinthia
 }
 
 900.1.21 = {
-	holder = 7949 #Ludwig 'the Child'
+	holder = 7949 # Ludwig 'the Child'
 }
 
 911.9.24 = {

@@ -175,11 +175,11 @@
 	holder = 42018 # Karlmann
 }
 
-880.9.29 = {
+879.11.1 = { # Karlmann abdicates after becoming incapacitated early that year
 	holder = 90105 # Charles 'the Fat'
 }
 
-888.1.13 = {
+887.11.17 = { # Karlmann deposed, Berengar elected
 	holder = 71901 # Berengar I
 }
 

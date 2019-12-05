@@ -27,6 +27,10 @@
 	liege = d_provence
 }
 
+887.11.1 = {
+	holder = 1164 # Louis 'the Blind'
+}
+
 936.1.1 = {
 	holder = 1166
 }

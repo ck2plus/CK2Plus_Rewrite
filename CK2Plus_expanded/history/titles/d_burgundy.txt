@@ -31,21 +31,33 @@
 #Carolingians
 
 840.6.20 = {
-	holder = 90104 # Charles 'the Bald'
+	holder = 90104 # Charles II 'the Bald'
 }
 
 843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_france
 }
 
-879.1.1 = {
-	holder = 90155 # Carloman
+877.10.6 = {
+	holder = 90123 # Louis II 'the Stammerer'
+}
+
+879.4.10 = {
+	holder = 90154 # Louis III
+}
+
+882.8.5 = {
+	holder = 90155 # Carloman II of Aquitaine/Burgundy
 }
 
 #Bosonids
 
-880.1.1 = {
+884.12.12 = {
 	holder = 7994 # Richard 'the Justicar'
+}
+
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
 }
 
 921.1.1 = {

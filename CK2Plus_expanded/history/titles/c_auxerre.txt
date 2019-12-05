@@ -1,21 +1,9 @@
-769.1.1 = {
-	holder = 190512 #Teudoin
+765.1.1 = {
+	holder = 190559 #Erenold
 }
 
-769.1.1 = {
+765.1.1 = {
 	liege = d_burgundy
-}
-
-806.2.6 = { # Partition at Thionville/Diviso Regnorum
-	liege = k_aquitaine
-}
-
-827.1.1 = {
-	holder = 190513 #Theoderic
-}
-
-843.8.10 = { # Treaty of Prüm
-	liege = k_france
 }
 
 859.1.1 = {
@@ -68,12 +56,8 @@
 	holder = 91007
 }
 
-987.1.1 = {
-	holder = 272
-}
-
-992.1.1 = {
-	holder = 40370 #Landry de Monceau
+1003.10.15 = {
+	holder = 10027
 }
 
 1028.1.1 = {
@@ -122,18 +106,14 @@
 }
 
 1262.9.1 = {
-	holder = 91156 #Yolande de Bourgogne
+	holder = 91158 #Alix de Bourgogne
 }
 
-1272.3.1 = {
-	liege = d_flanders
+1279.1.1 = {
+	holder = 455731 #Guillaume de Chalon
 }
 
-1280.6.2 = {
-	holder = 455711 #Louis I de Dampierre
-}
-
-1322.7.24 = {
-	holder = 455710 #Louis I de Flandre
+1304.8.9 = {
+	holder = 455730 #Jean II de Chalon
 }
 

@@ -30,8 +30,13 @@
 	holder = 90155 # Carloman II
 }
 
+884.12.12 = {
+	holder = 90105 # Karl the Fat
+}
+
 # Robertian (= Capetians)
-888.1.13 = {
+
+887.11.17 = { # abdication of Karl 'the Fat', Odo/Eudes elected by Burgundian nobles
 	holder = 6448 #Eudes
 	reset_name = yes
 	reset_adjective = yes
@@ -39,7 +44,7 @@
 }
 
 #Carolingian
-893.1.28= {
+893.1.28 = {
 	holder = 90111 #Charles III le Simple
 	name = WEST_FRANCIA
 	adjective = WEST_FRANCIA_ADJ

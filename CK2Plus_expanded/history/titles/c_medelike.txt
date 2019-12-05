@@ -11,12 +11,7 @@
 	liege = k_bavaria
 }
 
-843.8.10 = { # Treaty of Verdun
-	liege = k_germany
-}
-
 867.1.1 = {
-	liege = k_bavaria
 	holder = 260028 	# Place	holder
 }
 

@@ -36,6 +36,10 @@
 	holder = 7984
 }
 
+887.11.17 = { # abdication of Karl 'the Fat', Rudolf elected by Burgundian nobles
+	liege = d_upper_burgundy
+}
+
 933.1.1 = {
 	holder = 1144
 }

@@ -24,6 +24,10 @@
 	liege = k_germany
 }
 
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
+}
+
 880.1.1 = {
 	liege = d_saxony
 }

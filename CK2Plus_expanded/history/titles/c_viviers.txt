@@ -20,15 +20,15 @@
 }
 
 864.1.1 = {
-	liege = k_aquitaine
-}
-
-864.1.1 = {
 	holder = 168148
 }
 
 884.12.12 = {
 	liege = k_france
+}
+
+887.11.17 = { # abdication of Karl 'the Fat'
+	liege = d_provence
 }
 
 908.1.1 = {

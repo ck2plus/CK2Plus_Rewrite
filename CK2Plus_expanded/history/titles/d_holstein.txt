@@ -73,6 +73,14 @@
 	liege = k_germany
 }
 
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
+}
+
 1129.7.1 = {
 	liege = k_denmark
 #	law = agnatic_succession

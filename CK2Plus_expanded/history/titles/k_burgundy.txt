@@ -118,11 +118,11 @@
 	holder = 90155 # Carloman II of Aquitaine/Burgundy
 }
 
-884.12.6 = {
+884.12.12 = {
 	holder = 90105 # Karl the Fat
 }
 
-888.1.14 = {
+887.11.17 = { # abdication of Karl 'the Fat', Rudolf elected by Burgundian nobles
 	holder = 7984 # Rudolf I
 }
 

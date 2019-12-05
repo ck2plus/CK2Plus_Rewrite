@@ -59,6 +59,14 @@
 	holder = 144964
 }
 
+879.4.10 = {
+	liege = k_aquitaine
+}
+
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
+}
+
 903.1.1 = {
 	holder = 144963
 }

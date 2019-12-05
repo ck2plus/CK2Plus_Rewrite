@@ -23,6 +23,14 @@
 	holder = 163066
 }
 
+879.4.10 = { # death of Louis 'the Stammerer'
+	liege = k_aquitaine
+}
+
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
+}
+
 923.1.1 = {
 	holder = 168167
 	liege = d_burgundy
