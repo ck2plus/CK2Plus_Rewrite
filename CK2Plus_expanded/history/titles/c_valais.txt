@@ -11,6 +11,10 @@
 	holder = 168160
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_burgundy
+}
+
 933.1.1 = {
 	holder = 260597
 }

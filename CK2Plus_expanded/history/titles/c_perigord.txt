@@ -14,16 +14,12 @@
 	holder = 190505 #Wulgrin (II)
 }
 
-843.8.10 = { # Treaty of Verdun
-	liege = k_france
-}
-
-866.1.1 = {
-	liege = d_aquitaine
-}
-
 866.1.1 = {
 	holder = 40080
+}
+
+866.9.29 = { # death of Charles 'the Child', Louis 'the Stammerer' appointed
+	liege = d_aquitaine
 }
 
 886.1.1 = {

@@ -20,6 +20,10 @@
 	holder = 7815
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
+}
+
 863.1.1 = {
 	holder = 167788
 }

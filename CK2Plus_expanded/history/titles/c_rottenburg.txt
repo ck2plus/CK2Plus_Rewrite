@@ -30,10 +30,6 @@
 	holder = 190393 #Ado
 }
 
-843.8.10 = { # Treaty of Verdun
-	liege = k_germany
-}
-
 805.1.1 = {
 	holder = 0
 	liege = e_karling
@@ -41,8 +37,10 @@
 
 839.1.1 = {
 	holder = 7910
-#	liege = k_germany
-	liege = k_france
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
 }
 
 865.1.1 = {

@@ -11,6 +11,10 @@
 	liege = e_karling
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
+}
+
 867.1.1 = {
 	holder = 168082
 	liege = k_lotharingia

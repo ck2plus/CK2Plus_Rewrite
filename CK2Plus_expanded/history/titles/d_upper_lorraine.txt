@@ -10,10 +10,6 @@
 	de_jure_liege = k_lotharingia
 }
 
-870.9.15 = { # Treaty of Meerssen
-	de_jure_liege = k_france
-}
-
 903.1.1 = {
 	holder = 7961 #Gebhard I Conradine
 }
@@ -24,6 +20,10 @@
 
 915.1.1 = {
 	holder = 7813 #Giselbert I
+}
+
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
+	de_jure_liege = k_germany
 	liege = k_germany
 }
 

@@ -1,8 +1,4 @@
-100.1.1 = {
-	liege = k_france
-}
-
-#House of Arnulfing
+# House of Arnulfing
 
 697.1.1 = {
 	holder = 131719 # Drogo

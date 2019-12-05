@@ -30,6 +30,10 @@
 	liege = e_karling
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
+}
+
 860.1.1 = {
 	liege = k_germany
 }

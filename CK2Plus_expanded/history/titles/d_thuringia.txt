@@ -67,11 +67,6 @@
 	holder = 168227 #Hadulf
 }
 
-839.1.1 = {
-#	liege = k_germany
-	liege = k_france
-}
-
 843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_germany
 	liege = k_germany

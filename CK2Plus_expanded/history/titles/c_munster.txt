@@ -70,6 +70,10 @@
 	holder = 1000061102 # Altfrid
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
+}
+
 849.4.22 = {
 	holder = 163054 # Liutbert
 }

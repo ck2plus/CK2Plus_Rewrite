@@ -15,12 +15,21 @@
 	holder = 7977
 }
 
+855.9.29 = { # Treaty of Prüm
+	holder = 90103 # Charles of Provence
+	liege = k_burgundy
+}
+
 864.1.1 = {
 	holder = 144998
 }
 
 866.1.1 = {
 	holder = 7989
+}
+
+870.8.8 = { # Treaty of Meerssen
+	liege = k_italy
 }
 
 876.1.1 = {

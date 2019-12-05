@@ -13,13 +13,17 @@
 	liege = e_karling
 }
 
-855.8.23 = {
-	liege = k_burgundy
+855.9.29 = { # Treaty of Prüm
 	holder = 91383
+	liege = k_lotharingia
 }
 
 859.1.1 = {
 	holder = 91384
+}
+
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
 }
 
 880.1.1 = {

@@ -24,7 +24,7 @@
 	liege = k_neustria
 }
 
-817.1.1 = {
+817.7.1 = { # Ordinatio Imperii
 	holder = 144975
 }
 

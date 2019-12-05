@@ -17,7 +17,7 @@
 }
 
 838.1.14 = {
-	holder = 90104
+	holder = 90097 # Pepin II 'the Younger'
 }
 
 855.1.1 = {

@@ -11,8 +11,7 @@
 	liege = k_lotharingia
 }
 
-870.9.15 = { # Treaty of Meerssen
-	de_jure_liege = k_germany
+870.8.8 = { # Treaty of Meerssen
 	liege = k_germany
 }
 
@@ -28,7 +27,8 @@
 	holder = 7813 #Giselbert
 }
 
-923.1.1 = {
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
+	de_jure_liege = k_germany
 	liege = k_germany
 }
 

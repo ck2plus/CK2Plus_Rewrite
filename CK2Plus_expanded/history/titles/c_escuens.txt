@@ -7,8 +7,15 @@
 	liege = e_karling
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_burgundy
+}
+
 860.1.1 = {
 	holder = 245001
+}
+
+863.1.25 = { # death of Charles of Provence
 	liege = k_lotharingia
 }
 

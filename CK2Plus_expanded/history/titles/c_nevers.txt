@@ -14,6 +14,10 @@
 	holder = 190513 #Theoderic
 }
 
+843.8.10 = { # Treaty of Prüm
+	liege = k_france
+}
+
 859.1.1 = {
 	liege = d_burgundy
 	holder = 7988

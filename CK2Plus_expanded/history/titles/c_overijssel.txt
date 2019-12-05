@@ -15,12 +15,12 @@
 	holder = 263002
 }
 
-841.1.1 = {
-	liege = k_lotharingia
-}
-
 848.1.1 = {
 	holder = 263003
+}
+
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
 }
 
 855.11.11 = {

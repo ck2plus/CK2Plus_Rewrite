@@ -430,12 +430,60 @@ bm_treaty_of_verdun = {
 	}
 }
 
+bm_pepin_ii_deposed = {
+	name = "Pepin II deposed"
+	desc = "About time!"
+#	name = BM_TREATY_OF_VERDUN
+#	desc = BM_TREATY_OF_VERDUN_DESC
+	date = 852.9.1
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+}
+
 bm_treaty_of_prum = {
 	name = "Treaty of Prüm"
 	desc = "They're dropping like flies!"
 #	name = BM_TREATY_OF_PRUM
 #	desc = BM_TREATY_OF_PRUM_DESC
 	date = 855.9.29
+
+	selectable_character = {
+		id = 30228 # Louis II 'the Younger'
+	}
+
+	selectable_character = {
+		id = 144998 # Lothaire II
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig 'the German'
+	}
+
+	selectable_character = {
+		id = 90103 # Charles of Provence
+	}
+}
+
+bm_charles_the_child = {
+	name = "Charles 'the Child'"
+	desc = "What a crybaby!"
+#	name = BM_TREATY_OF_PRUM
+#	desc = BM_TREATY_OF_PRUM_DESC
+	date = 855.10.15
 
 	selectable_character = {
 		id = 30228 # Louis II 'the Younger'
@@ -703,7 +751,7 @@ bm_death_of_ludwig_iii = {
 	desc = "Very shortlived"
 #	name = BM_DEATH_OF_LUDWIG_III
 #	desc = BM_DEATH_OF_LUDWIG_III_DESC
-	date = 880.3.22
+	date = 882.1.20
 
 	selectable_character = {
 		id = 90105 # Karl III 'the Fat'

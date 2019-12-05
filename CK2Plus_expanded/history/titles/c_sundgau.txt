@@ -32,11 +32,15 @@
 
 843.8.10 = { # Treaty of Verdun
 	holder = 161479
-	liege = k_germany
+	liege = k_lotharingia
 }
 
 864.1.1 = {
 	holder = 163095
+}
+
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
 }
 
 898.1.1 = {

@@ -8,16 +8,16 @@
 	liege = k_neustria
 }
 
-817.1.1 = {
+817.7.1 = { # Ordinatio Imperii
 	holder = 144975
-}
-
-843.8.10 = { # Treaty of Verdun
-	liege = k_france
 }
 
 841.1.1 = {
 	holder = 144974
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 866.1.1 = {

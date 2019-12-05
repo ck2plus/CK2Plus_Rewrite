@@ -10,6 +10,10 @@
 	liege = k_italy
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_burgundy
+}
+
 860.1.1 = {
 	liege = k_italy
 }

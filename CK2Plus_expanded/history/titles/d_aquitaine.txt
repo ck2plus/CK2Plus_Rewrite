@@ -46,17 +46,16 @@
 	liege = k_aquitaine
 }
 
-843.8.10 = { # Treaty of Verdun
-	liege = k_france
-}
-
 852.1.1 = {
 	holder = 90129 # Ramnulf I
 }
 
+866.9.29 = { # death of Charles 'the Child', Louis 'the Stammerer' appointed
+	liege = k_france
+}
+
 866.10.1 = {
 	holder = 90128 # Ramnulf II
-	liege = k_france
 }
 
 #889.12.12 = {

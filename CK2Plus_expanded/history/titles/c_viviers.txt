@@ -15,6 +15,10 @@
 	liege = e_karling
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_burgundy
+}
+
 864.1.1 = {
 	liege = k_aquitaine
 }

@@ -38,10 +38,6 @@
 	holder = 190501 #Guillaume
 }
 
-843.8.10 = { # Treaty of Verdun
-	liege = k_france
-}
-
 864.1.1 = {
 	liege = d_gascogne
 	holder = 168114

@@ -20,6 +20,11 @@
 	holder = 7989
 }
 
+870.8.8 = { # Treaty of Meerssen
+	holder = 168154 # Gerold
+	liege = k_germany
+}
+
 876.1.1 = {
 	holder = 7984
 }

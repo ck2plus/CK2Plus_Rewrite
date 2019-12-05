@@ -19,10 +19,6 @@
 	holder = 70303 # Galindo I Belascotenes
 }
 
-843.8.10 = { # Treaty of Verdun
-	liege = k_france
-}
-
 844.1.1 = {
 	holder = 70277 # Galindo II de Aragón
 }

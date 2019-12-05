@@ -27,6 +27,10 @@
 	holder = 163055 # Liutfried
 }
 
+855.10.15 = {
+	liege = k_france
+}
+
 859.1.1 = {
 	holder = 6440
 }

@@ -50,16 +50,16 @@
 	liege = k_germany
 }
 
-855.8.23 = {
-	holder = 144998 #Lothair II
+855.9.29 = {
+	holder = 90107 # Ludwig 'the German'
 }
 
 867.1.1 = {
 	holder = 161555 #Werner Salian
 }
 
-869.8.8 = {
-	holder = 90104 #Charles I the Bald
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
 }
 
 877.1.20 = {

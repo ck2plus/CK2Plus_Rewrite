@@ -14,6 +14,10 @@
 	liege = e_karling
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
+}
+
 863.1.1 = {
 	liege = k_france
 	holder = 163066

@@ -1,6 +1,11 @@
 # Karlings
 
-843.8.10 = {
+1.1.1 = {
+	active = no
+}
+
+843.8.10 = { # Treaty of Verdun
+	active = yes
 	effect = {
 		insert_title_history = k_austrasia
 	}

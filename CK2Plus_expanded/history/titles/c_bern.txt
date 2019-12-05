@@ -14,12 +14,16 @@
 	liege = e_karling
 }
 
-864.1.1 = {
-	liege = k_burgundy
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
 }
 
 864.1.1 = {
 	holder = 168154
+}
+
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
 }
 
 890.3.21 = {

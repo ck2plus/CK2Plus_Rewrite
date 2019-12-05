@@ -19,7 +19,7 @@
 }
 
 843.8.10 = { # Treaty of Verdun
-	de_jure_liege = k_germany
+	de_jure_liege = k_lotharingia
 }
 
 875.1.1 = {
@@ -28,4 +28,8 @@
 
 895.1.2 = {
 	holder = 0
+}
+
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
+	de_jure_liege = k_germany
 }

@@ -26,11 +26,8 @@
 	holder = 144998 #Lothair II
 }
 
-869.8.8 = {
-	holder = 90104 #Charles I the Bald
-}
-
 870.8.8 = { # Treaty of Meerssen
+	holder = 90104 #Charles I the Bald
 	liege = k_france
 }
 

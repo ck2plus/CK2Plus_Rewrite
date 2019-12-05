@@ -8,8 +8,11 @@
 }
 
 834.1.1 = {
-	liege = k_france
 	holder = 163065
+}
+
+843.8.10 = { # Treaty of Prüm
+	liege = k_france
 }
 
 884.12.12 = {

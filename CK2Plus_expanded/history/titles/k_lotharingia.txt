@@ -12,14 +12,46 @@
 	law = agnatic_succession
 }
 
-855.8.22 = {
+855.9.29 = { # Treaty of Prüm
 	holder = 144998 # Lothair II
 	name = LOTHARINGIA
 	adjective = LOTHARINGIA_ADJ
 	set_global_flag = middle_francia_renamed
 }
 
+869.8.8 = { # claimed and crowned King
+	holder = 90104 # Charles II 'the Bald'
+}
+
 870.8.8 = { # Treaty of Meerssen
+	holder = 0
+}
+
+880.2.1 = { # Treaty of Ribemont
+	holder = 42019 # Ludwig III 'the Younger'
+}
+
+882.1.20 = {
+	holder = 90105 # Karl III 'the Fat'
+}
+
+887.11.17 = { # abdication of Karl 'the Fat'
+	holder = 7945 # Arnulf of Carinthia
+}
+
+895.5.1 = { # Diet of Worms
+	holder = 144997 # Zwentibold
+}
+
+900.8.13 = {
+	holder = 7949 # Ludwig II 'the Child'
+}
+
+923.7.13 = { # Ludwig II deposed
+	holder = 7995 # Raoul/Rudolf
+}
+
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
 	de_jure_liege = 0
 	holder = 0
 	active = no

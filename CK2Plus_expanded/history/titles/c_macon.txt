@@ -19,12 +19,7 @@
 }
 
 864.1.1 = {
-	liege = k_aquitaine
 	holder = 167924
-}
-
-865.1.1 = {
-	liege = k_burgundy
 }
 
 867.1.4 = {

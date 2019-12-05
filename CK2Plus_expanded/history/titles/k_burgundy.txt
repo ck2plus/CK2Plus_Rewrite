@@ -89,16 +89,36 @@
 	holder = 90095 # Louis the Pious
 }
 
-843.8.10 = { # Treaty of Verdun
+840.6.20 = {
 	holder = 30227 # Lothair I
 }
 
-855.8.23 = {
-	holder = 144998 # Lothair II
+855.9.29 = { # Treaty of Prüm
+	holder = 90103 # Charles of Provence
 	liege = e_karling
 }
 
-869.8.8 = {
+863.1.25 = {
+	holder = 30228 # Louis II 'the Younger'
+}
+
+875.8.12 = { # conquered against named successor Karlmann
+	holder = 90104 # Charles II 'the Bald'
+}
+
+877.10.6 = {
+	holder = 90123 # Louis II 'the Stammerer'
+}
+
+879.4.10 = { # elected by Burgundian nobles/clergy
+	holder = 7981 # Boso of Provence
+}
+
+882.9.1 = { # Boso deposed
+	holder = 90155 # Carloman II of Aquitaine/Burgundy
+}
+
+884.12.6 = {
 	holder = 90105 # Karl the Fat
 }
 

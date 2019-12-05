@@ -15,10 +15,6 @@
 	holder = 190508 #Hugh (II)
 }
 
-843.8.10 = { # Treaty of Verdun
-	liege = k_france
-}
-
 863.1.1 = {
 	holder = 190509 #Stephan (II)
 }

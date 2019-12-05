@@ -11,7 +11,7 @@
 	holder = 144998
 }
 
-871.1.1 = {
+870.8.8 = { # Treaty of Meerssen
 	holder = 90104 #Charles I the Bald
 }
 

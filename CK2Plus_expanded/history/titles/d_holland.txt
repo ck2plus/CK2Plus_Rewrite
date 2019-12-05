@@ -28,7 +28,6 @@
 }
 
 870.8.8 = { # Treaty of Meerssen
-	de_jure_liege = k_germany
 	liege = k_germany
 }
 
@@ -41,6 +40,10 @@
 }
 896.1.1={
 	holder = 106551 #Dirk I
+}
+
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
+	de_jure_liege = k_germany
 }
 
 936.1.1 = {

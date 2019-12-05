@@ -20,6 +20,10 @@
 	holder = 90104 #Charles II le Chauve
 }
 
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
+}
+
 877.10.6 = {
 	holder = 90123 #Louis II le Bègue
 }

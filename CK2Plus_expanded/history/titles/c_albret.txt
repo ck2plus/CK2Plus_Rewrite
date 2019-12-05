@@ -39,7 +39,7 @@
 }
 
 843.8.10 = { # Treaty of Verdun
-	liege = k_france
+	liege = k_aquitaine
 }
 
 864.1.1 = {

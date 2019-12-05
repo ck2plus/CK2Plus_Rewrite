@@ -13,8 +13,12 @@
 }
 
 843.8.10 = { # Treaty of Verdun
-	de_jure_liege = k_france
-	liege = k_france
+	de_jure_liege = k_lotharingia
+	liege = k_lotharingia
+}
+
+925.8.1 = {	# Treaty of Meerssen
+	de_jure_liege = k_germany
 }
 
 1190.8.21 = {

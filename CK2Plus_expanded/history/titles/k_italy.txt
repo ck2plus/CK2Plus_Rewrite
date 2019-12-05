@@ -163,12 +163,12 @@
 	holder = 30227 # Lothaire I
 }
 
-855.9.20 = {
+855.9.29 = {
 	holder = 30228 # Louis II
 }
 
-875.8.12 = {
-	holder = 90104 # Charles 'the Bald'
+875.8.12 = { # conquered against named successor Karlmann
+	holder = 90104 # Charles II 'the Bald'
 }
 
 877.10.6 = {
