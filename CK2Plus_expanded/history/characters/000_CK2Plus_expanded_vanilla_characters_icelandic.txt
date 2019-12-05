@@ -1,1 +1,42 @@
+101543 = {
+	name = "Vagn"
+	dynasty = 100304
+	martial = 8
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 8
+	religion = catholic
+	culture = icelandic
+	trait = wroth
+	trait = scholarly_theologian
+	985.1.2 = {
+		birth = yes
+	}
+	1025.1.2 = {
+		add_spouse = 101544
+	}
+	1050.1.31 = {
+		death = yes
+	}
+}
 
+101544 = {
+	name = "Ingibjörg"
+	# AKA: Ingebjorg
+	female = yes
+	dynasty = 479
+	martial = 7
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = catholic
+	culture = icelandic
+	trait = just
+	trait = scholarly_theologian
+	1000.1.2 = {
+		birth = yes
+	}
+	1058.1.2 = {
+		death = yes
+	}
+}

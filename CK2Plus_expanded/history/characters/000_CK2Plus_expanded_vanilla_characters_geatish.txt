@@ -1,1 +1,584 @@
+6845 = {
+	name = "Sveinn"
+	dynasty = 838
+	religion = norse_pagan
+	culture = geatish
+	843.1.1 = {
+		birth = yes
+	}
+	895.1.1 = {
+		death = yes
+	}
+}
 
+41257 = {
+	name = "Rikulfr" # AKA Rikiwulf, plundered Flandres in 880 AD
+	dynasty = 821 # Ylfing/Wulfing
+	martial = 8
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 6
+	religion = norse_pagan
+	culture = geatish
+	trait = content
+	trait = tough_soldier
+	father = 194052
+	845.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+41258 = {
+	name = "Hrane"
+	dynasty = 822 # Gautske
+	martial = 5
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 5
+	religion = norse_pagan
+	culture = geatish
+	trait = tough_soldier
+	father = 194049
+	840.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		add_spouse = 6874
+	}
+	875.1.1 = {
+		death = yes # Killed in battle by Harald Fairhair
+	}
+}
+
+41266 = {
+	name = "Vagn"
+	dynasty = 824 # Njudunge
+	religion = norse_pagan
+	culture = geatish
+	847.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		add_spouse = 6873
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+
+41267 = {
+	name = "Steinn"
+	dynasty = 825 # Gute
+	religion = norse_pagan
+	culture = geatish
+	father = 194048
+	841.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+
+100517 = {
+	name = "Toste"
+	dynasty = 500
+	martial = 8
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 6
+	religion = norse_pagan
+	culture = geatish
+	trait = brilliant_strategist
+	trait = viking
+	917.1.2 = {
+		birth = yes
+	}
+	935.1.1 = {
+		add_spouse = 261210
+	}
+	936.1.1 = {
+		effect = {
+			prestige = 200
+			wealth = 200
+			spawn_fleet = {
+				province = closest # closest sea zone
+				owner = ROOT
+				cannot_inherit = yes # disbands on inheritance
+				troops =
+				{
+					galleys = { 40 40 }
+				}
+			}
+		}
+	}
+	970.1.2 = {
+		death = yes
+	}
+}
+
+100518 = {
+	name = "Ulfr"
+	dynasty = 500
+	martial = 4
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 8
+	religion = norse_pagan
+	culture = geatish
+	trait = cynical
+	trait = underhanded_rogue
+	father = 100517
+	949.1.2 = {
+		birth = yes
+	}
+	1000.1.8 = {
+		death = yes
+	}
+}
+
+100519 = {
+	name = "Sigrid"
+	female = yes
+	dynasty = 500
+	martial = 4
+	diplomacy = 7
+	intrigue = 9
+	stewardship = 5
+	religion = catholic
+	culture = geatish
+	trait = diligent
+	trait = wroth
+	trait = elusive_shadow
+	father = 100517
+	955.1.2 = {
+		birth = yes
+	}
+	1012.1.6 = {
+		death = yes
+	}
+}
+
+100521 = {
+	name = "Rögnvaldr"
+	dynasty = 500
+	martial = 5
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 6
+	religion = norse_pagan
+	culture = geatish
+	trait = chaste
+	trait = underhanded_rogue
+	father = 100518
+	970.1.2 = {
+		birth = yes
+	}
+	1000.1.1 = {
+			add_spouse = 102545 # Ingeborg
+}
+	1020.1.1 = {
+		add_spouse = 100510
+	}
+	1028.1.12 = {
+		death = yes
+	}
+}
+
+102543 = {
+	name = "Eilif"
+	dynasty = 500
+	martial = 5
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 7
+	religion = norse_pagan
+	culture = geatish
+	trait = brave
+	trait = tough_soldier
+	father = 100521
+	mother = 102545
+	1002.1.2 = {
+		birth = yes
+	}
+	1052.10.4 = {
+		death = yes
+	}
+}
+
+194005 = {
+	name = "Hjörvardr"
+	dynasty = 821 # Ulfing
+	religion = norse_pagan
+	culture = geatish
+	722.10.1 = {
+		birth = yes
+	}
+	788.12.1 = {
+		death = yes
+	}
+}
+
+194007 = {
+	name = "Þorfinn"
+	dynasty = 825 # Gute
+	religion = norse_pagan
+	culture = geatish
+	731.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+
+194010 = {
+	name = "Oddr"
+	dynasty = 822
+	religion = norse_pagan
+	culture = geatish
+	731.1.1 = {
+		birth = yes
+	}
+	798.1.1 = {
+		death = yes
+	}
+}
+
+261204 = {
+	name = "Bothildr"
+	female = yes
+	dynasty = 1062239
+	religion = norse_pagan
+	culture = geatish
+	father = 260565
+	mother = 261176
+	935.1.1 = {
+		birth = yes
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+
+261201 = {
+	name = "Sigtrygg"
+	dynasty = 1062236
+	religion = norse_pagan
+	culture = geatish
+	father = 260562
+	mother = 261200
+	930.1.1 = {
+		birth = yes
+	}
+	959.1.1 = {
+		death = yes
+	}
+}
+
+261202 = {
+	name = "Sörkver"
+	dynasty = 1062239
+	religion = norse_pagan
+	culture = geatish
+	889.1.1 = {
+		birth = yes
+	}
+	913.1.1 = {
+		add_spouse = 261203
+	}
+	948.1.1 = {
+		death = yes
+	}
+}
+
+261193 = {
+	name = "Rikissa"
+	female = yes
+	dynasty = 1062574
+	religion = norse_pagan
+	culture = geatish
+	904.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		death = yes
+	}
+}
+
+261194 = {
+	name = "Hjalmar"
+	dynasty = 1062237
+	religion = norse_pagan
+	culture = geatish
+	father = 260563
+	mother = 261193
+	925.1.1 = {
+		birth = yes
+	}
+	969.1.1 = {
+		death = yes
+	}
+}
+
+261195 = {
+	name = "Styrkar"
+	dynasty = 1062237
+	religion = norse_pagan
+	culture = geatish
+	father = 260563
+	mother = 261193
+	928.1.1 = {
+		birth = yes
+	}
+	979.1.1 = {
+		death = yes
+	}
+}
+
+261196 = {
+	name = "Helena"
+	female = yes
+	dynasty = 1062237
+	religion = norse_pagan
+	culture = geatish
+	father = 260563
+	mother = 261193
+	929.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		death = yes
+	}
+}
+
+261197 = {
+	name = "Mats"
+	dynasty = 1062236
+	religion = norse_pagan
+	culture = geatish
+	880.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		add_spouse = 261198
+	}
+	929.1.1 = {
+		death = yes
+	}
+}
+
+261198 = {
+	name = "Ylva"
+	female = yes
+	dynasty = 1062575
+	religion = norse_pagan
+	culture = geatish
+	882.1.1 = {
+		birth = yes
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+
+261191 = {
+	name = "Magni"
+	dynasty = 1062237
+	religion = norse_pagan
+	culture = geatish
+	874.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		add_spouse = 261192
+	}
+	921.1.1 = {
+		death = yes
+	}
+}
+
+261174 = {
+	name = "Freyja"
+	female = yes
+	dynasty = 1062237
+	religion = norse_pagan
+	culture = geatish
+	father = 261191
+	mother = 261192
+	895.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		death = yes
+	}
+}
+
+260565 = {
+	name = "Sigbjörn"
+	dynasty = 1062239
+	religion = norse_pagan
+	culture = geatish
+	father = 261202
+	mother = 261203
+	918.1.1 = {
+		birth = yes
+	}
+	935.1.1 = {
+		add_spouse = 261176
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+
+260562 = {
+	name = "Frodi"
+	dynasty = 1062236
+	religion = norse_pagan
+	culture = geatish
+	father = 261197
+	mother = 261198
+	905.1.1 = {
+		birth = yes
+	}
+	926.1.1 = {
+		add_spouse = 261200
+	}
+	964.1.1 = {
+		death = yes
+	}
+}
+
+260563 = {
+	name = "Erikr"
+	dynasty = 2
+	religion = norse_pagan
+	culture = geatish
+	father = 261191
+	mother = 261192
+	899.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		add_spouse = 261193
+	}
+	948.1.1 = {
+		death = yes
+	}
+}
+
+194046 = {
+	name = "Oddr"
+	dynasty = 825 # Gute
+	religion = norse_pagan
+	culture = geatish
+	father = 194007
+	761.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+194047 = {
+	name = "Froði"
+	dynasty = 825 # Gute
+	religion = norse_pagan
+	culture = geatish
+	father = 194046
+	789.1.1 = {
+		birth = yes
+	}
+	842.1.1 = {
+		death = yes
+	}
+}
+
+194048 = {
+	name = "Skuli"
+	dynasty = 825 # Gute
+	religion = norse_pagan
+	culture = geatish
+	father = 194047
+	820.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+194049 = {
+	name = "Hrafn"
+	dynasty = 822
+	religion = norse_pagan
+	culture = geatish
+	father = 194050
+	800.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+194050 = {
+	name = "Hrafn"
+	dynasty = 822
+	religion = norse_pagan
+	culture = geatish
+	father = 194010
+	750.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+194051 = {
+	name = "Högne"
+	dynasty = 821
+	religion = norse_pagan
+	culture = geatish
+	father = 194005
+	760.1.1 = {
+		birth = yes
+	}
+	835.1.1 = {
+		death = yes
+	}
+}
+
+194052 = {
+	name = "Hildur"
+	dynasty = 821
+	religion = norse_pagan
+	culture = geatish
+	father = 194051
+	802.1.1 = {
+		birth = yes
+	}
+	855.1.1 = {
+		death = yes
+	}
+}
+
+194053 = {
+	name = "Tjudmund"
+	dynasty = 822
+	religion = norse_pagan
+	culture = geatish
+	father = 194010
+	755.1.1 = {
+		birth = yes
+	}
+	825.1.1 = {
+		death = yes
+	}
+}
