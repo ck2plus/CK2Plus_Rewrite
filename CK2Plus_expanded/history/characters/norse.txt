@@ -4257,7 +4257,7 @@
 	name = "Helgi"
 	dynasty = 1040003
 	religion = catholic
-	culture = 1040003
+	culture = norwegian
 	father = 166040
 	mother = 166035
 	848.1.1 = {
@@ -4615,7 +4615,7 @@
 	#placeholder
 	dynasty = 1030
 	religion = norse_pagan
-	culture = swedush
+	culture = swedish
 	815.1.1 = {
 		birth = yes
 	}
@@ -8998,7 +8998,7 @@
 
 261212 = {
 	name = "Asbjørn"
-	dynasty = S
+	dynasty = 1062235
 	religion = norse_pagan
 	culture = danish
 	father = 260561
