@@ -4,6 +4,13 @@ on_startup = {
 	}
 }
 
+# Fires when the game starts (not from saves) - fires *only* for the player
+on_chronicle_start = {
+	events = {
+		PlusStartup.001 # Convert barons to local culture
+	}
+}
+
 #character
 on_yearly_pulse = {
 	events = {

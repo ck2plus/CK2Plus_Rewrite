@@ -1,0 +1,78 @@
+
+namespace = PlusStartup
+
+#######################################
+#
+# CK2Plus Startup Events
+#
+#######################################
+#
+# CATALOG
+#
+# 001 - 100: General events
+# 101 - 200: Toby Determined
+#
+#######################################
+
+#######################################
+#
+# 001 - 100: General events
+#
+#######################################
+#
+# INDEX
+#
+# 001: Assign local culture to barons
+#
+#######################################
+
+# Assign local culture to barons
+character_event = {
+	id = PlusStartup.001
+	
+	is_triggered_only = yes	# from on_chronicle_start, fires only for the player
+	
+	hide_window = yes
+	
+	immediate = {
+		any_character = { # NOTE WARNING this is really expensive, but only used once on startup here, so it is acceptable. Don't use it elsewhere without good reason.
+			limit = {
+				# NOTE for the future: If/once we add playable barons, we need to adjust this event to not culture flip them, and stay as shown in the lobby.
+				# For this, "has_landed_title = c_baron_t" can check for playable barons according to MightNight.
+				tier == baron
+				is_patrician = no	# We don't want to affect republics, these are done in history
+			}
+			capital_scope = { # The baron's capital province (the province of the barony)
+				reverse_culture = PREV	# Copies the province's culture onto the baron
+			}
+			any_close_relative = {	# Close family should be converted, too
+				limit = {
+					location = PREV	# Is in the same province as the baron
+					NOR = {
+						higher_tier_than = baron	# We don't want to accidentally affect characters that are higher than baron
+						any_close_relative = {
+							higher_tier_than = count	# Nor do we want to affect anyone with a mighty family elsewhere
+						}
+					}
+				}
+				culture = PREV	# Because the baron has already be converted, this should set these characters to the baron's culture
+			}
+			any_courtier = {	# Also randomly convert some courtiers
+				limit = {
+					prisoner = no	# We don't want to convert prisoners (which are included in any_courtier) - this case is rather unlikely though
+					location = PREV	# Is in the same province as the baron
+					NOR = {
+						higher_tier_than = baron	# We don't want to accidentally affect characters that are higher than baron
+						any_close_relative = {
+							higher_tier_than = count	# Nor do we want to affect anyone with a mighty family elsewhere
+						}
+					}
+				}
+				random = { # Courtiers only have a certain chance to be of local culture
+					chance = 50
+					culture = PREV	# Because the baron has already be converted, this should set these characters to the baron's culture
+				}
+			}
+		}
+	}
+}
