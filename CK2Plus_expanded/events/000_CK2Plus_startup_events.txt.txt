@@ -57,22 +57,6 @@ character_event = {
 				}
 				culture = PREV	# Because the baron has already be converted, this should set these characters to the baron's culture
 			}
-			any_courtier = {	# Also randomly convert some courtiers
-				limit = {
-					prisoner = no	# We don't want to convert prisoners (which are included in any_courtier) - this case is rather unlikely though
-					location = PREV	# Is in the same province as the baron
-					NOR = {
-						higher_tier_than = baron	# We don't want to accidentally affect characters that are higher than baron
-						any_close_relative = {
-							higher_tier_than = count	# Nor do we want to affect anyone with a mighty family elsewhere
-						}
-					}
-				}
-				random = { # Courtiers only have a certain chance to be of local culture
-					chance = 50
-					culture = PREV	# Because the baron has already be converted, this should set these characters to the baron's culture
-				}
-			}
-		}
+			# Apparently barons are never generated with a court, so no need for a conversion of courtiers.
 	}
 }
