@@ -33,6 +33,7 @@ region_britain = {
 	}
 }
 
+# Removed due two islands combined into one
 # region_baleares = {
 	# provinces = { 826 827  }
 # }
