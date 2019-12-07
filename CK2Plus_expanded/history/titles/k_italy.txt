@@ -135,6 +135,7 @@
 
 774.6.5 = { # Fall of the Lombards
 	holder = 6392 # Karl the Great
+	de_jure_liege = e_france
 	law = agnatic_succession
 	reset_name = yes
 	reset_adjective = yes
@@ -147,7 +148,8 @@
 	liege = e_france
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
+	de_jure_liege = e_karling
 	liege = e_karling
 }
 

@@ -29,7 +29,7 @@
 	liege = e_france
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -48,6 +48,10 @@
 867.1.1 = {
 	holder = 0
 	clear_tribute_suzerain = k_bavaria
+}
+
+911.9.20 = { # Bavaria incorporated into Germany as Duchy
+	de_jure_liege = k_germany
 }
 
 936.1.1 = {

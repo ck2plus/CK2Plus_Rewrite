@@ -8,7 +8,7 @@
 	liege = e_france
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -42,6 +42,10 @@
 
 890.1.2 = {
 	holder = 131714
+}
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
 }
 
 923.1.1 = {

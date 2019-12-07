@@ -1,5 +1,6 @@
 1192.5.8 = {
 	de_jure_liege = e_hre
+	liege = e_hre
 	holder = 212530
 	effect = {
 		insert_title_history = d_osterreich

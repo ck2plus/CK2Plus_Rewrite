@@ -60,7 +60,12 @@
 
 788.3.30 = { # Tassilo submits to Karl in Ingelheim at Easter
 	holder = 6392 # Karl 'the Great'
+	de_jure_liege = e_france
 	law = agnatic_succession
+}
+
+800.12.25 = { # Coronation of Karl as Emperor
+	de_jure_liege = e_karling
 }
 
 814.1.28 = {
@@ -76,11 +81,6 @@
 	holder = 42018 # Karlmann
 }
 
-867.1.1 = {
-	de_jure_liege = e_karling
-	liege = e_karling
-}
-
 879.11.1 = { # Karlmann abdicates after becoming incapacitated early that year
 	holder = 42019 # Ludwig II 'the Younger'
 }
@@ -93,10 +93,10 @@
 	holder = 7945 # Arnulf of Carinthia
 }
 
-893.1.1 = {
-	holder = 7949 # Louis IV 'the Child'
+899.12.8 = {
+	holder = 7949 # Ludwig IV 'the Child'
 }
 
-895.1.1 = {
+911.9.20 = { # incorporated into Germany as Duchy
 	holder = 0
 }

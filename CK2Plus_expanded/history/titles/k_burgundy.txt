@@ -85,6 +85,11 @@
 	holder = 6392 # Karl the Great
 }
 
+800.12.25 = { # Coronation of Karl as Emperor
+	de_jure_liege = e_karling
+	liege = e_karling
+}
+
 814.1.2 = {
 	holder = 90095 # Louis the Pious
 }
@@ -95,7 +100,6 @@
 
 855.9.29 = { # Treaty of Prüm
 	holder = 90103 # Charles of Provence
-	liege = e_karling
 }
 
 863.1.25 = {

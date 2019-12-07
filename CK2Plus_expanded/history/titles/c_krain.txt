@@ -18,6 +18,10 @@
 	holder = 168193
 }
 
+911.9.20 = { # Bavaria becomes Duchy under Germany
+	liege = k_germany
+}
+
 919.1.1 = {
 	holder = 168200
 }
@@ -28,6 +32,10 @@
 
 969.1.1 = {
 	holder = 168204
+}
+
+1024.7.13 = {
+	liege = e_hre # k_germany subsumed into HRE
 }
 
 1029.3.11 = {

@@ -20,7 +20,7 @@
 	holder = 190512 # Teudoin
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 

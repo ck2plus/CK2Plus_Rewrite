@@ -15,6 +15,7 @@
 	set_global_flag = charlemagne_hre
 
 	holder = 90104 # Charles II 'the Bald'
+	de_jure_liege = e_karling
 	liege = e_karling
 }
 
@@ -36,7 +37,7 @@
 
 # Robertian (= Capetians)
 
-887.11.17 = { # abdication of Karl 'the Fat', Odo/Eudes elected by Burgundian nobles
+887.11.17 = { # abdication of Karl 'the Fat', Odo/Eudes elected by French nobles
 	holder = 6448 #Eudes
 	reset_name = yes
 	reset_adjective = yes

@@ -29,19 +29,25 @@
 }
 
 880.1.1 = {
-	liege = d_saxony
+#	holder = 7908 # Otto 'the Illustrious'
+#	liege = d_saxony
 }
 
-880.1.1 = {
-	holder = 7908
+882.1.20 = { # death of Ludwig II 'the Younger', East Francia reunited under Karl 'the Fat'
+	liege = k_lotharingia
 }
 
-912.11.12 = {
-	holder = 1280
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
+}
+
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
+	liege = d_lower_lorraine
 }
 
 936.1.1 = {
 	holder = 260592
+	liege = d_saxony
 }
 
 973.5.7 = {

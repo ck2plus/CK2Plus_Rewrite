@@ -99,6 +99,10 @@
 	holder = 10097
 }
 
+911.9.20 = { # Bavaria incorporated into Germany as Duchy
+	de_jure_liege = k_germany
+}
+
 918.12.23 = {
 	liege = e_hre
 }

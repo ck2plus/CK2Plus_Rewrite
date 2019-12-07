@@ -48,6 +48,10 @@
 	holder = 31704
 }
 
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
+}
+
 910.6.22 = {
 	holder = 31708
 }

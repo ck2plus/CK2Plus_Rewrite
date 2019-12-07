@@ -9,7 +9,7 @@
 	holder = 263001
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -45,6 +45,10 @@
 	liege = k_germany
 }
 
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
+}
+
 898.1.1 = {
 	holder = 263008
 }
@@ -53,7 +57,7 @@
 	holder = 263009
 }
 
-923.1.1 = {
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
 	liege = k_germany
 }
 

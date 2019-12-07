@@ -23,6 +23,10 @@
 	holder = 7812 #Reginar
 }
 
+911.9.20 = { # elected by Lotharingian nobles
+	liege = k_lotharingia
+}
+
 915.1.1 = {
 	holder = 7813 #Giselbert
 }

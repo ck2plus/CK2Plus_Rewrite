@@ -12,7 +12,8 @@
 	holder = 90095 # Louis I 'the Pious'
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
+	de_jure_liege = e_karling
 	liege = e_karling
 }
 

@@ -22,6 +22,10 @@
 	liege = k_aquitaine
 }
 
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
+}
+
 925.8.27 = {
 	holder = 168240  #Artaud I de Forez
 }

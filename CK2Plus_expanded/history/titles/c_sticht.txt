@@ -1,66 +1,18 @@
-769.1.1 = {
-	holder = 6392
-	liege = k_neustria
+760.1.1 = {
+	holder = 194170
+	liege = d_holland
 }
 
-800.1.1 = {
-	holder = 263001
+867.1.1 = {
+	holder = 167706
 }
 
-800.12.25 = { # Coronation of Karl as Emperor
-	liege = e_karling
+918.1.1 = {
+	holder = 260593
 }
 
-820.1.1 = {
-	holder = 263002
-}
-
-848.1.1 = {
-	holder = 263003
-}
-
-855.9.29 = { # Treaty of Prüm
-	liege = k_lotharingia
-}
-
-855.11.11 = {
-	holder = 167775
-}
-
-870.8.8 = { # Treaty of Meerssen
-	liege = k_germany
-}
-
-876.8.28 = { # death of Ludwig 'the German'
-	liege = k_saxony
-}
-
-881.1.1 = {
-	holder = 263005
-}
-
-882.1.20 = { # death of Ludwig II 'the Younger'
-	liege = k_germany
-}
-
-895.5.1 = { # Diet of Worms
-	liege = k_lotharingia
-}
-
-898.1.1 = {
-	holder = 263008
-}
-
-902.1.1 = {
-	holder = 263009
-}
-
-925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
-	liege = k_germany
-}
-
-955.3.15 = {
-	holder = 263013
+995.1.1 = {
+	holder = 168218
 	liege = d_lower_lorraine
 }
 

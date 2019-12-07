@@ -7,7 +7,7 @@
 	liege = e_france
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -31,9 +31,17 @@
 	liege = k_germany
 }
 
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
+}
+
+925.8.1 = { # Henry 'the Fowler' makes Lotharingia the fifth stem duchy of Germany
+	liege = k_germany
+}
+
 936.1.1 = {
-	liege = d_saxony
 	holder = 260592
+	liege = d_saxony
 }
 
 1066.1.1 = {

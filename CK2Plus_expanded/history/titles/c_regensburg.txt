@@ -84,11 +84,11 @@
 }
 
 882.1.21 = {
-	holder = 90105 #Charles II the Fat
+	holder = 90105 # Karl II 'the Fat'
 }
 
 887.1.1 = {
-	holder = 7945 #Arnulf of Carinthia
+	holder = 7945 # Arnulf of Carinthia
 }
 
 895.1.1 = {
@@ -100,7 +100,7 @@
 }
 
 899.8.12 = {
-	holder = 7949 #Louis IV the Child
+	holder = 7949 # Ludwig IV 'the Child'
 }
 
 907.1.1 = {

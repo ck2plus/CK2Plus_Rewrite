@@ -3,7 +3,7 @@
 	pentarch = b_roma
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	active = yes
 	holder = 6392 #Charlemagne
 }

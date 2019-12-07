@@ -46,12 +46,18 @@
 885.1.1 = {
 	holder = 31060 #Gerolf I
 }
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
+}
+
 896.1.1={
 	holder = 106551 #Dirk I
 }
 
-925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
+925.8.1 = { # Henry 'the Fowler' makes Lotharingia the fifth stem duchy of Germany
 	de_jure_liege = k_germany
+	liege = k_germany
 }
 
 936.1.1 = {
@@ -130,7 +136,7 @@
 }
 
 1304.8.22 = {
-holder = 462742 #Willem III
+	holder = 462742 #Willem III
 }
 
 1337.6.7 = {

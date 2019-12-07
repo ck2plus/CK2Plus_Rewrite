@@ -3,7 +3,7 @@
 	holder = 91500 # Welentus, historical as placeholder
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -30,12 +30,20 @@
 }
 
 895.1.1 = {
-	liege = d_lower_lorraine
+#	liege = d_lower_lorraine
 	holder = 144994 #Richwin Reginar
+}
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
 }
 
 923.11.15 = {
 	holder = 144993 #Otto Reginar
+}
+
+925.8.1 = { # Henry 'the Fowler' makes Lotharingia the fifth stem duchy of Germany
+	liege = d_upper_lorraine
 }
 
 944.1.1 = {

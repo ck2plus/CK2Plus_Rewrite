@@ -6,21 +6,15 @@
 	pentarch = b_roma
 }
 
-843.8.10 = {
+843.8.10 = { # Treaty of Verdun
 	active = yes
 	name = EAST_FRANCIA
 	adjective = EAST_FRANCIA_ADJ
 	law = agnatic_succession
 	holder = 30227 # Lothaire (only here for HRE regnal numbering)
-	liege = e_karling
-}
-
-843.8.10 = { # Treaty of Verdun
 	holder = 90107 # Ludwig 'the German'
-}
-
-867.1.1 = {
 	de_jure_liege = e_karling
+	liege = e_karling
 }
 
 876.8.28 = {
@@ -31,24 +25,30 @@
 	holder = 7945 # Arnulf of Carinthia
 }
 
-900.1.21 = {
-	holder = 7949 # Ludwig 'the Child'
+899.12.8 = {
+	holder = 7949 # Ludwig IV 'the Child'
 }
 
-911.9.24 = {
+# Non-Karlings
+
+911.9.20 = {
 	holder = 7952 #Konrad I
-}
-
-918.12.23 = {
-	holder = 1280 #Heinrich I
 	reset_name = yes
 	reset_adjective = yes
 	set_global_flag = east_francia_renamed
 }
 
+918.12.23 = {
+	holder = 1280 #Heinrich I
+}
+
 936.7.2 = {
 	holder = 1282 #Otto I
 	law = succ_feudal_elective
+}
+
+962.2.2 = { # Otto 'the Great' is crowned Emperor
+	de_jure_liege = e_hre
 }
 
 973.5.7 = {

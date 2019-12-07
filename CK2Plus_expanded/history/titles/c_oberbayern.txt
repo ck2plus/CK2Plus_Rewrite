@@ -29,6 +29,7 @@
 
 907.1.1 = {
 	holder = 10097
+	liege = d_bavaria
 }
 
 936.1.1 = {

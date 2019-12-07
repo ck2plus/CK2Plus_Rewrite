@@ -19,14 +19,6 @@
 	liege = d_mecklemburg
 }
 
-843.8.10 = { # temp date
-	liege = d_holstein
-}
-
-876.8.28 = { # death of Ludwig 'the German'
-	liege = k_saxony
-}
-
 # Conquered by Danes in 808
 808.1.1 = {
 	holder = 1000119001 # Gudfred
@@ -43,8 +35,16 @@
 	holder = 167785 # Lothar
 }
 
+843.8.10 = { # temp date
+	liege = d_holstein
+}
+
 865.2.3 = {
 	holder = 163117
+}
+
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
 }
 
 882.1.20 = { # death of Ludwig II 'the Younger'

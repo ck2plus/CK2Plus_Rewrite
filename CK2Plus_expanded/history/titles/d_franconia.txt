@@ -35,7 +35,7 @@
 	liege = e_france
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -57,11 +57,12 @@
 }
 
 906.1.1 = {
-	holder = 7952
+	holder = 7952 # Konrad I
+	liege = k_germany
 }
 
 918.12.23 = {
-	holder = 7953
+	holder = 7953 # Eberhard
 }
 
 939.1.1 = {

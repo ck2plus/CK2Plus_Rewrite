@@ -3,7 +3,7 @@
 	liege = k_austrasia
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -35,20 +35,21 @@
 	holder = 7945 # Arnulf of Carinthia
 }
 
-895.1.1 = {
+895.5.1 = { # Diet of Worms
 	holder = 144997 # Zwentibold
 }
 
 895.8.14 = {
 	holder = 144994
-}
-
-923.1.1 = {
-	liege = d_upper_lorraine
+	liege = k_lotharingia
 }
 
 923.11.15 = {
 	holder = 144993
+}
+
+925.8.1 = { # Henry 'the Fowler' makes Lotharingia the fifth stem duchy of Germany
+	liege = d_upper_lorraine
 }
 
 944.1.1 = {
