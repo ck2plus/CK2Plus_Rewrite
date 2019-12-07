@@ -37,6 +37,7 @@ region_britain = {
 	# provinces = { 826 827  }
 # }
 
+# Removed due two islands combined into one
 # region_sardinia_corsica = {
 	# provinces = { 324 325 326 1560 1574 1576 1577 }
 # }
