@@ -37,7 +37,7 @@ wonder_danevirke = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
-			siege_defence = 0.05
+			siege_defence = 0.1
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.1
@@ -60,7 +60,7 @@ wonder_danevirke = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
-			siege_defence = 0.05
+			siege_defence = 0.1
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.1
@@ -83,7 +83,7 @@ wonder_danevirke = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
-			siege_defence = 0.05
+			siege_defence = 0.1
 			garrison_size = 0.1
 		}
 		owner_modifier = {
@@ -107,7 +107,7 @@ wonder_danevirke = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.5
-			siege_defence = 0.05
+			siege_defence = 0.1
 			garrison_size = 0.1
 		}
 		owner_modifier = {
@@ -201,7 +201,7 @@ wonder_hadrians_wall = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
-			siege_defence = 0.05
+			siege_defence = 0.1
 			garrison_size = 0.1
 		}
 		owner_modifier = {
@@ -225,7 +225,7 @@ wonder_hadrians_wall = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.5
-			siege_defence = 0.05
+			siege_defence = 0.1
 			garrison_size = 0.1
 		}
 		owner_modifier = {
