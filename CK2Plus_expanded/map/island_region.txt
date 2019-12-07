@@ -33,13 +33,13 @@ region_britain = {
 	}
 }
 
-region_baleares = {
-	provinces = { 826 827  }
-}
+# region_baleares = {
+	# provinces = { 826 827  }
+# }
 
-region_sardinia_corsica = {
-	provinces = { 324 325 326 1560 1574 1576 1577 }
-}
+# region_sardinia_corsica = {
+	# provinces = { 324 325 326 1560 1574 1576 1577 }
+# }
 
 region_malta = {
 	provinces = { 812 }
@@ -87,4 +87,90 @@ region_isle_of_man = {
 
 region_orkney = {
 	provinces = { 36 }
+}
+
+region_sjaelland = {
+	provinces = { 226 }
+}
+
+region_fyn = {
+	provinces = { 256 }
+}
+
+region_lolland = {
+	provinces = { 1687 }
+}
+
+region_rugen = {
+	provinces = { 304 }
+}
+
+region_bornholm = {
+	provinces = { 305 }
+}
+
+region_oland = {
+	provinces = { 300 }
+}
+
+region_gotland = {
+	provinces = { 301 }
+}
+
+region_osel = {
+	provinces = { 376 }
+}
+
+region_aland = {
+	provinces = { 291 }
+}
+
+region_zeeland = {
+	provinces = { 79 }
+}
+
+region_mallorca = {
+	provinces = { 827 }
+}
+
+region_menorca = {
+	provinces = { 826 }
+}
+
+region_sardinia = {
+	provinces = {
+		325 326 1560 1574 1576
+	}
+}
+
+region_corsica = {
+	provinces = {
+		324 1577
+	}
+}
+
+region_sicily = {
+	provinces = {
+		340 341 342 343 339
+	}
+}
+
+region_naxos = {
+	provinces = { 484 }
+}
+
+region_rhodos = {
+	provinces = { 483 }
+}
+
+region_chios = {
+	provinces = { 486 }
+}
+
+region_lesbos = {
+	provinces = { 487 }
+}
+
+region_kutch = {
+	provinces = { 1295 }
 }
