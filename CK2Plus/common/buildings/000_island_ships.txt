@@ -1,0 +1,51 @@
+# Makes sure islanders can always get around (temples excluded intentionally)
+tribal = {
+	tb_island_boats = {
+		port = yes
+		potential = {
+			FROMFROM = { location = { is_island = yes } }
+		}
+		trigger = { }
+		extra_tech_building_start = 0
+		gold_cost = 1
+		build_time = 1
+
+		galleys = 3 # Half of a shipyard
+
+		ai_creation_factor = 100
+		convert_to_castle = ca_island_boats
+		convert_to_city = ct_island_boats
+	}
+}
+castle = {
+	ca_island_boats = {
+		port = yes
+		potential = {
+			FROMFROM = { location = { is_island = yes } }
+		}
+		trigger = {}
+		extra_tech_building_start = 0
+		gold_cost = 1
+		build_time = 1
+
+		galleys = 3 # Half of a shipyard
+
+		ai_creation_factor = 100
+	}
+}
+city = {
+	ct_island_boats = {
+		port = yes
+		potential = {
+			FROMFROM = { location = { is_island = yes } }
+		}
+		trigger = {}
+		extra_tech_building_start = 0
+		gold_cost = 1
+		build_time = 1
+
+		galleys = 3 # Half of a shipyard
+
+		ai_creation_factor = 100
+	}
+}
