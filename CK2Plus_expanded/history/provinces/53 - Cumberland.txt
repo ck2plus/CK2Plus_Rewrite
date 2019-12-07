@@ -20,6 +20,15 @@ culture = saxon
 religion = catholic
 
 # History
+122.1.1 = {
+	build_wonder = wonder_hadrians_wall
+}
+128.1.1 = {
+	set_wonder_stage = 1
+}
+410.1.1 = {
+	set_wonder_damaged = yes
+}
 900.1.1 = {
 	culture = norwegian
 	religion = norse_pagan
@@ -29,4 +38,3 @@ religion = catholic
 	religion = catholic
 }
 1100.11.11 = { culture = english }
- 
