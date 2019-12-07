@@ -10,7 +10,6 @@ namespace = PlusStartup
 # CATALOG
 #
 # 001 - 100: General events
-# 101 - 200: Toby Determined
 #
 #######################################
 
