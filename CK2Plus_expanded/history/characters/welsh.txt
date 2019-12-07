@@ -1992,7 +1992,7 @@
 	dynasty = 101920 #Aberffraw for tree appearance
 	#was dynasty = 101922 #Manaw
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	give_nickname = nick_the_great
 	father = 159027
 	mother = 159088
@@ -3468,7 +3468,7 @@
 	name = "Gwriad" #
 	dynasty = 101922 #Manaw
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 159028 # Elidyr
 	760.1.1 = {
 		birth = yes
@@ -3485,7 +3485,7 @@
 	name = "Merfyn" #
 	dynasty = 101922 #Manaw
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 159026 # Gwriad
 	mother = 159025 # Esyllt
 	790.1.10 = {
@@ -3503,7 +3503,7 @@
 	name = "Elidyr" #
 	dynasty = 101922 #Manaw
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 159029 # Sandde
 	mother = 159933 # Celeinion
 
@@ -5283,7 +5283,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	trait = tough_soldier
 	father = 166444
 	804.1.1 = {
@@ -7860,7 +7860,7 @@
 	intrigue = 5
 	stewardship = 3
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166441
 	861.1.1 = {
 		birth = yes
@@ -7882,7 +7882,7 @@
 	intrigue = 3
 	stewardship = 4
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166442
 	mother = 166443
 	844.1.1 = {
@@ -7902,7 +7902,7 @@
 	intrigue = 3
 	stewardship = 6
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166445
 	785.1.1 = {
 		birth = yes
@@ -7921,7 +7921,7 @@
 	intrigue = 2
 	stewardship = 5
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166446
 	768.1.1 = {
 		birth = yes
@@ -7940,7 +7940,7 @@
 	intrigue = 3
 	stewardship = 4
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166448
 	728.1.1 = {
 		birth = yes
@@ -7959,7 +7959,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166449
 	704.1.1 = {
 		birth = yes
@@ -7978,7 +7978,7 @@
 	intrigue = 3
 	stewardship = 5
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166451
 	678.1.1 = {
 		birth = yes
@@ -7997,7 +7997,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166453
 	640.1.1 = {
 		birth = yes
@@ -8016,7 +8016,7 @@
 	intrigue = 3
 	stewardship = 4
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166453
 	638.1.1 = {
 		birth = yes
@@ -8035,7 +8035,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166453
 	635.1.1 = {
 		birth = yes
@@ -8054,7 +8054,7 @@
 	intrigue = 2
 	stewardship = 5
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166455
 	593.1.1 = {
 		birth = yes
@@ -8073,7 +8073,7 @@
 	intrigue = 3
 	stewardship = 5
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166460
 	555.1.1 = {
 		birth = yes
@@ -8092,7 +8092,7 @@
 	intrigue = 2
 	stewardship = 6
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166457
 	568.1.1 = {
 		birth = yes
@@ -8112,7 +8112,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166458
 	529.1.1 = {
 		birth = yes
@@ -8132,7 +8132,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166459
 	492.1.1 = {
 		birth = yes
@@ -8151,7 +8151,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166461
 	464.1.1 = {
 		birth = yes
@@ -8170,7 +8170,7 @@
 	intrigue = 5
 	stewardship = 3
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166461
 	506.1.1 = {
 		birth = yes
@@ -8189,7 +8189,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166462
 	440.1.1 = {
 		birth = yes
@@ -8209,7 +8209,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166463
 	422.1.1 = {
 		birth = yes
@@ -8228,7 +8228,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	trait = tough_soldier
 	father = 166464
 	400.1.1 = {
@@ -8244,7 +8244,7 @@
 	# AKA: Cynloyp map Cinhil
 	dynasty = 816
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166465
 	383.1.1 = {
 		birth = yes
@@ -8259,7 +8259,7 @@
 	# AKA: Cinhil map Cluim
 	dynasty = 816
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 166466
 	360.1.1 = {
 		birth = yes
@@ -8274,7 +8274,7 @@
 	# AKA: Cluim
 	dynasty = 816
 	religion = catholic
-	culture = welsh
+	culture = cumbric
 	father = 252159
 	323.1.1 = {
 		birth = yes

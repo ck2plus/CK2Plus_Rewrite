@@ -2863,7 +2863,7 @@
 	name = "Cadoc"
 	dynasty = 1029042
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 161282
 
 	1031.1.1 = {
@@ -2882,7 +2882,7 @@
 	name = "Cador"
 	dynasty = 1029042 #
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 159741
 
 	1010.1.1 = {
@@ -2900,7 +2900,7 @@
 	female = yes
 	dynasty = 0
 	religion = catholic
-	culture = breton
+	culture = cornish
 
 	1041.1.1 = {
 		birth = yes
@@ -2917,7 +2917,7 @@
 	female = yes
 	dynasty = 1029042
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 161281
 	mother = 161283
 	1058.1.1 = {
@@ -2937,7 +2937,7 @@
 	female = yes
 	dynasty = 1029042
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 161281
 	mother = 161283
 	1059.1.1 = {
@@ -2953,7 +2953,7 @@
 	name = "Dumnarth"
 	dynasty = 1029042
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 161282
 
 	1034.1.1 = {
@@ -2972,7 +2972,7 @@
 	dynasty = 0
 	female = yes
 	religion = catholic
-	culture = breton
+	culture = cornish
 
 	1040.1.1 = {
 		birth = yes
@@ -2986,7 +2986,7 @@
 	name = "Conan"
 	dynasty = 1029042
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 161286
 	mother = 161287
 	1062.1.1 = {
@@ -3001,7 +3001,7 @@
 	name = "Alan"
 	dynasty = 1029042
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 161286
 	mother = 161287
 	1063.1.1 = {
@@ -3017,7 +3017,7 @@
 	name = "Hoël"
 	dynasty = 1029042
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 161286
 	mother = 161287
 	1064.1.1 = {
@@ -3034,7 +3034,7 @@
 	female = yes
 	dynasty = 1029042
 	religion = catholic
-	culture = breton
+	culture = cornish
 	father = 161286
 	mother = 161287
 	1060.1.1 = {
