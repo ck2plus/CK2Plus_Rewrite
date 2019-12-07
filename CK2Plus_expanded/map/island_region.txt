@@ -92,11 +92,11 @@ region_orkney = {
 }
 
 region_sjaelland = {
-	provinces = { 226 }
+	provinces = { 266 }
 }
 
 region_fyn = {
-	provinces = { 256 }
+	provinces = { 265 }
 }
 
 region_lolland = {
