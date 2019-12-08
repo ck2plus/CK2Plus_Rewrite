@@ -61,6 +61,10 @@
 
 930.1.2 = {
 	holder = 32002
+#	liege = d_carinthia # No title holder at this date
+}
+
+936.1.1 = {
 	liege = d_carinthia
 }
 

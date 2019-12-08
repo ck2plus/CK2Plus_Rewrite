@@ -31,6 +31,10 @@
 #	holder = 167832
 #}
 
+887.11.17 = { # abdication of Karl 'the Fat'
+	holder = 163905 # Liutfried Etichonen, temporary placeholder
+}
+
 936.1.1 = {
 	liege = d_swabia
 	holder = 7992

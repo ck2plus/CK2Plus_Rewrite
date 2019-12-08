@@ -78,6 +78,10 @@
 	liege = k_france
 }
 
+887.11.17 = {
+	de_jure_liege = k_france
+}
+
 918.6.17 = {
 	holder = 40234 #Raymond II de Toulouse
 }

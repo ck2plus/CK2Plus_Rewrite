@@ -25895,7 +25895,7 @@
 }
 
 7995 = {
-	name = "Raoul"
+	name = "Rodolphe"
 	dynasty = 9306 #Bivinids/Nithard-Richard from Middle Rhine
 	martial = 6
 	diplomacy = 7
@@ -27109,10 +27109,10 @@
 	trait = scholarly_theologian
 	father = 90111
 	mother = 90124
-	921.1.11 = {
+	920.9.10 = {
 		birth = yes
 	}
-	954.1.11 = {
+	954.9.10 = {
 		death = yes
 	}
 }

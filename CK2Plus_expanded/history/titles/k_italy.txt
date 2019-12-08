@@ -178,18 +178,18 @@
 }
 
 879.11.1 = { # Karlmann abdicates after becoming incapacitated early that year
-	holder = 90105 # Charles 'the Fat'
+	holder = 90105 # Karl 'the Fat'
 }
 
-887.11.17 = { # Karlmann deposed, Berengar elected
+887.11.17 = { # Karl 'the Fat' deposed, Berengar elected
 	holder = 71901 # Berengar I
 }
 
-889.1.1 = {
+889.2.21 = { # coronation, defeated Berengar in autumn 888 and april 889
 	holder = 71903 # Guy of Spoleto
 }
 
-894.12.12 = {
+894.12.12 = { # Arnulf coronated in 896 but Lambert held the real power in the kingdom
 	holder = 71904 # Lambert of Spoleto
 }
 
@@ -197,31 +197,23 @@
 	holder = 71901 # Berengar I
 }
 
-900.1.1 = {
-	holder = 1164 # Louis III of Provence
+900.10.12 = { # data of coronation in Pavia
+	holder = 1164 # Louis III 'the Blind' of Provence
 }
 
-902.1.1 = {
+902.7.17 = { # Berengar controls Italy, Louis III left for Provence
 	holder = 71901 # Berengar I
 }
 
-902.6.1 = {
-	holder = 1164 # Louis III of Provence
-}
-
-905.6.1 = {
-	holder = 71901 # Berengar I
-}
-
-922.1.1 = {
+922.2.4 = { # coronation date, asked to invade by Italian nobles, Berengar is defeated in battle 29 July 903
 	holder = 1144 # Rudolf II of Burgundy
 }
 
-924.1.1 = {
+926.7.9 = { # coronated in Pavia
 	holder = 7923 # Hugues Bosonid
 }
 
-948.4.10 = {
+947.4.10 = {
 	holder = 167000 # Lothaire Bosonid
 }
 

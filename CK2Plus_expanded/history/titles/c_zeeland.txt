@@ -23,7 +23,7 @@
 	holder = 90105 # Karl 'the Fat'
 }
 
-888.1.1 = {
+887.11.17 = { # abdication of Karl 'the Fat'
 	holder = 7945 # Arnulf of Carinthia
 }
 

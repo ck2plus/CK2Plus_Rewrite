@@ -28,6 +28,7 @@
 
 925.8.27 = {
 	holder = 168240  #Artaud I de Forez
+	liege = k_burgundy
 }
 
 1032.1.1 = {

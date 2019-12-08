@@ -58,6 +58,7 @@
 
 933.1.1 = {
 	holder = 168168
+	liege = k_burgundy
 }
 
 935.9.13 = {

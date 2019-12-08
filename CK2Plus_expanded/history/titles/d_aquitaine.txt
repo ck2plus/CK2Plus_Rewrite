@@ -62,13 +62,14 @@
 	liege = k_aquitaine
 }
 
-887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
-	liege = k_france
+887.11.17 = { # Karl deposed, Ramnulf II of Poitou proclaims himself King of Aquitaine
+	de_jure_liege = k_france
+	liege = k_aquitaine
 }
 
-#889.12.12 = {
-# 	liege = k_france
-#}
+890.10.1 = { # death of Ramnulf II
+	liege = k_france
+}
 
 895.1.1 = {
 	holder = 127022 # Guillaume Ier

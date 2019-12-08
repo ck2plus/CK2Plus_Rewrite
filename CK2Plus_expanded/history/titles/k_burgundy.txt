@@ -134,12 +134,13 @@
 	holder = 1144 # Rudolf II
 }
 
-933.1.1 = {
+933.1.1 = { # lower territory traded with Hugh of Italy in return for renouncing claims on Italy
 	name = ARLES
 	adjective = ARLES_ADJ
+	set_global_flag = burgundy_renamed
 }
 
-937.12.1 = {
+937.7.11 = {
 	holder = 1146 # Konrad I
 }
 
@@ -147,6 +148,11 @@
 	holder = 1148 # Rudolf III
 }
 
-1032.9.5 = {
-	holder = 0
+1032.9.6 = {
+	holder = 0 # actually Konrad II, Holy Roman Emperor
+	reset_name = yes
+	reset_adjective = yes
+	clr_global_flag = burgundy_renamed
 }
+
+# TODO: add list of Holy Roman Emperors who held the kingdom after Konrad II inherited it, ends after Konrad IV in 1254

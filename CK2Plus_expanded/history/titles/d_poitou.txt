@@ -3,7 +3,6 @@
 }
 
 852.1.1 = {
-	de_jure_liege = k_aquitaine
 	liege = k_france
 }
 
@@ -19,12 +18,18 @@
 	holder = 90128 #Ramnulf II
 }
 
+887.11.17 = { # Karl deposed, Ramnulf II of Poitou proclaims himself King of Aquitaine
+	de_jure_liege = k_france
+	liege = k_aquitaine
+}
+
 #889.12.12 = {
 #	liege = k_france
 #}
 
 890.10.1 = {
 	holder = 168057 #Ramnulf III
+	liege = k_france
 }
 
 901.1.1 = {

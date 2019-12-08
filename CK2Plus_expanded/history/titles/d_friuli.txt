@@ -112,5 +112,5 @@
 }
 
 924.4.7 = {
-	holder = 0
+	holder = 1108 # Berengario II
 }

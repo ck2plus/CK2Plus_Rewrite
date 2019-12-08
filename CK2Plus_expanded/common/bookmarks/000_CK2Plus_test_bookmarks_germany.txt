@@ -48,6 +48,10 @@ bm_death_of_ludwig_the_child = {
 	selectable_character = {
 		id = 7952 #Konrad I
 	}
+
+	selectable_character = {
+		id = 90111 # Charles 'the Simple'
+	}
 }
 
 bm_death_of_konrad_i = {

@@ -51,8 +51,8 @@
 	holder = 90111 # Charles 'the Simple'
 }
 
-923.7.13 = { # Ludwig II deposed
-	holder = 7995 # Raoul/Rudolf
+923.7.13 = { # coronation of Rodolphe, Charles III deposed, beaten in battle on 15 June 923
+	holder = 7995 # Rodolphe
 }
 
 925.8.1 = { # Henry 'the Fowler' makes Lotharingia the fifth stem duchy of Germany

@@ -902,6 +902,10 @@ bm_abdication_of_karl_the_fat = {
 	}
 
 	selectable_character = {
+		id = 90128 # Ranulf II
+	}
+
+	selectable_character = {
 		id = 7984 # Rudolf of Burgundy
 	}
 

@@ -47,6 +47,10 @@
 	holder = 90105 # Karl the Fat
 }
 
-887.11.17 = { # Karl deposed
+887.11.17 = { # Karl deposed, Ranulf II of Poitou proclaims himself King of Aquitaine
+	holder = 90128 # Ranulf II
+}
+
+890.10.1 = {
 	holder = 0
 }

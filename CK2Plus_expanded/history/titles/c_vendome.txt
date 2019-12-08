@@ -37,7 +37,7 @@
 
 905.1.1 = {
 	holder = 168012
-	liege = d_valois
+#	liege = d_valois # Duchy not held by anyone at this time
 }
 
 955.1.1 = {
