@@ -23,8 +23,8 @@ bm_death_of_odo = {
 }
 
 bm_rodolphe = {
-	name = "Rudolf"
-	desc = "That's enough Karling for now!
+	name = "Rodolphe"
+	desc = "That's enough Karling for now!"
 #	name = BM_RODOLPHE
 #	desc = BM_RODOLPHE_DESC
 	date = 923.6.15
@@ -35,7 +35,7 @@ bm_rodolphe = {
 }
 
 bm_louis_iv = {
-	name = "Rodolphe"
+	name = "Louis IV"
 	desc = "Missed us?"
 #	name = BM_LOUIS_IV
 #	desc = BM_LOUIS_IV_DESC
