@@ -1,4 +1,4 @@
-# 1687 - Lolland 
+# 1687 - Lolland
 
 # County Title
 title = c_lolland
@@ -13,7 +13,7 @@ religion = norse_pagan
 terrain = farmlands
 
 # History
-800.1.1 = {
+700.1.1 = {
 	b_lolland = tb_shipyard_1
 }
 1000.1.1 = {
