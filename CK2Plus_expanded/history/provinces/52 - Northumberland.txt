@@ -19,5 +19,14 @@ culture = saxon
 religion = catholic
 
 # History
+122.1.1 = {
+	build_wonder = wonder_hadrians_wall
+}
+128.1.1 = {
+	set_wonder_stage = 1
+}
+410.1.1 = {
+	set_wonder_damaged = yes
+}
 1100.11.11 = { culture = english }
 1309.1.1 = { b_alnwick = castle }
