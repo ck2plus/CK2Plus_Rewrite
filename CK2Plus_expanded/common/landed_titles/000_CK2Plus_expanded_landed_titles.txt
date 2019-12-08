@@ -49,22 +49,6 @@ k_austrasia = {
 	}
 }
 
-
-#}
-#	}
-#		always = no
-#		# TODO: Put in actual requirements
-#	allow = {
-#	short_name = yes
-#
-#
-#
-#	capital = 90 # Julich
-#	culture = old_frankish
-#
-#	color2 = { 255 255 20 }
-#	color = { 11 22 170 }
-#k_francia = {
 k_azerbaijan = {
 	color = { 112 223 170 }
 	color2 = { 255 255 20 }
@@ -84,22 +68,6 @@ k_azerbaijan = {
 		allow = {
 			has_ck2plus_kingdom_reqs = yes
 		}
-}
-
-k_francia = {
-	color = { 11 22 170 }
-	color2 = { 255 255 20 }
-
-	culture = old_frankish
-
-	capital = 90 # Julich
-
-	short_name = yes
-
-	allow = {
-		# TODO: Put in actual requirements
-		always = no
-	}
 }
 
 k_neustria = {
