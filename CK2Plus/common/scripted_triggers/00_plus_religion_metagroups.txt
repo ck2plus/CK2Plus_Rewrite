@@ -3,7 +3,7 @@
 #	Example:
 #
 #	religion_example = {
-#		OR = {	
+#		OR = {
 #			religion_group = pagan_group
 #			religion = catholic
 #		}
@@ -21,7 +21,7 @@ religion_tribal = {
 	OR = {
 		AND = {
 			religion_group = pagan_group
-			is_reformed = no
+			is_reformed_religion = no
 		}
 		AND = {
 			religion_group = pagan_group

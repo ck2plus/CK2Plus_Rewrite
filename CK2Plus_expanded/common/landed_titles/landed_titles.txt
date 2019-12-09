@@ -31899,7 +31899,7 @@ e_france = {
 		roman = Armorica
 
 		allow = {
-			has_ck2plus_kingdom_req = yes
+			has_ck2plus_kingdom_reqs = yes
 
 			hidden_tooltip = {
 				OR = {
