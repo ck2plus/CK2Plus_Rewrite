@@ -1,4 +1,4 @@
-#CODE;English;;;;;;;;;;;;;x
+#CODE;English;French;German;;Spanish;;;;;;;;;x
 
 ###########################
 #
@@ -10,3 +10,8 @@ RULE_GROUP_PLUS;Plus;;;;;;;;;;;;;x
 BABY_PORTRAITS;§GCK2+§!: Baby Portraits;§GCK2+§!: Portraits de Bébé;§GCK2+§!: Baby-Porträts;;§GCK2+§!: Retratos de Bebé;;;;;;;;;x
 BABY_PORTRAITS_YES_DESC;Children under two years of age will have different portraits.;Les enfants de moins de deux ans auront des portraits différents.;Kinder unter zwei Jahren haben unterschiedliche Porträts.;;Los niños menores de dos años tendrán diferentes retratos.;;;;;;;;;x
 BABY_PORTRAITS_NO_DESC;All children will use vanilla portraits.;Tous les enfants utiliseront des portraits à la vanille.;Alle Kinder verwenden Vanilleporträts.;;Todos los niños usarán retratos de vainilla.;;;;;;;;;x
+DEATH_OF_NATIONS;§GCK2+§!: Death of Nations;§GCK2+§!: Mort des Nations;§GCK2+§!: Tod der Nationen;;§GCK2+§!: Muerte de Naciones;;;;;;;;;x
+DEATH_OF_NATIONS_EMPIRES;Empires;Empires;Reiche;;Imperios;;;;;;;;;x
+DEATH_OF_NATIONS_YES_DESC;Destroy unclaimed kingdom and empire titles.;Détruisez les titres de royaume et d'empire non réclamés.;Zerstöre nicht beanspruchte Königreichs- und Reichstitel.;;Destruye títulos de imperios y reinos no reclamados.;;;;;;;;;x
+DEATH_OF_NATIONS_EMPIRES_DESC;Destroy unclaimed empire titles.;Détruisez les titres d'empire non réclamés.;Zerstöre nicht beanspruchte Reichstitel.;;Destruye títulos imperiales no reclamados.;;;;;;;;;x
+DEATH_OF_NATIONS_NO_DESC;Don't destroy unclaimed titles.;Ne détruisez pas les titres non réclamés.;Zerstöre nicht beanspruchte Titel nicht.;;No destruyas títulos no reclamados.;;;;;;;;;x
