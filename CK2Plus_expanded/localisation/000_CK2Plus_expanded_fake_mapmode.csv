@@ -1,0 +1,49 @@
+### Events
+
+# Fake Mapmodes - Accidentally sent Steward returns:
+FMMDESC_1;Your [Root.job_treasurer.GetJobTitle] has returned from his studies into cartography, and is at your disposal again.;;;;;;;;;;;;;x
+FMMOPTA_1;I see...;;;;;;;;;;;;;x
+# Ponder on Cartography - Event from player decision on self:
+FMMDESC_2;Your [Root.job_treasurer.GetJobTitle] can produce a new map of the known world, but you must first decide which information it should display.;;;;;;;;;;;;;x
+FMMOPTA_2;Simple Terrain;;;;;;;;;;;;;x
+FMMOPTB_2;Prosperity & Depopulation;;;;;;;;;;;;;x
+FMMOPTC_2;Number of Holdings;;;;;;;;;;;;;x
+
+## Decisions
+
+# Fake Mapmodes
+choose_fake_mapmode;Ponder on Cartography;;;;;;;;;;;;;x
+choose_fake_mapmode_desc;Fires an event that allows you to decide which "Fake Mapmode" you want to see displayed via the "Fabricate Cartography" job action of your [Root.job_treasurer.GetJobTitle].;;;;;;;;;;;;;x
+
+### Councilor Jobs
+
+# Fake Mapmodes
+action_show_fake_mapmode_chancellor;Fabricate Cartography;;;;;;;;;;;;;x
+action_show_fake_mapmode_chancellor_desc;Your [From.job_chancellor.GetJobTitle] will produce charts with useful information about the known world. To specify the nature of this map, you must decide first which information you want.\n(Use the decision "Ponder on Cartography" on your player character to chose a mapmode that this action will display.);;;;;;;;;;;;;x
+action_show_fake_mapmode_marshal;Fabricate Cartography;;;;;;;;;;;;;x
+action_show_fake_mapmode_marshal_desc;Your [From.job_marshal.GetJobTitle] will produce charts with useful information about the known world. To specify the nature of this map, you must decide first which information you want.\n(Use the decision "Ponder on Cartography" on your player character to chose a mapmode that this action will display.);;;;;;;;;;;;;x
+action_show_fake_mapmode_steward;Fabricate Cartography;;;;;;;;;;;;;x
+action_show_fake_mapmode_steward_desc;Your [From.job_treasurer.GetJobTitle] will produce charts with useful information about the known world. To specify the nature of this map, you must decide first which information you want.\n(Use the decision "Ponder on Cartography" on your player character to chose a mapmode that this action will display.);;;;;;;;;;;;;x
+action_show_fake_mapmode_spymaster;Fabricate Cartography;;;;;;;;;;;;;x
+action_show_fake_mapmode_spymaster_desc;Your [From.job_spymaster.GetJobTitle] will produce charts with useful information about the known world. To specify the nature of this map, you must decide first which information you want.\n(Use the decision "Ponder on Cartography" on your player character to chose a mapmode that this action will display.);;;;;;;;;;;;;x
+action_show_fake_mapmode_courtchaplain;Fabricate Cartography;;;;;;;;;;;;;x
+action_show_fake_mapmode_courtchaplain_desc;Your [From.job_spiritual.GetJobTitle] will produce charts with useful information about the known world. To specify the nature of this map, you must decide first which information you want.\n(Use the decision "Ponder on Cartography" on your player character to chose a mapmode that this action will display.);;;;;;;;;;;;;x
+
+### On-map tooltips
+
+# Prosperity & Depopulation:
+JOB_FAKE_MAPMODE_Prosperity_3;\n§YBooming§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Prosperity_2;\n§YFlourishing§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Prosperity_1;\n§YProspering§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Depopulation_1;\n§YMinor Depopulation§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Depopulation_2;\n§YSignificant Depopulation§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Depopulation_3;\n§YSevere Depopulation§!\n;;;;;;;;;;;;;x
+# Number of Holdings:
+JOB_FAKE_MAPMODE_Holdings_0;\n§YNo Holding§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Holdings_1;\n§Y1 Holding§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Holdings_2;\n§Y2 Holdings§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Holdings_3;\n§Y3 Holdings§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Holdings_4;\n§Y4 Holdings§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Holdings_5;\n§Y5 Holdings§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Holdings_6;\n§Y6 Holdings§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Holdings_7;\n§Y7 Holdings§!\n;;;;;;;;;;;;;x

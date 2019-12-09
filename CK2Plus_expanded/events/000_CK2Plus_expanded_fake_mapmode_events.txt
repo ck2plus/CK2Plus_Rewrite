@@ -1,0 +1,79 @@
+######################
+# Fake Mapmodes events
+# 
+# by LordPeter
+######################
+
+namespace = FMM
+
+### Recall councilor if accidentally sent on "fake mapmode" job
+
+character_event = {	# Councilor is recalled by event to avoid messing with the assignment times for the other jobs - event happens for the player! (more efficient)
+	id = FMM.1
+	desc =  FMMDESC_1
+	picture = "GFX_evt_council"
+	border = GFX_event_normal_frame_economy
+	
+	only_playable = yes
+	
+	ai = no
+	
+	trigger = {
+		job_treasurer = {
+			has_job_action = action_show_fake_mapmode
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		modifier = {	# Should happen almost instantly, that's why it's boosted even more here (not sure if this even works, but whatever)
+			factor = 0.25
+		}
+	}
+	
+	# Inform player that steward has returned
+	option = {
+		name = FMMOPTA_1
+		job_treasurer = {
+			cancel_job_action = action_show_fake_mapmode
+		}
+	}
+}
+
+
+### Fake mapmodes
+
+character_event = {	# Allow player to chose fake mapmode via decision on self
+	id = FMM.2
+	desc =  FMMDESC_2
+	picture = "GFX_evt_recieve_letter"
+	
+	is_triggered_only = yes		# by decision
+	
+	option = {	# Simple Terrain
+		name = FMMOPTA_2
+		# Clear other flags:
+		clr_character_flag = fake_mapmode_prosperity_depopulation
+		clr_character_flag = fake_mapmode_num_of_holdings
+		# Set new flag:
+		set_character_flag = fake_mapmode_simple_terrain
+	}
+	
+	option = {	# Prosperity & Depopulation
+		name = FMMOPTB_2
+		# Clear other flags:
+		clr_character_flag = fake_mapmode_simple_terrain
+		clr_character_flag = fake_mapmode_num_of_holdings
+		# Set new flag:
+		set_character_flag = fake_mapmode_prosperity_depopulation
+	}
+	
+	option = {	# Number of Holdings
+		name = FMMOPTC_2
+		# Clear other flags:
+		clr_character_flag = fake_mapmode_simple_terrain
+		clr_character_flag = fake_mapmode_prosperity_depopulation
+		# Set new flag:
+		set_character_flag = fake_mapmode_num_of_holdings
+	}
+}
