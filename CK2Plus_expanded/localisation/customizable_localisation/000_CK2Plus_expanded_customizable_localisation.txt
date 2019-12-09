@@ -19,14 +19,21 @@
 #	GetArchDruidLoc
 #	GetArchDruidFOAGendered
 #
+#	GetHighSorginFOAGendered
+#
 #	--- Societies ------------
 #
 #	GetCelticWarriorLodge
 #	GetCelticWarriorLodgeDesc
+#	GetBasqueWarriorLodge
+#	GetBasqueWarriorLodgeDesc
 #
 #	--- Traits ---------------
 #
 #	GetBadPriestCelticMaleFemale
+#	GetBadPriestBasqueMaleFemale
+#
+#	GetBasqueLeaderMaleFemale
 #
 ###############################
 
@@ -288,6 +295,25 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	#Displays gender appropriate High Sorgin FoA
+	name = GetHighSorginFOAGendered
+	use_first_valid = yes
+
+	text = {
+		localisation_key = HighSorginFOAMale
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localisation_key = HighSorginFOAFemale
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
 
 
 # Societies
@@ -324,6 +350,39 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	name = GetBasqueWarriorLodge
+
+	text = {
+		trigger = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		localisation_key = warrior_lodge_basque_random
+	}
+	text = {
+		trigger = {
+			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		}
+		localisation_key = warrior_lodge_basque_real
+	}
+}
+defined_text = {
+	name = GetBasqueWarriorLodgeDesc
+
+	text = {
+		trigger = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		localisation_key = warrior_lodge_basque_desc_random
+	}
+	text = {
+		trigger = {
+			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		}
+		localisation_key = warrior_lodge_basque_desc_real
+	}
+}
+
 # Traits
 defined_text = {
 	name = GetBadPriestCelticMaleFemale
@@ -339,5 +398,39 @@ defined_text = {
 			is_female = yes
 		}
 		localisation_key = BadPriestCelticFemale
+	}
+}
+
+defined_text = {
+	name = GetBadPriestBasqueMaleFemale
+
+	text = {
+		trigger = {
+			is_female = no
+		}
+		localisation_key = BadPriestBasqueMale
+	}
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localisation_key = BadPriestBasqueFemale
+	}
+}
+
+defined_text = {
+	name = GetBasqueLeaderMaleFemale
+
+	text = {
+		trigger = {
+			is_female = no
+		}
+		localisation_key = BasqueLeaderMale
+	}
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localisation_key = BasqueLeaderFemale
 	}
 }

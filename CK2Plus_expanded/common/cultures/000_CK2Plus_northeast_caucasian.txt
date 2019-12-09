@@ -10,10 +10,10 @@
 
 northeast_caucasian_group = {
 	graphical_cultures =  { easterngfx }
-	
+
 	caucasian_avar = {
 		graphical_cultures = { easternslavicgfx }
-		
+
 		color = { 0.0 0.4 0.31 }
 
 		male_names = {
@@ -35,8 +35,8 @@ northeast_caucasian_group = {
 			Yasynya
 			Zaur
 		}
-		
-		female_names = { 
+
+		female_names = {
 			Adadza Alda Altun Ana_Anna Atsyrukhs
 			Baia Bedisa Borena Btsenon Burudukan
 			Duda
@@ -53,19 +53,19 @@ northeast_caucasian_group = {
 			Vardo Vedokha
 			Yeran
 		}
-		
+
 		from_dynasty_prefix = "ve "
-		
+
 		male_patronym = "y fyrt"
 		female_patronym = "y chyzg"
 		prefix = no
-		
+
 		modifier = default_culture_modifier
 	}
-    
+
 	udi = {
 		graphical_cultures = { easternslavicgfx }
-		
+
 		color = { 0.0 0.4 0.3 }
 
 		male_names = {
@@ -90,7 +90,7 @@ northeast_caucasian_group = {
 			Xod
 			Zaxari_Zachariah Zem Zinobi_Zenobios Zober Zor Zoren Zorru Celebeztan Coban
 		}
-		female_names = { 
+		female_names = {
 			Arelin
 			Bawga Bašinda Beg Bias Biyay Bondoke Borzun Bowqana Busin
 			Calag Caxowli Cay Chee Cile Cubux Curesun
@@ -101,7 +101,7 @@ northeast_caucasian_group = {
 			Hawke Hez
 			Ihal Ingen
 			Karavano Ke Kebin Kici
-			Majrami_Maria Maral Mare Meresimleri Muca Muca
+			Majrami_Maria Maral Mare Meresimleri Muca
 			Naiow Nana Nedun Nikar Nisanlu Nora
 			Ocaq Occal Olia Ot Orayin
 			Qehbelug Quš

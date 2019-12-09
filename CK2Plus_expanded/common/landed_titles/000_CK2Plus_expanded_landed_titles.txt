@@ -121,7 +121,7 @@ k_oman = {
 	color = { 150 10 15 }
 	color2 = { 255 255 20 }
 
-	culture = bedouin
+	culture = bedouin_arabic
 
 	capital = 868 # Muscat
 

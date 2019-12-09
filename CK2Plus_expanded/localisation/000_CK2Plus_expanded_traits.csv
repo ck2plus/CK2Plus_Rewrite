@@ -19,7 +19,7 @@ celtic_leader_desc;This character is a Féinnid, a veteran of the Fianna warbands
 bad_priest_basque;[GetBadPriestBasqueMaleFemale];[GetBadPriestBasqueMaleFemale];[GetBadPriestBasqueMaleFemale];;[GetBadPriestBasqueMaleFemale];;;;;;;;;x
 bad_priest_basque_desc;The personality and habits of this sorgin are very inappropriate for [GetHerHis] position. And what's worse, [GetSheHe] has been unable to hide them from public view.;La personnalité et les moeurs de ce[GetEEtte] sorgin sont très inappropriées pour quelqu'un de sa fonction. Pire encore, [GetIlElle] est incapable de commettre ses actes impies discrètement.;Die Persönlichkeit und Gewohnheiten [Getdiesesdieser] [GetDruidMaleFemale] sind äußerst unpassend für [GetHerHis]en Stand. Auch vermag [GetSheHe] es keineswegs, seine schlechten Eigenschaften vor der Allgemeinheit zu verbergen.;;La personalidad y hábitos de este sorgin son muy inapropiados para esta posición. Y lo peor es que no es capaz de esconderlos en público.;;;;;;;;;x
 BadPriestBasqueMale;Wicked Sorgin;Sorgin Mauvais;Teuflisch Sorgin;;Sorgin Malvado;;;;;;;;;x
-BadPriestCelticFemale;Wicked Sorgin;Sorgin Mauvais;Teuflisch Sorgin;;Sorgin Malvada;;;;;;;;;x
+BadPriestBasqueFemale;Wicked Sorgin;Sorgin Mauvais;Teuflisch Sorgin;;Sorgin Malvada;;;;;;;;;x
 
 flame_of_eate;Flame of Eate;Flamme de Eate;Flamme von Eate;;Llama de Eate;;;;;;;;;x
 flame_of_eate_desc;Euskara warriors of great renown are said to have the fire of the Gods burning inside them;On dit que les guerriers euskara de grande renommée ont le feu des Dieux qui brûlent en eux;Euskara-Krieger von großem Renommee sollen das Feuer der Götter in sich brennen lassen;;Se dice que los guerreros Euskara de gran renombre tienen el fuego de los Dioses ardiendo dentro de ellos;;;;;;;;;x

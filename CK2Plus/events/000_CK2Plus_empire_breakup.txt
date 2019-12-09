@@ -95,6 +95,3 @@ character_event = {
 #		is_exempt_title = no
 #	}
 #}
-
-EVTDESC_Plus_303
-EVTOPTA_Plus_303

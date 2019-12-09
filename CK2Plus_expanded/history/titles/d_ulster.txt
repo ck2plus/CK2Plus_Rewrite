@@ -3,7 +3,10 @@
 }
 430.1.1 = {
 	holder = 7255 #Niall Noigiallach
-	set_tribute_suzerain = k_ireland
+	set_tribute_suzerain = {
+		who = k_ireland
+		type = permanent
+	}
 	law = agnatic_succession
 	law = succ_tanistry
 }
