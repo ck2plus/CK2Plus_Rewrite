@@ -55,6 +55,7 @@ character_event = {	# Allow player to chose fake mapmode via decision on self
 		# Clear other flags:
 		clr_character_flag = fake_mapmode_prosperity_depopulation
 		clr_character_flag = fake_mapmode_num_of_holdings
+		clr_character_flag = fake_mapmode_supply_limit
 		# Set new flag:
 		set_character_flag = fake_mapmode_simple_terrain
 	}
@@ -64,6 +65,7 @@ character_event = {	# Allow player to chose fake mapmode via decision on self
 		# Clear other flags:
 		clr_character_flag = fake_mapmode_simple_terrain
 		clr_character_flag = fake_mapmode_num_of_holdings
+		clr_character_flag = fake_mapmode_supply_limit
 		# Set new flag:
 		set_character_flag = fake_mapmode_prosperity_depopulation
 	}
@@ -73,7 +75,18 @@ character_event = {	# Allow player to chose fake mapmode via decision on self
 		# Clear other flags:
 		clr_character_flag = fake_mapmode_simple_terrain
 		clr_character_flag = fake_mapmode_prosperity_depopulation
+		clr_character_flag = fake_mapmode_supply_limit
 		# Set new flag:
 		set_character_flag = fake_mapmode_num_of_holdings
+	}
+	
+	option = {	# Supply Limit
+		name = FMMOPTD_2
+		# Clear other flags:
+		clr_character_flag = fake_mapmode_simple_terrain
+		clr_character_flag = fake_mapmode_prosperity_depopulation
+		clr_character_flag = fake_mapmode_num_of_holdings
+		# Set new flag:
+		set_character_flag = fake_mapmode_supply_limit
 	}
 }

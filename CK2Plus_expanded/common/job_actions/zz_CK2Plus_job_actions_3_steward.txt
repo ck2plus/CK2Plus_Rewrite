@@ -360,5 +360,114 @@ action_show_fake_mapmode_steward = {
 	}
 	# /Number of Holdings
 	
+	
+	# SUPPLY LIMIT:
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_0_to_1
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value <= 1
+					}
+				}
+			}
+		}
+		color = { 255 0 0 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_1_to_5
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value > 1
+					}
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value <= 5
+					}
+				}
+			}
+		}
+		color = { 255 128 0 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_5_to_10
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value > 5
+					}
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value <= 10
+					}
+				}
+			}
+		}
+		color = { 255 255 0 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_10_to_15
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value > 10
+					}
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value <= 15
+					}
+				}
+			}
+		}
+		color = { 128 255 0 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_15_to_inf
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value > 15
+					}
+				}
+			}
+		}
+		color = { 0 255 0 }
+	}
+	# /Supply Limit
+	
 	events = { }	# No events, but again without this line stuff might break
 }

@@ -8,6 +8,7 @@ FMMDESC_2;Your [Root.job_treasurer.GetJobTitle] can produce a new map of the kno
 FMMOPTA_2;Simple Terrain;;;;;;;;;;;;;x
 FMMOPTB_2;Prosperity & Depopulation;;;;;;;;;;;;;x
 FMMOPTC_2;Number of Holdings;;;;;;;;;;;;;x
+FMMOPTD_2;Supply Limit (for you);;;;;;;;;;;;;x
 
 ## Decisions
 
@@ -47,3 +48,9 @@ JOB_FAKE_MAPMODE_Holdings_4;\n§Y4 Holdings§!\n;;;;;;;;;;;;;x
 JOB_FAKE_MAPMODE_Holdings_5;\n§Y5 Holdings§!\n;;;;;;;;;;;;;x
 JOB_FAKE_MAPMODE_Holdings_6;\n§Y6 Holdings§!\n;;;;;;;;;;;;;x
 JOB_FAKE_MAPMODE_Holdings_7;\n§Y7 Holdings§!\n;;;;;;;;;;;;;x
+# Supply Limit:
+JOB_FAKE_MAPMODE_Supply_Limit_0_to_1;\n§Y<1§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Supply_Limit_1_to_5;\n§Y1-5§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Supply_Limit_5_to_10;\n§Y5-10§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Supply_Limit_10_to_15;\n§Y10-15§!\n;;;;;;;;;;;;;x
+JOB_FAKE_MAPMODE_Supply_Limit_15_to_inf;\n§Y>15§!\n;;;;;;;;;;;;;x
