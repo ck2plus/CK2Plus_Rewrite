@@ -19,17 +19,15 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			is_patrician = no
+			is_feudal_type_govt = yes
+			# Feudal is the base
 			NOR = {
 				is_government_potential = chinese_imperial_government
 				is_government_potential = mercenary_government # CK2Plus
 				is_government_potential = muslim_government
-				is_government_potential = nomadic_government
 				is_government_potential = order_government
 				is_government_potential = roman_imperial_government
 				is_government_potential = theocratic_feudal_government
-				is_government_potential = theocracy_government
-				is_government_potential = tribal_government
 			}
 		}
 
@@ -73,15 +71,8 @@ feudal_governments = {
 		}
 		frame_suffix = "_iqta"
 		potential = {
-			is_patrician = no
+			is_feudal_type_govt = yes
 			religion_group = muslim
-			NOR = {
-				is_government_potential = chinese_imperial_government
-				is_government_potential = order_government
-				is_government_potential = mercenary_government # CK2Plus
-				is_government_potential = nomadic_government
-				is_government_potential = tribal_government
-			}
 		}
 
 		color = { 10 138 57 }
@@ -130,7 +121,7 @@ feudal_governments = {
 		}
 		frame_suffix = "_theocraticfeudal"
 		potential = {
-			is_patrician = no
+			is_feudal_type_govt = yes
 			culture_group = tibetan_group
 			OR = {
 				religion = bon
@@ -189,7 +180,7 @@ feudal_governments = {
 		}
 		frame_suffix = "_chineseimperial"
 		potential = {
-			is_patrician = no
+			is_feudal_type_govt = yes
 			tier = EMPEROR
 			primary_title = { has_title_flag = pretender_chinese_empire }
 			OR = {
@@ -302,7 +293,8 @@ feudal_governments = {
 		}
 		frame_suffix = "_romanimperial"
 		potential = {
-			is_patrician = no
+			is_feudal_type_govt = yes
+			# This needs to be made more generic and consistent then added into the greater trigger above
 			trigger_if = {
 				limit = {
 					is_save_game = no
