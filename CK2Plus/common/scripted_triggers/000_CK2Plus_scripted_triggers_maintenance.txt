@@ -10,6 +10,50 @@
 ## These MUST be called in a CHARACTER scope to work properly
 #
 
+# TEMPORARY LOCATION while being written
+is_feudal_type_govt = {
+	is_patrician = no
+	OR = {
+		# Feudal in general
+		capital_holding = { holding_type = CASTLE }
+		# Order Government
+		holy_order = yes
+		# Mercenary Government
+		mercenary = yes
+		# Iqta
+		AND = {
+			religion_group = muslim_group
+			capital_holding = { holding_type = TEMPLE }
+		}
+		# Theocratic Feudal
+		AND = {
+			culture_group = tibetan_group
+			OR = {
+				religion = bon
+				religion = bon_reformed
+				religion = buddhist
+			}
+			higher_tier_than = BARON
+			capital_holding = { holding_type = TEMPLE }
+		}
+		# Chinese Imperial
+		AND = {
+			primary_title = { has_title_flag = pretender_chinese_empire }
+			OR = {
+				culture_group = chinese_group
+				culture = khitan
+				culture = tangut
+				culture = jurchen
+				has_character_flag = chinese_imperial_government_preserve #keeps government when player is given culture change opton
+			}
+		}
+		# Roman Imperial
+		AND = {
+
+		}
+	}
+}
+
  # Don't fire something for animals - needs to include all "animal" culture groups:
  # HINT COMPATCH CRITICAL
 is_not_animal_culture_group_CK2Plus_trigger = {
