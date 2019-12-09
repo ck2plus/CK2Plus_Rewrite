@@ -18,6 +18,7 @@ on_yearly_pulse = {
 on_bi_yearly_pulse = {
 	events = {
 		PlusCeltic.002 # Celtic Druid becomes an unworthy priest
+		PlusBasque.001 # Basque Sorgin becomes an unworthy priest
 	}
 
 	random_events = {
