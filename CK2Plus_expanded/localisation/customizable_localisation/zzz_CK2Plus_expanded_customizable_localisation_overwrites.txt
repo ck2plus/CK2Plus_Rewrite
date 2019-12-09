@@ -50,7 +50,7 @@ defined_text = {
 					value = random
 				}
 			}
-		 }
+		}
 	}
 	text = {
 		localisation_key = String_Lollard
@@ -413,11 +413,11 @@ defined_text = {
 				true_religion_basque_pagan_reformed_trigger = yes
 				true_religion_basque_pagan_trigger = yes
 			}
-		}
-		NOT = {
-			has_alternate_start_parameter = {
-				key = religion_names
-				value = random
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
 			}
 		}
 	}

@@ -39,7 +39,7 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						has_gane_rule = {
+						has_game_rule = {
 							name = death_of_nations
 							value = on
 						}
