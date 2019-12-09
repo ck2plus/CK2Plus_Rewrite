@@ -24,10 +24,12 @@ feudal_governments = {
 				is_government_potential = chinese_imperial_government
 				is_government_potential = mercenary_government # CK2Plus
 				is_government_potential = muslim_government
+				is_government_potential = nomadic_government
 				is_government_potential = order_government
 				is_government_potential = roman_imperial_government
 				is_government_potential = theocratic_feudal_government
 				is_government_potential = theocracy_government
+				is_government_potential = tribal_government
 			}
 		}
 
