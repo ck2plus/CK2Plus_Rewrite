@@ -18,3 +18,23 @@ baby_portraits = {
 		desc = "BABY_PORTRAITS_NO_DESC"
 	}
 }
+
+death_of_nations = {
+	name = "DEATH_OF_NATIONS"
+	group = "RULE_GROUP_PLUS"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_DEATH_OF_NATIONS_ON"
+	}
+	option = {
+		name = empires
+		text = "RULE_OPTION_EMPIRES"
+		desc = "RULE_DEATH_OF_NATIONS_EMPIRES"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_DEATH_OF_NATIONS_OFF"
+	}
+}

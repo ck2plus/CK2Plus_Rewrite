@@ -37,7 +37,22 @@ character_event = {
 	immediate = {
 		any_title = {
 			limit = {
-				higher_tier_than = DUKE
+				OR = {
+					AND = {
+						has_gane_rule = {
+							name = death_of_nations
+							value = on
+						}
+						higher_tier_than = DUKE
+					}
+					AND = {
+						has_game_rule = {
+							name = death_of_nations
+							value = empires
+						}
+						higher_tier_than = KING
+					}
+				}
 				de_jure_liege = 0
 				has_holder = no
 				is_titular = no
