@@ -120,7 +120,7 @@ action_show_fake_mapmode_steward = {
 				terrain = jungle
 			}
 		}
-		color = { 73 108 13 }
+		color = { 63 92 13 }
 	}
 	display_on_map = {
 		trigger = {
