@@ -35,7 +35,7 @@ republic_governments = {
 							NOT = {
 								liege_before_war = {
 									is_merchant_republic = yes
-									NOT = { character = PREV
+									NOT = { character = PREV }
 								}
 							}
 						}
@@ -64,7 +64,7 @@ republic_governments = {
 							is_merchant_republic = yes
 						}
 					}
-				}	
+				}
 			}
 			NOR = {
 				is_government_potential = confucian_bureaucracy
