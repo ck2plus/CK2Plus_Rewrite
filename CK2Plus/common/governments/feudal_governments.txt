@@ -297,25 +297,23 @@ feudal_governments = {
 		frame_suffix = "_romanimperial"
 		potential = {
 			is_patrician = no
-			trigger_if = {
-				limit = {
+			OR = {
+				AND = {
 					is_save_game = no
 					has_game_started = no
-				}
-				realm = {
-					OR = {
-						title = e_byzantium
-						title = e_roman_empire
+					realm = {
+						OR = {
+							title = e_byzantium
+							title = e_roman_empire
+						}
 					}
 				}
-			}
-			trigger_else = {
 				realm = {
-					OR = {
-						title = e_byzantium
-						title = e_roman_empire
-					}
 					has_law = succ_byzantine_elective
+					OR = {
+						title = e_byzantium
+						title = e_roman_empire
+					}
 				}
 			}
 			NOR = {
