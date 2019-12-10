@@ -22,51 +22,49 @@ republic_governments = {
 		frame_suffix = "_merchantrepublic"
 		title_prefix = "city_"
 		potential = {
-			trigger_if = {
-				limit = { has_game_started = yes }
-				OR = {
-					AND = {
+			OR = {
+				AND = {
+					has_game_started = no
+					OR = {
 						is_patrician = yes
-						liege_before_war = {
-							is_merchant_republic = yes
-							NOR = {
-								character = PREV
+						AND = {
+							capital_scope = { port = yes }
+							capital_holding = { holding_type = CITY }
+							higher_real_tier_than = COUNT
+							any_demesne_province = { always = yes }
+							NOT = {
 								liege_before_war = {
-									NOT = { character = PREV }
 									is_merchant_republic = yes
+									NOT = { character = PREV
 								}
 							}
 						}
 					}
-					AND = {
-						is_merchant_republic = yes
-						higher_real_tier_than = count
-						any_demesne_province = { always = yes }
-						NOT = {
-							liege_before_war = {
-								NOT = { character = PREV }
-								is_merchant_republic = yes
-							}
-						}
-					}
 				}
-			}
-			trigger_else = {
-				OR = {
+				AND = {
 					is_patrician = yes
-					AND = {
-						capital_scope = { port = yes }
-						capital_holding = { holding_type = CITY }
-						higher_real_tier_than = count
-						any_demesne_province = { always = yes }
-						NOT = {
+					liege_before_war = {
+						is_merchant_republic = yes
+						NOR = {
+							character = PREV
 							liege_before_war = {
-								is_merchant_republic = yes
 								NOT = { character = PREV }
+								is_merchant_republic = yes
 							}
 						}
 					}
 				}
+				AND = {
+					is_merchant_republic = yes
+					higher_real_tier_than = COUNT
+					any_demesne_province = { always = yes }
+					NOT = {
+						liege_before_war = {
+							NOT = { character = PREV }
+							is_merchant_republic = yes
+						}
+					}
+				}	
 			}
 			NOR = {
 				is_government_potential = confucian_bureaucracy
@@ -119,18 +117,13 @@ republic_governments = {
 		frame_suffix = "_republic"
 		title_prefix = "city_"
 		potential = {
-			trigger_if = {
-				limit = { ai = yes}
-				NOR = {
-					is_government_potential = confucian_bureaucracy
-					is_government_potential = merchant_republic_government
-					is_government_potential = mercenary_government
-					is_government_potential = order_government
-					is_government_potential = theocracy_government
-				}
-			}
-			trigger_else = {
-				always = no
+			ai = yes
+			NOR = {
+				is_government_potential = confucian_bureaucracy
+				is_government_potential = merchant_republic_government
+				is_government_potential = mercenary_government
+				is_government_potential = order_government
+				is_government_potential = theocracy_government
 			}
 		}
 
