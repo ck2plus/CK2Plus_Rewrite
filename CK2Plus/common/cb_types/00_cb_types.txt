@@ -17,30 +17,25 @@ claim = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use_title = {
-		OR = {
-			ROOT = { is_female = no }
-			AND = {
-				NOT = { ROOT = { religion_group = muslim } }
-				NOT = { ROOT = { has_religion_feature = religion_patriarchal } }
-			}
-		}
-		OR = {
-			ROOT = { is_female = yes }
-			NOT = { ROOT = { has_religion_feature = religion_matriarchal } }
-		}
-		OR = {
-			FROM = {
-				has_landed_title = PREV
-			}
-			holder_scope = {
-				is_liege_or_above = FROM
-			}
-		}
-
+		# Attacker
 		ROOT = {
+			OR = {
+				AND = {
+					is_female = yes
+					NOR = {
+						religion_group = muslim
+						has_religion_feature = religion_patriarchal
+					}
+				}
+				AND = {
+					is_female = no
+					NOT = { has_religion_feature = religion_matriarchal }
+				}
+			}
 			OR = {
 				is_ruler = no
 				primary_title = {
@@ -51,18 +46,16 @@ claim = {
 					}
 				}
 			}
-		}
-
-		OR = {
-			ROOT = { has_strong_claim = PREV }
-			ROOT = { has_character_flag = claimant_adventurer }
-			AND = {
-				ROOT = { has_weak_claim = PREV }
-				OR = {
-					is_pretender = yes # Checks vs ROOT character
-					holder_scope = { has_regent = yes }
-					AND = {
-						ROOT = {
+			OR = {
+				has_strong_claim = PREV
+				has_character_flag = claimant_adventurer
+				PREV = { is_contested = yes } # Is already being contested in some form of Claim or Succession War
+				AND = {
+					has_weak_claim = PREV
+					OR = {
+						PREV = { is_pretender = yes } # Checks vs ROOT
+						PREV = { holder_scope = { has_regent = yes } }
+						AND = {
 							OR = {
 								is_female = no
 								has_law = status_of_women_4
@@ -70,20 +63,28 @@ claim = {
 								has_religion_feature = religion_equal
 								has_religion_feature = religion_feature_bon
 							}
-						}
-						holder_scope = {
-							is_female = yes
-							NOR = {
-								has_religion_feature = religion_matriarchal
-								has_religion_feature = religion_equal
-								has_religion_feature = religion_feature_bon
-								has_law = status_of_women_4
-								has_game_rule = { name = gender value = all }
+							PREV = {
+								holder_scope = {
+									is_female = yes
+									NOR = {
+										has_religion_feature = religion_matriarchal
+										has_religion_feature = religion_equal
+										has_religion_feature = religion_feature_bon
+										has_law = status_of_women_4
+										has_game_rule = { name = gender value = all }
+									}
+								}
 							}
 						}
 					}
-					is_contested = yes # Is already being contested in some form of Claim or Succession War
 				}
+			}
+		}
+		# Defender
+		FROM = {
+			OR = {
+				has_landed_title = PREV
+				PREV = { holder_scope = { is_liege_or_above = FROM } }
 			}
 		}
 	}
@@ -233,9 +234,6 @@ claim = {
 	}
 
 	on_reverse_demand_title = {
-		#any_claim = { #Does not work.
-			#remove_claim = ROOT
-		# }
 		ROOT = { show_scope_change = no remove_claim = PREV }
 		ROOT = {
 			hidden_tooltip = {
@@ -288,6 +286,11 @@ claim = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
 }
 
 # 1
@@ -315,34 +318,29 @@ other_claim = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use_title = {
-		OR = {
-			ROOT = { is_female = no }
-			AND = {
-				NOT = { ROOT = { religion_group = muslim } }
-				NOT = { ROOT = { has_religion_feature = religion_patriarchal } }
-				NOT = { succ_law_title = { has_law = agnatic_succession } }
-			}
-		}
-		OR = {
-			ROOT = { is_female = yes }
-			AND = {
-				NOT = { ROOT = { has_religion_feature = religion_matriarchal } }
-				NOT = { succ_law_title = { has_law = enatic_succession } }
-			}
-		}
-		OR = {
-			FROM = {
-				has_landed_title = PREV
-			}
-			holder_scope = {
-				is_liege_or_above = FROM
-			}
-		}
-
+		# Attacker
 		ROOT = {
+			OR = {
+				AND = {
+					is_female = yes
+					NOR = {
+						religion_group = muslim
+						has_religion_feature = religion_patriarchal
+						PREV = { succ_law_title = { has_law = agnatic_succession } }
+					}
+				}
+				AND = {
+					is_female = no
+					NOR = {
+						has_religion_feature = religion_matriarchal
+						PREV = { succ_law_title = { has_law = enatic_succession } }
+					}
+				}
+			}
 			OR = {
 				is_ruler = no
 				primary_title = {
@@ -353,37 +351,48 @@ other_claim = {
 					}
 				}
 			}
+			OR = {
+				has_strong_claim = PREV
+				PREV = { is_contested = yes } # Is already being contested in some form of Claim or Succession War
+				AND = {
+					has_weak_claim = PREV
+					OR = {
+						PREV = { is_pretender = yes } # Checks vs ROOT character
+						PREV = { holder_scope = { has_regent = yes } }
+						AND = {
+							OR = {
+								is_female = no
+								has_law = status_of_women_4
+							}
+							PREV = {
+								holder_scope = {
+									is_female = yes
+									NOR = {
+										has_law = status_of_women_4
+										has_game_rule = {
+											name = gender
+											value = all
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		# Defender
+		FROM = {
+			OR = {
+				has_landed_title = PREV
+				PREV = { holder_scope = { is_liege_or_above = FROM } }
+			}
 		}
 
 		NOT = {
 			any_war = { # when used in title scope, checks all wars for that title
 				attacker = {
 					character = ROOT
-				}
-			}
-		}
-
-		OR = {
-			ROOT = { has_strong_claim = PREV }
-			AND = {
-				ROOT = { has_weak_claim = PREV }
-				OR = {
-					is_pretender = yes # Checks vs ROOT character
-					holder_scope = { has_regent = yes }
-					AND = {
-						ROOT = { OR = { is_female = no  has_law = status_of_women_4 } }
-						holder_scope = {
-							is_female = yes
-							NOR = {
-								has_law = status_of_women_4
-								has_game_rule = {
-									name = gender
-									value = all
-								}
-							}
-						}
-					}
-					is_contested = yes # Is already being contested in some form of Claim or Succession War
 				}
 			}
 		}
@@ -737,6 +746,10 @@ other_claim = {
 
 	defender_ai_defeat_worth = {
 		factor = 100
+	}
+
+	ai_will_do = {
+
 	}
 }
 

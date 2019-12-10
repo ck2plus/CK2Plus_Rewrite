@@ -2,7 +2,7 @@
 #
 #	Plus scripted score values
 #
-#	Total = 11
+#	Total = 12
 #
 #	diplomacy_FROM_factor
 #	martial_FROM_factor
@@ -17,6 +17,8 @@
 #	stewardship_factor
 #	intrigue_factor
 #	learning_factor
+#
+#	war_tuning
 #
 ##################################################################
 
@@ -804,5 +806,17 @@ learning_factor = { #Use this one for learning focused events
 	modifier = {
 		factor = 0.2
 		trait = lustful
+	}
+}
+
+# War Tuning
+war_tuning = { # Used for Casus Belis
+	modifier = {
+		factor = 0
+		ai_rationality <= 1 # Placeholder
+		OR = {
+			gold < 200
+			monthly_income < 1
+		}
 	}
 }

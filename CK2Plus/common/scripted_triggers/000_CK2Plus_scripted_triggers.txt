@@ -7,6 +7,10 @@
 # These MUST be called in a CHARACTER scope to work properly
 #
 
+CK2Plus_war_reqs = {
+
+}
+
  # Don't fire something for animals - needs to include all "animal" culture groups:
  # HINT COMPATCH CRITICAL
 is_not_animal_culture_group_CK2Plus_trigger = {
