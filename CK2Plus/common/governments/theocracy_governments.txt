@@ -25,28 +25,21 @@ theocracy_governments = {
 		frame_suffix = "_theocracy"
 		title_prefix = "temple_"
 		potential = {
-			trigger_if = {
-				limit = { ai = yes }
-				OR = {
-					controls_religion = yes
-					capital_holding = {
-						holding_type = TEMPLE
-					}
-				}
-				NOR = {
-					has_religion_feature = religion_temporal_head
-					is_government_potential = muslim_government
-					is_government_potential = theocratic_feudal_government
-					is_government_potential = order_government
-					is_government_potential = mercenary_government # CK2Plus
-					AND = {
-						religion = norse_pagan_reformed
-						has_religion_features = no
-					}
-				}
+			ai = yes
+			OR = {
+				controls_religion = yes
+				capital_holding = { holding_type = TEMPLE }
 			}
-			trigger_else = {
-				always = no
+			NOR = {
+				has_religion_feature = religion_temporal_head
+				is_government_potential = muslim_government
+				is_government_potential = theocratic_feudal_government
+				is_government_potential = order_government
+				is_government_potential = mercenary_government # CK2Plus
+				AND = {
+					religion = norse_pagan_reformed
+					has_religion_features = no
+				}
 			}
 		}
 
