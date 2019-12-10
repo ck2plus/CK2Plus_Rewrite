@@ -30,11 +30,9 @@ tribal_governments = {
 		frame_suffix = "_tribal"
 		title_prefix = "tribal_"
 		potential = {
-			trigger_if = {
-				limit = {
-					has_game_started = yes
-				}
-				is_tribal = yes
+			OR = {
+				is_feudal = no
+				has_game_started = no
 			}
 			NOR = {
 				is_patrician = yes

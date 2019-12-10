@@ -25,9 +25,9 @@ nomadic_governments = {
 		frame_suffix = "_nomadic"
 		title_prefix = "nomadic_"
 		potential = {
-			trigger_if = {
-				limit = { has_game_started = yes }
-				is_nomadic = yes
+			OR = {
+				is_feudal = no
+				has_game_started = no
 			}
 			NOR = {
 				is_patrician = yes
