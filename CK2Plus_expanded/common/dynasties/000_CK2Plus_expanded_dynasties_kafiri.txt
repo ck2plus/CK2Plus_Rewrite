@@ -1,1 +1,85 @@
 # Valid IDs: 1000084000 - 1000084999
+1000084000 = {
+	name = "Vâsi"
+	culture = kafiri
+}
+
+1000084001 = {
+	name = "Kâta"
+	culture = kafiri
+}
+
+1000084002 = {
+	name = "Kom"
+	culture = kafiri
+}
+
+1000084003 = {
+	name = "Mumo"
+	culture = kafiri
+}
+
+1000084004 = {
+	name = "Ksto"
+	culture = kafiri
+}
+
+1000084005 = {
+	name = "Binio"
+	culture = kafiri
+}
+
+1000084006 = {
+	name = "Jâmco"
+	culture = kafiri
+}
+
+1000084007 = {
+	name = "Jâša"
+	culture = kafiri
+}
+
+1000084008 = {
+	name = "Âskunu"
+	culture = kafiri
+}
+
+1000084009 = {
+	name = "Sanu"
+	culture = kafiri
+}
+
+1000084010 = {
+	name = "Grâmsanâ"
+	culture = kafiri
+}
+
+1000084011 = {
+	name = "Kalasa"
+	culture = kafiri
+}
+
+1000084011 = {
+	name = "Väi"
+	culture = kafiri
+}
+
+1000084012 = {
+	name = "Cima-nišei"
+	culture = kafiri
+}
+
+1000084013 = {
+	name = "Vântä"
+	culture = kafiri
+}
+
+1000084014 = {
+	name = "Tregâmi"
+	culture = kafiri
+}
+
+1000084015 = {
+	name = "Dungulio"
+	culture = kafiri
+}
