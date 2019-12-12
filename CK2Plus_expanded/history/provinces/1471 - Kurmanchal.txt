@@ -13,7 +13,7 @@ b_askot_kurmanchal = temple
 #b_champawat = {
 
 # Misc
-culture = hindustani
+culture = himachali
 religion = buddhist
 
 # History
