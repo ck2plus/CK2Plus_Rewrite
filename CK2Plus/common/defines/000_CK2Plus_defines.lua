@@ -15,6 +15,7 @@ NDefines.NMilitary.SHATTERED_RETREAT_MAX_PROVINCES = 5
 NDefines.NCharacter.TRIBAL_EMPTY_HOLDING_TAX_MULTIPLIER = 0.5
 NDefines.NCharacter.TRIBAL_EMPTY_HOLDING_LEVY_MULTIPLIER = 0.1
 NDefines.NCharacter.TRIBAL_EMPTY_HOLDING_GARRISON_MULTIPLIER = 0.9
+
 -- Changes for combat tactics overhaul
 
 NDefines.NMilitary.ATTACK_TO_DAMAGE_MULT = 0.03					-- Attack value of troops is multiplied by this when doing damage
