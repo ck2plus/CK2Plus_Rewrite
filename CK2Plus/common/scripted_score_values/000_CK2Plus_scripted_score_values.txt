@@ -811,12 +811,11 @@ learning_factor = { #Use this one for learning focused events
 
 # War Tuning
 war_tuning = { # Used for Casus Belis
+	# Only the irrational go to war broke
 	modifier = {
 		factor = 0
 		ai_rationality <= 1 # Placeholder
-		OR = {
-			gold < 200
-			monthly_income < 1
-		}
+		gold < 200
+		monthly_income < 1
 	}
 }
