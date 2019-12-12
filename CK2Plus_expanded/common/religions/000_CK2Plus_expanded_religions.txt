@@ -7,7 +7,6 @@ pagan_group = {
 		alternate_start = { always = no }
 
 		ai_convert_other_group = 2 #Always proselytize
-		ai_convert_same_group = 2  #Always proselytize
 
 		color = { 0.3 0.45 0.25 } #RGB: 77 115 64
 		icon = 61
@@ -28,6 +27,7 @@ pagan_group = {
 
 		allow_rivermovement = yes
 		defensive_attrition = yes
+		hard_to_convert = yes
 		priests_can_marry = yes
 		men_can_take_consorts = yes
 		join_crusade_if_bordering_hostile = yes
@@ -43,9 +43,6 @@ pagan_group = {
 		graphical_culture = norsegfx #For on-map CoA's
 
 		reformed = celtic_pagan_reformed
-
-		ai_convert_other_group = 2 #Always proselytize
-		ai_convert_same_group = 2  #Always proselytize
 
 		color = { 0.15 0.35 0.15 } #RGB: 38 89 38
 
@@ -66,6 +63,7 @@ pagan_group = {
 
 		allow_rivermovement = yes
 		defensive_attrition = yes
+		hard_to_convert = yes
 		priests_can_marry = yes
 		men_can_take_consorts = yes
 		peace_prestige_loss = yes
@@ -105,10 +103,7 @@ pagan_group = {
 		graphical_culture = norsegfx #For on-map CoA's
 		alternate_start = { always = no }
 
-		reformed = basque_pagan_reformed
-
 		ai_convert_other_group = 2 #Always proselytize
-		ai_convert_same_group = 2  #Always proselytize
 
 		color = { 0.612 0.114 0.067 }
 
@@ -129,6 +124,7 @@ pagan_group = {
 
 		allow_rivermovement = yes
 		defensive_attrition = yes
+		hard_to_convert = yes
 		priests_can_marry = yes
 		join_crusade_if_bordering_hostile = yes
 		feminist = yes
@@ -164,9 +160,6 @@ pagan_group = {
 
 		reformed = basque_pagan_reformed
 
-		ai_convert_other_group = 2 #Always proselytize
-		ai_convert_same_group = 2  #Always proselytize
-
 		color = { 0.839 0.153 0.094 }
 
 		icon = 63
@@ -186,6 +179,7 @@ pagan_group = {
 
 		allow_rivermovement = yes
 		defensive_attrition = yes
+		hard_to_convert = yes
 		priests_can_marry = yes
 		feminist = yes
 		women_can_take_consorts = yes
