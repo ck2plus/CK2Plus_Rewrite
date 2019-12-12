@@ -749,7 +749,8 @@ other_claim = {
 	}
 
 	ai_will_do = {
-
+		factor = 1
+		war_tuning = yes
 	}
 }
 
@@ -774,46 +775,51 @@ claim_on_liege = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use_title = {
-		OR = {
-			FROM = {
-				has_landed_title = PREV
-			}
-			holder_scope = {
-				is_liege_or_above = FROM
-			}
-		}
-		OR = {
-			ROOT = { has_strong_claim = PREV }
-			ROOT = { has_character_flag = faction_claimant_ultimatum_taken } # Faction war. Ignore claim strength.
-			AND = {
-				ROOT = { has_weak_claim = PREV }
-				OR = {
-					is_pretender = yes # Checks vs ROOT character
-					holder_scope = { has_regent = yes }
-					ROOT = {
-						OR = {
-							is_female = no
-							has_law = status_of_women_4
-						}
-					}
-					holder_scope = {
-						is_female = yes
-						NOR = {
-							has_law = status_of_women_4
-							has_game_rule = {
-								name = gender
-								value = all
+		is_vice_royalty = no
+		# Attacker
+		ROOT = {
+			OR = {
+				has_strong_claim = PREV
+				has_character_flag = faction_claimant_ultimatum_taken
+				PREV = { is_contested = yes }
+				AND = {
+					has_weak_claim = PREV
+					OR = {
+						PREV = { is_pretender = yes } # Checks vs ROOT character
+						PREV = { holder_scope = { has_regent = yes } }
+						AND = {
+							OR = {
+								is_female = no
+								has_law = status_of_women_4
+							}
+							PREV = {
+								holder_scope = {
+									is_female = yes
+									NOR = {
+										has_law = status_of_women_4
+										has_game_rule = {
+											name = gender
+											value = all
+										}
+									}
+								}
 							}
 						}
 					}
-					is_contested = yes # Is already being contested in some form of Claim or Succession War
 				}
 			}
 		}
-		is_vice_royalty = no
+		# Defender
+		FROM = {
+			OR = {
+				has_landed_title = PREV
+				PREV = { holder_scope = { is_liege_or_above = FROM } }
+			}
+		}
 	}
 
 	is_valid = {
@@ -899,7 +905,7 @@ claim_on_liege = {
 							tier = king
 							tier = emperor
 						}
-	#					is_titular = no
+						# is_titular = no
 						NOT = { has_law = crown_authority_0 }
 					}
 					if = {
@@ -1064,8 +1070,12 @@ claim_on_liege = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
-}
 
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+}
 
 # 3
 claim_on_liege_plot = {
@@ -1086,6 +1096,7 @@ claim_on_liege_plot = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use_title = {
@@ -1301,8 +1312,12 @@ claim_on_liege_plot = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
-}
 
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+}
 
 # 4
 claim_on_vassal_plot = {
@@ -1323,6 +1338,7 @@ claim_on_vassal_plot = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use_title = {
@@ -1442,6 +1458,11 @@ claim_on_vassal_plot = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
 }
 
 # 5
@@ -1469,6 +1490,8 @@ other_claim_on_liege = {
 	}
 
 	can_use_title = {
+		is_vice_royalty = no
+
 		OR = {
 			ROOT = { is_female = no }
 			NOT = { has_law = agnatic_succession }
@@ -1490,6 +1513,7 @@ other_claim_on_liege = {
 				ROOT = { has_weak_claim = PREV }
 				OR = {
 					is_pretender = yes # Checks vs ROOT character
+					is_contested = yes # Is already being contested in some form of Claim or Succession War
 					holder_scope = { has_regent = yes }
 					AND = {
 						ROOT = { OR = { is_female = no has_law = status_of_women_4 } }
@@ -1504,11 +1528,9 @@ other_claim_on_liege = {
 							}
 						}
 					}
-					is_contested = yes # Is already being contested in some form of Claim or Succession War
 				}
 			}
 		}
-		is_vice_royalty = no
 	}
 
 	is_valid = {
@@ -1854,6 +1876,11 @@ other_claim_on_liege = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
 }
 
 # 6
@@ -1882,6 +1909,7 @@ claim_all = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	is_valid = {
@@ -2106,8 +2134,13 @@ claim_all = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
-}
 
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
+}
 
 change_seniority_succession_law = {
 	name = CB_NAME_SENIORITY_SUCCESSION_LAW
@@ -2126,6 +2159,7 @@ change_seniority_succession_law = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	is_valid = {
@@ -2309,8 +2343,12 @@ change_seniority_succession_law = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
-}
 
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+}
 
 change_primogeniture_succession_law = {
 	name = CB_NAME_PRIMOGENITURE_SUCCESSION_LAW
@@ -2329,6 +2367,7 @@ change_primogeniture_succession_law = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	is_valid = {
@@ -2515,6 +2554,12 @@ change_primogeniture_succession_law = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
 }
 
 change_feudal_elective_succession_law = {
@@ -2534,6 +2579,7 @@ change_feudal_elective_succession_law = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	is_valid = {
@@ -2585,7 +2631,7 @@ change_feudal_elective_succession_law = {
 							tier = king
 							tier = emperor
 						}
-	#					is_titular = no
+						# is_titular = no
 						NOT = { has_law = crown_authority_0 }
 					}
 					if = {
@@ -2734,8 +2780,13 @@ change_feudal_elective_succession_law = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
-}
 
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
+}
 
 invasion = {
 	name = CB_NAME_INVASION
@@ -2757,6 +2808,7 @@ invasion = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use_title = {
@@ -3143,7 +3195,6 @@ invasion = {
 				}
 			}
 		}
-
 		modifier = {
 			factor = 0
 			FROM = {
@@ -3186,6 +3237,7 @@ invasion = {
 				}
 			}
 		}
+		war_tuning = yes
 	}
 }
 
@@ -3208,6 +3260,7 @@ tribal_invasion = {
 			prestige = 500
 		}
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	on_add = {
@@ -3567,7 +3620,6 @@ tribal_invasion = {
 
 	ai_will_do = {
 		factor = 1
-
 		modifier = {
 			factor = 0.9 # Prefer using CB's without on_add costs
 		}
@@ -3588,7 +3640,6 @@ tribal_invasion = {
 				}
 			}
 		}
-
 		# Try to guide the Hordes in the right direction
 		modifier = {
 			factor = 0.1
@@ -3705,6 +3756,7 @@ tribal_invasion = {
 				}
 			}
 		}
+		war_tuning = yes
 	}
 }
 
@@ -3781,6 +3833,7 @@ crusade = {
 			}
 			mercenary = no
 		}
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -4287,6 +4340,12 @@ crusade = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
 }
 
 # Crusade using the new crusade system. See crusades.info in the religion folder for documentation
@@ -4345,6 +4404,7 @@ new_crusade = {
 			}
 			mercenary = no
 		}
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -5856,6 +5916,11 @@ new_crusade = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
 }
 
 # Regular Holy War CB
@@ -5879,6 +5944,7 @@ religious = {
 				piety = 250
 			}
 		}
+		CK2Plus_war_reqs = yes
 	}
 
 	on_add = {
@@ -6486,6 +6552,8 @@ religious = {
 				}
 			}
 		}
+
+		war_tuning = yes
 	}
 }
 
@@ -6524,6 +6592,7 @@ excommunicated_ruler = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	is_valid = {
@@ -6704,6 +6773,11 @@ excommunicated_ruler = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
 }
 
 bid_for_independence = {
@@ -6719,6 +6793,7 @@ bid_for_independence = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -6979,6 +7054,11 @@ bid_for_independence = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
 }
 
 depose_liege = {
@@ -6993,6 +7073,7 @@ depose_liege = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -7164,6 +7245,11 @@ depose_liege = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
 }
 
 overthrow_ruler = {
@@ -7180,6 +7266,7 @@ overthrow_ruler = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -7379,6 +7466,12 @@ overthrow_ruler = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
 }
 
 overthrow_ruler_no_calls = {
@@ -7393,6 +7486,7 @@ overthrow_ruler_no_calls = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -7536,6 +7630,12 @@ overthrow_ruler_no_calls = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
 }
 
 change_gavelkind_succession_law = {
@@ -7549,6 +7649,7 @@ change_gavelkind_succession_law = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -7733,6 +7834,12 @@ change_gavelkind_succession_law = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
 }
 
 lower_crown_authority_law = {
@@ -7746,6 +7853,7 @@ lower_crown_authority_law = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -7924,6 +8032,12 @@ lower_crown_authority_law = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
 }
 
 
@@ -7938,6 +8052,7 @@ lower_tribal_organization_law = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -8117,6 +8232,11 @@ lower_tribal_organization_law = {
 	defender_ai_defeat_worth = {
 		factor = 100
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
 }
 
 coastal_republic = {
@@ -8136,6 +8256,7 @@ coastal_republic = {
 
 	can_use_gui = {
 		check_if_crusader_trigger = yes
+		CK2Plus_war_reqs = yes
 	}
 
 	can_use = {
@@ -8293,6 +8414,12 @@ coastal_republic = {
 	defender_ai_defeat_worth = {
 		factor = 50
 	}
+
+	ai_will_do = {
+		factor = 1
+		war_tuning = yes
+	}
+
 }
 
 coastal_county_republic = {
