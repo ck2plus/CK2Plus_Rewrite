@@ -13,7 +13,7 @@ b_srinagar = city
 #b_haridwar = {
 
 # Misc
-culture = hindustani
+culture = himachali
 religion = buddhist
 
 # History

@@ -13,7 +13,7 @@ b_nurpur = temple
 #b_kullu = {
 
 # Misc
-culture = panjabi
+culture = himachali
 religion = buddhist
 
 # History

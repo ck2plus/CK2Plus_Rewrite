@@ -13,14 +13,10 @@ b_huldi = city
 #b_janwai = {
 
 # Misc
-culture = zhangzhung
-religion = bon # Intermarriage and active Tibetization
+culture = dardic # LordPeter: I'm not convinced that the local population was ever "zhangzhung". It wasn't even under Tibetan rule at any point.
+religion = buddhist # Same thing. Why would it be "bon" if it was always ruled by non-Bön non-Tibetan rulers.
 
 # History
-965.1.1 = {
-	religion = buddhist # Tibetan presence gone
-	culture = dardic # Tibetan presence gone
-}
 1050.1.1 = { 
         religion = hindu
 } 
