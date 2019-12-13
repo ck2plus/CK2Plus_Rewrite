@@ -1179,8 +1179,8 @@ pagan_group = {
 
 		secondary_event_pictures = tengri_pagan
 
-		icon = 63			# Tengri reformed
-		heresy_icon = 64	# Tengri reformed heresy
+		icon = 60			# Tengri reformed
+		heresy_icon = 61	# Tengri reformed heresy
 
 		ai_convert_other_group = 2 # always try to convert
 
@@ -1231,8 +1231,8 @@ pagan_group = {
 
 		graphical_culture = mongolgfx
 
-		icon = 62			# Tengri
-		heresy_icon = 64	# Tengri reformed heresy
+		icon = 59			# Tengri
+		heresy_icon = 61	# Tengri reformed heresy
 
 		color = { 0.0 0.2 0.8 }
 
@@ -1287,8 +1287,8 @@ pagan_group = {
 
 		secondary_event_pictures = baltic_pagan
 
-		icon = 60			# Baltic reformed
-		heresy_icon = 61	# Baltic reformed heresy
+		icon = 63			# Baltic reformed
+		heresy_icon = 64	# Baltic reformed heresy
 
 		ai_convert_other_group = 2 # always try to convert
 
@@ -1349,8 +1349,8 @@ pagan_group = {
 	baltic_pagan = {
 		graphical_culture = pagangfx
 
-		icon = 59			# Baltic
-		heresy_icon = 61	# Baltic reformed heresy
+		icon = 62			# Baltic
+		heresy_icon = 64	# Baltic reformed heresy
 
 		color = { 0.6 0.4 0.3 }
 		crusade_name = GREAT_HOLY_WAR
@@ -2630,8 +2630,8 @@ indian_group = {
 		graphical_culture = buddhistgfx
 		secondary_event_pictures = sunni
 
-		icon = 31			# Buddhist
-		heresy_icon = 32	# Buddhist heresy
+		icon = 32			# Buddhist
+		heresy_icon = 33	# Buddhist heresy
 
 		color = { 0.8 0.4 0.0 }
 
