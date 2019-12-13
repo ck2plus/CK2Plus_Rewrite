@@ -2,7 +2,7 @@
 	name = "Audoin"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	519.1.1 = {
 		birth = yes
 	}
@@ -19,7 +19,7 @@
 	female = yes
 	dynasty = 1044032 #Theoderingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	520.1.1 = {
 		birth = yes
 	}
@@ -32,7 +32,7 @@
 	name = "Alboin"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190122
 	mother = 190123
 	539.1.1 = {
@@ -47,7 +47,7 @@
 	name = "Grasulf"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190122
 	mother = 190123
 	542.1.1 = {
@@ -62,7 +62,7 @@
 	name = "Gisulf"#duke of Friuli
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190125
 	559.1.1 = {
 		birth = yes
@@ -76,7 +76,7 @@
 	name = "Zotto" #duke of Benevento
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190125
 	560.1.1 = {
 		birth = yes
@@ -93,7 +93,7 @@
 	name = "Gisulf" #II duke of Friuli
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190126
 	578.1.1 = {
 		birth = yes
@@ -110,7 +110,7 @@
 	name = "Taso" #duke of Friuli
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190128
 	mother = 190129
 	594.1.1 = {
@@ -125,7 +125,7 @@
 	name = "Cacco"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190128
 	mother = 190129
 	595.1.1 = {
@@ -140,7 +140,7 @@
 	name = "Radoald"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190128
 	mother = 190129
 	596.1.1 = {
@@ -156,7 +156,7 @@
 	female = yes
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190128
 	mother = 190129
 	598.1.1 = {
@@ -172,7 +172,7 @@
 	female = yes
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190128
 	mother = 190129
 	603.1.1 = {
@@ -187,7 +187,7 @@
 	name = "Grimoald" #king of lombards
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190128
 	mother = 190129
 	609.1.1 = {
@@ -206,7 +206,7 @@
 	female = yes
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190181
 	634.1.1 = {
 		birth = yes
@@ -220,7 +220,7 @@
 	name = "Romuald"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190133
 	mother = 190134
 	653.1.1 = {
@@ -238,7 +238,7 @@
 	name = "Garibald"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190133
 	mother = 190134
 	655.1.1 = {
@@ -254,7 +254,7 @@
 	female = yes
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190248
 	653.1.1 = {
 		birth = yes
@@ -268,7 +268,7 @@
 	name = "Grimoald"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190135
 	mother = 190137
 	669.1.2 = {
@@ -286,7 +286,7 @@
 	name = "Gisulf"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190135
 	mother = 190137
 	670.1.1 = {
@@ -305,7 +305,7 @@
 	female = yes
 	dynasty = 1044036 #Lampertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	669.1.1 = {
 		birth = yes
 	}
@@ -318,7 +318,7 @@
 	name = "Romuald"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190139
 	mother = 190140
 	686.1.2 = {
@@ -343,7 +343,7 @@
 	female = yes
 	dynasty = 1044037 #Giselbertling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	684.1.1 = {
 		birth = yes
 	}
@@ -357,7 +357,7 @@
 	female = yes
 	dynasty = 1044038 #Gaiduldling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	709.1.1 = {
 		birth = yes
 	}
@@ -370,7 +370,7 @@
 	name = "Gisulf"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190141
 	mother = 190142
 	702.1.1 = {
@@ -389,7 +389,7 @@
 	female = yes
 	dynasty = 1044039 #Waldulfingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	701.1.1 = {
 		birth = yes
 	}
@@ -402,7 +402,7 @@
 	name = "Liutprand"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190144
 	mother = 190145
 	719.1.1 = {
@@ -417,7 +417,7 @@
 	name = "Arechis"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190146
 	735.1.1 = {
 		birth = yes
@@ -435,7 +435,7 @@
 	female = yes
 	dynasty = 1044053 #Alachisling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190347
 	mother = 190340
 	735.1.1 = {
@@ -450,7 +450,7 @@
 	name = "Romoald"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190147
 	mother = 190148
 	751.1.1 = {
@@ -465,7 +465,7 @@
 	name = "Grimoald"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190147
 	mother = 190148
 	752.1.1 = {
@@ -484,7 +484,7 @@
 	female = yes
 	dynasty = 1044041 #Romoaldingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	750.1.1 = {
 		birth = yes
 	}
@@ -497,7 +497,7 @@
 	name = "Ilderic"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190150
 	mother = 190151
 	768.1.1 = {
@@ -512,7 +512,7 @@
 	name = "Arechis" #duke of Benevento
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190126
 	581.1.1 = {
 		birth = yes
@@ -526,7 +526,7 @@
 	name = "Aiulf"
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190153
 	601.1.1 = {
 		birth = yes
@@ -540,7 +540,7 @@
 	name = "Grasulf" #duke of Friuli
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190126
 	579.1.1 = {
 		birth = yes
@@ -554,7 +554,7 @@
 	name = "Ago" #duke of Friuli
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190246
 	599.1.1 = {
 		birth = yes
@@ -568,7 +568,7 @@
 	name = "Lupus" #duke of Friuli
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190247
 	620.1.1 = {
 		birth = yes
@@ -582,7 +582,7 @@
 	name = "Arnefrit" #duke of Friuli
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190248
 	638.1.1 = {
 		birth = yes
@@ -596,7 +596,7 @@
 	name = "Wechtar" #duke of Friuli
 	dynasty = 1044059 #Wechtaringi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	636.1.1 = {
 		birth = yes
 	}
@@ -609,7 +609,7 @@
 	name = "Landar" #duke of Friuli
 	dynasty = 1044059 #Wechtaringi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190250
 	652.1.1 = {
 		birth = yes
@@ -623,7 +623,7 @@
 	name = "Rodoald" #duke of Friuli
 	dynasty = 1044059 #Wechtaringi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190251
 	668.1.1 = {
 		birth = yes
@@ -638,7 +638,7 @@
 	female = yes
 	dynasty = 1044059 #Wechtaringi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190251
 	669.1.1 = {
 		birth = yes
@@ -652,7 +652,7 @@
 	name = "Ado" #duke of Friuli
 	dynasty = 1044059 #Wechtaringi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190251
 	678.1.1 = {
 		birth = yes
@@ -666,7 +666,7 @@
 	name = "Ansfrid" #duke of Friuli
 	dynasty = 1044060 #Ansfridingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	656.1.1 = {
 		birth = yes
 	}
@@ -682,7 +682,7 @@
 	name = "Ferdulf" #duke of Friuli
 	dynasty = 1044060 #Ansfridingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190255
 	mother = 190253
 	685.1.1 = {
@@ -697,7 +697,7 @@
 	name = "Corvulus" #duke of Friuli
 	dynasty = 1044060 #Ansfridingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190256
 	701.1.1 = {
 		birth = yes
@@ -711,7 +711,7 @@
 	name = "Ferdulf"
 	dynasty = 1044060 #Ansfridingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190257
 	721.1.1 = {
 		birth = yes
@@ -725,7 +725,7 @@
 	name = "Munichis"
 	dynasty = 1044052 #Munichingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	701.1.1 = {
 		birth = yes
 	}
@@ -738,7 +738,7 @@
 	name = "Anselm" #duke of Friuli
 	dynasty = 1044052 #Munichingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190259
 	718.1.1 = {
 		birth = yes
@@ -752,7 +752,7 @@
 	name = "Munichis"
 	dynasty = 1044052 #Munichingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190259
 	719.1.1 = {
 		birth = yes
@@ -766,7 +766,7 @@
 	name = "Peter" #duke of friuli
 	dynasty = 1044052 #Munichingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190261
 	735.1.1 = {
 		birth = yes
@@ -780,7 +780,7 @@
 	name = "Ursus" #count of Padua
 	dynasty = 1044052 #Munichingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190261
 	737.1.1 = {
 		birth = yes
@@ -794,7 +794,7 @@
 	name = "Hrodgaud"
 	dynasty = 1044052 #Munichingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190261
 	740.1.1 = {
 		birth = yes
@@ -809,7 +809,7 @@
 	female = yes
 	dynasty = 1044052 #Munichingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190259
 	730.1.1 = {
 		birth = yes
@@ -823,7 +823,7 @@
 	name = "Falco"
 	dynasty = 1044042 #Falco
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	743.1.1 = {
 		birth = yes
 	}
@@ -840,7 +840,7 @@
 	female = yes
 	dynasty = 1044043 #Walbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	747.1.1 = {
 		birth = yes
 	}
@@ -853,7 +853,7 @@
 	name = "Grimoald" #duke of Benevento
 	dynasty = 1044042 #Falco
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190155
 	mother = 190156
 	765.1.1 = {
@@ -868,7 +868,7 @@
 	name = "Sicard" #fictional
 	dynasty = 1044044 #Sicard
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	742.1.1 = {
 		birth = yes
 	}
@@ -885,7 +885,7 @@
 	female = yes
 	dynasty = 1044085 #Liutprandling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	740.1.1 = {
 		birth = yes
 	}
@@ -898,7 +898,7 @@
 	name = "Sico" #duke of Benevento
 	dynasty = 1044044 #Sicard
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190158
 	mother = 190159
 	758.1.1 = {
@@ -913,7 +913,7 @@
 	name = "Sicard" #duke of Benevento
 	dynasty = 1044044 #Sicard
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190160
 	779.1.1 = {
 		birth = yes
@@ -928,7 +928,7 @@
 	female = yes
 	dynasty = 1044044 #Sicard
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190160
 	783.1.1 = {
 		birth = yes
@@ -942,7 +942,7 @@
 	name = "Siconulf" #duke of Salerno
 	dynasty = 1044044 #Sicard
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190160
 	789.1.1 = {
 		birth = yes
@@ -956,7 +956,7 @@
 	name = "Sico" #duke of Salerno
 	dynasty = 1044044 #Sicard
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190160
 	813.1.1 = {
 		birth = yes
@@ -971,7 +971,7 @@
 	female = yes
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190122
 	mother = 190123
 	540.1.1 = {
@@ -987,7 +987,7 @@
 	female = yes
 	dynasty = 1044031 #Gausian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190122
 	mother = 190123
 	541.1.1 = {
@@ -1002,7 +1002,7 @@
 	name = "Beleo"
 	dynasty = 1044045 #Beleo
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	507.1.1 = {
 		birth = yes
 	}
@@ -1015,7 +1015,7 @@
 	name = "Cleph"
 	dynasty = 1044045 #Beleo
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190167
 	523.1.1 = {
 		birth = yes
@@ -1032,7 +1032,7 @@
 	name = "Authari"
 	dynasty = 1044045 #Beleo
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190168
 	556.1.1 = {
 		birth = yes
@@ -1052,7 +1052,7 @@
 	name = "Agilulf"
 	dynasty = 1044045 #Beleo
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190168
 	559.1.1 = {
 		birth = yes
@@ -1070,7 +1070,7 @@
 	female = yes
 	dynasty = 1044045 #Beleo
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190170
 	mother = 190171
 	598.1.1 = {
@@ -1085,7 +1085,7 @@
 	name = "Adaloald"
 	dynasty = 1044045 #Beleo
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190170
 	mother = 190171
 	602.1.1 = {
@@ -1100,7 +1100,7 @@
 	name = "Arioald"
 	dynasty = 1044047 #Arioaldling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	578.1.1 = {
 		birth = yes
 	}
@@ -1116,7 +1116,7 @@
 	name = "Nanding"
 	dynasty = 1044048 #Harodingian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	572.1.1 = {
 		birth = yes
 	}
@@ -1129,7 +1129,7 @@
 	name = "Rothari"
 	dynasty = 1044048 #Harodingian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190175
 	599.1.1 = {
 		birth = yes
@@ -1143,7 +1143,7 @@
 	name = "Rodoald"
 	dynasty = 1044048 #Harodingian
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190176
 	620.1.1 = {
 		birth = yes
@@ -1157,7 +1157,7 @@
 	name = "Aripert" #king of Lombards
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190180
 	609.1.1 = {
 		birth = yes
@@ -1171,7 +1171,7 @@
 	name = "Godepert" #king of Lombards
 	dynasty = 1044046 #Bavarae
 	religion = catholic #arian
-	culture = lombard
+	culture = longobard
 	father = 190181
 	629.1.1 = {
 		birth = yes
@@ -1185,7 +1185,7 @@
 	name = "Raginpert" #king of Lombards
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190182
 	653.1.1 = {
 		birth = yes
@@ -1199,7 +1199,7 @@
 	name = "Aripert" # Aripert II, king of Lombards
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190183
 	672.1.1 = {
 		birth = yes
@@ -1213,7 +1213,7 @@
 	name = "Pectarit" #king of Lombards
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190181
 	637.1.1 = {
 		birth = yes
@@ -1228,7 +1228,7 @@
 	female = yes
 	dynasty = 1044049 #Pandulfingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	640.1.1 = {
 		birth = yes
 	}
@@ -1242,7 +1242,7 @@
 	female = yes
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190185
 	mother = 190186
 	656.1.1 = {
@@ -1257,7 +1257,7 @@
 	name = "Cunipert" #king of Lombards
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190185
 	mother = 190186
 	659.1.1 = {
@@ -1272,7 +1272,7 @@
 	name = "Liutpert" #king of Lombards
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190188
 	689.1.1 = {
 		birth = yes
@@ -1287,7 +1287,7 @@
 	female = yes
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190182
 	657.1.1 = {
 		birth = yes
@@ -1302,7 +1302,7 @@
 	female = yes
 	dynasty = 1044046 #Bavarae
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190184 #Aripert II of Lombardy
 	700.1.1 = {
 		birth = yes
@@ -1316,7 +1316,7 @@
 	name = "Ansprand"
 	dynasty = 1044051 #Ansprandling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	652.1.1 = {
 		birth = yes
 	}
@@ -1332,7 +1332,7 @@
 	name = "Sigibert"
 	dynasty = 1044051 #Ansprandling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190193
 	mother = 190192
 	674.1.1 = {
@@ -1348,7 +1348,7 @@
 	female = yes
 	dynasty = 1044051 #Ansprandling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190193
 	mother = 190192
 	668.1.1 = {
@@ -1363,7 +1363,7 @@
 	name = "Liutprand"
 	dynasty = 1044051 #Ansprandling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190193
 	mother = 190192
 	698.1.1 = {
@@ -1381,7 +1381,7 @@
 	name = "Hildeprand"
 	dynasty = 1044051 #Ansprandling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190194
 	710.1.1 = {
 		birth = yes
@@ -1396,7 +1396,7 @@
 	female = yes
 	dynasty = 1044051 #Ansprandling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190194
 	711.1.1 = {
 		birth = yes
@@ -1411,7 +1411,7 @@
 	female = yes
 	dynasty = 1044051 #Ansprandling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190194
 	712.1.1 = {
 		birth = yes
@@ -1425,7 +1425,7 @@
 	name = "Billo"
 	dynasty = 1044050 #Billoingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	658.1.1 = {
 		birth = yes
 	}
@@ -1438,7 +1438,7 @@
 	name = "Pemmo"
 	dynasty = 1044050 #Billoingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190341
 	687.1.1 = {
 		birth = yes
@@ -1455,7 +1455,7 @@
 	name = "Ratchis" #king of Lombards
 	dynasty = 1044050 #Billoingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190342
 	mother = 190191
 	716.1.1 = {
@@ -1473,7 +1473,7 @@
 	name = "Aistulf" #king of Lombards
 	dynasty = 1044050 #Billoingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190342
 	mother = 190191
 	717.1.1 = {
@@ -1492,7 +1492,7 @@
 	dynasty = 1044053 #Alachislings
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	685.1.1 = {
 		birth = yes
@@ -1510,7 +1510,7 @@
 	father = 190345
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	701.1.1 = {
 		birth = yes
@@ -1529,7 +1529,7 @@
 	father = 190346
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	717.1.1 = {
 		birth = yes
@@ -1547,7 +1547,7 @@
 	female = yes
 	dynasty = 1044053 #Alachislings
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190347
 	mother = 190340
 	745.1.1 = {
@@ -1567,7 +1567,7 @@
 	mother = 190340
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	747.1.1 = {
 		birth = yes
@@ -1582,7 +1582,7 @@
 	female = yes
 	dynasty = 1044053 #Alachislings
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190347
 	mother = 190340
 	750.1.1 = {
@@ -1598,7 +1598,7 @@
 	female = yes
 	dynasty = 1044053 #Alachislings
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190347
 	mother = 190340
 	744.1.1 = {
@@ -1613,7 +1613,7 @@
 	name = "Adelchis"
 	dynasty = 1044053 #Alachislings
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190347
 	mother = 190340
 	759.1.1 = {
@@ -1628,7 +1628,7 @@
 	name = "Alahis" #king of Lombards
 	dynasty = 1044054 #Sicardling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	654.1.1 = {
 		birth = yes
 	}
@@ -1641,7 +1641,7 @@
 	name = "Theodicus" #duke of Spoleto
 	dynasty = 1044061 #Theodingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	727.1.1 = {
 		birth = yes
 	}
@@ -1658,7 +1658,7 @@
 	female = yes
 	dynasty = 1044062 #Giselbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	731.1.1 = {
 		birth = yes
 	}
@@ -1671,7 +1671,7 @@
 	name = "Hildeprand" #duke of Spoleto
 	dynasty = 1044061 #Theodingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190265
 	mother = 190266
 	750.1.1 = {
@@ -1686,7 +1686,7 @@
 	name = "Ursus" #count of Bologna (Persiceta)
 	dynasty = 1044063 #Ursingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	721.1.1 = {
 		birth = yes
 	}
@@ -1699,7 +1699,7 @@
 	name = "John" #count of Bologna
 	dynasty = 1044063 #Ursingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190268
 	740.1.1 = {
 		birth = yes
@@ -1713,7 +1713,7 @@
 	name = "Ursus" #count of Bologna
 	dynasty = 1044063 #Ursingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190269
 	760.1.1 = {
 		birth = yes
@@ -1727,7 +1727,7 @@
 	name = "Ademaro" #count of Verona
 	dynasty = 1044064 #Ademingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	701.1.1 = {
 		birth = yes
 	}
@@ -1740,7 +1740,7 @@
 	name = "Ademaro" #count of Verona
 	dynasty = 1044064 #Ademingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190271
 	742.1.1 = {
 		birth = yes
@@ -1755,7 +1755,7 @@
 	female = yes
 	dynasty = 1044064 #Ademingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190269
 	756.1.1 = { #postponed from 743
 		birth = yes
@@ -1769,7 +1769,7 @@
 	name = "Adalbert" #count of Genoa
 	dynasty = 1044065 #Adalbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	725.1.1 = {
 		birth = yes
 	}
@@ -1782,7 +1782,7 @@
 	name = "Ademaro" #count of Genoa
 	dynasty = 1044065 #Adalbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190274
 	742.1.1 = {
 		birth = yes
@@ -1797,7 +1797,7 @@
 	female = yes
 	dynasty = 1044065 #Adalbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190274
 	744.1.1 = {
 		birth = yes
@@ -1811,7 +1811,7 @@
 	name = "Peter" #count of Corsica
 	dynasty = 1044065 #Adalbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190274
 	747.1.1 = {
 		birth = yes
@@ -1825,7 +1825,7 @@
 	name = "Walperto" #duke of Tuscany
 	dynasty = 1044066 #Walpertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	702.1.1 = {
 		birth = yes
 	}
@@ -1838,7 +1838,7 @@
 	name = "Alperto" #duke of Tuscany
 	dynasty = 1044066 #Walpertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190278
 	722.1.1 = {
 		birth = yes
@@ -1855,7 +1855,7 @@
 	name = "Tachiperto" #duke of Tuscany
 	dynasty = 1044066 #Walpertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190278
 	743.1.1 = {
 		birth = yes
@@ -1870,7 +1870,7 @@
 	female = yes
 	dynasty = 1044066 #Walpertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190278
 	745.1.1 = {
 		birth = yes
@@ -1884,7 +1884,7 @@
 	name = "Lupo" #count of Ferrara
 	dynasty = 1044066 #Walpertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190278
 	727.1.1 = {
 		birth = yes
@@ -1898,7 +1898,7 @@
 	name = "Tachiperto" #count of Ancona and Urbino
 	dynasty = 1044067 #Tachipertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	721.1.1 = {
 		birth = yes
 	}
@@ -1911,7 +1911,7 @@
 	name = "Lupo" #count of Ancona
 	dynasty = 1044067 #Tachipertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190283
 	741.1.1 = {
 		birth = yes
@@ -1925,7 +1925,7 @@
 	name = "Halo" #count of Urbino
 	dynasty = 1044067 #Tachipertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190283
 	747.1.1 = {
 		birth = yes
@@ -1940,7 +1940,7 @@
 	female = yes
 	dynasty = 1044067 #Tachipertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190283
 	753.1.1 = {
 		birth = yes
@@ -1954,7 +1954,7 @@
 	name = "Teuderic" #count of Ravenna
 	dynasty = 1044068 #Teudericingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	743.1.1 = {
 		birth = yes
 	}
@@ -1970,7 +1970,7 @@
 	name = "Hilderic" #count of Ravenna
 	dynasty = 1044068 #Teudericingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190287
 	mother = 190281
 	761.1.1 = {
@@ -1988,7 +1988,7 @@
 	name = "Daufer" #count of Salerno
 	dynasty = 1044069 #Daufingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	743.1.1 = {
 		birth = yes
 	}
@@ -2001,7 +2001,7 @@
 	name = "Rotfrit" #count of Salerno
 	dynasty = 1044069 #Daufingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190289
 	776.1.1 = {
 		birth = yes
@@ -2015,7 +2015,7 @@
 	name = "Adelchis" #count of Salerno
 	dynasty = 1044069 #Daufingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190290
 	796.1.1 = {
 		birth = yes
@@ -2030,7 +2030,7 @@
 	female = yes
 	dynasty = 1044069 #Daufingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190290
 	797.1.1 = {
 		birth = yes
@@ -2044,7 +2044,7 @@
 	name = "Potelfrit"
 	dynasty = 1044069 #Daufingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190289
 	778.1.1 = {
 		birth = yes
@@ -2059,7 +2059,7 @@
 	female = yes
 	dynasty = 1044069 #Daufingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190293
 	804.1.1 = {
 		birth = yes
@@ -2073,7 +2073,7 @@
 	name = "Rodoald" #count of Consenza
 	dynasty = 1044070 #Rodoingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	723.1.1 = {
 		birth = yes
 	}
@@ -2086,7 +2086,7 @@
 	name = "Radulhin" #count of Consenza
 	dynasty = 1044070 #Rodoingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190295
 	740.1.1 = {
 		birth = yes
@@ -2100,7 +2100,7 @@
 	name = "Ermepert" #count of Constanza
 	dynasty = 1044070 #Rodoingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190295
 	743.1.1 = {
 		birth = yes
@@ -2115,7 +2115,7 @@
 	female = yes
 	dynasty = 1044070 #Rodoingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190295
 	742.1.1 = {
 		birth = yes
@@ -2129,7 +2129,7 @@
 	name = "Roderissus" #count of Taranto
 	dynasty = 1044086 #Roderissingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	745.1.1 = {
 		birth = yes
 	}
@@ -2145,7 +2145,7 @@
 	name = "Rodegar" #count of Taranto
 	dynasty = 1044086 #Roderissingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190299
 	mother = 190298
 	763.1.1 = {
@@ -2160,7 +2160,7 @@
 	name = "Roderissus" #count of Taranto
 	dynasty = 1044086 #Roderissingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190300
 	783.1.1 = {
 		birth = yes
@@ -2174,7 +2174,7 @@
 	name = "Framicus"
 	dynasty = 1044086 #Roderissingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190299
 	mother = 190298
 	765.1.1 = {
@@ -2189,7 +2189,7 @@
 	name = "Gandulf" #count of Bari
 	dynasty = 1044071 #Gandulfingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	721.1.1 = {
 		birth = yes
 	}
@@ -2202,7 +2202,7 @@
 	name = "Daufer" #count of Bari
 	dynasty = 1044071 #Gandulfingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190303
 	763.1.1 = {
 		birth = yes
@@ -2216,7 +2216,7 @@
 	name = "Rodegar" #count of Bari
 	dynasty = 1044071 #Gandulfingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190304
 	789.1.1 = {
 		birth = yes
@@ -2231,7 +2231,7 @@
 	female = yes
 	dynasty = 1044071 #Gandulfingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190303
 	741.1.1 = {
 		birth = yes
@@ -2246,7 +2246,7 @@
 	female = yes
 	dynasty = 1044071 #Gandulfingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190303
 	743.1.1 = {
 		birth = yes
@@ -2260,7 +2260,7 @@
 	name = "Maio" #count of Aprutium
 	dynasty = 1044072 #Maioingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	742.1.1 = {
 		birth = yes
 	}
@@ -2276,7 +2276,7 @@
 	name = "Maio" #count of Aprutium
 	dynasty = 1044072 #Maioingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190308
 	mother = 190306
 	766.1.1 = {
@@ -2291,7 +2291,7 @@
 	name = "Paldo" #count of Apulia
 	dynasty = 1044073 #Paldingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	746.1.1 = {
 		birth = yes
 	}
@@ -2307,7 +2307,7 @@
 	name = "Stefano" #count of Apulia
 	dynasty = 1044073 #Paldingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190310
 	mother = 190307
 	766.1.1 = {
@@ -2322,7 +2322,7 @@
 	name = "Varbert" #count of Mantua
 	dynasty = 1044074 #Varbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	736.1.1 = {
 		birth = yes
 	}
@@ -2339,7 +2339,7 @@
 	female = yes
 	dynasty = 1044074 #Varbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	735.1.1 = {
 		birth = yes
 	}
@@ -2352,7 +2352,7 @@
 	name = "Lambert" #count of Parma
 	dynasty = 1044074 #Varbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190312
 	mother = 190313
 	753.1.1 = {
@@ -2367,7 +2367,7 @@
 	name = "Grimauld"
 	dynasty = 1044074 #Varbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190312
 	mother = 190313
 	755.1.1 = {
@@ -2383,7 +2383,7 @@
 	female = yes
 	dynasty = 1044074 #Varbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190312
 	mother = 190313
 	757.1.1 = {
@@ -2398,7 +2398,7 @@
 	name = "Billo"
 	dynasty = 1044074 #Varbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190312
 	mother = 190313
 	758.1.1 = {
@@ -2413,7 +2413,7 @@
 	name = "Drogo"
 	dynasty = 1044074 #Varbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190312
 	mother = 190313
 	759.1.1 = {
@@ -2428,7 +2428,7 @@
 	name = "Daufer"
 	dynasty = 1044074 #Varbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 190312
 	mother = 190313
 	763.1.1 = {
@@ -2443,7 +2443,7 @@
 	name = "Paldo" #count of Milan
 	dynasty = 1044075 #Paldoling
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	746.1.1 = {
 		birth = yes
 	}
@@ -2456,7 +2456,7 @@
 	name = "Tato" #count of Trent
 	dynasty = 1044076 #Tatingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	746.1.1 = {
 		birth = yes
 	}
@@ -2469,7 +2469,7 @@
 	name = "Lambert" #count of Modena
 	dynasty = 1044077 #Lambertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	741.1.1 = {
 		birth = yes
 	}
@@ -2482,7 +2482,7 @@
 	name = "Engelbert" #count of Treviso
 	dynasty = 1044078 #Engelbertingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	742.1.1 = {
 		birth = yes
 	}
@@ -2495,7 +2495,7 @@
 	name = "Liutfred" #count of Montferrat
 	dynasty = 1044079 #Liutfredingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	737.1.1 = {
 		birth = yes
 	}
@@ -2508,7 +2508,7 @@
 	name = "Gaidoald" #count of Brescia
 	dynasty = 1044080 #Gaidolaldingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	740.1.1 = {
 		birth = yes
 	}
@@ -2521,7 +2521,7 @@
 	name = "Taso" #count of Sienna
 	dynasty = 1044081 #Tasingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	746.1.1 = {
 		birth = yes
 	}
@@ -2534,7 +2534,7 @@
 	name = "Peter" #count of Orvieto/Orbetello
 	dynasty = 1044082 #Petringi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	737.1.1 = {
 		birth = yes
 	}
@@ -2547,7 +2547,7 @@
 	name = "Faroald" #count of Piombino
 	dynasty = 1044083 #Faroaldingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	751.1.1 = {
 		birth = yes
 	}
@@ -2560,7 +2560,7 @@
 	name = "Liutprand" #duke of Susa
 	dynasty = 1044084 #Liutprandingi
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	740.1.1 = {
 			birth = yes
 	}
@@ -2573,7 +2573,7 @@
 	name = "Pando" #count of Capua
 	dynasty = 7184 #di Capua
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	740.1.1 = {
 		birth = yes
 	}
@@ -2590,7 +2590,7 @@
 	father = 73354
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1018.1.1 = {
 		birth = yes
@@ -2608,7 +2608,7 @@
 	mother = 73320
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1040.1.1 = {
 		birth = yes
@@ -2629,7 +2629,7 @@
 	mother = 73322
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1017.1.1 = {
 		birth = yes
@@ -2647,7 +2647,7 @@
 	female = yes
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1050.1.1 = {
 		birth = yes
@@ -2662,7 +2662,7 @@
 	female = yes
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1020.1.1 = {
 		birth = yes
@@ -2680,7 +2680,7 @@
 	mother = 168453
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	995.1.1 = {
 		birth = yes
@@ -2698,7 +2698,7 @@
 	female = yes
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1000.1.1 = {
 		birth = yes
@@ -2715,7 +2715,7 @@
 	father = 73324
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	978.1.1 = {
 		birth = yes
@@ -2735,7 +2735,7 @@
 	father = 73325
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	953.1.1 = {
 		birth = yes
@@ -2752,7 +2752,7 @@
 	father = 73328
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	930.1.1 = {
 		birth = yes
@@ -2769,7 +2769,7 @@
 	father = 73327
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	950.1.1 = {
 		birth = yes
@@ -2786,7 +2786,7 @@
 	father = 73328
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	927.1.1 = {
 		birth = yes
@@ -2804,7 +2804,7 @@
 	mother = 262249
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	902.1.1 = {
 		birth = yes
@@ -2822,7 +2822,7 @@
 	mother = 262249
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	900.1.1 = {
 		birth = yes
@@ -2839,7 +2839,7 @@
 	father = 73331
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	872.1.1 = {
 		birth = yes
@@ -2854,7 +2854,7 @@
 	dynasty = 7184
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	father = 163072
 
@@ -2871,7 +2871,7 @@
 	dynasty = 7184
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	father = 73331
 
@@ -2890,7 +2890,7 @@
 	father = 73327
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	956.1.1 = {
 		birth = yes
@@ -2907,7 +2907,7 @@
 	father = 73327
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	957.1.1 = {
 		birth = yes
@@ -2921,7 +2921,7 @@
 	name = "Ademar"
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	956.1.1 = {
 		birth = yes
@@ -2938,7 +2938,7 @@
 	father = 73325
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	952.1.1 = {
 		birth = yes
@@ -2955,7 +2955,7 @@
 	father = 73336
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	976.1.1 = {
 		birth = yes
@@ -2972,7 +2972,7 @@
 	father = 73324
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	977.1.1 = {
 		birth = yes
@@ -2989,7 +2989,7 @@
 	father = 73327
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	959.1.1 = {
 		birth = yes
@@ -3006,7 +3006,7 @@
 	father = 73339
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	982.1.1 = {
 		birth = yes
@@ -3023,7 +3023,7 @@
 	father = 73340
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1005.1.1 = {
 		birth = yes
@@ -3040,7 +3040,7 @@
 	father = 73338
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1000.1.1 = {
 		birth = yes
@@ -3057,7 +3057,7 @@
 	father = 73342
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1022.1.1 = {
 		birth = yes
@@ -3075,7 +3075,7 @@
 	father = 73343
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1041.1.1 = {
 		birth = yes
@@ -3093,7 +3093,7 @@
 	father = 73342
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1023.1.1 = {
 		birth = yes
@@ -3108,7 +3108,7 @@
 	dynasty = 12243
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1018.1.1 = {
 		birth = yes
@@ -3129,7 +3129,7 @@
 	mother = 73345
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1042.1.1 = {
 		birth = yes
@@ -3147,7 +3147,7 @@
 	mother = 73345
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1043.1.1 = {
 		birth = yes
@@ -3165,7 +3165,7 @@
 	mother = 73345
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1045.1.1 = {
 		birth = yes
@@ -3183,7 +3183,7 @@
 	mother = 73345
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1046.1.1 = {
 		birth = yes
@@ -3200,7 +3200,7 @@
 	father = 73347
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1066.1.1 = {
 		birth = yes
@@ -3218,7 +3218,7 @@
 	father = 73347
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1068.1.1 = {
 		birth = yes
@@ -3235,7 +3235,7 @@
 	father = 73350
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1070.1.1 = {
 		birth = yes
@@ -3252,7 +3252,7 @@
 	father = 73338
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1002.1.1 = {
 		birth = yes
@@ -3269,7 +3269,7 @@
 	father = 73354
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1022.1.1 = {
 		birth = yes
@@ -3286,7 +3286,7 @@
 	father = 73323
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	trait = humble
 	trait = zealous
@@ -3311,7 +3311,7 @@
 	mother = 190292
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	810.1.1 = {
 		birth = yes
@@ -3329,7 +3329,7 @@
 	mother = 190294
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	846.1.1 = {
 		birth = yes
@@ -3347,7 +3347,7 @@
 	mother = 190294
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	845.1.1 = {
 		birth = yes
@@ -3364,7 +3364,7 @@
 	father = 190332
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	780.1.1 = {
 		birth = yes
@@ -3385,7 +3385,7 @@
 	mother = 190292
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	798.1.1 = {
 		birth = yes
@@ -3403,7 +3403,7 @@
 	mother = 190292
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	799.1.1 = {
 		birth = yes
@@ -3420,7 +3420,7 @@
 	father = 163077
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	830.1.1 = {
 		birth = yes
@@ -3438,7 +3438,7 @@
 	mother = 190292
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	825.1.1 = {
 		birth = yes
@@ -3456,7 +3456,7 @@
 	father = 73324
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	980.1.1 = {
 		birth = yes
@@ -3473,7 +3473,7 @@
 	father = 163076
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	820.1.1 = {
 		birth = yes
@@ -3490,7 +3490,7 @@
 	father = 30857
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1010.1.1 = {
 		birth = yes
@@ -3511,7 +3511,7 @@
 	female = yes
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1010.1.1 = {
 		birth = yes
@@ -3529,7 +3529,7 @@
 	mother = 30854
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1035.1.1 = {
 		birth = yes
@@ -3548,7 +3548,7 @@
 	mother = 30854
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	trait = siege_leader
 	trait = skilled_tactician
@@ -3580,7 +3580,7 @@
 	mother = 1117
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1032.1.1 = {
 		birth = yes
@@ -3598,7 +3598,7 @@
 	father = 30856
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1034.1.1 = {
 		birth = yes
@@ -3617,7 +3617,7 @@
 	mother = 30854
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1050.1.1 = {
 		birth = yes
@@ -3634,7 +3634,7 @@
 	father = 30857
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1012.1.1 = {
 		birth = yes
@@ -3649,7 +3649,7 @@
 	dynasty = 100336
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	970.1.1 = {
 		birth = yes
@@ -3667,7 +3667,7 @@
 	mother = 30854
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1036.1.1 = {
 		birth = yes
@@ -3685,7 +3685,7 @@
 	mother = 30854
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1037.1.1 = {
 		birth = yes
@@ -3703,7 +3703,7 @@
 	mother = 30854
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1038.1.1 = {
 		birth = yes
@@ -3721,7 +3721,7 @@
 	mother = 30854
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1039.1.1 = {
 		birth = yes
@@ -3737,7 +3737,7 @@
 	dynasty = 7186
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1044.1.1 = {
 		birth = yes
@@ -3754,7 +3754,7 @@
 	father = 145214
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	830.1.1 = {
 		birth = yes
@@ -3769,7 +3769,7 @@
 	dynasty = 805
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	758.1.1 = {
 		birth = yes
@@ -3786,7 +3786,7 @@
 	father = 145207
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	790.1.1 = {
 		birth = yes
@@ -3803,7 +3803,7 @@
 	father = 145207
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	792.1.1 = {
 		birth = yes
@@ -3820,7 +3820,7 @@
 	father = 145209
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	837.1.1 = {
 		birth = yes
@@ -3835,7 +3835,7 @@
 	dynasty = 1022143
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	800.1.1 = {
 		birth = yes
@@ -3852,7 +3852,7 @@
 	father = 145211
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	820.1.1 = {
 		birth = yes
@@ -3870,7 +3870,7 @@
 	dynasty = 1022178
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	780.1.1 = {
 		birth = yes
@@ -3887,7 +3887,7 @@
 	father = 145213
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	810.1.1 = {
 		birth = yes
@@ -3904,7 +3904,7 @@
 	father = 163091
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	855.1.1 = {
 		birth = yes
@@ -3921,7 +3921,7 @@
 	father = 168420
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	910.1.1 = {
 		birth = yes
@@ -3938,7 +3938,7 @@
 	father = 168424
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	935.1.1 = {
 		birth = yes
@@ -3955,7 +3955,7 @@
 	father = 168425
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	975.1.1 = {
 		birth = yes
@@ -3972,7 +3972,7 @@
 	father = 168425
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1005.1.1 = {
 		birth = yes
@@ -3992,7 +3992,7 @@
 	father = 168425
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1010.1.1 = {
 		birth = yes
@@ -4007,7 +4007,7 @@
 	female = yes
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1015.1.1 = {
 		birth = yes
@@ -4025,7 +4025,7 @@
 	mother = 168429
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1040.1.1 = {
 		birth = yes
@@ -4043,7 +4043,7 @@
 	mother = 168429
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1042.1.1 = {
 		birth = yes
@@ -4061,7 +4061,7 @@
 	mother = 168429
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1045.1.1 = {
 		birth = yes
@@ -4079,7 +4079,7 @@
 	trait = bastard
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1060.1.1 = {
 		birth = yes
@@ -4094,7 +4094,7 @@
 	dynasty = 9592
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	830.1.1 = {
 		birth = yes
@@ -4111,7 +4111,7 @@
 	father = 168436
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	848.1.1 = {
 		birth = yes
@@ -4128,7 +4128,7 @@
 	father = 168437
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	880.1.1 = {
 		birth = yes
@@ -4145,7 +4145,7 @@
 	father = 168438
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	905.1.1 = {
 		birth = yes
@@ -4162,7 +4162,7 @@
 	father = 168439
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	940.1.1 = {
 		birth = yes
@@ -4179,7 +4179,7 @@
 	father = 168439
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	945.1.1 = {
 		birth = yes
@@ -4196,7 +4196,7 @@
 	father = 168439
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	948.1.1 = {
 		birth = yes
@@ -4213,7 +4213,7 @@
 	father = 168442
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	975.1.1 = {
 		birth = yes
@@ -4230,7 +4230,7 @@
 	father = 168442
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	980.1.1 = {
 		birth = yes
@@ -4247,7 +4247,7 @@
 	father = 168442
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	982.1.1 = {
 		birth = yes
@@ -4264,7 +4264,7 @@
 	father = 168439
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	950.1.1 = {
 		birth = yes
@@ -4282,7 +4282,7 @@
 	father = 168446
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	975.1.1 = {
 		birth = yes
@@ -4299,7 +4299,7 @@
 	father = 168440
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	960.1.1 = {
 		birth = yes
@@ -4316,7 +4316,7 @@
 	father = 168440
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	965.1.1 = {
 		birth = yes
@@ -4333,7 +4333,7 @@
 	father = 168440
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	970.1.1 = {
 		birth = yes
@@ -4350,7 +4350,7 @@
 	father = 168440
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	972.1.1 = {
 		birth = yes
@@ -4367,7 +4367,7 @@
 	father = 168440
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	973.1.1 = {
 		birth = yes
@@ -4385,7 +4385,7 @@
 	father = 168440
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	975.1.1 = {
 		birth = yes
@@ -4402,7 +4402,7 @@
 	father = 168448
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	983.1.1 = {
 		birth = yes
@@ -4422,7 +4422,7 @@
 	father = 168448
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	988.1.1 = {
 		birth = yes
@@ -4439,7 +4439,7 @@
 	father = 168448
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	990.1.1 = {
 		birth = yes
@@ -4456,7 +4456,7 @@
 	father = 168455
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1015.1.1 = {
 		birth = yes
@@ -4473,7 +4473,7 @@
 	father = 168457
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1035.1.1 = {
 		birth = yes
@@ -4490,7 +4490,7 @@
 	father = 168457
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1037.1.1 = {
 		birth = yes
@@ -4507,7 +4507,7 @@
 	father = 168456
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1015.1.1 = {
 		birth = yes
@@ -4524,7 +4524,7 @@
 	father = 168460
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1035.1.1 = {
 		birth = yes
@@ -4541,7 +4541,7 @@
 	father = 168460
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1036.1.1 = {
 		birth = yes
@@ -4559,7 +4559,7 @@
 	father = 168460
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1037.1.1 = {
 		birth = yes
@@ -4577,7 +4577,7 @@
 	father = 168460
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1038.1.1 = {
 		birth = yes
@@ -4595,7 +4595,7 @@
 	father = 168460
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1039.1.1 = {
 		birth = yes
@@ -4613,7 +4613,7 @@
 	mother = 168496
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1015.1.1 = {
 		birth = yes
@@ -4631,7 +4631,7 @@
 	mother = 168496
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1017.1.1 = {
 		birth = yes
@@ -4653,7 +4653,7 @@
 	mother = 168496
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1019.1.1 = {
 		birth = yes
@@ -4671,7 +4671,7 @@
 	mother = 168496
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1020.1.1 = {
 		birth = yes
@@ -4689,7 +4689,7 @@
 	mother = 168496
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1025.1.1 = {
 		birth = yes
@@ -4708,7 +4708,7 @@
 	mother = 168496
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1016.1.1 = {
 		birth = yes
@@ -4725,7 +4725,7 @@
 	father = 168469
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1040.1.1 = {
 		birth = yes
@@ -4743,7 +4743,7 @@
 	father = 168472
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1060.1.1 = {
 		birth = yes
@@ -4761,7 +4761,7 @@
 	father = 168467
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1035.1.1 = {
 		birth = yes
@@ -4778,7 +4778,7 @@
 	father = 168466
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1032.1.1 = {
 		birth = yes
@@ -4795,7 +4795,7 @@
 	father = 168475
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1050.1.1 = {
 		birth = yes
@@ -4812,7 +4812,7 @@
 	father = 168436
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	849.1.1 = {
 		birth = yes
@@ -4829,7 +4829,7 @@
 	father = 168436
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	850.1.1 = {
 		birth = yes
@@ -4844,7 +4844,7 @@
 	dynasty = 9594
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	800.1.1 = {
 		birth = yes
@@ -4861,7 +4861,7 @@
 	father = 168479
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	820.1.1 = {
 		birth = yes
@@ -4878,7 +4878,7 @@
 	father = 168480
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	840.1.1 = {
 		birth = yes
@@ -4895,7 +4895,7 @@
 	father = 168481
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	875.1.1 = {
 		birth = yes
@@ -4912,7 +4912,7 @@
 	father = 168482
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	900.1.1 = {
 		birth = yes
@@ -4929,7 +4929,7 @@
 	father = 168483
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	930.1.1 = {
 		birth = yes
@@ -4946,7 +4946,7 @@
 	father = 168484
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	960.1.1 = {
 		birth = yes
@@ -4963,7 +4963,7 @@
 	father = 168485
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	990.1.1 = {
 		birth = yes
@@ -4980,7 +4980,7 @@
 	father = 168486
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1020.1.1 = {
 		birth = yes
@@ -4998,7 +4998,7 @@
 	female = yes
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1020.1.1 = {
 		birth = yes
@@ -5016,7 +5016,7 @@
 	mother = 168488
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1040.1.1 = {
 		birth = yes
@@ -5034,7 +5034,7 @@
 	mother = 168488
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1042.1.1 = {
 		birth = yes
@@ -5052,7 +5052,7 @@
 	mother = 168488
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1044.1.1 = {
 		birth = yes
@@ -5071,7 +5071,7 @@
 	mother = 168488
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1046.1.1 = {
 		birth = yes
@@ -5088,7 +5088,7 @@
 	father = 168479
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	825.1.1 = {
 		birth = yes
@@ -5105,7 +5105,7 @@
 	father = 168493
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	847.1.1 = {
 		birth = yes
@@ -5123,7 +5123,7 @@
 	father = 168493
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	849.1.1 = {
 		birth = yes
@@ -5140,7 +5140,7 @@
 	father = 168470
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1045.1.1 = {
 		birth = yes
@@ -5158,7 +5158,7 @@
 	father = 168470
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1046.1.1 = {
 		birth = yes
@@ -5173,7 +5173,7 @@
 	name = "Ulderit"
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	trait = detached_priest
 
@@ -5189,7 +5189,7 @@
 	name = "Rofrit"
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	trait = detached_priest
 
@@ -5205,7 +5205,7 @@
 	name = "Landolf"
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	trait = detached_priest
 
@@ -5221,7 +5221,7 @@
 	name = "Rofrit"
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	trait = detached_priest
 
@@ -5237,7 +5237,7 @@
 	name = "Landolf"
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	trait = detached_priest
 
@@ -5257,7 +5257,7 @@
 	mother = 262155
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	881.1.1 = {
 		birth = yes
@@ -5275,7 +5275,7 @@
 	mother = 262440
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	930.1.1 = {
 		birth = yes
@@ -5292,7 +5292,7 @@
 	father = 163091
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	860.1.1 = {
 		birth = yes
@@ -5309,7 +5309,7 @@
 	father = 200300
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	885.1.1 = {
 		birth = yes
@@ -5326,7 +5326,7 @@
 	father = 200301
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	916.1.1 = {
 		birth = yes
@@ -5343,7 +5343,7 @@
 	father = 200302
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	951.1.1 = {
 		birth = yes
@@ -5360,7 +5360,7 @@
 	father = 200303
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	990.1.1 = {
 		birth = yes
@@ -5377,7 +5377,7 @@
 	father = 200304
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1006.1.1 = {
 		birth = yes
@@ -5394,7 +5394,7 @@
 	father = 200305
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1032.1.1 = {
 		birth = yes
@@ -5411,7 +5411,7 @@
 	father = 145215
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	884.1.1 = {
 		birth = yes
@@ -5428,7 +5428,7 @@
 	father = 200307
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	910.1.1 = {
 		birth = yes
@@ -5445,7 +5445,7 @@
 	father = 200308
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	937.1.1 = {
 		birth = yes
@@ -5462,7 +5462,7 @@
 	father = 200309
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	966.1.1 = {
 		birth = yes
@@ -5479,7 +5479,7 @@
 	father = 200310
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1000.1.1 = {
 		birth = yes
@@ -5496,7 +5496,7 @@
 	father = 200310
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1002.1.1 = {
 		birth = yes
@@ -5513,7 +5513,7 @@
 	father = 200312
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1030.1.1 = {
 		birth = yes
@@ -5530,7 +5530,7 @@
 	father = 200310
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1004.1.1 = {
 		birth = yes
@@ -5547,7 +5547,7 @@
 	father = 200314
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1030.1.1 = {
 		birth = yes
@@ -5564,7 +5564,7 @@
 	father = 200315
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1058.1.1 = {
 		birth = yes
@@ -5581,7 +5581,7 @@
 	father = 200307
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	914.1.1 = {
 		birth = yes
@@ -5598,7 +5598,7 @@
 	father = 200317
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	931.1.1 = {
 		birth = yes
@@ -5615,7 +5615,7 @@
 	father = 200318
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	961.1.1 = {
 		birth = yes
@@ -5632,7 +5632,7 @@
 	father = 200319
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	987.1.1 = {
 		birth = yes
@@ -5649,7 +5649,7 @@
 	father = 200320
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1010.1.1 = {
 		birth = yes
@@ -5666,7 +5666,7 @@
 	father = 200321
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1033.1.1 = {
 		birth = yes
@@ -5683,7 +5683,7 @@
 	father = 200322
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1050.1.1 = {
 		birth = yes
@@ -5701,7 +5701,7 @@
 	father = 30856
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1031.1.1 = {
 		birth = yes
@@ -5718,7 +5718,7 @@
 	father = 30856
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1032.1.1 = {
 		birth = yes
@@ -5736,7 +5736,7 @@
 	female = yes
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1060.1.1 = {
 		birth = yes
@@ -5753,7 +5753,7 @@
 	father = 200325
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1057.1.1 = {
 		birth = yes
@@ -5770,7 +5770,7 @@
 	father = 200325
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1059.1.1 = {
 		birth = yes
@@ -5789,7 +5789,7 @@
 	mother = 200326
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1081.1.1 = {
 		birth = yes
@@ -5806,7 +5806,7 @@
 	father = 30856
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1033.1.1 = {
 		birth = yes
@@ -5823,7 +5823,7 @@
 	father = 200331
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1058.1.1 = {
 		birth = yes
@@ -5840,7 +5840,7 @@
 	father = 30857
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1014.1.1 = {
 		birth = yes
@@ -5861,7 +5861,7 @@
 	mother = 200334
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1041.1.1 = {
 		birth = yes
@@ -5882,7 +5882,7 @@
 	mother = 73344
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1060.1.1 = {
 		birth = yes
@@ -5899,7 +5899,7 @@
 	father = 200336
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1084.1.1 = {
 		birth = yes
@@ -5916,7 +5916,7 @@
 	father = 200337
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1110.1.1 = {
 		birth = yes
@@ -5933,7 +5933,7 @@
 	father = 200338
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1133.1.1 = {
 		birth = yes
@@ -5950,7 +5950,7 @@
 	father = 200336
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1086.1.1 = {
 		birth = yes
@@ -5968,7 +5968,7 @@
 	father = 200336
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1088.1.1 = {
 		birth = yes
@@ -5986,7 +5986,7 @@
 	mother = 73344
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1062.1.1 = {
 		birth = yes
@@ -6003,7 +6003,7 @@
 	father = 200342
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1084.1.1 = {
 		birth = yes
@@ -6020,7 +6020,7 @@
 	father = 200342
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1086.1.1 = {
 		birth = yes
@@ -6037,7 +6037,7 @@
 	father = 200342
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1088.1.1 = {
 		birth = yes
@@ -6055,7 +6055,7 @@
 	father = 200342
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1090.1.1 = {
 		birth = yes
@@ -6073,7 +6073,7 @@
 #	mother = 7344
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1064.1.1 = {
 		birth = yes
@@ -6090,7 +6090,7 @@
 	father = 200347
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1090.1.1 = {
 		birth = yes
@@ -6108,7 +6108,7 @@
 	mother = 73344
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1066.1.1 = {
 		birth = yes
@@ -6126,7 +6126,7 @@
 	mother = 73344
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1068.1.1 = {
 		birth = yes
@@ -6144,7 +6144,7 @@
 	mother = 200334
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1043.1.1 = {
 		birth = yes
@@ -6164,7 +6164,7 @@
 	father = 200352
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1066.1.1 = {
 		birth = yes
@@ -6181,7 +6181,7 @@
 	father = 200352
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1068.1.1 = {
 		birth = yes
@@ -6199,7 +6199,7 @@
 	mother = 200372
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1076.1.1 = {
 		birth = yes
@@ -6216,7 +6216,7 @@
 	father = 200355
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1097.1.1 = {
 		birth = yes
@@ -6234,7 +6234,7 @@
 	female = yes
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1100.1.1 = {
 		birth = yes
@@ -6252,7 +6252,7 @@
 	mother = 200357
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1120.1.1 = {
 		birth = yes
@@ -6271,7 +6271,7 @@
 	mother = 200372
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1078.1.1 = {
 		birth = yes
@@ -6289,7 +6289,7 @@
 	mother = 200334
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1045.1.1 = {
 		birth = yes
@@ -6310,7 +6310,7 @@
 	mother = 200392
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1071.1.1 = {
 		birth = yes
@@ -6329,7 +6329,7 @@
 	mother = 200392
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1073.1.1 = {
 		birth = yes
@@ -6347,7 +6347,7 @@
 	mother = 200334
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1047.1.1 = {
 		birth = yes
@@ -6366,7 +6366,7 @@
 	mother = 200334
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1049.1.1 = {
 		birth = yes
@@ -6385,7 +6385,7 @@
 	mother = 200334
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1051.1.1 = {
 		birth = yes
@@ -6402,7 +6402,7 @@
 	father = 73340
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1007.1.1 = {
 		birth = yes
@@ -6419,7 +6419,7 @@
 	father = 200367
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1031.1.1 = {
 		birth = yes
@@ -6436,7 +6436,7 @@
 	father = 200368
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1055.1.1 = {
 		birth = yes
@@ -6453,7 +6453,7 @@
 	father = 200369
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1090.1.1 = {
 		birth = yes
@@ -6471,7 +6471,7 @@
 	father = 200368
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1057.1.1 = {
 		birth = yes
@@ -6489,7 +6489,7 @@
 	father = 200368
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1059.1.1 = {
 		birth = yes
@@ -6506,7 +6506,7 @@
 	father = 200367
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1050.1.1 = {
 		birth = yes
@@ -6523,7 +6523,7 @@
 	father = 73339
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	984.1.1 = {
 		birth = yes
@@ -6540,7 +6540,7 @@
 	father = 200374
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1006.1.1 = {
 		birth = yes
@@ -6557,7 +6557,7 @@
 	father = 200375
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1031.1.1 = {
 		birth = yes
@@ -6574,7 +6574,7 @@
 	father = 200376
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1055.1.1 = {
 		birth = yes
@@ -6591,7 +6591,7 @@
 	father = 200374
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1007.1.1 = {
 		birth = yes
@@ -6608,7 +6608,7 @@
 	father = 200378
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1030.1.1 = {
 		birth = yes
@@ -6625,7 +6625,7 @@
 	father = 200379
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1054.1.1 = {
 		birth = yes
@@ -6642,7 +6642,7 @@
 	father = 200380
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1077.1.1 = {
 		birth = yes
@@ -6659,7 +6659,7 @@
 	father = 200380
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1079.1.1 = {
 		birth = yes
@@ -6676,7 +6676,7 @@
 	father = 200380
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1081.1.1 = {
 		birth = yes
@@ -6693,7 +6693,7 @@
 	father = 200380
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1083.1.1 = {
 		birth = yes
@@ -6710,7 +6710,7 @@
 	father = 200379
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1056.1.1 = {
 		birth = yes
@@ -6727,7 +6727,7 @@
 	father = 200385
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1079.1.1 = {
 		birth = yes
@@ -6744,7 +6744,7 @@
 	father = 200385
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1081.1.1 = {
 		birth = yes
@@ -6761,7 +6761,7 @@
 	father = 73332
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	935.1.1 = {
 		birth = yes
@@ -6778,7 +6778,7 @@
 	father = 200388
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	963.1.1 = {
 		birth = yes
@@ -6795,7 +6795,7 @@
 	father = 200389
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	987.1.1 = {
 		birth = yes
@@ -6812,7 +6812,7 @@
 	father = 200390
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1018.1.1 = {
 		birth = yes
@@ -6830,7 +6830,7 @@
 	father = 200391
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1045.1.1 = {
 		birth = yes
@@ -6847,7 +6847,7 @@
 	father = 200390
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1020.1.1 = {
 		birth = yes
@@ -6865,7 +6865,7 @@
 	father = 200393
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 
 	1050.1.1 = {
 		birth = yes
@@ -6880,7 +6880,7 @@
 	female = no
 
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	740.1.1 = {
 		birth = yes
 	}
@@ -6894,7 +6894,7 @@
 	dynasty = 1062609
 	female = no
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	745.1.1 = {
 		birth = yes
 	}
@@ -6908,7 +6908,7 @@
 	dynasty = 1044083
 	female = no
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	834.1.1 = {
 		birth = yes
 	}
@@ -6922,7 +6922,7 @@
 	dynasty = 7184
 	female = yes
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 73331
 	trait = charismatic_negotiator
 	890.1.1 = {
@@ -6941,7 +6941,7 @@
 	dynasty = 1022178
 	female = yes
 	religion = catholic
-	culture = lombard
+	culture = longobard
 	father = 200298
 	910.1.1 = {
 		birth = yes
