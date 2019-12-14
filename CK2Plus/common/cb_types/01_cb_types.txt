@@ -1514,8 +1514,8 @@ hostages_cb = { # New5
 	}
 
 	ai_will_do = {
-		# factor = 0 # Player Only
-		factor = 1
+		factor = 0 # Player Only
+
 		war_tuning = yes
 	}
 }
