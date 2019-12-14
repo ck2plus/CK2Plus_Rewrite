@@ -37,6 +37,7 @@ shattered_world_county_conquest = {
 				total_years_played = 100
 			}
 		}
+		CK2Plus_war_reqs = yes
 	}
 
 	on_add = {
@@ -263,6 +264,8 @@ shattered_world_county_conquest = {
 				same_liege = FROM
 			}
 		}
+
+		war_tuning = yes
 	}
 }
 
@@ -538,6 +541,10 @@ shattered_invasion = {
 
 	sort_priority = 1100
 
+	can_use_gui = {
+		CK2Plus_war_reqs = yes
+	}
+
 	can_use = {
 		ROOT = {
 			has_character_flag = great_conqueror
@@ -737,5 +744,7 @@ shattered_invasion = {
 
 	ai_will_do = {
 		factor = 20
+
+		war_tuning = yes
 	}
 }
