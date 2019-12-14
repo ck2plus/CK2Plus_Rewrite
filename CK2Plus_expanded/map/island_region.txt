@@ -176,3 +176,11 @@ region_lesbos = {
 region_kutch = {
 	provinces = { 1295 }
 }
+
+region_anglesey = {
+	provinces = { 968 }
+}
+
+region_wight = {
+	provinces = { 966 }
+}
