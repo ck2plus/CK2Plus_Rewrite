@@ -2,7 +2,7 @@
 	de_jure_liege = k_saxony
 	set_tribute_suzerain = {
 		who = k_saxony
-		type = permanent
+		type = war_pact
 	}
 }
 

@@ -12,3 +12,5 @@ GetFactionName_Glory;Glory;Gloire;Ruhm;;Gloria;;;;;;;;;x
 GetFactionName_Order;Order;Ordre;Ordnung;;Orden;;;;;;;;;x
 GetFactionName_Prosperity;Prosperity;Prospérité;Wohlstand;;Prosperidad;;;;;;;;;x
 GetFactionName_Tradition;Tradition;Tradition;Tradition;;Tradicion;;;;;;;;;x
+war_pact;War Pact;Pacte de guerre;Kriegspakt;;Pacto de guerra;;;;;;;;;x
+war_pact_plural;War Pacts;Pactes de guerre;Kriegspakte;;Pactos de guerra;;;;;;;;;x

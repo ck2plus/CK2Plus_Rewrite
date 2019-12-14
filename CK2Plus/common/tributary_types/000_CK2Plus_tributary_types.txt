@@ -1,0 +1,20 @@
+war_pact = {
+	tributary_type = war_pact
+	tributary_plural = war_pact_plural
+	suzerain_name = SUZERAIN_PERMANENT_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	tributaries_can_infight = yes
+	suzerain_can_join_infighting = no
+	suzerain_must_defend = yes
+	tributary_can_be_summoned = yes
+	tributary_must_defend = yes
+	tributaries_can_unite = no
+	breaks_on_realm_change = yes
+	icon = 10
+
+	cbs_against_suzerain = {}
+	reinforce_tribute_percentage = {
+		value = 0.15
+	}
+}
