@@ -50,7 +50,7 @@
 }
 1318.2.16=
 {
-	liege="k_sweden" # Duke Erik dies at Nyköpingshus
+	liege="k_sweden" # Duke Erik dies at Nykï¿½pingshus
 	holder=450504 # King Birger
 }
 1319.7.8=

@@ -1,0 +1,83 @@
+bm_coronation_of_guido_iii_of_spoleto = {
+	name = "Coronation of Guido III of Spoleto"
+	desc = "The first of many!"
+#	name = BM_CORONATION_OF_GUIDO_III_OF_SPOLETO
+#	desc = BM_CORONATION_OF_GUIDO_III_OF_SPOLETO_DESC
+	date = 889.2.21
+
+	selectable_character = {
+		id = 71903 # Guido III of Spoleto
+	}
+}
+
+bm_death_of_guido_iii_of_spoleto = {
+	name = "Death of Guido III of Spoleto"
+	desc = "He's dead!"
+#	name = BM_DEATH_OF_GUIDO_III_OF_SPOLETO
+#	desc = BM_DEATH_OF_GUIDO_III_OF_SPOLETO_DESC
+	date = 894.12.12
+
+	selectable_character = {
+		id = 71904 # Lambert of Spoleto
+	}
+}
+
+bm_return_of_berengar_i = {
+	name = "Return of Berengar I"
+	desc = "He's back!"
+#	name = BM_RETURN_OF_BERENGAR_I
+#	desc = BM_RETURN_OF_BERENGAR_I_DESC
+	date = 898.10.15
+
+	selectable_character = {
+		id = 71901 # Berengar I of Italy
+	}
+}
+
+bm_coronation_of_louis_iii = {
+	name = "Coronation of Louis III"
+	desc = "New guy!"
+#	name = BM_CORONATION_OF_LOUIS_III
+#	desc = BM_CORONATION_OF_LOUIS_III_DESC
+	date = 900.10.12
+
+	selectable_character = {
+		id = 1164 # Louis III 'the Blind' of Provence
+	}
+}
+
+bm_second_return_of_berengar_i = {
+	name = "Second Return of Berengar I"
+	desc = "Are they never happy?!"
+#	name = BM_SECOND_RETURN_OF_BERENGAR_I
+#	desc = BM_SECOND_RETURN_OF_BERENGAR_I_DESC
+	date = 902.7.17
+
+	selectable_character = {
+		id = 71901 # Berengar I
+	}
+}
+
+bm_coronation_of_rudolf_ii_of_burgundy = {
+	name = "Coronation of Rudolf II of Burgundy"
+	desc = "Another one?!"
+#	name = BM_CORONATION_OF_RUDOLF_II_OF_BURGUNDY
+#	desc = BM_CORONATION_OF_RUDOLF_II_OF_BURGUNDY_DESC
+	date = 922.2.4
+
+	selectable_character = {
+		id = 1144 # Rudolf II of Burgundy
+	}
+}
+
+bm_coronation_of_hugues_of_arles = {
+	name = "Coronation of Hugues of Arles"
+	desc = "Another one?!"
+#	name = BM_CORONATION_OF_HUGUES_OF_ARLES
+#	desc = BM_CORONATION_OF_HUGUES_OF_ARLES_DESC
+	date = 926.7.9
+
+	selectable_character = {
+		id = 7923 # Hugues of Arles
+	}
+}

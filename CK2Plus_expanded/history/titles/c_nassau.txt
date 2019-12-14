@@ -15,15 +15,23 @@
 }
 
 826.1.1 = {
-	liege = k_germany
+	holder = 7946
 }
 
-826.1.1 = {
-	holder = 7946
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
 }
 
 860.1.1 = {
 	holder = 7947
+}
+
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
 }
 
 906.1.1 = {

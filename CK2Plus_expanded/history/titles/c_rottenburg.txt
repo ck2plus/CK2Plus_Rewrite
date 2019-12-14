@@ -36,15 +36,19 @@
 }
 
 839.1.1 = {
-	liege = k_germany
-}
-
-839.1.1 = {
 	holder = 7910
 }
 
-865.1.1 = {
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
+}
+
+865.4.22 = { # Ludwig 'the German' partitions his realm
 	liege = d_franconia
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
 }
 
 936.1.1 = {

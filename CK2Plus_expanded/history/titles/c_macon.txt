@@ -6,17 +6,28 @@
 	liege = d_burgundy
 }
 
-864.1.1 = {
-	liege = k_aquitaine
-	holder = 167924
+790.1.1 = {
+	holder = 190511 # temporary
 }
 
-865.1.1 = {
-	liege = k_burgundy
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = k_aquitaine
+}
+
+817.7.1 = { # Ordinatio Imperii
+	liege = d_burgundy
+}
+
+864.1.1 = {
+	holder = 167924
 }
 
 867.1.4 = {
 	holder = 167925
+}
+
+879.4.10 = { # death of Louis 'the Stammerer'
+	liege = k_aquitaine
 }
 
 884.12.12 = {

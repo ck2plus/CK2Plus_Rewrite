@@ -8,12 +8,11 @@
 	liege = e_france
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
 842.1.1 = {
-	liege = k_lotharingia
 	holder = 7979
 }
 
@@ -21,12 +20,32 @@
 	holder = 131716
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
+}
+
 860.1.2 = {
 	holder = 131715
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_france
+}
+
+880.2.1 = { # Treaty of Ribemont
+	liege = k_saxony
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
+}
+
 890.1.2 = {
 	holder = 131714
+}
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
 }
 
 923.1.1 = {

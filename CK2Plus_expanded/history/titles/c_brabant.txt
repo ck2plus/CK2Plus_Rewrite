@@ -4,15 +4,31 @@
 }
 
 841.1.1 = {
+	holder = 7815
+}
+
+843.8.10 = { # Treaty of Verdun
 	liege = k_lotharingia
 }
 
-841.1.1 = {
-	holder = 7815
+870.8.8 = { # Treaty of Meerssen
+	liege = k_france
+}
+
+880.2.1 = { # Treaty of Ribemont
+	liege = k_saxony
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
 }
 
 892.1.1 = {
 	holder = 7812
+}
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
 }
 
 903.1.1 = {

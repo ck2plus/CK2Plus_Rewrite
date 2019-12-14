@@ -1,10 +1,24 @@
 769.1.1 = {
 	holder = 194170
+	de_jure_liege = k_austrasia
 	liege = k_neustria
 }
 
-800.12.25 = {
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = e_france
+}
+
+800.12.15 = { # Coronation of Karl as EMPEROR
 	liege = e_karling
+}
+
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_lotharingia
+	liege = k_lotharingia
+}
+
+925.8.1 = {	# Treaty of Meerssen
+	de_jure_liege = k_germany
 }
 
 1190.8.21 = {

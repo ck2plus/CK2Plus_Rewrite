@@ -10,13 +10,20 @@
 	holder = 190563 #Hugh II
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
+803.1.1 = {
+	holder = 0
+}
+
 855.1.1 = { #duchy of Transjura/kingdom of Upper-Burgundy
-	liege = k_burgundy
 	holder = 7977
+}
+
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
 }
 
 864.1.1 = {
@@ -27,8 +34,16 @@
 	holder = 7989
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_italy
+}
+
 876.1.1 = {
-	holder = 7984
+	holder = 7984 # Rudolf of Burgundy
+}
+
+887.11.17 = { # abdication of Karl 'the Fat', Rudolf elected by Burgundian nobles
+	liege = k_burgundy
 }
 
 911.10.25 = {

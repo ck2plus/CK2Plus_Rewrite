@@ -7,8 +7,17 @@
 	holder = 190563 #Hugh II
 }
 
+803.1.1 = {
+	liege = e_karling
+}
+
 855.1.1 = {
 	holder = 7977
+}
+
+855.9.29 = { # Treaty of Prüm
+	holder = 90103 # Charles of Provence
+	liege = k_burgundy
 }
 
 864.1.1 = {
@@ -19,8 +28,16 @@
 	holder = 7989
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_italy
+}
+
 876.1.1 = {
 	holder = 7984
+}
+
+887.11.17 = { # abdication of Karl 'the Fat', Rudolf elected by Burgundian nobles
+	liege = d_upper_burgundy
 }
 
 933.1.1 = {

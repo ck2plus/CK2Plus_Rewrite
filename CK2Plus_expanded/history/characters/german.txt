@@ -19010,7 +19010,7 @@
 		birth = yes
 		give_nickname = nick_the_younger
 	}
-	882.1.21 = {
+	882.1.20 = {
 		death = yes
 	}
 }
@@ -32168,11 +32168,14 @@
 		add_spouse = 167847
 		give_nickname = nick_the_fat
 		effect = {
-		set_variable = { which = physique_variable value = 15}
+			set_variable = {
+				which = physique_variable
+				value = 15
+			}
 		}
 		trait = is_fat
 	}
-	888.1.14 = {
+	888.1.13 = {
 		death = yes
 	}
 }
@@ -32198,7 +32201,7 @@
 		add_spouse = 7987
 		give_nickname = nick_the_german
 	}
-	876.1.29 = {
+	876.8.28 = {
 		death = yes
 	}
 }
@@ -45378,7 +45381,7 @@
 	culture = alemannic
 	religion = catholic
 	father = 161482
-	770.1.1 = {
+	775.1.1 = {
 		birth = yes
 	}
 	837.10.27 = {

@@ -46,40 +46,49 @@
 	holder = 190411 #Guntrum
 }
 
-855.8.23 = {
-	holder = 144998 #Lothair II
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
+}
+
+855.9.29 = {
+	holder = 90107 # Ludwig 'the German'
 }
 
 867.1.1 = {
 	holder = 161555 #Werner Salian
 }
 
-869.8.8 = {
-	holder = 90104 #Charles I the Bald
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
+}
+
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
 }
 
 877.1.20 = {
-	holder = 42019 #Louis I the Younger
+	holder = 42019 # Ludwig I 'the Younger'
 }
 
 882.1.20 = {
-	holder = 90105 #Charles II the Fat
+	holder = 90105 # Karl II 'the Fat'
+	liege = k_germany
 }
 
-888.1.1 = {
-	holder = 7945 #Arnulf of Carinthia
-}
-
-895.1.1 = {
-	holder = 144997 #Zwentibold
+887.11.17 = { # Karl 'the Fat' deposed by Arnulf
+	holder = 7945 # Arnulf of Carinthia
 }
 
 900.8.13 = {
-	holder = 7949 #Louis III the Child
+	holder = 7949 # Ludwig III 'the Child'
 }
 
 911.9.20 = {
-	holder = 90111 #Charles III the Simple
+	holder = 7952 # Konrad I
+}
+
+918.12.23 = {
+	holder = 1280 #Heinrich I
 }
 
 923.1.1 = {

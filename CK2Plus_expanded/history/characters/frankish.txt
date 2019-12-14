@@ -1132,7 +1132,7 @@
 
 1354 = {
 	name = "Hugues" # http://en.wikipedia.org/wiki/Hugh_III_of_Maine
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 6
 	diplomacy = 4
 	intrigue = 8
@@ -1153,7 +1153,7 @@
 
 1356 = {
 	name = "Hugues"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 5
 	diplomacy = 7
 	intrigue = 8
@@ -1178,7 +1178,7 @@
 	name = "Mélisende"
 	# AKA: Melisent
 	female = yes
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 4
 	diplomacy = 4
 	intrigue = 8
@@ -1196,7 +1196,7 @@
 
 1358 = {
 	name = "Heribert" #  http://en.wikipedia.org/wiki/Herbert_I,_Count_of_Maine
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 4
 	diplomacy = 4
 	intrigue = 8
@@ -1217,7 +1217,7 @@
 1359 = {
 	name = "Garsende"
 	female = yes
-	dynasty = 660
+	dynasty = 660 # de Maine
 	martial = 8
 	diplomacy = 5
 	intrigue = 8
@@ -9829,7 +9829,7 @@
 		birth = yes
 	}
 	1092.5.1 = {
-		add_spouse = 207660
+		add_spouse = 207660 # de Maine
 	}
 	1107.9.20 = {
 		death = yes
@@ -25895,7 +25895,7 @@
 }
 
 7995 = {
-	name = "Raoul"
+	name = "Rodolphe"
 	dynasty = 9306 #Bivinids/Nithard-Richard from Middle Rhine
 	martial = 6
 	diplomacy = 7
@@ -26734,8 +26734,7 @@
 
 
 90095 = {
-	name = "Louis"
-	# AKA: Louis 'le Pieux'
+	name = "Louis" # Louis I 'the Pious'
 	dynasty = 25061 # Karling
 	martial = 7
 	diplomacy = 5
@@ -26745,7 +26744,7 @@
 	culture = frankish
 	trait = skilled_tactician
 	trait = zealous
-	father = 6392
+	father = 6392 # Karl 'the Great'
 	mother = 167827
 	778.1.1 = {
 		birth = yes
@@ -26781,8 +26780,7 @@
 }
 
 90097 = {
-	name = "Pepin"
-	# AKA: Pepin 'le Jeune'
+	name = "Pepin" # Pepin II 'the Young'
 	dynasty = 25061 # Karling
 	martial = 4
 	diplomacy = 5
@@ -26790,7 +26788,7 @@
 	stewardship = 5
 	religion = catholic
 	culture = frankish
-	father = 90096
+	father = 90096 # Pepin I
 	823.1.2 = {
 		birth = yes
 	}
@@ -27111,10 +27109,10 @@
 	trait = scholarly_theologian
 	father = 90111
 	mother = 90124
-	921.1.11 = {
+	920.9.10 = {
 		birth = yes
 	}
-	954.1.11 = {
+	954.9.10 = {
 		death = yes
 	}
 }
@@ -27187,7 +27185,7 @@
 	875.1.1 = {
 		add_spouse = 168091
 	}
-	879.1.11 = {
+	879.4.10 = {
 		death = yes
 	}
 }
@@ -30814,7 +30812,7 @@
 	1169.6.1 = {
 		birth = yes
 	}
-	#1189 married Hugues IX de Lusignan 205660
+	#1189 married Hugues IX de Lusignan 205660 # de Maine
 	1233.8.29 = {
 		death = yes
 	}
@@ -30826,7 +30824,7 @@
 	dynasty = 93
 	religion = catholic
 	culture = frankish
-	father = 205660
+	father = 205660 # de Maine
 	mother = 138009
 	1189.1.1 = {
 		birth = yes
@@ -40228,7 +40226,7 @@
 
 144951 = {
 	name = "Hugues"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	father = 144952
@@ -40243,7 +40241,7 @@
 
 144952 = {
 	name = "Hugues"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	father = 144953
@@ -40260,7 +40258,7 @@
 
 144953 = {
 	name = "Roger"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	840.1.1 = {
@@ -40273,7 +40271,7 @@
 
 144954 = {
 	name = "Herbert"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	trait = honest
@@ -40822,7 +40820,7 @@
 161293 = {
 	name = "Marguerite"
 	female = yes
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	father = 1356
@@ -40838,7 +40836,7 @@
 161294 = {
 	name = "Biote"
 	female = yes
-	dynasty = 660
+	dynasty = 660 # de Maine
 	religion = catholic
 	culture = frankish
 	father = 1358
@@ -46669,7 +46667,7 @@
 
 261391 = {
 	name = "Melisende"
-	dynasty = 660
+	dynasty = 660 # de Maine
 	female = yes
 	religion = catholic
 	culture = frankish

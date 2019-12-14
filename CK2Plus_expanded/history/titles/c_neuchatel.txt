@@ -3,7 +3,7 @@
 	holder = 91482 #FREDERIC, count of Transjuranie
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -20,8 +20,13 @@
 	holder = 7989
 }
 
-876.1.1 = {
-	holder = 7984
+870.8.8 = { # Treaty of Meerssen
+	holder = 168154 # Gerold
+	liege = k_germany
+}
+
+887.11.17 = { # abdication of Karl 'the Fat', Rudolf elected by Burgundian nobles
+	liege = k_burgundy
 }
 
 899.1.1 = {

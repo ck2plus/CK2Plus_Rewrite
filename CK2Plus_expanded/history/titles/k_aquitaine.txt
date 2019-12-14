@@ -3,34 +3,39 @@
 }
 
 778.1.1 = {
-	holder = 6392 # Karl the Great
+	holder = 6392 # Karl 'the Great'
 	liege = e_france
 	law = agnatic_succession
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	holder = 90095 # Louis I 'the Pious'
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
+	de_jure_liege = e_karling
 	liege = e_karling
 }
 
-817.1.1 = {
-	holder = 90096 # Pepin I of Aquitaine
+817.7.1 = { # Ordinatio Imperii
+	holder = 90096 # Pepin I
 }
 
 838.1.14 = {
+	holder = 90097 # Pepin II 'the Younger'
+}
+
+852.9.1 = {
 	holder = 90104 # Charles II the Bald
 }
 
 # 840.6.20 = { 	liege = e_france }
 
-855.1.1 = {
+855.10.15 = {
 	holder = 42020 # Charles III 'the Child'
 }
 
-866.1.30 = {
+866.9.29 = {
 	holder = 90123 # Louis II 'the Stammerer'
 }
 
@@ -39,5 +44,13 @@
 }
 
 884.12.12 = {
+	holder = 90105 # Karl the Fat
+}
+
+887.11.17 = { # Karl deposed, Ranulf II of Poitou proclaims himself King of Aquitaine
+	holder = 90128 # Ranulf II
+}
+
+890.10.1 = {
 	holder = 0
 }

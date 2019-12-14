@@ -3,12 +3,16 @@
 	holder = 91501 #Wido, historical as place	holder
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
 842.1.1 = {
 	holder = 7979
+}
+
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
 }
 
 863.1.1 = {
@@ -24,8 +28,24 @@
 	holder = 31703
 }
 
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
+}
+
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
+}
+
 890.1.2 = {
 	holder = 31704
+}
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
 }
 
 910.6.22 = {

@@ -18,7 +18,7 @@
 	holder = 190485 #Adalric
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	liege = k_aquitaine
 }
 
@@ -36,6 +36,10 @@
 
 836.1.1 = {
 	holder = 190501 #Guillaume
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_aquitaine
 }
 
 866.1.1 = {

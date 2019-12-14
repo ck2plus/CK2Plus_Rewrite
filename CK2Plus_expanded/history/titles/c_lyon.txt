@@ -3,21 +3,45 @@
 	holder = 91491 #VUODO, historical count as place	holder
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
-855.8.23 = {
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = k_aquitaine
+}
+
+817.7.1 = { # Ordinatio Imperii
+	liege = e_karling
+}
+
+855.9.29 = { # Treaty of Prüm
+	holder = 90103 # Charles of Provence
 	liege = k_burgundy
-	holder = 144998
 }
 
 863.1.1 = {
 	holder = 168238  #Guilhem I de Forez
 }
 
+863.1.25 = { # death of Charles of Provence
+	liege = k_lotharingia
+}
+
+870.8.8 = { # Treaty of Meerssen
+	liege = k_france
+}
+
 871.1.1 = {
 	holder = 168239  #Guilhem II de Forez
+}
+
+879.4.10 = {
+	liege = k_burgundy
+}
+
+887.11.17 = { # abdication of Karl 'the Fat'
+	liege = d_provence
 }
 
 925.8.27 = {

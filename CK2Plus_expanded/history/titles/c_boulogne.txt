@@ -3,8 +3,16 @@
 	liege = k_neustria
 }
 
-800.12.25 = {
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = e_france
+}
+
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 862.1.1 = {

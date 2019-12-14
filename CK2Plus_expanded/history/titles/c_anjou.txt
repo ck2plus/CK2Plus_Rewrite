@@ -3,13 +3,26 @@
 	holder = 91471 #HILDEGAR, historical place	holder
 }
 
-790.1.1 = {
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
 	holder = 40994 # Charles 'the Younger'
 	liege = d_anjou
 }
 
 811.12.4 = { # death of Charles 'the Younger'
+	holder = 0
 	liege = e_karling
+}
+
+817.7.1 = { # Ordinatio Imperii
+	holder = 30227 # Lothair I
+}
+
+831.2.2 = { # Redivision at Aachen
+	holder = 90096 # Pepin I 'the Young'
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 853.1.1 = {

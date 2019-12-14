@@ -55,7 +55,11 @@
 	holder = 168226 #Thankulf
 }
 
-800.12.25 = {
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = e_france
+}
+
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -63,7 +67,8 @@
 	holder = 168227 #Hadulf
 }
 
-839.1.1 = {
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_germany
 	liege = k_germany
 }
 
@@ -75,12 +80,20 @@
 	holder = 168229
 }
 
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
+}
+
 880.1.1 = {
 	holder = 33428
 }
 
 882.1.1 = {
 	holder = 168231
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
 }
 
 886.1.1 = {

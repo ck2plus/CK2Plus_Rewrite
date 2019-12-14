@@ -10,15 +10,15 @@
 	adjective = WEST_FRISIA_ADJ
 }
 
-#775.1.1 = {
-#	de_jure_liege = k_neustria
-#}
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = e_france
+}
 
-800.12.25 = {
+800.12.15 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
-817.1.1 = {
+843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_lotharingia
 	liege = k_lotharingia
 }
@@ -28,19 +28,36 @@
 }
 
 870.8.8 = { # Treaty of Meerssen
-	de_jure_liege = k_germany
 	liege = k_germany
+}
+
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
 }
 
 880.1.1 = {
 	holder = 168336
 }
 
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
+}
+
 885.1.1 = {
 	holder = 31060 #Gerolf I
 }
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
+}
+
 896.1.1={
 	holder = 106551 #Dirk I
+}
+
+925.8.1 = { # Henry 'the Fowler' makes Lotharingia the fifth stem duchy of Germany
+	de_jure_liege = k_germany
+	liege = k_germany
 }
 
 936.1.1 = {
@@ -119,7 +136,7 @@
 }
 
 1304.8.22 = {
-holder = 462742 #Willem III
+	holder = 462742 #Willem III
 }
 
 1337.6.7 = {

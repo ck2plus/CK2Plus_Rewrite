@@ -35,6 +35,10 @@
 	holder = 167785 # Lothar
 }
 
+843.8.10 = { # temp date
+	liege = d_holstein
+}
+
 860.1.1 = {
 	liege = d_slesvig
 }

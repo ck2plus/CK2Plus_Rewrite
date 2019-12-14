@@ -2,37 +2,51 @@
 	pentarch = b_roma
 	de_jure_liege = 0
 }
+
 646.1.1 = {
 	holder = 131727 #Aldgisl
 }
+
 680.1.1 = {
 	holder = 131725 #Radbod
 	de_jure_liege = e_france
 }
+
 719.1.1 = {
 	liege = e_france
 	holder = 131726 #Poppo
 }
+
 734.1.1 = {
 	holder = 131728 # Aldgisl II
 }
+
 741.1.1 = {
 	holder = 131729 # Gundebold
 }
+
 748.1.1 = {
 	holder = 131730 # Radbod II
 }
+
 760.1.1 = {
 	holder = 0 # Death of last Frisian King
 }
+
 775.1.1 = {
 	holder = 0 # Charlemagne officially makes Frisia part of the Frankish Realm
 	active = no
 }
+
+800.12.25 = { # Coronation of Karl as Emperor
+	de_jure_liege = e_karling
+}
+
 #800.12.25 = {
 	#liege = e_karling
 	#de_jure_liege = e_karling
 #}
+
 #962.2.2 = {
 	#de_jure_liege = e_hre
 #}

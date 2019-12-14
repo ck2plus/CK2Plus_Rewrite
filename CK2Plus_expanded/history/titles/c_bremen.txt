@@ -19,6 +19,10 @@
 	holder = 7959 # Liudolf 'the Great'
 }
 
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
+}
+
 936.1.1 = {
 	holder = 167759
 }

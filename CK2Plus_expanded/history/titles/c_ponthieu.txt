@@ -2,7 +2,7 @@
 	holder = 131720
 }
 
-714.1.17 = {
+714.12.16 = {
 	holder = 144988
 }
 
@@ -15,16 +15,19 @@
 	holder = 144986
 }
 
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = k_neustria
+}
+
 796.1.1 = {
 	holder = 144985
 }
 
-800.12.25 = {
-	liege = e_karling
-}
-
 827.1.1 = {
 	holder = 144984
+}
+
+843.8.10 = { # Treaty of Verdun
 	liege = k_france
 }
 

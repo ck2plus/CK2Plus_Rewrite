@@ -3,6 +3,7 @@
 580.1.1 = {
 	holder = 1000134000 # Radogost
 	de_jure_liege = d_mecklemburg
+	liege = d_mecklemburg
 }
 
 618.1.1 = {

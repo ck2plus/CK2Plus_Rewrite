@@ -3,22 +3,25 @@
 	holder = 91481 #ENGELGER, historical place	holder
 }
 
-790.1.1 = {
-	liege = k_francia
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = k_neustria
 }
 
-811.12.4 = { # death of Charles 'the Younger'
-	liege = e_karling
+831.2.2 = { # Redivision at Aachen
+	liege = k_aquitaine
 }
 
 834.1.1 = {
-	liege = k_france
 	holder = 163065
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 923.1.1 = {
 	holder = 6444 #Hugues I le Grand
-	liege = d_valois
+#	liege = d_valois # Duchy not held by anyone at this time
 }
 
 1037.11.15 = {

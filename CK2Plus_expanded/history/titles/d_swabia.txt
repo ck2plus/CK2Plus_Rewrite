@@ -33,15 +33,23 @@
 	holder = 190239 #Udo
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
+}
+
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = k_italy
 }
 
 810.1.1 = {
 	holder = 0
 }
 
-865.1.1 = {
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_germany
+}
+
+865.4.22 = { # Ludwig 'the German' partitions his realm
 	reset_name = yes
 	reset_adjective = yes
 	holder = 90105 # Charles the Fat

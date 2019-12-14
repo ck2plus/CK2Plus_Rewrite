@@ -85,7 +85,7 @@
 	liege = e_france
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
 }
 
@@ -93,3 +93,8 @@
 #	de_jure_liege = k_germany
 #	holder = 0
 #}
+
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_germany
+	liege = k_germany
+}

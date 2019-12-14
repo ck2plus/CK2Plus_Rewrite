@@ -103,7 +103,7 @@
 	675.1.1 = {
 		add_spouse = 190420
 	}
-	714.1.17 = {
+	714.12.16 = {
 		death = yes
 	}
 }
@@ -2507,6 +2507,7 @@
 	775.1.1 = { death = yes }
 	#unknown
 }
+
 91504 = {
 	name = "Bilichildis" #unknown name
 	female = yes
@@ -2544,6 +2545,7 @@
 	800.12.2 = { death = yes }
 	#died c. 2 September 800
 }
+
 168017 = {
 	name = "Gauslin" #Bishop of Le Mans
 	dynasty = 9569
@@ -4003,7 +4005,7 @@
 }
 
 131722 = {
-	name = "Pepin" #Pepin 'the Short'
+	name = "Pepin" # Pepin 'the Short'
 	dynasty = 25061
 	martial = 7
 	diplomacy = 9
@@ -4037,7 +4039,7 @@
 	688.1.2 = {
 		birth = yes
 	}
-	723.1.2 = {
+	728.1.1 = {
 		death = yes
 	}
 }

@@ -6,11 +6,11 @@
 	de_jure_liege = k_austrasia
 }
 
-817.1.1 = { # Karl dies
+843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_lotharingia
 }
 
-870.8.8 = { # Treaty of Meerssen
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
 	de_jure_liege = k_germany
 }
 

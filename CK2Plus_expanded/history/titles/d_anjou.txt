@@ -2,13 +2,21 @@
 	de_jure_liege = k_neustria
 }
 
-790.1.1 = {
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
 	holder = 40994 # Charles 'the Younger'
-	liege = k_francia
+	liege = k_neustria
 }
 
 811.12.4 = { # death of Charles 'the Younger'
 	holder = 0
+}
+
+817.7.1 = { # Ordinatio Imperii
+	holder = 30227 # Lothair I
+}
+
+843.8.10 = { # Treaty of Verdun
+	de_jure_liege = k_france
 }
 
 853.1.1 = { #March of Neustria

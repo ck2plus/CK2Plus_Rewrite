@@ -3,8 +3,12 @@
 	liege = k_austrasia
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
+}
+
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = k_aquitaine
 }
 
 936.1.1 = {

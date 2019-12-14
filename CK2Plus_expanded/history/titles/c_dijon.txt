@@ -11,9 +11,21 @@
 	holder = 190513 #Theoderic
 }
 
+855.9.29 = { # Treaty of Prüm
+	liege = k_france
+}
+
 863.1.1 = {
 	liege = k_france
 	holder = 163066
+}
+
+879.4.10 = { # death of Louis 'the Stammerer'
+	liege = k_aquitaine
+}
+
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
 }
 
 923.1.1 = {

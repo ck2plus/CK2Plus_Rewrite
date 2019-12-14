@@ -43,6 +43,14 @@
 	holder = 90129
 }
 
+855.10.15 = {
+	liege = k_aquitaine
+}
+
+866.9.29 = { # death of Charles 'the Child', Louis 'the Stammerer' appointed
+	liege = d_aquitaine
+}
+
 866.10.1 = {
 	holder = 90128
 }

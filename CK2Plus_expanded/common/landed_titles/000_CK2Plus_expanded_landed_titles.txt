@@ -70,22 +70,6 @@ k_azerbaijan = {
 		}
 }
 
-k_francia = {
-	color = { 11 22 170 }
-	color2 = { 255 255 20 }
-
-	culture = old_frankish
-
-	capital = 90 # Julich
-
-	short_name = yes
-
-	allow = {
-		# TODO: Put in actual requirements
-		always = no
-	}
-}
-
 k_neustria = {
 	color = { 110 110 160 }
 	color2 = { 220 220 20 }

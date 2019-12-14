@@ -1,8 +1,9 @@
 1.1.1 = {
 	active = no
+	pentarch = b_roma
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	active = yes
 	holder = 6392 #Charlemagne
 }
@@ -11,23 +12,23 @@
 	holder = 90095 # Louis I
 }
 
-822.4.5 = {
-	holder = 30227 # Lothaire
+840.6.20 = {
+	holder = 30227 # Lothaire I
 }
 
-855.9.20 = {
+855.9.29 = {
 	holder = 30228 # Louis II
 }
 
-875.8.12={
-	holder = 90104 # Charles 'the Bald'
+875.8.12 = {
+	holder = 90104 # Charles II 'the Bald'
 }
 
-876.8.28 = {
-	holder = 90105 #Charles 'the Fat'
+876.10.6 = {
+	holder = 90105 # Karl III 'the Fat'
 }
 
-924.7.4 = {
+887.11.17 = { # Karl III 'the Fat' deposed
 	holder = 0
 	active = no
 }

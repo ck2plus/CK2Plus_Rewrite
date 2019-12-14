@@ -3,13 +3,29 @@
 	holder = 245002
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
+}
+
+855.9.29 = { # Treaty of Prüm
+	liege = k_lotharingia
 }
 
 867.1.1 = {
 	holder = 245003
 	liege = k_lotharingia
+}
+
+870.8.8 = { # Treaty of Meerssen
+	liege = k_france
+}
+
+879.4.10 = { # death of Louis 'the Stammerer'
+	liege = k_aquitaine
+}
+
+887.11.17 = { # abdication of Karl 'the Fat', Rudolf elected by Burgundian nobles
+	liege = k_burgundy
 }
 
 936.1.1 = {

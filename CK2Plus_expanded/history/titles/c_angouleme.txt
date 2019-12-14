@@ -6,7 +6,7 @@
 	liege = d_aquitaine
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	liege = k_aquitaine
 }
 
@@ -15,11 +15,11 @@
 }
 
 866.1.1 = {
-	liege = d_aquitaine
+	holder = 40080 #Wulgrim I Taillefer
 }
 
-866.1.1 = {
-	holder = 40080 #Wulgrim I Taillefer
+866.9.29 = { # death of Charles 'the Child', Louis 'the Stammerer' appointed
+	liege = d_aquitaine
 }
 
 886.1.1 = {
@@ -31,7 +31,7 @@
 }
 
 945.1.1 = {
-	holder = 138110 #Bernard I de périgord
+	holder = 138110 #Bernard I de pï¿½rigord
 }
 
 950.1.1 = {

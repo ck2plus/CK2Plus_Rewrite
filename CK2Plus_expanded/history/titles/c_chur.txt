@@ -19,11 +19,19 @@
 }
 
 810.1.1 = {
+	liege = k_italy
+}
+
+810.7.8 = { # Death of Pepin
 	liege = e_karling
 }
 
 819.1.1 = {
 	holder = 190357 #Berthold
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
 }
 
 847.1.1 = {

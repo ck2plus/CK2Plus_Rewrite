@@ -42,7 +42,7 @@
 	liege = k_neustria
 }
 
-781.1.1 = {
+781.4.15 = { # Coronation in Rome at Easter
 	liege = k_aquitaine
 }
 
@@ -50,14 +50,26 @@
 	holder = 90129 # Ramnulf I
 }
 
-866.10.1 = {
-	holder = 90128 # Ramnulf II
+866.9.29 = { # death of Charles 'the Child', Louis 'the Stammerer' appointed
 	liege = k_france
 }
 
-#889.12.12 = {
-# 	liege = k_france
-#}
+866.10.1 = {
+	holder = 90128 # Ramnulf II
+}
+
+879.4.10 = {
+	liege = k_aquitaine
+}
+
+887.11.17 = { # Karl deposed, Ramnulf II of Poitou proclaims himself King of Aquitaine
+	de_jure_liege = k_france
+	liege = k_aquitaine
+}
+
+890.10.1 = { # death of Ramnulf II
+	liege = k_france
+}
 
 895.1.1 = {
 	holder = 127022 # Guillaume Ier

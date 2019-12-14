@@ -1,58 +1,71 @@
-1.1.1 = {
-    de_jure_liege = 0
-}
 760.1.1 = {
     de_jure_liege = k_austrasia
 }
-817.1.1 = {
+
+843.8.10 = { # Treaty of Verdun
     de_jure_liege = k_lotharingia
 }
-843.8.1 = { # Treaty of Verdun
-    de_jure_liege = k_lotharingia # No change yet
-}
-870.9.15 = { # Treaty of Meerssen
-	de_jure_liege = k_germany
+
+870.8.8 = { # Treaty of Meerssen
 	liege = k_germany
 }
-1190.8.21={
-    liege="e_hre"
+
+925.8.1 = { # Henry 'the Fowler' creates the fifth stem duchy of Germany
+	de_jure_liege = k_germany
 }
-1190.8.21={
-    holder=213181
+
+1190.8.21 = {
+    liege = e_hre
 }
-1191.8.13={
-    holder=30345 #Bruno von Berg
+
+1190.8.21 = {
+    holder = 213181
 }
-1193.1.1={
-    holder=30347 #Adolf von Berg
+
+1191.8.13 = {
+    holder = 30345 #Bruno von Berg
 }
-1205.1.1={
-    holder=33166
+
+1193.1.1 = {
+    holder = 30347 #Adolf von Berg
 }
-1208.11.2={
-    holder=33167
+
+1205.1.1 = {
+    holder = 33166
 }
-1216.1.1={
-    holder=33168
+
+1208.11.2 = {
+    holder = 33167
 }
-1225.11.7={
-    holder=33169
+
+1216.1.1 = {
+    holder = 33168
 }
-1238.3.26={
-    holder=33170
+
+1225.11.7 = {
+    holder = 33169
 }
-1261.9.28={
-    holder=33171
+
+1238.3.26 = {
+    holder = 33170
 }
-1274.10.20={
-    holder=33172
+
+1261.9.28 = {
+    holder = 33171
 }
+
+1274.10.20 = {
+    holder = 33172
+}
+
 1297.4.7={
-    holder=30329 #Wigbold von Holte
+    holder = 30329 #Wigbold von Holte
 }
-1304.3.26 ={
-    holder=33173
+
+1304.3.26 = {
+    holder = 33173
 }
-1332.1.5={
-    holder=487032 #Walram von Jülich
+
+1332.1.5 = {
+    holder = 487032 #Walram von Jülich
 }

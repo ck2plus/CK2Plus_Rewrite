@@ -3,8 +3,12 @@
 	liege = k_neustria
 }
 
-800.12.25 = {
+800.12.25 = { # Coronation of Karl as Emperor
 	liege = e_karling
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 862.1.1 = {

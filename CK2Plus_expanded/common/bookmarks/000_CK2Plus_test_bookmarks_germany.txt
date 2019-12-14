@@ -1,0 +1,79 @@
+bm_diet_of_worms_zwentibold = {
+	name = "Diet of Worms"
+	desc = "No more empire!"
+#	name = BM_DIET_OF_WORMS_ZWENTIBOLD
+#	desc = BM_DIET_OF_WORMS_ZWENTIBOLD_DESC
+	date = 895.5.1
+
+	selectable_character = {
+		id = 144997 # Zwentibold
+	}
+}
+
+bm_death_of_arnulf_of_carinthia = {
+	name = "Death of Arnulf of Carinthia"
+	desc = "He's dead!"
+#	name = BM_DEATH_OF_ARNULF_OF_CARINTHIA
+#	desc = BM_DEATH_OF_ARNULF_OF_CARINTHIA_DESC
+	date = 899.12.8
+
+	selectable_character = {
+		id = 144997 # Zwentibold
+	}
+
+	selectable_character = {
+		id = 7949 # Ludwig IV 'the Child'
+	}
+}
+
+bm_death_of_zwentibold = {
+	name = "Death of Zwentibold"
+	desc = "He's murdered!"
+#	name = BM_DEATH_OF_ZWENTIBOLD
+#	desc = BM_DEATH_OF_ZWENTIBOLD_DESC
+	date = 900.8.13
+
+	selectable_character = {
+		id = 7949 # Ludwig IV 'the Child'
+	}
+}
+
+bm_death_of_ludwig_the_child = {
+	name = "Death of Ludwig 'the Child'"
+	desc = "He's dead!"
+#	name = BM_DEATH_OF_LUDWIG_THE_CHILD
+#	desc = BM_DEATH_OF_LUDWIG_THE_CHILD_DESC
+	date = 911.9.20
+
+	selectable_character = {
+		id = 7952 #Konrad I
+	}
+
+	selectable_character = {
+		id = 90111 # Charles 'the Simple'
+	}
+}
+
+bm_death_of_konrad_i = {
+	name = "Death of Konrad I"
+	desc = "He's dead!"
+#	name = BM_DEATH_OF_KONRAD_I
+#	desc = BM_DEATH_OF_KONRAD_I_DESC
+	date = 918.12.23
+
+	selectable_character = {
+		id = 1280 #Heinrich I
+	}
+}
+
+bm_stem_duchy_of_lotharingia = {
+	name = "Stem Duchy of Lotharingia"
+	desc = "It's gone!"
+#	name = BM_STEM_DUCHY_OF_LOTHARINGIA
+#	desc = BM_STEM_DUCHY_OF_LOTHARINGIA_DESC
+	date = 925.8.1
+
+	selectable_character = {
+		id = 1280 #Heinrich I
+	}
+}

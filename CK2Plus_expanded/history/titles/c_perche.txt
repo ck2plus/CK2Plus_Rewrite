@@ -5,19 +5,26 @@
 
 790.1.1 = {
 	holder = 168017 #Gauslin, son of Rothgar
-	liege = k_francia
 }
 
-811.12.4 = { # death of Charles 'the Younger'
-	liege = e_karling
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = k_neustria
 }
 
 812.1.1 = {
 	holder = 168020
 }
 
+831.2.2 = { # Redivision at Aachen
+	liege = k_aquitaine
+}
+
 839.6.16 = {
 	holder = 168019
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
 }
 
 849.1.1 = {

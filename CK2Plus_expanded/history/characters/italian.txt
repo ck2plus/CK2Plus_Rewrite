@@ -18642,7 +18642,7 @@
 }
 
 71903 = {
-	name = "Guy"
+	name = "Guido"
 	dynasty = 7389
 	religion = catholic
 	culture = italian

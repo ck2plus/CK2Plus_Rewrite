@@ -14,12 +14,15 @@
 	holder = 7985 #Welf
 }
 
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = e_karling
+}
+
 810.1.1 = {
 	liege = e_karling
 }
 
 820.1.1 = {
-	liege = k_lotharingia
 	holder = 161483
 }
 
@@ -27,8 +30,21 @@
 	holder = 163055
 }
 
+843.8.10 = { # Treaty of Verdun
+	holder = 161479
+	liege = k_lotharingia
+}
+
 864.1.1 = {
 	holder = 163095
+}
+
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
+}
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
 }
 
 898.1.1 = {
