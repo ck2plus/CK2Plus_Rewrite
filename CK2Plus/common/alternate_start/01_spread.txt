@@ -1,19 +1,64 @@
 adjacencies = {
-	2 = 275 # Austisland - Nidaros
-	33 = 34 # Faroe Islands - Shetland
-	34 = 36 # Shetland - Orkney
-	204 = 827 # Barcelona - Mallorca
-	233 = 324 # Genoa - Corsica
-	849 = 846 # Canarias - Ifni
-	73 = 74 # Kent - Guines
-	478 = 479 # Monemvasia - Kaneia
-	343 = 812 # Siracusa - Malta
-	871 = 1369 # Busaso - Socotra
-	1360 = 1114 # Maldives - Mahoyadapuram
-	758 = 757 # Selukeia - Famagusta
-	31 = 103 # Cornwall - Leon
-	357 = 356 # Treviso - Venezia
-	1828 = 1829 # Zavarot - Kolguyev
+	2 = 275		# Austisland - Nidaros
+	33 = 34		# Faroe Islands - Shetland
+	34 = 36		# Shetland - Orkney
+	204 = 827	# Barcelona - Mallorca
+	233 = 324	# Genoa - Corsica
+	849 = 846	# Canarias - Ifni
+	73 = 74		# Kent - Guines
+	478 = 479	# Monemvasia - Kaneia
+	343 = 812	# Siracusa - Malta
+	871 = 1369	# Busaso - Socotra
+	1360 = 1114	# Maldives - Mahoyadapuram
+	758 = 757	# Selukeia - Famagusta
+	31 = 103	# Cornwall - Leon
+	357 = 356	# Treviso - Venezia
+	1828 = 1829	# Zavarot - Kolguyev
+
+	# CK2Plus, due to removed adjacencies
+
+	# British Isles
+	33 = 37		# Færeyar - Caithness
+	34 = 37		# Shetland - Caithness
+	36 = 37		# Orkney - Caithness
+	54 = 50		# Isle of Man - Galloway
+	64 = 1949	# Gwynedd - Anglesey
+	26 = 1950;	# Wessex - Wight
+
+	# Low Countries
+	79 = 80		# Zeeland - Holland
+
+	# Baltic Sea
+	265 = 264	# Fyn - Slesvig
+	1687 = 264	# Lolland - Slesvig
+	266 = 1684	# Sjælland - Aarhus
+	305 = 303	# Bornholm - Scania
+	304 = 307	# Rügen - Werle
+	300 = 931	# Öland - Möre
+	301 = 932	# Gotland - Tjust
+	291 = 382	# Åland - Suomi
+	376 = 377	# Saaremaa - Läänemaa
+
+	# Mediterranean Sea
+	826 = 827	# Menorca - Mallorca
+	1577 = 1574	# Cinarca - Gallura
+	338 = 339	# Reggio - Messina
+	343 = 812	# Siracusa - Malta
+
+	# Greek Isles
+	476 = 1889	# Achaia = Zakynthos
+	474 = 473	# Cephalonia - Árta
+	472 = 1890	# Épieros - Korkyra
+	483 = 747	# Rhodos - Lykia
+	484 = 485	# Naxos - Euboia
+	486 = 746	# Chios = Ephesos
+	487 = 744	# Lesbos - Abydos
+
+	# Persian Gulf
+	1531 = 652	# Uwal - Al Hasa
+
+	# India
+	1295 = 1331	# Kutch - Sonda
 }
 
 culture_group_spread = {
