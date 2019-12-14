@@ -814,8 +814,13 @@ war_tuning = { # Used for Casus Belis
 	# Only the irrational go to war broke
 	modifier = {
 		factor = 0
-		ai_rationality > 1 # Placeholder
-		gold < 200
-		monthly_income < 1
+		ROOT = {
+			ai_rationality = 10 # Placeholder
+			NOR = {
+				gold = 200
+				monthly_income = 2 # 2 gold per month
+				scaled_wealth = 0.25 # 3 months of income stockpiled
+			}
+		}
 	}
 }
