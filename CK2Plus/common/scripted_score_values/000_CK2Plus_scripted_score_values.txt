@@ -2,7 +2,7 @@
 #
 #	Plus scripted score values
 #
-#	Total = 11
+#	Total = 12
 #
 #	diplomacy_FROM_factor
 #	martial_FROM_factor
@@ -17,6 +17,8 @@
 #	stewardship_factor
 #	intrigue_factor
 #	learning_factor
+#
+#	war_tuning
 #
 ##################################################################
 
@@ -804,5 +806,44 @@ learning_factor = { #Use this one for learning focused events
 	modifier = {
 		factor = 0.2
 		trait = lustful
+	}
+}
+
+# War Tuning
+war_tuning = { # Used for Casus Belis
+	# Only the irrational go to war broke
+	modifier = {
+		factor = 0
+		ROOT = {
+			ai_rationality = 10 # Placeholder
+			NOR = {
+				gold = 200
+				monthly_income = 2 # 2 gold per month
+				AND = {
+					monthly_income = 1 # At least one full gold per month income
+					scaled_wealth = 0.25 # 3 months of income stockpiled
+				}
+			}
+		}
+	}
+	# Vassals more likely to fight amongst themselves than externally
+	modifier = {
+		factor = 0.1
+		ROOT = {
+			independent = no
+			NOT = { same_realm = FROM }
+		}
+	}
+	# Less likely to fight fellows of the same faith
+	modifier = {
+		factor = 0.5
+		ROOT = {
+			religion = FROM
+			NOR = {
+				trait = cynical
+				trait = excommunicated
+				FROM = { trait = excommunicated }
+			}
+		}
 	}
 }
