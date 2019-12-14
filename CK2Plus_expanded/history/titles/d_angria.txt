@@ -1,6 +1,9 @@
 150.1.1 = { # Saxons first mentioned in Ptolemy's Geographia
 	de_jure_liege = k_saxony
-	liege = k_saxony
+	set_tribute_suzerain = {
+		who = k_saxony
+		type = war_pact
+	}
 }
 
 761.1.1 = {
@@ -9,6 +12,7 @@
 
 # Subjugated by Karl
 772.1.1 = {
+	clear_tribute_suzerain = k_saxony
 	liege = e_france
 }
 

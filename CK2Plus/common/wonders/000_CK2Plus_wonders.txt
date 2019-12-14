@@ -1,4 +1,4 @@
-# The Danevirke (currently just a copy of the vanilla Great Walls wonder)
+# The Danevirke
 wonder_danevirke = {
 	picture = GFX_wonder_strip_grand_walls
 	show_model = no
@@ -23,8 +23,8 @@ wonder_danevirke = {
 	stage = {
 		allow = {
 			FROMFROMFROM = {
-				TECH_FORTIFICATIONS_CONSTRUCTION = 4
-				TECH_CONSTRUCTION = 4
+				TECH_FORTIFICATIONS_CONSTRUCTION = 1
+				TECH_CONSTRUCTION = 1
 			}
 		}
 		build_time = 300
@@ -37,6 +37,7 @@ wonder_danevirke = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
+			garrison_size = 0.25
 			siege_defence = 0.1
 		}
 		owner_modifier = {
@@ -60,6 +61,7 @@ wonder_danevirke = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
+			garrison_size = 0.25
 			siege_defence = 0.1
 		}
 		owner_modifier = {
@@ -83,8 +85,8 @@ wonder_danevirke = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
+			garrison_size = 0.25
 			siege_defence = 0.1
-			garrison_size = 0.1
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.1
@@ -106,9 +108,9 @@ wonder_danevirke = {
 		restore_cost_ticking = 2
 		upgrade_slots = 2
 		local_modifier = {
-			fort_level = 0.5
+			fort_level = 0.25
+			garrison_size = 0.25
 			siege_defence = 0.1
-			garrison_size = 0.1
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.1
@@ -116,7 +118,7 @@ wonder_danevirke = {
 	}
 }
 
-# Hadrian's Wall (currently just a copy of the vanilla Great Walls wonder)
+# Hadrian's Wall
 wonder_hadrians_wall = {
 	picture = GFX_wonder_strip_grand_walls
 	show_model = no
@@ -141,8 +143,8 @@ wonder_hadrians_wall = {
 	stage = {
 		allow = {
 			FROMFROMFROM = {
-				TECH_FORTIFICATIONS_CONSTRUCTION = 4
-				TECH_CONSTRUCTION = 4
+				TECH_FORTIFICATIONS_CONSTRUCTION = 1
+				TECH_CONSTRUCTION = 1
 			}
 		}
 		build_time = 300
@@ -155,7 +157,8 @@ wonder_hadrians_wall = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
-			garrison_size = 0.1
+			garrison_size = 0.25
+			siege_defence = 0.1
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.1
@@ -178,7 +181,8 @@ wonder_hadrians_wall = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
-			garrison_size = 0.1
+			garrison_size = 0.25
+			siege_defence = 0.1
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.1
@@ -201,8 +205,8 @@ wonder_hadrians_wall = {
 		upgrade_slots = 2
 		local_modifier = {
 			fort_level = 0.25
+			garrison_size = 0.25
 			siege_defence = 0.1
-			garrison_size = 0.1
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.1
@@ -224,9 +228,9 @@ wonder_hadrians_wall = {
 		restore_cost_ticking = 2
 		upgrade_slots = 2
 		local_modifier = {
-			fort_level = 0.5
+			fort_level = 0.25
+			garrison_size = 0.25
 			siege_defence = 0.1
-			garrison_size = 0.1
 		}
 		owner_modifier = {
 			monthly_character_prestige = 0.1
