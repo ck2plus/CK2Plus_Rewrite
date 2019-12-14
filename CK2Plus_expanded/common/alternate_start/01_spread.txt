@@ -23,7 +23,7 @@ adjacencies = {
 	36 = 37		# Orkney - Caithness
 	54 = 50		# Isle of Man - Galloway
 	64 = 1949	# Gwynedd - Anglesey
-	26 = 1950;	# Wessex - Wight
+	26 = 1950	# Wessex - Wight
 
 	# Low Countries
 	79 = 80		# Zeeland - Holland
@@ -106,7 +106,7 @@ culture_group_spread = {
 	}
 	modifier = {
 		factor = 8
-		culture_group = altaic
+		culture_group = turkic_group # vanilla: altaic, we moved most of those cultures to turkic_group and added new ones
 		NOT = {
 			has_alternate_start_setting = {
 				setting = culture
@@ -135,14 +135,25 @@ culture_group_spread = {
 			}
 		}
 	}
-	modifier = { # Boost groups with many individual cultures somewhat
+	modifier = { # Boost groups with many individual cultures somewhat (at least 5 cultures)
 		factor = 1.5
 		OR = {
-			culture_group = byzantine
 			culture_group = celtic
-			culture_group = baltic
-			culture_group = arabic
-			culture_group = dravidian_group
+
+			# CK2Plus
+			culture_group = amazigh
+			culture_group = central_germanic
+			culture_group = east_iranian_group
+			culture_group = east_slavic
+			culture_group = finno_ugric
+			culture_group = iranian
+			culture_group = italian_group
+			culture_group = north_germanic
+			culture_group = south_slavic
+			culture_group = tibetan_group
+			#culture_group = turkic_group # accounted for above
+			culture_group = west_aryan_group
+
 		}
 		NOT = {
 			has_alternate_start_setting = {
@@ -151,13 +162,14 @@ culture_group_spread = {
 			}
 		}
 	}
-	modifier = { # Boost groups with very many individual cultures even more
+	modifier = { # Boost groups with very many individual cultures even more (at least 8 cultures)
 		factor = 3
 		OR = {
-			culture_group = byzantine
+			culture_group = celtic
+			culture_group = central_germanic
 			culture_group = finno_ugric
-			culture_group = iranian
-			culture_group = indo_aryan_group
+			culture_group = italian_group
+			#culture_group = turkic_group # accounted for above
 		}
 		NOT = {
 			has_alternate_start_setting = {
