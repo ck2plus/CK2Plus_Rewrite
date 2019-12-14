@@ -3,11 +3,6 @@
 	set_tribute_suzerain = {
 		who = k_saxony
 		type = permanent
-		suzerain_can_be_called = yes
-		tributary_can_be_summoned = yes
-		suzerain_must_defend = yes
-		tributary_must_defend = yes
-		breaks_at_suzerain_death = no
 	}
 }
 
