@@ -1,6 +1,14 @@
 150.1.1 = { # Saxons first mentioned in Ptolemy's Geographia
 	de_jure_liege = k_saxony
-	liege = k_saxony
+	set_tribute_suzerain = {
+		who = k_saxony
+		type = permanent
+		suzerain_can_be_called = yes
+		tributary_can_be_summoned = yes
+		suzerain_must_defend = yes
+		tributary_must_defend = yes
+		breaks_at_suzerain_death = no
+	}
 }
 
 # Udonen
@@ -11,6 +19,7 @@
 
 # Subjugated by Karl
 776.1.1 = {
+	clear_tribute_suzerain = k_saxony
 	liege = e_france
 }
 
