@@ -1,9 +1,9 @@
 From;To;Type;Through;-1;-1;-1;-1;Comment
 496;741;sea;947;-1;-1;-1;-1;Constantinople-Nikomedia
 259;261;major_river;1046;-1;-1;-1;-1;Celle-Hamburg			#ELBE
-258;261;major_river;1046;-1;-1;-1;-1;Lüneburg-Hamburg
+258;261;major_river;1046;-1;-1;-1;-1;Lï¿½neburg-Hamburg
 309;261;major_river;1046;-1;-1;-1;-1;Altmark-Hamburg
-309;262;major_river;1046;-1;-1;-1;-1;Altmark-Lübeck
+309;262;major_river;1046;-1;-1;-1;-1;Altmark-Lï¿½beck
 309;260;major_river;1047;-1;-1;-1;-1;Altmark-Mecklenburg
 309;1988;major_river;1047;-1;-1;-1;-1;Werben-Havelberg
 1982;1988;major_river;1048;-1;-1;-1;-1;Magdeburg-Havelberg
@@ -17,8 +17,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 80;92;major_river;1043;-1;-1;-1;-1;Holland-Breda		#RHINE
 82;92;major_river;1043;-1;-1;-1;-1;Sticht-Breda
 89;91;major_river;1043;-1;-1;-1;-1;Kleve-Loon
-119;89;major_river;1044;-1;-1;-1;-1;Köln-Kleve
-119;1983;major_river;1044;-1;-1;-1;-1;Köln-Berg
+119;89;major_river;1044;-1;-1;-1;-1;Kï¿½ln-Kleve
+119;1983;major_river;1044;-1;-1;-1;-1;Kï¿½ln-Berg
 118;1983;major_river;1045;-1;-1;-1;-1;Trier-Berg
 1981;118;major_river;1045;-1;-1;-1;-1;Frankfurt-Trier
 97;99;major_river;1041;-1;-1;-1;-1;Rouen-Evreux		#SEINE
@@ -180,8 +180,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 451;444;major_river;1066;-1;-1;-1;-1;Fejer-Esztergom
 450;444;major_river;1067;-1;-1;-1;-1;Sopron-Esztergom
 450;445;major_river;1067;-1;-1;-1;-1;Sopron-Pressburg
-449;445;major_river;1067;-1;-1;-1;-1;Österreich-Pressburg
-449;1697;major_river;1067;-1;-1;-1;-1;Österreich-Krems
+449;445;major_river;1067;-1;-1;-1;-1;ï¿½sterreich-Pressburg
+449;1697;major_river;1067;-1;-1;-1;-1;ï¿½sterreich-Krems
 1699;1697;major_river;1067;-1;-1;-1;-1;Medelike-Krems
 1699;1698;major_river;1067;-1;-1;-1;-1;Medelike-Freistadt
 448;447;major_river;1068;-1;-1;-1;-1;Salzburg-Passau
@@ -191,7 +191,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1700;252;major_river;1069;-1;-1;-1;-1;Regensburg-Ulm
 315;252;major_river;1069;-1;-1;-1;-1;Kempten-Ulm
 249;252;major_river;1069;-1;-1;-1;-1;Schwaben-Ulm
-249;251;major_river;1069;-1;-1;-1;-1;Schwaben-Fürstenberg
+249;251;major_river;1069;-1;-1;-1;-1;Schwaben-Fï¿½rstenberg
 1297;1331;major_river;1307;-1;-1;-1;-1;Debul-Sonda
 1303;1331;major_river;1307;-1;-1;-1;-1;Ranikot-Sonda
 1303;1137;major_river;1307;-1;-1;-1;-1;Ranikot-Mansura
@@ -236,10 +236,6 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1089;1093;portage;595;-1;-1;-1;-1;Don-Volga
 1087;1082;portage;419;-1;-1;-1;-1;Lovat-Dwina
 1402;1404;portage;1195;-1;-1;-1;-1;Gulf of Mannar-Palk Strait
-45;1939;sea;992;-1;-1;-1;-1;Argyll - Iona
-1939;35;sea;992;-1;-1;-1;-1;Iona - Innse Gall
-64;1949;sea;968;-1;-1;-1;-1;Gwynedd - Anglesey
-26;1950;sea;966;-1;-1;-1;-1;Wessex - Wight
 798;799;major_river;1995;-1;-1;-1;-1;Damietta - Rasheed # Nile
 797;799;major_river;1995;-1;-1;-1;-1;El-Malhalla - Rasheed # Nile
 797;2004;major_river;1995;-1;-1;-1;-1;El-Malhalla - Kharibta # Nile
