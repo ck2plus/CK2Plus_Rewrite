@@ -1,0 +1,473 @@
+##########################################
+# COUNCILLOR ACTIONS
+##########################################
+# attribute = [diplomacy/stewardship/intrigue/martial/learning] - Character attribute is multiplied with the modifiers
+# trigger = Province scope trigger to determine if the action is meaningful in a province (the player character is FROM)
+# Events that can trigger off this action. This info is only used by the GUI.
+# All modifiers (like 'local_build_time_modifier') are multiplied by the attribute
+
+
+# display_on_map = {
+#	tooltip = JOB_PROSELYTIZE_DIFFERENT_RELIGION  # Key of the loc to add to the tooltip
+#	trigger = {                                   # Trigger for when this should happen. Same scopes as the allow/potential for the job action itself
+#		NOT = { religion = FROM }
+#	}
+#	color = { 255 0 0 }                           # What color to use on the map
+# }
+
+# Steward
+action_show_fake_mapmode_steward = {
+	attribute = stewardship		# Irrelevant, but without it action might break
+	
+	potential = {
+		FROM = {
+			ai = no		# Only ever allowed for players!
+		}
+	}
+	
+	trigger = {
+		owner = {
+			always = yes	# Means that province is not wasteland
+		}
+	}
+	
+	# It follows a list of every map color + tooltip, displayed under various circumstances:
+	
+	# SIMPLE TERRAIN:
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = arctic
+			}
+		}
+		color = { 204 255 255 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = mountain
+			}
+		}
+		color = { 150 150 150 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = hills
+			}
+		}
+		color = { 112 74 31 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = steppe
+			}
+		}
+		color = { 224 211 82 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = farmlands
+			}
+		}
+		color = { 255 215 0 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = plains
+			}
+		}
+		color = { 116 167 36 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = forest
+			}
+		}
+		color = { 0 78 5 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = jungle
+			}
+		}
+		color = { 63 92 13 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = desert
+			}
+		}
+		color = { 206 169 99 }
+	}
+	display_on_map = {
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_simple_terrain
+				}
+				terrain = marsh
+			}
+		}
+		color = { 38 173 124 }
+	}
+	# /Simple Terrain
+	
+	
+	# PROSPERITY & DEPOPULATION:
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Prosperity_3
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_prosperity_depopulation
+				}
+				has_province_modifier = prosperity_modifier_3
+			}
+		}
+		color = { 24 191 47 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Prosperity_2
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_prosperity_depopulation
+				}
+				has_province_modifier = prosperity_modifier_2
+			}
+		}
+		color = { 151 206 23 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Prosperity_1
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_prosperity_depopulation
+				}
+				has_province_modifier = prosperity_modifier_1
+			}
+		}
+		color = { 184 210 50 }
+	}
+	display_on_map = {	# No major modifier whatsoever
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_prosperity_depopulation
+				}
+				NOR = {
+					has_province_modifier = prosperity_modifier_3
+					has_province_modifier = prosperity_modifier_2
+					has_province_modifier = prosperity_modifier_1
+					has_province_modifier = depopulated_1
+					has_province_modifier = depopulated_2
+					has_province_modifier = depopulated_3
+				}
+			}
+		}
+		color = { 118 118 118 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Depopulation_1
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_prosperity_depopulation
+				}
+				has_province_modifier = depopulated_1
+			}
+		}
+		color = { 213 186 50 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Depopulation_2
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_prosperity_depopulation
+				}
+				has_province_modifier = depopulated_2
+			}
+		}
+		color = { 219 126 33 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Depopulation_3
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_prosperity_depopulation
+				}
+				has_province_modifier = depopulated_3
+			}
+		}
+		color = { 216 42 23 }
+	}
+	# /Prosperity & Depopulation
+	
+	
+	# NUMBER OF HOLDINGS:
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Holdings_0
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_num_of_holdings
+				}
+				NOT = {
+					num_of_settlements = 1
+				}
+			}
+		}
+		color = { 207 209 207 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Holdings_1
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_num_of_holdings
+				}
+				num_of_settlements = 1
+				NOT = {
+					num_of_settlements = 2
+				}
+			}
+		}
+		color = { 247 252 245 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Holdings_2
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_num_of_holdings
+				}
+				num_of_settlements = 2
+				NOT = {
+					num_of_settlements = 3
+				}
+			}
+		}
+		color = { 219 241 213 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Holdings_3
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_num_of_holdings
+				}
+				num_of_settlements = 3
+				NOT = {
+					num_of_settlements = 4
+				}
+			}
+		}
+		color = { 173 222 167 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Holdings_4
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_num_of_holdings
+				}
+				num_of_settlements = 4
+				NOT = {
+					num_of_settlements = 5
+				}
+			}
+		}
+		color = { 115 195 117 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Holdings_5
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_num_of_holdings
+				}
+				num_of_settlements = 5
+				NOT = {
+					num_of_settlements = 6
+				}
+			}
+		}
+		color = { 55 160 85 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Holdings_6
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_num_of_holdings
+				}
+				num_of_settlements = 6
+				NOT = {
+					num_of_settlements = 7
+				}
+			}
+		}
+		color = { 11 118 51 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Holdings_7
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_num_of_holdings
+				}
+				num_of_settlements = 7
+			}
+		}
+		color = { 0 68 27 }
+	}
+	# /Number of Holdings
+	
+	
+	# SUPPLY LIMIT:
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_0_to_1
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value <= 1
+					}
+				}
+			}
+		}
+		color = { 255 0 0 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_1_to_5
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value > 1
+					}
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value <= 5
+					}
+				}
+			}
+		}
+		color = { 255 128 0 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_5_to_10
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value > 5
+					}
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value <= 10
+					}
+				}
+			}
+		}
+		color = { 255 255 0 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_10_to_15
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value > 10
+					}
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value <= 15
+					}
+				}
+			}
+		}
+		color = { 128 255 0 }
+	}
+	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_Supply_Limit_15_to_inf
+		trigger = {
+			AND = {
+				FROM = {
+					has_character_flag = fake_mapmode_supply_limit
+				}
+				AND = {
+					supply_limit = {
+						for = FROM
+						leader = FROM
+						value > 15
+					}
+				}
+			}
+		}
+		color = { 0 255 0 }
+	}
+	# /Supply Limit
+	
+	events = { }	# No events, but again without this line stuff might break
+}
