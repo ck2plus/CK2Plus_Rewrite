@@ -19,6 +19,14 @@
 	liege = k_aquitaine
 }
 
+832.9.1 = { # crowned King of Aquitaine after Pepin's rebellion
+	liege = e_karling
+}
+
+838.9.1 = { # Diet at Quierzy
+	liege = k_neustria
+}
+
 839.6.16 = {
 	holder = 168019
 }

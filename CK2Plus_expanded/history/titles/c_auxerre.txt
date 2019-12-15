@@ -6,6 +6,22 @@
 	liege = d_burgundy
 }
 
+829.1.1 = {
+	liege = e_karling
+}
+
+831.2.2 = { # Division Regni at Aachen
+	liege = d_swabia
+}
+
+837.10.1 = { # Charles II 'the Bald' finally receives a kingdom
+	liege = k_neustria
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_france
+}
+
 859.1.1 = {
 	liege = d_burgundy
 	holder = 7988

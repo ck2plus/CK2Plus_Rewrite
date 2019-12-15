@@ -18,6 +18,10 @@
 	holder = 7946
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = k_bavaria
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_germany
 }

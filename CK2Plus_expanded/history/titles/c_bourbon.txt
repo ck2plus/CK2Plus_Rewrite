@@ -20,12 +20,12 @@
 	liege = k_aquitaine
 }
 
-887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
-	liege = k_france
-}
-
 884.12.12 = {
 	liege = d_poitou
+}
+
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
 }
 
 890.1.1 = {

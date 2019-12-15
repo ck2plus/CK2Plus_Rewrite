@@ -42,10 +42,28 @@
 }
 
 810.1.1 = {
-	holder = 0
+	holder = 6392 # Karl 'the Great'
+}
+
+814.1.28 = {
+	holder = 90095 # Louis I 'the Pious'
+}
+
+829.8.1 = { # Diet of Worms
+	holder = 90104 # Charles II 'the Bald'
+	liege = e_karling
+}
+
+832.9.1 = { # crowned King of Aquitaine after Pepin's rebellion
+	holder = 90095 # Louis I 'the Pious'
+}
+
+840.6.20 = {
+	holder = 30227 # Lothaire I
 }
 
 843.8.10 = { # Treaty of Verdun
+	holder = 90107 # Ludwig II 'the German'
 	de_jure_liege = k_germany
 }
 
@@ -57,12 +75,12 @@
 }
 
 876.8.28 = {
-	liege=0
+	liege = 0
 	holder = 0
 }
 
 909.1.1 = {
-	liege=k_germany
+	liege = k_germany
 }
 
 909.1.1 = {

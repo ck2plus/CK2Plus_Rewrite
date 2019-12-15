@@ -129,11 +129,11 @@
 	holder = 30227 # Lothair I
 }
 
-831.2.2 = { # Lothair I disgraced after revolt
+822.8.1 = { # Assembly at Attigny, Lothair moves to Italy
 	holder = 90095 # Louis I 'the Pious'
 }
 
-837.10.1 = { # Charles II 'the Bald' finally receives land
+837.10.1 = { # Charles II 'the Bald' finally receives a kingdom
 	holder = 90104 # Charles II 'the Bald'
 }
 

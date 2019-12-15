@@ -57,6 +57,14 @@
 	holder = 7959 # Liudolf 'the Great'
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = k_bavaria
+}
+
+838.6.1 = { # Diet at Nijmegen, Ludwig II 'the German' reduced to Bavaria
+	liege = e_karling
+}
+
 843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_germany
 	liege = k_germany

@@ -214,11 +214,11 @@ bm_ordinatio_imperii = {
 	}
 
 	selectable_character = {
-		id = 90096 # Pepin I 'the Young'
+		id = 90096 # Pepin I of Aquitaine
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
@@ -242,11 +242,11 @@ bm_death_of_bernard = {
 	}
 
 	selectable_character = {
-		id = 90096 # Pepin I 'the Young'
+		id = 90096 # Pepin I of Aquitaine
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90107 # Ludwig II 'the German'
 	}
 }
 
@@ -266,20 +266,20 @@ bm_assembly_at_attigny = {
 	}
 
 	selectable_character = {
-		id = 90096 # Pepin I 'the Young'
+		id = 90096 # Pepin I of Aquitaine
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90107 # Ludwig II 'the German'
 	}
 }
 
-bm_redivision_at_aachen = {
-	name = "Redevision at Aachen"
-	desc = "He's moved!"
-#	name = BM_REDIVISION_AT_AACHEN
-#	desc = BM_REDIVISION_AT_AACHEN_DESC
-	date = 831.2.2
+bm_diet_of_worms = {
+	name = "Diet of Worms" # technically not a violation of 817's Ordinatio Imperii, Lothair is nonetheless displeased about losing a share of his inheritance
+	desc = "He's furious!"
+#	name = BM_DIET_OF_WORMS
+#	desc = BM_DIET_OF_WORMS_DESC
+	date = 829.8.1
 
 	selectable_character = {
 		id = 90095 # Louis I 'the Pious'
@@ -290,16 +290,104 @@ bm_redivision_at_aachen = {
 	}
 
 	selectable_character = {
-		id = 90096 # Pepin I 'the Young'
+		id = 90096 # Pepin I of Aquitaine
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90107 # Ludwig II 'the German'
+	}
+
+	selectable_character = { # made duke of Alemannia, Rhaetia, Alsace and a part of Burgundy
+		id = 90104 # Charles II 'the Bald'
 	}
 }
 
+bm_redivision_at_aachen = {
+	name = "Redevision at Aachen" # Divisio Regni
+	desc = "He's moved!"
+#	name = BM_REDIVISION_AT_AACHEN
+#	desc = BM_REDIVISION_AT_AACHEN_DESC
+	date = 831.2.2
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = { # disgraced and banished to Italy
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = { # given land to the river Somme
+		id = 90096 # Pepin I of Aquitaine
+	}
+
+	selectable_character = { # given land to the river Rhine
+		id = 90107 # Ludwig II 'the German'
+	}
+
+	selectable_character = { # given land from the river Moselle to Provence
+		id = 90104 # Charles II 'the Bald'
+	}
+}
+
+bm_diet_at_limoges = {
+	name = "Diet at Limoges"
+	desc = "He's deprived!"
+#	name = BM_DIET_AT_LIMOGES
+#	desc = BM_DIET_AT_LIMOGES_DESC
+	date = 832.9.1
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = { #
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = { # banished to Trier, escapes and returns to Aquitaine
+		id = 90096 # Pepin I of Aquitaine
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig II 'the German'
+	}
+
+	selectable_character = { # crowned King of Aquitaine after Pepin's rebellion
+		id = 90104 # Charles II 'the Bald'
+	}
+}
+
+bm_diet_at_quierzy = {
+	name = "Diet at Quierzy" # Pepin restored as King of Aquitaine
+	desc = "He's back!"
+#	name = BM_DIET_AT_QUIERZY
+#	desc = BM_DIET_AT_QUIERZY_DESC
+	date = 834.3.15
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90096 # Pepin I of Aquitaine
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig II 'the German'
+	}
+
+#	selectable_character = { # unlanded and without inheritance (Bald) again
+#		id = 90104 # Charles II 'the Bald'
+#	}
+}
+
 bm_redivision_of_837 = {
-	name = "Redivision of 837 "
+	name = "Redivision of 837"
 	desc = "He's redecided!"
 #	name = BM_REDIVISION_OF_837
 #	desc = BM_REDIVISION_OF_837_DESC
@@ -314,15 +402,71 @@ bm_redivision_of_837 = {
 	}
 
 	selectable_character = {
+		id = 90096 # Pepin I of Aquitaine
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig II 'the German'
+	}
+
+	selectable_character = {
 		id = 90104 # Charles II 'the Bald'
 	}
+}
+
+bm_diet_at_nijmegen = {
+	name = "Diet at Nijmegen" # Ludwig II 'the German' reduced to Bavaria
+	desc = "He's reduced!"
+#	name = BM_DIET_AT_NIJMEGEN
+#	desc = BM_DIET_AT_NIJMEGEN_DESC
+	date = 838.6.1
 
 	selectable_character = {
-		id = 90096 # Pepin I 'the Young'
+		id = 90095 # Louis I 'the Pious'
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90096 # Pepin I of Aquitaine
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig II 'the German'
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
+	}
+}
+
+bm_diet_at_quierzy_2 = {
+	name = "Diet at Quierzy" # Charles II 'the Bald' received Duchy of Maine
+	desc = "He's enriched!"
+#	name = BM_DIET_AT_QUIERZY_2_
+#	desc = BM_DIET_AT_QUIERZY_2__DESC
+	date = 838.9.1
+
+	selectable_character = {
+		id = 90095 # Louis I 'the Pious'
+	}
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90096 # Pepin I of Aquitaine
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig II 'the German'
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
 	}
 }
 
@@ -342,11 +486,11 @@ bm_death_of_pepin_i_of_aquitaine = {
 	}
 
 	selectable_character = {
-		id = 90104 # Charles II 'the Bald'
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90104 # Charles II 'the Bald'
 	}
 
 	selectable_character = {
@@ -355,7 +499,7 @@ bm_death_of_pepin_i_of_aquitaine = {
 }
 
 bm_redivision_of_839 = {
-	name = "Redivision at Worms"
+	name = "Redivision at Worms" # Louis divides remainder of realm in two, Lothair picks part east of the Rhône, Saône and Meuse, Charles receives western part
 	desc = "He's redecided again!"
 #	name = BM_REDIVISION_OF_839
 #	desc = BM_REDIVISION_OF_839_DESC
@@ -370,15 +514,15 @@ bm_redivision_of_839 = {
 	}
 
 	selectable_character = {
+		id = 90107 # Ludwig II 'the German'
+	}
+
+	selectable_character = {
 		id = 90104 # Charles II 'the Bald'
 	}
 
 	selectable_character = {
-		id = 90096 # Pepin I 'the Young'
-	}
-
-	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90097 # Pepin II 'the Younger'
 	}
 }
 
@@ -394,11 +538,11 @@ bm_death_of_louis_the_pious = {
 	}
 
 	selectable_character = {
-		id = 90104 # Charles II 'the Bald'
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90104 # Charles II 'the Bald'
 	}
 
 	selectable_character = {
@@ -418,11 +562,11 @@ bm_treaty_of_verdun = {
 	}
 
 	selectable_character = {
-		id = 90104 # Charles II 'the Bald'
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90104 # Charles II 'the Bald'
 	}
 
 	selectable_character = {
@@ -433,12 +577,16 @@ bm_treaty_of_verdun = {
 bm_pepin_ii_deposed = {
 	name = "Pepin II deposed"
 	desc = "About time!"
-#	name = BM_TREATY_OF_VERDUN
-#	desc = BM_TREATY_OF_VERDUN_DESC
-	date = 852.9.1
+#	name = BM_PEPIN_II_DEPOSED
+#	desc = BM_PEPIN_II_DEPOSED_DESC
+	date = 848.6.12
 
 	selectable_character = {
 		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
@@ -446,7 +594,27 @@ bm_pepin_ii_deposed = {
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90097 # Pepin II 'the Younger'
+	}
+}
+
+bm_pepin_ii_imprisoned = {
+	name = "Pepin II imprisoned"
+	desc = "About time!"
+#	name = BM_PEPIN_II_IMPRISONED
+#	desc = BM_PEPIN_II_IMPRISONED_DESC
+	date = 852.9.1
+
+	selectable_character = {
+		id = 30227 # Lothaire I
+	}
+
+	selectable_character = {
+		id = 90107 # Ludwig II 'the German'
+	}
+
+	selectable_character = {
+		id = 90104 # Charles II 'the Bald'
 	}
 }
 
@@ -462,7 +630,7 @@ bm_treaty_of_prum = {
 	}
 
 	selectable_character = {
-		id = 144998 # Lothaire II
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
@@ -470,7 +638,7 @@ bm_treaty_of_prum = {
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 144998 # Lothaire II
 	}
 
 	selectable_character = {
@@ -481,8 +649,8 @@ bm_treaty_of_prum = {
 bm_charles_the_child = {
 	name = "Charles 'the Child'"
 	desc = "What a crybaby!"
-#	name = BM_TREATY_OF_PRUM
-#	desc = BM_TREATY_OF_PRUM_DESC
+#	name = BM_CHARLES_THE_CHILD
+#	desc = BM_CHARLES_THE_CHILD_DESC
 	date = 855.10.15
 
 	selectable_character = {
@@ -490,7 +658,7 @@ bm_charles_the_child = {
 	}
 
 	selectable_character = {
-		id = 144998 # Lothaire II
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
@@ -498,7 +666,7 @@ bm_charles_the_child = {
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 144998 # Lothaire II
 	}
 
 	selectable_character = {
@@ -522,7 +690,7 @@ bm_death_of_charles_of_provence = {
 	}
 
 	selectable_character = {
-		id = 144998 # Lothaire II
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
@@ -530,7 +698,7 @@ bm_death_of_charles_of_provence = {
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 144998 # Lothaire II
 	}
 
 	selectable_character = {
@@ -550,11 +718,11 @@ bm_division_of_east_francia = {
 	}
 
 	selectable_character = {
-		id = 90104 # Charles II 'the Bald'
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90104 # Charles II 'the Bald'
 	}
 
 	selectable_character = {
@@ -562,7 +730,7 @@ bm_division_of_east_francia = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig II 'the Younger'
+		id = 42019 # Ludwig III 'the Younger'
 	}
 
 	selectable_character = {
@@ -590,7 +758,7 @@ bm_louis_the_stammerer = {
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
@@ -598,7 +766,7 @@ bm_louis_the_stammerer = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig II 'the Younger'
+		id = 42019 # Ludwig III 'the Younger'
 	}
 
 	selectable_character = {
@@ -626,7 +794,7 @@ bm_treaty_of_meerssen = {
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
@@ -634,7 +802,7 @@ bm_treaty_of_meerssen = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig II 'the Younger'
+		id = 42019 # Ludwig III 'the Younger'
 	}
 
 	selectable_character = {
@@ -658,7 +826,7 @@ bm_death_of_louis_ii = {
 	}
 
 	selectable_character = {
-		id = 90107 # Ludwig 'the German'
+		id = 90107 # Ludwig II 'the German'
 	}
 
 	selectable_character = {
@@ -666,7 +834,7 @@ bm_death_of_louis_ii = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig II 'the Younger'
+		id = 42019 # Ludwig III 'the Younger'
 	}
 
 	selectable_character = {
@@ -675,7 +843,7 @@ bm_death_of_louis_ii = {
 }
 
 bm_death_of_ludwig_the_german = {
-	name = "Death of Ludwig 'the German'"
+	name = "Death of Ludwig II 'the German'"
 	desc = "Never became emperor..."
 #	name = BM_DEATH_OF_LUDWIG_THE_GERMAN
 #	desc = BM_DEATH_OF_LUDWIG_THE_GERMAN_DESC
@@ -694,7 +862,7 @@ bm_death_of_ludwig_the_german = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig II 'the Younger'
+		id = 42019 # Ludwig III 'the Younger'
 	}
 
 	selectable_character = {
@@ -742,7 +910,7 @@ bm_death_of_louis_the_stammerer = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig II 'the Younger'
+		id = 42019 # Ludwig III 'the Younger'
 	}
 
 	selectable_character = {
@@ -770,7 +938,7 @@ bm_abdication_of_karlmann = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig II 'the Younger'
+		id = 42019 # Ludwig III 'the Younger'
 	}
 
 	selectable_character = {
@@ -802,7 +970,7 @@ bm_treaty_of_ribemont = {
 	}
 
 	selectable_character = {
-		id = 42019 # Ludwig II 'the Younger'
+		id = 42019 # Ludwig III 'the Younger'
 	}
 
 	selectable_character = {
@@ -819,7 +987,7 @@ bm_treaty_of_ribemont = {
 }
 
 bm_death_of_ludwig_iii = {
-	name = "Death of Ludwig II 'the Younger'"
+	name = "Death of Ludwig III 'the Younger'"
 	desc = "Very shortlived"
 #	name = BM_DEATH_OF_LUDWIG_III
 #	desc = BM_DEATH_OF_LUDWIG_III_DESC

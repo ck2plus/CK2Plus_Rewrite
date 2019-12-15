@@ -36,6 +36,14 @@
 	liege = e_karling
 }
 
+829.8.1 = { # Diet of Worms
+	holder = 90104 # Charles II 'the Bald'
+}
+
+832.9.1 = { # crowned King of Aquitaine after Pepin's rebellion
+	holder = 90095 # Louis I 'the Pious'
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_germany
 }

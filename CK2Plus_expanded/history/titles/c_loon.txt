@@ -16,8 +16,16 @@
 	liege = e_karling
 }
 
+837.10.1 = { # Charles II 'the Bald' finally receives a kingdom
+	liege = k_neustria
+}
+
 841.1.1 = {
 	holder = 7815
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_lotharingia
 }
 
 855.9.29 = { # Treaty of Prüm

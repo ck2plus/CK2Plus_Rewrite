@@ -15,6 +15,10 @@
 	holder = 30227 # Lothair I
 }
 
+822.8.1 = { # Assembly at Attigny
+	holder = 0
+}
+
 843.8.10 = { # Treaty of Verdun
 	de_jure_liege = k_france
 }

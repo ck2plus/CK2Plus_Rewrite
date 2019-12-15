@@ -11,6 +11,10 @@
 	holder = 163049
 }
 
+837.10.1 = { # Charles II 'the Bald' finally receives a kingdom
+	liege = k_neustria
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_france
 }

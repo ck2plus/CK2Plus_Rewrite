@@ -19,12 +19,26 @@
 	liege = k_neustria
 }
 
+814.1.28 = {
+	holder = 0
+	liege = e_karling
+}
+
 817.7.1 = { # Ordinatio Imperii
 	liege = k_neustria
 }
 
+# commented out to keep a bit of land directly under Louis, this area wasn't under strong authority from Louis' sons yet
+#831.2.2 = { # Division Regni at Aachen
+#	liege = k_bavaria
+#}
+
 834.1.1 = {
 	holder = 6398 # Pepin II 'Quentin'
+}
+
+837.10.1 = { # Charles II 'the Bald' finally receives a kingdom
+	liege = k_neustria
 }
 
 843.8.10 = { # Treaty of Verdun

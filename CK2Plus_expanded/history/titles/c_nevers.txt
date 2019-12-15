@@ -14,6 +14,14 @@
 	holder = 190513 #Theoderic
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = d_swabia
+}
+
+839.5.30 = { # Diet of Worms
+	liege = k_neustria
+}
+
 843.8.10 = { # Treaty of Prüm
 	liege = k_france
 }

@@ -14,6 +14,14 @@
 	liege = e_karling
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = k_bavaria
+}
+
+838.6.1 = { # Diet at Nijmegen, Ludwig II 'the German' reduced to Bavaria
+	liege = e_karling
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_germany
 }

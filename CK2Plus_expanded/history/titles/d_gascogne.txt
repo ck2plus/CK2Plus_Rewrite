@@ -10,6 +10,10 @@
 	holder = 168106
 }
 
+781.4.15 = { # Coronation in Rome at Easter
+	liege = k_aquitaine
+}
+
 812.1.1 = {
 	holder = 168105
 }

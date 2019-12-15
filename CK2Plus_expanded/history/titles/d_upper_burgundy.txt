@@ -32,10 +32,11 @@
 
 866.1.1 = {
 	holder = 7989
+	liege = k_lotharingia
 }
 
 870.8.8 = { # Treaty of Meerssen
-	liege = k_italy
+	liege = k_burgundy
 }
 
 876.1.1 = {

@@ -7,12 +7,25 @@
 	liege = e_karling
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = d_swabia
+}
+
+839.5.30 = { # Diet of Worms
+	liege = k_neustria
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_lotharingia
+}
+
 855.8.23 = {
 	holder = 144998
 }
 
 870.8.8 = { # Treaty of Meerssen
 	holder = 90104 # Charles II 'the Bald'
+	liege = k_france
 }
 
 877.10.6 = {
@@ -24,7 +37,8 @@
 }
 
 880.2.1 = { # Treaty of Ribemont
-	holder = 42019 # Ludwig II 'the Younger'
+	holder = 42019 # Ludwig III 'the Younger'
+	liege = k_lotharingia
 }
 
 882.1.20 = {

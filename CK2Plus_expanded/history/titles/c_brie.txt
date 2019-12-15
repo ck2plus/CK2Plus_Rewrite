@@ -15,6 +15,14 @@
 	holder = 144975
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = d_swabia
+}
+
+837.10.1 = { # Charles II 'the Bald' finally receives a kingdom
+	liege = k_neustria
+}
+
 841.1.1 = {
 	holder = 144974
 }
