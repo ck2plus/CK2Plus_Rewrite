@@ -263,7 +263,7 @@
 	name = "Fausto"
 	#placeholder
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1069.1.1 = {
 		birth = yes
 	}
@@ -276,7 +276,7 @@
 	name = "Zaccaria"
 	#placeholder
 	religion = catholic
-	culture = italian
+	culture = ligurian
 	1110.1.1 = {
 		birth = yes
 	}
@@ -573,7 +573,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	trait = greedy
 	trait = martial_cleric
 	1025.1.2 = {
@@ -1029,7 +1029,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = neapolitan
 	trait = lustful
 	trait = gluttonous
 	trait = thrifty_clerk
@@ -1137,7 +1137,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = chaste
 	trait = thrifty_clerk
 	1150.1.1 = {
@@ -1232,7 +1232,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	trait = martial_cleric
 	1150.1.1 = {
 		birth = yes
@@ -2103,7 +2103,7 @@
 	name = "Benedetto"
 	dynasty = 12246
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = martial_cleric
 	1135.1.1 = {
 		birth = yes
@@ -2122,7 +2122,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = fortune_builder
 	1150.1.1 = {
 		birth = yes
@@ -2160,7 +2160,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = flamboyant_schemer
 	1150.1.1 = {
 		birth = yes
@@ -2320,7 +2320,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = chaste
 	trait = scholarly_theologian
 	1150.1.2 = {
@@ -2931,7 +2931,7 @@
 	female = yes
 	dynasty = 7189
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	1062.1.1 = {
 		birth = yes
 	}
@@ -3153,7 +3153,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = bastard
 	trait = charitable
 	trait = brave
@@ -5149,7 +5149,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = wroth
 	trait = proud
 	trait = thrifty_clerk
@@ -8036,7 +8036,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = kind
 	trait = stutter
 	trait = tough_soldier
@@ -8277,7 +8277,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = proud
 	trait = charitable
 	trait = grey_eminence
@@ -9666,7 +9666,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = gardener
 	trait = craven
 	trait = elusive_shadow
@@ -9690,7 +9690,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = charitable
 	trait = fair
 	trait = fortune_builder
@@ -9711,7 +9711,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = dwarf
 	trait = envious
 	trait = flamboyant_schemer
@@ -9732,7 +9732,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = neapolitan
 	trait = ambitious
 	trait = imbecile
 	trait = amateurish_plotter
@@ -9916,7 +9916,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = diligent
 	trait = content
 	trait = mastermind_theologian
@@ -9937,7 +9937,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = poet
 	trait = mystic
 	trait = scholarly_theologian
@@ -9958,7 +9958,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = charitable
 	trait = content
 	trait = martial_cleric
@@ -9979,7 +9979,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = mystic
 	trait = scholarly_theologian
 	father = 70757
@@ -11033,7 +11033,7 @@
 	stewardship = 4
 	learning = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = tough_soldier
 	trait = lustful
 	1305.1.1 = {
@@ -11058,7 +11058,7 @@
 	stewardship = 4
 	learning = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = brilliant_strategist
 	trait = humble
 	1307.1.1 = {
@@ -11081,7 +11081,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	#father = 213030
 	1122.1.1 = {
 		birth = yes
@@ -12243,7 +12243,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = scholarly_theologian
 	trait = mystic
 	father = 71023
@@ -12263,7 +12263,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = tough_soldier
 	trait = hunter
 	father = 71023
@@ -12283,7 +12283,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = thrifty_clerk
 	trait = paranoid
 	father = 71023
@@ -12303,7 +12303,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = thrifty_clerk
 	trait = paranoid
 	father = 71024
@@ -12323,7 +12323,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = misguided_warrior
 	trait = craven
 	father = 71024
@@ -12343,7 +12343,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = flamboyant_schemer
 	trait = envious
 	father = 71024
@@ -12363,7 +12363,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = detached_priest
 	trait = slothful
 	father = 71028
@@ -12383,7 +12383,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = tough_soldier
 	trait = falconer
 	father = 71028
@@ -12403,7 +12403,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = skilled_tactician
 	trait = bastard
 	trait = temperate
@@ -12424,7 +12424,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = underhanded_rogue
 	trait = diligent
 	father = 7737
@@ -12445,7 +12445,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = fortune_builder
 	trait = proud
 	father = 71034
@@ -12465,7 +12465,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = cruel
 	trait = lunatic
 	trait = impaler
@@ -12490,7 +12490,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = grey_eminence
 	trait = deceitful
 	father = 71035
@@ -12514,7 +12514,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = intricate_webweaver
 	trait = patient
 	father = 71037
@@ -12535,7 +12535,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = thrifty_clerk
 	trait = charitable
 	father = 71035
@@ -12555,7 +12555,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = martial_cleric
 	trait = brave
 	father = 71035
@@ -12575,7 +12575,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = flamboyant_schemer
 	trait = celibate
 	father = 71035
@@ -12595,7 +12595,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = underhanded_rogue
 	trait = stutter
 	trait = gluttonous
@@ -12616,7 +12616,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = indulgent_wastrel
 	trait = wroth
 	father = 71042
@@ -12636,7 +12636,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = intricate_webweaver
 	trait = slothful
 	father = 71043
@@ -12656,7 +12656,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = scholarly_theologian
 	trait = kind
 	father = 71044
@@ -12676,7 +12676,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = tough_soldier
 	trait = drunkard
 	father = 71044
@@ -12699,7 +12699,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = naive_appeaser
 	trait = content
 	father = 71043
@@ -12719,7 +12719,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = flamboyant_schemer
 	trait = arbitrary
 	father = 71034
@@ -12739,7 +12739,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = elusive_shadow
 	trait = humble
 	father = 71048
@@ -12759,7 +12759,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = tough_soldier
 	trait = brave
 	father = 71048
@@ -12779,7 +12779,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = thrifty_clerk
 	trait = chaste
 	father = 71050
@@ -12799,7 +12799,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = scholarly_theologian
 	trait = slothful
 	father = 71050
@@ -12819,7 +12819,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = tough_soldier
 	trait = hunter
 	father = 71050
@@ -12840,7 +12840,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = charismatic_negotiator
 	trait = temperate
 	father = 71048
@@ -12860,7 +12860,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = misguided_warrior
 	trait = wroth
 	father = 7737
@@ -12881,7 +12881,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = midas_touched
 	trait = lustful
 	father = 71055
@@ -12905,7 +12905,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = intricate_webweaver
 	trait = gregarious
 	father = 71055
@@ -12926,7 +12926,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = amateurish_plotter
 	trait = shy
 	father = 71256
@@ -12942,7 +12942,7 @@
 	name = "Alberto"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1168.1.1 = {
@@ -12957,7 +12957,7 @@
 	name = "Obizzo"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1170.1.1 = {
@@ -12972,7 +12972,7 @@
 	name = "Enrico"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71060
 	1188.1.1 = {
 		birth = yes
@@ -12986,7 +12986,7 @@
 	name = "Guglielmo"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1172.1.1 = {
@@ -13001,7 +13001,7 @@
 	name = "Manfredo"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1174.1.1 = {
@@ -13017,7 +13017,7 @@
 	# AKA: Enrico
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71063
 	1195.1.1 = {
 		birth = yes
@@ -13031,7 +13031,7 @@
 	name = "Pagano"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71064
 	1213.1.1 = {
 		birth = yes
@@ -13045,7 +13045,7 @@
 	name = "Raimondo"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1176.1.1 = {
@@ -13061,7 +13061,7 @@
 	female = yes
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1178.1.1 = {
@@ -13077,7 +13077,7 @@
 	female = yes
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1180.1.1 = {
@@ -13092,7 +13092,7 @@
 	name = "Pagano"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1182.1.1 = {
@@ -13107,7 +13107,7 @@
 	name = "Giacopo"
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1183.1.1 = {
@@ -13123,7 +13123,7 @@
 	female = yes
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71056
 	mother = 71058
 	1185.1.1 = {
@@ -13138,7 +13138,7 @@
 	name = "Enrico"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 7737
 	1115.1.1 = {
 		birth = yes
@@ -13155,7 +13155,7 @@
 	name = "Ottone"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71072
 	mother = 213522
 	1164.1.1 = {
@@ -13170,7 +13170,7 @@
 	name = "Ugo"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71073
 	1186.1.1 = {
 		birth = yes
@@ -13184,7 +13184,7 @@
 	name = "Ottone"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71074
 	1204.1.1 = {
 		birth = yes
@@ -13198,7 +13198,7 @@
 	name = "Enrico"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71073
 	1188.1.1 = {
 		birth = yes
@@ -13212,7 +13212,7 @@
 	name = "Guglielmo"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71073
 	1190.1.1 = {
 		birth = yes
@@ -13226,7 +13226,7 @@
 	name = "Bonifazio"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71077
 	1212.1.1 = {
 		birth = yes
@@ -13244,7 +13244,7 @@
 	dynasty = 13028
 	female = yes
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 70924
 	1236.1.1 = {
 		birth = yes
@@ -13258,7 +13258,7 @@
 	name = "Guglielmo"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71078
 	mother = 71079
 	1261.1.1 = {
@@ -13273,7 +13273,7 @@
 	name = "Ottobuono"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71078
 	mother = 71079
 	1263.1.1 = {
@@ -13288,7 +13288,7 @@
 	name = "Percevalle"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71078
 	mother = 71079
 	1265.1.1 = {
@@ -13304,7 +13304,7 @@
 	dynasty = 101824
 	female = yes
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71078
 	mother = 71079
 	1267.1.1 = {
@@ -13320,7 +13320,7 @@
 	female = yes
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71078
 	mother = 71079
 	1269.1.1 = {
@@ -13335,7 +13335,7 @@
 	name = "Leo"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	father = 71078
 	1264.1.1 = {
@@ -13350,7 +13350,7 @@
 	name = "Corrado"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	father = 71078
 	1266.1.1 = {
@@ -13365,7 +13365,7 @@
 	name = "Ottone"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	father = 71078
 	1268.1.1 = {
@@ -13380,7 +13380,7 @@
 	name = "Emanuele"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	father = 71078
 	1270.1.1 = {
@@ -13395,7 +13395,7 @@
 	name = "Luigi"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	father = 71078
 	1272.1.1 = {
@@ -13410,7 +13410,7 @@
 	name = "Guglielmo"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71077
 	1214.1.1 = {
 		birth = yes
@@ -13424,7 +13424,7 @@
 	name = "Enrico"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71072
 	mother = 213522
 	1165.1.1 = {
@@ -13446,7 +13446,7 @@
 	female = yes
 	dynasty = 8717
 	religion = catholic
-	culture = italian
+	culture = lombard
 	1168.1.1 = {
 		birth = yes
 	}
@@ -13460,7 +13460,7 @@
 	female = yes
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71091
 	mother = 71093
 	1222.1.1 = {
@@ -13476,7 +13476,7 @@
 	dynasty = 101824
 	female = yes
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71091
 	mother = 71093
 	1224.1.1 = {
@@ -13491,7 +13491,7 @@
 	name = "Guglielmo"
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	1218.1.1 = {
 		birth = yes
 	}
@@ -13507,7 +13507,7 @@
 	name = "Guglielmo"
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71096
 	mother = 71094
 	1240.1.1 = {
@@ -13522,7 +13522,7 @@
 	name = "Federigo"
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71097
 	1259.1.1 = {
 		birth = yes
@@ -13536,7 +13536,7 @@
 	name = "Giuseppe"
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71097
 	1261.1.1 = {
 		birth = yes
@@ -13550,7 +13550,7 @@
 	name = "Amalrico"
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71097
 	1263.1.1 = {
 		birth = yes
@@ -13565,7 +13565,7 @@
 	dynasty = 8703
 	female = yes
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71097
 	1265.1.1 = {
 		birth = yes
@@ -13580,7 +13580,7 @@
 	# AKA: Guglielmo
 	dynasty = 8736
 	religion = catholic
-	culture = italian
+	culture = lombard
 	1260.1.1 = {
 		birth = yes
 	}
@@ -13596,7 +13596,7 @@
 	name = "Tommaso"
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71096
 	mother = 71094
 	1242.1.1 = {
@@ -13611,7 +13611,7 @@
 	name = "Capuccio"
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71096
 	mother = 71094
 	1244.1.1 = {
@@ -13626,7 +13626,7 @@
 	name = "Baldoino"
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71096
 	mother = 71094
 	1246.1.1 = {
@@ -13642,7 +13642,7 @@
 	female = yes
 	dynasty = 8703
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71096
 	mother = 71094
 	1248.1.1 = {
@@ -13657,7 +13657,7 @@
 	name = "Giacomo"
 	dynasty = 101824
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71091
 	mother = 71093
 	1220.1.1 = {
@@ -13699,7 +13699,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	trait = cynical
 	trait = fortune_builder
@@ -13720,7 +13720,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = greedy
 	trait = envious
 	trait = flamboyant_schemer
@@ -13749,7 +13749,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = greedy
 	trait = cynical
 	trait = detached_priest
@@ -13770,7 +13770,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = gardener
 	trait = diligent
 	trait = elusive_shadow
@@ -13793,7 +13793,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = genius
 	trait = honest
 	trait = grey_eminence
@@ -13815,7 +13815,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = kind
 	trait = falconer
 	trait = skilled_tactician
@@ -14948,7 +14948,7 @@
 	name = "Guelfo"
 	dynasty = 13031 #della Gherardesca
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73454
 	1235.1.1 = {
 		birth = yes
@@ -14995,7 +14995,7 @@
 	stewardship = 6
 	learning = 8
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = martial_cleric
 	trait = proud
 	#father
@@ -15022,7 +15022,7 @@
 	stewardship = 3
 	learning = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = midas_touched
 	trait = just
 	father = 213552
@@ -15046,7 +15046,7 @@
 	stewardship = 5
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = flamboyant_schemer
 	trait = charitable
 	father = 213552
@@ -15073,7 +15073,7 @@
 	stewardship = 3
 	learning = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = detached_priest
 	trait = gregarious
 	trait = twin
@@ -15098,7 +15098,7 @@
 	stewardship = 8
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = naive_appeaser
 	trait = honest
 	trait = twin
@@ -15122,7 +15122,7 @@
 	stewardship = 8
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = midas_touched
 	trait = brave
 	father = 71181
@@ -15149,7 +15149,7 @@
 	stewardship = 7
 	learning = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = indulgent_wastrel
 	trait = craven
 	father = 71185
@@ -15173,7 +15173,7 @@
 	stewardship = 4
 	learning = 8
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = indulgent_wastrel
 	trait = lustful
 	father = 71185
@@ -15197,7 +15197,7 @@
 	stewardship = 3
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = grey_eminence
 	trait = slothful
 	father = 71185
@@ -15220,7 +15220,7 @@
 	stewardship = 4
 	learning = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = intricate_webweaver
 	trait = humble
 	father = 71185
@@ -15244,7 +15244,7 @@
 	stewardship = 8
 	learning = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = elusive_shadow
 	trait = humble
 	father = 71189
@@ -15268,7 +15268,7 @@
 	stewardship = 5
 	learning = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = underhanded_rogue
 	trait = content
 	father = 71189
@@ -15291,7 +15291,7 @@
 	stewardship = 7
 	learning = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = midas_touched
 	trait = ambitious
 	father = 71189
@@ -15314,7 +15314,7 @@
 	stewardship = 5
 	learning = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = midas_touched
 	trait = cynical
 	father = 71189
@@ -15340,7 +15340,7 @@
 	stewardship = 6
 	learning = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = tough_soldier
 	trait = humble
 	father = 71185
@@ -15363,7 +15363,7 @@
 	stewardship = 8
 	learning = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = scholarly_theologian
 	trait = slothful
 	father = 71185
@@ -15386,7 +15386,7 @@
 	stewardship = 3
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = scholarly_theologian
 	trait = deceitful
 	father = 71185
@@ -15410,7 +15410,7 @@
 	stewardship = 8
 	learning = 8
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = indulgent_wastrel
 	trait = temperate
 	father = 71185
@@ -15434,7 +15434,7 @@
 	stewardship = 3
 	learning = 8
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = detached_priest
 	trait = zealous
 	father = 71185
@@ -15458,7 +15458,7 @@
 	stewardship = 3
 	learning = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = intricate_webweaver
 	trait = deceitful
 	father = 71185
@@ -15482,7 +15482,7 @@
 	stewardship = 3
 	learning = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = fortune_builder
 	trait = patient
 	father = 71185
@@ -15506,7 +15506,7 @@
 	stewardship = 4
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = midas_touched
 	trait = brave
 	father = 71185
@@ -15530,7 +15530,7 @@
 	stewardship = 7
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = scholarly_theologian
 	trait = patient
 	father = 71185
@@ -15554,7 +15554,7 @@
 	stewardship = 3
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = detached_priest
 	trait = brave
 	father = 71185
@@ -15577,7 +15577,7 @@
 	stewardship = 4
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = amateurish_plotter
 	trait = honest
 	trait = bastard
@@ -15601,7 +15601,7 @@
 	stewardship = 7
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = tough_soldier
 	trait = slothful
 	father = 71204
@@ -15624,7 +15624,7 @@
 	stewardship = 3
 	learning = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = amateurish_plotter
 	trait = chaste
 	father = 71204
@@ -15647,7 +15647,7 @@
 	stewardship = 7
 	learning = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = fortune_builder
 	trait = paranoid
 	father = 71185
@@ -15677,7 +15677,7 @@
 	stewardship = 3
 	learning = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = scholarly_theologian
 	trait = honest
 	father = 71207
@@ -15698,7 +15698,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	1285.1.1 = {
 		birth = yes
 	}
@@ -15719,7 +15719,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71272
 	1318.1.1 = {
 		birth = yes
@@ -15737,7 +15737,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 420301
 	mother = 463144
 	1336.1.1 = {
@@ -15757,7 +15757,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 420302
 	mother = 420303
 	1306.1.1 = {
@@ -15776,7 +15776,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	father = 420302
 	1305.1.1 = {
@@ -15798,7 +15798,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 70640
 	1304.1.1 = {
 		birth = yes
@@ -15820,7 +15820,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 70640
 	1305.1.1 = {
 		birth = yes
@@ -15838,7 +15838,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	father = 71207
 	1308.1.1 = {
@@ -15858,7 +15858,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 420304
 	mother = 462698
 	1334.1.1 = {
@@ -15877,7 +15877,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 420304
 	mother = 462698
 	trait = scholarly_theologian
@@ -15897,7 +15897,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71207
 	mother = 71161
 	1312.1.1 = {
@@ -15916,7 +15916,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71219
 	1334.1.1 = {
 		birth = yes
@@ -15934,7 +15934,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71207
 	mother = 71161
 	1316.1.1 = {
@@ -15954,7 +15954,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71207
 	mother = 71161
 	1318.1.1 = {
@@ -15974,7 +15974,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = bastard
 	father = 71207
 	1310.1.1 = {
@@ -15993,7 +15993,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 7728
 	984.1.1 = {
 		birth = yes
@@ -16011,7 +16011,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71224
 	1000.1.1 = {
 		birth = yes
@@ -16029,7 +16029,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71225
 	1025.1.1 = {
 		birth = yes
@@ -16047,7 +16047,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71225
 	1027.1.1 = {
 		birth = yes
@@ -16065,7 +16065,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71227
 	1048.1.1 = {
 		birth = yes
@@ -16083,7 +16083,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71228
 	1070.1.1 = {
 		birth = yes
@@ -16101,7 +16101,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71228
 	1072.1.1 = {
 		birth = yes
@@ -16120,7 +16120,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71227
 	1050.1.1 = {
 		birth = yes
@@ -16138,7 +16138,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	1045.1.1 = {
 		birth = yes
 	}
@@ -16161,7 +16161,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71232
 	mother = 71231
 	1067.1.1 = {
@@ -16180,7 +16180,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71227
 	1052.1.1 = {
 		birth = yes
@@ -16198,7 +16198,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71234
 	1076.1.1 = {
 		birth = yes
@@ -16216,7 +16216,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71234
 	1078.1.1 = {
 		birth = yes
@@ -16234,7 +16234,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71234
 	1080.1.1 = {
 		birth = yes
@@ -16252,7 +16252,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71234
 	1082.1.1 = {
 		birth = yes
@@ -16270,7 +16270,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71234
 	1084.1.1 = {
 		birth = yes
@@ -16288,7 +16288,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71227
 	1054.1.1 = {
 		birth = yes
@@ -16306,7 +16306,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71225
 	1029.1.1 = {
 		birth = yes
@@ -16324,7 +16324,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 7729
 	1009.1.1 = {
 		birth = yes
@@ -16346,7 +16346,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 7729
 	1011.1.1 = {
 		birth = yes
@@ -16365,7 +16365,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 7729
 	1013.1.1 = {
 		birth = yes
@@ -16383,7 +16383,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71244
 	1038.1.1 = {
 		birth = yes
@@ -16402,7 +16402,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71244
 	1040.1.1 = {
 		birth = yes
@@ -16421,7 +16421,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 213550
 	mother = 213525
 	1189.1.1 = {
@@ -16440,7 +16440,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 7730
 	1044.1.1 = {
 		birth = yes
@@ -16458,7 +16458,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71248
 	1070.1.1 = {
 		birth = yes
@@ -16476,7 +16476,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71249
 	1100.1.1 = {
 		birth = yes
@@ -16494,7 +16494,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71249
 	1102.1.1 = {
 		birth = yes
@@ -16512,7 +16512,7 @@
 	intrigue = 5
 	stewardship = 3
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71249
 	1104.1.1 = {
 		birth = yes
@@ -16530,7 +16530,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 7730
 	1042.1.1 = {
 		birth = yes
@@ -16558,7 +16558,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	1068.1.1 = {
 		birth = yes
 	}
@@ -16575,7 +16575,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71253
 	1065.1.1 = {
 		birth = yes
@@ -16593,7 +16593,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71255
 	1090.1.1 = {
 		birth = yes
@@ -16611,7 +16611,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 71253
 	mother = 71254
 	1086.1.1 = {
@@ -16631,7 +16631,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 232559
 	mother = 232558
 	1107.1.1 = {
@@ -16651,7 +16651,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = fair
 	trait = kind
 	trait = underhanded_rogue
@@ -16674,7 +16674,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = charitable
 	trait = mystic
 	trait = detached_priest
@@ -16697,7 +16697,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	trait = patient
 	trait = shy
 	trait = indulgent_wastrel
@@ -18402,7 +18402,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = craven
 	trait = scholar
 	trait = detached_priest
@@ -18454,7 +18454,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = scholar
 	trait = detached_priest
 	father = 71819
@@ -18477,7 +18477,7 @@
 	dynasty = 13028
 
 	religion = catholic
-	culture = italian
+	culture = ligurian
 	father = 70924
 	1218.1.1 = {
 		birth = yes
@@ -18495,7 +18495,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = gregarious
 	trait = trusting
 	trait = mastermind_theologian
@@ -18519,7 +18519,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = arbitrary
 	trait = wroth
 	trait = scholarly_theologian
@@ -18545,7 +18545,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = content
 	trait = kind
 	trait = detached_priest
@@ -18568,7 +18568,7 @@
 	intrigue = 3
 	stewardship = 3
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = content
 	trait = mystic
 	trait = shy
@@ -18597,7 +18597,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = paranoid
 	trait = deceitful
 	trait = scholarly_theologian
@@ -18623,7 +18623,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = just
 	trait = honest
 	trait = brave
@@ -18645,7 +18645,7 @@
 	name = "Guido"
 	dynasty = 7389
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	father = 71905
 	855.1.1 = {
 		birth = yes
@@ -18659,7 +18659,7 @@
 	name = "Lambert"
 	dynasty = 7389
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	father = 71905
 	850.1.1 = {
 		birth = yes
@@ -18771,7 +18771,7 @@
 	name = "Hucbald"
 	dynasty = 9566
 	religion = catholic
-	culture = italian
+	culture = emilian
 	830.1.1 = {
 		birth = yes
 	}
@@ -18787,7 +18787,7 @@
 	name = "Hucbald"
 	dynasty = 9566
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 167976
 	mother = 167977
 	860.1.1 = {
@@ -18803,7 +18803,7 @@
 	# AKA: Manfredo
 	dynasty = 529
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	trait = intricate_webweaver
 	trait = greedy
 	trait = deceitful
@@ -19185,7 +19185,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = humble
 	trait = tough_soldier
 	1028.1.2 = {
@@ -19207,7 +19207,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = humble
 	trait = thrifty_clerk
 	father = 167583
@@ -19227,7 +19227,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 7804
 	1060.1.1 = {
 		birth = yes
@@ -19244,7 +19244,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19268,7 +19268,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19293,7 +19293,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19317,7 +19317,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19342,7 +19342,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19366,7 +19366,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19389,7 +19389,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19413,7 +19413,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19437,7 +19437,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19461,7 +19461,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19485,7 +19485,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19509,7 +19509,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19533,7 +19533,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19557,7 +19557,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19581,7 +19581,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19605,7 +19605,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19629,7 +19629,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19653,7 +19653,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19677,7 +19677,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19701,7 +19701,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19725,7 +19725,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19749,7 +19749,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19773,7 +19773,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19797,7 +19797,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19821,7 +19821,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19845,7 +19845,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19869,7 +19869,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19893,7 +19893,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19917,7 +19917,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19941,7 +19941,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19965,7 +19965,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -19989,7 +19989,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20013,7 +20013,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20037,7 +20037,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20061,7 +20061,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20085,7 +20085,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20109,7 +20109,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20133,7 +20133,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20157,7 +20157,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20181,7 +20181,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20205,7 +20205,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20229,7 +20229,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20253,7 +20253,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20277,7 +20277,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20301,7 +20301,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20325,7 +20325,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20349,7 +20349,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20375,7 +20375,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20399,7 +20399,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20421,7 +20421,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20443,7 +20443,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20465,7 +20465,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = bastard
 	trait = patient
 	trait = zealous
@@ -20491,7 +20491,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20515,7 +20515,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20541,7 +20541,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	father = 260621
 	950.1.1 = {
 		birth = yes
@@ -20563,7 +20563,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20585,7 +20585,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20608,7 +20608,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20631,7 +20631,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20658,7 +20658,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20681,7 +20681,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20708,7 +20708,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20734,7 +20734,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20757,7 +20757,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20779,7 +20779,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20806,7 +20806,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -20828,7 +20828,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = diligent
 	trait = deceitful
 	trait = ambitious
@@ -20855,7 +20855,7 @@
 	female = yes
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 213541
 	1204.1.1 = {
 		birth = yes
@@ -20874,7 +20874,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 70658
 	1215.1.1 = {
 		birth = yes
@@ -20891,7 +20891,7 @@
 	female = yes
 	dynasty = 7188
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	father = 211532
 	1188.1.1 = {
 		birth = yes
@@ -20906,7 +20906,7 @@
 	#AKA Enrico Pescatore
 	dynasty = 7212 #de Candia
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	1185.1.1 = {
 		birth = yes
 	}
@@ -20922,7 +20922,7 @@
 	name = "Nicolso"
 	dynasty = 7212 #de Candia
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	father = 31403
 	mother = 31402
 	1215.1.1 = {
@@ -20937,7 +20937,7 @@
 	name = "Perino"
 	dynasty = 7212 #de Candia
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	father = 31404
 	1235.1.1 = {
 		birth = yes
@@ -20954,7 +20954,7 @@
 	name = "Andrea"
 	dynasty = 7212 #de Candia
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	father = 31404
 	1240.1.1 = {
 		birth = yes
@@ -20969,7 +20969,7 @@
 	female = yes
 	dynasty = 7213 #Fimetta
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	1238.1.1 = {
 		birth = yes
 	}
@@ -20982,7 +20982,7 @@
 	name = "Guglielmo"
 	dynasty = 7212 #de Candia
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	father = 31405
 	mother = 31407
 	1259.1.1 = {
@@ -21000,7 +21000,7 @@
 	name = "Roberto"
 	dynasty = 7212 #de Candia
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	father = 31405
 	mother = 31407
 	1262.1.1 = {
@@ -21016,7 +21016,7 @@
 	female = yes
 	dynasty = 7212 #de Candia
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	father = 31405
 	mother = 31407
 	1261.1.1 = {
@@ -21032,7 +21032,7 @@
 	female = yes
 	dynasty = 7212 #de Candia
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	father = 31408
 	mother = 31412
 	1281.1.1 = {
@@ -21048,7 +21048,7 @@
 	female = yes
 	dynasty = 7214 #di Rocca
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	1260.1.1 = {
 		birth = yes
 	}
@@ -21092,7 +21092,7 @@
 	name = "Marco"
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = sicilian
 	1150.1.1 = {
 		birth = yes
 	}
@@ -21107,7 +21107,7 @@
 	name = "Marco" #Duke of Naxos
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31420
 	1175.1.1 = {
 		birth = yes
@@ -21121,7 +21121,7 @@
 	name = "Angelo" #Duke of Naxos
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31421
 	1210.1.1 = {
 		birth = yes
@@ -21135,7 +21135,7 @@
 	name = "Marco" #Duke of Naxos
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31422
 	1240.1.1 = {
 		birth = yes
@@ -21149,7 +21149,7 @@
 	name = "Marino"
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31422
 	1242.1.1 = {
 		birth = yes
@@ -21167,7 +21167,7 @@
 	name = "Guglielmo" #Duke of Naxos
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31423
 	1260.1.1 = {
 		birth = yes
@@ -21181,7 +21181,7 @@
 	name = "Marco"
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31423
 	1265.1.1 = {
 		birth = yes
@@ -21195,7 +21195,7 @@
 	name = "Niccolò" #Duke of Naxos
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31425
 	1285.1.1 = {
 		birth = yes
@@ -21212,7 +21212,7 @@
 	name = "Giovanni"
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31425
 	1290.1.1 = {
 		birth = yes
@@ -21226,7 +21226,7 @@
 	name = "Marino"
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31425
 	1295.1.1 = {
 		birth = yes
@@ -21240,7 +21240,7 @@
 	name = "Marco"
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31425
 	1300.1.1 = {
 		birth = yes
@@ -21254,7 +21254,7 @@
 	name = "Pietro"
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31425
 	1301.1.1 = {
 		birth = yes
@@ -21269,7 +21269,7 @@
 	female = yes
 	dynasty = 102020 #Sanudo
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31425
 	1315.1.1 = {
 		birth = yes
@@ -21286,7 +21286,7 @@
 	#AKA Maio I Orsini
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1178.1.1 = {
 		birth = yes
 	}
@@ -21303,7 +21303,7 @@
 	#AKA Maio II Orsini
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31433
 	mother = 31445
 	1202.1.1 = {
@@ -21321,7 +21321,7 @@
 	name = "Riccardo" #count of Corfu
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31434
 	mother = 31446
 	1238.1.1 = {
@@ -21339,7 +21339,7 @@
 	name = "Theodoro"
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31434
 	mother = 31446
 	1240.1.1 = {
@@ -21354,7 +21354,7 @@
 	name = "Giovanni" #count of Corfu
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31435
 	1270.1.1 = {
 		birth = yes
@@ -21371,7 +21371,7 @@
 	name = "Guglielmo"
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31435
 	1275.1.1 = {
 		birth = yes
@@ -21386,7 +21386,7 @@
 	female = yes
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31435
 	1282.1.1 = {
 		birth = yes
@@ -21400,7 +21400,7 @@
 	name = "Nicolo" #Duke of Epirus
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31436
 	mother = 125727
 	1294.1.1 = {
@@ -21418,7 +21418,7 @@
 	name = "Giovanni" #Duke of Epirus
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31436
 	mother = 125727
 	1300.1.1 = {
@@ -21436,7 +21436,7 @@
 	name = "Guido" #count of Corfu
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31436
 	mother = 125727
 	1301.1.1 = {
@@ -21452,7 +21452,7 @@
 	female = yes
 	dynasty = 7188
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 211531
 	mother = 211530
 	1180.1.1 = {
@@ -21681,7 +21681,7 @@
 	dynasty = 50 #Spinola
 
 	religion = catholic
-	culture = italian
+	culture = ligurian
 
 	# invented family ties
 	father = 91353 # Corrado Spinola
@@ -22110,7 +22110,7 @@
 	female = yes
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31435
 	1278.1.1 = {
 		birth = yes
@@ -22124,7 +22124,7 @@
 	name = "Domenico"
 	dynasty = 7235
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32133
 	1088.1.1 = {
 		birth = yes
@@ -22141,7 +22141,7 @@
 	name = "Pietro"
 	dynasty = 7236
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 170060
 	1093.1.2 = {
 		birth = yes
@@ -22161,7 +22161,7 @@
 	name = "Domenico"
 	dynasty = 13070
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 182012
 	trait = charismatic_negotiator
 	1090.1.2 = {
@@ -22176,7 +22176,7 @@
 	name = "Vitale"
 	dynasty = 7235
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32115
 	1105.1.2 = {
 		birth = yes
@@ -22190,7 +22190,7 @@
 	name = "Sebastiano"
 	dynasty = 13075
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 182001
 	mother = 167660
 	1102.1.1 = {
@@ -22209,7 +22209,7 @@
 	name = "Pietro"
 	dynasty = 13075
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32119
 	mother = 167661
 	1142.1.1 = {
@@ -22234,7 +22234,7 @@
 	name = "Raniero"
 	dynasty = 13027
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 213601
 	mother = 170047 #Contessa Minotto
 	1152.1.2 = {
@@ -22250,7 +22250,7 @@
 	female = yes
 	dynasty = 13027
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32121
 	1200.1.2 = {
 		birth = yes
@@ -22264,7 +22264,7 @@
 	name = "Fantino" #bishop of Constantinople
 	dynasty = 13027
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = martial_cleric
 	father = 213601
 	mother = 170047 #Contessa Minotto
@@ -22280,7 +22280,7 @@
 	name = "Iacopo"
 	dynasty = 13006
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1170.1.2 = {
 		birth = yes
 	}
@@ -22293,7 +22293,7 @@
 	name = "Marino"
 	dynasty = 13070
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 182016
 	1181.1.2 = {
 		birth = yes
@@ -22307,7 +22307,7 @@
 	name = "Reniero"
 	dynasty = 7237
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1200.1.2 = {
 		birth = yes
 	}
@@ -22320,7 +22320,7 @@
 	name = "Lorenzo"
 	dynasty = 13006
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32124
 	1198.1.2 = {
 		birth = yes
@@ -22348,7 +22348,7 @@
 	name = "Giovanni"
 	dynasty = 13027
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 170068
 	1205.1.2 = {
 		birth = yes
@@ -22362,7 +22362,7 @@
 	name = "Pietro"
 	dynasty = 13007
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1252.1.2 = {
 		birth = yes
 	}
@@ -22378,7 +22378,7 @@
 	name = "Marino"
 	dynasty = 8734
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1231.1.2 = {
 		birth = yes
 	}
@@ -22391,7 +22391,7 @@
 	name = "Giovanni"
 	dynasty = 7238
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1240.1.2 = {
 		birth = yes
 	}
@@ -22404,7 +22404,7 @@
 	name = "Vitale"
 	dynasty = 7235
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1040.1.2 = {
 		birth = yes
 	}
@@ -22418,7 +22418,7 @@
 	female = yes
 	dynasty = 7215 #Orsini
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 31436
 	mother = 125727
 	1295.1.1 = {
@@ -22433,7 +22433,7 @@
 	name = "Guglielmo"
 	dynasty = 7250 #Tocco
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1295.1.1 = {
 		birth = yes
 	}
@@ -22449,7 +22449,7 @@
 	name = "Pietro"
 	dynasty = 7250 #Tocco
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32541
 	mother = 32540
 	1312.1.1 = {
@@ -22465,7 +22465,7 @@
 	name = "Leonardo"
 	dynasty = 7250 #Tocco
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32541
 	mother = 32540
 	1314.1.1 = {
@@ -23303,7 +23303,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	trait = diligent
 	trait = patient
 	trait = zealous
@@ -23462,7 +23462,7 @@
 	name = "Ramone"
 	dynasty = 12117
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 72109
 	trait = bastard
 	1308.1.1 = {
@@ -23704,7 +23704,7 @@
 	name = "Niccolò"
 	dynasty = 1022136
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = martial_cleric
 	1190.1.1 = {
 		birth = yes
@@ -23718,7 +23718,7 @@
 	name = "Pantaleon"
 	dynasty = 13010
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = martial_cleric
 	1220.1.1 = {
 		birth = yes
@@ -24462,7 +24462,7 @@
 	dynasty = 50
 
 	religion = catholic
-	culture = italian
+	culture = tuscan
 
 	father = 91351 # Obizzo Spinola
 	mother = 91352 # Béatrice, daughter of Margherita di Antiochia
@@ -24478,7 +24478,7 @@
 73436 = {
 	name = "Gherardo"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1180.1.1 = {
 		birth = yes
 	}
@@ -24490,7 +24490,7 @@
 73437 = {
 	name = "Marino"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1205.1.1 = {
 		birth = yes
 	}
@@ -24502,7 +24502,7 @@
 73438 = {
 	name = "Ercole"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1231.1.1 = {
 		birth = yes
 	}
@@ -24514,7 +24514,7 @@
 73439 = {
 	name = "Carlo"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1238.1.1 = {
 		birth = yes
 	}
@@ -24526,7 +24526,7 @@
 73440 = {
 	name = "Gaspare"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1257.1.1 = {
 		birth = yes
 	}
@@ -24538,7 +24538,7 @@
 73441 = {
 	name = "Camillo"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1275.1.1 = {
 		birth = yes
 	}
@@ -24550,7 +24550,7 @@
 73442 = {
 	name = "Lazzaro"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1046.1.1 = {
 		birth = yes
 	}
@@ -24562,7 +24562,7 @@
 73443 = {
 	name = "Francesco"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1066.1.1 = {
 		birth = yes
 	}
@@ -24574,7 +24574,7 @@
 73444 = {
 	name = "Serafino"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1087.1.1 = {
 		birth = yes
 	}
@@ -24586,7 +24586,7 @@
 73445 = {
 	name = "Umberto"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1111.1.1 = {
 		birth = yes
 	}
@@ -24598,7 +24598,7 @@
 73446 = {
 	name = "Lorenzo"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1152.1.1 = {
 		birth = yes
 	}
@@ -24610,7 +24610,7 @@
 73447 = {
 	name = "Aurelio"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1168.1.1 = {
 		birth = yes
 	}
@@ -24622,7 +24622,7 @@
 73448 = {
 	name = "Onorio"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1183.1.1 = {
 		birth = yes
 	}
@@ -24634,7 +24634,7 @@
 73449 = {
 	name = "Giorgio"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1200.1.1 = {
 		birth = yes
 	}
@@ -24646,7 +24646,7 @@
 73450 = {
 	name = "Massimo"
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1221.1.1 = {
 		birth = yes
 	}
@@ -24659,7 +24659,7 @@
 	name = "Raniero"
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 463450
 	1316.1.1 = {
 		birth = yes
@@ -24673,7 +24673,7 @@
 	name = "Raniero"
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73455
 	1284.1.1 = {
 		birth = yes
@@ -24687,7 +24687,7 @@
 	name = "Enrico"
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73454
 	1239.1.1 = {
 		birth = yes
@@ -24702,7 +24702,7 @@
 	# Count of Donoratico in Dante's Inferno
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73462
 	mother = 180185
 	1218.1.1 = {
@@ -24724,7 +24724,7 @@
 	# starved to death
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73454
 	mother = 180186
 	1248.1.1 = {
@@ -24739,7 +24739,7 @@
 	name = "Ugoccione"
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73454
 	1246.1.1 = {
 		birth = yes
@@ -24753,7 +24753,7 @@
 	name = "Ugolino"
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73456
 	1270.1.1 = {
 		birth = yes
@@ -24767,7 +24767,7 @@
 	name = "Anselmuccio"
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73456
 	1272.1.1 = {
 		birth = yes
@@ -24783,7 +24783,7 @@
 	female = yes
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73462
 	mother = 180185
 	1227.1.1 = {
@@ -24799,7 +24799,7 @@
 	# Giudice of Gallura
 	dynasty = 1042014
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73461
 	mother = 73459
 	1246.1.1 = {
@@ -24818,7 +24818,7 @@
 	# Giudice of Gallura
 	dynasty = 1042014
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 71166
 	mother = 71162
 	1229.1.1 = {
@@ -24837,7 +24837,7 @@
 	# Count of Settimo and Donoratico
 	dynasty = 13031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 180046
 	mother = 180509
 	1192.1.1 = {
@@ -24855,7 +24855,7 @@
 	name = "Ruggiero"
 	dynasty = 12248
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1221.1.1 = {
 		birth = yes
 	}
@@ -24868,7 +24868,7 @@
 	name = "Gualtiero"
 	dynasty = 12249
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1234.1.1 = {
 		birth = yes
 	}
@@ -24880,7 +24880,7 @@
 73465 = {
 	name = "Amedeo"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	1250.1.1 = {
 		birth = yes
 	}
@@ -24893,7 +24893,7 @@
 	name = "Pandolf"
 	dynasty = 100335
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	1137.1.1 = {
 		birth = yes
 	}
@@ -24906,7 +24906,7 @@
 	name = "Raniero"
 	dynasty = 12250
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	1030.1.1 = {
 		birth = yes
 	}
@@ -24918,7 +24918,7 @@
 73473 = {
 	name = "Milone"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = mastermind_theologian
 	1006.1.1 = {
 		birth = yes
@@ -24931,7 +24931,7 @@
 73478 = {
 	name = "Gregorio"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1092.1.1 = {
 		birth = yes
@@ -24944,7 +24944,7 @@
 73479 = {
 	name = "Roseola"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1094.1.1 = {
 		birth = yes
@@ -24957,7 +24957,7 @@
 73480 = {
 	name = "Pietro"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1102.1.1 = {
 		birth = yes
@@ -24970,7 +24970,7 @@
 73481 = {
 	name = "Enrico"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1111.1.1 = {
 		birth = yes
@@ -24983,7 +24983,7 @@
 73482 = {
 	name = "Lombardo"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1128.1.1 = {
 		birth = yes
@@ -24996,7 +24996,7 @@
 73484 = {
 	name = "Ugolino"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1176.1.1 = {
 		birth = yes
@@ -25009,7 +25009,7 @@
 73485 = {
 	name = "Capoferro"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1212.1.1 = {
 		birth = yes
@@ -25022,7 +25022,7 @@
 73486 = {
 	name = "Castrocielo"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1244.1.1 = {
 		birth = yes
@@ -25035,7 +25035,7 @@
 73487 = {
 	name = "Giovanni"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1247.1.1 = {
 		birth = yes
@@ -25048,7 +25048,7 @@
 73488 = {
 	name = "Adenolfo"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1250.1.1 = {
 		birth = yes
@@ -25061,7 +25061,7 @@
 73489 = {
 	name = "Giacomo"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1251.1.1 = {
 		birth = yes
@@ -25074,7 +25074,7 @@
 73490 = {
 	name = "Monaldo"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	trait = detached_priest
 	1260.1.1 = {
 		birth = yes
@@ -25100,7 +25100,7 @@
 73492 = {
 	name = "Giacinto"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	1024.1.1 = {
 		birth = yes
 	}
@@ -25112,7 +25112,7 @@
 73493 = {
 	name = "Cosimo"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	1037.1.1 = {
 		birth = yes
 	}
@@ -25124,7 +25124,7 @@
 73494 = {
 	name = "Pietro"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	1098.1.1 = {
 		birth = yes
 	}
@@ -25136,7 +25136,7 @@
 73498 = {
 	name = "Giordano"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	dynasty = 5061090
 	1153.1.1 = {
 		birth = yes
@@ -25149,7 +25149,7 @@
 73499 = {
 	name = "Adalberto"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	dynasty = 5061090
 	father = 73498
 	1170.1.1 = {
@@ -25163,7 +25163,7 @@
 73500 = {
 	name = "Luigi"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	dynasty = 5061090
 	father = 73498
 	1188.1.1 = {
@@ -25177,7 +25177,7 @@
 73501 = {
 	name = "Rafaello"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	dynasty = 5061090
 	father = 73499
 	1201.1.1 = {
@@ -25191,7 +25191,7 @@
 73502 = {
 	name = "Leone"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	dynasty = 5061090
 	father = 73501
 	1223.1.1 = {
@@ -25205,7 +25205,7 @@
 73503 = {
 	name = "Emmanuele"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	dynasty = 5061090
 	father = 73502
 	1250.1.1 = {
@@ -25219,7 +25219,7 @@
 73504 = {
 	name = "Orlando"
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	dynasty = 5061090
 	father = 73503
 	1275.1.1 = {
@@ -25234,7 +25234,7 @@
 	name = "Salinguerra"
 	dynasty = 12252
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1160.1.1 = {
 		birth = yes
 	}
@@ -25246,7 +25246,7 @@
 73506 = {
 	name = "Giovanni"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1072.1.1 = {
 		birth = yes
 	}
@@ -25258,7 +25258,7 @@
 73507 = {
 	name = "Ottavio"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1079.1.1 = {
 		birth = yes
 	}
@@ -25270,7 +25270,7 @@
 73508 = {
 	name = "Luchino"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1107.1.1 = {
 		birth = yes
 	}
@@ -25282,7 +25282,7 @@
 73509 = {
 	name = "Damiano"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1122.1.1 = {
 		birth = yes
 	}
@@ -25294,7 +25294,7 @@
 73510 = {
 	name = "Massimo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1142.1.1 = {
 		birth = yes
 	}
@@ -25306,7 +25306,7 @@
 73511 = {
 	name = "Spinetto"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1045.1.1 = {
 		birth = yes
 	}
@@ -25318,7 +25318,7 @@
 73512 = {
 	name = "Amedeo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1068.1.1 = {
 		birth = yes
 	}
@@ -25330,7 +25330,7 @@
 73513 = {
 	name = "Tommaso"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1085.1.1 = {
 		birth = yes
 	}
@@ -25342,7 +25342,7 @@
 73514 = {
 	name = "Stefano"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1105.1.1 = {
 		birth = yes
 	}
@@ -25354,7 +25354,7 @@
 73515 = {
 	name = "Bartolomeo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1127.1.1 = {
 		birth = yes
 	}
@@ -25366,7 +25366,7 @@
 73516 = {
 	name = "Ugoccione"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1178.1.1 = {
 		birth = yes
 	}
@@ -25378,7 +25378,7 @@
 73517 = {
 	name = "Cassio"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1196.1.1 = {
 		birth = yes
 	}
@@ -25390,7 +25390,7 @@
 73518 = {
 	name = "Lorenzo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1212.1.1 = {
 		birth = yes
 	}
@@ -25403,7 +25403,7 @@
 	name = "Luchetto"
 	dynasty = 13029
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1248.1.1 = {
 		birth = yes
 	}
@@ -25415,7 +25415,7 @@
 73520 = {
 	name = "Constantino"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1269.1.1 = {
 		birth = yes
 	}
@@ -25428,7 +25428,7 @@
 	name = "Pietro"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 463300
 	1273.1.1 = {
 		birth = yes
@@ -25442,7 +25442,7 @@
 	name = "Ranuccio"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 463300
 	1275.1.1 = {
 		birth = yes
@@ -25456,7 +25456,7 @@
 	name = "Petruccio"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 463300
 	1277.1.1 = {
 		birth = yes
@@ -25470,7 +25470,7 @@
 	name = "Pepone"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73521
 	1297.1.1 = {
 		birth = yes
@@ -25484,7 +25484,7 @@
 	name = "Niccolò"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73521
 	1299.1.1 = {
 		birth = yes
@@ -25499,7 +25499,7 @@
 	female = yes
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73521
 	1301.1.1 = {
 		birth = yes
@@ -25513,7 +25513,7 @@
 	name = "Bartolomeo"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73522
 	1315.1.1 = {
 		birth = yes
@@ -25527,7 +25527,7 @@
 	name = "Bertoldo"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73522
 	1316.1.1 = {
 		birth = yes
@@ -25540,7 +25540,7 @@
 73529 = {
 	name = "Riccardo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1010.1.1 = {
 		birth = yes
@@ -25554,7 +25554,7 @@
 	name = "Guiberto"
 	dynasty = 12253
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = scholarly_theologian
 	1029.1.1 = {
 		birth = yes
@@ -25568,7 +25568,7 @@
 	name = "Oddone"
 	dynasty = 12254
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1055.1.1 = {
 		birth = yes
@@ -25581,7 +25581,7 @@
 73532 = {
 	name = "Geremia"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1060.1.1 = {
 		birth = yes
@@ -25594,7 +25594,7 @@
 73533 = {
 	name = "Filippo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1066.1.1 = {
 		birth = yes
@@ -25607,7 +25607,7 @@
 73534 = {
 	name = "Gualtiero"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1070.1.1 = {
 		birth = yes
@@ -25620,7 +25620,7 @@
 73535 = {
 	name = "Mosè"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1100.1.1 = {
 		birth = yes
@@ -25633,7 +25633,7 @@
 73536 = {
 	name = "Simone"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1100.1.1 = {
 		birth = yes
@@ -25646,7 +25646,7 @@
 73537 = {
 	name = "Anselmo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1115.1.1 = {
 		birth = yes
@@ -25659,7 +25659,7 @@
 73538 = {
 	name = "Guido"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1119.1.1 = {
 		birth = yes
@@ -25672,7 +25672,7 @@
 73539 = {
 	name = "Gherardo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1125.1.1 = {
 		birth = yes
@@ -25685,7 +25685,7 @@
 73541 = {
 	name = "Guglielmo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1146.1.1 = {
 		birth = yes
@@ -25698,7 +25698,7 @@
 73542 = {
 	name = "Adalberto"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1155.1.1 = {
 		birth = yes
@@ -25711,7 +25711,7 @@
 73543 = {
 	name = "Egidio"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1157.1.1 = {
 		birth = yes
@@ -25724,7 +25724,7 @@
 73544 = {
 	name = "Ubaldo"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1156.1.1 = {
 		birth = yes
@@ -25737,7 +25737,7 @@
 73545 = {
 	name = "Piccinino"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1158.1.1 = {
 		birth = yes
@@ -25750,7 +25750,7 @@
 73546 = {
 	name = "Simone"
 	religion = catholic
-	culture = italian
+	culture = emilian
 	trait = detached_priest
 	1169.1.1 = {
 		birth = yes
@@ -25764,7 +25764,7 @@
 	name = "Pietro"
 	dynasty = 101851
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1163.1.1 = {
 		birth = yes
 	}
@@ -25777,7 +25777,7 @@
 	name = "Paolo"
 	dynasty = 101851
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73547
 	1186.1.1 = {
 		birth = yes
@@ -25791,7 +25791,7 @@
 	name = "Guido"
 	dynasty = 101835
 	religion = catholic
-	culture = italian
+	culture = emilian
 	1240.1.1 = {
 		birth = yes
 	}
@@ -25804,7 +25804,7 @@
 	name = "Lamberto"
 	dynasty = 101835
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73549
 	1264.1.1 = {
 		birth = yes
@@ -25818,7 +25818,7 @@
 	name = "Guido"
 	dynasty = 101835
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73549
 	1267.1.1 = {
 		birth = yes
@@ -25832,7 +25832,7 @@
 	name = "Bernardino"
 	dynasty = 101835
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 463210
 	1311.1.1 = {
 		birth = yes
@@ -25846,7 +25846,7 @@
 	name = "Pandolfo"
 	dynasty = 101835
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 463210
 	1313.1.1 = {
 		birth = yes
@@ -25860,7 +25860,7 @@
 	name = "Lamberto"
 	dynasty = 101835
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 463210
 	1315.1.1 = {
 		birth = yes
@@ -25874,7 +25874,7 @@
 	name = "Guido"
 	dynasty = 101835
 	religion = catholic
-	culture = italian
+	culture = emilian
 	father = 73552
 	1334.1.1 = {
 		birth = yes
@@ -25888,7 +25888,7 @@
 	name = "Ranuccio"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 213053
 	1198.1.1 = {
 		birth = yes
@@ -25902,7 +25902,7 @@
 	name = "Pietro"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73556
 	1245.1.1 = {
 		birth = yes
@@ -25916,7 +25916,7 @@
 	name = "Cecco"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73557
 	1267.1.1 = {
 		birth = yes
@@ -25930,7 +25930,7 @@
 	name = "Niccolò"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73557
 	1269.1.1 = {
 		birth = yes
@@ -25944,7 +25944,7 @@
 	name = "Pietro"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73557
 	1271.1.1 = {
 		birth = yes
@@ -25958,7 +25958,7 @@
 	name = "Ranuccio"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73557
 	1273.1.1 = {
 		birth = yes
@@ -25972,7 +25972,7 @@
 	name = "Petruccio"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73558
 	1288.1.1 = {
 		birth = yes
@@ -25986,7 +25986,7 @@
 	name = "Cecco"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73561
 	1300.1.1 = {
 		birth = yes
@@ -26000,7 +26000,7 @@
 	name = "Luigi"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73563
 	1324.1.1 = {
 		birth = yes
@@ -26014,7 +26014,7 @@
 	name = "Guido"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73563
 	1326.1.1 = {
 		birth = yes
@@ -26028,7 +26028,7 @@
 	name = "Pietro"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73522
 	1317.1.1 = {
 		birth = yes
@@ -26042,7 +26042,7 @@
 	name = "Pierbertoldo"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73522
 	1318.1.1 = {
 		birth = yes
@@ -26056,7 +26056,7 @@
 	name = "Puccio"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73522
 	1320.1.1 = {
 		birth = yes
@@ -26070,7 +26070,7 @@
 	name = "Ranuccio"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73522
 	1321.1.1 = {
 		birth = yes
@@ -26084,7 +26084,7 @@
 	name = "Angelo"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73522
 	1322.1.1 = {
 		birth = yes
@@ -26098,7 +26098,7 @@
 	name = "Giovanni"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 73522
 	1324.1.1 = {
 		birth = yes
@@ -26112,7 +26112,7 @@
 	name = "Raniero"
 	dynasty = 13047
 	religion = catholic
-	culture = italian
+	culture = veneto
 	trait = scholarly_theologian
 	father = 73522
 	1325.1.1 = {
@@ -26127,7 +26127,7 @@
 	name = "Giovanni"
 	dynasty = 12255
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1295.1.1 = {
 		birth = yes
 	}
@@ -26646,7 +26646,7 @@
 	name = "Gazo"
 	dynasty = 7307
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1230.1.1 = {
 		birth = yes
 	}
@@ -26659,7 +26659,7 @@
 	name = "Guglielmo"
 	dynasty = 7310
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1180.1.1 = {
 		birth = yes
 	}
@@ -26705,7 +26705,7 @@
 	name = "Conrado"
 	dynasty = 7313
 	religion = catholic
-	culture = italian
+	culture = veneto
 	1290.1.1 = {
 		birth = yes
 	}
@@ -26719,7 +26719,7 @@
 	female = yes
 	dynasty = 206
 	religion = catholic
-	culture = italian
+	culture = lombard
 	father = 213521
 	mother = 223524
 	1192.10.1 = {
@@ -26736,7 +26736,7 @@
 	female = yes
 	dynasty = 23107
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32804
 	1155.1.1 = {
 		birth = yes
@@ -28793,7 +28793,7 @@
 	female = yes
 	dynasty = 7235
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32115
 	1105.1.1 = {
 		birth = yes
@@ -28807,7 +28807,7 @@
 	name = "Naimerio"
 	dynasty = 7236
 	religion = catholic
-	culture = italian
+	culture = veneto
 	father = 32116
 	1127.1.2 = {
 		birth = yes
@@ -30445,7 +30445,7 @@
 	dynasty = 9593
 
 	religion = catholic
-	culture = italian
+	culture = umbrian
 
 	800.1.1 = {
 		birth = yes
@@ -30462,7 +30462,7 @@
 	father = 168416
 
 	religion = catholic
-	culture = italian
+	culture = umbrian
 
 	830.1.1 = {
 		birth = yes
@@ -30479,7 +30479,7 @@
 	father = 168417
 
 	religion = catholic
-	culture = italian
+	culture = umbrian
 
 	850.1.1 = {
 		birth = yes
@@ -30496,7 +30496,7 @@
 	father = 168418
 
 	religion = catholic
-	culture = italian
+	culture = umbrian
 
 	880.1.1 = {
 		birth = yes
@@ -30513,7 +30513,7 @@
 	father = 168418
 
 	religion = catholic
-	culture = italian
+	culture = umbrian
 
 	890.1.1 = {
 		birth = yes
@@ -30530,7 +30530,7 @@
 	father = 168419
 
 	religion = catholic
-	culture = italian
+	culture = umbrian
 
 	900.1.1 = {
 		birth = yes
@@ -30547,7 +30547,7 @@
 	father = 168419
 
 	religion = catholic
-	culture = italian
+	culture = umbrian
 
 	902.1.1 = {
 		birth = yes
@@ -30564,7 +30564,7 @@
 	father = 168422
 
 	religion = catholic
-	culture = italian
+	culture = umbrian
 
 	935.1.1 = {
 		birth = yes
@@ -36758,7 +36758,7 @@
 	female = yes
 	dynasty = 9521
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	father = 167505
 	1038.1.1 = {
 		birth = yes
@@ -36774,7 +36774,7 @@
 	female = yes
 	dynasty = 622
 	religion = catholic
-	culture = italian
+	culture = umbrian
 	father = 167484
 	1019.1.1 = {
 		birth = yes
@@ -36816,7 +36816,7 @@
 	name = "Ambrosio"
 	dynasty = 798
 	religion = catholic
-	culture = italian
+	culture = lombard
 	830.1.1 = {
 		birth = yes
 	}
@@ -36829,7 +36829,7 @@
 	name = "Odalrico"
 	dynasty = 799
 	religion = catholic
-	culture = italian
+	culture = lombard
 	820.1.1 = {
 		birth = yes
 	}
@@ -36842,7 +36842,7 @@
 	name = "Adalberto"
 	dynasty = 803
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 167897
 	820.1.1 = {
 		birth = yes
@@ -36859,7 +36859,7 @@
 	name = "Adelchis"
 	dynasty = 804
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 145216
 	820.1.1 = {
 		birth = yes
@@ -37764,7 +37764,7 @@
 	name = "Guelfo"
 	dynasty = 1042014
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73461
 	mother = 73459
 	1248.1.1 = {
@@ -37779,7 +37779,7 @@
 	name = "Jacopo"	# fictional placeholder
 	dynasty = 1042014
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 180223
 	1285.1.1 = {
 		birth = yes
@@ -37793,7 +37793,7 @@
 	name = "Lapo"
 	dynasty = 1042014
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 73461
 	mother = 73459
 	1251.1.1 = {
@@ -37810,7 +37810,7 @@
 	female = yes
 	dynasty = 1042026
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1043.1.1 = {
 		birth = yes
 	}
@@ -37825,7 +37825,7 @@
 	female = yes
 	dynasty = 1042024
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1044.1.1 = {
 		birth = yes
 	}
@@ -37840,7 +37840,7 @@
 	female = yes
 	dynasty = 1042027
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1047.1.1 = {
 		birth = yes
 	}
@@ -37855,7 +37855,7 @@
 	female = yes
 	dynasty = 1042035
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1120.1.1 = {
 		birth = yes
 	}
@@ -37870,7 +37870,7 @@
 	female = yes
 	dynasty = 1042025
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1135.1.1 = {
 		birth = yes
 	}
@@ -37885,7 +37885,7 @@
 	female = yes
 	dynasty = 100334
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1060.1.1 = {
 		birth = yes
 	}
@@ -37900,7 +37900,7 @@
 	female = yes
 	dynasty = 1042028
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1110.1.1 = {
 		birth = yes
 	}
@@ -37915,7 +37915,7 @@
 	female = yes
 	dynasty = 1042033
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1031.1.1 = {
 		birth = yes
 	}
@@ -37930,7 +37930,7 @@
 	female = yes
 	dynasty = 1042023
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1311.1.1 = {
 		birth = yes
 	}
@@ -37945,7 +37945,7 @@
 	female = yes
 	dynasty = 1042034
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1168.1.1 = {
 		birth = yes
 	}
@@ -37960,7 +37960,7 @@
 	female = yes
 	dynasty = 1042030
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1100.1.1 = {
 		birth = yes
 	}
@@ -37975,7 +37975,7 @@
 	female = yes
 	dynasty = 1042014
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 180210
 	mother = 180501
 	1071.1.1 = {
@@ -37992,7 +37992,7 @@
 	female = yes
 	dynasty = 1042031
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1154.1.1 = {
 		birth = yes
 	}
@@ -38007,7 +38007,7 @@
 	female = yes
 	dynasty = 1042032
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1075.1.1 = {
 		birth = yes
 	}
@@ -38022,7 +38022,7 @@
 	female = yes
 	dynasty = 1042036
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	father = 235031 #Ugo da Parlascio Ebriaco
 	1101.1.1 = {
 		birth = yes
@@ -38038,7 +38038,7 @@
 	female = yes
 	dynasty = 1042029
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1060.1.1 = {
 		birth = yes
 	}
@@ -38051,7 +38051,7 @@
 	name = "Jacopo" # Jacopo Doria
 	dynasty = 13041 # Doria
 	religion = catholic
-	culture = italian
+	culture = ligurian
 	father = 91433 # Pietro Doria
 	1250.1.1 = {
 		birth = yes
