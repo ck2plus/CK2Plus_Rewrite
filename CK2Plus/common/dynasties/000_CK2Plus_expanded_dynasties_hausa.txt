@@ -1,0 +1,136 @@
+# Valid IDs: 1000071000 - 1000071999
+1000071000 = {
+	name = "Sullubawa"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071001 = {
+	name = "Dambazau"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071002 = {
+	name = "Kutumbi"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071003 = {
+	name = "Bagauda"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071004 = {
+	name = "Rumfa"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071005 = {
+	name = "Sokoto"
+	culture = hausa
+	religion = sunni
+}
+1000071006 = {
+	name = "Ausa"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071007 = {
+	name = "Mgbakpa"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071008 = {
+	name = "Kado"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071009 = {
+	name = "Fellata"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071010 = {
+	name = "Afnu"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071011 = {
+	name = "Abakwariga"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071012 = {
+	name = "Dambazau"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071013 = {
+	name = "Dangote"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071014 = {
+	name = "Dantau"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071015 = {
+	name = "Moutari"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071016 = {
+	name = "Sukhera"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071017 = {
+	name = "Babangida"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071018 = {
+	name = "Kaita"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071019 = {
+	name = "Hawsawi"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071020 = {
+	name = "Jega"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071021 = {
+	name = "Jos"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071022 = {
+	name = "Umar"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071023 = {
+	name = "Noor"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071024 = {
+	name = "Alkali"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071025 = {
+	name = "Maitama"
+	culture = hausa
+	religion = west_african_pagan
+}
+1000071026 = {
+	name = "Nuhu"
+	culture = hausa
+	religion = west_african_pagan
+}

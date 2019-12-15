@@ -1,0 +1,1553 @@
+########################################################################################################
+# WARNING: IF YOU DON'T ADD NEW TRAITS LAST (IN THE LAST READ TRAIT FILE), IT WILL BREAK OLD SAVE GAMES!
+########################################################################################################
+
+##################
+#
+#	Congenital
+#
+##################
+
+clubfooted = {
+	birth = 10	# Wikipedia: 1 in 1000, so for code "10"
+	inherit_chance = 15
+
+	martial = -2
+	intrigue = 1	# footprint direction can't be identified
+	combat_rating = -5
+
+	sex_appeal_opinion = -10
+	same_opinion = 5
+	vassal_opinion = -10
+
+	male_insult = INSULT_CLUBFOOT
+	female_insult = INSULT_CLUBFOOT
+	male_insult_adj = INSULT_LIMPING
+	female_insult_adj = INSULT_LIMPING
+}
+
+hunchback = {
+	birth = 50
+	inherit_chance = 15
+
+	martial = -2
+	combat_rating = -10
+
+	sex_appeal_opinion = -20
+	same_opinion = 5
+	vassal_opinion = -20
+
+	male_insult = INSULT_HUNCHBACK
+	female_insult = INSULT_HUNCHBACK
+	male_insult_adj = INSULT_CROOKED
+	female_insult_adj = INSULT_CROOKED
+}
+
+lefthanded = {
+	opposites =  {
+		ambidextrous
+	}
+
+	inherit_chance = 25
+	birth = 75
+
+	intrigue = 1
+	combat_rating = 15
+
+	same_opinion = 5
+	christian_church_opinion = -10
+	muslim_opinion = -10
+
+	male_insult_adj = INSULT_LEFTHANDED
+	female_insult_adj = INSULT_LEFTHANDED
+}
+
+lisp = {
+	opposites =  {
+		calm_voice
+		melodious_voice
+		powerful_voice
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = -2
+
+	same_opinion = 5
+	sex_appeal_opinion = -5
+	vassal_opinion = -5
+
+	male_insult = INSULT_LISPER
+	female_insult = INSULT_LISPER
+	male_insult_adj = INSULT_FALTERING
+	female_insult_adj = INSULT_FALTERING
+	child_insult_adj = INSULT_STUPID
+}
+
+stutter = {
+	opposites =  {
+		calm_voice
+		melodious_voice
+		powerful_voice
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = -2
+
+	same_opinion = 5
+	vassal_opinion = -10
+
+	male_insult_adj = INSULT_STUTTERING
+	female_insult_adj = INSULT_STUTTERING
+	child_insult_adj = INSULT_STUPID
+}
+
+fair = {
+	opposites =  {
+		ugly
+		harelip
+	}
+
+	birth = 100
+	inherit_chance = 15
+
+	diplomacy = 1
+
+	fertility = 0.1
+
+	sex_appeal_opinion = 30
+
+	female_compliment = COMPL_BEAUTY
+	female_compliment_adj = COMPL_FAIR
+	male_compliment = COMPL_CHARMER
+	male_compliment_adj = COMPL_HANDSOME
+	child_compliment_adj = COMPL_PRETTY
+}
+
+harelip = {
+	opposites =  {
+		fair
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = -2
+
+	sex_appeal_opinion = -10
+	same_opinion = 5
+	vassal_opinion = -10
+
+	male_insult = INSULT_HARELIP
+	female_insult = INSULT_HARELIP
+	male_insult_adj = INSULT_CLEFT_LIPPED
+	female_insult_adj = INSULT_CLEFT_LIPPED
+}
+
+ugly = {
+	opposites =  {
+		fair
+	}
+
+	birth = 100
+	inherit_chance = 10
+
+	diplomacy = -1
+
+	fertility = -0.1
+
+	sex_appeal_opinion = -30
+
+	male_insult = INSULT_GROTESQUE
+	female_insult = INSULT_GORGON
+	female_insult = INSULT_TROLL
+	male_insult_adj = INSULT_HIDEOUS
+	female_insult_adj = INSULT_HIDEOUS
+	child_insult_adj = INSULT_UGLY
+}
+
+inbred = {
+	opposites =  {
+		fertile
+	}
+
+	inbred = yes
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 50
+
+	diplomacy = -5
+	stewardship = -5
+	martial = -5
+	intrigue = -5
+	learning = -5
+	combat_rating = -20
+
+	health = -1
+	fertility = -0.4
+
+	ai_rationality = -20
+
+	sex_appeal_opinion = -30
+	vassal_opinion = -10
+
+	male_insult = INSULT_ABOMINATION
+	female_insult = INSULT_FREAK
+	child_insult = INSULT_TROLL
+	male_insult_adj = INSULT_MONSTROUS
+	female_insult_adj = INSULT_HIDEOUS
+	child_insult_adj = INSULT_UGLY
+}
+
+genius = {
+	opposites =  {
+		imbecile
+		slow
+		quick
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = 5
+	stewardship = 5
+	martial = 5
+	intrigue = 5
+	learning = 5
+	combat_rating = 10
+
+	ai_rationality = 30
+
+	vassal_opinion = 5
+
+	male_compliment = COMPL_GENIUS
+	male_compliment_adj = COMPL_BRILLIANT
+	female_compliment = COMPL_GENIUS
+	female_compliment_adj = COMPL_BRILLIANT
+	child_compliment = COMPL_SMARTY
+	child_compliment_adj = COMPL_CLEVER
+}
+
+quick = {
+	opposites =  {
+		imbecile
+		slow
+		genius
+	}
+
+	birth = 100
+	inherit_chance = 15
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	combat_rating = 5
+
+	ai_rationality = 15
+}
+
+slow = {
+	opposites =  {
+		imbecile
+		quick
+		genius
+	}
+
+	birth = 100
+	inherit_chance = 15
+
+	diplomacy = -3
+	martial = -3
+	stewardship = -3
+	intrigue = -3
+	learning = -3
+	combat_rating = -5
+
+	ai_rationality = -15
+
+	sex_appeal_opinion = -5
+
+	male_insult = INSULT_DULLARD
+	female_insult = INSULT_NITWIT
+	male_insult_adj = INSULT_DIM
+	female_insult_adj = INSULT_VACUOUS
+	child_insult_adj = INSULT_STUPID
+}
+
+imbecile = {
+	opposites =  {
+		slow
+		quick
+		genius
+	}
+
+	birth = 50
+	inherit_chance = 15
+
+	diplomacy = -8
+	martial = -8
+	stewardship = -8
+	intrigue = -8
+	learning = -8
+	combat_rating = -30
+
+	ai_rationality = -30
+
+	vassal_opinion = -20
+	sex_appeal_opinion = -30
+
+	male_insult = INSULT_IMBECILE
+	female_insult = INSULT_IMBECILE
+	child_insult = INSULT_PEABRAIN
+	male_insult_adj = INSULT_IDIOT
+	female_insult_adj = INSULT_IDIOT
+}
+
+strong = {
+	opposites =  {
+		weak
+	}
+
+	birth = 100
+	inherit_chance = 15
+
+	martial = 2
+	combat_rating = 10
+
+	health = 1
+	fertility = 0.1
+
+	sex_appeal_opinion = 10
+	vassal_opinion = 5
+	tribal_opinion = 10
+
+	male_compliment_adj = COMPL_STRONG
+}
+
+weak = {
+	opposites =  {
+		strong
+	}
+
+	birth = 100
+	inherit_chance = 15
+
+	martial = -2
+	combat_rating = -10
+
+	health = -1.0
+	fertility = -0.1
+
+	sex_appeal_opinion = -10
+	vassal_opinion = -5
+	tribal_opinion = -10
+
+	male_insult = INSULT_WEAKLING
+}
+
+dwarf = {
+	opposites =  {
+		tall
+		giant
+	}
+
+	birth = 4	# actual prevalence 4x lower: https://en.wikipedia.org/wiki/Dwarfism#Achondroplasia
+	inherit_chance = 25	# autosomal dominant: one gene, inherited -> 25% chance with 1 affecte parent
+	both_parent_has_trait_inherit_chance = 50	# NOTE: If inheriting gene from both parents, child usually dies
+	# ... which means 50% is correct as well, if it is the total chance! (2 out of 4 combinations)
+	# more info: https://ghr.nlm.nih.gov/condition/achondroplasia#inheritance
+	# numbers might need to be adjusted for gameplay, most info based on above cause variant
+
+	martial = -2
+	intrigue = 1
+	combat_rating = -15
+
+	sex_appeal_opinion = -20
+	same_opinion = 10
+
+	male_insult = INSULT_DWARF
+	female_insult = INSULT_DWARF
+	male_insult_adj = INSULT_LITTLE
+	female_insult_adj = INSULT_LITTLE
+	child_insult_adj = INSULT_STUPID
+}
+
+giant = {
+	opposites =  {
+		tall
+		dwarf
+	}
+
+	birth = 1	# actual prevalence MUCH lower, see https://emedicine.medscape.com/article/925446-overview
+	inherit_chance = 5
+	# Note: For the only documented couple of two giants, no child survived: https://en.wikipedia.org/wiki/Anna_Haining_Bates
+
+	combat_rating = 10
+
+	health = -1
+	fertility = -0.20
+
+	vassal_opinion = 5
+	tribal_opinion = 10
+	sex_appeal_opinion = -5
+
+	male_insult = INSULT_ABOMINATION
+	female_insult = INSULT_FREAK
+	child_insult = INSULT_TROLL
+	male_insult_adj = INSULT_MONSTROUS
+	female_insult_adj = INSULT_HIDEOUS
+	child_insult_adj = INSULT_UGLY
+	male_compliment_adj = COMPL_STRONG
+}
+
+##################################
+#
+#	Physical (pseudo-congenital)
+#
+##################################
+
+robust = {
+	opposites =  {
+		sturdy
+		feeble
+	}
+
+	martial = 2
+	combat_rating = 10
+
+	health = 0.75
+	fertility = 0.05
+
+	sex_appeal_opinion = 5
+	vassal_opinion = 5
+	tribal_opinion = 5
+
+	male_compliment_adj = COMPL_STRONG
+}
+
+sturdy = {
+	opposites = {
+		robust
+		feeble
+	}
+
+	martial = 1
+	combat_rating = 3
+
+	health = 0.25
+}
+
+feeble = {
+	opposites =  {
+		robust
+		sturdy
+	}
+
+	martial = -1
+	combat_rating = -10
+
+	health = -0.5
+	fertility = -0.05
+
+	sex_appeal_opinion = -5
+	vassal_opinion = -5
+	tribal_opinion = -5
+
+	male_insult = INSULT_WEAKLING
+}
+
+shrewd = {
+	opposites =  {
+		dull
+	}
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+	combat_rating = 3
+
+	ai_rationality = 15
+}
+
+dull = {
+	opposites =  {
+		shrewd
+	}
+
+	diplomacy = -2
+	martial = -2
+	stewardship = -2
+	intrigue = -2
+	learning = -2
+	combat_rating = -3
+
+	ai_rationality = -15
+
+	male_insult = INSULT_DULLARD
+	female_insult = INSULT_NITWIT
+	male_insult_adj = INSULT_DIM
+	female_insult_adj = INSULT_VACUOUS
+	child_insult_adj = INSULT_STUPID
+}
+
+is_fat = {
+	opposites = {
+		is_malnourished
+	}
+
+	customizer = no
+	random = no
+
+	combat_rating = -10
+
+	health = -0.5
+
+	male_insult = INSULT_FATPIG
+	female_insult = INSULT_SOW
+	male_insult_adj = INSULT_BLOATED
+	female_insult_adj = INSULT_BLOATED
+	male_compliment_adj = COMPL_MAGNIFICENT
+	female_compliment_adj = COMPL_MAGNIFICENT
+}
+
+is_malnourished = {
+	opposites = {
+		is_fat
+	}
+
+	customizer = no
+	random = no
+
+	combat_rating = -10
+
+	health = -0.5
+	fertility = -0.05
+
+	male_insult = INSULT_WEAKLING
+	female_insult = INSULT_CORPSE
+	male_insult_adj = INSULT_STARVED
+	female_insult_adj = INSULT_STARVED
+	male_compliment_adj = COMPL_FRUGAL
+	female_compliment_adj = COMPL_FRUGAL
+}
+
+############
+#
+#	Health
+#
+############
+
+blinded = {
+	blinding = yes
+	is_health = yes	# Plus recategorized
+
+	diplomacy = -2
+	martial = -6
+	stewardship = -3
+	intrigue = -4
+	learning = -2
+	combat_rating = -100
+
+	health = -0.5
+
+	sex_appeal_opinion = -10
+	vassal_opinion = -10
+	same_opinion = 5
+
+	male_insult_adj = INSULT_BLIND
+	female_insult_adj = INSULT_BLIND
+}
+
+disfigured = {
+	is_health = yes
+
+	diplomacy = -4
+	combat_rating = 2
+
+	sex_appeal_opinion = -20
+	same_opinion = 5
+
+	male_insult = INSULT_FREAK
+	female_insult = INSULT_FREAK
+	child_insult = INSULT_FREAK
+	male_insult_adj = INSULT_HEINOUS
+	female_insult_adj = INSULT_HEINOUS
+	child_insult_adj = INSULT_HEINOUS
+}
+
+eunuch = {
+	cannot_marry = yes
+	cannot_inherit = yes
+	customizer = no
+
+	# Plus note: not categorized as 'health' because no hindrance to e.g. hunting
+	fertility = -50.0
+
+	sex_appeal_opinion = -20
+
+	male_insult = INSULT_EUNUCH
+	male_insult_adj = INSULT_UNMANNED
+	child_insult_adj = INSULT_SILLY
+}
+
+mangled = {
+	is_health = yes
+
+	sex_appeal_opinion = -5
+	same_opinion = 5
+
+	fertility_penalty = -0.5
+
+	diplomacy = -2
+	martial = -2
+	stewardship = -2
+	intrigue = -2
+	learning = -2
+	combat_rating = -40
+
+	health = -3
+
+	male_insult = INSULT_CRIPPLE
+	female_insult = INSULT_CRIPPLE
+	child_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_MAIMED
+	female_insult_adj = INSULT_MAIMED
+	child_insult_adj = INSULT_MAIMED
+}
+
+one_eyed = {
+	is_health = yes
+
+	martial = -1
+	combat_rating = -10
+
+	sex_appeal_opinion = -5
+	norse_pagan_opinion = 10	# opinion bonus only for Odin-people
+	norse_pagan_reformed_opinion = 10
+	same_opinion = 5
+
+	male_insult = INSULT_CRIPPLE
+	female_insult = INSULT_CRIPPLE
+	child_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_BLIND
+	female_insult_adj = INSULT_BLIND
+	child_insult_adj = INSULT_BLIND
+}
+
+one_handed = {
+	is_health = yes
+
+	combat_rating = -20
+
+	sex_appeal_opinion = -5
+	same_opinion = 5
+
+	male_insult = INSULT_CRIPPLE
+	female_insult = INSULT_CRIPPLE
+	child_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_MAIMED
+	female_insult_adj = INSULT_MAIMED
+	child_insult_adj = INSULT_MAIMED
+}
+
+one_legged = {
+	is_health = yes
+
+	combat_rating = -30
+
+	sex_appeal_opinion = -10
+	same_opinion = 5
+
+	male_insult = INSULT_CRIPPLE
+	female_insult = INSULT_CRIPPLE
+	child_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_LIMPING
+	female_insult_adj = INSULT_LIMPING
+	child_insult_adj = INSULT_LIMPING
+}
+
+drunkard = {
+	is_health = yes
+
+	stewardship = -2
+	learning = -2
+	combat_rating = -10
+
+	health = -0.5
+	fertility = -0.1
+
+	ai_rationality = -10
+
+	same_opinion = 5
+	church_opinion = -5
+	sex_appeal_opinion = -10
+
+	male_insult = INSULT_DRUNKARD
+	female_insult = INSULT_DRUNKARD
+	male_insult_adj = INSULT_BESOTTED
+	female_insult_adj = INSULT_BESOTTED
+	child_insult_adj = INSULT_STUPID
+}
+
+infirm = {
+	is_health = yes
+
+	diplomacy = -4
+	martial = -4
+	stewardship = -4
+	intrigue = -4
+	learning = -4
+	combat_rating = -50
+
+	health = -2
+	fertility = -0.3
+
+	ai_rationality = -10
+
+	male_insult = INSULT_DODDERER
+	male_insult_adj = INSULT_SENILE
+	female_insult_adj = INSULT_SENILE
+	child_insult_adj = INSULT_STUPID
+}
+
+incapable = {
+	customizer = no
+	incapacitating = yes # Will need a regent
+	is_health = yes
+
+	diplomacy = -100
+	martial = -100
+	stewardship = -100
+	intrigue = -100
+	learning = -100
+	combat_rating = -200
+
+	health = -3
+	fertility = -0.9
+
+	male_insult = INSULT_VEGETABLE
+	female_insult = INSULT_VEGETABLE
+	male_insult_adj = INSULT_USELESS
+	female_insult_adj = INSULT_USELESS
+}
+
+lovers_pox = {
+	sex_appeal_opinion = -5
+
+	male_insult_adj = INSULT_POX_RIDDEN
+	female_insult_adj = INSULT_POX_RIDDEN
+	child_insult_adj = INSULT_POX_RIDDEN
+}
+
+possessed = { # Highly event driven
+	is_health = yes
+
+	diplomacy = -2
+	combat_rating = 5
+
+	ai_rationality = -50
+
+	general_opinion = -10
+	sex_appeal_opinion = -10
+	same_opinion = 5
+
+
+	male_insult = INSULT_WARLOCK
+	female_insult = INSULT_DEVIL_WOMAN
+	child_insult = INSULT_DEVIL
+	male_insult_adj = INSULT_DEMONIC
+	female_insult_adj = INSULT_DEMONIC
+}
+
+lunatic = { # Highly event driven
+	is_health = yes
+
+	diplomacy = -4
+	martial = -4
+	stewardship = -4
+	intrigue = -4
+	learning = -4
+
+	health = -0.5
+
+	ai_rationality = -100
+
+	general_opinion = -10
+	vassal_opinion = -5
+	sex_appeal_opinion = -10
+	same_opinion = 5
+
+
+
+	male_insult = INSULT_LUNATIC
+	female_insult = INSULT_BAT
+	male_insult_adj = INSULT_DEMENTED
+	female_insult_adj = INSULT_CRAZED
+	child_insult_adj = INSULT_CRAZY
+}
+
+sickly = { # Babies can be born sickly
+	is_health = yes
+	is_illness = yes
+	customizer = no
+
+	potential = {
+		NOT = { age = 6 }
+	}
+
+	health = -2
+}
+
+stressed = {
+	is_health = yes
+
+	stewardship = -1
+	intrigue = -1
+	combat_rating = -10
+
+	health = -1
+	fertility = -0.1
+
+	ai_rationality = -10
+}
+
+depressed = {
+	is_health = yes
+
+	diplomacy = -1
+	martial = -1
+	stewardship = -1
+	intrigue = -1
+	combat_rating = -5
+
+	health = -1.5
+	fertility = -0.1
+
+	ai_ambition = -20
+
+	sex_appeal_opinion = -10
+
+	male_insult_adj = INSULT_LUGUBRIOUS
+	female_insult_adj = INSULT_LUGUBRIOUS
+	male_insult = INSULT_GRUMBLER
+	female_insult = INSULT_GRUMBLER
+}
+
+wounded = {
+	opposites =  {
+		maimed
+	}
+
+	is_health = yes
+	succession_gfx = yes
+
+	martial = -1
+	combat_rating = -15
+
+	health = -1
+}
+
+maimed = {
+	opposites =  {
+		wounded
+	}
+
+	is_health = yes
+	succession_gfx = yes
+
+	martial = -2
+	combat_rating = -30
+
+	health = -2
+
+	sex_appeal_opinion = -10
+	same_opinion = 5
+
+	male_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_USELESS
+	female_insult_adj = INSULT_USELESS
+}
+
+severely_injured = {
+	customizer = no
+	is_health = yes
+	succession_gfx = yes
+
+	combat_rating = -20
+
+	sex_appeal_opinion = -10
+	same_opinion = 5
+
+	martial_penalty = -2
+	intrigue_penalty = -2
+
+	health_penalty = -2
+	fertility_penalty = -0.25
+
+	male_insult = INSULT_CRIPPLE
+	male_insult_adj = INSULT_USELESS
+	female_insult_adj = INSULT_USELESS
+}
+
+###################################
+#
+#	Symptoms (The Reaper's Due)
+#
+###################################
+
+abdominal_pain = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	health_penalty = -1
+	fertility_penalty = -0.1
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+chest_pain = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	combat_rating = -10
+
+	health_penalty = -2
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+cough = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	diplomacy_penalty = -1
+
+	health_penalty = -0.25
+
+	sex_appeal_opinion = -5
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+cramps = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	combat_rating = -10
+
+	martial_penalty = -2
+
+	health_penalty = -0.5
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+diarrhea = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	combat_rating = -10
+
+	martial_penalty = -2
+	intrigue_penalty = -2
+
+	health_penalty = -1
+	fertility_penalty = -0.2
+
+	sex_appeal_opinion = -5
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+fatigue = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	ai_rationality = -20
+
+	diplomacy_penalty = -1
+	intrigue_penalty = -1
+
+	health_penalty = -0.25
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+fever = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	combat_rating = -10
+
+	ai_rationality = -10
+
+	stewardship_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -1
+	fertility_penalty = -0.1
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+headache = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	combat_rating = -10
+
+	ai_rationality = -10
+
+	diplomacy_penalty = -1
+	stewardship_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -0.5
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+malaise = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	health_penalty = -0.75
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+rash = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	health_penalty = -0.5
+	fertility_penalty = -0.1
+
+	sex_appeal_opinion = -5
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+vomiting = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	is_symptom = yes
+
+	combat_rating = -10
+
+	diplomacy_penalty = -2
+	intrigue_penalty = -2
+
+	health_penalty = -1
+	fertility_penalty = -0.3
+
+	sex_appeal_opinion = -5
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+
+}
+
+###############
+#
+#	Diseases
+#
+###############
+
+ill = {
+	opposites =  {
+		pneumonic
+	}
+
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	martial = -1
+	combat_rating = -10
+
+	health = -3
+	fertility = -0.1
+}
+
+infection = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+	succession_gfx = yes
+
+	combat_rating = -10
+
+	diplomacy_penalty = -3
+	martial_penalty = -3
+	stewardship_penalty = -3
+	intrigue_penalty = -3
+	learning_penalty = -3
+
+	health_penalty = -2
+
+	sex_appeal_opinion = -10
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+cancer = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	health_penalty = -3
+	fertility_penalty = -0.20
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_WITHERING
+	female_insult_adj = INSULT_WITHERING
+	child_insult_adj = INSULT_WITHERING
+}
+
+dancing_plague = {
+	customizer = no
+	is_epidemic = yes
+	is_illness = yes
+	succession_gfx = yes
+
+	diplomacy_penalty = -1
+	martial_penalty = -1
+	stewardship_penalty = -1
+	intrigue_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -2
+	fertility_penalty = 0.25
+
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+dysentery = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	combat_rating = -20
+
+	martial_penalty = -3
+	intrigue_penalty = -3
+
+	health_penalty = -4
+	fertility_penalty = -0.25
+
+	sex_appeal_opinion = -15
+
+	male_insult_adj = INSULT_PUTRID
+	female_insult_adj = INSULT_PUTRID
+	child_insult_adj = INSULT_PUTRID
+}
+
+flu = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	combat_rating = -10
+
+	diplomacy_penalty = -1
+	martial_penalty = -1
+	stewardship_penalty = -1
+	intrigue_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -2
+
+	sex_appeal_opinion = -10
+
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+food_poisoning = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	combat_rating = -10
+
+	diplomacy_penalty = -2
+	martial_penalty = -2
+	stewardship_penalty = -2
+	intrigue_penalty = -2
+	learning_penalty = -2
+
+	fertility_penalty = -0.5
+	health_penalty = -3
+
+	sex_appeal_opinion = -15
+
+	male_insult_adj = INSULT_PUTRID
+	female_insult_adj = INSULT_PUTRID
+	child_insult_adj = INSULT_PUTRID
+}
+
+gout = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	combat_rating = -20
+
+	martial_penalty = -1
+	stewardship_penalty = -2
+
+	health_penalty = -2
+
+	male_insult = INSULT_INVALID
+	female_insult = INSULT_INVALID
+	child_insult = INSULT_INVALID
+	male_insult_adj = INSULT_LIMPING
+	female_insult_adj = INSULT_LIMPING
+	child_insult_adj = INSULT_LIMPING
+}
+
+has_aztec_disease = {
+	customizer = no
+	is_epidemic = yes
+	is_illness = yes
+
+	combat_rating = -30
+
+	diplomacy_penalty = -3
+	martial_penalty = -2
+	stewardship_penalty = -2
+	intrigue_penalty = -3
+	learning_penalty = -2
+
+	health_penalty = -4
+	fertility_penalty = -0.2
+
+	sex_appeal_opinion = -10
+	general_opinion = -5
+
+	male_insult_adj = INSULT_POX_RIDDEN
+	female_insult_adj = INSULT_POX_RIDDEN
+	child_insult_adj = INSULT_POX_RIDDEN
+}
+
+has_bubonic_plague = {
+	customizer = no
+	is_epidemic = yes
+	is_illness = yes
+	succession_gfx = yes
+
+	combat_rating = -100
+
+	diplomacy_penalty = -2
+	martial_penalty = -3
+	stewardship_penalty = -2
+	intrigue_penalty = -3
+	learning_penalty = -2
+
+	health_penalty = -7
+	fertility_penalty = -0.50
+
+	male_insult_adj = INSULT_DECAYING
+	female_insult_adj = INSULT_DECAYING
+	child_insult_adj = INSULT_SMELLY
+}
+
+has_measles = {
+	customizer = no
+	is_epidemic = yes
+	is_illness = yes
+	succession_gfx = yes
+
+	combat_rating = -30
+
+	stewardship_penalty = -2
+	learning_penalty = -1
+
+	health_penalty = -2
+	fertility_penalty = -0.1
+
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+has_small_pox = {
+	customizer = no
+	is_epidemic = yes
+	is_illness = yes
+	succession_gfx = yes
+
+	combat_rating = -50	# it's not THAT bad (vanilla: 100)
+
+	diplomacy_penalty = -2
+	stewardship_penalty = -1
+	learning_penalty = -2
+
+	health_penalty = -3
+	fertility_penalty = -0.25
+
+	male_insult_adj = INSULT_POX_RIDDEN
+	female_insult_adj = INSULT_POX_RIDDEN
+	child_insult_adj = INSULT_POX_RIDDEN
+}
+
+has_tuberculosis = {
+	customizer = no
+	is_epidemic = yes
+	is_illness = yes
+	succession_gfx = yes
+
+	combat_rating = -25
+
+	diplomacy_penalty = -2
+	stewardship_penalty = -1
+	intrigue_penalty = -2
+
+	health_penalty = -2
+
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+has_typhoid_fever = {
+	customizer = no
+	is_epidemic = yes
+	is_illness = yes
+	succession_gfx = yes
+
+	combat_rating = -40
+
+	martial_penalty = -2
+	intrigue_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -3
+	fertility_penalty = -0.10
+
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+has_typhus = {
+	customizer = no
+	is_epidemic = yes
+	is_illness = yes
+	succession_gfx = yes
+
+	combat_rating = -40
+
+	diplomacy_penalty = -1
+	stewardship_penalty = -2
+	intrigue_penalty = -1
+	learning_penalty = -2
+
+	health_penalty = -4
+	fertility_penalty = -0.20
+
+	child_insult_adj = INSULT_SMELLY
+	male_insult_adj = INSULT_SMELLY
+	female_insult_adj = INSULT_SMELLY
+}
+
+leper = {
+	is_health = yes
+	is_illness = yes
+
+	combat_rating = -25
+
+	health_penalty = -1.5
+	fertility_penalty = -0.95
+
+	sex_appeal_opinion = -15
+	general_opinion = -20
+
+	male_insult = INSULT_LEPER
+	female_insult = INSULT_LEPER
+	male_insult_adj = INSULT_UNCLEAN
+	female_insult_adj = INSULT_UNCLEAN
+	child_insult_adj = INSULT_UGLY
+}
+
+pneumonic = {
+	opposites =  {
+		ill
+	}
+
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	combat_rating = -35
+
+	diplomacy_penalty = -2
+	martial_penalty = -2
+	stewardship_penalty = -2
+	intrigue_penalty = -2
+	learning_penalty = -2
+
+	health_penalty = -4
+	fertility_penalty = -0.5
+}
+
+rabies = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	combat_rating = 30
+
+	ai_rationality = -50
+
+	diplomacy_penalty = -3
+	stewardship_penalty = -2
+	intrigue_penalty = -3
+	learning_penalty = -2
+
+	health_penalty = -7
+
+	vassal_opinion = -5
+	sex_appeal_opinion = -20
+
+	male_insult = INSULT_MANIAC
+	female_insult = INSULT_MANIAC
+	child_insult = INSULT_MANIAC
+	male_insult_adj = INSULT_RABID
+	female_insult_adj = INSULT_RABID
+	child_insult_adj = INSULT_RABID
+}
+
+scurvy = {
+	customizer = no
+	is_health = yes
+	is_illness = yes
+
+	combat_rating = -20
+
+	diplomacy_penalty = -1
+	martial_penalty = -1
+	stewardship_penalty = -1
+	intrigue_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -3
+
+	male_insult_adj = INSULT_SICKLY
+	female_insult_adj = INSULT_SICKLY
+	child_insult_adj = INSULT_SICKLY
+}
+
+syphilitic = {
+	is_health = yes
+	is_illness = yes
+	inherit_chance = 10
+
+	diplomacy_penalty = -1
+	martial_penalty = -1
+	stewardship_penalty = -1
+	intrigue_penalty = -1
+	learning_penalty = -1
+
+	health_penalty = -2
+	fertility_penalty = -0.2
+
+	sex_appeal_opinion = -10
+	general_opinion = -5
+
+	male_insult_adj = INSULT_SYPHILITIC
+	female_insult_adj = INSULT_SYPHILITIC
+	child_insult_adj = INSULT_UGLY
+}

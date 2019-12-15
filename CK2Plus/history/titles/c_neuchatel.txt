@@ -1,0 +1,105 @@
+760.1.1 = {
+	liege = k_austrasia
+	holder = 91482 #FREDERIC, count of Transjuranie
+}
+
+800.12.25 = { # Coronation of Karl as Emperor
+	liege = e_karling
+}
+
+829.8.1 = { # Diet of Worms
+	holder = 90104 # Charles II 'the Bald'
+	liege = d_swabia
+}
+
+832.9.1 = { # crowned King of Aquitaine after Pepin's rebellion
+	holder = 90095 # Louis I 'the Pious'
+}
+
+839.5.30 = { # Diet of Worms
+	holder = 30227 # Lothair I
+	liege = k_italy
+}
+
+843.8.10 = { # Treaty of Verdun
+	holder = 30227 # Lothair I
+	liege = k_burgundy
+}
+
+855.1.1 = {
+	liege = d_upper_burgundy
+	holder = 7977
+}
+
+864.1.1 = {
+	holder = 144998
+}
+
+866.1.1 = {
+	holder = 7989
+}
+
+870.8.8 = { # Treaty of Meerssen
+	holder = 168154 # Gerold
+	liege = k_germany
+}
+
+887.11.17 = { # abdication of Karl 'the Fat', Rudolf elected by Burgundian nobles
+	liege = k_burgundy
+}
+
+899.1.1 = {
+	holder = 168158
+}
+
+1032.9.5 = {
+	liege = e_hre
+	holder = 40560
+	law = succ_primogeniture
+	law = agnatic_succession
+}
+
+1070.1.1 = {
+	holder = 32762
+}
+
+1099.1.1 = {
+	holder = 212010
+}
+
+1132.8.1 = {
+	holder = 212012
+}
+
+1164.1.1 = {
+	holder = 212013
+}
+
+1189.1.1 = {
+	holder = 212018
+}
+
+1196.8.30 = {
+	holder = 32768
+}
+
+1220.1.1 = {
+	liege = d_upper_burgundy
+}
+
+1225.8.1 = {
+	holder = 32769
+}
+
+1257.3.14 = {
+	holder = 32770
+	liege = e_hre
+}
+
+1285.8.16 = {
+	liege = d_savoie
+}
+
+1309.8.29 = {
+	holder = 32771
+}

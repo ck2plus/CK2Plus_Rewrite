@@ -1,0 +1,13 @@
+# Valid IDs: 1000191000 - 1000191999
+1000191000 = {
+	name = "Meriadoc"
+	culture = welsh
+}
+1000191001 = {
+	name = "of Alt Clut"
+	culture = welsh
+}
+1000191002 = {
+	name = "ap Elisedd"
+	culture = welsh
+}

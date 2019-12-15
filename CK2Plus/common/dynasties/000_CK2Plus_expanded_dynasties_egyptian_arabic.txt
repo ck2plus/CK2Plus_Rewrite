@@ -1,0 +1,17 @@
+# Valid IDs: 1000053000 - 1000053999
+1000053000 = {
+	name = "el-Messiah"
+	culture = egyptian_arabic
+}
+1000053001 = {
+	name = "Katamid"
+	culture = egyptian_arabic
+}
+1000053002 = {
+	name = "Jawharid"
+	culture = egyptian_arabic
+}
+1000053003 = {
+	name = "Al-Ra'isid"
+	culture = egyptian_arabic
+}

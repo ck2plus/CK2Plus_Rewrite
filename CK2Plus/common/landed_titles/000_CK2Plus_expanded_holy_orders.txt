@@ -1,0 +1,67 @@
+##################################
+##
+## HOLY ORDERS
+##
+##################################
+
+d_keepers_tirnanog = {
+	color = { 75 75 75 }
+	color2 = { 255 255 255 }
+	
+	graphical_culture = celticgfx
+	
+	capital = 12 #Ossory
+
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+	
+	holy_order = yes
+	mercenary_type = keepers_tirnanog_composition
+	strength_growth_per_century = 1
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Parent Religion 
+	religion = celtic_pagan_reformed
+	culture = irish
+	
+	# Extra income due to banking, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)		
+	
+	dignity = 10
+}
+
+d_sword_of_ama_lur = {
+	color = { 75 75 75 }
+	color2 = { 255 255 255 }
+	
+	graphical_culture = occitangfx
+	
+	capital = 201 # Najera
+
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+	
+	holy_order = yes
+	mercenary_type = sword_of_ama_lur_composition
+	strength_growth_per_century = 1
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Parent Religion 
+	religion = basque_pagan_reformed
+	culture = basque
+	
+	# Extra income due to banking, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)		
+	
+	dignity = 10
+}

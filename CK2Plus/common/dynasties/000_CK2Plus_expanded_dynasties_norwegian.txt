@@ -1,0 +1,69 @@
+# Valid IDs: 1000120000 - 1000120999
+1000120000 = {
+	name = "Slæðe"
+	culture = norwegian
+}
+1000120001 = {
+	name = "Paus"
+	culture = norwegian
+}
+1000120002 = {
+	name = "Skaktavl"
+	culture = norwegian
+}
+1000120003 = {
+	name = "Hrafn"
+	culture = norwegian
+}
+1000120004 = {
+	name = "Haukur"
+	culture = norwegian
+}
+1000120005 = {
+	name = "Loftur"
+	culture = norwegian
+}
+1000120006 = {
+	name = "Torfi"
+	culture = norwegian
+}
+1000120007 = {
+	name = "Bjørn"
+	culture = norwegian
+}
+1000120008 = {
+	name = "Eggert"
+	culture = norwegian
+}
+1000120009 = {
+	name = "Hummer"
+	culture = norwegian
+}
+1000120010 = {
+	name = "Skak"
+	culture = norwegian
+}
+1000120011 = {
+	name = "Kalips"
+	culture = norwegian
+}
+1000120012 = {
+	name = "Brestisson"
+	culture = norwegian
+}
+1000120013 = {
+	name = "Melkoff"
+	culture = norwegian
+}
+1000120014 = {
+	name = "Gofraidsson"
+	culture = norwegian
+}
+1000120015 = {
+	name = "af Halogaland"
+	culture = norwegian
+}
+1000120016 = {
+	name = "Gudfastsson"
+	culture = norwegian
+}

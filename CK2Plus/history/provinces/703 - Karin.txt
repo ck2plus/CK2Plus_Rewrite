@@ -1,0 +1,24 @@
+# 703 - Karin
+
+# County Title
+title = c_karin
+
+# Settlements
+max_settlements = 4
+b_karin = castle
+#b_daroynk = castle
+b_owshank = temple
+#b_mardin = castle 
+#b_pasen = castle
+#b_baghesh = castle
+b_tercan = city
+#b_kirklarkilisesi = temple
+
+# Misc
+culture = armenian
+religion = miaphysite
+
+# History
+690.1.1 = { religion = paulician }
+900.1.1 = { religion = miaphysite }
+1187.1.1 = { b_daroynk = castle }

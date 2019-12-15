@@ -1,0 +1,24 @@
+# 1621 - Gudbrandsdal
+
+# County title
+title = c_gudbrandsdal
+
+max_settlements = 1
+
+b_dovre = tribal
+
+
+# Misc
+culture = norwegian
+religion = norse_pagan
+
+
+# History
+1000.1.1 = {
+	b_dovre = castle
+}
+1066.1.1 = {
+	religion = catholic
+}
+
+

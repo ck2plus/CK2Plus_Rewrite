@@ -1,0 +1,124 @@
+####################################################################
+#
+#	Northeast Caucasian
+#	 - Caucasian Avar (Plus culture)
+#    - Udi (Plus culture)
+#
+#	* indicates a vanilla culture moved to a different group
+#
+####################################################################
+
+northeast_caucasian_group = {
+	graphical_cultures =  { easterngfx }
+
+	caucasian_avar = {
+		graphical_cultures = { easternslavicgfx }
+
+		color = { 0.0 0.4 0.31 }
+
+		male_names = {
+			Abukhisro Akhsar Akhsuvar Alatey Alp Anbal Anbazuk Andunik-Nutsal Aravat Arsen Ashot_Ashot Askhkadar Aslan Aspar Athom Avaz Awach'i
+			Badr Balambar Balsag Barlah Bæqætar Basil_Basil Bazuk Beler Ber Biræg Boz-Uruz Bukht-Yisho Buürgur Buriberdi Burikhan
+			Candak Chelakhsartag
+			Davit_David Djadaron Dugry-Nutsal Durgulel Dzæræs
+			Firudzha
+			Gætæg Georgy_George Girgon Gokhar Gubaz Guram_Guaram
+			Hasqar Huddan
+			Istor Itaz Iveri
+			Kandak Kandz Kavtia Kaur Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk
+			Lak Levan_Leo
+			Piruz Pulad
+			Respendial Rosmag
+			Safrak Sakban Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Surakat Syrdon
+			Takho Taymuraz_Teimuraz Taus Totraz
+			Urdure Uruzma Uturku
+			Yasynya
+			Zaur
+		}
+
+		female_names = {
+			Adadza Alda Altun Ana_Anna Atsyrukhs
+			Baia Bedisa Borena Btsenon Burudukan
+			Duda
+			Elene_Helen Eliso
+			Gergana Gulchara Guranduht_Gorandukht
+			Kera Keratsa Ketevan_Catherine Koser
+			Lamara
+			Lashin Lela
+			Mariami_Mariam
+			Natia Nino
+			Rusudan
+			Sanatha Sarah Satinik_Satinik Shatana Shorena Shukhia
+			Tamari_Tamar Tinatini Tsiala
+			Vardo Vedokha
+			Yeran
+		}
+
+		from_dynasty_prefix = "ve "
+
+		male_patronym = "y fyrt"
+		female_patronym = "y chyzg"
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+
+	udi = {
+		graphical_cultures = { easternslavicgfx }
+
+		color = { 0.0 0.4 0.3 }
+
+		male_names = {
+			Adamar Aga Avel_Abel Avraam_Abraham
+			Bilzi Bixo Bokawon Bocoken Bul Buruxmux
+			Danil_Daniel David_David
+			Ek Elem
+			Grigori_Gregory
+			Hel
+			Iakovi_Jacob Ieremi_Jeremy Ili_Elias Ioan_John Is Isaak_Isaac Iskapos Iusus_Jesus
+			Javanshir Jora_George
+			Kaban Karlen Kiro Kul
+			Manak Marakesun Mesrob Movses_Moses Murad
+			Namoc Nawasardun
+			Oleg Oroezes
+			Palang Pascag Patvakan
+			Rustam
+			Serbaown Shudok Simon_Simon Stepan_Stephen
+			Tavar Tulen
+			Urnayr
+			Vahan Varaz Vacagan Vace Viroy Voroshil
+			Xod
+			Zaxari_Zachariah Zem Zinobi_Zenobios Zober Zor Zoren Zorru Celebeztan Coban
+		}
+		female_names = {
+			Arelin
+			Bawga Bašinda Beg Bias Biyay Bondoke Borzun Bowqana Busin
+			Calag Caxowli Cay Chee Cile Cubux Curesun
+			Daria Dešik
+			Egele Eit Eka Enenevi Esva Exnay Eyil
+			Fericte Fi
+			Gog Gokarxe
+			Hawke Hez
+			Ihal Ingen
+			Karavano Ke Kebin Kici
+			Majrami_Maria Maral Mare Meresimleri Muca
+			Naiow Nana Nedun Nikar Nisanlu Nora
+			Ocaq Occal Olia Ot Orayin
+			Qehbelug Quš
+			Reqs Rita_Rita
+			Sas Šavat Šeir Ses Ssengi
+			Tosol Toy Tur
+			Usena Uš
+			Vede
+			Xac Xibna Xunc
+			Zhora
+		}
+		from_dynasty_suffix = "un"
+
+		male_patronym = "gar "
+		female_patronym = "xiner "
+		prefix = yes
+
+		modifier = default_culture_modifier
+	}
+}

@@ -1,0 +1,65 @@
+# Valid IDs: 1000178000 - 1000178999
+1000178000 = {
+	name = "Agame"
+	culture = tigrinyan
+}
+
+1000178001 = {
+	name = "Senadegle"
+	culture = tigrinyan
+}
+
+1000178002 = {
+	name = "Meretta"
+	culture = tigrinyan
+}
+
+1000178003 = {
+	name = "Hamasenay"
+	culture = tigrinyan
+}
+
+1000178004 = {
+	name = "Wajjarat"
+	culture = tigrinyan
+}
+
+1000178005 = {
+	name = "Shewatte Anseba"
+	culture = tigrinyan
+}
+
+1000178006 = {
+	name = "Deqqi Tesfa"
+	culture = tigrinyan
+}
+
+1000178007 = {
+	name = "Seazzega"
+	culture = tigrinyan
+}
+
+1000178008 = {
+	name = "Ad Deggiyat"
+	culture = tigrinyan
+}
+
+1000178009 = {
+	name = "Mereb Melash"
+	culture = tigrinyan
+}
+
+1000178010 = {
+	name = "Agaziyan"
+	culture = tigrinyan
+}
+
+1000178011 = {
+	name = "Sabawiyan"
+	culture = tigrinyan
+}
+
+1000178012 = {
+	name = "Awa"
+	culture = tigrinyan
+}

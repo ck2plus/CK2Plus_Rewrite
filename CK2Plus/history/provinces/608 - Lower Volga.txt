@@ -1,0 +1,43 @@
+# 608 - Lower Volga
+
+# County Title
+title = c_lower_volga
+
+# Settlements
+max_settlements = 2
+
+b_sarysu = tribal
+
+#b_tsaritsyn = city
+#b_kamyshin = temple
+
+#b_petrovval = city
+#b_serebrjakovo = castle
+#b_dubovka = castle
+#b_kotovo = castle
+#b_prishib = castle
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+
+822.1.1 = { culture = pecheneg } 
+
+930.1.1 = { 
+	culture = bolghar
+	religion = sunni
+}
+
+1060.1.1 = { 
+   culture = cuman 
+   religion = tengri_pagan
+  }
+
+1227.1.1 = { culture = mongol } 
+
+1320.1.1 = { 
+    culture = tatar
+	religion = sunni
+}

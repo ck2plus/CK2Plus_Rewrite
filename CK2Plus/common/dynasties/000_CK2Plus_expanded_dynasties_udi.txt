@@ -1,0 +1,305 @@
+# Valid IDs: 1000183000 - 1000183999
+1000183000 = {
+	name = "Aluen"
+	culture = udi
+}
+
+1000183001 = {
+	name = "Barmak"
+	culture = udi
+}
+
+1000183002 = {
+	name = "Cor"
+	culture = udi
+}
+
+1000183003 = {
+	name = "Diwatakan"
+	culture = udi
+}
+
+1000183004 = {
+	name = "Dshorly"
+	culture = udi
+}
+
+1000183005 = {
+	name = "Gardman"
+	culture = udi
+}
+
+1000183006 = {
+	name = "Gargar"
+	culture = udi
+}
+
+1000183007 = {
+	name = "Jangi Kend"
+	culture = udi
+}
+
+1000183008 = {
+	name = "Khalkhal"
+	culture = udi
+}
+
+1000183009 = {
+	name = "Kish"
+	culture = udi
+}
+
+1000183010 = {
+	name = "Mec Arank"
+	culture = udi
+}
+
+1000183011 = {
+	name = "Mirsa"
+	culture = udi
+}
+
+1000183012 = {
+	name = "Nij"
+	culture = udi
+}
+
+1000183013 = {
+	name = "Nucha"
+	culture = udi
+}
+
+1000183014 = {
+	name = "Oktomberi"
+	culture = udi
+}
+
+1000183015 = {
+	name = "Perozkavad"
+	culture = udi
+}
+
+1000183016 = {
+	name = "Qebele"
+	culture = udi
+}
+
+1000183017 = {
+	name = "Shemakha"
+	culture = udi
+}
+
+1000183018 = {
+	name = "Tigranakert"
+	culture = udi
+}
+
+1000183019 = {
+	name = "Tri"
+	culture = udi
+}
+
+1000183020 = {
+	name = "Vartashen"
+	culture = udi
+}
+
+1000183021 = {
+	name = "Ajz"
+	culture = udi
+}
+
+1000183022 = {
+	name = "Arux"
+	culture = udi
+}
+
+1000183023 = {
+	name = "Atababa"
+	culture = udi
+}
+
+1000183024 = {
+	name = "Azatk"
+	culture = udi
+}
+
+1000183025 = {
+	name = "Azgapetk"
+	culture = udi
+}
+
+1000183026 = {
+	name = "Bex"
+	culture = udi
+}
+
+1000183027 = {
+	name = "Buš"
+	culture = udi
+}
+
+1000183028 = {
+	name = "Daftar"
+	culture = udi
+}
+
+1000183029 = {
+	name = "Duzne"
+	culture = udi
+}
+
+1000183030 = {
+	name = "Ga"
+	culture = udi
+}
+
+1000183031 = {
+	name = "Haso"
+	culture = udi
+}
+
+1000183032 = {
+	name = "Hend"
+	culture = udi
+}
+
+1000183033 = {
+	name = "Iaq"
+	culture = udi
+}
+
+1000183034 = {
+	name = "Ioldaš"
+	culture = udi
+}
+
+1000183035 = {
+	name = "Kala"
+	culture = udi
+}
+
+1000183036 = {
+	name = "Kalaka"
+	culture = udi
+}
+
+1000183037 = {
+	name = "Kual"
+	culture = udi
+}
+
+1000183038 = {
+	name = "Laqmox"
+	culture = udi
+}
+
+1000183039 = {
+	name = "Mingecaur"
+	culture = udi
+}
+
+1000183040 = {
+	name = "Niko"
+	culture = udi
+}
+
+1000183041 = {
+	name = "Ocal"
+	culture = udi
+}
+
+1000183042 = {
+	name = "Otag"
+	culture = udi
+}
+
+1000183043 = {
+	name = "Qonzug"
+	culture = udi
+}
+
+1000183044 = {
+	name = "Qulurux"
+	culture = udi
+}
+
+1000183045 = {
+	name = "Wug"
+	culture = udi
+}
+
+1000183046 = {
+	name = "Xalx"
+	culture = udi
+}
+
+1000183047 = {
+	name = "Xaxapi"
+	culture = udi
+}
+
+1000183048 = {
+	name = "Xorag"
+	culture = udi
+}
+
+1000183049 = {
+	name = "Camat"
+	culture = udi
+}
+
+1000183050 = {
+	name = "Caplug"
+	culture = udi
+}
+
+1000183051 = {
+	name = "Clax"
+	culture = udi
+}
+
+1000183052 = {
+	name = "Com"
+	culture = udi
+}
+
+1000183053 = {
+	name = "Danakiri"
+	culture = udi
+}
+
+1000183054 = {
+	name = "Gukasyan"
+	culture = udi
+}
+
+1000183055 = {
+	name = "Kecaari"
+	culture = udi
+}
+
+1000183056 = {
+	name = "Meshari"
+	culture = udi
+}
+
+1000183057 = {
+	name = "Mobili"
+	culture = udi
+}
+
+1000183058 = {
+	name = "Shirvari"
+	culture = udi
+}
+
+1000183059 = {
+	name = "Mactoc"
+	culture = udi
+}
+
+1000183060 = {
+	name = "Mihrakan"
+	culture = udi
+}

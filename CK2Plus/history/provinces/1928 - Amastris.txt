@@ -1,0 +1,17 @@
+# 1928 - Amastris
+
+# County Title
+title = c_amastris
+
+# Settlements
+max_settlements = 3
+b_amasra = castle
+b_amastris = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1272.1.1 = { culture = pontic_greek }

@@ -1,0 +1,45 @@
+# Valid IDs: 1000023000 - 1000023999
+1000023000 = {
+	name = "Al-thalab"
+	culture = bedouin_arabic
+}
+1000023001 = {
+	name = "Jannabid"
+	culture = bedouin_arabic
+}
+1000023002 = {
+	name = "Hamdanid"
+	culture = bedouin_arabic
+}
+1000023003 = {
+	name = "Musabid"
+	culture = bedouin_arabic
+}
+1000023004 = {
+	name = "Hashemid"
+	culture = bedouin_arabic
+}
+1000023005 = {
+	name = "Kanzid"
+	culture = bedouin_arabic
+}
+1000023006 = {
+	name = "Ziyadid"
+	culture = bedouin_arabic
+}
+1000023007 = {
+	name = "Lamtunid"
+	culture = bedouin_arabic
+}
+1000023008 = {
+	name = "Ukhaidhirid"
+	culture = bedouin_arabic
+}
+1000023009 = {
+	name = "Rashidun"
+	culture = bedouin_arabic
+}
+1000023010 = {
+	name = "Basara"
+	culture = bedouin_arabic
+}

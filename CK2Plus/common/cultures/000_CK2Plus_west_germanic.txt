@@ -1,0 +1,215 @@
+####################################################################
+#
+#	West Germanic
+#	 - English (M)
+#	 - Frisian
+#	 - Anglo-Saxon (saxon)
+#
+#   (M)indicates a melting pot
+#
+####################################################################
+
+west_germanic = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+	}
+
+	graphical_cultures = { westerngfx }
+
+	english = {
+		graphical_cultures = { englishgfx }
+
+		color = { 0.8 0.2 0.2 }
+
+		alternate_start = {
+			OR = {
+				year >= 1100
+				has_alternate_start_parameter = {
+					key = culture
+					value = full_random
+				}
+			}
+		}
+
+		# Does not exist in 1066 - is the result of cultural amalgamation between Saxon and Norman through events
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm_Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel_Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice_Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Randolph Reginald_Reinhold Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elizabeth Emma_Emma Hawise Isabel_Elizabeth
+			Isabella_Elizabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Matilda Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+
+	frisian = {
+		alternate_start = {
+			OR = {
+				year < 800
+				has_alternate_start_parameter = {
+					key = culture
+					value = full_random
+				}
+			}
+		}
+
+		graphical_cultures = { englishgfx saxongfx }
+
+		color = { 0.7 0.3 0.0 }
+
+		male_names = {
+			Adelbrik Aitet Aldgisl Audulf Auutet Avin Avo Avuko Avutet
+			Bavo Bentet Bernhard_Bernard Blekulf Blithulf Brunhard Bubo Bôio
+			Edulf_Adolf Egildeg Eilbern Eilherd Eilulf Eilward Eldei Elderd Elhard Engilbald Enhard Entet Esulf Euitet Euuerhard Eðelbern Eðelulf Eðelwi
+			Focko Folcbald Folkbern Folkhard Folkward Frethirik_Frederick Frethold Frethuhard Frethwi Frithunath
+			Geldulf Geltet Gerbald_Gerald Gerbrand Gerbruht Gerdeg Gerhard_Gerard Gerold_Gerald Gerulf Gerwar Gosse
+			Habo Haring Hathuward Hebetet Helibad Hessel Hobern Hoitet Hroðhard Hroðward
+			Juw_Julius
+			Liaftet Liudbad Liudbald Liudger Liudgod Liudulf_Ludolf Liudward_Liutward Liuppo_Lupo Lubbiko
+			Magnus_Magnus Meginbraht Meginhard Meginulf Meintet Menbold Menfrid_Manfred Menger Menhard Menhold Meniko Mentet Menward Merulf Miginward
+			Notheri
+			Occo Odo_Otto Osnath Osnoð
+			Popetet Poppo
+			Raeddeg Rauantet Redbad Reginhard_Renard Reinbern_Reinbern Reinier_Rainer Renhard_Renard Renward Riklef Rikwi Rodbern
+			Saco Salaco Sibod Sibraht Sidei Sikke_Sicco Silef Siward_Sigurd Siwi Sjoerd_Sigurd Sytse
+			Taco Tadaco Tado Thancward Thankbern Thiadbold_Theobald Thiadbrund Thiaddi_Thaddeus Thiaderd Thiadulf Thiadward Thiadwi Thiedold Thonkrik
+			Wambald Wening Wentet Wibad Wibraht Wibrund Wiftet Wigbald Wigerd Wihard Wilbrand Wilco Wiltet Wulfnoth
+			Ygo
+		}
+
+		female_names = {
+			Aleberna Alena_Adela Aleydis_Adelaide Alretieren Amalburga Amelgeir Atghardis Aue Auesoete
+			Ælidis
+			Badeloghen Baua Berta_Bertha Bet_Elizabeth Breghlent Brundonis
+			Dieuwke Douwen
+			Eingeliadis Elke_Adelaide Emgelberna Erkenradis Ermegardis_Ermengarde Esa
+			Femke Fenna Folqui
+			Gerburgis_Gerberga Ghela Ghodelde
+			Hadewigis Heike Hersewindis Hodine
+			Imma_Emma Imsoete Inka_Inge Itsburgis
+			Jeltsje Lenildis
+			Liedelde Liudburgis Lutghardis Lys_Elizabeth
+			Maike_Maria Mareike_Maria Mette Minke
+			Nienke_Catherine
+			Rengnalda
+			Volcwiif
+			Wendelmodis Wiebke Wobbe
+			Yda_Ida Ymmekine
+		}
+
+		from_dynasty_prefix = "von "
+
+		male_patronym = "sson"
+		female_patronym = "sdohtor"
+		prefix = no # The patronym is added as a suffix
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+
+		modifier = default_culture_modifier
+	}
+
+	saxon = { # Anglo-Saxon
+		alternate_start = {
+			OR = {
+				year < 1100
+				has_alternate_start_parameter = {
+					key = culture
+					value = full_random
+				}
+			}
+		}
+
+		graphical_cultures = { englishgfx saxongfx  }
+		unit_graphical_cultures = { saxongfx englishgfx }
+
+		color = { 0.8 0.3 0.3 }
+
+		male_names = {
+			Arncytel
+			Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige Ælfstan_Alstan Ælfwald Ælfweard Ælfwig Ælfwine_Alwin Ælle_Alwin Æthelbald Æthelberht_Albert Æthelfrith_Ethelfrith Æthelhere Æthelmær_Adémar Æthelric Æthelræd_Ailred Æthelsige Æthelstan_Alstan Æthelweald_Æthelwold Æthelweard Æthelwine_Alwin Æthelwold_Æthelwold Æthelwulf_Adolf
+			Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf Burgheard_Bouchard Byrhtnoth
+			Cearl_Charles Cenfus Cenræd_Konrad Cenwulf Ceolwulf Cerdic_Caradog Copsige Cuthberht_Cuthbert Cuthræd Cynehelm Cynewulf Cytelbearn
+			Eadbald Eadberht Eadfrith Eadgar_Edgar Eadmund_Edmund Eadmær Eadric Eadræd Eadsige Eadulf_Adolf Eadweald Eadweard Eadwig Eadwine_Edwin Eadwulf_Adolf Ealdhun Ealdmund Ealdræd Ealdwine_Alwin Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Eormenred Eorcenberht Eormenric
+			Gamall Godwine Gospatric Guthfrith_Godfrey Guthmund_Gudmund Gyrth
+			Hacon_Hakon Harold_Harold Heahberht Hereberht_Herbert Hereweald_Hereweald Hereweard Hlothere_Lothair Hrodberht_Robert
+			Inwær_Ingvar
+			Leofheah Leofhelm Leofric Leofweald Leofwine
+			Maccus_Maccus Morcar_Marcus Mærleswegn
+			Offa_Uffe Onlaf_Olaf Ordgar Oscytel Oshere Osmund Osric Osræd Osulf_Osulf Osweald Oswine Oswulf_Osulf
+			Petre_Peter
+			Rædwald Rædwulf_Ralph Rægenweald_Reinhold
+			Scule_Skule Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard_Sigurd Stigand Swegn_Sven Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald Sæxbald Sæxræd
+			Thoræd Thurcytel_Torkel Thurfrith Tostig_Toste
+			Uhtræd_Uhtred Ulf_Ulf Ulfcytel
+			Waltheof_Waltheof Werestan_Werestan Wiglaf Wihtræd_Withred Wistan Wulf_Ulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan
+		}
+
+		female_names = {
+			Agatha_Agatha
+			Æbba Ælfflæd_Ælflæda Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth_Æthelreda Æthelburh
+			Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd
+			Ceolflæd Cristina_Christina Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth
+			Eadburg Eadflæd Eadgifu Eadgyth_Edith Eadhburh Eadhild Ealdgyth_Edith Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn
+			Godgifu Gunhilda_Gunhild Gytha_Gyda
+			Helga_Helga Heregyth Hereswith Hextilda Hungifu
+			Judith_Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn
+			Margaret_Margaret Maud_Matilda Mildrith
+			Octreda
+			Seaxburh Sifflæd Sigrid_Sigrid Sæthryth
+			Wihtburh Wulfflæd Wulfgifu Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg
+		}
+
+		from_dynasty_prefix = "of "
+
+		male_patronym = "sson"
+		female_patronym = "sdohtor"
+		prefix = no # The patronym is added as a suffix
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}
+}

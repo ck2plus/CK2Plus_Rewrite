@@ -1,0 +1,6 @@
+# Valid IDs: 1000156000 - 1000156999
+1000156000 = {
+	name = "Mangnejo"
+	culture = sindhi
+	religion = shiite
+}

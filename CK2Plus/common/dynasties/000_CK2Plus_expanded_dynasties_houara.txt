@@ -1,0 +1,137 @@
+# Valid IDs: 1000074000 - 1000074999
+1000074000 = {
+    name = "Béni Irmazyan"
+    culture = houara
+    religion = ibadi
+}
+
+1000074001 = {
+    name = "Haragha"
+    culture = houara
+    religion = ibadi
+}
+
+1000074002 = {
+    name = "Addasa"
+    culture = houara
+}
+
+1000074003 = {
+    name = "Andara"
+    culture = houara
+}
+
+1000074004 = {
+    name = "Awtita"
+    culture = houara
+}
+
+1000074005 = {
+    name = "Baswa"
+    culture = houara
+}
+
+1000074006 = {
+    name = "Gharyan"
+    culture = houara
+}
+
+1000074007 = {
+    name = "Kaldin"
+    culture = houara
+}
+
+1000074008 = {
+    name = "Kamlan"
+    culture = houara
+}
+
+1000074009 = {
+    name = "Karkuda"
+    culture = houara
+}
+
+1000074010 = {
+    name = "Lahan"
+    culture = houara
+}
+
+1000074011 = {
+    name = "Maghar"
+    culture = houara
+}
+
+1000074012 = {
+    name = "Malila"
+    culture = houara
+}
+
+1000074013 = {
+    name = "Maslata"
+    culture = houara
+}
+
+1000074014 = {
+    name = "Mindasa"
+    culture = houara
+}
+
+1000074015 = {
+    name = "Misrata"
+    culture = houara
+}
+
+1000074016 = {
+    name = "Razin"
+    culture = houara
+}
+
+1000074017 = {
+    name = "Satat"
+    culture = houara
+}
+
+1000074018 = {
+    name = "Tarhuna"
+    culture = houara
+}
+
+1000074019 = {
+    name = "Wannifan"
+    culture = houara
+}
+
+1000074020 = {
+    name = "Warfalla"
+    culture = houara
+}
+
+1000074021 = {
+    name = "Wargha"
+    culture = houara
+}
+
+1000074022 = {
+    name = "Warsatis"
+    culture = houara
+}
+
+1000074023 = {
+    name = "Washtata"
+    culture = houara
+}
+
+1000074024 = {
+    name = "Yaghmorasen"
+    culture = houara
+}
+
+1000074025 = {
+    name = "Zakkawa"
+    culture = houara
+}
+
+1000074026 = {
+    name = "Zanzafa"
+    culture = houara
+}

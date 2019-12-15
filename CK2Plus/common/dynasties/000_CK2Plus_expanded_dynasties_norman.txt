@@ -1,0 +1,13 @@
+# Valid IDs: 1000118000 - 1000118999
+1000118000 = {
+	name = "de Valletort"
+	culture = norman
+}
+1000118001 = {
+	name = "Bouchardides"
+	culture = norman
+}
+1000118002 = {
+	name = "d'Oyly"
+	culture = norman
+}

@@ -1,0 +1,91 @@
+#character
+on_startup = {
+	events = {
+	}
+}
+
+# Fires when the game starts (not from saves) - fires *only* for the player
+on_chronicle_start = {
+	events = {
+		PlusStartup.001 # Convert barons to local culture
+	}
+}
+
+#character
+on_yearly_pulse = {
+	events = {
+	}
+
+	random_events = {
+	}
+}
+
+
+#character
+on_bi_yearly_pulse = {
+	events = {
+		PlusCeltic.002 # Celtic Druid becomes an unworthy priest
+		PlusBasque.001 # Basque Sorgin becomes an unworthy priest
+	}
+
+	random_events = {
+	}
+}
+
+#character
+on_five_year_pulse = {
+	events = {
+	}
+
+	random_events = {
+	}
+}
+
+#character
+on_decade_pulse = {
+	events = {
+	}
+
+	random_events = {
+	}
+}
+
+# For characters older than AGE_CHILDHOOD_PULSE but not an adult as defined by ADULT_AGE_FEMALE and ADULT_AGE_MALE
+on_yearly_childhood_pulse = {
+	events = {
+	}
+
+	random_events = {
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder = {
+	events = {
+		PlusCeltic.001 # New temple holders gain Druid trait
+	}
+
+	random_events = {
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_inheritance = {
+	events = {
+	}
+	random_events = {
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+	}
+}
+
+# Character converts religion, for whatever reason. ROOT is the character after conversion and the FROM scope has the old religion.
+on_character_convert_religion = {
+	events = {
+		PlusCeltic.001 # New temple holders gain Druid trait
+	}
+}

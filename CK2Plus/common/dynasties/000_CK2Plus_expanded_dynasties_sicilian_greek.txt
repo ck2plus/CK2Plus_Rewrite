@@ -1,0 +1,89 @@
+# Valid IDs: 1000154000 - 1000154999
+1000154000 = {
+	name = "Dioklès"
+	culture = sicilian_greek
+}
+1000154001 = {
+	name = "Hypati"
+	culture = sicilian_greek
+}
+1000154002 = {
+	name = "Caloiri"
+	culture = sicilian_greek
+}
+1000154003 = {
+	name = "Gorgias"
+	culture = sicilian_greek
+}
+1000154004 = {
+	name = "Aurispa"
+	culture = sicilian_greek
+}
+1000154005 = {
+	name = "Cagliostro"
+	culture = sicilian_greek
+}
+1000154006 = {
+	name = "Terranova"
+	culture = sicilian_greek
+}
+1000154007 = {
+	name = "Coroni"
+	culture = sicilian_greek
+}
+1000154008 = {
+	name = "Sesto"
+	culture = sicilian_greek
+}
+1000154009 = {
+	name = "Griko"
+	culture = sicilian_greek
+}
+1000154010 = {
+	name = "Maniots"
+	culture = sicilian_greek
+}
+1000154011 = {
+	name = "Maurolico"
+	culture = sicilian_greek
+}
+1000154012 = {
+	name = "Caloiri"
+	culture = sicilian_greek
+}
+1000154013 = {
+	name = "tes Skylakión"
+	culture = sicilian_greek
+}
+1000154014 = {
+	name = "tes Atenas"
+	culture = sicilian_greek
+}
+1000154015 = {
+	name = "tes Abóla"
+	culture = sicilian_greek
+}
+1000154016 = {
+	name = "tes Brentèsion"
+	culture = sicilian_greek
+}
+1000154017 = {
+	name = "Vitalia"
+	culture = sicilian_greek
+}
+1000154018 = {
+	name = "Zaccaria"
+	culture = sicilian_greek
+}
+1000154019 = {
+	name = "tes Righi"
+	culture = sicilian_greek
+}
+1000154020 = {
+	name = "tes Tókkoi"
+	culture = sicilian_greek
+}
+1000154021 = {
+	name = "tes Luppìu"
+	culture = sicilian_greek
+}

@@ -1,0 +1,65 @@
+# Valid IDs: 1000110000 - 1000110999
+1000110000 = {
+	name = "Meranid"
+	culture = mari
+}
+1000110001 = {
+	name = "Said"
+	culture = mari
+}
+1000110002 = {
+	name = "Muranid"
+	culture = mari
+}
+1000110003 = {
+	name = "Tumoid"
+	culture = mari
+}
+1000110004 = {
+	name = "Echanid"
+	culture = mari
+}
+1000110005 = {
+	name = "Izid"
+	culture = mari
+}
+1000110006 = {
+	name = "Ovtayad"
+	culture = mari
+}
+1000110007 = {
+	name = "Kandeshid"
+	culture = mari
+}
+1000110008 = {
+	name = "Shemid"
+	culture = mari
+}
+1000110009 = {
+	name = "Lumid"
+	culture = mari
+}
+1000110010 = {
+	name = "Chynid"
+	culture = mari
+}
+1000110011 = {
+	name = "Ludoid"
+	culture = mari
+}
+1000110012 = {
+	name = "Inzhayid"
+	culture = mari
+}
+1000110013 = {
+	name = "Uzharad"
+	culture = mari
+}
+1000110014 = {
+	name = "Ioshkarid"
+	culture = mari
+}
+1000110015 = {
+	name = "Ryvyshid"
+	culture = mari
+}

@@ -1,0 +1,14 @@
+# Valid IDs: 1000124000 - 1000124999
+
+1000124000 = {
+	name = "Zahirid"
+	culture = oghuz
+}
+1000124001 = {
+	name = "Burjid"
+	culture = oghuz
+}
+1000124002 = {
+	name = "Bahrid"
+	culture = oghuz
+}

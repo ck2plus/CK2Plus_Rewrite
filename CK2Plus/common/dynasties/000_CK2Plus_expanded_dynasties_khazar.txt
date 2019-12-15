@@ -1,0 +1,9 @@
+# Valid IDs: 1000089000 - 1000089999
+1000089000 = {
+	name = "Tzul"
+	culture = khazar
+}
+1000089001 = {
+	name = "Kasog"
+	culture = khazar
+}

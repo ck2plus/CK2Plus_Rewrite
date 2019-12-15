@@ -1,0 +1,41 @@
+# 1658 - Hradyzk
+
+# County Title
+title = c_hradyzk
+
+# Settlements
+max_settlements = 4
+
+b_hradyzk = tribal	#865
+
+#b_poltava		#899
+#b_khorol		#1083
+#b_lubny		#1107
+
+#b_kremenchuk	#1571
+#b_myrhorod		#1575
+#b_kobeliaky	#1620
+
+# Misc
+culture = hungarian
+religion = tengri_pagan
+
+# History
+833.1.1 = {
+	culture = khazar
+}
+933.1.1 = {
+	culture = pecheneg
+}
+988.1.1 = {
+    culture = ruthenian
+	religion = orthodox
+}
+1083.1.1 = {
+	b_khorol = temple
+}
+1150.1.1 = {
+	b_hradyzk = castle
+	b_poltava = city
+	b_lubny = castle
+}

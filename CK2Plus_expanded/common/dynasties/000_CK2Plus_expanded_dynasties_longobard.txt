@@ -1,2 +1,0 @@
-# Valid IDs: 1000104000 - 1000104999
-# Culture does not exist in vanilla, but several "lombard" dynasties were re-assigned.

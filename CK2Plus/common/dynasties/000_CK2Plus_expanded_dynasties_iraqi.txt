@@ -1,0 +1,58 @@
+# Valid IDs: 1000078000 - 1000078999
+
+1000078000 = {
+	name="Al Jalili"
+	culture = iraqi
+}
+1000078001 = {
+	name="Mirdasid"
+	culture = iraqi
+}
+1000078002 = {
+	name="Numayrid"
+	culture = iraqi
+}
+1000078003 = {
+	name="Buwayhid"
+	culture = iraqi
+}
+1000078004 = {
+	name="Yaseenid"
+	culture = iraqi
+}
+1000078005 = {
+	name="Banu Tamim"
+	culture = iraqi
+}
+1000078006 = {
+	name="Firazid"
+	culture = iraqi
+}
+1000078007 = {
+	name="Husseinid"
+	culture = iraqi
+}
+1000078008 = {
+	name="Shabanid"
+	culture = iraqi
+}
+1000078009 = {
+	name="Zahirid"
+	culture = iraqi
+}
+1000078010 = {
+	name="Naderid"
+	culture = iraqi
+}
+1000078011 = {
+	name="Ghazi"
+	culture = iraqi
+}
+1000078012 = {
+	name="Shadid"
+	culture = iraqi
+}
+1000078013 = {
+	name="Azizid"
+	culture = iraqi
+}

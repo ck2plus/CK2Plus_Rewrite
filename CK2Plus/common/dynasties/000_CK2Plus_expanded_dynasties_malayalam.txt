@@ -1,0 +1,58 @@
+# Valid IDs: 1000107000 - 1000107999
+
+1000107000 = {
+	name="Chera"
+	culture = malayalam
+}
+1000107001 = {
+	name="Ay"
+	culture = malayalam
+}
+1000107002 = {
+	name="Pandya"
+	culture = malayalam
+}
+1000107003 = {
+	name="Sangama"
+	culture = malayalam
+}
+1000107004 = {
+	name="Kalachuri"
+	culture = malayalam
+}
+1000107005 = {
+	name="Silahara"
+	culture = malayalam
+}
+1000107006 = {
+	name="Hoysala"
+	culture = malayalam
+}
+1000107007 = {
+	name="Wodeyar"
+	culture = malayalam
+}
+1000107008 = {
+	name="Kesari"
+	culture = malayalam
+}
+1000107009 = {
+	name="Alupa"
+	culture = malayalam
+}
+1000107010 = {
+	name="Chella"
+	culture = malayalam
+}
+1000107011 = {
+	name="Nolamba"
+	culture = malayalam
+}
+1000107012 = {
+	name="Cinkaiariyan"
+	culture = malayalam
+}
+1000107013 = {
+	name="Aryacakravarti"
+	culture = malayalam
+}

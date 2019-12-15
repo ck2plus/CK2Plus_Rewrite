@@ -1,0 +1,159 @@
+150.1.1 = { # Saxons first mentioned in Ptolemy's Geographia
+	de_jure_liege = d_munster_germany
+}
+
+460.1.1 = {
+	holder = 1000126000 # Hartwaker
+}
+
+480.1.1 = {
+	holder = 1000126001 # Hathwigate
+}
+
+524.1.1 = {
+	holder = 1000126003 # Hulderic
+}
+
+540.1.1 = {
+	holder = 1000126004 # Wiric
+}
+
+545.1.1 = {
+	holder = 1000126005 # Budic
+}
+
+568.1.1 = {
+	holder = 1000126007 # Berthold
+}
+
+633.1.1 = {
+	holder = 1000126008 # Sieghard
+}
+
+691.1.1 = {
+	holder = 1000126009 # Willehari
+}
+
+700.1.1 = {
+	holder = 1000126011 # Theoderic
+}
+
+748.1.1 = {
+	holder = 1000126013 # Ethelhard
+}
+
+757.1.1 = {
+	holder = 1000126012 # Wernicke
+}
+
+768.1.1 = {
+	holder = 1000126018 # Widukind
+}
+
+# Subjugated by Karl
+775.1.1 = {
+	liege = d_munster_germany
+}
+
+# Widukind flees to Denmark, brother takes over
+777.1.1 = {
+	holder = 1000126019 # Brunhart
+}
+
+# Widukind returns, stirs rebellion
+782.1.1 = {
+	holder = 1000126018 # Widukind
+	liege = d_munster_germany
+}
+
+# Widukind defeated, swears fealty, converts
+785.1.1 = {
+	holder = 1000126019 # Brunhart
+}
+
+844.1.1 = {
+	liege = d_saxony
+	holder = 167757
+}
+
+889.1.1 = {
+	holder = 7908
+}
+
+912.11.12 = {
+	holder = 1280
+}
+
+936.7.2 = {
+	holder = 106517
+}
+
+961.1.1 = {
+	holder = 1410
+}
+
+963.3.27 = {
+	holder = 1412
+}
+
+1011.2.9 = {
+	holder = 1414
+}
+
+1059.6.29 = {
+	holder = 1416
+}
+
+1072.3.28 = {
+	holder = 1418
+}
+
+1106.1.2 = {
+	holder = 30219
+}
+
+1137.12.4 = {
+	holder = 212602
+}
+
+1139.10.20 = {
+	holder = 212908
+}
+
+1142.1.1 = {
+	holder = 212600
+}
+
+1180.9.16 = {
+	liege = e_hre
+}
+
+1195.8.6 = {
+	holder = 462801
+}
+
+1213.12.13 = {
+	holder = 462802
+}
+
+1235.1.1 = {
+	liege = d_brunswick
+}
+
+1252.1.1 = {
+	holder = 462803
+}
+
+#Landgraves of Hesse
+
+1263.1.1 = {
+	holder = 33391
+}
+
+1308.12.21 = {
+	holder = 33394
+}
+
+1328.1.17 = {
+	holder = 33401
+}

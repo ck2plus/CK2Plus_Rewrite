@@ -1,0 +1,315 @@
+####################################################################
+#
+#	Iberian
+#    - Aragonese (Plus culture)(E)
+#	 - Castillan(E)
+#    - Leonese (Plus culture)(E)
+#	 - Portuguese(E)
+#
+#  (E)indicates a emergent culture
+#
+####################################################################
+
+iberian = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+		OR = {
+			year >= 1000
+			has_alternate_start_parameter = {
+				key = culture
+				value = full_random
+			}
+		}
+	}
+
+	aragonese = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.7 0.4 0.4 }
+
+		male_names = {
+			Adolfo_Adolf Alifonso_Alphonse Alvar_Oliver Alvito_Alvito Amentario Amor Ansuro_Ansuro Antonio_Antoninus Arias_Arias Aureolus_Aurelius Aznar_Aznar 
+			Chaime_Jacob Chorche_George Chuan_John Chulián_Julian Cresconio 
+			Diego_Jacob Domingo_Dominic Enneco_Inigo Ermegildo 
+			Fagildo Ferrando_Ferdinand Fortún_Fortunatus Froila_Fruela
+			Galindo_Galindo García_Garcia Gelmiro Gomez_Gomez Gonsalvo Gonzalo_Gonzalo Gudesteo 
+			Henrique_Henry 
+			Lope_Lupo Lugo 
+			Martín_Martin Menendo_Mendo Munyo_Munio
+			Ordonyo_Ordono Osmundo_Osmund Osoro 
+			Pero_Peter Pelayo_Pelagius Pietro_Peter 
+			Remiro_Ramiro Remón_Raymond Rocher_Roger 
+			Salvadór_Salvador Sancho_Sancho Sarracino Sebastián_Sebastian Suero 
+			Telo_Tello 
+			Vedillo Vela_Vela Velasco_Vasco Vellito Vermudo_Vermudo Vimaro Vistruario 
+			Ximeno_Simon 
+		}
+		female_names = {
+			Andregoto_Andregoto Aldonza_Aldonza 
+			Beatriz_Beatrice Chimena_Simone 
+			Constanza_Constance Cristina_Christina 
+			Elo_Elisabeth Elvira_Elvira Enderquina Ermengarda_Ermengarde Estefanía_Stephania Eva_Eva 
+			Fronilde_Fronilde 
+			Guntroda_Gudrun 
+			Ildaria Ines_Agnes 
+			Lupaa_Lopa 
+			Mafalda_Mafalda María_Maria Mayor_Mayor Mencía_Mencia 
+			Nuna_Nuna 
+			Paterna Peironela_Petronilla 
+			Sancha_Sancha 
+			Tegrida Teresa_Teresa Toda_Toda 
+			Urraca_Urraca
+		}
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+
+	castillan = {
+		graphical_cultures = { southerngfx }
+
+		color = { 0.95 0.82 0.09 }
+
+		male_names = {
+			Alfonso_Alphonse Alonso_Alphonse Álvar_Oliver Álvaro_Oliver
+			Bermudo_Vermudo
+			Diego_Diaco
+			Enrique_Henry
+			Fadrique_Frederick Felipe_Philip Fernando_Ferdinand Fruela_Froila
+			García_Garcia Gil_Egidius Gómez_Gomez Gonzalo_Gonzalo Guillén_William Guillermo_William Gutierre_Walter Juan_John
+			Lope_Lupo Luis_Louis
+			Manrique_Amalric Martín_Martin Munio_Munio
+			Nuño_Nuno
+			Ordoño_Ordono Oveco_Obeko
+			Pedro_Peter Pelayo_Pelagius
+			Ramiro_Ramiro Rodrigo_Roderick
+			Salvador_Salvador Sancho_Sancho Suero_Suero
+			Tello
+			Vela_Vela
+		}
+
+		female_names = {
+			Aldonza_Aldonza Anderquina
+			Beatriz_Beatrice Berenguela_Berengaria Blanca_Blanche
+			Constanza_Constance
+			Elvira_Elvira Estefanía_Stephania
+			Fronilda_Fronilde
+			Gontroda_Gotruda
+			Inés_Agnes Isabel_Elizabeth Jimena_Ximena Juana_Joan
+			Leonor_Eleanor
+			Mafalda_Matilda María_Maria Marina_Marine Mayor_Mayor Mencía_Mencia	Milia_Emily
+			Sancha_Sancha
+			Teresa_Teresa Toda_Toda
+			Urraca_Urraca
+		}
+
+		from_dynasty_prefix = "de "
+
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+
+	galician = {
+	    graphical_cultures = { southerngfx }
+	    color = { 1.0 0.77 0.47 }
+
+	    male_names = {
+	        Aitor Alexandre_Alexander Afonso_Alphonse Alonso_Alphonse André_Andrew Antón_Antonius Anxo
+	        Bara Benito_Benedict Bermudo_Vermudo Breixo Breógan
+	        Caetano
+	        Diego_Jacob
+            Eduardo_Edward Emilio_Emilio Estevo_Stephen
+	        Félix_Felix Fernando_Ferdinand Filipe_Philip Fruela_Froila
+	        Garcia_Garcia Guillermo_William
+	        Hugo_Hugh
+	        Iago_Jacob Ignacio_Ignacio
+	        Juan_John
+	        Leopoldo_Leopold Lois_Louis Lucio_Lucius
+	        Manuel_Manuel Mateo_Matthew Miguel_Michael
+	        Nicolao_Nicholas
+	        Ordoño_Ordono
+	        Paulo_Paul Pedro_Peter
+	        Ramiro_Ramiro Rodrigo_Roderick
+	        Sancho_Sancho Silvestre_Silvester
+	        Tomé_Thomas
+	        Xacobe_Jacob Xaime_James Xavier_Javier Xerardo_Gerard Xesús_Jesus Xián_John Xoán_John Xoel_Joel Xosé_Jose Xurxo_George Ximeno_Simon
+	    }
+
+	    female_names = {
+	        Ágata_Agatha Ana_Anna Ariana_Ariana
+	        Beatriz_Beatrice
+	        Cataliña_Katherine Catuxa Claudia_Claudia Cristina_Christina
+	        Dulce
+	        Eldara Elena_Helen Elisa_Elisabeth Elvira_Elvira Estefanía_Stephania Eva_Eva
+	        Ines_Agnes Iratxe
+	        Jimena_Ximena
+	        Luisa_Louise Lúa_Luna
+	        Manuela Margarida_Margaret María_Maria
+	        Paula_Paula
+	        Rocío Rodolfa Rosalia
+	        Sancha_Sancha Sandra Silvia_Silvia Sonia
+	        Urraca_Urraca Uxía_Eugenia
+	        Valería_Valeria Veronica Virxinia_Virgin
+	        Xacquelina_Jacqueline Xaquína Xaviera_Javiera Xiana_Joan Xoana_Joan Xudit_Judith Xulia_Julia
+	    }
+
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+
+		modifier = default_culture_modifier
+	}
+
+	leonese = { 
+		graphical_cultures = { southerngfx }
+		color = { 0.78 0.47 0.85 }
+
+		male_names = {
+            Adulfo Alfonso_Alphonse Alvar Alvito Amentario Amor Ansuro Antonio_Antoninus Arias Auderico Aznaro_Aznar 
+            Cresconio Diego_Jacob 
+            Domingo_Dominic 
+            Ederoño Ermegildo 
+			Fagildo Fernando_Ferdinand Fernán Froila 
+			García_Garcia Gelmiro Gomez Gonsalvo Gonzalo_Gonzalo Gudesteo Guter 
+			Jimeno_Simon Jorge_George Juan_John Julian_Julian 
+			Lope_Lupo Lugo 
+			Martín_Martin Menendo_Mendo Muño_Munio 
+			Ordoño_Ordono Osmundo Osoro 
+			Pedro_Peter Pelayo_Pelagius 
+			Ramiro_Ramiro Ramón 
+			Salvadór Sancho_Sancho Sarracino Sebastián_Sebastian Suero 
+			Telo_Tello 
+			Vedillo Vela Velasco_Vasco Vellito Vermudo_Vermudo Vimaro Vistruario
+		}
+		female_names = {
+			Aldonza_Aldonza 
+			Beatriz_Beatrice 
+			Constanza_Constance Cristina_Christina 
+			Elo Elvira Enderquina Ermengarda_Ermengarde Estefanía_Stephania Eva_Eva 
+			Fronilde_Fronilde 
+			Guntroda Ildaria 
+			Ines_Agnes 
+			Jimena 
+			Lupaa 
+			Mafalda María_Maria Mayor_Mayor Mencía_Mencia 
+			Nuna 
+			Paterna 
+			Sancha_Sancha 
+			Tegrida Teresa_Teresa Toda_Toda 
+			Urraca_Urraca
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+
+		modifier = default_culture_modifier
+	}
+
+	portuguese = {
+		graphical_cultures = { southerngfx }
+
+		color = { 0.75 0.67 0.07 }
+
+		male_names = {
+			Afonso_Alphonse Aires Álvaro_Oliver
+			Bermudo_Vermudo
+			Diogo_Diaco
+			Egas Estêvão_Stephen
+			Fernão_Ferdinand Fernando_Ferdinand
+			Garcia_Garcia Gil_Egidius Gomes_Gomez Gonçalo_Gonzalo Guterre_Walter
+			Henrique_Henry Hermígio
+			João_John Lopo_Lupo
+			Lourenço_Laurence
+			Martim_Martin Mem_Mendo Mendo_Mendo Monio_Munio Muno_Munio
+			Nuno_Nuno
+			Paio_Pelagius Pedro_Peter Pero_Peter Pôncio_Pons
+			Raimundo_Raymond Rodrigo_Roderick Rui_Roderick
+			Sancho_Sancho Soeiro_Suero
+			Vasco_Vasco Vicente_Vincent
+		}
+
+		female_names = {
+			Aldara_Alduara Aldonça_Aldonza
+			Beatriz_Beatrice Berengária_Berengaria Branca_Blanche
+			Constança_Constance
+			Dórdia
+			Elvira_Elvira Estevainha_Stephania
+			Fruilhe_Fronilde
+			Gontinha Gontroda_Gotruda Guiomar
+			Inês_Agnes
+			Joana_Joan
+			Leonor_Eleanor
+			Mafalda_Matilda Margarida_Margaret Maria_Maria Marinha_Marine Mor_Mayor
+			Ouroana
+			Sancha_Sancha
+			Teresa_Teresa
+			Urraca_Urraca
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+
+		modifier = default_culture_modifier
+	}
+}

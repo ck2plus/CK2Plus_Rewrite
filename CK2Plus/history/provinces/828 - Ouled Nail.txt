@@ -1,0 +1,25 @@
+# 828 - Ouled Nail
+
+# County Title
+title = c_ouled_nail
+
+# Settlements
+max_settlements = 2
+
+b_al_aghwat = castle
+
+#b_tilghemt
+#b_roumana = castle
+#b_ainzia = castle
+#b_sidinhar = castle
+#b_bordjelcaid = castle
+#b_beneldir = castle
+
+# Misc
+culture = zenati
+religion = ibadi
+
+# History
+909.1.1 = {
+    religion = sunni
+}

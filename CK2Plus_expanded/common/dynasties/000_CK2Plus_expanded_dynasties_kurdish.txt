@@ -1,5 +1,0 @@
-# Valid IDs: 1000095000 - 1000095999
-1000095000 = {
-	name = "Annazid"
-	culture = kurdish
-}

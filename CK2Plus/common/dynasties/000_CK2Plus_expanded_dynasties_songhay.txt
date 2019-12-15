@@ -1,0 +1,53 @@
+# Valid IDs: 1000161000 - 1000161999
+1000161000 = {
+	name = "Zuwa"
+	culture = songhay
+}
+1000161001 = {
+	name = "Kulun"
+	culture = songhay
+}
+1000161002 = {
+	name = "Nari"
+	culture = songhay
+}
+1000161003 = {
+	name = "Silman"
+	culture = songhay
+}
+1000161004 = {
+	name = "Sulayman"
+	culture = songhay
+}
+1000161005 = {
+	name = "Ber"
+	culture = songhay
+}
+1000161006 = {
+	name = "Baru"
+	culture = songhay
+}
+1000161007 = {
+	name = "Musa"
+	culture = songhay
+}
+1000161008 = {
+	name = "Bonkana"
+	culture = songhay
+}
+1000161009 = {
+	name = "Ismail"
+	culture = songhay
+}
+1000161010 = {
+	name = "Ishaq"
+	culture = songhay
+}
+1000161011 = {
+	name = "Bani"
+	culture = songhay
+}
+1000161012 = {
+	name = "Amin"
+	culture = songhay
+}

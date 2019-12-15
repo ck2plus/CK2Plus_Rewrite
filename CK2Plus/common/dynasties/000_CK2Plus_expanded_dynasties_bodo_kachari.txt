@@ -1,0 +1,470 @@
+# Valid IDs: 1000027000 - 1000027999
+1000027000 = {
+	name = "Manikya"
+	culture = bodo_kachari
+}
+
+1000027001 = {
+	name = "Chutiya"
+	culture = bodo_kachari
+}
+
+1000027002 = {
+	name = "Koch"
+	culture = bodo_kachari
+}
+
+1000027003 = {
+	name = "Dimasa"
+	culture = bodo_kachari
+}
+
+1000027004 = {
+	name = "Twipra"
+	culture = bodo_kachari
+}
+
+1000027005 = {
+	name = "Rabha"
+	culture = bodo_kachari
+}
+
+1000027006 = {
+	name = "Tiwa"
+	culture = bodo_kachari
+}
+
+1000027007 = {
+	name = "Bodo"
+	culture = bodo_kachari
+}
+
+1000027008 = {
+	name = "Dhimal"
+	culture = bodo_kachari
+}
+
+1000027009 = {
+	name = "Lalung"
+	culture = bodo_kachari
+}
+
+1000027010 = {
+	name = "Mech"
+	culture = bodo_kachari
+}
+
+1000027011 = {
+	name = "Moran"
+	culture = bodo_kachari
+}
+
+1000027012 = {
+	name = "Modahi"
+	culture = bodo_kachari
+}
+
+1000027013 = {
+	name = "Phulgaria"
+	culture = bodo_kachari
+}
+
+1000027014 = {
+	name = "Deuri"
+	culture = bodo_kachari
+}
+
+1000027015 = {
+	name = "Sonowal"
+	culture = bodo_kachari
+}
+
+1000027016 = {
+	name = "Sarania"
+	culture = bodo_kachari
+}
+
+1000027017 = {
+	name = "Solaimiya"
+	culture = bodo_kachari
+}
+
+1000027018 = {
+	name = "Thengal"
+	culture = bodo_kachari
+}
+
+1000027019 = {
+	name = "Tiprasa"
+	culture = bodo_kachari
+}
+
+1000027020 = {
+	name = "Swarga"
+	culture = bodo_kachari
+}
+
+1000027021 = {
+	name = "Deori"
+	culture = bodo_kachari
+}
+
+1000027022 = {
+	name = "Ojha"
+	culture = bodo_kachari
+}
+
+1000027023 = {
+	name = "Basumati"
+	culture = bodo_kachari
+}
+
+1000027024 = {
+	name = "Ramsa"
+	culture = bodo_kachari
+}
+
+1000027025 = {
+	name = "Swargiary"
+	culture = bodo_kachari
+}
+
+1000027026 = {
+	name = "Mooshahary"
+	culture = bodo_kachari
+}
+
+1000027027 = {
+	name = "Basumatary"
+	culture = bodo_kachari
+}
+
+1000027028 = {
+	name = "Narzary"
+	culture = bodo_kachari
+}
+
+1000027029 = {
+	name = "Bodosa"
+	culture = bodo_kachari
+}
+
+1000027030 = {
+	name = "Boro"
+	culture = bodo_kachari
+}
+
+1000027031 = {
+	name = "Brahma"
+	culture = bodo_kachari
+}
+
+1000027032 = {
+	name = "Bwiswmuthiary"
+	culture = bodo_kachari
+}
+
+1000027033 = {
+	name = "Dwimary"
+	culture = bodo_kachari
+}
+
+1000027034 = {
+	name = "Goyary"
+	culture = bodo_kachari
+}
+
+1000027035 = {
+	name = "Borgayari"
+	culture = bodo_kachari
+}
+
+1000027036 = {
+	name = "Ishlary"
+	culture = bodo_kachari
+}
+
+1000027037 = {
+	name = "Ishwary"
+	culture = bodo_kachari
+}
+
+1000027038 = {
+	name = "Khakhlary"
+	culture = bodo_kachari
+}
+
+1000027039 = {
+	name = "Mwshahary"
+	culture = bodo_kachari
+}
+
+1000027040 = {
+	name = "Owary"
+	culture = bodo_kachari
+}
+
+1000027041 = {
+	name = "Sargiary"
+	culture = bodo_kachari
+}
+
+1000027042 = {
+	name = "Ramsiary"
+	culture = bodo_kachari
+}
+
+1000027043 = {
+	name = "Sibigry "
+	culture = bodo_kachari
+}
+
+1000027044 = {
+	name = "Wary"
+	culture = bodo_kachari
+}
+
+1000027045 = {
+	name = "Buruk"
+	culture = bodo_kachari
+}
+
+1000027046 = {
+	name = "Bihiya"
+	culture = bodo_kachari
+}
+
+1000027047 = {
+	name = "Borahi"
+	culture = bodo_kachari
+}
+
+1000027048 = {
+	name = "Lofai"
+	culture = bodo_kachari
+}
+
+1000027049 = {
+	name = "Lahual"
+	culture = bodo_kachari
+}
+
+1000027050 = {
+	name = "Lajum "
+	culture = bodo_kachari
+}
+
+1000027051 = {
+	name = "Fesuwal"
+	culture = bodo_kachari
+}
+
+1000027052 = {
+	name = "Lalung"
+	culture = bodo_kachari
+}
+
+1000027053 = {
+	name = "Uta"
+	culture = bodo_kachari
+}
+
+1000027054 = {
+	name = "Har"
+	culture = bodo_kachari
+}
+
+1000027055 = {
+	name = "Chawrok"
+	culture = bodo_kachari
+}
+
+1000027056 = {
+	name = "Bosha"
+	culture = bodo_kachari
+}
+
+1000027057 = {
+	name = "Khas"
+	culture = bodo_kachari
+}
+
+1000027058 = {
+	name = "Lekang"
+	culture = bodo_kachari
+}
+
+1000027059 = {
+	name = "Changsa"
+	culture = bodo_kachari
+}
+
+1000027060 = {
+	name = "Melleng"
+	culture = bodo_kachari
+}
+
+1000027061 = {
+	name = "Laopiya"
+	culture = bodo_kachari
+}
+
+1000027062 = {
+	name = "Kantok"
+	culture = bodo_kachari
+}
+
+1000027063 = {
+	name = "Doisung"
+	culture = bodo_kachari
+}
+
+1000027064 = {
+	name = "Diha"
+	culture = bodo_kachari
+}
+
+1000027065 = {
+	name = "Miri"
+	culture = bodo_kachari
+}
+
+1000027066 = {
+	name = "Achik Mande"
+	culture = bodo_kachari
+}
+
+1000027067 = {
+	name = "Sangma"
+	culture = bodo_kachari
+}
+
+1000027068 = {
+	name = "Marak"
+	culture = bodo_kachari
+}
+
+1000027069 = {
+	name = "Momin"
+	culture = bodo_kachari
+}
+
+1000027070 = {
+	name = "Shira"
+	culture = bodo_kachari
+}
+
+1000027071 = {
+	name = "Areng"
+	culture = bodo_kachari
+}
+
+1000027072 = {
+	name = "Hajong"
+	culture = bodo_kachari
+}
+
+1000027073 = {
+	name = "Korebari"
+	culture = bodo_kachari
+}
+
+1000027074 = {
+	name = "Doskinâ"
+	culture = bodo_kachari
+}
+
+1000027075 = {
+	name = "Su-Sungyâ"
+	culture = bodo_kachari
+}
+
+1000027076 = {
+	name = "Barohazari"
+	culture = bodo_kachari
+}
+
+1000027077 = {
+	name = "Mespâryâ"
+	culture = bodo_kachari
+}
+
+1000027078 = {
+	name = "Macharang"
+	culture = bodo_kachari
+}
+
+1000027079 = {
+	name = "Madur"
+	culture = bodo_kachari
+}
+
+1000027080 = {
+	name = "Maloi"
+	culture = bodo_kachari
+}
+
+1000027081 = {
+	name = "Dafor"
+	culture = bodo_kachari
+}
+
+1000027082 = {
+	name = "Hukai"
+	culture = bodo_kachari
+}
+
+1000027083 = {
+	name = "Amfli"
+	culture = bodo_kachari
+}
+
+1000027084 = {
+	name = "Lara"
+	culture = bodo_kachari
+}
+
+1000027085 = {
+	name = "Chalang"
+	culture = bodo_kachari
+}
+
+1000027086 = {
+	name = "Amchong"
+	culture = bodo_kachari
+}
+
+1000027087 = {
+	name = "Kakhor"
+	culture = bodo_kachari
+}
+
+1000027088 = {
+	name = "Darnong"
+	culture = bodo_kachari
+}
+
+1000027089 = {
+	name = "Loram"
+	culture = bodo_kachari
+}
+
+1000027090 = {
+	name = "Dibongia"
+	culture = bodo_kachari
+}
+
+1000027091 = {
+	name = "Bor-geeya"
+	culture = bodo_kachari
+}
+
+1000027092 = {
+	name = "Tengaponiya"
+	culture = bodo_kachari
+}
+
+1000027093 = {
+	name = "Pator-goya"
+	culture = bodo_kachari
+}

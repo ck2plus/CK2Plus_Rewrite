@@ -1,0 +1,28 @@
+# 1813 - Ryn
+
+# County Title
+title = c_ryn
+
+# Settlements
+max_settlements = 2
+b_ryn = tribal
+
+# Misc
+culture = bashkir
+religion = tengri_pagan
+
+# History
+
+830.1.1 = { culture = pecheneg }
+
+900.1.1 = { culture = khazar }
+
+1000.1.1 = { culture = cuman }
+
+1227.1.1 = { culture = mongol }
+
+1320.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+ 

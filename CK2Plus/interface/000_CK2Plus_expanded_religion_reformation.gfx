@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_religion_feature_celtic"
+		textureFile = "gfx\\interface\\reformation\\religion_feature_celtic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_religion_feature_basque"
+		textureFile = "gfx\\interface\\reformation\\religion_feature_basque.dds"
+	}
+}

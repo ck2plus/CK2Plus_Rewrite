@@ -1,0 +1,14 @@
+# Valid IDs: 1000147000 - 1000147999
+
+1000147000 = {
+	name = "Oslafa"
+	female = yes
+	religion = norse_pagan
+	culture = old_saxon
+	610.1.1 = {
+		birth = yes
+	}
+	664.1.1 = {
+		death = yes
+	}
+}

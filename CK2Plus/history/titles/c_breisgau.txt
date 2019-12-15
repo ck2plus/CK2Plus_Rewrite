@@ -1,0 +1,89 @@
+741.1.1 = {
+	liege = d_swabia
+}
+
+741.1.1 = {
+	holder = 190360 #Unroch
+}
+
+770.1.1 = {
+	holder = 0
+}
+
+806.2.6 = { # Partition at Thionville/Diviso Regnorum
+	liege = e_karling
+}
+
+810.1.1 = {
+	liege = e_karling
+}
+
+829.8.1 = { # Diet of Worms
+	liege = d_swabia
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_germany
+}
+
+859.1.1 = {
+#	holder = 7990
+	holder = 90105 # Karl 'the Fat'
+}
+
+#867.1.1 = {
+#	holder = 167832
+#}
+
+887.11.17 = { # abdication of Karl 'the Fat'
+	holder = 163095 # Liutfried Etichonen, temporary placeholder
+}
+
+936.1.1 = {
+	liege = d_swabia
+	holder = 7992
+}
+
+1024.1.1 = {
+	liege = d_swabia
+}
+
+1024.1.1 = {
+	holder = 1610
+}
+
+1078.11.5 = {
+	holder = 20245
+}
+
+1111.4.11 = {
+	holder = 213146
+}
+
+1152.1.2 = {
+	holder = 213141
+}
+
+1186.1.5 = {
+	holder = 213140
+}
+
+1210.2.18 = {
+	holder = 462320
+}
+1237.1.1 = {
+	holder = 462321
+}
+
+1268.10.29 = {
+	liege = e_hre
+}
+
+1271.9.24 = {
+	holder = 462322
+}
+
+1317.12.24 = {
+	holder = 462324
+}
+

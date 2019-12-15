@@ -1,0 +1,73 @@
+# Valid IDs: 1000054000 - 1000054999
+1000054000 = {
+	name = "Foschi"
+	culture = emilian
+}
+1000054001 = {
+	name = "Vitale"
+	culture = emilian
+}
+1000054002 = {
+	name = "di Salizzolo"
+	culture = emilian
+}
+1000054003 = {
+	name = "di Castello"
+	culture = emilian
+}
+1000054004 = {
+	name = "Michele"
+	culture = emilian
+}
+1000054005 = {
+	name = "di Bonacolsi"
+	culture = emilian
+}
+1000054006 = {
+	name = "di Carmona"
+	culture = emilian
+}
+1000054007 = {
+	name = "di Bulåggna"
+	culture = emilian
+}
+1000054008 = {
+	name = "Segatori"
+	culture = emilian
+}
+1000054009 = {
+	name = "Colombo"
+	culture = emilian
+}
+1000054010 = {
+	name = "di Ravèna"
+	culture = emilian
+}
+1000054011 = {
+	name = "Ravelli"
+	culture = emilian
+}
+1000054012 = {
+	name = "Scannabecchi"
+	culture = emilian
+}
+1000054013 = {
+	name = "Pizzicolli"
+	culture = emilian
+}
+1000054014 = {
+	name = "Torelli"
+	culture = emilian
+}
+1000054015 = {
+	name = "Bentivoglio"
+	culture = emilian
+}
+1000054016 = {
+	name = "da Vrócc"
+	culture = emilian
+}
+1000054017 = {
+	name = "di Carrara"
+	culture = emilian
+}

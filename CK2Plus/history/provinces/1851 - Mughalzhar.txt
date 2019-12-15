@@ -1,0 +1,25 @@
+# 1851 - Mughalzhar 
+
+# County Title
+title = c_mughalzhar 
+
+# Settlements 
+max_settlements = 2
+b_mughalzhar = tribal
+
+# Misc
+culture = bashkir
+religion = tengri_pagan
+
+# History
+
+900.1.1 = { culture = cuman }
+
+1225.1.1 = { culture = mongol } 
+
+1320.1.1 = { 
+    culture = tatar
+	religion = sunni
+}
+
+
