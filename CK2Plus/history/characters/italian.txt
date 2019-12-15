@@ -4436,7 +4436,7 @@
 	intrigue = 8
 	stewardship = 7
 	religion = catholic
-	culture = 
+	culture = lombard
 	trait = envious
 	trait = cynical
 	trait = hunchback
