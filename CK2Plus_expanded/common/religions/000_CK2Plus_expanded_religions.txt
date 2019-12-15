@@ -10,8 +10,8 @@ pagan_group = {
 		ai_convert_same_group = 2  #Always proselytize
 
 		color = { 0.3 0.45 0.25 } #RGB: 77 115 64
-		icon = 61
-		heresy_icon = 62
+		icon = 81			# Celtic reformed
+		heresy_icon = 82	# Celtic reformed heresy
 
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = SONG_AND_STONE
@@ -49,8 +49,8 @@ pagan_group = {
 
 		color = { 0.15 0.35 0.15 } #RGB: 38 89 38
 
-		icon = 60
-		heresy_icon = 62
+		icon = 80			# Celtic
+		heresy_icon = 82	# Celtic reformed heresy
 
 		scripture_name = THE_FOLKLORE
 		priest_title = DRUID
@@ -84,9 +84,9 @@ pagan_group = {
 			horse_archers_defensive = 0.5
 			camel_cavalry_defensive = 0.5
 			war_elephants_defensive = 0.5
-			
+
 			garrison_size = 0.2
-			
+
 			key = "DEF_RELIGION_HOME_TERRITORY"
 		}
 
@@ -112,8 +112,8 @@ pagan_group = {
 
 		color = { 0.612 0.114 0.067 }
 
-		icon = 64
-		heresy_icon = 65
+		icon = 84			# Basque reformed
+		heresy_icon = 85	# Basque reformed heresy
 
 		scripture_name = THE_OMENS
 		priest_title = SORGIN
@@ -169,8 +169,8 @@ pagan_group = {
 
 		color = { 0.839 0.153 0.094 }
 
-		icon = 63
-		heresy_icon = 65
+		icon = 83			# Basque reformed
+		heresy_icon = 85	# Basque reformed heresy
 
 		scripture_name = THE_OMENS
 		priest_title = SORGIN
