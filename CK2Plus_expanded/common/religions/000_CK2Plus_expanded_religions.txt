@@ -3,11 +3,10 @@
 
 pagan_group = {
 	celtic_pagan_reformed = {
-		graphical_culture = norsegfx #For on-map CoA's
+		graphical_culture = pagangfx #For on-map CoA's
 		alternate_start = { always = no }
 
 		ai_convert_other_group = 2 #Always proselytize
-		ai_convert_same_group = 2  #Always proselytize
 
 		color = { 0.3 0.45 0.25 } #RGB: 77 115 64
 		icon = 81			# Celtic reformed
@@ -28,6 +27,7 @@ pagan_group = {
 
 		allow_rivermovement = yes
 		defensive_attrition = yes
+		hard_to_convert = yes
 		priests_can_marry = yes
 		men_can_take_consorts = yes
 		join_crusade_if_bordering_hostile = yes
@@ -40,12 +40,9 @@ pagan_group = {
 		allow_in_ruler_designer = no
 	}
 	celtic_pagan = {
-		graphical_culture = norsegfx #For on-map CoA's
+		graphical_culture = pagangfx #For on-map CoA's
 
 		reformed = celtic_pagan_reformed
-
-		ai_convert_other_group = 2 #Always proselytize
-		ai_convert_same_group = 2  #Always proselytize
 
 		color = { 0.15 0.35 0.15 } #RGB: 38 89 38
 
@@ -66,6 +63,7 @@ pagan_group = {
 
 		allow_rivermovement = yes
 		defensive_attrition = yes
+		hard_to_convert = yes
 		priests_can_marry = yes
 		men_can_take_consorts = yes
 		peace_prestige_loss = yes
@@ -102,13 +100,10 @@ pagan_group = {
 		intermarry = slavic_pagan_reformed
 	}
 	basque_pagan_reformed = {
-		graphical_culture = norsegfx #For on-map CoA's
+		graphical_culture = pagangfx #For on-map CoA's
 		alternate_start = { always = no }
 
-		reformed = basque_pagan_reformed
-
 		ai_convert_other_group = 2 #Always proselytize
-		ai_convert_same_group = 2  #Always proselytize
 
 		color = { 0.612 0.114 0.067 }
 
@@ -121,18 +116,20 @@ pagan_group = {
 		high_god_name = GOD_MARI
 
 		god_names = {
-			GOD_MARI GOD_SUGAAR GOD_URTZI GOD_EKHI GOD_AMALUR GOD_ILARGI GOD_ORKO GOD_EGOI GOD_EATE
+			GOD_AMALUR GOD_MARI GOD_SUGAAR GOD_EKHI GOD_ILARGI GOD_URTZI GOD_ATARABI
 		}
 		evil_god_names = {
-			EVIL_INGUMA EVIL_AIDE EVIL_GAIZKIN EVIL_GAUEKO
+			THE_DARK_SPIRITS EVIL_INGUMA EVIL_ETSAI EVIL_MIKELATS
 		}
 
 		allow_rivermovement = yes
 		defensive_attrition = yes
+		hard_to_convert = yes
 		priests_can_marry = yes
 		join_crusade_if_bordering_hostile = yes
 		feminist = yes
 		women_can_take_consorts = yes
+		max_consorts = 3
 		men_can_take_consorts = no
 		female_temple_holders = yes
 		male_temple_holders = no
@@ -160,12 +157,9 @@ pagan_group = {
 		}
 	}
 	basque_pagan = {
-		graphical_culture = norsegfx #For on-map CoA's
+		graphical_culture = pagangfx #For on-map CoA's
 
 		reformed = basque_pagan_reformed
-
-		ai_convert_other_group = 2 #Always proselytize
-		ai_convert_same_group = 2  #Always proselytize
 
 		color = { 0.839 0.153 0.094 }
 
@@ -186,9 +180,10 @@ pagan_group = {
 
 		allow_rivermovement = yes
 		defensive_attrition = yes
+		hard_to_convert = yes
 		priests_can_marry = yes
 		feminist = yes
-		women_can_take_consorts = yes
+		women_can_take_consorts = no
 		men_can_take_consorts = no
 		female_temple_holders = yes
 		male_temple_holders = no
