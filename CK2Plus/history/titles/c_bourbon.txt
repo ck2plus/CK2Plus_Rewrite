@@ -1,0 +1,105 @@
+753.1.1 = {
+	holder = 190410 #Robert Capet
+	liege = k_austrasia
+}
+
+781.4.15 = { # Coronation in Rome at Easter
+	liege = k_aquitaine
+}
+
+834.1.1 = {
+	holder = 163065
+}
+
+843.8.10 = { # Treaty of Prüm
+	liege = k_france
+}
+
+879.4.10 = { # death of Louis 'the Stammerer'
+	holder = 90155 # Carloman II
+	liege = k_aquitaine
+}
+
+884.12.12 = {
+	liege = d_poitou
+}
+
+887.11.17 = { # Karl 'the Fat' deposed, empire dissolved
+	liege = k_france
+}
+
+890.1.1 = {
+	holder = 40150
+}
+
+921.1.1 = {
+	holder = 40152
+}
+
+980.1.1 = {
+	holder = 40154
+}
+
+990.1.1 = {
+	holder = 40156
+}
+
+1034.1.1 = {
+	holder = 40158
+}
+
+1064.1.1 = {
+	holder = 40160
+}
+
+1078.1.1 = {
+	holder = 40162
+}
+
+1096.1.1 = {
+	holder = 7484
+}
+
+1116.1.1 = {
+	holder = 40164
+}
+
+1120.1.1 = {
+	holder = 205650
+}
+
+1171.1.1 = {
+	holder = 205652
+}
+
+1228.6.15 = {
+	holder = 7483
+}
+
+1242.8.23 = {
+	holder = 7478
+}
+
+1249.1.15 = {
+	holder = 91155
+}
+
+1262.9.1 = {
+	holder = 7476
+}
+
+1288.9.7 = {
+	holder = 455505
+}
+1317.1.2 = {
+	holder = 455650
+}
+
+1327.12.27 = {
+	liege = d_bourbon
+}
+
+1329.1.2 = {
+	holder = 455650
+}
+

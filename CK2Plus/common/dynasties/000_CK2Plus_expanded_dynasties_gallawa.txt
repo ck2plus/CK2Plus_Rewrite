@@ -1,0 +1,45 @@
+# Valid IDs: 1000063000 - 1000063999
+1000063000 = {
+	name = "Conung"
+	culture = gallawa
+}
+1000063001 = {
+	name = "Tryggvasson"
+	culture = gallawa
+}
+1000063002 = {
+	name = "mac Gofraid"
+	culture = gallawa
+}
+1000063003 = {
+	name = "mac Diarmata"
+	culture = gallawa
+}
+1000063004 = {
+	name = "Sigtryggsson"
+	culture = gallawa
+}
+1000063005 = {
+	name = "mac Ragniall"
+	culture = gallawa
+}
+1000063006 = {
+	name = "mac Corcadail"
+	culture = gallawa
+}
+1000063007 = {
+	name = "Sigurdsson"
+	culture = gallawa
+}
+1000063008 = {
+	name = "mac Coitir"
+	culture = gallawa
+}
+1000063009 = {
+	name = "mac Leòid"
+	culture = gallawa
+}
+1000063010 = {
+	name = "Find"
+	culture = gallawa
+}

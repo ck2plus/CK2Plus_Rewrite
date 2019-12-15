@@ -1,0 +1,101 @@
+# Valid IDs: 1000112000 - 1000112999
+1000112000 = {
+	name = "Abrach"
+	culture = mizrahi
+}
+1000112001 = {
+	name = "Khardun"
+	culture = mizrahi
+}
+1000112002 = {
+	name = "Sasson"
+	culture = mizrahi
+}
+1000112003 = {
+	name = "Hysh"
+	culture = mizrahi
+}
+1000112004 = {
+	name = "Agmy"
+	culture = mizrahi
+}
+1000112005 = {
+	name = "Zangi"
+	culture = mizrahi
+}
+1000112006 = {
+	name = "Abocassis"
+	culture = mizrahi
+}
+1000112007 = {
+	name = "Sabag"
+	culture = mizrahi
+}
+1000112008 = {
+	name = "Biton"
+	culture = mizrahi
+}
+1000112009 = {
+	name = "Hruschov"
+	culture = mizrahi
+}
+1000112010 = {
+	name = "Sie"
+	culture = mizrahi
+}
+1000112011 = {
+	name = "Boethus"
+	culture = mizrahi
+}
+1000112012 = {
+	name = "Seth"
+	culture = mizrahi
+}
+1000112013 = {
+	name = "Fabus"
+	culture = mizrahi
+}
+1000112014 = {
+	name = "Ananus"
+	culture = mizrahi
+}
+1000112015 = {
+	name = "Camithus"
+	culture = mizrahi
+}
+1000112016 = {
+	name = "Kuppai"
+	culture = mizrahi
+}
+1000112017 = {
+	name = "Simon"
+	culture = mizrahi
+}
+1000112018 = {
+	name = "Camydus"
+	culture = mizrahi
+}
+1000112019 = {
+	name = "Nebedeus"
+	culture = mizrahi
+}
+1000112020 = {
+	name = "Fabus"
+	culture = mizrahi
+}
+1000112021 = {
+	name = "Damneus"
+	culture = mizrahi
+}
+1000112022 = {
+	name = "Gamaliel"
+	culture = mizrahi
+}
+1000112023 = {
+	name = "Theophilus"
+	culture = mizrahi
+}
+1000112024 = {
+	name = "Samuel"
+	culture = mizrahi
+}

@@ -1,0 +1,124 @@
+150.1.1 = { # Saxons first mentioned in Ptolemy's Geographia
+	de_jure_liege = d_munster_germany
+}
+
+460.1.1 = {
+	holder = 1000126000 # Hartwaker
+}
+
+480.1.1 = {
+	holder = 1000126001 # Hathwigate
+}
+
+524.1.1 = {
+	holder = 1000126003 # Hulderic
+}
+
+540.1.1 = {
+	holder = 1000126004 # Wiric
+}
+
+545.1.1 = {
+	holder = 1000126005 # Budic
+}
+
+568.1.1 = {
+	holder = 1000126007 # Berthold
+}
+
+633.1.1 = {
+	holder = 1000126008 # Sieghard
+}
+
+691.1.1 = {
+	holder = 1000126009 # Willehari
+}
+
+700.1.1 = {
+	holder = 1000126011 # Theoderic
+}
+
+748.1.1 = {
+	holder = 1000126013 # Ethelhard
+}
+
+757.1.1 = {
+	holder = 1000126012 # Wernicke
+}
+
+768.1.1 = {
+	holder = 1000126019 # Brunhart
+	liege = d_munster_germany
+}
+
+844.1.1 = {
+	liege = d_saxony
+	holder = 7959
+}
+
+866.1.1 = {
+	holder = 167785
+}
+
+936.1.1 = {
+	holder = 167759
+}
+
+1066.1.1 = {
+	holder = 20223 #Eglimar I
+}
+
+1108.1.1 = {
+	holder = 30068 #Eglimar II
+}
+
+1142.1.1 = {
+	liege = e_hre
+}
+
+1142.1.1 = {
+	holder = 212915 #Christian I
+}
+
+1167.1.2 = {
+	holder = 212910 #Moritz I
+}
+
+1180.9.16 = {
+	liege = e_hre
+}
+
+1209.1.1 = {
+	holder = 212912 #Christian II
+}
+
+1220.1.1 = {
+	liege = d_brunswick
+}
+
+1233.1.1 = {
+	holder = 30063 #Otto I
+	liege = d_brunswick
+}
+
+1256.7.10 = {
+	holder = 30077 #Johann I
+	liege = e_hre
+}
+
+1272.1.1 = {
+	holder = 462912 #Christian III
+}
+
+1285.1.2 = {
+	holder = 462915 #Johann II
+}
+
+1316.1.20 = {
+	holder = 30083 #Christian IV
+}
+
+1334.1.1 = {
+	holder = 462917 #Johann III
+}
+

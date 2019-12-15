@@ -1,0 +1,17 @@
+# Valid IDs: 1000044000 - 1000044999
+1000044000 = {
+	name = "Kubasarid"
+	culture = cuman
+}
+1000044001 = {
+	name = "Sirçanarid"
+	culture = cuman
+}
+1000044002 = {
+	name = "Bulanid"
+	culture = cuman
+}
+1000044003 = {
+	name = "Tutukid"
+	culture = cuman
+}

@@ -1,0 +1,29 @@
+# Valid IDs: 1000002000 - 1000002999
+1000002000 = {
+	name = "Karranid"
+	culture = afghan
+}
+1000002001 = {
+	name = "Barakzai"
+	culture = afghan
+}
+1000002002 = {
+	name = "Tokhid"
+	culture = afghan
+}
+1000002003 = {
+	name = "Lodi"
+	culture = afghan
+}
+1000002004 = {
+	name = "Nasherid"
+	culture = afghan
+}
+1000002005 = {
+	name = "Hotaki"
+	culture = afghan
+}
+1000002006 = {
+	name = "Karlani"
+	culture = afghan
+}

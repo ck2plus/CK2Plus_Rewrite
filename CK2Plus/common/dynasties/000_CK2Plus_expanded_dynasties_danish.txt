@@ -1,0 +1,301 @@
+# Valid IDs: 1000048000 - 1000048999
+1000048000 = {
+	name = "Sested"
+	culture = danish
+}
+1000048001 = {
+	name = "Krag"
+	culture = danish
+}
+1000048002 = {
+	name = "Krummedige"
+	culture = danish
+}
+1000048003 = {
+	name = "Grubbe"
+	culture = danish
+}
+1000048004 = {
+	name = "Krugelund"
+	culture = danish
+}
+1000048005 = {
+	name = "Galskyt"
+	culture = danish
+}
+1000048006 = {
+	name = "Vind"
+	culture = danish
+}
+1000048007 = {
+	name = "Giedde"
+	culture = danish
+}
+1000048008 = {
+	name = "Aasmul"
+	culture = danish
+}
+1000048009 = {
+	name = "Kjærulf"
+	culture = danish
+}
+1000048010 = {
+	name = "Lykke"
+	culture = danish
+}
+1000048011 = {
+	name = "Godov"
+	culture = danish
+}
+1000048012 = {
+	name = "Rani"
+	culture = danish
+}
+1000048013 = {
+	name = "Skram"
+	culture = danish
+}
+1000048014 = {
+	name = "Kruse"
+	culture = danish
+}
+1000048015 = {
+	name = "Markmand"
+	culture = danish
+}
+1000048016 = {
+	name = "Løvenbalk"
+	culture = danish
+}
+1000048017 = {
+	name = "Lund"
+	culture = danish
+}
+1000048018 = {
+	name = "Pors"
+	culture = danish
+}
+1000048019 = {
+	name = "Lunge"
+	culture = danish
+}
+1000048020 = {
+	name = "Krumpen"
+	culture = danish
+}
+1000048021 = {
+	name = "Prip"
+	culture = danish
+}
+1000048022 = {
+	name = "Mus"
+	culture = danish
+}
+1000048023 = {
+	name = "Kirt"
+	culture = danish
+}
+1000048024 = {
+	name = "Af Vadskær"
+	culture = danish
+}
+1000048025 = {
+	name = "Harbou"
+	culture = danish
+}
+1000048026 = {
+	name = "Glug"
+	culture = danish
+}
+1000048027 = {
+	name = "Due"
+	culture = danish
+}
+1000048028 = {
+	name = "Griis"
+	culture = danish
+}
+1000048029 = {
+	name = "Grim"
+	culture = danish
+}
+1000048030 = {
+	name = "Glob"
+	culture = danish
+}
+1000048031 = {
+	name = "Skovgård"
+	culture = danish
+}
+1000048032 = {
+	name = "Steeg"
+	culture = danish
+}
+1000048033 = {
+	name = "Straale"
+	culture = danish
+}
+1000048034 = {
+	name = "Steen"
+	culture = danish
+}
+1000048035 = {
+	name = "Snekken"
+	culture = danish
+}
+1000048036 = {
+	name = "Sommer"
+	culture = danish
+}
+1000048037 = {
+	name = "Saxtrup"
+	culture = danish
+}
+1000048038 = {
+	name = "Sappi"
+	culture = danish
+}
+1000048039 = {
+	name = "Brock"
+	culture = danish
+}
+1000048040 = {
+	name = "Laxmand"
+	culture = danish
+}
+1000048041 = {
+	name = "Skade"
+	culture = danish
+}
+1000048042 = {
+	name = "Røde"
+	culture = danish
+}
+1000048043 = {
+	name = "Råsted"
+	culture = danish
+}
+1000048044 = {
+	name = "Rød"
+	culture = danish
+}
+1000048045 = {
+	name = "Abildgaard"
+	culture = danish
+}
+1000048046 = {
+	name = "Hvide"
+	culture = danish
+}
+1000048047 = {
+	name = "Kyrning"
+	culture = danish
+}
+1000048048 = {
+	name = "Dreefeld"
+	culture = danish
+}
+1000048049 = {
+	name = "Dotting"
+	culture = danish
+}
+1000048050 = {
+	name = "Gagge"
+	culture = danish
+}
+1000048051 = {
+	name = "Rudbek"
+	culture = danish
+}
+1000048052 = {
+	name = "Taa"
+	culture = danish
+}
+1000048053 = {
+	name = "Urne"
+	culture = danish
+}
+1000048054 = {
+	name = "Tinhuus"
+	culture = danish
+}
+1000048055 = {
+	name = "Vognsen"
+	culture = danish
+}
+1000048056 = {
+	name = "Udsen"
+	culture = danish
+}
+1000048057 = {
+	name = "Halland"
+	culture = danish
+}
+1000048058 = {
+	name = "Falster"
+	culture = danish
+}
+1000048059 = {
+	name = "Reef"
+	culture = danish
+}
+1000048060 = {
+	name = "Hørby"
+	culture = danish
+}
+1000048061 = {
+	name = "Limbek"
+	culture = danish
+}
+1000048062 = {
+	name = "Krognos"
+	culture = danish
+}
+1000048063 = {
+	name = "Kruckow"
+	culture = danish
+}
+1000048064 = {
+	name = "Smalsted"
+	culture = danish
+}
+1000048065 = {
+	name = "Vinter"
+	culture = danish
+}
+1000048066 = {
+	name = "Panter"
+	culture = danish
+}
+1000048067 = {
+	name = "Skaaning"
+	culture = danish
+}
+1000048068 = {
+	name = "Fasti"
+	culture = danish
+}
+1000048069 = {
+	name = "Stalder"
+	culture = danish
+}
+1000048070 = {
+	name = "Lange"
+	culture = danish
+}
+1000048071 = {
+	name = "Mormand"
+	culture = danish
+}
+1000048072 = {
+	name = "Bodilsen"
+	culture = danish
+}
+1000048073 = {
+	name = "Palnasson"
+	culture = danish
+}
+1000048074 = {
+	name = "Tokesen"
+	culture = danish
+}

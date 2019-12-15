@@ -1,0 +1,9 @@
+# Valid IDs: 1000029000 - 1000029999
+1000029000 = {
+	name = "Slavnik"
+	culture = bohemian
+}
+1000029001 = {
+	name = "Vrsovec"
+	culture = bohemian
+}

@@ -1,0 +1,16 @@
+# 1864 - Osha
+
+# County title
+title = c_osha
+
+# Settlements
+max_settlements = 2
+b_osha = tribal
+
+# Misc
+culture = kipchak
+religion = tengri_pagan
+
+# History
+
+1227.1.1 = { culture = mongol } 

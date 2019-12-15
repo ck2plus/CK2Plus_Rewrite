@@ -1,0 +1,23 @@
+bm_death_of_rudolf_i_of_burgundy = {
+	name = "Death of Rudolf I of Burgundy"
+	desc = "Next model please!"
+#	name = BM_DEATH_OF_RUDOLF_I_OF_BURGUNDY
+#	desc = BM_DEATH_OF_RUDOLF_I_OF_BURGUNDY_DESC
+	date = 911.10.25
+
+	selectable_character = {
+		id = 1144 # Rudolf II of Burgundy
+	}
+}
+
+bm_kingdom_of_arles = {
+	name = "Kingdom of Arles"
+	desc = "Whole again!"
+#	name = BM_RUDOLF_II
+#	desc = BM_RUDOLF_II_DESC
+	date = 933.1.1
+
+	selectable_character = {
+		id = 1144 # Rudolf II
+	}
+}

@@ -1,0 +1,77 @@
+####################################################################
+#
+#	Coptic
+#	 - Coptic*
+#
+#	* indicates a vanilla culture moved to a different group
+#
+####################################################################
+
+coptic_group = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+	}
+
+	graphical_cultures = { muslimgfx }
+
+	coptic = { # Sahidic
+		graphical_cultures = { egyptiangfx byzantinegfx }
+
+		color = { 0.6 0.4 0.6 }
+
+		male_names = {
+			Aaron_Aaron Abanoub Abderahman_Abderrahman Abianos_Abijah Abisalom Ablarion Abraam_Abraham Agathon_Agathos Agathonikos_Agathonikos Agathos_Agathos Ahmod Aiai Aha Akhom Amon Amakhte An Andronicus Androus_Andrew Anthinos_Anthimos Apanoub Apahour Apamon Apas Aretee Arsenios_Arsenios Ashraf_Ashraf Athanasios_Athanasius
+			Beet Bertouet Biktor_Victor Binyamin_Benjamin Bishoi_Bishara Bolis_Paul Boutros_Peter
+			Cosmas_Cosmos
+			Damianos_Damian Danyal_Daniel Da’oud_David
+			Ennikeran Erhu Ezra_Ezra
+			Farag
+			Gerges Ghabri_Gabriel Guirguis_George
+			Habil_Abel Hanouf Hanri_Henry Hany Haroun_Aaron Hesdy
+			Ilyas_Elijah Ishaaq_Isaac
+			Jerjer_Gregory Jinti Jori Keloj
+			Krystafer_Christopher Kyrillos_Cyril
+			Lot_Lothar
+			Macari_Macarius Marcos_Marcus Mareten Matta_Matthew Mei Mikail_Michael Mikhael_Michael Milad_Milad Mina_Menas Musa_Moses
+			Nakat Nahdi Nishde Nai Naui Nishti Nofr Noub
+			Ounouf Ourot Ouini Ounisht
+			Pajro Pakat Pakhom Pamin Panous Papnouti Pashnona Pasnadi Patape Payom Philotheos Pijimi Pijoul Pikhit Pimen Pimoue Pimoui Pishai Pisha-eneh Pishoui Psote
+			Rami Rashad Rashi Roufail_Rafael Ruweis
+			Shenouda Shenouti Shosi Sim'an_Simon Sok
+			Tadros_Theodore Taio Tawadros_Theodore Touma_Thomas
+			Yakovos_Jacob Yared_Jared Yoannis_John Yousab_Joseph
+			Zacharias_Zachary Zaia_Isaiah
+		}
+
+		female_names = {
+			Afaf Amunet Asmin
+			Demiana
+			Elpis_Hope Eratee Ese Ester_Esther
+			Fana Hana_Anna Hawwa_Eve Heit Hoeite
+			Ilizabith_Elizabeth
+			Kasrin_Catherine Khnau Khreere Kristina_Christine
+			Lelou
+			Mariam_Maria Marta_Martha Maysoon_Maysoon Meriam_Mary
+			Nefret
+			Paisi Pernoufe Piama Piamun Potamina Raune
+			Ro'oune
+			Sai'ou Samia_Samira Sawsan Shouree Shoushou Sofia_Sofia Stoi
+			Takla Talida_Taliba Taloushem Tanouti Ta'ou Tawaret
+			Uradaa
+			Virina_Veronica
+		}
+
+		from_dynasty_prefix = "en "
+
+		male_patronym = "psen"
+		female_patronym = "tsen"
+		prefix = yes
+
+		modifier = default_culture_modifier
+	}
+}

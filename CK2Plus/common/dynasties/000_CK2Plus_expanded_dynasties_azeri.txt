@@ -1,0 +1,35 @@
+# Valid IDs: 1000017000 - 1000017999
+1000017000 = {
+	name = "Khorramdin"
+	culture = azeri
+}
+
+1000017001 = {
+	name = "Tabrizi"
+	culture = azeri
+}
+
+1000017002 = {
+	name = "Safina"
+	culture = azeri
+}
+
+1000017003 = {
+	name = "Ardabili"
+	culture = azeri
+}
+
+1000017004 = {
+	name = "Zhaatah"
+	culture = azeri
+}
+
+1000017005 = {
+	name = "Kojjani"
+	culture = azeri
+}
+
+1000017006 = {
+	name = "Maraghi"
+	culture = azeri
+}

@@ -1,0 +1,30 @@
+# 339 - Messina
+
+# County Title
+title = c_messina
+
+# Settlements
+max_settlements = 5
+b_taormina = castle
+b_messina = city
+b_lipari = temple
+
+#b_sanmarcodalunzio = castle
+#b_troinia = castle
+#b_furnari = castle
+#b_cataratti = castle
+#b_torregrota = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+
+#843.1.1 = { culture = sicilian_arabic religion = sunni } # Fall of Messina, Val Demone remained majority Christian and Greek during Muslim rule.
+1098.1.1 = { culture = sicilian_greek religion = catholic } # Building of the Cathedral of Messina
+1104.1.1 = { trade_post = b_visconti }
+1150.1.1 = { culture = sicilian }
+1187.1.1 = { b_sanmarcodalunzio = castle }
+1285.1.1  = { trade_post = b_embriaco }

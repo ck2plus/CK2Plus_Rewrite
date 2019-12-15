@@ -1,0 +1,513 @@
+# Valid IDs: 1000103000 - 1000103999
+1000103000 = {
+	name = "di Asti"
+	culture = lombard
+}
+1000103001 = {
+	name = "Giraldi"
+	culture = lombard
+}
+1000103002 = {
+	name = "Michele"
+	culture = lombard
+}
+1000103003 = {
+	name = "di Lombardi"
+	culture = lombard
+}
+1000103004 = {
+	name = "Vitale"
+	culture = lombard
+}
+1000103005 = {
+	name = "Zaccaria"
+	culture = lombard
+}
+1000103006 = {
+	name = "di Ancona"
+	culture = lombard
+}
+1000103007 = {
+	name = "Silvio"
+	culture = lombard
+}
+1000103008 = {
+	name = "del Turin"
+	culture = lombard
+}
+1000103009 = {
+	name = "Gioia"
+	culture = lombard
+}
+1000103010 = {
+	name = "d'Este"
+	culture = lombard
+}
+1000103011 = {
+	name = "di Brindisi"
+	culture = lombard
+}
+1000103012 = {
+	name = "del Vasto"
+	culture = lombard
+}
+1000103013 = {
+	name = "Visconti"
+	culture = lombard
+}
+1000103014 = {
+	name = "Perconti"
+	culture = lombard
+}
+1000103015 = {
+	name = "de Candia"
+	culture = lombard
+}
+1000103016 = {
+	name = "d'Orto"
+	culture = lombard
+}
+1000103017 = {
+	name = "Coniulo"
+	culture = lombard
+}
+1000103018 = {
+	name = "d'Ivrèa"
+	culture = lombard
+}
+1000103019 = {
+	name = "di Biandrà"
+	culture = lombard
+}
+1000103020 = {
+	name = "Guideschi"
+	culture = lombard
+}
+1000103021 = {
+	name = "Tocco"
+	culture = lombard
+}
+1000103022 = {
+	name = "Turchi"
+	culture = lombard
+}
+1000103023 = {
+	name = "de Bergum"
+	culture = lombard
+}
+1000103024 = {
+	name = "de Larsa"
+	culture = lombard
+}
+1000103025 = {
+	name = "di Cremùna"
+	culture = lombard
+}
+1000103026 = {
+	name = "Amati"
+	culture = lombard
+}
+1000103027 = {
+	name = "di Agledo"
+	culture = lombard
+}
+1000103028 = {
+	name = "di Busca"
+	culture = lombard
+}
+1000103029 = {
+	name = "Arduinici"
+	culture = lombard
+}
+1000103030 = {
+	name = "de Brignoles"
+	culture = lombard
+}
+1000103031 = {
+	name = "di Cosseria"
+	culture = lombard
+}
+1000103032 = {
+	name = "Lilli"
+	culture = lombard
+}
+1000103033 = {
+	name = "di Montemurlo"
+	culture = lombard
+}
+1000103034 = {
+	name = "di Crivelli"
+	culture = lombard
+}
+1000103035 = {
+	name = "di Mulazzano"
+	culture = lombard
+}
+1000103036 = {
+	name = "de Sabran"
+	culture = lombard
+}
+1000103037 = {
+	name = "Stradivari"
+	culture = lombard
+}
+1000103038 = {
+	name = "da Dovara"
+	culture = lombard
+}
+1000103039 = {
+	name = "Caccianemici"
+	culture = lombard
+}
+1000103040 = {
+	name = "Pettiti"
+	culture = lombard
+}
+1000103041 = {
+	name = "Bergonzi"
+	culture = lombard
+}
+1000103042 = {
+	name = "de Brera"
+	culture = lombard
+}
+1000103043 = {
+	name = "di Brayda"
+	culture = lombard
+}
+1000103044 = {
+	name = "Pirovano"
+	culture = lombard
+}
+1000103045 = {
+	name = "di Leone"
+	culture = lombard
+}
+1000103046 = {
+	name = "Guarneri"
+	culture = lombard
+}
+1000103047 = {
+	name = "Aleramicci"
+	culture = lombard
+}
+1000103048 = {
+	name = "de Salusse"
+	culture = lombard
+}
+1000103049 = {
+	name = "da Baggio"
+	culture = lombard
+}
+1000103050 = {
+	name = "di Mansano"
+	culture = lombard
+}
+1000103051 = {
+	name = "di Punsón"
+	culture = lombard
+}
+1000103052 = {
+	name = "di Montemagno"
+	culture = lombard
+}
+1000103053 = {
+	name = "Aleramo"
+	culture = lombard
+}
+1000103054 = {
+	name = "Gerra"
+	culture = lombard
+}
+1000103055 = {
+	name = "Enganna"
+	culture = lombard
+}
+1000103056 = {
+	name = "di Gucellone"
+	culture = lombard
+}
+1000103057 = {
+	name = "di Castello"
+	culture = lombard
+}
+1000103058 = {
+	name = "di Brèsa"
+	culture = lombard
+}
+1000103059 = {
+	name = "Conieu"
+	culture = lombard
+}
+1000103060 = {
+	name = "di Coniulo"
+	culture = lombard
+}
+1000103061 = {
+	name = "da Carmagnola"
+	culture = lombard
+}
+1000103062 = {
+	name = "da Soana"
+	culture = lombard
+}
+1000103063 = {
+	name = "Borri"
+	culture = lombard
+}
+1000103064 = {
+	name = "di Pellegrino"
+	culture = lombard
+}
+1000103065 = {
+	name = "Ossoli"
+	culture = lombard
+}
+1000103066 = {
+	name = "Obertenghi"
+	culture = lombard
+}
+1000103067 = {
+	name = "d'Eril"
+	culture = lombard
+}
+1000103068 = {
+	name = "de Machierato"
+	culture = lombard
+}
+1000103069 = {
+	name = "Zanardelli"
+	culture = lombard
+}
+1000103070 = {
+	name = "di Campija"
+	culture = lombard
+}
+1000103071 = {
+	name = "di Gonzaga"
+	culture = lombard
+}
+1000103072 = {
+	name = "di Tarantasia"
+	culture = lombard
+}
+1000103073 = {
+	name = "di Caltaniseta"
+	culture = lombard
+}
+1000103074 = {
+	name = "de Oria"
+	culture = lombard
+}
+1000103075 = {
+	name = "Colleoni"
+	culture = lombard
+}
+1000103076 = {
+	name = "de Bològna"
+	culture = lombard
+}
+1000103077 = {
+	name = "Montigli"
+	culture = lombard
+}
+1000103078 = {
+	name = "de Piemont"
+	culture = lombard
+}
+1000103079 = {
+	name = "di Pavia"
+	culture = lombard
+}
+1000103080 = {
+	name = "Monticelli"
+	culture = lombard
+}
+1000103081 = {
+	name = "Taparelli"
+	culture = lombard
+}
+1000103082 = {
+	name = "Pallavicini"
+	culture = lombard
+}
+1000103083 = {
+	name = "Sforza"
+	culture = lombard
+}
+1000103084 = {
+	name = "di Gallen"
+	culture = lombard
+}
+1000103085 = {
+	name = "de Piemont"
+	culture = lombard
+}
+1000103086 = {
+	name = "di Fërara"
+	culture = lombard
+}
+1000103087 = {
+	name = "Valperga"
+	culture = lombard
+}
+1000103088 = {
+	name = "Malaspina"
+	culture = lombard
+}
+1000103089 = {
+	name = "di Ravena"
+	culture = lombard
+}
+1000103090 = {
+	name = "di Bonacolsi"
+	culture = lombard
+}
+1000103091 = {
+	name = "Mandelli"
+	culture = lombard
+}
+1000103092 = {
+	name = "Cardano"
+	culture = lombard
+}
+1000103093 = {
+	name = "d'Aquileia"
+	culture = lombard
+}
+1000103094 = {
+	name = "di Venèzia"
+	culture = lombard
+}
+1000103095 = {
+	name = "di Pàdoa"
+	culture = lombard
+}
+1000103096 = {
+	name = "Rossi"
+	culture = lombard
+}
+1000103097 = {
+	name = "Tizzoni"
+	culture = lombard
+}
+1000103098 = {
+	name = "di Seva"
+	culture = lombard
+}
+1000103099 = {
+	name = "da Intimiano"
+	culture = lombard
+}
+1000103100 = {
+	name = "da Camino"
+	culture = lombard
+}
+1000103101 = {
+	name = "di Gattinara"
+	culture = lombard
+}
+1000103102 = {
+	name = "de Trevis"
+	culture = lombard
+}
+1000103103 = {
+	name = "de Parma"
+	culture = lombard
+}
+1000103104 = {
+	name = "Maggi"
+	culture = lombard
+}
+1000103105 = {
+	name = "da Velate"
+	culture = lombard
+}
+1000103106 = {
+	name = "di Mirandola"
+	culture = lombard
+}
+1000103107 = {
+	name = "Sfondrati"
+	culture = lombard
+}
+1000103108 = {
+	name = "Avogadro"
+	culture = lombard
+}
+1000103109 = {
+	name = "Sommariva"
+	culture = lombard
+}
+1000103110 = {
+	name = "Terzi"
+	culture = lombard
+}
+1000103111 = {
+	name = "Hucbaldi"
+	culture = lombard
+}
+1000103112 = {
+	name = "Gaulo"
+	culture = lombard
+}
+1000103113 = {
+	name = "Grasso"
+	culture = lombard
+}
+1000103114 = {
+	name = "Cavalcabò"
+	culture = lombard
+}
+1000103115 = {
+	name = "d'Auriate"
+	culture = lombard
+}
+1000103116 = {
+	name = "di Nàpul"
+	culture = lombard
+}
+1000103117 = {
+	name = "di Règg"
+	culture = lombard
+}
+1000103118 = {
+	name = "Cambiano"
+	culture = lombard
+}
+1000103119 = {
+	name = "di Milan"
+	culture = lombard
+}
+1000103120 = {
+	name = "di Cozzi"
+	culture = lombard
+}
+1000103121 = {
+	name = "Spinola"
+	culture = lombard
+}
+1000103122 = {
+	name = "Vistarino"
+	culture = lombard
+}
+1000103123 = {
+	name = "Ademari"
+	culture = lombard
+}
+1000103124 = {
+	name = "Supponidi"
+	culture = lombard
+}
+1000103125 = {
+	name = "della Torre"
+	culture = lombard
+}
+1000103126 = {
+	name = "de Màntoa"
+	culture = lombard
+}
+1000103127 = {
+	name = "del Monfrà"
+	culture = lombard
+}

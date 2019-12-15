@@ -1,0 +1,18 @@
+# 1984 - Rottenburg
+
+# County Title
+title = c_rottenburg
+
+# Settlements
+max_settlements = 4
+b_weinsberg = castle
+b_rottenburg = city
+b_uffenheim = city
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+
+1000.1.1 = { culture = franconian }

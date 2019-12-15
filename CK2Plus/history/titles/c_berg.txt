@@ -1,0 +1,99 @@
+759.1.1 = {
+	holder = 190566 #Ricolf
+	liege = k_neustria
+}
+
+790.4.11 = { # Charles 'the Younger' becomes 'Dux Cenomannicus' at the Diet of Worms, on Easter
+	liege = e_france
+}
+
+800.12.25 = { # Coronation of Karl as Emperor
+	liege = e_karling
+}
+
+# commented out to keep a bit of land directly under Louis, this area wasn't under strong authority from Louis' sons yet
+#831.2.2 = { # Division Regni at Aachen
+#	liege = k_bavaria
+#}
+
+855.1.1 = {
+	liege = k_lotharingia
+}
+
+865.1.1 = {
+	holder = 163052
+}
+
+870.8.8 = { # Treaty of Meerssen
+	liege = k_germany
+}
+
+876.8.28 = { # death of Ludwig 'the German'
+	liege = k_saxony
+}
+
+882.1.20 = { # death of Ludwig II 'the Younger'
+	liege = k_germany
+}
+
+895.5.1 = { # Diet of Worms
+	liege = k_lotharingia
+}
+
+925.8.1 = { # Henry 'the Fowler' makes Lotharingia the fifth stem duchy of Germany
+	liege = k_germany
+}
+
+936.1.1 = {
+	holder = 260592
+	liege = d_saxony
+}
+
+1066.1.1 = {
+	holder = 33175
+}
+
+1093.1.1 = {
+	holder = 33174
+}
+
+1101.1.1 = {
+	liege = e_hre
+}
+
+1106.7.21 = {
+	holder = 30343
+}
+
+1161.1.1 = {
+	holder = 33176
+}
+
+1189.1.1 = {
+	holder = 33177
+}
+
+1218.8.7 = {
+	holder = 33168
+}
+
+1225.11.7 = {
+	holder = 33148
+}
+
+1246.2.25 = {
+	holder = 33150
+}
+
+1259.1.1 = {
+	holder = 33153
+}
+
+1296.9.28 = {
+	holder = 33154
+}
+
+1308.4.16 = {
+	holder = 33156
+}
+

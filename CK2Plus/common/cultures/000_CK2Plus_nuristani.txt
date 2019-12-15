@@ -1,0 +1,70 @@
+####################################################################
+#
+#	Nuristani
+#	 - Kafiri (Plus culture)
+#
+#	* indicates a vanilla culture moved to a different
+#
+####################################################################
+
+nuristani_group = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+	}
+
+	graphical_cultures = { muslimgfx }
+
+	kafiri = {
+		graphical_cultures = { persiangfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.6 0.6 0.11 }
+
+		male_names = {
+			Âcunuk Âlios Ânjto Âramsâi 	Ârje Ârodenj Âromâlik Ârübra Âstolla Âston Âzor Âzorkon Âzormâlik
+			Bodür Bucik Bâcak Bânla Bârmuk Bâsti Bâtil
+			Camadenj Cânlü Cânmor Cük
+			Decüt Didama Dimoan Dinmalik Dipoan Doalla Doan Dol Druni Dukunuk Dunj Dâlko Dârvo Dümü
+			Gumnuk Gumâro Gurbek Gutkec Gâlmer Gârak Gâsâro Gâzamâro
+			Jâno
+			Komdenj Kon Kuli Kurâla Kâlüt Kâmaruk Kâmatol Kâmio Kânamâli Kâpüt Kârlo Kârtamer Kâruk Kâzon Kâšamer
+			Linjos Lâtkom
+			Merak Merjon Mersi Moldenj Molkon Moskon Muri Mâlik Mâro Mükara
+			Prunšala Punuk Pâliuk Pânašot Pâtla
+			Šat Sinj Sinjjüt Somer Somâlik Sopâkül Sordenj Sorkon Sormâlik Sos Stâluk Sunuk Sunâro Sâaro Sâdi Sâiuk
+			Tonj Trimoan Trümü Turuk
+			Ustani Utadenj Utamer Utomerak
+			Vonuk Vâadenj Vâamâlik Vâtik
+		}
+
+		female_names = {
+			Ârâni Ârübri Âstolli Âzorkoni
+			Bibi Bozor Bânkü
+			Câabri
+			Dimilli
+			Gumli Gumârâni
+			Itkoni
+			Jânjki
+			Koni Kori Kunso Kutâa Kâvek
+			Merkomi Mersoni Moli Molkoni Mrânjci Mâlki Mâlâa Mümol
+			Psarkoni Pârsi Pâtâa
+			Šalli Somol Sori Sunik Sunmri Sâki
+			Tani Trumkuti Târpi
+			Vâcbri Vâsi
+		}
+
+		male_patronym = " dâra"
+		female_patronym = " jü"
+		prefix = no
+
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
+}

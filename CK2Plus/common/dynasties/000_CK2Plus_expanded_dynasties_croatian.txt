@@ -1,0 +1,29 @@
+# Valid IDs: 1000043000 - 1000043999
+1000043000 = {
+	name = "Drzic"
+	culture = croatian
+}
+1000043001 = {
+	name = "Gucetic"
+	culture = croatian
+}
+1000043002 = {
+	name = "Dobricevic"
+	culture = croatian
+}
+1000043003 = {
+	name = "Mencetic"
+	culture = croatian
+}
+1000043004 = {
+	name = "Vetranovic"
+	culture = croatian
+}
+1000043005 = {
+	name = "Zadarski"
+	culture = croatian
+}
+1000043006 = {
+	name = "Raguški"
+	culture = croatian
+}

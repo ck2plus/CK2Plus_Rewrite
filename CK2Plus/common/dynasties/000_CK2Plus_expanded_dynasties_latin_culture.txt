@@ -1,0 +1,96 @@
+# Valid IDs: 1000097000 - 1000097999
+1000097000 = {
+	name = "Orisnos"
+	culture = latin_culture
+}
+1000097001 = {
+	name = "Dandolos"
+	culture = latin_culture
+}
+1000097002 = {
+	name = "Gabrasola"
+	culture = latin_culture
+}
+1000097003 = {
+	name = "Aarada"
+	culture = latin_culture
+}
+1000097004 = {
+	name = "Palizzinos"
+	culture = latin_culture
+}
+1000097005 = {
+	name = "Tzimiglia"
+	culture = latin_culture
+}
+1000097006 = {
+	name = "Kurtikella"
+	culture = latin_culture
+}
+1000097007 = {
+	name = "Murzurato"
+	culture = latin_culture
+}
+1000097008 = {
+	name = "Mastrios"
+	culture = latin_culture
+}
+1000097009 = {
+	name = "Aleranos"
+	culture = latin_culture
+}
+1000097010 = {
+	name = "Viscontos"
+	culture = latin_culture
+}
+1000097011 = {
+	name = "Armeniaffo"
+	culture = latin_culture
+}
+1000097012 = {
+	name = "Falios"
+	culture = latin_culture
+}
+1000097013 = {
+	name = "Logotio"
+	culture = latin_culture
+}
+1000097014 = {
+	name = "Contarinos"
+	culture = latin_culture
+}
+1000097015 = {
+	name = "Skaramo"
+	culture = latin_culture
+}
+1000097016 = {
+	name = "Synkebecchi"
+	culture = latin_culture
+}
+1000097017 = {
+	name = "Caeteas"
+	culture = latin_culture
+}
+1000097018 = {
+	name = "Ardocharzanios"
+	culture = latin_culture
+}
+1000097019 = {
+	name = "Bonimatas"
+	culture = latin_culture
+}
+1000097020 = {
+	name = "Thopia"
+	culture = latin_culture
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 39
+			emblem = 1
+			color = 2
+			color = 13
+			color = 0
+		}
+	}
+}

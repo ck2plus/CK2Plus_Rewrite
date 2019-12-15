@@ -1,0 +1,29 @@
+# Valid IDs: 1000164000 - 1000164999
+1000164000 = {
+	name = "Kante"
+	culture = sosso
+}
+1000164001 = {
+	name = "Cisse"
+	culture = sosso
+}
+1000164002 = {
+	name = "Akba"
+	culture = sosso
+}
+1000164003 = {
+	name = "Soumare"
+	culture = sosso
+}
+1000164004 = {
+	name = "Soukhounou"
+	culture = sosso
+}
+1000164005 = {
+	name = "Bighu"
+	culture = sosso
+}
+1000164006 = {
+	name = "Akba"
+	culture = sosso
+}

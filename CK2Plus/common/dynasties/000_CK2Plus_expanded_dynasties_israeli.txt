@@ -1,0 +1,177 @@
+# Valid IDs: 1000080000 - 1000080999
+1000080000 = {
+	name = "Abrach"
+	culture = israeli
+}
+1000080001 = {
+	name = "Khardun"
+	culture = israeli
+}
+1000080002 = {
+	name = "Sasson"
+	culture = israeli
+}
+1000080003 = {
+	name = "Hysh"
+	culture = israeli
+}
+1000080004 = {
+	name = "Agmy"
+	culture = israeli
+}
+1000080005 = {
+	name = "Zangi"
+	culture = israeli
+}
+1000080006 = {
+	name = "Abocassis"
+	culture = israeli
+}
+1000080007 = {
+	name = "Sabag"
+	culture = israeli
+}
+1000080008 = {
+	name = "Biton"
+	culture = israeli
+}
+1000080009 = {
+	name = "Hruschov"
+	culture = israeli
+}
+1000080010 = {
+	name = "Sie"
+	culture = israeli
+}
+1000080011 = {
+	name = "Boethus"
+	culture = israeli
+}
+1000080012 = {
+	name = "Seth"
+	culture = israeli
+}
+1000080013 = {
+	name = "Fabus"
+	culture = israeli
+}
+1000080014 = {
+	name = "Ananus"
+	culture = israeli
+}
+1000080015 = {
+	name = "Camithus"
+	culture = israeli
+}
+1000080016 = {
+	name = "Kuppai"
+	culture = israeli
+}
+1000080017 = {
+	name = "Simon"
+	culture = israeli
+}
+1000080018 = {
+	name = "Camydus"
+	culture = israeli
+}
+1000080019 = {
+	name = "Nebedeus"
+	culture = israeli
+}
+1000080020 = {
+	name = "Fabus"
+	culture = israeli
+}
+1000080021 = {
+	name = "Damneus"
+	culture = israeli
+}
+1000080022 = {
+	name = "Gamaliel"
+	culture = israeli
+}
+1000080023 = {
+	name = "Theophilus"
+	culture = israeli
+}
+1000080024 = {
+	name = "Mendez"
+	culture = israeli
+}
+1000080025 = {
+	name = "Hala"
+	culture = israeli
+}
+1000080026 = {
+	name = "Gomes"
+	culture = israeli
+}
+1000080027 = {
+	name = "Meltzar"		# Garcon
+	culture = israeli
+}
+1000080028 = {
+	name = "Gabriel"
+	culture = israeli
+}
+1000080029 = {
+	name = "Salazar"
+	culture = israeli
+}
+1000080030 = {
+	name = "Dalmeida"
+	culture = israeli
+}
+1000080031 = {
+	name = "Crastoz"
+	culture = israeli
+}
+1000080032 = {
+	name = "Solomon"
+	culture = israeli
+}
+1000080033 = {
+	name = "Saraf"
+	culture = israeli
+}
+1000080034 = {
+	name = "Chakl'ai"		# Ackermann
+	culture = israeli
+}
+1000080035 = {
+	name = "Megadel"		# Brenner, probably an Ekelname changed to "Grower"
+	culture = israeli
+}
+1000080036 = {
+	name = "Ne'eman"		# Neuman
+	culture = israeli
+}
+1000080037 = {
+	name = "Machtech"		# Schneider
+	culture = israeli
+}
+1000080038 = {
+	name = "Evanmym"		# Wasserstein
+	culture = israeli
+}
+1000080039 = {
+	name = "Veredemek"		# Rosental
+	culture = israeli
+}
+1000080040 = {
+	name = "Kivirchik"		# Kraus
+	culture = israeli
+}
+1000080041 = {
+	name = "Veredanaf"		# Rosenzweig
+	culture = israeli
+}
+1000080042 = {
+	name = "Shevachyehudi"	# Schmulewitz, an Ekelname changed to "Praise Jew"
+	culture = israeli
+}
+1000080043 = {
+	name = "Letappeschut"	# Stieglitz
+	culture = israeli
+}

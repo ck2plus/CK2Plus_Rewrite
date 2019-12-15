@@ -1,0 +1,41 @@
+# 120 - Göttingen
+
+# County Title
+title = c_gottingen
+
+# Settlements
+max_settlements = 5
+b_gottingen = tribal
+b_paderborn = temple # Norse Pagan Holy Site (representing the Irminsul at Obermarsberg)
+
+#b_corvey = temple
+#b_lippe = city
+#b_kassel = city
+#b_northeim = castle
+#b_eisenach = castle
+#b_detmold = castle
+
+# Misc
+culture = old_saxon
+religion = norse_pagan
+
+# History
+
+777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
+	religion = catholic
+}
+
+782.1.1 = { # Widukind returns, stirs rebellion
+	religion = norse_pagan
+}
+
+785.1.1 = { # rebellion defeated
+	religion = catholic
+}
+
+805.1.1 = {
+	b_gottingen = castle
+	b_goslar = castle
+}
+
+1337.1.1 = { b_lippe = city }

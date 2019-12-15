@@ -1,0 +1,129 @@
+# Valid IDs: 1000057000 - 1000057999
+1000057000 = {
+	name = "vıi Muhu"
+	culture = finnish
+}
+1000057001 = {
+	name = "Saarelainen"
+	culture = finnish
+}
+1000057002 = {
+	name = "Kaukiainen"
+	culture = finnish
+}
+1000057003 = {
+	name = "M‰kivalta"
+	culture = finnish
+}
+1000057004 = {
+	name = "Vihavainio"
+	culture = finnish
+}
+1000057005 = {
+	name = "Kaukop‰iv‰"
+	culture = finnish
+}
+1000057006 = {
+	name = "Vehn‰p‰‰"
+	culture = finnish
+}
+1000057007 = {
+	name = "Viljari"
+	culture = finnish
+}
+1000057008 = {
+	name = "Kalamies"
+	culture = finnish
+}
+1000057009 = {
+	name = "Repolainen"
+	culture = finnish
+}
+1000057010 = {
+	name = "S‰is‰nen"
+	culture = finnish
+}
+1000057011 = {
+	name = "Tammela"
+	culture = finnish
+}
+1000057012 = {
+	name = "Lohikoski"
+	culture = finnish
+}
+1000057013 = {
+	name = "Koskela"
+	culture = finnish
+}
+1000057014 = {
+	name = "Iso-Tuisku"
+	culture = finnish
+}
+1000057015 = {
+	name = "Hirvel‰"
+	culture = finnish
+}
+1000057016 = {
+	name = "Tuiskula"
+	culture = finnish
+}
+1000057017 = {
+	name = "Kaukonen"
+	culture = finnish
+}
+1000057018 = {
+	name = "Muurim‰ki"
+	culture = finnish
+}
+1000057019 = {
+	name = "Hurtanmaa"
+	culture = finnish
+}
+1000057020 = {
+	name = "Kaukamoinen"
+	culture = finnish
+}
+1000057021 = {
+	name = "Linnanp‰‰"
+	culture = finnish
+}
+1000057022 = {
+	name = "Suuronen"
+	culture = finnish
+}
+1000057023 = {
+	name = "Sepp‰inen"
+	culture = finnish
+}
+1000057024 = {
+	name = "Kukonharja"
+	culture = finnish
+}
+1000057025 = {
+	name = "Korpela"
+	culture = finnish
+}
+1000057026 = {
+	name = "Tiet‰v‰l‰"
+	culture = finnish
+}
+1000057027 = {
+	name = "Repola"
+	culture = finnish
+}
+1000057028 = {
+	name = "Tulisalo"
+	culture = finnish
+}
+1000057029 = {
+	name = "Vahvanen"
+	culture = finnish
+}
+1000057030 = {
+	name = "Karhunp‰‰"
+	culture = finnish
+}
+1000057031 = {
+	name = "Liekkil‰"
+	culture = finnish
+}

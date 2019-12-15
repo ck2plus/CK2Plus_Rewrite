@@ -1,0 +1,20 @@
+# 1787 - Buzachi 
+
+# County Title
+title = c_buzachi
+
+max_settlements = 2
+b_buzachi = tribal
+
+# Misc
+culture = pecheneg
+religion = tengri_pagan
+terrain = marsh
+
+# History
+
+800.1.1 = { culture = oghuz }
+
+1187.1.1 = {
+	religion = sunni
+}

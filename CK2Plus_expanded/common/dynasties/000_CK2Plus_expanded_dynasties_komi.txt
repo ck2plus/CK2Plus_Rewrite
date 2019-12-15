@@ -1,9 +1,0 @@
-# Valid IDs: 1000094000 - 1000094999
-1000094000 = {
-	name = "Valkoinen"
-	culture = komi
-}
-1000094001 = {
-	name = "of Ukhta"
-	culture = komi
-}

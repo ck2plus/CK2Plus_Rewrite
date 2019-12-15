@@ -1,0 +1,9 @@
+# Valid IDs: 1000075000 - 1000075999
+1000075000 = {
+	name = "Fekete"
+	culture = hungarian
+}
+1000075001 = {
+	name = "Glad"
+	culture = hungarian
+}

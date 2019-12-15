@@ -1,0 +1,235 @@
+#######################################
+#
+#	Plus scripted effects - Laws
+#
+#	plus_council_decreased_power_effect
+#	plus_council_increased_power_effect
+#	plus_decreased_tribal_organization_effect
+#	plus_increased_tribal_organization_effect
+#	plus_decreased_crown_authority_opinion_effect
+#	plus_increased_crown_authority_opinion_effect
+#
+#	Total:	6
+#
+#######################################
+
+# used in ruler's scope (THIS)
+plus_council_decreased_power_effect = {
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = yes
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_decreased_council_power
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_decreased_council_power
+			multiplier = 2
+			years = 5
+		}
+	}
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = no
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_decreased_council_power
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_decreased_council_power
+			years = 5
+		}
+	}
+}
+
+# used in ruler's scope (THIS)
+plus_council_increased_power_effect = {
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = yes
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_increased_council_power
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_increased_council_power
+			multiplier = 2
+			years = 5
+		}
+	}
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = no
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_increased_council_power
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_increased_council_power
+			years = 5
+		}
+	}
+}
+
+plus_decreased_tribal_organization_effect = {
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = yes
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_lowered_tribal_organization
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_lowered_tribal_organization
+			multiplier = 2
+			years = 5
+		}
+	}
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = no
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_lowered_tribal_organization
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_lowered_tribal_organization
+			years = 5
+		}
+	}
+}
+
+# used in ruler's scope (THIS)
+plus_increased_tribal_organization_effect = {
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = yes
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_increased_tribal_organization
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_increased_tribal_organization
+			multiplier = 2
+			years = 5
+		}
+	}
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = no
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_increased_tribal_organization
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_increased_tribal_organization
+			years = 5
+		}
+	}
+}
+
+# used in ruler's scope (THIS)
+plus_decreased_crown_authority_opinion_effect = {
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = yes
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_lowered_crown_authority
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_lowered_crown_authority
+			multiplier = 2
+			years = 10
+		}
+	}
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = no
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_lowered_crown_authority
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_lowered_crown_authority
+			years = 10
+		}
+	}
+}
+
+# used in ruler's scope (THIS)
+plus_increased_crown_authority_opinion_effect = {
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = yes
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_increased_authority
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_increased_authority
+			multiplier = 2
+			years = 10
+		}
+	}
+	any_courtier_or_vassal = {
+		limit = {
+			is_voter = no
+			NOT = {
+				has_opinion_modifier = {
+					who = PREV
+					modifier = opinion_increased_authority
+				}
+			}
+		}
+		opinion = {
+			who = PREV
+			modifier = opinion_increased_authority
+			years = 10
+		}
+	}
+}

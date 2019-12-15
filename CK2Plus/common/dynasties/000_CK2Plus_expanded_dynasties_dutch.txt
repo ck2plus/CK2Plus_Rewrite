@@ -1,0 +1,13 @@
+# Valid IDs: 1000052000 - 1000052999
+1000052000 = {
+	name = "van Hoei"
+	culture = dutch
+}
+1000052001 = {
+	name = "Elzas"
+	culture = dutch
+}
+1000052002 = {
+	name = "van Veluwe"
+	culture = dutch
+}

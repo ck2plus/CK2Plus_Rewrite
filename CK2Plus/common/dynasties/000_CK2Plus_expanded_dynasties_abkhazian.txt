@@ -1,0 +1,85 @@
+# Valid IDs: 1000000000 - 1000000999
+1000000000 = {
+	name = "Šašba"
+	culture = abkhazian
+}
+
+1000000001 = {
+	name = "Ašba"
+	culture = abkhazian
+}
+
+1000000002 = {
+	name = "Ajemxaa"
+	culture = abkhazian
+}
+
+1000000003 = {
+	name = "Šaabalerxua"
+	culture = abkhazian
+}
+
+1000000004 = {
+	name = "Šixotua"
+	culture = abkhazian
+}
+
+1000000005 = {
+	name = "Gašba"
+	culture = abkhazian
+}
+
+1000000006 = {
+	name = "Inal-jepa"
+	culture = abkhazian
+}
+
+1000000007 = {
+	name = "Maršan"
+	culture = abkhazian
+}
+
+1000000008 = {
+	name = "Šapš-jepa"
+	culture = abkhazian
+}
+
+1000000009 = {
+	name = "Akertaa"
+	culture = abkhazian
+}
+
+1000000010 = {
+	name = "Ašuaxuacaa"
+	culture = abkhazian
+}
+
+1000000011 = {
+	name = "Cešba"
+	culture = abkhazian
+}
+
+1000000012 = {
+	name = "Jašba"
+	culture = abkhazian
+}
+
+1000000013 = {
+	name = "Lakerba"
+	culture = abkhazian
+}
+
+1000000014 = {
+	name = "Maan"
+	culture = abkhazian
+}
+
+1000000015 = {
+	name = "Šuanba"
+	culture = abkhazian
+}
+
+1000000016 = {
+	name = "Adlejba"
+	culture = abkhazian
+}

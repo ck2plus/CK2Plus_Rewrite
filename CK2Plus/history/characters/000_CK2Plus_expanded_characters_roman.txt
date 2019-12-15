@@ -1,0 +1,119 @@
+# Valid IDs: 1000139000 - 1000139999
+
+1000139000 = {
+	name = "Petronius"
+	# Flavius Anicius Petronius Maximus
+	religion = catholic
+	culture = roman
+
+	396.1.1 = {
+		birth = yes
+	}
+	455.5.31 = {
+		death = yes
+	}
+}
+1000139001 = {
+	name = "Avitus"
+	# Marcus Maecilius Flavius Eparchius Avitus
+	religion = catholic
+	culture = roman
+
+	395.1.1 = {
+		birth = yes
+	}
+	456.10.17 = {
+		death = yes
+	}
+}
+1000139002 = {
+	name = "Marjorian"
+	# Flavius Julius Valerius Majorianus
+	religion = catholic
+	culture = roman
+
+	420.1.1 = {
+		birth = yes
+	}
+	461.8.7 = {
+		death = yes
+	}
+}
+1000139003 = {
+	name = "Severus"
+	# Flavius Libius Severus Serpentius
+	religion = catholic
+	culture = roman
+
+	420.1.1 = {
+		birth = yes
+	}
+	465.8.15 = {
+		death = yes
+	}
+}
+1000139004 = {
+	name = "Anthemius"
+	# Procopius Anthemius
+	religion = catholic
+	culture = roman
+
+	420.1.1 = {
+		birth = yes
+	}
+	472.7.11 = {
+		death = yes
+	}
+}
+1000139005 = {
+	name = "Olybrius"
+	# Anicius Olybrius
+	religion = catholic
+	culture = roman
+
+	452.3.23 = {
+		birth = yes
+	}
+	472.11.2 = {
+		death = yes
+	}
+}
+1000139006 = {
+	name = "Glycerius"
+	# Flavius Glycerius
+	religion = catholic
+	culture = roman
+
+	452.11.2 = {
+		birth = yes
+	}
+	474.6.24 = {
+		death = yes
+	}
+}
+1000139007 = {
+	name = "Julius"
+	# Flavius Julius Nepos
+	religion = catholic
+	culture = roman
+
+	430.1.1 = {
+		birth = yes
+	}
+	475.10.31 = {
+		death = yes
+	}
+}
+1000139008 = {
+	name = "Romulus"
+	# Flavius Romulus
+	religion = catholic
+	culture = roman
+
+	460.1.1 = {
+		birth = yes
+	}
+	507.1.1 = {
+		death = yes
+	}
+}

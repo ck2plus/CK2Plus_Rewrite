@@ -1,0 +1,29 @@
+# Valid IDs: 1000131000 - 1000131999
+1000131000 = {
+	name = "Simjurid"
+	culture = persian
+}
+1000131001 = {
+	name = "Buyid"
+	culture = persian
+}
+1000131002 = {
+	name = "Bavandid"
+	culture = persian
+}
+1000131003 = {
+	name = "Musafarid"
+	culture = persian
+}
+1000131004 = {
+	name = "Yazidid"
+	culture = persian
+}
+1000131005 = {
+	name = "Hasanawayhid"
+	culture = persian
+}
+1000131006 = {
+	name = "Astarabadi"
+	culture = persian
+}

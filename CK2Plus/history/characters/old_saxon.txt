@@ -1,0 +1,468 @@
+#190455 = {
+#	name = "Theoderic" #duke of Saxony
+#	dynasty = 1044105 #Theodericing
+#	religion = norse_pagan
+#	culture = old_saxon
+#	720.1.1 = {
+#		birth = yes
+#	}
+#	781.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#190456 = {
+#	name = "Wichimann" #count of Altmark
+#	dynasty = 1044105 #Theodericing
+#	religion = norse_pagan
+#	culture = old_saxon
+#	father = 190455
+#	741.1.1 = {
+#		birth = yes
+#	}
+#	781.1.1 = {
+#		death = yes
+#	}
+#}
+
+190457 = {
+	name = "Bruno" # Bruno II of Angria
+	dynasty = 669 # Liudolfing
+	father = 1000126050 # Bruno I of Angria
+	religion = norse_pagan
+	culture = old_saxon
+	750.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	780.1.1 = {
+		add_spouse = 1000126023 # Hasalda of Westphalia
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	813.1.1 = {
+		death = yes
+	}
+}
+
+190458 = {
+	name = "Ekbert" # Ekbert II
+	dynasty = 669 # Liudolfing
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190457 # Bruno II of
+	mother = 1000126023 # Hasalda of Westphalia
+	769.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	801.1.1 = {
+		add_spouse = 190448 # Ida Bernhard-Karling
+	}
+	836.1.1 = {
+		death = yes
+	}
+}
+
+190459 = {
+	name = "Warin"
+	dynasty = 669 # Liudolfing
+	religion = catholic
+	culture = old_saxon
+	father = 190458 # Ekbert
+	mother = 190448 # Ida
+	802.1.1 = {
+		birth = yes
+	}
+	856.9.20 = {
+		death = yes
+	}
+}
+
+190460 = {
+	name = "Liudolf"
+	dynasty = 669 # Liudolfing
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190457 # Bruno II
+	mother = 1000126023 # Hasalda of Westphalia
+	789.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	805.1.1 = {
+		add_spouse = 190469
+	}
+	851.6.27 = {
+		death = yes
+	}
+}
+
+190461 = {
+	name = "Bovo"
+	dynasty = 669 # Liudolfing
+	religion = catholic
+	culture = old_saxon
+	father = 190457 # Bruno II
+	mother = 1000126023 # Hasalda of Westphalia
+	801.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+
+190462 = {
+	name = "Æthelberht" # Æthelberht II
+	dynasty = 656 # Billung
+	father = 1000126101 # Billung I
+	mother = 1000126100 # Freduna
+	religion = norse_pagan
+	culture = old_saxon
+	682.1.1 = {
+		birth = yes
+	}
+	739.1.1 = {
+		add_spouse = 1000061100 # Meili
+	}
+	762.1.1 = {
+		death = yes
+	}
+}
+
+190463 = {
+	name = "Amelung" # Amelung I
+	dynasty = 656 # Billung
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190462 # Æthelberht II
+	mother = 1000061100 # Meili
+	745.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	811.1.1 = {
+		death = yes
+	}
+}
+
+190464 = {
+	name = "Bennit" # Bennid
+	dynasty = 656 # Billung
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190463
+	759.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	814.1.1 = {
+		death = yes
+	}
+}
+
+190465 = {
+	name = "Enno"
+	dynasty = 656 #Billung
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190463
+	768.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	828.1.1 = {
+		death = yes
+	}
+}
+
+190466 = {
+	name = "Lothar"
+	dynasty = 661 # Udonen
+	religion = norse_pagan
+	culture = old_saxon
+	742.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	791.1.1 = {
+		death = yes
+	}
+}
+
+190467 = {
+	name = "Udo"
+	dynasty = 661 # Udonen
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190466
+	768.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	837.1.1 = {
+		death = yes
+	}
+}
+
+190468 = {
+	name = "Richfrid"
+	dynasty = 1044106 #Richfriding
+	religion = norse_pagan
+	culture = old_saxon
+	741.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	797.1.1 = {
+		death = yes
+	}
+}
+
+190469 = {
+	name = "Richeit" # wife of Liudolf
+	female = yes
+	dynasty = 1044106 #Richfriding
+	religion = catholic
+	culture = old_saxon
+	father = 190468
+	788.1.1 = {
+		birth = yes
+	}
+	829.1.1 = {
+		death = yes
+	}
+}
+
+190470 = {
+	name = "Abo" # commander of Widukind, count of Dreini
+	dynasty = 1044107 #Abonid
+	religion = norse_pagan
+	culture = old_saxon
+	751.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	811.1.1 = {
+		death = yes
+	}
+}
+
+190471 = {
+	name = "Smeldigoz"
+	dynasty = 1044108 #Smeldiging
+	religion = norse_pagan
+	culture = old_saxon
+	753.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+
+190472 = {
+	name = "Unwan"
+	dynasty = 1044109 #Unwanid
+	religion = norse_pagan
+	culture = old_saxon
+	749.1.1 = {
+		birth = yes
+	}
+	769.1.1 = {
+		add_spouse = 190476
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	789.1.1 = {
+		death = yes
+	}
+}
+
+190473 = {
+	name = "Bernard"
+	dynasty = 1044109 #Unwanid
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190472
+	mother = 190476
+	769.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	823.1.1 = {
+		death = yes
+	}
+}
+
+190474 = {
+	name = "Hesso"
+	dynasty = 1044110 #Hessing
+	religion = norse_pagan
+	culture = old_saxon
+	737.1.1 = {
+		birth = yes
+	}
+	775.1.1 = { # first Saxon ruler to convert
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	804.1.1 = {
+		death = yes
+	}
+}
+
+190475 = {
+	name = "Hesso"
+	dynasty = 1044110 #Hessing
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190474
+	768.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	846.1.1 = {
+		death = yes
+	}
+}
+
+190476 = {
+	name = "Gisela"
+	female = yes
+	dynasty = 1044110 #Hessing
+	religion = norse_pagan
+	culture = old_saxon
+	father = 190474
+	753.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		religion = catholic
+	}
+	782.1.1 = {
+		religion = norse_pagan
+	}
+	785.1.1 = {
+		religion = catholic
+	}
+	840.1.1 = {
+		death = yes
+	}
+}

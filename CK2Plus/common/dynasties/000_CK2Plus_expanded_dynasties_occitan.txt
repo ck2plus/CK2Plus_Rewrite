@@ -1,0 +1,29 @@
+# Valid IDs: 1000123000 - 1000123999
+1000123000 = {
+	name = "de Rouergue"
+	culture = occitan
+}
+1000123001 = {
+	name = "de Sitten"
+	culture = occitan
+}
+1000123002 = {
+	name = "de Ventemilha"
+	culture = occitan
+}
+1000123003 = {
+	name = "de Savòia"
+	culture = occitan
+}
+1000123004 = {
+	name = "de Buscha"
+	culture = occitan
+}
+1000123005 = {
+	name = "di Ligorna"
+	culture = occitan
+}
+1000123006 = {
+	name = "de Piemont"
+	culture = occitan
+}

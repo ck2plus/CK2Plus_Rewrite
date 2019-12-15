@@ -1,0 +1,50 @@
+# 87 - Osnabrück
+
+# County Title
+title = c_osnabruck
+
+# Settlements
+max_settlements = 4
+b_tecklenburg = tribal
+
+#b_bentheim = castle
+#b_lingen = city
+#b_wildeshausen = castle
+#b_minden = castle
+#b_quackenbruck = castle
+#b_meppen = castle
+
+# Misc
+culture = old_saxon
+religion = norse_pagan
+
+# History
+
+772.1.1 = {
+	b_osnabruck = temple # diocese of Osnabrück founded by Karl
+}
+
+777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
+	religion = catholic
+}
+
+782.1.1 = { # Widukind returns, stirs rebellion
+	religion = norse_pagan
+}
+
+785.1.1 = { # rebellion defeated
+	religion = catholic
+}
+
+803.1.1 = {
+	b_tecklenburg = castle
+	b_lingen = city
+}
+
+#1224.1.1 = {
+#	capital = b_osnabruck # raised into Prince-Bishopry
+#}
+
+1205.1.1 = {
+	b_bentheim = castle
+}

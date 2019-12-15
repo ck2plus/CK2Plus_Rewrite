@@ -1,0 +1,159 @@
+####################################################################
+#
+#	Central African (Songhay-Saharan)
+#	 - Kanuri
+#    - Songhay
+#	 - Zaghawa
+#
+####################################################################
+
+central_african = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+	}
+	graphical_cultures = { muslimgfx }
+
+	kanuri = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.8 0.45 0.75 }
+
+		male_names = {
+			Abbas Abdallah Abdul Abdulraham Abubakar Adam_Adam Ahmed Airimi Alhaji Ali Alooma Amin Amr Arku Arsu
+			Baba Baram Bikorom Biri Bukar Bulu Buyuma
+			Dabbalemi Dala Daoud_David Dugu Dunama
+			Fune
+			Gaji Gajideni Galrima Gana Garbai Gazali Gazi Ghana
+			Hume Hummay
+			Ibrahim_Abraham Idris
+			Kaday Kanemi Kashim Katakarmabe Katur Kiyari Kura Kuri Kuwaana
+			Madu Mahmoud Mamane Modu Mohammed_Mohammed Mufioma Murama Musa Mustafa
+			Nikale
+			Osman
+			Said Salmama Sanda Sani Sef Selma Shettima Shu Suleyman_Solomon
+			Tandja
+			Umar
+			Waziri
+			Yahya_John Yaqub_Jacob Yusuf_Joseph
+			Zannah
+		}
+
+		female_names = {
+			Aisha Aissa Aliyah Amina Aziza
+			Bakhita
+			Cinta
+			Daniyah Dikwa
+			Fatima_Fatima
+			Halima
+			Jalila
+			Kaltum Karima Khadija Khalila Kili
+			Layla
+			Malika Mariam_Maria Mina
+			Nadia
+			Rashida
+			Shadia Shakira Sukda
+			Tebunnu
+			Wahida
+			Ya Yasmin
+		}
+	}
+	
+	songhay = {
+
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.8 0.25 0.20 }
+
+		male_names = {
+			Abi Abu Adamu_Adam Ahmad Al-Hajj Alayaman Ali Alkamiisa Ammar Ankabi Ar Arabi Aranda
+			Baba Babba Bada Baki Bakr Bani Bano Baru Bassarou Bay Ber Binta Birma Bisi Biya Biyay Biyo Bonkana Borgo Boumi Bukar Buyunbu
+			Daara Dala Dankataya Dao Daouda_David Dari Dawud_David Dum Dunku Duru
+			Fadazaw Falaku Far Fari-Mondzo Fay Fi Fodi
+			Hanga Hargani Harun Hassan Hin Huseini
+			Ibrahim_Abraham Igoumou Ikoi Ishaq Isfmail Ize
+			Jim
+			Kaasei Kanafa Kanbu Karaway Karay Karbachi Kayna Keina Kibufu Kima Kimi Kinba Kinkin Kiray Kisha Kodama Koi Koize Kolon Komi Koy Ku Kukiya Kukura Kuli Kulun Kumay Kun Kur Kusoy Kusur
+			Laraba
+			Maammarou Mahmud Malla Mar Mar-Chindin Mayroumfa Missi Morobani Moussa Muhammed Musa
+			Nari Nuh Nunta
+			Ouankoy
+			Samsou Samsou-Beri Sanay Shams Shinyunbu Silman Sorko-ije Sulayman Sunni
+			Takoi Tib Tomo
+			Uthman
+			Wunka
+			Yama Yaqub_Jacob Yasiboy Yuma
+			Zakoi Zalil Zunku
+		}
+
+		female_names = {
+			Adama Aisha Alkamiisa Amina Aminah Azzah
+			Bilqis
+			Chindi
+			Daara Dangey
+			Fanta Fatima_Fatima Fatimah_Fatima Fitila
+			Gando Geyka
+			Hassana Hawa Huseina
+			Kouton
+			Lambu Layla
+			Mecca Medina
+			Nuru
+			Tarifa Teko
+			Zaynab
+		}
+
+		allow_looting = yes
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}
+
+	zaghawa = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.9 0.35 0.85 }
+
+		male_names = {
+			Abakar Abba Abbas Abdul Abdulraham Adam_Adam Ahmed Ali At-Tayeb
+			Brahim_Abraham
+			Daoud_David Deli Dolo
+			Gilding Goukouni
+			Hishi
+			Ibrahim_Abraham Idris Ingir Issa
+			Kasu Kosu Ku Kuti
+			Mahmoud Minni Mohammed_Mohammed Musa
+			Oki Okiramaj Omer Osman
+			Shartay Siddick Sora Suleyman_Solomon
+			Tijani Timan Toholjo Tor Torfu Tugule
+			Udure
+			Yahya_John Yaqub_Jacob Yusuf_Joseph
+		}
+
+		female_names = {
+			Aisha Aliyah
+			Bado Bakhita Bi
+			Eya
+			Fatima
+			Gir
+			Hadurah Halima Hinda
+			Ija
+			Kadiga Khalila
+			Layla
+			Makka Malika Mariam_Maria Mounah
+			Ning
+			Ogai
+			Rashida
+			Shadia Shakira Sumah Sumiah
+			Tele Ter
+			Wahida
+			Yasmin
+		}
+	}
+}

@@ -1,0 +1,51 @@
+# Valid IDs: 1000064000 - 1000064999
+1000064000 = {
+	name = "Av Folke"
+ 	culture = geatish
+}
+1000064001 = { # coa  Gold Lioneagle on Red, same as Fånö-ätten
+	name = "Aspenäs"
+ 	culture = geatish
+}
+1000064002 = { #
+	name = "Gumsehuvud" # coa guld hvædder hoved på blå
+ 	culture = geatish
+}
+1000064003 = {
+	name = "Glysing"  # same coa as "Fargalt".# nr 1009 swedish.
+ 	culture = geatish
+}
+1000064004 = {
+	name = "Gädda" #same coa as 1000064005 "Giedde"
+ 	culture = geatish
+}
+1000064005 = {
+	name = "Hjärne" # coa boat with fleur de lis ontop, on silver
+ 	culture = geatish
+}
+1000064006 = {
+	name = "Läma" #
+ 	culture = geatish
+}
+1000064007 = {
+	name = "Änga" #
+ 	culture = geatish
+}
+1000064008 = {
+	name = "Näf" #
+ 	culture = geatish
+}
+1000064009 = {
+	name = "Stjärnbåt" #
+ 	culture = geatish
+}
+1000064010 = {
+	name = "Rakered" #
+ 	culture = geatish
+}
+1000064011 = {
+	name = "Hatt" #
+ 	culture = geatish
+}
+
+# other from vanilla or currently assinged for Swedish, that need to be looked into later: Bielke, Grip, Bonde, Lejonbalk, Puke, Stenkil, Sverker, Bjalbö, Ving, Sture, vingad pil, tilbakaseende ulv?, Gren, Boberg, Ama

@@ -12123,19 +12123,8 @@ pagan_holy_war = {
 
 	can_use = {
 		ROOT = {
-			OR = {
-				religion = bon_reformed
-				religion = hellenic_pagan_reformed
-				religion = norse_pagan_reformed
-				religion = tengri_pagan_reformed
-				religion = baltic_pagan_reformed
-				religion = slavic_pagan_reformed
-				religion = finnish_pagan_reformed
-				religion = aztec_reformed
-				religion = aztec
-				religion = west_african_pagan_reformed
-				religion = zun_pagan_reformed
-			}
+			religion_group = pagan_group
+			is_reformed_religion = yes
 			NOT = { has_religion_feature = religion_peaceful }
 			NOT = { same_realm = FROM }
 			NOT = { religion = FROM }
