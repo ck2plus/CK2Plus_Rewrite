@@ -15,6 +15,18 @@
 	liege = e_karling
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = d_swabia
+}
+
+839.5.30 = { # Diet of Worms
+	liege = k_neustria
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_burgundy
+}
+
 855.9.29 = { # Treaty of Prüm
 	liege = k_burgundy
 }

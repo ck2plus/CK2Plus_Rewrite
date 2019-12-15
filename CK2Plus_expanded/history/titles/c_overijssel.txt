@@ -15,6 +15,11 @@
 	holder = 263002
 }
 
+# commented out to keep a bit of land directly under Louis, this area wasn't under strong authority from Louis' sons yet
+#831.2.2 = { # Division Regni at Aachen
+#	liege = k_bavaria
+#}
+
 848.1.1 = {
 	holder = 263003
 }

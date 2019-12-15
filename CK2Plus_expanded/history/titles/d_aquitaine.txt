@@ -42,11 +42,24 @@
 	liege = k_neustria
 }
 
+774.1.1 = {
+	holder = 6392 # Karl 'the Great'
+}
+
 781.4.15 = { # Coronation in Rome at Easter
+	holder = 90095 # Louis I 'the Pious'
 	liege = k_aquitaine
 }
 
-852.1.1 = {
+817.7.1 = { # Ordinatio Imperii
+	holder = 90096 # Pepin I
+}
+
+838.12.13 = {
+	holder = 90097 # Pepin II 'the Younger'
+}
+
+852.9.1 = { # Pepin II 'the Younger' imprisoned, already lost noble support and his crown in 848
 	holder = 90129 # Ramnulf I
 }
 

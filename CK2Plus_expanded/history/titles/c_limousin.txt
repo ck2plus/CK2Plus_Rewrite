@@ -12,8 +12,12 @@
 	holder = 90096 # Pepin I 'the Young'
 }
 
-822.4.5 = {
-	holder = 90097 # Pepin II 'the Younger'
+832.9.1 = { # crowned King of Aquitaine after Pepin's rebellion
+	holder = 90104 # Charles II the Bald
+}
+
+834.3.15 = { # Pepin restored as King of Aquitaine
+	holder = 90096 # Pepin I
 }
 
 864.1.1 = {

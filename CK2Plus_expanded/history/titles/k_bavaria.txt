@@ -73,16 +73,12 @@
 	liege = e_karling
 }
 
-817.7.1 = { # Ordinatio Imperii
-	holder = 90107 # Ludwig 'the German'
-}
-
-865.4.22 = { # Ludwig 'the German' partitions his realm
-	holder = 42018 # Karlmann
+817.7.1 = { # Ordinatio Imperii, Egilof is regent until 829
+	holder = 90107 # Ludwig II 'the German'
 }
 
 879.11.1 = { # Karlmann abdicates after becoming incapacitated early that year
-	holder = 42019 # Ludwig II 'the Younger'
+	holder = 42019 # Ludwig III 'the Younger'
 }
 
 882.1.20 = {

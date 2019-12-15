@@ -877,9 +877,10 @@
 }
 
 190425 = {
-	name = "Chrothrudis" # wife of Karl the Hammer
+	name = "Chrothrudis" # of Trier, wife of Karl the Hammer
 	female = yes
 	dynasty = 1044103 #Theodnid
+	father = 190404 # Lambert II of Hesbaye, Capetian/Robertian, supposedly
 	religion = catholic
 	culture = old_frankish
 	690.1.1 = {
@@ -4100,7 +4101,7 @@
 }
 
 91001 = {
-	name = "Enguerrand" #Enguerrand or Ingramm, count of Hesbaye
+	name = "Ingelram" #Enguerrand or Ingramm, count of Hesbaye
 	dynasty = 743 # Capet (Robertien)
 
 	religion = catholic

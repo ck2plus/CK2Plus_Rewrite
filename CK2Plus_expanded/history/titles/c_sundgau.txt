@@ -26,8 +26,18 @@
 	holder = 161483
 }
 
+829.8.1 = { # Diet of Worms
+	holder = 90104 # Charles II 'the Bald'
+	liege = d_swabia
+}
+
+832.9.1 = { # crowned King of Aquitaine after Pepin's rebellion
+	holder = 0
+	liege = e_karling
+}
+
 837.10.27 = {
-	holder = 163055
+	holder = 161479
 }
 
 843.8.10 = { # Treaty of Verdun

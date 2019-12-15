@@ -26,8 +26,8 @@
 	holder = 90107 #Louis II the German
 }
 
-864.1.1 = {
-	holder = 42018 #Carloman
+865.4.22 = { # Ludwig 'the German' partitions his realm
+	holder = 42018 # Karlmann
 }
 
 867.1.1 = {

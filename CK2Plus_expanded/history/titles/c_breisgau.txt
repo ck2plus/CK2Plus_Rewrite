@@ -18,6 +18,10 @@
 	liege = e_karling
 }
 
+829.8.1 = { # Diet of Worms
+	liege = d_swabia
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_germany
 }
@@ -32,7 +36,7 @@
 #}
 
 887.11.17 = { # abdication of Karl 'the Fat'
-	holder = 163905 # Liutfried Etichonen, temporary placeholder
+	holder = 163095 # Liutfried Etichonen, temporary placeholder
 }
 
 936.1.1 = {

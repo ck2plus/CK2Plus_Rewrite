@@ -66,6 +66,10 @@
 	holder = 1000061101 # Gerfrid
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = k_bavaria
+}
+
 839.9.12 = {
 	holder = 1000061102 # Altfrid
 }

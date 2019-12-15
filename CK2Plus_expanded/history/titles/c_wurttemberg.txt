@@ -22,6 +22,10 @@
 	holder = 168191 #Sieghard
 }
 
+829.8.1 = { # Diet of Worms
+	liege = d_swabia
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_germany
 	holder = 168191

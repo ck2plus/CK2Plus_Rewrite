@@ -22,6 +22,14 @@
 	liege = e_karling
 }
 
+831.2.2 = { # Division Regni at Aachen
+	liege = d_swabia
+}
+
+843.8.10 = { # Treaty of Verdun
+	liege = k_lotharingia
+}
+
 855.8.23 = {
 	holder = 144998 #Lothair II
 }

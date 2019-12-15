@@ -28,6 +28,10 @@
 	holder = 190513 # Theoderic
 }
 
+829.1.1 = {
+	holder = 0
+}
+
 #Carolingians
 
 840.6.20 = {

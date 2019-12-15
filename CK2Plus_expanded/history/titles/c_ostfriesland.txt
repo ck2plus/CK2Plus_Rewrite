@@ -30,16 +30,17 @@
 	liege = e_karling
 }
 
+# commented out to keep a bit of land directly under Louis, this area wasn't under strong authority from Louis' sons yet
+#831.2.2 = { # Division Regni at Aachen
+#	liege = k_bavaria
+#}
+
 855.9.29 = { # Treaty of Prüm
 	liege = k_lotharingia
 }
-
-860.1.1 = {
-	liege = k_germany
-}
-
 860.1.1 = {
 	holder = 168343
+		liege = d_holland
 }
 
 870.1.1 = {

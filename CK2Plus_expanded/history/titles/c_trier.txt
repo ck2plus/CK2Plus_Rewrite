@@ -18,6 +18,11 @@
 	holder = 0
 }
 
+# commented out to keep a bit of land directly under Louis, this area wasn't under strong authority from Louis' sons yet
+#831.2.2 = { # Division Regni at Aachen
+#	liege = d_swabia
+#}
+
 855.9.29 = { # Treaty of Prüm
 	liege = k_lotharingia
 }

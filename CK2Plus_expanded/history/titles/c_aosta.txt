@@ -10,12 +10,20 @@
 	liege = k_italy
 }
 
-855.9.29 = { # Treaty of Prüm
-	liege = k_burgundy
+831.2.2 = { # Division Regni at Aachen
+	liege = d_swabia
 }
 
-860.1.1 = {
+832.9.1 = { # Charles II 'the Bald' crowned King of Aquitaine
+	liege = e_karling
+}
+
+839.5.30 = { # Diet of Worms
 	liege = k_italy
+}
+
+855.9.29 = { # Treaty of Prüm
+	liege = k_burgundy
 }
 
 860.1.1 = {

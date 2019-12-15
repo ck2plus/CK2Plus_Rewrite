@@ -15,6 +15,14 @@
 	liege = e_karling
 }
 
+829.8.1 = { # Diet of Worms
+	liege = d_swabia
+}
+
+832.9.1 = { # Charles II 'the Bald' crowned King of Aquitaine
+	liege = e_karling
+}
+
 843.8.10 = { # Treaty of Verdun
 	liege = k_germany
 }
