@@ -30978,7 +30978,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 7
-	religion = franconian
+	religion = catholic
 	culture = franconian
 	trait = flamboyant_schemer
 	father = 7054
@@ -31942,7 +31942,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = catholic
-	culture = alemmanic
+	culture = alemannic
 	trait = gluttonous
 	trait = martial_cleric
 	father = 190362
@@ -36439,7 +36439,7 @@
 	name = "Albrecht" #Konstanz 1334-1335
 	dynasty = 12476
 	religion = catholic
-	culture = Swabian
+	culture = swabian
 	father = 33304
 	1300.1.1 = {
 		birth = yes
@@ -39405,7 +39405,7 @@
 
 31803 = {
 	name = "Otto"
-	dynasty = 7123 #von Tecklenburg	
+	dynasty = 7123 #von Tecklenburg
 	religion = catholic
 	culture = old_saxon
 	religion = catholic

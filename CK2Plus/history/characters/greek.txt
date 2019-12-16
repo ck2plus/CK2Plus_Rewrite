@@ -950,10 +950,13 @@
 	trait = scholar
 	trait = scholarly_theologian
 	father = 1700
-	real_father = 70490
+#	real_father = 70490
 	mother = 1761
 	866.9.29 = {
 		birth = yes
+		effect = {
+			set_real_father = c_70490
+		}
 	}
 	906.1.9 = {
 		add_spouse = 1703
@@ -9593,10 +9596,13 @@
 	trait = chaste
 	trait = detached_priest
 	father = 1700
-	real_father = 70490
+#	real_father = 70490
 	mother = 1761
 	867.11.1 = {
 		birth = yes
+		effect = {
+			set_real_father = c_70490
+		}
 	}
 	893.5.18 = {
 		death = yes
