@@ -37,10 +37,12 @@ character_event = {
 	only_playable = yes
 
 	trigger = {
+		FROM = { real_tier = EMPEROR } # only fire for primary title
 		real_tier = EMPEROR
 		is_empire_destruction_candidate = yes
-		is_exempt_title = no
+		NOT = { is_exempt_title = yes }
 	}
+
 	immediate = {
 		# Emergency Kingdom for dumb emperors (usually AI)
 		if = {
@@ -54,6 +56,7 @@ character_event = {
 			log = "Unable to create emergency kingdom when shattering empire. Ruler rank demoted."
 		}
 	}
+
 	option = {
 		name = EVTOPTA_PlusEmpire_001
 		prestige = -1000

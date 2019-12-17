@@ -204,7 +204,13 @@ has_religion_matching_available_warrior_lodge_trigger = {
 		}
 		# CK2Plus
 		AND = {
-			religion_openly_celtic_or_reformed_trigger = yes
+			OR = {
+				religion_openly_celtic_or_reformed_trigger = yes
+				AND = {
+					culture = irish
+					is_tribal = yes
+				}
+			}
 			warrior_lodge_celtic = { society_has_members = yes }
 		}
 		AND = {
@@ -257,7 +263,13 @@ has_religion_matching_warrior_lodge_in_need_of_members_trigger = {
 		}
 		# CK2Plus
 		AND = {
-			religion_openly_celtic_or_reformed_trigger = yes
+			OR = {
+				religion_openly_celtic_or_reformed_trigger = yes
+				AND = {
+					culture = irish
+					is_tribal = yes
+				}
+			}
 			warrior_lodge_celtic = { num_of_society_members < 30 }
 		}
 		AND = {
@@ -306,7 +318,13 @@ has_religion_matching_empty_warrior_lodge_trigger = {
 		}
 		# CK2Plus
 		AND = {
-			religion_openly_celtic_or_reformed_trigger = yes
+			OR = {
+				religion_openly_celtic_or_reformed_trigger = yes
+				AND = {
+					culture = irish
+					is_tribal = yes
+				}
+			}
 			NOT = { warrior_lodge_celtic = { society_has_members = yes } }
 		}
 		AND = {
@@ -346,7 +364,7 @@ has_religion_matching_any_warrior_lodge_trigger = {
 		religion_openly_zun_or_reformed_trigger = yes
 		religion_openly_bon_or_reformed_trigger = yes
 		religion_openly_hellenic_or_reformed_trigger = yes
-		
+
 		# CK2Plus
 		religion_openly_celtic_or_reformed_trigger = yes
 		religion_openly_basque_or_reformed_trigger = yes

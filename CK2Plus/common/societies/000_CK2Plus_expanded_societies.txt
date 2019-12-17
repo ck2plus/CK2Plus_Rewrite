@@ -50,6 +50,11 @@ warrior_lodge_celtic = { #The Fianna
 		OR = {
 			religion_openly_celtic_or_reformed_trigger = yes
 			AND = {
+				is_tribal = yes
+				culture = irish
+				NOT = { trait = zealous }
+			}
+			AND = {
 				custom_tooltip = {
 					text = society_has_at_least_10_members_tt
 					FROM = { num_of_society_members >= 10 }
@@ -82,6 +87,11 @@ warrior_lodge_celtic = { #The Fianna
 			NOT = { #Hide if: you don't have a religion that corresponds to this lodge, but there is another society available to you already
 				religion_openly_celtic_or_reformed_trigger = no
 				has_religion_matching_available_warrior_lodge_trigger = yes
+			}
+			# Show for the culture if tribal
+			AND = {
+				culture = irish
+				is_tribal = yes
 			}
 			#Always show if: You are already a member. Duh.
 			society_member_of = warrior_lodge_celtic
@@ -571,10 +581,17 @@ warrior_lodge_celtic = { #The Fianna
 	startup_populate = {
 		trigger = {
 			ai = yes
-			controls_religion = no
-			religion_openly_celtic_or_reformed_trigger = yes
+	    	controls_religion = no
 			is_adult = yes
 			is_in_society = no
+			OR = {
+				religion_openly_celtic_or_reformed_trigger = yes
+				AND = {
+					is_tribal = yes
+					culture = irish
+					NOT = { trait = zealous }
+				}
+			}
 			OR = {
 				trait = zealous
 				martial = 12
@@ -634,6 +651,11 @@ warrior_lodge_basque = {
 		OR = {
 			religion_openly_basque_or_reformed_trigger = yes
 			AND = {
+				is_tribal = yes
+				culture = basque
+				NOT = { trait = zealous }
+			}
+			AND = {
 				custom_tooltip = {
 					text = society_has_at_least_10_members_tt
 					FROM = { num_of_society_members >= 10 }
@@ -666,6 +688,10 @@ warrior_lodge_basque = {
 			NOT = { #Hide if: you don't have a religion that corresponds to this lodge, but there is another society available to you already
 				religion_openly_basque_or_reformed_trigger = no
 				has_religion_matching_available_warrior_lodge_trigger = yes
+			}
+			AND = {
+				culture = basque
+				is_tribal = yes
 			}
 			#Always show if: You are already a member. Duh.
 			society_member_of = warrior_lodge_basque
@@ -1156,9 +1182,15 @@ warrior_lodge_basque = {
 	    trigger = {
 			ai = yes
 	    	controls_religion = no
-		   	religion_openly_basque_or_reformed_trigger = yes
 			is_adult = yes
 			is_in_society = no
+			OR = {
+				religion_openly_basque_or_reformed_trigger = yes
+				AND = {
+					culture = basque
+					NOT = { trait = zealous }
+				}
+			}
 			OR = {
 				trait = zealous
 				martial = 12
