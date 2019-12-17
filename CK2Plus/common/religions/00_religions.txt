@@ -40,7 +40,7 @@ christian = {
 		graphical_culture = westerngfx
 
 		icon = 1			# Catholic
-		heresy_icon = 6		# Catholic heresy
+		heresy_icon = 2		# Catholic heresy
 
 		color = { 0.8 0.8 0.6 }
 
@@ -95,7 +95,7 @@ christian = {
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
 		icon = 3			# Cathar
-		heresy_icon = 6		# Catholic heresy
+		heresy_icon = 2		# Catholic heresy
 
 		color = { 0.5 0.5 0.9 }
 		parent = catholic
@@ -129,7 +129,7 @@ christian = {
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
 		icon = 1			# Catholic
-		heresy_icon = 6		# Catholic heresy
+		heresy_icon = 2		# Catholic heresy
 
 		color = { 0.7 0.7 0.4 }
 		parent = catholic
@@ -171,7 +171,7 @@ christian = {
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
 		icon = 5			# Waldensian
-		heresy_icon = 6		# Catholic heresy
+		heresy_icon = 2		# Catholic heresy
 
 		color = { 0.4 0.4 0.7 }
 		parent = catholic
@@ -204,7 +204,7 @@ christian = {
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
 		icon = 4			# Lollard
-		heresy_icon = 6		# Catholic heresy
+		heresy_icon = 2		# Catholic heresy
 
 		color = { 0.5 0.8 0.8 }
 		parent = catholic
@@ -288,7 +288,7 @@ christian = {
 		graphical_culture = westerngfx
 
 		icon = 10			# Miaphysite
-		heresy_icon = 13	# Miaphysite heresy
+		heresy_icon = 11	# Miaphysite heresy
 
 		color = { 0.7 0.7 0.1 }
 
@@ -338,7 +338,7 @@ christian = {
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
 		icon = 10			# Miaphysite
-		heresy_icon = 13	# Miaphysite heresy
+		heresy_icon = 11	# Miaphysite heresy
 
 		color = { 0.8 0.4 0.1 }
 		parent = miaphysite
