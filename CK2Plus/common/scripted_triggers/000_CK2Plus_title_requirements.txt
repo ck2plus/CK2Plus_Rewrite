@@ -8,10 +8,8 @@
 
 # Empire Breakup Triggers
 is_empire_destruction_candidate = {
-	OR = {
-		realm_size < 100
-		num_of_count_titles_in_realm < 35
-	}
+	realm_size < 50
+	num_of_count_titles_in_realm < 35
 }
 is_exempt_title = { # Empires that are exempt from the breakup rules
 	OR = {
