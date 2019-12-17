@@ -18,31 +18,32 @@
 # Chancellor
 action_show_fake_mapmode_chancellor = {
 	attribute = diplomacy		# Irrelevant, but without it action might break
-	
+
 	potential = {
 		FROM = {
 			ai = no		# Only ever allowed for players!
 		}
 	}
-	
+
 	trigger = {
 		owner = {
 			always = yes	# Means that province is not wasteland
 		}
 	}
-	
+
 	# It follows a list of every map color + tooltip, displayed under various circumstances:
-	
+
 	# SIMPLE TERRAIN:
 	display_on_map = {
+		tooltip = JOB_FAKE_MAPMODE_TERRAIN_ARCTIC
 		trigger = {
-			AND = {
-				FROM = {
-					has_character_flag = fake_mapmode_simple_terrain
-				}
-				terrain = arctic
+			FROM = {
+				has_character_flag = fake_mapmode_simple_terrain
 			}
+			terrain = arctic
 		}
 		color = { 204 255 255 }
 	}
+
+	events = { }
 }
