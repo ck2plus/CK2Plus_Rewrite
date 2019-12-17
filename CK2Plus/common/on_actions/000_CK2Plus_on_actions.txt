@@ -65,9 +65,13 @@ on_new_holder = {
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_inheritance = {
 	events = {
-		PlusEmpire.001 #Empire breakup trigger
+
 	}
 	random_events = {
+		breakup_empires = { # don't add events to this group, this guarantees the event below fires with a delay, without another event/MTTH modifiers, etc.
+			delay = 1 # delay necessary for this event
+			1000 = PlusEmpire.001 #Empire breakup trigger
+		}
 	}
 }
 

@@ -8,11 +8,12 @@
 
 # Empire Breakup Triggers
 is_empire_destruction_candidate = {
-	NOT = { realm_size = 100 }
-	NOT = { num_of_count_titles_in_realm = 35 }
+	realm_size < 100
+	num_of_count_titles_in_realm < 35
 }
+
 is_exempt_title = { # Empires that are exempt from the breakup rules
-	NOR = {
+	OR = {
 		is_offmap_ruler = yes
 		is_nomadic = yes
 		num_of_emperor_titles >= 2
@@ -42,6 +43,7 @@ has_ck2plus_duchy_reqs = {
 	has_regent = no
 	war = no
 }
+
 has_ck2plus_kingdom_reqs = {
 	# If title is titular
 	trigger_if = {
@@ -64,16 +66,19 @@ has_ck2plus_kingdom_reqs = {
 	war = no
 	ruled_years = 5
 }
+
 has_ck2plus_empire_reqs = {
 	# If title is titular
 	trigger_if = {
 		limit = { FROM = { is_titular = yes } }
 		lower_real_tier_than = EMPEROR
 	}
+
 	# If title is landed
 	trigger_else = {
 		# Alternate Reqs to go here later
 	}
+
 	# Apply regardless
 	is_title_active = FROM
 	is_adult = yes
