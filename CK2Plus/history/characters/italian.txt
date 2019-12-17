@@ -2011,7 +2011,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = tucsan
+	culture = tuscan
 	trait = lustful
 	trait = scholarly_theologian
 	1125.1.2 = {
@@ -4436,7 +4436,7 @@
 	intrigue = 8
 	stewardship = 7
 	religion = catholic
-	culture = 
+	culture = lombard
 	trait = envious
 	trait = cynical
 	trait = hunchback
@@ -42248,7 +42248,7 @@
 	name = "Iacopo"
 	dynasty = 100320
 	religion = catholic
-	culture = lombardy
+	culture = lombard
 	father = 213008
 	1182.1.1 = {
 		birth = yes

@@ -77,6 +77,10 @@
 	holder = 90107 # Ludwig II 'the German'
 }
 
+865.4.22 = { # Ludwig 'the German' partitions his realm
+	holder = 42018 # Karlmann
+}
+
 879.11.1 = { # Karlmann abdicates after becoming incapacitated early that year
 	holder = 42019 # Ludwig III 'the Younger'
 }

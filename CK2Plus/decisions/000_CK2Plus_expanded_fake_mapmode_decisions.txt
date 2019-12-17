@@ -17,11 +17,8 @@ targetted_decisions = {
 				id = FMM.2
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			always = no # ai can never do this anyway
+			factor = 0 # ai can never do this anyway
 		}
 	}
 }

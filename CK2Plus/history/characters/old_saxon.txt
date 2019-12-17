@@ -54,15 +54,12 @@
 190458 = {
 	name = "Ekbert" # Ekbert II
 	dynasty = 669 # Liudolfing
-	religion = norse_pagan
+	religion = catholic
 	culture = old_saxon
 	father = 190457 # Bruno II of
 	mother = 1000126023 # Hasalda of Westphalia
-	769.1.1 = {
+	779.1.1 = {
 		birth = yes
-	}
-	777.1.1 = {
-		religion = catholic
 	}
 	782.1.1 = {
 		religion = norse_pagan
