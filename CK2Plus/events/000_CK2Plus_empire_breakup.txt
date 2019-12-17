@@ -39,7 +39,7 @@ character_event = {
 	trigger = {
 		real_tier = EMPEROR
 		is_empire_destruction_candidate = yes
-		is_exempt_title = no
+		is_exempt_title = yes # In a NOR statement
 	}
 	immediate = {
 		# Emergency Kingdom for dumb emperors (usually AI)
