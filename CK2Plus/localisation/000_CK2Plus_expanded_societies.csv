@@ -90,3 +90,27 @@ secret_basque_pagan_community;[basque_pagan.GetName] Community;Communauté [basqu
 secret_basque_pagan_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;Des fidèles ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;Die Gläubigen haben sich im Geheimen um eine kleine Kabale herum in dieser Provinz organisiert. Von dort aus konvertieren sie andere, wachsen und schützen ihre eigenen.;;Los fieles han organizado una pequeña comunidad religiosa en esta provincia. Allí convierten a otros, crecen y se protegen entre ellos.;;;;;;;;x
 secret_basque_pagan_reformed_community;[basque_pagan_reformed.GetName] Community;Communauté [basque_pagan_reformed.GetName];[basque_pagan_reformed.GetName]e Gemeinschaft;;Comunidad [basque_pagan_reformed.GetName];;;;;;;;x
 secret_basque_pagan_reformed_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;Des fidèles ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;Die Gläubigen haben sich im Geheimen um eine kleine Kabale herum in dieser Provinz organisiert. Von dort aus konvertieren sie andere, wachsen und schützen ihre eigenen;;Los fieles han organizado una pequeña comunidad religiosa en esta provincia. Allí convierten a otros, crecen y se protegen entre ellos.;;;;;;;;x
+
+# DEVIL WORSHIPPERS
+the_followers_of_fomorians;[GetFomoriansSocietyName];[GetFomoriansSocietyName];[GetFomoriansSocietyName];;[GetFomoriansSocietyName];;;;;;;;;x
+the_followers_of_fomorians_real;Followers of Fomorians;Disciples des Fomoires;Anh?nger der Fomori;;Seguidores de los Fomor?;;;;;;;;;x
+the_followers_of_fomorians_random;Followers of [celtic_pagan.GetRandomEvilGodNameCap];Desciples de [celtic_pagan.GetRandomEvilGodNameCap];Anhänger von [celtic_pagan.GetRandomEvilGodNameCap];;Seguidores de [celtic_pagan.GetRandomEvilGodNameCap];;;;;;;;;x
+the_followers_of_fomorians_desc;[GetFomoriansSocietyDesc];[GetFomoriansSocietyDesc];[GetFomoriansSocietyDesc];;[GetFomoriansSocietyDesc];;;;;;;;;x
+the_followers_of_fomorians_desc_real;There are those among us who honor the darkest and most sinister of the Otherworlders. These Followers revel in the chaos, bloodshed, and hedonism demanded of them by the Fomorians. Unfortunately it seems the Fomorians are pleased by the havoc their mortal followers cause, as there are disturbing rumors surrounding their Followers, of dark magic and unnaturally long lives...;;;;;;;;;;;;;x
+the_followers_of_fomorians_recruit;[GetFomoriansRecruit];[GetFomoriansRecruit];[GetFomoriansRecruit];;[GetFomoriansRecruit];;;;;;;;;x
+the_followers_of_fomorians_recruit_real;Recruit to the Followers of Fomorians;Recruter pour les Disciples des Fomoires;Für die Anhänger der Fomori rekrutieren;;Reclutar para los Seguidores de los Fomor?;;;;;;;;;x
+the_followers_of_fomorians_recruit_desc;[GetFomoriansRecruitDesc];[GetFomoriansRecruitDesc];[GetFomoriansRecruitDesc];;[GetFomoriansRecruitDesc];;;;;;;;;x
+the_followers_of_fomorians_recruit_desc_real;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to the power of the occult. If so, you may invite [Root.GetHerHim] to become a member of the Followers of Fomorians.;Essayer de savoir si [Root.Get_le_TitledFirstNameJ] est récepti[Root.GetFVe] aux puissances occultes. Si c'est le cas, vous pourrez l'inviter à devenir membre des Disciples des Fomoires.;Versuche herauszufinden, ob §Y[Root.GetTitledFirstName]§! empfänglich für die Macht des Okkulten ist. Falls dem so ist, könnt Ihr [Root.Getihnsie] in die Anh?nger der Fomori einladen.;;Averigua si a §Y[Root.GetTitledFirstName]§! le atraen las fuerzas ocultas. En caso afirmativo, puedes invitarlo/la a unirse a los Seguidores de los Fomor?.;;;;;;;;;x
+the_followers_of_fomorians_recruit_block_tooltip;[GetHelRecruitBlockDesc];[GetHelRecruitBlockDesc];[GetHelRecruitBlockDesc];;[GetHelRecruitBlockDesc];;;;;;;;;x
+the_followers_of_fomorians_recruit_block_tooltip_real;Has not been approached by the Followers of Fomorians before.;N'a pas déjà été approch? par les Disciples des Fomoires.;Wurde noch nicht von den Anh?ngern der Fomori kontaktiert.;;Nunca ha tenido contacto con los Seguidores de los Fomor?.;;;;;;;;;x
+
+the_followers_of_fomorians_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+the_followers_of_fomorians_rank_1_female;Abjurer;Apostate;Bannmagierin;;Ap?stata;;;;;;;;;x
+the_followers_of_fomorians_rank_2_female;Conjurer;Sorci?re;Beschw?rerin;;Conjuradora;;;;;;;;;x
+the_followers_of_fomorians_rank_3_female;Priestess;Pr?tresse;Priesterin;;Sacerdotisa;;;;;;;;;x
+the_followers_of_fomorians_rank_4_female;High Priestess;Grande pr?tresse;Hohepriesterin;;Suma sacerdotisa;;;;;;;;;x
+the_followers_of_fomorians_rank_1_male;Abjurer;Apostat;Bannmagier;;Ap?stata;;;;;;;;;x
+the_followers_of_fomorians_rank_2_male;Conjurer;Sorcier;Beschw?rer;;Conjurador;;;;;;;;;x
+the_followers_of_fomorians_rank_3_male;Priest;Pr?tre;Priester;;Sacerdote;;;;;;;;;x
+the_followers_of_fomorians_rank_4_male;High Priest;Grand pr?tre;Hohepriester;;Sumo sacerdote;;;;;;;;;x
+currency_name_the_followers_of_fomorians;Dark Power;Pouvoir obscur;Dunkle Macht;;Poder oscuro;;;;;;;;;x
