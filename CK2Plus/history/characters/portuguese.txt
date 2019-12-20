@@ -2,7 +2,7 @@
 	name = "Nuno"
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 142004
 	937.1.1 = {
 		birth = yes
@@ -16,7 +16,7 @@
 	name = "Alvito"
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109600
 	973.1.1 = {
 		birth = yes
@@ -35,7 +35,7 @@
 	female = yes
 	#dynasty = 100158 #unecessary
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	978.1.1 = {
 		birth = yes
 	}
@@ -48,7 +48,7 @@
 	name = "Nuno"
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109601
 	mother = 109602
 	995.1.1 = {
@@ -66,7 +66,7 @@
 	name = "Mendo"
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109603
 	mother = 109625
 	1016.1.1 = {
@@ -82,7 +82,7 @@
 	female = yes
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109603
 	mother = 109625
 	1018.1.1 = {
@@ -98,7 +98,7 @@
 	#dynasty = 396
 	dynasty = 100158 #Mendes is patronimic, do Porto for filler
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1017.1.1 = {
 		birth = yes
 	}
@@ -117,7 +117,7 @@
 	name = "Nuno" #Nuno II Mendes
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109604
 	trait = charismatic_negotiator
 	trait = greedy
@@ -142,7 +142,7 @@
 	female = yes
 	#dynasty = 75 #unecessary
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1034.1.1 = {
 		birth = yes
 	}
@@ -156,7 +156,7 @@
 	female = yes
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109607
 	mother = 109608
 	1050.1.1 = {
@@ -172,7 +172,7 @@
 	female = yes
 	dynasty = 20051 #Davides
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109610
 	mother = 109609
 	1066.1.1 = {
@@ -187,7 +187,7 @@
 	name = "Mendo"
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109620
 	mother = 109621
 	945.1.1 = {
@@ -206,7 +206,7 @@
 	female = yes
 	dynasty = 75 #Totadona was from the family of the old Counts of Coimbra
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 217303
 	967.1.1 = {
 		birth = yes
@@ -221,7 +221,7 @@
 	female = yes
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109622
 	mother = 109623
 	999.1.1 = {
@@ -237,7 +237,7 @@
 	female = yes
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109622
 	mother = 109623
 	1000.1.1 = {
@@ -252,7 +252,7 @@
 	name = "Ramiro"
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109622
 	mother = 109623
 	990.1.1 = {
@@ -271,7 +271,7 @@
 	female = yes
 	dynasty = 8610
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1000.1.1 = {
 		birth = yes
 	}
@@ -284,7 +284,7 @@
 	name = "Ordonho"
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109626
 	mother = 109627
 	1027.1.1 = {
@@ -303,7 +303,7 @@
 	female = yes
 	#dynasty = 272 #unecessary
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1030.1.1 = {
 		birth = yes
 	}
@@ -317,7 +317,7 @@
 	female = yes
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109628
 	mother = 109629
 	1046.1.1 = {
@@ -334,7 +334,7 @@
 	female = yes
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109628
 	mother = 109629
 	1047.1.1 = {
@@ -384,7 +384,7 @@
 	name = "Afonso" #Afonso I Henriques the Conqueror
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	trait = ambitious
 	father = 6531 #Henri de Bourgogne
 	mother = 207661 #Teresa of Leon
@@ -410,6 +410,9 @@
 	}
 	1146.6.1 = {
 		add_spouse = 212672 #Maud of Savoy
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1185.12.6 = {
 		death = yes
@@ -1200,7 +1203,7 @@
 	name = "Muno" #Muno
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109603
 	mother = 109625
 	1020.1.1 = {
@@ -1218,7 +1221,7 @@
 	name = "Pedro"
 	dynasty = 8626
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109601
 	mother = 109602
 	1000.1.1 = {
@@ -1236,7 +1239,7 @@
 	name = "Mendo"
 	dynasty = 75
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1040.1.1 = {
 		birth = yes
 	}
@@ -1255,7 +1258,7 @@
 	name = "Hermenegildo"
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109626
 	mother = 109627
 	1030.1.1 = {
@@ -1274,7 +1277,7 @@
 	female = yes
 	dynasty = 1020119
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 109626
 	mother = 109627
 	1032.1.1 = {
@@ -1289,7 +1292,7 @@
 	name = "Sancho"
 	dynasty = 8629
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1030.1.1 = {
 		birth = yes
 	}
@@ -1308,7 +1311,7 @@
 	name = "Pedro"
 	dynasty = 8795
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1215.1.1 = {
 		birth = yes
 	}
@@ -1325,7 +1328,7 @@
 	name = "Xelmirio"
 	dynasty = 20057
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1031.1.1 = {
 		birth = yes
 	}
@@ -1338,7 +1341,7 @@
 	name = "Diogo"
 	dynasty = 20057
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 85020
 	1059.1.1 = {
 		birth = yes
@@ -1352,7 +1355,7 @@
 	name = "Oveco"
 	dynasty = 20058
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	980.1.1 = {
 		birth = yes
 	}
@@ -1365,7 +1368,7 @@
 	name = "Rodrigo"
 	dynasty = 20058
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 85023
 	1042.1.1 = {
 		birth = yes
@@ -1380,7 +1383,7 @@
 	female = yes
 	dynasty = 20058
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 85023
 	1044.1.1 = {
 		birth = yes
@@ -1395,7 +1398,7 @@
 	female = yes
 	#dynasty = 100163 #unecessary
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1048.1.1 = {
 		birth = yes
 	}
@@ -1408,7 +1411,7 @@
 	name = "Afonso" #Afonso Henriques
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 6531 #Henri de Bourgogne
 	mother = 207661 #Térèse de Léon
 	1099.1.1 = {
@@ -1423,7 +1426,7 @@
 	name = "Henrique" #Henrique Henriques
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 6531 #Henri de Bourgogne
 	mother = 207661 #Térèse de Léon
 	1106.1.1 = {
@@ -1439,7 +1442,7 @@
 	female = yes
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 6531 #Henri de Bourgogne
 	mother = 207661 #Térèse de Léon
 	1100.1.1 = {
@@ -1456,7 +1459,7 @@
 	female = yes
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 6531 #Henri de Bourgogne
 	mother = 207661 #Térèse de Léon
 	1101.1.1 = {
@@ -1474,7 +1477,7 @@
 	female = yes
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 6531 #Henri de Bourgogne
 	mother = 207661 #Térèse de Léon
 	1102.1.1 = {
@@ -1489,12 +1492,15 @@
 	name = "Henrique" #Henri du Portugal
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 209503 #Alphonse I le Conquerant
 	mother = 212672 #Mathilde de Savoie
 	1147.2.17 = {
 		birth = yes
 	}
+	1150.1.1 = {
+		culture = portuguese
+	}	
 	1157.10.7 = {
 		death = yes
 	}
@@ -2308,11 +2314,14 @@
 	name = "Pedro" #Pedro Afonso, Great Master of the Order of Aviz
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	trait = bastard
 	father = 209503 #Alphonse I le Conquerant
 	1140.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1189.1.1 = {
 		death = yes
@@ -2323,12 +2332,15 @@
 	name = "Fernando" #Fernando Afonso, Great Master of the Knights Hospitaller
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	trait = bastard
 	father = 209503 #Alphonse I le Conquerant
 	1135.1.1 = {
 		birth = yes
 	}
+	1150.1.1 = {
+		culture = portuguese
+	}	
 	1203.1.1 = {
 		name = "Afonso"
 	}
@@ -2342,11 +2354,14 @@
 	female = yes
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	trait = bastard
 	father = 209503 #Alphonse I le Conquerant
 	1130.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	#Martim Moniz, maybe
 	1180.1.1 = {
@@ -2359,11 +2374,14 @@
 	female = yes
 	dynasty = 741 #de Bourgogne
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	trait = bastard
 	father = 209503 #Alphonse I le Conquerant
 	1130.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	#Pedro Afonso Viegas
 	1200.1.1 = {
@@ -2375,7 +2393,7 @@
 	name = "Martim" #Martim Moniz
 	dynasty = 1020112 #de Vasconcelos
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143086
 	mother = 143087
 	1130.1.1 = {
@@ -2383,6 +2401,7 @@
 	}
 	1150.1.1 = {
 		add_spouse = 142025
+		culture = portuguese
 	}
 	1180.1.1 = {
 		death = yes
@@ -2393,7 +2412,7 @@
 	name = "Pedro" #Pedro Afonso Viegas
 	dynasty = 1020111 #de Ribadouro
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 142296
 	mother = 142297
 	1135.1.1 = {
@@ -2401,6 +2420,7 @@
 	}
 	1150.1.1 = {
 		add_spouse = 142615
+		culture = portuguese
 	}
 	1190.1.1 = {
 		add_spouse = 142026
@@ -6757,7 +6777,7 @@
 	name = "Egas" #Egas Gomes de Sousa
 	dynasty = 770 #de Sousa
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 142125
 	mother = 142127
 	1035.1.1 = {
@@ -6790,7 +6810,7 @@
 	name = "Mem" #Mem Viegas de Sousa
 	dynasty = 770 #de Sousa
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 142165
 	mother = 142166
 	1070.1.1 = {
@@ -18260,7 +18280,7 @@
 	name = "Egas" #Egas Gondesendes de Baião
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143034
 	mother = 143035
 	1070.1.1 = {
@@ -18278,7 +18298,7 @@
 	name = "Gondesendo" #Gondesendo Viegas de Baião
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143036
 	mother = 143037
 	1050.1.1 = {
@@ -18297,7 +18317,7 @@
 	female = yes
 	#dynasty = #
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1050.1.1 = {
 		birth = yes
 	}
@@ -18310,7 +18330,7 @@
 	name = "Egas" #Egas Gondesendes de Baião
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143038
 	mother = 143039
 	1031.1.1 = {
@@ -18329,7 +18349,7 @@
 	female = yes
 	#dynasty =
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1020.1.1 = {
 		birth = yes
 	}
@@ -18342,7 +18362,7 @@
 	name = "Gondesendo" #Gondesendo Arualdes de Baião
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143040
 	mother = 143041
 	975.1.1 = {
@@ -18361,7 +18381,7 @@
 	female = yes
 	#dynasty = #
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	975.1.1 = {
 		birth = yes
 	}
@@ -18374,7 +18394,7 @@
 	name = "Arualdo" #Arualdo Gondesendes de Baião
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	950.1.1 = {
 		birth = yes
 	}
@@ -18391,7 +18411,7 @@
 	female = yes
 	#dynasty = #
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	950.1.1 = {
 		birth = yes
 	}
@@ -18404,7 +18424,7 @@
 	name = "Galindo" #Galindo Arualdes de Baião
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143040
 	mother = 143041
 	976.1.1 = {
@@ -18423,7 +18443,7 @@
 	female = yes
 	#dynasty = #
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	976.1.1 = {
 		birth = yes
 	}
@@ -18436,7 +18456,7 @@
 	name = "Godinho" #Godinho Viegas de Azevedo
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143036
 	mother = 143037
 	1051.1.1 = {
@@ -18455,7 +18475,7 @@
 	female = yes
 	#dynasty = #Velho
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1051.1.1 = {
 		birth = yes
 	}
@@ -18468,7 +18488,7 @@
 	name = "Mourão" #Mourão Godesendes de Baião
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143034
 	mother = 143035
 	1071.1.1 = {
@@ -18483,7 +18503,7 @@
 	name = "Pero" #Pero Viegas Pai
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143033
 	mother = 142991
 	1131.1.1 = {
@@ -18491,6 +18511,7 @@
 	}
 	1151.1.1 = {
 		add_spouse = 143048
+		culture = portuguese
 	}
 	1181.1.1 = {
 		death = yes
@@ -18502,9 +18523,12 @@
 	female = yes
 	#dynasty = #
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1131.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1181.1.1 = {
 		death = yes
@@ -18531,7 +18555,7 @@
 	name = "Nuno" #Nuno Viegas de Baião
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143033
 	mother = 142991
 	1132.1.1 = {
@@ -18539,6 +18563,7 @@
 	}
 	1152.1.1 = {
 		add_spouse = 143051
+		culture = portuguese
 	}
 	1182.1.1 = {
 		death = yes
@@ -18550,9 +18575,12 @@
 	female = yes
 	#dynasty = #
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1132.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1182.1.1 = {
 		death = yes
@@ -18595,7 +18623,7 @@
 	name = "João" #João Viegas Ranha
 	dynasty = 1020122 #de Baião
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143033
 	mother = 142991
 	1133.1.1 = {
@@ -18614,9 +18642,12 @@
 	female = yes
 	#dynasty = #
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1133.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1183.1.1 = {
 		death = yes
@@ -18643,7 +18674,7 @@
 	name = "Paio" #Paio Godins de Azevedo
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143044
 	mother = 143045
 	1067.1.1 = {
@@ -18662,7 +18693,7 @@
 	female = yes
 	#dynasty = #Velho
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1067.1.1 = {
 		birth = yes
 	}
@@ -18675,7 +18706,7 @@
 	name = "Mem" #Mem Pais Bofinho
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143057
 	mother = 143058
 	1083.1.1 = {
@@ -18694,7 +18725,7 @@
 	female = yes
 	#dynasty = #de Toroño
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1083.1.1 = {
 		birth = yes
 	}
@@ -18707,7 +18738,7 @@
 	name = "Pero" #Pero Mendes de Azevedo
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143059
 	mother = 143060
 	1133.1.1 = {
@@ -18715,6 +18746,7 @@
 	}
 	1153.1.1 = {
 		add_spouse = 143062
+		culture = portuguese
 	}
 	1193.1.1 = {
 		death = yes
@@ -18726,9 +18758,12 @@
 	female = yes
 	#dynasty = #de Trastamara
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1133.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1193.1.1 = {
 		death = yes
@@ -18739,7 +18774,7 @@
 	name = "Nuno" #Nuno Pais Vida
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143057
 	mother = 143058
 	1084.1.1 = {
@@ -18758,7 +18793,7 @@
 	female = yes
 	#dynasty = #
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	1084.1.1 = {
 		birth = yes
 	}
@@ -18772,11 +18807,14 @@
 	female = yes
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143063
 	mother = 143064
 	1124.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1184.1.1 = {
 		death = yes
@@ -18788,11 +18826,14 @@
 	female = yes
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143063
 	mother = 143064
 	1125.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1185.1.1 = {
 		death = yes
@@ -18804,7 +18845,7 @@
 	female = yes
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143057
 	mother = 143058
 	1085.1.1 = {
@@ -18820,7 +18861,7 @@
 	female = yes
 	dynasty = 1020128 #de Azevedo
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 143057
 	mother = 143058
 	1086.1.1 = {
@@ -19759,7 +19800,7 @@
 	intrigue = 4
 	stewardship = 3
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 73863
 	trait = hunter
 	trait = brave
@@ -19784,7 +19825,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	trait = scholar
 	trait = ambitious
 	trait = flamboyant_schemer
@@ -19803,7 +19844,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1032.1.1 = {
 		birth = yes
@@ -19820,7 +19861,7 @@
 	father = 200089
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1010.1.1 = {
 		birth = yes
@@ -19844,7 +19885,7 @@
 	mother = 70051
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1035.1.1 = {
 		birth = yes
@@ -19862,7 +19903,7 @@
 	father = 70053
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1058.1.1 = {
 		birth = yes
@@ -19880,7 +19921,7 @@
 	mother = 70051
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1036.1.1 = {
 		birth = yes
@@ -19901,7 +19942,7 @@
 	mother = 70051
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1037.1.1 = {
 		birth = yes
@@ -19922,7 +19963,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1037.1.1 = {
 		birth = yes
@@ -19940,7 +19981,7 @@
 	mother = 70058
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1053.1.1 = {
 		birth = yes
@@ -19958,7 +19999,7 @@
 	mother = 70058
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1054.1.1 = {
 		birth = yes
@@ -19977,7 +20018,7 @@
 	mother = 70058
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1055.1.1 = {
 		birth = yes
@@ -19995,7 +20036,7 @@
 	mother = 70051
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1038.1.1 = {
 		birth = yes
@@ -20013,7 +20054,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1040.1.1 = {
 		birth = yes
@@ -20028,7 +20069,7 @@
 	female = yes
 	dynasty = 8618
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	father = 108530
 	mother = 108531
 	1042.1.1 = {
@@ -20048,7 +20089,7 @@
 	mother = 72785
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1090.1.1 = {
 		birth = yes
@@ -20067,7 +20108,7 @@
 	mother = 72786
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1118.1.1 = {
 		birth = yes
@@ -20085,7 +20126,7 @@
 	mother = 72778
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1073.1.1 = {
 		birth = yes
@@ -20109,7 +20150,7 @@
 	trait = bastard
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1072.1.1 = {
 		birth = yes
@@ -20133,7 +20174,7 @@
 	mother = 71369
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1102.1.1 = {
 		birth = yes
@@ -20154,7 +20195,7 @@
 	mother = 71390
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1127.1.1 = {
 		birth = yes
@@ -20178,7 +20219,7 @@
 	mother = 72393
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1150.1.1 = {
 		birth = yes
@@ -20196,7 +20237,7 @@
 	mother = 207501
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1164.10.26 = {
 		birth = yes
@@ -20215,7 +20256,7 @@
 	mother = 207501
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1164.10.26 = {
 		birth = yes
@@ -20233,7 +20274,7 @@
 	mother = 71390
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1125.1.1 = {
 		birth = yes
@@ -20261,7 +20302,7 @@
 	mother = 72367
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1165.1.1 = {
 		birth = yes
@@ -20279,7 +20320,7 @@
 	mother = 71389
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1170.1.1 = {
 		birth = yes
@@ -20300,7 +20341,7 @@
 	mother = 71389
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1172.1.1 = {
 		birth = yes
@@ -20317,7 +20358,7 @@
 	father = 71400
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1205.1.1 = {
 		birth = yes
@@ -20336,7 +20377,7 @@
 	mother = 457675
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1298.1.1 = {
 		birth = yes
@@ -20564,7 +20605,7 @@
 	mother = 72212
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1241.1.1 = {
 		birth = yes
@@ -20582,7 +20623,7 @@
 	mother = 72212
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1243.1.1 = {
 		birth = yes
@@ -20603,7 +20644,7 @@
 	mother = 72030
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1271.1.1 = {
 		birth = yes
@@ -20622,7 +20663,7 @@
 	mother = 72212
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1245.1.1 = {
 		birth = yes
@@ -20639,7 +20680,7 @@
 	father = 72807
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1220.1.1 = {
 		birth = yes
@@ -20661,7 +20702,7 @@
 	mother = 71371
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1120.8.1 = {
 		birth = yes
@@ -20679,7 +20720,7 @@
 	mother = 71371
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1122.1.1 = {
 		birth = yes
@@ -20701,7 +20742,7 @@
 	mother = 71371
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1124.1.1 = {
 		birth = yes
@@ -20719,7 +20760,7 @@
 	mother = 71371
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1120.1.1 = {
 		birth = yes
@@ -20737,7 +20778,7 @@
 	dynasty = 1046012
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1132.1.1 = {
 		birth = yes
@@ -20758,7 +20799,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1130.1.1 = {
 		birth = yes
@@ -20773,7 +20814,7 @@
 	dynasty = 279
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	father = 72361
 	mother = 72378
@@ -20797,7 +20838,7 @@
 	mother = 72378
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	trait = martial_cleric
 
@@ -20814,7 +20855,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1251.1.1 = {
 		birth = yes
@@ -20829,7 +20870,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1130.1.1 = {
 		birth = yes
@@ -20848,7 +20889,7 @@
 	mother = 72382
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	trait = detached_priest
 
@@ -20865,7 +20906,7 @@
 	dynasty = 279
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	father = 72363
 	mother = 72382
@@ -20886,7 +20927,7 @@
 	mother = 72382
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1155.1.1 = {
 		birth = yes
@@ -20905,7 +20946,7 @@
 	mother = 72382
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1157.1.1 = {
 		birth = yes
@@ -20924,7 +20965,7 @@
 	mother = 72382
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1159.1.1 = {
 		birth = yes
@@ -20942,7 +20983,7 @@
 	mother = 72388
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1200.1.1 = {
 		birth = yes
@@ -20967,7 +21008,7 @@
 	mother = 72388
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1201.1.1 = {
 		birth = yes
@@ -20986,7 +21027,7 @@
 	mother = 72388
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1202.1.1 = {
 		birth = yes
@@ -21005,7 +21046,7 @@
 	mother = 72388
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1203.1.1 = {
 		birth = yes
@@ -21020,7 +21061,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1130.1.1 = {
 		birth = yes
@@ -21038,7 +21079,7 @@
 	mother = 71390
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1129.1.1 = {
 		birth = yes
@@ -21060,7 +21101,7 @@
 	mother = 71390
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1133.1.1 = {
 		birth = yes
@@ -21075,7 +21116,7 @@
 	dynasty = 279
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	father = 207580
 	mother = 71390
@@ -21096,7 +21137,7 @@
 	mother = 72397
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1176.1.1 = {
 		birth = yes
@@ -21114,7 +21155,7 @@
 	mother = 72397
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1178.1.1 = {
 		birth = yes
@@ -21132,7 +21173,7 @@
 	mother = 72397
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1180.1.1 = {
 		birth = yes
@@ -21151,7 +21192,7 @@
 	mother = 72397
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1182.1.1 = {
 		birth = yes
@@ -21170,7 +21211,7 @@
 	mother = 72397
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1184.1.1 = {
 		birth = yes
@@ -21188,7 +21229,7 @@
 	mother = 72397
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1174.1.1 = {
 		birth = yes
@@ -21209,7 +21250,7 @@
 	mother = 72000
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1201.1.1 = {
 		birth = yes
@@ -21230,7 +21271,7 @@
 	mother = 72000
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1203.1.1 = {
 		birth = yes
@@ -21252,7 +21293,7 @@
 	mother = 73021
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1251.1.1 = {
 		birth = yes
@@ -21271,7 +21312,7 @@
 	mother = 73021
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1253.1.1 = {
 		birth = yes
@@ -21289,7 +21330,7 @@
 	mother = 72000
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1205.1.1 = {
 		birth = yes
@@ -21308,7 +21349,7 @@
 	mother = 72000
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1207.1.1 = {
 		birth = yes
@@ -21327,7 +21368,7 @@
 	mother = 72000
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1209.1.1 = {
 		birth = yes
@@ -21392,7 +21433,7 @@
 	dynasty = 12158
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1080.1.1 = {
 		birth = yes
@@ -21414,7 +21455,7 @@
 	mother = 71354
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1119.1.1 = {
 		birth = yes
@@ -21430,7 +21471,7 @@
 	dynasty = 12158
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	father = 72720
 	mother = 71354
@@ -21448,7 +21489,7 @@
 	dynasty = 278
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1050.1.1 = {
 		birth = yes
@@ -21466,7 +21507,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1054.1.1 = {
 		birth = yes
@@ -21484,7 +21525,7 @@
 	mother = 72778
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	trait = detached_priest
 
@@ -21505,7 +21546,7 @@
 	mother = 72778
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1077.1.1 = {
 		birth = yes
@@ -21524,7 +21565,7 @@
 	mother = 72778
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1079.1.1 = {
 		birth = yes
@@ -21543,7 +21584,7 @@
 	mother = 72778
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1081.1.1 = {
 		birth = yes
@@ -21558,7 +21599,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1070.1.1 = {
 		birth = yes
@@ -21573,7 +21614,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1089.1.1 = {
 		birth = yes
@@ -21591,7 +21632,7 @@
 	mother = 72785
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1091.1.1 = {
 		birth = yes
@@ -21612,7 +21653,7 @@
 	female = yes
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1091.1.1 = {
 		birth = yes
@@ -21630,7 +21671,7 @@
 	mother = 72789
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1108.1.1 = {
 		birth = yes
@@ -21649,7 +21690,7 @@
 	mother = 72789
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1109.1.1 = {
 		birth = yes
@@ -21667,7 +21708,7 @@
 	mother = 72789
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1110.1.1 = {
 		birth = yes
@@ -21685,7 +21726,7 @@
 	mother = 72789
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1112.1.1 = {
 		birth = yes
@@ -21703,7 +21744,7 @@
 	mother = 91092
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1114.1.1 = {
 		birth = yes
@@ -21722,7 +21763,7 @@
 	mother = 91092
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1116.1.1 = {
 		birth = yes
@@ -21740,7 +21781,7 @@
 	mother = 91092
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1118.1.1 = {
 		birth = yes
@@ -21759,7 +21800,7 @@
 	mother = 91092
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1120.1.1 = {
 		birth = yes
@@ -21778,10 +21819,13 @@
 	mother = 91092
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1122.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1169.9.21 = {
 		death = yes
@@ -21793,7 +21837,7 @@
 	dynasty = 12116
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	father = 72800
 
@@ -21802,6 +21846,9 @@
 	}
 	1140.1.1 = {
 		add_spouse = 72798
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1217.6.14 = {
 		death = yes
@@ -21813,7 +21860,7 @@
 	dynasty = 12116
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1095.1.1 = {
 		birth = yes
@@ -21830,13 +21877,16 @@
 	father = 72800
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1118.1.1 = {
 		birth = yes
 	}
 	1135.1.1 = {
 		add_spouse = 72858
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1191.3.2 = {
 		death = yes
@@ -21852,12 +21902,15 @@
 	mother = 72858
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	trait = detached_priest
 
 	1136.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1195.1.1 = {
 		death = yes
@@ -21872,10 +21925,13 @@
 	mother = 72858
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1138.1.1 = {
 		birth = yes
+	}
+	1150.1.1 = {
+		culture = portuguese
 	}
 	1190.1.1 = {
 		death = yes
@@ -23641,7 +23697,7 @@
 	}
 }
 
-457670 = {
+galician = {
 	name = "Pedro"
 	dynasty = 279
 
@@ -23649,7 +23705,7 @@
 	mother = 457675
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1297.1.1 = {
 		birth = yes
@@ -23674,7 +23730,7 @@
 	mother = 72000
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1211.1.1 = {
 		birth = yes
@@ -23693,7 +23749,7 @@
 	trait = bastard
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1327.1.1 = {
 		birth = yes
@@ -23711,7 +23767,7 @@
 	mother = 71443
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1267.1.1 = {
 		birth = yes
@@ -23732,7 +23788,7 @@
 	trait = bastard
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	1330.1.1 = {
 		birth = yes
@@ -23750,7 +23806,7 @@
 	mother = 72831
 
 	religion = catholic
-	culture = portuguese
+	culture = galician
 
 	trait = scholarly_theologian
 
