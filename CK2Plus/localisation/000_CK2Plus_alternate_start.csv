@@ -1,0 +1,52 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+######################################
+#
+#	Plus additional alt religion names
+#
+######################################
+
+# High Gods
+ALT_GOD_THE_FORBIDDEN;The Forbidden;TODO;TODO;;TODO;;;;;;;;;x
+ALT_GOD_THE_QUIET_ONE;The Quiet One;TODO;TODO;;TODO;;;;;;;;;x
+ALT_GOD_THE_GOD_EMPEROR;The God Emperor;TODO;TODO;;TODO;;;;;;;;;x
+ALT_GOD_THE_ONE;The One;TODO;TODO;;TODO;;;;;;;;;x
+ALT_GOD_THE_TWINS;The Twins;TODO;TODO;;TODO;;;;;;;;;x
+ALT_GOD_THE_ORACLE;The Oracle;TODO;TODO;;TODO;;;;;;;;;x
+ALT_GOD_THE_ALL_HIGH;The All High;TODO;TODO;;TODO;;;;;;;;;x
+ALT_GOD_THE_FATHER_OF_ALL;The Father of All;TODO;TODO;;TODO;;;;;;;;;x
+ALT_GOD_THE_BLESSED_ONE;The Blessed One;TODO;TODO;;TODO;;;;;;;;;x
+# Evil Gods
+ALT_EVILGOD_THE_BANISHED;The Banished;TODO;TODO;;TODO;;;;;;;;;x
+ALT_EVILGOD_THE_LOUD_ONE;The Loud One;TODO;TODO;;TODO;;;;;;;;;x
+ALT_EVILGOD_HERESY;HERESY;TODO;TODO;;TODO;;;;;;;;;x
+ALT_EVILGOD_THE_ROGUE_AGENT;The Rogue Agent;TODO;TODO;;TODO;;;;;;;;;x
+ALT_EVILGOD_THE_TRIANGULAR_ONE;The Triangular One;TODO;TODO;;TODO;;;;;;;;;x
+ALT_EVILGOD_THE_DECEIVER;The Deceiver;TODO;TODO;;TODO;;;;;;;;;x
+ALT_EVILGOD_THE_CORRUPTER;The Corrupter;TODO;TODO;;TODO;;;;;;;;;x
+ALT_EVILGOD_THE_BLACK_FOE;The Black Foe;TODO;TODO;;TODO;;;;;;;;;x
+ALT_EVILGOD_THE_MARRER;The Marrer;TODO;TODO;;TODO;;;;;;;;;x
+# Scriptures
+ALT_BOOK_THE_RULES;The Rules;TODO;TODO;;TODO;;;;;;;;;x
+ALT_BOOK_THE_UNSPOKEN_WRITINGS;The Unspoken Writings;TODO;TODO;;TODO;;;;;;;;;x
+ALT_BOOK_THE_TAROTS;The Tarots;TODO;TODO;;TODO;;;;;;;;;x
+ALT_BOOK_THE_CODE;The Code;TODO;TODO;;TODO;;;;;;;;;x
+ALT_BOOK_THE_JOURNALS;The Journals;TODO;TODO;;TODO;;;;;;;;;x
+ALT_BOOK_THE_BOOK_OF_WISDOM;The Book of Wisdom;TODO;TODO;;TODO;;;;;;;;;x
+ALT_BOOK_THE_BLUE_BOOK_OF_THE_EASTMARCH;The Blue Book of the Eastmarch;TODO;TODO;;TODO;;;;;;;;;x
+# Priests
+ALT_PRIEST_DRUID;Druid;TODO;TODO;;TODO;;;;;;;;;x
+ALT_PRIEST_PASTOR;Pastor;TODO;TODO;;TODO;;;;;;;;;x
+ALT_PRIEST_MEDIATOR;Mediator;TODO;TODO;;TODO;;;;;;;;;x
+ALT_PRIEST_GURU;Guru;TODO;TODO;;TODO;;;;;;;;;x
+ALT_PRIEST_MEASTER;Maester;TODO;TODO;;TODO;;;;;;;;;x
+# Religions (vanilla until 26)
+ALT_START_GENERIC_RELIGION_DESC_27;The followers of the [GetName] religion believe that their god, [GetHighGodName], was betrayed by his brother, [GetRandomEvilGodName] after the former created the world. [GetRandomEvilGodName] split [GetHighGodName] into five pieces and spread them all over the earth, so as to limit the creator's power. But if these parts were ever be brought back together, according to [GetScriptureName] it would mean that [GetHighGodName] would regain his ultimate power and be able to win the duel with his evil brother.;TODO;TODO;;TODO;;;;;;;;;x
+ALT_START_GENERIC_RELIGION_DESC_28;Adherents of the faith of [GetName] believe that sin came into the world with the first spoken word. Thus, their [GetPriestTitle]s are not allowed to preach aloud, and instead blessed copies of [GetScriptureName] are distributed between the faithful, which are then read individually in silence. To show their allegiance to [GetHighGodName] (whose name must never be uttered), followers are advised to spend one day each week in complete silence, communicating with others only through nods, gestures and writings.;TODO;TODO;;TODO;;;;;;;;;x
+ALT_START_GENERIC_RELIGION_DESC_29;The [GetName] faith preaches that [GetHighGodName] sits deep underground on a golden throne, and using his immense, pure will to guide his people and shield them from the evil that is [GetRandomEvilGodName]. The [GetPriestTitle]s use [GetScriptureName] to communicate with [GetHighGodName], and use their advice for the betterment of their community. While the [GetName] is rather flexible and able to adapt easily to other cultures by re-interpreting their [GetScriptureName], its warriors and [GetPriestTitle] fight vigorousely to destroy anyone who doubts that [GetHighGodName] is the one, true god.;TODO;TODO;;TODO;;;;;;;;;x
+ALT_START_GENERIC_RELIGION_DESC_30;Followers of [GetName] believe their world to actually just be a simulation. They believe [GetRandomEvilGodName] can control time as well as any highborn person in the world, and create and destroy their world at whim, because it is not the true "reality", wherein [GetRandomEvilGodName] resides. Only [GetHighGodName], a normal human who posseses supernatural abilities that defy nature's laws, could see through the mysterious letters within [GetScriptureName] - but he has not been found yet. Thus [GetPriestTitle]s search for nyone that could be [GetHighGodName] in secret, while urging their faithful to never show any signs that they know the truth about reality.;TODO;TODO;;TODO;;;;;;;;;x
+ALT_START_GENERIC_RELIGION_DESC_31;[GetRandomEvilGodName] for a long time has tried to break out of his dimension, the Night Realm, in order to turn this world into a den of madness and weirdness. So the good people of [GetName] believe. Only [GetHighGodName] together with their powerful friends and family can defeat [GetRandomEvilGodName] in the final battle. When this is done, the [GetPriestTitle]s actually assume anything supernatural as described in [GetScriptureName] will cease to exist, and the world will be a peaceful and ordinary place. They also believe axolotls to be supernatural beings, albeit never having seen one yet.;TODO;TODO;;TODO;;;;;;;;;x
+ALT_START_GENERIC_RELIGION_DESC_32;The [GetName] religion has just three simple rules: You should pray to [GetHighGodName] and be a good person because that brings salvation. You should not pray to [GetRandomEvilGodName] and not be a bad person because that brings damnation. You should buy a copy of [GetScriptureName] from your local [GetPriestTitle] every year if you can afford it, and give it to someone who hasn't got it yet, to spread the faith. Its simplicity is a major contributor to [GetName]'s appeal, but sadly it lacks any definition of what a "good" or "bad" person is. Also, [GetScriptureName] hardly contains any useful information beyond the three rules, so some people refrain from bying it.;TODO;TODO;;TODO;;;;;;;;;x
+# Heresies (vanilla until 20)
+ALT_START_GENERIC_HERESY_DESC_21;According to [GetScriptureName], true salvation can only be achieved by following the [GetName] religion. That's why its adherents are completely puzzeled why anyone would subscribe to a different faith. Given that their parent religion is somehow distinct, as little difference their might be, followers of that faith are assumed to be lost to eternal damnation. This naturally has created conflict between both branches of the religion.;TODO;TODO;;TODO;;;;;;;;;x
+ALT_START_GENERIC_HERESY_DESC_22;Believers of the [GetName] faith only accept people with certain birthmarks as [GetPriestTitle]s. The birthmark may be on any part of the body, and several shapes are allowed as per the revised [GetScriptureName]. They believe the birthmarks to be signs from [GetHighGodName] that a person is worthy as a mediator to the divine world, and accuse their parent religion as well as [GetRandomEvilGodName] of having tampered with [GetScriptureName] and scrapped the parts referring to these birthmarks.;TODO;TODO;;TODO;;;;;;;;;x
