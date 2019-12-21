@@ -28,7 +28,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = aragonese
 	trait = charitable
 	trait = flamboyant_schemer
 	995.1.1 = {
@@ -273,7 +273,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = content
 	trait = naive_appeaser
 	father = 108570
@@ -551,7 +551,7 @@
 	mother = 70101
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1037.1.1 = {
 		birth = yes
@@ -572,7 +572,7 @@
 	mother = 107671
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	967.1.1 = {
 		birth = yes
@@ -589,7 +589,7 @@
 	father = 200079
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	995.1.1 = {
 		birth = yes
@@ -613,7 +613,7 @@
 	mother = 70099
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1046.1.1 = {
 		birth = yes
@@ -635,7 +635,7 @@
 	mother = 70102
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1070.1.1 = {
 		birth = yes
@@ -654,7 +654,7 @@
 	mother = 70102
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1074.1.1 = {
 		birth = yes
@@ -673,7 +673,7 @@
 	mother = 70102
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1072.1.1 = {
 		birth = yes
@@ -887,7 +887,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = patient
 	trait = deceitful
 	trait = cynical
@@ -969,7 +969,7 @@
 	name = "Diego"
 	dynasty = 402
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = tough_soldier
 	father = 70092
 	mother = 70093
@@ -988,7 +988,7 @@
 	name = "Rodrigo"
 	dynasty = 402
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = tough_soldier
 	father = 108510
 	mother = 108511
@@ -1007,7 +1007,7 @@
 	name = "Fernando"
 	dynasty = 402
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = amateurish_plotter
 	father = 108510
 	mother = 108511
@@ -1030,7 +1030,7 @@
 	female = yes
 	dynasty = 402
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = wroth
 	trait = thrifty_clerk
 	father = 108510
@@ -1160,7 +1160,7 @@
 	mother = 70244
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	martial = 4
 	diplomacy = 7
@@ -1194,7 +1194,7 @@
 	female = yes
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	965.1.1 = {
 		birth = yes
@@ -1213,7 +1213,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	trait = clubfooted
 	trait = amateurish_plotter
@@ -1231,7 +1231,7 @@
 	name = "Ramiro" #AKA: Ramiro III 'el Niño'
 	dynasty = 436
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = deceitful
 	trait = brave
 	trait = flamboyant_schemer
@@ -1261,7 +1261,7 @@
 	intrigue = 2
 	stewardship = 7
 	religion = catholic
-	culture = castillan
+	culture = galician
 	trait = honest
 	trait = wroth
 	trait = arbitrary
@@ -1292,7 +1292,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = catholic
-	culture = castillan
+	culture = aragonese
 	trait = flamboyant_schemer
 	father = 110510
 	mother = 1077
@@ -1466,7 +1466,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	father = 108500
 	mother = 70061
@@ -2077,7 +2077,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = honest
 	trait = amateurish_plotter
 	father = 108500
@@ -2104,7 +2104,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	trait = humble
 	trait = amateurish_plotter
@@ -2127,7 +2127,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = humble
 	trait = amateurish_plotter
 	father = 108500
@@ -2148,7 +2148,7 @@
 	intrigue = 2
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = slothful
 	trait = charitable
 	trait = misguided_warrior
@@ -2189,7 +2189,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = thrifty_clerk
 	father = 208500
 	mother = 208551
@@ -2227,7 +2227,7 @@
 	name = "Pedro"
 	dynasty = 101884
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = kind
 	trait = zealous
 	trait = diligent
@@ -2315,7 +2315,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = castillan
+	culture = aragonese
 	trait = amateurish_plotter
 	trait = proud
 	trait = kind
@@ -3519,7 +3519,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = fortune_builder
 	father = 457621
 	mother = 70903
@@ -3549,7 +3549,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = scholarly_theologian
 	father = 457630
 	mother = 460564
@@ -3569,7 +3569,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = hunchback
 	trait = midas_touched
 	father = 457630
@@ -3590,7 +3590,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	trait = tough_soldier
 	father = 457621
@@ -3609,7 +3609,7 @@
 	name = "Inés"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1300.1.1 = {
 		birth = yes
 	}
@@ -3626,7 +3626,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = humble
 	trait = tough_soldier
 	father = 457633
@@ -3687,7 +3687,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = tough_soldier
 	father = 208500
 	mother = 209501
@@ -4230,7 +4230,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = diligent
 	trait = honest
 	trait = tough_soldier
@@ -4254,7 +4254,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = charitable
 	trait = honest
 	trait = misguided_warrior
@@ -4279,7 +4279,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = kind
 	trait = just
 	trait = martial_cleric
@@ -4305,7 +4305,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = slothful
 	trait = deceitful
 	trait = midas_touched
@@ -4328,7 +4328,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = wroth
 	trait = thrifty_clerk
 	father = 458021
@@ -4349,7 +4349,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = craven
 	trait = thrifty_clerk
 	father = 458021
@@ -4370,7 +4370,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = wroth
 	trait = tough_soldier
 	father = 458021
@@ -4391,7 +4391,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = arbitrary
 	trait = thrifty_clerk
 	father = 458021
@@ -4413,7 +4413,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = tough_soldier
 	father = 458021
 	mother = 458024
@@ -4530,7 +4530,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	trait = cynical
 	trait = underhanded_rogue
@@ -4554,7 +4554,7 @@
 	intrigue = 5
 	stewardship = 3
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = craven
 	trait = scholar
 	trait = misguided_warrior
@@ -4579,7 +4579,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = ambitious
 	trait = brave
 	trait = tough_soldier
@@ -4604,7 +4604,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = charitable
 	trait = gregarious
 	trait = thrifty_clerk
@@ -4627,7 +4627,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = proud
 	trait = temperate
 	trait = naive_appeaser
@@ -4650,7 +4650,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = charitable
 	trait = gardener
 	trait = amateurish_plotter
@@ -4672,7 +4672,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = diligent
 	trait = honest
 	trait = fortune_builder
@@ -4694,7 +4694,7 @@
 	female = yes
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1030.1.1 = {
 		birth = yes
@@ -4716,7 +4716,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = fair
 	trait = mystic
 	trait = underhanded_rogue
@@ -4738,7 +4738,7 @@
 	mother = 70039
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1050.1.1 = {
 		birth = yes
@@ -4756,7 +4756,7 @@
 	mother = 70039
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	trait = detached_priest
 
@@ -4776,7 +4776,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = slothful
 	trait = greedy
 	trait = flamboyant_schemer
@@ -4801,7 +4801,7 @@
 	mother = 70113
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1030.1.1 = {
 		birth = yes
@@ -4822,7 +4822,7 @@
 	female = yes
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1032.1.1 = {
 		birth = yes
@@ -4840,7 +4840,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = humble
 	trait = honest
 	trait = misguided_warrior
@@ -4862,7 +4862,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = shy
 	trait = content
 	trait = indulgent_wastrel
@@ -4888,7 +4888,7 @@
 	intrigue = 7
 	stewardship = 3
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = humble
 	trait = chaste
 	trait = underhanded_rogue
@@ -4910,7 +4910,7 @@
 	intrigue = 3
 	stewardship = 4
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = proud
 	trait = arbitrary
 	trait = misguided_warrior
@@ -4933,7 +4933,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = deceitful
 	trait = wroth
 	trait = thrifty_clerk
@@ -4955,7 +4955,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = greedy
 	trait = zealous
 	trait = flamboyant_schemer
@@ -4976,7 +4976,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = just
 	trait = honest
 	trait = naive_appeaser
@@ -5003,7 +5003,7 @@
 	intrigue = 3
 	stewardship = 8
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = patient
 	trait = diligent
 	trait = amateurish_plotter
@@ -5030,7 +5030,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = craven
 	trait = gregarious
 	trait = fortune_builder
@@ -5051,7 +5051,7 @@
 	mother = 109624
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	martial = 4
 	diplomacy = 3
@@ -5096,7 +5096,7 @@
 	female = yes
 	dynasty = 402
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = cynical
 	trait = proud
 	trait = amateurish_plotter
@@ -5142,7 +5142,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = hunter
 	trait = patient
 	trait = tough_soldier
@@ -5570,7 +5570,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = catholic
-	culture = castillan
+	culture = aragonese
 	trait = brave
 	trait = duelist
 	trait = tough_soldier
@@ -5599,7 +5599,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = catholic
-	culture = castillan
+	culture = aragonese
 	trait = brave
 	trait = hunter
 	trait = brilliant_strategist
@@ -5638,7 +5638,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = catholic
-	culture = castillan
+	culture = aragonese
 	trait = chaste
 	trait = scholar
 	trait = scholarly_theologian
@@ -5932,7 +5932,7 @@
 	mother = 70251
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1013.1.1 = {
 		birth = yes
@@ -6201,7 +6201,7 @@
 	name = "Álvaro"
 	dynasty = 8740
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1070.1.1 = {
 		birth = yes
 	}
@@ -6221,7 +6221,7 @@
 	mother = 71328
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1098.1.1 = {
 		birth = yes
@@ -6235,7 +6235,7 @@
 	name = "Rodrigo"
 	dynasty = 8740
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 71329
 	mother = 71328
 	1100.1.1 = {
@@ -6251,7 +6251,7 @@
 	dynasty = 8740
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 71329
 	mother = 71328
 	1102.1.1 = {
@@ -6266,7 +6266,7 @@
 	name = "Rodrigo"
 	dynasty = 8779
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 70050
 	mother = 70033
 	trait = bastard
@@ -6283,7 +6283,7 @@
 	female = yes
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1066.1.1 = {
 		birth = yes
@@ -6298,7 +6298,7 @@
 	dynasty = 402
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 108514
 	mother = 71355
 	1100.1.1 = {
@@ -6470,7 +6470,7 @@
 	name = "Sancho"
 	dynasty = 442
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	father = 108500
 	mother = 71373
@@ -6490,7 +6490,7 @@
 	dynasty = 442
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 108500
 	mother = 71373
 	1101.1.1 = {
@@ -6853,7 +6853,7 @@
 	name = "García"
 	dynasty = 681
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	father = 208500
 	mother = 207562
@@ -6869,7 +6869,7 @@
 	name = "Alfonso"
 	dynasty = 681
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	father = 208500
 	mother = 207562
@@ -6889,7 +6889,7 @@
 	name = "Sancho"
 	dynasty = 681
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	father = 208500
 	mother = 207562
@@ -6912,7 +6912,7 @@
 	name = "Diego"
 	dynasty = 681
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 71410
 	mother = 71411
 	1211.1.1 = {
@@ -6943,7 +6943,7 @@
 	name = "Juan"
 	dynasty = 681
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 71412
 	mother = 71413
 	1230.1.1 = {
@@ -6958,7 +6958,7 @@
 	name = "Diego"
 	dynasty = 681
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 71412
 	mother = 71413
 	1232.1.1 = {
@@ -7025,7 +7025,7 @@
 	name = "Sancho"
 	dynasty = 681
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = bastard
 	father = 208500
 	1188.1.1 = {
@@ -8051,7 +8051,7 @@
 	name = "Luis"
 	dynasty = 681
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 71486
 	mother = 72585
 	1267.1.1 = {
@@ -8896,7 +8896,7 @@
 	name = "Fernando"
 	dynasty = 442
 	religion = catholic
-	culture = castillan
+	culture = aragonese
 	father = 110500
 	mother = 71589
 	1080.1.1 = {
@@ -8911,7 +8911,7 @@
 	name = "García"
 	dynasty = 442
 	religion = catholic
-	culture = castillan
+	culture = aragonese
 	trait = bastard
 	trait = detached_priest
 	father = 110500
@@ -9723,7 +9723,7 @@
 	name = "Fernando"
 	dynasty = 100189
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72396
 	trait = bastard
 	1150.1.1 = {
@@ -9739,7 +9739,7 @@
 	dynasty = 100189
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72398
 	1174.1.1 = {
 		birth = yes
@@ -9753,7 +9753,7 @@
 	name = "Velasco"
 	dynasty = 100189
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72398
 	1176.1.1 = {
 		birth = yes
@@ -9767,7 +9767,7 @@
 	name = "Pedro"
 	dynasty = 100189
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72398
 	1178.1.1 = {
 		birth = yes
@@ -9781,7 +9781,7 @@
 	name = "Juan"
 	dynasty = 12143
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72475
 	mother = 72477
 	1218.1.1 = {
@@ -13469,7 +13469,7 @@
 	name = "Juan"
 	dynasty = 437
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = martial_cleric
 	father = 72683
 	mother = 73015
@@ -13651,7 +13651,7 @@
 	name = "Diego"
 	dynasty = 402
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 108514
 	mother = 71355
 	1090.1.1 = {
@@ -13666,7 +13666,7 @@
 	name = "Muño"
 	dynasty = 402
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 108514
 	mother = 71355
 	1092.1.1 = {
@@ -13682,7 +13682,7 @@
 	dynasty = 402
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 108514
 	mother = 71355
 	1094.1.1 = {
@@ -13698,7 +13698,7 @@
 	dynasty = 402
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 108514
 	mother = 71355
 	1096.1.1 = {
@@ -13714,7 +13714,7 @@
 	dynasty = 402
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 108514
 	mother = 71355
 	1098.1.1 = {
@@ -13779,7 +13779,7 @@
 	mother = 72704
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1130.1.1 = {
 		birth = yes
@@ -13801,7 +13801,7 @@
 	mother = 72738
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1149.1.1 = {
 		birth = yes
@@ -13819,7 +13819,7 @@
 	mother = 72738
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1150.1.1 = {
 		birth = yes
@@ -13837,7 +13837,7 @@
 	mother = 72738
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1152.1.1 = {
 		birth = yes
@@ -13856,7 +13856,7 @@
 	mother = 72738
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1154.1.1 = {
 		birth = yes
@@ -13874,7 +13874,7 @@
 	mother = 72738
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1155.1.1 = {
 		birth = yes
@@ -13892,7 +13892,7 @@
 	mother = 72738
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1157.1.1 = {
 		birth = yes
@@ -13906,7 +13906,7 @@
 	name = "Sancho"
 	dynasty = 402
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72701
 	1120.1.1 = {
 		birth = yes
@@ -13923,7 +13923,7 @@
 	father = 72701
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1122.1.1 = {
 		birth = yes
@@ -13938,7 +13938,7 @@
 	dynasty = 402
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72701
 	1124.1.1 = {
 		birth = yes
@@ -13953,7 +13953,7 @@
 	dynasty = 402
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72701
 	1126.1.1 = {
 		birth = yes
@@ -14095,7 +14095,7 @@
 	name = "Diego"
 	dynasty = 12159
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72725
 	mother = 71350
 	1109.1.1 = {
@@ -14116,7 +14116,7 @@
 	name = "Gonzalo"
 	dynasty = 12159
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72725
 	mother = 71350
 	1110.1.1 = {
@@ -14137,7 +14137,7 @@
 	name = "Rodrigo"
 	dynasty = 12159
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72725
 	mother = 71350
 	1111.1.1 = {
@@ -14156,7 +14156,7 @@
 	dynasty = 12159
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72725
 	mother = 71350
 	1113.1.1 = {
@@ -14172,7 +14172,7 @@
 	dynasty = 12159
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72725
 	mother = 71350
 	1114.1.1 = {
@@ -14188,7 +14188,7 @@
 	dynasty = 12159
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72725
 	mother = 71350
 	1116.1.1 = {
@@ -14204,7 +14204,7 @@
 	dynasty = 12159
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72725
 	mother = 71350
 	1117.1.1 = {
@@ -14220,7 +14220,7 @@
 	dynasty = 12159
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72725
 	mother = 71350
 	1119.1.1 = {
@@ -14235,7 +14235,7 @@
 	name = "Sancha"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1112.1.1 = {
 		birth = yes
 	}
@@ -14248,7 +14248,7 @@
 	name = "Pelayo"
 	dynasty = 12159
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72730
 	mother = 72739
 	1131.1.1 = {
@@ -14263,7 +14263,7 @@
 	name = "Juliana"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1113.1.1 = {
 		birth = yes
 	}
@@ -14503,7 +14503,7 @@
 	dynasty = 401
 	trait = detached_priest
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72731
 	mother = 72756
 	1151.1.1 = {
@@ -14518,7 +14518,7 @@
 	name = "Álvaro"
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72731
 	mother = 72756
 	1153.1.1 = {
@@ -14536,7 +14536,7 @@
 	name = "Ordoño"
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72758
 	mother = 72992
 	1213.1.1 = {
@@ -14551,7 +14551,7 @@
 	name = "Pedro"
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72758
 	mother = 72992
 	1214.1.1 = {
@@ -14569,7 +14569,7 @@
 	name = "Alfonso"
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72758
 	mother = 72992
 	1215.1.1 = {
@@ -14587,7 +14587,7 @@
 	name = "Álvaro"
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72758
 	mother = 72992
 	1216.1.1 = {
@@ -14606,7 +14606,7 @@
 	dynasty = 401
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72758
 	mother = 72992
 	1217.1.1 = {
@@ -14622,7 +14622,7 @@
 	dynasty = 401
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72758
 	mother = 72992
 	1218.1.1 = {
@@ -14637,7 +14637,7 @@
 	name = "Juan"
 	dynasty = 12161
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1200.1.1 = {
 		birth = yes
 	}
@@ -14654,7 +14654,7 @@
 	dynasty = 401
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72761
 	mother = 72530
 	1265.1.1 = {
@@ -14669,7 +14669,7 @@
 	name = "Juana"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1230.1.1 = {
 		birth = yes
 	}
@@ -14683,7 +14683,7 @@
 	dynasty = 401
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72762
 	mother = 72767
 	1249.1.1 = {
@@ -14698,7 +14698,7 @@
 	name = "Pedro"
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72760
 	mother = 72531
 	1261.1.1 = {
@@ -14716,7 +14716,7 @@
 	name = "Rodrigo"
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72760
 	mother = 72531
 	1263.1.1 = {
@@ -14734,7 +14734,7 @@
 	name = "Mencía"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1262.1.1 = {
 		birth = yes
 	}
@@ -14747,7 +14747,7 @@
 	name = "Juana"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1263.1.1 = {
 		birth = yes
 	}
@@ -14760,7 +14760,7 @@
 	name = "Rodrigo"
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72770
 	mother = 72772
 	1281.1.1 = {
@@ -14779,7 +14779,7 @@
 	female = yes
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72770
 	mother = 72772
 	1282.1.1 = {
@@ -14795,7 +14795,7 @@
 	female = yes
 	dynasty = 401
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72770
 	mother = 72772
 	1280.1.1 = {
@@ -15946,7 +15946,7 @@
 	name = "Esteban"
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	trait = scholarly_theologian
 
@@ -15962,7 +15962,7 @@
 	name = "Guillén"
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	trait = scholarly_theologian
 
@@ -15978,7 +15978,7 @@
 	name = "Martín"
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	trait = scholarly_theologian
 
@@ -16440,7 +16440,7 @@
 	name = "Álvar"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72966
 	mother = 72981
 	1136.1.1 = {
@@ -16455,7 +16455,7 @@
 	name = "Pedro"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72966
 	mother = 72981
 	1138.1.1 = {
@@ -16473,7 +16473,7 @@
 	name = "Diego"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72983
 	mother = 72979
 	1177.1.1 = {
@@ -16488,7 +16488,7 @@
 	name = "Fernando"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72983
 	mother = 72979
 	1178.1.1 = {
@@ -16503,7 +16503,7 @@
 	name = "Gonzalo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72377
 	mother = 73106
 	1165.1.1 = {
@@ -16524,7 +16524,7 @@
 	name = "Gutierre"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = detached_priest
 	father = 72377
 	mother = 73106
@@ -16540,7 +16540,7 @@
 	name = "Álvar"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72377
 	mother = 73106
 	1167.1.1 = {
@@ -16558,7 +16558,7 @@
 	name = "Fernando"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72988
 	mother = 73110
 	1191.1.1 = {
@@ -16577,7 +16577,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72989
 	mother = 72997
 	1219.1.1 = {
@@ -16594,7 +16594,7 @@
 	father = 72377
 	mother = 73106
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1169.1.1 = {
 		birth = yes
 	}
@@ -16615,7 +16615,7 @@
 	mother = 142039
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1195.1.1 = {
 		birth = yes
@@ -16629,7 +16629,7 @@
 	name = "Nuño"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72377
 	mother = 73106
 	1170.1.1 = {
@@ -16644,7 +16644,7 @@
 	name = "Rodrigo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72377
 	mother = 73106
 	1172.1.1 = {
@@ -16662,7 +16662,7 @@
 	name = "Inés"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1178.1.1 = {
 		birth = yes
 	}
@@ -16676,7 +16676,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72994
 	mother = 72995
 	1197.1.1 = {
@@ -16692,7 +16692,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72994
 	mother = 72995
 	1199.1.1 = {
@@ -16708,7 +16708,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72377
 	mother = 73106
 	1173.1.1 = {
@@ -16724,7 +16724,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72377
 	mother = 73106
 	1175.1.1 = {
@@ -16739,7 +16739,7 @@
 	name = "Marquesa"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1196.1.1 = {
 		birth = yes
 	}
@@ -16752,7 +16752,7 @@
 	name = "Rodrigo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 72419
 	1191.1.1 = {
@@ -16776,7 +16776,7 @@
 	name = "Gonzalo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 72419
 	1193.1.1 = {
@@ -16794,7 +16794,7 @@
 	name = "Teresa"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1199.1.1 = {
 		birth = yes
 	}
@@ -16807,7 +16807,7 @@
 	name = "Rodrigo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73002
 	mother = 73003
 	1218.1.1 = {
@@ -16822,7 +16822,7 @@
 	name = "Gonzalo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73002
 	mother = 73003
 	1221.1.1 = {
@@ -16838,7 +16838,7 @@
 	dynasty = 7025
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 72419
 	1195.1.1 = {
@@ -16854,7 +16854,7 @@
 	dynasty = 7025
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 72419
 	1197.1.1 = {
@@ -16870,7 +16870,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 72419
 	1199.1.1 = {
@@ -16886,7 +16886,7 @@
 	dynasty = 7025
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 72419
 	1201.1.1 = {
@@ -16902,7 +16902,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = detached_priest
 	father = 72986
 	mother = 72419
@@ -16918,7 +16918,7 @@
 	name = "Pedro"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 73000
 	1215.1.1 = {
@@ -16937,7 +16937,7 @@
 	mother = 73000
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1216.1.1 = {
 		birth = yes
@@ -16951,7 +16951,7 @@
 	name = "Nuño"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 73000
 	1217.1.1 = {
@@ -16967,7 +16967,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 73000
 	1219.1.1 = {
@@ -16983,7 +16983,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 73000
 	1220.1.1 = {
@@ -16999,7 +16999,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 73000
 	1222.1.1 = {
@@ -17015,7 +17015,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 73000
 	1223.1.1 = {
@@ -17031,7 +17031,7 @@
 	dynasty = 7025
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 72986
 	mother = 73000
 	1225.1.1 = {
@@ -17046,7 +17046,7 @@
 	name = "Mayor"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1202.1.1 = {
 		birth = yes
 	}
@@ -17059,7 +17059,7 @@
 	name = "Gonzalo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73001
 	mother = 73019
 	1230.1.1 = {
@@ -17078,7 +17078,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73001
 	mother = 73019
 	1232.1.1 = {
@@ -17094,7 +17094,7 @@
 	female = yes
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73001
 	mother = 71970
 	1244.1.1 = {
@@ -17109,7 +17109,7 @@
 	name = "Gonzalo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73020
 	mother = 72628
 	1264.1.1 = {
@@ -17124,7 +17124,7 @@
 	name = "Rodrigo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73020
 	mother = 72628
 	1266.1.1 = {
@@ -17143,7 +17143,7 @@
 	dynasty = 7025
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73020
 	mother = 72628
 	1268.1.1 = {
@@ -17158,7 +17158,7 @@
 	name = "Berenguela"
 	female = yes
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	1269.1.1 = {
 		birth = yes
 	}
@@ -17171,7 +17171,7 @@
 	name = "Gonzalo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73024
 	mother = 73026
 	1288.1.1 = {
@@ -17189,7 +17189,7 @@
 	name = "Gonzalo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73027
 	mother = 72699
 	1324.1.1 = {
@@ -17204,7 +17204,7 @@
 	name = "Rodrigo"
 	dynasty = 7025
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73027
 	mother = 72699
 	1326.1.1 = {
@@ -17223,7 +17223,7 @@
 	mother = 72628
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1270.1.1 = {
 		birth = yes
@@ -17244,7 +17244,7 @@
 	father = 73030
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1287.1.1 = {
 		birth = yes
@@ -18097,7 +18097,7 @@
 	mother = 72998
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1194.10.19 = {
 		birth = yes
@@ -18115,7 +18115,7 @@
 	name = "Fernando"
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73082
 	mother = 71445
 	1226.1.1 = {
@@ -18130,7 +18130,7 @@
 	name = "Juan"
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73082
 	mother = 71445
 	1227.1.1 = {
@@ -18145,7 +18145,7 @@
 	name = "Rodrigo"
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = martial_cleric
 	father = 73082
 	mother = 71445
@@ -18173,7 +18173,7 @@
 	name = "Pedro"
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73082
 	mother = 71445
 	1230.1.1 = {
@@ -18188,7 +18188,7 @@
 	name = "Pedro"
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73083
 	1256.1.1 = {
 		birth = yes
@@ -18205,7 +18205,7 @@
 	name = "Gutierre"
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73083
 	1257.1.1 = {
 		birth = yes
@@ -18219,7 +18219,7 @@
 	name = "Fernando"
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73087
 	1301.1.1 = {
 		birth = yes
@@ -18233,7 +18233,7 @@
 	name = "Rodrigo"
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73087
 	1302.1.1 = {
 		birth = yes
@@ -18251,7 +18251,7 @@
 	father = 73087
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	1305.1.1 = {
 		birth = yes
@@ -18266,7 +18266,7 @@
 	female = yes
 	dynasty = 7003
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	father = 73087
 	1307.1.1 = {
 		birth = yes
@@ -19436,7 +19436,7 @@
 	name = "Pedro"
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	trait = martial_cleric
 
@@ -19579,7 +19579,7 @@
 	name = "Gonzalo"
 
 	religion = catholic
-	culture = castillan
+	culture = leonese
 
 	trait = martial_cleric
 
@@ -19607,7 +19607,7 @@
 	name = "Suero"
 	dynasty = 12191
 	religion = catholic
-	culture = castillan
+	culture = leonese
 	trait = martial_cleric
 	father = 73175
 	1270.1.1 = {
@@ -19884,7 +19884,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	trait = honest
 	trait = humble
 	trait = fortune_builder
