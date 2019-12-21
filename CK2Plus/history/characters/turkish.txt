@@ -2,8 +2,8 @@
 	name = "Kurush"
 	dynasty = 12274
 
-	culture = turkish
-	religion = zoroastrian
+	culture = oghuz
+	religion = tengri_pagan
 
 	820.1.1 = {
 		birth = yes
@@ -17,11 +17,14 @@
 	name = "Malik Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 41701
 	mother = 34263
 	1086.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		culture = turkish
 	}
 	1116.1.1 = {
 		death = yes
@@ -32,7 +35,7 @@
 	name = "Mahmud"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3042
 	1072.1.1 = {
 		birth = yes
@@ -46,7 +49,7 @@
 	name = "Barkiarok"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3042
 	1079.1.1 = {
 		birth = yes
@@ -60,7 +63,7 @@
 	name = "Mohammed"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3042
 	1081.1.1 = {
 		birth = yes
@@ -74,7 +77,7 @@
 	name = "Sanjar"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3042
 	1085.1.1 = {
 		birth = yes
@@ -88,7 +91,7 @@
 	name = "Radwan"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3044
 	1079.1.1 = {
 		birth = yes
@@ -102,7 +105,7 @@
 	name = "Alp Arslan"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144020
 	1096.1.1 = {
 		birth = yes
@@ -116,7 +119,7 @@
 	name = "Sultan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144020
 	1108.1.1 = {
 		birth = yes
@@ -130,7 +133,7 @@
 	name = "Duqaq"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3044
 	1080.1.1 = {
 		birth = yes
@@ -144,7 +147,7 @@
 	name = "Tutush"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144023
 	1103.1.1 = {
 		birth = yes
@@ -158,7 +161,7 @@
 	name = "Kerman Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3041
 	1041.1.1 = {
 		birth = yes
@@ -172,7 +175,7 @@
 	name = "Sultan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3041
 	1042.1.1 = {
 		birth = yes
@@ -186,7 +189,7 @@
 	name = "Turan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3041
 	1037.1.1 = {
 		birth = yes
@@ -200,7 +203,7 @@
 	name = "Iran Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144027
 	1067.1.1 = {
 		birth = yes
@@ -214,7 +217,7 @@
 	name = "Imad ad-Din Zengi"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3079
 	1085.1.1 = {
 		birth = yes
@@ -228,7 +231,7 @@
 	name = "Saif ad-Din Ghazi"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144029
 	1116.1.1 = {
 		birth = yes
@@ -246,7 +249,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144029
 	trait = skilled_tactician
 	trait = ambitious
@@ -264,7 +267,7 @@
 	name = "Qutb ad-Din Mawdud"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144029
 	1120.1.1 = {
 		birth = yes
@@ -278,7 +281,7 @@
 	name = "As-Salih Ismail al-Malik"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144031
 	1163.1.1 = {
 		birth = yes
@@ -292,7 +295,7 @@
 	name = "Arslan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144025
 	1072.1.1 = {
 		birth = yes
@@ -306,7 +309,7 @@
 	name = "Mehmed"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144034
 	1092.1.1 = {
 		birth = yes
@@ -320,7 +323,7 @@
 	name = "Togrul Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144035
 	1120.1.1 = {
 		birth = yes
@@ -334,7 +337,7 @@
 	name = "Bahram Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144036
 	1140.1.1 = {
 		birth = yes
@@ -348,7 +351,7 @@
 	name = "Arslan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144036
 	1141.1.1 = {
 		birth = yes
@@ -362,7 +365,7 @@
 	name = "Turan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144036
 	1142.1.1 = {
 		birth = yes
@@ -376,7 +379,7 @@
 	name = "Muhammad Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144037
 	1160.1.1 = {
 		birth = yes
@@ -390,7 +393,7 @@
 	name = "Saif ad-Din Ghazi"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144032
 	1150.1.1 = {
 		birth = yes
@@ -404,7 +407,7 @@
 	name = "Izz ad-Din Mas'ud"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144032
 	1152.1.1 = {
 		birth = yes
@@ -418,7 +421,7 @@
 	name = "Mahmud"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144014
 	1104.1.1 = {
 		birth = yes
@@ -432,10 +435,13 @@
 	name = "Saltuk"
 	dynasty = 100702
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1050.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1102.1.1 = {
 		death = yes
 	}
@@ -445,10 +451,13 @@
 	name = "Ali"
 	dynasty = 100702
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144044
 	1080.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		culture = turkish
 	}
 	1124.1.1 = {
 		death = yes
@@ -459,10 +468,13 @@
 	name = "Ziyaeddin"
 	dynasty = 100702
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144044
 	1082.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		culture = turkish
 	}
 	1132.1.1 = {
 		death = yes
@@ -529,7 +541,7 @@
 	name = "Shams al-Din Ildeniz"
 	dynasty = 101876
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1110.1.1 = {
 		birth = yes
 	}
@@ -542,7 +554,7 @@
 	name = "Mohammed Jahan Pahlavan"
 	dynasty = 101876
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144051
 	1126.1.1 = {
 		birth = yes
@@ -556,7 +568,7 @@
 	name = "Malik Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144043
 	1122.1.1 = {
 		birth = yes
@@ -570,7 +582,7 @@
 	name = "Muhammed"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144043
 	1123.1.1 = {
 		birth = yes
@@ -584,7 +596,7 @@
 	name = "Arslan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144050
 	1136.1.1 = {
 		birth = yes
@@ -598,7 +610,7 @@
 	name = "Togrul"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144055
 	1159.1.1 = {
 		birth = yes
@@ -612,7 +624,7 @@
 	name = "Ortok"
 	dynasty = 100701
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1040.1.1 = {
 		birth = yes
 	}
@@ -625,10 +637,13 @@
 	name = "Il-Ghazi"
 	dynasty = 100701
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144065
 	1070.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		culture = turkish
 	}
 	1123.1.1 = {
 		death = yes
@@ -639,10 +654,13 @@
 	name = "Sokman"
 	dynasty = 100701
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144065
 	1069.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		culture = turkish
 	}
 	1103.1.1 = {
 		death = yes
@@ -653,10 +671,13 @@
 	name = "Barkam"
 	dynasty = 100701
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144065
 	1072.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		culture = turkish
 	}
 	1122.1.1 = {
 		death = yes
@@ -667,10 +688,13 @@
 	name = "Balek"
 	dynasty = 100701
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144068
 	1091.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		culture = turkish
 	}
 	1125.1.1 = {
 		death = yes
@@ -681,10 +705,13 @@
 	name = "Davud"
 	dynasty = 100701
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144067
 	1087.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		culture = turkish
 	}
 	1144.1.1 = {
 		death = yes
@@ -723,10 +750,13 @@
 	name = "Ghazi"
 	dynasty = 100704
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1045.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1118.1.1 = {
 		death = yes
 	}
@@ -736,7 +766,7 @@
 	name = "Ishak"
 	dynasty = 100704
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144073
 	1065.1.1 = {
 		birth = yes
@@ -750,7 +780,7 @@
 	name = "Suleyman"
 	dynasty = 100704
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144074
 	1095.1.1 = {
 		birth = yes
@@ -764,7 +794,7 @@
 	name = "Qutb al-Din Muhammad"
 	dynasty = 101866
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 20713
 	1061.1.1 = {
 		birth = yes
@@ -778,7 +808,7 @@
 	name = "Atsiz"
 	dynasty = 101866
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144099
 	1091.1.1 = {
 		birth = yes
@@ -792,7 +822,7 @@
 	name = "Il-Arslan"
 	dynasty = 101866
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144100
 	1121.1.1 = {
 		birth = yes
@@ -806,7 +836,7 @@
 	name = "Mahmud"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3014
 	1034.1.1 = {
 		birth = yes
@@ -820,7 +850,7 @@
 	name = "Jibrail"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144106
 	1060.1.1 = {
 		birth = yes
@@ -834,7 +864,7 @@
 	name = "Sulayman"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144108
 	1060.1.1 = {
 		birth = yes
@@ -848,7 +878,7 @@
 	name = "Muhammad"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144110
 	1080.1.1 = {
 		birth = yes
@@ -862,7 +892,7 @@
 	name = "Nasr"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144111
 	1100.1.1 = {
 		birth = yes
@@ -876,7 +906,7 @@
 	name = "Ahmad"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144111
 	1101.1.1 = {
 		birth = yes
@@ -890,7 +920,7 @@
 	name = "Hasan"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144107
 	1101.1.1 = {
 		birth = yes
@@ -904,7 +934,7 @@
 	name = "Ibrahim"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144110
 	1081.1.1 = {
 		birth = yes
@@ -918,7 +948,7 @@
 	name = "Mahumud"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144111
 	1102.1.1 = {
 		birth = yes
@@ -932,7 +962,7 @@
 	name = "Ibrahim"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144111
 	1103.1.1 = {
 		birth = yes
@@ -946,7 +976,7 @@
 	name = "Ali"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144116
 	1121.1.1 = {
 		birth = yes
@@ -960,7 +990,7 @@
 	name = "Masud"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144116
 	1122.1.1 = {
 		birth = yes
@@ -974,7 +1004,7 @@
 	name = "Ibrahim"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93049
 	1141.1.1 = {
 		birth = yes
@@ -988,7 +1018,7 @@
 	name = "Sabuktigin" # Founder of the Ghaznavids
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 
 	martial = 12
 	diplomacy = 8
@@ -1025,7 +1055,7 @@
 	name = "Ismail"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144123
 	mother = 170305
 	970.1.1 = {
@@ -1040,7 +1070,7 @@
 	name = "Mahmud"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144123
 	mother = 170305
 	971.1.1 = {
@@ -1055,7 +1085,7 @@
 	name = "Muhammad"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144125
 	990.1.1 = {
 		birth = yes
@@ -1069,7 +1099,7 @@
 	name = "Musud"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144125
 	991.1.1 = {
 		birth = yes
@@ -1083,7 +1113,7 @@
 	name = "Mawdud"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144127
 	1011.1.1 = {
 		birth = yes
@@ -1097,7 +1127,7 @@
 	name = "Masud"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144128
 	1031.1.1 = {
 		birth = yes
@@ -1111,7 +1141,7 @@
 	name = "Ali"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144127
 	1012.1.1 = {
 		birth = yes
@@ -1125,7 +1155,7 @@
 	name = "Abd al-Rashid"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144125
 	992.1.1 = {
 		birth = yes
@@ -1139,7 +1169,7 @@
 	name = "Farrukhzad"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144127
 	1012.1.1 = {
 		birth = yes
@@ -1153,7 +1183,7 @@
 	name = "Ibrahim"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144127
 	1022.1.1 = {
 		birth = yes
@@ -1167,7 +1197,7 @@
 	name = "Masud"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144133
 	1052.1.1 = {
 		birth = yes
@@ -1181,7 +1211,7 @@
 	name = "Shirzad"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144134
 	1068.1.1 = {
 		birth = yes
@@ -1195,7 +1225,7 @@
 	name = "Arlsan Shah"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144135
 	1084.1.1 = {
 		birth = yes
@@ -1209,7 +1239,7 @@
 	name = "Bahram Shah"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144135
 	1085.1.1 = {
 		birth = yes
@@ -1223,7 +1253,7 @@
 	name = "Khusraw Shah"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144137
 	1104.1.1 = {
 		birth = yes
@@ -1237,7 +1267,7 @@
 	name = "Khusraw Malik"
 	dynasty = 790
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144138
 	1124.1.1 = {
 		birth = yes
@@ -1254,7 +1284,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = flamboyant_schemer
 	1039.1.1 = {
 		birth = yes
@@ -1273,7 +1303,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = just
 	trait = skilled_tactician
 	1039.1.1 = {
@@ -1292,7 +1322,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
@@ -1310,7 +1340,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = thrifty_clerk
 	1039.1.1 = {
 		birth = yes
@@ -1329,7 +1359,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = scholarly_theologian
 	1039.1.1 = {
 		birth = yes
@@ -1347,7 +1377,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = craven
 	trait = flamboyant_schemer
 	1039.1.1 = {
@@ -1366,7 +1396,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = skilled_tactician
 	1039.1.1 = {
 		birth = yes
@@ -1384,7 +1414,7 @@
 #	intrigue = 7
 #	stewardship = 4
 #	religion = sunni
-#	culture = turkish
+#	culture = oghuz
 #	trait = slothful
 #	trait = arbitrary
 #	trait = zealous
@@ -1405,7 +1435,7 @@
 	intrigue = 8
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = martial_cleric
 	1039.1.1 = {
 		birth = yes
@@ -1423,7 +1453,7 @@
 #	intrigue = 8
 #	stewardship = 4
 #	religion = sunni
-#	culture = turkish
+#	culture = oghuz
 #	trait = proud
 #	trait = gluttonous
 #	trait = tough_soldier
@@ -1443,7 +1473,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = skilled_tactician
 	1039.1.1 = {
 		birth = yes
@@ -1461,7 +1491,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = slothful
 	trait = patient
 	trait = gluttonous
@@ -1483,7 +1513,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = kind
 	trait = ill
 	trait = flamboyant_schemer
@@ -1503,7 +1533,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = clubfooted
 	trait = martial_cleric
 	1039.1.1 = {
@@ -1522,7 +1552,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = flamboyant_schemer
 	1041.1.1 = {
 		birth = yes
@@ -1540,7 +1570,7 @@
 #	intrigue = 8
 #	stewardship = 5
 #	religion = sunni
-#	culture = turkish
+#	culture = oghuz
 #	trait = zealous
 #	trait = skilled_tactician
 #	1039.1.1 = {
@@ -1559,7 +1589,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = charitable
 	trait = honest
 	trait = proud
@@ -1616,7 +1646,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = brave
 	trait = clubfooted
 	trait = tough_soldier
@@ -1698,7 +1728,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = clubfooted
 	trait = martial_cleric
 	1150.1.1 = {
@@ -1718,7 +1748,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = deceitful
 	trait = skilled_tactician
 	1150.1.1 = {
@@ -1737,7 +1767,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = envious
 	trait = amateurish_plotter
 	1150.1.1 = {
@@ -1756,7 +1786,7 @@
 #	intrigue = 6
 #	stewardship = 4
 #	religion = sunni
-#	culture = turkish
+#	culture = oghuz
 #	trait = wroth
 #	trait = kind
 #	trait = charismatic_negotiator
@@ -1796,7 +1826,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = gluttonous
 	trait = amateurish_plotter
 	father = 144032
@@ -1816,7 +1846,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = proud
 	trait = harelip
 	trait = thrifty_clerk
@@ -1836,7 +1866,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = greedy
 	trait = tough_soldier
 	1150.1.1 = {
@@ -1855,7 +1885,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = zealous
 	trait = tough_soldier
 	1150.1.1 = {
@@ -1875,7 +1905,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = flamboyant_schemer
 	father = 144052
 	1156.1.1 = {
@@ -1894,7 +1924,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = humble
 	trait = scholarly_theologian
 	1150.1.1 = {
@@ -1913,7 +1943,7 @@
 	intrigue = 8
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = zealous
 	trait = gluttonous
 	trait = martial_cleric
@@ -1933,7 +1963,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = patient
 	trait = craven
 	trait = skilled_tactician
@@ -1953,7 +1983,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = honest
 	trait = flamboyant_schemer
 	1150.1.1 = {
@@ -1972,7 +2002,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = amateurish_plotter
 	1150.1.1 = {
 		birth = yes
@@ -1990,7 +2020,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = underhanded_rogue
 	1150.1.1 = {
 		birth = yes
@@ -2008,7 +2038,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = ill
 	trait = underhanded_rogue
 	1150.1.1 = {
@@ -2027,7 +2057,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = underhanded_rogue
 	1150.1.1 = {
 		birth = yes
@@ -2087,7 +2117,7 @@
 	intrigue = 8
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = inbred
 	trait = flamboyant_schemer
 	1150.1.1 = {
@@ -2106,7 +2136,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = slothful
 	trait = craven
 	trait = tough_soldier
@@ -2126,7 +2156,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = envious
 	trait = charismatic_negotiator
 	1150.1.1 = {
@@ -2145,7 +2175,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = envious
 	trait = cynical
 	trait = clubfooted
@@ -2166,7 +2196,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = patient
 	trait = skilled_tactician
 	1150.1.1 = {
@@ -2185,7 +2215,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = zealous
 	trait = craven
 	trait = scholarly_theologian
@@ -2205,7 +2235,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = lustful
 	trait = tough_soldier
 	1150.1.1 = {
@@ -2224,7 +2254,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = skilled_tactician
 	1150.1.1 = {
 		birth = yes
@@ -2242,7 +2272,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = wroth
 	trait = martial_cleric
 	1150.1.1 = {
@@ -2261,7 +2291,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = clubfooted
 	trait = flamboyant_schemer
 	1150.1.1 = {
@@ -2280,7 +2310,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = tough_soldier
 	1150.1.1 = {
 		birth = yes
@@ -2298,7 +2328,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = greedy
 	trait = skilled_tactician
 	1150.1.1 = {
@@ -2317,7 +2347,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = flamboyant_schemer
 	1150.1.1 = {
 		birth = yes
@@ -2335,7 +2365,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = thrifty_clerk
 	1150.1.1 = {
 		birth = yes
@@ -2354,7 +2384,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = tough_soldier
 	1150.1.1 = {
 		birth = yes
@@ -2373,7 +2403,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = diligent
 	trait = proud
 	trait = honest
@@ -2395,7 +2425,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = orthodox
-	culture = turkish
+	culture = oghuz
 	trait = diligent
 	trait = content
 	trait = cynical
@@ -2416,7 +2446,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = martial_cleric
 	father = 3002
 	1000.1.2 = {
@@ -2436,7 +2466,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = lustful
 	trait = skilled_tactician
 	father = 3002
@@ -2457,7 +2487,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = thrifty_clerk
 	father = 3014
 	1030.1.2 = {
@@ -2477,7 +2507,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = honest
 	trait = wroth
 	trait = flamboyant_schemer
@@ -2498,7 +2528,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = lustful
 	trait = clubfooted
 	trait = skilled_tactician
@@ -2519,7 +2549,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = harelip
 	trait = tough_soldier
 	father = 144103
@@ -2539,7 +2569,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = chaste
 	trait = humble
 	trait = tough_soldier
@@ -2561,7 +2591,7 @@
 	intrigue = 4
 	learning = 3
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	health = 7
 	fertility = 0.8
 	trait = brilliant_strategist
@@ -2590,7 +2620,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = scholarly_theologian
 	father = 3030
 	985.1.2 = {
@@ -2609,7 +2639,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = scholarly_theologian
 	father = 3032
 	1002.1.2 = {
@@ -2628,7 +2658,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = just
 	trait = scholarly_theologian
 	father = 3030
@@ -2649,7 +2679,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = chaste
 	trait = martial_cleric
 	father = 3034
@@ -2670,7 +2700,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = wroth
 	trait = underhanded_rogue
 	father = 3034
@@ -2692,7 +2722,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = just
 	trait = diligent
 	trait = brave
@@ -2729,7 +2759,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = proud
 	trait = temperate
 	trait = tough_soldier
@@ -2751,7 +2781,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = patient
 	trait = tough_soldier
 	father = 3040
@@ -2771,7 +2801,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = envious
 	trait = zealous
 	#trait = cynical
@@ -2793,7 +2823,7 @@
 	intrigue = 5
 	stewardship = 10
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = fair
 	trait = quick
 	trait = grey_eminence
@@ -2815,7 +2845,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = brilliant_strategist
 	father = 3033
 	1039.1.2 = {
@@ -2835,7 +2865,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = tough_soldier
 	1040.1.1 = {
 		birth = yes
@@ -2854,7 +2884,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = tough_soldier
 	father = 3046
 	1058.1.2 = {
@@ -2863,6 +2893,9 @@
 	1085.1.1 = {
 		add_spouse = 34263
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1107.1.1 = {
 		death = yes
 	}
@@ -2876,12 +2909,15 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = tough_soldier
 	father = 41701
 	1088.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1130.1.1 = {
 		add_spouse = 34210
 	}
@@ -2898,12 +2934,15 @@
 	intrigue = 5
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = brave
 	trait = skilled_tactician
 	1045.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1104.1.1 = {
 		death = yes
 	}
@@ -2917,7 +2956,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = kind
 	trait = temperate
 	trait = skilled_tactician
@@ -2937,7 +2976,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = martial_cleric
 	1300.1.1 = {
 		birth = yes
@@ -2955,7 +2994,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = just
 	trait = tough_soldier
 	1300.1.1 = {
@@ -2974,7 +3013,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = skilled_tactician
 	1300.1.1 = {
 		birth = yes
@@ -2992,7 +3031,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = gluttonous
 	trait = martial_cleric
 	1300.1.1 = {
@@ -3011,7 +3050,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = lustful
 	trait = just
 	trait = wroth
@@ -3230,7 +3269,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = tough_soldier
 	1300.1.1 = {
 		birth = yes
@@ -3328,7 +3367,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = deceitful
 	trait = tough_soldier
 	1300.1.1 = {
@@ -3347,7 +3386,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = scholarly_theologian
 	1300.1.1 = {
 		birth = yes
@@ -3365,7 +3404,7 @@
 #	intrigue = 5
 #	stewardship = 4
 #	religion = sunni
-#	culture = turkish
+#	culture = oghuz
 #	trait = tough_soldier
 #	1300.1.1 = {
 #		birth = yes
@@ -3383,7 +3422,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = envious
 	trait = martial_cleric
 	1300.1.1 = {
@@ -3402,7 +3441,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = honest
 	trait = tough_soldier
 	1300.1.1 = {
@@ -3421,7 +3460,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = tough_soldier
 	1300.1.1 = {
 		birth = yes
@@ -3439,7 +3478,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = honest
 	trait = underhanded_rogue
 	1300.1.1 = {
@@ -3458,7 +3497,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = proud
 	trait = scholarly_theologian
 	1300.1.1 = {
@@ -3477,7 +3516,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = greedy
 	trait = tough_soldier
 	1300.1.1 = {
@@ -3496,7 +3535,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = kind
 	trait = honest
 	trait = flamboyant_schemer
@@ -3516,7 +3555,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = scholarly_theologian
 	1300.1.1 = {
 		birth = yes
@@ -3534,7 +3573,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = slothful
 	trait = scholarly_theologian
 	1300.1.1 = {
@@ -3553,7 +3592,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = lustful
 	trait = honest
 	trait = amateurish_plotter
@@ -3573,7 +3612,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = slothful
 	trait = tough_soldier
 	1300.1.1 = {
@@ -3592,7 +3631,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = humble
 	trait = stutter
 	trait = martial_cleric
@@ -3612,7 +3651,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = humble
 	trait = zealous
 	trait = underhanded_rogue
@@ -3632,7 +3671,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = honest
 	trait = kind
 	trait = wroth
@@ -3653,7 +3692,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = patient
 	trait = ill
 	trait = flamboyant_schemer
@@ -3673,7 +3712,7 @@
 #	intrigue = 8
 #	stewardship = 8
 #	religion = sunni
-#	culture = turkish
+#	culture = oghuz
 #	trait = ill
 #	trait = skilled_tactician
 #	1300.1.1 = {
@@ -3692,7 +3731,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = martial_cleric
 	1300.1.1 = {
 		birth = yes
@@ -3710,7 +3749,7 @@
 	intrigue = 8
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = lustful
 	trait = brave
 	trait = flamboyant_schemer
@@ -3730,7 +3769,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = cynical
 	trait = martial_cleric
 	1300.1.1 = {
@@ -3749,7 +3788,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	trait = scholarly_theologian
 	1300.1.1 = {
 		birth = yes
@@ -3949,7 +3988,7 @@
 	name = "Nilufer"
 	female = yes
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1307.1.1 = {
 		birth = yes
 	}
@@ -3962,7 +4001,7 @@
 	name = "Bayezid"
 	dynasty = 20089
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 476355
 	1331.1.1 = {
 		birth = yes
@@ -3976,7 +4015,7 @@
 	name = "Muhadhdhab"
 	dynasty = 12101
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1183.1.1 = {
 		birth = yes
 	}
@@ -3989,7 +4028,7 @@
 	name = "Suleyman"
 	dynasty = 12101
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 71854
 	1218.1.1 = {
 		birth = yes
@@ -4006,7 +4045,7 @@
 	name = "Mehmed"
 	dynasty = 12101
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 71855
 	mother = 71856
 	1252.1.1 = {
@@ -4021,7 +4060,7 @@
 	name = "Mesud"
 	dynasty = 12101
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 71855
 	mother = 71856
 	1255.1.1 = {
@@ -4036,7 +4075,7 @@
 	name = "Chelebi"
 	dynasty = 12101
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 71858
 	1280.1.1 = {
 		birth = yes
@@ -4548,7 +4587,7 @@
 	name = "Aybak"
 	dynasty = 7268
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1205.1.1 = {
 		birth = yes
 	}
@@ -4564,7 +4603,7 @@
 	name = "al-Mansour Ali"
 	dynasty = 7268
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 32930
 	1225.1.1 = {
 		birth = yes
@@ -4578,7 +4617,7 @@
 	name = "Qutuz"
 	dynasty = 7269
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1210.1.1 = {
 		birth = yes
 	}
@@ -4619,7 +4658,7 @@
 	name = "Mahmud"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 225000
 	1157.1.1 = {
 		birth = yes
@@ -4647,7 +4686,7 @@
 	name = "Kayser"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 225000
 	1158.1.1 = {
 		birth = yes
@@ -4661,7 +4700,7 @@
 	name = "Masud"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 225000
 	1159.1.1 = {
 		birth = yes
@@ -4675,7 +4714,7 @@
 	name = "Berkyaruk"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 225000
 	1167.1.1 = {
 		birth = yes
@@ -4689,7 +4728,7 @@
 	name = "Argun"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 225000
 	1168.1.1 = {
 		birth = yes
@@ -4703,7 +4742,7 @@
 	name = "Arslan"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 225000
 	1170.1.1 = {
 		birth = yes
@@ -4717,7 +4756,7 @@
 	name = "Sancar"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 225000
 	1172.1.1 = {
 		birth = yes
@@ -4875,11 +4914,14 @@
 	name = "Ghazi"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 41704
 	1070.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1134.1.1 = {
 		death = yes
 	}
@@ -4889,11 +4931,14 @@
 	name = "Mehmed"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34197
 	1095.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1142.1.1 = {
 		death = yes
 	}
@@ -4945,11 +4990,14 @@
 	name = "Ismail"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 41704
 	1068.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1128.1.1 = {
 		death = yes
 	}
@@ -4959,7 +5007,7 @@
 	name = "Gümüstekin"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 41704
 	1069.1.1 = {
 		birth = yes
@@ -4973,11 +5021,14 @@
 	name = "Ibrahim"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 41704
 	1070.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1120.1.1 = {
 		death = yes
 	}
@@ -4987,11 +5038,14 @@
 	name = "Yaghisiyan"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 41704
 	1075.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1125.1.1 = {
 		death = yes
 	}
@@ -5072,7 +5126,7 @@
 	name = "Alp Arslan"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 7299
 	1118.1.1 = {
 		birth = yes
@@ -5086,7 +5140,7 @@
 	name = "Shahanshah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 7299
 	1133.1.1 = {
 		birth = yes
@@ -5100,7 +5154,7 @@
 	name = "Sancar"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 7299
 	1135.1.1 = {
 		birth = yes
@@ -5114,7 +5168,7 @@
 	name = "Argun"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34213
 	1153.1.1 = {
 		birth = yes
@@ -5128,7 +5182,7 @@
 	name = "Ismail"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34204
 	1120.1.1 = {
 		birth = yes
@@ -5142,7 +5196,7 @@
 	name = "Qarnayn"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34200
 	1126.1.1 = {
 		birth = yes
@@ -5156,7 +5210,7 @@
 	name = "Mehmed"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34200
 	1127.1.1 = {
 		birth = yes
@@ -5170,7 +5224,7 @@
 	name = "Qasim"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34200
 	1128.1.1 = {
 		birth = yes
@@ -5184,7 +5238,7 @@
 	name = "Afridun"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34200
 	1132.1.1 = {
 		birth = yes
@@ -5198,7 +5252,7 @@
 	name = "Ismail"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34201
 	1140.1.1 = {
 		birth = yes
@@ -5212,7 +5266,7 @@
 	name = "Mahmud"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34199
 	1122.1.1 = {
 		birth = yes
@@ -5226,7 +5280,7 @@
 	name = "Suhrab"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34222
 	1152.1.1 = {
 		birth = yes
@@ -5240,7 +5294,7 @@
 	name = "Yagdi"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34223
 	1182.1.1 = {
 		birth = yes
@@ -5254,7 +5308,7 @@
 	name = "Kalem"
 	dynasty = 101730
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34224
 	1222.1.1 = {
 		birth = yes
@@ -5366,7 +5420,7 @@
 	name = "Moghis"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34180
 	1200.1.1 = {
 		birth = yes
@@ -5778,7 +5832,7 @@
 	name = "Chaka"
 	dynasty = 7301
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1040.1.1 = {
 		birth = yes
 	}
@@ -5792,7 +5846,7 @@
 	female = yes
 	dynasty = 7301
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34262
 	1068.1.1 = {
 		birth = yes
@@ -5806,7 +5860,7 @@
 	name = "Chaka"
 	dynasty = 7301
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 34262
 	1070.1.1 = {
 		birth = yes
@@ -5821,7 +5875,7 @@
 	female = yes
 	dynasty = 100702
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144047
 	1152.1.1 = {
 		birth = yes
@@ -5835,7 +5889,7 @@
 	name = "Alaeddin"
 	dynasty = 100702
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	mother = 34395
 	1170.1.1 = {
 		birth = yes
@@ -5849,7 +5903,7 @@
 	name = "Meliksah"
 	dynasty = 100702
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	mother = 34395
 	1172.1.1 = {
 		birth = yes
@@ -5922,7 +5976,7 @@
 	name = "Hüseyin"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144116
 	1124.1.1 = {
 		birth = yes
@@ -5936,7 +5990,7 @@
 	name = "Mahmud Soltan"
 	dynasty = 101866
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144101
 	1153.1.1 = {
 		birth = yes
@@ -5950,7 +6004,7 @@
 	name = "Osman"
 	dynasty = 101864
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93049
 	1165.1.1 = {
 		birth = yes
@@ -5966,7 +6020,7 @@
 	dna = cgeeapcdeaf
 	properties = ag0bha000000
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 230000
 	1170.1.1 = {
 		birth = yes
@@ -5983,7 +6037,7 @@
 	name = "Mingburnu Jalal ad-Din"
 	dynasty = 101866
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93052
 	1190.1.1 = {
 		birth = yes
@@ -6001,7 +6055,7 @@
 	name = "Tiz Shah"
 	dynasty = 101866
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93052
 	1192.1.1 = {
 		birth = yes
@@ -6015,7 +6069,7 @@
 	name = "Qochar"
 	dynasty = 7328
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1035.1.1 = {
 		birth = yes
 	}
@@ -6028,7 +6082,7 @@
 	name = "Ekinchi"
 	dynasty = 7328
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93087
 	1055.1.1 = {
 		birth = yes
@@ -6042,7 +6096,7 @@
 	name = "Abu'l-Fawaris"
 	dynasty = 7327
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1020.1.1 = {
 		birth = yes
 	}
@@ -6055,7 +6109,7 @@
 	name = "Ismail"
 	dynasty = 7327
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93089
 	1048.1.1 = {
 		birth = yes
@@ -6070,7 +6124,7 @@
 	female = yes
 	dynasty = 7327
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93089
 	1051.1.1 = {
 		birth = yes
@@ -6085,7 +6139,7 @@
 	#placeholder
 	dynasty = 7327
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93090
 	1090.1.1 = {
 		birth = yes
@@ -6100,7 +6154,7 @@
 	#placeholder
 	dynasty = 7327
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93091
 	1130.1.1 = {
 		birth = yes
@@ -6114,7 +6168,7 @@
 	name = "Ibrahim"
 	dynasty = 7327
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93092
 	1165.1.1 = {
 		birth = yes
@@ -6128,7 +6182,7 @@
 	name = "Iskender"
 	dynasty = 7327
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93093
 	1195.1.1 = {
 		birth = yes
@@ -6142,7 +6196,7 @@
 	name = "Savur"
 	dynasty = 7327
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93093
 	1200.1.1 = {
 		birth = yes
@@ -6156,7 +6210,7 @@
 	name = "Umar"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1000.1.1 = {
 		birth = yes
 	}
@@ -6169,7 +6223,7 @@
 	name = "Abd-al-Aziz Burkhan"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93106
 	1040.1.1 = {
 		birth = yes
@@ -6183,7 +6237,7 @@
 	name = "Burhan ad-Din"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93107
 	1080.1.1 = {
 		birth = yes
@@ -6198,7 +6252,7 @@
 	female = yes
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93107
 	1058.1.1 = {
 		birth = yes
@@ -6212,7 +6266,7 @@
 	name = "Ahmad"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93108
 	1110.1.1 = {
 		birth = yes
@@ -6226,7 +6280,7 @@
 	name = "Muhammad"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93108
 	1115.1.1 = {
 		birth = yes
@@ -6240,7 +6294,7 @@
 	name = "Muhammad"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93110
 	1135.1.1 = {
 		birth = yes
@@ -6254,7 +6308,7 @@
 	name = "Abd-al-Aziz"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93111
 	1155.1.1 = {
 		birth = yes
@@ -6268,7 +6322,7 @@
 	name = "Ahmad"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93111
 	1157.1.1 = {
 		birth = yes
@@ -6282,7 +6336,7 @@
 	name = "Mas'ud"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93111
 	1159.1.1 = {
 		birth = yes
@@ -6296,7 +6350,7 @@
 	name = "Muhammad"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93114
 	1179.1.1 = {
 		birth = yes
@@ -6310,7 +6364,7 @@
 	name = "Sandjar"
 	dynasty = 7329
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93114
 	1180.1.1 = {
 		birth = yes
@@ -6324,7 +6378,7 @@
 	name = "Muhammad" #Antioch
 	dynasty = 613 #Seljuk
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3040
 	1058.1.1 = {
 		birth = yes
@@ -6338,7 +6392,7 @@
 	name = "Yaghi Sian" #Antioch
 	dynasty = 613 #Seljuk
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93117
 	1074.1.1 = {
 		birth = yes
@@ -6352,7 +6406,7 @@
 	name = "Shams ed-Din" #Antioch
 	dynasty = 613 #Seljuk
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93118
 	1090.1.1 = {
 		birth = yes
@@ -6366,7 +6420,7 @@
 	name = "Buldagis" #Antioch
 	dynasty = 613 #Seljuk
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93118
 	1091.1.1 = {
 		birth = yes
@@ -6380,7 +6434,7 @@
 	name = "Arslan Argun" #Merv
 	dynasty = 613 #Seljuk
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3040
 	1060.1.1 = {
 		birth = yes
@@ -6394,7 +6448,7 @@
 	name = "Uthman" #Merv
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3036
 	1025.1.1 = {
 		birth = yes
@@ -6408,7 +6462,7 @@
 	name = "Ilyas"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3036
 	1028.1.1 = {
 		birth = yes
@@ -6422,7 +6476,7 @@
 	name = "Ismail" #Sistan
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3036
 	1050.1.1 = {
 		birth = yes
@@ -6436,7 +6490,7 @@
 	name = "Ahmad" #Merv
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3042
 	1077.1.1 = {
 		birth = yes
@@ -6450,7 +6504,7 @@
 	name = "Seljuk Shah" #Merv
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144014
 	1102.1.1 = {
 		birth = yes
@@ -6464,7 +6518,7 @@
 	name = "Malik Shah" #Merv
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93126
 	1122.1.1 = {
 		birth = yes
@@ -6478,7 +6532,7 @@
 	name = "Toghan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3040
 	1056.1.1 = {
 		birth = yes
@@ -6492,7 +6546,7 @@
 	name = "Arslan Shah"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3040
 	1056.6.1 = {
 		birth = yes
@@ -6506,7 +6560,7 @@
 	name = "Suleyman" #Merv
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3036
 	1027.1.1 = {
 		birth = yes
@@ -6520,7 +6574,7 @@
 	name = "Yaquti" #Sistan
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3036
 	1028.1.1 = {
 		birth = yes
@@ -6534,7 +6588,7 @@
 	name = "Muhammad" #Merv
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93122
 	1047.1.1 = {
 		birth = yes
@@ -6548,7 +6602,7 @@
 	name = "Husam ad-Din Shuhla"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1104.1.1 = {
 		birth = yes
 	}
@@ -6561,7 +6615,7 @@
 	name = "Ayayr"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93209
 	1122.1.1 = {
 		birth = yes
@@ -6575,7 +6629,7 @@
 	name = "Surkhab"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93210
 	1150.1.1 = {
 		birth = yes
@@ -6589,7 +6643,7 @@
 	name = "Shoja ad-Din" #really was a 100 years old
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93209
 	1124.1.1 = {
 		birth = yes
@@ -6603,7 +6657,7 @@
 	name = "Saif ad-Din Rustam"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93212
 	1150.1.1 = {
 		birth = yes
@@ -6617,7 +6671,7 @@
 	name = "Sharaf ad-Din Abu Bakr"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93213
 	1170.1.1 = {
 		birth = yes
@@ -6631,7 +6685,7 @@
 	name = "Izz ad-Din Garshasp"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93214
 	1190.1.1 = {
 		birth = yes
@@ -6645,7 +6699,7 @@
 	name = "Badr ad-Din"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93215
 	1208.1.1 = {
 		birth = yes
@@ -6659,7 +6713,7 @@
 	name = "Husam ad-Din Khalil"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93216
 	1224.1.1 = {
 		birth = yes
@@ -6673,7 +6727,7 @@
 	name = "Badr ad-Din Mas'ud"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93216
 	1225.1.1 = {
 		birth = yes
@@ -6687,7 +6741,7 @@
 	name = "Hasi ad-Din"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93218
 	1245.1.1 = {
 		birth = yes
@@ -6701,7 +6755,7 @@
 	name = "Tadj ad-Din"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93218
 	1246.1.1 = {
 		birth = yes
@@ -6715,7 +6769,7 @@
 	name = "Izz ad-Din Husayn"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93220
 	1262.1.1 = {
 		birth = yes
@@ -6729,7 +6783,7 @@
 	name = "Djamal ad-Din Khidr"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93220
 	1263.1.1 = {
 		birth = yes
@@ -6743,7 +6797,7 @@
 	name = "Husam ad-Din Umar"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93220
 	1264.1.1 = {
 		birth = yes
@@ -6757,7 +6811,7 @@
 	name = "Samsam ad-Din Mahmud"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93221
 	1278.1.1 = {
 		birth = yes
@@ -6771,7 +6825,7 @@
 	name = "Izz ad-Din Ahmad"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93221
 	1279.1.1 = {
 		birth = yes
@@ -6785,7 +6839,7 @@
 	name = "Badr ad-Din Mas'ud"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93221
 	1280.1.1 = {
 		birth = yes
@@ -6799,7 +6853,7 @@
 	name = "Izz ad-Din Husayn"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93226
 	1300.1.1 = {
 		birth = yes
@@ -6813,7 +6867,7 @@
 	name = "Shoja ad-Din Mahmud"
 	dynasty = 7334
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93227
 	1320.1.1 = {
 		birth = yes
@@ -6827,7 +6881,7 @@
 	name = "Boz-Aba"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1100.1.1 = {
 		birth = yes
 	}
@@ -6840,7 +6894,7 @@
 	name = "Sunghur"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93241
 	1120.1.1 = {
 		birth = yes
@@ -6854,7 +6908,7 @@
 	name = "Muzaffar ad-Din Zangi"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93242
 	1140.1.1 = {
 		birth = yes
@@ -6868,7 +6922,7 @@
 	name = "Dakla"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93243
 	1158.1.1 = {
 		birth = yes
@@ -6882,7 +6936,7 @@
 	name = "Toghril"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93244
 	1178.1.1 = {
 		birth = yes
@@ -6895,7 +6949,7 @@
 	name = "Saad"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93244
 	1180.1.1 = {
 		birth = yes
@@ -6909,7 +6963,7 @@
 	name = "Abu-Bakr Qutlugh"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93246
 	1200.1.1 = {
 		birth = yes
@@ -6923,7 +6977,7 @@
 	name = "Saad"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93247
 	1220.1.1 = {
 		birth = yes
@@ -6937,7 +6991,7 @@
 	name = "Muhammad Adud ad-Din"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93247
 	1222.1.1 = {
 		birth = yes
@@ -6951,7 +7005,7 @@
 	name = "Muhammad"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93249
 	1240.1.1 = {
 		birth = yes
@@ -6965,7 +7019,7 @@
 	name = "Seljuk"
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93249
 	1241.1.1 = {
 		birth = yes
@@ -6980,7 +7034,7 @@
 	female = yes
 	dynasty = 7335
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93249
 	1244.1.1 = {
 		birth = yes
@@ -6994,7 +7048,7 @@
 	name = "Malik Dinar"
 	dynasty = 7336
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1140.1.1 = {
 		birth = yes
 	}
@@ -7007,7 +7061,7 @@
 	name = "Farrukh Shah"
 	dynasty = 7336
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93256
 	1160.1.1 = {
 		birth = yes
@@ -7021,7 +7075,7 @@
 	name = "Ïnal-Tegin"
 	dynasty = 101866
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144099
 	1100.1.1 = {
 		birth = yes
@@ -7035,7 +7089,7 @@
 	name = "Nusrat ad-Din"
 	dynasty = 7342
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1140.1.1 = {
 		birth = yes
 	}
@@ -7048,7 +7102,7 @@
 	name = "Pishkin"
 	dynasty = 7342
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93304
 	1160.1.1 = {
 		birth = yes
@@ -7062,7 +7116,7 @@
 	name = "Mahmud"
 	dynasty = 7342
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93305
 	1180.1.1 = {
 		birth = yes
@@ -7076,7 +7130,7 @@
 	name = "Nur ad-Din Arslan Shah"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144042
 	1172.1.1 = {
 		birth = yes
@@ -7090,7 +7144,7 @@
 	name = "Izz ad-Din Mas'ud"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93311
 	1190.1.1 = {
 		birth = yes
@@ -7104,7 +7158,7 @@
 	name = "Nur ad-Din Arslan Shah"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93312
 	1206.1.1 = {
 		birth = yes
@@ -7118,7 +7172,7 @@
 	name = "Nasir ad-Din Mahmud"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93311
 	1192.1.1 = {
 		birth = yes
@@ -7132,7 +7186,7 @@
 	name = "Ertigin"
 	dynasty = 7344
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1025.1.1 = {
 		birth = yes
 	}
@@ -7145,7 +7199,7 @@
 	name = "Modjahid ad-Din"
 	dynasty = 7347
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1080.1.1 = {
 		birth = yes
 	}
@@ -7158,7 +7212,7 @@
 	name = "Shihna Aqsongur"
 	dynasty = 7348
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1070.1.1 = {
 		birth = yes
 	}
@@ -7171,7 +7225,7 @@
 	name = "Bekabeh"
 	dynasty = 7349
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1080.1.1 = {
 		birth = yes
 	}
@@ -7184,7 +7238,7 @@
 	name = "Kerbogha"
 	dynasty = 7353
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1050.1.1 = {
 		birth = yes
 	}
@@ -7197,7 +7251,7 @@
 	name = "Jekermysh"
 	dynasty = 7354
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1055.1.1 = {
 		birth = yes
 	}
@@ -7210,7 +7264,7 @@
 	name = "Javali"
 	dynasty = 7355
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1060.1.1 = {
 		birth = yes
 	}
@@ -7223,7 +7277,7 @@
 	name = "Mawdud"
 	dynasty = 7354
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93403
 	1071.1.1 = {
 		birth = yes
@@ -7237,7 +7291,7 @@
 	name = "Sonqorja"
 	dynasty = 7356
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1070.1.1 = {
 		birth = yes
 	}
@@ -7250,7 +7304,7 @@
 	name = "Juyush"
 	dynasty = 7357
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1070.1.1 = {
 		birth = yes
 	}
@@ -7263,7 +7317,7 @@
 	name = "Bursuqi"
 	dynasty = 7358
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1070.1.1 = {
 		birth = yes
 	}
@@ -7276,7 +7330,7 @@
 	name = "Mas'ud"
 	dynasty = 7358
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93408
 	1086.1.1 = {
 		birth = yes
@@ -7290,10 +7344,13 @@
 	name = "Sökmen"
 	dynasty = 7359
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1060.1.1 = {
 		birth = yes
 	}
+	1100.1.1 = {
+		culture = turkish
+	}	
 	1112.1.1 = {
 		death = yes
 	}
@@ -7303,7 +7360,7 @@
 	name = "Ibrahim"
 	dynasty = 7359
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93410
 	1080.1.1 = {
 		birth = yes
@@ -7317,7 +7374,7 @@
 	name = "Ahmad"
 	dynasty = 7359
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93410
 	1085.1.1 = {
 		birth = yes
@@ -7331,7 +7388,7 @@
 	name = "Sökmen"
 	dynasty = 7359
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93411
 	1110.1.1 = {
 		birth = yes
@@ -7345,7 +7402,7 @@
 	name = "Seyfettin"
 	dynasty = 7360
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1140.1.1 = {
 		birth = yes
 	}
@@ -7358,7 +7415,7 @@
 	name = "Bedreddin"
 	dynasty = 7361
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1150.1.1 = {
 		birth = yes
 	}
@@ -7371,7 +7428,7 @@
 	name = "Muhammad"
 	dynasty = 7360
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93414
 	1160.1.1 = {
 		birth = yes
@@ -7495,7 +7552,7 @@
 	name = "Aziz"
 	dynasty = 7368
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1030.1.1 = {
 		birth = yes
 	}
@@ -7508,7 +7565,7 @@
 	name = "Baqtash"
 	dynasty = 613
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 3044
 	1081.1.1 = {
 		birth = yes
@@ -7522,7 +7579,7 @@
 	name = "Zahir ad-Din Toghtekin"
 	dynasty = 7369
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1070.1.1 = {
 		birth = yes
 	}
@@ -7535,7 +7592,7 @@
 	name = "Taj al-Muluk Buri"
 	dynasty = 7369
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93435
 	1090.1.1 = {
 		birth = yes
@@ -7549,7 +7606,7 @@
 	name = "Shams al-Muluk Isma'il"
 	dynasty = 7369
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93436
 	1106.1.1 = {
 		birth = yes
@@ -7563,7 +7620,7 @@
 	name = "Shihab ad-Din Mahmud"
 	dynasty = 7369
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93436
 	1107.1.1 = {
 		birth = yes
@@ -7577,7 +7634,7 @@
 	name = "Jemal ad-Din Muhammad"
 	dynasty = 7369
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93436
 	1108.1.1 = {
 		birth = yes
@@ -7591,7 +7648,7 @@
 	name = "Mujir ad-Din Abaq"
 	dynasty = 7369
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93439
 	1124.1.1 = {
 		birth = yes
@@ -7605,7 +7662,7 @@
 	name = "Suleyman"
 	dynasty = 100701
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144066
 	1091.1.1 = {
 		birth = yes
@@ -7619,7 +7676,7 @@
 	name = "Masul"
 	dynasty = 7358
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 93408
 	1090.1.1 = {
 		birth = yes
@@ -7674,7 +7731,7 @@
 	name = "Kiliç"
 	dynasty = 12272
 
-	culture = turkish
+	culture = oghuz
 	religion = tengri_pagan
 	father = 188775
 
@@ -7755,7 +7812,7 @@
 	name = "Aksonqor"
 	dynasty = 12272
 	father = 74029
-	culture = turkish
+	culture = oghuz
 	religion = tengri_pagan
 
 	859.1.1 = {
@@ -7771,7 +7828,7 @@
 	female = yes
 	dynasty = 12272
 	father = 74029
-	culture = turkish
+	culture = oghuz
 	religion = tengri_pagan
 
 	857.1.1 = {
@@ -7788,7 +7845,7 @@
 
 	father = 74031
 
-	culture = turkish
+	culture = oghuz
 	religion = zoroastrian
 
 	846.1.1 = {
@@ -7804,7 +7861,7 @@
 	female = yes
 	dynasty = 12274
 	father = 74031
-	culture = turkish
+	culture = oghuz
 	religion = zoroastrian
 
 	848.1.1 = {
@@ -7819,7 +7876,7 @@
 	name = "Bugha"
 	dynasty = 7519
 
-	culture = turkish
+	culture = oghuz
 	religion = sunni
 
 	817.1.1 = {
@@ -7834,7 +7891,7 @@
 	name = "Musi"
 	dynasty = 7517
 
-	culture = turkish
+	culture = oghuz
 	religion = sunni
 
 	817.1.1 = {
@@ -7849,7 +7906,7 @@
 	name = "Ali"
 	dynasty = 7520
 
-	culture = turkish
+	culture = oghuz
 	religion = sunni
 
 	840.1.1 = {
@@ -7864,7 +7921,7 @@
 	name = "Abu Ja'far"
 	dynasty = 7521
 
-	culture = turkish
+	culture = oghuz
 	religion = sunni
 
 	839.1.1 = {
@@ -7879,7 +7936,7 @@
 	name = "Abu Husayan"
 	dynasty = 7521
 
-	culture = turkish
+	culture = oghuz
 	religion = sunni
 
 	837.1.1 = {
@@ -7894,7 +7951,7 @@
 	name = "Qutb-ud-din Aibak"
 	dynasty = 1040201
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1153.1.1 = {
 		birth = yes
 	}
@@ -7919,7 +7976,7 @@
 	name = "Aram"
 	dynasty = 1040201
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170190
 	1175.1.1 = {
 		birth = yes
@@ -7934,7 +7991,7 @@
 	dynasty = 1040201
 	female = yes
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170190
 	1176.1.1 = {
 		birth = yes
@@ -7950,7 +8007,7 @@
 	dna = aefgiqfbeae
 	properties = ob00b0000000
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1170.1.1 = {
 		birth = yes
 	}
@@ -7975,7 +8032,7 @@
 	name = "Firuz" #Firuz Shah I
 	dynasty = 1040202
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170193
 	mother = 170192
 	1200.1.1 = {
@@ -7991,7 +8048,7 @@
 	dynasty = 1040202
 	female = yes
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170193
 	mother = 170192
 	1205.1.1 = {
@@ -8009,7 +8066,7 @@
 	name = "Malik"
 	dynasty = 1040203
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1205.1.1 = {
 		birth = yes
 	}
@@ -8025,7 +8082,7 @@
 	name = "Bahram"
 	dynasty = 1040202
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170193
 	mother = 170192
 	1206.1.1 = {
@@ -8040,7 +8097,7 @@
 	name = "Masud"
 	dynasty = 1040202
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170194
 	1220.1.1 = {
 		birth = yes
@@ -8054,7 +8111,7 @@
 	name = "Mahmud"
 	dynasty = 1040202
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170193
 	mother = 170192
 	1207.1.1 = {
@@ -8069,7 +8126,7 @@
 	name = "Mahmud"
 	dynasty = 1040202
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170200
 	1225.1.1 = {
 		birth = yes
@@ -8093,7 +8150,7 @@
 	dynasty = 1040202
 	female = yes
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170201
 	mother = 170205
 	1242.1.1 = {
@@ -8109,7 +8166,7 @@
 	dynasty = 1040202
 	female = yes
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170193
 	mother = 170192
 	1208.1.1 = {
@@ -8126,7 +8183,7 @@
 	name = "Mahmud"
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170207
 	1185.1.1 = {
 		birth = yes
@@ -8140,7 +8197,7 @@
 	name = "Balban" #Ghiyasuddin Balban
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170203
 	1206.1.1 = {
 		birth = yes
@@ -8180,7 +8237,7 @@
 	dynasty = 1040204
 	female = yes
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170204
 	mother = 170216
 	1225.1.1 = {
@@ -8195,7 +8252,7 @@
 	name = "Kishlu"
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170203
 	1209.1.1 = {
 		birth = yes
@@ -8209,7 +8266,7 @@
 	name = "Balban"
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1158.1.1 = {
 		birth = yes
 	}
@@ -8222,7 +8279,7 @@
 	name = "Kishlu"
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170207
 	1190.1.1 = {
 		birth = yes
@@ -8236,7 +8293,7 @@
 	name = "Sher"
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170208
 	1213.1.1 = {
 		birth = yes
@@ -8250,7 +8307,7 @@
 	name = "Muhammad" #Muhammad Khan
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170204
 	mother = 170216
 	1224.1.1 = {
@@ -8265,7 +8322,7 @@
 	name = "Bughra" #Bughra Khan
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170204
 	mother = 170216
 	1225.1.1 = {
@@ -8283,7 +8340,7 @@
 	name = "Kaikhasrau"
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170210
 	1269.1.1 = {
 		birth = yes
@@ -8297,7 +8354,7 @@
 	name = "Qaiqabad" #Muizz ud-din Qaiqabad
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170211
 	mother = 170202
 	1270.1.1 = {
@@ -8315,7 +8372,7 @@
 	name = "Kayumars"
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170213
 	1287.1.1 = {
 		birth = yes
@@ -8329,7 +8386,7 @@
 	name = "Rukunuddin" #Rukunuddin Kaikaus
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170211
 	mother = 170202
 	1272.1.1 = {
@@ -8344,7 +8401,7 @@
 	name = "Chhajju"
 	dynasty = 1040204
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170206
 	1231.1.1 = {
 		birth = yes
@@ -8358,7 +8415,7 @@
 	name = "Qabajah" #Nasir-ud-din Qabajah
 	dynasty = 1040220
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1181.1.1 = {
 		birth = yes
 	}
@@ -8375,7 +8432,7 @@
 	dynasty = 1040201
 	female = yes
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170190
 	1177.1.1 = {
 		birth = yes
@@ -8389,7 +8446,7 @@
 	name = "Yildoz" #Tajuddin Yildoz
 	dynasty = 1040221
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1178.1.1 = {
 		birth = yes
 	}
@@ -8405,7 +8462,7 @@
 	name = "Alptigin"
 	dynasty = 1040222
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	914.1.1 = {
 		birth = yes
 	}
@@ -8418,7 +8475,7 @@
 	name = "Abu Ishaq" #Abu Ishaq Ibrahim
 	dynasty = 1040222
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170303
 	946.1.1 = {
 		birth = yes
@@ -8433,7 +8490,7 @@
 	dynasty = 1040222
 	female = yes
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170304
 	950.1.1 = {
 		birth = yes
@@ -8447,7 +8504,7 @@
 	name = "Qaim" #Qaim Khan
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170252
 	1180.1.1 = {
 		birth = yes
@@ -8461,7 +8518,7 @@
 	name = "Firuz" #Jalal ud din Firuz Khilji
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170242
 	1216.1.1 = {
 		birth = yes
@@ -8475,7 +8532,7 @@
 	name = "Masud"
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170242
 	1217.1.1 = {
 		birth = yes
@@ -8489,7 +8546,7 @@
 	name = "Ibrahim"
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170243
 	1234.1.1 = {
 		birth = yes
@@ -8503,7 +8560,7 @@
 	name = "Muhammad" #Ala-ud-din Muhammad
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170244
 	1242.1.1 = {
 		birth = yes
@@ -8517,7 +8574,7 @@
 	name = "Umar"
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170246
 	1310.1.1 = {
 		birth = yes
@@ -8531,7 +8588,7 @@
 	name = "Mubarak"
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170246
 	1265.1.1 = {
 		birth = yes
@@ -8545,7 +8602,7 @@
 	name = "Hidr"
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170246
 	1280.1.1 = {
 		birth = yes
@@ -8559,7 +8616,7 @@
 	name = "Mahmud"
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170249
 	1305.1.1 = {
 		birth = yes
@@ -8573,7 +8630,7 @@
 	name = "Husraw"
 	dynasty = 1040207
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1275.1.1 = {
 		birth = yes
 	}
@@ -8589,7 +8646,7 @@
 	name = "Bakhtiyar" #Muhammad Bakhtiyar
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1150.1.1 = {
 		birth = yes
 	}
@@ -8605,7 +8662,7 @@
 	name = "Shiran" #Muhammad Shiran
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170252
 	1166.1.1 = {
 		birth = yes
@@ -8619,7 +8676,7 @@
 	name = "Ali Mardan"
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170252
 	1167.1.1 = {
 		birth = yes
@@ -8633,7 +8690,7 @@
 	name = "Ghiyasuddin" #Ghiyasuddin Iwaj
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170252
 	1168.1.1 = {
 		birth = yes
@@ -8647,7 +8704,7 @@
 	name = "Balkha" #Malik Balkha
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170255
 	1192.1.1 = {
 		birth = yes
@@ -8661,7 +8718,7 @@
 	name = "Alauddin"
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170255
 	1190.1.1 = {
 		birth = yes
@@ -8677,7 +8734,7 @@
 	name = "Tughluq"
 	dynasty = 1040208
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1251.1.1 = {
 		birth = yes
 	}
@@ -8690,7 +8747,7 @@
 	name = "Tughluq" #Ghiyath al-Din Tughluq
 	dynasty = 1040208
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170256
 	1271.1.1 = {
 		birth = yes
@@ -8712,7 +8769,7 @@
 	dna = bcheaobceag
 	properties = ac0bh0000000
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170257
 	1297.1.1 = {
 		birth = yes
@@ -8726,7 +8783,7 @@
 	name = "Mahmud"
 	dynasty = 1040208
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170258
 	1331.1.1 = {
 		birth = yes
@@ -8740,7 +8797,7 @@
 	name = "Rajab"
 	dynasty = 1040208
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170256
 	1275.1.1 = {
 		birth = yes
@@ -8754,7 +8811,7 @@
 	name = "Firuz"
 	dynasty = 1040208
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170260
 	1309.1.1 = {
 		birth = yes
@@ -8770,7 +8827,7 @@
 	name = "Alauddin" #Alauddin Jani
 	dynasty = 1040209
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1177.1.1 = {
 		birth = yes
 	}
@@ -8783,7 +8840,7 @@
 	name = "Saifuddin" #Saifuddin Aibak
 	dynasty = 1040210
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1174.1.1 = {
 		birth = yes
 	}
@@ -8796,7 +8853,7 @@
 	name = "Awar" #Awar Khan Aibak
 	dynasty = 1040211
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1181.1.1 = {
 		birth = yes
 	}
@@ -8811,7 +8868,7 @@
 	name = "Tughan" #Tughral Tughan Khan
 	dynasty = 1040212
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1219.1.1 = {
 		birth = yes
 	}
@@ -8826,7 +8883,7 @@
 	name = "Tamar" #Tughlaq Tamar Khan
 	dynasty = 1040213
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1202.1.1 = {
 		birth = yes
 	}
@@ -8839,7 +8896,7 @@
 	name = "Masud" #Jalaluddin Masud Jani
 	dynasty = 1040213
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170268
 	1219.1.1 = {
 		birth = yes
@@ -8853,7 +8910,7 @@
 	name = "Ikhtiyaruddin" #Malik Ikhtiyaruddin Iuzbak
 	dynasty = 1040214
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1208.1.1 = {
 		birth = yes
 	}
@@ -8866,7 +8923,7 @@
 	name = "Ijjauddin" #Ijjauddin Balban Iuzbaki
 	dynasty = 1040214
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170270
 	1224.1.1 = {
 		birth = yes
@@ -8880,7 +8937,7 @@
 	name = "Tatar" #Tatar Khan
 	dynasty = 1040215
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1200.1.1 = {
 		birth = yes
 	}
@@ -8893,7 +8950,7 @@
 	name = "Sher" #Sher Khan
 	dynasty = 1040215
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170272
 	1240.1.1 = {
 		birth = yes
@@ -8907,7 +8964,7 @@
 	name = "Amin" #Amin Khan
 	dynasty = 1040215
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170273
 	1260.1.1 = {
 		birth = yes
@@ -8921,7 +8978,7 @@
 	name = "Firuz" #Shamsuddin Firoz Shah
 	dynasty = 1040216
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1248.1.1 = {
 		birth = yes
 	}
@@ -8934,7 +8991,7 @@
 	name = "Bughda" #Shihabuddin Bughda
 	dynasty = 1040216
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170275
 	1266.1.1 = {
 		birth = yes
@@ -8948,7 +9005,7 @@
 	name = "Mahmud" #Jalaluddin Mahmud
 	dynasty = 1040216
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170275
 	1267.1.1 = {
 		birth = yes
@@ -8962,7 +9019,7 @@
 	name = "Bahadur" #Ghiyasuddin Bahadur
 	dynasty = 1040216
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170275
 	1268.1.1 = {
 		birth = yes
@@ -8978,7 +9035,7 @@
 	name = "Ibrahim" #Nasiruddin Ibrahim
 	dynasty = 1040216
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170275
 	1269.1.1 = {
 		birth = yes
@@ -8992,7 +9049,7 @@
 	name = "Hatim" #Hatim Khan
 	dynasty = 1040216
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170275
 	1270.1.1 = {
 		birth = yes
@@ -9006,7 +9063,7 @@
 	name = "Kutlu" #Kutlu Khan
 	dynasty = 1040216
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170275
 	1271.1.1 = {
 		birth = yes
@@ -9020,7 +9077,7 @@
 	name = "Bahram" #Bahram Khan
 	dynasty = 1040217
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1275.1.1 = {
 		birth = yes
 	}
@@ -9033,7 +9090,7 @@
 	name = "Qadar" #Qadar Khan
 	dynasty = 1040218
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1282.1.1 = {
 		birth = yes
 	}
@@ -9046,7 +9103,7 @@
 	name = "Mukhlis"
 	dynasty = 1040218
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170283
 	1305.1.1 = {
 		birth = yes
@@ -9060,7 +9117,7 @@
 	name = "Azam" #Azam Khan
 	dynasty = 1040219
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1280.1.1 = {
 		birth = yes
 	}
@@ -9073,7 +9130,7 @@
 	name = "Yahya" #Izzuddin Yahya
 	dynasty = 1040219
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170285
 	1304.1.1 = {
 		birth = yes
@@ -9086,7 +9143,7 @@
 170287 = {
 	name = "Zafar" #Zafar Khan
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1262.1.1 = {
 		birth = yes
 	}
@@ -9115,7 +9172,7 @@
 	name = "Khizar" #Khizr or Khizar Khan
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170246
 	1270.1.1 = {
 		birth = yes
@@ -9132,7 +9189,7 @@
 	name = "Shadi" #Shadi Khan
 	dynasty = 1040205
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170246
 	1280.1.1 = {
 		birth = yes
@@ -9146,7 +9203,7 @@
 	name = "Dawud" # general that fought Ustadhsis
 	dynasty = 1042153 # Kirazid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	732.1.1 = {
 		birth = yes
 	}
@@ -9160,7 +9217,7 @@
 	name = "Sa'id"
 	dynasty = 1042149
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	744.1.1 = {
 		birth = yes
 	}
@@ -9173,7 +9230,7 @@
 	name = "Arda" # fictitious
 	dynasty = 1042151
 	religion = khurmazta
-	culture = turkish
+	culture = oghuz
 	736.1.1 = {
 		birth = yes
 	}
@@ -9186,7 +9243,7 @@
 	name = "Malik"	#Usurper of the kingdom of Satyapura, not much known
 	dynasty = 1044378	#Mir
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1260.1.1 = {
 		birth = yes
 	}
@@ -9199,7 +9256,7 @@
 	name = "Baha al-Din"
 	dynasty = 1044381	#Toghril
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1150.1.1 = {
 		birth = yes
 	}
@@ -9212,7 +9269,7 @@
 	name = "Arsalan Khan"
 	dynasty = 1044381	#Toghril
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 191873
 	1170.1.1 = {
 		birth = yes
@@ -9226,7 +9283,7 @@
 	name = "Ain-ul-Mulk"
 	dynasty = 1044389	#Multani
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1280.1.1 = {
 		birth = yes
 	}
@@ -9239,7 +9296,7 @@
 	name = "Kapaghan"	# fictional
 	dynasty = 12272
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	736.1.1 = {
 		birth = yes
 	}
@@ -9252,7 +9309,7 @@
 	name = "Dogan"	# fictional
 	dynasty = 12272
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 188776
 	810.1.1 = {
 		birth = yes
@@ -9266,7 +9323,7 @@
 	name = "Aydogan"	# fictional
 	dynasty = 12272
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 188777
 	775.1.1 = {
 		birth = yes
@@ -9280,7 +9337,7 @@
 	name = "Dogan"	# fictional
 	dynasty = 12272
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 188767
 	752.1.1 = {
 		birth = yes
@@ -9295,7 +9352,7 @@
 	female = yes
 	dynasty = 12272
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 188767
 	755.1.1 = {
 		birth = yes
@@ -9309,7 +9366,7 @@
 	name = "Osman" # fictional
 	dynasty = 1042198
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	740.1.1 = {
 		birth = yes
 	}
@@ -9322,7 +9379,7 @@
 	name = "Baytas" # fictional
 	dynasty = 1042199
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	730.1.1 = {
 		birth = yes
 	}
@@ -9336,7 +9393,7 @@
 	dynasty = 1042199
 	father = 188825
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	750.1.1 = {
 		birth = yes
 	}
@@ -9351,7 +9408,7 @@
 	dynasty = 1042199
 	father = 188825
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	752.1.1 = {
 		birth = yes
 	}
@@ -9364,7 +9421,7 @@
 	name = "Mustafa" # fictional
 	dynasty = 214000
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	738.1.1 = {
 		birth = yes
 	}
@@ -9377,7 +9434,7 @@
 	name = "Murat" # fictional
 	dynasty = 214001
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	736.1.1 = {
 		birth = yes
 	}
@@ -9393,7 +9450,7 @@
 	name = "Elsin" # fictional
 	female = yes
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	741.1.1 = {
 		birth = yes
 	}
@@ -9406,7 +9463,7 @@
 	name = "Ertugrul" # fictional
 	dynasty = 214002
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	732.1.1 = {
 		birth = yes
 	}
@@ -9419,7 +9476,7 @@
 	name = "Qabajah"
 	dynasty = 1040220 # Qabajah
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170300
 	mother = 170301
 	1202.4.5 = {
@@ -9434,7 +9491,7 @@
 	name = "Bugra"
 	dynasty = 1040220 # Qabajah
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 170300
 	mother = 170301
 	1204.5.6 = {
@@ -9449,7 +9506,7 @@
 	name = "Mesud"
 	dynasty = 1045059 # Ajmerid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1195.1.1 = {
 		birth = yes
 	}
@@ -9462,7 +9519,7 @@
 	name = "Ibrahim"
 	dynasty = 1045060 # Kasid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1170.1.1 = {
 		birth = yes
 	}
@@ -9475,7 +9532,7 @@
 	name = "Ibrahim"
 	dynasty = 1045060 # Kasid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194286
 	1195.1.1 = {
 		birth = yes
@@ -9489,7 +9546,7 @@
 	name = "Tekin"
 	dynasty = 1045060 # Kasid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194286
 	1197.1.1 = {
 		birth = yes
@@ -9503,7 +9560,7 @@
 	name = "Gulay"
 	dynasty = 1045060 # Kasid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194286
 	female = yes
 	1199.1.1 = {
@@ -9518,7 +9575,7 @@
 	name = "Nergis"
 	dynasty = 1045060 # Kasid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194286
 	female = yes
 	1199.1.1 = {
@@ -9533,7 +9590,7 @@
 	name = "Bozan"
 	dynasty = 1045061 # Magadhid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1172.1.1 = {
 		birth = yes
 	}
@@ -9546,7 +9603,7 @@
 	name = "Dundar"
 	dynasty = 1045061 # Magadhid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194291
 	1196.1.1 = {
 		birth = yes
@@ -9560,7 +9617,7 @@
 	name = "Mehmed"
 	dynasty = 1045061 # Magadhid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194291
 	1198.1.1 = {
 		birth = yes
@@ -9574,7 +9631,7 @@
 	name = "Merve"
 	dynasty = 1045061 # Magadhid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194291
 	female = yes
 	1201.1.1 = {
@@ -9589,7 +9646,7 @@
 	name = "Mutlu"
 	dynasty = 1045061 # Magadhid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194291
 	female = yes
 	1203.1.1 = {
@@ -9604,7 +9661,7 @@
 	name = "Demir"
 	dynasty = 1045062 # Maturid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1196.1.1 = {
 		birth = yes
 	}
@@ -9617,7 +9674,7 @@
 	name = "Afsin"
 	dynasty = 1045063 # Lahurid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1154.1.1 = {
 		birth = yes
 	}
@@ -9630,7 +9687,7 @@
 	name = "Baturay"
 	dynasty = 1045063 # Lahurid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194297
 	1194.1.1 = {
 		birth = yes
@@ -9644,7 +9701,7 @@
 	name = "Ertekin"
 	dynasty = 1045063 # Lahurid, fictional
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194297
 	1196.1.1 = {
 		birth = yes
@@ -9658,7 +9715,7 @@
 	name = "Kaytun"
 	dynasty = 1045064 # Bhadrid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1193.1.1 = {
 		birth = yes
 	}
@@ -9671,7 +9728,7 @@
 	name = "Tolun"
 	dynasty = 1045065 # Maymanid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1150.1.1 = {
 		birth = yes
 	}
@@ -9684,7 +9741,7 @@
 	name = "Burak"
 	dynasty = 1045065 # Maymanid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194301
 	trait = content
 	1192.1.1 = {
@@ -9699,7 +9756,7 @@
 	name = "Ridvan"
 	dynasty = 1045065 # Maymanid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194301
 	1198.1.1 = {
 		birth = yes
@@ -9713,7 +9770,7 @@
 	name = "Bayezid"
 	dynasty = 1045066 # Kyzylid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194301
 	1170.1.1 = {
 		birth = yes
@@ -9727,7 +9784,7 @@
 	name = "Songul"
 	dynasty = 1045066 # Kyzylid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	female = yes
 	father = 194304
 	1200.1.1 = {
@@ -9742,7 +9799,7 @@
 	name = "Sirma"
 	dynasty = 1045066 # Kyzylid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	female = yes
 	father = 194304
 	1205.1.1 = {
@@ -9757,7 +9814,7 @@
 	name = "Rustem"
 	dynasty = 1045066 # Kyzylid
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194304
 	1207.1.1 = {
 		birth = yes
@@ -9771,7 +9828,7 @@
 	name = "Kutlug"
 	dynasty = 100666
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194304
 	1190.1.1 = {
 		birth = yes
@@ -9785,7 +9842,7 @@
 	name = "Mehmed"
 	dynasty = 1045067
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1180.1.1 = {
 		birth = yes
 	}
@@ -9798,7 +9855,7 @@
 	name = "Çilen"
 	dynasty = 1045067
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	female = yes
 	father = 194309
 	1200.1.1 = {
@@ -9813,7 +9870,7 @@
 	name = "Gulbahar"
 	dynasty = 1045067
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	female = yes
 	father = 194309
 	1203.1.1 = {
@@ -9828,7 +9885,7 @@
 	name = "Kutay"
 	dynasty = 1045067
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 194309
 	1205.1.1 = {
 		birth = yes
@@ -9842,7 +9899,7 @@
 	name = "Gunduz"
 	dynasty = 1045073
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1190.1.1 = {
 		birth = yes
 	}
@@ -9855,7 +9912,7 @@
 	name = "Aepak" # fictional
 	dynasty = 1051105 # Sarigül
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	823.8.9 = {
 		birth = yes
 	}
@@ -9870,7 +9927,7 @@
 217151 = {
 	name = "Mutlu" # fictional
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	female = yes
 	825.7.14 = {
 		birth = yes
@@ -9884,7 +9941,7 @@
 	name = "Tugor" # fictional
 	dynasty = 1051105 # Sarigül
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217150
 	mother = 217151
 	847.12.3 = {
@@ -9899,7 +9956,7 @@
 	name = "Sati" # fictional
 	dynasty = 1051105 # Sarigül
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217150
 	mother = 217151
 	849.6.5 = {
@@ -9914,7 +9971,7 @@
 	name = "Kuntuvdi" # fictional
 	dynasty = 1051106 # Koray
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	807.5.2 = {
 		birth = yes
 	}
@@ -9929,7 +9986,7 @@
 217155 = {
 	name = "Ilkay" # fictional
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	female = yes
 	809.2.23 = {
 		birth = yes
@@ -9943,7 +10000,7 @@
 	name = "Kozel" # fictional
 	dynasty = 1051106 # Koray
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217154
 	mother = 217155
 	827.10.15 = {
@@ -9958,7 +10015,7 @@
 	name = "Dilek" # fictional
 	dynasty = 1051106 # Koray
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217154
 	mother = 217155
 	female = yes
@@ -9974,7 +10031,7 @@
 	name = "Eldeçyuk" # fictional
 	dynasty = 1051106 # Koray
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217154
 	mother = 217155
 	female = yes
@@ -9990,7 +10047,7 @@
 	name = "Uzluk" # fictional
 	dynasty = 1051107 # Korkmaz
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	811.6.17 = {
 		birth = yes
 	}
@@ -10005,7 +10062,7 @@
 217160 = {
 	name = "Çiçek" # fictional
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	female = yes
 	808.12.5 = {
 		birth = yes
@@ -10018,7 +10075,7 @@
 217161 = {
 	name = "Tura" # fictional
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217159
 	mother = 217160
 	female = yes
@@ -10033,7 +10090,7 @@
 217162 = {
 	name = "Koza" # fictional
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217159
 	mother = 217160
 	839.3.2 = {
@@ -10047,7 +10104,7 @@
 217163 = {
 	name = "Tugor" # fictional
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217159
 	mother = 217160
 	840.7.27 = {
@@ -10061,7 +10118,7 @@
 217164 = {
 	name = "Gundes" # fictional
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	father = 217159
 	mother = 217160
 	female = yes
@@ -10078,7 +10135,7 @@
 	name = "Sevindik"
 	female = yes
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	920.1.1 = {
 		birth = yes
 	}
@@ -10091,7 +10148,7 @@
 	name = "Haydar"
 	dynasty = 105849 #Kayani
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247702
 	mother = 247703
 	967.1.1 = {
@@ -10106,7 +10163,7 @@
 	name = "Nur"
 	dynasty = 105849 #Kayani
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247704
 	1037.1.1 = {
 		birth = yes
@@ -10120,7 +10177,7 @@
 	name = "Shah Mirza"
 	dynasty = 105849 #Kayani
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247705
 	1111.1.1 = {
 		birth = yes
@@ -10134,7 +10191,7 @@
 	name = "Tartora"
 	dynasty = 105849 #Kayani
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247706
 	1170.1.1 = {
 		birth = yes
@@ -10155,7 +10212,7 @@
 	dynasty = 105849 #Kayani
 	female = yes
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	1170.1.1 = {
 		birth = yes
 	}
@@ -10171,7 +10228,7 @@
 	dynasty = 105850 #Darel
 	female = yes
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	1170.1.1 = {
 		birth = yes
 	}
@@ -10186,7 +10243,7 @@
 	name = "Torra"
 	dynasty = 105849 #Kayani
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247707
 	mother = 247708
 	1200.1.1 = {
@@ -10204,7 +10261,7 @@
 	name = "Sau Malik"
 	dynasty = 105851 #Trakhan
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247710
 	1255.1.1 = {
 		birth = yes
@@ -10218,7 +10275,7 @@
 	name = "Chilis"
 	dynasty = 105851 #Trakhan
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247711
 	1295.1.1 = {
 		birth = yes
@@ -10235,7 +10292,7 @@
 	name = "Firdaws"
 	dynasty = 105851 #Trakhan
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247712
 	mother = 247717
 	1325.1.1 = {
@@ -10251,7 +10308,7 @@
 	female = yes
 	dynasty = 105851 #Trakhan
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247712
 	mother = 247717
 	1320.1.1 = {
@@ -10268,7 +10325,7 @@
 	name = "Shah Rais"
 	dynasty = 105849 #Kayani
 	religion = buddhist
-	culture = turkish
+	culture = oghuz
 	father = 247707
 	mother = 247709
 	1220.1.1 = {
@@ -10287,7 +10344,7 @@
 	name = "Shah Jan"
 	dynasty = 105852 #Raisiyya
 	religion = shiite
-	culture = turkish
+	culture = oghuz
 	father = 247715
 	1285.1.1 = {
 		birth = yes
@@ -10302,7 +10359,7 @@
 	female = yes
 	dynasty = 105852 #Raisiyya
 	religion = shiite
-	culture = turkish
+	culture = oghuz
 	father = 247715
 	1295.1.1 = {
 		birth = yes
@@ -10316,7 +10373,7 @@
 	name = "Shahzada Shah"
 	dynasty = 105852 #Raisiyya
 	religion = shiite
-	culture = turkish
+	culture = oghuz
 	father = 247716
 	1320.1.1 = {
 		birth = yes
@@ -10333,7 +10390,7 @@
 	name = "Gunduz"
 	dynasty = 1059007
 	religion = sunni
-	culture = turkish#uzbek
+	culture = oghuz#uzbek
 	990.1.1 = {
 		birth = yes
 	}
@@ -10346,7 +10403,7 @@
 	name = "Artuk"
 	dynasty = 1059007
 	religion = sunni
-	culture = turkish#uzbek
+	culture = oghuz#uzbek
 	father = 248023
 	1020.1.1 = {
 		birth = yes
@@ -10360,7 +10417,7 @@
 	name = "Ertekin"
 	dynasty = 1059007
 	religion = sunni
-	culture = turkish#uzbek
+	culture = oghuz#uzbek
 	father = 248024
 	1047.1.1 = {
 		birth = yes
@@ -10374,7 +10431,7 @@
 	name = "Ahmet"
 	dynasty = 1059007
 	religion = sunni
-	culture = turkish#uzbek
+	culture = oghuz#uzbek
 	father = 248025
 	1070.1.1 = {
 		birth = yes
@@ -10388,7 +10445,7 @@
 	name = "Aydin"
 	dynasty = 1059007
 	religion = sunni
-	culture = turkish#uzbek
+	culture = oghuz#uzbek
 	father = 248026
 	1100.1.1 = {
 		birth = yes
@@ -10402,7 +10459,7 @@
 	name = "Ibrahim"
 	dynasty = 1059007
 	religion = sunni
-	culture = turkish#uzbek
+	culture = oghuz#uzbek
 	father = 248027
 	1116.1.1 = {
 		birth = yes
@@ -10416,7 +10473,7 @@
 	name = "Mu'izz ad-Din Sanjar"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 144041
 	1170.1.1 = {
 		birth = yes
@@ -10430,7 +10487,7 @@
 	name = "Mu'izz ad-Din Mahmud"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 248139
 	1190.1.1 = {
 		birth = yes
@@ -10444,7 +10501,7 @@
 	name = "Mu'izz ad-Din Mahmud"
 	dynasty = 101687
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 248140
 	1220.1.1 = {
 		birth = yes
@@ -10471,7 +10528,7 @@
 	name = "Songul"
 	dynasty = 1100011
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	837.1.1 = {
 		birth = yes
 	}
@@ -10484,7 +10541,7 @@
 	name = "Burak"
 	dynasty = 1100013
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1039.1.1 = {
 		birth = yes
 	}
@@ -10497,7 +10554,7 @@
 	name = "Savtekin"
 	dynasty = 1100014
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	1038.1.1 = {
 		birth = yes
 	}
@@ -10510,7 +10567,7 @@
 	name = "Cuneyd"
 	dynasty = 1062325
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	899.1.1 = {
 		birth = yes
 	}
@@ -10523,7 +10580,7 @@
 	name = "Bajkam"
 	dynasty = 1062488
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	895.1.1 = {
 		birth = yes
 	}
@@ -10536,7 +10593,7 @@
 	name = "Abu'l-Wafa"
 	dynasty = 1062489
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	894.1.1 = {
 		birth = yes
 	}
@@ -10549,7 +10606,7 @@
 	name = "Korkut"
 	dynasty = 1062493
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	891.1.1 = {
 		birth = yes
 	}
@@ -10562,7 +10619,7 @@
 	name = "Rustem"
 	dynasty = 1062494
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	901.1.1 = {
 		birth = yes
 	}
@@ -10575,7 +10632,7 @@
 	name = "Baytas"
 	dynasty = 1062495
 	religion = tengri_pagan
-	culture = turkish
+	culture = oghuz
 	897.1.1 = {
 		birth = yes
 	}
@@ -10588,7 +10645,7 @@
 	name = "Simjur"
 	dynasty = 1062496
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	871.1.1 = {
 		birth = yes
 	}
@@ -10601,7 +10658,7 @@
 	name = "Ibrahim"
 	dynasty = 1062496
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 261040
 	896.1.1 = {
 		birth = yes
@@ -10615,7 +10672,7 @@
 	name = "Abu'l-Hasan"
 	dynasty = 1062496
 	religion = sunni
-	culture = turkish
+	culture = oghuz
 	father = 261041
 	925.1.1 = {
 		birth = yes
