@@ -1261,7 +1261,7 @@
 	intrigue = 2
 	stewardship = 7
 	religion = catholic
-	culture = castillan
+	culture = galician
 	trait = honest
 	trait = wroth
 	trait = arbitrary
@@ -1465,8 +1465,8 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = leonese
-	culture = castillan
+	religion = catholic
+	culture = leonese
 	trait = bastard
 	father = 108500
 	mother = 70061
@@ -19884,7 +19884,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = catholic
-	culture = portuguese
+	culture = galician
 	trait = honest
 	trait = humble
 	trait = fortune_builder

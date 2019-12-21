@@ -23697,7 +23697,7 @@
 	}
 }
 
-galician = {
+457671 = {
 	name = "Pedro"
 	dynasty = 279
 
