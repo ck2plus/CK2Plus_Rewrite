@@ -1,67 +1,100 @@
-##################################################################
-#
-#	Each tactic's sprite shows the unit receiving the biggest bonus
-#
-#	combat_tactic_strip.dds
-#	 1 = Light Infantry
-#	 2 = Heavy Infantry
-#	 3 = Pikemen
-#	 4 = Light Cavalry
-#	 5 = Heavy Cavalry
-#	 6 = Archers
-#	 7 = Horse Archers
-#	 8 = Ships
-#	 9 = War Elephants
-#	10 = Camel Cavalry
-#	11 = ?
-#
-##################################################################
+tactic_name = { 							# Tactic name, localised
+	days = 6 								# In-game duration
 
-tactic_name = { 					# Tactic name, localised
-	days = 6 						# In-game duration
+	sprite = 4 								# Appropriate unit sprite, see above
 
-	sprite = 4 						# Appropriate unit sprite, see above
+	group = skirmish 						# Used to define affinity bonus
 
-	group = skirmish 				# Used to define affinity bonus
+	trigger = {								# Contains list of requirements for this tactic to
+											# be added to the pool of available tactics
 
-	trigger = {						# Contains list of requirements for this tactic to
-									# be added to the pool of available tactics
+		phase = skirmish 					# Required combat phase
 
-		phase = skirmish 			# Required combat phase
+		days >= 6							# Only available after this many days of combat
 
-		flank_has_leader = yes		# Restrict to flanks with or without a commander
+		is_attacker = yes/no				# Required to be attacking/defending
 
-		light_cavalry >= 0.1 		# At least 10% of flank must be this troop type
-
-		troops = { 					# Above also includes special troops based
-			who = light_cavalry		# on light cavalry (horse archers,
-			value <= 0.1				# camel cavalry, see 00_special_troops.txt)
-		}							# This nested check is troop-type specific
-	}
-
-	mean_time_to_happen = {			# Likelihood of being selected
-		days = 10					# Base weight for selection
-
-		additive_modifier = {		# Additive modifiers are added first
-			value = 3				# Added to base weight
-
-			triggers				# Requirements to use above factor
+		location = {						# Province where combat is taking place
+			terrain = marsh					# Check terrain type
+			is_winter = no					# Check winter season
+			climate = severe_winter			# Check winter climate
+			is_coastal = yes/no				# Check whether inland or coastal
+			borders_lake = yes/no			# Check for nearby lake
+			borders_major_river	= yes/no	# Check for nearby river
 		}
 
-		mult_modifier = {			# Multiplicative modifiers are used afterwards
-			factor = 1.5			# Tactic's weight is multiplied by this,
-									# can be zero to eliminate tactic
-			triggers				# Requirements to use above factor
+		leader = {							# Commander of this flank
+			martial >= 10					# Required martial skill
+			trait = strategist				# Required trait
+			liege = {}						# Useful scope to check technology etc.
+			mercenary_employer = {}			# Use for hired mercenary commanders
+			enemy = {						# Scope to enemy flank
+				troops = {}					# See below
+				leader = {					# Enemy commander
+					ROOT = {				# Back to own flank
+						leader = {}			# Back to own commander
+					}
+				}
+			}
+		}
+
+		flank_has_leader = yes				# Restrict to flanks with or without a commander
+
+		flank_has_tactic = tactic			# Required to have this tactic
+
+		light_cavalry >= 0.1 				# At least 10% of flank must be this troop type
+
+		troops = { 							# Above also includes special troops based
+			who = light_cavalry				# on light cavalry (horse archers,
+			value <= 0.1					# camel cavalry, see 00_special_troops.txt)
+		}									# This nested check is troop-type specific
+
+		light_troops = {					# Only compares archers to light troops
+			who = archers
+			value >= 0.2
+		}
+
+		pikemen = {							# Requires having at least 20% as many
+			who = archers					# pikemen as archers
+			value >= 0.2
+		}
+
+		troops = {							# Checks if own flank is at least 60%
+			who = troops					# the size of the enemy flank
+			value >= 0.6					# Can also compare specific troop types
+			enemy = yes						# on either side
+		}
+
+		archers = {							# Requires having at least twice as many
+			who = knights					# archers as enemy has heavy cavalry
+			value >= 2.0
+			enemy = yes
 		}
 	}
 
-	light_infantry_morale = 0.2		# 20% morale increase
-	knights_defensive = -0.1		# 10% defense decrease
-	horse_archers_offensive = 1.0	# 100% attack increase
+	mean_time_to_happen = {					# Likelihood of being selected
+		days = 10							# Base weight for selection
 
-	enemy = {						# Define affinity, more than one is possible
-		group = swarm				# Against this group of tactics
-		factor = 0.5				# 50% bonus
+		additive_modifier = {				# Additive modifiers are evaluated first
+			value = 3						# Added to base weight
+
+			triggers						# Requirements to use above factor
+		}
+
+		mult_modifier = {					# Multiplicative modifiers are evaluated afterwards
+			factor = 1.5					# Tactic's weight is multiplied by this,
+											# can be zero to eliminate tactic
+			triggers						# Requirements to use above factor
+		}
+	}
+
+	light_infantry_morale = 0.2				# 20% morale increase
+	knights_defensive = -0.1				# 10% defense decrease
+	horse_archers_offensive = 1.0			# 100% attack increase
+
+	enemy = {								# Define affinity, more than one is possible
+		group = swarm						# Against this group of tactics
+		factor = 0.5						# 50% bonus
 	}
 }
 

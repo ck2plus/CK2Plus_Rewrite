@@ -12,6 +12,11 @@
 #
 #	INDEX
 #
+#	technology_skirmish_tier_1_factor
+#	technology_melee_tier_1_factor
+#	technology_infantry_tier_1_factor
+#	technology_cavalry_tier_1_factor
+#
 #	martial_tier_2_factor
 #	martial_tier_3_factor
 #	martial_tier_4_factor
@@ -68,6 +73,1011 @@
 #	Quality selection factors
 #
 ##################################################################
+
+# Technology reduces chances of the worst tactic quality
+technology_skirmish_tier_1_factor = {
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_SKIRMISH >= 1
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_SKIRMISH >= 1
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_SKIRMISH >= 1
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_SKIRMISH >= 2
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_SKIRMISH >= 2
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_SKIRMISH >= 2
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_SKIRMISH >= 3
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_SKIRMISH >= 3
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_SKIRMISH >= 3
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_SKIRMISH >= 4
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_SKIRMISH >= 4
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_SKIRMISH >= 4
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_SKIRMISH >= 5
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_SKIRMISH >= 5
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_SKIRMISH >= 5
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_SKIRMISH >= 6
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_SKIRMISH >= 6
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_SKIRMISH >= 6
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_SKIRMISH >= 7
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_SKIRMISH >= 7
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_SKIRMISH >= 7
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_SKIRMISH >= 8
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_SKIRMISH >= 8
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_SKIRMISH >= 8
+					}
+				}
+			}
+		}
+	}
+}
+
+technology_melee_tier_1_factor = {
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_MELEE >= 1
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_MELEE >= 1
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_MELEE >= 1
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_MELEE >= 2
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_MELEE >= 2
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_MELEE >= 2
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_MELEE >= 3
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_MELEE >= 3
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_MELEE >= 3
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_MELEE >= 4
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_MELEE >= 4
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_MELEE >= 4
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_MELEE >= 5
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_MELEE >= 5
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_MELEE >= 5
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_MELEE >= 6
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_MELEE >= 6
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_MELEE >= 6
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_MELEE >= 7
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_MELEE >= 7
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_MELEE >= 7
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_MELEE >= 8
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_MELEE >= 8
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_MELEE >= 8
+					}
+				}
+			}
+		}
+	}
+}
+
+technology_infantry_tier_1_factor = {
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_INFANTRY >= 1
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_INFANTRY >= 1
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_INFANTRY >= 1
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_INFANTRY >= 2
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_INFANTRY >= 2
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_INFANTRY >= 2
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_INFANTRY >= 3
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_INFANTRY >= 3
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_INFANTRY >= 3
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_INFANTRY >= 4
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_INFANTRY >= 4
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_INFANTRY >= 4
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_INFANTRY >= 5
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_INFANTRY >= 5
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_INFANTRY >= 5
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_INFANTRY >= 6
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_INFANTRY >= 6
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_INFANTRY >= 6
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_INFANTRY >= 7
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_INFANTRY >= 7
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_INFANTRY >= 7
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_INFANTRY >= 8
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_INFANTRY >= 8
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_INFANTRY >= 8
+					}
+				}
+			}
+		}
+	}
+}
+
+technology_cavalry_tier_1_factor = {
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_CAVALRY >= 1
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_CAVALRY >= 1
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_CAVALRY >= 1
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_CAVALRY >= 2
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_CAVALRY >= 2
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_CAVALRY >= 2
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_CAVALRY >= 3
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_CAVALRY >= 3
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_CAVALRY >= 3
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_CAVALRY >= 4
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_CAVALRY >= 4
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_CAVALRY >= 4
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_CAVALRY >= 5
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_CAVALRY >= 5
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_CAVALRY >= 5
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_CAVALRY >= 6
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_CAVALRY >= 6
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_CAVALRY >= 6
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_CAVALRY >= 7
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_CAVALRY >= 7
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_CAVALRY >= 7
+					}
+				}
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.9
+		flank_has_leader = yes
+		leader = {
+			trigger_if = {
+				limit = {
+					is_nomadic = yes
+				}
+				liege = {
+					TECH_CAVALRY >= 8
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					mercenary = yes
+				}
+				mercenary_employer = {
+					capital_scope = {
+						TECH_CAVALRY >= 8
+					}
+				}
+			}
+			trigger_else = {
+				liege = {
+					capital_scope = {
+						TECH_CAVALRY >= 8
+					}
+				}
+			}
+		}
+	}
+}
 
 # Martial modifiers for tactics
 martial_tier_2_factor = {
@@ -1771,7 +2781,12 @@ traits_tier_2_factor = {
 				terrain = coastal_desert
 			}
 		}
-		leader = { trait = desert_terrain_leader }
+		leader = {
+			OR = {
+				trait = desert_terrain_leader
+				trait = west_african_leader
+			}
+		}
 	}
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
@@ -1800,90 +2815,26 @@ traits_tier_2_factor = {
 	# Other military traits
 	mult_modifier = {
 		factor = 1.33 # roughly 6 martial
-		leader = { trait = holy_warrior }
-		enemy = { # Enemy flank
-			leader = { # Enemy commander
-				OR = {
-					# ROOT is own combat flank
-					# PREVPREV is enemy commander
-					ROOT = { # These consider everyone their religious enemy
-						leader = {
-							OR = {
-								religion_group = zoroastrian_group
-								religion_group = jewish_group
-								AND = { # But pagans must not be cosmopolitan
-									religion_group = pagan_group
-									NOT = {
-										has_religion_feature = religion_cosmopolitan
-									}
-								}
-							}
-							NOT = { # Anyone with a different religion
-								religion = PREVPREV
-							}
-						}
-					}
-					ROOT = { # Christians only fight heresies of own branch
-						leader = {
-							religion_group = christian
-							OR = {
-								OR = { # One of both commanders is a heretic
-									is_heresy_of = PREVPREV
-									is_parent_religion = PREVPREV
-								}
-								NOT = { # Anyone outside religious group
-									religion_group = PREVPREV
-								}
-							}
-						}
-					}
-					ROOT = { # Muslims also fight non-heretic Muslims
-						leader = {
-							religion_group = muslim
-							OR = {
-								OR = { # One of both commanders is a heretic
-									is_heresy_of = PREVPREV
-									is_parent_religion = PREVPREV
-								}
-								NOR = { # Non-heretics of different branches
-									is_heretic = yes
-									PREVPREV = { is_heretic = yes }
-									religion = PREVPREV
-								}
-								NOT = { # Anyone outside religious group
-									religion_group = PREVPREV
-								}
-							}
-						}
-					}
-					ROOT = { # Dharmans avoid religious infighting
-						leader = {
-							religion_group = indian_group
-							NOR = { # Pacifist
-								religion = taoist
-								religion = jain
-							}
-							OR = {
-								NOT = { # Anyone outside own religious group
-									religion_group = PREVPREV
-								}
-								PREVPREV = { # Following regular Holy War CB
-									religion = taoist
-								}
-							}
-						}
-					}
-				}
+		leader = {
+			OR =  {
+				trait = holy_warrior
+				trait = crusader_king
+				trait = crusader_queen
 			}
 		}
+		plus_opposing_leader_is_of_hostile_religion_trigger = yes
 	}
 
 	# Flanking
-	mult_modifier = { # Non-functional
-		factor = 1.2
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
 		leader = {
-			center_flank_leader = {
-				character = PREV
+			liege = {
+				any_army = {
+					center_flank_leader = {
+						character = PREVPREVPREV
+					}
+				}
 			}
 			OR = {
 				trait = experimenter # Direct Leader
@@ -1891,14 +2842,23 @@ traits_tier_2_factor = {
 			}
 		}
 	}
-	mult_modifier = { # Non-functional
-		factor = 1.2
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
 		leader = {
 			OR = {
-				center_flank_leader = {
-					NOT = { character = PREV }
+				liege = { # either leading a side flank
+					any_army = {
+						OR = {
+							left_flank_leader = {
+								character = PREVPREVPREV
+							}
+							right_flank_leader = {
+								character = PREVPREVPREV
+							}
+						}
+					}
 				}
-				ROOT = { is_flanking = yes }
+				ROOT = { is_flanking = yes } # or flanking from any flank
 			}
 			OR = {
 				trait = flanker
@@ -1986,7 +2946,12 @@ traits_tier_3_factor = {
 				terrain = coastal_desert
 			}
 		}
-		leader = { trait = desert_terrain_leader }
+		leader = {
+			OR = {
+				trait = desert_terrain_leader
+				trait = west_african_leader
+			}
+		}
 	}
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
@@ -2015,90 +2980,26 @@ traits_tier_3_factor = {
 	# Other military traits
 	mult_modifier = {
 		factor = 1.75 # roughly 6 martial
-		leader = { trait = holy_warrior }
-		enemy = { # Enemy flank
-			leader = { # Enemy commander
-				OR = {
-					# ROOT is own combat flank
-					# PREVPREV is enemy commander
-					ROOT = { # These consider everyone their religious enemy
-						leader = {
-							OR = {
-								religion_group = zoroastrian_group
-								religion_group = jewish_group
-								AND = { # But pagans must not be cosmopolitan
-									religion_group = pagan_group
-									NOT = {
-										has_religion_feature = religion_cosmopolitan
-									}
-								}
-							}
-							NOT = { # Anyone with a different religion
-								religion = PREVPREV
-							}
-						}
-					}
-					ROOT = { # Christians only fight heresies of own branch
-						leader = {
-							religion_group = christian
-							OR = {
-								OR = { # One of both commanders is a heretic
-									is_heresy_of = PREVPREV
-									is_parent_religion = PREVPREV
-								}
-								NOT = { # Anyone outside religious group
-									religion_group = PREVPREV
-								}
-							}
-						}
-					}
-					ROOT = { # Muslims also fight non-heretic Muslims
-						leader = {
-							religion_group = muslim
-							OR = {
-								OR = { # One of both commanders is a heretic
-									is_heresy_of = PREVPREV
-									is_parent_religion = PREVPREV
-								}
-								NOR = { # Non-heretics of different branches
-									is_heretic = yes
-									PREVPREV = { is_heretic = yes }
-									religion = PREVPREV
-								}
-								NOT = { # Anyone outside religious group
-									religion_group = PREVPREV
-								}
-							}
-						}
-					}
-					ROOT = { # Dharmans avoid religious infighting
-						leader = {
-							religion_group = indian_group
-							NOR = { # Pacifist
-								religion = taoist
-								religion = jain
-							}
-							OR = {
-								NOT = { # Anyone outside own religious group
-									religion_group = PREVPREV
-								}
-								PREVPREV = { # Following regular Holy War CB
-									religion = taoist
-								}
-							}
-						}
-					}
-				}
+		leader = {
+			OR =  {
+				trait = holy_warrior
+				trait = crusader_king
+				trait = crusader_queen
 			}
 		}
+		plus_opposing_leader_is_of_hostile_religion_trigger = yes
 	}
 
 	# Flanking
-	mult_modifier = { # Non-functional
-		factor = 1.5
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
 		leader = {
-			center_flank_leader = {
-				character = PREV
+			liege = {
+				any_army = {
+					center_flank_leader = {
+						character = PREVPREVPREV
+					}
+				}
 			}
 			OR = {
 				trait = experimenter # Direct Leader
@@ -2106,14 +3007,23 @@ traits_tier_3_factor = {
 			}
 		}
 	}
-	mult_modifier = { # Non-functional
-		factor = 1.5
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
 		leader = {
 			OR = {
-				center_flank_leader = {
-					NOT = { character = PREV }
+				liege = { # either leading a side flank
+					any_army = {
+						OR = {
+							left_flank_leader = {
+								character = PREVPREVPREV
+							}
+							right_flank_leader = {
+								character = PREVPREVPREV
+							}
+						}
+					}
 				}
-				ROOT = { is_flanking = yes }
+				ROOT = { is_flanking = yes } # or flanking from any flank
 			}
 			OR = {
 				trait = flanker
@@ -2201,7 +3111,12 @@ traits_tier_4_factor = {
 				terrain = coastal_desert
 			}
 		}
-		leader = { trait = desert_terrain_leader }
+		leader = {
+			OR = {
+				trait = desert_terrain_leader
+				trait = west_african_leader
+			}
+		}
 	}
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
@@ -2230,90 +3145,26 @@ traits_tier_4_factor = {
 	# Other military traits
 	mult_modifier = {
 		factor = 2.3 # roughly 6 martial
-		leader = { trait = holy_warrior }
-		enemy = { # Enemy flank
-			leader = { # Enemy commander
-				OR = {
-					# ROOT is own combat flank
-					# PREVPREV is enemy commander
-					ROOT = { # These consider everyone their religious enemy
-						leader = {
-							OR = {
-								religion_group = zoroastrian_group
-								religion_group = jewish_group
-								AND = { # But pagans must not be cosmopolitan
-									religion_group = pagan_group
-									NOT = {
-										has_religion_feature = religion_cosmopolitan
-									}
-								}
-							}
-							NOT = { # Anyone with a different religion
-								religion = PREVPREV
-							}
-						}
-					}
-					ROOT = { # Christians only fight heresies of own branch
-						leader = {
-							religion_group = christian
-							OR = {
-								OR = { # One of both commanders is a heretic
-									is_heresy_of = PREVPREV
-									is_parent_religion = PREVPREV
-								}
-								NOT = { # Anyone outside religious group
-									religion_group = PREVPREV
-								}
-							}
-						}
-					}
-					ROOT = { # Muslims also fight non-heretic Muslims
-						leader = {
-							religion_group = muslim
-							OR = {
-								OR = { # One of both commanders is a heretic
-									is_heresy_of = PREVPREV
-									is_parent_religion = PREVPREV
-								}
-								NOR = { # Non-heretics of different branches
-									is_heretic = yes
-									PREVPREV = { is_heretic = yes }
-									religion = PREVPREV
-								}
-								NOT = { # Anyone outside religious group
-									religion_group = PREVPREV
-								}
-							}
-						}
-					}
-					ROOT = { # Dharmans avoid religious infighting
-						leader = {
-							religion_group = indian_group
-							NOR = { # Pacifist
-								religion = taoist
-								religion = jain
-							}
-							OR = {
-								NOT = { # Anyone outside own religious group
-									religion_group = PREVPREV
-								}
-								PREVPREV = { # Following regular Holy War CB
-									religion = taoist
-								}
-							}
-						}
-					}
-				}
+		leader = {
+			OR =  {
+				trait = holy_warrior
+				trait = crusader_king
+				trait = crusader_queen
 			}
 		}
+		plus_opposing_leader_is_of_hostile_religion_trigger = yes
 	}
 
 	# Flanking
-	mult_modifier = { # Non-functional
-		factor = 1.75
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
 		leader = {
-			center_flank_leader = {
-				character = PREV
+			liege = {
+				any_army = {
+					center_flank_leader = {
+						character = PREVPREVPREV
+					}
+				}
 			}
 			OR = {
 				trait = experimenter # Direct Leader
@@ -2321,14 +3172,23 @@ traits_tier_4_factor = {
 			}
 		}
 	}
-	mult_modifier = { # Non-functional
-		factor = 1.75
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
 		leader = {
 			OR = {
-				center_flank_leader = {
-					NOT = { character = PREV }
+				liege = { # either leading a side flank
+					any_army = {
+						OR = {
+							left_flank_leader = {
+								character = PREVPREVPREV
+							}
+							right_flank_leader = {
+								character = PREVPREVPREV
+							}
+						}
+					}
 				}
-				ROOT = { is_flanking = yes }
+				ROOT = { is_flanking = yes } # or flanking from any flank
 			}
 			OR = {
 				trait = flanker
@@ -2416,7 +3276,12 @@ traits_tier_5_factor = {
 				terrain = coastal_desert
 			}
 		}
-		leader = { trait = desert_terrain_leader }
+		leader = {
+			OR = {
+				trait = desert_terrain_leader
+				trait = west_african_leader
+			}
+		}
 	}
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
@@ -2442,7 +3307,7 @@ traits_tier_5_factor = {
 		leader = {	trait = misguided_warrior }
 	}
 
-	# Other military traits
+	# Damage against religious enemies
 	mult_modifier = {
 		factor = 3 # roughly 6 martial
 		leader = {
@@ -2452,89 +3317,19 @@ traits_tier_5_factor = {
 				trait = crusader_queen
 			}
 		}
-		enemy = { # Enemy flank
-			leader = { # Enemy commander
-				OR = {
-					# ROOT is own combat flank
-					# PREVPREV is enemy commander
-					ROOT = { # These consider everyone their religious enemy
-						leader = {
-							OR = {
-								religion_group = zoroastrian_group
-								religion_group = jewish_group
-								AND = { # But pagans must not be cosmopolitan
-									religion_group = pagan_group
-									NOT = {
-										has_religion_feature = religion_cosmopolitan
-									}
-								}
-							}
-							NOT = { # Anyone with a different religion
-								religion = PREVPREV
-							}
-						}
-					}
-					ROOT = { # Christians only fight heresies of own branch
-						leader = {
-							religion_group = christian
-							OR = {
-								OR = { # One of both commanders is a heretic
-									is_heresy_of = PREVPREV
-									is_parent_religion = PREVPREV
-								}
-								NOT = { # Anyone outside religious group
-									religion_group = PREVPREV
-								}
-							}
-						}
-					}
-					ROOT = { # Muslims also fight non-heretic Muslims
-						leader = {
-							religion_group = muslim
-							OR = {
-								OR = { # One of both commanders is a heretic
-									is_heresy_of = PREVPREV
-									is_parent_religion = PREVPREV
-								}
-								NOR = { # Non-heretics of different branches
-									is_heretic = yes
-									PREVPREV = { is_heretic = yes }
-									religion = PREVPREV
-								}
-								NOT = { # Anyone outside religious group
-									religion_group = PREVPREV
-								}
-							}
-						}
-					}
-					ROOT = { # Dharmans avoid religious infighting
-						leader = {
-							religion_group = indian_group
-							NOR = { # Pacifist
-								religion = taoist
-								religion = jain
-							}
-							OR = {
-								NOT = { # Anyone outside own religious group
-									religion_group = PREVPREV
-								}
-								PREVPREV = { # Following regular Holy War CB
-									religion = taoist
-								}
-							}
-						}
-					}
-				}
-			}
-		}
+		plus_opposing_leader_is_of_hostile_religion_trigger = yes
 	}
 
 	# Flanking
-	mult_modifier = { # Non-functional
-		factor = 2
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
 		leader = {
-			center_flank_leader = { # Doesn't work in combat?
-				character = PREV
+			liege = {
+				any_army = {
+					center_flank_leader = {
+						character = PREVPREVPREV
+					}
+				}
 			}
 			OR = {
 				trait = experimenter # Direct Leader
@@ -2542,14 +3337,23 @@ traits_tier_5_factor = {
 			}
 		}
 	}
-	mult_modifier = { # Non-functional
-		factor = 2
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
 		leader = {
 			OR = {
-				center_flank_leader = { # Doesn't work in combat?
-					NOT = { character = PREV }
+				liege = { # either leading a side flank
+					any_army = {
+						OR = {
+							left_flank_leader = {
+								character = PREVPREVPREV
+							}
+							right_flank_leader = {
+								character = PREVPREVPREV
+							}
+						}
+					}
 				}
-				ROOT = { is_flanking = yes }
+				ROOT = { is_flanking = yes } # or flanking from any flank
 			}
 			OR = {
 				trait = flanker
@@ -2799,6 +3603,88 @@ offensive_tactic_factor = {
 			has_religion_feature = religion_warlike
 		}
 	}
+
+	# More likely if outnumbering the enemy
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.90
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.80
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.70
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.60
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.5
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.33
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.25
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.20
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.15
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value <= 0.10
+			enemy = yes
+		}
+	}
 }
 
 # Increases chances of selecting a defensive tactic group
@@ -2848,9 +3734,93 @@ defensive_tactic_factor = {
 			has_religion_feature = religion_defensive
 		}
 	}
+
+	# More likely if outnumbered
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 1.1
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 1.25
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 1.5
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 1.75
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 2.0
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 3.0
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 4.0
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 5.0
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 7.5
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 1.3
+		troops = {
+			who = troops
+			value >= 10.0
+			enemy = yes
+		}
+	}
 }
 
+# Affects chances of advancing or charging into melee combat
 change_to_melee_selection_factor = {
+	# More likely the longer a battle lasts
 	mult_modifier = {
 		factor = 1.5
 		days = 12
@@ -2875,6 +3845,225 @@ change_to_melee_selection_factor = {
 		factor = 1.5
 		days = 27
 	}
+
+	# More likely on easy to traverse terrain
+	mult_modifier = {
+		factor = 2
+		location = {
+			OR = {
+				terrain = plains
+				terrain = farmlands
+				terrain = steppe
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 1.5
+		location = {
+			OR = {
+				terrain = arctic
+				terrain = desert
+				terrain = coastal_desert
+			}
+		}
+	}
+
+	# Less likely on hard to traverse terrain
+	mult_modifier = {
+		factor = 0.5
+		location = {
+			OR = {
+				terrain = forest
+				terrain = hills
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.25
+		location = {
+			OR = {
+				terrain = jungle
+				terrain = mountain
+				terrain = marsh
+			}
+		}
+	}
+
+	# Less likely in winter
+	mult_modifier = {
+		factor = 0.9
+		location = {
+			is_winter = yes
+			NOR = {
+				climate = mild_winter
+				climate = normal_winter
+				climate = severe_winter
+			}
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		location = {
+			is_winter = yes
+			climate = mild_winter
+		}
+	}
+	mult_modifier = {
+		factor = 0.5
+		location = {
+			is_winter = yes
+			climate = normal_winter
+		}
+	}
+	mult_modifier = {
+		factor = 0.3
+		location = {
+			is_winter = yes
+			climate = severe_winter
+		}
+	}
+
+	# More likely against a small force
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = troops
+			value <= 0.80
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = troops
+			value <= 0.60
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = troops
+			value <= 0.30
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = troops
+			value <= 0.20
+			enemy = yes
+		}
+	}
+
+	# Less likely against an overwhelming force
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = troops
+			value >= 1.50
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = troops
+			value >= 2.00
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = troops
+			value >= 3.00
+			enemy = yes
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = troops
+			value >= 5.00
+			enemy = yes
+		}
+	}
+
+	# More likely with proportionally many melee oriented troops
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value > 0.50
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value >= 0.60
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value >= 0.70
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value >= 0.80
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value >= 0.90
+		}
+	}
+
+	# Less likely with proportionally fewer melee oriented troops
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value <= 0.50
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value <= 0.40
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value <= 0.30
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value <= 0.20
+		}
+	}
+	mult_modifier = {
+		factor = 0.7
+		troops = {
+			who = heavy_troops
+			value <= 0.10
+		}
+	}
 }
 
 ##################################################################
@@ -2883,7 +4072,7 @@ change_to_melee_selection_factor = {
 #
 ##################################################################
 
-# Affects chance of selecting a volley group tactic, more likely with more archers, and against more horse archers
+# Affects chance of selecting a Volley group tactic, more likely with more archers, and against more horse archers
 volley_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -3098,7 +4287,7 @@ volley_flank_composition_factor = {
 	}
 }
 
-# Affects chance of selecting a swarm group tactic, more likely with more horse archers, and against more light cavalry
+# Affects chance of selecting a Swarm group tactic, more likely with more horse archers, and against more light cavalry
 swarm_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -3313,13 +4502,13 @@ swarm_flank_composition_factor = {
 	}
 }
 
-# Affects chance of selecting a harass group tactic, more likely with more light/camel cavalry, and against more light infantry/archers
+# Affects chance of selecting a Harass group tactic, more likely with more light/camel cavalry, and against more light infantry/archers
 harass_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = light_cavalry
 			value >= 0.20
 		}
@@ -3330,7 +4519,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = light_cavalry
 			value >= 0.25
 		}
@@ -3341,7 +4530,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = light_cavalry
 			value >= 0.30
 		}
@@ -3352,7 +4541,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = light_cavalry
 			value >= 0.35
 		}
@@ -3363,7 +4552,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = light_cavalry
 			value >= 0.40
 		}
@@ -3374,7 +4563,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = light_cavalry
 			value >= 0.45
 		}
@@ -3385,7 +4574,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = light_cavalry
 			value >= 0.50
 		}
@@ -3396,7 +4585,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = camel_cavalry
 			value >= 0.20
 		}
@@ -3407,7 +4596,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = camel_cavalry
 			value >= 0.25
 		}
@@ -3418,7 +4607,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = camel_cavalry
 			value >= 0.30
 		}
@@ -3429,7 +4618,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = camel_cavalry
 			value >= 0.35
 		}
@@ -3440,7 +4629,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = camel_cavalry
 			value >= 0.40
 		}
@@ -3451,7 +4640,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = camel_cavalry
 			value >= 0.45
 		}
@@ -3462,7 +4651,7 @@ harass_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.2
 
-		light_troops = {
+		troops = {
 			who = camel_cavalry
 			value >= 0.50
 		}
@@ -3476,7 +4665,7 @@ harass_flank_composition_factor = {
 		factor = 0.83
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value <= 0.10
 			}
@@ -3489,7 +4678,7 @@ harass_flank_composition_factor = {
 		factor = 0.83
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value <= 0.20
 			}
@@ -3502,7 +4691,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value >= 0.30
 			}
@@ -3515,7 +4704,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value >= 0.40
 			}
@@ -3528,7 +4717,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value >= 0.50
 			}
@@ -3541,7 +4730,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value >= 0.60
 			}
@@ -3554,7 +4743,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value >= 0.70
 			}
@@ -3567,7 +4756,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value >= 0.80
 			}
@@ -3581,7 +4770,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value >= 0.90
 			}
@@ -3594,7 +4783,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = light_infantry
 				value >= 1.00
 			}
@@ -3607,7 +4796,7 @@ harass_flank_composition_factor = {
 		factor = 0.83
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value <= 0.10
 			}
@@ -3620,7 +4809,7 @@ harass_flank_composition_factor = {
 		factor = 0.83
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value <= 0.20
 			}
@@ -3633,7 +4822,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value >= 0.30
 			}
@@ -3646,7 +4835,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value >= 0.40
 			}
@@ -3659,7 +4848,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value >= 0.50
 			}
@@ -3672,7 +4861,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value >= 0.60
 			}
@@ -3685,7 +4874,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value >= 0.70
 			}
@@ -3698,7 +4887,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value >= 0.80
 			}
@@ -3712,7 +4901,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value >= 0.90
 			}
@@ -3725,7 +4914,7 @@ harass_flank_composition_factor = {
 		factor = 1.2
 
 		enemy = {
-			light_troops = {
+			troops = {
 				who = archers
 				value >= 1.00
 			}
@@ -3736,14 +4925,14 @@ harass_flank_composition_factor = {
 	}
 }
 
-# Affects chance of selecting a raid group tactic, more likely with more light infantry, and against a balanced flank
+# Affects chance of selecting a Raid group tactic, more likely with more light troops, and against more light troops
 raid_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
 		factor = 1.1
 
-		light_troops = {
-			who = light_infantry
+		troops = {
+			who = light_troops
 			value >= 0.20
 		}
 		leader = {
@@ -3753,19 +4942,8 @@ raid_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.1
 
-		light_troops = {
-			who = light_infantry
-			value >= 0.25
-		}
-		leader = {
-			martial >= 12
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		light_troops = {
-			who = light_infantry
+		troops = {
+			who = light_troops
 			value >= 0.30
 		}
 		leader = {
@@ -3775,19 +4953,8 @@ raid_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.1
 
-		light_troops = {
-			who = light_infantry
-			value >= 0.35
-		}
-		leader = {
-			martial >= 8
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		light_troops = {
-			who = light_infantry
+		troops = {
+			who = light_troops
 			value >= 0.40
 		}
 		leader = {
@@ -3797,19 +4964,8 @@ raid_flank_composition_factor = {
 	mult_modifier = {
 		factor = 1.1
 
-		light_troops = {
-			who = light_infantry
-			value >= 0.45
-		}
-		leader = {
-			martial >= 4
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		light_troops = {
-			who = light_infantry
+		troops = {
+			who = light_troops
 			value >= 0.50
 		}
 		leader = {
@@ -3817,13 +4973,14 @@ raid_flank_composition_factor = {
 		}
 	}
 
+
 	# Opposite flank composition
 	mult_modifier = {
 		factor = 1.1
 
 		enemy = {
-			light_troops = {
-				who = light_infantry
+			troops = {
+				who = light_troops
 				value >= 0.10
 			}
 		}
@@ -3835,8 +4992,8 @@ raid_flank_composition_factor = {
 		factor = 1.1
 
 		enemy = {
-			light_troops = {
-				who = light_infantry
+			troops = {
+				who = light_troops
 				value >= 0.20
 			}
 		}
@@ -3848,164 +5005,8 @@ raid_flank_composition_factor = {
 		factor = 1.1
 
 		enemy = {
-			light_troops = {
-				who = light_infantry
-				value >= 0.30
-			}
-		}
-		leader = {
-			martial >= 4
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = archers
-				value >= 0.10
-			}
-		}
-		leader = {
-			martial >= 12
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = archers
-				value >= 0.20
-			}
-		}
-		leader = {
-			martial >= 8
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = archers
-				value >= 0.30
-			}
-		}
-		leader = {
-			martial >= 4
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = light_cavalry
-				value >= 0.10
-			}
-		}
-		leader = {
-			martial >= 12
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = light_cavalry
-				value >= 0.20
-			}
-		}
-		leader = {
-			martial >= 8
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = light_cavalry
-				value >= 0.30
-			}
-		}
-		leader = {
-			martial >= 4
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = camel_cavalry
-				value >= 0.10
-			}
-		}
-		leader = {
-			martial >= 12
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = camel_cavalry
-				value >= 0.20
-			}
-		}
-		leader = {
-			martial >= 8
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = camel_cavalry
-				value >= 0.30
-			}
-		}
-		leader = {
-			martial >= 4
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = horse_archers
-				value >= 0.10
-			}
-		}
-		leader = {
-			martial >= 12
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = horse_archers
-				value >= 0.20
-			}
-		}
-		leader = {
-			martial >= 8
-		}
-	}
-	mult_modifier = {
-		factor = 1.1
-
-		enemy = {
-			light_troops = {
-				who = horse_archers
+			troops = {
+				who = light_troops
 				value >= 0.30
 			}
 		}
@@ -4015,7 +5016,7 @@ raid_flank_composition_factor = {
 	}
 }
 
-# Affects likelihood of attempting a feint group tactic
+# Affects likelihood of attempting a Feint group tactic
 feint_selection_factor = {
 	# Education traits
 	mult_modifier = {
@@ -4076,7 +5077,7 @@ feint_selection_factor = {
 	}
 }
 
-# Affects chance of selecting a close formation group tactic, more likely with more heavy infantry, and against cavalry and archers
+# Affects chance of selecting a Close Formation group tactic, more likely with more heavy infantry, and against cavalry and archers
 close_formation_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -4183,7 +5184,7 @@ close_formation_flank_composition_factor = {
 
 		troops = {
 			who = heavy_infantry
-			value >= 0.100
+			value >= 1.00
 		}
 		leader = {
 			martial >= 2
@@ -4293,7 +5294,7 @@ close_formation_flank_composition_factor = {
 
 		troops = {
 			who = pikemen
-			value >= 0.100
+			value >= 1.00
 		}
 		leader = {
 			martial >= 2
@@ -5176,7 +6177,7 @@ shock_charge_flank_composition_factor = {
 	}
 }
 
-# Affects chance of selecting a shock charge group tactic, more likely with more cavalry, and against few pikemen
+# Affects chance of selecting a Cavalry Charge group tactic, more likely with more cavalry, and against few pikemen
 cavalry_charge_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -5577,7 +6578,7 @@ cavalry_charge_flank_composition_factor = {
 	}
 }
 
-# Affects chance of selecting a raid group tactic, more likely with more light/heavy infantry, and against few elephants/cavalry
+# Affects chance of selecting a Skirmish Charge tactic, more likely with more light/heavy infantry, and against few elephants/cavalry
 skirmish_charge_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -5842,7 +6843,7 @@ skirmish_charge_flank_composition_factor = {
 	}
 }
 
-# Affects chance of selecting an elephant charge group tactic, more likely with more elephants
+# Affects chance of selecting an Elephant Charge group tactic, more likely with more elephants
 elephant_charge_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -5946,7 +6947,7 @@ elephant_charge_flank_composition_factor = {
 	}
 }
 
-# Affects chance of selecting an approach group tactic, more likely with more pikemen, and against more cavalry
+# Affects chance of selecting an Approach group tactic, more likely with more pikemen, and against more cavalry
 approach_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -6452,7 +7453,7 @@ approach_flank_composition_factor = {
 #
 ##################################################################
 
-# Affects chance of selecting a shieldwall group tactic, more likely with more heavy infantry and against less cavalry
+# Affects chance of selecting a Shieldwall group tactic, more likely with more heavy infantry and against less cavalry
 shieldwall_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -6731,7 +7732,7 @@ shieldwall_flank_composition_factor = {
 	}
 }
 
-# Affects chance of selecting a shieldwall group tactic, more likely with more pikemen and against more cavalry
+# Affects chance of selecting an Advance group tactic, more likely with more pikemen and against more cavalry
 advance_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {
@@ -7010,7 +8011,7 @@ advance_flank_composition_factor = {
 	}
 }
 
-# Affects likelihood of attempting a feint group tactic
+# Affects likelihood of attempting an Ambush group tactic
 ambush_selection_factor = {
 	# Education traits
 	mult_modifier = {
@@ -7066,7 +8067,7 @@ ambush_selection_factor = {
 	}
 }
 
-# Affects likelihood of attempting a feint group tactic
+# Affects likelihood of attempting a Hammer and Anvil group tactic
 hammer_and_anvil_flank_composition_factor = {
 	# Own flank composition
 	mult_modifier = {

@@ -4,25 +4,47 @@
 #
 ##################################################################################################################
 #
-#	SKIRMISH			Type		Primary troops			Affinity						Notes
+#	SKIRMISH			Type		Primary troops			Affinity								Notes
 #
-#	Volley				defensive	archers					swarm, cavalry charge
+#	Volley				defensive	archers					swarm, cavalry charge, close formation
 #	Swarm				offensive	horse archers			raid, harass
 #	Harass				offensive	light cavalry			raid, volley
 #	Raid				offensive	light infantry
 #	Feint				defensive	light infantry			swarm, harass, raid
-#	Shock Charge		offensive	heavy cavalry			volley 							hit and run
-#	Skirmish Charge		offensive	various infantry										change to melee
-#	Cavalry Charge		offensive	various cavalry			skirmish charge					change to melee
-#	Elephant Charge		offensive	war elephants			shock/skirmish charge, approach	change to melee
-#	Approach			defensive	pikemen					cavalry charge					change to melee
+#	Close Formation		defensive	heavy infantry/pikemen
+#	Shock Charge		offensive	heavy cavalry			volley 									hit and run
+#
+#	CHANGE TO MELEE
+#
+#	Skirmish Charge		offensive	various infantry
+#	Cavalry Charge		offensive	various cavalry			skirmish charge
+#	Elephant Charge		offensive	war elephants			shock/skirmish charge, approach
+#	Approach			defensive	pikemen					cavalry charge
 #
 #	MELEE
 #
 #	Shieldwall			defensive	heavy infantry
 #	Advance				offensive	pikemen					shieldwall
 #	Ambush				defensive	various
-#	Hammer and Anvil	offensive	heavy cavalry/infantry	shieldwall, advance				must be flanking
+#	Hammer and Anvil	offensive	heavy cavalry/infantry	shieldwall, advance						flanking
+#
+##################################################################################################################
+
+##################################################################################################################
+#
+#	Each tactic's sprite shows the unit receiving the biggest bonus - gfx/interface/combat_tactic_strip.dds
+#
+#	01 = Light Infantry
+#	02 = Archers
+#	03 = Heavy Infantry
+#	04 = Pikemen
+#	05 = Light Cavalry
+#	06 = Horse Archers
+#	07 = Camel cavalry
+#	08 = Heavy Cavalry
+#	09 = War Elephants
+#	10 = Glorious Commander?
+#	11 = Galleys
 #
 ##################################################################################################################
 
@@ -44,7 +66,7 @@ no_tactic = {
 
 volley_tier_1 = { # Very bad
 	days = 6
-	sprite = 6 # Archers
+	sprite = 2 # Archers
 	group = volley
 
 	trigger = {
@@ -66,6 +88,10 @@ volley_tier_1 = { # Very bad
 
 	mean_time_to_happen = {
 		days = 16
+
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
 
 		# Tactic group selection
 		defensive_tactic_factor = yes
@@ -101,11 +127,15 @@ volley_tier_1 = { # Very bad
 		group = cavalry_charge
 		factor = 0.20
 	}
+	enemy = {
+		group = close_formation
+		factor = 0.10
+	}
 }
 
 volley_tier_2 = { # Bad
 	days = 6
-	sprite = 6 # Archers
+	sprite = 2 # Archers
 	group = volley
 
 	trigger = {
@@ -153,11 +183,15 @@ volley_tier_2 = { # Bad
 		group = cavalry_charge
 		factor = 0.40
 	}
+	enemy = {
+		group = close_formation
+		factor = 0.20
+	}
 }
 
 volley_tier_3 = { # Average
 	days = 6
-	sprite = 6 # Archers
+	sprite = 2 # Archers
 	group = volley
 
 	trigger = {
@@ -200,11 +234,15 @@ volley_tier_3 = { # Average
 		group = cavalry_charge
 		factor = 0.60
 	}
+	enemy = {
+		group = close_formation
+		factor = 0.30
+	}
 }
 
 volley_tier_4 = { # Good
 	days = 6
-	sprite = 6 # Archers
+	sprite = 2 # Archers
 	group = volley
 
 	trigger = {
@@ -253,11 +291,15 @@ volley_tier_4 = { # Good
 		group = cavalry_charge
 		factor = 0.80
 	}
+	enemy = {
+		group = close_formation
+		factor = 0.40
+	}
 }
 
 volley_tier_5 = { # Excellent
 	days = 6
-	sprite = 6 # Archers
+	sprite = 2 # Archers
 	group = volley
 
 	trigger = {
@@ -312,11 +354,15 @@ volley_tier_5 = { # Excellent
 		group = cavalry_charge
 		factor = 1.00
 	}
+	enemy = {
+		group = close_formation
+		factor = 0.50
+	}
 }
 
 swarm_tier_1 = { # Very bad
 	days = 6
-	sprite = 7 # Horse Archers
+	sprite = 6 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -331,15 +377,19 @@ swarm_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_cavalry_tier_1_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		swarm_flank_composition_factor = yes
+
 		# Tier 1 specific
 		mult_modifier = {
 			factor = 1.5
 			leader = { trait = trickster }
 		}
-
-		# Tactic group selection
-		offensive_tactic_factor = yes
-		swarm_flank_composition_factor = yes
 	}
 
 	# Primary effects
@@ -370,7 +420,7 @@ swarm_tier_1 = { # Very bad
 
 swarm_tier_2 = { # Bad
 	days = 6
-	sprite = 7 # Horse Archers
+	sprite = 6 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -419,7 +469,7 @@ swarm_tier_2 = { # Bad
 
 swarm_tier_3 = { # Average
 	days = 6
-	sprite = 7 # Horse Archers
+	sprite = 6 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -466,7 +516,7 @@ swarm_tier_3 = { # Average
 
 swarm_tier_4 = { # Good
 	days = 6
-	sprite = 7 # Horse Archers
+	sprite = 6 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -519,7 +569,7 @@ swarm_tier_4 = { # Good
 
 swarm_tier_5 = { # Excellent
 	days = 6
-	sprite = 7 # Horse Archers
+	sprite = 6 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -578,7 +628,7 @@ swarm_tier_5 = { # Excellent
 
 harass_tier_1 = { # Very bad
 	days = 6
-	sprite = 4 # Light Cavalry
+	sprite = 5 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -599,15 +649,19 @@ harass_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_cavalry_tier_1_factor = yes
+
+		# Tactic group selection
+		offensive_tactic_factor = yes
+		harass_flank_composition_factor = yes
+
 		# Tier 1 specific
 		mult_modifier = {
 			factor = 1.5
 			leader = { trait = trickster }
 		}
-
-		# Tactic group selection
-		offensive_tactic_factor = yes
-		harass_flank_composition_factor = yes
 	}
 
 	# Primary effects
@@ -640,7 +694,7 @@ harass_tier_1 = { # Very bad
 
 harass_tier_2 = { # Bad
 	days = 6
-	sprite = 4 # Light Cavalry
+	sprite = 5 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -697,7 +751,7 @@ harass_tier_2 = { # Bad
 
 harass_tier_3 = { # Average
 	days = 6
-	sprite = 4 # Light Cavalry
+	sprite = 5 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -751,7 +805,7 @@ harass_tier_3 = { # Average
 
 harass_tier_4 = { # Good
 	days = 6
-	sprite = 4 # Light Cavalry
+	sprite = 5 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -811,7 +865,7 @@ harass_tier_4 = { # Good
 
 harass_tier_5 = { # Excellent
 	days = 6
-	sprite = 4 # Light Cavalry
+	sprite = 5 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -891,6 +945,10 @@ raid_tier_1 = { # Very bad
 
 	mean_time_to_happen = {
 		days = 16
+
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
 
 		# Tactic group selection
 		offensive_tactic_factor = yes
@@ -1116,9 +1174,19 @@ feint_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
+
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		feint_selection_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -1352,6 +1420,12 @@ feint_tier_5 = { # Excellent
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		feint_selection_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -1390,7 +1464,7 @@ feint_tier_5 = { # Excellent
 
 close_formation_tier_1 = { # Very bad
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1411,9 +1485,19 @@ close_formation_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
+
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		close_formation_flank_composition_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -1434,7 +1518,7 @@ close_formation_tier_1 = { # Very bad
 
 close_formation_tier_2 = { # Bad
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1483,7 +1567,7 @@ close_formation_tier_2 = { # Bad
 
 close_formation_tier_3 = { # Average
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1517,7 +1601,7 @@ close_formation_tier_3 = { # Average
 
 close_formation_tier_4 = { # Good
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1566,7 +1650,7 @@ close_formation_tier_4 = { # Good
 
 close_formation_tier_5 = { # Excellent
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1595,6 +1679,12 @@ close_formation_tier_5 = { # Excellent
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		close_formation_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -1613,17 +1703,16 @@ close_formation_tier_5 = { # Excellent
 	knights_morale = 0.20
 }
 
-
 shock_charge_tier_1 = { # Very bad
 	days = 3
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
 		phase = skirmish
 
 		troops = {
-			who = heavy_cavalry
+			who = knights
 			value >= 0.025
 		}
 	}
@@ -1631,9 +1720,19 @@ shock_charge_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_cavalry_tier_1_factor = yes
+
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		shock_charge_flank_composition_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -1660,7 +1759,7 @@ shock_charge_tier_1 = { # Very bad
 
 shock_charge_tier_2 = { # Bad
 	days = 3
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
@@ -1709,7 +1808,7 @@ shock_charge_tier_2 = { # Bad
 
 shock_charge_tier_3 = { # Average
 	days = 3
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
@@ -1746,7 +1845,7 @@ shock_charge_tier_3 = { # Average
 
 shock_charge_tier_4 = { # Good
 	days = 3
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
@@ -1795,7 +1894,7 @@ shock_charge_tier_4 = { # Good
 
 shock_charge_tier_5 = { # Excellent
 	days = 3
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
@@ -1818,6 +1917,12 @@ shock_charge_tier_5 = { # Excellent
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		shock_charge_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -1841,6 +1946,12 @@ shock_charge_tier_5 = { # Excellent
 		factor = 1.00
 	}
 }
+
+##################################################################################################################
+#
+#	Change-to-Melee tactics
+#
+##################################################################################################################
 
 skirmish_charge_tier_1 = { # Very bad
 	days = 3
@@ -1869,10 +1980,21 @@ skirmish_charge_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_melee_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
+
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		skirmish_charge_flank_composition_factor = yes
 		change_to_melee_selection_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	change_phase_to = melee
@@ -2092,6 +2214,12 @@ skirmish_charge_tier_5 = { # Excellent
 		offensive_tactic_factor = yes
 		skirmish_charge_flank_composition_factor = yes
 		change_to_melee_selection_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	change_phase_to = melee
@@ -2118,7 +2246,7 @@ skirmish_charge_tier_5 = { # Excellent
 
 cavalry_charge_tier_1 = { # Very bad
 	days = 3
-	sprite = 1 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2150,19 +2278,34 @@ cavalry_charge_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_melee_tier_1_factor = yes
+		technology_cavalry_tier_1_factor = yes
+
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		cavalry_charge_flank_composition_factor = yes
 		change_to_melee_selection_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	change_phase_to = melee
 
 	# Primary effects
-	light_infantry_offensive = 0.10
-	light_infantry_defensive = -0.40
-	heavy_infantry_offensive = 0.10
-	heavy_infantry_defensive = -0.40
+	light_cavalry_offensive = 0.10
+	light_cavalry_defensive = -0.40
+	horse_archers_offensive = 0.10
+	horse_archers_defensive = -0.40
+	camel_cavalry_offensive = 0.10
+	camel_cavalry_defensive = -0.40
+	knights_offensive = 0.10
+	knights_defensive = -0.40
 
 	# Seconday effects
 	light_infantry_morale = -0.30
@@ -2184,7 +2327,7 @@ cavalry_charge_tier_1 = { # Very bad
 
 cavalry_charge_tier_2 = { # Bad
 	days = 3
-	sprite = 1 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2230,10 +2373,14 @@ cavalry_charge_tier_2 = { # Bad
 	change_phase_to = melee
 
 	# Primary effects
-	light_infantry_offensive = 0.20
-	light_infantry_defensive = -0.20
-	heavy_infantry_offensive = 0.20
-	heavy_infantry_defensive = -0.20
+	light_cavalry_offensive = 0.20
+	light_cavalry_defensive = -0.20
+	horse_archers_offensive = 0.20
+	horse_archers_defensive = -0.20
+	camel_cavalry_offensive = 0.20
+	camel_cavalry_defensive = -0.20
+	knights_offensive = 0.20
+	knights_defensive = -0.20
 
 	# Seconday effects
 	light_infantry_morale = -0.15
@@ -2255,7 +2402,7 @@ cavalry_charge_tier_2 = { # Bad
 
 cavalry_charge_tier_3 = { # Average
 	days = 3
-	sprite = 1 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2301,8 +2448,8 @@ cavalry_charge_tier_3 = { # Average
 	change_phase_to = melee
 
 	# Primary effects
-	light_infantry_offensive = 0.40
-	heavy_infantry_offensive = 0.40
+	light_cavalry_offensive = 0.40
+	knights_offensive = 0.40
 
 	# Affinity
 	enemy = {
@@ -2313,7 +2460,7 @@ cavalry_charge_tier_3 = { # Average
 
 cavalry_charge_tier_4 = { # Good
 	days = 3
-	sprite = 1 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2359,12 +2506,12 @@ cavalry_charge_tier_4 = { # Good
 	change_phase_to = melee
 
 	# Primary effects
-	light_infantry_offensive = 0.60
-	heavy_infantry_offensive = 0.60
-	light_cavalry_offensive = 0.15
-	camel_cavalry_offensive = 0.15
-	horse_archers_offensive = 0.15
-	knights_offensive = 0.15
+	light_cavalry_offensive = 0.60
+	horse_archers_offensive = 0.60
+	camel_cavalry_offensive = 0.60
+	knights_offensive = 0.60
+	light_infantry_offensive = 0.15
+	heavy_infantry_offensive = 0.15
 
 	# Seconday effects
 	light_infantry_morale = 0.15
@@ -2386,7 +2533,7 @@ cavalry_charge_tier_4 = { # Good
 
 cavalry_charge_tier_5 = { # Excellent
 	days = 3
-	sprite = 1 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2427,17 +2574,23 @@ cavalry_charge_tier_5 = { # Excellent
 		offensive_tactic_factor = yes
 		cavalry_charge_flank_composition_factor = yes
 		change_to_melee_selection_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	change_phase_to = melee
 
 	# Primary effects
-	light_infantry_offensive = 0.80
-	heavy_infantry_offensive = 0.80
-	light_cavalry_offensive = 0.30
-	camel_cavalry_offensive = 0.30
-	horse_archers_offensive = 0.30
-	knights_offensive = 0.30
+	light_cavalry_offensive = 0.80
+	horse_archers_offensive = 0.80
+	camel_cavalry_offensive = 0.80
+	knights_offensive = 0.80
+	light_infantry_offensive = 0.30
+	heavy_infantry_offensive = 0.30
 
 	# Seconday effects
 	light_infantry_morale = 0.30
@@ -2486,10 +2639,21 @@ elephant_charge_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_melee_tier_1_factor = yes
+		technology_cavalry_tier_1_factor = yes
+
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		elephant_charge_flank_composition_factor = yes
 		change_to_melee_selection_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	change_phase_to = melee
@@ -2776,6 +2940,12 @@ elephant_charge_tier_5 = { # Excellent
 		offensive_tactic_factor = yes
 		elephant_charge_flank_composition_factor = yes
 		change_to_melee_selection_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	change_phase_to = melee
@@ -2815,7 +2985,7 @@ elephant_charge_tier_5 = { # Excellent
 
 approach_tier_1 = { # Very bad
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = approach
 
 	trigger = {
@@ -2843,10 +3013,21 @@ approach_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_skirmish_tier_1_factor = yes
+		technology_melee_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
+
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		approach_flank_composition_factor = yes
 		change_to_melee_selection_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	change_phase_to = melee
@@ -2879,7 +3060,7 @@ approach_tier_1 = { # Very bad
 
 approach_tier_2 = { # Bad
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = approach
 
 	trigger = {
@@ -2949,7 +3130,7 @@ approach_tier_2 = { # Bad
 
 approach_tier_3 = { # Average
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = approach
 
 	trigger = {
@@ -3005,7 +3186,7 @@ approach_tier_3 = { # Average
 
 approach_tier_4 = { # Good
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = approach
 
 	trigger = {
@@ -3075,7 +3256,7 @@ approach_tier_4 = { # Good
 
 approach_tier_5 = { # Excellent
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = approach
 
 	trigger = {
@@ -3113,6 +3294,12 @@ approach_tier_5 = { # Excellent
 		defensive_tactic_factor = yes
 		approach_flank_composition_factor = yes
 		change_to_melee_selection_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	change_phase_to = melee
@@ -3151,7 +3338,7 @@ approach_tier_5 = { # Excellent
 
 shieldwall_tier_1 = { # Very bad
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3172,9 +3359,19 @@ shieldwall_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_melee_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
+
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		shieldwall_flank_composition_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -3198,7 +3395,7 @@ shieldwall_tier_1 = { # Very bad
 
 shieldwall_tier_2 = { # Bad
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3248,7 +3445,7 @@ shieldwall_tier_2 = { # Bad
 
 shieldwall_tier_3 = { # Average
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3289,7 +3486,7 @@ shieldwall_tier_3 = { # Average
 
 shieldwall_tier_4 = { # Good
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3342,7 +3539,7 @@ shieldwall_tier_4 = { # Good
 
 shieldwall_tier_5 = { # Excellent
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3371,6 +3568,12 @@ shieldwall_tier_5 = { # Excellent
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		shieldwall_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -3395,7 +3598,7 @@ shieldwall_tier_5 = { # Excellent
 
 advance_tier_1 = { # Very bad
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3416,9 +3619,19 @@ advance_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_melee_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
+
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		advance_flank_composition_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -3443,7 +3656,7 @@ advance_tier_1 = { # Very bad
 
 advance_tier_2 = { # Bad
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3493,7 +3706,7 @@ advance_tier_2 = { # Bad
 
 advance_tier_3 = { # Average
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3533,7 +3746,7 @@ advance_tier_3 = { # Average
 
 advance_tier_4 = { # Good
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3588,7 +3801,7 @@ advance_tier_4 = { # Good
 
 advance_tier_5 = { # Excellent
 	days = 6
-	sprite = 3 # Pikemen
+	sprite = 4 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3617,6 +3830,12 @@ advance_tier_5 = { # Excellent
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		advance_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -3643,7 +3862,7 @@ advance_tier_5 = { # Excellent
 
 ambush_tier_1 = { # Very bad
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -3661,9 +3880,19 @@ ambush_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_melee_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
+
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		ambush_selection_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -3700,7 +3929,7 @@ ambush_tier_1 = { # Very bad
 
 ambush_tier_2 = { # Bad
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -3762,7 +3991,7 @@ ambush_tier_2 = { # Bad
 
 ambush_tier_3 = { # Average
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -3805,7 +4034,7 @@ ambush_tier_3 = { # Average
 
 ambush_tier_4 = { # Good
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -3867,7 +4096,7 @@ ambush_tier_4 = { # Good
 
 ambush_tier_5 = { # Excellent
 	days = 6
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -3892,6 +4121,12 @@ ambush_tier_5 = { # Excellent
 		# Tactic group selection
 		defensive_tactic_factor = yes
 		ambush_selection_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -3928,7 +4163,7 @@ ambush_tier_5 = { # Excellent
 
 hammer_and_anvil_tier_1 = { # Very bad
 	days = 6
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -3971,9 +4206,20 @@ hammer_and_anvil_tier_1 = { # Very bad
 	mean_time_to_happen = {
 		days = 16
 
+		# Tactic quality selection
+		technology_melee_tier_1_factor = yes
+		technology_infantry_tier_1_factor = yes
+		technology_cavalry_tier_1_factor = yes
+
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		hammer_and_anvil_flank_composition_factor = yes
+
+		# Tier 1 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -4009,7 +4255,7 @@ hammer_and_anvil_tier_1 = { # Very bad
 
 hammer_and_anvil_tier_2 = { # Bad
 	days = 6
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -4094,7 +4340,7 @@ hammer_and_anvil_tier_2 = { # Bad
 
 hammer_and_anvil_tier_3 = { # Average
 	days = 6
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -4166,7 +4412,7 @@ hammer_and_anvil_tier_3 = { # Average
 
 hammer_and_anvil_tier_4 = { # Good
 	days = 6
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -4251,7 +4497,7 @@ hammer_and_anvil_tier_4 = { # Good
 
 hammer_and_anvil_tier_5 = { # Excellent
 	days = 6
-	sprite = 5 # Heavy Cavalry
+	sprite = 8 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -4303,6 +4549,12 @@ hammer_and_anvil_tier_5 = { # Excellent
 		# Tactic group selection
 		offensive_tactic_factor = yes
 		hammer_and_anvil_flank_composition_factor = yes
+
+		# Tier 5 specific
+		mult_modifier = {
+			factor = 1.5
+			leader = { trait = trickster }
+		}
 	}
 
 	# Primary effects
@@ -4354,7 +4606,7 @@ no_siege_offense_tactic = {
 
 default_siege_offense_tactic = {
 	days = 5
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 
 	siege = attacker
 
@@ -4387,7 +4639,7 @@ no_siege_defense_tactic = {
 
 default_siege_defense_tactic = {
 	days = 5
-	sprite = 2 # Heavy Infantry
+	sprite = 3 # Heavy Infantry
 
 	siege = defender
 
@@ -4411,6 +4663,7 @@ flank_retreat_odds = {
 	mean_time_to_happen = {
 		days = 20
 
+		# Traits
 		mult_modifier = {
 			factor = 0.5
 			leader = {
@@ -4424,6 +4677,40 @@ flank_retreat_odds = {
 			factor = 1.5
 			leader = { trait = craven }
 		}
+
+		# More likely in winter
+		mult_modifier = {
+			factor = 1.1
+			location = {
+				is_winter = yes
+				NOR = {
+					climate = mild_winter
+					climate = normal_winter
+					climate = severe_winter
+				}
+			}
+		}
+		mult_modifier = {
+			factor = 1.25
+			location = {
+				is_winter = yes
+				climate = mild_winter
+			}
+		}
+		mult_modifier = {
+			factor = 1.5
+			location = {
+				is_winter = yes
+				climate = normal_winter
+			}
+		}
+		mult_modifier = {
+			factor = 2.0
+			location = {
+				is_winter = yes
+				climate = severe_winter
+			}
+		}
 	}
 }
 
@@ -4432,6 +4719,7 @@ flank_pursue_odds = {
 	mean_time_to_happen = {
 		days = 25
 
+		# Traits
 		mult_modifier = {
 			factor = 2
 			leader = {
@@ -4449,6 +4737,83 @@ flank_pursue_odds = {
 					trait = patient
 					trait = strategist
 					trait = defensive_leader
+				}
+			}
+		}
+
+		# Less likely in winter
+		mult_modifier = {
+			factor = 0.9
+			location = {
+				is_winter = yes
+				NOR = {
+					climate = mild_winter
+					climate = normal_winter
+					climate = severe_winter
+				}
+			}
+		}
+		mult_modifier = {
+			factor = 0.7
+			location = {
+				is_winter = yes
+				climate = mild_winter
+			}
+		}
+		mult_modifier = {
+			factor = 0.5
+			location = {
+				is_winter = yes
+				climate = normal_winter
+			}
+		}
+		mult_modifier = {
+			factor = 0.3
+			location = {
+				is_winter = yes
+				climate = severe_winter
+			}
+		}
+
+		# More likely on easy to traverse terrain
+		mult_modifier = {
+			factor = 2
+			location = {
+				OR = {
+					terrain = plains
+					terrain = farmlands
+					terrain = steppe
+				}
+			}
+		}
+		mult_modifier = {
+			factor = 1.5
+			location = {
+				OR = {
+					terrain = arctic
+					terrain = desert
+					terrain = coastal_desert
+				}
+			}
+		}
+
+		# Less likely on hard to traverse terrain
+		mult_modifier = {
+			factor = 0.5
+			location = {
+				OR = {
+					terrain = forest
+					terrain = hills
+				}
+			}
+		}
+		mult_modifier = {
+			factor = 0.25
+			location = {
+				OR = {
+					terrain = jungle
+					terrain = mountain
+					terrain = marsh
 				}
 			}
 		}

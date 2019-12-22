@@ -1,0 +1,89 @@
+################################################################
+#
+#	Plus Combat Tactics scripted triggers
+#
+################################################################
+#
+#	These MUST be called in a combat scope to work properly
+#
+################################################################
+#
+#	CATALOG
+#
+#	plus_opposing_leader_is_of_hostile_religion_trigger
+#
+################################################################
+
+# Emulates Holy Warrior trait, may require updating as new religions are added
+plus_opposing_leader_is_of_hostile_religion_trigger = {
+	enemy = { # Enemy flank
+		leader = { # Enemy commander
+			ROOT = { # Back to own flank
+				leader = {
+					# PREVPREV is enemy commander
+					OR = {
+						AND = { # These consider everyone their religious enemy
+							OR = {
+								religion_group = zoroastrian_group
+								religion_group = jewish_group
+								AND = { # But pagans must not be cosmopolitan
+									religion_group = pagan_group
+									NOT = {
+										has_religion_feature = religion_cosmopolitan
+									}
+								}
+							}
+							NOT = { # Anyone with a different religion
+								religion = PREVPREV
+							}
+						}
+						AND = { # Christians only fight heresies of own branch
+							religion_group = christian
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+						AND = { # Muslims also fight non-heretic Muslims
+							religion_group = muslim
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOR = { # Non-heretics of different branches
+									is_heretic = yes
+									PREVPREV = { is_heretic = yes }
+									religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+						AND = { # Dharmans avoid religious infighting
+							religion_group = indian_group
+							NOR = { # Pacifist
+								religion = taoist
+								religion = jain
+							}
+							OR = {
+								NOT = { # Anyone outside own religious group
+									religion_group = PREVPREV
+								}
+								PREVPREV = { # Following regular Holy War CB
+									religion = taoist
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

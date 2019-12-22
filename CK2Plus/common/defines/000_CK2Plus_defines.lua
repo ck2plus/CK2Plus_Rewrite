@@ -18,8 +18,11 @@ NDefines.NCharacter.TRIBAL_EMPTY_HOLDING_GARRISON_MULTIPLIER = 0.9
 
 -- Changes for combat tactics overhaul
 
-NDefines.NMilitary.ATTACK_TO_DAMAGE_MULT = 0.03					-- Attack value of troops is multiplied by this when doing damage
-NDefines.NMilitary.MORALELOSS_FACTOR = 1.5						-- Affects the morale loss rate in combats (higher gives bigger losses)
+NDefines.NMilitary.ATTACK_TO_DAMAGE_MULT = 0.03					--vanilla: 0.01	-- Attack value of troops is multiplied by this when doing damage
+NDefines.NMilitary.MORALELOSS_FACTOR = 1.5						--vanilla: 3.0	-- Affects the morale loss rate in combats (higher gives bigger losses)
+
+NDefines.NMilitary.COMMAND_MODIFIER_MARTIAL_MULTIPLIER = 0.00	--vanilla: 0.05, impact replaced by new tactics
+NDefines.NMilitary.TERRAIN_SPEC_BONUS = 0.00					--vanilla: 0.20, impact replaced by new tactics
 
 NDefines.NMilitary.LIGHT_INFANTRY_MORALE = 2
 NDefines.NMilitary.LIGHT_INFANTRY_MAINTENANCE = 0.70
@@ -35,10 +38,10 @@ NDefines.NMilitary.HEAVY_INFANTRY_MAINTENANCE = 3
 NDefines.NMilitary.HEAVY_INFANTRY_PHASE_SKIRMISH_ATTACK = 0.25
 NDefines.NMilitary.HEAVY_INFANTRY_PHASE_SKIRMISH_DEFENSE = 3
 NDefines.NMilitary.HEAVY_INFANTRY_PHASE_MELEE_ATTACK = 6
-NDefines.NMilitary.HEAVY_INFANTRY_PHASE_PURSUE_ATTACK = 1
 NDefines.NMilitary.HEAVY_INFANTRY_PHASE_MELEE_DEFENSE = 4
-
+NDefines.NMilitary.HEAVY_INFANTRY_PHASE_PURSUE_ATTACK = 1
 NDefines.NMilitary.HEAVY_INFANTRY_PHASE_PURSUE_DEFENSE = 4
+
 NDefines.NMilitary.PIKEMEN_MORALE = 6
 NDefines.NMilitary.PIKEMEN_MAINTENANCE = 2.5
 NDefines.NMilitary.PIKEMEN_PHASE_SKIRMISH_ATTACK = 0.1
