@@ -1,7 +1,7 @@
 6825 = {
 	name = "Yaropolk"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	trait = content
 	trait = cynical
 	dynasty = 1029117
@@ -17,7 +17,7 @@
 6826 = {
 	name = "Gostomysl"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029137
 	father = 160139
 	trait = content
@@ -33,7 +33,7 @@
 6829 = {
 	name = "Vsemil"
 	religion = slavic_pagan
-	culture = russian
+	culture = novgorodian
 	trait = content
 	dynasty = 1029136
 	father = 160062
@@ -48,7 +48,7 @@
 6831 = {
 	name = "Svetozar"
 	religion = slavic_pagan
-	culture = russian
+	culture = novgorodian
 	trait = content
 	dynasty = 1029136
 	father = 160058
@@ -63,7 +63,7 @@
 6832 = {
 	name = "Radoslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = novgorodian
 	trait = content
 	dynasty = 1029136
 	father = 160062
@@ -78,7 +78,7 @@
 6833 = {
 	name = "Sviatopolk"
 	religion = slavic_pagan
-	culture = russian
+	culture = novgorodian
 	trait = content
 	dynasty = 1029136
 	father = 160062
@@ -107,7 +107,7 @@
 6835 = {
 	name = "Dobrozhir"
 	religion = slavic_pagan
-	culture = russian
+	culture = novgorodian
 	dynasty = 1029136
 	father = 160058
 	trait = content
@@ -123,7 +123,7 @@
 	name = "Yelisey"
 	dynasty = 1029116
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 160051
 	trait = content
 	845.1.1 = {
@@ -137,7 +137,7 @@
 6860 = {
 	name = "Berimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	trait = content
 	dynasty = 1029138
 	father = 159721
@@ -153,7 +153,7 @@
 	name = "Vsebor"
 	dynasty = 1029117
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	trait = content
 	father = 160064
 	845.1.1 = {
@@ -167,7 +167,7 @@
 6869 = {
 	name = "Radoslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 160134
 	trait = content
@@ -182,7 +182,7 @@
 6870 = {
 	name = "Yaropolk"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	trait = content
 	dynasty = 1029137
 	father = 160139
@@ -197,7 +197,7 @@
 6889 = {
 	name = Yemelyan # Fantasy
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	trait = content
 	dynasty = 704
 	830.1.1 = {
@@ -212,7 +212,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 686
 	mother = 40601
 	1065.1.2 = {
@@ -227,7 +227,7 @@
 	name = "Vseslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 616
 	994.1.2 = {
 		birth = yes
@@ -241,7 +241,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 672
 	mother = 125095
 	1105.1.2 = {
@@ -271,7 +271,7 @@
 	name = "Rogvolod"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 680
 	1100.1.2 = {
 		birth = yes
@@ -288,7 +288,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125003
 	mother = 125135
 	1145.1.2 = {
@@ -303,7 +303,7 @@
 	name = "Vseslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125003
 	mother = 125135
 	1150.1.2 = {
@@ -318,7 +318,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 680
 	1105.1.2 = {
 		birth = yes
@@ -333,7 +333,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = zealous
 	trait = scholarly_theologian
 	father = 680
@@ -350,7 +350,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = zealous
 	trait = scholarly_theologian
 	father = 682
@@ -367,7 +367,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222560
 	mother = 125220
 	1190.1.2 = {
@@ -382,7 +382,7 @@
 	name = "Briachislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222560
 	mother = 125220
 	1200.1.2 = {
@@ -398,7 +398,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125010
 	1221.1.2 = {
 		birth = yes
@@ -412,7 +412,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125010
 	1222.1.2 = {
 		birth = yes
@@ -426,7 +426,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125010
 	1223.1.2 = {
 		birth = yes
@@ -440,7 +440,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125013
 	1245.1.2 = {
 		birth = yes
@@ -454,7 +454,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125010
 	1225.1.2 = {
 		birth = yes
@@ -468,7 +468,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125015
 	1265.1.2 = {
 		birth = yes
@@ -482,7 +482,7 @@
 	name = "Vsevolod"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	mother = 609
 	983.1.2 = {
@@ -497,7 +497,7 @@
 	name = "Stanislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	986.1.2 = {
 		birth = yes
@@ -511,7 +511,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	982.1.2 = {
 		birth = yes
@@ -526,7 +526,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222545
 	1098.1.2 = {
 		birth = yes
@@ -540,7 +540,7 @@
 	name = "Boris"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222545
 	1100.1.2 = {
 		birth = yes
@@ -554,7 +554,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222545
 	1120.1.2 = {
 		birth = yes
@@ -568,7 +568,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222545
 	1125.1.2 = {
 		birth = yes
@@ -582,7 +582,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 9130
 	1090.1.2 = {
 		birth = yes
@@ -596,7 +596,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222504
 	trait = bastard
 	1170.1.2 = {
@@ -617,7 +617,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 684
 	mother = 7061
 	1076.1.1 = {
@@ -632,7 +632,7 @@
 	name = "Viacheslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 684
 	mother = 7061
 	1077.1.1 = {
@@ -648,7 +648,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 652
 	1090.1.2 = {
 		birth = yes
@@ -662,7 +662,7 @@
 	name = "Briachislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 652
 	1104.1.2 = {
 		birth = yes
@@ -676,7 +676,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 652
 	1105.1.2 = {
 		birth = yes
@@ -690,7 +690,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 652
 	trait = bastard
 	1070.1.2 = {
@@ -705,7 +705,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222542
 	mother = 222543
 	1146.1.2 = {
@@ -720,7 +720,7 @@
 	name = "Sviatopolk"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222542
 	mother = 222543
 	1147.1.2 = {
@@ -735,7 +735,7 @@
 	name = "Yaropolk"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222542
 	mother = 222543
 	1148.1.2 = {
@@ -750,7 +750,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222542
 	mother = 222543
 	1149.1.2 = {
@@ -765,7 +765,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125036
 	1180.1.2 = {
 		birth = yes
@@ -779,7 +779,7 @@
 	name = "Alexandr"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125036
 	1185.1.2 = {
 		birth = yes
@@ -793,7 +793,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125037
 	1200.1.2 = {
 		birth = yes
@@ -807,7 +807,7 @@
 	name = "Feodor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125037
 	1205.1.2 = {
 		birth = yes
@@ -821,7 +821,7 @@
 	name = "Yuriy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125037
 	1215.1.2 = {
 		birth = yes
@@ -835,7 +835,7 @@
 	name = "Demid"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125037
 	1225.1.2 = {
 		birth = yes
@@ -849,7 +849,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125041
 	1250.1.2 = {
 		birth = yes
@@ -863,7 +863,7 @@
 	name = "Kilikia"
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1028.1.2 = {
 		birth = yes
 	}
@@ -876,7 +876,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 656
 	1074.1.2 = {
 		birth = yes
@@ -893,7 +893,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125045
 	mother = 125020
 	1116.1.2 = {
@@ -911,7 +911,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 656
 	1076.1.2 = {
 		birth = yes
@@ -925,7 +925,7 @@
 	name = "Vsevolod"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 656
 	1078.1.2 = {
 		birth = yes
@@ -942,7 +942,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = zealous
 	father = 656
 	1080.1.2 = {
@@ -960,7 +960,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 656
 	1082.1.2 = {
 		birth = yes
@@ -974,7 +974,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222650
 	mother = 222651
 	1150.1.2 = {
@@ -990,7 +990,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 98015
 	mother = 98012
 	1244.1.2 = {
@@ -1006,7 +1006,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 98015
 	mother = 98012
 	1246.1.2 = {
@@ -1022,7 +1022,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222520
 	mother = 222521
 	1180.1.2 = {
@@ -1037,7 +1037,7 @@
 	name = "Bela"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 98015
 	mother = 98012
 	1250.1.2 = {
@@ -1052,7 +1052,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 98015
 	mother = 98012
 	1252.1.2 = {
@@ -1067,7 +1067,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222654
 	mother = 125104
 	1228.1.2 = {
@@ -1082,7 +1082,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125059
 	1245.1.2 = {
 		birth = yes
@@ -1096,7 +1096,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125059
 	1247.1.2 = {
 		birth = yes
@@ -1111,7 +1111,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125059
 	1250.1.2 = {
 		birth = yes
@@ -1125,7 +1125,7 @@
 	name = "Simeon"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222654
 	mother = 125104
 	1230.1.2 = {
@@ -1141,7 +1141,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222654
 	mother = 125104
 	trait = legit_bastard
@@ -1157,7 +1157,7 @@
 	name = "Andrei"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222652
 	mother = 221523
 	1190.1.2 = {
@@ -1173,7 +1173,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222652
 	mother = 221523
 	1191.1.2 = {
@@ -1189,7 +1189,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222655
 	mother = 222656
 	1184.1.2 = {
@@ -1205,7 +1205,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222602
 	mother = 222603
 	1126.1.2 = {
@@ -1220,7 +1220,7 @@
 	name = "Igor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 660
 	mother = 125051
 	1096.1.2 = {
@@ -1235,7 +1235,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222632
 	mother = 222633
 	1137.1.2 = {
@@ -1256,7 +1256,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125070
 	1166.1.2 = {
 		birth = yes
@@ -1270,7 +1270,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222635
 	1186.1.2 = {
 		birth = yes
@@ -1285,7 +1285,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222638
 	mother = 125138
 	1193.1.2 = {
@@ -1300,7 +1300,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222637
 	1200.1.2 = {
 		birth = yes
@@ -1314,7 +1314,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125074
 	1230.1.2 = {
 		birth = yes
@@ -1328,7 +1328,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125075
 	1260.1.2 = {
 		birth = yes
@@ -1342,7 +1342,7 @@
 	name = "Terentiy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125076
 	1290.1.2 = {
 		birth = yes
@@ -1371,7 +1371,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222775
 	1200.1.2 = {
 		birth = yes
@@ -1385,7 +1385,7 @@
 	name = "Yuriy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222775
 	1205.1.2 = {
 		birth = yes
@@ -1414,7 +1414,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222675
 	1125.1.2 = {
 		birth = yes
@@ -1429,7 +1429,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222650
 	mother = 222651
 	1160.1.2 = {
@@ -1444,7 +1444,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222745
 	mother = 125083
 	1180.1.2 = {
@@ -1473,7 +1473,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222752
 	1215.1.2 = {
 		birth = yes
@@ -1502,7 +1502,7 @@
 	name = "Feodor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125087
 	1255.1.2 = {
 		birth = yes
@@ -1516,7 +1516,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125087
 	1262.1.2 = {
 		birth = yes
@@ -1530,7 +1530,7 @@
 	name = "Vasiliy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125089
 	1280.1.2 = {
 		birth = yes
@@ -1545,7 +1545,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222652
 	mother = 221523
 	1192.1.2 = {
@@ -1560,7 +1560,7 @@
 	name = "Rostislav"	#Rostislavl Vsevolodich, brother of Vladimir II Monomakh
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 630
 	mother = 125092
 	1070.1.2 = {
@@ -1577,7 +1577,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 630
 	mother = 125092
 	1071.1.2 = {
@@ -1593,7 +1593,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 684
 	mother = 7061
 	trait = legit_bastard
@@ -1609,7 +1609,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 666
 	mother = 127
 	1078.1.2 = {
@@ -1624,7 +1624,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 666
 	mother = 127
 	1079.1.2 = {
@@ -1639,7 +1639,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 666
 	mother = 127
 	1081.1.2 = {
@@ -1658,7 +1658,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 9128
 	1088.1.2 = {
 		birth = yes
@@ -1673,7 +1673,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 9128
 	1097.1.2 = {
 		birth = yes
@@ -1702,7 +1702,7 @@
 	name = "Viacheslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 666
 	mother = 127
 	1083.1.2 = {
@@ -1718,7 +1718,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 666
 	mother = 127
 	1096.1.2 = {
@@ -1734,7 +1734,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222520
 	mother = 222521
 	1182.1.2 = {
@@ -1750,7 +1750,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 666
 	mother = 127
 	1098.1.2 = {
@@ -1765,7 +1765,7 @@
 	name = "Andrei"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 666
 	1102.8.11 = {
 		birth = yes
@@ -1797,7 +1797,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222632
 	mother = 222633
 	1140.1.2 = {
@@ -1813,7 +1813,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 222574
 	mother = 222575
 	1102.1.2 = {
@@ -1829,7 +1829,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125049
 	mother = 125029
 	1106.1.2 = {
@@ -1845,7 +1845,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222574
 	mother = 222575
 	1096.1.2 = {
@@ -1861,7 +1861,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222574
 	mother = 222575
 	1109.1.2 = {
@@ -1876,7 +1876,7 @@
 	name = "Sviatopolk"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222574
 	mother = 222575
 	1111.1.2 = {
@@ -1891,7 +1891,7 @@
 	name = "Daniil"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222520
 	mother = 125053
 	1201.1.2 = {
@@ -1912,7 +1912,7 @@
 	name = "Irakli"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125114
 	mother = 125147
 	1223.1.2 = {
@@ -1929,7 +1929,7 @@
 	martial = 8
 	diplomacy = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125114
 	mother = 125147
 	1228.1.2 = {
@@ -1947,7 +1947,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 471511
 	mother = 125221
 	1283.1.2 = {
@@ -1962,7 +1962,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 473516
 	mother = 125157
 	1310.1.2 = {
@@ -1978,7 +1978,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125116
 	mother = 98037
 	1265.1.2 = {
@@ -1994,7 +1994,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = zealous
 	father = 125116
 	mother = 98037
@@ -2010,7 +2010,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125114
 	mother = 125147
 	1229.1.2 = {
@@ -2026,7 +2026,7 @@
 	# AKA: Shvarn
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125114
 	mother = 125147
 	1230.1.2 = {
@@ -2044,7 +2044,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125114
 	mother = 125147
 	1232.1.2 = {
@@ -2060,7 +2060,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125114
 	mother = 125147
 	1231.1.2 = {
@@ -2076,7 +2076,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125114
 	mother = 125147
 	1233.1.2 = {
@@ -2092,7 +2092,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125114
 	mother = 125147
 	1234.1.2 = {
@@ -2107,7 +2107,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222520
 	mother = 125053
 	1203.1.2 = {
@@ -2125,7 +2125,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125127
 	mother = 125189
 	1248.1.2 = {
@@ -2144,7 +2144,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125127
 	mother = 125189
 	1249.1.2 = {
@@ -2159,7 +2159,7 @@
 	name = "Alexandr"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222524
 	1173.1.2 = {
 		birth = yes
@@ -2176,7 +2176,7 @@
 	name = "Vsevolod"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125130
 	mother = 125141
 	1229.1.2 = {
@@ -2191,7 +2191,7 @@
 	name = "Ingvar"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222622
 	mother = 222623
 	1158.1.2 = {
@@ -2206,7 +2206,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125132
 	1180.1.2 = {
 		birth = yes
@@ -2221,7 +2221,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125132
 	1190.1.2 = {
 		birth = yes
@@ -2236,7 +2236,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222525
 	mother = 30201
 	1127.1.2 = {
@@ -2251,7 +2251,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222610
 	1180.1.2 = {
 		birth = yes
@@ -2265,7 +2265,7 @@
 	name = "Vsevolod"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222610
 	1185.1.2 = {
 		birth = yes
@@ -2280,7 +2280,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222579
 	mother = 222581
 	1173.1.2 = {
@@ -2296,7 +2296,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222579
 	mother = 222581
 	1180.1.2 = {
@@ -2312,7 +2312,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222588
 	1210.1.2 = {
 		birth = yes
@@ -2327,7 +2327,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222588
 	1175.1.2 = {
 		birth = yes
@@ -2341,7 +2341,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222572
 	1141.1.2 = {
 		birth = yes
@@ -2356,7 +2356,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222572
 	1150.1.2 = {
 		birth = yes
@@ -2371,7 +2371,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222742
 	mother = 125082
 	1160.1.2 = {
@@ -2386,7 +2386,7 @@
 	name = "Vasiliy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222589
 	mother = 125145
 	1198.1.2 = {
@@ -2402,7 +2402,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222589
 	mother = 125145
 	1202.1.2 = {
@@ -2418,7 +2418,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222589
 	mother = 125145
 	1212.1.2 = {
@@ -2434,7 +2434,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222589
 	mother = 125145
 	1200.1.2 = {
@@ -2449,7 +2449,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222582
 	mother = 125144
 	1177.1.2 = {
@@ -2464,7 +2464,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125150
 	1200.1.2 = {
 		birth = yes
@@ -2478,7 +2478,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222570
 	1190.1.2 = {
 		birth = yes
@@ -2492,7 +2492,7 @@
 	name = "Feodor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222570
 	1193.1.2 = {
 		birth = yes
@@ -2506,7 +2506,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125153
 	1210.1.2 = {
 		birth = yes
@@ -2520,7 +2520,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125154
 	1235.1.2 = {
 		birth = yes
@@ -2534,7 +2534,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125154
 	1237.1.2 = {
 		birth = yes
@@ -2549,7 +2549,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472505
 	1290.1.2 = {
 		birth = yes
@@ -2563,7 +2563,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472794
 	mother = 125177
 	1270.1.2 = {
@@ -2578,7 +2578,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = chaste
 	trait = scholar
 	father = 472794
@@ -2595,7 +2595,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222673
 	1112.1.2 = {
@@ -2610,7 +2610,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222676
 	mother = 222677
 	1148.1.2 = {
@@ -2626,7 +2626,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222673
 	1140.1.2 = {
@@ -2642,7 +2642,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125047
 	1130.1.2 = {
 		birth = yes
@@ -2657,7 +2657,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222600
 	mother = 222601
 	1167.1.10 = {
@@ -2672,7 +2672,7 @@
 	name = "Iziaslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222702
 	mother = 125163
 	1160.1.2 = {
@@ -2687,7 +2687,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222673
 	1134.1.2 = {
@@ -2702,7 +2702,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222673
 	1135.1.2 = {
@@ -2717,7 +2717,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222673
 	1136.1.2 = {
@@ -2733,7 +2733,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222610
 	1190.1.2 = {
 		birth = yes
@@ -2766,7 +2766,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125081
 	1237.1.2 = {
 		birth = yes
@@ -2780,7 +2780,7 @@
 	name = "Alexandr"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472813
 	1286.1.2 = {
 		birth = yes
@@ -2795,7 +2795,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472813
 	1283.1.2 = {
 		birth = yes
@@ -2838,7 +2838,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125174
 	1230.1.2 = {
 		birth = yes
@@ -2853,7 +2853,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125175
 	1246.1.2 = {
 		birth = yes
@@ -2867,7 +2867,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222686
 	mother = 125169
 	1214.1.2 = {
@@ -2886,7 +2886,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222752
 	1216.1.2 = {
 		birth = yes
@@ -2900,7 +2900,7 @@
 	name = "Andrei"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125178
 	mother = 125179
 	1234.1.2 = {
@@ -2915,7 +2915,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125178
 	mother = 125179
 	1236.1.2 = {
@@ -2930,7 +2930,7 @@
 	name = "Boris"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222670
 	mother = 222671
 	1187.6.1 = {
@@ -2945,7 +2945,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222670
 	mother = 222671
 	1187.6.1 = {
@@ -2978,7 +2978,7 @@
 	name = "Vsevolod"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125184
 	mother = 125066
 	1212.10.23 = {
@@ -2996,7 +2996,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125184
 	mother = 125066
 	1218.1.2 = {
@@ -3011,7 +3011,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125184
 	mother = 125066
 	1219.1.2 = {
@@ -3027,7 +3027,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125184
 	mother = 125066
 	1229.9.21 = {
@@ -3043,7 +3043,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125184
 	mother = 125066
 	1215.1.2 = {
@@ -3058,7 +3058,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222670
 	mother = 222671
 	1192.10.26 = {
@@ -3077,7 +3077,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222655
 	mother = 222656
 	1192.1.2 = {
@@ -3092,7 +3092,7 @@
 	name = "Sviatoslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = zealous
 	father = 222670
 	mother = 222671
@@ -3111,7 +3111,7 @@
 	name = "Dmitriy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125192
 	mother = 125079
 	1220.1.2 = {
@@ -3126,7 +3126,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125193
 	1250.1.2 = {
 		birth = yes
@@ -3140,7 +3140,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125194
 	1290.1.2 = {
 		birth = yes
@@ -3154,7 +3154,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222670
 	mother = 222671
 	1198.8.28 = {
@@ -3169,7 +3169,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125196
 	1230.1.2 = {
 		birth = yes
@@ -3183,7 +3183,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125197
 	1260.1.2 = {
 		birth = yes
@@ -3197,7 +3197,7 @@
 	name = "Feodor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125198
 	1290.1.2 = {
 		birth = yes
@@ -3211,7 +3211,7 @@
 	name = "Dmitriy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125199
 	1320.1.2 = {
 		birth = yes
@@ -3225,7 +3225,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125199
 	1322.1.2 = {
 		birth = yes
@@ -3239,7 +3239,7 @@
 	name = "Andrei"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125199
 	1324.1.2 = {
 		birth = yes
@@ -3253,7 +3253,7 @@
 	name = "Feodor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472885
 	mother = 125149
 	1219.1.2 = {
@@ -3269,7 +3269,7 @@
 	# AKA: Mikhail 'Khorobrit'
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472885
 	mother = 125149
 	1229.1.2 = {
@@ -3298,7 +3298,7 @@
 	name = "Daniil"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472885
 	mother = 125149
 	1229.1.2 = {
@@ -3313,7 +3313,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472885
 	mother = 125149
 	1235.1.2 = {
@@ -3342,7 +3342,7 @@
 	name = "Vasiliy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472885
 	mother = 125149
 	trait = drunkard
@@ -3388,7 +3388,7 @@
 	name = "Alexandr"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125211
 	1270.1.2 = {
 		birth = yes
@@ -3421,7 +3421,7 @@
 	# AKA: Ivan 'Menshoy'
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125211
 	1274.1.2 = {
 		birth = yes
@@ -3436,7 +3436,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125211
 	1268.1.2 = {
 		birth = yes
@@ -3451,7 +3451,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472804
 	1290.1.2 = {
 		birth = yes
@@ -3496,7 +3496,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222676
 	mother = 222677
 	1143.1.2 = {
@@ -3512,7 +3512,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222572
 	1165.1.2 = {
 		birth = yes
@@ -3527,7 +3527,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472864
 	mother = 472865
 	1260.1.2 = {
@@ -3570,7 +3570,7 @@
 	name = "Konstantin"
 	dynasty = 11101
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1095.1.2 = {
 		birth = yes
 	}
@@ -3595,7 +3595,7 @@
 	name = "Yakun"
 	dynasty = 11102
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1110.1.2 = {
 		birth = yes
 	}
@@ -3626,7 +3626,7 @@
 	name = "Sudila"
 	dynasty = 11103
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1100.1.2 = {
 		birth = yes
 	}
@@ -3651,7 +3651,7 @@
 	name = "Nezhata"
 	dynasty = 11104
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1100.1.2 = {
 		birth = yes
 	}
@@ -3673,7 +3673,7 @@
 	name = "Zakhariya"
 	dynasty = 11105
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1120.1.2 = {
 		birth = yes
 	}
@@ -3691,7 +3691,7 @@
 125229 = {
 	name = "Yakun"
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1120.1.2 = {
 		birth = yes
 	}
@@ -3710,7 +3710,7 @@
 	name = "Zhiroslav"
 	dynasty = 11103
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125226
 	1120.1.2 = {
 		birth = yes
@@ -3730,7 +3730,7 @@
 	name = "Ivanko"
 	dynasty = 11105
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125228
 	1140.1.2 = {
 		birth = yes
@@ -3756,7 +3756,7 @@
 	name = "Zavid"
 	dynasty = 11106
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1130.1.2 = {
 		birth = yes
 	}
@@ -3781,7 +3781,7 @@
 	name = "Mikhalko"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1155.1.2 = {
 		birth = yes
 	}
@@ -3818,7 +3818,7 @@
 	name = "Miroshko"
 	dynasty = 11108
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1154.1.2 = {
 		birth = yes
 	}
@@ -3837,7 +3837,7 @@
 	name = "Dmitriy"
 	dynasty = 11108
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125234
 	1170.1.2 = {
 		birth = yes
@@ -3857,7 +3857,7 @@
 	name = "Tverdislav"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125233
 	1175.1.2 = {
 		birth = yes
@@ -3888,7 +3888,7 @@
 125237 = {
 	name = "Dmitriy"
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125229
 	1150.1.2 = {
 		birth = yes
@@ -3908,7 +3908,7 @@
 	name = "Yuriy"
 	dynasty = 11105
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125231
 	1160.1.2 = {
 		birth = yes
@@ -3927,7 +3927,7 @@
 125239 = {
 	name = "Simeon"
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1160.1.2 = {
 		birth = yes
 	}
@@ -3945,7 +3945,7 @@
 125240 = {
 	name = "Ivanko"
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125237
 	1170.1.2 = {
 		birth = yes
@@ -3971,7 +3971,7 @@
 	name = "Feodor"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125233
 	1175.1.2 = {
 		birth = yes
@@ -3990,7 +3990,7 @@
 125242 = {
 	name = "Sudimir"
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1175.1.2 = {
 		birth = yes
 	}
@@ -4009,7 +4009,7 @@
 	name = "Vnezd"
 	# AKA: Vnezd Vodovik
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1180.1.2 = {
 		birth = yes
 	}
@@ -4028,7 +4028,7 @@
 	name = "Stepan"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125236
 	1195.1.2 = {
 		birth = yes
@@ -4050,7 +4050,7 @@
 125245 = {
 	name = "Sbyslav"
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1200.1.2 = {
 		birth = yes
 	}
@@ -4069,7 +4069,7 @@
 	name = "Onaniya"
 	dynasty = 11109
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1200.1.2 = {
 		birth = yes
 	}
@@ -4088,7 +4088,7 @@
 	name = "Mikhalko"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125244
 	1215.1.2 = {
 		birth = yes
@@ -4108,7 +4108,7 @@
 	name = "Mikhail"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125241
 	1195.1.2 = {
 		birth = yes
@@ -4128,7 +4128,7 @@
 	name = "Pavsha"
 	dynasty = 11109
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125246
 	1220.1.2 = {
 		birth = yes
@@ -4148,7 +4148,7 @@
 	name = "Mikhail"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125247
 	1235.1.2 = {
 		birth = yes
@@ -4168,7 +4168,7 @@
 	name = "Simeon"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125248
 	1225.1.2 = {
 		birth = yes
@@ -4188,7 +4188,7 @@
 	name = "Andrei"
 	dynasty = 11110
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1250.1.2 = {
 		birth = yes
 	}
@@ -4225,7 +4225,7 @@
 	name = "Yuriy"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125247
 	1240.1.2 = {
 		birth = yes
@@ -4257,7 +4257,7 @@
 	name = "Simeon"
 	dynasty = 11110
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1255.1.2 = {
 		birth = yes
 	}
@@ -4297,7 +4297,7 @@
 	name = "Mikhail"
 	dynasty = 11109
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125249
 	1250.1.2 = {
 		birth = yes
@@ -4317,7 +4317,7 @@
 	name = "Varfolomei"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125253
 	1280.1.2 = {
 		birth = yes
@@ -4343,7 +4343,7 @@
 	name = "Danila"
 	dynasty = 1042648
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1290.1.2 = {
 		birth = yes
 	}
@@ -4361,7 +4361,7 @@
 125258 = {
 	name = "Feodor"
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1290.1.2 = {
 		birth = yes
 	}
@@ -4392,7 +4392,7 @@
 	name = "Matvei"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125256
 	1300.1.2 = {
 		birth = yes
@@ -4412,7 +4412,7 @@
 	name = "Feodor"
 	dynasty = 1042648
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 125257
 	1310.1.2 = {
 		birth = yes
@@ -4431,7 +4431,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	1012.1.2 = {
 		birth = yes
@@ -4449,7 +4449,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = envious
 	trait = tough_soldier
 	1039.1.1 = {
@@ -4468,7 +4468,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = proud
 	trait = underhanded_rogue
 	1039.1.1 = {
@@ -4487,7 +4487,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = flamboyant_schemer
 	1039.1.1 = {
 		birth = yes
@@ -4505,7 +4505,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = honest
 	trait = flamboyant_schemer
 	1039.1.1 = {
@@ -4524,7 +4524,7 @@
 	intrigue = 8
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = hunchback
 	trait = flamboyant_schemer
 	1039.1.1 = {
@@ -4543,7 +4543,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = envious
 	trait = zealous
 	trait = underhanded_rogue
@@ -4563,7 +4563,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = greedy
 	trait = scholarly_theologian
 	1039.1.1 = {
@@ -4582,7 +4582,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = cynical
 	trait = tough_soldier
 	1039.1.1 = {
@@ -4601,7 +4601,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = greedy
 	trait = proud
 	trait = tough_soldier
@@ -4621,7 +4621,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = gluttonous
 	trait = martial_cleric
 	1039.1.1 = {
@@ -4640,7 +4640,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = honest
 	trait = lisp
 	trait = amateurish_plotter
@@ -4660,7 +4660,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = envious
 	trait = clubfooted
 	trait = flamboyant_schemer
@@ -4680,7 +4680,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = temperate
 	trait = martial_cleric
 	1039.1.1 = {
@@ -4699,7 +4699,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = just
 	trait = envious
 	trait = proud
@@ -4721,7 +4721,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = hunchback
 	trait = skilled_tactician
 	1039.1.1 = {
@@ -4740,7 +4740,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = cynical
 	trait = scholarly_theologian
 	1039.1.1 = {
@@ -4759,7 +4759,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = deceitful
 	trait = tough_soldier
 	1039.1.1 = {
@@ -4778,7 +4778,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = sunni
-	culture = russian
+	culture = ruthenian
 	trait = martial_cleric
 	1039.1.1 = {
 		birth = yes
@@ -4796,7 +4796,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = catholic
-	culture = russian
+	culture = ruthenian
 	trait = wroth
 	trait = greedy
 	trait = amateurish_plotter
@@ -4816,7 +4816,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = wroth
 	trait = honest
 	trait = flamboyant_schemer
@@ -4833,7 +4833,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 652
 	1088.1.2 = {
 		birth = yes
@@ -4851,7 +4851,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = tough_soldier
 	1150.1.1 = {
 		birth = yes
@@ -4869,7 +4869,7 @@
 	intrigue = 8
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = martial_cleric
 	1150.1.1 = {
 		birth = yes
@@ -4887,7 +4887,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = kind
 	trait = ill
 	trait = tough_soldier
@@ -4907,7 +4907,7 @@
 	intrigue = 4
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = chaste
 	trait = deceitful
 	trait = martial_cleric
@@ -4927,7 +4927,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = patient
 	trait = amateurish_plotter
 	1150.1.1 = {
@@ -4946,7 +4946,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = martial_cleric
 	1150.1.1 = {
 		birth = yes
@@ -4964,7 +4964,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = harelip
 	trait = amateurish_plotter
 	1150.1.1 = {
@@ -4983,7 +4983,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = slothful
 	trait = cynical
 	trait = underhanded_rogue
@@ -5003,7 +5003,7 @@
 	intrigue = 5
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = flamboyant_schemer
 	1150.1.1 = {
 		birth = yes
@@ -5021,7 +5021,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = wroth
 	trait = martial_cleric
 	1150.1.1 = {
@@ -5040,7 +5040,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = just
 	trait = martial_cleric
 	1150.1.1 = {
@@ -5059,7 +5059,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = cynical
 	trait = skilled_tactician
 	1150.1.1 = {
@@ -5078,7 +5078,7 @@
 	intrigue = 8
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = lustful
 	trait = patient
 	trait = greedy
@@ -5095,7 +5095,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222502
 	mother = 219525
 	1135.1.2 = {
@@ -5114,7 +5114,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222673
 	1135.1.2 = {
@@ -5130,7 +5130,7 @@
 	# AKA: Vladimirko
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 9128
 	1104.1.2 = {
 		birth = yes
@@ -5147,7 +5147,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = lustful
 	trait = gluttonous
 	trait = slothful
@@ -5170,7 +5170,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222650
 	mother = 222651
 	1151.1.2 = {
@@ -5185,7 +5185,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = bastard
 	father = 222500
 	1162.1.2 = {
@@ -5202,7 +5202,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222500
 	mother = 222501
 	1155.1.2 = {
@@ -5217,7 +5217,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222511
 	1150.1.2 = {
 		birth = yes
@@ -5231,7 +5231,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222512
 	1120.1.2 = {
 		birth = yes
@@ -5245,7 +5245,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 9128
 	1098.1.2 = {
 		birth = yes
@@ -5259,7 +5259,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222522
 	mother = 221514
 	1154.1.2 = {
@@ -5284,7 +5284,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222579
 	mother = 222581
 	trait = legit_bastard
@@ -5300,7 +5300,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222525
 	mother = 30201
 	1126.1.2 = {
@@ -5335,7 +5335,7 @@
 	# AKA: Izyaslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222574
 	mother = 222575
 	1097.1.2 = {
@@ -5354,7 +5354,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	add_trait = bastard
 	father = 222522
 	1152.1.2 = {
@@ -5369,7 +5369,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222522
 	mother = 221514
 	1156.1.2 = {
@@ -5384,7 +5384,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222542
 	mother = 222543
 	1145.1.2 = {
@@ -5399,7 +5399,7 @@
 	name = "Yuriy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222544
 	mother = 125902
 	1109.1.2 = {
@@ -5418,7 +5418,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222545
 	1109.1.2 = {
 		birth = yes
@@ -5432,7 +5432,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 652
 	1072.1.2 = {
 		birth = yes
@@ -5456,7 +5456,7 @@
 	# AKA: Vsyevolod
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 668
 	1075.1.2 = {
 		birth = yes
@@ -5474,7 +5474,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222544
 	mother = 125111
 	1114.1.2 = {
@@ -5490,7 +5490,7 @@
 	# AKA: Volodar
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222552
 	mother = 222553
 	1177.1.2 = {
@@ -5506,7 +5506,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222552
 	mother = 222553
 	1178.1.2 = {
@@ -5522,7 +5522,7 @@
 	# AKA: Vsyeslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222554
 	1120.1.2 = {
 		birth = yes
@@ -5540,7 +5540,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = martial_cleric
 	father = 222577
 	mother = 222578
@@ -5556,7 +5556,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 682
 	1100.1.2 = {
 		birth = yes
@@ -5570,7 +5570,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222562
 	1165.1.2 = {
 		birth = yes
@@ -5588,7 +5588,7 @@
 	# AKA: Bryachislav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222554
 	1142.1.2 = {
 		birth = yes
@@ -5603,7 +5603,7 @@
 	# AKA: David
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222572
 	1140.1.2 = {
 		birth = yes
@@ -5617,7 +5617,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222574
 	mother = 222575
 	1108.1.2 = {
@@ -5634,7 +5634,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222574
 	mother = 222576
 	1130.1.2 = {
@@ -5653,7 +5653,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 666
 	mother = 127
 	1076.6.1 = {
@@ -5675,7 +5675,7 @@
 	female = yes
 	dynasty = 511
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 9300
 	1100.1.2 = {
 		birth = yes
@@ -5689,7 +5689,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222572
 	1138.1.2 = {
 		birth = yes
@@ -5707,7 +5707,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222632
 	mother = 222633
 	1140.1.2 = {
@@ -5722,7 +5722,7 @@
 	name = "Rurik"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222572
 	1140.1.2 = {
 		birth = yes
@@ -5740,7 +5740,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222542
 	mother = 222543
 	1140.1.2 = {
@@ -5756,7 +5756,7 @@
 	dynasty = 705
 	martial = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = brave
 	father = 222572
 	1142.1.2 = {
@@ -5775,7 +5775,7 @@
 	# AKA: Izyaslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222570
 	1165.1.2 = {
 		birth = yes
@@ -5789,7 +5789,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222570
 	1167.1.2 = {
 		birth = yes
@@ -5803,7 +5803,7 @@
 	name = "Yaropolk"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222577
 	mother = 222578
 	1157.1.2 = {
@@ -5818,7 +5818,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222579
 	mother = 222581
 	1172.1.2 = {
@@ -5836,7 +5836,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222579
 	mother = 222581
 	1159.1.2 = {
@@ -5851,7 +5851,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222582
 	mother = 125144
 	1176.1.2 = {
@@ -5869,7 +5869,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222592
 	1160.1.2 = {
 		birth = yes
@@ -5883,7 +5883,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = movgorodian
 	father = 222574
 	mother = 222576
 	1132.1.2 = {
@@ -5899,7 +5899,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 222574
 	mother = 222575
 	1100.1.2 = {
@@ -5915,7 +5915,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 222574
 	mother = 222575
 	1101.1.2 = {
@@ -5930,7 +5930,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222602
 	mother = 222603
 	1139.1.2 = {
@@ -5949,7 +5949,7 @@
 	# AKA: Eufrosinia
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1151.1.4 = {
 		birth = yes
 	}
@@ -5963,7 +5963,7 @@
 	# AKA: Vsyevolod
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 660
 	mother = 125051
 	1084.1.2 = {
@@ -5983,7 +5983,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222574
 	mother = 222575
 	1100.1.2 = {
@@ -5998,7 +5998,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222600
 	mother = 222601
 	1174.6.24 = {
@@ -6016,7 +6016,7 @@
 	name = "Yaropolk"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222600
 	mother = 222601
 	1180.1.2 = {
@@ -6031,7 +6031,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222577
 	mother = 222578
 	1156.5.2 = {
@@ -6047,7 +6047,7 @@
 	# AKA: Vsyevolod
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222622
 	mother = 222623
 	1159.1.2 = {
@@ -6066,7 +6066,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222542
 	mother = 222543
 	1145.1.2 = {
@@ -6081,7 +6081,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222525
 	mother = 30201
 	1132.1.2 = {
@@ -6099,7 +6099,7 @@
 	name = "Igor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222632
 	mother = 222633
 	1151.4.2 = {
@@ -6119,7 +6119,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222500
 	mother = 222501
 	1152.1.2 = {
@@ -6135,7 +6135,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = arbitrary
 	trait = charismatic_negotiator
 	father = 660
@@ -6155,7 +6155,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222630
 	1170.1.2 = {
 		birth = yes
@@ -6172,7 +6172,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222630
 	1175.1.2 = {
 		birth = yes
@@ -6201,7 +6201,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222630
 	1177.1.2 = {
 		birth = yes
@@ -6218,7 +6218,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222630
 	1179.1.2 = {
 		birth = yes
@@ -6232,7 +6232,7 @@
 	name = "Vsyevolod"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222632
 	mother = 222633
 	1153.1.2 = {
@@ -6251,7 +6251,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222702
 	mother = 125163
 	1156.1.2 = {
@@ -6267,7 +6267,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222602
 	mother = 222603
 	1117.1.2 = {
@@ -6286,7 +6286,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222554
 	1125.1.2 = {
 		birth = yes
@@ -6301,7 +6301,7 @@
 	# AKA: Vsyevolod
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222650
 	mother = 222651
 	1144.1.2 = {
@@ -6319,7 +6319,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = zealous
 	father = 222652
 	mother = 221523
@@ -6338,7 +6338,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222650
 	mother = 222651
 	1155.1.2 = {
@@ -6358,7 +6358,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222579
 	mother = 222581
 	1167.1.2 = {
@@ -6373,7 +6373,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222655
 	mother = 222656
 	1185.1.2 = {
@@ -6388,7 +6388,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222650
 	mother = 222651
 	1160.1.2 = {
@@ -6406,7 +6406,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222650
 	mother = 222651
 	1151.1.2 = {
@@ -6426,7 +6426,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222682
 	mother = 222683
 	1167.1.2 = {
@@ -6442,7 +6442,7 @@
 	# AKA: Vsyevolod 'Bolshoe Gnesdo'
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = lustful
 	trait = just
 	trait = zealous
@@ -6469,7 +6469,7 @@
 	martial = 8
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = ambitious
 	father = 666
 	mother = 127
@@ -6556,7 +6556,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222673
 	1133.1.2 = {
@@ -6571,7 +6571,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222674
 	1151.1.2 = {
@@ -6589,7 +6589,7 @@
 	name = "Fevronia"
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1150.1.2 = {
 		birth = yes
 	}
@@ -6602,7 +6602,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222670
 	mother = 222671
 	1186.5.18 = {
@@ -6621,7 +6621,7 @@
 	dynasty = 705
 	martial = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222676
 	mother = 222677
 	1150.1.2 = {
@@ -6637,7 +6637,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222670
 	mother = 222671
 	1178.10.27 = {
@@ -6653,7 +6653,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222670
 	mother = 222671
 	1179.1.2 = {
@@ -6669,7 +6669,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222670
 	mother = 222671
 	1181.1.2 = {
@@ -6684,7 +6684,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = brave
 	father = 222702
 	mother = 125163
@@ -6703,7 +6703,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222672
 	mother = 222673
 	1114.1.2 = {
@@ -6721,7 +6721,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222681
 	1155.1.2 = {
 		birth = yes
@@ -6736,7 +6736,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222722
 	1176.1.2 = {
 		birth = yes
@@ -6750,7 +6750,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = proud
 	trait = martial_cleric
 	father = 222675
@@ -6766,7 +6766,7 @@
 	name = "Yaropolk"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222675
 	1132.1.2 = {
 		birth = yes
@@ -6783,7 +6783,7 @@
 	name = "Igor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222742
 	mother = 125082
 	1150.1.2 = {
@@ -6802,7 +6802,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222572
 	1150.1.2 = {
 		birth = yes
@@ -6816,7 +6816,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222744
 	1120.1.2 = {
 		birth = yes
@@ -6833,7 +6833,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 662
 	1100.1.2 = {
 		birth = yes
@@ -6847,7 +6847,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222742
 	mother = 125082
 	1145.1.2 = {
@@ -6865,7 +6865,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222742
 	mother = 125082
 	1168.1.2 = {
@@ -6883,7 +6883,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222742
 	mother = 125082
 	1155.1.2 = {
@@ -6914,7 +6914,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222740
 	mother = 222741
 	1178.1.2 = {
@@ -6961,7 +6961,7 @@
 	# AKA: Kur
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222748
 	1186.1.2 = {
 		birth = yes
@@ -6978,7 +6978,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222747
 	1185.1.2 = {
 		birth = yes
@@ -6993,7 +6993,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 662
 	1088.1.1 = {
 		birth = yes
@@ -7008,7 +7008,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222742
 	mother = 125082
 	1165.1.2 = {
@@ -7038,7 +7038,7 @@
 	# AKA: Yuri
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222774
 	1145.1.2 = {
 		birth = yes
@@ -7052,7 +7052,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222757
 	1120.1.2 = {
 		birth = yes
@@ -7081,7 +7081,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 652
 	1080.1.2 = {
 		birth = yes
@@ -7095,7 +7095,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222792
 	1141.1.2 = {
 		birth = yes
@@ -7109,7 +7109,7 @@
 	name = "Volodar"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 672
 	mother = 125095
 	1095.1.2 = {
@@ -7130,7 +7130,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 672
 	mother = 125095
 	1090.1.2 = {
@@ -7149,7 +7149,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222544
 	mother = 125902
 	1111.1.2 = {
@@ -7165,7 +7165,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222792
 	mother = 221511
 	1140.1.2 = {
@@ -7180,7 +7180,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222795
 	mother = 222796
 	1135.1.2 = {
@@ -7196,7 +7196,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222795
 	mother = 222796
 	1140.1.2 = {
@@ -7211,7 +7211,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222799
 	1170.1.2 = {
 		birth = yes
@@ -7225,7 +7225,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222792
 	mother = 221511
 	1142.1.2 = {
@@ -7241,7 +7241,7 @@
 	# AKA: Vsyevolod
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 222574
 	mother = 222575
 	1096.1.2 = {
@@ -7261,7 +7261,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	trait = just
 	trait = charismatic_negotiator
 	father = 222822
@@ -7280,7 +7280,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222572
 	1150.1.2 = {
 		birth = yes
@@ -7295,7 +7295,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222525
 	mother = 30201
 	1136.1.2 = {
@@ -7311,7 +7311,7 @@
 	# AKA: Yuri 'Bogolyubsky'
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = hedonist
 	trait = lustful
 	father = 222676
@@ -7335,7 +7335,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 626
 	mother = 761
 	1060.1.2 = {
@@ -7351,7 +7351,7 @@
 	# AKA: Predlava
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1047.1.2 = {
 		birth = yes
 	}
@@ -7365,7 +7365,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = zealous
 	father = 630
 	mother = 1727
@@ -7381,7 +7381,7 @@
 	name = "Sofia"
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1035.1.2 = {
 		birth = yes
 	}
@@ -7394,7 +7394,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 650
 	mother = 40603
 	1070.1.2 = {
@@ -7410,7 +7410,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	1015.1.2 = {
 		birth = yes
@@ -7428,7 +7428,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = martial_cleric
 	1280.1.2 = {
 		birth = yes
@@ -7446,7 +7446,7 @@
 	intrigue = 6
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = slothful
 	trait = humble
 	trait = zealous
@@ -7463,7 +7463,7 @@
 	name = "Yuriy"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125116
 	mother = 98037
 	1252.1.2 = {
@@ -7484,7 +7484,7 @@
 	name = "Andrei"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 471511
 	mother = 125986
 	1287.1.2 = {
@@ -7501,7 +7501,7 @@
 	female = yes
 	dynasty = 705
 	religion = catholic
-	culture = russian
+	culture = ruthenian
 	father = 471511
 	1292.1.2 = {
 		birth = yes
@@ -7519,7 +7519,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	trait = underhanded_rogue
 	1300.1.1 = {
 		birth = yes
@@ -7537,7 +7537,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = slothful
 	trait = charitable
 	trait = zealous
@@ -7559,7 +7559,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = chaste
 	trait = slothful
 	trait = charitable
@@ -7580,7 +7580,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = just
 	trait = amateurish_plotter
 	1300.1.1 = {
@@ -7599,7 +7599,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = cynical
 	trait = inbred
 	trait = tough_soldier
@@ -7619,7 +7619,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = patient
 	trait = skilled_tactician
 	1300.1.1 = {
@@ -7638,7 +7638,7 @@
 	intrigue = 5
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = honest
 	trait = scholarly_theologian
 	1250.1.1 = {
@@ -7657,7 +7657,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = underhanded_rogue
 	1300.1.1 = {
 		birth = yes
@@ -7674,7 +7674,7 @@
 	intrigue = 4
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = honest
 	trait = scholarly_theologian
 	1300.1.1 = {
@@ -7693,7 +7693,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = wroth
 	trait = honest
 	trait = amateurish_plotter
@@ -7713,7 +7713,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = just
 	trait = tough_soldier
 	1300.1.1 = {
@@ -7732,7 +7732,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = just
 	trait = inbred
 	trait = amateurish_plotter
@@ -7752,7 +7752,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = charismatic_negotiator
 	1300.1.1 = {
 		birth = yes
@@ -7770,7 +7770,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = patient
 	trait = temperate
 	trait = tough_soldier
@@ -7790,7 +7790,7 @@
 	intrigue = 8
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = honest
 	trait = charismatic_negotiator
 	1300.1.1 = {
@@ -7809,7 +7809,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = deceitful
 	trait = scholarly_theologian
 	1300.1.1 = {
@@ -7828,7 +7828,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = arbitrary
 	trait = brave
 	trait = flamboyant_schemer
@@ -7848,7 +7848,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = chaste
 	trait = wroth
 	trait = deceitful
@@ -7869,7 +7869,7 @@
 	intrigue = 4
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = charitable
 	trait = envious
 	trait = tough_soldier
@@ -7889,7 +7889,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = flamboyant_schemer
 	1300.1.1 = {
 		birth = yes
@@ -7907,7 +7907,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = amateurish_plotter
 	1300.1.1 = {
 		birth = yes
@@ -7925,7 +7925,7 @@
 	intrigue = 8
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = cynical
 	trait = hunchback
 	trait = flamboyant_schemer
@@ -7945,7 +7945,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = just
 	trait = patient
 	trait = brave
@@ -7966,7 +7966,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = amateurish_plotter
 	1300.1.1 = {
 		birth = yes
@@ -7984,7 +7984,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = honest
 	trait = skilled_tactician
 	1300.1.1 = {
@@ -8003,7 +8003,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = cynical
 	trait = tough_soldier
 	1300.1.1 = {
@@ -8018,7 +8018,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472502
 	1290.1.2 = {
 		birth = yes
@@ -8033,7 +8033,7 @@
 	# AKA: Aleksandr
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472504
 	1258.1.2 = {
 		birth = yes
@@ -8047,7 +8047,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125154
 	1234.1.2 = {
 		birth = yes
@@ -8061,7 +8061,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472504
 	1262.1.2 = {
 		birth = yes
@@ -8076,7 +8076,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472502
 	1291.1.2 = {
 		birth = yes
@@ -8091,7 +8091,7 @@
 	# AKA: Dmitrii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472502
 	1295.1.2 = {
 		birth = yes
@@ -8106,7 +8106,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472500
 	1318.1.2 = {
 		birth = yes
@@ -8121,7 +8121,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472500
 	1320.1.2 = {
 		birth = yes
@@ -8135,7 +8135,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472511
 	1295.1.2 = {
 		birth = yes
@@ -8150,7 +8150,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472504
 	1265.1.2 = {
 		birth = yes
@@ -8165,7 +8165,7 @@
 	# AKA: Fedor
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472511
 	1300.1.2 = {
 		birth = yes
@@ -8180,7 +8180,7 @@
 	# AKA: Dmitrii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472511
 	1305.1.2 = {
 		birth = yes
@@ -8195,7 +8195,7 @@
 	# AKA: Aleksandr
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472510
 	1320.1.2 = {
 		birth = yes
@@ -8211,7 +8211,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472514
 	1325.1.2 = {
 		birth = yes
@@ -8225,7 +8225,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472515
 	1330.1.2 = {
 		birth = yes
@@ -8267,7 +8267,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125087
 	1260.1.2 = {
 		birth = yes
@@ -8281,7 +8281,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472520
 	1330.1.2 = {
 		birth = yes
@@ -8310,7 +8310,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472524
 	1285.1.2 = {
 		birth = yes
@@ -8324,7 +8324,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472630
 	1320.1.2 = {
 		birth = yes
@@ -8338,7 +8338,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472630
 	1322.1.2 = {
 		birth = yes
@@ -8353,7 +8353,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472630
 	1324.1.2 = {
 		birth = yes
@@ -8367,7 +8367,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472792
 	1301.1.2 = {
 		birth = yes
@@ -8382,7 +8382,7 @@
 	# AKA: Dmitri
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472782
 	1310.1.2 = {
 		birth = yes
@@ -8397,7 +8397,7 @@
 	# AKA: Fedor
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472784
 	1290.1.2 = {
 		birth = yes
@@ -8411,7 +8411,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125061
 	1270.1.2 = {
 		birth = yes
@@ -8425,7 +8425,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472782
 	1315.1.2 = {
 		birth = yes
@@ -8439,7 +8439,7 @@
 	name = "Andrei"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472782
 	1330.1.2 = {
 		birth = yes
@@ -8454,7 +8454,7 @@
 	# AKA: Semyon
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472780
 	1335.1.2 = {
 		birth = yes
@@ -8489,7 +8489,7 @@
 	# AKA: David
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472794
 	mother = 472795
 	1283.1.2 = {
@@ -8526,7 +8526,7 @@
 	name = "Konstantin"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472802
 	1312.1.2 = {
 		birth = yes
@@ -8544,7 +8544,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472840
 	mother = 472841
 	1313.1.2 = {
@@ -8560,7 +8560,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472804
 	1291.1.2 = {
 		birth = yes
@@ -8607,7 +8607,7 @@
 	female = yes
 	dynasty = 13
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1311.1.2 = {
 		birth = yes
 	}
@@ -8620,7 +8620,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472800
 	mother = 472801
 	1330.1.2 = {
@@ -8635,7 +8635,7 @@
 	name = "Ivan"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472800
 	mother = 472801
 	1332.1.2 = {
@@ -8651,7 +8651,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472800
 	mother = 472801
 	1335.1.2 = {
@@ -8749,7 +8749,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472794
 	mother = 125177
 	1265.1.2 = {
@@ -8799,7 +8799,7 @@
 	# AKA: Fedor
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472820
 	1315.1.2 = {
 		birth = yes
@@ -8814,7 +8814,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472820
 	1320.1.2 = {
 		birth = yes
@@ -8844,7 +8844,7 @@
 	# AKA: Ivan
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472834
 	mother = 472835
 	1279.1.2 = {
@@ -8878,7 +8878,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472794
 	mother = 125177
 	1262.1.2 = {
@@ -8962,7 +8962,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 472885
 	mother = 125149
 	trait = brave
@@ -8991,7 +8991,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125010
 	1220.1.2 = {
 		birth = yes
@@ -9024,7 +9024,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472813
 	1277.1.2 = {
 		birth = yes
@@ -9074,7 +9074,7 @@
 	# AKA: Semyon
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = proud
 	father = 472840
 	mother = 472841
@@ -9094,7 +9094,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472851
 	mother = 472852
 	1336.1.2 = {
@@ -9206,7 +9206,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472848
 	mother = 125216
 	1306.1.2 = {
@@ -9240,7 +9240,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472813
 	1280.1.2 = {
 		birth = yes
@@ -9274,7 +9274,7 @@
 	female = yes
 	dynasty = 101802
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1240.1.2 = {
 		birth = yes
 	}
@@ -9288,7 +9288,7 @@
 	# AKA: Dmitrii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = wroth
 	father = 472862
 	mother = 472863
@@ -9308,7 +9308,7 @@
 	# AKA: Aleksandr
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 472862
 	mother = 472863
 	1301.1.2 = {
@@ -9327,7 +9327,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 471511
 	1301.1.2 = {
 		birth = yes
@@ -9342,7 +9342,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472862
 	mother = 472863
 	1304.1.2 = {
@@ -9361,7 +9361,7 @@
 	# AKA: Yelyena
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1310.1.2 = {
 		birth = yes
 	}
@@ -9375,7 +9375,7 @@
 	# AKA: Fedor
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472868
 	mother = 472869
 	1321.1.2 = {
@@ -9390,7 +9390,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472868
 	mother = 472869
 	1333.1.2 = {
@@ -9406,7 +9406,7 @@
 	# AKA: Vsyevolod
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472868
 	mother = 472869
 	1322.1.2 = {
@@ -9421,7 +9421,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472868
 	mother = 472869
 	1320.1.2 = {
@@ -9436,7 +9436,7 @@
 	name = "Andrei"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472868
 	mother = 472869
 	1327.1.2 = {
@@ -9452,7 +9452,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472868
 	mother = 472869
 	1323.1.2 = {
@@ -9468,7 +9468,7 @@
 	# AKA: Yulyana
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472868
 	mother = 472869
 	1325.1.2 = {
@@ -9484,7 +9484,7 @@
 	# AKA: Semyon
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472860
 	mother = 472861
 	1325.1.2 = {
@@ -9500,7 +9500,7 @@
 	# AKA: Eremei
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472860
 	mother = 472861
 	1330.1.2 = {
@@ -9515,7 +9515,7 @@
 	name = "Mikhail"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472871
 	mother = 472872
 	1331.1.2 = {
@@ -9531,7 +9531,7 @@
 	# AKA: Vasilii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472871
 	mother = 472872
 	1333.1.2 = {
@@ -9584,7 +9584,7 @@
 	# AKA: Elyena
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1300.1.2 = {
 		birth = yes
 	}
@@ -9616,7 +9616,7 @@
 	name = "Yelena"
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1270.1.2 = {
 		birth = yes
 	}
@@ -9648,7 +9648,7 @@
 	# AKA: Aleksandr
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472912
 	mother = 472913
 	1292.1.2 = {
@@ -9663,7 +9663,7 @@
 	name = "Andrei"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472910
 	mother = 472911
 	1321.1.2 = {
@@ -9679,7 +9679,7 @@
 	# AKA: Dmitrii
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 472910
 	mother = 472911
 	1322.1.2 = {
@@ -9694,7 +9694,7 @@
 	name = "Olga"
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1275.1.2 = {
 		birth = yes
 	}
@@ -9725,7 +9725,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125016
 	1300.1.2 = {
 		birth = yes
@@ -9739,7 +9739,7 @@
 	name = "Lev"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 471511
 	mother = 125986
 	1288.1.2 = {
@@ -9759,7 +9759,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 473516
 	mother = 125157
 	1308.1.2 = {
@@ -9778,7 +9778,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = catholic
-	culture = russian
+	culture = ruthenian
 	trait = gluttonous
 	trait = martial_cleric
 	1300.1.1 = {
@@ -9797,7 +9797,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = catholic
-	culture = russian
+	culture = ruthenian
 	trait = wroth
 	trait = honest
 	trait = scholarly_theologian
@@ -9813,7 +9813,7 @@
 	name = "Olga"
 	female = yes
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	890.1.2 = {
 		birth = yes
 		effect = { set_character_flag = is_olga}
@@ -9833,7 +9833,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = norse_pagan
-	culture = russian
+	culture = ruthenian
 	trait = tough_soldier
 	father = 600
 	mother = 601
@@ -9852,7 +9852,7 @@
 	name = "Malusha"
 	female = yes
 	religion = norse_pagan
-	culture = russian
+	culture = ruthenian
 	944.1.2 = {
 		birth = yes
 	}
@@ -9865,7 +9865,7 @@
 	name = "Yaropolk"
 	dynasty = 705
 	religion = norse_pagan
-	culture = russian
+	culture = ruthenian
 	father = 602
 	mother = 599
 	958.1.2 = {
@@ -9880,7 +9880,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 602
 	mother = 599
 	959.1.2 = {
@@ -9899,7 +9899,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = envious
 	trait = zealous
 	trait = bastard
@@ -9932,7 +9932,7 @@
 	female = yes
 	dynasty = 703
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	960.1.2 = {
 		birth = yes
 	}
@@ -9946,7 +9946,7 @@
 	# AKA: Svyatopolk
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = envious
 	trait = wroth
 	trait = kinslayer
@@ -9976,7 +9976,7 @@
 	intrigue = 7
 	stewardship = 10
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = scholar
 	trait = midas_touched
 	father = 608
@@ -10003,7 +10003,7 @@
 	# AKA: Izyaslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	mother = 609
 	978.1.2 = {
@@ -10018,7 +10018,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	983.1.2 = {
 		birth = yes
@@ -10035,7 +10035,7 @@
 	name = "Sudislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	987.1.2 = {
 		birth = yes
@@ -10050,7 +10050,7 @@
 	# AKA: Vycheslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	977.1.2 = {
 		birth = yes
@@ -10065,7 +10065,7 @@
 	# AKA: St
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	986.1.2 = {
 		birth = yes
@@ -10080,7 +10080,7 @@
 	# AKA: St
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 608
 	987.1.2 = {
 		birth = yes
@@ -10095,7 +10095,7 @@
 	# AKA: Izyaslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 612
 	mother = 100511
 	1024.1.2 = {
@@ -10114,7 +10114,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 612
 	mother = 100511
 	1032.1.2 = {
@@ -10132,7 +10132,7 @@
 	diplomacy = 8
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 612
 	mother = 100511
 	1027.1.2 = {
@@ -10177,7 +10177,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 612
 	mother = 100511
 	1025.1.2 = {
@@ -10192,7 +10192,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 612
 	mother = 100511
 	1020.1.2 = {
@@ -10208,7 +10208,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 612
 	mother = 100511
 	1023.1.2 = {
@@ -10223,7 +10223,7 @@
 	name = "Igor"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 612
 	mother = 100511
 	1037.1.2 = {
@@ -10239,7 +10239,7 @@
 	# AKA: Bryachislav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 616
 	997.1.2 = {
 		birth = yes
@@ -10254,7 +10254,7 @@
 	# AKA: Yevstafyi
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 618
 	mother = 122502
 	1021.1.2 = {
@@ -10269,7 +10269,7 @@
 	name = "Vseslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = cynical
 	trait = skilled_tactician
 	father = 642
@@ -10289,7 +10289,7 @@
 	# AKA: Svyatopolk
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	trait = legit_bastard
 	father = 626
 	1050.11.8 = {
@@ -10304,7 +10304,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 628
 	mother = 125044
 	1046.1.2 = {
@@ -10319,7 +10319,7 @@
 	name = "Davyd"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 628
 	mother = 125044
 	1050.1.2 = {
@@ -10334,7 +10334,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 628
 	mother = 125044
 	1048.1.2 = {
@@ -10349,7 +10349,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = ambitious
 	trait = cynical
 	father = 628
@@ -10369,7 +10369,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 628
 	mother = 1353
 	1071.1.2 = {
@@ -10407,7 +10407,7 @@
 	name = "Davyd"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 638
 	1055.1.2 = {
 		birth = yes
@@ -10421,7 +10421,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 634
 	1038.1.2 = {
 		birth = yes
@@ -10438,7 +10438,7 @@
 	name = "Gleb"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 650
 	mother = 40603
 	1053.1.2 = {
@@ -10456,7 +10456,7 @@
 	name = "Roman"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 650
 	mother = 40603
 	1055.1.2 = {
@@ -10471,7 +10471,7 @@
 	name = "Davyd"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 650
 	mother = 40603
 	1060.1.1 = {
@@ -10487,7 +10487,7 @@
 	# AKA: Boris
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 676
 	1080.1.2 = {
 		birth = yes
@@ -10504,7 +10504,7 @@
 	name = "Rogvolod"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 650
 	mother = 40603
 	1066.1.2 = {
@@ -10520,7 +10520,7 @@
 	# AKA: Svyatoslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 650
 	mother = 40603
 	1063.1.2 = {
@@ -10535,7 +10535,7 @@
 	name = "Yaropolk"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 626
 	mother = 761
 	1046.1.1 = {
@@ -10553,7 +10553,7 @@
 	name = "Mstislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	father = 626
 	mother = 761
 	1047.1.2 = {
@@ -10574,7 +10574,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = tough_soldier
 	trait = wroth
 	trait = brave
@@ -10594,7 +10594,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = skilled_tactician
 	trait = temperate
 	trait = zealous
@@ -10615,7 +10615,7 @@
 	intrigue = 8
 	stewardship = 4
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = skilled_tactician
 	trait = deceitful
 	trait = cynical
@@ -10635,7 +10635,7 @@
 	intrigue = 7
 	stewardship = 6
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = martial_cleric
 	trait = patient
 	1056.1.2 = {
@@ -10654,7 +10654,7 @@
 	intrigue = 6
 	stewardship = 9
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = scholarly_theologian
 	trait = zealous
 	trait = humble
@@ -10674,7 +10674,7 @@
 	intrigue = 6
 	stewardship = 9
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = scholarly_theologian
 	trait = zealous
 	trait = just
@@ -10695,7 +10695,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = thrifty_clerk
 	trait = deceitful
 	1054.1.2 = {
@@ -10714,7 +10714,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = scholarly_theologian
 	trait = patient
 	1016.1.2 = {
@@ -10733,7 +10733,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = baltic_pagan
-	culture = russian
+	culture = ruthenian
 	trait = mastermind_theologian
 	trait = wroth
 	trait = deceitful
@@ -10754,7 +10754,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = baltic_pagan
-	culture = russian
+	culture = ruthenian
 	trait = martial_cleric
 	father = 90146
 	1056.1.2 = {
@@ -10773,7 +10773,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = detached_priest
 	trait = zealous
 	trait = possessed
@@ -10789,7 +10789,7 @@
 	name = "Rurik"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 670
 	mother = 41201
 	1058.1.2 = {
@@ -10804,7 +10804,7 @@
 	name = "Volodar"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 670
 	mother = 41201
 	1060.1.2 = {
@@ -10819,7 +10819,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 670
 	mother = 41201
 	1066.1.2 = {
@@ -10839,7 +10839,7 @@
 	# AKA: Vyacheslav
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 612
 	mother = 100511
 	1036.1.2 = {
@@ -10854,7 +10854,7 @@
 	name = "Boris"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 9132
 	1054.1.2 = {
 		birth = yes
@@ -10869,7 +10869,7 @@
 	# AKA: Dmitry
 	dynasty = 511
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1061.1.2 = {
 		birth = yes
 	}
@@ -10882,7 +10882,7 @@
 	name = "Rostislav"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222654
 	mother = 125104
 	1227.1.2 = {
@@ -10901,7 +10901,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 98015
 	mother = 98012
 	1245.1.2 = {
@@ -10917,7 +10917,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 666
 	mother = 127
 	1097.1.2 = {
@@ -10937,7 +10937,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222500
 	mother = 222501
 	1154.1.2 = {
@@ -10953,7 +10953,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 660
 	mother = 125051
 	1097.1.2 = {
@@ -10969,7 +10969,7 @@
 	female = yes
 	dynasty = 705 # Rurikovich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 628
 	mother = 125044
 	1047.1.1 = {
@@ -10983,7 +10983,7 @@
 159718 = {
 	name = "Vyacheslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029138
 	father = 194138
 	830.1.1 = {
@@ -10997,7 +10997,7 @@
 159719 = {
 	name = "Iziaslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 160050
 	835.1.1 = {
@@ -11011,7 +11011,7 @@
 159720 = {
 	name = "Bogdan"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029117
 	trait = content
 	trait = craven
@@ -11028,7 +11028,7 @@
 159721 = {
 	name = "Tatimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029138
 	father = 194144
 	822.1.1 = {
@@ -11044,7 +11044,7 @@
 	dynasty = 9125
 	father = 82258
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	trait = bastard
 	824.1.1 = {
 		birth = yes
@@ -11059,7 +11059,7 @@
 	dynasty = 9125
 	father = 82266
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	846.1.1 = {
 		birth = yes
 	}
@@ -11073,7 +11073,7 @@
 	dynasty = 9125
 	father = 82267
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	910.1.1 = {
 		birth = yes
 	}
@@ -11087,7 +11087,7 @@
 	dynasty = 9125
 	father = 82266
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	848.1.1 = {
 		birth = yes
 	}
@@ -11101,7 +11101,7 @@
 	dynasty = 9125
 	father = 82269
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	909.1.1 = {
 		birth = yes
 	}
@@ -11115,7 +11115,7 @@
 	dynasty = 9125
 	father = 82266
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	850.1.1 = {
 		birth = yes
 	}
@@ -11129,7 +11129,7 @@
 	dynasty = 9125
 	father = 82271
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	911.1.1 = {
 		birth = yes
 	}
@@ -11141,7 +11141,7 @@
 160049 = {
 	name = "Vsevolod"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 194133
 	780.1.1 = {
@@ -11155,7 +11155,7 @@
 160050 = {
 	name = "Putimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 160049
 	810.1.1 = {
@@ -11169,7 +11169,7 @@
 160051 = {
 	name = "Radigost"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 160049
 	815.1.1 = {
@@ -11184,7 +11184,7 @@
 	name = "Radoslav"
 	dynasty = 1029116
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 160051
 	trait = content
 	850.1.1 = {
@@ -11198,7 +11198,7 @@
 160053 = {
 	name = "Samovlad"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 160050
 	840.1.1 = {
@@ -11212,7 +11212,7 @@
 160054 = {
 	name = "Premsyl"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 160050
 	850.1.1 = {
@@ -11268,7 +11268,7 @@
 160058 = {
 	name = "Samovlad"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 160055
 	810.1.1 = {
@@ -11282,7 +11282,7 @@
 160059 = {
 	name = "Vladislav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029118
 	father = 6834
 	850.1.1 = {
@@ -11296,7 +11296,7 @@
 160060 = {
 	name = "Dragan"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029118
 	father = 6834
 	851.1.1 = {
@@ -11310,7 +11310,7 @@
 160061 = {
 	name = "Gradimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029118
 	father = 6834
 	852.1.1 = {
@@ -11324,7 +11324,7 @@
 160062 = {
 	name = "Gostevid"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 160057
 	810.1.1 = {
@@ -11338,7 +11338,7 @@
 160063 = {
 	name = "Bojan"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029118
 	father = 194146
 	816.1.1 = {
@@ -11352,7 +11352,7 @@
 160064 = {
 	name = "Dobromir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029117
 	father = 194135
 	816.1.1 = {
@@ -11366,7 +11366,7 @@
 160089 = {
 	name = "Izbygnev"#
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029138
 	father = 6860
 	860.1.1 = {
@@ -11380,7 +11380,7 @@
 160090 = {
 	name = "Krasimir"#
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029138
 	father = 6860
 	860.1.1 = {
@@ -11394,7 +11394,7 @@
 160091 = {
 	name = "Ladimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6829
 	860.1.1 = {
@@ -11408,7 +11408,7 @@
 160092 = {
 	name = "Radogor"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6829
 	861.1.1 = {
@@ -11422,7 +11422,7 @@
 160093 = {
 	name = "Svyatogor"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6831
 	860.1.1 = {
@@ -11436,7 +11436,7 @@
 160094 = {
 	name = "Tihomir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6831
 	861.1.1 = {
@@ -11450,7 +11450,7 @@
 160095 = {
 	name = "Godoslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6832
 	860.1.1 = {
@@ -11464,7 +11464,7 @@
 160096 = {
 	name = "Vyacheslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6832
 	861.1.1 = {
@@ -11478,7 +11478,7 @@
 160097 = {
 	name = "Dobrovlad"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6833
 	860.1.1 = {
@@ -11492,7 +11492,7 @@
 160098 = {
 	name = "Zhiroslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6833
 	861.1.1 = {
@@ -11506,7 +11506,7 @@
 160099 = {
 	name = "Zvonimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029137
 	father = 6826
 	860.1.1 = {
@@ -11520,7 +11520,7 @@
 160100 = {
 	name = "Velimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029137
 	father = 6826
 	861.1.1 = {
@@ -11534,7 +11534,7 @@
 160101 = {
 	name = "Bryacheslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029117
 	father = 159720
 	860.1.1 = {
@@ -11548,7 +11548,7 @@
 160102 = {
 	name = "Venceslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029117
 	father = 159720
 	861.1.1 = {
@@ -11562,7 +11562,7 @@
 160103 = {
 	name = "Yaroslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029117
 	father = 6825
 	860.1.1 = {
@@ -11576,7 +11576,7 @@
 160104 = {
 	name = "Budimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029117
 	father = 6825
 	861.1.1 = {
@@ -11590,7 +11590,7 @@
 160105 = {
 	name = "Mladan"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 159719
 	860.1.1 = {
@@ -11604,7 +11604,7 @@
 160106 = {
 	name = "Radomysl"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 159719
 	861.1.1 = {
@@ -11618,7 +11618,7 @@
 160107 = {
 	name = "Svetovid"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 6859
 	862.1.1 = {
@@ -11632,7 +11632,7 @@
 160108 = {
 	name = "Predrag"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 6859
 	863.1.1 = {
@@ -11646,7 +11646,7 @@
 160109 = {
 	name = "Svyatogor"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6835
 	851.1.1 = {
@@ -11660,7 +11660,7 @@
 160110 = {
 	name = "Tverdimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029136
 	father = 6835
 	852.1.1 = {
@@ -11674,7 +11674,7 @@
 160111 = {
 	name = "Mechislav"#
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029138
 	father = 159721
 	850.1.1 = {
@@ -11688,7 +11688,7 @@
 160112 = {
 	name = "Kreslav"#
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029138
 	father = 159721
 	851.1.1 = {
@@ -11702,7 +11702,7 @@
 160113 = {
 	name = "Vadim"#
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029138
 	father = 159721
 	852.1.1 = {
@@ -11716,7 +11716,7 @@
 160134 = {
 	name = "Radomir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 160049
 	810.1.1 = {
@@ -11730,7 +11730,7 @@
 160135 = {
 	name = "Stanislav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 6869
 	857.1.1 = {
@@ -11744,7 +11744,7 @@
 160136 = {
 	name = "Vlastimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029116
 	father = 6869
 	858.1.1 = {
@@ -11758,7 +11758,7 @@
 160137 = {
 	name = "Rostislav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029117
 	father = 6868
 	862.1.1 = {
@@ -11772,7 +11772,7 @@
 160138 = {
 	name = "Kazimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029117
 	father = 6868
 	863.1.1 = {
@@ -11786,7 +11786,7 @@
 160139 = {
 	name = "Velimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029137
 	father = 194141
 	810.1.1 = {
@@ -11800,7 +11800,7 @@
 160140 = {
 	name = "Svetoslav"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029137
 	father = 6870
 	857.1.1 = {
@@ -11814,7 +11814,7 @@
 160141 = {
 	name = "Zvonimir"
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	dynasty = 1029137
 	father = 6870
 	858.1.1 = {
@@ -11830,7 +11830,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = bastard
 	father = 608
 	990.1.1 = {
@@ -11846,7 +11846,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125130
 	mother = 125141
 	1229.1.1 = {
@@ -11861,7 +11861,7 @@
 	name = "Iaropolk"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222525
 	mother = 30201
 	1137.1.2 = {
@@ -11880,7 +11880,7 @@
 	female = yes
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 222650
 	mother = 222651
 	1152.1.2 = {
@@ -11895,7 +11895,7 @@
 	name = "Vasilko"
 	dynasty = 705
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 170099
 	1153.1.2 = {
 		birth = yes
@@ -12006,7 +12006,7 @@
 	name = "Gleb"
 	dynasty = 1029138
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 194137
 	810.1.1 = {
 		birth = yes
@@ -12130,7 +12130,7 @@
 	name = "Ivan"
 	dynasty = 11107
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 125244
 	1217.1.2 = {
 		birth = yes
@@ -12144,7 +12144,7 @@
 	name = "Vselovod"
 	dynasty = 101803 # Mstislavich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1188.1.1 = {
 		birth = yes
 	}
@@ -12163,7 +12163,7 @@
 	name = "Vselovod"
 	dynasty = 101803 # Mstislavich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 194184
 	1210.5.5 = {
 		birth = yes
@@ -12177,7 +12177,7 @@
 	name = "Yaropolk"
 	dynasty = 101803 # Mstislavich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	father = 194184
 	1212.4.5 = {
 		birth = yes
@@ -12204,7 +12204,7 @@
 	name = Mstislav
 	dynasty = 1061020	#Dniprich
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	840.1.1 = {
 		birth = yes
 	}
@@ -12230,7 +12230,7 @@
 	name = Dobroslav
 	dynasty = 1061022	#Medvjedich
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	833.1.1 = {
 		birth = yes
 	}
@@ -12256,7 +12256,7 @@
 	name = Radovan
 	dynasty = 1061024	#Drutskich
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	840.1.1 = {
 		birth = yes
 	}
@@ -12282,7 +12282,7 @@
 	name = Vsevolod
 	dynasty = 1061026	#Dnistri
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	840.1.1 = {
 		birth = yes
 	}
@@ -12308,7 +12308,7 @@
 	name = Grigorii
 	dynasty = 1061027	#Ulich
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	830.1.1 = {
 		birth = yes
 	}
@@ -12334,7 +12334,7 @@
 	name = Piotr
 	dynasty = 1061039	#Avanich
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	830.1.1 = {
 		birth = yes
 	}
@@ -12347,7 +12347,7 @@
 	name = Alexei
 	dynasty = 1061040	#Hrodnich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1100.1.1 = {
 		birth = yes
 	}
@@ -12361,7 +12361,7 @@
 	dynasty = 1061040	#Hrodnich
 	father = 256060
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1125.1.1 = {
 		birth = yes
 	}
@@ -12375,7 +12375,7 @@
 	dynasty = 1061040	#Hrodnich
 	father = 256060
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1125.1.1 = {
 		birth = yes
 	}
@@ -12389,7 +12389,7 @@
 	dynasty = 1061040	#Hrodnich
 	father = 256061
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1151.11.9 = {
 		birth = yes
 	}
@@ -12403,7 +12403,7 @@
 	dynasty = 1061040	#Hrodnich
 	father = 256061
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1155.10.5 = {
 		birth = yes
 	}
@@ -12417,7 +12417,7 @@
 	dynasty = 1061040	#Hrodnich
 	father = 256063
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1180.4.10 = {
 		birth = yes
 	}
@@ -12430,7 +12430,7 @@
 	name = Ivan
 	dynasty = 1061046	#Gdovich
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1022.1.1 = {
 		birth = yes
 	}
@@ -12444,7 +12444,7 @@
 	dynasty = 1061046	#Gdovich
 	father = 256067
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1045.1.1 = {
 		birth = yes
 	}
@@ -12458,7 +12458,7 @@
 	dynasty = 1061046	#Gdovich
 	father = 256067
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1048.1.1 = {
 		birth = yes
 	}
@@ -12471,7 +12471,7 @@
 	name = Vasilko
 	dynasty = 1061047	#Lukich
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1030.1.1 = {
 		birth = yes
 	}
@@ -12485,7 +12485,7 @@
 	dynasty = 1061047	#Lukich
 	father = 256070
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1053.1.1 = {
 		birth = yes
 	}
@@ -12500,7 +12500,7 @@
 	father = 256070
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1055.1.1 = {
 		birth = yes
 	}
@@ -12514,7 +12514,7 @@
 	dynasty = 1061047	#Lukich
 	father = 256070
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1059.1.1 = {
 		birth = yes
 	}
@@ -12527,7 +12527,7 @@
 	name = Igor
 	dynasty = 1061048	#Kholmich
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1020.1.1 = {
 		birth = yes
 	}
@@ -12541,7 +12541,7 @@
 	dynasty = 1061048	#Kholmich
 	father = 256074
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1042.1.1 = {
 		birth = yes
 	}
@@ -12555,7 +12555,7 @@
 	dynasty = 1061048	#Kholmich
 	father = 256074
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1045.1.1 = {
 		birth = yes
 	}
@@ -12570,7 +12570,7 @@
 	female = yes
 	father = 256074
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1050.1.1 = {
 		birth = yes
 	}
@@ -12584,7 +12584,7 @@
 	dynasty = 1061049	#Tikhich
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1038.1.1 = {
 		birth = yes
 	}
@@ -12599,7 +12599,7 @@
 	female = yes
 	mother = 256078
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1060.1.1 = {
 		birth = yes
 	}
@@ -12614,7 +12614,7 @@
 	female = yes
 	mother = 256078
 	religion = orthodox
-	culture = russian
+	culture = novgorodian
 	1064.1.1 = {
 		birth = yes
 	}
@@ -12627,7 +12627,7 @@
 	name = Yeremey
 	dynasty = 1061051	#Vozviahich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1045.1.1 = {
 		birth = yes
 	}
@@ -12641,7 +12641,7 @@
 	dynasty = 1061051	#Vozviahich
 	father = 256082
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1063.1.1 = {
 		birth = yes
 	}
@@ -12654,7 +12654,7 @@
 	name = Kirill
 	dynasty = 1061052	#Kirillid
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1030.1.1 = {
 		birth = yes
 	}
@@ -12668,7 +12668,7 @@
 	dynasty = 1061052	#Kirillid
 	father = 256084
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1054.1.1 = {
 		birth = yes
 	}
@@ -12682,7 +12682,7 @@
 	dynasty = 1061052	#Kirillid
 	father = 256084
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1057.1.1 = {
 		birth = yes
 	}
@@ -12695,7 +12695,7 @@
 	name = Konstantin
 	dynasty = 1061053	#Konstantinid
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1022.1.1 = {
 		birth = yes
 	}
@@ -12709,7 +12709,7 @@
 	dynasty = 1061053	#Konstantinid
 	father = 256087
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1050.1.1 = {
 		birth = yes
 	}
@@ -12722,7 +12722,7 @@
 	name = Oleg
 	dynasty = 1061019	#Tivertsi
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1048.1.1 = {
 		birth = yes
 	}
@@ -12735,7 +12735,7 @@
 	name = Iliya
 	dynasty = 1061027	#Ulich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1045.1.1 = {
 		birth = yes
 	}
@@ -12748,7 +12748,7 @@
 	name = Stepan
 	dynasty = 1061054	#Stepanovid
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1038.1.1 = {
 		birth = yes
 	}
@@ -12761,7 +12761,7 @@
 	name = Volodar
 	dynasty = 1029117	#Dregovich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = ambitious
 	trait = tough_soldier
 	998.1.1 = {
@@ -12777,7 +12777,7 @@
 	dynasty = 1029117	#Dregovich
 	father = 256092
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = ambitious
 	trait = skilled_tactician
 	trait = robust
@@ -12795,7 +12795,7 @@
 	father = 256092
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = ambitious
 	trait = tough_soldier
 	1036.1.1 = {
@@ -12811,7 +12811,7 @@
 	dynasty = 1029117	#Dregovich
 	father = 256093
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = ambitious
 	trait = tough_soldier
 	1060.1.1 = {
@@ -12828,7 +12828,7 @@
 	father = 256093
 	female = yes
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = ambitious
 	trait = tough_soldier
 	1061.1.1 = {
@@ -12844,7 +12844,7 @@
 	dynasty = 1029117	#Dregovich
 	mother = 256094
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	trait = ambitious
 	trait = tough_soldier
 	1059.1.1 = {
@@ -12859,7 +12859,7 @@
 	name = Dmitriy		#fictional Pereyaslavl vassal in 1066
 	dynasty = 1061055	#Ves
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1049.1.1 = {
 		birth = yes
 	}
@@ -12872,7 +12872,7 @@
 	name = Sviatopolk
 	dynasty = 1061056	#Zubvich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1032.1.1 = {
 		birth = yes
 	}
@@ -12885,7 +12885,7 @@
 	name = Daniil
 	dynasty = 1061057	#Kashinid
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1040.1.1 = {
 		birth = yes
 	}
@@ -12898,7 +12898,7 @@
 	name = Sudislav
 	dynasty = 1029118	#Vyatich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1021.1.1 = {
 		birth = yes
 	}
@@ -12912,7 +12912,7 @@
 	dynasty = 1029118	#Vyatich
 	father = 256101
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1045.1.1 = {
 		birth = yes
 	}
@@ -12926,7 +12926,7 @@
 	dynasty = 1061059	#Kozelid
 	father = 256115
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1051.1.1 = {
 		birth = yes
 	}
@@ -12940,7 +12940,7 @@
 	dynasty = 1061060	#Karachid
 	father = 256115
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1049.1.1 = {
 		birth = yes
 	}
@@ -12954,7 +12954,7 @@
 	dynasty = 1061061	#Kromid
 	father = 256115
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1053.1.1 = {
 		birth = yes
 	}
@@ -12967,7 +12967,7 @@
 	name = Yemelyan
 	dynasty = 1061062	#Yemelyanid
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1044.1.1 = {
 		birth = yes
 	}
@@ -12980,7 +12980,7 @@
 	name = Lev
 	dynasty = 1029118	#Vyatich
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1027.1.1 = {
 		birth = yes
 	}
@@ -12994,7 +12994,7 @@
 	dynasty = 1029118	#Vyatich
 	father = 256122
 	religion = orthodox
-	culture = russian
+	culture = ruthenian
 	1049.1.1 = {
 		birth = yes
 	}
@@ -13007,7 +13007,7 @@
 	name = "Fedot"
 	dynasty = 1062334
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	903.1.1 = {
 		birth = yes
 	}
@@ -13020,7 +13020,7 @@
 	name = "Putiata"
 	dynasty = 1062335
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	907.1.1 = {
 		birth = yes
 	}
@@ -13033,7 +13033,7 @@
 	name = "Rodislav"
 	dynasty = 1062336
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	904.1.1 = {
 		birth = yes
 	}
@@ -13046,7 +13046,7 @@
 	name = "Simeon"
 	dynasty = 1062337
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	902.1.1 = {
 		birth = yes
 	}
@@ -13059,7 +13059,7 @@
 	name = "Oleg"
 	dynasty = 1062338
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	889.1.1 = {
 		birth = yes
 	}
@@ -13072,7 +13072,7 @@
 	name = "Iziaslav"
 	dynasty = 1062339
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	898.1.1 = {
 		birth = yes
 	}
@@ -13085,7 +13085,7 @@
 	name = "Mitrofan"
 	dynasty = 1062340
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	910.1.1 = {
 		birth = yes
 	}
@@ -13098,7 +13098,7 @@
 	name = "Pavel"
 	dynasty = 1062341
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 260758
 	903.1.1 = {
 		birth = yes
@@ -13112,7 +13112,7 @@
 	name = "Lev"
 	dynasty = 1062341
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 260758
 	905.1.1 = {
 		birth = yes
@@ -13126,7 +13126,7 @@
 	name = "Pavel"
 	dynasty = 1062341
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	868.1.1 = {
 		birth = yes
 	}
@@ -13139,7 +13139,7 @@
 	name = "Briachislav"
 	dynasty = 1062342
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	909.1.1 = {
 		birth = yes
 	}
@@ -13152,7 +13152,7 @@
 	name = "Gavriil"
 	dynasty = 1062343
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	874.1.1 = {
 		birth = yes
 	}
@@ -13165,7 +13165,7 @@
 	name = "Sviatoslav"
 	dynasty = 1062343
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 260718
 	905.1.1 = {
 		birth = yes
@@ -13179,7 +13179,7 @@
 	name = "Sviatopolk"
 	dynasty = 1062343
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 260718
 	909.1.1 = {
 		birth = yes
@@ -13193,7 +13193,7 @@
 	name = "Putiata"
 	dynasty = 1062344
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	915.1.1 = {
 		birth = yes
 	}
@@ -13206,7 +13206,7 @@
 	name = "Nikita"
 	dynasty = 1062345
 	religion = slavic_pagan
-	culture = russian
+	culture = novgorodian
 	918.1.1 = {
 		birth = yes
 	}
@@ -13219,7 +13219,7 @@
 	name = "Grigoriy"
 	dynasty = 1062346
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	873.1.1 = {
 		birth = yes
 	}
@@ -13232,7 +13232,7 @@
 	name = "Feodor"
 	dynasty = 1062346
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 260723
 	905.1.1 = {
 		birth = yes
@@ -13246,7 +13246,7 @@
 	name = "Grigoriy"
 	dynasty = 1062346
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 260723
 	907.1.1 = {
 		birth = yes
@@ -13273,7 +13273,7 @@
 	name = "Vladislav"
 	dynasty = 1062348
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	899.1.1 = {
 		birth = yes
 	}
@@ -13286,7 +13286,7 @@
 	name = "Ruslan"
 	dynasty = 1062349
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	914.1.1 = {
 		birth = yes
 	}
@@ -13299,7 +13299,7 @@
 	name = "Vesvolod"
 	dynasty = 1062350
 	religion = slavic_pagan
-	culture = russian
+	culture = novgorodian
 	904.1.1 = {
 		birth = yes
 	}
@@ -13312,7 +13312,7 @@
 	name = "Voislav"
 	dynasty = 1062351
 	religion = slavic_pagan
-	culture = russian
+	culture = novgorodian
 	908.1.1 = {
 		birth = yes
 	}
@@ -13325,7 +13325,7 @@
 	name = "Daniil"
 	dynasty = 1062353
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	904.1.1 = {
 		birth = yes
 	}
@@ -13338,7 +13338,7 @@
 	name = "Svetozar"
 	dynasty = 1062354
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	899.1.1 = {
 		birth = yes
 	}
@@ -13351,7 +13351,7 @@
 	name = "Vsevolod"
 	dynasty = 1062355
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	907.1.1 = {
 		birth = yes
 	}
@@ -13378,7 +13378,7 @@
 	female = yes
 	dynasty = 1062357
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	915.1.1 = {
 		birth = yes
 	}
@@ -13456,7 +13456,7 @@
 	name = "Alexandr"
 	dynasty = 1062366
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	868.1.1 = {
 		birth = yes
 	}
@@ -13469,7 +13469,7 @@
 	name = "Alexandr"
 	dynasty = 1062366
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 260745
 	899.1.1 = {
 		birth = yes
@@ -13483,7 +13483,7 @@
 	name = "Davyd"
 	dynasty = 1062366
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	father = 260745
 	902.1.1 = {
 		birth = yes
@@ -13497,7 +13497,7 @@
 	name = "Vyshata"
 	dynasty = 1062367
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	909.1.1 = {
 		birth = yes
 	}
@@ -13510,7 +13510,7 @@
 	name = "Rogvolod"
 	dynasty = 1062368
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	908.1.1 = {
 		birth = yes
 	}
@@ -13523,7 +13523,7 @@
 	name = "Vasiliy"
 	dynasty = 1062369
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	912.1.1 = {
 		birth = yes
 	}
@@ -13536,7 +13536,7 @@
 	name = "Grigoriy"
 	dynasty = 1062370
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	914.1.1 = {
 		birth = yes
 	}
@@ -13549,7 +13549,7 @@
 	name = "Varopolk"
 	dynasty = 1062381
 	religion = slavic_pagan
-	culture = russian
+	culture = ruthenian
 	912.1.1 = {
 		birth = yes
 	}
