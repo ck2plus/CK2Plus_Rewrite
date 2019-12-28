@@ -55,6 +55,7 @@
 #	harass_flank_composition_factor
 #	raid_flank_composition_factor
 #	feint_selection_factor
+#
 #	shock_charge_flank_composition_factor
 #	skirmish_charge_flank_composition_factor
 #	elephant_charge_flank_composition_factor
@@ -80,26 +81,39 @@ technology_skirmish_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_SKIRMISH >= 1
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_SKIRMISH >= 1
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_SKIRMISH >= 1
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_SKIRMISH >= 1
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_SKIRMISH >= 1
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_SKIRMISH >= 1
 					}
@@ -111,26 +125,39 @@ technology_skirmish_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_SKIRMISH >= 2
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_SKIRMISH >= 2
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_SKIRMISH >= 2
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_SKIRMISH >= 2
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_SKIRMISH >= 2
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_SKIRMISH >= 2
 					}
@@ -142,26 +169,39 @@ technology_skirmish_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_SKIRMISH >= 3
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_SKIRMISH >= 3
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_SKIRMISH >= 3
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_SKIRMISH >= 3
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_SKIRMISH >= 3
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_SKIRMISH >= 3
 					}
@@ -173,26 +213,39 @@ technology_skirmish_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_SKIRMISH >= 4
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_SKIRMISH >= 4
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_SKIRMISH >= 4
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_SKIRMISH >= 4
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_SKIRMISH >= 4
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_SKIRMISH >= 4
 					}
@@ -204,26 +257,39 @@ technology_skirmish_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_SKIRMISH >= 5
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_SKIRMISH >= 5
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_SKIRMISH >= 5
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_SKIRMISH >= 5
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_SKIRMISH >= 5
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_SKIRMISH >= 5
 					}
@@ -235,26 +301,39 @@ technology_skirmish_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_SKIRMISH >= 6
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_SKIRMISH >= 6
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_SKIRMISH >= 6
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_SKIRMISH >= 6
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_SKIRMISH >= 6
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_SKIRMISH >= 6
 					}
@@ -266,26 +345,39 @@ technology_skirmish_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_SKIRMISH >= 7
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_SKIRMISH >= 7
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_SKIRMISH >= 7
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_SKIRMISH >= 7
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_SKIRMISH >= 7
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_SKIRMISH >= 7
 					}
@@ -297,26 +389,39 @@ technology_skirmish_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
-					TECH_SKIRMISH >= 8
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_SKIRMISH >= 8
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_SKIRMISH >= 8
+						}
+					}
 				}
 			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
 					capital_scope = {
 						TECH_SKIRMISH >= 8
 					}
 				}
 			}
-			trigger_else = {
-				liege = {
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
+					TECH_SKIRMISH >= 8
+				}
+				trigger_else = {
 					capital_scope = {
 						TECH_SKIRMISH >= 8
 					}
@@ -331,26 +436,39 @@ technology_melee_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_MELEE >= 1
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_MELEE >= 1
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_MELEE >= 1
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_MELEE >= 1
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_MELEE >= 1
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_MELEE >= 1
 					}
@@ -362,26 +480,39 @@ technology_melee_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_MELEE >= 2
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_MELEE >= 2
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_MELEE >= 2
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_MELEE >= 2
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_MELEE >= 2
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_MELEE >= 2
 					}
@@ -393,26 +524,39 @@ technology_melee_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_MELEE >= 3
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_MELEE >= 3
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_MELEE >= 3
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_MELEE >= 3
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_MELEE >= 3
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_MELEE >= 3
 					}
@@ -424,26 +568,39 @@ technology_melee_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_MELEE >= 4
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_MELEE >= 4
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_MELEE >= 4
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_MELEE >= 4
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_MELEE >= 4
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_MELEE >= 4
 					}
@@ -455,26 +612,39 @@ technology_melee_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_MELEE >= 5
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_MELEE >= 5
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_MELEE >= 5
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_MELEE >= 5
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_MELEE >= 5
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_MELEE >= 5
 					}
@@ -486,26 +656,39 @@ technology_melee_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_MELEE >= 6
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_MELEE >= 6
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_MELEE >= 6
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_MELEE >= 6
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_MELEE >= 6
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_MELEE >= 6
 					}
@@ -517,26 +700,39 @@ technology_melee_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_MELEE >= 7
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_MELEE >= 7
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_MELEE >= 7
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_MELEE >= 7
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_MELEE >= 7
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_MELEE >= 7
 					}
@@ -548,26 +744,39 @@ technology_melee_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
-					TECH_MELEE >= 8
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_MELEE >= 8
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_MELEE >= 8
+						}
+					}
 				}
 			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
 					capital_scope = {
 						TECH_MELEE >= 8
 					}
 				}
 			}
-			trigger_else = {
-				liege = {
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
+					TECH_MELEE >= 8
+				}
+				trigger_else = {
 					capital_scope = {
 						TECH_MELEE >= 8
 					}
@@ -582,26 +791,39 @@ technology_infantry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_INFANTRY >= 1
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_INFANTRY >= 1
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_INFANTRY >= 1
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_INFANTRY >= 1
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_INFANTRY >= 1
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_INFANTRY >= 1
 					}
@@ -613,26 +835,39 @@ technology_infantry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_INFANTRY >= 2
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_INFANTRY >= 2
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_INFANTRY >= 2
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_INFANTRY >= 2
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_INFANTRY >= 2
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_INFANTRY >= 2
 					}
@@ -644,26 +879,39 @@ technology_infantry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_INFANTRY >= 3
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_INFANTRY >= 3
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_INFANTRY >= 3
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_INFANTRY >= 3
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_INFANTRY >= 3
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_INFANTRY >= 3
 					}
@@ -675,26 +923,39 @@ technology_infantry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_INFANTRY >= 4
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_INFANTRY >= 4
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_INFANTRY >= 4
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_INFANTRY >= 4
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_INFANTRY >= 4
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_INFANTRY >= 4
 					}
@@ -706,26 +967,39 @@ technology_infantry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_INFANTRY >= 5
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_INFANTRY >= 5
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_INFANTRY >= 5
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_INFANTRY >= 5
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_INFANTRY >= 5
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_INFANTRY >= 5
 					}
@@ -737,26 +1011,39 @@ technology_infantry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_INFANTRY >= 6
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_INFANTRY >= 6
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_INFANTRY >= 6
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_INFANTRY >= 6
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_INFANTRY >= 6
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_INFANTRY >= 6
 					}
@@ -768,26 +1055,39 @@ technology_infantry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_INFANTRY >= 7
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_INFANTRY >= 7
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_INFANTRY >= 7
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_INFANTRY >= 7
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_INFANTRY >= 7
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_INFANTRY >= 7
 					}
@@ -799,26 +1099,39 @@ technology_infantry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
-					TECH_INFANTRY >= 8
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_INFANTRY >= 8
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_INFANTRY >= 8
+						}
+					}
 				}
 			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
 					capital_scope = {
 						TECH_INFANTRY >= 8
 					}
 				}
 			}
-			trigger_else = {
-				liege = {
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
+					TECH_INFANTRY >= 8
+				}
+				trigger_else = {
 					capital_scope = {
 						TECH_INFANTRY >= 8
 					}
@@ -833,26 +1146,39 @@ technology_cavalry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_CAVALRY >= 1
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_CAVALRY >= 1
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_CAVALRY >= 1
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_CAVALRY >= 1
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_CAVALRY >= 1
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_CAVALRY >= 1
 					}
@@ -864,26 +1190,39 @@ technology_cavalry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_CAVALRY >= 2
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_CAVALRY >= 2
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_CAVALRY >= 2
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_CAVALRY >= 2
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_CAVALRY >= 2
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_CAVALRY >= 2
 					}
@@ -895,26 +1234,39 @@ technology_cavalry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_CAVALRY >= 3
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_CAVALRY >= 3
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_CAVALRY >= 3
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_CAVALRY >= 3
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_CAVALRY >= 3
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_CAVALRY >= 3
 					}
@@ -926,26 +1278,39 @@ technology_cavalry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_CAVALRY >= 4
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_CAVALRY >= 4
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_CAVALRY >= 4
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_CAVALRY >= 4
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_CAVALRY >= 4
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_CAVALRY >= 4
 					}
@@ -957,26 +1322,39 @@ technology_cavalry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_CAVALRY >= 5
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_CAVALRY >= 5
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_CAVALRY >= 5
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_CAVALRY >= 5
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_CAVALRY >= 5
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_CAVALRY >= 5
 					}
@@ -988,26 +1366,39 @@ technology_cavalry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_CAVALRY >= 6
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_CAVALRY >= 6
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_CAVALRY >= 6
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_CAVALRY >= 6
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_CAVALRY >= 6
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_CAVALRY >= 6
 					}
@@ -1019,26 +1410,39 @@ technology_cavalry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_CAVALRY >= 7
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_CAVALRY >= 7
+						}
+					}
+				}
+			}
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
+					capital_scope = {
+						TECH_CAVALRY >= 7
+					}
+				}
+			}
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
 					TECH_CAVALRY >= 7
 				}
-			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
-					capital_scope = {
-						TECH_CAVALRY >= 7
-					}
-				}
-			}
-			trigger_else = {
-				liege = {
+				trigger_else = {
 					capital_scope = {
 						TECH_CAVALRY >= 7
 					}
@@ -1050,26 +1454,39 @@ technology_cavalry_tier_1_factor = {
 		factor = 0.9
 		flank_has_leader = yes
 		leader = {
-			trigger_if = {
+			trigger_if = { # Marshals and commanders use technology of their liege's capital
 				limit = {
-					is_nomadic = yes
+					OR = {
+						has_job_title = job_marshal
+						has_minor_title = title_commander
+					}
 				}
 				liege = {
-					TECH_CAVALRY >= 8
+					trigger_if = {
+						limit = { is_nomadic = yes }
+						TECH_CAVALRY >= 8
+					}
+					trigger_else = {
+						capital_scope = {
+							TECH_CAVALRY >= 8
+						}
+					}
 				}
 			}
-			trigger_else_if = {
-				limit = {
-					mercenary = yes
-				}
-				mercenary_employer = {
+			trigger_else_if = { # Mercenaries use technology of their home province
+				limit = { mercenary = yes }
+				primary_title = {
 					capital_scope = {
 						TECH_CAVALRY >= 8
 					}
 				}
 			}
-			trigger_else = {
-				liege = {
+			trigger_else = { # Leaders of their own units use technology of their own capital
+				trigger_if = {
+					limit = { is_nomadic = yes}
+					TECH_CAVALRY >= 8
+				}
+				trigger_else = {
 					capital_scope = {
 						TECH_CAVALRY >= 8
 					}
@@ -3925,7 +4342,7 @@ change_to_melee_selection_factor = {
 
 	# More likely against a small force
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = troops
 			value <= 0.80
@@ -3933,7 +4350,7 @@ change_to_melee_selection_factor = {
 		}
 	}
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = troops
 			value <= 0.60
@@ -3941,7 +4358,7 @@ change_to_melee_selection_factor = {
 		}
 	}
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = troops
 			value <= 0.30
@@ -3949,7 +4366,7 @@ change_to_melee_selection_factor = {
 		}
 	}
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = troops
 			value <= 0.20
@@ -3993,35 +4410,35 @@ change_to_melee_selection_factor = {
 
 	# More likely with proportionally many melee oriented troops
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = heavy_troops
 			value > 0.50
 		}
 	}
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = heavy_troops
 			value >= 0.60
 		}
 	}
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = heavy_troops
 			value >= 0.70
 		}
 	}
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = heavy_troops
 			value >= 0.80
 		}
 	}
 	mult_modifier = {
-		factor = 0.7
+		factor = 1.2
 		troops = {
 			who = heavy_troops
 			value >= 0.90
@@ -4972,7 +5389,6 @@ raid_flank_composition_factor = {
 			martial >= 2
 		}
 	}
-
 
 	# Opposite flank composition
 	mult_modifier = {
@@ -5953,6 +6369,12 @@ close_formation_flank_composition_factor = {
 		}
 	}
 }
+
+##################################################################
+#
+#	Group selection factors (change-to-melee)
+#
+##################################################################
 
 # Affects chance of selecting a shock charge group tactic, more likely with more cavalry, and against little cavalry
 shock_charge_flank_composition_factor = {
