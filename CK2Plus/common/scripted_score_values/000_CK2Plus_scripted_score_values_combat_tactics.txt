@@ -3246,16 +3246,30 @@ traits_tier_2_factor = {
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
 		leader = {
-			liege = {
-				any_army = {
-					center_flank_leader = {
-						character = PREVPREVPREV
-					}
-				}
-			}
 			OR = {
 				trait = experimenter # Direct Leader
 				trait = logistics_expert # Way of the Dog
+			}
+			OR = {
+				liege = {
+					any_army = {
+						center_flank_leader = {
+							character = PREVPREVPREV
+						}
+					}
+				}
+				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+					mercenary = yes
+					any_unit_leader = {
+						liege = {
+							any_army = {
+								center_flank_leader = {
+									character = PREVPREVPREV
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3281,7 +3295,6 @@ traits_tier_2_factor = {
 						}
 					}
 				}
-				ROOT = { is_flanking = yes } # or flanking from any flank
 				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
 					mercenary = yes
 					any_unit_leader = {
@@ -3299,6 +3312,7 @@ traits_tier_2_factor = {
 						}
 					}
 				}
+				ROOT = { is_flanking = yes } # or flanking from any flank
 			}
 		}
 	}
@@ -3428,16 +3442,30 @@ traits_tier_3_factor = {
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
 		leader = {
-			liege = {
-				any_army = {
-					center_flank_leader = {
-						character = PREVPREVPREV
-					}
-				}
-			}
 			OR = {
 				trait = experimenter # Direct Leader
 				trait = logistics_expert # Way of the Dog
+			}
+			OR = {
+				liege = {
+					any_army = {
+						center_flank_leader = {
+							character = PREVPREVPREV
+						}
+					}
+				}
+				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+					mercenary = yes
+					any_unit_leader = {
+						liege = {
+							any_army = {
+								center_flank_leader = {
+									character = PREVPREVPREV
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3463,7 +3491,6 @@ traits_tier_3_factor = {
 						}
 					}
 				}
-				ROOT = { is_flanking = yes } # or flanking from any flank
 				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
 					mercenary = yes
 					any_unit_leader = {
@@ -3481,6 +3508,7 @@ traits_tier_3_factor = {
 						}
 					}
 				}
+				ROOT = { is_flanking = yes } # or flanking from any flank
 			}
 		}
 	}
@@ -3610,16 +3638,30 @@ traits_tier_4_factor = {
 	mult_modifier = {
 		factor = 1.75 # roughly 4 martial
 		leader = {
-			liege = {
-				any_army = {
-					center_flank_leader = {
-						character = PREVPREVPREV
-					}
-				}
-			}
 			OR = {
 				trait = experimenter # Direct Leader
 				trait = logistics_expert # Way of the Dog
+			}
+			OR = {
+				liege = {
+					any_army = {
+						center_flank_leader = {
+							character = PREVPREVPREV
+						}
+					}
+				}
+				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+					mercenary = yes
+					any_unit_leader = {
+						liege = {
+							any_army = {
+								center_flank_leader = {
+									character = PREVPREVPREV
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3645,7 +3687,6 @@ traits_tier_4_factor = {
 						}
 					}
 				}
-				ROOT = { is_flanking = yes } # or flanking from any flank
 				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
 					mercenary = yes
 					any_unit_leader = {
@@ -3663,6 +3704,7 @@ traits_tier_4_factor = {
 						}
 					}
 				}
+				ROOT = { is_flanking = yes } # or flanking from any flank
 			}
 		}
 	}
@@ -3792,21 +3834,35 @@ traits_tier_5_factor = {
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
 		leader = {
-			liege = {
-				any_army = {
-					center_flank_leader = {
-						character = PREVPREVPREV
-					}
-				}
-			}
 			OR = {
 				trait = experimenter # Direct Leader
 				trait = logistics_expert # Way of the Dog
 			}
+			OR = {
+				liege = {
+					any_army = {
+						center_flank_leader = {
+							character = PREVPREVPREV
+						}
+					}
+				}
+				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+					mercenary = yes
+					any_unit_leader = {
+						liege = {
+							any_army = {
+								center_flank_leader = {
+									character = PREVPREVPREV
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 	mult_modifier = {
-		factor = 200 # roughly 4 martial
+		factor = 2 # roughly 4 martial
 		leader = {
 			OR = {
 				trait = flanker
@@ -3827,7 +3883,6 @@ traits_tier_5_factor = {
 						}
 					}
 				}
-				ROOT = { is_flanking = yes } # or flanking from any flank
 				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
 					mercenary = yes
 					any_unit_leader = {
@@ -3845,6 +3900,7 @@ traits_tier_5_factor = {
 						}
 					}
 				}
+				ROOT = { is_flanking = yes } # or flanking from any flank
 			}
 		}
 	}
