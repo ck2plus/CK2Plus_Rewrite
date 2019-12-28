@@ -7454,7 +7454,7 @@ harvest_festival_believer = {
 	diplomacy = 2
 	fertility = 0.2
 	religion_flex = -0.3
-	culture_flex = -0.3
+	#culture_flex = -0.3
 	icon = 18
 }
 
