@@ -574,7 +574,7 @@ TECH_GROUP_CULTURE = {
 
 	TECH_CULTURE_FLEX = {
 		modifier = {
-			culture_flex = -0.5
+			#culture_flex = -0.5
 			religion_flex = -0.5
 		}
 		1 = { }
