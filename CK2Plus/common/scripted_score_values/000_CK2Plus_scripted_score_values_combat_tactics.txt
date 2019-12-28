@@ -3263,6 +3263,12 @@ traits_tier_2_factor = {
 		factor = 1.2 # roughly 4 martial
 		leader = {
 			OR = {
+				trait = flanker
+				trait = levy_coordinator # Way of the Tiger
+				trait = baltic_leader
+				trait = gamer
+			}
+			OR = {
 				liege = { # either leading a side flank
 					any_army = {
 						OR = {
@@ -3276,12 +3282,23 @@ traits_tier_2_factor = {
 					}
 				}
 				ROOT = { is_flanking = yes } # or flanking from any flank
-			}
-			OR = {
-				trait = flanker
-				trait = levy_coordinator # Way of the Tiger
-				trait = baltic_leader
-				trait = gamer
+				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+					mercenary = yes
+					any_unit_leader = {
+						liege = {
+							any_army = {
+								OR = {
+									left_flank_leader = {
+										character = PREVPREVPREVPREV
+									}
+									right_flank_leader = {
+										character = PREVPREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3428,6 +3445,12 @@ traits_tier_3_factor = {
 		factor = 1.5 # roughly 4 martial
 		leader = {
 			OR = {
+				trait = flanker
+				trait = levy_coordinator # Way of the Tiger
+				trait = baltic_leader
+				trait = gamer
+			}
+			OR = {
 				liege = { # either leading a side flank
 					any_army = {
 						OR = {
@@ -3441,12 +3464,23 @@ traits_tier_3_factor = {
 					}
 				}
 				ROOT = { is_flanking = yes } # or flanking from any flank
-			}
-			OR = {
-				trait = flanker
-				trait = levy_coordinator # Way of the Tiger
-				trait = baltic_leader
-				trait = gamer
+				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+					mercenary = yes
+					any_unit_leader = {
+						liege = {
+							any_army = {
+								OR = {
+									left_flank_leader = {
+										character = PREVPREVPREVPREV
+									}
+									right_flank_leader = {
+										character = PREVPREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3593,6 +3627,12 @@ traits_tier_4_factor = {
 		factor = 1.75 # roughly 4 martial
 		leader = {
 			OR = {
+				trait = flanker
+				trait = levy_coordinator # Way of the Tiger
+				trait = baltic_leader
+				trait = gamer
+			}
+			OR = {
 				liege = { # either leading a side flank
 					any_army = {
 						OR = {
@@ -3606,12 +3646,23 @@ traits_tier_4_factor = {
 					}
 				}
 				ROOT = { is_flanking = yes } # or flanking from any flank
-			}
-			OR = {
-				trait = flanker
-				trait = levy_coordinator # Way of the Tiger
-				trait = baltic_leader
-				trait = gamer
+				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+					mercenary = yes
+					any_unit_leader = {
+						liege = {
+							any_army = {
+								OR = {
+									left_flank_leader = {
+										character = PREVPREVPREVPREV
+									}
+									right_flank_leader = {
+										character = PREVPREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3755,8 +3806,14 @@ traits_tier_5_factor = {
 		}
 	}
 	mult_modifier = {
-		factor = 2 # roughly 4 martial
+		factor = 200 # roughly 4 martial
 		leader = {
+			OR = {
+				trait = flanker
+				trait = levy_coordinator # Way of the Tiger
+				trait = baltic_leader
+				trait = gamer
+			}
 			OR = {
 				liege = { # either leading a side flank
 					any_army = {
@@ -3771,12 +3828,23 @@ traits_tier_5_factor = {
 					}
 				}
 				ROOT = { is_flanking = yes } # or flanking from any flank
-			}
-			OR = {
-				trait = flanker
-				trait = levy_coordinator # Way of the Tiger
-				trait = baltic_leader
-				trait = gamer
+				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+					mercenary = yes
+					any_unit_leader = {
+						liege = {
+							any_army = {
+								OR = {
+									left_flank_leader = {
+										character = PREVPREVPREVPREV
+									}
+									right_flank_leader = {
+										character = PREVPREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
