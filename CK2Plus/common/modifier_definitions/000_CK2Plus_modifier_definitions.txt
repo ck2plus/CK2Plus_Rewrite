@@ -21,21 +21,21 @@ ai_objective_modifier = {
 # Culture Group Opinion (needed for "supergroup" simulation):
 
 # Already defined in vanilla (00_modifier_definitions.txt):
-# altaic
-# byzantine
-# celtic
-# central_germanic
-# dravidian_group
-# east_african
-# east_slavic
-# iberian
-# indo_aryan_group
-# iranian
-# latin
-# south_slavic
-# tibetan_group
-# west_germanic
-# west_slavic
+# altaic_opinion
+# byzantine_opinion
+# celtic_opinion
+# central_germanic_opinion
+# dravidian_group_opinion
+# east_african_opinion
+# east_slavic_opinion
+# iberian_opinion
+# indo_aryan_group_opinion
+# iranian_opinion
+# latin_opinion
+# south_slavic_opinion
+# tibetan_group_opinion
+# west_germanic_opinion
+# west_slavic_opinion
 
 amazigh_opinion = {
 	show_as_percent = no
