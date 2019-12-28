@@ -56,6 +56,8 @@ very_hard_ai = {
 
 province_base_values = {
 	supply_limit = 5 # 5K troops
+	# Helper modifier to disable vanilla foreginer opinion malus:
+	CULTURE_FLEX = -1
 }
 
 coastal = {
