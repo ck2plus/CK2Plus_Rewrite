@@ -25,6 +25,12 @@ northwest_caucasian_group = {
 
 		color = { 0.0 0.4 0.31 }
 
+		character_modifier = {
+			kartvelian_group_opinion = 5
+			northeast_caucasian_group_opinion = 5
+			# northwest_caucasian_group_opinion = 5
+		}
+
 		male_names = {
 			Abga Adamer Adgur Akhmat_Ahmed Akhra Akhrik Alkhas Almasbei Alyksandr_Alexander Anatolii Arut Arutan Arzadin Astamur_Astamur Astamyr_Astamur Astan Atata Axra Azax
 			Bagrat_Bagrat Batal Beslan
@@ -77,6 +83,12 @@ northwest_caucasian_group = {
 		graphical_cultures = { easternslavicgfx }
 
 		color = { 0.0 0.4 0.3 }
+
+		character_modifier = {
+			kartvelian_group_opinion = 5
+			northeast_caucasian_group_opinion = 5
+			# northwest_caucasian_group_opinion = 5
+		}
 
 		male_names = {
 			Abatiy Aghwrbiy Albekh Albek Albot Alhx'es Alhx'o Alijiqwe Amish Andeimir Andeimirqan Anzawir Anzoriqwe Areqshu Ariqshu Ashemez Axwemghwet

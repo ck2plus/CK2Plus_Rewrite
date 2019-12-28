@@ -27,6 +27,12 @@ west_slavic = {
 
 		color = { 0.90 0.90 0.1 }
 
+		character_modifier = {
+			east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			# west_slavic_opinion = 5
+		}
+
 		male_names = {
 			Albert_Albert Albrecht_Albert Ales_Alexander Arnost_Ernest
 			Bavor Bedrich_Frederick Benes_Benedict Bocek Bohuslav_Boguslaw Boleslav_Boleslav Bores Borijov_Borijov Bretislav_Bretislaus Budivoj
@@ -75,6 +81,12 @@ west_slavic = {
 		graphical_cultures = { westernslavicgfx }
 
 		color = { 0.95 0.51 0.46 }
+
+		character_modifier = {
+			east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			# west_slavic_opinion = 5
+		}
 
 		male_names = {
 			Aleksander_Alexander Andrzej_Andrew
@@ -142,6 +154,12 @@ west_slavic = {
 
 		color = { 0.4 0.6 0.4 }
 
+		character_modifier = {
+			east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			# west_slavic_opinion = 5
+		}
+
 		male_names = {
 			Aleksander_Alexander Andrzej_Andrew Antoni_Antonius Aron_Aaron
 			Barnim Bartosz_Bartolomeus Bedrich_Frederick Bezprzym Blazej_Blaise Bogislaw_Boguslaw Bohdan_Bogdan Bohumir Boleslaw_Boleslav Boriwoj_Borijov Bozydar_Theodat Branimir Branislav Bretislav_Bretislaus
@@ -195,6 +213,12 @@ west_slavic = {
 		graphical_cultures = { westernslavicgfx }
 
 		color = { 0.4 0.6 0.35 }
+
+		character_modifier = {
+			east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			# west_slavic_opinion = 5
+		}
 
 		male_names = {
 			Bohodar Boleslav Blahomír Blahoslav Bohumil Bozidar Boromír Bohuslav Budimír Bohuš Bratislav Budivoj Bystrik

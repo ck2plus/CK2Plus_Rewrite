@@ -37,6 +37,14 @@ central_germanic = {
 
 		color = { 0.75 0.5 0.3 }
 
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Adalrich Agenarich Agilo
 			Bitherid Butilin
@@ -95,6 +103,14 @@ central_germanic = {
 		graphical_cultures = { germangfx }
 
 		color = { 0.4 0.4 0.6 }
+
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Adl_Adalbero Ade_Albert Adehardl_Adalhard Adam_Adam Ademar_Adémar Ale_Alaric Aubl_Aubrey Aldl_Aldric Amald_Amadeus Amal_Amalric Anderl_Andrew Anselm_Anselm Ansgar_Oscar Archembald_Archibald Arne_Arnold Arnulf_Arnulf
@@ -162,6 +178,14 @@ central_germanic = {
 
 		color = { 0.6 0.3 0.3 }
 
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Abrahil Abram_Abraham Adalbald Adalbert_Albert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Ailbert Albric Aldedramn Andica Ansovald Arcambald Aregisel Arnegisel Arnulf_Arnulf Ascaric Audovald Austregisel Autbert Autgari Autgeri Avremar
 			Badegisel Balduin_Baldwin Barnard Berald_Berard Bernard_Bernard Berneri Bero Berold Berthefried Bertlin Bertram	Bertrand Burchard_Bouchard
@@ -228,6 +252,14 @@ central_germanic = {
 
 		color = { 0.5 0.5 0.5 }
 
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Adalbero_Adalbero Adalbert_Albert Adalhard_Adalhard Adam_Adam Ademar_Adémar Adolf_Adolf Alarich_Alaric Alberich_Aubrey Albrecht_Albert Aldrich_Aldric Alois_Louis Amadeus_Amadeus Amalrich_Amalric Andreas_Andrew Anselm_Anselm Arnold_Arnold Arnulf_Arnulf Augustin_Augustine
 			Baldarich_Baldric Baldewin_Baldwin Baldomar Baldur_Balder Berengar_Berengar Bernhard_Bernard Berthold_Berthold Burchard_Bouchard
@@ -293,6 +325,14 @@ central_germanic = {
 		graphical_cultures = { germangfx }
 
 		color = { 0.6 0.6 0.8 }
+
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Adalgis Adaloald Adhemar_Adhemar Ado Agelmund Agilof_Agilulf Agilulf_Agilulf Agiprand Ago Ahthari Aimeric_Aymeric Aistulf Aiulf_Aiulf Ajo_Aiulf Alahis Alboin_Alwin Aldihoc Alo_Adolf Altpert_Albert Amefrith Anselm_Anselm Ansfrid_Ansfrid Ansfrith_Ansfrid Ansigar_Oscar Ansprand Ardoin Ardwin_Hartwin Arechis Ariald_Harold Aribert_Herbert Arichis Aripert_Herbert Ariulf Arnefrith Arnifrid Artavasdas_Ardabast Atenulf_Atenulf Atto Audelahis Audoin_Alwin Aunepert Ausfrid Authari_Ottar
@@ -370,6 +410,14 @@ central_germanic = {
 		unit_graphical_cultures = { saxongfx englishgfx }
 
 		color = { 0.5 0.1 0.1 }
+
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Abo Adalbero_Adalbero Adalbert_Albert Adalbrand_Alebrand Adaldag Adalgar Adalgod Adolf_Adolf Aelle_Alwin Albrecht_Albert Alebrand_Alebrand
@@ -453,6 +501,14 @@ central_germanic = {
 
 		color = { 0.7 0.7 0.7 }
 
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Adeqisio Adoric Agimadus Agriulfum Alamiro Algaster Anila Ansuario Argiovitus Ariamir Arosinda Audeca
 			Badamundus Baldemarius Balderedo Baltarius Baudemiro Becilla Berteiro Bonesindus Boniza Cagildo Cartemiro
@@ -515,6 +571,14 @@ central_germanic = {
 		graphical_cultures = { germangfx }
 
 		color = { 0.55 0.65 0.55 }
+
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Adalbero_Adalbero Adalbert_Albert Adalhard_Adalhard Adam_Adam Ademar_Adémar Adolf_Adolf Alarich_Alaric Alberich_Aubrey Albrecht_Albert Alois_Louis Amadeus_Amadeus Amalrich_Amalric Andreas_Andrew Anselm_Anselm Ansgar_Oscar Archembald_Archibald Arnold_Arnold Arnulf_Arnulf Augustin_Augustine
@@ -583,6 +647,14 @@ central_germanic = {
 
 		color = { 0.9 0.1 0.0 }
 
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Adalbero_Adalbero Adalbert_Albert Adalhard_Adalhard Adam_Adam Ademar_Adémar Adolf_Adolf Alarich_Alaric Alberich_Aubrey Albrecht_Albert Aldrich_Aldric Alois_Louis Amadeus_Amadeus Amalrich_Amalric Andreas_Andrew Anselm_Anselm Ansgar_Oscar Archembald_Archibald Arnold_Arnold Arnulf_Arnulf Augustin_Augustine
 			Baldarich_Baldric Baldewin_Baldwin Baldomar Baldur_Balder Berard_Berard Berengar_Berengar Bernhard_Bernard Berthold_Berthold Burchard_Bouchard
@@ -650,6 +722,14 @@ central_germanic = {
 
 		color = { 0.1 0.4 0.4 }
 
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Adalbero_Adalbero Adalbert_Albert Adalhard_Adalhard Adam_Adam Ademar_Adémar Adolf_Adolf Alarich_Alaric Alberich_Aubrey Albrecht_Albert Aldrich_Aldric Alois_Louis Amadeus_Amadeus Amalrich_Amalric Andreas_Andrew Anselm_Anselm Archembald_Archibald Arnold_Arnold Arnulf_Arnulf Augustin_Augustine
 			Baldarich_Baldric Baldewin_Baldwin Baldomar Baldur_Balder Berard_Berard Berengar_Berengar Bernhard_Bernard Berthold_Berthold Burchard_Bouchard
@@ -715,6 +795,14 @@ central_germanic = {
 		graphical_cultures = { germangfx }
 
 		color = { 0.1 0.1 0.6  }
+
+		character_modifier = {
+			# central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Adalbero_Adalbero Adalbert_Albert Adalhard_Adalhard Adam_Adam Ademar_Adémar Adolf_Adolf Alarich_Alaric Alberich_Aubrey Albrecht_Albert Aldrich_Aldric Alois_Louis Amadeus_Amadeus Amalrich_Amalric Andreas_Andrew Anselm_Anselm Ansgar_Oscar Archembald_Archibald Arnold_Arnold Arnulf_Arnulf Augustin_Augustine

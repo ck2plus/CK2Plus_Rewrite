@@ -24,6 +24,11 @@ chadic_group = {
 
 		color = { 0.9 0.55 0.8 }
 
+		character_modifier = {
+			central_african_opinion = 5
+			# chadic_group_opinion = 5
+		}
+
 		male_names = {
 			Abasama Abbas Abdul Abdulkareem Abdulraham Abu Abubakar Adam_Adam Adamu Ado Ahmed Ahmedu Ali Aliyu Aminu Amir Ashakuka Atuma
 			Bagunda Bako Balarabe Barau Barbushe Bashar Bashir Bawa Bawo Bayajidda Bayero Bello Bilal Biram Burema Burja

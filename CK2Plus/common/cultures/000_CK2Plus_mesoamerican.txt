@@ -26,6 +26,10 @@ mesoamerican = {
 		graphical_cultures = { mesoamericangfx }
 		color = { 1.0 0.5 0.0 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Acalan Acacitli Acamapichtli Acolmiztli Aculnahuacatl Ahuiliztli Ahuitzotl Atl Axayacatl
 			Cacamatzin Chimalli Chimalpilli Chimalpopoca Cipac Coanacoch Coatl Cozahtli Cuauhtemoc Cuauhtl Cuetlachtli Cuetzpalli Cuixtli Cuitlahuac

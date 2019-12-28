@@ -26,6 +26,10 @@ dravidian_group = {
 
 		color = { 0.8 0.6 0.0 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Achugi Achyutadeva Adikavi Ahavamalla Amoghavarsha Anekonda Asaga Avinita Ayanna
 			Bhuvikrama Bijjama Bukka Butuga
@@ -87,6 +91,10 @@ dravidian_group = {
 		secondary_event_pictures = bengali
 
 		color = { 0.8 0.6 0.0 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Achugi Achyutadeva Adikavi Ahavamalla Amoghavarsha Anekonda Asaga Avinita Ayanna
@@ -150,6 +158,10 @@ dravidian_group = {
 
 		color = { 1.0 0.7 0.2 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Âccinataratippan Amarapuyankan_Amarabhujanga Ânûrrenmanpiccan Aparâcita_Aparajita Aparâcitavarman_Aparajitavarman Appûtaiyân Arikêcari_Arikesari Ariñcaya_Arinjaya Arulmolitêvar Arulmolivarman Atirâcêntira_Athirajendra Atitta_Aditya Avaniyâlappirantâr Avraaham_Abraham Âyirattalipattan
 			Brahmamârâyar
@@ -211,6 +223,10 @@ dravidian_group = {
 		secondary_event_pictures = bengali
 
 		color = { 0.8 0.8 0.0 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Allada Allayavema Amma Ammaraja Anavema Anavota Ayyapayya

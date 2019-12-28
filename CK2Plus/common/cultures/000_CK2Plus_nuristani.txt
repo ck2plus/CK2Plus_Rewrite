@@ -25,6 +25,10 @@ nuristani_group = {
 
 		color = { 0.6 0.6 0.11 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Âcunuk Âlios Ânjto Âramsâi 	Ârje Ârodenj Âromâlik Ârübra Âstolla Âston Âzor Âzorkon Âzormâlik
 			Bodür Bucik Bâcak Bânla Bârmuk Bâsti Bâtil

@@ -48,6 +48,12 @@ turkic_group = {
 
 		color = { 0.70 0.4 0.10 }
 
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
+
 		male_names = {
 			Afsin Ahmet_Ahmad Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alper Alptigin Artuk Ayaz Aydin Aydogan Aydogdu Aytekin
 			Bahadir Balaban Basbuga Batuhan Baturay Baybars Bayezid Baytas Belek Beran Berkan Berkiyaruk Bozan Bugra Bulend Burak Böru
@@ -121,6 +127,12 @@ turkic_group = {
 
 		color = { 0.7 0.7 0.3 }
 
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
+
 		male_names = {
 			Almish Alp Alzek Anzi Apskhih Araslan_Arslan Asparukh
 			Bagha Baghatur Balambär_Balambar Barjik Bars Barsbek Bashtwa Bastu Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Bihor Boyan Bugha Bughra Bulan Bulger Bulçan Busir Buzan Buzer Bälgiçi Böri
@@ -177,6 +189,12 @@ turkic_group = {
 
 		color = { 0.8 0.75 0.35 }
 
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
+
 		male_names = {
 			Afzaletdin Aglametdin Airat Akhat Akhmat Almaz Amir Amirkhan Anuar Anwar Aryslan Aðham Axkam Axmatzaki Aybulat Aydar Aygiz Ayhiliw Ayrat Azamat
 			Bagiz Bariy Baygötdin Bayras Bikbulat Borxan Büre
@@ -229,6 +247,12 @@ turkic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.7 0.65 0.15 }
+
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
 
 		male_names = {
 			Almish Alzek Anzi Apskhih Araslan_Arslan Asparukh Aydar
@@ -286,6 +310,12 @@ turkic_group = {
 
 		color = { 0.75 0.60 0.20 }
 
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
+
 		male_names = {
 			Aepak Asalup Asep Atrak
 			Bönek Bachman Begluk Blush Bonyak Borç
@@ -332,6 +362,12 @@ turkic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.65 0.50 0.15 }
+
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
 
 		male_names = {
 			Adigh Adïgh Aghulïq Agut Alïp Alïpqutlugh Alïpshalçi Alïpshul Alïptegin Anar Apït Aqunçï Arslan Aruq Asuq Aydaq Ayçur
@@ -382,6 +418,12 @@ turkic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.7 0.45 0.1 }
+
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
 
 		male_names = {
 			Alp Araslan_Arslan
@@ -435,6 +477,12 @@ turkic_group = {
 
 		color = { 0.75 0.70 0.30 }
 
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
+
 		male_names = {
 			Aepak Asalup Asep Atrak
 			Bönek Bachman Begluk Blush Bonyak Borç
@@ -481,6 +529,12 @@ turkic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.85 0.72 0.30 }
+
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
 
 		male_names = {
 			Aday Adigh Adïgh Aghulïq Agut Aka Alas Alcibay Alïp Alïpshalçi Alïpshul Amas Anar Anis Apït Aqunçï Arslan Aruk Aruq Astaançï Astam Asuq Aya Ayaltïn Ayan Ayas Aydaq Aydas Ayçur
@@ -539,6 +593,12 @@ turkic_group = {
 
 		color = { 0.85 0.79 0.25 }
 
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
+
 		male_names = {
 			Aba
 			Baitzas Balgor Batan Batas Bator Bayça Biçkili Bizel Boru Bula
@@ -583,6 +643,12 @@ turkic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.65 0.45 0.25 }
+
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
 
 		male_names = {
 		    Abuzar Ahmyetgali Ahtar Airat Aizat Akhat Akhmat Alikber Almaz Amat-Khan Amazat Amerhan Amir Amircan Amirkhan Ansar Anvar Axmat Axmatzaki Axmatzyan Aydar Ayrat Azgar
@@ -649,6 +715,12 @@ turkic_group = {
 
 		color = { 0.85 0.55 0.15 }
 
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
+
 		male_names = {
 			Afsin Ahmet_Ahmad Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz Aydin Aydogan Aydogdu Aytekin
 			Böru Bulend Bahadir Balaban Basbuga Batuhan Baturay Baybars Bayezid Baytas Belek Berkan Berkiyaruk Bozan Bugra Burak
@@ -713,6 +785,12 @@ turkic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.85 0.75 0.50 }
+
+		character_modifier = {
+			altaic_opinion = 5
+			tungusic_group_opinion = 5
+			# turkic_group_opinion = 5
+		}
 
 		male_names = {
 			Adigh Adïgh Aghulïq Agut Alïp Alïpqutlugh Alïpshalçi Alïpshul Anar Apategin Apït Aqunçï Arslan Aruq Asuq Atutuq Aydaq Ayçur

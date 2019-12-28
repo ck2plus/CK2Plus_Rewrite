@@ -27,6 +27,11 @@ tibetan_group = {
 
 		color = { 1.0 0.2 0.01 }
 
+		character_modifier = {
+			chinese_group_opinion = 5
+			# tibetan_group_opinion = 5
+		}
+
 		male_names = {
 			Akash Amar Ananta Arjun Aspan
 			Baburam Balahu Beeradhwaj Belbungram Bhadra Bhadrasena Bhimdarpa Bhopal Bicharpatipha Birbar Birdarpa Birpal Bishnu Bolsing
@@ -98,6 +103,11 @@ tibetan_group = {
 
 		color = { 1.0 0.2 0.0  }
 
+		character_modifier = {
+			chinese_group_opinion = 5
+			# tibetan_group_opinion = 5
+		}
+
 		male_names = {
 			Aglen Balpo Chakna Changchub Chatri Chokey Chögyal Chukpo Daktri Degyal Denöl Desho Detrin Detsen Detrul
 			Deu Dharmapala Dickey Dingtri Dompu Dondup Donyö Dorje Drag Dragpa Dranga Drigum Drogön Drongnyen Dusong
@@ -161,6 +171,11 @@ tibetan_group = {
 
 		color = { 0.8 0.2 0.1  }
 
+		character_modifier = {
+			chinese_group_opinion = 5
+			# tibetan_group_opinion = 5
+		}
+
 		male_names = {
 			Dangraskya Datserhim Dirotiga Dudlutsen
 			Krasnetse Kunhritse
@@ -213,6 +228,11 @@ tibetan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.8 0.3 0.0  }
+
+		character_modifier = {
+			chinese_group_opinion = 5
+			# tibetan_group_opinion = 5
+		}
 
 		male_names = {
 			Abaoji Abo Abugu Aguo Aguzhi Ala
@@ -294,6 +314,11 @@ tibetan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 1.0 0.4 0.0  }
+
+		character_modifier = {
+			chinese_group_opinion = 5
+			# tibetan_group_opinion = 5
+		}
 
 		dynasty_name_first = yes
 

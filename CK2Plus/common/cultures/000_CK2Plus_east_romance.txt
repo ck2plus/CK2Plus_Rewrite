@@ -25,6 +25,16 @@ east_romance = { # Vlach
 
 		color = { 1.0 0.95 0.35  }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			# east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Adrian_Adrian Alexandru_Alexander Anghel_Angel Aron_Aaron
 			Bajan Balc Barbat Basarab Bogdan_Bogdan
@@ -85,6 +95,16 @@ east_romance = { # Vlach
 		graphical_cultures = { serbsouthslavicgfx }
 
 		color = { 0.9 0.95 0.35 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			# east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Adrian_Adrian Alexandru_Alexander Anghel_Angel Aron_Aaron

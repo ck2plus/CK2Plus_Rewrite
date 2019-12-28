@@ -26,6 +26,11 @@ eastern_sudanic_group = {
 
 		color = { 0.95 0.9 0.65 }
 
+		character_modifier = {
+			east_african_opinion = 5
+			cushitic_group_opinion = 5
+		}
+
 		male_names = {
 			Adam Ahmed_Ahmad Anqarib Asil
 			Bakhit Ber Bogirg Bokdoru Bolad Born Bug
@@ -77,6 +82,11 @@ eastern_sudanic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.6 0.5 }
+
+		character_modifier = {
+			east_african_opinion = 5
+			cushitic_group_opinion = 5
+		}
 
 		male_names = {
 			Aarôn_Aaron Aberikos Abraam_Abraham Añgelos_Angel Andreas_Andrew Athanasios_Athanasius

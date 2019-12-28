@@ -24,6 +24,10 @@ vasconic = {
 
 		color = { 0.55 0.42 0.04 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Alfontso_Alphonse Alvar_Oliver Antso_Sancho Aznar_Aznar
 			Belasko_Vasco Bermudo_Vermudo Bernart_Bernard

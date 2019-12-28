@@ -37,6 +37,14 @@ franco_germanic = {
 
 		color = { 0.8 0.4 0.2 }
 
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			# franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Adriaen Albrecht_Albert Alwin Ambroos Antoon Arnold_Arnold Arnulf_Arnulf
 			Balderik Barend Barnaerd_Bernard Bartolomeus_Bartolomeus Bavo Bertold_Berthold Boudewijn_Baldwin
@@ -115,6 +123,14 @@ franco_germanic = {
 		graphical_cultures = { germangfx }
 
 		color = { 0.7 0.4 0.35 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			# franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Adriaen Albrecht_Albert Alwin Ambroos Antoon Arnold_Arnold Arnulf_Arnulf
@@ -196,6 +212,14 @@ franco_germanic = {
 		graphical_cultures = { germangfx frankishgfx westerngfx }
 
 		color = { 0.3 0.3 0.5 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			# franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Abrahil Abram Adalbald Adalbert_Albert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Ailbert Albric Aldedramn Andica Ansovald Arcambald Aregisel Arnegisel Arnulf_Arnulf Ascaric Audovald Austregisel Autbert Autgari Autgeri Avremar

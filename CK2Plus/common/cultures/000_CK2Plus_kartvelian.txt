@@ -24,6 +24,12 @@ kartvelian_group = {
 
 		color = { 0.6 0.3 0.8 }
 
+		character_modifier = {
+			# kartvelian_group_opinion = 5
+			northeast_caucasian_group_opinion = 5
+			northwest_caucasian_group_opinion = 5
+		}
+
 		male_names = {
 			Adarnase_Atrnerseh Aghsartan Aleksandre_Alexander Andronik_Andronicus Anzori Archili Ashot_Ashot
 			Bagrat Bakur_Bagour

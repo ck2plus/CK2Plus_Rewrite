@@ -35,6 +35,12 @@ tungusic_group = {
 
 		color = { 122 114 92 }
 
+		character_modifier = {
+			altaic_opinion = 5
+			# tungusic_group_opinion = 5
+			turkic_group_opinion = 5
+		}
+
 		male_names = {
 			Abaohan Abulang Agu Aguda Agunai Aguo Aha Ahacu Ahai Ahaibaifu Aišï Aišïha Ajungha Albasæri Ali Alihan Alihemen Alin Alu Alubu Aludai Aluhan Aluobuhua Aluwan Ancen Ancu Andahai Aodi Asur Ašentan Ašïngha
 			Ælijesænæ Æncïæng Æsuræku Ætæ

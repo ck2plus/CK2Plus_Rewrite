@@ -25,6 +25,12 @@ northeast_caucasian_group = {
 
 		color = { 0.0 0.4 0.31 }
 
+		character_modifier = {
+			kartvelian_group_opinion = 5
+			# northeast_caucasian_group_opinion = 5
+			northwest_caucasian_group_opinion = 5
+		}
+
 		male_names = {
 			Abukhisro Akhsar Akhsuvar Alatey Alp Anbal Anbazuk Andunik-Nutsal Aravat Arsen Ashot_Ashot Askhkadar Aslan Aspar Athom Avaz Awach'i
 			Badr Balambar Balsag Barlah Bæqætar Basil_Basil Bazuk Beler Ber Biræg Boz-Uruz Bukht-Yisho Buürgur Buriberdi Burikhan
@@ -76,6 +82,12 @@ northeast_caucasian_group = {
 		graphical_cultures = { easternslavicgfx }
 
 		color = { 0.0 0.4 0.3 }
+
+		character_modifier = {
+			kartvelian_group_opinion = 5
+			# northeast_caucasian_group_opinion = 5
+			northwest_caucasian_group_opinion = 5
+		}
 
 		male_names = {
 			Adamar Aga Avel_Abel Avraam_Abraham

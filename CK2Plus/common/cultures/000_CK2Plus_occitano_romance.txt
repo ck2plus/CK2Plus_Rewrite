@@ -33,6 +33,16 @@ occitano_romance_group = {
 
 		color = { 0.95 0.65 0.01 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			latin_opinion = 5
+			# occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Alfons_Alphonse Arnau_Arnold Artau_Artal
 			Berenguer_Berengar Berenguer-Ramon Bernat_Bernard Bernat-Guillem
@@ -83,6 +93,16 @@ occitano_romance_group = {
 		graphical_cultures = { trueoccitangfx occitangfx }
 
 		color = { 0.9 0.9 0.4 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			latin_opinion = 5
+			# occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Adhémar Acfred_Alfred Aimeric_Aymeric Alberic_Alberic Albert_Albert Aldebert_Albert Alias_Elijah Anfòs_Alphonse Amalric_Amalric Amaneus Ancelmes André_Andrew Archambaut_Archibald Arnaut_Arnold Artau_Artal Aton Audoïn Aymar_Aymeric Aymeric_Aymeric Aznar_Aznar

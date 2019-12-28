@@ -22,10 +22,6 @@ west_germanic = {
 	graphical_cultures = { westerngfx }
 
 	english = {
-		graphical_cultures = { englishgfx }
-
-		color = { 0.8 0.2 0.2 }
-
 		alternate_start = {
 			OR = {
 				year >= 1100
@@ -35,8 +31,20 @@ west_germanic = {
 				}
 			}
 		}
-
 		# Does not exist in 1066 - is the result of cultural amalgamation between Saxon and Norman through events
+
+		graphical_cultures = { englishgfx }
+
+		color = { 0.8 0.2 0.2 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			# west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm_Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
 			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel_Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice_Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
@@ -77,6 +85,14 @@ west_germanic = {
 		graphical_cultures = { englishgfx saxongfx }
 
 		color = { 0.7 0.3 0.0 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			# west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Adelbrik Aitet Aldgisl Audulf Auutet Avin Avo Avuko Avutet
@@ -155,6 +171,14 @@ west_germanic = {
 		unit_graphical_cultures = { saxongfx englishgfx }
 
 		color = { 0.8 0.3 0.3 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			# west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Arncytel

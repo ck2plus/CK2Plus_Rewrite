@@ -30,6 +30,11 @@ finno_ugric = {
 
 		color = { 0.1 0.6 0.6 }
 
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
+
 		male_names = {
 			Aarto_Artur Aatos Aatso_Adam Ahma Ahvo Aimo Armas Arvo Asikko Asko
 			Ensio Erkki_Erik
@@ -65,6 +70,11 @@ finno_ugric = {
 
 		color = { 0.4 0.65 0.20 }
 
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
+
 		male_names = {
 			Andyamo Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Dobrinya Dokya Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey
 			Kezhevat Kichay Koksha Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg
@@ -91,6 +101,11 @@ finno_ugric = {
 		graphical_cultures = { ugricgfx }
 
 		color = { 0.5 0.75 0.25 }
+
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
 
 		male_names = {
 			Andyamo Arnaz Arti Artis Arvo Aymort Azeg
@@ -146,6 +161,11 @@ finno_ugric = {
 
 		color = { 0.4 0.75 0.85 }
 
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
+
 		male_names = {
 			Ággi Áigesárri Áilu Ámmot Ára Árrajuoksa Ásllat Èoavvá Ahkemiella Algebaeivi
 			Baeivi Baeivvet Biejan Bijás Bilzi
@@ -186,7 +206,12 @@ finno_ugric = {
 		graphical_cultures = { ugricgfx }
 
 		color = { 0.45 0.70 0.85 }
-		
+
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
+
 		male_names = {
 			Acha Atyamas Azyren
 			Chever Chyn Chumbylat 
@@ -229,6 +254,11 @@ finno_ugric = {
 		graphical_cultures = { ugricgfx }
 
 		color = { 0.3 0.5 0.5 }
+
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
 
 		male_names = {
 			Andyamo Atyamas Azyren
@@ -275,6 +305,11 @@ finno_ugric = {
 		graphical_cultures = { ugricgfx }
 
 		color = { 0.3 0.7 0.7 }
+
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
 
 		male_names = {
 			Andyamo Atyamas Azyren
@@ -324,6 +359,11 @@ finno_ugric = {
 
 		color = { 0.3 0.7 0.7 }
 
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
+
 		male_names = {
 			Aare Agul Ahas Aho Ahti Ahvo Alar Alo Alur Aopelg Aotõiv Arp Arvet Arvo Atko Aul Aulemb
 			Eeri Elmar
@@ -369,6 +409,11 @@ finno_ugric = {
 		graphical_cultures = { ugricgfx }
 
 		color = { 0.5 0.5 0.5 }
+
+		character_modifier = {
+			# finno_ugric_opinion = 5
+			samodeic_group_opinion = 5
+		}
 
 		male_names = {
 			Andyamo Atyamas Azyren

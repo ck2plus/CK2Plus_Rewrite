@@ -39,6 +39,12 @@ east_slavic = {
 
 		color = { 0.45 0.6 0.2 }
 
+		character_modifier = {
+			# east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			west_slavic_opinion = 5
+		}
+
 		male_names = {
 			Briachislav_Bretislaus
 			Demid Dobrynia
@@ -107,6 +113,12 @@ east_slavic = {
 		graphical_cultures = { easternslavicgfx }
 
 		color = { 0.2 0.2 0.5 }
+
+		character_modifier = {
+			# east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			west_slavic_opinion = 5
+		}
 
 		male_names = {
 			Boran Boris_Boris
@@ -182,6 +194,12 @@ east_slavic = {
 
 		color = { 0.2 0.4 0.1 }
 
+		character_modifier = {
+			# east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			west_slavic_opinion = 5
+		}
+
 		male_names = {
 			Afanasiy_Athanasius Alexandr_Alexander Alexei_Alexis Andrei_Andrew
 			Boris_Boris Briachislav_Bretislaus
@@ -243,9 +261,6 @@ east_slavic = {
 	}
 
 	ruthenian = { # Ruthenian
-		graphical_cultures = { easternslavicgfx }
-
-		color = { 0.3 0.4 0.3 }
 		alternate_start = {
 			OR = {
 				year >= 800
@@ -254,6 +269,16 @@ east_slavic = {
 					value = full_random
 				}
 			}
+		}
+
+		graphical_cultures = { easternslavicgfx }
+
+		color = { 0.3 0.4 0.3 }
+
+		character_modifier = {
+			# east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			west_slavic_opinion = 5
 		}
 
 		male_names = {
@@ -329,6 +354,12 @@ east_slavic = {
 
 		color = { 0.5 0.8 0.3 }
 
+		character_modifier = {
+			# east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			west_slavic_opinion = 5
+		}
+
 		male_names = {
 			Briachislav_Bretislaus
 			Demid Dobrynia
@@ -397,6 +428,12 @@ east_slavic = {
 		graphical_cultures = { easternslavicgfx }
 
 		color = { 0.65 0.8 0.3 }
+
+		character_modifier = {
+			# east_slavic_opinion = 5
+			south_slavic_opinion = 5
+			west_slavic_opinion = 5
+		}
 
 		male_names = {
 			Briachislav_Bretislaus

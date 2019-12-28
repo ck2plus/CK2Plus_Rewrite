@@ -25,6 +25,10 @@ tocharian_group = {
 
 		color = { 0.75 0.45 0.95  }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Airawanta Ajatasatru Ajite Alp_Alp Ambare_Ambara Amprätasarme Amrätaraksite Amrätodane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune_Arjuna Aranemi Arnyartate Arslam_Arslan Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke_Ashoka Asärte Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske Dandakamal Devarakste Dhanike Dharma_Dharma Dharmacandre Dharmadase Dharmakame Dharmakamiske Dharmaraksite Dharmasome Dharmatrate Dharmawarme Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke Erkätsole Esmiñe Etrise Gayakasyape Gayasirs Gaye_Gaya Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre_Indra Indriske Issapake Jatisrone Jetavam Jñanacamndre Jñanaghose Jñanakame Jñanakupte Jñanamokse Jñanasene Jñanasome Jñanasthite Jñanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake_Kanaka Kanaske Kanthäke Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
 			Kauravye Kausal Kemarcune Kentarske Kercampey Kercapiske Kerdipole Kereptaññe Kimñe Klenkarako Klpapatre Klyotiska Kotile Koysam Ksemankare Ksmarjune Ksmawarme Ksmate Ksmateworsa Ksmika Kulkera Kumarapunye Kumpante Kunacamttrakau Kunacamttre Kwirapabhadra_Virabhadra Lariska Mahasammate Mahisvare Manisvare Mitrakseme Mitraske Mitre Moksasene Moksasome Moksawarme Molyoke Mukalanti Munkhare Murdhagate Nandabala Nandake Nande_Nanda Nandipale Nasme Ñatte Naradeve Ñirot Nupura Nyagrodhe Padmakesar Padmottare Pakacandre Pañcasikhi Pawaske Pesane Prabhankare Prabhase Pranada Prasamnake

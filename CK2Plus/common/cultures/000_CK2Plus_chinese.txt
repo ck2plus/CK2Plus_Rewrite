@@ -23,6 +23,11 @@ chinese_group = {
 
 		color = { 211 44 44 }
 
+		character_modifier = {
+			# chinese_group_opinion = 5
+			tibetan_group_opinion = 5
+		}
+
 		male_names = {
 			Anqi Anshi Benli
 			Bi Bo

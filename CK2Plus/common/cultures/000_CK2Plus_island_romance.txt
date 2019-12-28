@@ -25,6 +25,16 @@ island_romance = {
 
 		color = { 0.8 0.39 1 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			# island_romance_opinion = 5
+			italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Adalbertu_Albert Alesiu_Alexis Ambrosgiu_Ambrosius Andria_Andrew Anghelu_Angel Antone_Antonius Atìliu_Atilius Austinu_August
 			Baltazaru_Baltasar Benghjaminu_Benjamin Benedettu_Benedict Bernandu_Bernard Biasgiu_Blaise
@@ -77,6 +87,16 @@ island_romance = {
 		graphical_cultures = { italiangfx southerngfx }
 
 		color = { 0.7 0.5 0.75 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			# island_romance_opinion = 5
+			italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Abisatu Adàmu_Adam Adriànu_Adrian Alaverru_Oliver Albertu_Albert Albu Alessandru_Alexander Alfonsu_Alphonse Ambròsu_Ambrose Andria_Andrew Antine_Constantine Antiogu Antòni_Anthony Antoninu_Antoninus Armannu_Herman Arrammundu_Raymond Arzoccu Austinu_August Austu_August

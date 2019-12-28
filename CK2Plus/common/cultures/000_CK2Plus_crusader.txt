@@ -26,6 +26,16 @@ crusader_group = {
 
 		color = { 0.8 0.8 0.1 }
 
+		character_modifier = {
+			# crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Andrea_Andrew Alboino Alexis_Alexis Anastase_Anastasius Atanase Alexandre_Alexander Andronic_Andronicus Alberto_Albert Aluysio Anechino Aureo Antonolo_Antoninus Angelus_Angel Andrin_Adrian Antigone Apollodore
 			Bartolomeo_Bartholomew Balduinus_Baldwin Burchard Basiliscus_Basiliscus Bardas Basile_Basil Benasuto Barbus Balsamo Baiamonte Benghi Bernabas Bernardo_Bernard Bertuccio Blaxio_Blaxus Bucello_Jacob
@@ -100,6 +110,16 @@ crusader_group = {
 		graphical_cultures = { outremergfx andalusiangfx southerngfx muslimgfx }
 
 		color = { 0.8 0.8 0.2 }
+
+		character_modifier = {
+			# crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Adalbert_Albert Adémar_Adémar Adrien_Adrian Aimery_Aymeric Alain_Alan Aldebert_Albert Aldéric Alphonse_Alphonse Amaury_Amalric Amédée Ancel André_Andrew Angelbert Antoine_Antonius Archambaud_Archibald Arnaud_Arnold Arnault_Arnold Arnoul_Arnulf Aubry Aymar

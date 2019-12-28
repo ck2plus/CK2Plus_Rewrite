@@ -24,6 +24,10 @@ coptic_group = {
 
 		color = { 0.6 0.4 0.6 }
 
+		character_modifier = {
+			aramaic_opinion = 5
+		}
+
 		male_names = {
 			Aaron_Aaron Abanoub Abderahman_Abderrahman Abianos_Abijah Abisalom Ablarion Abraam_Abraham Agathon_Agathos Agathonikos_Agathonikos Agathos_Agathos Ahmod Aiai Aha Akhom Amon Amakhte An Andronicus Androus_Andrew Anthinos_Anthimos Apanoub Apahour Apamon Apas Aretee Arsenios_Arsenios Ashraf_Ashraf Athanasios_Athanasius
 			Beet Bertouet Biktor_Victor Binyamin_Benjamin Bishoi_Bishara Bolis_Paul Boutros_Peter

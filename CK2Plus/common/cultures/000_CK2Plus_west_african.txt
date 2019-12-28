@@ -26,6 +26,10 @@ west_african = {
 
 		color = { 0.45 0.45 0.2 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Abi-Bakr_Abu-Bakr Abubakari_Abu-Bakr Akoi Alayaman Ali_Ali Ali-Fay Ali-Kolon Ali-Zalil
 			Badä Bakr Bakr-Kanbu Bamari Bankanu Bannu Bassarou Bassi Birama Bisi Biyu Bonga
@@ -76,6 +80,10 @@ west_african = {
 
 		color = { 0.35 0.35 0.2 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Abubakar Akoi Alayaman
 			Bérété Bathily Bomou Bilali Bunama Badä Bamari Bannu Birama Bisi Biyu
@@ -121,6 +129,10 @@ west_african = {
 		graphical_cultures = { westafricangfx africangfx }
 
 		color = { 0.5 0.3 0.1 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Abi-Bakr Abubakari Akoi Alayaman Ali_Ali Ali-Fay Ali-Kolon Ali-Zalil
@@ -171,6 +183,10 @@ west_african = {
 		graphical_cultures = { westafricangfx africangfx }
 
 		color = { 0.9 0.4 0.2 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Abdoulaye_Abdullah Aboubacar_Abu-Bakr Akon Alioune_Ali Amar Amadou_Ahmad Aliaune

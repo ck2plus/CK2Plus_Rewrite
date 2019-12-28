@@ -37,6 +37,16 @@ italian_group = {
 
 		color = { 0.5859 0.46875 0.97656 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Andre_Andrew Andreas_Andrew
 			Bisti Blaxius
@@ -83,6 +93,16 @@ italian_group = {
 		graphical_cultures = { italiangfx southerngfx } # Fallback type
 
 		color = { 0.195 0.664 0.5078 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Abbondanzio_Abbondanzio Abbondio_Abundius Abelardo_Abelard Abelino_Abel Achille_Achilles Adalberto_Albert Adelfo_Adolf Adelmio_Adémar Adone_Adonis Adriano_Adrian Agapito_Agapito Agostino_Augustine Aimone_Aimone Alamanno_Aleman Alarico_Alaric Albano_Alban Alberico_Aubrey Albertino_Albert Albino_Albino Alboino_Alwin Alberto_Albert Alcide_Alcides Aldobrandino_Aldebrand Aleardo_Ale Aleramo_Aleram Alessio_Alexis Alessandro_Alexander Aluysio_Aloysius Alvisio_Louis Ambrogio_Ambrosius Amedeo_Amadeus Anastasio_Anastasius Andrea_Andrew Angelo_Angel Annibale_Hannibal Anselmo_Anselm Antonio_Antonius Antonino_Antoninus Arcibaldo_Archibald Arderico_Aldaric Arduino_Hartwin Armando_Armand Arnolfo_Arnulf Arrigo_Arrigo Arsenio_Arsenius Artemio_Artemius Arturio_Arthur Ascanio_Ascanius Astorre_Astor Atenolfo_Atenulf Attilio_Atilius Augusto_August Aurelio_Aurelius Ausilio_Ausilius Ausonio_Ausonius Averado_Everard Azzo_Azzus Azzone_Azzus
@@ -148,6 +168,16 @@ italian_group = {
 
 		color = { 0.9 0.9 0.4 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Abbondanzio Abbondio Abelardo_Abelard Abelino Achille Adalberto_Albert Adelfo Adelmio_Adelmo Adelmo_Adelmo Adone Adriano_Adrian Agapito Agostino_Augustine Aimone Alamanno Alarico_Alaric Albano Alberico Alberto_Albert Albino Alboino_Alwin Alcide Aldobrandino Aleardo Aleramo Alessandro_Alexander Alessio_Alexis Alighiero Alvise Ambrogio_Ambrosius Amedeo Anastasio_Anastasius Andrea_Andrew Angelo_Angel Annibale Anselmo_Anselm Antonino_Antoninus Antonio_Antonius Antoniotto Arcibaldo_Archibald Arderico Armando_Armand Arnolfo_Arnulf Arrigo Arsenio Artemio Ascanio Astorre Atenolfo_Atenulf Attilio Augusto_August Aurelio_Aurelius Ausilio Ausonio Averado Azzo Azzone
 			Baldassarre Baldovino_Baldwin Barnaba_Barnabas Bartolomeo_Bartolomeus Basilio_Basil Bassiano Basso 	Battista Beltrano_Bertrand Benedetto_Benedict Benvenuto Berardo Bernabò_Barnabas Bernardo_Bernard Berto Bertoldo_Berthold Biagio Bonaventura Bonifacio_Bonifacius Borso Bruno_Bruno Bruto Buonconte Buoso
@@ -208,6 +238,16 @@ italian_group = {
 		graphical_cultures = { italiangfx southerngfx }
 
 		color = { 1 0.586 0.20 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Abbondanzio_Abbondanzio Abbondio_Abundius Abelardo_Abelard Abelino_Abel Achille_Achilles Adalberto_Albert Adelfo_Adolf Adelmo_Adémar Adone_Adonis Adriano_Adrian Agapito_Agapito Agostino_Augustine Aimone_Aimone Alamanno_Aleman Alarico_Alaric Albano_Alban Alberico_Aubrey Albertino_Albert Albino_Albino Alboino_Alwin Alberto_Albert Alcide_Alcides Aldobrandino_Aldebrand Aleardo_Ale Aleramo_Aleram Alessio_Alexis Alessandro_Alexander Aluysio_Aloysius Alvisio_Louis Ambrogio_Ambrosius Amedeo_Amadeus Anastasio_Anastasius Andaro_Andrew Andrea_Andrew Angelo_Angel Annibale_Hannibal Anselmo_Anselm Antonio_Antonius Antonino_Antoninus Antoniotto_Antoniotto Arcibaldo_Archibald Arderico_Aldaric Arduino_Hartwin Armando_Armand Arnolfo_Arnulf Arrigo_Arrigo Arsenio_Arsenius Artemio_Artemius Arturio_Arthur Ascanio_Ascanius Astorre_Astor Atenolfo_Atenulf Attilio_Atilius Augusto_August Aurelio_Aurelius Ausilio_Ausilius Ausonio_Ausonius Averado_Everard Azzo_Azzus Azzone_Azzus
@@ -283,6 +323,16 @@ italian_group = {
 
 		color = { 0.39 0.6 0.59 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
             Abbondanzio_Abbondanzio Abbondio_Abundius Abelardo_Abelard Abelino_Abel Achille_Achilles Adalberto_Albert Adelfo_Adolf Adelmo_Adémar Adone_Adonis Adriano_Adrian Agapito_Agapito Agostino_Augustine Aimone_Aimone Alamanno_Aleman Alarico_Alaric Albano_Alban Alberico_Aubrey Albertino_Albert Albino_Albino Alboino_Alwin Alberto_Albert Alcide_Alcides Aldobrandino_Aldebrand Aleardo_Ale Aleramo_Aleram Alessio_Alexis Alessandro_Alexander Aluysio_Aloysius Alvisio_Louis Ambrogio_Ambrosius Amedeo_Amadeus Anastasio_Anastasius Andaro_Andrew Andrea_Andrew Angelo_Angel Annibale_Hannibal Anselmo_Anselm Antonio_Antonius Antonino_Antoninus Antoniotto_Antoniotto Arcibaldo_Archibald Arderico_Aldaric Arduino_Hartwin Armando_Armand Arnolfo_Arnulf Arrigo_Arrigo Arsenio_Arsenius Artemio_Artemius Arturio_Arthur Ascanio_Ascanius Astorre_Astor Atenolfo_Atenulf Attilio_Atilius Augusto_August Aurelio_Aurelius Ausilio_Ausilius Ausonio_Ausonius Averado_Everard Azzo_Azzus Azzone_Azzus
             Baldassarre_Baltasar Baldovino_Baldwin Barnaba_Barnabas Bartolomeo_Bartolomeus Bassiano_Bassianus Basilio_Basil Battista_Baptist Berardo_Berard Bernardo_Bernard Berto_Bernard Bertoldo_Bernard Beltrano_Bertrand Benedetto_Benedict Benvenuto_Benvenuto Biagio_Blaise Bonaventura_Bonaventura Bonifacio_Bonifacius Borso_Boris Bovarello Bruno_Bruno Bruto_Brutus Bulzaneto Buonconte_Buonconte Buoso_Buoso
@@ -338,6 +388,16 @@ italian_group = {
 		graphical_cultures = { italiangfx southerngfx }
 
 		color = { 0.352 0.898 0.3125 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Abbondanzio_Abbondanzio Abbondio_Abundius Abelino_Abel Achille_Achilles Adelfo_Adolf Adone_Adonis Adriano_Adrian Agapito_Agapito Agustino_Augustine Aimone_Aimone Albano_Alban Alberico_Aubrey Albino_Albino Alboino_Alwin Alberto_Albert Alcide_Alcides Aldobrandino_Aldebrand  Alessio_Alexis Alessandro_Alexander Ambrogio_Ambrosius Amadeo_Amadeus Anastasio_Anastasius Andrea_Andrew  Anselmo_Anselm Antonio_Antonius Antonino_Antoninus Arcibaldo_Archibald Arduino_Hartwin Armando_Armand Arnulfo_Arnulf Arrigo_Arrigo Arsenio_Arsenius Artemio_Artemius Arturio_Arthur Ascanio_Ascanius Astorre_Astor  Attilio_Atilius Augusto_August Aurelio_Aurelius Ausilio_Ausilius Ausonio_Ausonius Azzo_Azzus Azzone_Azzus
@@ -407,6 +467,16 @@ italian_group = {
 
 		color = { 0.8 0.2 0.2 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Aemilianus Aemilius Aetius Albinus Alexander_Alexander Anastasius_Anastasius Anicius Annius Antoninus Antonius_Antonius Arcadius Aurelianus Aurelius Avitus
 			Belisarius_Belisarius Britannicus
@@ -471,6 +541,16 @@ italian_group = {
 
 		color = { 0.19 0.78 0.468 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Adrianu_Adrian Albanu_Alban Albertu_Albert Aleardu_Ale Alessiu_Alexis Alessandru_Alexander Alfonzu_Alphonse Amideu_Amadeus Andrea_Andrew Angilu_Angel Antoniu_Antonius Antuninu_Antoninus Anselmu_Anselm Arricu_Henry Ascanio_Ascanius Arduinu_Hartwin Artemiu_Artemius Augustu_August Augustinu_Augustin Aureliu_Aurelius Aurelianu_Aurelian Azzo_Azzus
 			Belisariu_Belisarius Binidittu_Benedict
@@ -531,6 +611,16 @@ italian_group = {
 		graphical_cultures = { italiangfx southerngfx }
 
 		color = { 0.195 0.684 0.391 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Abbondanzio_Abbondanzio Abbondio_Abundius Abelardo_Abelard Abelino_Abel Achille_Achilles Adalberto_Albert Adelfo_Adolf Adelmo_Adémar Adone_Adonis Adriano_Adrian Agapito_Agapito Agostino_Augustine Aimone_Aimone Alamanno_Aleman Alarico_Alaric Albano_Alban Alberico_Aubrey Albertino_Albert Albino_Albino Alboino_Alwin Alberto_Albert Alcide_Alcides Aldobrandino_Aldebrand Aleardo_Ale Aleramo_Aleram Alessio_Alexis Alessandro_Alexander Alighiero_Alighiero Aluysio_Aloysius Ambrogio_Ambrosius Amedeo_Amadeus Anastasio_Anastasius Andrea_Andrew Angelo_Angel Annibale_Hannibal Anselmo_Anselm Antonio_Antonius Antonino_Antoninus Arcibaldo_Archibald Arderico_Aldaric Arduino_Hartwin Armando_Armand Arnolfo_Arnulf Arrigo_Arrigo Arsenio_Arsenius Artemio_Artemius Arturio_Arthur Ascanio_Ascanius Astorre_Astor Atenolfo_Atenulf Attilio_Atilius Augusto_August Aurelio_Aurelius Ausilio_Ausilius Ausonio_Ausonius Averado_Everard Azzo_Azzus Azzone_Azzus
@@ -596,6 +686,16 @@ italian_group = {
 
 		color = { 0.75 0.30 0.30 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Abbondanzio_Abbondanzio Abbondio_Abundius Abelardo_Abelard Abelino_Abel Achille_Achilles Adalberto_Albert Adelfo_Adolf Adelmo_Adémar Adone_Adonis Adriano_Adrian Agapito_Agapito Agostino_Augustine Aimone_Aimone Alamanno_Aleman Alarico_Alaric Albano_Alban Alberico_Aubrey Albertino_Albert Albino_Albino Alboino_Alwin Alberto_Albert Alcide_Alcides Aldobrandino_Aldebrand Aleardo_Ale Aleramo_Aleram Alessio_Alexis Alessandro_Alexander Aloysio_Aloysius Ambrogio_Ambrosius Amedeo_Amadeus Anastasio_Anastasius Andrea_Andrew Angelo_Angel Annibale_Hannibal Anselmo_Anselm Antonio_Antonius Antonino_Antoninus Arcibaldo_Archibald Arderico_Aldaric Arduino_Hartwin Armando_Armand Arnolfo_Arnulf Arrigo_Arrigo Arsenio_Arsenius Artemio_Artemius Arturio_Arthur Ascanio_Ascanius Astorre_Astor Atenolfo_Atenulf Attilio_Atilius Augusto_August Aurelio_Aurelius Ausilio_Ausilius Ausonio_Ausonius Averado_Everard Azzo_Azzus Azzone_Azzus
 			Baldassarre_Baltasar Baldovino_Baldwin Bartolomeo_Bartolomeus Basilio_Basil Bassiano_Bassianus Battista_Baptist Berardo_Berard Bernardo_Bernard Berto_Bernard Bertoldo_Bernard Beltrano_Bertrand Benedetto_Benedict Benvenuto_Benvenuto Blagio_Blaise Boezio_Boethius Bonaventura_Bonaventura Bonifacio_Bonifacius Bonus Borso_Boris Bruno_Bruno Bruto_Brutus Buonconte_Buonconte Buoso_Buoso
@@ -659,6 +759,16 @@ italian_group = {
 		graphical_cultures = { italiangfx southerngfx }
 
 		color = { 0.19 0.78 0.78 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			# italian_group_opinion = 5
+			latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Abbondanzio_Abbondanzio Abbondio_Abundius Abelardo_Abelard Abelino_Abel Achille_Achilles Adalberto_Albert Adelfo_Adolf Adelmio_Adémar Adone_Adonis Adriano_Adrian Agapito_Agapito Agostino_Augustine Aimone_Aimone Alamanno_Aleman Alarico_Alaric Albano_Alban Alberico_Aubrey Albertino_Albert Albino_Albino Alboino_Alwin Alberto_Albert Alcide_Alcides Aldobrandino_Aldebrand Aleardo_Ale Aleramo_Aleram Alessio_Alexis Alexandro_Alexander Aloysio_Aloysius Alvise_Louis Agnello_Angel Ambrogio_Ambrosius Amedeo_Amadeus Anastasio_Anastasius Andrea_Andrew Annibale_Hannibal Anselmo_Anselm Antonio_Antonius Antonino_Antoninus Arcibaldo_Archibald Arderico_Aldaric Arduino_Hartwin Armando_Armand Arnolfo_Arnulf Arrigo_Arrigo Arsenio_Arsenius Artemio_Artemius Arturio_Arthur Ascanio_Ascanius Astorre_Astor Atenolfo_Atenulf Attilio_Atilius Augusto_August Aurelio_Aurelius Ausilio_Ausilius Ausonio_Ausonius Averado_Everard Azzo_Azzus Azzone_Azzus

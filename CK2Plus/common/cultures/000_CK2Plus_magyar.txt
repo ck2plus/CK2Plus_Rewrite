@@ -23,6 +23,10 @@ magyar = {
 
 		color = { 0.5 0.6 0.3 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Ábel_Abel Ádárn Ágoston_Augustine Álmos Árpád Õdön_Otto Alajos Ambrus_Ambrosius András_Andrew Antal Attila
 			Bálint Béla_Albert Balázs Benedek_Benedict Bernát_Bernard Bertók Bertalan_Bartolomeus Boldizsár_Baltasar Bonuslo Borisz_Boris
@@ -84,6 +88,10 @@ magyar = {
 		graphical_cultures = { magyargfx westerngfx }
 
 		color = { 0.5 0.6 0.31 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Ábel_Abel Ádárn Ágoston_Augustine Álmos Árpád Õdön_Otto Alajos Ambrus_Ambrosius András_Andrew Antal Attila

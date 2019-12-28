@@ -24,6 +24,11 @@ samodeic_group = {
 
 		color = { 0.3 0.75 0.75 }
 
+		character_modifier = {
+			finno_ugric_opinion = 5
+			# samodeic_group_opinion = 5
+		}
+
 		male_names = {
 			Alik
 			Hasaba

@@ -24,6 +24,10 @@ baltic = {
 
 		color = { 0.5 0.5 0.1 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Aishno Ako Ankad
 			Baise Balodis Bikshe Borut Bulei Butovit
@@ -71,6 +75,10 @@ baltic = {
 
 		color = { 0.56 0.55 0.2 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Algirdas Antanas Antavas Aras Arunas Azuolas
 			Budrys Bukantas Butavas Butigeidis Butvydas
@@ -115,6 +123,10 @@ baltic = {
 		graphical_cultures = { ugricgfx }
 
 		color = { 0.56 0.55 0.4 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Alvydas Arelis Auctune

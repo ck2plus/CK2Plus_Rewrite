@@ -29,6 +29,13 @@ west_aryan_group = {
 
 		color = { 0.8 0.3 0.21 }
 
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			# west_aryan_group_opinion = 5
+		}
+
 		male_names = {
 			Abhimanyu Ajitapida Amitabh Anandapala Anangapida Ananta Avanti Avantivarman
 			Bhikshachara Bhimadeva Bhimagupta Bhimpala Bhoja Boomersing "Boonyal Sing" Braj
@@ -87,6 +94,13 @@ west_aryan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.4 0.2 0.2 }
+
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			# west_aryan_group_opinion = 5
+		}
 
 		male_names = {
 			Abhayapala Acharya Ahila Ajairaja_Jayaraja Ajayapala Ajay-Singh Alhana Allat Amarangeya Ambra-Prasad Amritapala Anahilla Ari-Singh Arjunavarman Arnoraja Asaraja Asvapala
@@ -149,6 +163,13 @@ west_aryan_group = {
 
 		color = { 0.8 0.3 0.2 }
 
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			# west_aryan_group_opinion = 5
+		}
+
 		male_names = {
 			Ajit Amar "Amar Dasi" Amir Angad Arjun Atar
 			Basawa Bhagwant Bhaimani Budh
@@ -195,6 +216,13 @@ west_aryan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.0 0.0 }
+
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			# west_aryan_group_opinion = 5
+		}
 
 		male_names = {
 			Abhayapala Achalraj_Achalraja Achalraja_Achalraja Acharya Adhandev Adityadeva Ahila Ajairaja_Jayaraja Ajay-Singh Ajayapala Ajmal Alhana Allat Alsi Amarangeya Ambra-Prasad Amir Amritapala Anahilla Anangpal_Anangpala Anangpala_Anangpala Anupapala_Anupapala Anuppal_Anupapala "Apara Gangeya" Ari-Singh Arjunavarman Arjunpal_Arjunpala Arjunpala_Arjunpala Arnoraja Asaraja Asvapala
@@ -257,6 +285,13 @@ west_aryan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 1.0 0.2 0.0 }
+
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			# west_aryan_group_opinion = 5
+		}
 
 		male_names = {
 			Abdullah Abdurrashid Abdurrahman Alauddin "Ali Sher" Amar Arnel Asamuddin Aziz

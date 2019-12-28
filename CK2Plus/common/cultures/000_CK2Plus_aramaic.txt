@@ -26,6 +26,10 @@ aramaic = {
 
 		color = { 0.4 0.3 0.6 }
 
+		character_modifier = {
+			coptic_group_opinion = 5
+		}
+
 		male_names = {
 			Aba_Abba Abahu_Abahu Abaya_Abaya Abaye_Abaya Abayi_Abaya Abba_Abba Abdima 'Abdisho' Abgar Abimalek Abraham_Abraham Abris Abrisius_Abrisius Acacius_Acacius Achan Achina Addai_Thaddeus Adlai Aggai Ahai_Ahha Ahadabui Ahha_Ahha "Akha d'abuh'" Akh-es-Samain Aqib-Alaha Asa_Asa Ashur_Asher Avahu Avda_Abahu Avdima_Avdima Avdimi_Avdima Avina Avira Azai
 			Babaeus_Babaeus Babai_Babaeus Babowai_Babaeus Babwahi_Babaeus Bar Bar-Abba Barba'shimin Bar-Nabha Bar-Talmai Bar-Timai Bar-Tolmai Bustan_Bustan 
@@ -81,7 +85,11 @@ aramaic = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.5 0.4 0.4 }
-                      
+
+		character_modifier = {
+			coptic_group_opinion = 5
+		}
+
         male_names = {
             Aba_Abba Abahu_Abahu Abaya_Abaya Abaye_Abaya Abayi_Abaya Abba_Abba Abdima 'Abdisho' Abgar Abimalek Abraham_Abraham Abris Abrisius_Abrisius Acacius_Acacius Achan Achina Addai_Thaddeus Adlai Aggai Ahai_Ahha Ahadabui Ahha_Ahha "Akha d'abuh'" Akh-es-Samain Aqib-Alaha Asa_Asa Ashur_Asher Avahu Avda_Abahu Avdima_Avdima Avdimi_Avdima Avina Avira Azai
 			Bar Bar-abba Bar-nabha Bar-talmai Bar-timai Bar-tolmai 

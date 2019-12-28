@@ -26,9 +26,6 @@ iranian = {
 	graphical_cultures = { muslimgfx }
 
 	azeri = { #Azerbaijian
-		graphical_cultures = { persiangfx }
-		secondary_event_pictures = bedouin_arabic
-		color = { 0.7 0.6 0.2 }
 		alternate_start = {
 			OR = {
 				year >= 1200
@@ -36,6 +33,16 @@ iranian = {
 					key = culture
 					value = full_random }
 			}
+		}
+		
+		graphical_cultures = { persiangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.7 0.6 0.2 }
+
+		character_modifier = {
+			east_iranian_group_opinion = 5
+			# iranian_opinion = 5
 		}
 
 		male_names = {
@@ -100,6 +107,11 @@ iranian = {
 
 		color = { 0.4 0.4 0.05 }
 
+		character_modifier = {
+			east_iranian_group_opinion = 5
+			# iranian_opinion = 5
+		}
+
 		male_names = {
 			Aadam_Adam Aadeynag Aali_Ali Aalmaas Adham Allayaar Armaan
 			Baahout Baalaach Baaraan Baarag Bahraam_Bahram Ban'dag Bashshaam Behrouz Beh'zaad Bibagr_Babak Bohaador Buhaa'dor Bouheyr Braanz
@@ -146,7 +158,14 @@ iranian = {
 	daylamite = {
 		graphical_cultures = { persiangfx }
 		secondary_event_pictures = bedouin_arabic
+
 		color = { 0.6 0.5 0.15 }
+
+		character_modifier = {
+			east_iranian_group_opinion = 5
+			# iranian_opinion = 5
+		}
+
 		male_names = {
 			Afshar_Afshar Ahmad_Ahmad Allahyar Amin Anushirvan_Anushirvan Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir Asfar_Aswar Assad Aurang Avshin_Afshin Ayeshah
 			Babak_Babak Bahman Bahram_Bahram Bakhtiar_Bakhtiar Behrad Behrouz Bisutun Bozorg Buya
@@ -208,6 +227,11 @@ iranian = {
 
 		color = { 0.3 0.35 0.1 }
 
+		character_modifier = {
+			east_iranian_group_opinion = 5
+			# iranian_opinion = 5
+		}
+
 		male_names = {
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad
 			Babek_Babak Bahman Behrad Behram_Bahram Behrouz Bextîyar_Bakhtiar Bozorg
@@ -258,6 +282,11 @@ iranian = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.4 0.4 0.1 }
+
+		character_modifier = {
+			east_iranian_group_opinion = 5
+			# iranian_opinion = 5
+		}
 
 		male_names = {
 			Abbas Abolhassan Afshar_Afshar Ahmad_Ahmad Akbar_Akbar Ali_Ali Allahyar Amin Anushirvan_Anushirvan Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir Assad Aurang Ayeshah
@@ -320,6 +349,11 @@ iranian = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.8 0.8 0.4 }
+
+		character_modifier = {
+			east_iranian_group_opinion = 5
+			# iranian_opinion = 5
+		}
 
 		male_names = {
 			Abbas Abolhassan Afshar_Afshar Ahmad_Ahmad Akbar_Akbar Ali_Ali Allahyar Amin Anushirvan_Anushirvan Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir Assad Aurang Ayeshah

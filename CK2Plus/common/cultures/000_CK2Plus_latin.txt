@@ -26,6 +26,16 @@ latin = { # Gallo-Roman
 
 		color = { 0.2 0.8 0.8 }
 
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			# latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
+
 		male_names = {
 			Albèrt_Albert Allen_Alan Amèdê_Amadeus Anselme_Anselm Antouèno_Antoninus Aymon_Aymon
 			Benêt_Benedict Bèrnârd_Bernard Bèrnârden_Bernard Bertolomi_Bartolomeus Blése_Blaise Boniface_Bonifacius
@@ -87,6 +97,16 @@ latin = { # Gallo-Roman
 		graphical_cultures = { frankishgfx westerngfx }
 
 		color = { 0.8 0.8 0.2 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			# latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Adalbert_Albert Adémar_Adémar Adrien_Adrian Aimery_Aymeric Alain_Alan Aldebert_Albert Aldéric Alphonse_Alphonse Amaury_Amalric Amédée Ancel André_Andrew Angelbert Antoine_Antonius Archambaud_Archibald Arnaud_Arnold Arnault_Arnold Arnoul_Arnulf Aubry Aymar
@@ -158,6 +178,16 @@ latin = { # Gallo-Roman
 		graphical_cultures = { normangfx }
 
 		color = { 0.8 0.7 0.1 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			# latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Abelard_Abelard Adam_Adam Adelard_Adalhard Ademar Alexander_Alexander Alfons_Alphonse Amaury_Amalric Anfroi Anquetil Anselm_Anselm Armand_Armand Arnald_Arnold Asclettin Aubrey
@@ -235,6 +265,16 @@ latin = { # Gallo-Roman
 		graphical_cultures = { normangfx }
 
 		color = { 0.6 0.7 0.2 }
+
+		character_modifier = {
+			crusader_group_opinion = 5
+			east_romance_opinion = 5
+			iberian_opinion = 5
+			island_romance_opinion = 5
+			italian_group_opinion = 5
+			# latin_opinion = 5
+			occitano_romance_group_opinion = 5
+		}
 
 		male_names = {
 			Abelard_Abelard Adam_Adam Adelard_Adalhard Ademar Alexander_Alexander Alfons_Alphonse Amaury_Amalric Anfroi Anquetil Anselm_Anselm Armand_Armand Arnald_Arnold Asclettin Aubrey

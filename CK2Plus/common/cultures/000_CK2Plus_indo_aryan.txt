@@ -26,6 +26,13 @@ indo_aryan_group = {
 
 		color = { 0.65 0.25 0.11 }
 
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			# indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			west_aryan_group_opinion = 5
+		}
+
 		male_names = {
 			Aashish Ananta Ankit Akash Aramudi
 			Babu Bhairaja Bibhas Bibek Bikash Bishal
@@ -80,6 +87,13 @@ indo_aryan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.9 0.1 0.0 }
+
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			# indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			west_aryan_group_opinion = 5
+		}
 
 		male_names = {
 			Achalraj_Achalraja Achalraja_Achalraja Adhandev Adityadeva Ajmal Alsi Amir Anangpal_Anangpala Anangpala_Anangpala Anupapala_Anupapala Anuppal_Anupapala "Apara Gangeya" Arjunpal_Arjunpala Arjunpala_Arjunpala Arjunavarman
@@ -138,6 +152,13 @@ indo_aryan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.8 0.2 0.0 }
+
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			# indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			west_aryan_group_opinion = 5
+		}
 
 		male_names = {
 			Abaji Adityavarman Aiyaparaja Amutrao Anantadeva Aparaditya Aparajita Arikesarin Arthapathi Avasara
@@ -199,6 +220,13 @@ indo_aryan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.65 0.25 0.1  }
+
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			# indo_aryan_group_opinion = 5
+			insular_aryan_group_opinion = 5
+			west_aryan_group_opinion = 5
+		}
 
 		male_names = {
 			Aashish Ananta Ankit Akash Aramudi

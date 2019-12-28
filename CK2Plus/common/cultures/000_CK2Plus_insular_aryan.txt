@@ -26,6 +26,13 @@ insular_aryan_group = {
 
 		color = { 1.0 0.3 0.3 }
 
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			indo_aryan_group_opinion = 5
+			# insular_aryan_group_opinion = 5
+			west_aryan_group_opinion = 5
+		}
+
 		male_names = {
 			Agabala Aggabodhi Agibuti Ananda Anikanga Apaya Arittha Avirada Ayasmantha
 			Bhuvanekabahu Butisamana
@@ -82,6 +89,13 @@ insular_aryan_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 1.0 0.3 0.3 }
+
+		character_modifier = {
+			east_aryan_group_opinion = 5
+			indo_aryan_group_opinion = 5
+			# insular_aryan_group_opinion = 5
+			west_aryan_group_opinion = 5
+		}
 
 		male_names = {
 			Agabala Aggabodhi Agibuti Ananda Anikanga Apaya Arittha Avirada Ayasmantha

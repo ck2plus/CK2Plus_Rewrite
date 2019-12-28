@@ -28,6 +28,10 @@ byzantine = {
 
 		color = { 0.7 0.2 0.9 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Adnan Afrim Agim Agon Alban Alek Aleksander_Alexander Andrea_Andrew Ardian Ardit Arianit Armend
 			Bajram Bashkim Behar Besian Besnik Blerim Bua Burim
@@ -74,6 +78,10 @@ byzantine = {
 		graphical_cultures = { byzantinegfx }
 
 		color = { 0.5 0.2 0.5 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Abas Abirad Aboughamr Aboulgharib Aleksandr_Alexander Artashes Artashir_Ardeshir Artavazd_Ardabast Arsen Arshak Ashot_Ashot Athom Atrnerseh_Atrnerseh Avag Avedis
@@ -126,6 +134,10 @@ byzantine = {
 		graphical_cultures = { byzantinegfx }
 
 		color = { 0.8 0.3 0.8 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Adrianos_Adrian Akakios_Acacius Alexandros_Alexander Alexios_Alexis Anastasios_Anastasius Anatolios Andreas_Andrew Andronikos_Andronicus Anthemios Anthimos Antiochos Antonios_Antonius Apollonios Arsenios Artemios Athanasios_Athanasius
@@ -193,6 +205,10 @@ byzantine = {
 
 		color = { 0.8 0.4 0.9 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Adrianos_Adrian Akakios_Akakios Alexandros_Alexander Alexios_Alexis Ammianos_Ammianus Anastasios_Anastasius Anatolios_Anatolios Andreas_Andrew Andronikos_Andronicus Anthemios Anthimos Antiochos_Antiochos Antonios_Antonius Apollonios Arsenios_Arsenius Artabasdos_Artabasdius Artemios Athanasios_Athanasius
 			Bardas Bartholomaios_Bartolomeus Basileios_Basil Basiliskos_Basiliscus Belisarios_Belisarius Boethios_Boethius Bosporios
@@ -258,6 +274,10 @@ byzantine = {
 		graphical_cultures = { byzantinegfx }
 
 		color = { 0.39 0.20 0.39 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Adrianos_Adrian Akakios_Akakios Alexandros_Alexander Alexios_Alexis Ammianos_Ammianus Anastasios_Anastasius Anatolios_Anatolios Andreas_Andrew Andronikos_Andronicus Anthemios Anthimos Antiochos_Antiochos Antonios_Antonius Apollonios Arsenios_Arsenius Artabasdos_Artabasdius Artemios Athanasios_Athanasius

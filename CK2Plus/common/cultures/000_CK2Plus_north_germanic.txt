@@ -30,6 +30,14 @@ north_germanic = {
 
 		color = { 0.8 0.3 0.1 }
 
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			# north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Albert_Albert Aldred Alf Alfred Anders_Andrew Ansgar_Oscar Arthur_Arthur
 			Beorn_Beorn Beornwulf
@@ -96,6 +104,14 @@ north_germanic = {
 		}
 
 		color = { 0.15 0.4 0.55 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			# north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Abel_Abel Anders_Andrew Anund_Anund Asger
@@ -177,6 +193,14 @@ north_germanic = {
 
 		color = { 0.15 0.3 0.3 }
 
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			# north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Åke_Åke Albrikt_Albert Alf_Alf Algot_Adalgot Anders_Andrew Anund_Anund Arnbjörn_Arnbjörn Arne_Arne Arnfast_Arnfast Asbjörn_Asbjörn Astrad Azur
 			Bagge Balder_Balder Bengt_Benedict Bertil_Bertil 	Birger_Birger Björn_Beorn Bo_Bo Borkvard_Borkvard Botulf_Botulf Brage_Brage Bror_Bror Brynjolf_Brynjolf
@@ -246,6 +270,14 @@ north_germanic = {
 		graphical_cultures = { norsegfx }
 
 		color = { 0.2 0.65 0.65 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			# north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Arnar Ari Agnar Angantýr Arnleifr Ásgeir_Oscar
@@ -328,6 +360,14 @@ north_germanic = {
 		graphical_cultures = { norsegfx }
 
 		color = { 0.3 0.55 0.8 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			# north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		# Þ 222 þ 254 Ð 208 ð 240 æ
 
@@ -416,6 +456,14 @@ north_germanic = {
 
 		color = { 0.2 0.45 0.65 }
 
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			# north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Åle Alv_Alf Åmund Anund_Anund Arne_Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun
 			Balder_Balder Bård Bjørn_Beorn
@@ -481,6 +529,14 @@ north_germanic = {
 		graphical_cultures = { norsegfx }
 
 		color = { 0.25 0.5 0.75 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			# north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Åke Albrikt_Albert Alf_Alf Algot Anders_Andrew Anund_Anund Arnbjörn Arne_Arne Arnfast Asbjörn_Asbjörn Astrad Azur

@@ -37,6 +37,11 @@ maghrebi = {
 
 		color = { 0.4 0.6 0.1 }
 
+		character_modifier = {
+			arabic_opinion = 5
+			# maghrebi_opinion = 5
+		}
+
 		male_names = {
 			Abbad Abbas_Abbas Abdallah_Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan_Hasan Abdul-Hazm Abdul-Rahman Abdul-Razzaq Abdul_Abdul Abu Abu-Bakr_Abu-Bakr Adfuns_Alphonse Ahmad_Ahmad Ali_Ali Amr Ayyub_Job
 			Balashk_Vasco Bilal
@@ -102,6 +107,11 @@ maghrebi = {
 		graphical_cultures = { berbergfx arabicgfx muslimgfx }
 
 		color = { 0.2 0.9 0.2 }
+
+		character_modifier = {
+			arabic_opinion = 5
+			# maghrebi_opinion = 5
+		}
 
 		male_names = {
 			Abakada Abazza Abbas_Abbas Abdul_Abdul Abdul-Azeem Abdul-Haleem Abdul-Kareem Abdul-Rahman Abdullah_Abdullah Abidin Adal Adam_Adam Aderbal Adergazuz Adherbal Admer Adrir Adum Afaghis Afalawas Afalku Afer Afulay Agafay Agama Agdada Agdun Agellid Aggur Aghali Aghecher Aghilas Agwillul Ahamatu Aheyyad Ahmad_Ahmad Ajdir Ajeddig Akaday Akateiaji Akli Akorakor Aksel_Caecilius Aksil_Caecilius Akutla Akzer Al'a'addin Ali_Ali Alyamas Amawal Amayas Amaz'uz' Ambay Amdegh Amellal Amennay Ameska Amessan Amin Amma Ammuc Amray Amri Amud Anaba Annaber Antalas Anwa Aras Asad Asaru Asirem Aszellay Atissi Awdia Awgustin_Augustine Awinagh Awlagh Awzal Aylal Ayt'ere Az'ar Az'regh Azenkwed Azim Azrur
@@ -180,6 +190,11 @@ maghrebi = {
 		graphical_cultures = { andalusiangfx }
 
 		color = { 0.3 0.6 0.3 }
+
+		character_modifier = {
+			arabic_opinion = 5
+			# maghrebi_opinion = 5
+		}
 
 		male_names = {
 			Abbas Abdul-Azeem Abdul-Haleem Abdul-Kareem Abdul-Rahman Abdullah Abelardo_Abelard Achille_Achilles Adalberto_Albert Adam_Adam Adelmio Adelmo Adolfo_Adolf Adriano_Adrian Agostino_Augustine Ahmad Al'a'addin Alamanno_Aleman Alberico Alberto_Albert Alessio Ali Alighiero Ambrogio Amedeo Amin Anastasio_Anastasius Angelo_Angel Anselmo_Anselm Antonin Arcibaldo_Archibald Arderico_Ardaric Armando_Armand Arnolfo Arrigo_Arrigo Arsenio_Arsenius Artemio Asad Ascanio_Ascanius Astorre_Astor Atenolfo_Atenulf Attilio_Atilius Augusto_August Aurelio_Aurelius Ausilio_Ausilius Ausonio_Ausonius Azim Azzo_Azzus Azzone_Azzus

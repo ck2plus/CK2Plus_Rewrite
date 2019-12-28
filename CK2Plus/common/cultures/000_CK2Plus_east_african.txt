@@ -25,6 +25,11 @@ east_african = {
 
 		color = { 0.4 0.4 0.3 }
 
+		character_modifier = {
+			cushitic_group_opinion = 5
+			eastern_sudanic_group_opinion = 5
+		}
+
 		male_names = {
 			Abai Abebe Afework Aman Amare Assefa Atoberhan Azmera
 			Bekele Benaim Berhanu Berhanua Berihun Berta Bworo
@@ -80,6 +85,11 @@ east_african = {
 
 		color = { 0.5 0.5 0.31 }
 
+		character_modifier = {
+			cushitic_group_opinion = 5
+			eastern_sudanic_group_opinion = 5
+		}
+
 		male_names = {
 			Abu-Bakr_Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir Abdul-Wahab Abdul_Abdul Abdullah_Abdullah Aghlab Akin Ali_Ali Alim Aram Azam Bahir Burhanaddin
 			Fadil_Fadl Fadl_Fadl Faruk_Farroukh Ghalib Hafiz Halil_Khalil Hasan_Hasan Husam Hussayn_Hussein Ibrahim_Abraham Idris Is'mail_Ismail Isa Jabir Jalil Jibril_Gabriel Khaireddin Khalil_Khalil Mahdi Mahmud_Mahmud
@@ -108,6 +118,11 @@ east_african = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.5 0.5 0.3 }
+
+		character_modifier = {
+			cushitic_group_opinion = 5
+			eastern_sudanic_group_opinion = 5
+		}
 
 		male_names = {
 			Abay Abiel_Gabriel Ablelom Abraham_Abraham Abrehet Abune Adhanom Adjam Afwerki Akberet Aklilu Alula Aman Anbessa Araya Ariam Arkebe Aron_Aaron Asieb Asmerom Awet

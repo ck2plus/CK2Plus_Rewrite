@@ -31,6 +31,10 @@ israelite = {
 
 		color = { 0.6 0.3 0.6 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Abba Abbaye Acha Achai Achunai Aharon_Aaron Alechsandri_Alexander Ammi Amram Amunah Ashi Asher Avomai Avraham_Abraham Azariah
 			Baboi Baruch Bibai Binyamin_Benjamin Boaz Bustenai
@@ -77,6 +81,10 @@ israelite = {
 		graphical_cultures = { byzantinegfx }
 
 		color = { 0.8 0.2 0.2 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Abba Abbaye Acha Achai Achinoam Achunai Adar Adir Aharon Ahav Ahaz Ahazyahu Akiva Alechsandri Almog Alon Amit Ammi Amon Amram Amunah Ariel Asa Asaf Asher Ashi Atalyah Aviram Avishay Aviv Aviyam Avomai Avraham Azariah Azriel
@@ -147,6 +155,10 @@ israelite = {
 
 		color = { 0.5 0.5 0.3 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Achinoam Adar Adir Aharon Akiva Almog Alon Amit Ariel Asaf Asher Aviram Avishay Aviv Avraham Azriel
 			Bar Baruch Benyamin
@@ -215,6 +227,10 @@ israelite = {
 		graphical_cultures = { byzantinegfx }
 
 		color = { 0.7 0.2 0.7 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Abba Abbaye Acha Achai Achunai Aharon_Aaron Alechsandri_Alexander Ammi Amram Amunah Ashi Asher Avomai Avraham_Abraham Azariah

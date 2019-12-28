@@ -27,6 +27,11 @@ cushitic_group = {
 
 		color = { 0.2 0.2 0.1 }
 
+		character_modifier = {
+			east_african_opinion = 5
+			eastern_sudanic_group_opinion = 5
+		}
+
 		male_names = {
 			Abdul Abdulkadir Adam Ahmad Ahmed Ali Alimirah Aref Asa Aydahis
 			Badlay Basu Bourhan
@@ -69,6 +74,11 @@ cushitic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.55 0.95 0.25 }
+
+		character_modifier = {
+			east_african_opinion = 5
+			eastern_sudanic_group_opinion = 5
+		}
 
 		male_names = {
 			Abdak Abdul_Abdul Abdullah_Abdullah Adam Ahmed_Ahmad Ali-Baba Ali_Ali Ankwaana Ar Aririit
@@ -121,6 +131,11 @@ cushitic_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.2 0.2 0.1 }
+
+		character_modifier = {
+			east_african_opinion = 5
+			eastern_sudanic_group_opinion = 5
+		}
 
 		male_names = {
 			Abadir Abdale Abdirahman Abdulah_Abdullah Abram_Abraham Abu-Bakr_Abu-Bakr Adan Adeer Ahmed_Ahmad Ali_Ali Amlale Aul Awe Aydahis

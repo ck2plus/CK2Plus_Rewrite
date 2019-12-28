@@ -30,6 +30,10 @@ celtic = {
 
 		color = { 0.3 0.5 0.4 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Adoyre Adrien_Adrian Aedan_Hugh Agustin_Augustine Alan_Alan Alar_Alaric Aldrien_Aldroenus Alfrond Alor Alured_Alfred Alwen_Alwin Anaoc Anaubritou Anaugen Anauguethen Anauguoret Anauhocar Andreas_Andrew Aniud Anton_Antonius Argantbri Argantmoet Arnalt_Arnold Arthel Arthguiu_Artorius Arthmael Arthueu_Artorius Arthuiu_Artorius Arthur_Arthur Austol
 			Baldoen_Baldwin Bastian_Sebastian Beli_Beli Beltram_Bertrand Benabic Berenger_Berengar Bernead_Bernard Berthgualt_Berthoald Bledric_Bledrig Bledros Bleidcum Bletcu Blethin_Bleddyn Blethiut_Bleiddud Bodan Bran_Bran Brangualart_Branwaladr Branhucar Branoc Brenci Brendan Breselconan Breselcoucant Breselgar Breseloc Breselueu Brethoc Brient_Brian Brigualt Brioc_Briog Brithael Brochuael_Brogmaglus Bronmael Budguoret Budhoiarn Budic_Benedict Budoc Buhedoc Butgual
@@ -100,6 +104,10 @@ celtic = {
 		graphical_cultures = { celticgfx }
 
 		color = { 0.4 0.8 0.5 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Adoyre Aedan Anaoc Aniud Argantbri Argantmoet Arranz Arthnou_Arthur Arthyen Austol
@@ -176,6 +184,10 @@ celtic = {
 
 		color = { 0.35 0.75 0.45 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Adda Aeddan Alan_Alan Alisander_Alexander Alcun_Alwyn Amlawdd Anaraut_Anarawd Aneirin_Aneurin Annun Araut_Arod Arthfael Arthur_Arthur Arthuir_Arthur Arthus_Artorius Arthuis_Artorius Asa Asaph Awst_Augustus Awstin_Augustine
 			Bangar Bedwyr Bleddyn Brân Branwaladr_Brendan Brochfael_Brogmaglus Brochmael_Brogmaglus Brut_Brutus Brwyn Brychan
@@ -244,6 +256,10 @@ celtic = {
 		graphical_cultures = { celticgfx }
 
 		color = { 0.3 0.3 0.7 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Adoyre Alan Amhlaibh Amlaíb Aneurin Aonghus_Angus Arc'hantael
@@ -315,6 +331,10 @@ celtic = {
 
 		color = { 0.3 0.8 0.8 }
 
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
+
 		male_names = {
 			Aaron_Aaron Abbán Abner_Abner Abél_Abel Adomnán Áed_Hugh Áedgen Áeducán Áedán_Hugh Áengus_Angus Affiath Ailbe Ailbrend Ailbrenn Ailchú Aildobur Ailgel Áilgenán Ailgus
 			Ailill Ailpín_Alwin Ainbchellach Áindle Ainftech_Enfidaig Ainmere Airechtach Airfhindán Airfhinnán Airleid Airmedach Amalgaid Amlaíb_Olaf Anfudán Anlón Anmchaid Ánrothán Ardgal
@@ -380,6 +400,10 @@ celtic = {
 		graphical_cultures = { celticgfx }
 
 		color = { 0.2 0.6 0.6 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		alternate_start = {
 			OR = {
@@ -489,6 +513,10 @@ celtic = {
 		graphical_cultures = { celticgfx }
 
 		color = { 0.3 0.8 0.6 }
+
+		# character_modifier = {
+			# not part of any supergroup!
+		# }
 
 		male_names = {
 			Adda Adgar_Edgar Adran_Adrian Aeddan_Hugh Alan_Alan Aldwr_Aldroenus Algwyn_Alwin Alisander_Alexander Alured_Alfred Alwyn_Alwin Anarawd

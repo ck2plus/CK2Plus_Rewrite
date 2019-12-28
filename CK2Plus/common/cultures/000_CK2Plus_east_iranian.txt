@@ -29,6 +29,11 @@ east_iranian_group = {
 
 		color = { 0.6 0.6 0.1 }
 
+		character_modifier = {
+			# east_iranian_group_opinion = 5
+			iranian_opinion = 5
+		}
+
 		male_names = {
 			Aaban Aabdar Aalem Aakrama Aamir Aaqel Aarash Aarif Aazar Abas_Abbas Abdiesus Abed Abu-zar Afzal Adel Afrooz Afsar_Afshar Afshin Ajmal Akbar_Akbar Akhtar Akram Alaudin Akbarkhan Almeida Amardad Amooz Anoushiravan_Anushirvan Anwaaraddin Ariabood Armeen Aryo Arzhang Asadi Ashtak Azfaar Azoom Azyan Azzami Azzat
 			Baddar Badeed Badih Badilayn Badrawi Baghish Bahiri Bahirun Bahlul Bahnam
@@ -89,6 +94,11 @@ east_iranian_group = {
 
 		color = { 0.7 0.5 0.7 }
 
+		character_modifier = {
+			# east_iranian_group_opinion = 5
+			iranian_opinion = 5
+		}
+
 		male_names = {
 			Ælbeg Æmbalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot_Ashot Aslan Aspar Athom
 			Balambar Balsag Barlah Bæqætar Basil_Basil Bazuk Beler Ber Biræg Boz-Uruz Buürgur Buriberdi Burikhan
@@ -141,6 +151,11 @@ east_iranian_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.3 0.2 0.1 }
+
+		character_modifier = {
+			# east_iranian_group_opinion = 5
+			iranian_opinion = 5
+		}
 
 		male_names = {
 			Afrig Akhurmaztakk Akhushfarn_Akhushfarn Anghatnaw Anghatspadh Anushirvan_Anushirvan Ardavan_Ardavan Ardeshir_Ardeshir Armatsach Arsach Arsamuh Artikhuvandakh Artivan_Ardavan Askajamuk Aspandhat Astken Aurang_Aurang Avyaman Avyaman-yan_Avyaman-yan Avyaman_Avyaman Avyamanch_Avyamanch Avyamanvandak Axushfarn Azkajwar
@@ -204,6 +219,11 @@ east_iranian_group = {
 
 		color = { 0.4 0.2 0.75  }
 
+		character_modifier = {
+			# east_iranian_group_opinion = 5
+			iranian_opinion = 5
+		}
+
 		male_names = {
 			Alysanna Arsa Aryamgula Asi
 			Baga Bahudhiva Bamdaka Bhadra Bradaysaa Brika
@@ -254,6 +274,11 @@ east_iranian_group = {
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.43 0.32 0.32 }
+
+		character_modifier = {
+			# east_iranian_group_opinion = 5
+			iranian_opinion = 5
+		}
 
 		male_names = {
 			Akhurmaztakk Akhushfarn_Akhushfarn Anghatnaw Anghatspadh Anushirvan_Anushirvan Ardavan_Ardavan Ardeshir_Ardeshir Armatsach Arsach Artikhuvandakh Artivan_Ardavan Aspandhat Astken Aurang_Aurang Avyaman Avyaman-yan_Avyaman-yan Avyaman_Avyaman Avyamanch_Avyamanch Avyamanvandak Axushfarn

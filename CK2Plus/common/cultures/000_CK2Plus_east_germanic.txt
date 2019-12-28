@@ -25,6 +25,14 @@ east_germanic = {
 
 		color = { 0.8 0.4 0.8}
 
+		character_modifier = {
+			central_germanic_opinion = 5
+			# east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
+
 		male_names = {
 			Achila Adrianos_Adrian Alaricos_Alaric Alexandros_Alexander Alexios_Alexis Amalaric Andreas_Andrew Andronikos_Andronicus Antonios_Antonius Arsenios Athanasios_Athanasius Athanaricos Ataulphus
 			Bartholomaios_Bartolomeus Bosporios
@@ -87,6 +95,14 @@ east_germanic = {
 		graphical_cultures = { southerngfx }
 
 		color = { 0.55 0.55 0.15 }
+
+		character_modifier = {
+			central_germanic_opinion = 5
+			# east_germanic_opinion = 5
+			franco_germanic_opinion = 5
+			north_germanic_opinion = 5
+			west_germanic_opinion = 5
+		}
 
 		male_names = {
 			Adelfonso_Alphonse Agila Airmanagildo Alaricho_Alaric Aloito Assur Athanagildo
