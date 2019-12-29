@@ -27,10 +27,10 @@
 #	traits_tier_4_factor
 #	traits_tier_5_factor
 #
-#	light_troops_tier_2_factor
-#	light_troops_tier_3_factor
-#	light_troops_tier_4_factor
-#	light_troops_tier_5_factor
+#	light_foot_troops_tier_2_factor
+#	light_foot_troops_tier_3_factor
+#	light_foot_troops_tier_4_factor
+#	light_foot_troops_tier_5_factor
 #
 #	heavy_troops_tier_2_factor
 #	heavy_troops_tier_3_factor
@@ -3126,89 +3126,69 @@ traits_tier_2_factor = {
 	# Terrain traits
 	mult_modifier = {
 		factor = 1.33 # roughly 6 martial
-		location = {
-			OR = {
-				is_winter = yes
-				terrain = arctic
-			}
-		}
-		leader = {
-			OR = {
-				trait = winter_soldier
-				trait = finnish_leader
-			}
-		}
+		plus_winter_arctic_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = plains
-				terrain = farmlands
-				terrain = steppe
-			}
-		}
-		leader = {
-			OR = {
-				trait = flat_terrain_leader
-				trait = tengri_leader
-				trait = slavic_leader
-			}
-		}
+		plus_flat_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = forest
-				terrain = woods
-				terrain = marsh
-			}
-		}
-		leader = {
-			OR = {
-				trait = rough_terrain_leader
-				trait = sapper # Way of the Leopard
-				trait = baltic_leader
-			}
-		}
+		plus_mountain_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = hills
-				terrain = mountain
-				terrain = impassable_mountains
-			}
-		}
-		leader = {
-			OR = {
-				trait = mountain_terrain_leader
-				trait = bon_leader
-				trait = zun_leader
-			}
-		}
+		plus_rough_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = desert
-				terrain = coastal_desert
-			}
-		}
-		leader = {
-			OR = {
-				trait = desert_terrain_leader
-				trait = west_african_leader
-			}
-		}
+		plus_jungle_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		location = { terrain = jungle }
-		leader = { trait = jungle_terrain_leader }
+		plus_desert_terrain_trigger = yes
+	}
+
+	# Warrior Lodge traits - terrain aspect
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_baltic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_basque_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_bon_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_celtic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_finnish_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_norse_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_slavic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_tengri_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_zun_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_west_african_leader_terrain_trigger = yes
 	}
 
 	# Education traits
@@ -3232,89 +3212,17 @@ traits_tier_2_factor = {
 	# Other military traits
 	mult_modifier = {
 		factor = 1.33 # roughly 6 martial
-		leader = {
-			OR =  {
-				trait = holy_warrior
-				trait = crusader_king
-				trait = crusader_queen
-			}
-		}
-		plus_opposing_leader_is_of_hostile_religion_trigger = yes
+		plus_religious_enemies_holy_warrior_trigger = yes
 	}
 
 	# Flanking
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = experimenter # Direct Leader
-				trait = logistics_expert # Way of the Dog
-			}
-			OR = {
-				liege = {
-					any_army = {
-						center_flank_leader = {
-							character = PREVPREVPREV
-						}
-					}
-				}
-				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
-					mercenary = yes
-					any_unit_leader = {
-						liege = {
-							any_army = {
-								center_flank_leader = {
-									character = PREVPREVPREV
-								}
-							}
-						}
-					}
-				}
-			}
-		}
+		plus_center_flank_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = flanker
-				trait = levy_coordinator # Way of the Tiger
-				trait = baltic_leader
-				trait = gamer
-			}
-			OR = {
-				liege = { # either leading a side flank
-					any_army = {
-						OR = {
-							left_flank_leader = {
-								character = PREVPREVPREV
-							}
-							right_flank_leader = {
-								character = PREVPREVPREV
-							}
-						}
-					}
-				}
-				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
-					mercenary = yes
-					any_unit_leader = {
-						liege = {
-							any_army = {
-								OR = {
-									left_flank_leader = {
-										character = PREVPREVPREVPREV
-									}
-									right_flank_leader = {
-										character = PREVPREVPREVPREV
-									}
-								}
-							}
-						}
-					}
-				}
-				ROOT = { is_flanking = yes } # or flanking from any flank
-			}
-		}
+		plus_side_flank_trigger = yes
 	}
 }
 
@@ -3322,89 +3230,69 @@ traits_tier_3_factor = {
 	# Terrain traits
 	mult_modifier = {
 		factor = 1.75 # roughly 6 martial
-		location = {
-			OR = {
-				is_winter = yes
-				terrain = arctic
-			}
-		}
-		leader = {
-			OR = {
-				trait = winter_soldier
-				trait = finnish_leader
-			}
-		}
+		plus_winter_arctic_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = plains
-				terrain = farmlands
-				terrain = steppe
-			}
-		}
-		leader = {
-			OR = {
-				trait = flat_terrain_leader
-				trait = tengri_leader
-				trait = slavic_leader
-			}
-		}
+		plus_flat_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = forest
-				terrain = woods
-				terrain = marsh
-			}
-		}
-		leader = {
-			OR = {
-				trait = rough_terrain_leader
-				trait = sapper # Way of the Leopard
-				trait = baltic_leader
-			}
-		}
+		plus_mountain_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = hills
-				terrain = mountain
-				terrain = impassable_mountains
-			}
-		}
-		leader = {
-			OR = {
-				trait = mountain_terrain_leader
-				trait = bon_leader
-				trait = zun_leader
-			}
-		}
+		plus_rough_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = desert
-				terrain = coastal_desert
-			}
-		}
-		leader = {
-			OR = {
-				trait = desert_terrain_leader
-				trait = west_african_leader
-			}
-		}
+		plus_jungle_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		location = { terrain = jungle }
-		leader = { trait = jungle_terrain_leader }
+		plus_desert_terrain_trigger = yes
+	}
+
+	# Warrior Lodge traits - terrain aspect
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_baltic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_basque_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_bon_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_celtic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_finnish_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_norse_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_slavic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_tengri_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_zun_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_west_african_leader_terrain_trigger = yes
 	}
 
 	# Education traits
@@ -3428,89 +3316,17 @@ traits_tier_3_factor = {
 	# Other military traits
 	mult_modifier = {
 		factor = 1.75 # roughly 6 martial
-		leader = {
-			OR =  {
-				trait = holy_warrior
-				trait = crusader_king
-				trait = crusader_queen
-			}
-		}
-		plus_opposing_leader_is_of_hostile_religion_trigger = yes
+		plus_religious_enemies_holy_warrior_trigger = yes
 	}
 
 	# Flanking
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = experimenter # Direct Leader
-				trait = logistics_expert # Way of the Dog
-			}
-			OR = {
-				liege = {
-					any_army = {
-						center_flank_leader = {
-							character = PREVPREVPREV
-						}
-					}
-				}
-				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
-					mercenary = yes
-					any_unit_leader = {
-						liege = {
-							any_army = {
-								center_flank_leader = {
-									character = PREVPREVPREV
-								}
-							}
-						}
-					}
-				}
-			}
-		}
+		plus_center_flank_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = flanker
-				trait = levy_coordinator # Way of the Tiger
-				trait = baltic_leader
-				trait = gamer
-			}
-			OR = {
-				liege = { # either leading a side flank
-					any_army = {
-						OR = {
-							left_flank_leader = {
-								character = PREVPREVPREV
-							}
-							right_flank_leader = {
-								character = PREVPREVPREV
-							}
-						}
-					}
-				}
-				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
-					mercenary = yes
-					any_unit_leader = {
-						liege = {
-							any_army = {
-								OR = {
-									left_flank_leader = {
-										character = PREVPREVPREVPREV
-									}
-									right_flank_leader = {
-										character = PREVPREVPREVPREV
-									}
-								}
-							}
-						}
-					}
-				}
-				ROOT = { is_flanking = yes } # or flanking from any flank
-			}
-		}
+		plus_side_flank_trigger = yes
 	}
 }
 
@@ -3518,89 +3334,69 @@ traits_tier_4_factor = {
 	# Terrain traits
 	mult_modifier = {
 		factor = 2.3 # roughly 6 martial
-		location = {
-			OR = {
-				is_winter = yes
-				terrain = arctic
-			}
-		}
-		leader = {
-			OR = {
-				trait = winter_soldier
-				trait = finnish_leader
-			}
-		}
+		plus_winter_arctic_trigger = yes
 	}
 	mult_modifier = {
-		factor = 2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = plains
-				terrain = farmlands
-				terrain = steppe
-			}
-		}
-		leader = {
-			OR = {
-				trait = flat_terrain_leader
-				trait = tengri_leader
-				trait = slavic_leader
-			}
-		}
+		factor = 1.75 # roughly 4 martial
+		plus_flat_terrain_trigger = yes
 	}
 	mult_modifier = {
-		factor = 2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = forest
-				terrain = woods
-				terrain = marsh
-			}
-		}
-		leader = {
-			OR = {
-				trait = rough_terrain_leader
-				trait = sapper # Way of the Leopard
-				trait = baltic_leader
-			}
-		}
+		factor = 1.75 # roughly 4 martial
+		plus_mountain_terrain_trigger = yes
 	}
 	mult_modifier = {
-		factor = 2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = hills
-				terrain = mountain
-				terrain = impassable_mountains
-			}
-		}
-		leader = {
-			OR = {
-				trait = mountain_terrain_leader
-				trait = bon_leader
-				trait = zun_leader
-			}
-		}
+		factor = 1.75 # roughly 4 martial
+		plus_rough_terrain_trigger = yes
 	}
 	mult_modifier = {
-		factor = 2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = desert
-				terrain = coastal_desert
-			}
-		}
-		leader = {
-			OR = {
-				trait = desert_terrain_leader
-				trait = west_african_leader
-			}
-		}
+		factor = 1.75 # roughly 4 martial
+		plus_jungle_terrain_trigger = yes
 	}
 	mult_modifier = {
-		factor = 2 # roughly 4 martial
-		location = { terrain = jungle }
-		leader = { trait = jungle_terrain_leader }
+		factor = 1.75 # roughly 4 martial
+		plus_desert_terrain_trigger = yes
+	}
+
+	# Warrior Lodge traits - terrain aspect
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_baltic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_basque_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_bon_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_celtic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_finnish_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_norse_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_slavic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_tengri_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_zun_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_west_african_leader_terrain_trigger = yes
 	}
 
 	# Education traits
@@ -3624,89 +3420,17 @@ traits_tier_4_factor = {
 	# Other military traits
 	mult_modifier = {
 		factor = 2.3 # roughly 6 martial
-		leader = {
-			OR =  {
-				trait = holy_warrior
-				trait = crusader_king
-				trait = crusader_queen
-			}
-		}
-		plus_opposing_leader_is_of_hostile_religion_trigger = yes
+		plus_religious_enemies_holy_warrior_trigger = yes
 	}
 
 	# Flanking
 	mult_modifier = {
 		factor = 1.75 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = experimenter # Direct Leader
-				trait = logistics_expert # Way of the Dog
-			}
-			OR = {
-				liege = {
-					any_army = {
-						center_flank_leader = {
-							character = PREVPREVPREV
-						}
-					}
-				}
-				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
-					mercenary = yes
-					any_unit_leader = {
-						liege = {
-							any_army = {
-								center_flank_leader = {
-									character = PREVPREVPREV
-								}
-							}
-						}
-					}
-				}
-			}
-		}
+		plus_center_flank_trigger = yes
 	}
 	mult_modifier = {
 		factor = 1.75 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = flanker
-				trait = levy_coordinator # Way of the Tiger
-				trait = baltic_leader
-				trait = gamer
-			}
-			OR = {
-				liege = { # either leading a side flank
-					any_army = {
-						OR = {
-							left_flank_leader = {
-								character = PREVPREVPREV
-							}
-							right_flank_leader = {
-								character = PREVPREVPREV
-							}
-						}
-					}
-				}
-				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
-					mercenary = yes
-					any_unit_leader = {
-						liege = {
-							any_army = {
-								OR = {
-									left_flank_leader = {
-										character = PREVPREVPREVPREV
-									}
-									right_flank_leader = {
-										character = PREVPREVPREVPREV
-									}
-								}
-							}
-						}
-					}
-				}
-				ROOT = { is_flanking = yes } # or flanking from any flank
-			}
-		}
+		plus_side_flank_trigger = yes
 	}
 }
 
@@ -3714,89 +3438,69 @@ traits_tier_5_factor = {
 	# Terrain traits
 	mult_modifier = {
 		factor = 3 # roughly 6 martial
-		location = {
-			OR = {
-				is_winter = yes
-				terrain = arctic
-			}
-		}
-		leader = {
-			OR = {
-				trait = winter_soldier
-				trait = finnish_leader
-			}
-		}
+		plus_winter_arctic_trigger = yes
 	}
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = plains
-				terrain = farmlands
-				terrain = steppe
-			}
-		}
-		leader = {
-			OR = {
-				trait = flat_terrain_leader
-				trait = tengri_leader
-				trait = slavic_leader
-			}
-		}
+		plus_flat_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = forest
-				terrain = woods
-				terrain = marsh
-			}
-		}
-		leader = {
-			OR = {
-				trait = rough_terrain_leader
-				trait = sapper # Way of the Leopard
-				trait = baltic_leader
-			}
-		}
+		plus_mountain_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = hills
-				terrain = mountain
-				terrain = impassable_mountains
-			}
-		}
-		leader = {
-			OR = {
-				trait = mountain_terrain_leader
-				trait = bon_leader
-				trait = zun_leader
-			}
-		}
+		plus_rough_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		location = {
-			OR = {
-				terrain = desert
-				terrain = coastal_desert
-			}
-		}
-		leader = {
-			OR = {
-				trait = desert_terrain_leader
-				trait = west_african_leader
-			}
-		}
+		plus_jungle_terrain_trigger = yes
 	}
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		location = { terrain = jungle }
-		leader = { trait = jungle_terrain_leader }
+		plus_desert_terrain_trigger = yes
+	}
+
+	# Warrior Lodge traits - terrain aspect
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_baltic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_basque_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_bon_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_celtic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_finnish_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_norse_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_slavic_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_tengri_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_zun_leader_terrain_trigger = yes
+	}
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_west_african_leader_terrain_trigger = yes
 	}
 
 	# Education traits
@@ -3820,240 +3524,133 @@ traits_tier_5_factor = {
 	# Damage against religious enemies
 	mult_modifier = {
 		factor = 3 # roughly 6 martial
-		leader = {
-			OR =  {
-				trait = holy_warrior
-				trait = crusader_king
-				trait = crusader_queen
-			}
-		}
-		plus_opposing_leader_is_of_hostile_religion_trigger = yes
+		plus_religious_enemies_holy_warrior_trigger = yes
 	}
 
 	# Flanking
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = experimenter # Direct Leader
-				trait = logistics_expert # Way of the Dog
-			}
-			OR = {
-				liege = {
-					any_army = {
-						center_flank_leader = {
-							character = PREVPREVPREV
-						}
-					}
-				}
-				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
-					mercenary = yes
-					any_unit_leader = {
-						liege = {
-							any_army = {
-								center_flank_leader = {
-									character = PREVPREVPREV
-								}
-							}
-						}
-					}
-				}
-			}
-		}
+		plus_center_flank_trigger = yes
 	}
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = flanker
-				trait = levy_coordinator # Way of the Tiger
-				trait = baltic_leader
-				trait = gamer
-			}
-			OR = {
-				liege = { # either leading a side flank
-					any_army = {
-						OR = {
-							left_flank_leader = {
-								character = PREVPREVPREV
-							}
-							right_flank_leader = {
-								character = PREVPREVPREV
-							}
-						}
-					}
-				}
-				AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
-					mercenary = yes
-					any_unit_leader = {
-						liege = {
-							any_army = {
-								OR = {
-									left_flank_leader = {
-										character = PREVPREVPREVPREV
-									}
-									right_flank_leader = {
-										character = PREVPREVPREVPREV
-									}
-								}
-							}
-						}
-					}
-				}
-				ROOT = { is_flanking = yes } # or flanking from any flank
-			}
-		}
+		plus_side_flank_trigger = yes
 	}
 }
 
 # Increases chance of picking a higher tier tactic involving light infantry
-light_troops_tier_2_factor = {
+light_foot_troops_tier_2_factor = {
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = light_foot_leader
-				trait = bon_leader
-				trait = west_african_leader
-			}
-		}
+		plus_light_foot_troops_trigger = yes
 	}
 }
 
-light_troops_tier_3_factor = {
+light_foot_troops_tier_3_factor = {
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = light_foot_leader
-				trait = bon_leader
-				trait = west_african_leader
-			}
-		}
+		plus_light_foot_troops_trigger = yes
 	}
 }
 
-light_troops_tier_4_factor = {
+light_foot_troops_tier_4_factor = {
 	mult_modifier = {
 		factor = 1.75 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = light_foot_leader
-				trait = bon_leader
-				trait = west_african_leader
-			}
-		}
+		plus_light_foot_troops_trigger = yes
 	}
 }
 
-light_troops_tier_5_factor = {
+light_foot_troops_tier_5_factor = {
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = light_foot_leader
-				trait = bon_leader
-				trait = west_african_leader
-			}
-		}
+		plus_light_foot_troops_trigger = yes
 	}
 }
 
 # Increases chance of picking a higher tier tactic involving heavy infantry
-heavy_troops_tier_2_factor = {
+heavy_foot_troops_tier_2_factor = {
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = heavy_infantry_leader
-				trait = norse_leader
-			}
-		}
+		plus_heavy_foot_troops_trigger = yes
 	}
 }
 
-heavy_troops_tier_3_factor = {
+heavy_foot_troops_tier_3_factor = {
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = heavy_infantry_leader
-				trait = norse_leader
-			}
-		}
+		plus_heavy_foot_troops_trigger = yes
 	}
 }
 
-heavy_troops_tier_4_factor = {
+heavy_foot_troops_tier_4_factor = {
 	mult_modifier = {
 		factor = 1.75 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = heavy_infantry_leader
-				trait = norse_leader
-			}
-		}
+		plus_heavy_foot_troops_trigger = yes
 	}
 }
 
-heavy_troops_tier_5_factor = {
+heavy_foot_troops_tier_5_factor = {
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = heavy_infantry_leader
-				trait = norse_leader
-			}
-		}
+		plus_heavy_foot_troops_trigger = yes
 	}
 }
 
-# Increases chance of picking a higher tier tactic involving cavalry
-mounted_troops_tier_2_factor = {
+# Increases chance of picking a higher tier tactic involving light cavalry
+light_mounted_troops_tier_2_factor = {
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = cavalry_leader
-				trait = tengri_leader
-			}
-		}
+		plus_light_mounted_troops_trigger = yes
 	}
 }
 
-mounted_troops_tier_3_factor = {
+light_mounted_troops_tier_3_factor = {
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = cavalry_leader
-				trait = tengri_leader
-			}
-		}
+		plus_light_mounted_troops_trigger = yes
 	}
 }
 
-mounted_troops_tier_4_factor = {
+light_mounted_troops_tier_4_factor = {
 	mult_modifier = {
 		factor = 1.75 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = cavalry_leader
-				trait = tengri_leader
-			}
-		}
+		plus_light_mounted_troops_trigger = yes
 	}
 }
 
-mounted_troops_tier_5_factor = {
+light_mounted_troops_tier_5_factor = {
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		leader = {
-			OR = {
-				trait = cavalry_leader
-				trait = tengri_leader
-			}
-		}
+		plus_light_mounted_troops_trigger = yes
+	}
+}
+
+# Increases chance of picking a higher tier tactic involving heavy cavalry
+heavy_mounted_troops_tier_2_factor = {
+	mult_modifier = {
+		factor = 1.2 # roughly 4 martial
+		plus_heavy_mounted_troops_trigger = yes
+	}
+}
+
+heavy_mounted_troops_tier_3_factor = {
+	mult_modifier = {
+		factor = 1.5 # roughly 4 martial
+		plus_heavy_mounted_troops_trigger = yes
+	}
+}
+
+heavy_mounted_troops_tier_4_factor = {
+	mult_modifier = {
+		factor = 1.75 # roughly 4 martial
+		plus_heavy_mounted_troops_trigger = yes
+	}
+}
+
+heavy_mounted_troops_tier_5_factor = {
+	mult_modifier = {
+		factor = 2 # roughly 4 martial
+		plus_heavy_mounted_troops_trigger = yes
 	}
 }
 
@@ -4061,36 +3658,28 @@ mounted_troops_tier_5_factor = {
 elephant_troops_tier_2_factor = {
 	mult_modifier = {
 		factor = 1.2 # roughly 4 martial
-		leader = {
-			trait = war_elephant_leader
-		}
+		plus_elephant_troops_trigger = yes
 	}
 }
 
 elephant_troops_tier_3_factor = {
 	mult_modifier = {
 		factor = 1.5 # roughly 4 martial
-		leader = {
-			trait = war_elephant_leader
-		}
+		plus_elephant_troops_trigger = yes
 	}
 }
 
 elephant_troops_tier_4_factor = {
 	mult_modifier = {
 		factor = 1.75 # roughly 4 martial
-		leader = {
-			trait = war_elephant_leader
-		}
+		plus_elephant_troops_trigger = yes
 	}
 }
 
 elephant_troops_tier_5_factor = {
 	mult_modifier = {
 		factor = 2 # roughly 4 martial
-		leader = {
-			trait = war_elephant_leader
-		}
+		plus_elephant_troops_trigger = yes
 	}
 }
 
@@ -4261,7 +3850,6 @@ defensive_tactic_factor = {
 		location = {
 			OR = {
 				terrain = forest
-				terrain = woods
 				terrain = jungle
 				terrain = marsh
 				terrain = hills
@@ -5600,7 +5188,6 @@ feint_selection_factor = {
 		location = {
 			OR = {
 				terrain = forest
-				terrain = woods
 				terrain = jungle
 				terrain = marsh
 				terrain = hills
