@@ -72,11 +72,22 @@ laws = {
 			has_law = tribal_organization_1
 		}
 
-		ai_will_do = {
-			factor = 0
+		pass_effect = {
+			log = "tribal_organization_0 pass ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = tribal_organization_1
+					}
+					holder_scope = {
+						plus_decreased_tribal_organization_effect = yes
+					}
+				}
+			}
 		}
 
 		effect = {
+			log = "tribal_organization_0 ([This.GetFullBaseName])"
 			if = {
 				limit = { NOT = { has_dlc = "Conclave" } }
 				set_allow_title_revokation = no
@@ -102,17 +113,8 @@ laws = {
 			}
 		}
 
-		pass_effect = {
-			hidden_tooltip = {
-				if = {
-					limit = {
-						has_law = tribal_organization_1
-					}
-					holder_scope = {
-						plus_decreased_tribal_organization_effect = yes
-					}
-				}
-			}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -136,21 +138,21 @@ laws = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 			OR = {
@@ -164,60 +166,27 @@ laws = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0.01
-			modifier = {
-				factor = 2
-				has_law = tribal_organization_0
-			}
-		}
-
-		effect = {
-			if = {
-				limit = { NOT = { has_dlc = "Conclave" } }
-				set_allow_title_revokation = yes
-				set_allow_free_infidel_revokation = no
-				set_tribal_vassal_levy_control = no
-				set_tribal_vassal_tax_income = no
-			}
-			else_if = {
-				limit = { has_dlc = "Conclave" }
-				enable_council_voting_on_issue = laws
-				enable_council_voting_on_issue = declare_war_interaction
-				hidden_tooltip = {
-					enable_council_voting_on_issue = enforce_peace
-					add_law = law_voting_power_1
-					add_law = war_voting_power_1
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = tribal_organization_0
-				revoke_law = tribal_organization_2
-				revoke_law = tribal_organization_3
-				revoke_law = tribal_organization_4
 			}
 		}
 
 		pass_effect = {
+			log = "tribal_organization_1 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -251,6 +220,41 @@ laws = {
 				}
 			}
 		}
+
+		effect = {
+			log = "tribal_organization_1 ([This.GetFullBaseName])"
+			if = {
+				limit = { NOT = { has_dlc = "Conclave" } }
+				set_allow_title_revokation = yes
+				set_allow_free_infidel_revokation = no
+				set_tribal_vassal_levy_control = no
+				set_tribal_vassal_tax_income = no
+			}
+			else_if = {
+				limit = { has_dlc = "Conclave" }
+				enable_council_voting_on_issue = laws
+				enable_council_voting_on_issue = declare_war_interaction
+				hidden_tooltip = {
+					enable_council_voting_on_issue = enforce_peace
+					add_law = law_voting_power_1
+					add_law = war_voting_power_1
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = tribal_organization_0
+				revoke_law = tribal_organization_2
+				revoke_law = tribal_organization_3
+				revoke_law = tribal_organization_4
+			}
+		}
+
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 2
+				has_law = tribal_organization_0
+			}
+		}
 	}
 
 	tribal_organization_2 = {
@@ -274,15 +278,15 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 500
+						prestige >= 500
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 1000
+						prestige >= 1000
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 2000
+						prestige >= 2000
 					}
 				}
 			}
@@ -298,54 +302,22 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 500
+						prestige >= 500
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 1000
+						prestige >= 1000
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 2000
+						prestige >= 2000
 					}
 				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0.01
-			modifier = {
-				factor = 2
-				has_law = tribal_organization_1
-			}
-		}
-
-		effect = {
-			if = {
-				limit = { NOT = { has_dlc = "Conclave" } }
-				set_allow_title_revokation = yes
-				set_allow_free_infidel_revokation = yes
-				set_tribal_vassal_levy_control = no
-				set_tribal_vassal_tax_income = no
-			}
-			else_if = {
-				limit = { has_dlc = "Conclave" }
-				enable_council_voting_on_issue = grant_landed_title_interaction
-				enable_council_voting_on_issue = revoke_title_interaction
-				hidden_tooltip = {
-					add_law = grant_title_voting_power_1
-					add_law = revoke_title_voting_power_1
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = tribal_organization_0
-				revoke_law = tribal_organization_1
-				revoke_law = tribal_organization_3
-				revoke_law = tribal_organization_4
 			}
 		}
 
 		pass_effect = {
+			log = "tribal_organization_2 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -379,6 +351,40 @@ laws = {
 				}
 			}
 		}
+
+		effect = {
+			log = "tribal_organization_2 ([This.GetFullBaseName])"
+			if = {
+				limit = { NOT = { has_dlc = "Conclave" } }
+				set_allow_title_revokation = yes
+				set_allow_free_infidel_revokation = yes
+				set_tribal_vassal_levy_control = no
+				set_tribal_vassal_tax_income = no
+			}
+			else_if = {
+				limit = { has_dlc = "Conclave" }
+				enable_council_voting_on_issue = grant_landed_title_interaction
+				enable_council_voting_on_issue = revoke_title_interaction
+				hidden_tooltip = {
+					add_law = grant_title_voting_power_1
+					add_law = revoke_title_voting_power_1
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = tribal_organization_0
+				revoke_law = tribal_organization_1
+				revoke_law = tribal_organization_3
+				revoke_law = tribal_organization_4
+			}
+		}
+
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 2
+				has_law = tribal_organization_1
+			}
+		}
 	}
 
 	tribal_organization_3 = {
@@ -402,15 +408,15 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 750
+						prestige >= 750
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 1500
+						prestige >= 1500
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 3000
+						prestige >= 3000
 					}
 				}
 			}
@@ -426,56 +432,22 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 750
+						prestige >= 750
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 1500
+						prestige >= 1500
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 3000
+						prestige >= 3000
 					}
 				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0.01
-			modifier = {
-				factor = 2
-				has_law = tribal_organization_2
-			}
-		}
-
-		effect = {
-			if = {
-				limit = { NOT = { has_dlc = "Conclave" } }
-				set_allow_title_revokation = yes
-				set_allow_free_infidel_revokation = yes
-				set_tribal_vassal_levy_control = yes
-				set_tribal_vassal_tax_income = yes
-			}
-			else_if = {
-				limit = { has_dlc = "Conclave" }
-				enable_council_voting_on_issue = imprison_character_interaction
-				enable_council_voting_on_issue = exile_imprisoned_interaction
-				enable_council_voting_on_issue = execute_imprisoned_interaction
-				hidden_tooltip = {
-					add_law = imprison_voting_power_1
-					add_law = banish_voting_power_1
-					add_law = execution_voting_power_1
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = tribal_organization_0
-				revoke_law = tribal_organization_1
-				revoke_law = tribal_organization_2
-				revoke_law = tribal_organization_4
 			}
 		}
 
 		pass_effect = {
+			log = "tribal_organization_3 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -509,6 +481,42 @@ laws = {
 				}
 			}
 		}
+
+		effect = {
+			log = "tribal_organization_3 ([This.GetFullBaseName])"
+			if = {
+				limit = { NOT = { has_dlc = "Conclave" } }
+				set_allow_title_revokation = yes
+				set_allow_free_infidel_revokation = yes
+				set_tribal_vassal_levy_control = yes
+				set_tribal_vassal_tax_income = yes
+			}
+			else_if = {
+				limit = { has_dlc = "Conclave" }
+				enable_council_voting_on_issue = imprison_character_interaction
+				enable_council_voting_on_issue = exile_imprisoned_interaction
+				enable_council_voting_on_issue = execute_imprisoned_interaction
+				hidden_tooltip = {
+					add_law = imprison_voting_power_1
+					add_law = banish_voting_power_1
+					add_law = execution_voting_power_1
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = tribal_organization_0
+				revoke_law = tribal_organization_1
+				revoke_law = tribal_organization_2
+				revoke_law = tribal_organization_4
+			}
+		}
+
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 2
+				has_law = tribal_organization_2
+			}
+		}
 	}
 
 	tribal_organization_4 = {
@@ -533,29 +541,50 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 1000
+						prestige >= 1000
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 2000
+						prestige >= 2000
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 4000
+						prestige >= 4000
 					}
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 0.01
-			modifier = {
-				factor = 2
-				has_law = tribal_organization_3
+		pass_effect = {
+			log = "tribal_organization_4 pass ([This.GetFullBaseName])"
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						DUKE = { prestige = -1000 }
+						KING = { prestige = -2000 }
+						EMPEROR = { prestige = -4000 }
+					}
+				}
+			}
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = tribal_organization_3
+					}
+					holder_scope = {
+						plus_increased_tribal_organization_effect = yes
+					}
+				}
 			}
 		}
 
 		effect = {
+			log = "tribal_organization_4 ([This.GetFullBaseName])"
 			if = {
 				limit = { NOT = { has_dlc = "Conclave" } }
 				set_allow_title_revokation = yes
@@ -582,30 +611,11 @@ laws = {
 			}
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					show_scope_change = no
-					trigger_switch = {
-						on_trigger = tier
-						DUKE = { prestige = -1000 }
-						KING = { prestige = -2000 }
-						EMPEROR = { prestige = -4000 }
-					}
-				}
-			}
-			hidden_tooltip = {
-				if = {
-					limit = {
-						has_law = tribal_organization_3
-					}
-					holder_scope = {
-						plus_increased_tribal_organization_effect = yes
-					}
-				}
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 2
+				has_law = tribal_organization_3
 			}
 		}
 	}
@@ -670,21 +680,22 @@ laws = {
 			}
 		}
 
+		effect = {
+			log = "centralization_0 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = centralization_1
+				revoke_law = centralization_2
+				revoke_law = centralization_3
+				revoke_law = centralization_4
+			}
+		}
+
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				factor = 2
 				over_max_demesne_size <= -1
 				over_vassal_limit = 1
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_1
-				revoke_law = centralization_2
-				revoke_law = centralization_3
-				revoke_law = centralization_4
 			}
 		}
 	}
@@ -746,6 +757,16 @@ laws = {
 			}
 		}
 
+		effect = {
+			log = "centralization_1 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = centralization_0
+				revoke_law = centralization_2
+				revoke_law = centralization_3
+				revoke_law = centralization_4
+			}
+		}
+
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -759,15 +780,6 @@ laws = {
 				has_law = centralization_0
 				over_max_demesne_size = 1
 				over_vassal_limit <= -5
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_2
-				revoke_law = centralization_3
-				revoke_law = centralization_4
 			}
 		}
 	}
@@ -827,6 +839,16 @@ laws = {
 			}
 		}
 
+		effect = {
+			log = "centralization_2 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = centralization_0
+				revoke_law = centralization_1
+				revoke_law = centralization_3
+				revoke_law = centralization_4
+			}
+		}
+
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -840,15 +862,6 @@ laws = {
 				has_law = centralization_1
 				over_max_demesne_size = 1
 				over_vassal_limit <= -5
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_1
-				revoke_law = centralization_3
-				revoke_law = centralization_4
 			}
 		}
 	}
@@ -910,6 +923,16 @@ laws = {
 			}
 		}
 
+		effect = {
+			log = "centralization_3 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = centralization_0
+				revoke_law = centralization_1
+				revoke_law = centralization_2
+				revoke_law = centralization_4
+			}
+		}
+
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -923,15 +946,6 @@ laws = {
 				has_law = centralization_2
 				over_max_demesne_size = 1
 				over_vassal_limit <= -5
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_1
-				revoke_law = centralization_2
-				revoke_law = centralization_4
 			}
 		}
 	}
@@ -990,6 +1004,16 @@ laws = {
 			}
 		}
 
+		effect = {
+			log = "centralization_4 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = centralization_0
+				revoke_law = centralization_1
+				revoke_law = centralization_2
+				revoke_law = centralization_3
+			}
+		}
+
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -997,15 +1021,6 @@ laws = {
 				has_law = centralization_3
 				over_max_demesne_size = 1
 				over_vassal_limit <= -5
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = centralization_0
-				revoke_law = centralization_1
-				revoke_law = centralization_2
-				revoke_law = centralization_3
 			}
 		}
 	}
@@ -1032,11 +1047,8 @@ laws = {
 
 		allow = { }
 
-		ai_will_do = {
-			factor = 0
-		}
-
 		effect = {
+			log = "feudal_administration ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					NOT = { has_dlc = "Charlemagne" }
@@ -1047,6 +1059,10 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = imperial_administration
 			}
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -1073,7 +1089,7 @@ laws = {
 					limit = {
 						has_game_started = yes
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -1086,11 +1102,8 @@ laws = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
-
 		pass_effect = {
+			log = "imperial_administration pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1102,6 +1115,7 @@ laws = {
 		}
 
 		effect = {
+			log = "imperial_administration ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					NOT = { has_dlc = "Charlemagne" }
@@ -1113,6 +1127,10 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = feudal_administration
 			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -1149,15 +1167,16 @@ laws = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
-
 		effect = {
+			log = "ze_administration_laws_0 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = ze_administration_laws_1
 				revoke_law = ze_administration_laws_2
 			}
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -1208,27 +1227,13 @@ laws = {
 					trigger = {
 						has_game_started = yes
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_law = ze_administration_laws_2
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = ze_administration_laws_0
-				revoke_law = ze_administration_laws_2
-			}
-		}
-
 		pass_effect = {
+			log = "ze_administration_laws_1 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1237,6 +1242,22 @@ laws = {
 					show_scope_change = no
 					prestige = -2000
 				}
+			}
+		}
+
+		effect = {
+			log = "ze_administration_laws_1 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = ze_administration_laws_0
+				revoke_law = ze_administration_laws_2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = ze_administration_laws_2
 			}
 		}
 	}
@@ -1287,16 +1308,26 @@ laws = {
 					trigger = {
 						has_game_started = yes
 					}
-					prestige = 4000
+					prestige >= 4000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
+		pass_effect = {
+			log = "ze_administration_laws_2 pass ([This.GetFullBaseName])"
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					prestige = -4000
+				}
+			}
 		}
 
 		effect = {
+			log = "ze_administration_laws_2 ([This.GetFullBaseName])"
 			set_title_flag = has_imperial_administration
 			if = {
 				limit = {
@@ -1317,16 +1348,8 @@ laws = {
 			}
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					show_scope_change = no
-					prestige = -4000
-				}
-			}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -1363,15 +1386,16 @@ laws = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
-
 		effect = {
+			log = "vice_royalty_0 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = vice_royalty_1
 				revoke_law = vice_royalty_2
 			}
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -1415,28 +1439,13 @@ laws = {
 					limit = {
 						has_game_started = yes
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_law = vice_royalty_2
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = vice_royalty_0
-				revoke_law = vice_royalty_2
-			}
-			set_allow_vice_royalties = KING
-		}
-
 		pass_effect = {
+			log = "vice_royalty_1 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1445,6 +1454,23 @@ laws = {
 					show_scope_change = no
 					prestige = -2000
 				}
+			}
+		}
+
+		effect = {
+			log = "vice_royalty_1 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = vice_royalty_0
+				revoke_law = vice_royalty_2
+			}
+			set_allow_vice_royalties = KING
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = vice_royalty_2
 			}
 		}
 	}
@@ -1456,7 +1482,7 @@ laws = {
 
 		potential = {
 			has_dlc = "Charlemagne"
-			higher_tier_than = KING
+			tier = EMPEROR
 			holder_scope = {
 				independent = yes
 				is_feudal = yes
@@ -1487,16 +1513,27 @@ laws = {
 					limit = {
 						has_game_started = yes
 					}
-					prestige = 4000
+					prestige >= 4000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
+		pass_effect = {
+			log = "vice_royalty_2 pass ([This.GetFullBaseName])"
+			if = {
+				limit = {
+					has_game_started = yes
+					tier = EMPEROR # necessary workaround, likely due to a bug
+				}
+				holder_scope = {
+					show_scope_change = no
+					prestige = -4000
+				}
+			}
 		}
 
 		effect = {
+			log = "vice_royalty_2 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = vice_royalty_0
 				revoke_law = vice_royalty_1
@@ -1504,16 +1541,8 @@ laws = {
 			set_allow_vice_royalties = DUKE
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					show_scope_change = no
-					prestige = -4000
-				}
-			}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -1554,13 +1583,16 @@ laws = {
 			NOT = { has_law = revoke_title_law_2 }
 		}
 
-		ai_will_do = { factor = 0 }
-
 		effect = {
+			log = "revoke_title_law_0 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = revoke_title_law_1
 				revoke_law = revoke_title_law_2
 			}
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -1602,19 +1634,19 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = COUNT }
-						prestige = 125
+						prestige >= 125
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 250
+						prestige >= 250
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 500
+						prestige >= 500
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 1000
+						prestige >= 1000
 					}
 				}
 				conditional_tooltip = {
@@ -1630,49 +1662,34 @@ laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 125
+					prestige >= 125
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_law = revoke_title_law_2
-			}
-		}
-
-		effect = {
-			set_allow_title_revokation = yes
-			hidden_tooltip = {
-				revoke_law = revoke_title_law_0
-				revoke_law = revoke_title_law_2
-			}
-		}
-
 		pass_effect = {
+			log = "revoke_title_law_1 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1687,6 +1704,23 @@ laws = {
 						EMPEROR = { prestige = -1000 }
 					}
 				}
+			}
+		}
+
+		effect = {
+			log = "revoke_title_law_1 ([This.GetFullBaseName])"
+			set_allow_title_revokation = yes
+			hidden_tooltip = {
+				revoke_law = revoke_title_law_0
+				revoke_law = revoke_title_law_2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = revoke_title_law_2
 			}
 		}
 	}
@@ -1733,19 +1767,19 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = COUNT }
-						prestige = 250
+						prestige >= 250
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 500
+						prestige >= 500
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 1000
+						prestige >= 1000
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 2000
+						prestige >= 2000
 					}
 				}
 				conditional_tooltip = {
@@ -1761,46 +1795,34 @@ laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		effect = {
-			set_allow_title_revokation = yes
-			set_allow_free_infidel_revokation = yes
-			hidden_tooltip = {
-				revoke_law = revoke_title_law_0
-				revoke_law = revoke_title_law_1
-			}
-		}
-
 		pass_effect = {
+			log = "revoke_title_law_2 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1816,6 +1838,20 @@ laws = {
 					}
 				}
 			}
+		}
+
+		effect = {
+			log = "revoke_title_law_2 ([This.GetFullBaseName])"
+			set_allow_title_revokation = yes
+			set_allow_free_infidel_revokation = yes
+			hidden_tooltip = {
+				revoke_law = revoke_title_law_0
+				revoke_law = revoke_title_law_1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -1875,34 +1911,26 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = COUNT }
-						prestige = 500
+						prestige >= 500
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 1000
+						prestige >= 1000
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 2000
+						prestige >= 2000
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 4000
+						prestige >= 4000
 					}
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0.3
-				holder_scope = { is_female = no }
-				has_law = status_of_women_1
-			}
-		}
-
 		pass_effect = {
+			log = "status_of_women_0 pass ([This.GetFullBaseName])"
 			holder_scope = {
 				if = {
 					limit = {
@@ -1924,6 +1952,7 @@ laws = {
 		}
 
 		effect = {
+			log = "status_of_women_0 ([This.GetFullBaseName])"
 			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_OFF }
 			if = {
 				limit = {
@@ -1939,6 +1968,15 @@ laws = {
 				revoke_law = status_of_women_3
 				revoke_law = status_of_women_4
 				law_set_allow_matrilineal_marriage = no
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.3
+				holder_scope = { is_female = no }
+				has_law = status_of_women_1
 			}
 		}
 	}
@@ -1998,88 +2036,45 @@ laws = {
 						}
 						conditional_tooltip = {
 							trigger = { tier = COUNT }
-							prestige = 375
+							prestige >= 375
 						}
 						conditional_tooltip = {
 							trigger = { tier = DUKE }
-							prestige = 750
+							prestige >= 750
 						}
 						conditional_tooltip = {
 							trigger = { tier = KING }
-							prestige = 1500
+							prestige >= 1500
 						}
 						conditional_tooltip = {
 							trigger = { tier = EMPEROR }
-							prestige = 3000
+							prestige >= 3000
 						}
 					}
 					trigger_else = {
 						conditional_tooltip = {
 							trigger = { tier = COUNT }
-							prestige = 125
+							prestige >= 125
 						}
 						conditional_tooltip = {
 							trigger = { tier = DUKE }
-							prestige = 250
+							prestige >= 250
 						}
 						conditional_tooltip = {
 							trigger = { tier = KING }
-							prestige = 500
+							prestige >= 500
 						}
 						conditional_tooltip = {
 							trigger = { tier = EMPEROR }
-							prestige = 1000
+							prestige >= 1000
 						}
 					}
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0.3
-				holder_scope = { is_female = yes }
-				has_law = status_of_women_0
-			}
-			modifier = {
-				factor = 0.3
-				holder_scope = { is_female = no }
-				has_law = status_of_women_2
-			}
-		}
-
-		effect = {
-			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
-			if = {
-				limit = {
-					has_law = status_of_women_0
-				}
-				custom_tooltip = {
-					text = TOOLTIP_ALLOW_FEMALE_SPYMASTER
-				}
-			}
-			else_if = {
-				limit = {
-					has_law = status_of_women_2
-				}
-				custom_tooltip = {
-					text = TOOLTIP_DISALLOW_FEMALE_CHANCELLOR
-				}
-				custom_tooltip = {
-					text = TOOLTIP_DISALLOW_FEMALE_TREASURER
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = status_of_women_0
-				revoke_law = status_of_women_2
-				revoke_law = status_of_women_3
-				revoke_law = status_of_women_4
-				law_set_allow_matrilineal_marriage = yes
-			}
-		}
-
 		pass_effect = {
+			log = "status_of_women_1 pass ([This.GetFullBaseName])"
 			holder_scope = {
 				if = {
 					limit = {
@@ -2110,6 +2105,51 @@ laws = {
 						}
 					}
 				}
+			}
+		}
+
+		effect = {
+			log = "status_of_women_1 ([This.GetFullBaseName])"
+			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
+			if = {
+				limit = {
+					has_law = status_of_women_0
+				}
+				custom_tooltip = {
+					text = TOOLTIP_ALLOW_FEMALE_SPYMASTER
+				}
+			}
+			else_if = {
+				limit = {
+					has_law = status_of_women_2
+				}
+				custom_tooltip = {
+					text = TOOLTIP_DISALLOW_FEMALE_CHANCELLOR
+				}
+				custom_tooltip = {
+					text = TOOLTIP_DISALLOW_FEMALE_TREASURER
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = status_of_women_0
+				revoke_law = status_of_women_2
+				revoke_law = status_of_women_3
+				revoke_law = status_of_women_4
+				law_set_allow_matrilineal_marriage = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.3
+				holder_scope = { is_female = yes }
+				has_law = status_of_women_0
+			}
+			modifier = {
+				factor = 0.3
+				holder_scope = { is_female = no }
+				has_law = status_of_women_2
 			}
 		}
 	}
@@ -2159,39 +2199,45 @@ laws = {
 					}
 					conditional_tooltip = {
 						trigger = { tier = COUNT }
-						prestige = 250
+						prestige >= 250
 					}
 					conditional_tooltip = {
 						trigger = { tier = DUKE }
-						prestige = 500
+						prestige >= 500
 					}
 					conditional_tooltip = {
 						trigger = { tier = KING }
-						prestige = 1000
+						prestige >= 1000
 					}
 					conditional_tooltip = {
 						trigger = { tier = EMPEROR }
-						prestige = 2000
+						prestige >= 2000
 					}
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0.3
-				holder_scope = { is_female = yes }
-				has_law = status_of_women_1
-			}
-			modifier = {
-				factor = 0.3
-				holder_scope = { is_female = no }
-				has_law = status_of_women_3
+		pass_effect = {
+			log = "status_of_women_2 pass ([This.GetFullBaseName])"
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					show_scope_change = no
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -250 }
+						DUKE = { prestige = -500 }
+						KING = { prestige = -1000 }
+						EMPEROR = { prestige = -2000 }
+					}
+				}
 			}
 		}
 
 		effect = {
+			log = "status_of_women_2 ([This.GetFullBaseName])"
 			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 			if = {
 				limit = {
@@ -2222,21 +2268,17 @@ laws = {
 			}
 		}
 
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					show_scope_change = no
-					trigger_switch = {
-						on_trigger = tier
-						COUNT = { prestige = -250 }
-						DUKE = { prestige = -500 }
-						KING = { prestige = -1000 }
-						EMPEROR = { prestige = -2000 }
-					}
-				}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.3
+				holder_scope = { is_female = yes }
+				has_law = status_of_women_1
+			}
+			modifier = {
+				factor = 0.3
+				holder_scope = { is_female = no }
+				has_law = status_of_women_3
 			}
 		}
 	}
@@ -2296,89 +2338,45 @@ laws = {
 						}
 						conditional_tooltip = {
 							trigger = { tier = COUNT }
-							prestige = 125
+							prestige >= 125
 						}
 						conditional_tooltip = {
 							trigger = { tier = DUKE }
-							prestige = 250
+							prestige >= 250
 						}
 						conditional_tooltip = {
 							trigger = { tier = KING }
-							prestige = 500
+							prestige >= 500
 						}
 						conditional_tooltip = {
 							trigger = { tier = EMPEROR }
-							prestige = 1000
+							prestige >= 1000
 						}
 					}
 					trigger_else = {
 						conditional_tooltip = {
 							trigger = { tier = COUNT }
-							prestige = 375
+							prestige >= 375
 						}
 						conditional_tooltip = {
 							trigger = { tier = DUKE }
-							prestige = 750
+							prestige >= 750
 						}
 						conditional_tooltip = {
 							trigger = { tier = KING }
-							prestige = 1500
+							prestige >= 1500
 						}
 						conditional_tooltip = {
 							trigger = { tier = EMPEROR }
-							prestige = 3000
+							prestige >= 3000
 						}
 					}
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0.3
-				holder_scope = { is_female = yes }
-				has_law = status_of_women_2
-			}
-			modifier = {
-				factor = 0.3
-				holder_scope = { NOT = { is_female = yes } }
-				has_law = status_of_women_4
-			}
-		}
-
-		effect = {
-			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
-			if = {
-				limit = {
-					has_law = status_of_women_2
-				}
-				custom_tooltip = {
-					text = TOOLTIP_ALLOW_FEMALE_MARSHAL
-				}
-			}
-			else_if = {
-				limit = {
-					has_law = status_of_women_4
-				}
-				custom_tooltip = {
-					text = TOOLTIP_DISALLOW_TRUE_COGNATIC
-				}
-				custom_tooltip = {
-					text = TOOLTIP_DISALLOW_FEMALE_COMMANDERS
-				}
-			}
-			hidden_tooltip = {
-				revoke_law = status_of_women_0
-				revoke_law = status_of_women_1
-				revoke_law = status_of_women_2
-				revoke_law = status_of_women_4
-				law_set_allow_matrilineal_marriage = yes
-			}
-			set_allow_gender_laws = yes
-		}
-
 		pass_effect = {
+			log = "status_of_women_3 pass ([This.GetFullBaseName])"
 			holder_scope = {
 				show_scope_change = no
 				if = {
@@ -2411,6 +2409,52 @@ laws = {
 						}
 					}
 				}
+			}
+		}
+
+		effect = {
+			log = "status_of_women_3 ([This.GetFullBaseName])"
+			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
+			if = {
+				limit = {
+					has_law = status_of_women_2
+				}
+				custom_tooltip = {
+					text = TOOLTIP_ALLOW_FEMALE_MARSHAL
+				}
+			}
+			else_if = {
+				limit = {
+					has_law = status_of_women_4
+				}
+				custom_tooltip = {
+					text = TOOLTIP_DISALLOW_TRUE_COGNATIC
+				}
+				custom_tooltip = {
+					text = TOOLTIP_DISALLOW_FEMALE_COMMANDERS
+				}
+			}
+			hidden_tooltip = {
+				revoke_law = status_of_women_0
+				revoke_law = status_of_women_1
+				revoke_law = status_of_women_2
+				revoke_law = status_of_women_4
+				law_set_allow_matrilineal_marriage = yes
+			}
+			set_allow_gender_laws = yes
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.3
+				holder_scope = { is_female = yes }
+				has_law = status_of_women_2
+			}
+			modifier = {
+				factor = 0.3
+				holder_scope = { NOT = { is_female = yes } }
+				has_law = status_of_women_4
 			}
 		}
 	}
@@ -2467,35 +2511,50 @@ laws = {
 						}
 						conditional_tooltip = {
 							trigger = { tier = COUNT }
-							prestige = 500
+							prestige >= 500
 						}
 						conditional_tooltip = {
 							trigger = { tier = DUKE }
-							prestige = 1000
+							prestige >= 1000
 						}
 						conditional_tooltip = {
 							trigger = { tier = KING }
-							prestige = 2000
+							prestige >= 2000
 						}
 						conditional_tooltip = {
 							trigger = { tier = EMPEROR }
-							prestige = 4000
+							prestige >= 4000
 						}
 					}
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0.3
-				holder_scope = { is_female = yes }
-				has_law = status_of_women_3
+		pass_effect = {
+			log = "status_of_women_4 pass ([This.GetFullBaseName])"
+			holder_scope = {
+				show_scope_change = no
+				if = {
+					limit = {
+						has_game_started = yes
+						NOR = {
+							has_religion_feature = religion_equal
+							has_religion_feature = religion_feature_bon
+						}
+					}
+					trigger_switch = {
+						on_trigger = tier
+						COUNT = { prestige = -500 }
+						DUKE = { prestige = -1000 }
+						KING = { prestige = -2000 }
+						EMPEROR = { prestige = -4000 }
+					}
+				}
 			}
 		}
 
 		effect = {
+			log = "status_of_women_4 ([This.GetFullBaseName])"
 			custom_tooltip = { text = ALLOW_MATRILINEAL_MARRIAGE_ON }
 			if = {
 				limit = {
@@ -2519,25 +2578,12 @@ laws = {
 			set_allow_feminism = yes
 		}
 
-		pass_effect = {
-			holder_scope = {
-				show_scope_change = no
-				if = {
-					limit = {
-						has_game_started = yes
-						NOR = {
-							has_religion_feature = religion_equal
-							has_religion_feature = religion_feature_bon
-						}
-					}
-					trigger_switch = {
-						on_trigger = tier
-						COUNT = { prestige = -500 }
-						DUKE = { prestige = -1000 }
-						KING = { prestige = -2000 }
-						EMPEROR = { prestige = -4000 }
-					}
-				}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.3
+				holder_scope = { is_female = yes }
+				has_law = status_of_women_3
 			}
 		}
 	}

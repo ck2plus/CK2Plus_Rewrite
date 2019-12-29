@@ -1080,9 +1080,7 @@ can_be_marshal_trigger = {
 				AND = {
 					liege = {
 						primary_title = {
-							OR = {
-								has_law = status_of_women_3
-							}
+							has_law = status_of_women_3
 						}
 					}
 					OR = {
@@ -1418,49 +1416,48 @@ can_be_councilmember_king_trigger = {
 			}
 		}
 	}
-	AND = {
-		OR = {
-			AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
-				is_female = no
-				NOT = { liege = { has_religion_feature = religion_matriarchal } }
-			}
-			AND = {
-				is_female = yes
-				NOT = { liege = { has_religion_feature = religion_patriarchal } }
-			}
-			AND = {
-				OR = {
-					religion = cathar
-					religion = messalian
-				}
-				liege = { religion = ROOT }
-			}
-			AND = {
-				is_female = yes
-				liege = {
-					primary_title = {
-						OR = {
-							has_law = status_of_women_1
-							has_law = status_of_women_2
-							has_law = status_of_women_3
-						}
-					}
-				}
-				is_landed = yes
-			}
+
+	OR = {
+		AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
+			is_female = no
+			NOT = { liege = { has_religion_feature = religion_matriarchal } }
+		}
+		AND = {
+			is_female = yes
+			NOT = { liege = { has_religion_feature = religion_patriarchal } }
+		}
+		AND = {
 			OR = {
-				AND = {
-					is_female = yes
-					liege = { primary_title = { has_law = status_of_women_4 } }
-				}
-				has_game_rule = {
-					name = gender
-					value = all
+				religion = cathar
+				religion = messalian
+			}
+			liege = { religion = ROOT }
+		}
+		AND = {
+			is_female = yes
+			is_landed = yes
+			liege = {
+				primary_title = {
+					OR = {
+						has_law = status_of_women_1
+						has_law = status_of_women_2
+						has_law = status_of_women_3
+					}
 				}
 			}
 		}
-		is_adult = yes
+		OR = {
+			AND = {
+				is_female = yes
+				liege = { primary_title = { has_law = status_of_women_4 } }
+			}
+			has_game_rule = {
+				name = gender
+				value = all
+			}
+		}
 	}
+	is_adult = yes
 }
 
 can_be_councilmember_emperor_trigger = {
@@ -1478,55 +1475,51 @@ can_be_councilmember_emperor_trigger = {
 		}
 	}
 	OR = {
+		AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
+			is_female = no
+			NOT = { liege = { has_religion_feature = religion_matriarchal } }
+		}
 		AND = {
+			is_female = yes
 			OR = {
-				AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
-					is_female = no
-					NOT = { liege = { has_religion_feature = religion_matriarchal } }
-				}
-				AND = {
-					is_female = yes
+				liege = { has_religion_feature = religion_matriarchal }
+				liege = { has_religion_feature = religion_equal }
+				liege = { has_religion_feature = religion_feature_bon }
+			}
+		}
+		AND = {
+			religion = cathar
+			liege = { religion = cathar }
+		}
+		AND = {
+			religion = messalian
+			liege = { religion = messalian }
+		}
+		AND = {
+			is_female = yes
+			liege = {
+				primary_title = {
 					OR = {
-						liege = { has_religion_feature = religion_matriarchal }
-						liege = { has_religion_feature = religion_equal }
-						liege = { has_religion_feature = religion_feature_bon }
-					}
-				}
-				AND = {
-					religion = cathar
-					liege = { religion = cathar }
-				}
-				AND = {
-					religion = messalian
-					liege = { religion = messalian }
-				}
-				AND = {
-					is_female = yes
-					liege = {
-						primary_title = {
-							OR = {
-								has_law = status_of_women_1
-								has_law = status_of_women_2
-								has_law = status_of_women_3
-							}
-						}
-					}
-					is_landed = yes
-				}
-				OR = {
-					AND = {
-						is_female = yes
-						liege = { primary_title = { has_law = status_of_women_4 } }
-					}
-					has_game_rule = {
-						name = gender
-						value = all
+						has_law = status_of_women_1
+						has_law = status_of_women_2
+						has_law = status_of_women_3
 					}
 				}
 			}
-			is_adult = yes
+			is_landed = yes
+		}
+		OR = {
+			AND = {
+				is_female = yes
+				liege = { primary_title = { has_law = status_of_women_4 } }
+			}
+			has_game_rule = {
+				name = gender
+				value = all
+			}
 		}
 	}
+	is_adult = yes
 }
 
 ###REAPER'S DUE####
@@ -1923,27 +1916,23 @@ female_can_hold_minor_title_trigger = {
 		OR = {
 			custom_tooltip = {
 				text = tooltip_feminist_liege_vanilla_religion
-				AND = {
-					OR = {
-						religion = cathar
-						religion = messalian
-						religion = bogomilist
-						religion = mazdaki
-					}
-					liege = { religion = ROOT }
+				OR = {
+					religion = cathar
+					religion = messalian
+					religion = bogomilist
+					religion = mazdaki
 				}
+				liege = { religion = ROOT }
 			}
 			custom_tooltip = {
 				text = tooltip_feminist_liege_religion_feature
-				AND = {
-					OR = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
-					liege = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
+				OR = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
+				}
+				liege = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
 				}
 			}
 			primary_title = {
@@ -1987,27 +1976,23 @@ female_can_hold_minor_commander_title_trigger = {
 			}
 			custom_tooltip = {
 				text = tooltip_feminist_liege_vanilla_religion
-				AND = {
-					OR = {
-						religion = cathar
-						religion = messalian
-						religion = bogomilist
-						religion = mazdaki
-					}
-					liege = { religion = ROOT }
+				OR = {
+					religion = cathar
+					religion = messalian
+					religion = bogomilist
+					religion = mazdaki
 				}
+				liege = { religion = ROOT }
 			}
 			custom_tooltip = {
 				text = tooltip_feminist_liege_religion_feature
-				AND = {
-					OR = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
-					liege = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
+				OR = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
+				}
+				liege = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
 				}
 			}
 			primary_title = {
@@ -2395,33 +2380,27 @@ FROMs_religion_is_playable_trigger = {
 	}
 	trigger_if = {
 		limit = {
-			FROM = { religion_group  = jewish_group }
+			FROM = { religion_group = jewish_group }
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			religion_group  = jewish_group
-			has_dlc = "Sons of Abraham"
-		}
+		religion_group = jewish_group
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
-			FROM = { religion_group  = muslim }
+			FROM = { religion_group = muslim }
 			NOT = { has_dlc = "The Sword of Islam" }
 		}
-		AND = {
-			religion_group  = muslim
-			has_dlc = "The Sword of Islam"
-		}
+		religion_group = muslim
+		has_dlc = "The Sword of Islam"
 	}
 	trigger_if = {
 		limit = {
-			FROM = { religion_group  = indian_group }
+			FROM = { religion_group = indian_group }
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			religion_group  = indian_group
-			has_dlc = "Rajas of India"
-		}
+		religion_group = indian_group
+		has_dlc = "Rajas of India"
 	}
 	trigger_if = {
 		limit = {
@@ -2435,30 +2414,26 @@ FROMs_religion_is_playable_trigger = {
 			}
 			NOT = { has_dlc = "Jade Dragon" }
 		}
-		AND = {
-			OR = {
-				religion = taoist
-				religion = bon
-				#reformed bön prints out as 'bön' and there's no need to display 'bön' twice in the tooltip
-				religion = khurmazta
-			}
-			has_dlc = "Jade Dragon"
+		OR = {
+			religion = taoist
+			religion = bon
+			#reformed bön prints out as 'bön' and there's no need to display 'bön' twice in the tooltip
+			religion = khurmazta
 		}
+		has_dlc = "Jade Dragon"
 	}
 	trigger_if = {
 		limit = {
-			FROM = { religion_group  = pagan_group }
+			FROM = { religion_group = pagan_group }
 			NOR = {
 				has_dlc = "The Old Gods"
 				has_dlc = "Holy Fury"
 			}
 		}
-		AND = {
-			religion_group = pagan_group
-			OR = {
-				has_dlc = "The Old Gods"
-				has_dlc = "Holy Fury"
-			}
+		religion_group = pagan_group
+		OR = {
+			has_dlc = "The Old Gods"
+			has_dlc = "Holy Fury"
 		}
 	}
 }
@@ -2518,33 +2493,27 @@ ROOTs_religion_is_playable_trigger = { #For targeted decision where FROM is the 
 	}
 	trigger_if = {
 		limit = {
-			religion_group  = jewish_group
+			religion_group = jewish_group
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			religion_group  = jewish_group
-			has_dlc = "Sons of Abraham"
-		}
+		religion_group = jewish_group
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
-			religion_group  = muslim
+			religion_group = muslim
 			NOT = { has_dlc = "The Sword of Islam" }
 		}
-		AND = {
-			religion_group  = muslim
-			has_dlc = "The Sword of Islam"
-		}
+		religion_group = muslim
+		has_dlc = "The Sword of Islam"
 	}
 	trigger_if = {
 		limit = {
-			religion_group  = indian_group
+			religion_group = indian_group
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			religion_group  = indian_group
-			has_dlc = "Rajas of India"
-		}
+		religion_group = indian_group
+		has_dlc = "Rajas of India"
 	}
 	trigger_if = {
 		limit = {
@@ -2556,30 +2525,26 @@ ROOTs_religion_is_playable_trigger = { #For targeted decision where FROM is the 
 			}
 			NOT = { has_dlc = "Jade Dragon" }
 		}
-		AND = {
-			OR = {
-				religion = taoist
-				religion = bon
-				#reformed bön prints out as 'bön' and there's no need to display 'bön' twice in the tooltip
-				religion = khurmazta
-			}
-			has_dlc = "Jade Dragon"
+		OR = {
+			religion = taoist
+			religion = bon
+			#reformed bön prints out as 'bön' and there's no need to display 'bön' twice in the tooltip
+			religion = khurmazta
 		}
+		has_dlc = "Jade Dragon"
 	}
 	trigger_if = {
 		limit = {
-			religion_group  = pagan_group
+			religion_group = pagan_group
 			NOR = {
 				has_dlc = "The Old Gods"
 				has_dlc = "Holy Fury"
 			}
 		}
-		AND = {
-			religion_group = pagan_group
-			OR = {
-				has_dlc = "The Old Gods"
-				has_dlc = "Holy Fury"
-			}
+		religion_group = pagan_group
+		OR = {
+			has_dlc = "The Old Gods"
+			has_dlc = "Holy Fury"
 		}
 	}
 }
@@ -2588,17 +2553,17 @@ ROOTs_secret_religion_is_playable_trigger = {
 # To block players from getting a game over if they don't own all DLCs
 	hidden_tooltip = {
 		OR = {
-			secret_religion_group  = christian
+			secret_religion_group = christian
 			AND = {
-				secret_religion_group  = jewish_group
+				secret_religion_group = jewish_group
 				has_dlc = "Sons of Abraham"
 			}
 			AND = {
-				secret_religion_group  = muslim
+				secret_religion_group = muslim
 				has_dlc = "The Sword of Islam"
 			}
 			AND = {
-				secret_religion_group  = indian_group
+				secret_religion_group = indian_group
 				has_dlc = "Rajas of India"
 			}
 			AND = {
@@ -2626,33 +2591,27 @@ ROOTs_secret_religion_is_playable_trigger = {
 
 	trigger_if = {
 		limit = {
-			secret_religion_group  = jewish_group
+			secret_religion_group = jewish_group
 			NOT = { has_dlc = "Sons of Abraham" }
 		}
-		AND = {
-			secret_religion_group  = jewish_group
-			has_dlc = "Sons of Abraham"
-		}
+		secret_religion_group = jewish_group
+		has_dlc = "Sons of Abraham"
 	}
 	trigger_if = {
 		limit = {
-			secret_religion_group  = muslim
+			secret_religion_group = muslim
 			NOT = { has_dlc = "The Sword of Islam" }
 		}
-		AND = {
-			secret_religion_group  = muslim
-			has_dlc = "The Sword of Islam"
-		}
+		secret_religion_group = muslim
+		has_dlc = "The Sword of Islam"
 	}
 	trigger_if = {
 		limit = {
-			secret_religion_group  = indian_group
+			secret_religion_group = indian_group
 			NOT = { has_dlc = "Rajas of India" }
 		}
-		AND = {
-			secret_religion_group  = indian_group
-				has_dlc = "Rajas of India"
-		}
+		secret_religion_group = indian_group
+		has_dlc = "Rajas of India"
 	}
 	trigger_if = {
 		limit = {
@@ -2664,41 +2623,35 @@ ROOTs_secret_religion_is_playable_trigger = {
 			}
 			NOT = { has_dlc = "Jade Dragon" }
 		}
-		AND = {
-			OR = {
-				secret_religion = taoist
-				secret_religion = bon
-				#reformed bön prints out as 'bön' and there's no need to display 'bön' twice in the tooltip
-				secret_religion = khurmazta
-			}
-			has_dlc = "Jade Dragon"
+		OR = {
+			secret_religion = taoist
+			secret_religion = bon
+			#reformed bön prints out as 'bön' and there's no need to display 'bön' twice in the tooltip
+			secret_religion = khurmazta
 		}
+		has_dlc = "Jade Dragon"
 	}
 	trigger_if = {
 		limit = {
-			secret_religion_group  = pagan_group
+			secret_religion_group = pagan_group
 			NOR = {
 				has_dlc = "The Old Gods"
 				has_dlc = "Holy Fury"
 			}
 		}
-		AND = {
-			secret_religion_group = pagan_group
-			OR = {
-				has_dlc = "The Old Gods"
-				has_dlc = "Holy Fury"
-			}
+		secret_religion_group = pagan_group
+		OR = {
+			has_dlc = "The Old Gods"
+			has_dlc = "Holy Fury"
 		}
 	}
 	trigger_if = {
 		limit = {
-			secret_religion_group  = pagan_group
+			secret_religion_group = pagan_group
 			NOT = { has_dlc = "The Old Gods" }
 		}
-		AND = {
-			secret_religion_group = zoroastrian_group
-			has_dlc = "The Old Gods"
-		}
+		secret_religion_group = zoroastrian_group
+		has_dlc = "The Old Gods"
 	}
 }
 
@@ -2912,9 +2865,7 @@ has_society_currency_major_trigger = {
 }
 
 is_ill_trigger = {
-	OR = {
-		has_disease_trigger = yes
-	}
+	has_disease_trigger = yes
 }
 
 is_devil_worshiper_trigger = {
@@ -2928,6 +2879,7 @@ is_devil_worshiper_trigger = {
 			society_member_of = the_trollcrafters
 			society_member_of = the_vodouns
 			society_member_of = the_bacchants
+			
 			# CK2Plus
 			society_member_of = the_followers_of_fomorians
 		}
@@ -3417,7 +3369,7 @@ is_in_prevs_interesting_society_trigger = {
 		}
 		AND = {
 			society_member_of = secret_religious_society_hindu
-			PREV = { interested_in_society = secret_religious_society_hindu}
+			PREV = { interested_in_society = secret_religious_society_hindu }
 		}
 		AND = {
 			society_member_of = secret_religious_society_buddhist
@@ -3491,6 +3443,7 @@ is_in_prevs_interesting_society_trigger = {
 			society_member_of = secret_religious_society_aztec_reformed
 			PREV = { interested_in_society = secret_religious_society_aztec_reformed }
 		}
+		
 		# CK2Plus
 		AND = {
 			society_member_of = secret_religious_society_celtic_pagan
@@ -3554,309 +3507,309 @@ is_visible_to_self_trigger = { #For hidden modifiers
 #	    	any_character = {
 #	    		religion = catholic
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_cathar
 #	    	any_character = {
 #	    		religion = cathar
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_fraticelli
 #	    	any_character = {
 #	    		religion = fraticelli
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_waldensian
 #	    	any_character = {
 #	    		religion = waldensian
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_lollard
 #	    	any_character = {
 #	    		religion = lollard
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_orthodox
 #	    	any_character = {
 #	    		religion = orthodox
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_miaphysite
 #	    	any_character = {
 #	    		religion = miaphysite
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_monophysite
 #	    	any_character = {
 #	    		religion = monophysite
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_bogomilist
 #	    	any_character = {
 #	    		religion = bogomilist
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_monothelite
 #	    	any_character = {
 #	    		religion = monothelite
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_iconoclast
 #	    	any_character = {
 #	    		religion = iconoclast
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_paulician
 #	    	any_character = {
 #	    		religion = paulician
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_nestorian
 #	    	any_character = {
 #	    		religion = nestorian
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_messalian
 #	    	any_character = {
 #	    		religion = messalian
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_sunni
 #	    	any_character = {
 #	    		religion = sunni
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_zikri
 #	    	any_character = {
 #	    		religion = zikri
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_yazidi
 #	    	any_character = {
 #	    		religion = yazidi
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_ibadi
 #	    	any_character = {
 #	    		religion = ibadi
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_kharijite
 #	    	any_character = {
 #	    		religion = kharijite
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_shiite
 #	    	any_character = {
 #	    		religion = shiite
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_druze
 #	    	any_character = {
 #	    		religion = druze
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_hurufi
 #	    	any_character = {
 #	    		religion = hurufi
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_jewish
 #	    	any_character = {
 #	    		religion = jewish
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_karaite
 #	    	any_character = {
 #	    		religion = karaite
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_samaritan
 #	    	any_character = {
 #	    		religion = samaritan
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_zoroastrian
 #	    	any_character = {
 #	    		religion = zoroastrian
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_mazdaki
 #	    	any_character = {
 #	    		religion = mazdaki
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_manichean
 #	    	any_character = {
 #	    		religion = manichean
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_khurmazta
 #	    	any_character = {
 #	    		religion = khurmazta
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_bon
 #	    	any_character = {
 #	    		religion = bon
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_bon_reformed
 #	    	any_character = {
 #	    		religion = bon_reformed
 #	    	}
-#	    }
+#		}
 #		AND = {
 #			has_character_flag = character_was_taoist
 #	    	any_character = {
 #	    		religion = taoist
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_hindu
 #	    	any_character = {
 #	    		religion = hindu
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_buddhist
 #	    	any_character = {
 #	    		religion = buddhist
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_jain
 #	    	any_character = {
 #	    		religion = jain
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_norse_pagan_reformed
 #	    	any_character = {
 #	    		religion = norse_pagan_reformed
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_slavic_pagan_reformed
 #	    	any_character = {
 #	    		religion = slavic_pagan_reformed
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_tengri_pagan_reformed
 #	    	any_character = {
 #	    		religion = tengri_pagan_reformed
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_baltic_pagan_reformed
 #	    	any_character = {
 #	    		religion = baltic_pagan_reformed
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_finnish_pagan_reformed
 #	    	any_character = {
 #	    		religion = finnish_pagan_reformed
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_west_african_pagan_reformed
 #	    	any_character = {
 #	    		religion = west_african_pagan_reformed
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_zun_pagan_reformed
 #	    	any_character = {
 #	    		religion = zun_pagan_reformed
 #	    	}
-#	    }
+#		}
 #		AND = {
 #	    	has_character_flag = character_was_norse_pagan
 #	    	any_character = {
 #	    		religion = norse_pagan
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_slavic_pagan
 #	    	any_character = {
 #	    		religion = slavic_pagan
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_tengri_pagan
 #	    	any_character = {
 #	    		religion = tengri_pagan
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_baltic_pagan
 #	    	any_character = {
 #	    		religion = baltic_pagan
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_finnish_pagan
 #	    	any_character = {
 #	    		religion = finnish_pagan
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_west_african_pagan
 #	    	any_character = {
 #	    		religion = west_african_pagan
 #	    	}
-#	    }
+#		}
 #	    AND = {
 #	    	has_character_flag = character_was_zun_pagan
 #	    	any_character = {
 #	    		religion = zun_pagan
 #	    	}
-#	    }
+#		}
 #		AND = {
 #	    	has_character_flag = character_was_aztec
 #	    	any_character = {
 #	    		religion = aztec
 #	    	}
-#	    }
+#		}
 #		AND = {
 #	    	has_character_flag = character_was_aztec_reformed
 #	    	any_character = {
 #	    		religion = aztec_reformed
 #	    	}
-#	    }
+#		}
 #	}
-#}
+# }
 
 can_add_admin_bonus_trigger = {
 	NAND = {
@@ -3945,9 +3898,7 @@ has_trollcrafters_prerequisites = {
 
 has_cult_of_kali_prerequisites = {
 	has_common_devilworship_prerequisites = yes
-	OR = {
-		religion = hindu
-	}
+	religion = hindu
 }
 
 has_cold_ones_prerequisites = {
@@ -4073,365 +4024,426 @@ looting_artifact_event_religious_artifacts_trigger = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = catholic
-				ROOT = { religion = catholic }
 			}
+			ROOT = { religion = catholic }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = cathar
-				ROOT = { religion = cathar }
 			}
+			ROOT = { religion = cathar }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = fraticelli
-				ROOT = { religion = fraticelli }
 			}
+			ROOT = { religion = fraticelli }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = waldensian
-				ROOT = { religion = waldensian }
 			}
+			ROOT = { religion = waldensian }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = lollard
-				ROOT = { religion = lollard }
 			}
+			ROOT = { religion = lollard }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = orthodox
-				ROOT = { religion = orthodox }
 			}
+			ROOT = { religion = orthodox }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = bogomilist
-				ROOT = { religion = bogomilist }
 			}
+			ROOT = { religion = bogomilist }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = monothelite
-				ROOT = { religion = monothelite }
 			}
+			ROOT = { religion = monothelite }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = iconoclast
-				ROOT = { religion = iconoclast }
 			}
+			ROOT = { religion = iconoclast }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = paulician
-				ROOT = { religion = paulician }
 			}
+			ROOT = { religion = paulician }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = miaphysite
-				ROOT = { religion = miaphysite }
 			}
+			ROOT = { religion = miaphysite }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = monophysite
-				ROOT = { religion = monophysite }
 			}
+			ROOT = { religion = monophysite }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = nestorian
-				ROOT = { religion = nestorian }
 			}
+			ROOT = { religion = nestorian }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = messalian
-				ROOT = { religion = messalian }
 			}
+			ROOT = { religion = messalian }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = sunni
-				ROOT = { religion = sunni }
 			}
+			ROOT = { religion = sunni }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = zikri
-				ROOT = { religion = zikri }
 			}
+			ROOT = { religion = zikri }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = yazidi
-				ROOT = { religion = yazidi }
 			}
+			ROOT = { religion = yazidi }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = shiite
-				ROOT = { religion = shiite }
 			}
+			ROOT = { religion = shiite }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = druze
-				ROOT = { religion = druze }
 			}
+			ROOT = { religion = druze }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = hurufi
-				ROOT = { religion = hurufi }
 			}
+			ROOT = { religion = hurufi }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = ibadi
-				ROOT = { religion = ibadi }
 			}
+			ROOT = { religion = ibadi }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = kharijite
-				ROOT = { religion = kharijite }
 			}
+			ROOT = { religion = kharijite }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = jewish
-				ROOT = { religion = jewish }
 			}
+			ROOT = { religion = jewish }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = samaritan
-				ROOT = { religion = samaritan }
 			}
+			ROOT = { religion = samaritan }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = karaite
-				ROOT = { religion = karaite }
 			}
+			ROOT = { religion = karaite }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = zoroastrian
-				ROOT = { religion = zoroastrian }
 			}
+			ROOT = { religion = zoroastrian }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = mazdaki
-				ROOT = { religion = mazdaki }
 			}
+			ROOT = { religion = mazdaki }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = manichean
-				ROOT = { religion = manichean }
 			}
+			ROOT = { religion = manichean }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = khurmazta
-				ROOT = { religion = khurmazta }
 			}
+			ROOT = { religion = khurmazta }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = bon
-				ROOT = { OR = { religion = bon religion = bon_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = bon
+					religion = bon_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = taoist
-				ROOT = { religion = taoist }
 			}
+			ROOT = { religion = taoist }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = hindu
-				ROOT = { religion = hindu }
 			}
+			ROOT = { religion = hindu }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = buddhist
-				ROOT = { religion = buddhist }
 			}
+			ROOT = { religion = buddhist }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = jain
-				ROOT = { religion = jain }
 			}
+			ROOT = { religion = jain }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = norse_pagan
-				ROOT = { OR = { religion = norse_pagan religion = norse_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = norse_pagan
+					religion = norse_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = baltic_pagan
-				ROOT = { OR = { religion = baltic_pagan religion = baltic_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = baltic_pagan
+					religion = baltic_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = finnish_pagan
-				ROOT = { OR = { religion = finnish_pagan religion = finnish_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = finnish_pagan
+					religion = finnish_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = slavic_pagan
-				ROOT = { OR = { religion = slavic_pagan religion = slavic_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = slavic_pagan
+					religion = slavic_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = tengri_pagan
-				ROOT = { OR = { religion = tengri_pagan religion = tengri_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = tengri_pagan
+					religion = tengri_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = aztec
-				ROOT = { OR = { religion = aztec religion = aztec_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = aztec
+					religion = aztec_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = west_african_pagan
-				ROOT = { OR = { religion = west_african_pagan religion = west_african_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = west_african_pagan
+					religion = west_african_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = zun_pagan
-				ROOT = { OR = { religion = zun_pagan religion = zun_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = zun_pagan
+					religion = zun_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = hellenic_pagan
-				ROOT = { OR = { religion = hellenic_pagan religion = hellenic_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = pagan
-				ROOT = { religion = pagan }
 			}
+			ROOT = { religion = pagan }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = christian
-				ROOT = { religion_group = christian }
 			}
+			ROOT = { religion_group = christian }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = muslim
-				ROOT = { religion_group = muslim }
 			}
+			ROOT = { religion_group = muslim }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = pagan_group
-				ROOT = { religion_group = pagan_group }
 			}
+			ROOT = { religion_group = pagan_group }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = zoroastrian_group
-				ROOT = { religion_group = zoroastrian_group }
 			}
+			ROOT = { religion_group = zoroastrian_group }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = jewish_group
-				ROOT = { religion_group = jewish_group }
 			}
+			ROOT = { religion_group = jewish_group }
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = indian_group
-				ROOT = { religion_group = indian_group }
 			}
+			ROOT = { religion_group = indian_group }
 		}
+		
 		# CK2Plus
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = celtic_pagan
-				ROOT = { OR = { religion = celtic_pagan religion = celtic_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = celtic_pagan
+					religion = celtic_pagan_reformed
+				}
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = basque_pagan
-				ROOT = { OR = { religion = basque_pagan religion = basque_pagan_reformed } }
+			}
+			ROOT = {
+				OR = {
+					religion = basque_pagan
+					religion = basque_pagan_reformed
+				}
 			}
 		}
 	}
@@ -4440,257 +4452,213 @@ looting_artifact_event_religious_artifacts_trigger = {
 have_duplicate_goldsmith_artifacts_flag_okay_trigger = {
 	OR = {
 		AND = {
-		    OR = {
-		       	religion_group = christian
-		       	religion_group = jewish_group
+			OR = {
+			   	religion_group = christian
+			   	religion_group = jewish_group
 			}
-			AND =
-			{
-		       	has_artifact = the_lily_crown
-       			has_artifact = noble_scepter
-        		has_artifact = engraved_sword
-		  	}
+			has_artifact = the_lily_crown
+	   		has_artifact = noble_scepter
+			has_artifact = engraved_sword
 		}
 		AND = {
-	        OR = {
-	        	religion_group = muslim
-	        	religion = west_african_pagan
-	        	religion = west_african_pagan_reformed
-	        }
-	        AND = {
-		        has_artifact = engraved_dagger
-        		has_artifact = silver_bracelets
-		    }
-		}
-        AND = {
-	        OR = {
-	        	religion_group = indian_group
-	        	religion = bon
-	        	religion = bon_reformed
-	        }
-        	AND = {
-        		has_artifact = engraved_dagger
-        		has_artifact = collar_of_pearls
-        	}
-        }
-        AND = {
-	        OR = {
-	        	religion_group = zoroastrian_group
-	        	religion = zun_pagan
-	        	religion = zun_pagan_reformed
+			OR = {
+				religion_group = muslim
+				religion = west_african_pagan
+				religion = west_african_pagan_reformed
 			}
-			AND = {
-			    has_artifact = circlet_of_twilight
-        		has_artifact = silver_staff
-        	}
-        }
-       	AND = {
-	        OR = {
-	        	religion = norse_pagan
-	        	religion = norse_pagan_reformed
-	        }
-		    AND = {
-		        has_artifact = iron_crown
-      		    has_artifact = engraved_sword
-        	}
-        }
-        AND = {
-        	has_artifact = engraved_crown
-        	has_artifact = ceremonial_axe
-       	}
-    }
+			has_artifact = engraved_dagger
+			has_artifact = silver_bracelets
+		}
+		AND = {
+			OR = {
+				religion_group = indian_group
+				religion = bon
+				religion = bon_reformed
+			}
+			has_artifact = engraved_dagger
+			has_artifact = collar_of_pearls
+		}
+		AND = {
+			OR = {
+				religion_group = zoroastrian_group
+				religion = zun_pagan
+				religion = zun_pagan_reformed
+			}
+			has_artifact = circlet_of_twilight
+			has_artifact = silver_staff
+		}
+	   	AND = {
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+			}
+			has_artifact = iron_crown
+	  		has_artifact = engraved_sword
+		}
+		AND = {
+			has_artifact = engraved_crown
+			has_artifact = ceremonial_axe
+	   	}
+	}
 }
 
 have_duplicate_goldsmith_artifacts_flag_good_trigger = {
 	OR = {
 		AND = {
-		    OR = {
-		       	religion_group = christian
-		       	religion_group = jewish_group
+			OR = {
+			   	religion_group = christian
+			   	religion_group = jewish_group
 			}
-			AND =
-			{
-		       	has_artifact = crown_of_pearls
-        		has_artifact = ruby_scepter
-        		has_artifact = golden_sword
-		  	}
+			has_artifact = crown_of_pearls
+			has_artifact = ruby_scepter
+			has_artifact = golden_sword
 		}
 		AND = {
-	        OR = {
-	        	religion_group = muslim
-	        	religion = west_african_pagan
-	        	religion = west_african_pagan_reformed
-	        }
-	        AND = {
-		        has_artifact = bejeweled_dagger
-        		has_artifact = golden_bracelets
-		    }
-		}
-        AND = {
-	        OR = {
-	        	religion_group = indian_group
-	        	religion = bon
-	        	religion = bon_reformed
-	        }
-        	AND = {
-        		has_artifact = bejeweled_dagger
-        		has_artifact = necklace_of_radiance
-        	}
-        }
-        AND = {
-	        OR = {
-	        	religion_group = zoroastrian_group
-	        	religion = zun_pagan
-	        	religion = zun_pagan_reformed
+			OR = {
+				religion_group = muslim
+				religion = west_african_pagan
+				religion = west_african_pagan_reformed
 			}
-			AND = {
-			    has_artifact = circlet_of_the_heavens
-        		has_artifact = golden_staff
-        	}
-        }
-       	AND = {
-	        OR = {
-	        	religion = norse_pagan
-	        	religion = norse_pagan_reformed
-	        }
-		    AND = {
-		        has_artifact = crown_of_the_sea
-        		has_artifact = golden_sword
-        	}
-        }
-        AND = {
-        	has_artifact = amber_crown
-        	has_artifact = obsidian_axe
-       	}
-    }
+			has_artifact = bejeweled_dagger
+			has_artifact = golden_bracelets
+		}
+		AND = {
+			OR = {
+				religion_group = indian_group
+				religion = bon
+				religion = bon_reformed
+			}
+			has_artifact = bejeweled_dagger
+			has_artifact = necklace_of_radiance
+		}
+		AND = {
+			OR = {
+				religion_group = zoroastrian_group
+				religion = zun_pagan
+				religion = zun_pagan_reformed
+			}
+			has_artifact = circlet_of_the_heavens
+			has_artifact = golden_staff
+		}
+	   	AND = {
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+			}
+			has_artifact = crown_of_the_sea
+			has_artifact = golden_sword
+		}
+		AND = {
+			has_artifact = amber_crown
+			has_artifact = obsidian_axe
+	   	}
+	}
 }
 
 have_duplicate_goldsmith_artifacts_flag_expensive_trigger = {
 	OR = {
 		AND = {
-		    OR = {
-		       	religion_group = christian
-		       	religion_group = jewish_group
+			OR = {
+			   	religion_group = christian
+			   	religion_group = jewish_group
 			}
-			AND =
-			{
-		       	has_artifact = crown_of_majesty
-		     	has_artifact = emerald_scepter
-		    	has_artifact = sword_of_heroes
-		  	}
+			has_artifact = crown_of_majesty
+			has_artifact = emerald_scepter
+			has_artifact = sword_of_heroes
 		}
 		AND = {
-	        OR = {
-	        	religion_group = muslim
-	        	religion = west_african_pagan
-	        	religion = west_african_pagan_reformed
-	        }
-	        AND = {
-		        has_artifact = dagger_of_glory
-		        has_artifact = ruby_bracelets
-		    }
-		}
-        AND = {
-	        OR = {
-	        	religion_group = indian_group
-	        	religion = bon
-	        	religion = bon_reformed
-	        }
-        	AND = {
-        		has_artifact = dagger_of_glory
-        		has_artifact = celestial_necklace
-        	}
-        }
-        AND = {
-	        OR = {
-	        	religion_group = zoroastrian_group
-	        	religion = zun_pagan
-	        	religion = zun_pagan_reformed
+			OR = {
+				religion_group = muslim
+				religion = west_african_pagan
+				religion = west_african_pagan_reformed
 			}
-			AND = {
-			    has_artifact = circlet_of_the_heavens
-			    has_artifact = staff_of_majesty
-        	}
-        }
-       	AND = {
-	        OR = {
-	        	religion = norse_pagan
-	        	religion = norse_pagan_reformed
-	        }
-		    AND = {
-		        has_artifact = crown_of_crows
-		        has_artifact = sword_of_heroes
-        	}
-        }
-        AND = {
-        	has_artifact = heros_crown
-        	has_artifact = axe_of_the_ancestors
-       	}
-    }
+			has_artifact = dagger_of_glory
+			has_artifact = ruby_bracelets
+		}
+		AND = {
+			OR = {
+				religion_group = indian_group
+				religion = bon
+				religion = bon_reformed
+			}
+			has_artifact = dagger_of_glory
+			has_artifact = celestial_necklace
+		}
+		AND = {
+			OR = {
+				religion_group = zoroastrian_group
+				religion = zun_pagan
+				religion = zun_pagan_reformed
+			}
+			has_artifact = circlet_of_the_heavens
+			has_artifact = staff_of_majesty
+		}
+	   	AND = {
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+			}
+			has_artifact = crown_of_crows
+			has_artifact = sword_of_heroes
+		}
+		AND = {
+			has_artifact = heros_crown
+			has_artifact = axe_of_the_ancestors
+	   	}
+	}
 }
 
 have_duplicate_goldsmith_artifacts_flag_amazing_trigger = {
 	OR = {
 		AND = {
-		    OR = {
-		       	religion_group = christian
-		       	religion_group = jewish_group
+			OR = {
+			   	religion_group = christian
+			   	religion_group = jewish_group
 			}
-			AND =
-			{
-		       	has_artifact = crown_of_majesty_2
-		     	has_artifact = emerald_scepter_2
-		    	has_artifact = sword_of_heroes_2
-		  	}
+			has_artifact = crown_of_majesty_2
+			has_artifact = emerald_scepter_2
+			has_artifact = sword_of_heroes_2
 		}
 		AND = {
-	        OR = {
-	        	religion_group = muslim
-	        	religion = west_african_pagan
-	        	religion = west_african_pagan_reformed
-	        }
-	        AND = {
-		        has_artifact = dagger_of_glory_2
-		        has_artifact = ruby_bracelets_2
-		    }
-		}
-        AND = {
-	        OR = {
-	        	religion_group = indian_group
-	        	religion = bon
-	        	religion = bon_reformed
-	        }
-        	AND = {
-        		has_artifact = dagger_of_glory_2
-        		has_artifact = celestial_necklace_2
-        	}
-        }
-        AND = {
-	        OR = {
-	        	religion_group = zoroastrian_group
-	        	religion = zun_pagan
-	        	religion = zun_pagan_reformed
+			OR = {
+				religion_group = muslim
+				religion = west_african_pagan
+				religion = west_african_pagan_reformed
 			}
-			AND = {
-			    has_artifact = circlet_of_the_heavens_2
-			    has_artifact = staff_of_majesty_2
-        	}
-        }
-       	AND = {
-	        OR = {
-	        	religion = norse_pagan
-	        	religion = norse_pagan_reformed
-	        }
-		    AND = {
-		        has_artifact = crown_of_crows_2
-		        has_artifact = sword_of_heroes_2
-        	}
-        }
-        AND = {
-        	has_artifact = heros_crown_2
-        	has_artifact = axe_of_the_ancestors_2
-       	}
-    }
+			has_artifact = dagger_of_glory_2
+			has_artifact = ruby_bracelets_2
+		}
+		AND = {
+			OR = {
+				religion_group = indian_group
+				religion = bon
+				religion = bon_reformed
+			}
+			has_artifact = dagger_of_glory_2
+			has_artifact = celestial_necklace_2
+		}
+		AND = {
+			OR = {
+				religion_group = zoroastrian_group
+				religion = zun_pagan
+				religion = zun_pagan_reformed
+			}
+			has_artifact = circlet_of_the_heavens_2
+			has_artifact = staff_of_majesty_2
+		}
+	   	AND = {
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+			}
+			has_artifact = crown_of_crows_2
+			has_artifact = sword_of_heroes_2
+		}
+		AND = {
+			has_artifact = heros_crown_2
+			has_artifact = axe_of_the_ancestors_2
+	   	}
+	}
 }
 
 have_all_armorsmith_artifacts_all_flags_trigger = {
@@ -4736,12 +4704,12 @@ have_all_weaponsmith_artifacts_all_flags_trigger = {
 have_all_weaponsmith_mace_all_flags_trigger = {
 	has_artifact = mace_tier_4_foe_hammer
 	has_artifact = mace_tier_3_foe_hammer
-    has_artifact = mace_tier_4_bone_breaker
-    has_artifact = mace_tier_3_bone_breaker
-    has_artifact = mace_tier_4_shatterer
-    has_artifact = mace_tier_3_shatterer
-    has_artifact = mace_tier_2_new
-    has_artifact = mace_tier_1_new
+	has_artifact = mace_tier_4_bone_breaker
+	has_artifact = mace_tier_3_bone_breaker
+	has_artifact = mace_tier_4_shatterer
+	has_artifact = mace_tier_3_shatterer
+	has_artifact = mace_tier_2_new
+	has_artifact = mace_tier_1_new
 }
 
 have_all_weaponsmith_axe_all_flags_trigger = {
@@ -4752,7 +4720,7 @@ have_all_weaponsmith_axe_all_flags_trigger = {
 	has_artifact = axe_tier_4_marauder
 	has_artifact = axe_tier_3_marauder
 	has_artifact = axe_tier_2_new
-    has_artifact = axe_tier_1_new
+	has_artifact = axe_tier_1_new
 }
 
 have_all_weaponsmith_lance_all_flags_trigger = {
@@ -4763,18 +4731,18 @@ have_all_weaponsmith_lance_all_flags_trigger = {
 	has_artifact = lance_tier_4_piercer
 	has_artifact = lance_tier_3_piercer
 	has_artifact = lance_tier_2_new
-    has_artifact = lance_tier_1_new
+	has_artifact = lance_tier_1_new
 }
 
 have_all_weaponsmith_swords_all_flags_trigger = {
 	has_artifact = sword_tier_4_heartseeker
 	has_artifact = sword_tier_3_heartseeker
 	has_artifact = sword_tier_4_vengeance
-    has_artifact = sword_tier_3_vengeance
-    has_artifact = sword_tier_4_fury
-    has_artifact = sword_tier_3_fury
-    has_artifact = sword_tier_2_new
-    has_artifact = sword_tier_1_new
+	has_artifact = sword_tier_3_vengeance
+	has_artifact = sword_tier_4_fury
+	has_artifact = sword_tier_3_fury
+	has_artifact = sword_tier_2_new
+	has_artifact = sword_tier_1_new
 }
 
 have_all_weaponsmith_scimitar_all_flags_trigger = {
@@ -4785,7 +4753,7 @@ have_all_weaponsmith_scimitar_all_flags_trigger = {
 	has_artifact = scimitar_tier_4_conquest
 	has_artifact = scimitar_tier_3_conquest
 	has_artifact = scimitar_tier_2_new
-    has_artifact = scimitar_tier_1_new
+	has_artifact = scimitar_tier_1_new
 }
 
 have_all_weaponsmith_bow_all_flags_trigger = {
@@ -4802,265 +4770,265 @@ have_all_weaponsmith_bow_all_flags_trigger = {
 have_duplicate_smith_artifacts_flag_okay_trigger = {
 	OR = {
 		AND = {
-		    FROM = { has_character_flag = weapon_sword }
+			FROM = { has_character_flag = weapon_sword }
 			has_artifact = sword_tier_1_new
 		}
 		AND = {
-	        FROM = { has_character_flag = weapon_scimitar }
-        	has_artifact = scimitar_tier_1_new
+			FROM = { has_character_flag = weapon_scimitar }
+			has_artifact = scimitar_tier_1_new
 		}
-        AND = {
-	        FROM = { has_character_flag = weapon_lance }
-        	has_artifact = lance_tier_1_new
-        }
-        AND = {
-	        FROM = { has_character_flag = weapon_axe }
-        	has_artifact = axe_tier_1_new
-        }
-       	AND = {
-	        FROM = { has_character_flag = weapon_mace }
-        	has_artifact = mace_tier_1_new
-        }
-        AND = {
-        	FROM = { has_character_flag = weapon_bow }
-        	has_artifact = bow_tier_1_new
-       	}
-       	AND = {
-        	FROM = { has_character_flag = armor_set }
-       		has_artifact = armor_tier_1
-       	}
-    }
+		AND = {
+			FROM = { has_character_flag = weapon_lance }
+			has_artifact = lance_tier_1_new
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_axe }
+			has_artifact = axe_tier_1_new
+		}
+	   	AND = {
+			FROM = { has_character_flag = weapon_mace }
+			has_artifact = mace_tier_1_new
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_bow }
+			has_artifact = bow_tier_1_new
+	   	}
+	   	AND = {
+			FROM = { has_character_flag = armor_set }
+	   		has_artifact = armor_tier_1
+	   	}
+	}
 }
 
 have_duplicate_smith_artifacts_flag_good_trigger = {
 	OR = {
 		AND = {
-		    FROM = { has_character_flag = weapon_sword }
+			FROM = { has_character_flag = weapon_sword }
 			has_artifact = sword_tier_2_new
 		}
 		AND = {
-	        FROM = { has_character_flag = weapon_scimitar }
-        	has_artifact = scimitar_tier_2_new
+			FROM = { has_character_flag = weapon_scimitar }
+			has_artifact = scimitar_tier_2_new
 		}
-        AND = {
-	        FROM = { has_character_flag = weapon_lance }
-        	has_artifact = lance_tier_2_new
-        }
-        AND = {
-	        FROM = { has_character_flag = weapon_axe }
-        	has_artifact = axe_tier_2_new
-        }
-       	AND = {
-	        FROM = { has_character_flag = weapon_mace }
-        	has_artifact = mace_tier_2_new
-        }
-        AND = {
-        	FROM = { has_character_flag = weapon_bow }
-        	has_artifact = bow_tier_2_new
-       	}
-       	AND = {
-        	FROM = { has_character_flag = armor_set }
-       		has_artifact = armor_tier_2
-       	}
-    }
+		AND = {
+			FROM = { has_character_flag = weapon_lance }
+			has_artifact = lance_tier_2_new
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_axe }
+			has_artifact = axe_tier_2_new
+		}
+	   	AND = {
+			FROM = { has_character_flag = weapon_mace }
+			has_artifact = mace_tier_2_new
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_bow }
+			has_artifact = bow_tier_2_new
+	   	}
+	   	AND = {
+			FROM = { has_character_flag = armor_set }
+	   		has_artifact = armor_tier_2
+	   	}
+	}
 }
 
 have_duplicate_smith_artifacts_flag_amazing_optionA_trigger = {
 	OR = {
 		AND = {
-		    FROM = { has_character_flag = weapon_sword }
+			FROM = { has_character_flag = weapon_sword }
 			has_artifact = sword_tier_4_heartseeker
 		}
 		AND = {
-	        FROM = { has_character_flag = weapon_scimitar }
-        	has_artifact = scimitar_tier_4_golden
+			FROM = { has_character_flag = weapon_scimitar }
+			has_artifact = scimitar_tier_4_golden
 		}
-        AND = {
-	        FROM = { has_character_flag = weapon_lance }
-        	has_artifact = lance_tier_4_impaler
-        }
-        AND = {
-	        FROM = { has_character_flag = weapon_axe }
-        	has_artifact = axe_tier_4_cleaver
-        }
-       	AND = {
-	        FROM = { has_character_flag = weapon_mace }
-        	has_artifact = mace_tier_4_foe_hammer
-        }
-        AND = {
-        	FROM = { has_character_flag = weapon_bow }
-        	has_artifact = bow_tier_4_silent_wind
-       	}
-       	AND = {
-        	FROM = { has_character_flag = armor_set }
-       		has_artifact = armor_tier_4_guardian
-       	}
-    }
+		AND = {
+			FROM = { has_character_flag = weapon_lance }
+			has_artifact = lance_tier_4_impaler
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_axe }
+			has_artifact = axe_tier_4_cleaver
+		}
+	   	AND = {
+			FROM = { has_character_flag = weapon_mace }
+			has_artifact = mace_tier_4_foe_hammer
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_bow }
+			has_artifact = bow_tier_4_silent_wind
+	   	}
+	   	AND = {
+			FROM = { has_character_flag = armor_set }
+	   		has_artifact = armor_tier_4_guardian
+	   	}
+	}
 }
 
 have_duplicate_smith_artifacts_flag_amazing_optionB_trigger = {
 	OR = {
 		AND = {
-		    FROM = { has_character_flag = weapon_sword }
+			FROM = { has_character_flag = weapon_sword }
 			has_artifact = sword_tier_4_vengeance
 		}
 		AND = {
-	        FROM = { has_character_flag = weapon_scimitar }
-        	has_artifact = scimitar_tier_4_fortune
+			FROM = { has_character_flag = weapon_scimitar }
+			has_artifact = scimitar_tier_4_fortune
 		}
-        AND = {
-	        FROM = { has_character_flag = weapon_lance }
-        	has_artifact = lance_tier_4_trident
-        }
-        AND = {
-	        FROM = { has_character_flag = weapon_axe }
-        	has_artifact = axe_tier_4_ravager
-        }
-       	AND = {
-	        FROM = { has_character_flag = weapon_mace }
-        	has_artifact = mace_tier_4_bone_breaker
-        }
-        AND = {
-        	FROM = { has_character_flag = weapon_bow }
-        	has_artifact = bow_tier_4_lightning
-       	}
-       	AND = {
-        	FROM = { has_character_flag = armor_set }
-       		has_artifact = armor_tier_4_champion
-       	}
-    }
+		AND = {
+			FROM = { has_character_flag = weapon_lance }
+			has_artifact = lance_tier_4_trident
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_axe }
+			has_artifact = axe_tier_4_ravager
+		}
+	   	AND = {
+			FROM = { has_character_flag = weapon_mace }
+			has_artifact = mace_tier_4_bone_breaker
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_bow }
+			has_artifact = bow_tier_4_lightning
+	   	}
+	   	AND = {
+			FROM = { has_character_flag = armor_set }
+	   		has_artifact = armor_tier_4_champion
+	   	}
+	}
 }
 
 have_duplicate_smith_artifacts_flag_amazing_optionC_trigger = {
 	OR = {
 		AND = {
-		    FROM = { has_character_flag = weapon_sword }
+			FROM = { has_character_flag = weapon_sword }
 			has_artifact = sword_tier_4_fury
 		}
 		AND = {
-	        FROM = { has_character_flag = weapon_scimitar }
-        	has_artifact = scimitar_tier_4_conquest
+			FROM = { has_character_flag = weapon_scimitar }
+			has_artifact = scimitar_tier_4_conquest
 		}
-        AND = {
-	        FROM = { has_character_flag = weapon_lance }
-        	has_artifact = lance_tier_4_piercer
-        }
-        AND = {
-	        FROM = { has_character_flag = weapon_axe }
-        	has_artifact = axe_tier_4_marauder
-        }
-       	AND = {
-	        FROM = { has_character_flag = weapon_mace }
-        	has_artifact = mace_tier_4_shatterer
-        }
-        AND = {
-        	FROM = { has_character_flag = weapon_bow }
-        	has_artifact = bow_tier_4_eagle
-       	}
-       	AND = {
-        	FROM = { has_character_flag = armor_set }
-       		has_artifact = armor_tier_4_warden
-       	}
-    }
+		AND = {
+			FROM = { has_character_flag = weapon_lance }
+			has_artifact = lance_tier_4_piercer
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_axe }
+			has_artifact = axe_tier_4_marauder
+		}
+	   	AND = {
+			FROM = { has_character_flag = weapon_mace }
+			has_artifact = mace_tier_4_shatterer
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_bow }
+			has_artifact = bow_tier_4_eagle
+	   	}
+	   	AND = {
+			FROM = { has_character_flag = armor_set }
+	   		has_artifact = armor_tier_4_warden
+	   	}
+	}
 }
 
 have_duplicate_smith_artifacts_flag_expensive_optionA_trigger = {
 	OR = {
 		AND = {
-		    FROM = { has_character_flag = weapon_sword }
+			FROM = { has_character_flag = weapon_sword }
 			has_artifact = sword_tier_3_heartseeker
 		}
 		AND = {
-	        FROM = { has_character_flag = weapon_scimitar }
-        	has_artifact = scimitar_tier_3_golden
+			FROM = { has_character_flag = weapon_scimitar }
+			has_artifact = scimitar_tier_3_golden
 		}
-        AND = {
-	        FROM = { has_character_flag = weapon_lance }
-        	has_artifact = lance_tier_3_impaler
-        }
-        AND = {
-	        FROM = { has_character_flag = weapon_axe }
-        	has_artifact = axe_tier_3_cleaver
-        }
-       	AND = {
-	        FROM = { has_character_flag = weapon_mace }
-        	has_artifact = mace_tier_3_foe_hammer
-        }
-        AND = {
-        	FROM = { has_character_flag = weapon_bow }
-        	has_artifact = bow_tier_3_silent_wind
-       	}
-       	AND = {
-        	FROM = { has_character_flag = armor_set }
-       		has_artifact = armor_tier_3_guardian
-       	}
-    }
+		AND = {
+			FROM = { has_character_flag = weapon_lance }
+			has_artifact = lance_tier_3_impaler
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_axe }
+			has_artifact = axe_tier_3_cleaver
+		}
+	   	AND = {
+			FROM = { has_character_flag = weapon_mace }
+			has_artifact = mace_tier_3_foe_hammer
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_bow }
+			has_artifact = bow_tier_3_silent_wind
+	   	}
+	   	AND = {
+			FROM = { has_character_flag = armor_set }
+	   		has_artifact = armor_tier_3_guardian
+	   	}
+	}
 }
 
 have_duplicate_smith_artifacts_flag_expensive_optionB_trigger = {
 	OR = {
 		AND = {
-		    FROM = { has_character_flag = weapon_sword }
+			FROM = { has_character_flag = weapon_sword }
 			has_artifact = sword_tier_3_vengeance
 		}
 		AND = {
-	        FROM = { has_character_flag = weapon_scimitar }
-        	has_artifact = scimitar_tier_3_fortune
+			FROM = { has_character_flag = weapon_scimitar }
+			has_artifact = scimitar_tier_3_fortune
 		}
-        AND = {
-	        FROM = { has_character_flag = weapon_lance }
-        	has_artifact = lance_tier_3_trident
-        }
-        AND = {
-	        FROM = { has_character_flag = weapon_axe }
-        	has_artifact = axe_tier_3_ravager
-        }
-       	AND = {
-	        FROM = { has_character_flag = weapon_mace }
-        	has_artifact = mace_tier_3_bone_breaker
-        }
-        AND = {
-        	FROM = { has_character_flag = weapon_bow }
-        	has_artifact = bow_tier_3_lightning
-       	}
-       	AND = {
-        	FROM = { has_character_flag = armor_set }
-       		has_artifact = armor_tier_3_champion
-       	}
-    }
+		AND = {
+			FROM = { has_character_flag = weapon_lance }
+			has_artifact = lance_tier_3_trident
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_axe }
+			has_artifact = axe_tier_3_ravager
+		}
+	   	AND = {
+			FROM = { has_character_flag = weapon_mace }
+			has_artifact = mace_tier_3_bone_breaker
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_bow }
+			has_artifact = bow_tier_3_lightning
+	   	}
+	   	AND = {
+			FROM = { has_character_flag = armor_set }
+	   		has_artifact = armor_tier_3_champion
+	   	}
+	}
 }
 
 have_duplicate_smith_artifacts_flag_expensive_optionC_trigger = {
 	OR = {
 		AND = {
-		    FROM = { has_character_flag = weapon_sword }
+			FROM = { has_character_flag = weapon_sword }
 			has_artifact = sword_tier_3_fury
 		}
 		AND = {
-	        FROM = { has_character_flag = weapon_scimitar }
-        	has_artifact = scimitar_tier_3_conquest
+			FROM = { has_character_flag = weapon_scimitar }
+			has_artifact = scimitar_tier_3_conquest
 		}
-        AND = {
-	        FROM = { has_character_flag = weapon_lance }
-        	has_artifact = lance_tier_3_piercer
-        }
-        AND = {
-	        FROM = { has_character_flag = weapon_axe }
-        	has_artifact = axe_tier_3_marauder
-        }
-       	AND = {
-	        FROM = { has_character_flag = weapon_mace }
-        	has_artifact = mace_tier_3_shatterer
-        }
-        AND = {
-        	FROM = { has_character_flag = weapon_bow }
-        	has_artifact = bow_tier_3_eagle
-       	}
-       	AND = {
-        	FROM = { has_character_flag = armor_set }
-       		has_artifact = armor_tier_3_warden
-       	}
-    }
+		AND = {
+			FROM = { has_character_flag = weapon_lance }
+			has_artifact = lance_tier_3_piercer
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_axe }
+			has_artifact = axe_tier_3_marauder
+		}
+	   	AND = {
+			FROM = { has_character_flag = weapon_mace }
+			has_artifact = mace_tier_3_shatterer
+		}
+		AND = {
+			FROM = { has_character_flag = weapon_bow }
+			has_artifact = bow_tier_3_eagle
+	   	}
+	   	AND = {
+			FROM = { has_character_flag = armor_set }
+	   		has_artifact = armor_tier_3_warden
+	   	}
+	}
 }
 
 can_be_asked_to_leave_court_trigger = {
@@ -5099,7 +5067,7 @@ can_be_asked_to_leave_court_trigger = {
 
 		#trigger_if has Reaper's Due
 		trigger_if = {
-			limit = { has_dlc = "Reapers"}
+			limit = { has_dlc = "Reapers" }
 			in_seclusion = yes
 		}
 		custom_tooltip = {
@@ -5760,6 +5728,7 @@ has_unsafe_secret_religion = {
 				secret_religion = pagan
 				secret_religion = aztec
 				secret_religion = aztec_reformed
+				
 				#CK2Plus
 				secret_religion = celtic_pagan
 				secret_religion = celtic_pagan_reformed
@@ -5966,7 +5935,7 @@ selected_ingredient_is_perceived_healthy_trigger = {
 				is_ingredient_herb_trigger = yes
 				NOT = { artifact_type = ingredient_herb3 } #Mandrake
 			}
-			artifact_type = ingredient_metal_exotic8 #Mercury
+			artifact_type = ingredient_metal_exotic2 #Mercury
 			artifact_type = ingredient_metal_exotic8 #Iron
 			artifact_type = ingredient_metal_exotic6 #Gold
 
@@ -5986,7 +5955,7 @@ selected_ingredient_is_unhealthy_trigger = {
 		}
 		OR = {
 			artifact_type = ingredient_herb3 #Mandrake
-			artifact_type = ingredient_metal_exotic8 #Mercury
+			artifact_type = ingredient_metal_exotic2 #Mercury
 			artifact_type = ingredient_metal_exotic8 #Iron
 			is_ingredient_animal_part_trigger = yes
 		}
@@ -6031,7 +6000,7 @@ ingredient_is_perceived_healthy_trigger = {
 			is_ingredient_herb_trigger = yes
 			NOT = { artifact_type = ingredient_herb3 } #Mandrake
 		}
-		artifact_type = ingredient_metal_exotic8 #Mercury
+		artifact_type = ingredient_metal_exotic2 #Mercury
 		artifact_type = ingredient_metal_exotic8 #Iron
 		artifact_type = ingredient_metal_exotic6 #Gold
 
@@ -6045,7 +6014,7 @@ ingredient_is_perceived_healthy_trigger = {
 ingredient_is_unhealthy_trigger = {
 	OR = {
 		artifact_type = ingredient_herb3 #Mandrake
-		artifact_type = ingredient_metal_exotic8 #Mercury
+		artifact_type = ingredient_metal_exotic2 #Mercury
 		artifact_type = ingredient_metal_exotic8 #Iron
 		AND = {
 			is_ingredient_animal_part_trigger = yes
@@ -6307,7 +6276,7 @@ china_offmap_decisions_enabled_trigger = {
 		governor = {
 			show_scope_change = no
 			is_within_diplo_range = FROM
-			hidden_trigger  = { NOT = { character = FROM } } #Governor cannot use boon/tributes decisions
+			hidden_trigger = { NOT = { character = FROM } } #Governor cannot use boon/tributes decisions
 		}
 	}
 	custom_tooltip = {
@@ -6346,7 +6315,7 @@ china_offmap_hostile_decisions_enabled_trigger = {
 		governor = {
 			show_scope_change = no
 			is_within_diplo_range = FROM
-			hidden_trigger  = { NOT = { character = FROM } } #Governor cannot use boon/tributes decisions
+			hidden_trigger = { NOT = { character = FROM } } #Governor cannot use boon/tributes decisions
 		}
 		offmap_ruler = {
 			NOT = { dynasty = FROM }
@@ -6370,45 +6339,45 @@ local_third_party_score_great_trigger = {
 # For checking the Chinese Emperor's likes & dislikes
 is_liked_by_China_trigger = {
 	liked_by_offmap = {
-        type = offmap_china
-    }
-    NOT = {
-        disliked_by_offmap = {
-            type = offmap_china
-        }
-    }
-    offmap_china = {
-        show_scope_change = no
-        custom_tooltip = { text = emperor_likes_THIS_tt }
-    }
+		type = offmap_china
+	}
+	NOT = {
+		disliked_by_offmap = {
+			type = offmap_china
+		}
+	}
+	offmap_china = {
+		show_scope_change = no
+		custom_tooltip = { text = emperor_likes_THIS_tt }
+	}
 }
 
 is_disliked_by_China_trigger = {
 	disliked_by_offmap = {
-        type = offmap_china
-    }
-    NOT = {
+		type = offmap_china
+	}
+	NOT = {
 		liked_by_offmap = {
-            type = offmap_china
-        }
-    }
-    offmap_china = {
-        show_scope_change = no
-        custom_tooltip = { text = emperor_dislikes_THIS_tt }
-    }
+			type = offmap_china
+		}
+	}
+	offmap_china = {
+		show_scope_change = no
+		custom_tooltip = { text = emperor_dislikes_THIS_tt }
+	}
 }
 
 is_liked_and_disliked_by_China = {
-    disliked_by_offmap = {
-        type = offmap_china
-    }
-    liked_by_offmap = {
-        type = offmap_china
-    }
-    offmap_china = {
-        show_scope_change = no
-        custom_tooltip = { text = emperor_has_ambiguous_feelings_of_THIS_tt }
-    }
+	disliked_by_offmap = {
+		type = offmap_china
+	}
+	liked_by_offmap = {
+		type = offmap_china
+	}
+	offmap_china = {
+		show_scope_change = no
+		custom_tooltip = { text = emperor_has_ambiguous_feelings_of_THIS_tt }
+	}
 }
 
 #Used in the invasion script...
@@ -6612,6 +6581,7 @@ silk_road_trade_post_trigger = {
 				province_id = 641
 				province_id = 630
 				province_id = 1180
+				province_id = 1297
 				province_id = 1127
 				province_id = 1220
 				province_id = 1114
@@ -6626,7 +6596,6 @@ silk_road_trade_post_trigger = {
 				province_id = 1185
 				province_id = 1129
 				province_id = 1318
-				province_id = 1297
 				province_id = 1163
 				province_id = 1154
 				province_id = 1151
@@ -6710,6 +6679,7 @@ has_unsafe_religion = {
 				religion = pagan
 				religion = aztec
 				religion = aztec_reformed
+				
 				# CK2Plus
 				religion = celtic_pagan
 				religion = celtic_pagan_reformed
@@ -7253,13 +7223,11 @@ should_evolve_cultures_trigger = {
 
 non_historical_culture_names_in_alt_start_trigger = {
 	hidden_tooltip = {
-		AND = {
-			is_alternate_start = yes
-			NOT = {
-				has_alternate_start_parameter = {
-					key = culture_names
-					value = historical
-				}
+		is_alternate_start = yes
+		NOT = {
+			has_alternate_start_parameter = {
+				key = culture_names
+				value = historical
 			}
 		}
 	}
@@ -7405,246 +7373,227 @@ martyrs_death_trigger = {
 	}
 }
 can_build_hillfort_trigger = {
-						OR = {
-							AND = {
-										NOR = {
-											is_building = tb_hillfort_1
-											has_building = tb_hillfort_1
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 0 }
-							}
-							AND = {
-										has_building = tb_hillfort_1
-										NOR = {
-											is_building = tb_hillfort_2
-											has_building = tb_hillfort_2
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 0 }
-							}
-							AND = {
-										has_building = tb_hillfort_2
-										NOR = {
-											is_building = tb_hillfort_3
-											has_building = tb_hillfort_3
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 1 }
-							}
-							AND = {
-										has_building = tb_hillfort_3
-										NOR = {
-												is_building = tb_hillfort_4
-												has_building = tb_hillfort_4
-											}
-										location = { TECH_CASTLE_CONSTRUCTION = 1 }
-							}
-						}
+	OR = {
+		AND = {
+			NOR = {
+				is_building = tb_hillfort_1
+				has_building = tb_hillfort_1
+			}
+			location = { TECH_CASTLE_CONSTRUCTION = 0 }
+		}
+		AND = {
+			has_building = tb_hillfort_1
+			NOR = {
+				is_building = tb_hillfort_2
+				has_building = tb_hillfort_2
+			}
+			location = { TECH_CASTLE_CONSTRUCTION = 0 }
+		}
+		AND = {
+			has_building = tb_hillfort_2
+			NOR = {
+				is_building = tb_hillfort_3
+				has_building = tb_hillfort_3
+			}
+			location = { TECH_CASTLE_CONSTRUCTION = 1 }
+		}
+		AND = {
+			has_building = tb_hillfort_3
+			NOR = {
+					is_building = tb_hillfort_4
+					has_building = tb_hillfort_4
+				}
+			location = { TECH_CASTLE_CONSTRUCTION = 1 }
+		}
+	}
 }
 can_build_defensive_fortifications_trigger = {
-						holding_type = tribal
-						hidden_tooltip = {
-							NOR = {
-								is_building = tb_defensive_fortifications_4
-								has_building = tb_defensive_fortifications_4
-							}
-						}
-						OR = {
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_tb_defensive_fortifications_1
-									hidden_tooltip = {
-										NOR = {
-											is_building = tb_defensive_fortifications_1
-											has_building = tb_defensive_fortifications_1
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 0 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_tb_defensive_fortifications_2
-									hidden_tooltip = {
-										has_building = tb_defensive_fortifications_1
-										NOR = {
-											is_building = tb_defensive_fortifications_2
-											has_building = tb_defensive_fortifications_2
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 0 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_tb_defensive_fortifications_3
-									hidden_tooltip = {
-										has_building = tb_defensive_fortifications_2
-										NOR = {
-											is_building = tb_defensive_fortifications_3
-											has_building = tb_defensive_fortifications_3
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 1 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_tb_defensive_fortifications_4
-									hidden_tooltip = {
-										has_building = tb_defensive_fortifications_3
-										NOR = {
-											is_building = tb_defensive_fortifications_4
-											has_building = tb_defensive_fortifications_4
-										}
-										location = { TECH_CASTLE_CONSTRUCTION = 1 }
-									}
-								}
-							}
-						}
+	holding_type = tribal
+	hidden_tooltip = {
+		NOR = {
+			is_building = tb_defensive_fortifications_4
+			has_building = tb_defensive_fortifications_4
+		}
+	}
+	OR = {
+		AND = {
+			custom_tooltip = {
+				text = tooltip_can_build_tb_defensive_fortifications_1
+				hidden_tooltip = {
+					NOR = {
+						is_building = tb_defensive_fortifications_1
+						has_building = tb_defensive_fortifications_1
+					}
+					location = { TECH_CASTLE_CONSTRUCTION = 0 }
+				}
+			}
+		}
+		AND = {
+			custom_tooltip = {
+				text = tooltip_can_build_tb_defensive_fortifications_2
+				hidden_tooltip = {
+					has_building = tb_defensive_fortifications_1
+					NOR = {
+						is_building = tb_defensive_fortifications_2
+						has_building = tb_defensive_fortifications_2
+					}
+					location = { TECH_CASTLE_CONSTRUCTION = 0 }
+				}
+			}
+		}
+		AND = {
+			custom_tooltip = {
+				text = tooltip_can_build_tb_defensive_fortifications_3
+				hidden_tooltip = {
+					has_building = tb_defensive_fortifications_2
+					NOR = {
+						is_building = tb_defensive_fortifications_3
+						has_building = tb_defensive_fortifications_3
+					}
+					location = { TECH_CASTLE_CONSTRUCTION = 1 }
+				}
+			}
+		}
+		AND = {
+			custom_tooltip = {
+				text = tooltip_can_build_tb_defensive_fortifications_4
+				hidden_tooltip = {
+					has_building = tb_defensive_fortifications_3
+					NOR = {
+						is_building = tb_defensive_fortifications_4
+						has_building = tb_defensive_fortifications_4
+					}
+					location = { TECH_CASTLE_CONSTRUCTION = 1 }
+				}
+			}
+		}
+	}
 }
 can_build_walls_trigger = {
-						holding_type = castle
-						hidden_tooltip = { NOT = { has_building = ca_wall_5 } }
-						OR = {
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_1
-									hidden_tooltip = {
-										NOR = {
-											is_building = ca_wall_1
-											has_building = ca_wall_1
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_2
-									hidden_tooltip = {
-										has_building = ca_wall_1
-										NOR = {
-											is_building = ca_wall_2
-											has_building = ca_wall_2
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_3
-									hidden_tooltip = {
-										has_building = ca_wall_2
-										NOR = {
-											is_building = ca_wall_3
-											has_building = ca_wall_3
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_4
-									hidden_tooltip = {
-										has_building = ca_wall_3
-										NOR = {
-											is_building = ca_wall_4
-											has_building = ca_wall_4
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_5
-									hidden_tooltip = {
-										has_building = ca_wall_4
-										NOR = {
-											is_building = ca_wall_5
-											has_building = ca_wall_5
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
-									}
-								}
-							}
-						}
+	holding_type = castle
+	hidden_tooltip = { NOT = { has_building = ca_wall_5 } }
+	OR = {
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_1
+			hidden_tooltip = {
+				NOR = {
+					is_building = ca_wall_1
+					has_building = ca_wall_1
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			}
+		}
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_2
+			hidden_tooltip = {
+				has_building = ca_wall_1
+				NOR = {
+					is_building = ca_wall_2
+					has_building = ca_wall_2
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+			}
+		}
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_3
+			hidden_tooltip = {
+				has_building = ca_wall_2
+				NOR = {
+					is_building = ca_wall_3
+					has_building = ca_wall_3
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+			}
+		}
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_4
+			hidden_tooltip = {
+				has_building = ca_wall_3
+				NOR = {
+					is_building = ca_wall_4
+					has_building = ca_wall_4
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+			}
+		}
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_5
+			hidden_tooltip = {
+				has_building = ca_wall_4
+				NOR = {
+					is_building = ca_wall_5
+					has_building = ca_wall_5
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+			}
+		}
+	}
 }
+
 can_build_castle_fortifications_trigger = {
-						holding_type = castle
-						hidden_tooltip = {
-							NOR = {
-								is_building = ca_wall_q_5
-								has_building = ca_wall_q_5
-							}
-						}
-						OR = {
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_q_1
-									hidden_tooltip = {
-										NOR = {
-											is_building = ca_wall_q_1
-											has_building = ca_wall_q_1
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_q_2
-									hidden_tooltip = {
-										has_building = ca_wall_q_1
-										NOR = {
-											is_building = ca_wall_q_2
-											has_building = ca_wall_q_2
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_q_3
-									hidden_tooltip = {
-										has_building = ca_wall_q_2
-										NOR = {
-											is_building = ca_wall_q_3
-											has_building = ca_wall_q_3
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
-									}
-								}
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_q_4
-									hidden_tooltip = {
-										has_building = ca_wall_q_3
-										NOR = {
-											is_building = ca_wall_q_4
-											has_building = ca_wall_q_4
-										}
-									}
-								}
-								location = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
-							}
-							AND = {
-								custom_tooltip = {
-									text = tooltip_can_build_ca_wall_q_5
-									hidden_tooltip = {
-										has_building = ca_wall_q_4
-										NOR = {
-											is_building = ca_wall_q_5
-											has_building = ca_wall_q_5
-										}
-										location = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
-									}
-								}
-							}
-						}
+	holding_type = castle
+	hidden_tooltip = {
+		NOR = {
+			is_building = ca_wall_q_5
+			has_building = ca_wall_q_5
+		}
+	}
+	OR = {
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_q_1
+			hidden_tooltip = {
+				NOR = {
+					is_building = ca_wall_q_1
+					has_building = ca_wall_q_1
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			}
+		}
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_q_2
+			hidden_tooltip = {
+				has_building = ca_wall_q_1
+				NOR = {
+					is_building = ca_wall_q_2
+					has_building = ca_wall_q_2
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+			}
+		}
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_q_3
+			hidden_tooltip = {
+				has_building = ca_wall_q_2
+				NOR = {
+					is_building = ca_wall_q_3
+					has_building = ca_wall_q_3
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+			}
+		}
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_q_4
+			hidden_tooltip = {
+				has_building = ca_wall_q_3
+				NOR = {
+					is_building = ca_wall_q_4
+					has_building = ca_wall_q_4
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+			}
+		}
+		custom_tooltip = {
+			text = tooltip_can_build_ca_wall_q_5
+			hidden_tooltip = {
+				has_building = ca_wall_q_4
+				NOR = {
+					is_building = ca_wall_q_5
+					has_building = ca_wall_q_5
+				}
+				location = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+			}
+		}
+	}
 }
 
 personal_grievance_trigger = {
@@ -7836,15 +7785,15 @@ this_is_warrior_culture_trigger = { #Not really about culture - Used in AI votin
 		is_tribal = yes
 		is_nomadic = yes
 		AND = {
-			NOT = { has_dlc = "Holy Fury"}
+			NOT = { has_dlc = "Holy Fury" }
 			religion = norse_pagan_reformed
 		}
 		AND = {
-			NOT = { has_dlc = "Holy Fury"}
+			NOT = { has_dlc = "Holy Fury" }
 			religion = tengri_pagan_reformed
 		}
 		AND = {
-			NOT = { has_dlc = "Holy Fury"}
+			NOT = { has_dlc = "Holy Fury" }
 			religion = aztec_reformed
 		}
 	}
@@ -7863,7 +7812,7 @@ this_is_diplomatic_culture_trigger = { #Not really about culture - Used in AI vo
 		religion = hellenic_pagan
 		has_religion_feature = religion_cosmopolitan
 		AND = {
-			NOT = { has_dlc = "Holy Fury"}
+			NOT = { has_dlc = "Holy Fury" }
 			religion = hellenic_pagan_reformed
 		}
 	}
@@ -7874,7 +7823,7 @@ this_is_spiritual_culture_trigger = { #Not really about culture - Used in AI vot
 		religion = bon
 		has_religion_feature = religion_peaceful
 		AND = {
-			NOT = { has_dlc = "Holy Fury"}
+			NOT = { has_dlc = "Holy Fury" }
 			religion = bon_reformed
 		}
 	}
@@ -9116,7 +9065,7 @@ has_rain_or_drought_modifier_trigger = {
 
 any_neighbor_province_has_dry_weather_trigger = {
 	any_neighbor_province = {
-    	is_land = yes
+		is_land = yes
 		region_africa_west_central_or_east_trigger = yes
 		OR = {
 			has_province_modifier = africa_drought_risk
@@ -9126,14 +9075,14 @@ any_neighbor_province_has_dry_weather_trigger = {
 }
 any_neighbor_province_has_heavy_rain_trigger = {
 	any_neighbor_province = {
-    	is_land = yes
+		is_land = yes
 		region_africa_west_central_or_east_trigger = yes
 		has_province_modifier = africa_heavy_rain
 	}
 }
 any_neighbor_province_has_light_rain_trigger = {
 	any_neighbor_province = {
-    	is_land = yes
+		is_land = yes
 		region_africa_west_central_or_east_trigger = yes
 		has_province_modifier = africa_light_rain
 	}
@@ -9355,5 +9304,9 @@ is_mongol_empire_leader_trigger = {
 	}
 }
 
-
-
+is_single_player_observer_mode = {
+	AND = {
+		multiplayer = no
+		is_local_human_observer = yes
+	}
+}

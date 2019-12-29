@@ -78,24 +78,25 @@ gender_laws = {
 				show_scope_change = no
 				conditional_tooltip = {
 					trigger = { tier = COUNT }
-					prestige = 125
+					prestige >= 125
 				}
 				conditional_tooltip = {
 					trigger = { tier = DUKE }
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "agnatic_succession pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -114,6 +115,7 @@ gender_laws = {
 		}
 
 		effect = {
+			log = "agnatic_succession ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					NOT = {
@@ -211,7 +213,7 @@ gender_laws = {
 						}
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -223,7 +225,7 @@ gender_laws = {
 						}
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -235,7 +237,7 @@ gender_laws = {
 						}
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -247,7 +249,7 @@ gender_laws = {
 						}
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 
 				# Everyone else
@@ -261,7 +263,7 @@ gender_laws = {
 						}
 						tier = COUNT
 					}
-					prestige = 125
+					prestige >= 125
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -273,7 +275,7 @@ gender_laws = {
 						}
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -285,7 +287,7 @@ gender_laws = {
 						}
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -297,12 +299,13 @@ gender_laws = {
 						}
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "cognatic_succession pass ([This.GetFullBaseName])"
 			holder_scope = {
 				show_scope_change = no
 				if = {
@@ -339,6 +342,7 @@ gender_laws = {
 		}
 
 		effect = {
+			log = "cognatic_succession ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					NOT = {
@@ -439,7 +443,7 @@ gender_laws = {
 						}
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -451,7 +455,7 @@ gender_laws = {
 						}
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -463,7 +467,7 @@ gender_laws = {
 						}
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -475,7 +479,7 @@ gender_laws = {
 						}
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 
 				# Everyone else
@@ -489,7 +493,7 @@ gender_laws = {
 						}
 						tier = COUNT
 					}
-					prestige = 125
+					prestige >= 125
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -501,7 +505,7 @@ gender_laws = {
 						}
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -513,7 +517,7 @@ gender_laws = {
 						}
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -525,12 +529,13 @@ gender_laws = {
 						}
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "true_cognatic_succession pass ([This.GetFullBaseName])"
 			holder_scope = {
 				show_scope_change = no
 				if = {
@@ -567,6 +572,7 @@ gender_laws = {
 		}
 
 		effect = {
+			log = "true_cognatic_succession ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					NOT = {
@@ -666,7 +672,7 @@ gender_laws = {
 						}
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -678,7 +684,7 @@ gender_laws = {
 						}
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -690,7 +696,7 @@ gender_laws = {
 						}
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -702,7 +708,7 @@ gender_laws = {
 						}
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 
 				# Everyone else
@@ -716,7 +722,7 @@ gender_laws = {
 						}
 						tier = COUNT
 					}
-					prestige = 125
+					prestige >= 125
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -728,7 +734,7 @@ gender_laws = {
 						}
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -740,7 +746,7 @@ gender_laws = {
 						}
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -752,12 +758,13 @@ gender_laws = {
 						}
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "enatic_cognatic_succession pass ([This.GetFullBaseName])"
 			holder_scope = {
 				show_scope_change = no
 				if = {
@@ -794,6 +801,7 @@ gender_laws = {
 		}
 
 		effect = {
+			log = "enatic_cognatic_succession ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					NOT = {
@@ -912,7 +920,7 @@ gender_laws = {
 						}
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -924,7 +932,7 @@ gender_laws = {
 						}
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -936,7 +944,7 @@ gender_laws = {
 						}
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -948,7 +956,7 @@ gender_laws = {
 						}
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 
 				# Everyone else
@@ -962,7 +970,7 @@ gender_laws = {
 						}
 						tier = COUNT
 					}
-					prestige = 125
+					prestige >= 125
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -974,7 +982,7 @@ gender_laws = {
 						}
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -986,7 +994,7 @@ gender_laws = {
 						}
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
@@ -998,12 +1006,13 @@ gender_laws = {
 						}
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "enatic_succession pass ([This.GetFullBaseName])"
 			holder_scope = {
 				show_scope_change = no
 				if = {
@@ -1040,6 +1049,7 @@ gender_laws = {
 		}
 
 		effect = {
+			log = "enatic_succession ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					NOT = {

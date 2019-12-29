@@ -67,11 +67,8 @@ de_jure_laws = {
 			has_law = crown_authority_1
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
-
 		pass_effect = {
+			log = "crown_authority_0 pass ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				if = {
 					limit = {
@@ -85,12 +82,17 @@ de_jure_laws = {
 		}
 
 		effect = {
+			log = "crown_authority_0 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = crown_authority_1
 				revoke_law = crown_authority_2
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
 			}
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -128,24 +130,17 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 1000
+					prestige >= 1000
 				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_law = crown_authority_2
 			}
 		}
 
 		pass_effect = {
+			log = "crown_authority_1 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -179,12 +174,21 @@ de_jure_laws = {
 		}
 
 		effect = {
+			log = "crown_authority_1 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				set_tribal_vassal_levy_control = yes
 				revoke_law = crown_authority_0
 				revoke_law = crown_authority_2
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = crown_authority_2
 			}
 		}
 	}
@@ -223,25 +227,18 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 2000
+					prestige >= 2000
 				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_law = crown_authority_3
 			}
 		}
 
 		pass_effect = {
 			if = {
+				log = "crown_authority_2 pass ([This.GetFullBaseName])"
 				limit = {
 					has_game_started = yes
 				}
@@ -274,12 +271,21 @@ de_jure_laws = {
 		}
 
 		effect = {
+			log = "crown_authority_2 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				set_tribal_vassal_levy_control = yes
 				revoke_law = crown_authority_0
 				revoke_law = crown_authority_1
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = crown_authority_3
 			}
 		}
 	}
@@ -318,24 +324,17 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 1500
+					prestige >= 1500
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 3000
+					prestige >= 3000
 				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_law = crown_authority_4
 			}
 		}
 
 		pass_effect = {
+			log = "crown_authority_3 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -369,12 +368,21 @@ de_jure_laws = {
 		}
 
 		effect = {
+			log = "crown_authority_3 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				set_tribal_vassal_levy_control = yes
 				revoke_law = crown_authority_0
 				revoke_law = crown_authority_1
 				revoke_law = crown_authority_2
 				revoke_law = crown_authority_4
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = crown_authority_4
 			}
 		}
 	}
@@ -410,20 +418,17 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 2000
+					prestige >= 2000
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 4000
+					prestige >= 4000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
-
 		pass_effect = {
+			log = "crown_authority_4 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -449,6 +454,7 @@ de_jure_laws = {
 		}
 
 		effect = {
+			log = "crown_authority_4 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				set_tribal_vassal_levy_control = yes
 				revoke_law = crown_authority_0
@@ -456,6 +462,10 @@ de_jure_laws = {
 				revoke_law = crown_authority_2
 				revoke_law = crown_authority_3
 			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -507,22 +517,8 @@ de_jure_laws = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 2
-				holder_scope = { trait = zealous }
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = investiture_law_0
-			}
-			set_investiture = head
-		}
-
 		pass_effect = {
+			log = "investiture_law_0 ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -534,6 +530,22 @@ de_jure_laws = {
 						EMPEROR = { prestige = -1000 }
 					}
 				}
+			}
+		}
+
+		effect = {
+			log = "investiture_law_0 pass ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+			}
+			set_investiture = head
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 2
+				holder_scope = { trait = zealous }
 			}
 		}
 	}
@@ -575,31 +587,17 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0.5
-				holder_scope = { trait = cynical }
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = investiture_law_0
-			}
-			set_investiture = any
-		}
-
 		pass_effect = {
+			log = "investiture_law_1 ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -611,6 +609,22 @@ de_jure_laws = {
 						EMPEROR = { prestige = -1000 }
 					}
 				}
+			}
+		}
+
+		effect = {
+			log = "investiture_law_1 pass ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+			}
+			set_investiture = any
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.5
+				holder_scope = { trait = cynical }
 			}
 		}
 	}
@@ -652,15 +666,16 @@ de_jure_laws = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
-
 		effect = {
+			log = "out_of_realm_inheritance_law_0 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = out_of_realm_inheritance_law_1
 			}
 			set_protected_inheritance = no
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -694,11 +709,11 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 			has_law = out_of_realm_inheritance_law_0
@@ -740,27 +755,17 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = out_of_realm_inheritance_law_0
-			}
-			set_protected_inheritance = yes
-		}
-
 		pass_effect = {
+			log = "out_of_realm_inheritance_law_1 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -773,6 +778,18 @@ de_jure_laws = {
 					}
 				}
 			}
+		}
+
+		effect = {
+			log = "out_of_realm_inheritance_law_1 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = out_of_realm_inheritance_law_0
+			}
+			set_protected_inheritance = yes
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -814,17 +831,18 @@ de_jure_laws = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
-
 		effect = {
+			log = "vassal_wars_law_0 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = vassal_wars_law_1
 				revoke_law = vassal_wars_law_2
 			}
 			set_the_kings_peace = no
 			set_the_kings_full_peace = no
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -891,24 +909,17 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 1000
+					prestige >= 1000
 				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_law = vassal_wars_law_2
 			}
 		}
 
 		pass_effect = {
+			log = "vassal_wars_law_1 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -924,12 +935,21 @@ de_jure_laws = {
 		}
 
 		effect = {
+			log = "vassal_wars_law_1 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = vassal_wars_law_0
 				revoke_law = vassal_wars_law_2
 			}
 			set_the_kings_peace = yes
 			set_the_kings_full_peace = no
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_law = vassal_wars_law_2
+			}
 		}
 	}
 
@@ -986,29 +1006,17 @@ de_jure_laws = {
 				}
 				conditional_tooltip = {
 					trigger = { tier = KING }
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = { tier = EMPEROR }
-					prestige = 2000
+					prestige >= 2000
 				}
 			}
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = vassal_wars_law_0
-				revoke_law = vassal_wars_law_1
-			}
-			set_the_kings_peace = yes
-			set_the_kings_full_peace = yes
-		}
-
 		pass_effect = {
+			log = "vassal_wars_law_2 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1021,6 +1029,20 @@ de_jure_laws = {
 					}
 				}
 			}
+		}
+
+		effect = {
+			log = "vassal_wars_law_2 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = vassal_wars_law_0
+				revoke_law = vassal_wars_law_1
+			}
+			set_the_kings_peace = yes
+			set_the_kings_full_peace = yes
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -1057,15 +1079,16 @@ de_jure_laws = {
 			}
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
-
 		effect = {
+			log = "kingdom_lockout_0 ([This.GetFullBaseName])"
 			hidden_tooltip = {
 				revoke_law = kingdom_lockout_1
 				revoke_law = kingdom_lockout_2
 			}
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -1123,7 +1146,32 @@ de_jure_laws = {
 						trait = uncrowned
 					}
 				}
-				prestige = 1000
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige >= 1000
+				}
+			}
+		}
+
+		pass_effect = {
+			log = "kingdom_lockout_1 pass ([This.GetFullBaseName])"
+			if = {
+				limit = {
+					has_game_started = yes
+				}
+				holder_scope = {
+					prestige = -1000
+				}
+			}
+		}
+
+		effect = {
+			log = "kingdom_lockout_1 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = kingdom_lockout_0
+				revoke_law = kingdom_lockout_2
 			}
 		}
 
@@ -1132,24 +1180,6 @@ de_jure_laws = {
 			modifier = {
 				factor = 0
 				has_law = kingdom_lockout_2
-			}
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = kingdom_lockout_0
-				revoke_law = kingdom_lockout_2
-			}
-		}
-
-		pass_effect = {
-			if = {
-				limit = {
-					has_game_started = yes
-				}
-				holder_scope = {
-					prestige = -1000
-				}
 			}
 		}
 	}
@@ -1212,22 +1242,17 @@ de_jure_laws = {
 						trait = uncrowned
 					}
 				}
-				prestige = 2000
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		effect = {
-			hidden_tooltip = {
-				revoke_law = kingdom_lockout_0
-				revoke_law = kingdom_lockout_1
+				conditional_tooltip = {
+					trigger = {
+						has_game_started = yes
+					}
+					prestige >= 2000
+				}
 			}
 		}
 
 		pass_effect = {
+			log = "kingdom_lockout_2 pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1236,6 +1261,18 @@ de_jure_laws = {
 					prestige = -2000
 				}
 			}
+		}
+
+		effect = {
+			log = "kingdom_lockout_2 ([This.GetFullBaseName])"
+			hidden_tooltip = {
+				revoke_law = kingdom_lockout_0
+				revoke_law = kingdom_lockout_1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }
