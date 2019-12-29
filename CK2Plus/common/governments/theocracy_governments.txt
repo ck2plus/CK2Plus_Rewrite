@@ -28,7 +28,7 @@ theocracy_governments = {
 			ai = yes
 			OR = {
 				controls_religion = yes
-				capital_holding = { holding_type = TEMPLE }
+				capital_holding = { holding_type = temple }
 			}
 			NOR = {
 				has_religion_feature = religion_temporal_head

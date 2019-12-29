@@ -1,3 +1,5 @@
+# Audax Validator "!" Ignore_NEXT
+
 bm_diet_of_worms_zwentibold = {
 	name = "Diet of Worms"
 	desc = "No more empire!"

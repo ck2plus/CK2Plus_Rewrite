@@ -93,6 +93,57 @@ defined_text = {
 	}
 }
 
+## Basque
+defined_text = {
+	name = GetSOMETHINGSocietyName
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = the_followers_of_fomorians_random
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = the_followers_of_fomorians_real
+	}
+}
+
+defined_text = {
+	name = GetSOMETHINGSocietyDesc
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = devil_worshiper_desc_random
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = SOMETHING_desc_real
+	}
+}
+
+defined_text = {
+	name = GetSOMETHINGRecruit
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = devil_worshiper_recruit_random
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = SOMETHING_recruit_real
+	}
+}
+
+defined_text = {
+	name = GetSOMETHINGRecruitDesc
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = devil_worshiper_recruit_desc_random
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = SOMETHING_recruit_desc_real
+	}
+}
+
+defined_text = {
+	name = GetSOMETHINGRecruitBlockDesc
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = devil_worshipers_recruit_block_tooltip_random
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = SOMETHING_recruit_block_tooltip_real
+	}
+}
+
 # Secret Religious Societies
 
 ## Celtic
@@ -136,5 +187,49 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
 		localisation_key = secret_religious_society_celtic_pagan_reformed_desc_REAL
+	}
+}
+
+## Basque
+defined_text = {
+	name = GetReligiousCommunityName_basque_pagan
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_name_basque_pagan
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_REAL_basque_pagan
+	}
+}
+defined_text = {
+	name = GetReligiousCommunityName_basque_pagan_reformed
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_name_basque_pagan_reformed
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_REAL_basque_pagan_reformed
+	}
+}
+
+defined_text = {
+	name = GetReligiousSocietyDesc_basque_pagan
+	text = {
+		trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_desc
+	}
+	text = {
+		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_basque_pagan_desc_REAL
+	}
+}
+
+defined_text = {
+	name = GetReligiousSocietyDesc_basque_pagan_reformed
+	text = {
+		trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_desc
+	}
+	text = {
+		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_basque_pagan_reformed_desc_REAL
 	}
 }

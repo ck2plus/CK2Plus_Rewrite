@@ -28,11 +28,11 @@ namespace = PlusStartup
 # Assign local culture to barons
 character_event = {
 	id = PlusStartup.001
-	
+
 	is_triggered_only = yes	# from on_chronicle_start, fires only for the player
-	
+
 	hide_window = yes
-	
+
 	immediate = {
 		any_independent_ruler = {
 			any_realm_lord = {
@@ -47,7 +47,7 @@ character_event = {
 				}
 				any_close_relative = {	# Close family should be converted, too
 					limit = {
-						location = PREV	# Is in the same province as the baron
+						at_location = PREV	# Is in the same province as the baron
 						NOR = {
 							higher_tier_than = baron	# We don't want to accidentally affect characters that are higher than baron
 							any_close_relative = {

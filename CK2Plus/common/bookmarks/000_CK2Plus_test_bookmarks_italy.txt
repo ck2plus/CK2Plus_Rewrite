@@ -1,3 +1,5 @@
+# Audax Validator "!" Ignore_NEXT
+
 bm_coronation_of_guido_iii_of_spoleto = {
 	name = "Coronation of Guido III of Spoleto"
 	desc = "The first of many!"

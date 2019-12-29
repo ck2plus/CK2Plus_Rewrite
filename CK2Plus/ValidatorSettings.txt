@@ -40,7 +40,6 @@
 # Enable check that a modifier={} clause has something besides a "factor=" entry.
 #AddFlag = EnableNonFactorCheck
 
-
 # For nicknames that currently don't exist but might be planned for the future
 #(AddToEnum Nickname) = { nick_the_one_eyed nick_the_trembling nick_the_black }
 
@@ -129,7 +128,7 @@ AddFlag = Localization.IgnoreDuplicatesIfInVanilla
 # would make the birth date before year 1. What this means is say character X is married
 # on 2.1.1. Then to be at the age of marriage, they would need to be born in year -14.1.1
 # which isn't possible. So in that case errors are suppressed.
-# 
+#
 # These flags are probably useful for early-year mods, which may have characters that should
 # be born in BC years but can't due to engine limitations.
 #AddFlag = CharacterHistory.NoMinAgeOfMarriageIfEarly
@@ -149,7 +148,7 @@ AddFlag = Localization.IgnoreDuplicatesIfInVanilla
 # NOTE: This was renamed from Event.NoNonHideWindowChecks
 #AddFlag = Events.NoNonHideWindowChecks
 # Disables warnings about possible ID collisions.
-# Reason for warnings: Could you add a warning if a non-namespace event ID is greater than 999999, or a namespace event ID is greater than 99999? These have the potential of causing an ID collision between non-namespace and namespace IDs, or between namespaces, because of the way event ID blocks are assigned to namespaces (100000 ID blocks, starting at 1000000.) 
+# Reason for warnings: Could you add a warning if a non-namespace event ID is greater than 999999, or a namespace event ID is greater than 99999? These have the potential of causing an ID collision between non-namespace and namespace IDs, or between namespaces, because of the way event ID blocks are assigned to namespaces (100000 ID blocks, starting at 1000000.)
 #AddFlag = Events.NoCheckIdCollision
 # Disable checking that events start with GFX_event_[normal|narrative|letter|long]_frame depending on the event type
 #AddFlag = Events.NoCheckEventBorderPrefix

@@ -31,17 +31,10 @@ spriteTypes = {
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+
 	spriteType = {
 		name = "GFX_trait_flame_of_eate"
 		textureFile = "gfx/traits/flame_of_eate.dds"
-		noOfFrames = 1
-		noRefCount = yes
-		effectFile = "gfx/FX/buttonstate_linear.lua"
-	}
-
-	spriteType = {
-		name = "GFX_trait_sorgin"
-		textureFile = "gfx/traits/sorgin.dds"
 		noOfFrames = 1
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"

@@ -6,16 +6,35 @@
 #
 ###########################################
 
-e_karling;Carolingian Empire;;;;;;;;;;;;;x
-k_algiers;Algiers;;;;;;;;;;;;;x
-k_anatolia;Nicaea;;;;;;;;;;;;;x
-k_austrasia;Austrasia;;;;;;;;;;;;;x
-k_azerbaijan;Azerbaijan;;;;;;;;;;;;;x
-k_neustria;Neustria;;;;;;;;;;;;;x
-k_norman_ireland;Lordship of Ireland;Seigneurie d'Irlande;Lordschaft von Irland;;Seï¿½orï¿½o de Irlanda;;;;;;;;;x
-k_norman_ireland_adj;Irish;Irlandais;Irisch;;Irlandï¿½s;;;;;;;;;x
-k_francia;Kingdom of the Franks;;;;;;;;;;;;;x
-k_oman;Oman;;;;;;;;;;;;;x
+e_karling;Carolingian Empire;Empire carolingien;Karolingisches Reich;;Imperio carolingio;;;;;;;;;x
+e_karling_adj;Carolingian;Carolingienne;Karolinger;;Carolingia;;;;;;;;;x
+
+k_algiers;Algiers;Alger;Algier;;Argel;;;;;;;;;x
+k_algiers_adj;Algerian;Algérien;Algerische;;Argelina;;;;;;;;;x
+
+k_anatolia;Nicaea;Nicée;Nicäa;;Nicea;;;;;;;;;x
+k_anatolia_adj;Nicaean;Nicéen;Nicäaische;;Niceano;;;;;;;;;x
+
+k_austrasia;Austrasia;Austrasie;Austrasien;;Austrasia;;;;;;;;;x
+k_austrasia_adj;Austrasian;Austrasien;Austrasische;;Austrasiano;;;;;;;;;x
+
+k_azerbaijan;Azerbaijan;Azerbaïdjan;Aserbaidschan;;Azerbaiyán;;;;;;;;;x
+k_azerbaijan_adj;Azerbaijan;Azerbaïdjanais;Aserbaidschaner;;Azerbaiyano;;;;;;;;;x
+
+k_neustria;Neustria;Neustrie;Neustrien;;Neustria;;;;;;;;;x
+k_neustria_adj;Neustrian;Neustrien;Neustrische;;;;;;;;;;;x
+
+k_norman_ireland;Lordship of Ireland;Seigneurie d'Irlande;Lordschaft von Irland;;Señorío de Irlanda;;;;;;;;;x
+k_norman_ireland_adj;Irish;Irlandais;Irisch;;Irlandés;;;;;;;;;x
+
+k_oman;Oman;Oman;Oman;;Omán;;;;;;;;;x
+k_oman_adj;Omani;Omanais;Omanische;;Omaní;;;;;;;;;x
+
 k_injuid;Injuid;;;;;;;;;;;;;x
+k_injuid_adj;Injuid;;;;;;;;;;;;;x
+
 k_chupanid;Chupanid;;;;;;;;;;;;;x
+k_chupanid_adj;Chupanid;;;;;;;;;;;;;x
+
 k_jalayarid;Jalayarid;;;;;;;;;;;;;x
+k_jalayarid_adj;Jalayarid;;;;;;;;;;;;;x

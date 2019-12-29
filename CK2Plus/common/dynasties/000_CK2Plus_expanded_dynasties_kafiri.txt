@@ -59,27 +59,27 @@
 	culture = kafiri
 }
 
-1000084011 = {
+1000084012 = {
 	name = "Väi"
 	culture = kafiri
 }
 
-1000084012 = {
+1000084013 = {
 	name = "Cima-nišei"
 	culture = kafiri
 }
 
-1000084013 = {
+1000084014 = {
 	name = "Vântä"
 	culture = kafiri
 }
 
-1000084014 = {
+1000084015 = {
 	name = "Tregâmi"
 	culture = kafiri
 }
 
-1000084015 = {
+1000084016 = {
 	name = "Dungulio"
 	culture = kafiri
 }

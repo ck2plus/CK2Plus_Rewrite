@@ -124,16 +124,20 @@ religion_feature_basque_desc;TODO;;;;;;;;;;;;;x
 religion_feature_basque_feature;Rulers follow the Vasconic principles of sacrifice and syncretism.;Les seigneurs suivent les principes vasconiques de sacrifice et de syncrétisme.;Herrscher folgen den vaskonischen Prinzipien von Opferbereitschaft und Synkretismus.;;Los gobernantes siguen los principios vasconicos de sacrificio y sincretismo.;;;;;;;;x
 
 GOD_AMALUR;Ama Lur;;;;;;;;;;;;;x
-GOD_MARI;Mari;;;;;;;;;;;;;x
-GOD_SUGAAR;Sugaar;;;;;;;;;;;;;x
-GOD_URTZI;Urtzi;;;;;;;;;;;;;x
+GOD_ATARABI;Atarabi;;;;;;;;;;;;;x
+GOD_EGOI;Egoi;;;;;;;;;;;;;x
 GOD_EKHI;Ekhi;;;;;;;;;;;;;x
 GOD_ILARGI;Ilargi;;;;;;;;;;;;;x
-GOD_ATARABI;Atarabi;;;;;;;;;;;;;x
+GOD_MARI;Mari;;;;;;;;;;;;;x
+GOD_ORKO;Orko;;;;;;;;;;;;;x
+GOD_SUGAAR;Sugaar;;;;;;;;;;;;;x
+GOD_URTZI;Urtzi;;;;;;;;;;;;;x
 
 # "THE_DARK_SPIRITS" are already defined in vanilla.
-EVIL_INGUMA;Inguma;;;;;;;;;;;;;x
+EVIL_AIDE;Aide;;;;;;;;;;;;;x
 EVIL_ETSAI;Etsai;;;;;;;;;;;;;x
+EVIL_GAIZKIN;Gaizkin;;;;;;;;;;;;;x
+EVIL_INGUMA;Inguma;;;;;;;;;;;;;x
 EVIL_MIKELATS;Mikelats;;;;;;;;;;;;;x
 
 SORGIN;Sorgin;;;;;;;;;;;;;x

@@ -2667,35 +2667,35 @@
 	}
 }
 
-#168582 = {
-#	name = "Mscislaw"
-#	#placeholder
-#	dynasty = 9605
-#	religion = slavic_pagan
-#	culture = pommeranian
-#	848.1.1 = {
-#		birth = yes
-#	}
-#
-#	898.1.1 = {
-#		death = yes
-#	}
-#}
-#
-#168583 = {
-#	name = "Radoslav"
-#	#placeholder
-#	dynasty = 9606
-#	religion = slavic_pagan
-#	culture = pommeranian
-#	847.1.1 = {
-#		birth = yes
-#	}
-#
-#	898.1.1 = {
-#		death = yes
-#	}
-#}
+168582 = {
+	name = "Mscislaw"
+	#placeholder
+	dynasty = 9605
+	religion = slavic_pagan
+	culture = pommeranian
+	848.1.1 = {
+		birth = yes
+	}
+
+	898.1.1 = {
+		death = yes
+	}
+}
+
+168583 = {
+	name = "Radoslav"
+	#placeholder
+	dynasty = 9606
+	religion = slavic_pagan
+	culture = pommeranian
+	847.1.1 = {
+		birth = yes
+	}
+
+	898.1.1 = {
+		death = yes
+	}
+}
 
 168584 = {
 	name = "Bretislav"
