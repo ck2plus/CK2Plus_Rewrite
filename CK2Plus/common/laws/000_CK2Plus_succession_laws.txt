@@ -117,33 +117,34 @@ succession_laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_gavelkind pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -162,6 +163,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_gavelkind ([This.GetFullBaseName])"
 			succession = gavelkind
 		}
 	}
@@ -229,6 +231,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_elective_gavelkind ([This.GetFullBaseName])"
 			succession = {
 				base_type = elective_gavelkind
 				voting_rules = elective_gavelkind
@@ -327,33 +330,34 @@ succession_laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_eldership pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -378,6 +382,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_eldership ([This.GetFullBaseName])"
 			succession = {
 				base_type = tanistry
 				voting_rules = eldership_rules
@@ -445,33 +450,34 @@ succession_laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 125
+					prestige >= 125
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_seniority pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -489,6 +495,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_seniority ([This.GetFullBaseName])"
 			succession = seniority
 		}
 	}
@@ -576,33 +583,34 @@ succession_laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 4000
+					prestige >= 4000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_primogeniture pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -621,6 +629,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_primogeniture ([This.GetFullBaseName])"
 			succession = primogeniture
 		}
 	}
@@ -698,33 +707,34 @@ succession_laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 125
+					prestige >= 125
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_feudal_elective pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -743,6 +753,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_feudal_elective ([This.GetFullBaseName])"
 			succession = {
 				base_type = feudal_elective
 				voting_rules = feudal_elective
@@ -823,53 +834,27 @@ succession_laws = {
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
-						tier = COUNT
 					}
-					prestige = 500
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = DUKE
-					}
-					prestige = 1000
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = KING
-					}
-					prestige = 2000
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = EMPEROR
-					}
-					prestige = 4000
+					prestige >= 4000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_hre_elective pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
 				}
 				holder_scope = {
 					show_scope_change = no
-					trigger_switch = {
-						on_trigger = tier
-						COUNT = { prestige = -500 }
-						DUKE = { prestige = -1000 }
-						KING = { prestige = -2000 }
-						EMPEROR = { prestige = -4000 }
-					}
+					prestige = -4000
 				}
 			}
 		}
 
 		effect = {
+			log = "succ_hre_elective ([This.GetFullBaseName])"
 			succession = {
 				base_type = feudal_elective
 				voting_rules = hre_feudal_elective
@@ -944,53 +929,27 @@ succession_laws = {
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
-						tier = COUNT
 					}
-					prestige = 500
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = DUKE
-					}
-					prestige = 1000
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = KING
-					}
-					prestige = 2000
-				}
-				conditional_tooltip = {
-					trigger = {
-						has_game_started = yes
-						tier = EMPEROR
-					}
-					prestige = 4000
+					prestige >= 4000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_byzantine_elective pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
 				}
 				holder_scope = {
 					show_scope_change = no
-					trigger_switch = {
-						on_trigger = tier
-						COUNT = { prestige = -500 }
-						DUKE = { prestige = -1000 }
-						KING = { prestige = -2000 }
-						EMPEROR = { prestige = -4000 }
-					}
+					prestige = -4000
 				}
 			}
 		}
 
 		effect = {
+			log = "succ_byzantine_elective ([This.GetFullBaseName])"
 			succession = {
 				base_type = feudal_elective
 				voting_rules = byzantine_elective
@@ -1092,33 +1051,34 @@ succession_laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_tanistry pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1137,6 +1097,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_tanistry ([This.GetFullBaseName])"
 			succession = {
 				base_type = tanistry
 				voting_rules = tanistry
@@ -1228,33 +1189,34 @@ succession_laws = {
 						has_game_started = yes
 						tier = COUNT
 					}
-					prestige = 250
+					prestige >= 250
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = DUKE
 					}
-					prestige = 500
+					prestige >= 500
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = KING
 					}
-					prestige = 1000
+					prestige >= 1000
 				}
 				conditional_tooltip = {
 					trigger = {
 						has_game_started = yes
 						tier = EMPEROR
 					}
-					prestige = 2000
+					prestige >= 2000
 				}
 			}
 		}
 
 		pass_effect = {
+			log = "succ_ultimogeniture pass ([This.GetFullBaseName])"
 			if = {
 				limit = {
 					has_game_started = yes
@@ -1273,6 +1235,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_ultimogeniture ([This.GetFullBaseName])"
 			succession = ultimogeniture
 		}
 	}
@@ -1333,6 +1296,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_turkish_succession ([This.GetFullBaseName])"
 			succession = turkish_succession
 		}
 	}
@@ -1354,6 +1318,7 @@ succession_laws = {
 		allow = {}
 
 		effect = {
+			log = "succ_papal_succession ([This.GetFullBaseName])"
 			succession = papal_succession
 		}
 	}
@@ -1372,6 +1337,7 @@ succession_laws = {
 		allow = {}
 
 		effect = {
+			log = "succ_appointment ([This.GetFullBaseName])"
 			succession = appointment
 		}
 	}
@@ -1412,6 +1378,7 @@ succession_laws = {
 		allow = {}
 
 		effect = {
+			log = "succ_open_elective ([This.GetFullBaseName])"
 			succession = open_elective
 		}
 	}
@@ -1450,6 +1417,7 @@ succession_laws = {
 		allow = {}
 
 		effect = {
+			log = "succ_catholic_bishopric ([This.GetFullBaseName])"
 			succession = catholic_bishopric
 		}
 	}
@@ -1475,6 +1443,7 @@ succession_laws = {
 		allow = {}
 
 		effect = {
+			log = "succ_patrician_elective ([This.GetFullBaseName])"
 			succession = patrician_elective
 		}
 	}
@@ -1491,6 +1460,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_nomad_succession ([This.GetFullBaseName])"
 			succession = nomad_succession
 		}
 
@@ -1508,6 +1478,7 @@ succession_laws = {
 		}
 
 		effect = {
+			log = "succ_offmap_succession ([This.GetFullBaseName])"
 			succession = offmap_succession
 		}
 
