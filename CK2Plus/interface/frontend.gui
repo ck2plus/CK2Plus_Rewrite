@@ -1655,7 +1655,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "savedgame_tab"
-					position = { x = 48  y = 43 }
+					position = { x = 48 y = 43 }
 					quadTextureSprite = "GFX_standard_button_164"
 					buttonFont = "vic_18"
 					buttonText = "FE_LOAD_GAME"
@@ -1704,7 +1704,7 @@ guiTypes = {
 						name = "Chars_Listbox"
 						position = { x = 20 y = 317 }
 						backGround = ""
-						size = { x = 200  y = 228 }
+						size = { x = 200 y = 228 }
 						orientation = "UPPER_LEFT"
 						spacing = 0
 						scrollbarType = "standardlistbox_slider"
@@ -1759,7 +1759,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "players_tab"
-					position = { x = -116  y = 47 }
+					position = { x = -116 y = 47 }
 					quadTextureSprite = "GFX_lobby_tab"
 					orientation = "UPPER_RIGHT"
 					clickSound = generic_click_04
@@ -6076,7 +6076,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 60  y = 3 }
+			position = { x = 60 y = 3 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = { x = 0 y = 0 }
@@ -6124,7 +6124,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 60  y = 3 }
+			position = { x = 60 y = 3 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = { x = 0 y = 0 }
@@ -6172,7 +6172,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "character_name"
-			position = { x = 57  y = -3 }
+			position = { x = 57 y = -3 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = { x = 0 y = 0 }
@@ -6184,7 +6184,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "player_name"
-			position = { x = 61  y = 14 }
+			position = { x = 61 y = 14 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = { x = 0 y = 0 }
@@ -6552,7 +6552,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "remote_tab"
-			position = { x = 118  y = -26 }
+			position = { x = 118 y = -26 }
 			quadTextureSprite = "GFX_settings_tab_new"
 		}
 

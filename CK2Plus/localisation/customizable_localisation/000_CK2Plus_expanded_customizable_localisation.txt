@@ -417,20 +417,3 @@ defined_text = {
 		localisation_key = BadPriestBasqueFemale
 	}
 }
-
-defined_text = {
-	name = GetBasqueLeaderMaleFemale
-
-	text = {
-		trigger = {
-			is_female = no
-		}
-		localisation_key = BasqueLeaderMale
-	}
-	text = {
-		trigger = {
-			is_female = yes
-		}
-		localisation_key = BasqueLeaderFemale
-	}
-}

@@ -1244,12 +1244,12 @@ PLUS_RETINUE_FRANCO_GERMANIC_3 = { # Lantweri
 
 ###################################################################
 #
-#	Georgian (Plus)
+#	Kartvelian (Plus)
 #	1 culture
 #
 ###################################################################
 
-PLUS_RETINUE_GEORGIAN_1 = { # Monaspa
+PLUS_RETINUE_KARTVELIAN_1 = { # Monaspa
 	first_type = 3 # Light Cavalry
 	first_amount = 150
 
@@ -1259,7 +1259,7 @@ PLUS_RETINUE_GEORGIAN_1 = { # Monaspa
 	potential = {
 		is_tribal = no
 		is_nomadic = no
-		culture_group = georgian_group
+		culture_group = kartvelian_group
 	}
 
 	modifier = {
@@ -1268,14 +1268,14 @@ PLUS_RETINUE_GEORGIAN_1 = { # Monaspa
 	}
 }
 
-PLUS_RETINUE_GEORGIAN_2 = { # Khevsur Warriors
+PLUS_RETINUE_KARTVELIAN_2 = { # Khevsur Warriors
 	first_type = 1 # Heavy Infantry
 	first_amount = 300
 
 	potential = {
 		is_tribal = no
 		is_nomadic = no
-		culture_group = georgian_group
+		culture_group = kartvelian_group
 	}
 
 	modifier = {
@@ -1284,7 +1284,7 @@ PLUS_RETINUE_GEORGIAN_2 = { # Khevsur Warriors
 	}
 }
 
-PLUS_RETINUE_GEORGIAN_3 = { # Khanjali Infantry
+PLUS_RETINUE_KARTVELIAN_3 = { # Khanjali Infantry
 	first_type = 0 # Light Infantry
 	first_amount = 175
 
@@ -1294,7 +1294,7 @@ PLUS_RETINUE_GEORGIAN_3 = { # Khanjali Infantry
 	potential = {
 		is_tribal = no
 		is_nomadic = no
-		culture_group = georgian_group
+		culture_group = kartvelian_group
 	}
 
 	modifier = {

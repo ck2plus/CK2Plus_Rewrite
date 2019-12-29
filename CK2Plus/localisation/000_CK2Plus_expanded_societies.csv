@@ -84,33 +84,71 @@ secret_celtic_pagan_community;[celtic_pagan.GetName] Community;Communauté [celti
 secret_celtic_pagan_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;Des fidèles ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;Die Gläubigen haben sich im Geheimen um eine kleine Kabale herum in dieser Provinz organisiert. Von dort aus konvertieren sie andere, wachsen und schützen ihre eigenen.;;Los fieles han organizado una pequeña comunidad religiosa en esta provincia. Allí convierten a otros, crecen y se protegen entre ellos.;;;;;;;;x
 secret_celtic_pagan_reformed_community;[celtic_pagan_reformed.GetName] Community;Communauté [celtic_pagan_reformed.GetName];[celtic_pagan_reformed.GetName]e Gemeinschaft;;Comunidad [celtic_pagan_reformed.GetName];;;;;;;;x
 secret_celtic_pagan_reformed_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;Des fidèles ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;Die Gläubigen haben sich im Geheimen um eine kleine Kabale herum in dieser Provinz organisiert. Von dort aus konvertieren sie andere, wachsen und schützen ihre eigenen;;Los fieles han organizado una pequeña comunidad religiosa en esta provincia. Allí convierten a otros, crecen y se protegen entre ellos.;;;;;;;;x
+secret_religious_society_REAL_celtic_pagan;Danu's Listeners;Auditeurs de Danu;Danus Zuhörer;;Los oyentes de Danu;;;;;;;;;x
+secret_religious_society_REAL_celtic_pagan_reformed;Danu's Children;Enfants de Danu;Kinder von Danu;;Hijos de Danu;;;;;;;;;x
+secret_religious_society_celtic_pagan_desc_REAL;Only the descendents of Danu know the truth about the powers hidden in the many facets of nature. They come together to await signs from their late mother, Danu, who will reward those who treat nature with proper care, as was passed on from generation to generation since time immemorial.;Seulement les descendants de Danu connaissent la vérité sur les pouvoirs cachés dans les nombreuses facettes de la nature. Ils se réunissent pour attendre les signes de leur défunte mère, Danu, qui récompensera ceux qui traitent la nature avec soin, comme cela s'est transmis de génération en génération depuis des temps immémoriaux.;Nur die Nachkommen von Danu kennen die Wahrheit über die Kräfte, die in den vielen Facetten der Natur verborgen sind. Sie kommen zusammen, um die Zeichen ihrer verstorbenen Mutter Danu abzuwarten, die diejenigen belohnen wird, die die Natur, wie sie von Generation zu Generation seit undenklichen Zeiten weitergegeben wurde, mit angemessener Sorgfalt behandeln.;;Solamente los descendientes de Danu saben la verdad sobre los poderes ocultos en las muchas facetas de la naturaleza. Se unen para esperar las señales de su difunta madre, Danu, quien recompensará a aquellos que tratan a la naturaleza con el cuidado adecuado, como se transmitió de generación en generación desde tiempos inmemoriales.;;;;;;;;;x
+secret_religious_society_celtic_pagan_reformed_desc_REAL;The Children of Danu have observed their late mother still among them, breathing through the lakes, the woods and the sky. Now the prepare for the time when all of humanity has no choice but to accept their way is the true way.;Les Enfants de Danu ont observé leur défunte mère toujours parmi eux, respirant à travers les lacs, les bois et le ciel. Maintenant, se préparer au temps où toute l'humanité n'a d'autre choix que d'accepter sa voie est la vraie voie.;Die Kinder von Danu haben beobachtet, wie ihre verstorbene Mutter immer noch unter ihnen ist und durch die Seen, Wälder und den Himmel atmet. Nun ist die Vorbereitung auf die Zeit, in der die gesamte Menschheit keine andere Wahl hat, als ihren Weg zu akzeptieren, der wahre Weg.;;Los niños de Danu han observado a su difunta madre todavía entre ellos, respirando a través de los lagos, los bosques y el cielo. Ahora, prepárense para el momento en que toda la humanidad no tenga más remedio que aceptar su camino, es el verdadero camino.;;;;;;;;;x
+alt_start_community_name_celtic_pagan;The [celtic_pagan.GetName] Faithful;Fidèles [celtic_pagan.GetName]s;Die [celtic_pagan.GetName]en Gläubigen;;Creyentes [celtic_pagan.GetName]s;;;;;;;;;x
+alt_start_community_name_celtic_pagan_reformed;The [celtic_pagan_reformed.GetName] Faithful;Fidèles [celtic_pagan_reformed.GetName]s;Die [celtic_pagan_reformed.GetName]en Gläubigen;;Creyentes [celtic_pagan_reformed.GetName]s;;;;;;;;;x
 
 # Basque
 secret_basque_pagan_community;[basque_pagan.GetName] Community;Communauté [basque_pagan.GetName];[basque_pagan.GetName]e Gemeinschaft;;Comunidad [basque_pagan.GetName];;;;;;;;x
 secret_basque_pagan_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;Des fidèles ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;Die Gläubigen haben sich im Geheimen um eine kleine Kabale herum in dieser Provinz organisiert. Von dort aus konvertieren sie andere, wachsen und schützen ihre eigenen.;;Los fieles han organizado una pequeña comunidad religiosa en esta provincia. Allí convierten a otros, crecen y se protegen entre ellos.;;;;;;;;x
 secret_basque_pagan_reformed_community;[basque_pagan_reformed.GetName] Community;Communauté [basque_pagan_reformed.GetName];[basque_pagan_reformed.GetName]e Gemeinschaft;;Comunidad [basque_pagan_reformed.GetName];;;;;;;;x
 secret_basque_pagan_reformed_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;Des fidèles ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;Die Gläubigen haben sich im Geheimen um eine kleine Kabale herum in dieser Provinz organisiert. Von dort aus konvertieren sie andere, wachsen und schützen ihre eigenen;;Los fieles han organizado una pequeña comunidad religiosa en esta provincia. Allí convierten a otros, crecen y se protegen entre ellos.;;;;;;;;x
+secret_religious_society_REAL_basque_pagan;ENG;FRE;GER;;ESP;;;;;;;;;x
+secret_religious_society_REAL_basque_pagan_reformed;ENG;FRE;GER;;ESP;;;;;;;;;x
+secret_religious_society_basque_pagan_desc_REAL;ENG;FRE;GER;;ESP;;;;;;;;;x
+secret_religious_society_basque_pagan_reformed_desc_REAL;ENG;FRE;GER;;ESP;;;;;;;;;x
+alt_start_community_name_basque_pagan;The [basque_pagan.GetName] Faithful;Fidèles [basque_pagan.GetName]s;Die [basque_pagan.GetName]en Gläubigen;;Creyentes [basque_pagan.GetName]s;;;;;;;;;x
+alt_start_community_name_basque_pagan_reformed;The [basque_pagan_reformed.GetName] Faithful;Fidèles [basque_pagan_reformed.GetName]s;Die [basque_pagan_reformed.GetName]en Gläubigen;;Creyentes [basque_pagan_reformed.GetName]s;;;;;;;;;x
 
 # DEVIL WORSHIPPERS
+
+# Celtic
 the_followers_of_fomorians;[GetFomoriansSocietyName];[GetFomoriansSocietyName];[GetFomoriansSocietyName];;[GetFomoriansSocietyName];;;;;;;;;x
-the_followers_of_fomorians_real;Followers of Fomorians;Disciples des Fomoires;Anh?nger der Fomori;;Seguidores de los Fomor?;;;;;;;;;x
+the_followers_of_fomorians_real;Followers of Fomorians;Disciples des Fomoires;Anhänger der Fomori;;Seguidores de los Fomoré;;;;;;;;;x
 the_followers_of_fomorians_random;Followers of [celtic_pagan.GetRandomEvilGodNameCap];Desciples de [celtic_pagan.GetRandomEvilGodNameCap];Anhänger von [celtic_pagan.GetRandomEvilGodNameCap];;Seguidores de [celtic_pagan.GetRandomEvilGodNameCap];;;;;;;;;x
 the_followers_of_fomorians_desc;[GetFomoriansSocietyDesc];[GetFomoriansSocietyDesc];[GetFomoriansSocietyDesc];;[GetFomoriansSocietyDesc];;;;;;;;;x
 the_followers_of_fomorians_desc_real;There are those among us who honor the darkest and most sinister of the Otherworlders. These Followers revel in the chaos, bloodshed, and hedonism demanded of them by the Fomorians. Unfortunately it seems the Fomorians are pleased by the havoc their mortal followers cause, as there are disturbing rumors surrounding their Followers, of dark magic and unnaturally long lives...;;;;;;;;;;;;;x
 the_followers_of_fomorians_recruit;[GetFomoriansRecruit];[GetFomoriansRecruit];[GetFomoriansRecruit];;[GetFomoriansRecruit];;;;;;;;;x
-the_followers_of_fomorians_recruit_real;Recruit to the Followers of Fomorians;Recruter pour les Disciples des Fomoires;Für die Anhänger der Fomori rekrutieren;;Reclutar para los Seguidores de los Fomor?;;;;;;;;;x
+the_followers_of_fomorians_recruit_real;Recruit to the Followers of Fomorians;Recruter pour les Disciples des Fomoires;Für die Anhänger der Fomori rekrutieren;;Reclutar para los Seguidores de los Fomoré;;;;;;;;;x
 the_followers_of_fomorians_recruit_desc;[GetFomoriansRecruitDesc];[GetFomoriansRecruitDesc];[GetFomoriansRecruitDesc];;[GetFomoriansRecruitDesc];;;;;;;;;x
-the_followers_of_fomorians_recruit_desc_real;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to the power of the occult. If so, you may invite [Root.GetHerHim] to become a member of the Followers of Fomorians.;Essayer de savoir si [Root.Get_le_TitledFirstNameJ] est récepti[Root.GetFVe] aux puissances occultes. Si c'est le cas, vous pourrez l'inviter à devenir membre des Disciples des Fomoires.;Versuche herauszufinden, ob §Y[Root.GetTitledFirstName]§! empfänglich für die Macht des Okkulten ist. Falls dem so ist, könnt Ihr [Root.Getihnsie] in die Anh?nger der Fomori einladen.;;Averigua si a §Y[Root.GetTitledFirstName]§! le atraen las fuerzas ocultas. En caso afirmativo, puedes invitarlo/la a unirse a los Seguidores de los Fomor?.;;;;;;;;;x
+the_followers_of_fomorians_recruit_desc_real;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to the power of the occult. If so, you may invite [Root.GetHerHim] to become a member of the Followers of Fomorians.;Essayer de savoir si [Root.Get_le_TitledFirstNameJ] est récepti[Root.GetFVe] aux puissances occultes. Si c'est le cas, vous pourrez l'inviter à devenir membre des Disciples des Fomoires.;Versuche herauszufinden, ob §Y[Root.GetTitledFirstName]§! empfänglich für die Macht des Okkulten ist. Falls dem so ist, könnt Ihr [Root.Getihnsie] in die Anhänger der Fomori einladen.;;Averigua si a §Y[Root.GetTitledFirstName]§! le atraen las fuerzas ocultas. En caso afirmativo, puedes invitarlo/la a unirse a los Seguidores de los Fomoré.;;;;;;;;;x
 the_followers_of_fomorians_recruit_block_tooltip;[GetHelRecruitBlockDesc];[GetHelRecruitBlockDesc];[GetHelRecruitBlockDesc];;[GetHelRecruitBlockDesc];;;;;;;;;x
-the_followers_of_fomorians_recruit_block_tooltip_real;Has not been approached by the Followers of Fomorians before.;N'a pas déjà été approch? par les Disciples des Fomoires.;Wurde noch nicht von den Anh?ngern der Fomori kontaktiert.;;Nunca ha tenido contacto con los Seguidores de los Fomor?.;;;;;;;;;x
+the_followers_of_fomorians_recruit_block_tooltip_real;Has not been approached by the Followers of Fomorians before.;N'a pas déjà été approché par les Disciples des Fomoires.;Wurde noch nicht von den Anhängern der Fomori kontaktiert.;;Nunca ha tenido contacto con los Seguidores de los Fomoré.;;;;;;;;;x
 
 the_followers_of_fomorians_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
-the_followers_of_fomorians_rank_1_female;Abjurer;Apostate;Bannmagierin;;Ap?stata;;;;;;;;;x
-the_followers_of_fomorians_rank_2_female;Conjurer;Sorci?re;Beschw?rerin;;Conjuradora;;;;;;;;;x
-the_followers_of_fomorians_rank_3_female;Priestess;Pr?tresse;Priesterin;;Sacerdotisa;;;;;;;;;x
-the_followers_of_fomorians_rank_4_female;High Priestess;Grande pr?tresse;Hohepriesterin;;Suma sacerdotisa;;;;;;;;;x
-the_followers_of_fomorians_rank_1_male;Abjurer;Apostat;Bannmagier;;Ap?stata;;;;;;;;;x
-the_followers_of_fomorians_rank_2_male;Conjurer;Sorcier;Beschw?rer;;Conjurador;;;;;;;;;x
-the_followers_of_fomorians_rank_3_male;Priest;Pr?tre;Priester;;Sacerdote;;;;;;;;;x
-the_followers_of_fomorians_rank_4_male;High Priest;Grand pr?tre;Hohepriester;;Sumo sacerdote;;;;;;;;;x
+the_followers_of_fomorians_rank_1_female;Abjurer;Apostate;Bannmagierin;;Apóstata;;;;;;;;;x
+the_followers_of_fomorians_rank_2_female;Conjurer;Sorcière;Beschwörerin;;Conjuradora;;;;;;;;;x
+the_followers_of_fomorians_rank_3_female;Priestess;Prêtresse;Priesterin;;Sacerdotisa;;;;;;;;;x
+the_followers_of_fomorians_rank_4_female;High Priestess;Grande prêtresse;Hohepriesterin;;Suma sacerdotisa;;;;;;;;;x
+the_followers_of_fomorians_rank_1_male;Abjurer;Apostat;Bannmagier;;Apóstata;;;;;;;;;x
+the_followers_of_fomorians_rank_2_male;Conjurer;Sorcier;Beschwörer;;Conjurador;;;;;;;;;x
+the_followers_of_fomorians_rank_3_male;Priest;Prêtre;Priester;;Sacerdote;;;;;;;;;x
+the_followers_of_fomorians_rank_4_male;High Priest;Grand prêtre;Hohepriester;;Sumo sacerdote;;;;;;;;;x
 currency_name_the_followers_of_fomorians;Dark Power;Pouvoir obscur;Dunkle Macht;;Poder oscuro;;;;;;;;;x
+
+# Basque
+SOMETHING;[GetFomoriansSocietyName];[GetFomoriansSocietyName];[GetFomoriansSocietyName];;[GetFomoriansSocietyName];;;;;;;;;x
+SOMETHING_real;Followers of Fomorians;Disciples des Fomoires;Anhänger der Fomori;;Seguidores de los Fomoré;;;;;;;;;x
+SOMETHING_random;Followers of [celtic_pagan.GetRandomEvilGodNameCap];Desciples de [celtic_pagan.GetRandomEvilGodNameCap];Anhänger von [celtic_pagan.GetRandomEvilGodNameCap];;Seguidores de [celtic_pagan.GetRandomEvilGodNameCap];;;;;;;;;x
+SOMETHING_desc;[GetFomoriansSocietyDesc];[GetFomoriansSocietyDesc];[GetFomoriansSocietyDesc];;[GetFomoriansSocietyDesc];;;;;;;;;x
+SOMETHING_desc_real;There are those among us who honor the darkest and most sinister of the Otherworlders. These Followers revel in the chaos, bloodshed, and hedonism demanded of them by the Fomorians. Unfortunately it seems the Fomorians are pleased by the havoc their mortal followers cause, as there are disturbing rumors surrounding their Followers, of dark magic and unnaturally long lives...;;;;;;;;;;;;;x
+SOMETHING_recruit;[GetFomoriansRecruit];[GetFomoriansRecruit];[GetFomoriansRecruit];;[GetFomoriansRecruit];;;;;;;;;x
+SOMETHING_recruit_real;Recruit to the Followers of Fomorians;Recruter pour les Disciples des Fomoires;Für die Anhänger der Fomori rekrutieren;;Reclutar para los Seguidores de los Fomoré;;;;;;;;;x
+SOMETHING_recruit_desc;[GetFomoriansRecruitDesc];[GetFomoriansRecruitDesc];[GetFomoriansRecruitDesc];;[GetFomoriansRecruitDesc];;;;;;;;;x
+SOMETHING_recruit_desc_real;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to the power of the occult. If so, you may invite [Root.GetHerHim] to become a member of the Followers of Fomorians.;Essayer de savoir si [Root.Get_le_TitledFirstNameJ] est récepti[Root.GetFVe] aux puissances occultes. Si c'est le cas, vous pourrez l'inviter à devenir membre des Disciples des Fomoires.;Versuche herauszufinden, ob §Y[Root.GetTitledFirstName]§! empfänglich für die Macht des Okkulten ist. Falls dem so ist, könnt Ihr [Root.Getihnsie] in die Anhänger der Fomori einladen.;;Averigua si a §Y[Root.GetTitledFirstName]§! le atraen las fuerzas ocultas. En caso afirmativo, puedes invitarlo/la a unirse a los Seguidores de los Fomoré.;;;;;;;;;x
+SOMETHING_recruit_block_tooltip;[GetHelRecruitBlockDesc];[GetHelRecruitBlockDesc];[GetHelRecruitBlockDesc];;[GetHelRecruitBlockDesc];;;;;;;;;x
+SOMETHING_recruit_block_tooltip_real;Has not been approached by the Followers of Fomorians before.;N'a pas déjà été approché par les Disciples des Fomoires.;Wurde noch nicht von den Anhängern der Fomori kontaktiert.;;Nunca ha tenido contacto con los Seguidores de los Fomoré.;;;;;;;;;x
+
+SOMETHING_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+SOMETHING_rank_1_female;Abjurer;Apostate;Bannmagierin;;Apóstata;;;;;;;;;x
+SOMETHING_rank_2_female;Conjurer;Sorcière;Beschwörerin;;Conjuradora;;;;;;;;;x
+SOMETHING_rank_3_female;Priestess;Prêtresse;Priesterin;;Sacerdotisa;;;;;;;;;x
+SOMETHING_rank_4_female;High Priestess;Grande prêtresse;Hohepriesterin;;Suma sacerdotisa;;;;;;;;;x
+SOMETHING_rank_1_male;Abjurer;Apostat;Bannmagier;;Apóstata;;;;;;;;;x
+SOMETHING_rank_2_male;Conjurer;Sorcier;Beschwörer;;Conjurador;;;;;;;;;x
+SOMETHING_rank_3_male;Priest;Prêtre;Priester;;Sacerdote;;;;;;;;;x
+SOMETHING_rank_4_male;High Priest;Grand prêtre;Hohepriester;;Sumo sacerdote;;;;;;;;;x
+currency_name_SOMETHING;Dark Power;Pouvoir obscur;Dunkle Macht;;Poder oscuro;;;;;;;;;x
