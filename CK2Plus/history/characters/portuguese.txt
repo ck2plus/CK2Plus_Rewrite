@@ -1500,7 +1500,7 @@
 	}
 	1150.1.1 = {
 		culture = portuguese
-	}	
+	}
 	1157.10.7 = {
 		death = yes
 	}
@@ -2340,7 +2340,7 @@
 	}
 	1150.1.1 = {
 		culture = portuguese
-	}	
+	}
 	1203.1.1 = {
 		name = "Afonso"
 	}
@@ -23697,7 +23697,7 @@
 	}
 }
 
-457671 = {
+457670 = {
 	name = "Pedro"
 	dynasty = 279
 

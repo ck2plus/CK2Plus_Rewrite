@@ -5883,7 +5883,7 @@
 	name = "Vladimir"
 	dynasty = 705
 	religion = orthodox
-	culture = movgorodian
+	culture = novgorodian
 	father = 222574
 	mother = 222576
 	1132.1.2 = {
