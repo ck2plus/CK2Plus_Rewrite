@@ -41,6 +41,7 @@ pagan_group = {
 	}
 	celtic_pagan = {
 		graphical_culture = pagangfx #For on-map CoA's
+		alternate_start = { always = no }
 
 		reformed = celtic_pagan_reformed
 
@@ -186,6 +187,7 @@ pagan_group = {
 	}
 	basque_pagan = {
 		graphical_culture = pagangfx #For on-map CoA's
+		alternate_start = { always = no }
 
 		reformed = basque_pagan_reformed
 

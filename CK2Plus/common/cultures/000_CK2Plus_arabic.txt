@@ -17,6 +17,7 @@ arabic = {
 			}
 		}
 	}
+
 	graphical_cultures = { muslimgfx }
 
 	bedouin_arabic = {

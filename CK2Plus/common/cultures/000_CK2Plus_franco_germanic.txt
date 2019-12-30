@@ -102,6 +102,16 @@ franco_germanic = {
 	}
 
 	flemish = {
+		alternate_start = {
+			OR = {
+				year >= 800
+				has_alternate_start_parameter = {
+					key = culture
+					value = full_random
+				}
+			}
+		}
+
 		graphical_cultures = { germangfx }
 
 		color = { 0.7 0.4 0.35 }
@@ -175,7 +185,7 @@ franco_germanic = {
 	old_frankish = { # Frankish
 		alternate_start = {
 			OR = {
-				year >= 1000
+				year < 800
 				has_alternate_start_parameter = {
 					key = culture
 					value = full_random

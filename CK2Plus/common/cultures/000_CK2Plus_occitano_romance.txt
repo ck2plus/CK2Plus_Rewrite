@@ -8,9 +8,27 @@
 #
 ####################################################################
 
-occitano_romance_group = { 
+occitano_romance_group = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+	}
 
 	catalan = {
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = {
+					key = culture
+					value = full_random
+				}
+			}
+		}
+
 		graphical_cultures = { southerngfx }
 
 		color = { 0.95 0.65 0.01 }
@@ -62,16 +80,6 @@ occitano_romance_group = {
 	}
 
 	occitan = {
-		alternate_start = {
-			OR = {
-				year >= 1000
-				has_alternate_start_parameter = {
-					key = culture
-					value = full_random
-				}
-			}
-		}
-
 		graphical_cultures = { trueoccitangfx occitangfx }
 
 		color = { 0.9 0.9 0.4 }
