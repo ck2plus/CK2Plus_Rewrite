@@ -20,6 +20,8 @@ amazigh = {
 		}
 	}
 
+	graphical_cultures = { berbergfx andalusiangfx }
+
 	atlasian = {
 		graphical_cultures = { berbergfx andalusiangfx }
 

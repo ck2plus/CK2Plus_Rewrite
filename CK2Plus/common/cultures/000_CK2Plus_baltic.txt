@@ -16,6 +16,7 @@ baltic = {
 			}
 		}
 	}
+
 	graphical_cultures = { easterngfx }
 
 	lettigallish = {

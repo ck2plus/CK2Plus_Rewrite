@@ -5,7 +5,7 @@
 #	 - Emilian (Plus culture)(E)
 #	 - Italian*(D)
 #	 - Ligurian (Plus culture)(E)
-#	 - Lombard* 
+#	 - Lombard*
 #	 - Neapolitan (Plus culture)(E)
 #	 - Roman*(D)
 #	 - Sicilian (Plus culture)(E)
@@ -269,7 +269,6 @@ italian_group = {
 	}
 
 	lombard = {
-		graphical_cultures = { germangfx }
 		alternate_start = {
 			OR = {
 				year >= 1000
@@ -279,6 +278,8 @@ italian_group = {
 				}
 			}
 		}
+
+		graphical_cultures = { germangfx }
 
 		color = { 0.39 0.6 0.59 }
 

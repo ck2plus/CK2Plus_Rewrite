@@ -16,6 +16,7 @@ central_african = {
 			}
 		}
 	}
+
 	graphical_cultures = { muslimgfx }
 
 	kanuri = {
@@ -63,9 +64,8 @@ central_african = {
 			Ya Yasmin
 		}
 	}
-	
-	songhay = {
 
+	songhay = {
 		graphical_cultures = { westafricangfx africangfx }
 		secondary_event_pictures = bedouin_arabic
 

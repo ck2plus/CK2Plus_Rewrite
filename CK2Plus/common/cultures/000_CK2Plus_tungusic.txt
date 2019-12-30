@@ -7,8 +7,21 @@
 #
 ####################################################################
 
-# Jurchen* 
+# Jurchen*
 tungusic_group = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+		has_alternate_start_parameter = {
+			key = culture
+			value = full_random
+		}
+	}
+
 	jurchen = {
 		graphical_cultures = { chinesegfx mongolgfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic

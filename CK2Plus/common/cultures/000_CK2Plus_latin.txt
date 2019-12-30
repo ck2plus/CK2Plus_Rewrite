@@ -12,6 +12,14 @@
 ####################################################################
 
 latin = { # Gallo-Roman
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+	}
 
 	arpitan = {
 		graphical_cultures = { frankishgfx westerngfx }

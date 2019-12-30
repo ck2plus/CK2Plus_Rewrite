@@ -9,6 +9,15 @@
 ####################################################################
 
 northeast_caucasian_group = {
+	alternate_start = {
+		NOT = {
+			has_alternate_start_parameter = {
+				key = special_culture
+				value = animal_world
+			}
+		}
+	}
+
 	graphical_cultures =  { easterngfx }
 
 	caucasian_avar = {

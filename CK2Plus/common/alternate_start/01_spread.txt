@@ -17,6 +17,9 @@ adjacencies = {
 
 	# CK2Plus, due to removed adjacencies
 
+	# Ireland - Scotland
+	5 = 50		# Ulster - Galloway
+
 	# British Isles
 	33 = 37		# Færeyar - Caithness
 	34 = 37		# Shetland - Caithness
