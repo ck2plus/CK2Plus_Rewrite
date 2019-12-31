@@ -1,0 +1,115 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+##############################################
+#
+#	Skirmish tactics
+#
+##############################################
+
+volley_tier_1;Volley - Failed;;;;;;;;;;;;;x
+volley_tier_2;Volley - Disorganised;;;;;;;;;;;;;x
+volley_tier_3;Volley;;;;;;;;;;;;;x
+volley_tier_4;Volley - Effective;;;;;;;;;;;;;x
+volley_tier_5;Volley - Devastating;;;;;;;;;;;;;x
+
+swarm_tier_1;Swarm - Failed;;;;;;;;;;;;;x
+swarm_tier_2;Swarm - Disorganised;;;;;;;;;;;;;x
+swarm_tier_3;Swarm;;;;;;;;;;;;;x
+swarm_tier_4;Swarm - Effective;;;;;;;;;;;;;x
+swarm_tier_5;Swarm - Devastating;;;;;;;;;;;;;x
+
+harass_tier_1;Harass - Failed;;;;;;;;;;;;;x
+harass_tier_2;Harass - Disorganised;;;;;;;;;;;;;x
+harass_tier_3;Harass;;;;;;;;;;;;;x
+harass_tier_4;Harass - Effective;;;;;;;;;;;;;x
+harass_tier_5;Harass - Devastating;;;;;;;;;;;;;x
+
+raid_tier_1;Raid - Failed;;;;;;;;;;;;;x
+raid_tier_2;Raid - Disorganised;;;;;;;;;;;;;x
+raid_tier_3;Raid;;;;;;;;;;;;;x
+raid_tier_4;Raid - Effective;;;;;;;;;;;;;x
+raid_tier_5;Raid - Devastating;;;;;;;;;;;;;x
+
+feint_tier_1;Faint - Failed;;;;;;;;;;;;;x
+feint_tier_2;Faint - Disorganised;;;;;;;;;;;;;x
+feint_tier_3;Faint;;;;;;;;;;;;;x
+feint_tier_4;Faint - Effective;;;;;;;;;;;;;x
+feint_tier_5;Faint - Devastating;;;;;;;;;;;;;x
+
+close_formation_tier_1;Close Formation - Failed;;;;;;;;;;;;;x
+close_formation_tier_2;Close Formation - Disorganised;;;;;;;;;;;;;x
+close_formation_tier_3;Close Formation;;;;;;;;;;;;;x
+close_formation_tier_4;Close Formation - Effective;;;;;;;;;;;;;x
+close_formation_tier_5;Close Formation - Devastating;;;;;;;;;;;;;x
+
+shock_charge_tier_1;Shock Charge - Failed;;;;;;;;;;;;;x
+shock_charge_tier_2;Shock Charge - Disorganised;;;;;;;;;;;;;x
+shock_charge_tier_3;Shock Charge;;;;;;;;;;;;;x
+shock_charge_tier_4;Shock Charge - Effective;;;;;;;;;;;;;x
+shock_charge_tier_5;Shock Charge - Devastating;;;;;;;;;;;;;x
+
+##############################################
+#
+# 	Change-to-Melee tactics
+#
+##############################################
+
+skirmish_charge_tier_1;Skirmish Charge - Failed;;;;;;;;;;;;;x
+skirmish_charge_tier_2;Skirmish Charge - Disorganised;;;;;;;;;;;;;x
+skirmish_charge_tier_3;Skirmish Charge;;;;;;;;;;;;;x
+skirmish_charge_tier_4;Skirmish Charge - Effective;;;;;;;;;;;;;x
+skirmish_charge_tier_5;Skirmish Charge - Devastating;;;;;;;;;;;;;x
+
+cavalry_charge_tier_1;Cavalry Charge - Failed;;;;;;;;;;;;;x
+cavalry_charge_tier_2;Cavalry Charge - Disorganised;;;;;;;;;;;;;x
+cavalry_charge_tier_3;Cavalry Charge;;;;;;;;;;;;;x
+cavalry_charge_tier_4;Cavalry Charge - Effective;;;;;;;;;;;;;x
+cavalry_charge_tier_5;Cavalry Charge - Devastating;;;;;;;;;;;;;x
+
+elephant_charge_tier_1;Elephant Charge - Failed;;;;;;;;;;;;;x
+elephant_charge_tier_2;Elephant Charge - Disorganised;;;;;;;;;;;;;x
+elephant_charge_tier_3;Elephant Charge;;;;;;;;;;;;;x
+elephant_charge_tier_4;Elephant Charge - Effective;;;;;;;;;;;;;x
+elephant_charge_tier_5;Elephant Charge - Devastating;;;;;;;;;;;;;x
+
+approach_tier_1;Approach - Failed;;;;;;;;;;;;;x
+approach_tier_2;Approach - Disorganised;;;;;;;;;;;;;x
+approach_tier_3;Approach;;;;;;;;;;;;;x
+approach_tier_4;Approach - Effective;;;;;;;;;;;;;x
+approach_tier_5;Approach - Devastating;;;;;;;;;;;;;x
+
+##############################################
+#
+# 	Melee tactics
+#
+##############################################
+
+shieldwall_tier_1;Shieldwall - Failed;;;;;;;;;;;;;x
+shieldwall_tier_2;Shieldwall - Disorganised;;;;;;;;;;;;;x
+shieldwall_tier_3;Shieldwall;;;;;;;;;;;;;x
+shieldwall_tier_4;Shieldwall - Effective;;;;;;;;;;;;;x
+shieldwall_tier_5;Shieldwall - Devastating;;;;;;;;;;;;;x
+
+advance_tier_1;Advance - Failed;;;;;;;;;;;;;x
+advance_tier_2;Advance - Disorganised;;;;;;;;;;;;;x
+advance_tier_3;Advance;;;;;;;;;;;;;x
+advance_tier_4;Advance - Effective;;;;;;;;;;;;;x
+advance_tier_5;Advance - Devastating;;;;;;;;;;;;;x
+
+ambush_tier_1;Ambush - Failed;;;;;;;;;;;;;x
+ambush_tier_2;Ambush - Disorganised;;;;;;;;;;;;;x
+ambush_tier_3;Ambush;;;;;;;;;;;;;x
+ambush_tier_4;Ambush - Effective;;;;;;;;;;;;;x
+ambush_tier_5;Ambush - Devastating;;;;;;;;;;;;;x
+
+hammer_and_anvil_tier_1;Hammer and Anvil - Failed;;;;;;;;;;;;;x
+hammer_and_anvil_tier_2;Hammer and Anvil - Disorganised;;;;;;;;;;;;;x
+hammer_and_anvil_tier_3;Hammer and Anvil;;;;;;;;;;;;;x
+hammer_and_anvil_tier_4;Hammer and Anvil - Effective;;;;;;;;;;;;;x
+hammer_and_anvil_tier_5;Hammer and Anvil - Devastating;;;;;;;;;;;;;x
+
+single_envelopment_tier_1;Single Envelopment - Failed;;;;;;;;;;;;;x
+single_envelopment_tier_2;Single Envelopment - Disorganised;;;;;;;;;;;;;x
+single_envelopment_tier_3;Single Envelopment;;;;;;;;;;;;;x
+single_envelopment_tier_4;Single Envelopment - Effective;;;;;;;;;;;;;x
+single_envelopment_tier_5;Single Envelopment - Devastating;;;;;;;;;;;;;x

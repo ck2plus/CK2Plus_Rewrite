@@ -11,44 +11,44 @@
 aggressive_leader = {
 	leader = yes
 
-	command_modifier = {
-		pursue = 0.25
-		damage = 0.1
-		defence = -0.1
-	}
+#	command_modifier = {
+#		pursue = 0.25
+#		damage = 0.1
+#		defence = -0.1
+#	}
 }
 
 defensive_leader = {
 	leader = yes
 
-	command_modifier = {
-		defence = 0.25
-		damage = -0.1
-	}
+#	command_modifier = {
+#		defence = 0.25
+#		damage = -0.1
+#	}
 }
 
 experimenter = { # Direct Leader
 	leader = yes
 
-	command_modifier = {
-		center = 0.2
-	}
+#	command_modifier = {
+#		center = 0.2
+#	}
 }
 
 flanker = {
 	leader = yes
 
-	command_modifier = {
-		flank = 0.2
-	}
+#	command_modifier = {
+#		flank = 0.2
+#	}
 }
 
 holy_warrior = {
 	leader = yes
 
-	command_modifier = {
-		religious_enemy = 0.3
-	}
+#	command_modifier = {
+#		religious_enemy = 0.3
+#	}
 
 	male_compliment = COMPL_HOLY_WARRIOR
 	female_compliment = COMPL_HOLY_WARRIOR
@@ -93,9 +93,9 @@ siege_leader = {
 trickster = {
 	leader = yes
 
-	command_modifier = {
-		random = 0.3
-	}
+#	command_modifier = {
+#		random = 0.3
+#	}
 }
 
 unyielding_leader = {
@@ -108,106 +108,172 @@ unyielding_leader = {
 }
 
 winter_soldier = {
+	potential = {
+		OR = {
+			trait = winter_soldier # shouldn't ever lose it on loading a savegame
+			location = {
+				OR = {
+					climate = severe_winter
+					terrain = arctic
+				}
+			}
+		}
+	}
+
 	leader = yes
-	random = no
 
 	command_modifier = {
 		winter_supply = 4
-		winter_combat = 0.5
+#		winter_combat = 0.5
 	}
 }
 
 cavalry_leader = {
 	leader = yes
 
-	command_modifier = {
-		cavalry = 0.2
-	}
+#	command_modifier = {
+#		cavalry = 0.2
+#	}
 }
 
 heavy_infantry_leader = {
 	leader = yes
 
-	command_modifier = {
-		heavy_infantry = 0.2
-	}
+#	command_modifier = {
+#		heavy_infantry = 0.2
+#	}
 }
 
 light_foot_leader = {
 	leader = yes
 
-	command_modifier = {
-		light_infantry = 0.2
-	}
+#	command_modifier = {
+#		light_infantry = 0.2
+#	}
 }
 
 war_elephant_leader = {
+	potential = {
+		OR = {
+			trait = war_elephant_leader # shouldn't ever lose it on loading a savegame
+			location = {
+				region = world_india
+			}
+			has_dharmic_religion_trigger = yes
+		}
+	}
+
 	leader = yes
-	random = no
 
 	command_modifier = {
-		war_elephants = 0.2
+#		war_elephants = 0.2
 		morale_offence = 0.2
 	}
 }
 
 desert_terrain_leader = {
-	leader = yes
-	random = no
-
-	command_modifier = {
-		terrain = desert
+	potential = {
+		OR = {
+			trait = desert_terrain_leader # shouldn't ever lose it on loading a savegame
+			location = { terrain = desert }
+		}
 	}
+
+	leader = yes
+
+#	command_modifier = {
+#		terrain = desert
+#	}
 
 	male_insult = INSULT_DESERT_RAT
 	female_insult = INSULT_DESERT_RAT
 }
 
 flat_terrain_leader = {
-	leader = yes
-	random = no
-
-	command_modifier = {
-		terrain = plains
-		terrain = farmlands
-		terrain = steppe
+	potential = {
+		OR = {
+			trait = flat_terrain_leader # shouldn't ever lose it on loading a savegame
+			location = {
+				OR = {
+					terrain = plains
+					terrain = farmlands
+					terrain = steppe
+				}
+			}
+		}
 	}
+	leader = yes
+
+#	command_modifier = {
+#		terrain = plains
+#		terrain = farmlands
+#		terrain = steppe
+#	}
 }
 
 jungle_terrain_leader = {
-	leader = yes
-	random = no
-
-	command_modifier = {
-		terrain = jungle
+	potential = {
+		OR = {
+			trait = jungle_terrain_leader # shouldn't ever lose it on loading a savegame
+			location = { terrain = jungle }
+		}
 	}
+
+	leader = yes
+
+#	command_modifier = {
+#		terrain = jungle
+#	}
 
 	male_insult = INSULT_JUNGLE_SNAKE
 	female_insult = INSULT_JUNGLE_SNAKE
 }
 
 mountain_terrain_leader = {
-	leader = yes
-	random = no
-
-	command_modifier = {
-		terrain = mountain
+	potential = {
+		OR = {
+			trait = mountain_terrain_leader # shouldn't ever lose it on loading a savegame
+			location = {
+				OR = {
+					terrain = hills
+					terrain = mountain
+				}
+			}
+		}
 	}
+
+	leader = yes
+
+#	command_modifier = {
+#		terrain = mountain
+#	}
 }
 
 rough_terrain_leader = {
-	leader = yes
-	random = no
-
-	command_modifier = {
-		terrain = forest
-		terrain = hills
+	potential = {
+		OR = {
+			trait = rough_terrain_leader # shouldn't ever lose it on loading a savegame
+			location = {
+				OR = {
+					terrain = forest
+					terrain = marsh
+				}
+			}
+		}
 	}
+
+	leader = yes
+
+#	command_modifier = {
+#		terrain = forest
+#		terrain = hills
+#	}
 }
 
 levy_coordinator = { # Way of the Tiger
 	potential = {
 		OR = {
+			trait = levy_coordinator # shouldn't ever lose it on loading a savegame
 			culture = han
 			has_character_flag = taught_chinese_strategy
 			has_character_flag = originated_from_chinese_court
@@ -217,7 +283,7 @@ levy_coordinator = { # Way of the Tiger
 	leader = yes
 
 	command_modifier = {
-		flank = 0.2
+#		flank = 0.2
 		speed = 0.3
 		retreat = 0.2
 	}
@@ -226,6 +292,7 @@ levy_coordinator = { # Way of the Tiger
 logistics_expert = { # Way of the Dog
 	potential = {
 		OR = {
+			trait = logistics_expert # shouldn't ever lose it on loading a savegame
 			culture = han
 			has_character_flag = taught_chinese_strategy
 			has_character_flag = originated_from_chinese_court
@@ -237,14 +304,15 @@ logistics_expert = { # Way of the Dog
 	attrition = -0.5
 	days_of_supply = 30
 
-	command_modifier = {
-		center = 0.2
-	}
+#	command_modifier = {
+#		center = 0.2
+#	}
 }
 
 master_of_flame = { # Way of the Dragon
 	potential = {
 		OR = {
+			trait = master_of_flame # shouldn't ever lose it on loading a savegame
 			culture = han
 			has_character_flag = taught_chinese_strategy
 			has_character_flag = originated_from_chinese_court
@@ -262,6 +330,7 @@ master_of_flame = { # Way of the Dragon
 sapper = { # Way of the Leopard
 	potential = {
 		OR = {
+			trait = sapper # shouldn't ever lose it on loading a savegame
 			culture = han
 			has_character_flag = taught_chinese_strategy
 			has_character_flag = originated_from_chinese_court
@@ -271,114 +340,114 @@ sapper = { # Way of the Leopard
 	leader = yes
 
 	command_modifier = {
-		terrain = forest
-		terrain = hills
+#		terrain = forest
+#		terrain = hills
 		siege = 0.5
 	}
 }
 
 ### Warrior Lodges ###
 baltic_leader = {
-	command_modifier = {
-		terrain = forest
-		defence = 0.15
-		flank = 0.3
-	}
-
 	leader = yes
 	random = no
+
+	command_modifier = {
+#		terrain = forest
+		defence = 0.15
+#		flank = 0.3
+	}
 }
 
 bon_leader = {
-	command_modifier = {
-		terrain = mountain
-		terrain = hills
-		speed = 0.1
-		light_infantry = 0.2
-	}
-
 	leader = yes
 	random = no
+
+	command_modifier = {
+#		terrain = mountain
+#		terrain = hills
+		speed = 0.1
+#		light_infantry = 0.2
+	}
 }
 
 finnish_leader = {
+	leader = yes
+	random = no
+
 	command_modifier = {
-		terrain = arctic
-		winter_combat = 0.25
+#		terrain = arctic
+#		winter_combat = 0.25
 		winter_supply = 3
 		defence = 0.1
 	}
-
-	leader = yes
-	random = no
 }
 
 hellenic_leader = {
+	leader = yes
+	random = no
+
 	command_modifier = {
 		speed = 0.1
 		morale_defence = 0.2
 		morale_offence = 0.3
 	}
-
-	leader = yes
-	random = no
 }
 
 norse_leader = {
-	trait_effect_capture_commanders = 1 #Bonus to capturing commanders
-	command_modifier = {
-		heavy_infantry = 0.25
-	}
-
 	leader = yes
 	random = no
+
+	trait_effect_capture_commanders = 1 #Bonus to capturing commanders
+#	command_modifier = {
+#		heavy_infantry = 0.25
+#	}
 }
 
 slavic_leader = {
+	leader = yes
+	random = no
+
 	command_modifier = {
-		terrain = plains
+#		terrain = plains
 		morale_defence = 0.2
 		morale_offence = 0.2
 	}
-
-	leader = yes
-	random = no
 }
 
 tengri_leader = {
-	command_modifier = {
-		terrain = steppe
-		terrain = plains
-		terrain = farmlands
-		light_cavalry = 0.2
-		knights = 0.1
-	}
-
 	leader = yes
 	random = no
+
+	command_modifier = {
+#		terrain = steppe
+#		terrain = plains
+#		terrain = farmlands
+#		light_cavalry = 0.2
+#		knights = 0.1
+	}
 }
 
 west_african_leader = {
-	command_modifier = {
-		terrain = desert
-		light_infantry = 0.2
-		light_cavalry = 0.2
-	}
-
 	leader = yes
 	random = no
+
+#	command_modifier = {
+#		terrain = desert
+#		light_infantry = 0.2
+#		light_cavalry = 0.2
+#	}
 }
 
 zun_leader = {
+	leader = yes
+	random = no
+
 	command_modifier = {
-		terrain = desert
-		terrain = mountain
+#		terrain = desert
+#		terrain = mountain
 		siege = 0.2
 		speed = 0.1
 	}
-
-	leader = yes
-	random = no
 }
 
 ###############
@@ -470,15 +539,14 @@ bad_priest_aztec = {
 }
 
 bad_priest_christian = {
-
-	religious = yes
-
 	potential = {
 		OR = {
 			is_theocracy = yes
 			is_ruler = no
 		}
 	}
+
+	religious = yes
 
 	church_opinion = -10
 	same_opinion_if_same_religion = 25
@@ -497,9 +565,6 @@ bad_priest_christian = {
 }
 
 bad_priest_muslim = {
-
-	religious = yes
-
 	potential = {
 		OR = {
 			controls_religion = sunni
@@ -508,6 +573,8 @@ bad_priest_muslim = {
 			controls_religion = hurufi
 		}
 	}
+
+	religious = yes
 
 	church_opinion = -10
 	same_opinion_if_same_religion = 25
@@ -2362,6 +2429,7 @@ zodiac_gemini = {
 	}
 
 	random = no
+
 	stewardship = 1
 
 	ai_rationality = -20
@@ -2542,6 +2610,7 @@ zodiac_virgo = {
 	opposites = {
 		zodiac_pisces
 	}
+
 	random = no
 
 	stewardship = 1

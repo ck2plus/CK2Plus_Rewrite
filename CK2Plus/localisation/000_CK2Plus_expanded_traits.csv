@@ -13,18 +13,16 @@ machas_javelin;Macha's Javelin;Javelote de Macha;Machas Speerwurf;;Jabalina de M
 machas_javelin_desc;The most fearsome Gentlidecht warriors are said to have been gifted their javelins by Macha herself;Les guerriers Gentlidecht les plus redoutables auraient été offerts à leurs javelins par Macha elle-même;Die furchterregendsten Gentlidecht-Krieger sollen ihre Speere von Macha selbst geschenkt bekommen haben;;Se dice que los guerreros gentlidecht más temibles han sido dotados con sus jabalinas por la propia Macha.;;;;;;;;;x
 
 celtic_leader;Fian;Fian;Fian;;Fian;;;;;;;;;x
-celtic_leader_desc;This character is a Féinnid, a veteran of the Fianna warbands.;Cette personne est un Féinnid, un vétéran de la compagnie de Fianna.;Dieser Charakter ist ein Féinnid, [Root.Geteineine] Veteran[Root.GetinFemale] der Fianna-Kriegsbande..;;Esta persona es un Féinnid, un veterano de la compañía Fianna.;;;;;;;;;x
+celtic_leader_desc;This character is a Féinnid, a veteran of the Fianna warbands.\nCombat Affinity: §YForests§!, §YFarmlands§!, §YHills§!, §YPlains§!;Cette personne est un Féinnid, un vétéran de la compagnie de Fianna.\nAffinité du combat: §YForêts§!, §YTerres arables§!, §YCollines§!, §YPlaines§!;Dieser Charakter ist ein Féinnid, [Root.Geteineine] Veteran[Root.GetinFemale] der Fianna-Kriegsbande.\nKampfaffinität: §YWälder§!, §YAckerland§!, §YHügel§!, §YEbenen§!;;Esta persona es un Féinnid, un veterano de la compañía Fianna.\nAfinidad de combate: §YBosques§!, §YTierras de cultivo§!, §YColinas§!, §YLlanura§!;;;;;;;;;x
 
 #Basque
 bad_priest_basque;[GetBadPriestBasqueMaleFemale];[GetBadPriestBasqueMaleFemale];[GetBadPriestBasqueMaleFemale];;[GetBadPriestBasqueMaleFemale];;;;;;;;;x
 bad_priest_basque_desc;The personality and habits of this sorgin are very inappropriate for [GetHerHis] position. And what's worse, [GetSheHe] has been unable to hide them from public view.;La personnalité et les moeurs de ce[GetEEtte] sorgin sont très inappropriées pour quelqu'un de sa fonction. Pire encore, [GetIlElle] est incapable de commettre ses actes impies discrètement.;Die Persönlichkeit und Gewohnheiten [Getdiesesdieser] [GetDruidMaleFemale] sind äußerst unpassend für [GetHerHis]en Stand. Auch vermag [GetSheHe] es keineswegs, seine schlechten Eigenschaften vor der Allgemeinheit zu verbergen.;;La personalidad y hábitos de este sorgin son muy inapropiados para esta posición. Y lo peor es que no es capaz de esconderlos en público.;;;;;;;;;x
 BadPriestBasqueMale;Wicked Sorgin;Sorgin Mauvais;Teuflisch Sorgin;;Sorgin Malvado;;;;;;;;;x
-BadPriestBasqueFemale;Wicked Sorgin;Sorgin Mauvais;Teuflisch Sorgin;;Sorgin Malvada;;;;;;;;;x
+BadPriestBasqueFemale;Wicked Sorgin;Sorgin Mauvaise;Teuflische Sorgin;;Sorgin Malvada;;;;;;;;;x
 
 flame_of_eate;Flame of Eate;Flamme de Eate;Flamme von Eate;;Llama de Eate;;;;;;;;;x
 flame_of_eate_desc;Euskara warriors of great renown are said to have the fire of the Gods burning inside them;On dit que les guerriers euskara de grande renommée ont le feu des Dieux qui brûlent en eux;Euskara-Krieger von großem Renommee sollen das Feuer der Götter in sich brennen lassen;;Se dice que los guerreros Euskara de gran renombre tienen el fuego de los Dioses ardiendo dentro de ellos;;;;;;;;;x
 
-basque_leader;[GetBasqueLeaderMaleFemale];[GetBasqueLeaderMaleFemale];[GetBasqueLeaderMaleFemale];;[GetBasqueLeaderMaleFemale];;;;;;;;;x
-basque_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
-BasqueLeaderMale;Magical;Magique;Magisch;;Mágico;;;;;;;;;x
-BasqueLeaderFemale;Magical;Magique;Magisch;;Mágica;;;;;;;;;x
+basque_leader;Maven of Mari;Virtuose de Mari;Sieger von Mari;;Entendido de Mari;;;;;;;;;x
+basque_leader_desc;Mari herself blessed this champion, allowing [GetHerHim] to fight with ferocity and grace.\nCombat Affinity: §YMountains§!, §YHills§!, §YForests§!, §YPlains§!;Mari elle-même a béni ce champion, lui permettant de se battre avec férocité et grâce.\nAffinité du combat: §YMontagnes§!, §YCollines§!, §YForêts§!, §YPlaines§!;Mari selbst segnete diesen Champion und erlaubte [Getihmihr], mit Wildheit und Anmut zu kämpfen.\nKampfaffinität: §YBerge§!, §YHügel§!, §YWälder§!, §YEbenen§!;;Mari misma bendijo a este campeón, permitiéndole luchar con ferocidad y gracia.\nAfinidad de combate: §YMontañas§!, §YColinas§!, §YBosques§!, §YLlanura§!;;;;;;;;;x
