@@ -3992,7 +3992,6 @@ change_to_melee_selection_factor = {
 			OR = {
 				terrain = arctic
 				terrain = desert
-				terrain = coastal_desert
 			}
 		}
 	}

@@ -31,7 +31,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_combat_tactic_strip"
 		textureFile = "gfx\\interface\\combat_tactic_strip.dds"
-		noOfFrames = 11 # vanilla: 8
+		noOfFrames = 55 # vanilla: 8
 	}
 
 }

@@ -34,24 +34,26 @@
 #
 #	Each tactic's sprite shows the unit receiving the biggest bonus - gfx/interface/combat_tactic_strip.dds
 #
-#	01 = Light Infantry
-#	02 = Archers
-#	03 = Heavy Infantry
-#	04 = Pikemen
-#	05 = Light Cavalry
-#	06 = Horse Archers
-#	07 = Camel cavalry
-#	08 = Heavy Cavalry
-#	09 = War Elephants
-#	10 = Glorious Commander?
-#	11 = Galleys
+#							Very bad		Bad				Normal			Good 			Very good
+#
+#	Light Infantry			 1				12				23				34				45
+#	Archers					 2				13				24				35				46
+#	Heavy Infantry			 3				14				25				36				47
+#	Pikemen					 4				15				26				37				48
+#	Light Cavalry			 5				16				27				38				49
+#	Horse Archers			 6				17				28				39				50
+#	Camel Cavalry			 7				18				29				40				51
+#	Heavy Cavalry			 8				19				30				41				52
+#	War Elephants			 9				20				31				42				53
+#	Glorious Commander?		10				21				32				43				54
+#	Galleys					11				22				33				44				55
 #
 ##################################################################################################################
 
 # Must be first in file. This tactic will be set if anything goes wrong
 no_tactic = {
 	days = 1
-	sprite = 1 # Light Infantry
+	sprite = 32 # Glorious Commander
 
 	trigger = {
 		always = no # Never use unless set explicitly by code
@@ -75,7 +77,6 @@ volley_tier_1 = { # Very bad
 		location = {
 			NOR = {
 				terrain = forest
-				terrain = woods
 				terrain = jungle
 			}
 		}
@@ -135,7 +136,7 @@ volley_tier_1 = { # Very bad
 
 volley_tier_2 = { # Bad
 	days = 6
-	sprite = 2 # Archers
+	sprite = 13 # Archers
 	group = volley
 
 	trigger = {
@@ -191,7 +192,7 @@ volley_tier_2 = { # Bad
 
 volley_tier_3 = { # Average
 	days = 6
-	sprite = 2 # Archers
+	sprite = 24 # Archers
 	group = volley
 
 	trigger = {
@@ -242,7 +243,7 @@ volley_tier_3 = { # Average
 
 volley_tier_4 = { # Good
 	days = 6
-	sprite = 2 # Archers
+	sprite = 35 # Archers
 	group = volley
 
 	trigger = {
@@ -299,7 +300,7 @@ volley_tier_4 = { # Good
 
 volley_tier_5 = { # Excellent
 	days = 6
-	sprite = 2 # Archers
+	sprite = 46 # Archers
 	group = volley
 
 	trigger = {
@@ -420,7 +421,7 @@ swarm_tier_1 = { # Very bad
 
 swarm_tier_2 = { # Bad
 	days = 6
-	sprite = 6 # Horse Archers
+	sprite = 17 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -469,7 +470,7 @@ swarm_tier_2 = { # Bad
 
 swarm_tier_3 = { # Average
 	days = 6
-	sprite = 6 # Horse Archers
+	sprite = 28 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -516,7 +517,7 @@ swarm_tier_3 = { # Average
 
 swarm_tier_4 = { # Good
 	days = 6
-	sprite = 6 # Horse Archers
+	sprite = 39 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -569,7 +570,7 @@ swarm_tier_4 = { # Good
 
 swarm_tier_5 = { # Excellent
 	days = 6
-	sprite = 6 # Horse Archers
+	sprite = 50 # Horse Archers
 	group = swarm
 
 	trigger = {
@@ -694,7 +695,7 @@ harass_tier_1 = { # Very bad
 
 harass_tier_2 = { # Bad
 	days = 6
-	sprite = 5 # Light Cavalry
+	sprite = 16 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -751,7 +752,7 @@ harass_tier_2 = { # Bad
 
 harass_tier_3 = { # Average
 	days = 6
-	sprite = 5 # Light Cavalry
+	sprite = 27 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -805,7 +806,7 @@ harass_tier_3 = { # Average
 
 harass_tier_4 = { # Good
 	days = 6
-	sprite = 5 # Light Cavalry
+	sprite = 38 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -865,7 +866,7 @@ harass_tier_4 = { # Good
 
 harass_tier_5 = { # Excellent
 	days = 6
-	sprite = 5 # Light Cavalry
+	sprite = 49 # Light Cavalry
 	group = harass
 
 	trigger = {
@@ -981,7 +982,7 @@ raid_tier_1 = { # Very bad
 
 raid_tier_2 = { # Bad
 	days = 6
-	sprite = 1 # Light Infantry
+	sprite = 12 # Light Infantry
 	group = raid
 
 	trigger = {
@@ -1026,7 +1027,7 @@ raid_tier_2 = { # Bad
 
 raid_tier_3 = { # Average
 	days = 6
-	sprite = 1 # Light Infantry
+	sprite = 23 # Light Infantry
 	group = raid
 
 	trigger = {
@@ -1065,7 +1066,7 @@ raid_tier_3 = { # Average
 
 raid_tier_4 = { # Good
 	days = 6
-	sprite = 1 # Light Infantry
+	sprite = 34 # Light Infantry
 	group = raid
 
 	trigger = {
@@ -1109,7 +1110,7 @@ raid_tier_4 = { # Good
 
 raid_tier_5 = { # Excellent
 	days = 6
-	sprite = 1 # Light Infantry
+	sprite = 45 # Light Infantry
 	group = raid
 
 	trigger = {
@@ -1225,7 +1226,7 @@ feint_tier_1 = { # Very bad
 
 feint_tier_2 = { # Bad
 	days = 6
-	sprite = 1 # Light Infantry
+	sprite = 12 # Light Infantry
 	group = feint
 
 	trigger = {
@@ -1286,7 +1287,7 @@ feint_tier_2 = { # Bad
 
 feint_tier_3 = { # Average
 	days = 6
-	sprite = 1 # Light Infantry
+	sprite = 23 # Light Infantry
 	group = feint
 
 	trigger = {
@@ -1336,7 +1337,7 @@ feint_tier_3 = { # Average
 
 feint_tier_4 = { # Good
 	days = 6
-	sprite = 1 # Light Infantry
+	sprite = 34 # Light Infantry
 	group = feint
 
 	trigger = {
@@ -1397,7 +1398,7 @@ feint_tier_4 = { # Good
 
 feint_tier_5 = { # Excellent
 	days = 6
-	sprite = 1 # Light Infantry
+	sprite = 45 # Light Infantry
 	group = feint
 
 	trigger = {
@@ -1518,7 +1519,7 @@ close_formation_tier_1 = { # Very bad
 
 close_formation_tier_2 = { # Bad
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 14 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1567,7 +1568,7 @@ close_formation_tier_2 = { # Bad
 
 close_formation_tier_3 = { # Average
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 25 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1601,7 +1602,7 @@ close_formation_tier_3 = { # Average
 
 close_formation_tier_4 = { # Good
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 36 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1650,7 +1651,7 @@ close_formation_tier_4 = { # Good
 
 close_formation_tier_5 = { # Excellent
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 47 # Heavy Infantry
 	group = close_formation
 
 	trigger = {
@@ -1759,7 +1760,7 @@ shock_charge_tier_1 = { # Very bad
 
 shock_charge_tier_2 = { # Bad
 	days = 3
-	sprite = 8 # Heavy Cavalry
+	sprite = 19 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
@@ -1808,7 +1809,7 @@ shock_charge_tier_2 = { # Bad
 
 shock_charge_tier_3 = { # Average
 	days = 3
-	sprite = 8 # Heavy Cavalry
+	sprite = 30 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
@@ -1845,7 +1846,7 @@ shock_charge_tier_3 = { # Average
 
 shock_charge_tier_4 = { # Good
 	days = 3
-	sprite = 8 # Heavy Cavalry
+	sprite = 41 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
@@ -1895,7 +1896,7 @@ shock_charge_tier_4 = { # Good
 
 shock_charge_tier_5 = { # Excellent
 	days = 3
-	sprite = 8 # Heavy Cavalry
+	sprite = 52 # Heavy Cavalry
 	group = shock_charge
 
 	trigger = {
@@ -2020,7 +2021,7 @@ skirmish_charge_tier_1 = { # Very bad
 
 skirmish_charge_tier_2 = { # Bad
 	days = 3
-	sprite = 1 # Light Infantry
+	sprite = 12 # Light Infantry
 	group = skirmish_charge
 
 	trigger = {
@@ -2078,7 +2079,7 @@ skirmish_charge_tier_2 = { # Bad
 
 skirmish_charge_tier_3 = { # Average
 	days = 3
-	sprite = 1 # Light Infantry
+	sprite = 23 # Light Infantry
 	group = skirmish_charge
 
 	trigger = {
@@ -2123,7 +2124,7 @@ skirmish_charge_tier_3 = { # Average
 
 skirmish_charge_tier_4 = { # Good
 	days = 3
-	sprite = 1 # Light Infantry
+	sprite = 34 # Light Infantry
 	group = skirmish_charge
 
 	trigger = {
@@ -2181,7 +2182,7 @@ skirmish_charge_tier_4 = { # Good
 
 skirmish_charge_tier_5 = { # Excellent
 	days = 3
-	sprite = 1 # Light Infantry
+	sprite = 45 # Light Infantry
 	group = skirmish_charge
 
 	trigger = {
@@ -2328,7 +2329,7 @@ cavalry_charge_tier_1 = { # Very bad
 
 cavalry_charge_tier_2 = { # Bad
 	days = 3
-	sprite = 8 # Heavy Cavalry
+	sprite = 19 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2404,7 +2405,7 @@ cavalry_charge_tier_2 = { # Bad
 
 cavalry_charge_tier_3 = { # Average
 	days = 3
-	sprite = 8 # Heavy Cavalry
+	sprite = 30 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2463,7 +2464,7 @@ cavalry_charge_tier_3 = { # Average
 
 cavalry_charge_tier_4 = { # Good
 	days = 3
-	sprite = 8 # Heavy Cavalry
+	sprite = 41 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2537,7 +2538,7 @@ cavalry_charge_tier_4 = { # Good
 
 cavalry_charge_tier_5 = { # Excellent
 	days = 3
-	sprite = 8 # Heavy Cavalry
+	sprite = 52 # Heavy Cavalry
 	group = cavalry_charge
 
 	trigger = {
@@ -2628,7 +2629,6 @@ elephant_charge_tier_1 = { # Very bad
 		}
 		location = {
 			NOR = {
-				terrain = woods
 				terrain = forest
 				terrain = jungle
 				terrain = marsh
@@ -2699,7 +2699,7 @@ elephant_charge_tier_1 = { # Very bad
 
 elephant_charge_tier_2 = { # Bad
 	days = 3
-	sprite = 9 # War Elephant
+	sprite = 20 # War Elephant
 	group = elephant_charge
 
 	trigger = {
@@ -2710,7 +2710,6 @@ elephant_charge_tier_2 = { # Bad
 		}
 		location = {
 			NOR = {
-				terrain = woods
 				terrain = forest
 				terrain = jungle
 				terrain = marsh
@@ -2770,7 +2769,7 @@ elephant_charge_tier_2 = { # Bad
 
 elephant_charge_tier_3 = { # Average
 	days = 3
-	sprite = 9 # War Elephant
+	sprite = 31 # War Elephant
 	group = elephant_charge
 
 	trigger = {
@@ -2781,7 +2780,6 @@ elephant_charge_tier_3 = { # Average
 		}
 		location = {
 			NOR = {
-				terrain = woods
 				terrain = forest
 				terrain = jungle
 				terrain = marsh
@@ -2834,7 +2832,7 @@ elephant_charge_tier_3 = { # Average
 
 elephant_charge_tier_4 = { # Good
 	days = 3
-	sprite = 9 # War Elephant
+	sprite = 42 # War Elephant
 	group = elephant_charge
 
 	trigger = {
@@ -2845,7 +2843,6 @@ elephant_charge_tier_4 = { # Good
 		}
 		location = {
 			NOR = {
-				terrain = woods
 				terrain = forest
 				terrain = jungle
 				terrain = marsh
@@ -2909,7 +2906,7 @@ elephant_charge_tier_4 = { # Good
 
 elephant_charge_tier_5 = { # Excellent
 	days = 3
-	sprite = 9 # War Elephant
+	sprite = 53 # War Elephant
 	group = elephant_charge
 
 	trigger = {
@@ -2920,7 +2917,6 @@ elephant_charge_tier_5 = { # Excellent
 		}
 		location = {
 			NOR = {
-				terrain = woods
 				terrain = forest
 				terrain = jungle
 				terrain = marsh
@@ -3065,7 +3061,7 @@ approach_tier_1 = { # Very bad
 
 approach_tier_2 = { # Bad
 	days = 6
-	sprite = 4 # Pikemen
+	sprite = 15 # Pikemen
 	group = approach
 
 	trigger = {
@@ -3135,7 +3131,7 @@ approach_tier_2 = { # Bad
 
 approach_tier_3 = { # Average
 	days = 6
-	sprite = 4 # Pikemen
+	sprite = 26 # Pikemen
 	group = approach
 
 	trigger = {
@@ -3191,7 +3187,7 @@ approach_tier_3 = { # Average
 
 approach_tier_4 = { # Good
 	days = 6
-	sprite = 4 # Pikemen
+	sprite = 37 # Pikemen
 	group = approach
 
 	trigger = {
@@ -3261,7 +3257,7 @@ approach_tier_4 = { # Good
 
 approach_tier_5 = { # Excellent
 	days = 6
-	sprite = 4 # Pikemen
+	sprite = 48 # Pikemen
 	group = approach
 
 	trigger = {
@@ -3400,7 +3396,7 @@ shieldwall_tier_1 = { # Very bad
 
 shieldwall_tier_2 = { # Bad
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 14 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3450,7 +3446,7 @@ shieldwall_tier_2 = { # Bad
 
 shieldwall_tier_3 = { # Average
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 25 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3491,7 +3487,7 @@ shieldwall_tier_3 = { # Average
 
 shieldwall_tier_4 = { # Good
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 36 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3544,7 +3540,7 @@ shieldwall_tier_4 = { # Good
 
 shieldwall_tier_5 = { # Excellent
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 47 # Heavy Infantry
 	group = shieldwall
 
 	trigger = {
@@ -3661,7 +3657,7 @@ advance_tier_1 = { # Very bad
 
 advance_tier_2 = { # Bad
 	days = 6
-	sprite = 4 # Pikemen
+	sprite = 15 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3711,7 +3707,7 @@ advance_tier_2 = { # Bad
 
 advance_tier_3 = { # Average
 	days = 6
-	sprite = 4 # Pikemen
+	sprite = 26 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3751,7 +3747,7 @@ advance_tier_3 = { # Average
 
 advance_tier_4 = { # Good
 	days = 6
-	sprite = 4 # Pikemen
+	sprite = 37 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3806,7 +3802,7 @@ advance_tier_4 = { # Good
 
 advance_tier_5 = { # Excellent
 	days = 6
-	sprite = 4 # Pikemen
+	sprite = 48 # Pikemen
 	group = advance
 
 	trigger = {
@@ -3934,7 +3930,7 @@ ambush_tier_1 = { # Very bad
 
 ambush_tier_2 = { # Bad
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 14 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -3996,7 +3992,7 @@ ambush_tier_2 = { # Bad
 
 ambush_tier_3 = { # Average
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 25 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -4039,7 +4035,7 @@ ambush_tier_3 = { # Average
 
 ambush_tier_4 = { # Good
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 36 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -4101,7 +4097,7 @@ ambush_tier_4 = { # Good
 
 ambush_tier_5 = { # Excellent
 	days = 6
-	sprite = 3 # Heavy Infantry
+	sprite = 47 # Heavy Infantry
 	group = ambush
 
 	trigger = {
@@ -4261,7 +4257,7 @@ hammer_and_anvil_tier_1 = { # Very bad
 
 hammer_and_anvil_tier_2 = { # Bad
 	days = 6
-	sprite = 8 # Heavy Cavalry
+	sprite = 19 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -4346,7 +4342,7 @@ hammer_and_anvil_tier_2 = { # Bad
 
 hammer_and_anvil_tier_3 = { # Average
 	days = 6
-	sprite = 8 # Heavy Cavalry
+	sprite = 30 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -4418,7 +4414,7 @@ hammer_and_anvil_tier_3 = { # Average
 
 hammer_and_anvil_tier_4 = { # Good
 	days = 6
-	sprite = 8 # Heavy Cavalry
+	sprite = 41 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -4503,7 +4499,7 @@ hammer_and_anvil_tier_4 = { # Good
 
 hammer_and_anvil_tier_5 = { # Excellent
 	days = 6
-	sprite = 8 # Heavy Cavalry
+	sprite = 52 # Heavy Cavalry
 	group = hammer_and_anvil
 
 	trigger = {
@@ -4594,6 +4590,25 @@ hammer_and_anvil_tier_5 = { # Excellent
 
 ##################################################################################################################
 #
+#	Pursuit tactics
+#
+##################################################################################################################
+
+pursue_tactic = {
+	days = 30
+	sprite = 32 # Glorious Commander
+
+	trigger = {
+		phase = pursue
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+}
+
+##################################################################################################################
+#
 #	Siege offensive tactics
 #
 ##################################################################################################################
@@ -4601,7 +4616,7 @@ hammer_and_anvil_tier_5 = { # Excellent
 # Must be first "siege = attacker"
 no_siege_offense_tactic = {
 	days = 1
-	sprite = 1 # Light Infantry
+	sprite = 32 # Glorious Commander
 
 	siege = attacker
 
@@ -4612,7 +4627,7 @@ no_siege_offense_tactic = {
 
 default_siege_offense_tactic = {
 	days = 5
-	sprite = 3 # Heavy Infantry
+	sprite = 32 # Glorious Commander
 
 	siege = attacker
 
@@ -4634,7 +4649,7 @@ default_siege_offense_tactic = {
 # Must be first "siege = defender"
 no_siege_defense_tactic = {
 	days = 1
-	sprite = 1 # Light Infantry
+	sprite = 32 # Glorious Commander
 
 	siege = defender
 
@@ -4645,7 +4660,7 @@ no_siege_defense_tactic = {
 
 default_siege_defense_tactic = {
 	days = 5
-	sprite = 3 # Heavy Infantry
+	sprite = 32 # Glorious Commander
 
 	siege = defender
 
@@ -4798,7 +4813,6 @@ flank_pursue_odds = {
 				OR = {
 					terrain = arctic
 					terrain = desert
-					terrain = coastal_desert
 				}
 			}
 		}
