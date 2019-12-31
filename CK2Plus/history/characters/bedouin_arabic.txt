@@ -9242,7 +9242,7 @@
 	name = "Hnanisho"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145598
 	1288.1.1 = {
 		birth = yes
@@ -9256,7 +9256,7 @@
 	name = "Maremmeh"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145598
 	1291.1.1 = {
 		birth = yes
@@ -9270,7 +9270,7 @@
 	name = "Theodosis"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145603
 	1268.1.1 = {
 		birth = yes
@@ -9284,7 +9284,7 @@
 	name = "Denha"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145597
 	1310.1.1 = {
 		birth = yes
@@ -9298,7 +9298,7 @@
 	name = "Yohannan"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145598
 	1293.1.1 = {
 		birth = yes
@@ -9312,7 +9312,7 @@
 	name = "Theodosis"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145596
 	1310.1.1 = {
 		birth = yes
@@ -9326,7 +9326,7 @@
 	name = "Surin"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145601
 	1333.1.1 = {
 		birth = yes
@@ -9340,7 +9340,7 @@
 	name = "Pethion"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145605
 	1250.1.1 = {
 		birth = yes
@@ -9354,7 +9354,7 @@
 	name = "Giwargis"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145605
 	1247.1.1 = {
 		birth = yes
@@ -9368,7 +9368,7 @@
 	name = "Pethion"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145606
 	1228.1.1 = {
 		birth = yes
@@ -9382,7 +9382,7 @@
 	name = "Theodosis"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145607
 	1210.1.1 = {
 		birth = yes
@@ -9396,7 +9396,7 @@
 	name = "Nikolas"
 	dynasty = 1022234
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	1190.1.1 = {
 		birth = yes
 	}
@@ -9409,7 +9409,7 @@
 	name = "Abraham"
 	dynasty = 1022235
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145609
 	1220.1.1 = {
 		birth = yes
@@ -9423,7 +9423,7 @@
 	name = "Gregoris"
 	dynasty = 1022235
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145610
 	1170.1.1 = {
 		birth = yes
@@ -9437,7 +9437,7 @@
 	name = "Eliya"
 	dynasty = 1022235
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145611
 	1141.1.1 = {
 		birth = yes
@@ -9451,7 +9451,7 @@
 	name = "Aba"
 	dynasty = 1022235
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145612
 	1124.1.1 = {
 		birth = yes
@@ -9465,7 +9465,7 @@
 	name = "Abraham"
 	dynasty = 1022235
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145613
 	1105.1.1 = {
 		birth = yes
@@ -9479,7 +9479,7 @@
 	name = "Maremmeh"
 	dynasty = 1022235
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145614
 	1083.1.1 = {
 		birth = yes
@@ -9493,7 +9493,7 @@
 	name = "Eliya"
 	dynasty = 1022235
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145615
 	1060.1.1 = {
 		birth = yes
@@ -9507,7 +9507,7 @@
 	name = "Abraham"
 	dynasty = 1022235
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	1038.1.1 = {
 		birth = yes
 	}
@@ -9520,7 +9520,7 @@
 	name = "Nikolas"
 	dynasty = 1022236
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145617
 	862.1.1 = {
 		birth = yes
@@ -9534,7 +9534,7 @@
 	name = "Abraham"
 	dynasty = 1022236
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145618
 	845.1.1 = {
 		birth = yes
@@ -9548,7 +9548,7 @@
 	name = "Denha"
 	dynasty = 1022236
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145967
 	825.1.1 = {
 		birth = yes
@@ -9630,7 +9630,7 @@
 	name = "Philemon"
 	dynasty = 1022236
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 
 	737.1.1 = {
 		birth = yes
@@ -9644,7 +9644,7 @@
 	name = "Athanasios"
 	dynasty = 1022236
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145965
 	757.1.1 = {
 		birth = yes
@@ -9658,7 +9658,7 @@
 	name = "Epiphanios"
 	dynasty = 1022236
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 145966
 	790.1.1 = {
 		birth = yes
@@ -14850,7 +14850,7 @@
 	name = "Sulayman"
 	dynasty = 1062464
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	902.1.1 = {
 		birth = yes
 	}
@@ -14863,7 +14863,7 @@
 	name = "Bahir"
 	dynasty = 1062464
 	religion = nestorian
-	culture = bedouin_arabic
+	culture = soqotri
 	father = 260908
 	923.1.1 = {
 		birth = yes
