@@ -2648,7 +2648,7 @@
 	name = "Sayf ad-Din Is'Haq"
 	dynasty = 7340
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	1252.1.1 = {
 		birth = yes
 	}
@@ -2665,7 +2665,7 @@
 	#AKA Zahed Gilani
 	dynasty = 7341
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	1216.1.1 = {
 		birth = yes
 	}
@@ -2679,7 +2679,7 @@
 	female = yes
 	dynasty = 7341
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93301
 	1285.1.1 = {
 		birth = yes
@@ -2693,7 +2693,7 @@
 	name = "Sadr al-Din Musa"
 	dynasty = 7340
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93300
 	mother = 93302
 	1305.1.1 = {

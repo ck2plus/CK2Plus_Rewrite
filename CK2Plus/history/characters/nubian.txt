@@ -1196,7 +1196,7 @@
 	name = "Christophoros"
 	dynasty = 1022245
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	828.1.1 = {
 		birth = yes
 	}
@@ -1212,7 +1212,7 @@
 	name = "Gabriel"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	1038.1.1 = {
 		birth = yes
 	}
@@ -1228,7 +1228,7 @@
 	name = "Thadeosi"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145677
 	1078.1.1 = {
 		birth = yes
@@ -1242,7 +1242,7 @@
 	name = "Raphaelkouda"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145678
 	1110.1.1 = {
 		birth = yes
@@ -1256,7 +1256,7 @@
 	name = "Dioskoros"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145679
 	1135.1.1 = {
 		birth = yes
@@ -1270,7 +1270,7 @@
 	name = "Dimetheos"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145680
 	1163.1.1 = {
 		birth = yes
@@ -1284,7 +1284,7 @@
 	name = "Eionkouda"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145681
 	1190.1.1 = {
 		birth = yes
@@ -1298,7 +1298,7 @@
 	name = "Marturophoros"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145682
 	1233.1.1 = {
 		birth = yes
@@ -1312,7 +1312,7 @@
 	name = "Ieremias"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145683
 	1259.1.1 = {
 		birth = yes
@@ -1326,7 +1326,7 @@
 	name = "Gennatios"
 	dynasty = 1022246
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145684
 	1294.1.1 = {
 		birth = yes
@@ -1340,7 +1340,7 @@
 	name = "Hoase"
 	dynasty = 1022247
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	828.1.1 = {
 		birth = yes
 	}
@@ -1353,7 +1353,7 @@
 	name = "Krisanthos"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	1023.1.1 = {
 		birth = yes
 	}
@@ -1366,7 +1366,7 @@
 	name = "Zosima"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145687
 	1048.1.1 = {
 		birth = yes
@@ -1380,7 +1380,7 @@
 	name = "Kalinikos"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145688
 	1069.1.1 = {
 		birth = yes
@@ -1394,7 +1394,7 @@
 	name = "Gabrielophorou"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145689
 	1101.1.1 = {
 		birth = yes
@@ -1408,7 +1408,7 @@
 	name = "Gabrielkouda"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145690
 	1155.1.1 = {
 		birth = yes
@@ -1422,7 +1422,7 @@
 	name = "Abraam"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145691
 	1182.1.1 = {
 		birth = yes
@@ -1436,7 +1436,7 @@
 	name = "Chael"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145692
 	1214.1.1 = {
 		birth = yes
@@ -1450,7 +1450,7 @@
 	name = "Mariana"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145693
 	1255.1.1 = {
 		birth = yes
@@ -1464,7 +1464,7 @@
 	name = "Mariankouda"
 	dynasty = 1022248
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145694
 	1287.1.1 = {
 		birth = yes
@@ -1478,7 +1478,7 @@
 	name = "Petros"
 	dynasty = 1022249
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	847.1.1 = {
 		birth = yes
 	}
@@ -1491,7 +1491,7 @@
 	name = "Theodosios"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	1045.1.1 = {
 		birth = yes
 	}
@@ -1504,7 +1504,7 @@
 	name = "Papasinkouda"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145697
 	1084.1.1 = {
 		birth = yes
@@ -1518,7 +1518,7 @@
 	name = "Aberikos"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145698
 	1121.1.1 = {
 		birth = yes
@@ -1532,7 +1532,7 @@
 	name = "Simeoni"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145699
 	1156.1.1 = {
 		birth = yes
@@ -1546,7 +1546,7 @@
 	name = "Orna"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145700
 	1189.1.1 = {
 		birth = yes
@@ -1560,7 +1560,7 @@
 	name = "Tirsakouni"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145701
 	1218.1.1 = {
 		birth = yes
@@ -1574,7 +1574,7 @@
 	name = "Philotheos"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145702
 	1239.1.1 = {
 		birth = yes
@@ -1588,7 +1588,7 @@
 	name = "Hoasse"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145702
 	1242.1.1 = {
 		birth = yes
@@ -1602,7 +1602,7 @@
 	name = "Markos"
 	dynasty = 1022250
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145704
 	1276.1.1 = {
 		birth = yes
@@ -1616,7 +1616,7 @@
 	name = "Mouses"
 	dynasty = 1022251
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	832.1.1 = {
 		birth = yes
 	}
@@ -1629,7 +1629,7 @@
 	name = "Bartholomaios"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	1039.1.1 = {
 		birth = yes
 	}
@@ -1642,7 +1642,7 @@
 	name = "Mena"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145707
 	1072.1.1 = {
 		birth = yes
@@ -1656,7 +1656,7 @@
 	name = "Menankouda"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145708
 	1107.1.1 = {
 		birth = yes
@@ -1670,7 +1670,7 @@
 	name = "Epimachos"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145709
 	1144.1.1 = {
 		birth = yes
@@ -1684,7 +1684,7 @@
 	name = "Sergios"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145710
 	1170.1.1 = {
 		birth = yes
@@ -1698,7 +1698,7 @@
 	name = "Hoassi"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145711
 	1217.1.1 = {
 		birth = yes
@@ -1712,7 +1712,7 @@
 	name = "Petrou"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145712
 	1245.1.1 = {
 		birth = yes
@@ -1726,7 +1726,7 @@
 	name = "Raphael"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145713
 	1270.1.1 = {
 		birth = yes
@@ -1740,7 +1740,7 @@
 	name = "Stephanou"
 	dynasty = 1022252
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145714
 	1301.1.1 = {
 		birth = yes
@@ -1754,7 +1754,7 @@
 	name = "Mouses"
 	dynasty = 1022253
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	850.1.1 = {
 		birth = yes
 	}
@@ -1767,7 +1767,7 @@
 	name = "Bartholomaios"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	1044.1.1 = {
 		birth = yes
 	}
@@ -1780,7 +1780,7 @@
 	name = "Mena"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145717
 	1080.1.1 = {
 		birth = yes
@@ -1794,7 +1794,7 @@
 	name = "Menankouda"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145718
 	1102.1.1 = {
 		birth = yes
@@ -1808,7 +1808,7 @@
 	name = "Epimachos"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145719
 	1137.1.1 = {
 		birth = yes
@@ -1822,7 +1822,7 @@
 	name = "Sergios"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145720
 	1165.1.1 = {
 		birth = yes
@@ -1836,7 +1836,7 @@
 	name = "Hoassi"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145721
 	1205.1.1 = {
 		birth = yes
@@ -1850,7 +1850,7 @@
 	name = "Petrou"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145722
 	1249.1.1 = {
 		birth = yes
@@ -1864,7 +1864,7 @@
 	name = "Raphael"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145723
 	1274.1.1 = {
 		birth = yes
@@ -1878,7 +1878,7 @@
 	name = "Stephanou"
 	dynasty = 1022254
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145724
 	1303.1.1 = {
 		birth = yes
@@ -1892,7 +1892,7 @@
 	name = "Senouthios"
 	dynasty = 1022255
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	842.1.1 = {
 		birth = yes
 	}
@@ -1905,7 +1905,7 @@
 	name = "Patrikios"
 	dynasty = 1022256
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	1047.1.1 = {
 		birth = yes
 	}
@@ -1918,7 +1918,7 @@
 	name = "Leon"
 	dynasty = 1022256
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145727
 	1083.1.1 = {
 		birth = yes
@@ -1932,7 +1932,7 @@
 	name = "Kollouthos"
 	dynasty = 1022256
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145728
 	1118.1.1 = {
 		birth = yes
@@ -1946,7 +1946,7 @@
 	name = "Samson"
 	dynasty = 1022256
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145729
 	1160.1.1 = {
 		birth = yes
@@ -1960,7 +1960,7 @@
 	name = "Marianos"
 	dynasty = 1022256
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145730
 	1199.1.1 = {
 		birth = yes
@@ -1974,7 +1974,7 @@
 	name = "Eliezer"
 	dynasty = 1022256
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 145731
 	1231.1.1 = {
 		birth = yes
@@ -1988,7 +1988,7 @@
 	name = "Sentiko"
 	dynasty = 1022256
 	religion = sunni
-	culture = nubian
+	culture = beja
 	father = 145731
 	1233.1.1 = {
 		birth = yes
@@ -2002,7 +2002,7 @@
 	name = "Sotinkouda"
 	dynasty = 1022256
 	religion = sunni
-	culture = nubian
+	culture = beja
 	father = 145733
 	1261.1.1 = {
 		birth = yes
@@ -2016,7 +2016,7 @@
 	name = "Dauid"
 	dynasty = 1022256
 	religion = sunni
-	culture = nubian
+	culture = beja
 	father = 145734
 	1295.1.1 = {
 		birth = yes
@@ -2030,7 +2030,7 @@
 	name = "Kuriakos"
 	dynasty = 1022349
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	740.1.1 = {
 		birth = yes
 	}
@@ -2043,7 +2043,7 @@
 	name = "Maththias"
 	dynasty = 1022350
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	750.1.1 = {
 		birth = yes
 	}
@@ -2056,7 +2056,7 @@
 	name = "Papasinen"
 	dynasty = 1022351
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	742.1.1 = {
 		birth = yes
 	}
@@ -2069,7 +2069,7 @@
 	name = "Soizuros"
 	dynasty = 1022352
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	748.1.1 = {
 		birth = yes
 	}
@@ -2082,7 +2082,7 @@
 	name = "Thoma"
 	dynasty = 1022353
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	744.1.1 = {
 		birth = yes
 	}
@@ -2095,7 +2095,7 @@
 	name = "Panigiros"
 	dynasty = 1022354
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	746.1.1 = {
 		birth = yes
 	}
@@ -2108,7 +2108,7 @@
 	name = "Kurillos"
 	dynasty = 1062453
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	860.1.1 = {
 		birth = yes
 	}
@@ -2121,7 +2121,7 @@
 	name = "Krisanthos"
 	dynasty = 1062453
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260879
 	885.1.1 = {
 		birth = yes
@@ -2135,7 +2135,7 @@
 	name = "Gabriel"
 	dynasty = 1062453
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260880
 	908.1.1 = {
 		birth = yes
@@ -2149,7 +2149,7 @@
 	name = "Mena"
 	dynasty = 1062453
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260881
 	932.1.1 = {
 		birth = yes
@@ -2163,7 +2163,7 @@
 	name = "Philemon"
 	dynasty = 1062453
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260879
 	888.1.1 = {
 		birth = yes
@@ -2177,7 +2177,7 @@
 	name = "Merkourios"
 	dynasty = 1062453
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260883
 	920.1.1 = {
 		birth = yes
@@ -2191,7 +2191,7 @@
 	name = "Samson"
 	dynasty = 1062454
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	873.1.1 = {
 		birth = yes
 	}
@@ -2204,7 +2204,7 @@
 	name = "Lazaros"
 	dynasty = 1062454
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260885
 	905.1.1 = {
 		birth = yes
@@ -2218,7 +2218,7 @@
 	name = "Orna"
 	dynasty = 1062454
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260886
 	928.1.1 = {
 		birth = yes
@@ -2232,7 +2232,7 @@
 	name = "Petros"
 	dynasty = 1062455
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	882.1.1 = {
 		birth = yes
 	}
@@ -2245,7 +2245,7 @@
 	name = "Simeoni"
 	dynasty = 1062455
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260888
 	913.1.1 = {
 		birth = yes
@@ -2259,7 +2259,7 @@
 	name = "Thadeosi"
 	dynasty = 1062456
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	897.1.1 = {
 		birth = yes
 	}
@@ -2272,7 +2272,7 @@
 	name = "Zacharias"
 	dynasty = 1062456
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260890
 	919.1.1 = {
 		birth = yes
@@ -2286,7 +2286,7 @@
 	name = "Mathtias"
 	dynasty = 1062457
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	869.1.1 = {
 		birth = yes
 	}
@@ -2300,7 +2300,7 @@
 	female = yes
 	dynasty = 1062457
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	father = 260892
 	903.1.1 = {
 		birth = yes
@@ -2314,7 +2314,7 @@
 	name = "Soizuros"
 	dynasty = 1062457
 	religion = miaphysite
-	culture = nubian
+	culture = beja
 	mother = 260893
 	923.1.1 = {
 		birth = yes
