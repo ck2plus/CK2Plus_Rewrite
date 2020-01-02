@@ -18,7 +18,7 @@
 	name = "Al-Mustarshid"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 3088
 	trait = sayyid
 	1092.1.1 = {
@@ -33,7 +33,7 @@
 	name = "Al-Rashid"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 144060
 	trait = sayyid
 	1109.1.1 = {
@@ -48,7 +48,7 @@
 	name = "Al-Muqtafi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 3088
 	trait = sayyid
 	1095.1.1 = {
@@ -63,7 +63,7 @@
 	name = "Al-Mustanjid"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 144062
 	trait = sayyid
 	1120.1.1 = {
@@ -78,7 +78,7 @@
 	name = "Al-Mustadi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 144063
 	trait = sayyid
 	1142.1.1 = {
@@ -701,7 +701,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	trait = sayyid
 	trait = proud
 	trait = just
@@ -724,7 +724,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	trait = wroth
 	trait = cynical
 	trait = underhanded_rogue
@@ -747,7 +747,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	trait = deceitful
 	trait = martial_cleric
 	trait = sayyid
@@ -769,7 +769,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	trait = scholarly_theologian
 	trait = sayyid
 	father = 3082
@@ -790,7 +790,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	trait = martial_cleric
 	trait = sayyid
 	father = 34026
@@ -811,7 +811,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	trait = charitable
 	trait = martial_cleric
 	trait = sayyid
@@ -2208,7 +2208,7 @@
 	dna = beegiscaaad
 	properties = ml0ag0000000
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34000
 	trait = sayyid
 	714.1.1 = {
@@ -2226,7 +2226,7 @@
 	name = "Al-Mahdi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34002
 	mother = 188746
 	trait = sayyid
@@ -2254,7 +2254,7 @@
 	name = "Al-Hadi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34003
 	mother = 216016
 	trait = sayyid
@@ -2270,7 +2270,7 @@
 	name = "Harun al-Rashid"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34003
 	mother = 216016
 	trait = sayyid
@@ -2286,7 +2286,7 @@
 	name = "Al-Amin"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34005
 	trait = sayyid
 	787.1.1 = {
@@ -2301,7 +2301,7 @@
 	name = "Al-Ma'mum"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34005
 	trait = sayyid
 	786.9.13 = {
@@ -2316,7 +2316,7 @@
 	name = "Al-Mu'tasim"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34005
 	trait = sayyid
 	794.1.1 = {
@@ -2331,7 +2331,7 @@
 	name = "Al-Wathiq"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34008
 	trait = sayyid
 	817.1.1 = {
@@ -2346,7 +2346,7 @@
 	name = "Al-Mutawakkil"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34008
 	trait = sayyid
 	821.3.1 = {
@@ -2364,7 +2364,7 @@
 	name = "Muhammad"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34008
 	trait = sayyid
 	823.1.1 = {
@@ -2379,7 +2379,7 @@
 	name = "Al-Muntasir"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34010
 	trait = sayyid
 	840.1.1 = {
@@ -2397,7 +2397,7 @@
 	name = "Al-Musta'in"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34011
 	trait = sayyid
 	840.1.1 = {
@@ -2417,7 +2417,7 @@
 	dna = csdeypeevjm
 	properties = eo0bb0000000
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34010
 	trait = sayyid
 	trait = cruel
@@ -2450,7 +2450,7 @@
 	name = "Al-Muhtadi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34009
 	trait = sayyid
 	833.1.1 = {
@@ -2465,7 +2465,7 @@
 	name = "Al-Mu'tamid"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34010
 	trait = sayyid
 	trait = just
@@ -2485,7 +2485,7 @@
 	name = "Al-Muwaffak"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34010
 	trait = sayyid
 	840.1.1 = {
@@ -2500,7 +2500,7 @@
 	name = "Al-Mu'tadid"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34017
 	trait = sayyid
 	857.1.1 = {
@@ -2515,7 +2515,7 @@
 	name = "Al-Muktafi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34018
 	trait = sayyid
 	880.1.1 = {
@@ -2530,7 +2530,7 @@
 	name = "Al-Qahir"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34018
 	trait = sayyid
 	899.1.1 = {
@@ -2545,7 +2545,7 @@
 	name = "Al-Muqtadir"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34018
 	trait = sayyid
 	895.1.1 = {
@@ -2560,7 +2560,7 @@
 	name = "Ar-Radi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34021
 	trait = sayyid
 	912.1.1 = {
@@ -2575,7 +2575,7 @@
 	name = "Al-Muttaqi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34021
 	trait = sayyid
 	915.1.1 = {
@@ -2590,7 +2590,7 @@
 	name = "Al-Mustakfi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34019
 	trait = sayyid
 	900.1.1 = {
@@ -2605,7 +2605,7 @@
 	name = "Al-Muti"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34021
 	trait = sayyid
 	916.1.1 = {
@@ -2621,7 +2621,7 @@
 	#Muhammad Dhakirat
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 3084
 	trait = sayyid
 	1035.1.1 = {
@@ -2636,7 +2636,7 @@
 	name = "Az-Zahir"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 227000
 	trait = sayyid
 	1176.1.1 = {
@@ -2651,7 +2651,7 @@
 	name = "Al-Mustansir"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34027
 	trait = sayyid
 	1192.1.1 = {
@@ -2666,7 +2666,7 @@
 	name = "Al-Musta'sim"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34028
 	trait = sayyid
 	1213.1.1 = {
@@ -2681,7 +2681,7 @@
 	name = "Abu-Bakr"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 144060
 	trait = sayyid
 	1120.1.1 = {
@@ -2696,7 +2696,7 @@
 	name = "Al-Hasan"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34030
 	trait = sayyid
 	1165.1.1 = {
@@ -2711,7 +2711,7 @@
 	name = "Al-Mustansir"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34031
 	trait = sayyid
 	1205.1.1 = {
@@ -2726,7 +2726,7 @@
 	name = "Al-Hakim"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34032
 	trait = sayyid
 	1240.1.1 = {
@@ -2741,7 +2741,7 @@
 	name = "Al-Mustakfi"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34033
 	trait = sayyid
 	1285.1.1 = {
@@ -2756,7 +2756,7 @@
 	name = "Ahmad"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34033
 	trait = sayyid
 	1290.1.1 = {
@@ -2771,7 +2771,7 @@
 	name = "Al-Wathiq"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34035
 	trait = sayyid
 	1310.1.1 = {
@@ -2786,7 +2786,7 @@
 	name = "Al-Hakim"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34034
 	trait = sayyid
 	1302.1.1 = {
@@ -2801,7 +2801,7 @@
 	name = "Al-Mu'tadid"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34034
 	trait = sayyid
 	1305.1.1 = {
@@ -2816,7 +2816,7 @@
 	name = "Al-Mutawakkil"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 34038
 	trait = sayyid
 	1335.1.1 = {
@@ -11654,7 +11654,7 @@
 	name = "Al-Fadl"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 146060
 	trait = sayyid
 	740.1.1 = {
@@ -11669,7 +11669,7 @@
 	name = "Ibrahim"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 146060
 	trait = sayyid
 	742.1.1 = {
@@ -11684,7 +11684,7 @@
 	name = "Abd al-Malik"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 146060
 	trait = sayyid
 	750.1.1 = {
@@ -11699,7 +11699,7 @@
 	name = "Abdallah"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 146060
 	trait = sayyid
 	755.1.1 = {
@@ -11714,7 +11714,7 @@
 	name = "Abd ar-Rahman"
 	dynasty = 101727
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 146064
 	trait = sayyid
 	768.1.1 = {
@@ -15711,7 +15711,7 @@
 	name = "Muhammad"
 	dynasty = 1062487
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	father = 261005
 	901.1.1 = {
 		birth = yes
@@ -15725,7 +15725,7 @@
 	name = "Ali Muhammad"
 	dynasty = 1062490
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	885.1.1 = {
 		birth = yes
 	}
@@ -15738,7 +15738,7 @@
 	name = "Abu Abdallah"
 	dynasty = 1062491
 	religion = sunni
-	culture = bedouin_arabic
+	culture = iraqi
 	905.1.1 = {
 		birth = yes
 	}
