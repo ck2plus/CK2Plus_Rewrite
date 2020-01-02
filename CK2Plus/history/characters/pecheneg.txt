@@ -942,7 +942,7 @@
 	name = "Kostas" # fictional
 	dynasty = 1042052
 	religion = manichean
-	culture = pecheneg
+	culture = kipchak
 	father = 188814
 	trait = sympathy_pagans
 	742.1.1 = {
@@ -1089,7 +1089,7 @@
 	name = "Karaca" # fictional founder of Haravoi clan
 	dynasty = 1042051
 	religion = tengri_pagan
-	culture = pecheneg
+	culture = kipchak
 	trait = sympathy_zoroastrianism
 	724.1.1 = {
 		birth = yes
@@ -1214,7 +1214,7 @@
 	name = "Tatus"
 	dynasty = 1100005
 	religion = tengri_pagan
-	culture = pecheneg
+	culture = bashkir
 	846.1.1 = {
 		birth = yes
 	}
@@ -1227,7 +1227,7 @@
 	name = "Bülär"
 	dynasty = 1100008
 	religion = tengri_pagan
-	culture = pecheneg
+	culture = bashkir
 	744.1.1 = {
 		birth = yes
 	}
@@ -1240,7 +1240,7 @@
 	name = "Yänäy"
 	dynasty = 1100009
 	religion = tengri_pagan
-	culture = pecheneg
+	culture = bashkir
 	736.1.1 = {
 		birth = yes
 	}
@@ -1266,7 +1266,7 @@
 	name = "Kostas"
 	dynasty = 1100012
 	religion = tengri_pagan
-	culture = pecheneg
+	culture = cuman
 	738.1.1 = {
 		birth = yes
 	}

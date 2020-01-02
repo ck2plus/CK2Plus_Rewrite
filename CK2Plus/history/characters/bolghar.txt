@@ -1828,7 +1828,7 @@
 	name = "Taridin"
 	dynasty = 1029159
 	religion = tengri_pagan
-	culture = pecheneg # bashkiri
+	culture = bashkir
 	735.1.1 = {
 		birth = yes
 	}
@@ -1841,7 +1841,7 @@
 	name = "Oshi"
 	dynasty = 1029159
 	religion = tengri_pagan
-	culture = pecheneg # bashkiri
+	culture = bashkir
 	father = 188789
 	754.1.1 = {
 		birth = yes
@@ -1856,7 +1856,7 @@
 	female = yes
 	dynasty = 1029159
 	religion = tengri_pagan
-	culture = pecheneg # bashkiri
+	culture = bashkir
 	father = 188789
 	755.1.1 = {
 		birth = yes
@@ -2046,7 +2046,7 @@
 	name = "Kormesiy"
 	dynasty = 1100018
 	religion = sunni
-	culture = bolghar
+	culture = bashkir
 	1035.1.1 = {
 		birth = yes
 	}
@@ -2073,7 +2073,7 @@
 	name = "Isbul"
 	dynasty = 1062331
 	religion = tengri_pagan
-	culture = bolghar
+	culture = bashkir
 	902.1.1 = {
 		birth = yes
 	}
