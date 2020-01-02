@@ -1895,7 +1895,7 @@
 	name = "Çilbu"
 	#placeholder
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	1160.1.1 = {
 		birth = yes
 	}
@@ -1922,7 +1922,7 @@
 	name = Sirçan
 	dynasty = 851 # Turgay
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	825.1.1 = {
 		birth = yes
 	}
@@ -1935,7 +1935,7 @@
 	name = Koza
 	dynasty = 851 # Turgay
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 34870
 	845.1.1 = {
 		birth = yes
@@ -1950,7 +1950,7 @@
 	female = yes
 	dynasty = 851 # Turgay
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 34870
 	847.1.1 = {
 		birth = yes
@@ -1964,7 +1964,7 @@
 	name = Kutan 	#placeholder
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 188782
 	824.1.1 = {
 		birth = yes
@@ -2340,7 +2340,7 @@
 	name = "Sirçan"
 	dynasty = 1045110
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	1030.1.1 = {
 		birth = yes
 	}
@@ -2382,7 +2382,7 @@
 	name = "Etrek"
 	#placeholder
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	1075.1.1 = {
 		birth = yes
 	}
@@ -2395,7 +2395,7 @@
 	name = "Uzur"
 	#placeholder
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	1105.1.1 = {
 		birth = yes
 	}
@@ -2408,7 +2408,7 @@
 	name = "Begluk"
 	#placeholder
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	1140.1.1 = {
 		birth = yes
 	}
@@ -2421,7 +2421,7 @@
 	name = "Çilbu"
 	#placeholder
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	1170.1.1 = {
 		birth = yes
 	}
@@ -2632,7 +2632,7 @@
 	#placeholder
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	1030.1.1 = {
 		birth = yes
 	}
@@ -2645,7 +2645,7 @@
 	name = "Gzi"
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 161730
 	1048.1.1 = {
 		birth = yes
@@ -2660,7 +2660,7 @@
 	female = yes
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 161730
 	1050.1.1 = {
 		birth = yes
@@ -2675,7 +2675,7 @@
 	#placeholder
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 161730
 	1080.1.1 = {
 		birth = yes
@@ -2690,7 +2690,7 @@
 	#placeholder
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 161731
 	1110.1.1 = {
 		birth = yes
@@ -2705,7 +2705,7 @@
 	#placeholder
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 161732
 	1140.1.1 = {
 		birth = yes
@@ -2720,7 +2720,7 @@
 	#placeholder
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 161733
 	1160.1.1 = {
 		birth = yes
@@ -2735,7 +2735,7 @@
 	name = "Kozel"
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 161734
 	1180.1.1 = {
 		birth = yes
@@ -2749,7 +2749,7 @@
 	name = "Tugor"
 	dynasty = 1051133
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 161735
 	1209.1.1 = {
 		birth = yes
@@ -3078,7 +3078,7 @@
 	name = "Törtogul" # fictional
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	720.1.1 = {
 		birth = yes
 	}
@@ -3091,7 +3091,7 @@
 	name = "Ituk" # fictional
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 188779
 	745.1.1 = {
 		birth = yes
@@ -3105,7 +3105,7 @@
 	name = "Ituk" # fictional
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 188780
 	770.1.1 = {
 		birth = yes
@@ -3119,7 +3119,7 @@
 	name = "Itlar" # fictional
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 188781
 	800.1.1 = {
 		birth = yes
@@ -3189,7 +3189,7 @@
 	name = "Bonyak" # fictional
 	dynasty = 1042195
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	728.1.1 = {
 		birth = yes
 	}
@@ -3203,7 +3203,7 @@
 	dynasty = 1042195
 	father = 188800
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	755.1.1 = {
 		birth = yes
 	}
@@ -3217,7 +3217,7 @@
 	dynasty = 1042195
 	father = 188800
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	750.1.1 = {
 		birth = yes
 	}
@@ -3232,7 +3232,7 @@
 	dynasty = 1042195
 	father = 188800
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	752.1.1 = {
 		birth = yes
 	}
@@ -3286,7 +3286,7 @@
 	name = "Sotan"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 34871
 	850.1.1 = {
 		birth = yes
@@ -3300,7 +3300,7 @@
 	name = "Kobyak"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194205
 	880.1.1 = {
 		birth = yes
@@ -3314,7 +3314,7 @@
 	name = "Uzluk"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194206
 	900.1.1 = {
 		birth = yes
@@ -3328,7 +3328,7 @@
 	name = "Sotan"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194207
 	920.1.1 = {
 		birth = yes
@@ -3342,7 +3342,7 @@
 	name = "Bönek"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194208
 	960.1.1 = {
 		birth = yes
@@ -3356,7 +3356,7 @@
 	name = "Uzluk"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194209
 	990.1.1 = {
 		birth = yes
@@ -3370,7 +3370,7 @@
 	name = "Kutan"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194210
 	1025.1.1 = {
 		birth = yes
@@ -3384,7 +3384,7 @@
 	name = "Koza"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194211
 	1045.1.1 = {
 		birth = yes
@@ -3399,7 +3399,7 @@
 	female = yes
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194211
 	1047.1.1 = {
 		birth = yes
@@ -3413,7 +3413,7 @@
 	name = "Togli"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194212
 	1080.1.1 = {
 		birth = yes
@@ -3427,7 +3427,7 @@
 	name = "Asalup"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194213
 	1112.1.1 = {
 		birth = yes
@@ -3441,7 +3441,7 @@
 	name = "Çilbu"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194214
 	1140.1.1 = {
 		birth = yes
@@ -3455,7 +3455,7 @@
 	name = "Kubasar"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194215
 	1180.1.1 = {
 		birth = yes
@@ -3469,7 +3469,7 @@
 	name = "Sugr"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194216
 	1200.1.1 = {
 		birth = yes
@@ -3484,7 +3484,7 @@
 	female = yes
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194216
 	1203.1.1 = {
 		birth = yes
@@ -3498,7 +3498,7 @@
 	name = "Bonyak"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194217
 	1250.1.1 = {
 		birth = yes
@@ -3512,7 +3512,7 @@
 	name = "Etrek"
 	dynasty = 852 # Kimak
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	father = 194218
 	1290.1.1 = {
 		birth = yes
@@ -3537,7 +3537,7 @@
 260095 = {
 	name = "Bachman"
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	1160.1.1 = {
 		birth = yes
 	}
@@ -3589,7 +3589,7 @@
 	name = "Togli"
 	dynasty = 1062508
 	religion = manichean
-	culture = cuman
+	culture = kipchak
 	908.1.1 = {
 		birth = yes
 	}
@@ -3641,7 +3641,7 @@
 	name = "Kubasar"
 	dynasty = 1062512
 	religion = tengri_pagan
-	culture = cuman
+	culture = kipchak
 	889.1.1 = {
 		birth = yes
 	}

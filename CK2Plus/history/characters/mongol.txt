@@ -857,7 +857,7 @@
 	name = "Tinibeg"
 	dynasty = 11100
 	religion = sunni
-	culture = mongol
+	culture = tatar
 	father = 480000
 	1320.1.2 = {
 		birth = yes
@@ -871,7 +871,7 @@
 	name = "Janibeg"
 	dynasty = 11100
 	religion = sunni
-	culture = mongol
+	culture = tatar
 	father = 480000
 	1322.1.2 = {
 		birth = yes
@@ -2101,6 +2101,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1341.1.1 = {
 		death = yes
 	}
@@ -2219,6 +2222,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1325.1.1 = {
 		death = yes
 	}
@@ -2278,6 +2284,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1330.1.1 = {
 		death = yes
 	}
@@ -2335,6 +2344,9 @@
 	}
 	1313.1.1 = {
 		religion = sunni
+	}
+	1315.1.1 = {
+		culture = tatar
 	}
 	1330.1.1 = {
 		death = yes
@@ -2446,6 +2458,9 @@
 	}
 	1313.1.1 = {
 		religion = sunni
+	}
+	1315.1.1 = {
+		culture = tatar
 	}
 	1337.1.1 = {
 		death = yes
@@ -2624,6 +2639,9 @@
 	}
 	1313.1.1 = {
 		religion = sunni
+	}
+	1315.1.1 = {
+		culture = tatar
 	}
 	1340.1.1 = {
 		death = yes
@@ -2836,6 +2854,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1340.1.1 = {
 		death = yes
 	}
@@ -2883,6 +2904,9 @@
 	}
 	1313.1.1 = {
 		religion = sunni
+	}
+	1315.1.1 = {
+		culture = tatar
 	}
 	1340.1.1 = {
 		death = yes
@@ -2973,6 +2997,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1320.1.1 = {
 		death = yes
 	}
@@ -2990,6 +3017,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1344.1.1 = {
 		death = yes
 	}
@@ -2999,7 +3029,7 @@
 	name = "Chimtai"
 	dynasty = 11100
 	religion = sunni
-	culture = mongol
+	culture = tatar
 	father = 34916
 	1315.1.1 = {
 		birth = yes
@@ -3261,6 +3291,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1320.1.1 = {
 		death = yes
 	}
@@ -3276,6 +3309,9 @@
 	}
 	1313.1.1 = {
 		religion = sunni
+	}
+	1315.1.1 = {
+		culture = tatar
 	}
 	1350.1.1 = {
 		death = yes
@@ -3333,6 +3369,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1320.1.1 = {
 		death = yes
 	}
@@ -3348,6 +3387,9 @@
 	}
 	1313.1.1 = {
 		religion = sunni
+	}
+	1315.1.1 = {
+		culture = tatar
 	}
 	1350.1.1 = {
 		death = yes
@@ -3379,6 +3421,9 @@
 	1313.1.1 = {
 		religion = sunni
 	}
+	1315.1.1 = {
+		culture = tatar
+	}
 	1320.1.1 = {
 		death = yes
 	}
@@ -3394,6 +3439,9 @@
 	}
 	1313.1.1 = {
 		religion = sunni
+	}
+	1315.1.1 = {
+		culture = tatar
 	}
 	1350.1.1 = {
 		death = yes
