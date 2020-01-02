@@ -1,7 +1,7 @@
 6828 = {
 	name = "Miemo"
 	religion = finnish_pagan
-	culture = finnish
+	culture = vepsian
 	dynasty = 1029143
 	trait = content
 	father = 194130
@@ -282,7 +282,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = finnish_pagan
-	culture = finnish
+	culture = vepsian
 	trait = greedy
 	trait = proud
 	trait = tough_soldier
@@ -512,7 +512,7 @@
 159715 = {
 	name = "Karhu"
 	religion = finnish_pagan
-	culture = finnish
+	culture = vepsian
 	dynasty = 1029144
 	trait = tough_soldier
 	father = 194127
