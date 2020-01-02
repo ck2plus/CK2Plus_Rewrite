@@ -42,7 +42,7 @@
 	name = "Tushtya"
 	dynasty = 1053016
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	839.1.1 = {
 		birth = yes
 	}
@@ -128,7 +128,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	trait = envious
 	trait = amateurish_plotter
 	1039.1.1 = {
@@ -147,7 +147,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	trait = stutter
 	trait = scholarly_theologian
 	1039.1.1 = {
@@ -255,7 +255,7 @@
 159712 = {
 	name = "Purysho"
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	dynasty = 1029108
 	father = 160114
 	842.1.1 = {
@@ -269,7 +269,7 @@
 159713 = {
 	name = "Kezhevat"
 	religion = finnish_pagan
-	culture = mordvin
+	culture = vepsian
 	dynasty = 1029107
 	father = 159711
 	838.1.1 = {
@@ -545,7 +545,7 @@
 	name = "Surt"
 	dynasty = 1029107
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	733.1.1 = {
 		birth = yes
 	}
@@ -558,7 +558,7 @@
 	name = "Kardaz"
 	dynasty = 1029107
 	religion = finnish_pagan
-	culture = mordvin
+	culture = vepsian
 	father = 194150
 	770.1.1 = {
 		birth = yes
@@ -667,7 +667,7 @@
 	name = "Paksyut"
 	dynasty = 1045026
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	733.1.1 = {
 		birth = yes
 	}
@@ -680,7 +680,7 @@
 	name = "Chipaz"
 	dynasty = 1045026
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	father = 194162
 	770.1.1 = {
 		birth = yes
@@ -694,7 +694,7 @@
 	name = "Azyren"
 	dynasty = 1045026
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	father = 194163
 	810.1.1 = {
 		birth = yes
@@ -736,7 +736,7 @@
 	name = Dergun
 	dynasty = 1061058	#Chudivid
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	1033.1.1 = {
 		birth = yes
 	}
@@ -941,7 +941,7 @@
 	name = "Atyamas"
 	dynasty = 1062382
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	904.1.1 = {
 		birth = yes
 	}
@@ -967,7 +967,7 @@
 	name = "Paksyut"
 	dynasty = 1062395
 	religion = finnish_pagan
-	culture = mordvin
+	culture = mari
 	912.1.1 = {
 		birth = yes
 	}
