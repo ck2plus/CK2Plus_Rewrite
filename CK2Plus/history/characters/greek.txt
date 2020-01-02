@@ -401,6 +401,9 @@
 	1236.1.1 = {
 		birth = yes
 	}
+	1265.1.1 = {
+		culture = pontic_greek
+	}
 	1267.3.4 = {
 		death = yes
 	}
@@ -417,6 +420,9 @@
 	 1250.1.1 = {
 		  birth = yes
 	}
+	1265.1.1 = {
+		culture = pontic_greek
+	}
 	 1303.1.1 = {
 		  death = yes
 	}
@@ -431,6 +437,9 @@
 	mother = 145079
 	1255.1.1 = {
 		birth = yes
+	}
+	1265.1.1 = {
+		culture = pontic_greek
 	}
 	1284.1.1 = {
 		death = yes
@@ -448,6 +457,9 @@
 	1258.1.1 = {
 		birth = yes
 	}
+	1265.1.1 = {
+		culture = pontic_greek
+	}
 	1300.1.1 = {
 		death = yes
 	}
@@ -457,7 +469,7 @@
 	 name = "Andronikos"
 	 dynasty = 634
 	 religion = orthodox
-	 culture = greek
+	 culture = pontic_greek
 	 father = 465810
 	 mother = 466751
 	 1310.1.1 = {
@@ -7153,7 +7165,7 @@
 	}
 	1305.1.1 = {
 		name = "Teodoro"
-		culture = italian
+		culture = lombard
 		religion = catholic
 	}
 	1311.1.1 = {
@@ -7674,7 +7686,7 @@
 	name = "Basileios"
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	father = 465810
 	mother = 466751
 	1312.1.2 = {
@@ -7692,7 +7704,7 @@
 	name = "Alexios"
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	father = 465800
 	mother = 465802
 	trait = bastard
@@ -7708,7 +7720,7 @@
 	name = "Eirene"
 	female = yes
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	trait = lustful
 	trait = cynical
 	trait = amateurish_plotter
@@ -7725,7 +7737,7 @@
 	female = yes
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	father = 465800
 	mother = 465802
 	trait = bastard
@@ -7742,7 +7754,7 @@
 	female = yes
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	trait = bastard
 	father = 465800
 	mother = 465802
@@ -7758,7 +7770,7 @@
 	name = "Ioannes"
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	father = 125720
 	mother = 145079
 	1262.1.2 = {
@@ -7794,7 +7806,7 @@
 	# AKA: Mikhael
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	father = 465805
 	mother = 465806
 	1285.1.2 = {
@@ -7833,7 +7845,7 @@
 	name = "Ioannes"
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	father = 465807
 	mother = 465808
 	1322.1.2 = {
@@ -7848,7 +7860,7 @@
 	name = "Alexios"
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	father = 465805
 	mother = 465806
 	1282.12.2 = {
@@ -7868,7 +7880,7 @@
 	female = yes
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	trait = detached_priest
 	father = 465810
 	mother = 466751
@@ -7886,7 +7898,7 @@
 	female = yes
 	dynasty = 634
 	religion = orthodox
-	culture = greek
+	culture = pontic_greek
 	father = 465810
 	mother = 466751
 	1318.1.2 = {
