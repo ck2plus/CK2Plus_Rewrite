@@ -3670,7 +3670,7 @@
 	name = "Shihna"
 	dynasty = 7345
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	father = 93320
 	1045.1.1 = {
 		birth = yes
@@ -3684,7 +3684,7 @@
 	name = "Yusuf"
 	dynasty = 7346
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	1060.1.1 = {
 		birth = yes
 	}
@@ -3724,7 +3724,7 @@
 	name = "Ali"
 	dynasty = 7350
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	1210.1.1 = {
 		birth = yes
 	}
@@ -3737,7 +3737,7 @@
 	name = "Aladdin"
 	dynasty = 7351
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	1225.1.1 = {
 		birth = yes
 	}
@@ -3751,7 +3751,7 @@
 	#placeholder
 	dynasty = 101058
 	religion = shiite
-	culture = levantine_arabic
+	culture = iraqi
 	father = 20671
 	1060.1.1 = {
 		birth = yes
@@ -3766,7 +3766,7 @@
 	#placeholder
 	dynasty = 101058
 	religion = shiite
-	culture = levantine_arabic
+	culture = iraqi
 	father = 93331
 	1100.1.1 = {
 		birth = yes
@@ -3781,7 +3781,7 @@
 	#placeholder
 	dynasty = 101058
 	religion = shiite
-	culture = levantine_arabic
+	culture = iraqi
 	father = 93332
 	1140.1.1 = {
 		birth = yes
@@ -3796,7 +3796,7 @@
 	#placeholder
 	dynasty = 101058
 	religion = shiite
-	culture = levantine_arabic
+	culture = iraqi
 	father = 93333
 	1180.1.1 = {
 		birth = yes
@@ -3811,7 +3811,7 @@
 	#placeholder
 	dynasty = 101058
 	religion = shiite
-	culture = levantine_arabic
+	culture = iraqi
 	father = 93334
 	1220.1.1 = {
 		birth = yes
@@ -3826,7 +3826,7 @@
 	#placeholder
 	dynasty = 101058
 	religion = shiite
-	culture = levantine_arabic
+	culture = iraqi
 	father = 93335
 	1260.1.1 = {
 		birth = yes
@@ -3841,7 +3841,7 @@
 	#placeholder
 	dynasty = 101058
 	religion = shiite
-	culture = levantine_arabic
+	culture = iraqi
 	father = 93336
 	1300.1.1 = {
 		birth = yes
@@ -4171,7 +4171,7 @@
 	#placeholder
 	dynasty = 101033
 	religion = sunni
-	culture = levantine_arabic
+	culture = bedouin_arabic
 	father = 20794
 	1060.1.1 = {
 		birth = yes
@@ -4186,7 +4186,7 @@
 	#placeholder
 	dynasty = 101033
 	religion = sunni
-	culture = levantine_arabic
+	culture = bedouin_arabic
 	father = 93359
 	1100.1.1 = {
 		birth = yes
@@ -4201,7 +4201,7 @@
 	#placeholder
 	dynasty = 101033
 	religion = sunni
-	culture = levantine_arabic
+	culture = bedouin_arabic
 	father = 93360
 	1140.1.1 = {
 		birth = yes
@@ -4216,7 +4216,7 @@
 	#placeholder
 	dynasty = 101033
 	religion = sunni
-	culture = levantine_arabic
+	culture = bedouin_arabic
 	father = 93361
 	1180.1.1 = {
 		birth = yes
@@ -4231,7 +4231,7 @@
 	#placeholder
 	dynasty = 101033
 	religion = sunni
-	culture = levantine_arabic
+	culture = bedouin_arabic
 	father = 93362
 	1220.1.1 = {
 		birth = yes
@@ -4246,7 +4246,7 @@
 	#placeholder
 	dynasty = 101033
 	religion = sunni
-	culture = levantine_arabic
+	culture = bedouin_arabic
 	father = 93363
 	1260.1.1 = {
 		birth = yes
@@ -4261,7 +4261,7 @@
 	#placeholder
 	dynasty = 101033
 	religion = sunni
-	culture = levantine_arabic
+	culture = bedouin_arabic
 	father = 93364
 	1300.1.1 = {
 		birth = yes
@@ -4636,7 +4636,7 @@
 	#placeholder
 	dynasty = 101019
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	father = 20728
 	1060.1.1 = {
 		birth = yes
@@ -4651,7 +4651,7 @@
 	#placeholder
 	dynasty = 101019
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	father = 93391
 	1100.1.1 = {
 		birth = yes
@@ -8442,7 +8442,7 @@
 	name = Imran # historical
 	dynasty = 1062611
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	trait = skilled_tactician
 	trait = peasant_leader
 	trait = narrow_flank_leader
@@ -8478,7 +8478,7 @@
 	name = Hasan # historical
 	dynasty = 1062611
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	trait = tough_soldier
 	trait = strong
 	father = 261336
@@ -8494,7 +8494,7 @@
 	name = Muhammad # historical
 	dynasty = 1062611
 	religion = sunni
-	culture = levantine_arabic
+	culture = iraqi
 	father = 261336
 	936.1.1 = {
 		birth = yes # maybe
