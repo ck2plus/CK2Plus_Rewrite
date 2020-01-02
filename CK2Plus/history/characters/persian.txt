@@ -368,7 +368,7 @@
 	trait = thrifty_clerk
 	trait = charitable
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	897.7.19 = {
 		birth = yes
 	}
@@ -388,7 +388,7 @@
 	trait = tough_soldier
 	trait = arbitrary
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	901.2.28 = {
 		birth = yes
 	}
@@ -409,7 +409,7 @@
 	trait = charismatic_negotiator
 	trait = just
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	931.9.12 = {
 		birth = yes
 	}
@@ -430,7 +430,7 @@
 	trait = charismatic_negotiator
 	trait = kind
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	934.9.12 = {
 		birth = yes
 	}
@@ -451,7 +451,7 @@
 	trait = charismatic_negotiator
 	trait = honest
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	964.4.20 = {
 		birth = yes
 	}
@@ -471,7 +471,7 @@
 	learning = 1
 	trait = indulgent_wastrel
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	971.8.12 = {
 		birth = yes
 	}
@@ -489,7 +489,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	trait = tough_soldier
 	trait = zealous
 	trait = patient
@@ -637,7 +637,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	trait = thrifty_clerk
 	father = 20704
 	1057.1.1 = {
@@ -934,7 +934,7 @@
 	intrigue = 5
 	stewardship = 7
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	trait = tough_soldier
 	849.1.1 = {
 		birth = yes
@@ -954,7 +954,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	trait = tough_soldier
 	father = 45110
 	830.1.1 = {
@@ -1050,7 +1050,7 @@
 	female = yes
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 45110
 	835.1.1 = {
 		birth = yes
@@ -1065,7 +1065,7 @@
 	dynasty = 7511
 	martial = 7
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	trait = skilled_tactician
 	father = 160296
 	800.1.1 = {
@@ -1776,7 +1776,7 @@
 	name = "Qarin" # Karen II
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 41606
 	1080.1.1 = {
 		birth = yes
@@ -1789,7 +1789,7 @@
 	name = "Rustam" # IV
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 41606
 	1082.1.1 = {
 		birth = yes
@@ -1802,7 +1802,7 @@
 	name = "Ali"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93163
 	1102.1.1 = {
 		birth = yes
@@ -1816,7 +1816,7 @@
 	name = "Ghazi Rustam"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93164
 	1120.1.1 = {
 		birth = yes
@@ -1830,7 +1830,7 @@
 	name = "Hassan"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93165
 	1140.1.1 = {
 		birth = yes
@@ -1844,7 +1844,7 @@
 	name = "Ardashir"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93166
 	1156.1.1 = {
 		birth = yes
@@ -1858,7 +1858,7 @@
 	name = "Ghazi Rustam"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93167
 	1176.1.1 = {
 		birth = yes
@@ -1872,7 +1872,7 @@
 	name = "Ardashir"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93168
 	1192.1.1 = {
 		birth = yes
@@ -1886,7 +1886,7 @@
 	name = "Muhammad"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93169
 	1220.1.1 = {
 		birth = yes
@@ -1899,7 +1899,7 @@
 	name = "Ali"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93170
 	1240.1.1 = {
 		birth = yes
@@ -1913,7 +1913,7 @@
 	name = "Yezdigerd"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93171
 	1258.1.1 = {
 		birth = yes
@@ -1927,7 +1927,7 @@
 	name = "Shariyar"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93172
 	1278.1.1 = {
 		birth = yes
@@ -1941,7 +1941,7 @@
 	name = "Kai-Kushrau"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93173
 	1294.1.1 = {
 		birth = yes
@@ -1955,7 +1955,7 @@
 	name = "Sharaf"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93173
 	1299.1.1 = {
 		birth = yes
@@ -1968,7 +1968,7 @@
 	name = "Hassan"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93173
 	1301.1.1 = {
 		birth = yes
@@ -1981,7 +1981,7 @@
 	name = "Ardashir"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216915
 	1000.1.1 = {
 		birth = yes
@@ -1995,7 +1995,7 @@
 	name = "Namwar"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93177
 	trait = sympathy_zoroastrianism
 	1020.1.1 = {
@@ -2010,7 +2010,7 @@
 	name = "Sharaf"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93178
 	trait = sympathy_zoroastrianism
 	1040.1.1 = {
@@ -2025,7 +2025,7 @@
 	name = "Shariwash"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93179
 	1093.1.1 = {
 		birth = yes
@@ -2039,7 +2039,7 @@
 	name = "Kai-Ka'us"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93180
 	1115.1.1 = {
 		birth = yes
@@ -2053,7 +2053,7 @@
 	name = "Hazarasp"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93181
 	1150.1.1 = {
 		birth = yes
@@ -2067,7 +2067,7 @@
 	name = "Zarin-Kemer"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93182
 	1170.1.1 = {
 		birth = yes
@@ -2081,7 +2081,7 @@
 	name = "Bisutun"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93182
 	1175.1.1 = {
 		birth = yes
@@ -2095,7 +2095,7 @@
 	name = "Namwar"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93184
 	1195.1.1 = {
 		birth = yes
@@ -2109,7 +2109,7 @@
 	name = "Ardashir"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93184
 	1200.1.1 = {
 		birth = yes
@@ -2123,7 +2123,7 @@
 	name = "Rakim Gaubara"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93186
 	1220.1.1 = {
 		birth = yes
@@ -2137,7 +2137,7 @@
 	name = "Namwar"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93187
 	1240.1.1 = {
 		birth = yes
@@ -2151,7 +2151,7 @@
 	name = "Kai-Khusrau"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93188
 	1260.1.1 = {
 		birth = yes
@@ -2165,7 +2165,7 @@
 	name = "Muhammad"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93189
 	1280.1.1 = {
 		birth = yes
@@ -2179,7 +2179,7 @@
 	name = "Shariyar"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93190
 	1296.1.1 = {
 		birth = yes
@@ -2193,7 +2193,7 @@
 	name = "Ziyar"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93190
 	1298.1.1 = {
 		birth = yes
@@ -2207,7 +2207,7 @@
 	name = "Iskandar"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 93192
 	1318.1.1 = {
 		birth = yes
@@ -2908,7 +2908,7 @@
 	name = "Dariush"
 	dynasty = 12273
 
-	culture = persian
+	culture = daylamite
 	religion = zoroastrian
 
 	835.1.1 = {
@@ -2925,7 +2925,7 @@
 
 	father = 74030
 
-	culture = persian
+	culture = daylamite
 	religion = zoroastrian
 
 	862.1.1 = {
@@ -3816,7 +3816,7 @@
 	name = "Afrig"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	280.9.4 = {
 		birth = yes
 	}
@@ -3829,7 +3829,7 @@
 	name = "Bagra"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188580
 	312.1.28 = {
 		birth = yes
@@ -3843,7 +3843,7 @@
 	name = "Sahhasak"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188581
 	337.1.1 = {
 		birth = yes
@@ -3857,7 +3857,7 @@
 	name = "Askajamuk"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188582
 	365.1.1 = {
 		birth = yes
@@ -3871,7 +3871,7 @@
 	name = "Azkajwar"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188583
 	400.1.1 = {
 		birth = yes
@@ -3885,7 +3885,7 @@
 	name = "Sahr"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188584
 	430.1.1 = {
 		birth = yes
@@ -3899,7 +3899,7 @@
 	name = "Shaush"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188585
 	460.1.1 = {
 		birth = yes
@@ -3913,7 +3913,7 @@
 	name = "Hamgari"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188586
 	490.1.1 = {
 		birth = yes
@@ -3927,7 +3927,7 @@
 	name = "Buzgar"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188587
 	520.1.1 = {
 		birth = yes
@@ -3941,7 +3941,7 @@
 	name = "Arsamuh"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188588
 	560.1.1 = {
 		birth = yes
@@ -3955,7 +3955,7 @@
 	name = "Sahr"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188589
 	600.1.1 = {
 		birth = yes
@@ -3969,7 +3969,7 @@
 	name = "Sabri"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188590
 	635.1.1 = {
 		birth = yes
@@ -3983,7 +3983,7 @@
 	name = "Azkajwar"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188591
 	665.1.1 = {
 		birth = yes
@@ -3997,7 +3997,7 @@
 	name = "Askajamuk"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188592
 	690.1.1 = {
 		birth = yes
@@ -4011,7 +4011,7 @@
 	name = "Sawashfan"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188593
 	715.1.1 = {
 		birth = yes
@@ -4025,7 +4025,7 @@
 	name = "Torkasbatha"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188594
 	740.1.1 = {
 		birth = yes
@@ -4039,7 +4039,7 @@
 	name = "Abdallah"
 	dynasty = 1042112 # Afrighid
 	religion = zoroastrian
-	culture = persian
+	culture = khwarazmian
 	father = 188595
 	765.1.1 = {
 		birth = yes
@@ -4056,7 +4056,7 @@
 	name = "Mansur"
 	dynasty = 1042112 # Afrighid
 	religion = sunni
-	culture = persian
+	culture = khwarazmian
 	father = 188596
 	795.1.1 = {
 		birth = yes
@@ -4070,7 +4070,7 @@
 	name = "Eraq"
 	dynasty = 1042112 # Afrighid
 	religion = sunni
-	culture = persian
+	culture = khwarazmian
 	father = 188597
 	825.1.1 = {
 		birth = yes
@@ -4084,7 +4084,7 @@
 	name = "Muhammad"
 	dynasty = 1042112 # Afrighid
 	religion = sunni
-	culture = persian
+	culture = khwarazmian
 	father = 188598
 	865.1.1 = {
 		birth = yes
@@ -4098,7 +4098,7 @@
 	name = "Abu Sa'id"
 	dynasty = 1042112 # Afrighid
 	religion = sunni
-	culture = persian
+	culture = khwarazmian
 	father = 188599
 	900.1.1 = {
 		birth = yes
@@ -4112,7 +4112,7 @@
 	name = "Abu Abdallah"
 	dynasty = 1042112 # Afrighid
 	religion = sunni
-	culture = persian
+	culture = khwarazmian
 	father = 188600
 	925.1.1 = {
 		birth = yes
@@ -5195,7 +5195,7 @@
 	name = "Salman" # fictitious holder of Luristan
 	dynasty = 1042160
 	religion = sunni
-	culture = persian
+	culture = luri
 	729.1.1 = {
 		birth = yes
 	}
@@ -5208,7 +5208,7 @@
 	name = "Jahandar" # fictitious holder of Qwivir
 	dynasty = 1042161
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	738.1.1 = {
 		birth = yes
 	}
@@ -5265,7 +5265,7 @@
 	name = "Kavadh"  # name made up
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160283
 	545.1.1 = {
 		birth = yes
@@ -5279,7 +5279,7 @@
 	name = "Bav"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160284
 	590.1.1 = {
 		birth = yes
@@ -5293,7 +5293,7 @@
 	name = "Sorkhab"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160285 # debatable
 	635.1.1 = {
 		birth = yes
@@ -5307,7 +5307,7 @@
 	name = "Mehr Mardan"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160288
 	670.1.1 = {
 		birth = yes
@@ -5321,7 +5321,7 @@
 	name = "Sorkhab"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160289
 	700.1.1 = {
 		birth = yes
@@ -5335,7 +5335,7 @@
 	name = "Shervin"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160290
 	735.1.1 = {
 		birth = yes
@@ -5349,7 +5349,7 @@
 	name = "Shahryar"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160291
 	755.1.1 = {
 		birth = yes
@@ -5363,7 +5363,7 @@
 	name = "Shapur"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160292
 	790.1.1 = {
 		birth = yes
@@ -5377,7 +5377,7 @@
 	name = "Karen"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160292
 	795.1.1 = {
 		birth = yes
@@ -5391,7 +5391,7 @@
 	name = "Shervin"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 45105
 	865.1.1 = {
 		birth = yes
@@ -5405,7 +5405,7 @@
 	name = "Sorkhab"
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160294
 	846.1.1 = {
 		birth = yes
@@ -5419,7 +5419,7 @@
 	name = "Qarin"
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160297
 	780.1.1 = {
 		birth = yes
@@ -5433,7 +5433,7 @@
 	name = "Vandad Hormozd"
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160298
 	trait = zealous
 	trait = tough_soldier
@@ -5449,7 +5449,7 @@
 	name = "Vindaspagan" # historical
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160298
 	trait = tough_soldier
 	741.1.1 = {
@@ -5464,7 +5464,7 @@
 	name = "Karen" #unhistorical
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160299
 	680.1.1 = { #postponed from 660
 		birth = yes
@@ -5478,7 +5478,7 @@
 	name = "Vandad" #unhistorical
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160300
 	635.1.1 = {
 		birth = yes
@@ -5633,7 +5633,7 @@
 	dynasty = 7332
 	father = 216024 # perhaps
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	630.1.1 = {
 		birth = yes
 	}
@@ -5646,7 +5646,7 @@
 	name = "Khur-Zad"
 	dynasty = 7332
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 216901
 	660.1.1 = {
 		birth = yes
@@ -5660,7 +5660,7 @@
 	name = "Paduspan"
 	dynasty = 7332
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 216902
 	680.1.1 = {
 		birth = yes
@@ -5674,7 +5674,7 @@
 	name = "Shahriyar"
 	dynasty = 7332
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 216903
 	trait = sympathy_islam
 	722.1.1 = {
@@ -5689,7 +5689,7 @@
 	name = "Wandad Umid"
 	dynasty = 7332
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 216904
 	trait = sympathy_islam
 	750.1.1 = {
@@ -5704,7 +5704,7 @@
 	name = "Abdallah"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216905
 	trait = sympathy_zoroastrianism
 	775.1.1 = {
@@ -5719,7 +5719,7 @@
 	name = "Faridun"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216906
 	trait = sympathy_zoroastrianism
 	798.1.1 = {
@@ -5734,7 +5734,7 @@
 	name = "Paduspan"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216907
 	trait = sympathy_zoroastrianism
 	816.1.1 = {
@@ -5749,7 +5749,7 @@
 	name = "Shahriyar"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216908
 	trait = sympathy_zoroastrianism
 	836.1.1 = {
@@ -5764,7 +5764,7 @@
 	name = "Hazar Sandan"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216909
 	trait = sympathy_zoroastrianism
 	854.1.1 = {
@@ -5779,7 +5779,7 @@
 	name = "Shahriyar"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216910
 	trait = sympathy_zoroastrianism
 	872.1.1 = {
@@ -5794,7 +5794,7 @@
 	name = "Shams al-Muluk"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216911
 	trait = sympathy_zoroastrianism
 	890.1.1 = {
@@ -5809,7 +5809,7 @@
 	name = "Istwandad"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216912
 	trait = sympathy_zoroastrianism
 	919.1.1 = {
@@ -5824,7 +5824,7 @@
 	name = "Fakhr al-Dawla"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216913
 	trait = sympathy_zoroastrianism
 	940.1.1 = {
@@ -5839,7 +5839,7 @@
 	name = "Hazarasp"
 	dynasty = 7332
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 216914
 	trait = sympathy_zoroastrianism
 	965.1.1 = {
@@ -5933,7 +5933,7 @@
 	female = yes
 	dynasty = 7331 # Bavandid
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160295
 	trait = scholarly_theologian
 	908.7.6 = {
@@ -7109,7 +7109,7 @@
 	name = "Rustam Dushmanziyar"
 	dynasty = 7331
 	religion = shiite
-	culture = persian
+	culture = daylamite
 	father = 220995
 	trait = ambitious
 	trait = skilled_tactician
@@ -7631,7 +7631,7 @@
 	name = "Lili" # historical ruler
 	dynasty = 1059976
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	trait = brave
 	trait = tough_soldier
 	847.1.1 = {
@@ -7669,7 +7669,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	trait = diligent
 	trait = just
 	trait = skilled_tactician
@@ -7687,7 +7687,7 @@
 	name = "Zakaria" # fictional brother of Tirdadh to represent remnants of Christianity among Dailamites
 	dynasty = 1059973
 	religion = nestorian
-	culture = persian
+	culture = daylamite
 	father = 248690
 	trait = sympathy_islam # representing efforts of Shiite missionaries
 	trait = sympathy_zoroastrianism
@@ -7956,7 +7956,7 @@
 	name = "Kaki"
 	dynasty = 1062492
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	875.1.1 = {
 		birth = yes
 	}
@@ -7969,7 +7969,7 @@
 	name = "Makan"
 	dynasty = 1062492
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 261025
 	894.1.1 = {
 		birth = yes
@@ -8390,7 +8390,7 @@
 	name = "Reza" #Historical unnamed son of  Vandad
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 160297
 	782.1.1 = {
 		birth = yes
@@ -8404,7 +8404,7 @@
 	name = "Vinda-Umid" #Historical uncle of Mazyar
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059701
 	800.1.1 = {
 		birth = yes
@@ -8418,7 +8418,7 @@
 	name = "Gurdzad" #Possible historical member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059702
 	824.1.1 = {
 		birth = yes
@@ -8432,7 +8432,7 @@
 	name = "Baduspan" #Historical member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059703
 	846.1.1 = {
 		birth = yes
@@ -8446,7 +8446,7 @@
 	name = "Shahriyar" #Historical member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059704
 	trait = sympathy_islam
 	880.1.1 = {
@@ -8461,7 +8461,7 @@
 	name = "Muhammad" # Historical member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059705
 	901.1.1 = {
 		birth = yes
@@ -8478,7 +8478,7 @@
 	name = "Vandad" # Fictional member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059706
 	930.1.1 = {
 		birth = yes
@@ -8492,7 +8492,7 @@
 	name = "Qarin" # Fictional member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059707
 	960.1.1 = {
 		birth = yes
@@ -8506,7 +8506,7 @@
 	name = "Shahriyar" # Fictional member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059708
 	990.1.1 = {
 		birth = yes
@@ -8520,7 +8520,7 @@
 	name = "Mazyar" # Fictional member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059709
 	1020.1.1 = {
 		birth = yes
@@ -8534,7 +8534,7 @@
 	name = "Balash" # Fictional member of Karen dynasty
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059710
 	1050.1.1 = {
 		birth = yes
@@ -8548,7 +8548,7 @@
 	name = "Amir" # Last known ruler of house Karen
 	dynasty = 7511
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	father = 1059710
 	1090.1.1 = {
 		birth = yes
@@ -8563,7 +8563,7 @@
 	dynasty = 7511
 	martial = 7
 	religion = zoroastrian
-	culture = persian
+	culture = daylamite
 	trait = deceitful
 	trait = sympathy_islam
 	father = 160296
