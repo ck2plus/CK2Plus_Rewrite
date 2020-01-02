@@ -676,7 +676,7 @@
 	name = "Dharmavantha" #
 	dynasty = 1029192
 	religion = buddhist
-	culture = sinhala
+	culture = dhivehi
 	trait = kshatriya
 	trait = theravada_buddhist
 	father = 189156
@@ -760,7 +760,7 @@
 	name = "Aditya" #Sorudasaruna Aditya
 	dynasty = 1029192
 	religion = buddhist
-	culture = sinhala
+	culture = dhivehi
 	trait = kshatriya
 	trait = theravada_buddhist
 	760.1.1 = {
@@ -840,7 +840,7 @@
 	dynasty = 1029192
 	female = yes
 	religion = buddhist
-	culture = sinhala
+	culture = dhivehi
 	trait = kshatriya
 	trait = theravada_buddhist
 	father = 189158
@@ -875,7 +875,7 @@
 	name = "Baladitya" #
 	dynasty = 1029191
 	religion = buddhist
-	culture = sinhala
+	culture = dhivehi
 	trait = kshatriya
 	trait = theravada_buddhist
 	#father = Kalinga descent; Eastern Ganga dynasty?
@@ -894,7 +894,7 @@
 	name = "Lokabarana" #
 	dynasty = 1029191
 	religion = buddhist
-	culture = sinhala
+	culture = dhivehi
 	trait = kshatriya
 	trait = theravada_buddhist
 	father = 189160
@@ -911,7 +911,7 @@
 	name = "Mahasandura" #
 	dynasty = 1029191
 	religion = buddhist
-	culture = sinhala
+	culture = dhivehi
 	trait = kshatriya
 	trait = theravada_buddhist
 	father = 189161
@@ -927,7 +927,7 @@
 	name = "Ananda" # Bovana Ananda
 	dynasty = 1029191
 	religion = buddhist
-	culture = sinhala
+	culture = dhivehi
 	trait = kshatriya
 	trait = theravada_buddhist
 	father = 189162
@@ -943,7 +943,7 @@
 	name = "Koimala" #
 	dynasty = 1029191
 	religion = buddhist
-	culture = sinhala
+	culture = dhivehi
 	trait = kshatriya
 	trait = theravada_buddhist
 	father = 189163

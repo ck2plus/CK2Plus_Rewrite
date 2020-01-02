@@ -1835,7 +1835,7 @@
 	name = "Chaacko"
 	dynasty = 1062551
 	religion = hindu
-	culture = tamil
+	culture = dhivehi
 	901.1.1 = {
 		birth = yes
 	}
