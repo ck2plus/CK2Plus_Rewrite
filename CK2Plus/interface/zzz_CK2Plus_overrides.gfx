@@ -26,4 +26,12 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\religion_icon_strip_big.dds"
 		noOfFrames = 100 # vanilla: 59
 	}
+
+	# Added camel cavalry, war elephants and ships
+	spriteType = {
+		name = "GFX_combat_tactic_strip"
+		textureFile = "gfx\\interface\\combat_tactic_strip.dds"
+		noOfFrames = 55 # vanilla: 8
+	}
+
 }

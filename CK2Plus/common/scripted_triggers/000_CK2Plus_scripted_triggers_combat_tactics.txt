@@ -1,0 +1,433 @@
+################################################################
+#
+#	Plus Combat Tactics scripted triggers
+#
+################################################################
+#
+#	These MUST be called in a combat scope to work properly
+#
+################################################################
+#
+#	CATALOG
+#
+#	plus_winter_arctic_trigger
+#	plus_flat_terrain_trigger
+#	plus_rough_terrain_trigger
+#	plus_mountain_terrain_trigger
+#	plus_desert_terrain_trigger
+#	plus_jungle_terrain_trigger
+#
+#	plus_baltic_terrain_trigger
+#	plus_basque_terrain_trigger
+#	plus_bon_terrain_trigger
+#	plus_celtic_terrain_trigger
+#	plus_finnish_terrain_trigger
+#	plus_hellenic_terrain_trigger
+#	plus_norse_terrain_trigger
+#	plus_slavic_terrain_trigger
+#	plus_tengri_terrain_trigger
+#	plus_west_african_terrain_trigger
+#	plus_zun_terrain_trigger
+#
+#	plus_center_flank_trigger
+#	plus_side_flank_trigger
+#
+#	plus_religious_enemies_holy_warrior_trigger
+#
+#	plus_light_foot_troops_trigger
+#	plus_heavy_foot_troops_trigger
+#	plus_light_mounted_troops_trigger
+#	plus_heavy_mounted_troops_trigger
+#	plus_war_elephant_troops_trigger
+#
+################################################################
+
+#########################################################################################################
+#
+#	These emulate various vanilla trait effects for use in Combat Tactics (see scripted score values)
+#
+#########################################################################################################
+
+# Terrain traits
+
+plus_winter_arctic_trigger = {
+	leader = {
+		trait = winter_soldier
+	}
+	location = {
+		OR = {
+			is_winter = yes
+			terrain = arctic
+		}
+	}
+}
+
+plus_flat_terrain_trigger = {
+	leader = {
+		trait = flat_terrain_leader
+	}
+	location = {
+		OR = {
+			terrain = plains
+			terrain = farmlands
+			terrain = steppe
+		}
+	}
+}
+
+plus_rough_terrain_trigger = {
+	leader = {
+		trait = rough_terrain_leader
+	}
+	location = {
+		OR = {
+			terrain = marsh
+			terrain = forest
+		}
+	}
+}
+
+plus_mountain_terrain_trigger = {
+	leader = {
+		trait = mountain_terrain_leader
+	}
+	location = {
+		OR = {
+			terrain = hills
+			terrain = mountain
+		}
+	}
+}
+
+plus_desert_terrain_trigger = {
+	leader = {
+		trait = desert_terrain_leader
+	}
+	location = {
+		terrain = desert
+	}
+}
+
+plus_jungle_terrain_trigger = {
+	leader = {
+		trait = jungle_terrain_leader
+	}
+	location = {
+		terrain = jungle
+	}
+}
+
+# Warrior Lodge traits - terrain aspect
+
+plus_baltic_leader_terrain_trigger = {
+	leader = {
+		trait = baltic_leader
+	}
+	location = {
+		terrain = forest
+	}
+}
+
+plus_basque_leader_terrain_trigger = {
+	leader = {
+		trait = basque_leader
+	}
+	location = {
+		OR = {
+			terrain = mountain
+			terrain = hills
+			terrain = forest
+			terrain = plains
+		}
+	}
+}
+
+plus_bon_leader_terrain_trigger = {
+	leader = {
+		trait = bon_leader
+	}
+	location = {
+		OR = {
+			terrain = mountain
+			terrain = hills
+		}
+	}
+}
+
+plus_celtic_leader_terrain_trigger = {
+	leader = {
+		trait = celtic_leader
+	}
+	location = {
+		OR = {
+			terrain = plains
+			terrain = farmlands
+			terrain = steppe
+			terrain = hills
+		}
+	}
+}
+
+plus_finnish_leader_terrain_trigger = {
+	leader = {
+		trait = finnish_leader
+	}
+	location = {
+		OR = {
+			is_winter = yes
+			terrain = arctic
+		}
+	}
+}
+
+plus_hellenic_leader_terrain_trigger = {
+}
+
+plus_norse_leader_terrain_trigger = {
+}
+
+plus_slavic_leader_terrain_trigger = {
+	leader = {
+		trait = slavic_leader
+	}
+	location = {
+		terrain = plains
+	}
+}
+
+plus_tengri_leader_terrain_trigger = {
+	leader = {
+		trait = tengri_leader
+	}
+	location = {
+		OR = {
+			terrain = plains
+			terrain = farmlands
+			terrain = steppe
+		}
+	}
+}
+
+plus_west_african_leader_terrain_trigger = {
+	leader = {
+		trait = west_african_leader
+	}
+	location = {
+		terrain = desert
+	}
+}
+
+plus_zun_leader_terrain_trigger = {
+	leader = {
+		trait = zun_leader
+	}
+	location = {
+		OR = {
+			terrain = desert
+			terrain = mountain
+		}
+	}
+}
+
+# Flanking
+
+plus_center_flank_trigger = {
+	leader = {
+		OR = {
+			trait = experimenter # Direct Leader
+			trait = logistics_expert # Way of the Dog
+		}
+		OR = {
+			liege = {
+				any_army = {
+					center_flank_leader = {
+						character = PREVPREVPREV
+					}
+				}
+			}
+			AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+				mercenary = yes
+				any_unit_leader = {
+					liege = {
+						any_army = {
+							center_flank_leader = {
+								character = PREVPREVPREV
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+plus_side_flank_trigger = {
+	leader = {
+		OR = {
+			trait = flanker
+			trait = levy_coordinator # Way of the Tiger
+			trait = baltic_leader
+			trait = gamer
+		}
+		OR = {
+			liege = { # either leading a side flank
+				any_army = {
+					OR = {
+						left_flank_leader = {
+							character = PREVPREVPREV
+						}
+						right_flank_leader = {
+							character = PREVPREVPREV
+						}
+					}
+				}
+			}
+			AND = { # workaround for hird mercenary commanders, requires any vassal of the unit owner to be a subunit leader
+				mercenary = yes
+				any_unit_leader = {
+					liege = {
+						any_army = {
+							OR = {
+								left_flank_leader = {
+									character = PREVPREVPREVPREV
+							}
+								right_flank_leader = {
+									character = PREVPREVPREVPREV
+								}
+							}
+						}
+					}
+				}
+			}
+			ROOT = { is_flanking = yes } # or flanking from any flank
+		}
+	}
+}
+
+# Emulates Holy Warrior trait, may require updating as new religions are added
+
+plus_religious_enemies_holy_warrior_trigger = {
+	leader = {
+		OR =  {
+			trait = holy_warrior
+			trait = crusader_king
+			trait = crusader_queen
+		}
+	}
+	enemy = { # Enemy flank
+		leader = { # Enemy commander
+			ROOT = { # Back to own flank
+				leader = {
+					# PREVPREV is enemy commander
+					OR = {
+						AND = { # These consider everyone their religious enemy
+							OR = {
+								religion_group = zoroastrian_group
+								religion_group = jewish_group
+								AND = { # But pagans must not be cosmopolitan
+									religion_group = pagan_group
+									NOT = {
+										has_religion_feature = religion_cosmopolitan
+									}
+								}
+							}
+							NOT = { # Anyone with a different religion
+								religion = PREVPREV
+							}
+						}
+						AND = { # Christians only fight heresies of own branch
+							religion_group = christian
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+						AND = { # Muslims also fight non-heretic Muslims
+							religion_group = muslim
+							OR = {
+								OR = { # One of both commanders is a heretic
+									is_heresy_of = PREVPREV
+									is_parent_religion = PREVPREV
+								}
+								NOR = { # Non-heretics of different branches
+									is_heretic = yes
+									PREVPREV = { is_heretic = yes }
+									religion = PREVPREV
+								}
+								NOT = { # Anyone outside religious group
+									religion_group = PREVPREV
+								}
+							}
+						}
+						AND = { # Dharmans avoid religious infighting
+							religion_group = indian_group
+							NOR = { # Pacifist
+								religion = taoist
+								religion = jain
+							}
+							OR = {
+								NOT = { # Anyone outside own religious group
+									religion_group = PREVPREV
+								}
+								PREVPREV = { # Following regular Holy War CB
+									religion = taoist
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Troops traits
+
+plus_light_foot_troops_trigger = {
+	leader = {
+		OR = {
+			trait = light_foot_leader
+			trait = bon_leader
+			trait = west_african_leader
+		}
+	}
+}
+
+plus_heavy_foot_troops_trigger = {
+	leader = {
+		OR = {
+			trait = heavy_infantry_leader
+			trait = norse_leader
+		}
+	}
+}
+
+plus_light_mounted_troops_trigger = {
+	leader = {
+		OR = {
+			trait = cavalry_leader
+			trait = tengri_leader
+			trait = west_african_leader
+		}
+	}
+}
+
+plus_heavy_mounted_troops_trigger = {
+	leader = {
+		OR = {
+			trait = cavalry_leader
+			trait = tengri_leader
+		}
+	}
+}
+
+plus_elephant_troops_trigger = {
+	leader = {
+		trait = war_elephant_leader
+	}
+}
