@@ -143,6 +143,20 @@ defined_text = {
 		}
 	}
 	text = {
+		localisation_key = BishopOfRome
+		trigger = {
+			religion = chalcedonian
+			NOT = { has_global_flag = patriarch_supreme_appointed }
+		}
+	}
+	text = {
+		localisation_key = PatriarchSupreme
+		trigger = {
+			religion = chalcedonian
+			has_global_flag = patriarch_supreme_appointed
+		}
+	}
+	text = {
 		localisation_key = ARCH_DRUID
 		trigger = {
 			AND = {

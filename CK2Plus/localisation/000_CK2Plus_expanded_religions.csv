@@ -226,3 +226,25 @@ expelled_d_sword_of_ama_lur;Expelled the Sword of Ama Lur;Épée de Ama Lur expuls
 #Customizable Localisation
 String_Basque;Euskaldun;;;;;;;;;;;;;;;;;x
 String_Basque_Follower;Euskal follower;euskal;Anhänger des euskal Glaubens;;Seguidor euskal;;;;;;;;;;;;;x
+
+###################
+#
+#	Chalcedonian
+#
+###################
+
+# Description
+chalcedonian;Chalcedonian;Chalcédonien;Chalcedonisch;;Calcedonio;;;;;;;;;x
+chalcedonian_DESC;Considered the 'main' branch of Christianity after the Council of Chalcedon repudiated monophysitism in 451 AD, it is split between the Latin West and the Greek East -- both of which have been increasingly growing apart from each other, developing their own rites, in the centuries since. Many believe the two are headed for a schism of their own, something that could split the entire Christian world in two should it come to pass.\n\n§YNOTE§!: Events building towards the schism may be stopped if\n§Y*§! A Patriarch Supreme has been anointed, or\n§Y*§! Rome is not held by a Chalcedonian bishop following the Latin Rites, or\n§Y*§! Constantinople is not held by a Chalcedonian bishop following the Greek Rites\n;;;;;;;;;;;;;;;;;x
+
+# Chalcedonian election title
+BishopOfRome;bishop of Rome;évêque de Rome;Bischof von Rom;;obispo de Roma;;;;;;;;;x
+PatriarchSupreme;Patriarch Supreme;Patriarche suprême;obersten Patriarch;;Patriarca Supremo;;;;;;;;;x
+HIGH_PATRIARCH_LOC;Patriarch Supreme;Patriarche suprême;obersten Patriarch;;Patriarca Supremo;;;;;;;;;x # Does not resolve customizable localisation
+
+# Chalcedonian Cardinals
+best_candidate_title_chalcedonian_cardinal;My Best Cardinal Candidate;Mes meilleurs cardinaux potentiels;Mein bester Kardinalskandidat;;Mi mejor candidato a Cardenal;;;;;;;;;x
+best_candidate_title_chalcedonian_cardinal_tooltip;Of all the bishops in my realm, this one is the likeliest to get appointed Cardinal by the [chalcedonian.GetElectedReligiousHead].;De tous les évêques de mon royaume, celui-ci est le plus susceptible d'être nommé cardinal par le pape.;Von allen Bischöfen in meinem Reich wird dieser wahrscheinlich am ehesten vom Papst zum Kardinal ernannt.;;De todos los obispos de mi reino, este es el que tiene más probabilidades de que el Papa lo nombre Cardenal.;;;;;;;;;x
+
+expected_next_title_chalcedonian_cardinal;Expected Next Cardinal;Prochain cardinal prévu;Erwarteter neuer Kardinal;;Presunto próximo cardenal;;;;;;;;;x
+expected_next_title_chalcedonian_cardinal_tooltip;This bishop is probably next in line for a Cardinalship when one becomes available.;Cet évêque sera probablement le prochain cardinal dès qu'une place se libérera.;Dieser Bischof wird wahrscheinlich als nächster zum Kardinal ernannt, wenn ein Sitz im Kollegium frei wird.;;Este obispo es, probablemente, el próximo candidato a Cardenal cuando haya una vacante.;;;;;;;;;x

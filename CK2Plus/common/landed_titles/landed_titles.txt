@@ -7221,6 +7221,7 @@ e_byzantium = {
 
 				top_de_jure_capital = yes
 
+				holy_site = chalcedonian
 				holy_site = orthodox
 
 				turkish = "Kostantiniyye"
@@ -11596,7 +11597,9 @@ e_italy = {
 				christian = 5000
 				aztec_reformed = 1000
 
+				# St. Peter's Basilica
 				holy_site = catholic
+				holy_site = chalcedonian
 				holy_site = aztec
 				holy_site = aztec_reformed
 				holy_site = hellenic_pagan
@@ -35906,6 +35909,8 @@ e_arabia = {
 				color = { 102 221 136 }
 				color2 = { 255 255 255 }
 
+				# Catechetical School of Alexandria
+				holy_site = chalcedonian
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = hellenic_pagan
@@ -37092,6 +37097,8 @@ e_arabia = {
 				christian = 250
 				muslim = 250
 
+				#Church of the Holy Sepulchre
+				holy_site = chalcedonian
 				holy_site = catholic
 				holy_site = orthodox
 				holy_site = sunni
@@ -37457,6 +37464,8 @@ e_arabia = {
 				color = { 152 69 135 }
 				color2 = { 255 255 255 }
 
+				# Church of St. Peter
+				holy_site = chalcedonian
 				holy_site = orthodox
 				holy_site = miaphysite
 				holy_site = monophysite

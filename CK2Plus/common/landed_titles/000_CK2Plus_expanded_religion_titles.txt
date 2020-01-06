@@ -1,27 +1,32 @@
-# Pagan heads of religion
+##############################
+#
+#	Pagan heads of religion
+#
+##############################
 
 d_celtic_pagan_reformed = { # Circle of Druids
 	color = { 122 165 70 }
 	color2 = { 220 220 0 }
-	
+
 	capital = 1952 # Meath
-	
+	religion = celtic_pagan_reformed
+
 	title = ARCH_DRUID
 	title_female = ARCH_DRUIDESS
 	foa = ARCH_DRUID_FOA
-	
+
 	short_name = yes
-	landless = yes # Always exists
-	primary = yes # Cannot be held as a secondary title
-	dignity = 100 # Counted as having this many more counties than it does
-	dynasty_title_names = no # Will not be named "Seljuk", etc.
-	controls_religion = celtic_pagan_reformed # Controls a religion
-	religion = celtic_pagan_reformed
-	
+	landless = yes									# Always exists
+	primary = yes									# Cannot be held as a secondary title
+	dignity = 100									# Counted as having this many more counties than it does
+	dynasty_title_names = no						# Will not be named "Seljuk", etc.
+	controls_religion = celtic_pagan_reformed
+
+
 	allow = {
 		religion = celtic_pagan_reformed
-		num_of_holy_sites = 3
-		piety = 1000
+		num_of_holy_sites >= 3
+		piety >= 1000
 	}
 }
 
@@ -30,21 +35,84 @@ d_basque_pagan_reformed = {
     color2 = { 20 20 20 }
 
     capital = 152 # Navarre
+	religion = basque_pagan_reformed
 
     title = HIGH_SORGIN
     foa = HIGH_SORGIN_FOA
 
 	short_name = yes
-	landless = yes # Always exists
-	primary = yes # Cannot be held as a secondary title
-	dignity = 100 # Counted as having this many more counties than it does
-	dynasty_title_names = no # Will not be named "Seljuk", etc.
-	controls_religion = basque_pagan_reformed # Controls a religion
-	religion = basque_pagan_reformed
+	landless = yes									# Always exists
+	primary = yes									# Cannot be held as a secondary title
+	dignity = 100									# Counted as having this many more counties than it does
+	dynasty_title_names = no						# Will not be named "Seljuk", etc.
+	controls_religion = basque_pagan_reformed
 
 	allow = {
 		religion = basque_pagan_reformed
-		num_of_holy_sites = 3
-		piety = 1000
+		num_of_holy_sites >= 3
+		piety >= 1000
+	}
+}
+
+##################################
+#
+#	Christian heads of religion
+#
+##################################
+
+k_pentarch_rome = { # Chalcedonian papacy
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+
+	capital = 333 # Rome
+	religion = chalcedonian
+
+	title_prefix = "PAPACY_OF"
+	title = "POPE"
+	foa = "POPE_FOA"
+
+	creation_requires_capital = yes
+	landless = yes									# Always exists
+	primary = yes									# Cannot be held as a secondary title
+	dynasty_title_names = no						# Will not be named "Seljuk", etc.
+	dignity = 100									# Counted as having this many more counties than it does
+	controls_religion = chalcedonian
+
+	# Regnal names
+	male_names = {
+		Agapitus:20
+		Alexander
+		Anastasius:50
+		Benedictus
+		Bonifatius:10
+		Callistus
+		Coelestinus
+		Clemens
+		Constantinus
+		Damasus:10
+		Eugenius:10
+		Formosus:20
+		Gelasius:50
+		Gregorius
+		Hadrianus
+		Innocentius:125
+		Ioannes:150
+		Landus:10
+		Leo:125
+		Lucius
+		Marinus:50
+		Martinus:25
+		Nicolaus
+		Honorius
+		Paschalis:10
+		Pius:10
+		Romanus:10
+		Sergius
+		Silvester:50
+		Stephanus:125
+		Theodorus:25
+		Urbanus
+		Valentinus:10
+		Victor:50
 	}
 }
