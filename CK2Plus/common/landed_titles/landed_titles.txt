@@ -7230,7 +7230,11 @@ e_byzantium = {
 					turkish = "Kostantiniyye"
 				}
 				b_hagiasophia = {
-					pentarchy = yes
+					pentarchy = chalcedonian
+					pentarchy = orthodox
+					pentarchy = monothelite
+					pentarchy = iconoclast
+
 					turkish = "Ayasofya"
 				}
 				b_galata = {
@@ -11625,7 +11629,12 @@ e_italy = {
 				old_saxon = Rom
 
 				b_roma = {
-					pentarchy = yes
+					pentarchy = chalcedonian
+					pentarchy = iconoclast
+					pentarchy = monothelite
+					pentarchy = orthodox
+					pentarchy = paulician
+
 					used_for_dynasty_names = no
 
 					italian = Roma
@@ -35924,7 +35933,12 @@ e_arabia = {
 				andalusian_arabic = "al-Iskandariyya"
 
 				b_alexandria = {
-					pentarchy = yes
+					pentarchy = chalcedonian
+					pentarchy = iconoclast
+					pentarchy = monothelite
+					pentarchy = orthodox
+					pentarchy = paulician
+
 					coptic = "Rakote"
 					egyptian_arabic = "al-Iskandariyya"
 					bedouin_arabic = "al-Iskandariyya"
@@ -37143,7 +37157,10 @@ e_arabia = {
 					georgian = "Antipatris"
 				}
 				b_jerusalem = {
-					pentarchy = yes
+					pentarchy = chalcedonian
+					pentarchy = orthodox
+					pentarchy = iconoclast
+					pentarchy = monothelite
 				}
 				b_nablus = {
 				}
@@ -37471,7 +37488,11 @@ e_arabia = {
 				holy_site = monophysite
 
 				b_antiocheia = {
-					pentarchy = yes
+					pentarchy = chalcedonian
+					pentarchy = iconoclast
+					pentarchy = monothelite
+					pentarchy = orthodox
+					pentarchy = paulician
 				}
 				b_latakiah = {
 				}

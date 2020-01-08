@@ -46,7 +46,10 @@ defined_text = {
 	text = {
 		localisation_key = GetCollegeName_Cardinals
 		trigger = {
-			religion = catholic
+			OR = {
+				religion = catholic
+				religion = chalcedonian
+			}
 		}
 	}
 	text = {

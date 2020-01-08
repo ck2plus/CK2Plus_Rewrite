@@ -1072,7 +1072,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = { x = 0 y = 0 }
-			text = "CAMPAIGN_FUND_CHALCEDONIAN_CARDINAL"
+			text = "CAMPAIGN_FUND"
 			maxWidth = 140
 			maxHeight = 20
 			fixedSize = yes

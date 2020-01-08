@@ -8,6 +8,7 @@ on_startup = {
 on_chronicle_start = {
 	events = {
 		PlusStartup.001 # Convert barons to local culture
+		#PlusGreatSchism.800 # Temporary event to mass convert characters and counties to Chalcedonian prior to Great Schism
 	}
 }
 

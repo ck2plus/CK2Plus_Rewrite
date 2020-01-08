@@ -173,3 +173,41 @@ flame_of_eate = {
 	male_compliment_adj = COMPL_RIGHTEOUS
 	female_compliment_adj = COMPL_RIGHTEOUS
 }
+
+########################
+#
+#	Religious traits
+#
+########################
+
+greek_rites = {
+	potential = {
+		religion = chalcedonian
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	opposites = {
+		latin_rites
+	}
+
+	opposite_opinion = -15
+}
+
+latin_rites = {
+	potential = {
+		religion = chalcedonian
+	}
+
+	customizer = no
+	random = no
+	religious = yes
+
+	opposites = {
+		greek_rites
+	}
+
+	opposite_opinion = -15
+}

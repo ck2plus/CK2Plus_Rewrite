@@ -241,8 +241,10 @@ chalcedonian_DESC;Considered the 'main' branch of Christianity after the Council
 BishopOfRome;bishop of Rome;évêque de Rome;Bischof von Rom;;obispo de Roma;;;;;;;;;x
 PatriarchSupreme;Patriarch Supreme;Patriarche suprême;obersten Patriarch;;Patriarca Supremo;;;;;;;;;x
 HIGH_PATRIARCH_LOC;Patriarch Supreme;Patriarche suprême;obersten Patriarch;;Patriarca Supremo;;;;;;;;;x # Does not resolve customizable localisation
+PAPACY_OF;Papacy of;Papauté de;Papsttum;;Papado de;;;;;;;;;x
 
 # Chalcedonian Cardinals
+title_chalcedonian_cardinal;Cardinal;Cardinal;Kardinal;;Cardenal;;;;;;;;;x
 best_candidate_title_chalcedonian_cardinal;My Best Cardinal Candidate;Mes meilleurs cardinaux potentiels;Mein bester Kardinalskandidat;;Mi mejor candidato a Cardenal;;;;;;;;;x
 best_candidate_title_chalcedonian_cardinal_tooltip;Of all the bishops in my realm, this one is the likeliest to get appointed Cardinal by the [chalcedonian.GetElectedReligiousHead].;De tous les évêques de mon royaume, celui-ci est le plus susceptible d'être nommé cardinal par le pape.;Von allen Bischöfen in meinem Reich wird dieser wahrscheinlich am ehesten vom Papst zum Kardinal ernannt.;;De todos los obispos de mi reino, este es el que tiene más probabilidades de que el Papa lo nombre Cardenal.;;;;;;;;;x
 
