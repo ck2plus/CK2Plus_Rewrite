@@ -12,15 +12,17 @@ b_bithynium = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-720.1.1 = { religion = orthodox }
 
+1054.7.16 = { # Great Schism
+	religion = orthodox
+}
 
 # Fourth Crusade
 
-1204.5.16 = { 
+1204.5.16 = {
 	culture = turkish
-	religion = sunni 
+	religion = sunni
 }

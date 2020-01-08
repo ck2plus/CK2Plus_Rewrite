@@ -22,8 +22,8 @@ religion = slavic_pagan
 # History
 
 797.1.1 = {
-	religion = catholic
-	
+	religion = chalcedonian
+
 	b_sopron = castle
 	b_csorna = city
 	b_gyor = temple
@@ -32,15 +32,20 @@ religion = slavic_pagan
 	remove_settlement = b_csorna
 	b_sopron = tribal
 }
-930.1.1 = { 
-	culture = hungarian 
+930.1.1 = {
+	culture = hungarian
 	religion = tengri_pagan
 }
 950.1.1 = {
-	religion = catholic
+	religion = chalcedonian
 	b_sopron = castle
 	b_csorna = city
 }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
 1125.1.1 = {
     culture = szekely
 }

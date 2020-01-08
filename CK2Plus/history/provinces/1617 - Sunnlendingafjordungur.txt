@@ -29,5 +29,9 @@ terrain = arctic
 	b_reykjavik = ca_shipyard_1
 	b_alftanes = city
 	culture = icelandic
+	religion = chalcedonian
+}
+
+1054.7.16 = { # Great Schism
 	religion = catholic
 }

@@ -16,10 +16,15 @@ b_famia = temple
 
 # Misc
 culture = syriac
-religion = orthodox
+religion = chalcedonian
 
 # History
 #Assassins establish themselves in Masyaf
 1000.1.1 = { culture = levantine_arabic }
+
+1054.7.16 = { # Great Schism
+	religion = orthodox
+}
+
 1100.1.1 = { b_masyaf = castle }
 1271.1.1 = { b_kafroun = castle }

@@ -25,10 +25,15 @@ religion = finnish_pagan
 	culture = russian
 	religion = slavic_pagan
 }
-988.1.1 = {	
-	religion = orthodox
+988.1.1 = {
+	religion = chalcedonian
 	b_shakhunya = temple
 }
+
+1054.7.16 = { # Great Schism
+	religion = orthodox
+}
+
 1150.1.1 = {
 	b_volgamozhaysk = castle
 	b_yaransk = city

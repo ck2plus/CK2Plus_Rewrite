@@ -16,11 +16,11 @@ b_loarre = castle
 
 # Misc
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 
 # History
 
-867.1.1 = { 
+867.1.1 = {
 	b_jaca = ca_town_1
 	b_jaca = ca_keep_1
 	b_jaca = ca_stable_1
@@ -36,3 +36,7 @@ religion = catholic
 }
 
 940.1.1 = { culture = aragonese }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

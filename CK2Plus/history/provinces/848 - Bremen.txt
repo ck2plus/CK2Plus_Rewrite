@@ -20,7 +20,7 @@ religion = norse_pagan
 # History
 
 777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
-	religion = catholic
+	religion = chalcedonian
 	b_hoya = temple # actually in 787, b_bremen is actually in Celle
 }
 
@@ -29,14 +29,18 @@ religion = norse_pagan
 }
 
 785.1.1 = { # rebellion defeated
-	religion = catholic
+	religion = chalcedonian
 }
 
 805.1.1 = {
-	religion = catholic
+	religion = chalcedonian
 	b_stade = castle
 	b_beverstedt = city
 #	capital = b_hoya # diocese of Bremen founded by Karl, see Celle
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 
 1249.1.1 = {

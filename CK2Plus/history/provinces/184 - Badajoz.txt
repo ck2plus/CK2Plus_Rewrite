@@ -16,7 +16,7 @@ b_merida = city
 
 # Misc
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 
 # History
 
@@ -26,7 +26,7 @@ religion = catholic
 	culture = andalusian_arabic
 }
 
-1245.3.19 = { 
+1245.3.19 = {
 	culture = leonese
 	religion = catholic
 }

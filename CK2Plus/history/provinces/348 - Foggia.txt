@@ -17,15 +17,17 @@ b_siponto = temple
 
 # Misc
 culture = longobard
-religion = catholic
+religion = chalcedonian
 
 # History
 915.1.1 = {
 	culture = greek
 }
-1054.1.1 = {
+
+1054.7.16 = { # Great Schism
 	religion = orthodox
 }
+
 1068.1.1 = {
 	culture = neapolitan
 	religion = catholic

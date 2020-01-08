@@ -18,7 +18,7 @@ b_midar = temple
 
 # Misc
 culture = sanhaja
-religion = catholic
+religion = chalcedonian
 
 
 # History

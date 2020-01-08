@@ -13,10 +13,14 @@ b_stams = temple
 #b_kitzbuhel = castle
 #b_schwaz = castle
 #b_jenbach = castle
-#b_fugen = castle 
+#b_fugen = castle
 
 # Misc
 culture = bavarian
-religion = catholic
+religion = chalcedonian
 
 # History
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

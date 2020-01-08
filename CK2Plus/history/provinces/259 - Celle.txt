@@ -21,7 +21,7 @@ religion = norse_pagan
 # History
 
 777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
-	religion = catholic
+	religion = chalcedonian
 	b_bremen = temple # actually in 787, move to c_bremen sometime
 }
 
@@ -30,13 +30,17 @@ religion = norse_pagan
 }
 
 785.1.1 = { # rebellion defeated
-	religion = catholic
+	religion = chalcedonian
 }
 
 805.1.1 = {
 	b_celle = castle
 	b_hannover = city
 	capital = b_bremen # diocese of Bremen founded by Karl
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 
 1242.1.1 = {

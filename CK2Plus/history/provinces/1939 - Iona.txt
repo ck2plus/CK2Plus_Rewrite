@@ -16,11 +16,11 @@ b_finlaggan = castle
 
 # Misc
 culture = irish
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
-855.1.1={
+855.1.1 = {
 	culture = norwegian
 	religion = norse_pagan
 }
@@ -35,5 +35,10 @@ terrain = hills
 	b_finlaggan = ca_militia_barracks_1
 	b_finlaggan = ca_wall_1
 	b_finlaggan = ca_shipyard_1
-} 
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
 1266.1.1 = { culture = scottish }

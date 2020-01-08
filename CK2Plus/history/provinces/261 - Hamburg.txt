@@ -20,7 +20,7 @@ religion = norse_pagan
 # History
 
 777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
-	religion = catholic
+	religion = chalcedonian
 }
 
 782.1.1 = { # Widukind returns, stirs rebellion
@@ -28,7 +28,7 @@ religion = norse_pagan
 }
 
 785.1.1 = { # rebellion defeated
-	religion = catholic
+	religion = chalcedonian
 }
 
 787.1.1 = {
@@ -46,7 +46,7 @@ religion = norse_pagan
 }
 
 810.1.1 = { # conquered back by Karl, Saxons move back in
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	b_brunsbuttel = castle
 	b_altona = city
@@ -54,6 +54,10 @@ religion = norse_pagan
 
 847.1.1 = {
 	capital = b_hamburg # raised into Archbishopry in union with Bremen
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 
 1224.1.1 = { b_hamburg = city }

@@ -21,18 +21,23 @@ religion = finnish_pagan
 # History
 988.1.1 = {
 	culture = russian
-	religion = orthodox
+	religion = chalcedonian
 }
 1024.1.1 = {
 	b_suzdal = castle
 	b_sudalyvka = temple
-	
+
 	b_suzdal = ca_keep_1
 	b_suzdal = ca_wall_1
 	b_suzdal = ca_barracks_1
 	b_suzdal = ca_militia_barracks_1
 	b_suzdal = ca_stable_1
 }
+
+1054.7.16 = { # Great Schism
+	religion = orthodox
+}
+
 1200.1.1 = {
 	b_shuya = city
 }

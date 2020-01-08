@@ -17,7 +17,7 @@ b_maghnia = castle
 
 # Misc
 culture = zenati
-religion = catholic
+religion = chalcedonian
 
 # History
 

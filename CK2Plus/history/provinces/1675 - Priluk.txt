@@ -27,8 +27,13 @@ religion = slavic_pagan
 	b_romny = temple
 }
 988.1.1 = {
+	religion = chalcedonian
+}
+
+1054.7.16 = { # Great Schism
 	religion = orthodox
 }
+
 1150.1.1 = {
 	b_priluk = castle
 	b_bobrovytsia = city

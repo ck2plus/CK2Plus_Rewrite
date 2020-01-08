@@ -18,11 +18,12 @@ b_nish = temple
 
 # Misc
 culture = romanian
-religion = orthodox
+religion = chalcedonian
 
 # History
 
 892.1.1 = { culture = serbian }
 
-
-
+1054.7.16 = { # Great Schism
+	religion = orthodox
+}

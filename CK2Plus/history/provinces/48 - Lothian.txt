@@ -18,14 +18,17 @@ b_abercorn = temple
 
 # Misc
 culture = cumbric
-religion = catholic
+religion = chalcedonian
 
 # History
 867.1.1 = {
 	culture = saxon
 	b_stirling = castle
 }
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
 1100.11.11 = { culture = english }
 1235.9.25 = { culture = scottish }
 
-1250.1.1 = { b_stow_of_wedale = castle } 
+1250.1.1 = { b_stow_of_wedale = castle }

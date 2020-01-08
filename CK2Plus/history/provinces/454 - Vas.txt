@@ -23,9 +23,9 @@ religion = slavic_pagan
 # History
 
 797.1.1 = {
-	religion = catholic
+	religion = chalcedonian
 	culture = slovieni
-	
+
 	b_szombathely = castle
 	b_vasvar = city
 	b_szentgotthard = temple
@@ -34,15 +34,20 @@ religion = slavic_pagan
 	remove_settlement = b_vasvar
 	b_szombathely = tribal
 }
-930.1.1 = { 
-	culture = hungarian 
+930.1.1 = {
+	culture = hungarian
 	religion = tengri_pagan
 }
 950.1.1 = {
-	religion = catholic
+	religion = chalcedonian
 	b_szombathely = castle
 	b_vasvar = city
 }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
 1140.1.1 = {
     culture = szekely
 }

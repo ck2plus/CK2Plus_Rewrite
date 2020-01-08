@@ -23,9 +23,14 @@ religion = slavic_pagan
 867.1.1 = {
 	culture = ruthenian
 }
-988.1.1 = { 
+988.1.1 = {
+	religion = chalcedonian
+}
+
+1054.7.16 = { # Great Schism
 	religion = orthodox
 }
+
 1150.1.1 = {
 	b_chernigov = castle
 	b_snov = city

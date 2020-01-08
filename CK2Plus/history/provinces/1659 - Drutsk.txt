@@ -24,11 +24,16 @@ terrain = forest
 867.1.1 = {
 	culture = ruthenian
 }
-988.1.1 = { religion = orthodox }
+988.1.1 = { religion = chalcedonian }
 
 1001.1.1 = {
 	b_bialocerkev = temple
 }
+
+1054.7.16 = { # Great Schism
+	religion = orthodox
+}
+
 1150.1.1 = {
 	b_drutsk = castle
 	b_rahachow = city

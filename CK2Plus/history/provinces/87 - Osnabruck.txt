@@ -25,7 +25,7 @@ religion = norse_pagan
 }
 
 777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
-	religion = catholic
+	religion = chalcedonian
 }
 
 782.1.1 = { # Widukind returns, stirs rebellion
@@ -33,12 +33,16 @@ religion = norse_pagan
 }
 
 785.1.1 = { # rebellion defeated
-	religion = catholic
+	religion = chalcedonian
 }
 
 803.1.1 = {
 	b_tecklenburg = castle
 	b_lingen = city
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 
 #1224.1.1 = {

@@ -1,4 +1,4 @@
-# 2012 - Egitanea 
+# 2012 - Egitanea
 
 # County Title
 title = c_egitanea
@@ -15,14 +15,19 @@ b_idanha = city
 
 # Misc
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 
 # History
 
-931.1.1={
+931.1.1 = {
 	culture = galician
 }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
 1150.1.1 = { culture = portuguese }
-1214.1.1 = { 
+1214.1.1 = {
 	b_castelobranco = castle
 }

@@ -17,6 +17,10 @@ b_merseburg = temple
 
 # Misc
 culture = thuringian
-religion = catholic
+religion = chalcedonian
 
 # History
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

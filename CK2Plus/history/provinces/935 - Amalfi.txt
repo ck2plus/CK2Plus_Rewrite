@@ -18,10 +18,10 @@ b_ravello=temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian # orthodox
 
 # History
-867.1.1 = { 
+867.1.1 = {
 	b_amalfi = ct_wall_1
 	b_amalfi = ct_wall_2
 	b_amalfi = ct_port_1
@@ -38,10 +38,13 @@ religion = orthodox
 
 898.1.1 = {
 	culture = longobard
+#	religion = catholic
 }
-898.1.1 = {
+
+1054.7.16 = { # Great Schism
 	religion = catholic
 }
+
 1076.12.13={
 	remove_settlement = b_amalfi
 	b_tramonti = city

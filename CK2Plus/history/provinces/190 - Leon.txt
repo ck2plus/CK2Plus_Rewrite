@@ -16,11 +16,11 @@ b_sanpedrodeperix = castle
 
 # Misc
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 
 # History
 
-867.1.1 = { 
+867.1.1 = {
 	b_leon = ca_town_1
 	b_leon = ca_keep_1
 	b_leon = ca_stable_1
@@ -36,3 +36,7 @@ religion = catholic
 }
 
 950.1.1 = { culture = leonese }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

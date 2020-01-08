@@ -25,12 +25,17 @@ terrain = marsh
 	culture = ruthenian
 }
 988.1.1 = {
+	religion = chalcedonian
+}
+
+1054.7.16 = { # Great Schism
 	religion = orthodox
 }
+
 1150.1.1 = {
 	b_pinsk = castle
 	b_ivanava = city
-	
+
 	b_pinsk = ca_keep_1
 	b_pinsk = ca_wall_1
 	b_pinsk = ca_barracks_1

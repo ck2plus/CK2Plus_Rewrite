@@ -17,6 +17,7 @@ religion = norse_pagan
 	b_nasborg = castle
 	b_nasborg = ca_keep_1
 }
+
 1066.1.1 = {
 	religion = catholic
 }

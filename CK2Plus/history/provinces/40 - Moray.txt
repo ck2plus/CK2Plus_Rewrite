@@ -17,7 +17,7 @@ b_elgin = temple
 
 # Misc
 culture = pictish
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
@@ -28,6 +28,9 @@ terrain = hills
 1000.1.1 = {
 	b_forres = castle
 	b_inverness = city
+}
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 #suppression of MacWilliams and erection of lordships of Badenoch and Urquhart
 1215.7.1 = {

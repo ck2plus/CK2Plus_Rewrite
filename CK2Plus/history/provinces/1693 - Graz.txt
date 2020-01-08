@@ -13,10 +13,14 @@ religion = slavic_pagan
 
 # History
 
-846.1.1 = { 
-	culture = bavarian 
-	religion = catholic
+846.1.1 = {
+	culture = bavarian
+	religion = chalcedonian
 	b_graz = castle
 	b_radkersburg = temple
 	b_leibnitz = city
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }

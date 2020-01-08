@@ -14,7 +14,7 @@ religion = norse_pagan
 # History
 
 777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
-	religion = catholic
+	religion = chalcedonian
 	b_rotenburg_verden = tribal
 	capital = b_rotenburg_verden
 	b_verden = temple
@@ -25,7 +25,7 @@ religion = norse_pagan
 }
 
 785.1.1 = { # rebellion defeated
-	religion = catholic
+	religion = chalcedonian
 }
 
 805.1.1 = {
@@ -36,6 +36,10 @@ religion = norse_pagan
 
 936.1.1 = {
 	capital = b_verden
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 
 1066.1.1 = {

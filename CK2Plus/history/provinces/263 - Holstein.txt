@@ -13,7 +13,7 @@ religion = norse_pagan
 
 # History
 777.1.1 = { # start of mass conversion by Anglo-Saxon/Frisian missionaries
-	religion = catholic
+	religion = chalcedonian
 	b_segeberg = temple
 }
 
@@ -22,7 +22,7 @@ religion = norse_pagan
 }
 
 785.1.1 = { # rebellion defeated
-	religion = catholic
+	religion = chalcedonian
 }
 
 804.1.1 = { # given to Obotrites
@@ -36,7 +36,7 @@ religion = norse_pagan
 }
 
 810.1.1 = { # conquered back by Karl, Saxons move back in
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	b_kiel = castle
 	b_lauenburg = city
@@ -48,6 +48,10 @@ religion = norse_pagan
 	b_kiel = ca_shipyard_1
 	b_lauenburg = ct_port_1
 	b_segeberg = tp_shipyard_1
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 
 1237.1.1 = {

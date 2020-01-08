@@ -15,7 +15,7 @@ b_cabanillasdelcampo = city
 #b_olmeda = castle
 
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History

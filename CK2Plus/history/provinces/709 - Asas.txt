@@ -18,10 +18,10 @@ b_kallinikos = temple
 
 # Misc
 culture = assyrian
-religion = orthodox
+religion = chalcedonian
 
 # History
 497.1.1 = {
 	religion = nestorian
 }
-1187.1.1 = { b_talabyad = castle } 
+1187.1.1 = { b_talabyad = castle }

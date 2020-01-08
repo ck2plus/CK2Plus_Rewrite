@@ -23,11 +23,15 @@ religion = slavic_pagan
 
 # History
 
-831.1.1 = { religion = catholic }
+831.1.1 = { religion = chalcedonian }
 
 900.1.1 = {
 	b_znojmo = castle
 	b_mikulov = city
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 
 1103.1.1 = {
@@ -38,9 +42,9 @@ religion = slavic_pagan
 1197.1.1 = {
 	b_eibenshitz = castle
 	capital = b_eibenshitz
-	
+
 	# VERY IMPORTANT: remove_settlement must always be scripted AFTER a 'capital' switch away from the same settlement
-	remove_settlement = b_znojmo 
+	remove_settlement = b_znojmo
 }
 
 1277.1.1 = { b_trebic = city }

@@ -15,7 +15,11 @@ b_casale = temple
 
 # Misc
 culture = longobard
-religion = catholic
+religion = chalcedonian
 
 # History
 982.1.1 = { culture = lombard }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

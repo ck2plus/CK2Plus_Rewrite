@@ -17,7 +17,7 @@ b_dornoch = temple
 
 # Misc
 culture = pictish
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History
@@ -29,5 +29,8 @@ terrain = hills
 }
 1030.1.1= {
 	b_thurso = castle
+}
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
 1134.1.1= { culture = scottish }

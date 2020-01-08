@@ -1,4 +1,4 @@
-# 732 - Hama 
+# 732 - Hama
 
 # County Title
 title = c_hama
@@ -10,17 +10,17 @@ b_mhardeh = city
 b_hamath = temple
 
 #b_qarqar = castle
-#b_bara = castle 
+#b_bara = castle
 #b_salamiyah = city
 #b_serjilla = castle
 #b_kharsan = castle
 
 # Misc
 culture = syriac
-religion = orthodox
+religion = chalcedonian
 
 # History
 867.1.1 = { religion = sunni }
 867.1.1 = { culture = levantine_arabic }
-1187.1.1 = { b_qarqar = castle } 
+1187.1.1 = { b_qarqar = castle }
 

@@ -3,7 +3,7 @@
 # County Title
 title = c_aosta
 
-# Settlements 
+# Settlements
 max_settlements = 4
 b_fenis = castle
 b_aosta = city
@@ -15,9 +15,14 @@ b_st_jacqueme = temple
 
 # Misc
 culture = longobard
-religion = catholic
+religion = chalcedonian
 
 # History
 760.1.1 = { capital = b_aosta }
 829.1.1 = { culture = lombard }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
 1230.1.1 = { capital = b_fenis }

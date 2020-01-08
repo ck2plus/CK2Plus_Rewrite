@@ -15,8 +15,8 @@ terrain = mountain
 # History
 800.1.1 = {
     culture = bosnian
-	religion = catholic
+	religion = chalcedonian
 	b_visoki = castle
 	b_vrhbosna = city
 }
-1000.1.1= { religion = bogomilist } 
+1000.1.1= { religion = bogomilist }

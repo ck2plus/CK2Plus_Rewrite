@@ -17,9 +17,14 @@ b_ellwangen = temple
 
 # Misc
 culture = old_frankish
-religion = catholic
+religion = chalcedonian
 
 # History
 ## Nuremburg was Kaiserburg, inofficial capial
 1000.1.1 = { culture = franconian }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
 1187.1.1 = { b_hohenburg = castle }

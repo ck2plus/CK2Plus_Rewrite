@@ -16,7 +16,7 @@ b_caspe = temple
 
 # Misc
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 
 # History
 

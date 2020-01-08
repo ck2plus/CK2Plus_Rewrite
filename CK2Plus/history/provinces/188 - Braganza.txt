@@ -19,14 +19,19 @@ b_chaves = temple
 
 # Misc
 culture = suebi
-religion = catholic
+religion = chalcedonian
 
 # History
 
 926.1.1 = {
 	culture = galician
 }
-1066.1.1 = { 
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
+1066.1.1 = {
 	b_braganza = ca_wall_1
 	b_braganza = ca_wall_2
 }

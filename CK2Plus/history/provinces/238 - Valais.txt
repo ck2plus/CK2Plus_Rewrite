@@ -16,7 +16,7 @@ b_martigny = city
 
 # Misc
 culture = frankish
-religion = catholic
+religion = chalcedonian
 
 # History
 
@@ -24,3 +24,6 @@ religion = catholic
 
 860.1.1 = { culture = arpitan }
 
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

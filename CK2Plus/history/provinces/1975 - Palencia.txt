@@ -10,7 +10,7 @@ b_saint_antolin = temple
 
 # Misc
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 
 # History
 
@@ -23,3 +23,7 @@ religion = catholic
 	b_palencia = ca_wall_2
 }
 950.1.1 = { culture = leonese }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

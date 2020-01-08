@@ -13,8 +13,12 @@ religion = slavic_pagan
 
 # History
 800.1.1 = {
-	religion = orthodox
+	religion = chalcedonian
 	b_stolac = castle
 	b_ston = city
 	b_korcula = temple
+}
+
+1054.7.16 = { # Great Schism
+	religion = orthodox
 }

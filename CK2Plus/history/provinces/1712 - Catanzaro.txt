@@ -11,12 +11,16 @@ b_crotone = temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = hills
 
 # History
 
-1077.1.1={
+1054.7.16 = { # Great Schism
+	religion = orthodox
+}
+
+1077.1.1 = {
 	culture = sicilian_greek
 	religion = catholic
 }

@@ -17,11 +17,18 @@ b_mazara = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
-827.7.15 = { culture = sicilian_arabic religion = sunni } # Conquest of Mazara
-1084.1.1 = { culture = sicilian religion = catholic }
+827.7.15 = { # Conquest of Mazara
+	culture = sicilian_arabic
+	religion = sunni
+}
+
+1084.1.1 = {
+	culture = sicilian
+	religion = catholic
+}
 1151.1.1 = { trade_post = b_caetani }
 1285.1.1  = { trade_post = b_fieschi }
 

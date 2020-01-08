@@ -15,10 +15,14 @@ b_thun = temple
 
 # Misc
 culture = alemannic
-religion = catholic
+religion = chalcedonian
 
 # History
 
 1000.1.1 = { culture = swiss }
 
-1187.1.1 = { b_luzern = city } 
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
+1187.1.1 = { b_luzern = city }

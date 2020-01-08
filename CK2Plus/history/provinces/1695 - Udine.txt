@@ -3,7 +3,7 @@
 # County title
 title = c_udine
 
-# Settlements 
+# Settlements
 max_settlements = 3
 b_udine = castle
 b_friuli = city
@@ -11,10 +11,15 @@ b_ciridale = temple
 
 # Misc
 culture = longobard
-religion = catholic
+religion = chalcedonian
 
 # History
 867.1.1 = {
 	capital = b_ciridale
 }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}
+
 1066.1.1 = { culture = veneto }

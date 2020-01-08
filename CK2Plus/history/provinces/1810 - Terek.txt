@@ -1,6 +1,6 @@
 # 1810 - Terek
 
-# County title 
+# County title
 title = c_terek
 
 # Settlements
@@ -17,6 +17,10 @@ religion = tengri_pagan
 }
 
 1000.1.1 = {
+	religion = chalcedonian
+}
+
+1054.7.16 = { # Great Schism
 	religion = orthodox
 }
 

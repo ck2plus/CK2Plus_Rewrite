@@ -14,7 +14,7 @@ terrain = mountain
 
 # History
 800.1.1 = {
-	religion = catholic
+	religion = chalcedonian
 	b_banjaluka = castle
 	b_bihac = temple
 }
@@ -22,3 +22,7 @@ terrain = mountain
 	culture = bosnian
 }
 1000.1.1 = { religion = bogomilist }
+
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

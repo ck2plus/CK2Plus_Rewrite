@@ -16,11 +16,11 @@ b_ciudadrodrigo = temple
 
 # Misc
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 
 # History
 
-867.1.1 = { 
+867.1.1 = {
 	b_salamanca = ca_town_1
 	b_salamanca = ca_keep_1
 	b_salamanca = ca_stable_1
@@ -29,12 +29,12 @@ religion = catholic
 	b_salamanca = ca_wall_2
 }
 
-955.1.1 = { 
-  culture = andalusian_arabic
-  religion = sunni
+955.1.1 = {
+	culture = andalusian_arabic
+	religion = sunni
 }
 
 1122.1.1 = {
-  culture = leonese
-  religion = catholic
+	culture = leonese
+	religion = catholic
 }

@@ -1,4 +1,4 @@
-# 730 - Palmyra 
+# 730 - Palmyra
 
 # County Title
 title = c_palmyra
@@ -13,12 +13,12 @@ b_arraml = temple
 #b_alqasr = castle
 #b_jihar = castle
 #b_alhuwaysis = castle
-#b_tiace = city 
+#b_tiace = city
 #b_khirbat = castle
 
 # Misc
 culture = syriac
-religion = orthodox
+religion = chalcedonian
 
 # History
 900.1.1 = { religion = sunni }

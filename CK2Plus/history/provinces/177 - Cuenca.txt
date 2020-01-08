@@ -14,7 +14,7 @@ b_sisante = temple
 #b_laspedroneras = castle
 
 culture = visigothic
-religion = catholic
+religion = chalcedonian
 terrain = hills
 
 # History

@@ -24,6 +24,10 @@ terrain = steppe
 892.1.1 = { culture = pecheneg }
 
 988.1.1 = {
+	religion = chalcedonian
+}
+
+1054.7.16 = { # Great Schism
 	religion = orthodox
 }
 
@@ -36,7 +40,7 @@ terrain = steppe
 	religion = tengri_pagan
 }
 
-1312.1.1 = { 
+1312.1.1 = {
     culture = tatar
 	religion = sunni
 }

@@ -11,7 +11,7 @@ b_delemont = city
 
 # Misc
 culture = alemannic
-religion = catholic
+religion = chalcedonian
 
 # History
 
@@ -21,4 +21,6 @@ religion = catholic
 	b_habsburg = castle
 }
 
-
+1054.7.16 = { # Great Schism
+	religion = catholic
+}

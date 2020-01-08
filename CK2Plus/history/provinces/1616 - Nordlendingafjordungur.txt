@@ -25,7 +25,11 @@ terrain = arctic
 }
 1000.1.1 = {
 	culture = icelandic
-	religion = catholic
+	religion = chalcedonian
 	b_husavik = castle
 	#b_husavik = ca_shipyard_1
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }

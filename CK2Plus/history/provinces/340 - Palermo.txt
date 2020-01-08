@@ -17,12 +17,16 @@ b_gratteri = castle
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 
 # History
 
-831.9.12 = { culture = sicilian_arabic religion = sunni } # Fall of Palermo
-840.1.1 = { 
+831.9.12 = { # Fall of Palermo
+	culture = sicilian_arabic
+	religion = sunni
+}
+
+840.1.1 = {
 	b_palermo = ct_wall_1
 	b_palermo = ct_wall_2
 	b_palermo = ct_port_1
@@ -37,11 +41,16 @@ religion = orthodox
 	b_monreale = ca_wall_1
 }
 #950.1.1 = { trade_post = b_urso }
+
 1066.1.1 = {
 	b_palermo = ct_port_2
 	b_palermo = ct_port_3
 }
-1079.1.1 = { culture = siculo_norman religion = catholic }
+1079.1.1 = {
+	culture = siculo_norman
+	religion = catholic
+}
+
 1081.1.1 = { trade_post = b_visconti }
 1180.1.1 = { culture = sicilian }
 1285.1.1 = { trade_post = b_embriaco }

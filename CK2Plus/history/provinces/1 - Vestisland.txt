@@ -23,5 +23,8 @@ terrain = arctic
 	b_hvamm = castle
 	b_hvamm = ca_shipyard_1
 	culture = icelandic
+	religion = chalcedonian
+}
+1054.7.16 = { # Great Schism
 	religion = catholic
 }

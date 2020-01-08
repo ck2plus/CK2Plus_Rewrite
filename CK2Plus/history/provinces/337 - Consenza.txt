@@ -7,7 +7,7 @@ title = c_consenza
 max_settlements = 4
 
 b_cosenza = castle
-b_umbriatico = temple 
+b_umbriatico = temple
 b_rossano = city
 
 #b_strongoli = castle
@@ -16,12 +16,16 @@ b_rossano = city
 
 # Misc
 culture = greek
-religion = orthodox
+religion = chalcedonian
 terrain = hills
 
 # History
 
-1074.1.1={
+1054.7.16 = { # Great Schism
+	religion = orthodox
+}
+
+1074.1.1 = {
 	culture = sicilian_greek
 	religion = catholic
 }

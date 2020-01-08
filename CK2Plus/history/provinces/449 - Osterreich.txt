@@ -15,9 +15,9 @@ religion = slavic_pagan
 
 # History
 
-846.1.1 = { 
-	culture = bavarian 
-	religion = catholic
+846.1.1 = {
+	culture = bavarian
+	religion = chalcedonian
 	b_klosterneuburg = castle
 	b_wien = city
 	b_korneuburg = temple
@@ -28,4 +28,8 @@ religion = slavic_pagan
 }
 950.1.1 = {
 	b_klosterneuburg = castle
+}
+
+1054.7.16 = { # Great Schism
+	religion = catholic
 }
