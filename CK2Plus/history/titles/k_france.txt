@@ -13,10 +13,10 @@
 	adjective = WEST_FRANCIA_ADJ
 	law = agnatic_succession
 	set_global_flag = charlemagne_hre
-
 	holder = 90104 # Charles II 'the Bald'
 	de_jure_liege = e_karling
 	liege = e_karling
+	pentarch = b_roma
 }
 
 877.10.6 = {

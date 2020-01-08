@@ -1,55 +1,59 @@
-1204.4.1=
-{
-liege=0
-holder=215519
-law = cognatic_succession
-law = succ_primogeniture
+100.1.1 = {
+	pentarch = b_hagiasophia
 }
-1222.2.1=
-{
-holder=125719
+
+1204.4.1 = {
+	liege = 0
+	holder = 215519
+	law = cognatic_succession
+	law = succ_primogeniture
 }
-1235.1.1=
-{
-holder=125717
+
+1222.2.1 = {
+	holder = 125719
 }
-1238.1.1=
-{
-holder=125720
+
+1235.1.1 = {
+	holder = 125717
 }
-1263.3.1=
-{
-holder=125721
+
+1238.1.1 = {
+	holder = 125720
 }
-1267.3.4=
-{
-holder=125723
+
+1263.3.1 = {
+	holder = 125721
 }
-1280.6.1=
-{
-holder=465805
+
+1267.3.4 = {
+	holder = 125723
 }
-1284.1.1=
-{
-holder=125722
+
+1280.6.1 = {
+	holder = 465805
 }
-1285.1.1=
-{
-holder=465805
+
+1284.1.1 = {
+	holder = 125722
 }
-1297.8.16=
-{
-holder=465810
+
+1285.1.1 = {
+	holder = 465805
 }
-1330.5.3=
-{
-holder=125725
+
+1297.8.16 = {
+	holder = 465810
 }
-1332.1.8=
-{
-holder=145074
+
+1330.5.3 = {
+	holder = 125725
 }
-1332.9.22=
-{
-holder=465800
+
+1332.1.8 = {
+	holder = 145074
 }
+
+1332.9.22 = {
+	holder = 465800
+}
+

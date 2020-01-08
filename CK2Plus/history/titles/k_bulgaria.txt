@@ -1,153 +1,202 @@
-632.1.1={
-	holder=159117
+632.1.1 = {
+	holder = 159117
 }
-665.1.1={
-	holder=159127
+
+665.1.1 = {
+	holder = 159127
 }
-680.1.1={
-	holder=159118
+
+680.1.1 = {
+	holder = 159118
 }
-700.1.1={
-	holder=159120
+
+700.1.1 = {
+	holder = 159120
 }
-721.1.1={
-	holder=145934
+
+721.1.1 = {
+	holder = 145934
 }
-722.1.1={
-	holder=145936
+
+722.1.1 = {
+	holder = 145936
 }
-738.1.1={
-	holder=145937
+
+738.1.1 = {
+	holder = 145937
 }
-753.1.1={
-	holder=145941
+
+753.1.1 = {
+	holder = 145941
 }
-756.1.1={
-	holder=145946
+
+756.1.1 = {
+	holder = 145946
 }
-762.1.1={
-	holder=145951
+
+762.1.1 = {
+	holder = 145951
 }
-765.1.1={
-	holder=145954
+
+765.1.1 = {
+	holder = 145954
 }
-766.1.1={
-	holder=145945
+
+766.1.1 = {
+	holder = 145945
 }
-766.2.10={
-	holder=145939
+
+766.2.10 = {
+	holder = 145939
 }
-767.1.1={
-	holder=145949
+
+767.1.1 = {
+	holder = 145949
 }
-768.1.1={
-	holder=159121
+
+768.1.1 = {
+	holder = 159121
 }
-777.1.1={
-	holder=159122
+
+777.1.1 = {
+	holder = 159122
 }
-802.1.1={
-	holder=159123
+
+802.1.1 = {
+	holder = 159123
 }
-814.1.1={
-	holder=159124
+
+814.1.1 = {
+	holder = 159124
 }
-831.1.1={
-	holder=159125
+
+831.1.1 = {
+	holder = 159125
 }
-836.1.1={
-	holder=70384 #Fruzin
+
+836.1.1 = {
+	holder = 70384 #Fruzin
 }
-852.1.1={
-	holder=70382 #Boris
+
+852.1.1 = {
+	holder = 70382 #Boris
 }
-889.1.1={
-	holder=70383 #Vladimir
+
+889.1.1 = {
+	holder = 70383 #Vladimir
 }
-#892.1.1={
-#	holder=70382 #Boris I
+
+#892.1.1 = {
+#	holder = 70382 #Boris I
 #}
-893.1.1={
-	holder=712 #Simeon
+
+893.1.1 = {
+	holder = 712 #Simeon
 }
+
 # Changed into Bulgarian Empire
 914.1.1 = {
 	de_jure_liege = e_bulgaria
 	holder = 0
 }
-1018.6.1={
+
+1018.6.1 = {
 	de_jure_liege = e_byzantium
 }
-1040.1.1={
-	holder=732 #Petar II
-}
-1041.1.1={
-	holder="-"
+
+1040.1.1 = {
+	holder = 732 #Petar II
 }
 
-1071.8.26={
-	holder=20493 #Petar III (Konstantin Bodin)
+1041.1.1 = {
+	holder = -
 }
-1073.1.1={
-	holder="-"
+
+1071.8.26 = {
+	holder = 20493 #Petar III (Konstantin Bodin)
 }
-1185.1.1={
-	holder=217501 #Petar III
+
+1073.1.1 = {
+	holder = -
 }
-1190.1.1={
-	holder=217500 #Ivan I
+
+1185.1.1 = {
+	holder = 217501 #Petar III
 }
-1196.1.1={
-	holder=217502 #Kaloyan
+
+1190.1.1 = {
+	holder = 217500 #Ivan I
 }
-1207.10.1={
-	holder=217505 #Boril
+
+1196.1.1 = {
+	holder = 217502 #Kaloyan
 }
-1218.1.2={
-	holder=31160 #Ivan II
+
+1207.10.1 = {
+	holder = 217505 #Boril
 }
-1241.6.24={
-	holder=31165 #Koloman I
+
+1218.1.2 = {
+	holder = 31160 #Ivan II
 }
-1246.8.1={
-	holder=31166 #Mihail I
+
+1241.6.24 = {
+	holder = 31165 #Koloman I
 }
-1256.1.1={
-	holder=31170 #Koloman II
+
+1246.8.1 = {
+	holder = 31166 #Mihail I
 }
-1257.1.1={
-	holder=31185 #Micho
+
+1256.1.1 = {
+	holder = 31170 #Koloman II
 }
-1258.1.1={
-	holder=31187 #Konstandin
+
+1257.1.1 = {
+	holder = 31185 #Micho
 }
-1277.9.1={
-	holder=465551 #Ivan III
+
+1258.1.1 = {
+	holder = 31187 #Konstandin
 }
-1279.1.1={
-	holder=31192 #Ivaljo
+
+1277.9.1 = {
+	holder = 465551 #Ivan III
 }
-1280.1.1={
-	holder=467530 #Georgi I
+
+1279.1.1 = {
+	holder = 31192 #Ivaljo
 }
-1292.1.1={
-	holder=467540 #Smiletz 
+
+1280.1.1 = {
+	holder = 467530 #Georgi I
 }
-1298.1.2={
-	holder=125519 #Chaka
+
+1292.1.1 = {
+	holder = 467540 #Smiletz
 }
-1299.1.2={
-	holder=31193 #Todor
+
+1298.1.2 = {
+	holder = 125519 #Chaka
 }
-1322.1.1={
-	holder=31195 #Georgi II
+
+1299.1.2 = {
+	holder = 31193 #Todor
 }
-1322.8.1={
-	holder=467520 #Mihail II
+
+1322.1.1 = {
+	holder = 31195 #Georgi II
 }
-1330.7.28={
-	holder=467521 #Ivan Stefan
+
+1322.8.1 = {
+	holder = 467520 #Mihail II
 }
-1331.3.1={
-	holder=467500 #Ivan Aleksandr
+
+1330.7.28 = {
+	holder = 467521 #Ivan Stefan
 }
+
+1331.3.1 = {
+	holder = 467500 #Ivan Aleksandr
+}
+
