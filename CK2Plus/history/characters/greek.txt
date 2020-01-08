@@ -7,7 +7,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	trait = strong
@@ -233,10 +233,10 @@
 	}
 	1204.1.1 = {
 		add_spouse = 215512
-}
+	}
     1204.9.1 = {
-	trait = blinded
-}
+		trait = blinded
+	}
 	1204.12.10 = {
 		death = yes
 	}
@@ -410,21 +410,21 @@
 }
 
 125722 = {
-	 name = "Theodora"
-	 female = yes
-	 dynasty = 634
-	 religion = orthodox
-	 culture = greek
-	 father = 125720
-	 mother = 145078
-	 1250.1.1 = {
-		  birth = yes
+	name = "Theodora"
+	female = yes
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	father = 125720
+	mother = 145078
+	1250.1.1 = {
+		birth = yes
 	}
 	1265.1.1 = {
 		culture = pontic_greek
 	}
-	 1303.1.1 = {
-		  death = yes
+	1303.1.1 = {
+		death = yes
 	}
 }
 
@@ -466,20 +466,20 @@
 }
 
 125725 = {
-	 name = "Andronikos"
-	 dynasty = 634
-	 religion = orthodox
-	 culture = pontic_greek
-	 father = 465810
-	 mother = 466751
-	 1310.1.1 = {
-		 birth = yes
+	name = "Andronikos"
+	dynasty = 634
+	religion = orthodox
+	culture = pontic_greek
+	father = 465810
+	mother = 466751
+	1310.1.1 = {
+		birth = yes
 	}
-	 1330.5.3 = {
-		 trait = kinslayer
+	1330.5.3 = {
+		trait = kinslayer
 	}
-	 1332.1.8 = {
-		 death = yes
+	1332.1.8 = {
+		death = yes
 	}
 }
 
@@ -941,7 +941,7 @@
 	name = "Anna"
 	female = yes
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1702
 	894.1.1 = {
@@ -956,7 +956,7 @@
 	name = "Leon"
 	# AKA: Leo
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = born_in_the_purple
 	trait = scholar
@@ -982,7 +982,7 @@
 	name = "Zoe"
 	female = yes
 	dynasty = 643
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	870.1.1 = {
 		birth = yes
@@ -995,7 +995,7 @@
 1704 = {
 	name = "Alexandros"
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = envious
 	trait = proud
@@ -1014,7 +1014,7 @@
 1706 = {
 	name = "Romanos"
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = armenian
 	learning = 2
 	diplomacy = 2
@@ -1033,7 +1033,7 @@
 		birth = yes
 	}
 	925.8.1 = {
-		effect = { add_friend = 262233}
+		effect = { add_friend = 262233 }
 	}
 	948.6.15 = {
 		death = yes
@@ -1043,7 +1043,7 @@
 1708 = {
 	name = "Konstantinos"
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	martial = 1
 	intrigue = 3
@@ -1077,7 +1077,7 @@
 	# AKA: Helena
 	female = yes
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1706
 	mother = 262234
@@ -1099,7 +1099,7 @@
 1710 = {
 	name = "Romanos"
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = born_in_the_purple
 	father = 1708
@@ -1119,7 +1119,7 @@
 	name = "Theophano"
 	# AKA: Theofano
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	941.1.1 = {
 		birth = yes
@@ -1133,7 +1133,7 @@
 	name = "Nikephoros"
 	dynasty = 641
 	martial = 9
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = brilliant_strategist
 	trait = ambitious
@@ -1155,7 +1155,7 @@
 	name = "Theodora"
 	female = yes
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1708
 	mother = 1709
@@ -1174,7 +1174,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = envious
 	trait = diligent
@@ -1199,7 +1199,7 @@
 	name = "Zoe"
 	female = yes
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = born_in_the_purple
 	father = 1718
@@ -1218,7 +1218,7 @@
 	diplomacy = 3
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = arbitrary
 	trait = craven
@@ -1241,12 +1241,15 @@
 	name = "Theodora"
 	female = yes
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = born_in_the_purple
 	father = 1718
 	980.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1056.8.31 = {
 		death = yes
@@ -1256,7 +1259,7 @@
 1720 = {
 	name = "Romanos"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1798
 	968.1.1 = {
@@ -1274,7 +1277,7 @@
 	name = "Michael"
 	# AKA: Mikhael
 	dynasty = 638
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charitable
 	trait = fair
@@ -1295,7 +1298,7 @@
 	name = "Michael"
 	# AKA: Mikhael
 	dynasty = 637
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1790
 	mother = 70481
@@ -1303,7 +1306,7 @@
 		birth = yes
 	}
 	1042.4.20 = {
-	trait = blinded
+		trait = blinded
 	}
 	1042.8.24 = {
 		death = yes
@@ -1313,7 +1316,7 @@
 1726 = {
 	name = "Konstantinos"
 	dynasty = 636
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 20560
 	1000.1.1 = {
@@ -1321,6 +1324,9 @@
 	}
 	1042.6.11 = {
 		add_spouse = 1717
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1055.1.1 = {
 		death = yes
@@ -1332,13 +1338,16 @@
 	# AKA: Irene
 	female = yes
 	dynasty = 636
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = bastard
 	father = 1726
 	mother = 41313
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1067.1.1 = {
 		death = yes
@@ -1348,11 +1357,14 @@
 1730 = {
 	name = "Isaakios"
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1750
 	1007.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1056.1.1 = {
 		add_spouse = 729
@@ -1369,7 +1381,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = arbitrary
 	trait = trusting
@@ -1384,6 +1396,9 @@
 	1050.1.1 = {
 		add_spouse = 1733
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1067.5.22 = {
 		death = yes
 	}
@@ -1397,7 +1412,7 @@
 	diplomacy = 3
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = shrewd
 	trait = humble
@@ -1406,6 +1421,9 @@
 	father = 20528
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1096.1.1 = {
 		death = yes
@@ -1419,7 +1437,7 @@
 	diplomacy = 5
 	intrigue = 2
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = honest
 	trait = brave
@@ -1431,6 +1449,9 @@
 	}
 	1045.1.1 = {
 		add_spouse = 725
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1068.8.1 = {
 		add_spouse = 1733
@@ -1446,12 +1467,15 @@
 1735 = {
 	name = "Konstantinos"
 	dynasty = 632
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1734
 	mother = 725
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1070.1.1 = {
 		add_spouse = 4558
@@ -1473,7 +1497,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = arbitrary
 	trait = slothful
@@ -1484,6 +1508,9 @@
 	mother = 1733
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1060.1.1 = {
 		effect = { give_minor_title = title_despot}
@@ -1507,7 +1534,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = thrifty_clerk
 	father = 1798
@@ -1522,12 +1549,15 @@
 1740 = {
 	name = "Nikephoros"
 	dynasty = 631
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	father = 90033
 	1002.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1071.8.26 = {
 		add_claim = e_byzantium
@@ -1618,7 +1648,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = cynical
 	trait = flamboyant_schemer
@@ -1634,7 +1664,7 @@
 1746 = {
 	name = "Ioannes"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1744
 	1010.1.2 = {
@@ -1642,6 +1672,9 @@
 	}
 	1045.1.1 = {
 		add_spouse = 1783
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1088.5.12 = {
 		death = yes
@@ -1651,12 +1684,15 @@
 1748 = {
 	name = "Andronikos"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1746
 	mother = 1783
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1060.1.1 = {
 		add_spouse = 727
@@ -1670,12 +1706,15 @@
 	name = "Anna"
 	female = yes
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1732
 	mother = 1733
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -1686,7 +1725,7 @@
 	name = "Manuel"
 	# AKA: Manouel
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	950.1.1 = {
 		birth = yes
@@ -1699,7 +1738,7 @@
 1752 = {
 	name = "Ioannes"
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1750
 	1015.1.1 = {
@@ -1707,6 +1746,9 @@
 	}
 	1042.1.1 = {
 		add_spouse = 4511
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1061.1.1 = {
 		add_claim = "e_byzantium"
@@ -1723,12 +1765,15 @@
 	name = "Manuel"
 	# AKA: Manouel
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1752
 	mother = 4511
 	1043.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1071.4.17 = {
 		death = yes
@@ -1738,12 +1783,15 @@
 1758 = {
 	name = "Isaakios"
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1752
 	mother = 4511
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1072.1.1 = {
 		add_spouse = 9958
@@ -1793,7 +1841,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = wroth
 	trait = charismatic_negotiator
@@ -1802,6 +1850,9 @@
 	}
 	1049.1.2 = {
 		add_spouse = 1765
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1081.10.18 = {
 		death = yes
@@ -1817,13 +1868,16 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charitable
 	trait = zealous
 	trait = thrifty_clerk
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1092.1.1 = {
 		death = yes
@@ -1837,11 +1891,14 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = misguided_warrior
 	1028.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -1855,7 +1912,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = honest
 	trait = tough_soldier
@@ -1875,7 +1932,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = amateurish_plotter
 	father = 145151
@@ -1895,7 +1952,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = chaste
  	trait = craven
@@ -1917,7 +1974,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = cynical
@@ -1940,7 +1997,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = clubfooted
 	trait = underhanded_rogue
@@ -1960,7 +2017,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = underhanded_rogue
 	father = 1768
@@ -1979,7 +2036,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = underhanded_rogue
 	father = 1774
@@ -1998,7 +2055,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = thrifty_clerk
 	father = 1792
@@ -2017,7 +2074,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = honest
 	trait = proud
@@ -2075,13 +2132,16 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = honest
 	trait = ill
 	trait = indulgent_wastrel
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1066.9.8 = {
 		death = yes
@@ -2091,12 +2151,15 @@
 1785 = {
 	name = "Konstantinos"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1746
 	mother = 1783
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1062.1.1 = {
 		add_spouse = 41300
@@ -2113,7 +2176,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = craven
 	trait = scholarly_theologian
@@ -2135,7 +2198,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 145154
@@ -2155,7 +2218,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = zealous
 	trait = misguided_warrior
@@ -2176,12 +2239,15 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = gluttonous
 	trait = skilled_tactician
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -2253,7 +2319,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = honest
 	trait = tough_soldier
@@ -2261,8 +2327,11 @@
 	1034.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
-	employer = 20484
+		employer = 20484
 	}
 	1074.1.1 = {
 		death = yes
@@ -2276,13 +2345,16 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = harelip
 	trait = flamboyant_schemer
 	father = 20487
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.1.1 = {
 		death = yes
@@ -2296,11 +2368,14 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = mastermind_theologian
 	1005.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1060.1.1 = {
 		death = yes
@@ -2314,7 +2389,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = flamboyant_schemer
 	father = 20487
@@ -2323,6 +2398,9 @@
 	}
 	1050.1.1 = {
 		add_spouse = 90034
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1070.1.1 = {
 		death = yes
@@ -2336,7 +2414,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = envious
 	trait = ill
@@ -2345,6 +2423,9 @@
 	mother = 1739
 	1011.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1068.1.1 = {
 		death = yes
@@ -2358,13 +2439,16 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charitable
 	trait = amateurish_plotter
 	father = 30820
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.11.1 = {
 		death = yes
@@ -2379,7 +2463,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = gregarious
 	trait = proud
@@ -2387,6 +2471,9 @@
 	father = 90089
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.1.1 = {
 		trait = blinded
@@ -2403,7 +2490,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = proud
 	trait = cynical
@@ -2426,7 +2513,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = lustful
 	trait = wroth
@@ -2434,6 +2521,9 @@
 	father = 70425
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -2447,7 +2537,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = chaste
 	trait = flamboyant_schemer
@@ -2455,8 +2545,11 @@
 	1040.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
-	employer = 20508
+		employer = 20508
 	}
 	1115.1.1 = {
 		death = yes
@@ -2470,12 +2563,15 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = amateurish_plotter
 	father = 20509
 	990.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1060.1.1 = {
 		death = yes
@@ -2489,12 +2585,15 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = misguided_warrior
 	father = 20507
 	1010.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -2508,7 +2607,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = humble
 	trait = tough_soldier
@@ -2527,7 +2626,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = patient
 	trait = tough_soldier
@@ -2549,12 +2648,15 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = honest
 	trait = skilled_tactician
 	1043.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1107.10.1 = {
 		death = yes
@@ -2568,11 +2670,14 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -2587,12 +2692,15 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 20528
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -2606,7 +2714,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = arbitrary
 	trait = patient
@@ -2615,6 +2723,9 @@
 	father = 20528
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1097.1.1 = {
 		death = yes
@@ -2628,7 +2739,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = chaste
 	trait = humble
@@ -2637,6 +2748,9 @@
 	father = 70430
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1093.1.1 = {
 		death = yes
@@ -2650,13 +2764,16 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = brilliant_strategist
 	father = 20504
 	mother = 70410
 	1027.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1073.1.1 = {
 		death = yes
@@ -2667,10 +2784,13 @@
 	name = "Manuel"
 	# AKA: Manouel
 	dynasty = 195
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1108.1.1 = {
 		death = yes
@@ -2684,7 +2804,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = armenian
 	trait = kind
 	trait = wroth
@@ -2709,7 +2829,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = deceitful
 	trait = arbitrary
@@ -2740,6 +2860,9 @@
 	1030.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1087.1.1 = {
 		death = yes
 	}
@@ -2752,12 +2875,15 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = slothful
 	trait = amateurish_plotter
 	1001.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1074.1.1 = {
 		death = yes
@@ -2771,13 +2897,16 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = slothful
 	trait = flamboyant_schemer
 	father = 41315
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1105.1.1 = {
 		death = yes
@@ -2787,10 +2916,13 @@
 20527 = {
 	name = "Theodoros"
 	dynasty = 101102
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -2804,7 +2936,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = patient
 	trait = envious
@@ -2825,12 +2957,15 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 20537
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1107.1.1 = {
 		death = yes
@@ -2844,12 +2979,15 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	father = 30821
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1107.9.1 = {
 		death = yes
@@ -2863,7 +3001,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = lustful
 	trait = greedy
@@ -2871,6 +3009,9 @@
 	father = 20537
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1123.1.1 = {
 		death = yes
@@ -2880,7 +3021,7 @@
 20534 = {
 	name = "Bardas"
 	dynasty = 641
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = patient
 	trait = ill
@@ -2896,6 +3037,9 @@
 	1054.1.1 = {
 		add_spouse = 159288
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1067.1.1 = {
 		death = yes
 	}
@@ -2908,7 +3052,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	trait = shy
@@ -2916,6 +3060,9 @@
 	mother = 159288
 	1054.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1115.1.1 = {
 		death = yes
@@ -2929,11 +3076,14 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -2947,12 +3097,15 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = zealous
 	trait = martial_cleric
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -2966,7 +3119,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = humble
 	trait = brave
@@ -2975,6 +3128,9 @@
 	trait = brilliant_strategist
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1062.1.1 = {
 		add_spouse = 41593
@@ -2991,7 +3147,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charitable
 	trait = just
@@ -2999,6 +3155,9 @@
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -3012,7 +3171,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = lustful
 	trait = charitable
@@ -3020,6 +3179,9 @@
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -3033,7 +3195,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = lustful
 	trait = slothful
@@ -3041,6 +3203,9 @@
 	trait = underhanded_rogue
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -3054,12 +3219,15 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = martial_cleric
 	father = 145178
 	1026.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -3074,7 +3242,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = armenian
 	trait = chaste
 	trait = greedy
@@ -3098,13 +3266,16 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = clubfooted
 	trait = deceitful
 	trait = intricate_webweaver
 	1013.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1074.1.1 = {
 		death = yes
@@ -3118,7 +3289,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 20509
@@ -3137,7 +3308,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = temperate
 	trait = underhanded_rogue
@@ -3145,6 +3316,9 @@
 	mother = 70436
 	1037.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.1.1 = {
 		death = yes
@@ -3159,7 +3333,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charitable
 	trait = arbitrary
@@ -3167,6 +3341,9 @@
 	trait = amateurish_plotter
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -3180,7 +3357,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = armenian
 	trait = gluttonous
 	trait = skilled_tactician
@@ -3631,7 +3808,7 @@
 		birth = yes
 	}
 	1190.1.1 = {
-	trait = blinded
+		trait = blinded
 	}
 	1220.1.1 = {
 		death = yes
@@ -5864,7 +6041,7 @@
 30820 = {
 	name = "Ioannes"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163080
 	990.1.1 = {
@@ -5878,11 +6055,14 @@
 30821 = {
 	name = "Ioannes" #I
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 30820
 	1028.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1070.1.1 = {
 		death = yes
@@ -6073,7 +6253,7 @@
 	name = "Anna"
 	female = yes
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1710
 	mother = 1711
@@ -6093,11 +6273,14 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = flamboyant_schemer
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1111.1.1 = {
 		death = yes
@@ -6129,12 +6312,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = thrifty_clerk
 	father = 145143
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1066.7.1 = {
 		add_spouse = 4538
@@ -6171,7 +6357,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = proud
 	trait = cynical
@@ -6180,8 +6366,11 @@
 	1018.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
-	employer = 1732
+		employer = 1732
 	}
 	1096.1.1 = {
 		death = yes
@@ -6195,12 +6384,15 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = proud
 	trait = skilled_tactician
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1079.1.1 = {
 		death = yes
@@ -6214,7 +6406,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1798
 	972.1.1 = {
@@ -6234,7 +6426,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 41310
 	1016.1.1 = {
@@ -6252,12 +6444,15 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	father = 41310
 	1015.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1058.1.1 = {
 		death = yes
@@ -6272,7 +6467,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = thrifty_clerk
 	father = 41314
@@ -6291,7 +6486,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = thrifty_clerk
 	father = 1778
@@ -6310,7 +6505,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = proud
 	trait = lustful
@@ -6322,6 +6517,9 @@
 	}
 	1010.1.1 = {
 		add_spouse = 1739
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1057.1.1 = {
 		death = yes
@@ -6335,7 +6533,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	father = 145147
@@ -6354,7 +6552,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 41316
 	880.1.1 = {
@@ -6373,7 +6571,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 41317
 	mother = 262240
@@ -6392,7 +6590,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 41318
 	936.1.1 = {
@@ -6410,7 +6608,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 41319
 	969.1.1 = {
@@ -6453,7 +6651,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 41535
 	mother = 41323
@@ -6472,12 +6670,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = thrifty_clerk
 	father = 41536
 	1024.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1062.1.1 = {
 		add_spouse = 4533
@@ -6495,7 +6696,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 41318
 	930.1.1 = {
@@ -6535,7 +6736,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1798
 	980.1.1 = {
@@ -6553,12 +6754,15 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 41310
 	1017.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1070.1.1 = {
 		death = yes
@@ -6572,7 +6776,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = craven
 	trait = deceitful
@@ -6581,8 +6785,11 @@
 	1049.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
-	employer = 1732
+		employer = 1732
 	}
 	1099.1.1 = {
 		death = yes
@@ -6596,7 +6803,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = charitable
@@ -6606,6 +6813,9 @@
 	mother = 1765
 	1054.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1081.1.1 = {
 		add_spouse = 34436
@@ -6623,15 +6833,18 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = poet
 	trait = naive_appeaser
 	1040.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
-	employer = 1732
+		employer = 1732
 	}
 	1101.1.1 = {
 		death = yes
@@ -6645,15 +6858,18 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = just
 	trait = fortune_builder
 	1017.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
-	employer = 1732
+		employer = 1732
 	}
 	1085.1.1 = {
 		death = yes
@@ -6677,7 +6893,7 @@
 		birth = yes
 	}
 	1066.1.1 = {
-	employer = 20488
+		employer = 20488
 	}
 	1107.1.1 = {
 		death = yes
@@ -6691,12 +6907,15 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = proud
 	trait = amateurish_plotter
 	1024.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1080.1.1 = {
 		death = yes
@@ -6711,11 +6930,14 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = underhanded_rogue
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.4.27 = {
 		death = yes
@@ -6726,12 +6948,15 @@
 	name = "Maria"
 	female = yes
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1752
 	mother = 4511
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1109.8.18 = {
 		death = yes
@@ -6742,12 +6967,15 @@
 	name = "Eudokia"
 	female = yes
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1752
 	mother = 4511
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -6758,12 +6986,15 @@
 	name = "Theodora"
 	female = yes
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1752
 	mother = 4511
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1095.1.1 = {
 		death = yes
@@ -6824,12 +7055,12 @@
 		birth = yes
 	}
 	1326.10.1 = {
-	name = "Anna"
-	religion = orthodox
-	culture = greek
+		name = "Anna"
+		religion = orthodox
+		culture = greek
 	}
 	1360.1.1 = {
-	name = "Anastasia"
+		name = "Anastasia"
 	# AKA: Anna
 	}
 	1365.1.1 = {
@@ -8188,7 +8419,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = arbitrary
 	trait = greedy
@@ -8211,7 +8442,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = poet
 	trait = diligent
@@ -8221,6 +8452,9 @@
 
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1110.1.1 = {
 		death = yes
@@ -8234,7 +8468,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	trait = cynical
@@ -8244,6 +8478,9 @@
 
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1116.1.1 = {
 		death = yes
@@ -8257,7 +8494,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = temperate
@@ -8265,6 +8502,9 @@
 
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.1.1 = {
 		death = yes
@@ -8278,7 +8518,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholar
 	trait = temperate
@@ -8298,7 +8538,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = kind
 	trait = hunter
@@ -8320,7 +8560,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = quick
 	trait = diligent
@@ -8329,6 +8569,9 @@
 
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -8342,7 +8585,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = patient
 	trait = ugly
@@ -8351,6 +8594,9 @@
 
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1097.1.1 = {
 		death = yes
@@ -8383,11 +8629,14 @@
 	name = "Eudokia"
 	dynasty = 634
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1750
 	1012.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1070.1.1 = {
 		death = yes
@@ -8401,7 +8650,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = brave
 	trait = proud
@@ -8439,7 +8688,7 @@
 70425 = {
 	name = "Ioannes"
 	dynasty = 101074
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1000.1.1 = {
 		birth = yes
@@ -8452,11 +8701,14 @@
 70426 = {
 	name = "Georgios"
 	dynasty = 101074
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 20505
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -8466,11 +8718,14 @@
 70427 = {
 	name = "Nikephoros"
 	dynasty = 101074
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 70425
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -8498,7 +8753,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = temperate
 	trait = hunter
@@ -8507,6 +8762,9 @@
 
 	1012.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1056.1.1 = {
 		death = yes
@@ -8520,7 +8778,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = brave
 	trait = skilled_tactician
@@ -8537,11 +8795,14 @@
 	name = "Michael"
 	# AKA: Mikhael
 	dynasty = 101225
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 70431
 	1009.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1057.10.1 = {
 		death = yes
@@ -8555,7 +8816,7 @@
 	diplomacy = 4
 	intrigue = 3
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = deceitful
 	trait = greedy
@@ -8575,11 +8836,14 @@
 	name = "Theodora"
 	dynasty = 101074
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 70425
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -8593,7 +8857,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = just
 	trait = humble
@@ -8615,7 +8879,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = kind
 	trait = mystic
@@ -8638,7 +8902,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = gregarious
 	trait = drunkard
@@ -8750,7 +9014,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	793.1.1 = {
 		add_spouse = 70495
@@ -8759,7 +9023,7 @@
 		religion = iconoclast
 	}
 	842.2.19 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	844.1.11 = {
 		death = yes
@@ -8774,7 +9038,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charitable
 	trait = fair
@@ -8795,7 +9059,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = hedonist
 	trait = tough_soldier
@@ -8826,7 +9090,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = cynical
 	trait = arbitrary
@@ -8848,7 +9112,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	trait = deceitful
@@ -8876,7 +9140,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = craven
 	trait = paranoid
@@ -8889,7 +9153,7 @@
 	}
     797.8.10 = {
 		trait = blinded
-}
+	}
 	797.8.15 = {
 		death = yes
 	}
@@ -8985,7 +9249,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = zealous
 	trait = shy
@@ -9007,7 +9271,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = deceitful
 	trait = impaler
@@ -9028,7 +9292,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = proud
 	trait = deceitful
@@ -9050,7 +9314,7 @@
 	diplomacy = 3
 	intrigue = 8
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = arbitrary
 	trait = flamboyant_schemer
@@ -9081,7 +9345,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = content
 	trait = diligent
@@ -9103,7 +9367,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = arbitrary
 	trait = paranoid
@@ -9125,7 +9389,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ill
 	trait = content
@@ -9147,7 +9411,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = brave
 	trait = scholar
@@ -9168,7 +9432,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = mystic
 	trait = amateurish_plotter
@@ -9193,7 +9457,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = temperate
 	trait = trusting
@@ -9220,7 +9484,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = honest
 	trait = patient
@@ -9245,7 +9509,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = kind
 	trait = ill
@@ -9269,7 +9533,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = trusting
 	trait = content
@@ -9291,7 +9555,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = envious
 	trait = greedy
@@ -9313,7 +9577,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = humble
 	trait = kind
@@ -9334,7 +9598,7 @@
 	diplomacy = 8
 	intrigue = 3
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = just
 	trait = honest
@@ -9342,6 +9606,9 @@
 
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1064.1.1 = {
 		death = yes
@@ -9355,7 +9622,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	trait = deceitful
@@ -9363,6 +9630,9 @@
 
 	995.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1059.1.1 = {
 		death = yes
@@ -9376,7 +9646,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = trusting
@@ -9397,7 +9667,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = content
 	trait = humble
@@ -9418,7 +9688,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = cynical
 	#trait = zealous
@@ -9439,7 +9709,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = chaste
@@ -9460,7 +9730,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = mystic
 	trait = trusting
@@ -9481,7 +9751,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	trait = mystic
@@ -9498,7 +9768,7 @@
 70548 = {
 	name = "Theophylaktos"
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = eunuch
 	trait = slothful
@@ -9519,7 +9789,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = patient
 	trait = chaste
@@ -9539,7 +9809,7 @@
 	diplomacy = 3
 	intrigue = 3
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = content
 	trait = detached_priest
@@ -9559,7 +9829,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = deceitful
 	trait = ambitious
@@ -9580,7 +9850,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholar
 	trait = trusting
@@ -9601,7 +9871,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = born_in_the_purple
 	trait = celibate
@@ -9629,7 +9899,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	trait = scholar
@@ -9650,7 +9920,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = just
@@ -9715,7 +9985,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = paranoid
@@ -9778,7 +10048,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = deceitful
 	trait = detached_priest
@@ -9819,7 +10089,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = gregarious
 	trait = zealous
@@ -9840,7 +10110,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = content
 	trait = detached_priest
@@ -9860,7 +10130,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = mystic
@@ -9881,7 +10151,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	trait = maimed
@@ -9902,7 +10172,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = mystic
@@ -9923,7 +10193,7 @@
 	diplomacy = 3
 	intrigue = 3
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = just
 	trait = celibate
@@ -9943,7 +10213,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = cynical
 	trait = celibate
@@ -9963,7 +10233,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholar
 	trait = just
@@ -9984,7 +10254,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = chaste
 	trait = diligent
@@ -10005,7 +10275,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = proud
 	trait = just
@@ -10026,7 +10296,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholar
 	trait = ambitious
@@ -10047,7 +10317,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = trusting
 	trait = honest
@@ -10068,7 +10338,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = mystic
@@ -10089,7 +10359,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = mystic
 	trait = just
@@ -10110,7 +10380,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = cynical
 	trait = ambitious
@@ -10131,7 +10401,7 @@
 	diplomacy = 3
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = slothful
 	trait = charitable
@@ -10152,7 +10422,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = just
 	trait = trusting
@@ -10173,7 +10443,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = zealous
 	trait = diligent
@@ -10215,7 +10485,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = trusting
 	trait = gregarious
@@ -10236,7 +10506,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = deceitful
 	trait = arbitrary
@@ -10257,7 +10527,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = arbitrary
 	trait = paranoid
@@ -10278,7 +10548,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = mystic
 	trait = just
@@ -10299,7 +10569,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholar
 	trait = detached_priest
@@ -10319,7 +10589,7 @@
 	diplomacy = 5
 	intrigue = 3
 	stewardship = 9
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = mystic
 	trait = just
@@ -10340,7 +10610,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholar
 	trait = just
@@ -10362,7 +10632,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = mystic
 	trait = mastermind_theologian
@@ -10383,7 +10653,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	trait = cynical
@@ -10404,7 +10674,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = ambitious
 	trait = detached_priest
@@ -10424,7 +10694,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = trusting
 	trait = ambitious
@@ -10445,7 +10715,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = gregarious
 	trait = content
@@ -10466,7 +10736,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = honest
 	trait = kind
@@ -10487,7 +10757,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = mystic
 	trait = honest
@@ -10507,7 +10777,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charitable
 	trait = scholar
@@ -10529,7 +10799,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 9
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholar
 	trait = diligent
@@ -10550,7 +10820,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = temperate
 	trait = celibate
@@ -10571,13 +10841,16 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = just
 	trait = humble
 	trait = detached_priest
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1066.1.1 = {
 		employer = 41304
@@ -10597,13 +10870,16 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = deceitful
 	trait = ambitious
 	trait = detached_priest
 	1028.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1066.1.1 = {
 		piety = 30
@@ -10620,7 +10896,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholar
 	trait = temperate
@@ -10628,11 +10904,14 @@
 	1035.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	#1066.1.1 = {
 	#employer = 1758
 	#}
 	1066.1.1 = {
-	piety = 10
+		piety = 10
 	}
 	1111.5.1 = {
 		death = yes
@@ -10646,12 +10925,15 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = underhanded_rogue
 	father = 724
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1088.1.1 = {
 		death = yes
@@ -10660,7 +10942,7 @@
 
 7605 = {
 	name = "Eleutherius"
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10670,7 +10952,7 @@
 		birth = yes
 	}
 	174.1.1 = {
-	name = "Eleutherius"
+		name = "Eleutherius"
 	# AKA: Hegesippus
 	}
 	189.1.1 = {
@@ -10680,7 +10962,7 @@
 
 7606 = {
 	name = "Soterius"
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	120.1.1 = {
 		birth = yes
@@ -10696,7 +10978,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10706,7 +10988,7 @@
 		birth = yes
 	}
 	154.1.1 = {
-	name = "Anicetus"
+		name = "Anicetus"
 	# AKA: Polycarp
 	}
 	167.4.20 = {
@@ -10720,7 +11002,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10730,7 +11012,7 @@
 		birth = yes
 	}
 	140.1.1 = {
-	name = "Pius"
+		name = "Pius"
 	# AKA: Hermas
 	}
 	154.1.1 = {
@@ -10744,7 +11026,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10754,7 +11036,7 @@
 		birth = yes
 	}
 	137.1.1 = {
-	name = "Hyginus"
+		name = "Hyginus"
 	# AKA: Irenaeus
 	}
 	140.1.1 = {
@@ -10768,7 +11050,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10778,7 +11060,7 @@
 		birth = yes
 	}
 	125.1.1 = {
-	name = "Telesphorus"
+		name = "Telesphorus"
 	# AKA: Antonius
 	}
 	137.1.1 = {
@@ -10792,7 +11074,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10802,7 +11084,7 @@
 		birth = yes
 	}
 	115.1.1 = {
-	name = "Sixtus"
+		name = "Sixtus"
 	# AKA: Xystus
 	}
 	125.1.1 = {
@@ -10816,7 +11098,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10826,7 +11108,7 @@
 		birth = yes
 	}
 	107.1.1 = {
-	name = "Alexander"
+		name = "Alexander"
 	# AKA: Hadrian
 	}
 	115.1.1 = {
@@ -10840,7 +11122,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10850,7 +11132,7 @@
 		birth = yes
 	}
 	99.1.1 = {
-	name = "Evaristus"
+		name = "Evaristus"
 	# AKA: Yeshua
 	}
 	107.1.1 = {
@@ -10864,7 +11146,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10874,7 +11156,7 @@
 		birth = yes
 	}
 	92.1.1 = {
-	name = "Clemens"
+		name = "Clemens"
 	# AKA: Tertullian
 	}
 	99.1.1 = {
@@ -10888,7 +11170,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10898,7 +11180,7 @@
 		birth = yes
 	}
 	79.1.1 = {
-	name = "Anacletus"
+		name = "Anacletus"
 	# AKA: Cletus
 	}
 	92.1.1 = {
@@ -10928,7 +11210,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10938,7 +11220,7 @@
 		birth = yes
 	}
 	741.11.28 = {
-	name = "Zacharias"
+		name = "Zacharias"
 	# AKA: Zacharias
 	}
 	752.3.14 = {
@@ -10952,7 +11234,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10962,7 +11244,7 @@
 		birth = yes
 	}
 	731.2.11 = {
-	name = "Gregorius"
+		name = "Gregorius"
 	# AKA: Zacharias
 	}
 	741.11.28 = {
@@ -10976,7 +11258,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -10986,7 +11268,7 @@
 		birth = yes
 	}
 	708.2.4 = {
-	name = "Constantinus"
+		name = "Constantinus"
 	# AKA: Constantinus
 	}
 	715.4.9 = {
@@ -11000,7 +11282,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11010,7 +11292,7 @@
 		birth = yes
 	}
 	707.10.18 = {
-	name = "Sisinnius"
+		name = "Sisinnius"
 	# AKA: John
 	}
 	708.2.4 = {
@@ -11024,7 +11306,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11034,7 +11316,7 @@
 		birth = yes
 	}
 	705.1.11 = {
-	name = "Ioannes"
+		name = "Ioannes"
 	# AKA: Plato
 	}
 	707.10.18 = {
@@ -11048,7 +11330,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11058,7 +11340,7 @@
 		birth = yes
 	}
 	701.9.8 = {
-	name = "Ioannes"
+		name = "Ioannes"
 	# AKA: Plato
 	}
 	705.1.11 = {
@@ -11072,7 +11354,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11082,7 +11364,7 @@
 		birth = yes
 	}
 	687.9.21 = {
-	name = "Sergius"
+		name = "Sergius"
 	# AKA: Plato
 	}
 	701.9.8 = {
@@ -11096,7 +11378,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11106,7 +11388,7 @@
 		birth = yes
 	}
 	686.8.2 = {
-	name = "Conon"
+		name = "Conon"
 	# AKA: Plato
 	}
 	687.9.21 = {
@@ -11120,7 +11402,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11130,7 +11412,7 @@
 		birth = yes
 	}
 	685.5.8 = {
-	name = "Ioannes"
+		name = "Ioannes"
 	# AKA: Plato
 	}
 	686.8.2 = {
@@ -11144,7 +11426,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11154,7 +11436,7 @@
 		birth = yes
 	}
 	678.4.11 = {
-	name = "Agatho"
+		name = "Agatho"
 	# AKA: Paulus
 	}
 	681.1.10 = {
@@ -11168,7 +11450,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11178,7 +11460,7 @@
 		birth = yes
 	}
 	676.6.17 = {
-	name = "Donus"
+		name = "Donus"
 	# AKA: Mauricius
 	}
 	678.4.11 = {
@@ -11192,7 +11474,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11202,7 +11484,7 @@
 		birth = yes
 	}
 	642.10.12 = {
-	name = "Theodorus"
+		name = "Theodorus"
 	# AKA: Rufinianus
 	}
 	649.5.14 = {
@@ -11216,7 +11498,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -11226,7 +11508,7 @@
 		birth = yes
 	}
 	606.2.22 = {
-	name = "Bonifatius"
+		name = "Bonifatius"
 	# AKA: John
 	}
 	607.11.12 = {
@@ -11242,7 +11524,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = wroth
 	trait = naive_appeaser
@@ -11263,13 +11545,16 @@
 	diplomacy = 4
 	intrigue = 3
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	trait = brave
 	father = 20486
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1101.1.1 = {
 		death = yes
@@ -11283,12 +11568,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = elusive_shadow
 	father = 260815
 	984.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1060.1.1 = {
 		death = yes
@@ -11303,7 +11591,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = kind
 	trait = temperate
@@ -11311,6 +11599,9 @@
 	father = 90033
 	1033.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.1.1 = {
 		death = yes
@@ -11346,13 +11637,16 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = slothful
 	trait = tough_soldier
 	father = 20559
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1112.1.1 = {
 		death = yes
@@ -11366,12 +11660,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = content
 	trait = flamboyant_schemer
 	1009.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1057.1.1 = {
 		death = yes
@@ -11385,13 +11682,16 @@
 	diplomacy = 5
 	intrigue = 3
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = chaste
 	trait = misguided_warrior
 	father = 90089
 	1037.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.1.1 = {
 		death = yes
@@ -11405,12 +11705,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = cynical
 	trait = skilled_tactician
 	1012.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1056.1.1 = {
 		death = yes
@@ -11424,7 +11727,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = just
 	trait = stutter
@@ -11432,6 +11735,9 @@
 	father = 90091
 	1041.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1098.1.1 = {
 		death = yes
@@ -11445,7 +11751,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = patient
 	trait = brave
@@ -11454,6 +11760,9 @@
 	father = 90091
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1093.1.1 = {
 		death = yes
@@ -12147,7 +12456,7 @@
 145038 = {
 	name = "Sisinnios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	940.1.1 = {
@@ -12161,7 +12470,7 @@
 145039 = {
 	name = "Polyeuktos"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	900.1.1 = {
@@ -12175,7 +12484,7 @@
 145040 = {
 	name = "Tryphon"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = martial_cleric
 	880.1.1 = {
@@ -12189,7 +12498,7 @@
 145041 = {
 	name = "Methodios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	780.1.1 = {
@@ -12218,7 +12527,7 @@
 145043 = {
 	name = "Tarasios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	740.1.1 = {
@@ -12232,7 +12541,7 @@
 145044 = {
 	name = "Pyrros"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = martial_cleric
 	600.1.1 = {
@@ -12246,7 +12555,7 @@
 145045 = {
 	name = "Minas"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	490.1.1 = {
@@ -12260,7 +12569,7 @@
 145046 = {
 	name = "Epiphanios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	470.1.1 = {
@@ -12274,7 +12583,7 @@
 145047 = {
 	name = "Makedonios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	450.1.1 = {
@@ -12288,7 +12597,7 @@
 145048 = {
 	name = "Euphemios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	450.1.1 = {
@@ -12302,7 +12611,7 @@
 145049 = {
 	name = "Fravitas"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = martial_cleric
 	430.1.1 = {
@@ -12316,7 +12625,7 @@
 145050 = {
 	name = "Flavianos"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	390.1.1 = {
@@ -12330,7 +12639,7 @@
 145051 = {
 	name = "Proklos"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	385.1.1 = {
@@ -12344,7 +12653,7 @@
 145052 = {
 	name = "Maximianos"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	370.1.1 = {
@@ -12372,7 +12681,7 @@
 145054 = {
 	name = "Sisinnios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	370.1.1 = {
@@ -12386,7 +12695,7 @@
 145055 = {
 	name = "Attikos"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	360.1.1 = {
@@ -12400,7 +12709,7 @@
 145056 = {
 	name = "Arsakios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = martial_cleric
 	320.1.1 = {
@@ -12414,7 +12723,7 @@
 145057 = {
 	name = "Dimophilos"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = martial_cleric
 	320.1.1 = {
@@ -12428,7 +12737,7 @@
 145058 = {
 	name = "Evagrios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = martial_cleric
 	320.1.1 = {
@@ -12442,7 +12751,7 @@
 145059 = {
 	name = "Eudoxios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	300.1.1 = {
@@ -12456,7 +12765,7 @@
 145060 = {
 	name = "Makedonios"
 	dynasty = 8649
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = scholarly_theologian
 	300.1.1 = {
@@ -12470,7 +12779,7 @@
 145061 = {
 	name = "Metrophanes"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = martial_cleric
 	250.1.1 = {
@@ -12548,12 +12857,15 @@
 34265 = {
 	name = "Aron" #real name unknown
 	dynasty = 702
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = legit_bastard
 	father = 20486
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1090.1.1 = {
 		death = yes
@@ -13227,10 +13539,13 @@
 34343 = {
 	name = "Konstantinos"
 	dynasty = 7304
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1105.1.1 = {
 		death = yes
@@ -13302,10 +13617,13 @@
 34348 = {
 	name = "Eumathios"
 	dynasty = 101463
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1118.1.1 = {
 		death = yes
@@ -13321,7 +13639,7 @@
 	stewardship = 3
 	learning = 2
 	diplomacy = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = armenian
 	trait = brilliant_strategist
 	trait = shrewd
@@ -14429,12 +14747,15 @@
 34571 = {
 	name = "Stefanos"
 	dynasty = 101088
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 20504
 	mother = 70410
 	1029.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1073.1.1 = {
 		death = yes
@@ -14551,7 +14872,7 @@
 34579 = {
 	name = "Marianos"
 	dynasty = 101078
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1000.1.1 = {
 		birth = yes
@@ -14564,11 +14885,14 @@
 34580 = {
 	name = "Demetrios"
 	dynasty = 101078
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 34579
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1115.1.1 = {
 		death = yes
@@ -15040,7 +15364,7 @@
 145069 = {
 	name = "Tiberios"
 	dynasty = 1022179
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = proud
 	trait = deceitful
@@ -15057,7 +15381,7 @@
 	name = "Herakleonas"
 	# AKA: Konstantinos Herakleios
 	dynasty = 1022137
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145071
 	626.1.1 = {
@@ -15069,28 +15393,28 @@
 }
 
 145071 = {
-	 name = "Herakleios"
-	 dynasty = 1022137
-	 religion = orthodox
-	 culture = greek
-	 trait = diligent
-	 trait = brave
-	 trait = proud
-	 trait = just
-	 trait = skilled_tactician
-	 trait = crusader
-	 575.1.1 = {
+	name = "Herakleios"
+	dynasty = 1022137
+	religion = chalcedonian
+	culture = greek
+	trait = diligent
+	trait = brave
+	trait = proud
+	trait = just
+	trait = skilled_tactician
+	trait = crusader
+	575.1.1 = {
 		birth = yes
 	}
-	 641.2.11 = {
-		 death = yes
+	641.2.11 = {
+	 death = yes
 	}
 }
 
 145072 = {
 	name = "Phokas"
 	dynasty = 1022183
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = envious
 	trait = proud
@@ -15110,7 +15434,7 @@
 145073 = {
 	name = "Tiberios"
 	dynasty = 1022185
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charitable
 	trait = temperate
@@ -15189,48 +15513,48 @@
 }
 
 145080 = {
-	 name = "Evdokia"
-	 female = yes
-	 dynasty = 634
-	 religion = orthodox
-	 culture = greek
-	 father = 125720
-	 mother = 145079
-	 1256.1.1 = {
-		  birth = yes
+	name = "Evdokia"
+	female = yes
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	father = 125720
+	mother = 145079
+	1256.1.1 = {
+		birth = yes
 	}
-	 1310.1.1 = {
-		  death = yes
+	1310.1.1 = {
+		death = yes
 	}
 }
 
 145082 = {
-	  name = "Michael"
-	  dynasty = 634
-	  religion = orthodox
-	  culture = greek
-	  father = 465810
-	  mother = 466751
-	  1313.1.2 = {
-		    birth = yes
+	name = "Michael"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	father = 465810
+	mother = 466751
+	1313.1.2 = {
+		birth = yes
 	}
-	  1330.5.3 = {
-		    death = yes
+	1330.5.3 = {
+		death = yes
 	}
 }
 
 145083 = {
-	  name = "Georgios"
-	  dynasty = 634
-	  religion = orthodox
-	  culture = greek
-	  father = 465810
-	  mother = 466751
-	  1314.1.2 = {
-		    birth = yes
+	name = "Georgios"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	father = 465810
+	mother = 466751
+	1314.1.2 = {
+		birth = yes
 	}
-	  1330.5.3 = {
-		    death = yes
+	1330.5.3 = {
+		death = yes
 	}
 }
 
@@ -15264,7 +15588,7 @@
 145086 = {
 	name = "Probos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15279,7 +15603,7 @@
 145087 = {
 	name = "Rufinos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15294,7 +15618,7 @@
 145088 = {
 	name = "Dometios"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15309,7 +15633,7 @@
 145089 = {
 	name = "Titos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15324,7 +15648,7 @@
 145090 = {
 	name = "Kastinos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15339,7 +15663,7 @@
 145091 = {
 	name = "Philadelphos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15354,7 +15678,7 @@
 145092 = {
 	name = "Olympianos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15369,7 +15693,7 @@
 145093 = {
 	name = "Pertinax"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15384,7 +15708,7 @@
 145094 = {
 	name = "Alypios"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15399,7 +15723,7 @@
 145095 = {
 	name = "Lavrentios"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15414,7 +15738,7 @@
 145096 = {
 	name = "Euzoios"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15429,7 +15753,7 @@
 145097 = {
 	name = "Polykarpos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15444,7 +15768,7 @@
 145098 = {
 	name = "Felix"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15459,7 +15783,7 @@
 145099 = {
 	name = "Diogenis"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15474,7 +15798,7 @@
 145100 = {
 	name = "Sedekion"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15489,7 +15813,7 @@
 145101 = {
 	name = "Plutarchos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15504,7 +15828,7 @@
 145102 = {
 	name = "Polykarpos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15519,7 +15843,7 @@
 145103 = {
 	name = "Onesimos"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = martial_cleric
@@ -15534,7 +15858,7 @@
 145104 = {
 	name = "Stachys"
 	dynasty = 8647
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = scholarly_theologian
@@ -15549,7 +15873,7 @@
 159276 = {
 	name = "Ioannes"
 	dynasty = 101086
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	955.1.1 = {
 		birth = yes
@@ -15565,12 +15889,15 @@
 159277 = {
 	name = "Michael"
 	dynasty = 101086
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 159276
 	mother = 159278
 	990.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1061.1.1 = {
 		death = yes
@@ -15581,7 +15908,7 @@
 	name = "Sophia"
 	female = yes
 	dynasty = 641
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 41319
 	961.1.1 = {
@@ -15599,7 +15926,7 @@
 	name = "Sophia"
 	female = yes
 	dynasty = 101086
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 159276
 	mother = 159278
@@ -15609,6 +15936,9 @@
 	1000.1.1 = {
 		add_spouse = 159265
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1060.1.1 = {
 		death = yes
 	}
@@ -15617,11 +15947,14 @@
 159281 = {
 	name = "Michael"
 	dynasty = 101086
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 159277
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1110.1.1 = {
 		death = yes
@@ -15631,7 +15964,7 @@
 163080 = {
 	name = "Sergios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163081
 	970.1.1 = {
@@ -15645,7 +15978,7 @@
 163081 = {
 	name = "Ioannes"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163083
 	950.1.1 = {
@@ -15659,7 +15992,7 @@
 163082 = {
 	name = "Sergios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163083
 	949.1.1 = {
@@ -15673,7 +16006,7 @@
 163083 = {
 	name = "Marinos"
 	dynasty = 101138
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 163084
 	930.1.1 = {
@@ -15687,7 +16020,7 @@
 163084 = {
 	name = "Ioannes"
 	dynasty = 101138
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 163085
 	910.1.1 = {
@@ -15701,7 +16034,7 @@
 163085 = {
 	name = "Marinos"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163087
 	880.1.1 = {
@@ -15715,7 +16048,7 @@
 163086 = {
 	name = "Ioannes"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163087
 	888.1.1 = {
@@ -15729,7 +16062,7 @@
 163087 = {
 	name = "Gregorios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163089
 	864.1.1 = {
@@ -15744,7 +16077,7 @@
 163088 = {
 	name = "Athanasios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = scholarly_theologian
@@ -15760,7 +16093,7 @@
 163089 = {
 	name = "Sergios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145201
 	846.1.1 = {
@@ -15777,7 +16110,7 @@
 163090 = {
 	name = "Sergios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	800.1.1 = {
 		birth = yes
@@ -15791,7 +16124,7 @@
 	name = "Sophia" #
 	female = yes
 	dynasty = 101183
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 159534
 	970.1.1 = {
@@ -15808,7 +16141,7 @@
 159536 = {
 	name = "Michael" #
 	dynasty = 101183
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 159534
 	965.1.1 = {
@@ -15822,11 +16155,14 @@
 159537 = {
 	name = "Nikephoros" #
 	dynasty = 101183
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 159536
 	1000.1.1 = {
 		birth = yes #Unknown
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1060.1.1 = {
 		death = yes
@@ -15836,11 +16172,14 @@
 159538 = {
 	name = "Georgios" #
 	dynasty = 101183
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 159537
 	1030.1.1 = {
 		birth = yes #Unknown
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1090.1.1 = {
 		death = yes
@@ -15850,11 +16189,14 @@
 159539 = {
 	name = "Michael" #
 	dynasty = 101183
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 159538
 	1050.1.1 = {
 		birth = yes #Unknown
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1110.1.1 = {
 		death = yes
@@ -15962,7 +16304,7 @@
 145105 = {
 	name = "Stephanos" # C.Arta
 	dynasty = 1022140
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	845.1.1 = {
@@ -15976,7 +16318,7 @@
 145106 = {
 	name = "Sisinnios" # C.Demetrias
 	dynasty = 1022141
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	845.1.1 = {
@@ -15990,7 +16332,7 @@
 145107 = {
 	name = "Christophoros" # C.Monemvasia
 	dynasty = 1022142
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	840.1.1 = {
@@ -16004,7 +16346,7 @@
 145108 = {
 	name = "Sabbatios" # C.Chalkidike
 	dynasty = 101436
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	835.1.1 = {
@@ -16018,7 +16360,7 @@
 145109 = {
 	name = "Theoktistos" # C.Lesbos
 	dynasty = 1022144
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	830.1.1 = {
@@ -16032,7 +16374,7 @@
 145111 = {
 	name = "Symvatios" # C.Nikaea
 	dynasty = 1022145
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	820.1.1 = {
@@ -16046,7 +16388,7 @@
 145112 = {
 	name = "Gregorios" # C.Chios
 	dynasty = 101398
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	845.1.1 = {
@@ -16060,7 +16402,7 @@
 145113 = {
 	name = "Demetrios" # C.Rhodos
 	dynasty = 1022146
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	843.1.1 = {
@@ -16074,7 +16416,7 @@
 145114 = {
 	name = "Anatolios" # C.Ikonion
 	dynasty = 1022147
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	838.1.1 = {
@@ -16088,7 +16430,7 @@
 145115 = {
 	name = "Theocharistos" # C.Ankyra
 	dynasty = 1022174
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	833.1.1 = {
@@ -16102,7 +16444,7 @@
 145116 = {
 	name = "Alexandros" # D.Thrakesia/C.Laodikeia
 	dynasty = 1022148
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145842
 
@@ -16117,7 +16459,7 @@
 145117 = {
 	name = "Konstantinos" # C.Chaldea
 	dynasty = 101541
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	833.1.1 = {
@@ -16131,7 +16473,7 @@
 145118 = {
 	name = "Theophilos" # C.Sinope
 	dynasty = 1022149
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	846.1.1 = {
@@ -16145,7 +16487,7 @@
 145120 = {
 	name = "Amphilochios" # D.Dalmatia/C.Zadar
 	dynasty = 101132
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	836.1.1 = {
@@ -16159,7 +16501,7 @@
 145121 = {
 	name = "Romanos" # C.Consenza
 	dynasty = 1022150
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	834.1.1 = {
@@ -16173,7 +16515,7 @@
 145122 = {
 	name = "Yakinthos" # C.Lykia
 	dynasty = 1022151
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	826.1.1 = {
@@ -16187,7 +16529,7 @@
 145123 = {
 	name = "Theodosios" # C.Cherson
 	dynasty = 1022152
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	824.1.1 = {
@@ -16201,7 +16543,7 @@
 145124 = {
 	name = "Thomas" # C.Dyrrachion
 	dynasty = 1022153
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	845.1.1 = {
@@ -16222,7 +16564,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	800.1.1 = {
 		death = yes
@@ -16232,7 +16574,7 @@
 145126 = {
 	name = "Leon" # C.Malta
 	dynasty = 1022155
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	839.1.1 = {
@@ -16246,7 +16588,7 @@
 145127 = {
 	name = "Staurakios" # C.Limisol
 	dynasty = 1022156
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	832.1.1 = {
@@ -16260,7 +16602,7 @@
 145128 = {
 	name = "Isidoros" # C.Lecce
 	dynasty = 1022157
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	829.1.1 = {
@@ -16274,7 +16616,7 @@
 145129 = {
 	name = "Bardas"
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	811.1.1 = {
@@ -16288,10 +16630,10 @@
 145130 = {
 	name = "Marinos"
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
-        father = 145129
+    father = 145129
 	838.1.1 = {
 		birth = yes
 	}
@@ -16303,7 +16645,7 @@
 145131 = {
 	name = "Maria"
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = chaste
 	trait = content
@@ -16320,7 +16662,7 @@
 	name = "Anastasia"
 	dynasty = 644
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1700
 	mother = 145131
@@ -16335,7 +16677,7 @@
 145133 = {
 	name = "Konstantinos"
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	father = 1700
@@ -16380,7 +16722,7 @@
 145136 = {
 	name = "Theodotos"
 	dynasty = 101399
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	father = 145135
@@ -16395,7 +16737,7 @@
 145137 = {
 	name = "Kallistos" # D.Anatolia/c.Dorylaion
 	dynasty = 101399
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145136
 	840.1.1 = {
@@ -16409,7 +16751,7 @@
 145138 = {
 	name = "Theodotos"
 	dynasty = 101399
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145137
 	865.1.1 = {
@@ -16423,7 +16765,7 @@
 145139 = {
 	name = "Theognostos"
 	dynasty = 101399
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145138
 	900.1.1 = {
@@ -16437,7 +16779,7 @@
 145140 = {
 	name = "Nikephoros"
 	dynasty = 101399
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145139
 	930.1.1 = {
@@ -16451,7 +16793,7 @@
 145141 = {
 	name = "Theognostos"
 	dynasty = 101399
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 145140
@@ -16466,7 +16808,7 @@
 145142 = {
 	name = "Leon"
 	dynasty = 101399
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	father = 145140
@@ -16481,11 +16823,14 @@
 145143 = {
 	name = "Leosthenes"
 	dynasty = 101399
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145142
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1060.1.1 = {
 		death = yes
@@ -16495,7 +16840,7 @@
 145144 = {
 	name = "Nikephoros" # D.Charsianon/C.Kaisareia
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	820.1.1 = {
@@ -16509,7 +16854,7 @@
 145145 = {
 	name = "Eustathios" # C.Galatia
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	father = 145144
@@ -16524,7 +16869,7 @@
 145146 = {
 	name = "Eudokimos"
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charismatic_negotiator
 	father = 145145
@@ -16539,7 +16884,7 @@
 145147 = {
 	name = "Leon" # C.Seleukeia
 	dynasty = 641
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	830.1.1 = {
@@ -16561,7 +16906,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
@@ -16589,7 +16934,7 @@
 145150 = {
 	name = "Pantherios" # D.Athens/C.Atheniai
 	dynasty = 627
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145149
 	trait = tough_soldier
@@ -16604,7 +16949,7 @@
 145151 = {
 	name = "Theodoros" # C.Hellas
 	dynasty = 627
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145150
 	trait = charismatic_negotiator
@@ -16619,7 +16964,7 @@
 145152 = {
 	name = "Antonios"
 	dynasty = 627
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145151
 	trait = skilled_tactician
@@ -16634,7 +16979,7 @@
 145153 = {
 	name = "Pantherios"
 	dynasty = 627
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1770
 	trait = skilled_tactician
@@ -16649,7 +16994,7 @@
 145154 = {
 	name = "Photeinos"
 	dynasty = 627
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145152
 	trait = naive_appeaser
@@ -16668,7 +17013,7 @@
 	name = "Gregoria"
 	female = yes
 	dynasty = 644
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
         father = 145130
 	890.1.1 = {
@@ -16682,7 +17027,7 @@
 145156 = {
 	name = "Leon" # D.Trebizond/C.Trapezous
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	835.1.1 = {
@@ -16696,7 +17041,7 @@
 145157 = {
 	name = "Eustathios"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
         father = 145156
@@ -16711,7 +17056,7 @@
 145158 = {
 	name = "Leon"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
         father = 145157
@@ -16726,7 +17071,7 @@
 145159 = {
 	name = "Pothos"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
         father = 145157
@@ -16741,7 +17086,7 @@
 145160 = {
 	name = "Romanos"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
         father = 145157
@@ -16756,7 +17101,7 @@
 145161 = {
 	name = "Romanos"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charismatic_negotiator
         father = 145158
@@ -16774,7 +17119,7 @@
 145162 = {
 	name = "Marianos"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
         father = 145158
@@ -16790,7 +17135,7 @@
 	name = "Agathe"
 	female = yes
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1706
 	mother = 262234
@@ -16805,7 +17150,7 @@
 145164 = {
 	name = "Konstantinos" # D.Paphlagonia/C.Herakleia
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	810.1.1 = {
@@ -16819,7 +17164,7 @@
 145165 = {
 	name = "Nikolaos"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 145164
@@ -16834,7 +17179,7 @@
 145166 = {
 	name = "Michael"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = underhanded_rogue
 	father = 145165
@@ -16849,7 +17194,7 @@
 145167 = {
 	name = "Stephanos"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charismatic_negotiator
 	father = 1774
@@ -16867,7 +17212,7 @@
 145168 = {
 	name = "Andronikos"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 145165
@@ -16882,7 +17227,7 @@
 145169 = {
 	name = "Christophoros"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 145168
@@ -16897,7 +17242,7 @@
 145170 = {
 	name = "Bardas"
 	dynasty = 633
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = underhanded_rogue
 	father = 145168
@@ -16912,7 +17257,7 @@
 145171 = {
 	name = "Ioannes" # D.Armeniakon/C.Amisos
 	dynasty = 640
-	religion = orthodox
+	religion = chalcedonian
 	culture = armenian
 	trait = skilled_tactician
 	840.1.1 = {
@@ -16926,7 +17271,7 @@
 145172 = {
 	name = "Romanos"
 	dynasty = 640
-	religion = orthodox
+	religion = chalcedonian
 	culture = armenian
 	trait = tough_soldier
 	father = 145171
@@ -16941,7 +17286,7 @@
 145176 = {
 	name = "Romanos"
 	dynasty = 640
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 145175
@@ -16956,7 +17301,7 @@
 145177 = {
 	name = "Ioannes"
 	dynasty = 640
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = skilled_tactician
 	father = 145176
@@ -16971,7 +17316,7 @@
 145178 = {
 	name = "Romanos"
 	dynasty = 640
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	father = 145177
@@ -16979,7 +17324,10 @@
 		birth = yes
 	}
 	1027.1.1 = {
-	trait = blinded
+		trait = blinded
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1055.1.1 = {
 		death = yes
@@ -16989,12 +17337,15 @@
 145179 = {
 	name = "Romanos"
 	dynasty = 640
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = amateurish_plotter
 	father = 20552
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -17004,7 +17355,7 @@
 145181 = {
 	name = "Konstantios" # C.Cephalonia
 	dynasty = 1022160
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	840.1.1 = {
 		birth = yes
@@ -17017,7 +17368,7 @@
 145182 = {
 	name = "Chrysaphios" # D.Achaia/C.Korinthos
 	dynasty = 1022161
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	841.1.1 = {
 		birth = yes
@@ -17030,7 +17381,7 @@
 145183 = {
 	name = "Leon" # C.Achaia
 	dynasty = 1022162
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	845.1.1 = {
 		birth = yes
@@ -17043,7 +17394,7 @@
 145184 = {
 	name = "Konstantinos" # C.Methone
 	dynasty = 1022163
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	846.1.1 = {
 		birth = yes
@@ -17056,7 +17407,7 @@
 145185 = {
 	name = "Ioannes" # D.Thessalonika/C.Thessalonike
 	dynasty = 1022164
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	835.1.1 = {
 		birth = yes
@@ -17069,7 +17420,7 @@
 145187 = {
 	name = "Theodoros" # D.Aegean/C.Abydos
 	dynasty = 1022166
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	840.1.1 = {
 		birth = yes
@@ -17082,7 +17433,7 @@
 145188 = {
 	name = "Anastasios" # C.Euboia
 	dynasty = 1022167
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	844.1.1 = {
 		birth = yes
@@ -17095,7 +17446,7 @@
 145189 = {
 	name = "Drakontios" # C.Naxos
 	dynasty = 101536
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	844.1.1 = {
 		birth = yes
@@ -17108,7 +17459,7 @@
 145190 = {
 	name = "Konstantinos" # C.Siracusa
 	dynasty = 1022168
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	839.1.1 = {
 		birth = yes
@@ -17121,7 +17472,7 @@
 145191 = {
 	name = "Theodotos" # D.Nikaia/C.Nikomedeia
 	dynasty = 1022170
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	832.1.1 = {
 		birth = yes
@@ -17134,7 +17485,7 @@
 145192 = {
 	name = "Chariton" # C.Prusa
 	dynasty = 1022169
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	830.1.1 = {
 		birth = yes
@@ -17147,7 +17498,7 @@
 145193 = {
 	name = "Gregorios" # C.Kyzikos
 	dynasty = 1022171
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	831.1.1 = {
 		birth = yes
@@ -17167,7 +17518,7 @@
 		birth = yes
 	}
 	842.2.19 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	898.1.1 = {
 		death = yes
@@ -17177,7 +17528,7 @@
 145195 = {
 	name = "Bardanios" # C.Smyrna
 	dynasty = 1022172
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	833.1.1 = {
 		birth = yes
@@ -17190,7 +17541,7 @@
 145196 = {
 	name = "Sisinnios" # D.Cibyrrhaeot/C.Attaleia
 	dynasty = 1022173
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	834.1.1 = {
 		birth = yes
@@ -17203,7 +17554,7 @@
 145197 = {
 	name = "Herakleianos" # C.Sozopolis
 	dynasty = 1022175
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	835.1.1 = {
 		birth = yes
@@ -17216,7 +17567,7 @@
 145198 = {
 	name = "Leon" # C.Zeta
 	dynasty = 101234
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	836.1.1 = {
 		birth = yes
@@ -17229,7 +17580,7 @@
 145200 = {
 	name = "Elias" # D.Calabria/C.Reggio
 	dynasty = 1022177
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	838.1.1 = {
 		birth = yes
@@ -17242,7 +17593,7 @@
 145201 = {
 	name = "Gregorios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163090
 	826.1.1 = {
@@ -17256,7 +17607,7 @@
 145202 = {
 	name = "Kaisarios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 163090
 	828.1.1 = {
@@ -17270,7 +17621,7 @@
 145203 = {
 	name = "Athanasios"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = scholarly_theologian
@@ -17286,7 +17637,7 @@
 145204 = {
 	name = "Stephanos"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = scholarly_theologian
@@ -17302,7 +17653,7 @@
 145205 = {
 	name = "Stephanos"
 	dynasty = 101138
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = celibate
 	trait = scholarly_theologian
@@ -17345,7 +17696,7 @@
 145222 = {
 	name = "Christophoros"
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1706
 	893.1.1 = {
@@ -17359,7 +17710,7 @@
 145223 = {
 	name = "Stephanos"
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = deceitful
 	trait = arbitrary
@@ -17378,7 +17729,7 @@
 145224 = {
 	name = "Konstantinos"
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = trusting
 	trait = envious
@@ -17412,165 +17763,117 @@
 168372 = {
 	name = Konstantios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	785.1.1 = {
-
 		birth = yes
-
 	}
-
 	835.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168373 = {
 	name = Sergios #Sergios I
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168372
 	815.1.1 = {
-
 		birth = yes
-
 	}
-
 	834.1.1 = {
 		add_spouse = 168389
 	}
 	862.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168374 = {
 	name = Konstantios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168373
 	mother = 168389
 	836.1.1 = {
-
 		birth = yes
-
 	}
-
 	885.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168375 = {
 	name = Ioannes
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168374
 	855.1.1 = {
-
 		birth = yes
-
 	}
-
 	905.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168376 = {
 	name = Sergios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168375
 	875.1.1 = {
-
 		birth = yes
-
 	}
-
 	935.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 
 168377 = {
 	name = Konstantios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168376
 	900.1.1 = {
-
 		birth = yes
-
 	}
-
 	955.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168378 = {
 	name = Ioannes
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168377
 	925.1.1 = {
-
 		birth = yes
-
 	}
-
 	980.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168379 = {
 	name = Marinos
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168378
 	950.1.1 = {
-
 		birth = yes
-
 	}
-
 	1010.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 
@@ -17578,681 +17881,466 @@
 168380 = {
 	name = Sergios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168379
 	975.1.1 = {
-
 		birth = yes
-
 	}
-
 	1025.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 
 168381 = {
 	name = Konstantios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168380
 	1000.1.1 = {
-
 		birth = yes
-
 	}
-
 	1055.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 
 168382 = {
 	name = Ioannes
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168381
 	1025.1.1 = {
-
 		birth = yes
-
 	}
 	1048.1.1 = {
 		add_spouse = 168390
 	}
 	1075.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168383 = {
 	name = Sergios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168382
 	mother = 168390
 	1050.1.1 = {
-
 		birth = yes
-
 	}
-
 	1080.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168384 = {
 	name = Anastasios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168373
 	mother = 168389
 	838.1.1 = {
-
 		birth = yes
-
 	}
-
 	888.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168385 = {
 	name = Adrianos
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168373
 	mother = 168389
 	841.1.1 = {
-
 		birth = yes
-
 	}
-
 	891.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168386 = {
 	name = Maurikios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168384
 	858.1.1 = {
-
 		birth = yes
-
 	}
-
 	908.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168387 = {
 	name = Stephania
 	female = yes
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168384
 	859.1.1 = {
-
 		birth = yes
-
 	}
-
 	910.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168388 = {
 	name = Anna
 	female = yes
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168373
 	mother = 168389
 	843.1.1 = {
-
 		birth = yes
-
 	}
-
 	895.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168389 = {
 	name = Martha
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	818.1.1 = {
-
 		birth = yes
-
 	}
-
 	870.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
-
 
 168390 = {
 	name = Theodora
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1025.1.1 = {
-
 		birth = yes
-
 	}
-
 	1075.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
 
 168391 = {
 	name = Georgios
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168382
 	mother = 168390
 	1052.1.1 = {
-
 		birth = yes
-
 	}
-
 	1090.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168392 = {
 	name = Euphemia
 	female = yes
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168382
 	mother = 168390
 	1049.1.1 = {
-
 		birth = yes
-
 	}
-
 	1089.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168393 = {
 	name = Hippolytos
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168381
 	1028.1.1 = {
-
 		birth = yes
-
 	}
-
 	1080.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168394 = {
 	name = Pavlos
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168393
 	1048.1.1 = {
-
 		birth = yes
-
 	}
-
 	1075.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168395 = {
 	name = Polkarios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	770.1.1 = {
-
 		birth = yes
-
 	}
-
 	820.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168396 = {
 	name = Lokianos
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168395
 	790.1.1 = {
-
 		birth = yes
-
 	}
-
 	838.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168397 = {
 	name = Ioanna
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	815.1.1 = {
-
 		birth = yes
-
 	}
-
 	870.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168398 = {
 	name = Sergios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 6881
 	mother = 168397
 	836.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	860.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168399 = {
 	name = Polkarios #Polkarios I
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	trait = hunchback
 	culture = greek
 	father = 6881
 	mother = 168397
 	837.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	879.9.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168400 = {
 	name = Demetra
 	female = yes
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 6881
 	mother = 168397
 	838.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	888.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168401 = {
 	name = Epiphania
 	female = yes
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 6881
 	mother = 168397
 	840.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	890.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
 
 168402 = {
 	name = Marinos
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168399
 	859.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	915.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
-
 
 168403 = {
 	name = Sergios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168402
 	885.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	945.1.1 = {
-
 		death = yes
-
 	}
-
 }
 
 168404 = {
 	name = Belisarios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168403
 	910.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	970.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168405 = {
 	name = Polkarios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168404
 	935.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	990.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168406 = {
 	name = Eugenios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168405
 	970.1.1 = {
-
 		birth = yes
-
 	}
-
-
 	1025.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168407 = {
 	name = Belisarios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168406
 	1000.1.1 = {
-
 		birth = yes
-
 	}
-
-
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1060.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168408 = {
 	name = Konstas
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168407
 	1030.1.1 = {
-
 		birth = yes
-
 	}
-
 	1048.1.1 = {
 		add_spouse = 168409
 	}
-	1080.1.1 = {
-
-		death = yes
-
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
-
+	1080.1.1 = {
+		death = yes
+	}
 }
-
-
-
 
 168409 = {
 	name = Melissa
 	female = yes
 	dynasty = 9590
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168381
 	1032.1.1 = {
-
 		birth = yes
-
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1080.1.1 = {
-
 		death = yes
-
 	}
-
 }
-
-
 
 168410 = {
 	name = Polkarios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168408
 	mother = 168409
 	1049.1.1 = {
 		birth = yes
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1100.1.1 = {
 		death = yes
 	}
@@ -18262,31 +18350,34 @@
 	name = Alexia
 	female = yes
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168408
 	mother = 168409
 	1050.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1100.1.1 = {
 		death = yes
 	}
 }
 
-
-
 168412 = {
 	name = Belisarios
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168408
 	mother = 168409
 	1052.1.1 = {
 		birth = yes
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1100.1.1 = {
 		death = yes
 	}
@@ -18295,13 +18386,15 @@
 168413 = {
 	name = Philippos
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168407
 	1033.1.1 = {
 		birth = yes
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1080.1.1 = {
 		death = yes
 	}
@@ -18310,12 +18403,15 @@
 168414 = {
 	name = Evangelos
 	dynasty = 9591
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = lisp
 	father = 168407
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 
 	1080.1.1 = {
@@ -18327,7 +18423,7 @@
 168415 = {
 	name = Stefanos #Stefanos I
 	dynasty = 1060
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	835.1.1 = {
 		birth = yes
@@ -18343,7 +18439,7 @@
 6881 = {
 	name = Marinos #Marinos I
 	dynasty = 9591
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 168396
 	810.1.1 = {
@@ -18363,7 +18459,7 @@
 
 7786 = {
 	name = "Marcus"
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -18373,7 +18469,7 @@
 		birth = yes
 	}
 	309.1.16 = {
-	name = "Eusebius"
+		name = "Eusebius"
 	# AKA: Marcus
 	}
 	310.8.17 = {
@@ -18383,7 +18479,7 @@
 
 7793 = {
 	name = "Gaius"
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -18393,7 +18489,7 @@
 		birth = yes
 	}
 	258.8.6 = {
-	name = "Dionysius"
+		name = "Dionysius"
 	# AKA: Gaius
 	}
 	268.12.26 = {
@@ -18403,7 +18499,7 @@
 
 7794 = {
 	name = "Gaius"
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -18413,7 +18509,7 @@
 		birth = yes
 	}
 	257.8.2 = {
-	name = "Sixtus"
+		name = "Sixtus"
 	# AKA: Gaius
 	}
 	258.8.6 = {
@@ -18423,7 +18519,7 @@
 
 7799 = {
 	name = "Hippolytus"
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -18433,7 +18529,7 @@
 		birth = yes
 	}
 	235.9.29 = {
-	name = "Anterus"
+		name = "Anterus"
 	# AKA: Hippolytus
 	}
 	236.1.3 = {
@@ -18443,7 +18539,7 @@
 
 145291 = {
 	name = "Linus"
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -18453,7 +18549,7 @@
 		birth = yes
 	}
 	64.10.13 = {
-	name = "Linus"
+		name = "Linus"
 	# AKA: Linos
 	}
 	79.1.1 = {
@@ -18463,7 +18559,7 @@
 
 145292 = {
 	name = "Petrus"
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = diligent
 	trait = patient
@@ -18496,7 +18592,7 @@
 180666 = {
 	name = "Theodore"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	add_trait = mastermind_theologian
 	602.1.1 = {
@@ -18651,7 +18747,7 @@
 145795 = {
 	name = "Theophanes"
 	dynasty = 1022319
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	710.1.1 = {
@@ -18661,7 +18757,7 @@
 		religion = iconoclast
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	790.1.1 = {
 		death = yes
@@ -18679,7 +18775,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	810.1.1 = {
 		death = yes
@@ -18696,7 +18792,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	795.1.1 = {
 		death = yes
@@ -18713,7 +18809,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	790.1.1 = {
 		death = yes
@@ -18730,7 +18826,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	805.1.1 = {
 		death = yes
@@ -18747,7 +18843,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	810.1.1 = {
 		death = yes
@@ -18757,7 +18853,7 @@
 145802 = {
 	name = "Theodoros"
 	dynasty = 101134
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	710.1.1 = {
@@ -18774,7 +18870,7 @@
 145803 = {
 	name = "Theophylaktos"
 	dynasty = 101134
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145802
 
@@ -18800,7 +18896,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	788.1.1 = {
 		death = yes
@@ -18818,7 +18914,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	812.1.1 = {
 		death = yes
@@ -18835,7 +18931,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	794.1.1 = {
 		death = yes
@@ -18845,7 +18941,7 @@
 145807 = {
 	name = "Christophoros"
 	dynasty = 1022264
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	715.1.1 = {
@@ -18870,7 +18966,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	813.1.1 = {
 		death = yes
@@ -18887,7 +18983,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	808.1.1 = {
 		death = yes
@@ -18904,7 +19000,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	790.1.1 = {
 		death = yes
@@ -18921,7 +19017,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	794.1.1 = {
 		death = yes
@@ -18938,7 +19034,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	792.1.1 = {
 		death = yes
@@ -18955,7 +19051,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	797.1.1 = {
 		death = yes
@@ -18986,7 +19082,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	801.1.1 = {
 		death = yes
@@ -19017,7 +19113,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
@@ -19037,7 +19133,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	809.1.1 = {
 		death = yes
@@ -19054,7 +19150,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	798.1.1 = {
 		death = yes
@@ -19071,7 +19167,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	790.1.1 = {
 		death = yes
@@ -19088,7 +19184,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	803.1.1 = {
 		death = yes
@@ -19105,7 +19201,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	797.1.1 = {
 		death = yes
@@ -19122,7 +19218,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	793.1.1 = {
 		death = yes
@@ -19139,7 +19235,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	796.1.1 = {
 		death = yes
@@ -19156,7 +19252,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	800.1.1 = {
 		death = yes
@@ -19173,7 +19269,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	793.1.1 = {
 		death = yes
@@ -19191,13 +19287,13 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
 	}
 	842.2.19 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	847.1.1 = {
 		death = yes
@@ -19214,7 +19310,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	801.1.1 = {
 		death = yes
@@ -19231,7 +19327,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
@@ -19265,7 +19361,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	799.1.1 = {
 		death = yes
@@ -19282,7 +19378,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	796.1.1 = {
 		death = yes
@@ -19299,7 +19395,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	789.1.1 = {
 		death = yes
@@ -19317,7 +19413,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	791.1.1 = {
 		death = yes
@@ -19334,7 +19430,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	795.1.1 = {
 		death = yes
@@ -19351,7 +19447,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	793.1.1 = {
 		death = yes
@@ -19372,7 +19468,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	792.7.20 = {
 		death = yes
@@ -19390,13 +19486,13 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
 	}
 	842.2.19 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	847.1.1 = {
 		death = yes
@@ -19407,7 +19503,7 @@
 	name = "Theophano"
 	dynasty = 101134
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145805
 	790.1.1 = {
@@ -19428,7 +19524,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	802.1.1 = {
 		death = yes
@@ -19445,7 +19541,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	812.1.1 = {
 		death = yes
@@ -19462,7 +19558,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	806.1.1 = {
 		death = yes
@@ -19480,7 +19576,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	805.1.1 = {
 		death = yes
@@ -19497,7 +19593,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	809.1.1 = {
 		death = yes
@@ -19514,7 +19610,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	799.1.1 = {
 		death = yes
@@ -19531,7 +19627,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	797.1.1 = {
 		death = yes
@@ -19548,7 +19644,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	803.1.1 = {
 		death = yes
@@ -19565,7 +19661,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	809.1.1 = {
 		death = yes
@@ -19582,7 +19678,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	805.1.1 = {
 		death = yes
@@ -19599,7 +19695,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	807.1.1 = {
 		death = yes
@@ -19616,7 +19712,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	792.1.1 = {
 		death = yes
@@ -19634,7 +19730,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	805.1.1 = {
 		death = yes
@@ -19651,7 +19747,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
@@ -19671,7 +19767,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	794.1.1 = {
 		death = yes
@@ -19688,7 +19784,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	798.1.1 = {
 		death = yes
@@ -19705,7 +19801,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	796.1.1 = {
 		death = yes
@@ -19714,7 +19810,7 @@
 
 145865 = {
 	name = "Basileios"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 
@@ -19728,7 +19824,7 @@
 
 145866 = {
 	name = "Theophylaktos"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	622.1.1 = {
@@ -19741,7 +19837,7 @@
 
 145867 = {
 	name = "Kosmas"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	624.1.1 = {
@@ -19754,7 +19850,7 @@
 
 145868 = {
 	name = "Andreas"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	625.1.1 = {
@@ -19767,7 +19863,7 @@
 
 145869 = {
 	name = "Kaisarios"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	645.1.1 = {
@@ -19780,7 +19876,7 @@
 
 145870 = {
 	name = "Stephanos"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	647.1.1 = {
@@ -19793,7 +19889,7 @@
 
 145871 = {
 	name = "Bonellos"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	649.1.1 = {
@@ -19806,7 +19902,7 @@
 
 145872 = {
 	name = "Theodosios"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	667.1.1 = {
@@ -19819,7 +19915,7 @@
 
 145873 = {
 	name = "Kaisarios"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	660.1.1 = {
@@ -19832,7 +19928,7 @@
 
 145874 = {
 	name = "Ioannes"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	671.1.1 = {
@@ -19845,7 +19941,7 @@
 
 145875 = {
 	name = "Theodoros"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	680.1.1 = {
@@ -19858,7 +19954,7 @@
 
 145876 = {
 	name = "Georgios"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	692.1.1 = {
@@ -19875,7 +19971,7 @@
 145877 = {
 	name = "Gregorios"
 	dynasty = 1022314
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	700.1.1 = {
@@ -19892,7 +19988,7 @@
 145878 = {
 	name = "Stephanos"
 	dynasty = 1022314
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145877
 	725.1.1 = {
@@ -19902,7 +19998,7 @@
 		religion = iconoclast
 	}
 	764.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	766.1.1 = {
 		trait = monk
@@ -19922,7 +20018,7 @@
 		birth = yes
 	}
 	764.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	794.1.1 = {
 		death = yes
@@ -19939,7 +20035,7 @@
 		birth = yes
 	}
 	764.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	801.1.1 = {
 		death = yes
@@ -19956,7 +20052,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
@@ -19977,13 +20073,13 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
 	}
 	842.2.19 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	845.1.1 = {
 		death = yes
@@ -19993,7 +20089,7 @@
 145883 = {
 	name = "Theodoros"
 	dynasty = 101173
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	791.1.1 = {
@@ -20003,7 +20099,7 @@
 		religion = iconoclast
 	}
 	842.2.19 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	852.1.1 = {
 		death = yes
@@ -20020,7 +20116,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
@@ -20033,7 +20129,7 @@
 145885 = {
 	name = "Bonos"
 	dynasty = 1022316
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	786.1.1 = {
@@ -20050,7 +20146,7 @@
 145886 = {
 	name = "Leon"
 	dynasty = 1022316
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145885
 
@@ -20068,7 +20164,7 @@
 145887 = {
 	name = "Andreas"
 	dynasty = 1022329
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	800.1.1 = {
@@ -20099,7 +20195,7 @@
 145889 = {
 	name = "Leon"
 	dynasty = 1022315
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 
 	731.1.1 = {
@@ -20113,7 +20209,7 @@
 145890 = {
 	name = "Timoleon"
 	dynasty = 1022315
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145889
 	749.1.1 = {
@@ -20127,7 +20223,7 @@
 145891 = {
 	name = "Kaisarios"
 	dynasty = 1022315
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145889
 	751.1.1 = {
@@ -20142,7 +20238,7 @@
 	name = "Aikaterine"
 	dynasty = 1022315
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145889
 	753.1.1 = {
@@ -20156,7 +20252,7 @@
 145893 = {
 	name = "Konstantinos"
 	dynasty = 1022324
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 
 	725.1.1 = {
@@ -20170,7 +20266,7 @@
 145894 = {
 	name = "Menas"
 	dynasty = 1022324
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145893
 	745.1.1 = {
@@ -20185,7 +20281,7 @@
 	name = "Anastasia"
 	dynasty = 1022324
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145893
 	747.1.1 = {
@@ -20199,7 +20295,7 @@
 145896 = {
 	name = "Tryphon"
 	dynasty = 1022324
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145893
 	747.1.1 = {
@@ -20213,7 +20309,7 @@
 145897 = {
 	name = "Theodosios"
 	dynasty = 1022295
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 
 	728.1.1 = {
@@ -20227,7 +20323,7 @@
 145898 = {
 	name = "Aristeides"
 	dynasty = 1022295
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145897
 	746.1.1 = {
@@ -20242,7 +20338,7 @@
 	name = "Daphne"
 	dynasty = 1022295
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145897
 	748.1.1 = {
@@ -20256,7 +20352,7 @@
 145900 = {
 	name = "Timotheos"
 	dynasty = 1022295
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 145897
 	750.1.1 = {
@@ -20277,7 +20373,7 @@
 		birth = yes
 	}
 	787.10.23 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	815.1.1 = {
 		religion = iconoclast
@@ -20301,7 +20397,7 @@
 		birth = yes
 	}
 	842.2.19 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	885.1.1 = {
 		death = yes
@@ -20315,7 +20411,7 @@
 
 	father = 125742
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	1254.1.1 = {
@@ -20332,7 +20428,7 @@
 168790 = {
 	name = "Germanos" #real name unknown
 	dynasty = 1022186
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 70529
 
@@ -20347,7 +20443,7 @@
 168791 = {
 	name = "Germanos"
 	dynasty = 1022186
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168790
 
@@ -20365,7 +20461,7 @@
 168792 = {
 	name = "Germanos"
 	dynasty = 1022186
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 168791
 	mother = 168789
@@ -20381,7 +20477,7 @@
 180997 = {
 	name = "Konstantinos"
 	dynasty = 188
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1134.1.2 = {
 		birth = yes
@@ -20399,7 +20495,7 @@
 	# wife of Constantine Doukas
 	female = yes
 	dynasty = 634
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 223022
 	1137.1.2 = {
@@ -20415,7 +20511,7 @@
 	# wife of John Doukas
 	female = yes
 	dynasty = 188
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 180997
 	mother = 180998
@@ -20434,7 +20530,7 @@
 	father = 168718
 	mother = 168715
 
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 
 	600.1.1 = {
@@ -20454,7 +20550,7 @@
 
 	father = 168719
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	541.1.1 = {
@@ -20473,7 +20569,7 @@
 
 	father = 168714
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	582.1.1 = {
@@ -20488,7 +20584,7 @@
 	name = "Pavlos"
 	dynasty = 1022184
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	520.1.1 = {
@@ -20503,7 +20599,7 @@
    name = "Maria" #Concubine of Abaqa Khan
    female = yes
    dynasty = 48
-   religion = orthodox
+   religion = chalcedonian
    culture = greek
    father = 465527
    add_trait = bastard
@@ -20523,7 +20619,7 @@
    name = "Euphrosyne" #Concubine of Nogai Khan
    female = yes
    dynasty = 48
-   religion = orthodox
+   religion = chalcedonian
    culture = greek
    father = 465527
    add_trait = bastard
@@ -20539,7 +20635,7 @@
    name = "Maria" #wife of Toqta Khan
    female = yes
    dynasty = 48
-   religion = orthodox
+   religion = chalcedonian
    culture = greek
    father = 465527
    add_trait = bastard
@@ -20554,7 +20650,7 @@
 260382 = {
 	name = "Andronikos"
 	dynasty = 1062172
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	734.1.1 = {
 		birth = yes
@@ -20567,7 +20663,7 @@
 260383 = {
 	name = "Euphemios"
 	dynasty = 1062173
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	823.1.1 = {
 		birth = yes
@@ -20580,7 +20676,7 @@
 260384 = {
 	name = "Nikephoros"
 	dynasty = 1062174
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	1040.1.1 = {
 		birth = yes
@@ -20593,7 +20689,7 @@
 260636 = {
 	name = "Anastasios"
 	dynasty = 189
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	901.1.1 = {
 		birth = yes
@@ -20606,7 +20702,7 @@
 260637 = {
 	name = "Crysanthos"
 	dynasty = 1062277
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	899.1.1 = {
 		birth = yes
@@ -20619,7 +20715,7 @@
 260638 = {
 	name = "Paschalios"
 	dynasty = 1062278
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = misguided_warrior
 	907.1.1 = {
@@ -20633,7 +20729,7 @@
 260680 = {
 	name = "Apollonios"
 	dynasty = 1062306
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	878.1.1 = {
 		birth = yes
@@ -20646,7 +20742,7 @@
 260681 = {
 	name = "Cyriacus"
 	dynasty = 1062307
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	889.1.1 = {
 		birth = yes
@@ -20659,7 +20755,7 @@
 260793 = {
 	name = "Bardas"
 	dynasty = 1062404
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	903.1.1 = {
 		birth = yes
@@ -20672,7 +20768,7 @@
 260794 = {
 	name = "Krenites"
 	dynasty = 1062405
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	893.1.1 = {
 		birth = yes
@@ -20685,7 +20781,7 @@
 260795 = {
 	name = "Chritophoros"
 	dynasty = 1062406
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	904.1.1 = {
 		birth = yes
@@ -20698,7 +20794,7 @@
 260796 = {
 	name = "Hektorios"
 	dynasty = 1062407
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	909.1.1 = {
 		birth = yes
@@ -20711,7 +20807,7 @@
 260797 = {
 	name = "Michael"
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	disallow_random_traits = yes
 	trait = mastermind_theologian
@@ -20738,7 +20834,7 @@
 250798 = {
 	name = "Konstantinos"
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145146
 	897.1.1 = {
@@ -20752,7 +20848,7 @@
 250799 = {
 	name = "Staurakios"
 	dynasty = 1062408
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	880.1.1 = {
 		birth = yes
@@ -20765,7 +20861,7 @@
 250800 = {
 	name = "Georgios"
 	dynasty = 1062408
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 250799
 	902.1.1 = {
@@ -20779,7 +20875,7 @@
 250801 = {
 	name = "Artemios"
 	dynasty = 1062408
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 250799
 	905.1.1 = {
@@ -20793,7 +20889,7 @@
 250802 = {
 	name = "Ioseph"
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145146
 	900.1.1 = {
@@ -20807,7 +20903,7 @@
 250803 = {
 	name = "Gennadios"
 	dynasty = 1062409
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	895.1.1 = {
 		birth = yes
@@ -20820,7 +20916,7 @@
 250804 = {
 	name = "Matthaios"
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145146
 	903.1.1 = {
@@ -20834,7 +20930,7 @@
 250805 = {
 	name = "Theodolus"
 	dynasty = 101446
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = one_eyed
 	915.1.1 = {
@@ -20848,7 +20944,7 @@
 250806 = {
 	name = "Crysanthos"
 	dynasty = 101208
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	890.1.1 = {
 		birth = yes
@@ -20861,7 +20957,7 @@
 250807 = {
 	name = "Leo"
 	dynasty = 101208
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 250806
 	925.1.1 = {
@@ -20875,7 +20971,7 @@
 250808 = {
 	name = "Kyrillos"
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145146
 	906.1.1 = {
@@ -20889,7 +20985,7 @@
 250809 = {
 	name = "Iordanes"
 	dynasty = 101171
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	893.1.1 = {
 		birth = yes
@@ -20902,7 +20998,7 @@
 250810 = {
 	name = "Agallianos"
 	dynasty = 101171
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 250809
 	924.1.1 = {
@@ -20916,7 +21012,7 @@
 250811 = {
 	name = "Paschalis"
 	dynasty = 101171
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 250809
 	926.1.1 = {
@@ -20930,7 +21026,7 @@
 250812 = {
 	name = "Athanios"
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145146
 	908.1.1 = {
@@ -20944,7 +21040,7 @@
 260813 = {
 	name = "Antiochos"
 	dynasty = 631
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	901.1.1 = {
 		birth = yes
@@ -20957,7 +21053,7 @@
 260814 = {
 	name = "Leon"
 	dynasty = 631
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 260813
 	931.1.1 = {
@@ -20971,7 +21067,7 @@
 260815 = {
 	name = "Markos"
 	dynasty = 631
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 260814
 	950.1.1 = {
@@ -20985,7 +21081,7 @@
 260816 = {
 	name = "Herakleios"
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145146
 	911.1.1 = {
@@ -20999,7 +21095,7 @@
 260851 = {
 	name = "Philippos"
 	dynasty = 1062434
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	895.1.1 = {
 		birth = yes
@@ -21012,7 +21108,7 @@
 167472 = {
 	name = "Docibile"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	trait = shrewd
 	trait = ambitious
@@ -21029,7 +21125,7 @@
 262220 = {
 	name = "Matrona"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	838.1.1 = {
 		birth = yes
@@ -21045,7 +21141,7 @@
 167473 = {
 	name = "Ioannes"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167472
 	mother = 262220
@@ -21060,7 +21156,7 @@
 262221 = {
 	name = "Anatolios"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167472
 	mother = 262220
@@ -21075,7 +21171,7 @@
 262222 = {
 	name = "Leon"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167472
 	mother = 262220
@@ -21091,7 +21187,7 @@
 	name = "Euphemia"
 	female = yes
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167472
 	mother = 262220
@@ -21106,7 +21202,7 @@
 262224 = {
 	name = "Konstantinos"
 	dynasty = 622 #Caetani
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 167473
 	886.1.1 = {
@@ -21120,7 +21216,7 @@
 262225 = {
 	name = "Peter"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167473
 	893.1.1 = {
@@ -21135,7 +21231,7 @@
 	name = "Orania"
 	female = yes
 	dynasty = 101138 #spartenos
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 163085
 	898.1.1 = {
@@ -21152,7 +21248,7 @@
 167474 = {
 	name = "Docibile"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167473
 	trait = fortune_builder
@@ -21169,7 +21265,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167474
 	mother = 262226
@@ -21184,7 +21280,7 @@
 167475 = {
 	name = "Ioannes"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167474
 	mother = 262226
@@ -21199,7 +21295,7 @@
 167476 = {
 	name = "Gregorios"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167474
 	mother = 262226
@@ -21214,7 +21310,7 @@
 167481 = {
 	name = "Leon"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167474
 	mother = 262226
@@ -21229,7 +21325,7 @@
 167477 = {
 	name = "Marinos"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	father = 167474
 	mother = 262226
@@ -21244,7 +21340,7 @@
 262230 = {
 	name = "Leon"
 	dynasty = 1063111
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = grey_eminence
 	887.1.1 = {
@@ -21258,7 +21354,7 @@
 262231 = {
 	name = "Eustathios"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145159
 	trait = tough_soldier
@@ -21273,7 +21369,7 @@
 262232 = {
 	name = "Pothos"
 	dynasty = 639
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 262231
 	trait = skilled_tactician
@@ -21287,7 +21383,7 @@
 
 262233 = {
 	name = "Theophanes"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = grey_eminence
 	trait = eunuch
@@ -21309,7 +21405,7 @@
 262234 = {
 	name = "Theodora"
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	865.1.1 = {
 		birth = yes
@@ -21325,7 +21421,7 @@
 262235 = {
 	name = "Basil"
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 1706
 	trait = elusive_shadow
@@ -21346,7 +21442,7 @@
 262236 = {
 	name = "Sophia"
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	894.1.1 = {
 		birth = yes
@@ -21366,7 +21462,7 @@
 	name = "Irene"
 	female = yes
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145222
 	mother = 262236
@@ -21385,7 +21481,7 @@
 262238 = {
 	name = "Michael"
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145222
 	mother = 262236
@@ -21400,7 +21496,7 @@
 262239 = {
 	name = "Romanos"
 	dynasty = 642
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145222
 	mother = 262236
@@ -21416,7 +21512,7 @@
 	name = "Anthousa"
 	female = yes
 	dynasty = 100753
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 145146
 	890.1.1 = {
@@ -21433,7 +21529,7 @@
 262241 = {
 	name = "Stephano"
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = chaste
 	912.1.1 = {
@@ -21443,7 +21539,7 @@
 		add_spouse = 1712
 	}
 	928.8.1 = {
-	effect = { add_lover = 1712}
+		effect = { add_lover = 1712 }
 	}
 	944.1.1 = {
 		death = yes
@@ -21453,7 +21549,7 @@
 262242 = {
 	name = "Alexios"
 	dynasty = 1063119
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	870.1.1 = {
 		birth = yes
@@ -21466,7 +21562,7 @@
 262244 = {
 	name = "Konstantinos"
 	dynasty = 1063119
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 262242
 	trait = flamboyant_schemer
@@ -21483,7 +21579,7 @@
 262245 = {
 	name = "Anastasios"
 	dynasty = 1063119
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	father = 262242
 	trait = underhanded_rogue
@@ -21500,7 +21596,7 @@
 262246 = {
 	name = "Eustathios"
 	dynasty = 1062610
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = charismatic_negotiator
 	trait = eunuch
@@ -21516,7 +21612,7 @@
 262247 = {
 	name = "Daniel"
 	dynasty = 1062606
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = tough_soldier
 	trait = peasant_leader
@@ -21533,7 +21629,7 @@
 262248 = {
 	name = "Anna"
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	904.1.1 = {
 		birth = yes
@@ -21552,7 +21648,7 @@
 262249 = {
 	name = "Gemma"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = greek
 	dynasty = 101138
 	father = 163088

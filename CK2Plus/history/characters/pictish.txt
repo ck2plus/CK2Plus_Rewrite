@@ -202,7 +202,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166523
 	373.1.1 = {
@@ -220,7 +220,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166522
 	337.1.1 = {
@@ -238,7 +238,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166521
 	347.1.1 = {
@@ -256,7 +256,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166526
 	377.1.1 = {
@@ -274,7 +274,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166526
 	410.1.1 = {
@@ -292,7 +292,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166525
 	375.1.1 = {
@@ -310,7 +310,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166529
 	438.1.1 = {
@@ -328,7 +328,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166529
 	440.1.1 = {
@@ -346,7 +346,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166530
 	462.1.1 = {
@@ -364,7 +364,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166532
 	480.1.1 = {
@@ -382,7 +382,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166531
 	462.1.1 = {
@@ -400,7 +400,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166534
 	484.1.1 = {
@@ -418,7 +418,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166534
 	487.1.1 = {
@@ -436,7 +436,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166534
 	487.1.1 = {
@@ -454,7 +454,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166534
 	486.1.1 = {
@@ -472,7 +472,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166534
 	489.1.1 = {
@@ -490,7 +490,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166538
 	502.1.1 = {
@@ -508,7 +508,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166539
 	505.1.1 = {
@@ -526,7 +526,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166541
 	526.1.1 = {
@@ -579,7 +579,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166544
 	528.1.1 = {
@@ -615,7 +615,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166546
 	538.1.1 = {
@@ -651,7 +651,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166548
 	544.1.1 = {
@@ -669,7 +669,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166545
 	550.1.1 = {
@@ -687,7 +687,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166550
 	577.1.1 = {
@@ -705,7 +705,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166548
 	549.1.1 = {
@@ -723,7 +723,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166542
 	553.1.1 = {
@@ -741,7 +741,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166553
 	581.1.1 = {
@@ -759,7 +759,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166552
 	577.1.1 = {
@@ -777,7 +777,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166552
 	584.1.1 = {
@@ -795,7 +795,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166552
 	588.1.1 = {
@@ -814,7 +814,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166556
 	600.1.1 = {
@@ -832,7 +832,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 205211# son of Eanfrith of Bernicia
 	mother = 166558
@@ -851,7 +851,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166555
 	600.1.1 = {
@@ -872,7 +872,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166560
 	mother = 166567
@@ -891,7 +891,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166560
 	mother = 166567
@@ -911,7 +911,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	#father = #Edwin of Northumbria
 	#mother = #Æthelburg of Kent
@@ -930,7 +930,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166551
 	611.1.1 = {
@@ -948,7 +948,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166549
 	615.1.1 = {
@@ -969,7 +969,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166565
 	mother = 166563
@@ -992,7 +992,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166554
 	605.1.1 = {
@@ -1010,7 +1010,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166564
 	655.1.1 = {
@@ -1032,7 +1032,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166562
 	640.1.1 = {
@@ -1051,7 +1051,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166566
 	mother = 166569
@@ -1073,7 +1073,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166568
 	mother = 166570
@@ -1091,7 +1091,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166572
 	mother = 166570
@@ -1110,7 +1110,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166572
 	mother = 166570
@@ -1129,7 +1129,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166561
 	691.1.1 = {
@@ -1147,7 +1147,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166571
 	694.1.1 = {
@@ -1165,7 +1165,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166554
 	612.1.1 = {
@@ -1183,7 +1183,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166577
 	644.1.1 = {
@@ -1201,7 +1201,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166578
 	668.1.1 = {
@@ -1219,7 +1219,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166579
 	694.1.1 = {
@@ -1240,7 +1240,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166579
 	697.1.1 = {
@@ -1257,7 +1257,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166580
 	mother = 166582
@@ -1276,7 +1276,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166581
 	720.1.1 = {
@@ -1294,7 +1294,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166583
 	744.1.1 = {
@@ -1312,7 +1312,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166585
 	760.1.1 = {
@@ -1330,7 +1330,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166584
 	737.1.1 = {
@@ -1348,7 +1348,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166587
 	765.1.1 = {
@@ -1366,7 +1366,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166586
 	784.1.1 = {
@@ -1384,7 +1384,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166589
 	802.1.1 = {
@@ -1402,7 +1402,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166587
 	773.1.1 = {
@@ -1420,7 +1420,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166590
 	818.1.1 = {
@@ -1438,7 +1438,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166590
 	820.1.1 = {
@@ -1456,7 +1456,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166590
 	822.1.1 = {
@@ -1474,7 +1474,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	665.1.1 = {
 		birth = yes
@@ -1495,7 +1495,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166562
 	670.1.1 = {
@@ -1513,7 +1513,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166595
 	mother = 166596
@@ -1535,7 +1535,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166595
 	mother = 166596
@@ -1554,7 +1554,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166595
 	mother = 166596
@@ -1573,7 +1573,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166598
 	722.1.1 = {
@@ -1591,7 +1591,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166600
 	750.1.1 = {
@@ -1609,7 +1609,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166597
 	mother = 166611
@@ -1628,7 +1628,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166597
 	mother = 166611
@@ -1647,7 +1647,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166603
 	755.1.1 = {
@@ -1665,7 +1665,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166603
 	768.1.1 = {
@@ -1683,7 +1683,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166604
 	777.1.1 = {
@@ -1701,7 +1701,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166605
 	792.1.1 = {
@@ -1719,7 +1719,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166605
 	800.1.1 = {
@@ -1738,7 +1738,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166605
 	790.1.1 = {
@@ -1757,7 +1757,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166589
 	811.1.1 = {
@@ -1776,7 +1776,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166574
 	703.1.1 = {
@@ -1796,7 +1796,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	742.1.1 = {
 		birth = yes
@@ -1835,7 +1835,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	728.1.1 = {
 		birth = yes
@@ -1854,7 +1854,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	744.1.1 = {
 		birth = yes
@@ -1892,7 +1892,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	742.1.1 = {
 		birth = yes
@@ -1911,7 +1911,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	730.1.1 = {
 		birth = yes
@@ -1930,7 +1930,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166574
 	705.1.1 = {
@@ -1948,7 +1948,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 	father = 166619
 	733.1.1 = {

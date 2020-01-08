@@ -5,7 +5,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = charismatic_negotiator
 	985.1.2 = {
@@ -26,12 +26,15 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = underhanded_rogue
 	trait = patient
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.1 = {
 		death = yes
@@ -45,7 +48,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = elusive_shadow
 	997.1.1 = {
@@ -64,7 +67,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = greedy
 	1000.1.1 = {
@@ -82,7 +85,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = brave
 	trait = skilled_tactician
@@ -90,6 +93,9 @@
 	mother = 10015
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.1.1 = {
 		add_spouse = 10017
@@ -107,7 +113,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = lustful
 	trait = just
@@ -116,6 +122,9 @@
 	mother = 10015
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1082.1.1 = {
 		death = yes
@@ -130,7 +139,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = chaste
 	trait = flamboyant_schemer
@@ -138,6 +147,9 @@
 	mother = 10015
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -151,7 +163,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = skilled_tactician
 	father = 260
@@ -171,7 +183,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = charitable
 	trait = skilled_tactician
@@ -193,7 +205,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = charitable
 	trait = proud
@@ -201,6 +213,9 @@
 	father = 110635
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 140
@@ -216,13 +231,16 @@
 110638 = {
 	name = "Robert" #de Toeni de Stafford
 	dynasty = 25063
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 110635
 	1031.1.1 = {
 		birth = yes
 	}
 	#wife probably not Avice de Clare
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 140
 	}
@@ -240,7 +258,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = proud
@@ -250,6 +268,9 @@
 	mother = 110541
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.10.6 = {
 		death = yes
@@ -263,7 +284,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = brave
 	trait = thrifty_clerk
@@ -312,7 +333,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	trait = envious
@@ -336,7 +357,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = martial_cleric
 	father = 1120
@@ -359,12 +380,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 1120
 	mother = 10000
 	1005.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.2 = {
 		death = yes
@@ -378,13 +402,16 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 1120
 	mother = 10000
 	1010.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -398,12 +425,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = skilled_tactician
 	father = 1125
 	1044.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.1.2 = {
 		death = yes
@@ -420,7 +450,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = deceitful
 	trait = envious
@@ -434,6 +464,9 @@
 	}
 	1051.1.1 = {
 		add_spouse = 10003
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		remove_spouse = 10003
@@ -455,7 +488,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = martial_cleric
@@ -466,6 +499,9 @@
 	}
 	1049.1.2 = {
 		add_spouse = 1137
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -479,7 +515,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = just
 	trait = patient
@@ -488,6 +524,9 @@
 	mother = 10008
 	1031.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1061.1.2 = {
 		add_spouse = 10014
@@ -525,12 +564,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = skilled_tactician
 	father = 1126
 	1040.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.2 = {
 		death = yes
@@ -544,12 +586,15 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = martial_cleric
 	father = 1126
 	1041.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1091.1.2 = {
 		death = yes
@@ -563,12 +608,15 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 1126
 	1042.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1092.1.2 = {
 		death = yes
@@ -582,7 +630,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = tough_soldier
@@ -590,6 +638,9 @@
 	mother = 1129
 	1048.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1098.1.2 = {
 		death = yes
@@ -601,13 +652,16 @@
 	female = yes
 	dynasty = 678
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 
 	father = 1124
 	mother = 1129
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1114.1.1 = {
 		death = yes
@@ -621,7 +675,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = kind
 	trait = martial_cleric
@@ -629,6 +683,9 @@
 	mother = 1137
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		add_spouse = 30882
@@ -645,13 +702,16 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = thrifty_clerk
 	father = 1130
 	mother = 1137
 	1053.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1086.1.1 = {
 		add_spouse = 30873
@@ -750,7 +810,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = bastard
 	trait = charitable
@@ -759,6 +819,9 @@
 	mother = 10003
 	1052.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1108.1.2 = {
 		death = yes
@@ -772,7 +835,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = charitable
 	trait = amateurish_plotter
@@ -793,7 +856,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = amateurish_plotter
@@ -813,7 +876,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = cynical
 	trait = thrifty_clerk
@@ -823,6 +886,9 @@
 	}
 	1050.1.1 = {
 		add_spouse = 1153
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.4.1 = {
 		death = yes
@@ -837,7 +903,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = diligent
 	trait = underhanded_rogue
@@ -845,6 +911,9 @@
 	mother = 10008
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		death = yes
@@ -858,7 +927,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = diligent
 	trait = tough_soldier
@@ -866,6 +935,9 @@
 	mother = 1153
 	1051.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1091.2.1 = {
 		death = yes
@@ -875,12 +947,15 @@
 	name = "Eremburga"
 	female = yes
 	dynasty = 678
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 1124
 	mother = 1129
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -1037,7 +1112,7 @@
 	diplomacy = 7
 	intrigue = 10
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = ambitious
 	trait = diligent
@@ -1058,6 +1133,9 @@
 	}
 	1053.1.1 = {
 		add_spouse = 367 # Mathilda of Flanders
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.5 = {
 		add_claim = k_england
@@ -1193,7 +1271,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = envious
 	trait = wroth
@@ -1204,6 +1282,9 @@
 	mother = 367
 	1054.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1087.9.9 = {
 		add_claim = k_england
@@ -1329,7 +1410,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = greedy
 	trait = wroth
@@ -1341,6 +1422,9 @@
 	mother = 41001
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 140
@@ -1359,12 +1443,15 @@
 	# AKA: Maude
 	female = yes
 	dynasty = 751
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 152 #Roger II de Montgommery
 	mother = 449 #Maud de Belesme/Talvas
 	1037.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1091.1.1 = {
 		death = yes
@@ -1378,7 +1465,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = humble
 	trait = content
@@ -1387,6 +1474,9 @@
 	mother = 41001
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.1 = {
 		add_spouse = 149
@@ -1404,13 +1494,16 @@
 	dynasty = 751
 	dna = "wwgbkbzfbay"
 	properties = "eh0chk0000"
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1012.1.1 = {
 		birth = yes
 	}
 	1036.1.1 = {
 		add_spouse = 449 #Maud de Belesme/Talvas
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1074.1.1 = {
 		give_nickname = nick_the_great
@@ -1449,7 +1542,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = flamboyant_schemer
@@ -1457,6 +1550,9 @@
 	mother = 41001
 	1028.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.2 = {
 		death = yes
@@ -1512,7 +1608,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = kind
 	trait = honest
@@ -1522,6 +1618,9 @@
 	mother = 6821
 	1043.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1083.1.1 = {
 		death = yes
@@ -1535,7 +1634,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = proud
 	trait = wroth
@@ -1544,6 +1643,9 @@
 	mother = 6821
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1097.1.1 = {
 		death = yes
@@ -1558,13 +1660,16 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = thrifty_clerk
 	father = 6820
 	mother = 6821
 	1051.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1087.1.1 = {
 		death = yes
@@ -1578,7 +1683,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = temperate
 	trait = intricate_webweaver
@@ -1599,7 +1704,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = proud
 	trait = bastard
@@ -1607,6 +1712,9 @@
 	father = 160403
 	1041.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1091.1.2 = {
 		death = yes
@@ -1641,7 +1749,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = envious
 	trait = hunchback
@@ -1649,6 +1757,9 @@
 	trait = tough_soldier
 	1039.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1058.1.2 = {
 		add_spouse = 160404
@@ -1693,13 +1804,16 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = intricate_webweaver
 	father = 1120
 	mother = 10000
 	1007.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -1713,7 +1827,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = intricate_webweaver
 	1000.1.1 = {
@@ -1721,6 +1835,9 @@
 	}
 	1025.1.1 = {
 		add_spouse = 171153
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.1 = {
 		death = yes
@@ -1730,12 +1847,15 @@
 171155 = {
 	name = "Geoffroy"
 	dynasty = 200080
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 171154
 	mother = 171153
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		add_spouse = 30863
@@ -1832,13 +1952,16 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = martial_cleric
 	father = 174
 	1034.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 140
@@ -1879,12 +2002,15 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = tough_soldier
 	998.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.25 = {
 		death = yes
@@ -1898,13 +2024,16 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = chaste
 	trait = skilled_tactician
 	father = 1150
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1088.1.1 = {
 		death = yes
@@ -1918,13 +2047,16 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	#father = 144700
 	father = 190000
 	1054.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1105.1.1 = {
 		death = yes
@@ -2221,10 +2353,13 @@
 	diplomacy = 8
 	intrigue = 9
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1081.4.8 = {
 		death = yes
@@ -2748,7 +2883,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = gregarious
 	trait = wroth
@@ -2756,6 +2891,9 @@
 	father = 34605
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1107.1.1 = {
 		death = yes
@@ -2788,7 +2926,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = lustful
 	trait = envious
@@ -2810,7 +2948,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = gluttonous
 	trait = harelip
@@ -2837,7 +2975,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = flamboyant_schemer
 	father = 244
@@ -2861,7 +2999,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = martial_cleric
 	father = 246
@@ -2885,7 +3023,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = amateurish_plotter
 	father = 248
@@ -2906,7 +3044,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = cynical
 	trait = scholarly_theologian
@@ -2928,7 +3066,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = gluttonous
 	trait = skilled_tactician
@@ -2951,7 +3089,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = slothful
 	trait = deceitful
@@ -2974,12 +3112,15 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = thrifty_clerk
 	father = 252
 	1029.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1079.1.2 = {
 		death = yes
@@ -2994,7 +3135,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = temperate
 	trait = flamboyant_schemer
@@ -3015,7 +3156,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = charismatic_negotiator
 	father = 246
@@ -3025,6 +3166,9 @@
 	}
 	1022.1.1 = {
 		add_spouse = 6817
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.27 = {
 		death = yes
@@ -3039,7 +3183,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = martial_cleric
 	father = 246
@@ -3059,7 +3203,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = amateurish_plotter
@@ -3095,7 +3239,7 @@
 30826 = {
 	name = "Richard" #real name unknown
 	dynasty = 676
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	960.1.1 = {
 		birth = yes
@@ -3108,7 +3252,7 @@
 30827 = {
 	name = "Rainulf"
 	dynasty = 676
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 30826
 	986.1.1 = {
@@ -3231,12 +3375,15 @@
 30837 = {
 	name = "Jonathan"
 	dynasty = 676
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 1152
 	mother = 1153
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.1.1 = {
 		death = yes
@@ -3852,7 +3999,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = arbitrary
 	trait = patient
@@ -3860,6 +4007,9 @@
 	trait = amateurish_plotter
 	1034.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1084.1.2 = {
 		death = yes
@@ -3910,7 +4060,7 @@
 	name = "Beatrix" #de Normandie
 	female = yes
 	dynasty = 752
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 246
 	mother = 6801
@@ -3930,7 +4080,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	#father = 360
 	#mother = 1411
@@ -3950,7 +4100,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = martial_cleric
 	father = 40999
@@ -3962,6 +4112,9 @@
 	}
 	1050.1.2 = {
 		add_spouse = 183011
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.2 = {
 		death = yes
@@ -3976,7 +4129,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1003.1.2 = {
 		birth = yes
@@ -4063,7 +4216,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = bastard
 	trait = tough_soldier
@@ -4088,7 +4241,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 41012
@@ -4104,11 +4257,14 @@
 41014 = {
 	name = "Richard" # de Tonbridge FitzGilbert de Clare
 	dynasty = 364
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 41013
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1058.1.1 = {
 		add_spouse = 41015 #Rohese Giffard
@@ -4122,11 +4278,14 @@
 	name = "Rohese" #Giffard
 	female = yes
 	dynasty = 4011
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 32142 #Walter Giffard
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1113.1.1 = {
 		death = yes
@@ -4174,12 +4333,15 @@
 	name = "Sibyl"
 	female = yes
 	dynasty = 751
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 152 #Roger II de Montgommery
 	mother = 449 #Maud de Belesme/Talvas
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -4238,7 +4400,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 41232
@@ -4248,6 +4410,9 @@
 	}
 	1037.1.2 = {
 		add_spouse = 41231
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -4261,7 +4426,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 41233
@@ -4284,7 +4449,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 41234
@@ -4308,7 +4473,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = amateurish_plotter
 	father = 41234
@@ -4327,7 +4492,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = just
 	trait = proud
@@ -4336,6 +4501,9 @@
 	father = 41232
 	1024.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.1.1 = {
 		add_spouse = 41237
@@ -4371,7 +4539,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = lustful
 	trait = brave
@@ -4381,6 +4549,9 @@
 	}
 	1053.1.2 = {
 		add_spouse = 41242
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -4394,12 +4565,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = proud
 	trait = naive_appeaser
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1084.1.1 = {
 		death = yes
@@ -4434,7 +4608,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = gluttonous
 	trait = proud
@@ -4446,6 +4620,9 @@
 	}
 	1044.1.2 = {
 		add_spouse = 156
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -4460,7 +4637,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = gluttonous
 	trait = wroth
@@ -4470,6 +4647,9 @@
 	mother = 156
 	1051.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1101.7.27 = {
 		death = yes
@@ -4484,7 +4664,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = just
 	trait = humble
@@ -4493,6 +4673,9 @@
 	mother = 156
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -4507,7 +4690,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = zealous
@@ -4516,6 +4699,9 @@
 	mother = 156
 	1054.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1104.1.1 = {
 		death = yes
@@ -4552,7 +4738,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 41256
@@ -4571,13 +4757,16 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = diligent
 	trait = tough_soldier
 	father = 41013
 	1030.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.2 = {
 		add_spouse = 41252
@@ -4676,13 +4865,16 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = lustful
 	trait = diligent
 	trait = tough_soldier
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1092.1.1 = {
 		add_spouse = 32500
@@ -4699,7 +4891,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = bastard
 	trait = deceitful
@@ -4707,6 +4899,9 @@
 	father = 1132
 	1052.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1102.1.2 = {
 		death = yes
@@ -4741,12 +4936,15 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = deceitful
 	trait = skilled_tactician
 	1035.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.2 = {
 		death = yes
@@ -4760,7 +4958,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 1120
 	mother = 10008
@@ -4780,13 +4978,16 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = intricate_webweaver
 	father = 1120
 	mother = 10000
 	1006.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.2 = {
 		death = yes
@@ -4800,7 +5001,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = underhanded_rogue
 	1005.1.2 = {
@@ -4808,6 +5009,9 @@
 	}
 	1026.1.2 = {
 		add_spouse = 42005
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.2 = {
 		death = yes
@@ -4821,13 +5025,16 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = flamboyant_schemer
 	father = 42006
 	mother = 42005
 	1027.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.2 = {
 		add_spouse = 42008
@@ -4844,12 +5051,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 85016
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 1128 #Robert Guiscard
@@ -4870,7 +5080,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = deceitful
 	trait = amateurish_plotter
@@ -4878,6 +5088,9 @@
 	mother = 171153
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1088.1.1 = {
 		death = yes
@@ -4892,7 +5105,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = zealous
 	trait = martial_cleric
@@ -4900,6 +5113,9 @@
 	mother = 171153
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -4913,11 +5129,14 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = skilled_tactician
 	1002.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.2 = {
 		death = yes
@@ -4928,7 +5147,7 @@
 	name = "Mabel" #Talvas
 	female = yes
 	dynasty = 709 #de Belesme
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = charismatic_negotiator
 	father = 448
@@ -4936,6 +5155,9 @@
 		birth = yes
 	}
 	# 1048 married  #Roger II de Montgommery
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1075.1.1 = {
 		death = yes
 	}
@@ -4988,12 +5210,15 @@
 	name = "Cundo" #Condoha Vagéna d'Eu
 	female = yes
 	dynasty = 752
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 6820
 	mother = 6821
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	#1060 married Foulques I Taillefer 40106
 	1087.1.1 = {
@@ -5009,7 +5234,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = just
 	trait = amateurish_plotter
@@ -5029,7 +5254,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = charitable
 	trait = kind
@@ -5051,7 +5276,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = martial_cleric
 	father = 6800
@@ -5070,7 +5295,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = martial_cleric
 	father = 6802
@@ -5092,7 +5317,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = lustful
 	trait = skilled_tactician
@@ -5100,6 +5325,9 @@
 	mother = 6805
 	1026.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.1 = {
 		add_spouse = 110639
@@ -5204,7 +5432,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = temperate
 	trait = chaste
@@ -5214,6 +5442,9 @@
 	mother = 6805
 	1040.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.2 = {
 		death = yes
@@ -5227,7 +5458,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = arbitrary
 	trait = cynical
@@ -5237,6 +5468,9 @@
 	mother = 6817
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1077.7.17 = {
 		death = yes
@@ -5251,12 +5485,15 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = honest
 	trait = martial_cleric
 	990.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.27 = {
 		death = yes
@@ -5270,13 +5507,16 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 258
 	mother = 6817
 	1026.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1077.1.27 = {
 		death = yes
@@ -5291,7 +5531,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = envious
 	trait = temperate
@@ -5301,6 +5541,9 @@
 	father = 6816
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		death = yes
@@ -5314,7 +5557,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = humble
 	trait = flamboyant_schemer
@@ -5325,6 +5568,9 @@
 	}
 	1042.1.1 = {
 		add_spouse = 6821
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1089.9.8 = {
 		death = yes
@@ -5339,12 +5585,15 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = slothful
 	trait = amateurish_plotter
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		death = yes
@@ -5358,7 +5607,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = patient
 	trait = brave
@@ -5367,6 +5616,9 @@
 	mother = 6821
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		add_spouse = 32210
@@ -5445,12 +5697,15 @@
 	name = "Roger" #eldest son of 1st Shrewsbury earl
 	# AKA: Roger 'Parvulus'
 	dynasty = 751
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 152 #Roger II de Montgommery
 	mother = 449 #Maud de Belesme/Talvas
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.1.1 = {
 		death = yes
@@ -5499,7 +5754,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = cynical
 	trait = fortune_builder
@@ -5510,6 +5765,9 @@
 	}
 	1084.1.2 = {
 		add_spouse = 82058
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.1.1 = {
 		death = yes
@@ -5523,11 +5781,14 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 82086
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.7.1 = {
 		add_spouse = 82058
@@ -5567,13 +5828,16 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 41250
 	mother = 156
 	trait = legit_bastard
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1117.1.1 = {
 		death = yes
@@ -5588,10 +5852,13 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.2 = {
 		add_spouse = 82059
@@ -5716,10 +5983,13 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1004.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1061.7.1 = {
 		death = yes
@@ -5733,11 +6003,14 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 82066
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1093.7.1 = {
 		death = yes
@@ -5751,11 +6024,14 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 82066
 	1024.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1069.7.1 = {
 		death = yes
@@ -5890,10 +6166,13 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1024.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1068.1.1 = {
 		death = yes
@@ -5907,7 +6186,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = brilliant_strategist
 	father = 1120
@@ -5915,6 +6194,9 @@
 	trait = legit_bastard
 	1018.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	#1070.1.1 = {
 	#		add_spouse = 200365
@@ -5931,12 +6213,15 @@
 	diplomacy = 7
 	intrigue = 3
 	stewardship = 9
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = skilled_tactician
 	father = 85002
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1107.1.1 = {
 		death = yes
@@ -5951,12 +6236,15 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = brilliant_strategist
 	father = 85002
 	1038.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1088.1.2 = {
 		death = yes
@@ -5970,13 +6258,16 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = zealous
 	trait = martial_cleric
 	father = 85002
 	1041.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1102.1.1 = {
 		death = yes
@@ -5991,12 +6282,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = thrifty_clerk
 	father = 85002
 	1043.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1093.1.2 = {
 		death = yes
@@ -6010,13 +6304,16 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = tough_soldier
 	father = 1120
 	mother = 10008
 	1021.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.2 = {
 		death = yes
@@ -6030,13 +6327,16 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = martial_cleric
 	father = 1120
 	mother = 10008
 	1024.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.2 = {
 		death = yes
@@ -6050,13 +6350,16 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = naive_appeaser
 	father = 1120
 	mother = 10008
 	1026.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1076.1.2 = {
 		death = yes
@@ -6070,13 +6373,16 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = skilled_tactician
 	father = 1120
 	mother = 10008
 	1028.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.2 = {
 		death = yes
@@ -6180,10 +6486,13 @@
 32501 = {
 	name = "William"
 	dynasty = 349
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1054.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1114.1.28 = {
 		death = yes
@@ -6484,11 +6793,14 @@
 32139 = {
 	name = "William" #count of Arques, baron of Folkestone
 	dynasty = 4011
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 32140
 	1044.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1087.1.1 = {
 		death = yes
@@ -6498,11 +6810,14 @@
 32140 = {
 	name = "Godfrey" #count of Arques, baron of Folkestone
 	dynasty = 4011
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 32141
 	994.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1059.1.1 = {
 		death = yes
@@ -6512,7 +6827,7 @@
 32141 = {
 	name = "Osbern"
 	dynasty = 4011
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	950.1.1 = {
 		birth = yes
@@ -6525,11 +6840,14 @@
 32142 = {
 	name = "Walter"
 	dynasty = 4011
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 32141
 	991.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1084.1.1 = {
 		death = yes
@@ -6539,11 +6857,14 @@
 32143 = {
 	name = "Walter" #earl of Buckingham
 	dynasty = 4011
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 32142
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1102.7.15 = {
 		death = yes
@@ -6587,10 +6908,13 @@
 
 129017 = {
 	name = "William"
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1028.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.5.1 = {
 		death = yes
@@ -6641,7 +6965,7 @@
 129057 = {
 	name = "Onfroi"
 	dynasty = 5061
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	992.1.1 = {
 		birth = yes
@@ -6658,7 +6982,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 129057
 	1020.1.2 = {
@@ -6666,6 +6990,9 @@
 	}
 	1036.1.1 = {
 		add_spouse = 204577
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.1.24 = {
 		death = yes
@@ -6679,7 +7006,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = envious
 	trait = thrifty_clerk
@@ -6687,6 +7014,9 @@
 	mother = 204577
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		add_spouse = 30918
@@ -6712,12 +7042,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 204576
 	mother = 204577
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1119.6.20 = {
 		death = yes
@@ -6727,10 +7060,13 @@
 129083 = {
 	name = "Ilbert" #Ilbert de Lacie
 	dynasty = 4037
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1093.1.1 = {
 		death = yes
@@ -6752,11 +7088,14 @@
 73270 = {
 	name = "Geoffroy"
 	dynasty = 100345
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 73272
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		add_spouse = 73271
@@ -6769,10 +7108,13 @@
 73271 = {
 	name = "Gunnora"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -6782,10 +7124,13 @@
 73272 = {
 	name = "Acciard"
 	dynasty = 100345
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1006.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1058.1.1 = {
 		death = yes
@@ -6795,11 +7140,14 @@
 73273 = {
 	name = "Arnald"
 	dynasty = 100345
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 73272
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1083.1.1 = {
 		death = yes
@@ -6809,11 +7157,14 @@
 73274 = {
 	name = "Rayner"
 	dynasty = 100345
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 73272
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1086.1.1 = {
 		death = yes
@@ -6823,11 +7174,14 @@
 73275 = {
 	name = "Roger"
 	dynasty = 100345
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 73272
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -7234,10 +7588,13 @@
 138455 = {
 	name = "Robert" #FitzHamon
 	dynasty = 13115
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1087.1.1 = {
 		add_spouse = 41030 #Sibyl de Montgommery
@@ -7266,10 +7623,13 @@
 34605 = {
 	name = "Dagobert"
 	dynasty = 20066
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		death = yes
@@ -7279,11 +7639,14 @@
 34606 = {
 	name = "Raoul"
 	dynasty = 20066
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 34605
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -7293,10 +7656,13 @@
 93497 = {
 	name = "Raimbaud"
 	dynasty = 7372
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1074.1.1 = {
 		death = yes
@@ -7341,10 +7707,13 @@
 155245 = {
 	name = "Walkelin"
 	dynasty = 1027027
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1098.1.3 = {
 		death = yes
@@ -7383,11 +7752,14 @@
 34220 = {
 	name = "Roussel"
 	dynasty = 7299
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = skilled_tactician
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1082.1.1 = {
 		death = yes
@@ -7411,10 +7783,13 @@
 144950 = {
 	name = "Robert"
 	dynasty = 3123
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.1.1 = {
 		death = yes
@@ -7447,10 +7822,13 @@
 129048 = {
 	name = "Geoffrey" #Geoffrey de Mandeville
 	dynasty = 344
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1104.1.1 = {
 		death = yes
@@ -7758,7 +8136,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = arbitrary
 	trait = martial_cleric
@@ -7769,6 +8147,9 @@
 	}
 	1052.1.1 = {
 		add_spouse = 1129
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -8008,10 +8389,13 @@
 183011 = {
 	name = "Fredesendis"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1020.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.2 = {
 		employer = 140
@@ -8025,13 +8409,16 @@
 	name = "Radulf"
 	# AKA: Raoul de Conteville
 	dynasty = 101754
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = misguided_warrior
 	father = 41000
 	mother = 183011
 	1051.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.2 = {
 		employer = 140
@@ -8048,13 +8435,16 @@
 	name = "Jean"
 	# AKA: Jean de Conteville
 	dynasty = 101754
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = indulgent_wastrel
 	father = 41000
 	mother = 183011
 	1053.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.2 = {
 		employer = 140
@@ -8135,7 +8525,7 @@
 180691 = {
 	name = "Robert"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	add_trait = fortune_builder
 	995.1.1 = {
@@ -8260,10 +8650,13 @@
 252381 = {
 	name = "Bernard" #de Neufmarché
 	dynasty = 105947
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	#spouse - Nest, granddaughter of Gruffydd ap Llywelyn
 	1125.1.1 = {
@@ -8274,7 +8667,7 @@
 260555 = {
 	name = "Bernard" # the Dane
 	dynasty = 710
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = skilled_tactician
 	trait = viking
@@ -8292,7 +8685,7 @@
 260556 = {
 	name = "Torf" # le Riche
 	dynasty = 710
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	father = 260555
 	905.1.1 = {

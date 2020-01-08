@@ -3,7 +3,7 @@
 1000139000 = {
 	name = "Petronius"
 	# Flavius Anicius Petronius Maximus
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	396.1.1 = {
@@ -16,7 +16,7 @@
 1000139001 = {
 	name = "Avitus"
 	# Marcus Maecilius Flavius Eparchius Avitus
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	395.1.1 = {
@@ -29,7 +29,7 @@
 1000139002 = {
 	name = "Marjorian"
 	# Flavius Julius Valerius Majorianus
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	420.1.1 = {
@@ -42,7 +42,7 @@
 1000139003 = {
 	name = "Severus"
 	# Flavius Libius Severus Serpentius
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	420.1.1 = {
@@ -55,7 +55,7 @@
 1000139004 = {
 	name = "Anthemius"
 	# Procopius Anthemius
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	420.1.1 = {
@@ -68,7 +68,7 @@
 1000139005 = {
 	name = "Olybrius"
 	# Anicius Olybrius
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	452.3.23 = {
@@ -81,7 +81,7 @@
 1000139006 = {
 	name = "Glycerius"
 	# Flavius Glycerius
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	452.11.2 = {
@@ -94,7 +94,7 @@
 1000139007 = {
 	name = "Julius"
 	# Flavius Julius Nepos
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	430.1.1 = {
@@ -107,7 +107,7 @@
 1000139008 = {
 	name = "Romulus"
 	# Flavius Romulus
-	religion = catholic
+	religion = chalcedonian
 	culture = roman
 
 	460.1.1 = {

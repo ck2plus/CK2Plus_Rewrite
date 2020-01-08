@@ -9,7 +9,7 @@
 1000103000 = {
 	name = "Theodorada"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	672.1.1 = {
 		birth = yes
@@ -24,7 +24,7 @@
 	female = yes
 	dynasty = 1044046 # Bavarae
 	father = 190184 # Aripert II
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	690.1.1 = {
 		birth = yes
@@ -37,7 +37,7 @@
 1000103100 = {
 	name = "Allone"
 #	dynasty =
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	750.1.1 = {
 		birth = yes

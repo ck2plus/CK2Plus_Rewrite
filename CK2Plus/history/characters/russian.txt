@@ -226,7 +226,7 @@
 125000 = {
 	name = "Vseslav"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 616
 	994.1.2 = {
@@ -481,7 +481,7 @@
 125017 = {
 	name = "Vsevolod"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	mother = 609
@@ -496,7 +496,7 @@
 125018 = {
 	name = "Stanislav"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	986.1.2 = {
@@ -510,7 +510,7 @@
 125019 = {
 	name = "Sviatoslav"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	982.1.2 = {
@@ -606,7 +606,7 @@
 		add_spouse = 125056
 	}
 	1188.1.2 = {
-	remove_spouse = 125056
+		remove_spouse = 125056
 	}
 	1241.1.2 = {
 		death = yes
@@ -862,7 +862,7 @@
 125044 = {
 	name = "Kilikia"
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1028.1.2 = {
 		birth = yes
@@ -4430,11 +4430,14 @@
 	# AKA: Dobronega Maria
 	female = yes
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	1012.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1087.1.2 = {
 		death = yes
@@ -4448,12 +4451,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = envious
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4467,12 +4473,15 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = proud
 	trait = underhanded_rogue
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4486,11 +4495,14 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = flamboyant_schemer
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4504,12 +4516,15 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = honest
 	trait = flamboyant_schemer
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4523,12 +4538,15 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = hunchback
 	trait = flamboyant_schemer
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4542,13 +4560,16 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = envious
 	trait = zealous
 	trait = underhanded_rogue
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4562,12 +4583,15 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = greedy
 	trait = scholarly_theologian
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4581,12 +4605,15 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = cynical
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4600,13 +4627,16 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = greedy
 	trait = proud
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4620,12 +4650,15 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = gluttonous
 	trait = martial_cleric
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4639,13 +4672,16 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = honest
 	trait = lisp
 	trait = amateurish_plotter
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4659,13 +4695,16 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = envious
 	trait = clubfooted
 	trait = flamboyant_schemer
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4679,12 +4718,15 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = temperate
 	trait = martial_cleric
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4698,7 +4740,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = just
 	trait = envious
@@ -4707,6 +4749,9 @@
 	trait = skilled_tactician
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4720,12 +4765,15 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = hunchback
 	trait = skilled_tactician
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4739,12 +4787,15 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = cynical
 	trait = scholarly_theologian
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -4758,12 +4809,15 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = deceitful
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -7350,10 +7404,13 @@
 	name = "Predslava"
 	# AKA: Predlava
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1047.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1097.1.2 = {
 		death = yes
@@ -7380,10 +7437,13 @@
 40603 = {
 	name = "Sofia"
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1035.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1085.1.2 = {
 		death = yes
@@ -7409,11 +7469,14 @@
 	name = "Agatha"
 	female = yes
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	1015.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1093.1.2 = {
 		death = yes
@@ -9819,9 +9882,7 @@
 		effect = { set_character_flag = is_olga}
 	}
 	950.1.1 = {
-		effect = {
-			religion = orthodox
-		}
+		religion = chalcedonian
 	}
 	969.1.2 = {
 		death = yes
@@ -9879,7 +9940,7 @@
 606 = {
 	name = "Oleg"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 602
 	mother = 599
@@ -9898,7 +9959,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = envious
 	trait = zealous
@@ -9931,7 +9992,7 @@
 	# AKA: Ragnhild
 	female = yes
 	dynasty = 703
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	960.1.2 = {
 		birth = yes
@@ -9945,7 +10006,7 @@
 	name = "Sviatopolk"
 	# AKA: Svyatopolk
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = envious
 	trait = wroth
@@ -9975,7 +10036,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 10
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = scholar
 	trait = midas_touched
@@ -10002,7 +10063,7 @@
 	name = "Iziaslav"
 	# AKA: Izyaslav
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	mother = 609
@@ -10017,7 +10078,7 @@
 618 = {
 	name = "Mstislav"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	983.1.2 = {
@@ -10034,11 +10095,14 @@
 620 = {
 	name = "Sudislav"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	987.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1063.1.2 = {
 		death = yes
@@ -10049,7 +10113,7 @@
 	name = "Vysheslav"
 	# AKA: Vycheslav
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	977.1.2 = {
@@ -10064,7 +10128,7 @@
 	name = "Boris"
 	# AKA: St
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	986.1.2 = {
@@ -10079,7 +10143,7 @@
 	name = "Gleb"
 	# AKA: St
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 608
 	987.1.2 = {
@@ -10094,7 +10158,7 @@
 	name = "Iziaslav"
 	# AKA: Izyaslav
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 612
 	mother = 100511
@@ -10103,6 +10167,9 @@
 	}
 	1045.1.2 = {
 		add_spouse = 761
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.10.3 = {
 		death = yes
@@ -10113,12 +10180,15 @@
 	name = "Anna"
 	female = yes
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 612
 	mother = 100511
 	1032.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.2 = {
 		death = yes
@@ -10131,7 +10201,7 @@
 	dynasty = 705
 	diplomacy = 8
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 612
 	mother = 100511
@@ -10140,6 +10210,9 @@
 	}
 	1045.1.2 = {
 		add_spouse = 125044
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1070.1.2 = {
 		add_spouse = 1353
@@ -10152,7 +10225,7 @@
 630 = {
 	name = "Vsevolod"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = russian
 	trait = scholar
 	father = 612
@@ -10162,6 +10235,9 @@
 	}
 	1046.1.2 = {
 		add_spouse = 1727
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1068.1.2 = {
 		add_spouse = 125092
@@ -10176,12 +10252,15 @@
 	# AKA: Elizaveta
 	female = yes
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 612
 	mother = 100511
 	1025.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1067.1.5 = {
 		death = yes
@@ -10191,7 +10270,7 @@
 634 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 612
 	mother = 100511
@@ -10207,12 +10286,15 @@
 	name = "Anastasia"
 	female = yes
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 612
 	mother = 100511
 	1023.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1074.1.2 = {
 		death = yes
@@ -10222,12 +10304,15 @@
 638 = {
 	name = "Igor"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 612
 	mother = 100511
 	1037.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1060.1.2 = {
 		death = yes
@@ -10238,7 +10323,7 @@
 	name = "Briachislav"
 	# AKA: Bryachislav
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 616
 	997.1.2 = {
@@ -10253,7 +10338,7 @@
 	name = "Yevstafiy"
 	# AKA: Yevstafyi
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 618
 	mother = 122502
@@ -10268,7 +10353,7 @@
 650 = {
 	name = "Vseslav"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = cynical
 	trait = skilled_tactician
@@ -10279,6 +10364,9 @@
 	1053.1.2 = {
 		add_spouse = 40603
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1101.4.14 = {
 		death = yes
 	}
@@ -10288,12 +10376,15 @@
 	name = "Sviatopolk"
 	# AKA: Svyatopolk
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	trait = legit_bastard
 	father = 626
 	1050.11.8 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1113.4.16 = {
 		death = yes
@@ -10303,12 +10394,15 @@
 654 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	father = 628
 	mother = 125044
 	1046.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.5.30 = {
 		death = yes
@@ -10318,12 +10412,15 @@
 656 = {
 	name = "Davyd"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 628
 	mother = 125044
 	1050.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1123.1.2 = {
 		death = yes
@@ -10333,12 +10430,15 @@
 658 = {
 	name = "Roman"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 628
 	mother = 125044
 	1048.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1079.8.2 = {
 		death = yes
@@ -10348,7 +10448,7 @@
 660 = {
 	name = "Oleg"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = ambitious
 	trait = cynical
@@ -10356,6 +10456,9 @@
 	mother = 125044
 	1053.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1084.1.2 = {
 		add_spouse = 125051
@@ -10387,13 +10490,16 @@
 	diplomacy = 9
 	intrigue = 6
 	stewardship = 9
-	religion = orthodox
+	religion = chalcedonian
 	culture = russian
 	trait = genius
 	father = 630
 	mother = 1727
 	1053.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1074.1.2 = {
 		add_spouse = 127
@@ -10420,11 +10526,14 @@
 670 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 634
 	1038.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1057.1.1 = {
 		add_spouse = 41201
@@ -10437,12 +10546,15 @@
 672 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	father = 650
 	mother = 40603
 	1053.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1090.1.2 = {
 		add_spouse = 125095
@@ -10534,12 +10646,15 @@
 684 = {
 	name = "Yaropolk"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 626
 	mother = 761
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		add_spouse = 7061
@@ -10552,12 +10667,15 @@
 686 = {
 	name = "Mstislav"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	father = 626
 	mother = 761
 	1047.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1062.1.2 = {
 		add_spouse = 40601
@@ -10573,13 +10691,16 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = tough_soldier
 	trait = wroth
 	trait = brave
 	1012.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1062.1.2 = {
 		death = yes
@@ -10593,7 +10714,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = skilled_tactician
 	trait = temperate
@@ -10601,6 +10722,9 @@
 	father = 90135
 	1042.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1092.1.2 = {
 		death = yes
@@ -10614,7 +10738,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = skilled_tactician
 	trait = deceitful
@@ -10622,6 +10746,9 @@
 	father = 90135
 	1050.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.2 = {
 		death = yes
@@ -10653,7 +10780,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 9
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = scholarly_theologian
 	trait = zealous
@@ -10673,7 +10800,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 9
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = scholarly_theologian
 	trait = zealous
@@ -10681,6 +10808,9 @@
 	trait = temperate
 	1036.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1086.1.2 = {
 		death = yes
@@ -10694,12 +10824,15 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = thrifty_clerk
 	trait = deceitful
 	1054.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1104.1.2 = {
 		death = yes
@@ -10713,12 +10846,15 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = scholarly_theologian
 	trait = patient
 	1016.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1066.1.2 = {
 		death = yes
@@ -10772,13 +10908,16 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = detached_priest
 	trait = zealous
 	trait = possessed
 	1040.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1090.1.2 = {
 		death = yes
@@ -10853,11 +10992,14 @@
 9134 = {
 	name = "Boris"
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 9132
 	1054.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.10.3 = {
 		death = yes
@@ -10968,12 +11110,15 @@
 	name = "Wyszeslawa" # Daughter to Grand Prince Sviatoslav
 	female = yes
 	dynasty = 705 # Rurikovich
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 628
 	mother = 125044
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1099.1.1 = {
 		death = yes
@@ -11829,7 +11974,7 @@
 	name = "Sofia" #real name unknown
 	female = yes
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = bastard
 	father = 608
@@ -12429,10 +12574,13 @@
 256067 = { 		#fictional Novgorodian vassal in 1066
 	name = Ivan
 	dynasty = 1061046	#Gdovich
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1078.1.1 = {
 		death = yes
@@ -12443,10 +12591,13 @@
 	name = Ivan
 	dynasty = 1061046	#Gdovich
 	father = 256067
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1097.1.1 = {
 		death = yes
@@ -12457,10 +12608,13 @@
 	name = Nikita
 	dynasty = 1061046	#Gdovich
 	father = 256067
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -12470,10 +12624,13 @@
 256070 = {
 	name = Vasilko
 	dynasty = 1061047	#Lukich
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 		death = yes
@@ -12484,10 +12641,13 @@
 	name = Vasilko
 	dynasty = 1061047	#Lukich
 	father = 256070
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1095.1.1 = {
 		death = yes
@@ -12526,10 +12686,13 @@
 256074 = {
 	name = Igor
 	dynasty = 1061048	#Kholmich
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1064.1.1 = {
 		death = yes
@@ -12540,10 +12703,13 @@
 	name = Vsevolod
 	dynasty = 1061048	#Kholmich
 	father = 256074
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1095.1.1 = {
 		death = yes
@@ -12554,10 +12720,13 @@
 	name = Pavel
 	dynasty = 1061048	#Kholmich
 	father = 256074
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1099.1.1 = {
 		death = yes
@@ -12569,10 +12738,13 @@
 	dynasty = 1061048	#Kholmich
 	female = yes
 	father = 256074
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1099.1.1 = {
 		death = yes
@@ -12583,10 +12755,13 @@
 	name = Yelizaveta
 	dynasty = 1061049	#Tikhich
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = novgorodian
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1088.1.5 = {
 		death = yes
@@ -12626,10 +12801,13 @@
 256082 = { 		#fictional Kievan vassal in 1066
 	name = Yeremey
 	dynasty = 1061051	#Vozviahich
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1072.1.1 = {
 		death = yes
@@ -12653,10 +12831,13 @@
 256084 = { 		#fictional Kievan vassal in 1066
 	name = Kirill
 	dynasty = 1061052	#Kirillid
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -12667,10 +12848,13 @@
 	name = Iakov
 	dynasty = 1061052	#Kirillid
 	father = 256084
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1054.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1087.1.1 = {
 		death = yes
@@ -12694,10 +12878,13 @@
 256087 = { 		#fictional Kievan vassal in 1066
 	name = Konstantin
 	dynasty = 1061053	#Konstantinid
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1081.1.1 = {
 		death = yes
@@ -12708,10 +12895,13 @@
 	name = Konstantin
 	dynasty = 1061053	#Konstantinid
 	father = 256087
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1112.1.1 = {
 		death = yes
@@ -12721,10 +12911,13 @@
 256089 = { 		#fictional Kievan vassal in 1066
 	name = Oleg
 	dynasty = 1061019	#Tivertsi
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1081.1.1 = {
 		death = yes
@@ -12734,10 +12927,13 @@
 256090 = { 		#fictional Kievan vassal in 1066
 	name = Iliya
 	dynasty = 1061027	#Ulich
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1084.1.2 = {
 		death = yes
@@ -12747,10 +12943,13 @@
 256091 = { 		#fictional Kievan vassal in 1066
 	name = Stepan
 	dynasty = 1061054	#Stepanovid
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1091.1.2 = {
 		death = yes
@@ -12760,12 +12959,15 @@
 256092 = { 		#fictional Kievan vassal in 1066
 	name = Volodar
 	dynasty = 1029117	#Dregovich
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = ambitious
 	trait = tough_soldier
 	998.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1070.1.1 = {
 		death = yes
@@ -12776,13 +12978,16 @@
 	name = Yuriy
 	dynasty = 1029117	#Dregovich
 	father = 256092
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = ambitious
 	trait = skilled_tactician
 	trait = robust
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -12794,12 +12999,15 @@
 	dynasty = 1029117	#Dregovich
 	father = 256092
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	trait = ambitious
 	trait = tough_soldier
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1080.1.1 = {
 		death = yes
@@ -12858,10 +13066,13 @@
 256098 = {
 	name = Dmitriy		#fictional Pereyaslavl vassal in 1066
 	dynasty = 1061055	#Ves
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1087.1.2 = {
 		death = yes
@@ -12871,10 +13082,13 @@
 256099 = { 				#fictional Pereyaslavl vassal in 1066
 	name = Sviatopolk
 	dynasty = 1061056	#Zubvich
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1077.1.12 = {
 		death = yes
@@ -12884,10 +13098,13 @@
 256100 = { 				#fictional Pereyaslavl vassal in 1066
 	name = Daniil
 	dynasty = 1061057	#Kashinid
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1087.1.2 = {
 		death = yes
@@ -12897,10 +13114,13 @@
 256101 = { 				#fictional Pereyaslavl vassal in 1066
 	name = Sudislav
 	dynasty = 1029118	#Vyatich
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1021.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1088.1.1 = {
 		death = yes
@@ -12911,10 +13131,13 @@
 	name = Igor
 	dynasty = 1029118	#Vyatich
 	father = 256101
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1104.1.1 = {
 		death = yes
@@ -12925,10 +13148,13 @@
 	name = Briachislav
 	dynasty = 1061059	#Kozelid
 	father = 256115
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1051.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1077.1.2 = {
 		death = yes
@@ -12939,10 +13165,13 @@
 	name = Svetozar
 	dynasty = 1061060	#Karachid
 	father = 256115
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1079.11.12 = {
 		death = yes
@@ -12953,10 +13182,13 @@
 	name = Koz'ma
 	dynasty = 1061061	#Kromid
 	father = 256115
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1077.5.8 = {
 		death = yes
@@ -12966,10 +13198,13 @@
 256121 = { 		#Fictional tribal vassal for 1066 Chernigov
 	name = Yemelyan
 	dynasty = 1061062	#Yemelyanid
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1088.1.1 = {
 		death = yes
@@ -12979,10 +13214,13 @@
 256122 = {
 	name = Lev
 	dynasty = 1029118	#Vyatich
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1027.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1089.1.1 = {
 		death = yes
@@ -12993,10 +13231,13 @@
 	name = Matfei
 	dynasty = 1029118	#Vyatich
 	father = 256122
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1103.1.1 = {
 		death = yes

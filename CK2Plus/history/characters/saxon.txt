@@ -6,7 +6,7 @@
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = honest
 	trait = grey_eminence
@@ -27,7 +27,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = martial_cleric
 	father = 98
@@ -50,7 +50,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = honest
 	trait = tough_soldier
@@ -74,7 +74,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = envious
 	trait = fortune_builder
@@ -95,7 +95,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = honest
 	trait = tough_soldier
@@ -120,7 +120,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = flamboyant_schemer
 	963.1.1 = {
@@ -141,7 +141,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = skilled_tactician
 	father = 98
@@ -169,7 +169,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = amateurish_plotter
 	969.1.2 = {
@@ -188,7 +188,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = amateurish_plotter
 	father = 106
@@ -212,7 +212,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = slothful
 	trait = charitable
@@ -223,6 +223,9 @@
 	}
 	1036.1.2 = {
 		add_spouse = 41101
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.8.30 = {
 		death = yes
@@ -236,13 +239,16 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = thrifty_clerk
 	father = 122
 	mother = 131
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.10.14 = {
 		employer = 922
@@ -260,7 +266,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = tough_soldier
 	trait = brave
@@ -271,6 +277,9 @@
 	mother = 41101
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.8.30 = {
 		add_claim = k_england
@@ -301,7 +310,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = cynical
 	trait = martial_cleric
@@ -309,6 +318,9 @@
 	mother = 41101
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.8.30 = {
 		add_claim = k_england
@@ -336,7 +348,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = charitable
 	trait = chaste
@@ -352,6 +364,9 @@
 	1046.1.1 = {
 		add_spouse = 121
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		death = yes
 	}
@@ -364,13 +379,16 @@
 	diplomacy = 3
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = tough_soldier
 	father = 122
 	mother = 131
 	1049.12.10 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.10.14 = {
 		employer = 922
@@ -387,13 +405,16 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = tough_soldier
 	father = 122
 	mother = 131
 	1051.6.10 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.10.14 = {
 		employer = 922
@@ -411,7 +432,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = wroth
 	trait = chaste
@@ -420,6 +441,9 @@
 	mother = 41101
 	1047.5.8 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.8.30 = {
 		add_claim = k_england
@@ -446,7 +470,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = fortune_builder
 	993.1.1 = {
@@ -468,7 +492,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = wroth
 	trait = martial_cleric
@@ -476,6 +500,9 @@
 	mother = 101534
 	1021.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.12.18 = {
 		death = yes
@@ -491,7 +518,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = arbitrary
 	trait = proud
@@ -503,6 +530,9 @@
 	}
 	1048.1.1 = {
 		add_spouse = 131 #Ealdgyth 'Swanneck'
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.1.1 = {
 		remove_spouse = 131
@@ -569,7 +599,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = proud
 	trait = gluttonous
@@ -578,6 +608,9 @@
 	mother = 161280
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.12.14 = {
 		death = yes
@@ -591,7 +624,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = lustful
 	trait = greedy
@@ -603,6 +636,9 @@
 	}
 	1050.1.1 = {
 		add_spouse = 363
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 102531
@@ -629,7 +665,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = patient
 	trait = thrifty_clerk
@@ -637,6 +673,9 @@
 	mother = 363
 	1052.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 102531
@@ -653,7 +692,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = hunchback
 	trait = thrifty_clerk
@@ -661,6 +700,9 @@
 	mother = 363
 	1054.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 102531
@@ -678,13 +720,16 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = martial_cleric
 	father = 122
 	mother = 131
 	1053.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1098.1.2 = {
 		death = yes
@@ -698,7 +743,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = arbitrary
 	trait = tough_soldier
@@ -740,13 +785,16 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = thrifty_clerk
 	father = 120
 	mother = 101534
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.10.14 = {
 		death = yes
@@ -762,12 +810,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = fair
 	trait = fortune_builder
 	1025.6.6 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1086.1.2 = {
 		death = yes
@@ -781,7 +832,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = patient
 	trait = brave
@@ -794,6 +845,9 @@
 	}
 	1050.1.1 = {
 		trait = hunter
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.10.14 = {
 		death = yes
@@ -809,7 +863,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = cynical
 	trait = fortune_builder
@@ -828,7 +882,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = brave
 	trait = flamboyant_schemer
@@ -848,7 +902,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = flamboyant_schemer
 	father = 186
@@ -874,13 +928,16 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = scholarly_theologian
 	father = 188
 	mother = 161261
 	1015.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -894,7 +951,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = honest
 	trait = just
@@ -917,7 +974,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = temperate
 	trait = wroth
@@ -925,6 +982,9 @@
 	father = 190
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1069.1.1 = {
 		death = yes
@@ -938,7 +998,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = underhanded_rogue
 	father = 188
@@ -960,12 +1020,15 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = charismatic_negotiator
 	father = 192
 	1023.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.1 = {
 		death = yes
@@ -980,7 +1043,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = brave
 	trait = tough_soldier
@@ -989,6 +1052,9 @@
 	}
 	1046.1.2 = {
 		add_spouse = 193
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.2 = {
 		death = yes
@@ -1002,7 +1068,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = deceitful
 	trait = underhanded_rogue
@@ -1011,6 +1077,9 @@
 	mother = 193
 	1050.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1070.1.1 = {
 		add_spouse = 317
@@ -1050,12 +1119,15 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = humble
 	trait = scholarly_theologian
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.1.1 = {
 		death = yes
@@ -1126,7 +1198,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 9
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = scholarly_theologian
 	father = 100
@@ -1145,11 +1217,14 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = mastermind_theologian
 	995.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.1.1 = {
 		death = yes
@@ -1163,13 +1238,16 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = arbitrary
 	trait = hunchback
 	trait = scholarly_theologian
 	1016.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		death = yes
@@ -1183,7 +1261,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = envious
 	trait = humble
@@ -1194,6 +1272,9 @@
 	}
 	1018.1.1 = {
 		add_spouse = 161279
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 
 	1057.10.30 = {
@@ -1209,7 +1290,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = skilled_tactician
 	father = 5640
@@ -1219,6 +1300,9 @@
 	}
 	1036.1.1 = {
 		add_spouse = 161280
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		death = yes
@@ -1232,7 +1316,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = greedy
 	trait = brave
@@ -1243,6 +1327,9 @@
 	mother = 161280
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		trait = hunter
@@ -1280,7 +1367,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = arbitrary
 	trait = brave
@@ -1290,6 +1377,9 @@
 	mother = 161280
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		trait = hunter
@@ -1302,7 +1392,7 @@
 6890 = {
 	name = Ecgwyn # Fantasy
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	828.1.1 = {
 		birth = yes
@@ -1315,7 +1405,7 @@
 6891 = {
 	name = Burgflæd # Fantasy
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	845.1.1 = {
 		birth = yes
@@ -1367,7 +1457,7 @@
 	intrigue = 7
 	stewardship = 8
 	learning = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = honest
 	trait = just
@@ -1396,7 +1486,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 9
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = scholarly_theologian
 	father = 7627
@@ -1416,11 +1506,14 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 82002
 	1040.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1087.1.2 = {
 		death = yes
@@ -1434,7 +1527,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 188
 	mother = 161263
@@ -1452,12 +1545,15 @@
 	diplomacy = 9
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = charitable
 	trait = scholarly_theologian
 	1008.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.20 = {
 		death = yes
@@ -1471,10 +1567,13 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	1028.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1084.1.1 = {
 		death = yes
@@ -1508,13 +1607,16 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = amateurish_plotter
 	father = 120
 	mother = 101534
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.2.1 = {
 		death = yes
@@ -1529,7 +1631,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = wroth
 	trait = brave
@@ -1538,6 +1640,9 @@
 	father = 161278
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1088.1.1 = {
 		death = yes
@@ -1551,7 +1656,7 @@
 	diplomacy = 9
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = skilled_tactician
 	trait = deceitful
@@ -1559,6 +1664,9 @@
 	trait = ambitious
 	1044.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.2 = {
 		add_spouse = 90029
@@ -1575,11 +1683,14 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = thrifty_clerk
 	1046.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1096.1.2 = {
 		death = yes
@@ -1594,7 +1705,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 9
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 100
 	902.1.2 = {
@@ -1624,7 +1735,7 @@
 	trait = proud
 
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 100
 	893.1.1 = {
@@ -1650,7 +1761,7 @@
 33351 = {
 	name = "Eadred"
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 100
 	923.1.1 = {
@@ -1664,7 +1775,7 @@
 33352 = {
 	name = "Eadwig"
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 102
 	941.1.1 = {
@@ -1681,7 +1792,7 @@
 33354 = {
 	name = "Ecgberht"
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205189
 	769.1.1 = {
@@ -1696,7 +1807,7 @@
 33355 = {
 	name = "Æthelwulf"
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 33354
 	795.1.1 = {
@@ -1713,7 +1824,7 @@
 33356 = {
 	name = "Æthelbald"
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 33355
 	mother = 252210
@@ -1728,7 +1839,7 @@
 33357 = {
 	name = "Æthelbert"
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 33355
 	mother = 252210
@@ -1743,7 +1854,7 @@
 33358 = {
 	name = "Æthelred"
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 33355
 	mother = 252210
@@ -1817,7 +1928,7 @@
 161260 = {
 	name = "Ælfwine"
 	dynasty = 490
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = legit_bastard
 	trait = chaste
@@ -1828,6 +1939,9 @@
 	}
 	1040.3.17 = {
 		add_claim = k_england
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		employer = 336
@@ -1841,7 +1955,7 @@
 	name = "Ælfgifu"
 	female = yes
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 106
 	mother = 105
@@ -1857,7 +1971,7 @@
 	name = "Godgifu" # aka Goda
 	female = yes
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 106
 	mother = 259
@@ -1872,7 +1986,7 @@
 161263 = {
 	name = "Ecgfrida"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	972.1.1 = {
 		birth = yes
@@ -1886,12 +2000,15 @@
 	name = "Ælfgifu" #real name unknown
 	female = yes
 	dynasty = 744
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 188
 	mother = 161261
 	1016.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -1900,13 +2017,16 @@
 
 161265 = {
 	name = "Æthelgar"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	1010.1.1 = {
 		birth = yes
 	}
 	1035.1.1 = {
 		add_spouse = 161264
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		death = yes
@@ -1916,12 +2036,15 @@
 161266 = {
 	name = "Siward"
 	dynasty = 744
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 161265
 	mother = 161264
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1087.1.1 = {
 		death = yes
@@ -1931,12 +2054,15 @@
 161267 = {
 	name = "Ealdred"
 	dynasty = 744
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 161265
 	mother = 161264
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -1946,11 +2072,14 @@
 161268 = {
 	name = "Halden"
 	dynasty = 744
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 190
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.1 = {
 		death = yes
@@ -1961,11 +2090,14 @@
 	name = "Ældgyth"
 	female = yes
 	dynasty = 744
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 192
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		death = yes
@@ -1975,13 +2107,16 @@
 161270 = {
 	name = "Ligulf"
 	dynasty = 562
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	1030.1.1 = {
 		birth = yes
 	}
 	1048.1.1 = {
 		add_spouse = 161269
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -1991,12 +2126,15 @@
 161271 = {
 	name = "Uhtred"
 	dynasty = 562
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 161270
 	mother = 161269
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -2006,12 +2144,15 @@
 161272 = {
 	name = "Morcar"
 	dynasty = 562
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 161270
 	mother = 161269
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -2036,12 +2177,15 @@
 	name = "Gytha"
 	female = yes
 	dynasty = 756
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 120
 	mother = 101534
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1082.1.1 = {
 		death = yes
@@ -2051,7 +2195,7 @@
 161275 = {
 	name = "Æthelric"
 	dynasty = 20022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	960.1.1 = {
 		birth = yes
@@ -2065,7 +2209,7 @@
 	name = "Eadric"
 	#Eadric Streona
 	dynasty = 20022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 161275
 	980.1.1 = {
@@ -2083,7 +2227,7 @@
 	name = "Eadgyth"
 	female = yes
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 106
 	mother = 105
@@ -2099,7 +2243,7 @@
 161278 = {
 	name = "Ælfric"
 	dynasty = 20022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 161275
 	990.1.1 = {
@@ -2114,10 +2258,13 @@
 	name = "Godgifu"
 	#AKA Lady Godiva
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	1002.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -2127,10 +2274,13 @@
 161280 = {
 	name = "Ælgifu"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1070.1.1 = {
 		death = yes
@@ -2144,12 +2294,15 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 40418
 	mother = 161274
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1120.1.1 = {
 		death = yes
@@ -2176,12 +2329,15 @@
 167002 = {
 	name = "Hacon"
 	dynasty = 756
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = legit_bastard
 	father = 128
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		add_claim = d_lancaster
@@ -2194,7 +2350,7 @@
 167003 = {
 	name = "Ælfgar"
 	dynasty = 756
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = chaste
 	trait = detached_priest
@@ -2202,6 +2358,9 @@
 	mother = 101534
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.5 = {
 		employer = 91173 # Bishop of Rheims
@@ -2215,12 +2374,15 @@
 	name = "Ælfgifu"
 	female = yes
 	dynasty = 756
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 120
 	mother = 101534
 	1043.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.11.1 = {
 		death = yes
@@ -2230,7 +2392,7 @@
 163064 = {
 	name = "Eadmund" # of East Anglia
 	dynasty = 626
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205021
 	840.1.1 = {
@@ -2252,7 +2414,7 @@
 163102 = {
 	name = "Burghred"
 	dynasty = 813
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205100
 	830.1.1 = {
@@ -2269,7 +2431,7 @@
 163103 = {
 	name = "Ælla"
 	dynasty = 814
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205252
 	martial = 5
@@ -2307,7 +2469,7 @@
 	name = "Blæja"
 	female = yes
 	dynasty = 814
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 163103
 	mother = 6890
@@ -2322,7 +2484,7 @@
 6875 = {
 	name = "Ælfgar"
 	dynasty = 814
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 163103
 	mother = 6890
@@ -2339,7 +2501,7 @@
 
 163120 = {
 	name = "Eardulf" # Bishop of Durham/Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 5
 	trait = scholarly_theologian
@@ -2354,7 +2516,7 @@
 
 163121 = {
 	name = "Oswine" # Earl of Lancaster (made up)
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 
 	830.1.1 = {
@@ -2367,7 +2529,7 @@
 
 163122 = {
 	name = "Ælfwald" # Earl of Westmorland (made up)
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 
 	833.1.1 = {
@@ -2380,7 +2542,7 @@
 
 163123 = {
 	name = "Sæxræd" # Earl of Cumberland (made up)
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 
 	835.1.1 = {
@@ -2393,7 +2555,7 @@
 
 159465 = {
 	name = "Ælfræd" #Alured
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	dynasty = 100031 #of Cornwall
 	father = 159464
@@ -2407,12 +2569,15 @@
 
 159470 = {
 	name = "Godwine"  #Godwyn
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	dynasty = 100031 #of Cornwall
 	father = 159465
 	1014.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1070.1.1 = {
 		death = yes
@@ -2421,12 +2586,15 @@
 
 159471 = {
 	name = "Hereberht"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	dynasty = 100031
 	father = 159470
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -2437,7 +2605,7 @@
 	name = "Æthelswith"
 	female = yes
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 33355
 	mother = 252210
@@ -2452,7 +2620,7 @@
 180665 = {
 	name = "Deusdedit"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	600.1.1 = {
@@ -2466,7 +2634,7 @@
 180667 = {
 	name = "Berhtwald"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	650.1.1 = {
@@ -2480,7 +2648,7 @@
 180668 = {
 	name = "Tatwine"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	670.1.1 = {
@@ -2494,7 +2662,7 @@
 180669 = {
 	name = "Nothhelm"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	675.1.1 = {
@@ -2508,7 +2676,7 @@
 180670 = {
 	name = "Cuthbert"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	690.1.1 = {
@@ -2522,7 +2690,7 @@
 180671 = {
 	name = "Bregowine"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	700.1.1 = {
@@ -2536,7 +2704,7 @@
 180672 = {
 	name = "Jaenbert"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	715.1.1 = {
@@ -2550,7 +2718,7 @@
 180673 = {
 	name = "Æthelhard"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	730.1.1 = {
@@ -2564,7 +2732,7 @@
 180674 = {
 	name = "Wulfred"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	760.1.1 = {
@@ -2578,7 +2746,7 @@
 180675 = {
 	name = "Ceolnoth"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	790.1.1 = {
@@ -2592,7 +2760,7 @@
 180676 = {
 	name = "Aethelred"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	820.1.1 = {
@@ -2606,7 +2774,7 @@
 180677 = {
 	name = "Plegmund"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	856.5.30 = {
@@ -2620,7 +2788,7 @@
 180678 = {
 	name = "Æthelm"
 	# Archbishop of Canterbury, Bishop of Wells
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	863.4.4 = {
@@ -2634,7 +2802,7 @@
 180679 = {
 	name = "Wulfhelm"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	870.1.1 = {
@@ -2648,7 +2816,7 @@
 180681 = {
 	name = "Ælfsige"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	895.1.1 = {
@@ -2662,7 +2830,7 @@
 180682 = {
 	name = "Byrhthelm"
 	# Archbishop of Canterbury, Bishop of Wells
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	910.1.1 = {
@@ -2676,7 +2844,7 @@
 180683 = {
 	name = "Dunstan"
 	# Archbishop of Canterbury, Bishop of London
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	909.1.1 = {
@@ -2690,7 +2858,7 @@
 180684 = {
 	name = "Æthelgar"
 	# Archbishop of Canterbury, Bishop of Selsey
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	915.1.1 = {
@@ -2704,7 +2872,7 @@
 180685 = {
 	name = "Sigeric"
 	# Archbishop of Canterbury, Bishop of Ramsbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	930.1.1 = {
@@ -2718,7 +2886,7 @@
 180686 = {
 	name = "Ælfric"
 	# Archbishop of Canterbury, Bishop of Winchester
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	940.1.1 = {
@@ -2732,7 +2900,7 @@
 180687 = {
 	name = "Aelfheath"
 	# Archbishop of Canterbury, Bishop of Winchester
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	954.1.1 = {
@@ -2746,7 +2914,7 @@
 180688 = {
 	name = "Lyfing"
 	# Archbishop of Canterbury, Bishop of Wells
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	949.1.1 = {
@@ -2760,7 +2928,7 @@
 168608 = {
 	name = "Aethelnoth"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	975.1.1 = {
@@ -2774,7 +2942,7 @@
 180690 = {
 	name = "Eadsige"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	add_trait = mastermind_theologian
 	995.1.1 = {
@@ -2878,7 +3046,7 @@
 		birth = yes
 	}
 	600.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	616.2.24 = {
 		death = yes
@@ -2896,7 +3064,7 @@
 		birth = yes
 	}
 	620.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 		#add_spouse = Emma Meroving
 	}
 	640.1.1 = {
@@ -2907,7 +3075,7 @@
 205033 = {
 	name = "Æthelwald"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205031
 	#mother = Bertha Meroving
@@ -2923,7 +3091,7 @@
 	name = "Æthelburh"
 	female = yes
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205031
 	#mother = Bertha Meroving
@@ -2941,7 +3109,7 @@
 205035 = {
 	name = "Eormenred"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205032
 	#mother = Emma Meroving
@@ -2959,7 +3127,7 @@
 205036 = {
 	name = "Eorcenberht"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205032
 	#mother = Emma Meroving
@@ -2974,7 +3142,7 @@
 205037 = {
 	name = "Æthelberht" # Æthelberht I
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205035 # Eormenred
 	mother = 1000147000 # Oslafa
@@ -2992,7 +3160,7 @@
 205038 = {
 	name = "Æthelred"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205035 # Eormenred
 	mother = 1000147000 # Oslafa
@@ -3007,7 +3175,7 @@
 205039 = {
 	name = "Ecgberht"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205036 # Eorcenberht
 	630.1.1 = {
@@ -3021,7 +3189,7 @@
 205040 = {
 	name = "Hlothere"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205036 # Eorcenberht
 	635.1.1 = {
@@ -3035,7 +3203,7 @@
 205041 = {
 	name = "Eadric"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205039 # Ecgberht
 	650.1.1 = {
@@ -3049,7 +3217,7 @@
 205042 = {
 	name = "Oswine"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205038 # Æthelred
 	661.1.1 = {
@@ -3063,7 +3231,7 @@
 205043 = {
 	name = "Wihtræd"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205039 # Ecgberht
 	655.1.1 = {
@@ -3077,7 +3245,7 @@
 205044 = {
 	name = "Æthelberht"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205043 # Wihtræd
 	685.1.1 = {
@@ -3091,7 +3259,7 @@
 205045 = {
 	name = "Eadberht"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205043 # Wihtræd
 	680.1.1 = {
@@ -3105,7 +3273,7 @@
 205046 = {
 	name = "Ælfric"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205043 # Wihtræd
 	679.1.1 = {
@@ -3119,7 +3287,7 @@
 205047 = {
 	name = "Eardwulf"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205045 # Eadberht
 	700.1.1 = {
@@ -3133,7 +3301,7 @@
 205048 = {
 	name = "Eadberht"
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205044 # Æthelberht
 	710.1.1 = {
@@ -3147,7 +3315,7 @@
 205049 = {
 	name = "Ecgberht" # II
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205048 # Eadberht
 	735.1.1 = {
@@ -3161,7 +3329,7 @@
 205050 = {
 	name = "Eadberht" # III
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205049 # Eadberht
 	755.1.1 = {
@@ -3238,14 +3406,14 @@
 	}
 	630.1.1 = {
 		death = yes
-		religion = catholic
+		religion = chalcedonian
 	}
 }
 
 205005 = {
 	name = "Sigeberht"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205002
 	591.1.1 = {
@@ -3273,7 +3441,7 @@
 205007 = {
 	name = "Anna"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205006
 	590.1.1 = {
@@ -3287,7 +3455,7 @@
 205008 = {
 	name = "Æthelhere"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205006
 	592.1.1 = {
@@ -3301,7 +3469,7 @@
 205009 = {
 	name = "Æthelwold"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205006
 	595.1.1 = {
@@ -3329,7 +3497,7 @@
 205011 = {
 	name = "Ealdwulf"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205010
 	635.1.1 = {
@@ -3343,7 +3511,7 @@
 205012 = {
 	name = "Ealdwald"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205011
 	675.1.1 = {
@@ -3357,7 +3525,7 @@
 205013 = {
 	name = "Beonna"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205012
 	700.1.1 = {
@@ -3371,7 +3539,7 @@
 205014 = {
 	name = "Æthelberht"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205012
 	702.1.1 = {
@@ -3385,7 +3553,7 @@
 205015 = {
 	name = "Æthelred"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205013
 	725.1.1 = {
@@ -3399,7 +3567,7 @@
 205016 = {
 	name = "Æthelberht"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205015
 	750.1.1 = {
@@ -3413,7 +3581,7 @@
 205017 = {
 	name = "Æthelric"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205014
 	725.1.1 = {
@@ -3427,7 +3595,7 @@
 205018 = {
 	name = "Ealdwald"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205017
 	751.1.1 = {
@@ -3441,7 +3609,7 @@
 205019 = {
 	name = "Æthelred"
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205018
 	769.1.1 = {
@@ -3455,7 +3623,7 @@
 205020 = {
 	name = "Æthelstan" # of East Anglia
 	dynasty = 626
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205019
 	790.1.1 = {
@@ -3469,7 +3637,7 @@
 205021 = {
 	name = "Æthelweard" # of East Anglia
 	dynasty = 626
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205020
 	810.1.1 = {
@@ -3483,7 +3651,7 @@
 205022 = {
 	name = "Beorhtric" # of East Anglia
 	dynasty = 626
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205020
 	811.1.1 = {
@@ -3497,7 +3665,7 @@
 205023 = {
 	name = "Oswald" # of East Anglia
 	dynasty = 626
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205021
 	841.1.1 = {
@@ -3511,7 +3679,7 @@
 205024 = {
 	name = "Æthelred" # of East Anglia
 	dynasty = 626
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205023
 	860.1.1 = {
@@ -3658,7 +3826,7 @@
 	}
 	655.11.15 = {
 		add_spouse = 252176
-		religion = catholic
+		religion = chalcedonian
 	}
 	656.4.17 = {
 		death = yes
@@ -3675,7 +3843,7 @@
 		birth = yes
 	}
 	655.11.15 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	675.1.1 = {
 		death = yes
@@ -3692,7 +3860,7 @@
 		birth = yes
 	}
 	655.11.15 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	704.1.1 = {
 		death = yes
@@ -3702,7 +3870,7 @@
 205063 = {
 	name = "Coenred" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205061
 	670.1.1 = {
@@ -3716,7 +3884,7 @@
 205064 = {
 	name = "Ceolred" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205062
 	671.1.1 = {
@@ -3730,7 +3898,7 @@
 205065 = {
 	name = "Ceolwald" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205062
 	671.1.1 = {
@@ -3744,7 +3912,7 @@
 205066 = {
 	name = "Alweo" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205058
 	641.1.1 = {
@@ -3758,7 +3926,7 @@
 205067 = {
 	name = "Æthelbald" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205066
 	680.1.1 = {
@@ -3772,7 +3940,7 @@
 205068 = {
 	name = "Heardberht" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205066
 	685.1.1 = {
@@ -3786,7 +3954,7 @@
 205069 = {
 	name = "Osmod" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205058
 	642.1.1 = {
@@ -3800,7 +3968,7 @@
 205070 = {
 	name = "Eanwulf" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205069
 	670.1.1 = {
@@ -3814,7 +3982,7 @@
 205071 = {
 	name = "Thingfrith" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205070
 	705.1.1 = {
@@ -3830,7 +3998,7 @@
 	dna = zmawnwppcak
 	properties = hi0cgd000000000000
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205071
 	#mother = Marcellina
@@ -3848,7 +4016,7 @@
 205073 = {
 	name = "Ecgfrith" #
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205072
 	mother = 205074
@@ -3864,7 +4032,7 @@
 	name = "Cynethryth" #
 	dynasty = 1047003 #
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205104
 	744.1.1 = {
@@ -3882,7 +4050,7 @@
 	name = "Eadburh" #
 	female = yes
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205072
 	mother = 205074
@@ -3898,7 +4066,7 @@
 	name = "Ælfflæd" #
 	female = yes
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205072
 	mother = 205074
@@ -3914,7 +4082,7 @@
 	name = "Æthelburh" #
 	female = yes
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205072
 	mother = 205074
@@ -3930,7 +4098,7 @@
 	name = "Æthelswith" #
 	female = yes
 	dynasty = 1047002
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205072
 	mother = 205074
@@ -3945,7 +4113,7 @@
 205079 = {
 	name = "Wiglaf" #
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205063
 	700.1.1 = {
@@ -3959,7 +4127,7 @@
 205081 = {
 	name = "Wigheard" #
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205079
 	722.1.1 = {
@@ -3973,7 +4141,7 @@
 205082 = {
 	name = "Wigferth" #
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205081
 	740.1.1 = {
@@ -3987,7 +4155,7 @@
 205083 = {
 	name = "Wigberht" #
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205082
 	760.1.1 = {
@@ -4001,7 +4169,7 @@
 205084 = {
 	name = "Wiglaf" # I of Mercia
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205083
 	780.1.1 = {
@@ -4015,7 +4183,7 @@
 205085 = {
 	name = "Wigmund" # I of Mercia
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205084
 	796.1.1 = {
@@ -4029,7 +4197,7 @@
 205086 = {
 	name = "Coelwulf" #
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205085
 	#mother = Aelfflaed of Mercia
@@ -4044,7 +4212,7 @@
 194041 = {
 	name = "Wigstan" #
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205085
 	#mother = Aelfflaed of Mercia
@@ -4059,7 +4227,7 @@
 205087 = {
 	name = "Leofric" #
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205085
 	#mother = Aelfflaed of Mercia
@@ -4074,7 +4242,7 @@
 205088 = {
 	name = "Æthelred" # II of Mercia
 	dynasty = 1047004
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205087
 	850.1.1 = {
@@ -4091,7 +4259,7 @@
 205080 = {
 	name = "Beornwine" #
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205063
 	701.1.1 = {
@@ -4105,7 +4273,7 @@
 205089 = {
 	name = "Beornred" # I of Mercia
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205080
 	720.1.1 = {
@@ -4119,7 +4287,7 @@
 205090 = {
 	name = "Beornnoth" #
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205089
 	740.1.1 = {
@@ -4133,7 +4301,7 @@
 205091 = {
 	name = "Beorhtweald" #
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205090
 	760.1.1 = {
@@ -4147,7 +4315,7 @@
 205092 = {
 	name = "Beornwulf" #
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205091
 	782.1.1 = {
@@ -4161,7 +4329,7 @@
 205093 = {
 	name = "Beorhtwine" #
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205092
 	800.1.1 = {
@@ -4175,7 +4343,7 @@
 205094 = {
 	name = "Beorhtwulf" #
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205093
 	820.1.1 = {
@@ -4189,7 +4357,7 @@
 205095 = {
 	name = "Beorhtfrith" #
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205094
 	#mother = Saethryth
@@ -4204,7 +4372,7 @@
 205096 = {
 	name = "Beorhtric" #
 	dynasty = 1047005
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205094
 	#mother = Saethryth
@@ -4219,7 +4387,7 @@
 205097 = {
 	name = "Beornmund" #
 	dynasty = 813
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205090
 	762.1.1 = {
@@ -4233,7 +4401,7 @@
 205098 = {
 	name = "Beorhtwulf" #
 	dynasty = 813
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205097
 	780.1.1 = {
@@ -4247,7 +4415,7 @@
 205099 = {
 	name = "Beornwine" #
 	dynasty = 813
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205098
 	796.1.1 = {
@@ -4261,7 +4429,7 @@
 205100 = {
 	name = "Beornred" #
 	dynasty = 813
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205099
 	812.1.1 = {
@@ -4289,7 +4457,7 @@
 205102 = {
 	name = "Centwine" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205101
 	659.1.1 = {
@@ -4303,7 +4471,7 @@
 205103 = {
 	name = "Cynreow" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205102
 	680.1.1 = {
@@ -4317,7 +4485,7 @@
 205104 = {
 	name = "Bassa" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205103
 	700.1.1 = {
@@ -4331,7 +4499,7 @@
 205105 = {
 	name = "Cuthberht" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205104
 	720.1.1 = {
@@ -4345,7 +4513,7 @@
 205106 = {
 	name = "Cuthred" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205104
 	722.1.1 = {
@@ -4359,7 +4527,7 @@
 205107 = {
 	name = "Coenwulf" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205105
 	765.1.1 = {
@@ -4373,7 +4541,7 @@
 205108 = {
 	name = "Coelwulf" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205105
 	769.1.1 = {
@@ -4387,7 +4555,7 @@
 205109 = {
 	name = "Cynehelm" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205107
 	785.1.1 = {
@@ -4401,7 +4569,7 @@
 205110 = {
 	name = "Centwine" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205107
 	805.1.1 = {
@@ -4415,7 +4583,7 @@
 205111 = {
 	name = "Cuthberht" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205108
 	790.1.1 = {
@@ -4429,7 +4597,7 @@
 205112 = {
 	name = "Ceolwulf" #
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205111
 	820.1.1 = {
@@ -4442,7 +4610,7 @@
 
 190565 = {
 	name = "Lullus" #archbishop of Mainz
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	710.1.1 = {
 		birth = yes
@@ -4542,7 +4710,7 @@
 205147 = {
 	name = "Cynegils" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205145
 	575.1.1 = {
@@ -4556,7 +4724,7 @@
 205148 = {
 	name = "Coenwalh" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205147
 	595.1.1 = {
@@ -4570,7 +4738,7 @@
 205149 = {
 	name = "Cwichelm" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205147
 	600.1.1 = {
@@ -4584,7 +4752,7 @@
 205150 = {
 	name = "Cuthred" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205149
 	620.1.1 = {
@@ -4598,7 +4766,7 @@
 205151 = {
 	name = "Centwine" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205147
 	610.1.1 = {
@@ -4612,7 +4780,7 @@
 205152 = {
 	name = "Cuthgils" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205146
 	586.1.1 = {
@@ -4626,7 +4794,7 @@
 205153 = {
 	name = "Coenferth" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205152
 	602.1.1 = {
@@ -4640,7 +4808,7 @@
 205154 = {
 	name = "Cenfus" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205153
 	618.1.1 = {
@@ -4654,7 +4822,7 @@
 205155 = {
 	name = "Æscwine" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205154
 	634.1.1 = {
@@ -4738,7 +4906,7 @@
 205161 = {
 	name = "Cædwalla" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205159
 	630.1.1 = {
@@ -4752,7 +4920,7 @@
 205162 = {
 	name = "Ceolwald" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205158
 	620.1.1 = {
@@ -4766,7 +4934,7 @@
 205163 = {
 	name = "Coenred" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205162
 	637.1.1 = {
@@ -4780,7 +4948,7 @@
 205164 = {
 	name = "Ine" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205162
 	655.1.1 = {
@@ -4794,7 +4962,7 @@
 205165 = {
 	name = "Ingild" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205162
 	650.1.1 = {
@@ -4878,7 +5046,7 @@
 205171 = {
 	name = "Æthelheard" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205170
 	590.1.1 = {
@@ -4892,7 +5060,7 @@
 205172 = {
 	name = "Sigeberht" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205171
 	610.1.1 = {
@@ -4906,7 +5074,7 @@
 205173 = {
 	name = "Beorhtric" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205172
 	650.1.1 = {
@@ -4920,7 +5088,7 @@
 205174 = {
 	name = "Cynewald" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205171
 	610.1.1 = {
@@ -4934,7 +5102,7 @@
 205175 = {
 	name = "Coenheard" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205174
 	640.1.1 = {
@@ -4948,7 +5116,7 @@
 205176 = {
 	name = "Sigeheard" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205175
 	670.1.1 = {
@@ -4962,7 +5130,7 @@
 205177 = {
 	name = "Sigeberht" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205176
 	700.1.1 = {
@@ -4976,7 +5144,7 @@
 205178 = {
 	name = "Cyneheard" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205176
 	705.1.1 = {
@@ -4990,7 +5158,7 @@
 205179 = {
 	name = "Beorhtwulf" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205173
 	685.1.1 = {
@@ -5004,7 +5172,7 @@
 205180 = {
 	name = "Cynewulf" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205179
 	720.1.1 = {
@@ -5018,7 +5186,7 @@
 205181 = {
 	name = "Beorhtric" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205180
 	750.1.1 = {
@@ -5032,7 +5200,7 @@
 205182 = {
 	name = "Cynric" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205171
 	641.1.1 = {
@@ -5046,7 +5214,7 @@
 205183 = {
 	name = "Æthelred" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205182
 	665.1.1 = {
@@ -5060,7 +5228,7 @@
 205184 = {
 	name = "Æthelheard" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205183
 	686.1.1 = {
@@ -5074,7 +5242,7 @@
 205185 = {
 	name = "Cuthred" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205183
 	690.1.1 = {
@@ -5088,7 +5256,7 @@
 205186 = {
 	name = "Cynric" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205185
 	720.1.1 = {
@@ -5102,7 +5270,7 @@
 205187 = {
 	name = "Eoppa" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205165
 	706.1.1 = {
@@ -5116,7 +5284,7 @@
 205188 = {
 	name = "Eafa" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205187
 	mother = 205191
@@ -5131,7 +5299,7 @@
 205189 = {
 	name = "Ealhmund" #
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205188
 	750.1.1 = {
@@ -5146,7 +5314,7 @@
 	name = "Eadburh"
 	female = yes
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205049
 	753.1.1 = {
@@ -5161,7 +5329,7 @@
 	name = "Seaxburh"
 	female = yes
 	dynasty = 1047001
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205045
 	706.1.1 = {
@@ -5175,7 +5343,7 @@
 205113 = {
 	name = "Oshere" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205130
 	mother = 205137
@@ -5190,7 +5358,7 @@
 205114 = {
 	name = "Eanhere" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205113
 	mother = 205138
@@ -5205,7 +5373,7 @@
 205115 = {
 	name = "Eanfrith" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205113
 	mother = 205138
@@ -5221,7 +5389,7 @@
 	name = "Eafe" #
 	female = yes
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205115
 	650.1.1 = {
@@ -5235,7 +5403,7 @@
 205117 = {
 	name = "Osric" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205114
 	#mother = Osthryth of Northumbria
@@ -5250,7 +5418,7 @@
 205118 = {
 	name = "Oshere" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205114
 	#mother = Osthryth of Northumbria
@@ -5265,7 +5433,7 @@
 205119 = {
 	name = "Oswald" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205114
 	#mother = Osthryth of Northumbria
@@ -5280,7 +5448,7 @@
 205120 = {
 	name = "Æthelheard" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205118
 	mother = 205133
@@ -5295,7 +5463,7 @@
 205121 = {
 	name = "Æthelweard" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205118
 	mother = 205133
@@ -5310,7 +5478,7 @@
 205122 = {
 	name = "Æthelric" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205118
 	mother = 205133
@@ -5325,7 +5493,7 @@
 205123 = {
 	name = "Osred" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205118
 	mother = 205133
@@ -5340,7 +5508,7 @@
 205124 = {
 	name = "Ingeld" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205122
 	mother = 205134
@@ -5355,7 +5523,7 @@
 205125 = {
 	name = "Æthelmund" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205124
 	mother = 205131
@@ -5370,7 +5538,7 @@
 205126 = {
 	name = "Æthelric" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205125
 	760.1.1 = {
@@ -5384,7 +5552,7 @@
 205127 = {
 	name = "Eanberht" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205123
 	mother = 205132
@@ -5399,7 +5567,7 @@
 205128 = {
 	name = "Uhtred" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205123
 	mother = 205132
@@ -5414,7 +5582,7 @@
 205129 = {
 	name = "Ealdred" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205123
 	mother = 205132
@@ -5429,7 +5597,7 @@
 205130 = {
 	name = "Osmod" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205139
 	mother = 159751
@@ -5445,7 +5613,7 @@
 	name = "Cynetryth" #
 	female = yes
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205103
 	700.1.1 = {
@@ -5460,7 +5628,7 @@
 	name = "Wulfthryth" #
 	female = yes
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205102
 	689.1.1 = {
@@ -5475,7 +5643,7 @@
 	name = "Sæthryth" #
 	female = yes
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205101
 	659.1.1 = {
@@ -5490,7 +5658,7 @@
 	name = "Sæburh" #
 	female = yes
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205102
 	684.1.1 = {
@@ -5504,7 +5672,7 @@
 205135 = {
 	name = "Æthelmod" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205117
 	mother = 205136
@@ -5520,7 +5688,7 @@
 	name = "Cyneburh" #
 	female = yes
 	dynasty = 1047003
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205101
 	650.1.1 = {
@@ -5534,7 +5702,7 @@
 205139 = {
 	name = "Oswald" #
 	dynasty = 1047011
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	530.1.1 = {
 		birth = yes
@@ -5588,7 +5756,7 @@
 194097 = {
 	name = "Sæberht"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 194096
 	550.1.1 = {
@@ -5644,7 +5812,7 @@
 194101 = {
 	name = "Sigeberht"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 194100
 	608.1.1 = {
@@ -5659,7 +5827,7 @@
 194102 = {
 	name = "Swithhelm"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 194101 # doubtful
 	624.1.1 = {
@@ -5687,7 +5855,7 @@
 205256 = {
 	name = "Sebbi"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 194102 # actually his cousin
 	642.1.1 = {
@@ -5701,7 +5869,7 @@
 205257 = {
 	name = "Sigeheard"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205256
 	660.1.1 = {
@@ -5715,7 +5883,7 @@
 205258 = {
 	name = "Swæfred"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205256
 	655.1.1 = {
@@ -5729,7 +5897,7 @@
 205259 = {
 	name = "Offa"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205257
 	676.1.1 = {
@@ -5743,7 +5911,7 @@
 205260 = {
 	name = "Sebbi"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205257
 	677.1.1 = {
@@ -5757,7 +5925,7 @@
 205261 = {
 	name = "Sigered"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205258
 	675.1.1 = {
@@ -5771,7 +5939,7 @@
 205262 = {
 	name = "Sælred"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205261
 	691.1.1 = {
@@ -5785,7 +5953,7 @@
 205263 = {
 	name = "Swithred"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205260
 	700.1.1 = {
@@ -5799,7 +5967,7 @@
 205264 = {
 	name = "Sælred"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205262
 	725.1.1 = {
@@ -5813,7 +5981,7 @@
 205265 = {
 	name = "Sigeric"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205264
 	745.1.1 = {
@@ -5827,7 +5995,7 @@
 205266 = {
 	name = "Sigered"
 	dynasty = 1047012
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205265
 	765.1.1 = {
@@ -5897,7 +6065,7 @@
 205196 = {
 	name = "Oswine"
 	dynasty = 1047009
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205195
 	585.1.1 = {
@@ -5925,7 +6093,7 @@
 205198 = {
 	name = "Eadwine"
 	dynasty = 1047009
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205193
 	585.1.1 = {
@@ -6116,7 +6284,7 @@
 205211 = {
 	name = "Eanfrith"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205209
 	mother = 205210
@@ -6134,7 +6302,7 @@
 205212 = {
 	name = "Oswald"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205209
 	mother = 205210
@@ -6149,7 +6317,7 @@
 205213 = {
 	name = "Oswiu"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205209
 	mother = 205210
@@ -6171,7 +6339,7 @@
 	name = "Eanflæd"
 	female = yes
 	dynasty = 1047009
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205198
 	mother = 205034
@@ -6231,7 +6399,7 @@
 205218 = {
 	name = "Leodwald"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205217
 	621.1.1 = {
@@ -6245,7 +6413,7 @@
 205219 = {
 	name = "Cuthwine"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205218
 	654.1.1 = {
@@ -6259,7 +6427,7 @@
 205220 = {
 	name = "Eata"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205218
 	655.1.1 = {
@@ -6273,7 +6441,7 @@
 205221 = {
 	name = "Coenred"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205219
 	690.1.1 = {
@@ -6287,7 +6455,7 @@
 205222 = {
 	name = "Ceolwulf"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205219
 	695.1.1 = {
@@ -6301,7 +6469,7 @@
 205223 = {
 	name = "Ecgberht"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205220
 	685.1.1 = {
@@ -6315,7 +6483,7 @@
 205224 = {
 	name = "Eadberht"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205220
 	690.1.1 = {
@@ -6329,7 +6497,7 @@
 205225 = {
 	name = "Oswulf"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205224
 	720.1.1 = {
@@ -6343,7 +6511,7 @@
 205226 = {
 	name = "Oswine"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205224
 	725.1.1 = {
@@ -6358,7 +6526,7 @@
 	name = "Osgifu"
 	female = yes
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205224
 	730.1.1 = {
@@ -6375,7 +6543,7 @@
 194104 = {
 	name = "Ælfwald"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205225
 	745.1.1 = {
@@ -6389,7 +6557,7 @@
 205228 = {
 	name = "Osbald"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205226
 	750.1.1 = {
@@ -6403,7 +6571,7 @@
 205229 = {
 	name = "Ælf"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205228
 	766.1.1 = {
@@ -6417,7 +6585,7 @@
 205230 = {
 	name = "Ælfwine"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205228
 	767.1.1 = {
@@ -6431,7 +6599,7 @@
 205231 = {
 	name = "Bearn"
 	dynasty = 1047021
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205228
 	765.1.1 = {
@@ -6487,7 +6655,7 @@
 205235 = {
 	name = "Beornholm"
 	dynasty = 1047023
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205234
 	650.1.1 = {
@@ -6501,7 +6669,7 @@
 205236 = {
 	name = "Eanwine"
 	dynasty = 1047023
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205235
 	690.1.1 = {
@@ -6515,7 +6683,7 @@
 205237 = {
 	name = "Ealhred"
 	dynasty = 1047023
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205236
 	725.1.1 = {
@@ -6532,7 +6700,7 @@
 205238 = {
 	name = "Osred"
 	dynasty = 1047023
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205237
 	mother = 205227
@@ -6547,7 +6715,7 @@
 205239 = {
 	name = "Ealhmund"
 	dynasty = 1047023
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205237
 	mother = 205227
@@ -6562,7 +6730,7 @@
 205240 = {
 	name = "Eadwulf"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	631.1.1 = {
 		birth = yes
@@ -6575,7 +6743,7 @@
 205241 = {
 	name = "Eanwine"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205240
 	665.1.1 = {
@@ -6589,7 +6757,7 @@
 205242 = {
 	name = "Moll"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205240
 	680.1.1 = {
@@ -6603,7 +6771,7 @@
 205243 = {
 	name = "Æthelwald"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205242
 	730.1.1 = {
@@ -6617,7 +6785,7 @@
 205244 = {
 	name = "Æthelred"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205243
 	762.1.1 = {
@@ -6631,7 +6799,7 @@
 205245 = {
 	name = "Eardwulf"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205241
 	700.1.1 = {
@@ -6645,7 +6813,7 @@
 205246 = {
 	name = "Eardwulf"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205245
 	730.1.1 = {
@@ -6659,7 +6827,7 @@
 205247 = {
 	name = "Eanred"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205246
 	760.1.1 = {
@@ -6673,7 +6841,7 @@
 205248 = {
 	name = "Oswulf"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205246
 	761.1.1 = {
@@ -6687,7 +6855,7 @@
 205249 = {
 	name = "Eanwine"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205245
 	735.1.1 = {
@@ -6701,7 +6869,7 @@
 205250 = {
 	name = "Oswald"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205245
 	740.1.1 = {
@@ -6715,7 +6883,7 @@
 205251 = {
 	name = "Eardwulf"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205249
 	770.1.1 = {
@@ -6729,7 +6897,7 @@
 205252 = {
 	name = "Oswulf"
 	dynasty = 814
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205250
 	775.1.1 = {
@@ -6743,7 +6911,7 @@
 205253 = {
 	name = "Osberht"
 	dynasty = 814
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205252
 	805.1.1 = {
@@ -6757,7 +6925,7 @@
 205254 = {
 	name = "Rædwulf"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205251
 	800.1.1 = {
@@ -6771,7 +6939,7 @@
 205255 = {
 	name = "Æthelred"
 	dynasty = 1047022
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205247
 	800.1.1 = {
@@ -6785,7 +6953,7 @@
 205267 = {
 	name = "Brorda"
 	dynasty = 1047013
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	740.1.1 = {
 		birth = yes
@@ -6798,7 +6966,7 @@
 205268 = {
 	name = "Osmund"
 	dynasty = 1047017
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	740.1.1 = {
 		birth = yes
@@ -6811,7 +6979,7 @@
 214037 = {
 	name = "Aldfrith"
 	dynasty = 214019
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 214038
 	730.1.1 = {
@@ -6825,7 +6993,7 @@
 214038 = {
 	name = "Eatta"
 	dynasty = 214019
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 214039
 	700.1.1 = {
@@ -6839,7 +7007,7 @@
 214039 = {
 	name = "Eanfrith"
 	dynasty = 214019
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 214040
 	675.1.1 = {
@@ -6853,7 +7021,7 @@
 214040 = {
 	name = "Biscop"
 	dynasty = 214019
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 214041
 	650.1.1 = {
@@ -6867,7 +7035,7 @@
 214041 = {
 	name = "Beda"
 	dynasty = 214019
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 214042
 	625.1.1 = {
@@ -6888,7 +7056,7 @@
 		birth = yes
 	}
 	629.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	650.1.1 = {
 		death = yes
@@ -6897,7 +7065,7 @@
 
 214035 = { # Bishop of Lindsey
 	name = "Ceolwulf"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	725.1.1 = {
@@ -6910,7 +7078,7 @@
 
 214036 = { # Bishop of Lindsey
 	name = "Eadbald"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	810.1.1 = {
@@ -6923,7 +7091,7 @@
 
 214033 = { # Bishop of London
 	name = "Wigheah"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	709.1.1 = {
@@ -6936,7 +7104,7 @@
 
 214034 = { # Bishop of London
 	name = "Swithwulf"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	825.1.1 = {
@@ -6949,7 +7117,7 @@
 
 214031 = { # Bishop of Lichfield
 	name = "Cuthfrith"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	715.1.1 = {
@@ -6962,7 +7130,7 @@
 
 214032 = { # Bishop of Lichfield
 	name = "Wulfsige"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	820.1.1 = {
@@ -6975,7 +7143,7 @@
 
 188915 = { # Bishop of York
 	name = "Æthelbert"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 12
 	trait = erudite
@@ -6990,7 +7158,7 @@
 
 188916 = { # Bishop of York
 	name = "Wulfhere"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	820.1.1 = {
@@ -7003,7 +7171,7 @@
 
 188917 = { # Bishop of York
 	name = "Ealdred"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 7
 	diplomacy = 8
@@ -7012,6 +7180,9 @@
 	1000.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1069.9.11 = {
 		death = yes
 	}
@@ -7019,7 +7190,7 @@
 
 188918 = { # Carolingian scholar
 	name = "Alcuin"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 13
 	trait = erudite
@@ -7038,7 +7209,7 @@
 
 188919 = { # Bishop of Sherborne
 	name = "Herewald"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	700.1.1 = {
@@ -7051,7 +7222,7 @@
 
 214030 = { # Bishop of Sherborne
 	name = "Heahmund"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	830.1.1 = {
@@ -7064,7 +7235,7 @@
 
 214044 = { # Bishop of Hereford
 	name = "Deorlaf"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	825.1.1 = {
@@ -7077,7 +7248,7 @@
 
 214045 = { # Bishop of Lindisfarne
 	name = "Cynewulf"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	709.1.1 = {
@@ -7090,7 +7261,7 @@
 
 214046 = { # Bishop of Selsey
 	name = "Oswald"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	719.1.1 = {
@@ -7103,11 +7274,14 @@
 
 214047 = { # Bishop of Selsey
 	name = "Æthelric"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1076.1.1 = {
 		death = yes
@@ -7116,7 +7290,7 @@
 
 214048 = { # Bishop of Rochester
 	name = "Diora"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	722.1.1 = {
@@ -7129,7 +7303,7 @@
 
 214049 = { # Bishop of Rochester
 	name = "Cuthwulf"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	820.1.1 = {
@@ -7142,11 +7316,14 @@
 
 214050 = { # Bishop of Rochester
 	name = "Siward"
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	1021.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		death = yes
@@ -7156,7 +7333,7 @@
 #Bishops of Lindisfarne
 252053 = {
 	name = "Wilfrid" #Bishop of York and Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = chaste
 	trait = diligent
@@ -7171,7 +7348,7 @@
 
 252054 = {
 	name = "Eata" #Saint Eata
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = chaste
 	trait = diligent
@@ -7186,7 +7363,7 @@
 
 252055 = {
 	name = "Cuthbert" #Saint Cuthbert
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = chaste
 	trait = diligent
@@ -7201,7 +7378,7 @@
 
 252056 = {
 	name = "Eadberht" #Saint Eadberht
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = chaste
 	trait = diligent
@@ -7216,7 +7393,7 @@
 
 252057 = {
 	name = "Eadfrith" #Saint Eadfrith
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = chaste
 	trait = diligent
@@ -7231,7 +7408,7 @@
 
 252058 = {
 	name = "Æthelwold" #Saint Æthelwold
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = chaste
 	trait = diligent
@@ -7246,7 +7423,7 @@
 
 252059 = {
 	name = "Higbald" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	744.1.1 = {
@@ -7259,7 +7436,7 @@
 
 252060 = {
 	name = "Egbert" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	777.1.1 = {
@@ -7272,7 +7449,7 @@
 
 252061 = {
 	name = "Heathwred" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	782.1.1 = {
@@ -7285,7 +7462,7 @@
 
 252062 = {
 	name = "Ecgred" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	780.1.1 = {
@@ -7298,7 +7475,7 @@
 
 252063 = {
 	name = "Eanbert" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	797.1.1 = {
@@ -7311,7 +7488,7 @@
 
 252064 = {
 	name = "Cutheard" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	856.1.1 = {
@@ -7324,7 +7501,7 @@
 
 252065 = {
 	name = "Tilred" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	879.1.1 = {
@@ -7337,7 +7514,7 @@
 
 252066 = {
 	name = "Wigred" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	883.1.1 = {
@@ -7350,7 +7527,7 @@
 
 252067 = {
 	name = "Uchtred" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	880.1.1 = {
@@ -7363,7 +7540,7 @@
 
 252068 = {
 	name = "Sexhelm" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	892.1.1 = {
@@ -7376,7 +7553,7 @@
 
 252069 = {
 	name = "Aldred" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	906.1.1 = {
@@ -7389,7 +7566,7 @@
 
 252070 = {
 	name = "Ælfsige" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	926.1.1 = {
@@ -7402,7 +7579,7 @@
 
 252071 = {
 	name = "Aldhun" #Bishop of Lindisfarne
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	961.1.1 = {
@@ -7416,7 +7593,7 @@
 #Bishops of Durham
 252072 = {
 	name = "Edmund" #Bishop of Durham
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	978.1.1 = {
@@ -7429,7 +7606,7 @@
 
 252073 = {
 	name = "Eadred" #Bishop of Durham
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	983.1.1 = {
@@ -7442,11 +7619,14 @@
 
 252074 = {
 	name = "Æthelric" #Bishop of Durham
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	learning = 8
 	1013.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.10.15 = {
 		death = yes
@@ -7540,7 +7720,7 @@
 252174 = {
 	name = "Œthelwald"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205212
 	625.1.1 = {
@@ -7554,7 +7734,7 @@
 252175 = {
 	name = "Alhfrith"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205213
 	mother = 252216 #Rieinmelth of Rheged
@@ -7573,7 +7753,7 @@
 	name = "Alhflaed"
 	female = yes
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205213
 	mother = 252216 #Rieinmelth of Rheged
@@ -7596,7 +7776,7 @@
 		birth = yes
 	}
 	655.11.15 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	680.9.15 = {
 		death = yes
@@ -7614,7 +7794,7 @@
 		birth = yes
 	}
 	655.11.15 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	676.1.1 = {
 		death = yes
@@ -7624,7 +7804,7 @@
 252179 = {
 	name = "Ecgfrith"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205213
 	mother = 205214
@@ -7643,7 +7823,7 @@
 	name = "Æthelthryth" #
 	female = yes
 	dynasty = 1047000
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205007
 	636.1.1 = {
@@ -7657,7 +7837,7 @@
 252181 = {
 	name = "Ælfwine"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205213
 	mother = 205214
@@ -7672,7 +7852,7 @@
 252182 = {
 	name = "Aldfrith"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205213
 	#mother = #Fín granddaughter of Colmán Rímid
@@ -7691,7 +7871,7 @@
 	name = "Cuthburh" #
 	female = yes
 	dynasty = 1047006
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205162
 	trait = chaste
@@ -7706,7 +7886,7 @@
 252184 = {
 	name = "Osric"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252175
 	mother = 252177
@@ -7721,7 +7901,7 @@
 252185 = {
 	name = "Osred"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252182
 	mother = 252183
@@ -7737,7 +7917,7 @@
 	name = "Osana"
 	female = yes
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252182
 	mother = 252183
@@ -7753,7 +7933,7 @@
 252187 = {
 	name = "Offa"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252182
 	mother = 252183
@@ -7769,7 +7949,7 @@
 252188 = {
 	name = "Ælfwald"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 194104
 	765.1.1 = {
@@ -7783,7 +7963,7 @@
 252189 = {
 	name = "Raedwulf"
 	dynasty = 1047010
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252188
 	798.1.1 = {
@@ -7977,7 +8157,7 @@
 		birth = yes
 	}
 	686.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	#forced conversion
 	686.6.1 = {
@@ -7995,7 +8175,7 @@
 		birth = yes
 	}
 	686.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	#forced conversion
 	686.6.1 = {
@@ -8013,7 +8193,7 @@
 		birth = yes
 	}
 	686.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	#forced conversion
 	747.1.1 = {
@@ -8024,7 +8204,7 @@
 252205 = {
 	name = "Wihthere" #name unknown
 	dynasty = 105926
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252204
 	705.1.1 = {
@@ -8038,7 +8218,7 @@
 252206 = {
 	name = "Æthelwald" #name unknown
 	dynasty = 105926
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252205
 	733.1.1 = {
@@ -8052,7 +8232,7 @@
 252207 = {
 	name = "Arwulf" #name unknown
 	dynasty = 105926
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252206
 	757.1.1 = {
@@ -8066,7 +8246,7 @@
 252208 = {
 	name = "Wihtgar" #name unknown
 	dynasty = 105926
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252207
 	775.1.1 = {
@@ -8080,7 +8260,7 @@
 252209 = {
 	name = "Oslac" #
 	dynasty = 105926
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252208
 	800.1.1 = {
@@ -8095,7 +8275,7 @@
 	name = "Osburh" #
 	female = yes
 	dynasty = 105926
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252209
 	810.1.1 = {
@@ -8109,7 +8289,7 @@
 252211 = {
 	name = "Æthelstan"
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 33355
 	mother = 252210
@@ -8125,7 +8305,7 @@
 252250 = {
 	name = "Beornheth" # Beornheth
 	dynasty = 105931
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	635.1.1 = {
 		birth = yes
@@ -8138,7 +8318,7 @@
 252251 = {
 	name = "Beorhtred" # Beorhtred/Berhtred
 	dynasty = 105931
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252250
 	653.1.1 = {
@@ -8152,7 +8332,7 @@
 252252 = {
 	name = "Beorhtfrith" # Beorhtfrith
 	dynasty = 105931
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 252251
 	670.1.1 = {
@@ -8171,7 +8351,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 9
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = scholarly_theologian
 	father = 7627
@@ -8187,7 +8367,7 @@
 	name = "Æthelgifu" #Abbess of Shaftesbury
 	female = yes
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = scholarly_theologian
 	father = 7627
@@ -8202,7 +8382,7 @@
 252379 = {
 	name = "Æthelweard" #son of Alfred the Great
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = scholarly_theologian
 	father = 7627
@@ -8218,7 +8398,7 @@
 	name = "Ælfwynn" # of Mercia
 	dynasty = 1047004
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 205088
 	mother = 252377
@@ -8236,7 +8416,7 @@
 260524 = {
 	name = "Cenfus"
 	dynasty = 1062208
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	901.1.1 = {
 		birth = yes
@@ -8249,7 +8429,7 @@
 260525 = {
 	name = "Beorhtnoth"
 	dynasty = 1062209
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	895.1.1 = {
 		birth = yes
@@ -8262,7 +8442,7 @@
 260526 = {
 	name = "Æthelfrith"
 	dynasty = 1062210
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	846.1.1 = {
 		birth = yes
@@ -8275,7 +8455,7 @@
 260527 = {
 	name = "Æthelstan" # Half King, East Anglia
 	dynasty = 1062210
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 260526
 	mother = 260529
@@ -8290,7 +8470,7 @@
 260528 = {
 	name = "Ælfstan" # Mercia
 	dynasty = 1062210
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 260526
 	mother = 260529
@@ -8306,7 +8486,7 @@
 	name = "Æthelgyth"
 	female = yes
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 33355
 	mother = 252210
@@ -8321,7 +8501,7 @@
 260530 = {
 	name = "Æthelwald" # Kent
 	dynasty = 1062210
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 260526
 	mother = 260529
@@ -8336,7 +8516,7 @@
 260531 = {
 	name = "Eadric" # Hampshire
 	dynasty = 1062210
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 260526
 	mother = 260529
@@ -8351,7 +8531,7 @@
 260534 = {
 	name = "Wulfgar"
 	dynasty = 1062213
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	911.1.1 = {
 		birth = yes
@@ -8368,7 +8548,7 @@
 	name = "Aeffe"
 	female = yes
 	dynasty = 1062214
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	914.1.1 = {
 		birth = yes
@@ -8381,7 +8561,7 @@
 260536 = {
 	name = "Alpsius" # Duke of Devon
 	dynasty = 1062215
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	889.1.1 = {
 		birth = yes
@@ -8394,7 +8574,7 @@
 260537 = {
 	name = "Eastmund"
 	dynasty = 1062216
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	905.1.1 = {
 		birth = yes
@@ -8407,7 +8587,7 @@
 260538 = {
 	name = "Ælfric"
 	dynasty = 1062217
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	908.1.1 = {
 		birth = yes
@@ -8420,7 +8600,7 @@
 260539 = {
 	name = "Oswfulf" # Son of Ealdred I of Bamburgh
 	dynasty = 744
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	903.1.1 = {
 		birth = yes
@@ -8433,7 +8613,7 @@
 260540 = {
 	name = "Balthere"
 	dynasty = 1062219
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	913.1.1 = {
 		birth = yes
@@ -8446,7 +8626,7 @@
 260541 = {
 	name = "Sæbert"
 	dynasty = 1062220
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	904.1.1 = {
 		birth = yes
@@ -8459,7 +8639,7 @@
 260542 = {
 	name = "Reinhold"
 	dynasty = 1062221
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	899.1.1 = {
 		birth = yes
@@ -8473,7 +8653,7 @@
 	name = "Eadhild"
 	female = yes
 	dynasty = 100072
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	father = 100
 	904.1.1 = {

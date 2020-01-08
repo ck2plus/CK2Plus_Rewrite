@@ -5,13 +5,16 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = amateurish_plotter
 	father = 106010
 	mother = 1079
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1068.1.1 = {
 		add_spouse = 71535
@@ -28,7 +31,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = diligent
 	trait = zealous
@@ -40,6 +43,9 @@
 	}
 	1038.1.1 = {
 		add_spouse = 1079
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1054.9.1 = {
 		death = yes
@@ -53,7 +59,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = zealous
 	trait = stutter
@@ -63,6 +69,9 @@
 	mother = 1079
 	1043.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 106000
@@ -79,7 +88,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = chaste
 	trait = cynical
@@ -88,6 +97,9 @@
 	mother = 1079
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 106000
@@ -105,13 +117,16 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = flamboyant_schemer
 	father = 106010
 	mother = 1079
 	1041.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 106000
@@ -129,7 +144,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = diligent
 	trait = patient
@@ -138,6 +153,9 @@
 	mother = 1079
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1115.1.1 = {
 		death = yes
@@ -152,7 +170,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = wroth
 	trait = charismatic_negotiator
@@ -161,6 +179,9 @@
 
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 106000
@@ -178,7 +199,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = lustful
 	trait = gluttonous
@@ -187,6 +208,9 @@
 	mother = 1079
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 106000
@@ -199,7 +223,7 @@
 106018 = {
 	name = "Antso"
 	dynasty = 277
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = lustful
 	trait = bastard
@@ -210,6 +234,9 @@
 	}
 	1052.1.1 = {
 		add_spouse = 106019
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 106011
@@ -227,7 +254,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = gluttonous
 	trait = brave
@@ -236,6 +263,9 @@
 	mother = 1079
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1068.1.1 = {
 		death = yes
@@ -296,13 +326,16 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = bastard
 	trait = indulgent_wastrel
 	father = 106010
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 106011
@@ -319,7 +352,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = chaste
 	trait = humble
@@ -347,7 +380,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = amateurish_plotter
 	father = 70124
@@ -367,7 +400,7 @@
 	name = "Ximena"
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	966.1.1 = {
@@ -386,7 +419,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = lustful
 	trait = slothful
@@ -408,7 +441,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = just
 	trait = lisp
@@ -417,6 +450,9 @@
 	father = 107530
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1058.1.1 = {
 		add_spouse = 107521
@@ -430,11 +466,14 @@
 	name = "Toda"
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.1 = {
 		death = yes
@@ -471,11 +510,14 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = tough_soldier
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -752,7 +794,7 @@
 	father = 200061
 	mother = 200060
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	746.1.1 = {
@@ -767,11 +809,14 @@
 	name = "Antsa"
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1105.1.1 = {
 		death = yes
@@ -785,7 +830,7 @@
 	diplomacy = 5
 	intrigue = 3
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = envious
 	trait = gregarious
@@ -793,6 +838,9 @@
 	father = 71923
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		add_spouse = 106062
@@ -880,13 +928,16 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = zealous
 	trait = wroth
 	trait = tough_soldier
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		add_spouse = 106064
@@ -926,7 +977,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = brave
 	trait = gregarious
@@ -946,7 +997,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = falconer
 	trait = envious
@@ -967,7 +1018,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = wroth
 	trait = brave
@@ -991,7 +1042,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = slow
 	trait = content
@@ -1019,7 +1070,7 @@
 	diplomacy = 6
 	intrigue = 3
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = quick
 	trait = patient
@@ -1045,7 +1096,7 @@
 	father = 70124
 	trait = bastard
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	965.1.1 = {
@@ -1068,7 +1119,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = gregarious
 	trait = proud
@@ -1090,7 +1141,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = gardener
 	trait = kind
@@ -1111,7 +1162,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = envious
 	trait = greedy
@@ -1135,7 +1186,7 @@
 	diplomacy = 5
 	intrigue = 3
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = ambitious
 	trait = lustful
@@ -1145,6 +1196,9 @@
 	}
 	1044.1.1 = {
 		add_spouse = 106023
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -1158,7 +1212,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = brave
 	trait = hunter
@@ -1167,6 +1221,9 @@
 	mother = 106023
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1103.1.1 = {
 		death = yes
@@ -1180,7 +1237,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = falconer
 	trait = patient
@@ -1190,6 +1247,9 @@
 
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1092.1.1 = {
 		death = yes
@@ -1203,7 +1263,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = humble
 	trait = brave
@@ -1213,6 +1273,9 @@
 
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -1226,7 +1289,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = ugly
 	trait = thrifty_clerk
@@ -1234,6 +1297,9 @@
 	mother = 106023
 	1051.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1113.1.1 = {
 		death = yes
@@ -1247,7 +1313,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = shy
 	trait = infirm
@@ -1256,6 +1322,9 @@
 	mother = 106023
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1106.1.1 = {
 		death = yes
@@ -1270,7 +1339,7 @@
 	diplomacy = 7
 	intrigue = 3
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = kind
 	trait = shy
@@ -1279,6 +1348,9 @@
 	mother = 106019
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1129.4.19 = {
 		death = yes
@@ -1292,7 +1364,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = cynical
 	trait = ugly
@@ -1301,8 +1373,11 @@
 	1037.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 107520
+		employer = 107520
 	}
 	1087.1.1 = {
 		death = yes
@@ -1316,7 +1391,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = greedy
 	trait = proud
@@ -1337,7 +1412,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = patient
 	trait = indulgent_wastrel
@@ -1357,7 +1432,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = chaste
 	trait = brave
@@ -1366,8 +1441,11 @@
 	1040.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 107520
+		employer = 107520
 	}
 	1085.1.1 = {
 		death = yes
@@ -1381,7 +1459,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = drunkard
 	trait = gluttonous
@@ -1390,8 +1468,11 @@
 	1042.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 107520
+		employer = 107520
 	}
 	1090.1.1 = {
 		death = yes
@@ -1405,7 +1486,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = wroth
 	trait = stressed
@@ -1414,8 +1495,11 @@
 	1044.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 107520
+		employer = 107520
 	}
 	1080.1.1 = {
 		death = yes
@@ -1430,7 +1514,7 @@
 	diplomacy = 8
 	intrigue = 3
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = patient
 	trait = quick
@@ -1438,6 +1522,9 @@
 	father = 107530
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 107520
@@ -1521,7 +1608,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = duelist
 	trait = wroth
@@ -1545,7 +1632,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = honest
 	trait = diligent
@@ -1567,7 +1654,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = temperate
 	trait = deceitful
@@ -1591,7 +1678,7 @@
 	diplomacy = 5
 	intrigue = 3
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = one_eyed
 	trait = mystic
@@ -1616,7 +1703,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = proud
 	trait = gardener
@@ -1638,7 +1725,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = wroth
 	trait = brave
@@ -1659,7 +1746,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = ambitious
 	trait = arbitrary
@@ -1684,7 +1771,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = patient
 	trait = gregarious
@@ -1707,7 +1794,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = just
 	trait = content
@@ -1730,7 +1817,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = cynical
 	trait = envious
@@ -2229,12 +2316,15 @@
 	name = "Antsa"
 	dynasty = 442
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 106010
 	mother = 1079
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -2265,10 +2355,13 @@
 71552 = {
 	name = "Fortun"
 	dynasty = 8751
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1076.1.1 = {
 		add_spouse = 106014
@@ -2513,10 +2606,13 @@
 71923 = {
 	name = "Diego"
 	dynasty = 8613
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	1015.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.12.1 = {
 		death = yes
@@ -2526,11 +2622,14 @@
 71924 = {
 	name = "Gontzal"
 	dynasty = 8613
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 71923
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1074.7.8 = {
 		death = yes
@@ -4648,7 +4747,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = impaler
 	trait = slothful
@@ -4670,11 +4769,14 @@
 
 	father = 200095
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1067.1.1 = {
 		add_spouse = 70049
@@ -4739,7 +4841,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = temperate
 	trait = thrifty_clerk
@@ -4759,7 +4861,7 @@
 
 	father = 70123
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	936.1.1 = {
@@ -4864,7 +4966,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = wroth
 	trait = naive_appeaser
@@ -4897,7 +4999,7 @@
 	female = yes
 	dynasty = 442
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70121
@@ -4914,7 +5016,7 @@
 	name = "Gartzia"
 	dynasty = 788
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70276
@@ -4933,7 +5035,7 @@
 	female = yes
 	dynasty = 8617
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70292
@@ -4951,7 +5053,7 @@
 	female = yes
 	dynasty = 8617
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70291
@@ -4969,7 +5071,7 @@
 	female = yes
 	dynasty = 8617
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70291
@@ -4987,7 +5089,7 @@
 	female = yes
 	dynasty = 8617
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70295
@@ -5007,7 +5109,7 @@
 	father = 70293
 	mother = 73783
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	852.1.1 = {
@@ -5025,7 +5127,7 @@
 	name = "Aznar"
 	dynasty = 8617
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70293
@@ -5043,7 +5145,7 @@
 	name = "Belasko"
 	dynasty = 8617
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70293
@@ -5061,7 +5163,7 @@
 	name = "Lope"
 	dynasty = 8617
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	father = 70293
@@ -5079,7 +5181,7 @@
 	name = "Oria"
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	833.1.1 = {
@@ -5094,7 +5196,7 @@
 	name = Oneka
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	776.1.1 = {
@@ -5108,7 +5210,7 @@
 73835 = {
 	name = "Gartzia"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	836.1.1 = {
@@ -5130,7 +5232,7 @@
 	diplomacy = 9
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = charitable
 	trait = just
@@ -5153,7 +5255,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = ambitious
 	trait = diligent
@@ -5182,7 +5284,7 @@
 
 	father = 70274
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	917.1.1 = {
@@ -5200,7 +5302,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = wroth
 	trait = brave
@@ -5225,7 +5327,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = craven
 	trait = content
@@ -5246,7 +5348,7 @@
 	diplomacy = 6
 	intrigue = 3
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = poet
 	trait = charitable
@@ -5268,7 +5370,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = mystic
 	trait = depressed
@@ -5289,7 +5391,7 @@
 
 	father = 200193
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	785.1.1 = {
@@ -5316,7 +5418,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = kind
 	trait = ill
@@ -5335,7 +5437,7 @@
 7562 = {
 	name = "Antso" #Sancho IV de Gascogne
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 7563
 	890.1.1 = {
@@ -5349,7 +5451,7 @@
 7563 = {
 	name = "Gartzia"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 163060
 	mother = 168126
@@ -5365,7 +5467,7 @@
 	name = "Toda-Adalais" #de Gascogne
 	female = yes
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 127049 #Guillaume Sache de Gascogne
 	#mother Urraca de Pampelune
@@ -5384,7 +5486,7 @@
 	dynasty = 388
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 7562
 
@@ -5401,7 +5503,7 @@
 	dynasty = 388
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 7563
 	883.1.1 = {
@@ -5420,7 +5522,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 127049
 	#mother =
@@ -5435,7 +5537,7 @@
 127049 = {
 	name = "Gilen" #Guillaume-Sanche de Gascogne
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 7562
 	925.1.1 = {
@@ -5449,7 +5551,7 @@
 127050 = {
 	name = "Bernart" #Bernard-Guillaume de Gascogne
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 127049
 	974.1.1 = {
@@ -5463,7 +5565,7 @@
 127051 = {
 	name = "Antso" #Sanche-Guillaume de Gascogne
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 127049
 	978.1.1 = {
@@ -5478,7 +5580,7 @@
 	name = "Adalais"
 	dynasty = 388
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 127049
 	980.1.1 = {
@@ -5493,13 +5595,16 @@
 	name = "Alausia" #de Gascogne
 	dynasty = 388
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 127051
 	1003.1.1 = {
 		birth = yes
 	}
 	#1020 married Audoin II d'angouleme
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1058.1.1 = {
 		death = yes
 	}
@@ -5508,11 +5613,14 @@
 127056 = {
 	name = "Bernart"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	mother = 127053
 	1010.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1089.1.1 = {
 		death = yes
@@ -5522,7 +5630,7 @@
 138162 = {
 	name = "Lope" #Centulle Loup I de Béarn
 	dynasty = 337
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168123
 	850.1.1 = {
@@ -5536,7 +5644,7 @@
 138188 = {
 	name = "Aznar" #Aznar III de Comminges
 	dynasty = 386
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168120
 	890.1.1 = {
@@ -5550,7 +5658,7 @@
 163060 = {
 	name = "Antso"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168111
 	820.1.1 = {
@@ -5567,7 +5675,7 @@
 163061 = {
 	name = "Antso"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 7562
 	924.1.1 = {
@@ -5581,7 +5689,7 @@
 168104 = {
 	name = "Lope"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = ambitious
 	720.1.1 = {
@@ -5596,7 +5704,7 @@
 					months = 120
 				}
 			}
-			k_lotharingia = {
+			k_austrasia = {
 				holder_scope = {
 					reverse_opinion = {
 						who = PREVPREV
@@ -5615,7 +5723,7 @@
 168105 = {
 	name = "Ximeno"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168104
 	740.1.1 = {
@@ -5629,7 +5737,7 @@
 168106 = {
 	name = "Antso"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168104
 	755.1.1 = {
@@ -5643,7 +5751,7 @@
 168107 = {
 	name = "Zentulo"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168104
 	760.1.1 = {
@@ -5657,7 +5765,7 @@
 168108 = {
 	name = "Donato"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168104
 	765.1.1 = {
@@ -5671,7 +5779,7 @@
 168109 = {
 	name = "Gartzia"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168105
 	760.1.1 = {
@@ -5686,7 +5794,7 @@
 168110 = {
 	name = "Eneko"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168109
 	785.1.1 = {
@@ -5702,7 +5810,7 @@
 168111 = {
 	name = "Ximeno"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168109
 	790.1.1 = {
@@ -5717,7 +5825,7 @@
 168112 = {
 	name = "Gartzia"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168111
 	815.1.1 = {
@@ -5733,7 +5841,7 @@
 168113 = {
 	name = "Vela"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168111
 	821.1.1 = {
@@ -5747,7 +5855,7 @@
 168114 = {
 	name = "Rodrigo"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168111
 	822.1.1 = {
@@ -5762,7 +5870,7 @@
 168115 = {
 	name = "Jakue"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168114
 	845.1.1 = {
@@ -5781,7 +5889,7 @@
 	name = "Antsa"
 	female = yes
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168106
 	790.1.1 = {
@@ -5795,7 +5903,7 @@
 168118 = {
 	name = "Gartzia"
 	dynasty = 386
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 70300
 	805.1.1 = {
@@ -5809,7 +5917,7 @@
 168119 = {
 	name = "Aznar"
 	dynasty = 386
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168118
 	830.1.1 = {
@@ -5823,7 +5931,7 @@
 168120 = {
 	name = "Lope"
 	dynasty = 386
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168119
 	860.1.1 = {
@@ -5838,7 +5946,7 @@
 168121 = {
 	name = "Lope"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168107
 	780.1.1 = {
@@ -5852,7 +5960,7 @@
 168122 = {
 	name = "Lope"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168121
 	805.1.1 = {
@@ -5866,7 +5974,7 @@
 168123 = {
 	name = "Zentulo"
 	dynasty = 337
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168121
 	810.1.1 = {
@@ -5880,7 +5988,7 @@
 168124 = {
 	name = "Donato"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168108
 	790.1.1 = {
@@ -5894,7 +6002,7 @@
 168125 = {
 	name = "Gartzia"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168124
 	810.1.1 = {
@@ -5909,7 +6017,7 @@
 	name = "Kisilo"
 	female = yes
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168124
 	830.1.1 = {
@@ -5923,7 +6031,7 @@
 168143 = {
 	name = "Antso"
 	dynasty = 388
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 168106
 	788.1.1 = {
@@ -5941,13 +6049,16 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	trait = flamboyant_schemer
 	father = 106010
 	mother = 1079
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1083.1.6 = {
 		death = yes
@@ -5975,7 +6086,7 @@
 
 	father = 70291
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	812.1.1 = {
@@ -6013,7 +6124,7 @@
 	name = "Kasio"
 	dynasty = 12293
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	670.1.1 = {
@@ -6495,7 +6606,7 @@
 	father = 207561
 	mother = 210575
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1174.1.1 = {
@@ -6514,11 +6625,14 @@
 	father = 73034
 	mother = 73044
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1082.1.1 = {
 		death = yes
@@ -6532,7 +6646,7 @@
 	father = 108570
 	trait = bastard
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1025.1.1 = {
@@ -6540,6 +6654,9 @@
 	}
 	1046.1.1 = {
 		add_spouse = 70077
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 108500
@@ -6557,11 +6674,14 @@
 	father = 70076
 	mother = 70077
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1098.1.1 = {
 		death = yes
@@ -6576,11 +6696,14 @@
 	father = 70076
 	mother = 70077
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -6591,11 +6714,14 @@
 	name = "Ximena"
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -6605,7 +6731,7 @@
 70269 = {
 	name = "Erramun"
 	dynasty = 10024
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 70271
 	mother = 70273
@@ -6626,7 +6752,7 @@
 
 	father = 70272
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	905.1.1 = {
@@ -6644,7 +6770,7 @@
 	name = "Erramun"
 	dynasty = 10024
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	886.1.1 = {
@@ -6659,11 +6785,14 @@
 	name = "Beatritz"
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1069.1.1 = {
 		death = yes
@@ -6706,7 +6835,7 @@
 
 	father = 200163
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	908.1.1 = {
@@ -6723,7 +6852,7 @@
 
 	father = 200163
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	900.1.1 = {
@@ -6740,7 +6869,7 @@
 
 	father = 73896
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	931.1.1 = {
@@ -6840,7 +6969,7 @@
 	name = "Obeko"
 	dynasty = 8750
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	720.1.1 = {
@@ -6860,7 +6989,7 @@
 
 	father = 200092
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	958.1.1 = {
@@ -6877,7 +7006,7 @@
 
 	father = 200090
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	980.1.1 = {
@@ -6895,7 +7024,7 @@
 	father = 200093
 	mother = 107681
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	931.1.1 = {
@@ -6912,7 +7041,7 @@
 
 	father = 200094
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	883.1.1 = {
@@ -6930,7 +7059,7 @@
 	name = "Herramel"
 	dynasty = 8741
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	860.1.1 = {
@@ -6947,11 +7076,14 @@
 
 	father = 200091
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1008.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.1.1 = {
 		death = yes
@@ -6962,7 +7094,7 @@
 	name = "Lope"
 	dynasty = 1046010
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	730.1.1 = {
@@ -6979,7 +7111,7 @@
 200159 = {
 	name = "Gartzia"
 	dynasty = 1046010
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	father = 200158
 	mother = 200060
@@ -6998,7 +7130,7 @@
 	father = 200161
 	mother = 200162
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	870.1.1 = {
@@ -7015,7 +7147,7 @@
 
 	father = 70120
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	846.1.1 = {
@@ -7033,7 +7165,7 @@
 	name = "Belaskita"
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	850.1.1 = {
@@ -7051,7 +7183,7 @@
 	father = 200161
 	mother = 200162
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	874.1.1 = {
@@ -7068,11 +7200,14 @@
 
 	father = 200166
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1029.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1073.1.1 = {
 		add_spouse = 200165
@@ -7103,7 +7238,7 @@
 
 	father = 200168
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1000.1.1 = {
@@ -7120,11 +7255,14 @@
 
 	father = 200166
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	1027.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1067.1.1 = {
 		death = yes
@@ -7137,7 +7275,7 @@
 
 	father = 200169
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	977.1.1 = {
@@ -7154,7 +7292,7 @@
 
 	father = 73896
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	943.1.1 = {
@@ -7472,7 +7610,7 @@
 	name = "Gartzia"
 	dynasty = 1046009
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	776.1.1 = {
@@ -7490,7 +7628,7 @@
 	father = 200191
 	mother = 200192
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	753.1.1 = {
@@ -7505,7 +7643,7 @@
 	name = "Belasko"
 	dynasty = 12285
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	724.1.1 = {
@@ -7523,7 +7661,7 @@
 	name = "Antsa"
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	731.1.1 = {
@@ -7541,7 +7679,7 @@
 	father = 200191
 	mother = 200192
 
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 
 	751.1.1 = {
@@ -7704,7 +7842,7 @@
 	dynasty = 10024
 	father = 70269
 	mother = 54000
-	religion = catholic
+	religion = chalcedonian
 	culture = basque
 	944.1.1 = {
 		birth = yes

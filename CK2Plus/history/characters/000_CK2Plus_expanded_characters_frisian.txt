@@ -43,7 +43,7 @@
 
 1000061100 = {
 	name = "Liudger" # missionary, first bishop of Münster
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	742.1.1 = {
 		birth = yes
@@ -55,7 +55,7 @@
 
 1000061101 = {
 	name = "Gerfrid" # second bishop of Münster
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	775.1.1 = {
 		birth = yes
@@ -67,7 +67,7 @@
 
 1000061102 = {
 	name = "Altfrid" # second bishop of Münster
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	777.1.1 = {
 		birth = yes

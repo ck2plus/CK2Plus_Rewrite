@@ -6,7 +6,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167961
 	992.1.1 = {
@@ -29,13 +29,16 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = amateurish_plotter
 	father = 10081
 	mother = 1113
 	1021.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.19 = {
 		death = yes
@@ -49,7 +52,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = zealous
 	trait = temperate
@@ -76,7 +79,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = flamboyant_schemer
 	father = 1106
@@ -99,7 +102,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = clubfooted
 	trait = underhanded_rogue
@@ -122,7 +125,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = wroth
 	trait = harelip
@@ -145,7 +148,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = patient
 	trait = proud
@@ -168,7 +171,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = diligent
 	trait = harelip
@@ -177,6 +180,9 @@
 	mother = 1113
 	1014.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1091.12.27 = {
 		death = yes
@@ -189,7 +195,7 @@
 
 	father = 70628
 
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 
 	1009.7.10 = {
@@ -204,6 +210,9 @@
 	1051.1.1 = {
 		add_spouse = 1359
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1097.4.13 = {
 		death = yes
 	}
@@ -217,7 +226,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = just
 	trait = amateurish_plotter
@@ -287,10 +296,13 @@
 
 144585 = {
 	name = "Bernon"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	1002.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -299,10 +311,13 @@
 
 144586 = {
 	name = "Archimbaud"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	1037.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1108.1.1 = {
 		death = yes
@@ -311,10 +326,13 @@
 
 144587 = {
 	name = "Isnard"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1114.1.1 = {
 		death = yes
@@ -572,12 +590,15 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	trait = greedy
 	trait = martial_cleric
 	1025.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.2 = {
 		death = yes
@@ -591,7 +612,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = charitable
@@ -605,6 +626,9 @@
 	trait = mastermind_theologian
 	1019.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1061.9.30 = {
 	name = "Alexander"
@@ -623,13 +647,16 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	trait = honest
 	trait = misguided_warrior
 	father = 71285
 	1033.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1096.1.1 = {
 		death = yes
@@ -644,7 +671,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = chaste
 	trait = diligent
@@ -659,6 +686,9 @@
 	trait = mastermind_theologian
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1073.4.21 = {
 		name = "Gregorius"
@@ -677,12 +707,15 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = deceitful
 	trait = mastermind_theologian
 	1025.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.2 = {
 		death = yes
@@ -762,10 +795,13 @@
 2022 = {
 	name = "Anselmo"
 	dynasty = 624
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1088.1.1 = {
 		death = yes
@@ -779,13 +815,16 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = thrifty_clerk
 	father = 1118
 	mother = 1359
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1131.1.1 = {
 		death = yes
@@ -820,11 +859,14 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = scholarly_theologian
 	1015.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -834,11 +876,14 @@
 20314 = {
 	name = "Manfredo"
 	dynasty = 13041 # Doria
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	father = 91410 # Ansaldo Doria
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.9.14 = {
 		wealth = 150
@@ -854,11 +899,14 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	trait = martial_cleric
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1074.1.1 = {
 		death = yes
@@ -868,7 +916,7 @@
 20320 = {
 	name = "Alberto"
 	dynasty = 679
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 70629
 	976.1.1 = {
@@ -898,11 +946,14 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	trait = underhanded_rogue
 	1029.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.1 = {
 		death = yes
@@ -917,12 +968,15 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = just
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -946,11 +1000,14 @@
 20335 = {
 	name = "Matteo"
 	dynasty = 100352
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	trait = scholarly_theologian
 	1029.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1086.1.1 = {
 		death = yes
@@ -965,12 +1022,15 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = flamboyant_schemer
 	father = 70626
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.1 = {
 		add_spouse = 71246
@@ -2916,10 +2976,13 @@
 	name = "Sichelgarda"
 	female = yes
 	dynasty = 100334 #di Napoli
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -3604,11 +3667,14 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = thrifty_clerk
 	1022.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.1.2 = {
 		death = yes
@@ -5249,7 +5315,7 @@
 	diplomacy = 7
 	intrigue = 3
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = gluttonous
 	trait = lisp
@@ -5275,7 +5341,7 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = humble
 	trait = detached_priest
@@ -5283,6 +5349,9 @@
 	mother = 495
 	1015.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1071.2.17 = {
 		death = yes
@@ -5296,7 +5365,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = wroth
 	trait = envious
@@ -5321,7 +5390,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = just
 	trait = zealous
@@ -5344,7 +5413,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = humble
 	trait = amateurish_plotter
@@ -5363,7 +5432,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = patient
 	trait = martial_cleric
@@ -5382,7 +5451,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = temperate
 	trait = humble
@@ -5407,7 +5476,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = just
 	trait = craven
@@ -5429,7 +5498,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = proud
 	trait = arbitrary
@@ -5455,7 +5524,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = ill
 	father = 544
@@ -5475,7 +5544,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 9
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = patient
 	trait = diligent
@@ -5483,6 +5552,9 @@
 	trait = mastermind_theologian
 	1005.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1089.5.24 = {
 		death = yes
@@ -5496,11 +5568,14 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = martial_cleric
 	1033.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1109.4.21 = {
 		death = yes
@@ -5514,7 +5589,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = hunter
 	trait = brave
@@ -5558,7 +5633,7 @@
 
 	father = 70629
 
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 
 	970.1.1 = {
@@ -5576,7 +5651,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = content
 	trait = shy
@@ -5598,7 +5673,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = brave
 	trait = ambitious
@@ -5619,7 +5694,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = proud
 	trait = craven
@@ -5641,7 +5716,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = patient
 	trait = temperate
@@ -5663,7 +5738,7 @@
 	diplomacy = 8
 	intrigue = 3
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = fair
 	trait = honest
@@ -5685,7 +5760,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = deceitful
 	trait = wroth
@@ -5696,6 +5771,9 @@
 	}
 	1029.1.1 = {
 		employer = 1118
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1084.1.1 = {
 		death = yes
@@ -5731,7 +5809,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = diligent
 	trait = hunter
@@ -5740,6 +5818,9 @@
 
 	1011.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.5.11 = {
 		death = yes
@@ -5776,7 +5857,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = greedy
 	trait = envious
@@ -5786,6 +5867,9 @@
 
 	1028.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.4.22 = {
 		death = yes
@@ -9893,7 +9977,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = poet
 	trait = mystic
@@ -9901,6 +9985,9 @@
 
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1084.1.1 = {
 		death = yes
@@ -11098,7 +11185,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = tough_soldier
 	trait = shy
@@ -11118,13 +11205,16 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = underhanded_rogue
 	trait = honest
 	father = 70970
 	1012.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.10.1 = {
 		death = yes
@@ -11138,13 +11228,16 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = scholarly_theologian
 	trait = ambitious
 	father = 70971
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -11219,12 +11312,15 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = tough_soldier
 	trait = charitable
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 7735
@@ -15992,7 +16088,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 7728
 	984.1.1 = {
@@ -16010,7 +16106,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71224
 	1000.1.1 = {
@@ -16028,11 +16124,14 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71225
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		death = yes
@@ -16046,11 +16145,14 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71225
 	1027.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1111.1.1 = {
 		death = yes
@@ -16064,11 +16166,14 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71227
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1108.1.1 = {
 		death = yes
@@ -16119,11 +16224,14 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71227
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1118.1.1 = {
 		death = yes
@@ -16137,10 +16245,13 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1061.1.1 = {
 		employer = 7730
@@ -16179,11 +16290,14 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71227
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1147.1.1 = {
 		death = yes
@@ -16305,11 +16419,14 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71225
 	1029.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		death = yes
@@ -16323,7 +16440,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 7729
 	1009.1.1 = {
@@ -16345,11 +16462,14 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 7729
 	1011.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.5.4 = {
 		death = yes
@@ -16364,11 +16484,14 @@
 	diplomacy = 3
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 7729
 	1013.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1081.1.1 = {
 		death = yes
@@ -16382,11 +16505,14 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71244
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1097.1.1 = {
 		death = yes
@@ -16401,11 +16527,14 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71244
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1081.7.31 = {
 		death = yes
@@ -16439,11 +16568,14 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 7730
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1127.1.4 = {
 		death = yes
@@ -16529,11 +16661,14 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 7730
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1071.1.1 = {
 		add_spouse = 1143
@@ -17128,7 +17263,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = content
 	trait = brave
@@ -17136,6 +17271,9 @@
 	father = 70633
 	1019.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.1.1 = {
 		add_spouse = 71283
@@ -17195,13 +17333,16 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	trait = zealous
 	trait = hunter
 	trait = tough_soldier
 	1015.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.11.2 = {
 		death = yes
@@ -17215,7 +17356,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	trait = content
 	trait = honest
@@ -17223,6 +17364,9 @@
 	father = 71285
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1081.1.1 = {
 		death = yes
@@ -17978,11 +18122,14 @@
 	name = "Pietro"
 	dynasty = 13042
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.1.1 = {
 		death = yes
@@ -18644,7 +18791,7 @@
 71903 = {
 	name = "Guido"
 	dynasty = 7389
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 71905
 	855.1.1 = {
@@ -18658,7 +18805,7 @@
 71908 = {
 	name = "Lambert"
 	dynasty = 7389
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 71905
 	850.1.1 = {
@@ -18672,7 +18819,7 @@
 167882 = {
 	name = "Suppo"
 	dynasty = 9561
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167881
 	825.1.1 = {
@@ -18686,7 +18833,7 @@
 167883 = {
 	name = "Egfred"
 	dynasty = 9561
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167881
 	830.1.1 = {
@@ -18700,7 +18847,7 @@
 167884 = {
 	name = "Arding"
 	dynasty = 9561
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167881
 	832.1.1 = {
@@ -18714,7 +18861,7 @@
 167885 = {
 	name = "Adelchis"
 	dynasty = 9561
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167882
 	855.1.1 = {
@@ -18728,7 +18875,7 @@
 167886 = {
 	name = "Wifred"
 	dynasty = 9561
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167882
 	860.1.1 = {
@@ -18742,7 +18889,7 @@
 167887 = {
 	name = "Boso"
 	dynasty = 9561
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167882
 	862.1.1 = {
@@ -18756,7 +18903,7 @@
 167888 = {
 	name = "Arding"
 	dynasty = 9561
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167882
 	864.1.1 = {
@@ -18770,7 +18917,7 @@
 167976 = {
 	name = "Hucbald"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	830.1.1 = {
 		birth = yes
@@ -18786,7 +18933,7 @@
 167980 = {
 	name = "Hucbald"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167976
 	mother = 167977
@@ -18832,13 +18979,16 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = diligent
 	trait = proud
 	trait = mastermind_theologian
 	1001.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1068.1.1 = {
 		death = yes
@@ -18852,13 +19002,16 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = envious
 	trait = temperate
 	trait = scholarly_theologian
 	1014.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.1.2 = {
 		death = yes
@@ -18872,11 +19025,14 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = tough_soldier
 	1041.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1091.1.2 = {
 		death = yes
@@ -18924,7 +19080,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = patient
 	trait = skilled_tactician
@@ -18943,7 +19099,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = patient
 	trait = skilled_tactician
@@ -18963,7 +19119,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = tough_soldier
 	father = 7728
@@ -18982,12 +19138,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = skilled_tactician
 	father = 7729
 	1007.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1084.1.1 = {
 		death = yes
@@ -19001,7 +19160,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = tough_soldier
 	father = 7727
@@ -19020,7 +19179,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = tough_soldier
 	father = 7733
@@ -19042,7 +19201,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = humble
 	trait = tough_soldier
@@ -19053,6 +19212,9 @@
 	}
 	1053.1.1 = {
 		add_spouse = 70639
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.8.31 = {
 		death = yes
@@ -19113,11 +19275,14 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	trait = martial_cleric
 	1009.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.1.1 = {
 		death = yes
@@ -19131,7 +19296,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 7926
 	mother = 7927
@@ -19146,12 +19311,15 @@
 7758 = {
 	name = "Federigo"
 	dynasty = 101556
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 7756
 	mother = 7755
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.7.1 = {
 		death = yes
@@ -19165,12 +19333,15 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = charismatic_negotiator
 	father = 167594
 	1008.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1071.1.1 = {
 		death = yes
@@ -19184,12 +19355,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = humble
 	trait = tough_soldier
 	1028.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1074.1.1 = {
 		add_spouse = 9812
@@ -19206,13 +19380,16 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = humble
 	trait = thrifty_clerk
 	father = 167583
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.2 = {
 		death = yes
@@ -19243,7 +19420,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19267,7 +19444,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19279,6 +19456,9 @@
 	1045.1.20 = {
 	name = "Silvester"
 	# AKA: Giovanni
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		death = yes
@@ -19292,7 +19472,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19316,7 +19496,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19341,7 +19521,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19365,7 +19545,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19388,7 +19568,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19412,7 +19592,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19436,7 +19616,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19460,7 +19640,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19484,7 +19664,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19508,7 +19688,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19532,7 +19712,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19556,7 +19736,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19580,7 +19760,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19604,7 +19784,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19628,7 +19808,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19652,7 +19832,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19676,7 +19856,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19700,7 +19880,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19724,7 +19904,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19748,7 +19928,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19772,7 +19952,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19796,7 +19976,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19820,7 +20000,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19844,7 +20024,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19868,7 +20048,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19892,7 +20072,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19916,7 +20096,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19940,7 +20120,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19964,7 +20144,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -19988,7 +20168,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20012,7 +20192,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20036,7 +20216,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20060,7 +20240,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20084,7 +20264,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20108,7 +20288,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20132,7 +20312,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20156,7 +20336,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20180,7 +20360,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20204,7 +20384,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20228,7 +20408,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20252,7 +20432,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20276,7 +20456,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20295,12 +20475,12 @@
 }
 
 7864 = {
-	name = "Theodore"
+	name = "Theodore" # Pope Stephanus III
 	martial = 6
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20310,8 +20490,7 @@
 		birth = yes
 	}
 	767.6.28 = {
-	name = "Stephanus"
-	# AKA: Theodore
+		name = "Stephanus"
 	}
 	772.1.24 = {
 		death = yes
@@ -20324,7 +20503,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20348,7 +20527,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20374,7 +20553,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20398,7 +20577,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20420,7 +20599,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20442,7 +20621,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20464,7 +20643,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = bastard
 	trait = patient
@@ -20490,7 +20669,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20514,7 +20693,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20540,7 +20719,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 260621
 	950.1.1 = {
@@ -20562,7 +20741,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20584,7 +20763,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20607,7 +20786,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20630,7 +20809,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20657,7 +20836,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20680,7 +20859,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20707,7 +20886,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20733,7 +20912,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20756,7 +20935,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20765,6 +20944,9 @@
 	father = 7935
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1058.1.1 = {
 		death = yes
@@ -20778,7 +20960,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20791,6 +20973,9 @@
 	1032.10.1 = {
 	name = "Benedictus"
 	# AKA: Theophylactus
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.1 = {
 		death = yes
@@ -20805,7 +20990,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = patient
@@ -20814,6 +20999,9 @@
 	father = 7936
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1108.1.1 = {
 		death = yes
@@ -22403,10 +22591,13 @@
 32133 = {
 	name = "Vitale"
 	dynasty = 7235
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	1040.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1102.1.2 = {
 		death = yes
@@ -23265,11 +23456,14 @@
 
 32266 = {
 	name = "Daimbert"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	trait = martial_cleric
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1105.1.1 = {
 		death = yes
@@ -23302,7 +23496,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	trait = diligent
 	trait = patient
@@ -23313,6 +23507,9 @@
 	mother = 7755
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1115.7.24 = {
 		death = yes
@@ -23632,7 +23829,7 @@
 71902 = {
 	name = "Arduino"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167936
 	965.1.1 = {
@@ -24260,10 +24457,13 @@
 
 73414 = {
 	name = "Ettore"
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1103.1.1 = {
 		death = yes
@@ -24549,10 +24749,13 @@
 
 73442 = {
 	name = "Lazzaro"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -24905,10 +25108,13 @@
 73471 = {
 	name = "Raniero"
 	dynasty = 12250
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1086.1.1 = {
 		death = yes
@@ -24917,11 +25123,14 @@
 
 73473 = {
 	name = "Milone"
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = mastermind_theologian
 	1006.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		death = yes
@@ -25099,10 +25308,13 @@
 
 73492 = {
 	name = "Giacinto"
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	1024.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1079.1.1 = {
 		death = yes
@@ -25111,10 +25323,13 @@
 
 73493 = {
 	name = "Cosimo"
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	1037.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.1.1 = {
 		death = yes
@@ -25305,10 +25520,13 @@
 
 73511 = {
 	name = "Spinetto"
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -25539,11 +25757,14 @@
 
 73529 = {
 	name = "Riccardo"
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	trait = detached_priest
 	1010.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.7.1 = {
 		death = yes
@@ -25553,11 +25774,14 @@
 73530 = {
 	name = "Guiberto"
 	dynasty = 12253
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	trait = scholarly_theologian
 	1029.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.9.8 = {
 		death = yes
@@ -26584,10 +26808,13 @@
 
 73604 = {
 	name = "Mariano"
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	1015.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.1.1 = {
 		death = yes
@@ -26596,10 +26823,13 @@
 
 73605 = {
 	name = "Folco"
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1089.1.1 = {
 		death = yes
@@ -27021,10 +27251,13 @@
 	name = "Ugo"
 	#placeholder
 	dynasty = 23107
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		death = yes
@@ -27037,11 +27270,14 @@
 	name = "Niccolo"
 	#placeholder
 	dynasty = 23107
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	father = 167281
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -27054,11 +27290,14 @@
 	name = "Oberto"
 	#placeholder
 	dynasty = 23107
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	father = 167281
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -27339,12 +27578,15 @@
 	name = "Oberto"
 	dynasty = 13016
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 
 	1033.1.1 =
 	 {
 	birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1105.1.1 =
 	 {
@@ -28153,10 +28395,13 @@
 170040 = {
 	name = "Domenico"
 	dynasty = 13027
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	1023.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.2 = {
 		death = yes
@@ -28166,11 +28411,14 @@
 170041 = {
 	name = "Bono"
 	dynasty = 13027
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 170040
 	1045.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1112.1.2 = {
 		death = yes
@@ -29472,11 +29720,14 @@
 	name = "Jacopo"
 	#placeholder
 	dynasty = 13026
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 20323
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1105.1.1 = {
 		death = yes
@@ -29490,11 +29741,14 @@
 	name = "Giovanni"
 	#placeholder
 	dynasty = 13026
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 20323
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1110.1.1 = {
 		death = yes
@@ -29591,11 +29845,14 @@
 	#placeholder
 	female = yes
 	dynasty = 13026
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 20323
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -30444,7 +30701,7 @@
 	name = Ursus
 	dynasty = 9593
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	800.1.1 = {
@@ -30461,7 +30718,7 @@
 
 	father = 168416
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	830.1.1 = {
@@ -30478,7 +30735,7 @@
 
 	father = 168417
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	850.1.1 = {
@@ -30495,7 +30752,7 @@
 
 	father = 168418
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	880.1.1 = {
@@ -30512,7 +30769,7 @@
 
 	father = 168418
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	890.1.1 = {
@@ -30529,7 +30786,7 @@
 
 	father = 168419
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	900.1.1 = {
@@ -30546,7 +30803,7 @@
 
 	father = 168419
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	902.1.1 = {
@@ -30563,7 +30820,7 @@
 
 	father = 168422
 
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 
 	935.1.1 = {
@@ -30581,7 +30838,7 @@
 
 	father = 168416
 
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 
 	835.1.1 = {
@@ -30598,7 +30855,7 @@
 
 	father = 168416
 
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 
 	838.1.1 = {
@@ -30612,7 +30869,7 @@
 167478 = {
 	name = "Giovanni"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167477
 	955.1.1 = {
@@ -30628,7 +30885,7 @@
 167479 = {
 	name = "Giovanni"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167478
 	980.1.1 = {
@@ -30644,7 +30901,7 @@
 167480 = {
 	name = "Giovanni"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167479
 	1010.1.1 = {
@@ -30660,7 +30917,7 @@
 167482 = {
 	name = "Docibile"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	trait = bastard
 	father = 167481
@@ -30677,7 +30934,7 @@
 167483 = {
 	name = "Leone"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167482
 	985.1.1 = {
@@ -30693,7 +30950,7 @@
 167484 = {
 	name = "Ugo"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167482
 	990.1.1 = {
@@ -30709,11 +30966,14 @@
 167485 = {
 	name = "Giovanni"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167484
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1079.5.1 = {
 		death = yes
@@ -30726,11 +30986,14 @@
 	name = "Ugo"
 	#placeholder
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167485
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -30758,11 +31021,14 @@
 167488 = {
 	name = "Docibile"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167483
 	1005.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.10.1 = {
 		death = yes
@@ -30774,11 +31040,14 @@
 167489 = {
 	name = "Leone"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167488
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.4.1 = {
 		death = yes
@@ -30851,7 +31120,7 @@
 167494 = {
 	name = "Marino"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167477
 	960.1.1 = {
@@ -30867,11 +31136,14 @@
 167495 = {
 	name = "Cresenzio"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167494
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1069.1.1 = {
 		death = yes
@@ -30883,11 +31155,14 @@
 167496 = {
 	name = "Cresenzio"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167495
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1069.1.1 = {
 		death = yes
@@ -30899,11 +31174,14 @@
 167497 = {
 	name = "Marino"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167495
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1121.1.1 = {
 		death = yes
@@ -30961,11 +31239,14 @@
 167501 = {
 	name = "Landolfo"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167488
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.10.1 = {
 		death = yes
@@ -30993,11 +31274,14 @@
 167503 = {
 	name = "Ranieri"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167483
 	1010.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1070.5.1 = {
 		death = yes
@@ -31010,11 +31294,14 @@
 167504 = {
 	name = "Ranieri"
 	dynasty = 622 #Caetani
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167503
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1125.1.1 = {
 		death = yes
@@ -31029,7 +31316,7 @@
 	name = "Dazio"
 	#placeholder
 	dynasty = 9521 #Alliata
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1000.1.1 = {
 		birth = yes
@@ -31046,11 +31333,14 @@
 	name = "Benedetto"
 	#placeholder
 	dynasty = 9521 #Alliata
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167505
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -31064,11 +31354,14 @@
 	name = "Giacomo"
 	#placeholder
 	dynasty = 9521 #Alliata
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167505
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.1 = {
 		death = yes
@@ -31563,11 +31856,14 @@
 	name = "Robaldo"
 	dynasty = 13028
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 
 	1010.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		death = yes
@@ -31578,11 +31874,14 @@
 	name = "Tedisio"
 	dynasty = 13028
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	father = 167536
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1128.1.1 = {
 		death = yes
@@ -32023,11 +32322,14 @@
 	#placeholder
 	dynasty = 13028
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	father = 167536
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1102.1.1 = {
 		death = yes
@@ -32275,10 +32577,13 @@
 	name = "Ordelaffo"
 	#placeholder
 	dynasty = 514
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	1015.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -32289,11 +32594,14 @@
 	name = "Pietro"
 	#placeholder
 	dynasty = 514
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 167583
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -32432,7 +32740,7 @@
 	name = "Iacopo"
 	#placeholder
 	dynasty = 516
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	970.1.1 = {
 		birth = yes
@@ -32446,11 +32754,14 @@
 	name = "Iacopo"
 	#placeholder
 	dynasty = 516
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 7800
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.1 = {
 		death = yes
@@ -32461,11 +32772,14 @@
 	name = "Andrea"
 	#placeholder
 	dynasty = 516
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 7800
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -32476,11 +32790,14 @@
 	name = "Carlo"
 	#placeholder
 	dynasty = 516
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 7800
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -32669,11 +32986,14 @@
 	#placeholder
 	female = yes
 	dynasty = 516
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 7800
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -32971,12 +33291,15 @@
 	name = "Giovanni"
 	#placeholder
 	dynasty = 13075
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 167668
 	mother = 167669
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		add_spouse = 167659
@@ -33119,7 +33442,7 @@
 182008 = {
 	name = "Giovanni"
 	dynasty = 13070
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = detached_priest
 	940.1.1 = {
@@ -33134,7 +33457,7 @@
 	name = "Lorenzo"
 	#placeholder
 	dynasty = 13070
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 182008
 	970.1.1 = {
@@ -33149,11 +33472,14 @@
 	name = "Pietro"
 	#placeholder
 	dynasty = 13070
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 182009
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		death = yes
@@ -33164,11 +33490,14 @@
 	name = "Domenico"
 	#placeholder
 	dynasty = 13070
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 182010
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -33595,7 +33924,7 @@
 180000 = {
 	name = "Ghisolfo"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	900.1.1 = {
 		birth = yes
@@ -33609,7 +33938,7 @@
 	name = "Gerardo"
 	# Gerardo I, Count of Volterra
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180000
 	932.1.1 = {
@@ -33624,7 +33953,7 @@
 	name = "Gerardo"
 	# Gerardo II
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180001
 	954.1.1 = {
@@ -33642,7 +33971,7 @@
 	name = "Tedice"
 	# Tedice I, Count of Volterra
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180001
 	963.1.1 = {
@@ -33660,7 +33989,7 @@
 	name = "Ugo"
 	# Ugo I
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180003
 	mother = 180180
@@ -33678,7 +34007,7 @@
 180005 = {
 	name = "Rodolfo"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180004
 	mother = 180181
@@ -33694,7 +34023,7 @@
 	name = "Guido"
 	# Guido I, Count of Forcoli
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180003
 	mother = 180180
@@ -33713,12 +34042,15 @@
 	name = "Guido"
 	# Guido II, Count of Forcoli
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180006
 	mother = 180188
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		add_spouse = 180502
@@ -33957,12 +34289,15 @@
 	name = "Ugone"
 	# son of Guido I of Forcoli
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180006
 	mother = 180188
 	1037.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1068.1.1 = {
 		death = yes
@@ -33973,7 +34308,7 @@
 	name = "Tedice"
 	# Tedice II
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180003
 	mother = 180180
@@ -33992,7 +34327,7 @@
 	name = "Tedice"
 	# Tedice III, Count of Castagneto
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180022
 	mother = 180182
@@ -34001,6 +34336,9 @@
 	}
 	1050.1.1 = {
 		add_spouse = 180253
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -35573,7 +35911,7 @@
 180135 = {
 	name = "Ugo"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180022
 	mother = 180182
@@ -35582,6 +35920,9 @@
 	}
 	1045.1.1 = {
 		add_spouse = 180201
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -35593,12 +35934,15 @@
 	# wife of Ugo di Raineri
 	female = yes
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180135
 	mother = 180201
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -35608,12 +35952,15 @@
 180137 = {
 	name = "Rodolfo"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180003
 	mother = 180180
 	994.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1059.1.1 = {
 		death = yes
@@ -35624,7 +35971,7 @@
 	name = "Ugo"
 	# Count of Suvereto
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180137
 	1025.1.1 = {
@@ -35632,6 +35979,9 @@
 	}
 	1043.1.1 = {
 		add_spouse = 180193
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1077.1.1 = {
 		death = yes
@@ -35642,12 +35992,15 @@
 	name = "Ugo"
 	# Count of Suvereto
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180138
 	mother = 180193
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1103.1.1 = {
 		death = yes
@@ -35657,11 +36010,14 @@
 180140 = {
 	name = "Rodolfo"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180138
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.1.1 = {
 		death = yes
@@ -35686,12 +36042,15 @@
 	name = "Gerardo"
 	# Gerardo III
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180003
 	mother = 180180
 	997.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.1 = {
 		death = yes
@@ -35702,11 +36061,14 @@
 	name = "Gerardo"
 	# Gerardo IV
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180142
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.1 = {
 		add_spouse = 180507
@@ -36011,11 +36373,14 @@
 	# wife of Ildebrando <unknown>
 	female = yes
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180142
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1101.1.1 = {
 		death = yes
@@ -36025,7 +36390,7 @@
 180163 = {
 	name = "Enrico"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180003
 	mother = 180180
@@ -36040,7 +36405,7 @@
 180164 = {
 	name = "Rodolfo"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180001
 	959.1.1 = {
@@ -36054,7 +36419,7 @@
 180165 = {
 	name = "Ildebrando"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180164
 	983.1.1 = {
@@ -36068,7 +36433,7 @@
 180166 = {
 	name = "Teutperto"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180164
 	987.1.1 = {
@@ -36082,7 +36447,7 @@
 180167 = {
 	name = "Raineri"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180001
 	962.1.1 = {
@@ -36096,7 +36461,7 @@
 180168 = {
 	name = "Guido"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180167
 	988.1.1 = {
@@ -36110,7 +36475,7 @@
 180169 = {
 	name = "Ildebrando"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180001
 	964.1.1 = {
@@ -36125,7 +36490,7 @@
 	name = "Gerardo"
 	# Count of Lucca
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180169
 	985.1.1 = {
@@ -36139,7 +36504,7 @@
 180171 = {
 	name = "Rodolfo"
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180000
 	933.1.1 = {
@@ -36155,7 +36520,7 @@
 	# wife of Raineri di Fraolmi
 	female = yes
 	dynasty = 13031
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180000
 	935.1.1 = {
@@ -36171,7 +36536,7 @@
 	# wife of Gerardo II della Gherardesca
 	female = yes
 	dynasty = 1042019
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	953.1.1 = {
 		birth = yes
@@ -36186,7 +36551,7 @@
 	# wife of Tedice I
 	female = yes
 	dynasty = 1042000
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	967.1.1 = {
 		birth = yes
@@ -36201,7 +36566,7 @@
 	# wife of Ugo I della Gherardesca
 	female = yes
 	dynasty = 1042013
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	985.1.1 = {
 		birth = yes
@@ -36216,10 +36581,13 @@
 	# wife of Tedice II
 	female = yes
 	dynasty = 1042020
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1002.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1063.1.1 = {
 		death = yes
@@ -36291,7 +36659,7 @@
 	# wife of Guido I of Forcoli
 	female = yes
 	dynasty = 1042011
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	997.1.1 = {
 		birth = yes
@@ -36369,11 +36737,14 @@
 	# wife of Ugo della Gherardesca, Count of Suvereto
 	female = yes
 	dynasty = 13021
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235006 #Guglielmo, Margrave of Massa
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1101.1.1 = {
 		death = yes
@@ -36413,10 +36784,13 @@
 180200 = {
 	name = "Sicheri"
 	dynasty = 1042014
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1003.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		death = yes
@@ -36427,11 +36801,14 @@
 	name = "Ermingarde"
 	female = yes
 	dynasty = 1042014
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180200
 	1027.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1083.1.1 = {
 		death = yes
@@ -36441,7 +36818,7 @@
 180202 = {
 	name = "Ildebrando"
 	dynasty = 1042014
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180200
 	1023.1.1 = {
@@ -36449,6 +36826,9 @@
 	}
 	1039.1.1 = {
 		add_spouse = 180301
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -36458,12 +36838,15 @@
 180203 = {
 	name = "Gerardo"
 	dynasty = 1042014
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180202
 	mother = 180301
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		add_spouse = 180500
@@ -36494,12 +36877,15 @@
 	name = "Ugo"
 	# Viscount of Pisa circa 1082
 	dynasty = 1042014
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180202
 	mother = 180301
 	1041.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.1.1 = {
 		add_spouse = 180300
@@ -36580,12 +36966,15 @@
 	name = "Pietro"
 	# Viscount of Pisa circa 1090
 	dynasty = 1042014
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180202
 	mother = 180301
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1069.1.1 = {
 		add_spouse = 180501
@@ -36683,7 +37072,7 @@
 	name = "Raineri"
 	# Marquis of Tuscany
 	dynasty = 1042017
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	975.1.1 = {
 		birth = yes
@@ -36696,13 +37085,16 @@
 180252 = {
 	name = "Uguccione"
 	dynasty = 1042017
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180251
 	1003.1.1 = {
 		birth = yes
 	}
 	# married Berta <unknown>
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1065.1.1 = {
 		death = yes
 	}
@@ -36713,11 +37105,14 @@
 	# wife of Tedice III, Count of Castagneto
 	female = yes
 	dynasty = 1042017
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180252
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1079.1.1 = {
 		death = yes
@@ -36727,11 +37122,14 @@
 180254 = {
 	name = "Arrigo"
 	dynasty = 1042017
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180252
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -36741,11 +37139,14 @@
 180255 = {
 	name = "Raineri"
 	dynasty = 1042017
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 180252
 	1028.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1068.1.1 = {
 		death = yes
@@ -36757,11 +37158,14 @@
 	# wife of Ugo Visconti
 	female = yes
 	dynasty = 9521
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167505
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1091.1.1 = {
 		death = yes
@@ -36773,11 +37177,14 @@
 	# wife of Ildebrando Visconti
 	female = yes
 	dynasty = 622
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167484
 	1019.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1074.1.1 = {
 		death = yes
@@ -36787,11 +37194,14 @@
 170109 = {
 	name = "Enrico"
 	dynasty = 13027
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 170040
 	1047.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1115.1.2 = {
 		death = yes
@@ -36801,11 +37211,14 @@
 170110 = {
 	name = "Vitale"
 	dynasty = 13027
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 170040
 	1049.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1110.1.2 = {
 		death = yes
@@ -36815,7 +37228,7 @@
 163068 = {
 	name = "Ambrosio"
 	dynasty = 798
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	830.1.1 = {
 		birth = yes
@@ -36828,7 +37241,7 @@
 163069 = {
 	name = "Odalrico"
 	dynasty = 799
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	820.1.1 = {
 		birth = yes
@@ -36841,7 +37254,7 @@
 163070 = {
 	name = "Adalberto"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167897
 	820.1.1 = {
@@ -36858,7 +37271,7 @@
 163071 = {
 	name = "Adelchis"
 	dynasty = 804
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 145216
 	820.1.1 = {
@@ -36872,7 +37285,7 @@
 91383 = {
 	name = "Hardouin" #  Hardouin d'Hiémois
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = frankish
 
 	800.1.1 = {
@@ -36887,7 +37300,7 @@
 	name = "Eudes" #  AKA Oddon
 	dynasty = 680
 
-	religion = catholic
+	religion = chalcedonian
 	culture = frankish
 
 	father = 91383 #  Hardouin d'Hiémois
@@ -36905,7 +37318,7 @@
 	female = yes
 	dynasty = 680
 
-	religion = catholic
+	religion = chalcedonian
 	culture = frankish
 
 	father = 91383 #  Hardouin d'Hiémois
@@ -36922,7 +37335,7 @@
 	name = "Hardouin"
 	dynasty = 680
 
-	religion = catholic
+	religion = chalcedonian
 	culture = frankish
 
 	father = 167954 #  Ardouin II
@@ -36939,7 +37352,7 @@
 	name = "Ardoino" # Arduino di Narbona
 	dynasty = 13041 # Doria
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 
 	father = 91415 #  Ardouin
@@ -36957,7 +37370,7 @@
 	name = "Ansaldo"
 	dynasty = 13041 # Doria
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 
 	father = 91409 #  Arduino di Narbona
@@ -36965,7 +37378,9 @@
 	1015.1.1 = {
 		birth = yes # unknown
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1070.1.1 = {
 		death = yes # unknown
 	}
@@ -36978,13 +37393,16 @@
 	name = "Martino"
 	dynasty = 13041 # Doria
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 
 	father = 91410 #  Ansaldo
 
 	1050.1.1 = {
 		birth = yes # unknown
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1110.1.1 = {
 		death = yes # unknown
@@ -37050,7 +37468,7 @@
 	name = "Hardouin"
 	dynasty = 680
 
-	religion = catholic
+	religion = chalcedonian
 	culture = frankish
 
 	father = 91408 #  Ardouin
@@ -37809,10 +38227,13 @@
 	# wife of Gerardo Visconti
 	female = yes
 	dynasty = 1042026
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1043.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1106.1.1 = {
 		death = yes
@@ -37824,10 +38245,13 @@
 	# wife of Pietro Visconti
 	female = yes
 	dynasty = 1042024
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1079.1.1 = {
 		death = yes
@@ -37839,10 +38263,13 @@
 	# wife of Guido II della Gherardesca
 	female = yes
 	dynasty = 1042027
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1108.1.1 = {
 		death = yes
@@ -37914,10 +38341,13 @@
 	# wife of Gerardo IV della Gherardesca, dynasty fictitious
 	female = yes
 	dynasty = 1042033
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -38065,7 +38495,7 @@
 	name = "Manesseno" # not sure who he may be, he have the name of an italian city
 	dynasty = 50 # Spinola
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 
 	father = 91338 # Ido di Manesseno di Genova
@@ -38082,13 +38512,16 @@
 	name = "Oberto" # Oberto di Manesseno di Genova
 	dynasty = 50 # Spinola
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 
 	father = 91339 # Manesseno
 
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1070.1.1 = {
 		death = yes # unknown
@@ -38099,13 +38532,16 @@
 	name = "Belo" # Belo Bozumi
 	dynasty = 50 # Spinola
 
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 
 	father = 91340 # Oberto di Manesseno di Genova
 
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1110.1.1 = {
 		death = yes # unknown
@@ -38276,12 +38712,14 @@
 	name = "Maria"
 	#placeholder
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	1050.1.1 = {
 		birth = yes
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1100.1.1 = {
 		death = yes
 	}
@@ -38425,13 +38863,16 @@
 	name = "Andrea"
 	#placeholder
 	dynasty = 13075
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	1010.1.1 = {
 		birth = yes
 	}
 	1035.1.1 = {
 		add_spouse = 167669
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -38443,12 +38884,14 @@
 	name = "Matilda"
 	#placeholder
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	1015.1.1 = {
 		birth = yes
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1060.1.1 = {
 		death = yes
 	}
@@ -38458,14 +38901,16 @@
 	name = "Corrado"
 	#placeholder
 	dynasty = 13075
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 167668
 	mother = 167669
 	1045.1.1 = {
 		birth = yes
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1095.1.1 = {
 		death = yes
 	}
@@ -38478,14 +38923,16 @@
 	#placeholder
 	female = yes
 	dynasty = 13075
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 167668
 	mother = 167669
 	1050.1.1 = {
 		birth = yes
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1105.1.1 = {
 		death = yes
 	}
@@ -39029,12 +39476,15 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = fortune_builder
 	father = 182009 #probably
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 8622
@@ -39047,7 +39497,7 @@
 184020 = {
 	name = "Agnello"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145926
 	761.1.1 = {
@@ -39064,7 +39514,7 @@
 184021 = {
 	name = "Maria"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	760.1.1 = {
 		birth = yes
@@ -39077,7 +39527,7 @@
 184022 = {
 	name = "Giustiniano"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184020
 	mother = 184021
@@ -39093,7 +39543,7 @@
 184023 = {
 	name = "Giovanni"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184020
 	mother = 184021
@@ -39109,7 +39559,7 @@
 184024 = {
 	name = "Agnello"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184020
 	mother = 184021
@@ -39127,7 +39577,7 @@
 184025 = {
 	name = "Livia"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	783.1.1 = {
 		birth = 783.1.1
@@ -39140,7 +39590,7 @@
 184026 = {
 	name = "Orso"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184024
 	mother = 184025
@@ -39161,7 +39611,7 @@
 184027 = {
 	name = "Ippolita"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	801.1.1 = {
 		birth = 801.1.1
@@ -39174,7 +39624,7 @@
 184028 = {
 	name = "Giovanni"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184026
 	mother = 184027
@@ -39192,7 +39642,7 @@
 184029 = {
 	name = "Pietro"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184026
 	mother = 184027
@@ -39208,7 +39658,7 @@
 184030 = {
 	name = "Badoaro"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184026
 	mother = 184027
@@ -39224,7 +39674,7 @@
 184031 = {
 	name = "Orso"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184026
 	mother = 184027
@@ -39243,7 +39693,7 @@
 184032 = {
 	name = "Eudossia"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	828.1.1 = {
 		birth = 828.1.1
@@ -39256,7 +39706,7 @@
 184033 = {
 	name = "Agnello"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184026
 	mother = 184027
@@ -39272,7 +39722,7 @@
 184081 = {
 	name = "Orso"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184031
 	mother = 184032
@@ -39291,7 +39741,7 @@
 184082 = {
 	name = "Francesca"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	845.1.1 = {
 		birth = 845.1.1
@@ -39304,7 +39754,7 @@
 184059 = {
 	name = "Pietro" #Badoer
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184081
 	mother = 184082
@@ -39320,7 +39770,7 @@
 184034 = {
 	name = "Pietro" #0
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	780.1.1 = {
 		birth = yes
@@ -39336,7 +39786,7 @@
 184035 = {
 	name = "Bona"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	780.1.1 = {
 		birth = 780.1.1
@@ -39349,7 +39799,7 @@
 184036 = {
 	name = "Pietro" #1
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184034
 	mother = 184035
@@ -39367,7 +39817,7 @@
 184037 = {
 	name = "Claudia"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	824.1.1 = {
 		birth = yes
@@ -39381,7 +39831,7 @@
 	name = "Agnella"
 	dynasty = 1042813
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184034
 	mother = 184035
@@ -39397,7 +39847,7 @@
 184039 = {
 	name = "Pietro" #1.5
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184036
 	mother = 184037
@@ -39415,7 +39865,7 @@
 184040 = {
 	name = "Agnese"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	843.1.1 = {
 		birth = 843.1.1
@@ -39429,7 +39879,7 @@
 	name = "Giuditta"
 	dynasty = 1042813
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184039
 	mother = 184040
@@ -39444,7 +39894,7 @@
 184042 = {
 	name = "Pietro" #2
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184039
 	mother = 184040
@@ -39463,7 +39913,7 @@
 	name = "Arcielda"
 	#AKA Richielda
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	900.1.1 = {
 		birth = 900.1.1
@@ -39476,7 +39926,7 @@
 184044 = {
 	name = "Pietro" #3
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184042
 	mother = 184043
@@ -39494,7 +39944,7 @@
 184045 = {
 	name = "Giulia"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	920.1.1 = {
 		birth = 920.1.1
@@ -39507,7 +39957,7 @@
 184046 = {
 	name = "Domenigo"
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184042
 	mother = 184043
@@ -39524,7 +39974,7 @@
 	female = yes
 	#May have been the original Juliet
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184042
 	mother = 184043
@@ -39539,7 +39989,7 @@
 184048 = {
 	name = "Pietro" #4
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184044
 	mother = 184045
@@ -39563,7 +40013,7 @@
 184049 = {
 	name = "Giovanna"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	940.1.1 = {
 		birth = yes
@@ -39576,7 +40026,7 @@
 184050 = {
 	name = "Vitale"
 	dynasty = 1042813
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184048
 	mother = 184049
@@ -39592,7 +40042,7 @@
 	name = "Marina"
 	dynasty = 1042813
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184048
 	mother = 184049
@@ -39609,7 +40059,7 @@
 184053 = {
 	name = "Domenico"
 	dynasty = 1042810
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	820.1.1 = {
 		birth = 820.1.1
@@ -39625,7 +40075,7 @@
 184054 = {
 	name = "Pietro"
 	dynasty = 1042810
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184053
 	mother = 184038
@@ -39643,7 +40093,7 @@
 184055 = {
 	name = "Violante"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	842.1.1 = {
 		birth = 842.1.1
@@ -39656,7 +40106,7 @@
 184056 = {
 	name = "Niccolò"
 	dynasty = 1042810
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184054
 	mother = 184055
@@ -39672,7 +40122,7 @@
 	name = "Giacinta"
 	dynasty = 1042810
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184054
 	mother = 184055
@@ -39687,7 +40137,7 @@
 184058 = {
 	name = "Valerio"
 	dynasty = 1042810
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184054
 	mother = 184055
@@ -39704,7 +40154,7 @@
 184060 = {
 	name = "Jacopo"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145914
 	820.1.1 = {
@@ -39721,7 +40171,7 @@
 184061 = {
 	name = "Bianca"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	822.1.1 = {
 		birth = 822.1.1
@@ -39734,7 +40184,7 @@
 184062 = {
 	name = "Tedaldo"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184060
 	mother = 184061
@@ -39752,7 +40202,7 @@
 184063 = {
 	name = "Renata"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	822.1.1 = {
 		birth = 822.1.1
@@ -39765,7 +40215,7 @@
 184064 = {
 	name = "Marcello"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184062
 	mother = 184063
@@ -39783,7 +40233,7 @@
 184065 = {
 	name = "Clotilde"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	822.1.1 = {
 		birth = 822.1.1
@@ -39796,7 +40246,7 @@
 184066 = {
 	name = "Marsiglio"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184064
 	mother = 184065
@@ -39814,7 +40264,7 @@
 184067 = {
 	name = "Clotilde"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	905.1.1 = {
 		birth = 905.1.1
@@ -39827,10 +40277,13 @@
 184072 = {
 	name = "Alfonsina"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	996.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		death = yes #"1053.1.1"
@@ -39840,12 +40293,15 @@
 184073 = {
 	name = "Domenico"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 542
 	mother = 184072
 	1021.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -39856,7 +40312,7 @@
 184068 = {
 	name = "Tribuno"
 	dynasty = 1042811
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	957.1.1 = {
 		birth = 957.1.1
@@ -39872,7 +40328,7 @@
 184069 = {
 	name = "Maurizio"
 	dynasty = 1042811
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 184068
 	mother = 184051
@@ -39887,7 +40343,7 @@
 #Non-noble
 184070 = {
 	name = "Pietro" #Barbolano
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	980.1.1 = {
 		birth = 980.1.1
@@ -39900,7 +40356,7 @@
 184071 = {
 	name = "Domenico"
 	dynasty = 13071 #Flabonico
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	980.1.1 = {
 		birth = 980.1.1
@@ -39915,7 +40371,7 @@
 184052 = {
 	name = "Pietro"
 	dynasty = 1042809
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto #istrian
 	father = 184074
 	mother = 184075
@@ -39930,7 +40386,7 @@
 184074 = {
 	name = "Ubaldo"
 	dynasty = 1042809
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto #istrian
 	780.1.1 = {
 		birth = 780.1.1
@@ -39946,7 +40402,7 @@
 184075 = {
 	name = "Giorgia"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	780.1.1 = {
 		birth = 780.1.1
@@ -39959,7 +40415,7 @@
 184076 = {
 	name = "Giacomo"
 	dynasty = 1042809
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto #istrian
 	father = 184074
 	mother = 184075
@@ -39977,7 +40433,7 @@
 184077 = {
 	name = "Gerberga"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	806.1.1 = {
 		birth = 806.1.1
@@ -39990,7 +40446,7 @@
 184078 = {
 	name = "Francesco"
 	dynasty = 1042809
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto #istrian
 	father = 184076
 	mother = 184077
@@ -40005,7 +40461,7 @@
 184079 = {
 	name = "Giovanni"
 	dynasty = 1042809
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto #istrian
 	father = 184076
 	mother = 184077
@@ -40020,7 +40476,7 @@
 184080 = {
 	name = "Marco"
 	dynasty = 1042809
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto #istrian
 	father = 184076
 	mother = 184077
@@ -40035,7 +40491,7 @@
 167806 = {
 	name = "Vilfredo"
 	dynasty = 9555
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	840.1.1 = {
 		birth = yes
@@ -40048,7 +40504,7 @@
 145216 = {
 	name = "Radelchis"
 	dynasty = 804
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	790.1.1 = {
 		birth = yes
@@ -40061,7 +40517,7 @@
 145217 = {
 	name = "Radelgar"
 	dynasty = 804
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 145216
 	818.1.1 = {
@@ -40075,7 +40531,7 @@
 145218 = {
 	name = "Guaifer"
 	dynasty = 804
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 145217
 	840.1.1 = {
@@ -40089,7 +40545,7 @@
 145219 = {
 	name = "Radelchis"
 	dynasty = 804
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 163071
 	845.1.1 = {
@@ -40103,7 +40559,7 @@
 145220 = {
 	name = "Aiulf"
 	dynasty = 804
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 163071
 	847.1.1 = {
@@ -40117,7 +40573,7 @@
 145221 = {
 	name = "Ursus"
 	dynasty = 804
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 145220
 	866.1.1 = {
@@ -40131,7 +40587,7 @@
 167893 = {
 	name = "Rodolfo"
 	dynasty = 9561
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167892
 	880.1.1 = {
@@ -40145,7 +40601,7 @@
 167896 = {
 	name = "Bonifacio"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 235007 #Adalberto
 	760.1.1 = {
@@ -40159,7 +40615,7 @@
 167897 = {
 	name = "Bonifacio"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167896
 	790.1.1 = {
@@ -40175,7 +40631,7 @@
 167898 = {
 	name = "Berardo"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167896
 	792.1.1 = {
@@ -40193,7 +40649,7 @@
 	name = "Richilda"
 	female = yes
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167896
 	785.1.1 = {
@@ -40207,7 +40663,7 @@
 167900 = {
 	name = "Berardo"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167897
 	818.1.1 = {
@@ -40221,7 +40677,7 @@
 167902 = {
 	name = "Adalberto"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 163070
 	mother = 167901
@@ -40240,7 +40696,7 @@
 167903 = {
 	name = "Bonifacio"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 163070
 	mother = 167901
@@ -40257,7 +40713,7 @@
 	name = "Reginsinda"
 	female = yes
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 163070
 	mother = 167901
@@ -40273,7 +40729,7 @@
 167905 = {
 	name = "Guido"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167902
 	mother = 7920
@@ -40292,7 +40748,7 @@
 167906 = {
 	name = "Lamberto"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167902
 	mother = 7920
@@ -40311,7 +40767,7 @@
 	name = "Theodora"
 	female = yes
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167905
 	mother = 7915
@@ -40330,7 +40786,7 @@
 	name = "Berta"
 	female = yes
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	father = 167905
 	mother = 7915
@@ -40347,7 +40803,7 @@
 
 167910 = {
 	name = "Giovanni"
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = scholarly_theologian
 	820.1.1 = {
@@ -40364,7 +40820,7 @@
 167911 = {
 	name = "Goffredo"
 	#placeholder
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = scholarly_theologian
 	830.1.1 = {
@@ -40382,7 +40838,7 @@
 167912 = {
 	name = "Everardo"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	840.1.1 = {
 		birth = yes
@@ -40398,7 +40854,7 @@
 167913 = {
 	name = "Sigifredo"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167912
 	858.1.1 = {
@@ -40415,7 +40871,7 @@
 167914 = {
 	name = "Wifredo"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167912
 	858.1.1 = {
@@ -40432,7 +40888,7 @@
 167915 = {
 	name = "Giselberto"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167914
 	873.1.1 = {
@@ -40451,7 +40907,7 @@
 167916 = {
 	name = "Lanfranco"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167915
 	mother = 190540
@@ -40469,7 +40925,7 @@
 167917 = {
 	name = "Riprando"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167916
 	910.1.1 = {
@@ -40486,7 +40942,7 @@
 167918 = {
 	name = "Lanfranco"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167917
 	930.1.1 = {
@@ -40503,7 +40959,7 @@
 167919 = {
 	name = "Gandolfo"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167917
 	935.1.1 = {
@@ -40521,7 +40977,7 @@
 167920 = {
 	name = "Giselberto"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167918
 	950.1.1 = {
@@ -40539,7 +40995,7 @@
 167921 = {
 	name = "Lanfranco"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167918
 	952.1.1 = {
@@ -40556,7 +41012,7 @@
 167922 = {
 	name = "Riprando"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167919
 	955.1.1 = {
@@ -40574,7 +41030,7 @@
 167923 = {
 	name = "Wiberto"
 	dynasty = 9562
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167919
 	960.1.1 = {
@@ -40589,7 +41045,7 @@
 167928 = {
 	name = "Umberto"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 1106
 	mother = 167929
@@ -40607,7 +41063,7 @@
 	name = "Gisela"
 	female = yes
 	dynasty = 12110
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71901
 	882.1.1 = {
@@ -40623,7 +41079,7 @@
 167930 = {
 	name = "Anscario"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 1106
 	mother = 167907
@@ -40638,7 +41094,7 @@
 167931 = {
 	name = "Amedeo"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167930
 	938.1.1 = {
@@ -40655,7 +41111,7 @@
 167932 = {
 	name = "Berengario"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167931
 	mother = 167956
@@ -40670,7 +41126,7 @@
 167933 = {
 	name = "Berengario"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167932
 	1000.1.1 = {
@@ -40687,7 +41143,7 @@
 	name = "Guntilda"
 	female = yes
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167932
 	1002.1.1 = {
@@ -40703,7 +41159,7 @@
 167935 = {
 	name = "Adalberto"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 1106
 	mother = 167907
@@ -40718,7 +41174,7 @@
 167936 = {
 	name = "Dado"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167935
 	940.1.1 = {
@@ -40732,7 +41188,7 @@
 167937 = {
 	name = "Adalberto"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167935
 	942.1.1 = {
@@ -40746,7 +41202,7 @@
 167938 = {
 	name = "Guiberto"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167936
 	960.1.1 = {
@@ -40761,7 +41217,7 @@
 167939 = {
 	name = "Guiberto"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167938
 	990.1.1 = {
@@ -40775,11 +41231,14 @@
 167940 = {
 	name = "Guido"
 	dynasty = 8669
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167939
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1083.1.1 = {
 		death = yes
@@ -40805,7 +41264,7 @@
 167942 = {
 	name = "Ardoino"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167936
 	965.1.1 = {
@@ -40820,7 +41279,7 @@
 	name = "Berta"
 	dynasty = 679
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 70629
 	975.1.1 = {
@@ -40834,7 +41293,7 @@
 167944 = {
 	name = "Ottone"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71902
 	mother = 167943
@@ -40849,7 +41308,7 @@
 167945 = {
 	name = "Ottone"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167944
 	1020.1.1 = {
@@ -40863,7 +41322,7 @@
 167946 = {
 	name = "Ardicino"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71902
 	mother = 167943
@@ -40878,11 +41337,14 @@
 167947 = {
 	name = "Ardoino"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167946
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.4.10 = {
 		death = yes
@@ -40892,11 +41354,14 @@
 167948 = {
 	name = "Eriprando"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167947
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.4.10 = {
 		death = yes
@@ -40906,11 +41371,14 @@
 167949 = {
 	name = "Amadeo"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167946
 	1027.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1097.1.1 = {
 		death = yes
@@ -40920,7 +41388,7 @@
 167950 = {
 	name = "Guiberto"
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 71902
 	mother = 167943
@@ -40935,7 +41403,7 @@
 167951 = {
 	name = "Rodolfo"
 	dynasty = 9563
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	850.1.1 = {
 		birth = yes
@@ -40948,7 +41416,7 @@
 167955 = {
 	name = "Ruggero"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167953
 	905.1.1 = {
@@ -40966,7 +41434,7 @@
 	name = "Guntilda"
 	female = yes
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167955
 	930.1.1 = {
@@ -40981,7 +41449,7 @@
 167957 = {
 	name = "Ardoino"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167953
 	903.1.1 = {
@@ -40997,7 +41465,7 @@
 	name = "Alsinda"
 	female = yes
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167957
 	930.1.1 = {
@@ -41013,7 +41481,7 @@
 	name = "Richilda"
 	female = yes
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167957
 	932.1.1 = {
@@ -41028,7 +41496,7 @@
 167960 = {
 	name = "Ardoino"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167957
 	950.1.1 = {
@@ -41043,7 +41511,7 @@
 167961 = {
 	name = "Manfredo"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167957
 	948.1.1 = {
@@ -41058,7 +41526,7 @@
 167962 = {
 	name = "Ottone"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167957
 	952.1.1 = {
@@ -41073,7 +41541,7 @@
 167963 = {
 	name = "Ardoino"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167962
 	975.1.1 = {
@@ -41088,7 +41556,7 @@
 167964 = {
 	name = "Boso"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167963
 	995.1.1 = {
@@ -41103,7 +41571,7 @@
 167965 = {
 	name = "Wido"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167963
 	1000.1.1 = {
@@ -41118,7 +41586,7 @@
 167966 = {
 	name = "Odalrico"
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167965
 	1020.1.1 = {
@@ -41134,13 +41602,15 @@
 	name = "Beatrice"
 	female = yes
 	dynasty = 680
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167966
 	1038.1.1 = {
 		birth = yes
 	}
-
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1065.8.29 = {
 		death = yes
 	}
@@ -41150,7 +41620,7 @@
 167968 = {
 	name = "Anterio"
 	dynasty = 799
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 163069
 	840.1.1 = {
@@ -41166,7 +41636,7 @@
 167969 = {
 	name = "Liudfredo"
 	dynasty = 799
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167968
 	860.1.1 = {
@@ -41180,7 +41650,7 @@
 167970 = {
 	name = "Gotefredo"
 	dynasty = 799
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167968
 	865.1.1 = {
@@ -41194,7 +41664,7 @@
 167971 = {
 	name = "Gausberto"
 	dynasty = 799
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167970
 	890.1.1 = {
@@ -41208,7 +41678,7 @@
 167972 = {
 	name = "Uberto"
 	dynasty = 799
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167971
 	910.1.1 = {
@@ -41222,7 +41692,7 @@
 167973 = {
 	name = "Adalberto"
 	dynasty = 799
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 167972
 	930.1.1 = {
@@ -41236,7 +41706,7 @@
 167974 = {
 	name = "Ermenulfo"
 	dynasty = 9564
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	850.1.1 = {
 		birth = yes
@@ -41249,7 +41719,7 @@
 167975 = {
 	name = "Maginfredo"
 	dynasty = 9565
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	840.1.1 = {
 		birth = yes
@@ -41262,7 +41732,7 @@
 167981 = {
 	name = "Bonifacio"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167980
 	890.1.1 = {
@@ -41279,7 +41749,7 @@
 167982 = {
 	name = "Teobaldo"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167981
 	mother = 168006
@@ -41295,7 +41765,7 @@
 	name = "Willa"
 	female = yes
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167981
 	mother = 168006
@@ -41310,7 +41780,7 @@
 167984 = {
 	name = "Everardo"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167981
 	mother = 168006
@@ -41325,7 +41795,7 @@
 167985 = {
 	name = "Adalberto"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167982
 	945.1.1 = {
@@ -41340,7 +41810,7 @@
 	name = "Willa"
 	female = yes
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167982
 	947.1.1 = {
@@ -41354,7 +41824,7 @@
 167987 = {
 	name = "Bonifacio"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167985
 	970.1.1 = {
@@ -41369,7 +41839,7 @@
 167988 = {
 	name = "Walfredo"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167985
 	972.1.1 = {
@@ -41384,7 +41854,7 @@
 167989 = {
 	name = "Adalberto"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167985
 	975.1.1 = {
@@ -41399,7 +41869,7 @@
 	name = "Ermengarda"
 	female = yes
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167985
 	977.1.1 = {
@@ -41414,11 +41884,14 @@
 167991 = {
 	name = "Ugo"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167987
 	995.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.14 = {
 		death = yes
@@ -41428,7 +41901,7 @@
 167992 = {
 	name = "Ubaldo"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167987
 	997.1.1 = {
@@ -41443,11 +41916,14 @@
 	name = "Willa"
 	female = yes
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167987
 	999.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1061.1.1 = {
 		death = yes
@@ -41459,11 +41935,14 @@
 167994 = {
 	name = "Ugo"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167991
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		add_spouse = 70627
@@ -41478,11 +41957,14 @@
 167995 = {
 	name = "Alberto"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167991
 	1027.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.1 = {
 		death = yes
@@ -41492,11 +41974,14 @@
 167996 = {
 	name = "Bonifacio"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167991
 	1029.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.14 = {
 		death = yes
@@ -41506,11 +41991,14 @@
 167997 = {
 	name = "Ubaldo"
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167991
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1097.1.1 = {
 		death = yes
@@ -41521,11 +42009,14 @@
 	name = "Adelasia"
 	female = yes
 	dynasty = 9566
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 167991
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1082.1.1 = {
 		death = yes
@@ -41579,7 +42070,7 @@
 168002 = {
 	name = "Martino"
 	dynasty = 9567
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	845.1.1 = {
 		birth = yes
@@ -41595,7 +42086,7 @@
 168003 = {
 	name = "Pietro"
 	dynasty = 9567
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	father = 168002
 	mother = 167978
@@ -41627,7 +42118,7 @@
 168008 = {
 	name = "Ansaldo"
 	#placeholder
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	845.1.1 = {
 		birth = yes
@@ -41640,7 +42131,7 @@
 168009 = {
 	name = "Benedicto"
 	#placeholder
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	trait = martial_cleric
 	835.1.1 = {
@@ -41654,7 +42145,7 @@
 168334 = {
 	name = "Egilulf"
 	dynasty = 100354
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	834.1.1 = {
 		birth = yes
@@ -41668,7 +42159,7 @@
 	name = "Jacopo"
 	#placeholder
 	dynasty = 100327
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	845.1.1 = {
 		birth = yes
@@ -41681,7 +42172,7 @@
 180660 = {
 	name = "Augustine"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	add_trait = mastermind_theologian
 	530.1.1 = {
@@ -41695,7 +42186,7 @@
 180661 = {
 	name = "Laurence"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	add_trait = mastermind_theologian
 	550.1.1 = {
@@ -41709,7 +42200,7 @@
 180662 = {
 	name = "Mellitus"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	add_trait = mastermind_theologian
 	560.1.1 = {
@@ -41723,7 +42214,7 @@
 180663 = {
 	name = "Justus"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	add_trait = mastermind_theologian
 	565.1.1 = {
@@ -41737,7 +42228,7 @@
 180664 = {
 	name = "Honorius"
 	# Archbishop of Canterbury
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	add_trait = mastermind_theologian
 	580.1.1 = {
@@ -41751,7 +42242,7 @@
 145901 = {
 	name = "Martino"
 	dynasty = 1022322
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 
 	721.1.1 = {
@@ -41766,7 +42257,7 @@
 	name = "Claudia"
 	dynasty = 1022322
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	father = 145901
 	740.1.1 = {
@@ -41780,7 +42271,7 @@
 145903 = {
 	name = "Callisto"
 	dynasty = 1022322
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	father = 145901
 	742.1.1 = {
@@ -41794,7 +42285,7 @@
 145904 = {
 	name = "Gregorio"
 	dynasty = 1022322
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	father = 145901
 	765.1.1 = {
@@ -41808,7 +42299,7 @@
 145905 = {
 	name = "Cornelio"
 	dynasty = 1022323
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 
 	736.1.1 = {
@@ -41822,7 +42313,7 @@
 145906 = {
 	name = "Giorgio"
 	dynasty = 1022323
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	father = 145905
 	754.1.1 = {
@@ -41836,7 +42327,7 @@
 145907 = {
 	name = "Marco"
 	dynasty = 1022323
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	father = 145905
 	768.1.1 = {
@@ -41850,7 +42341,7 @@
 145910 = {
 	name = "Orso"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 
 	690.1.1 = {
@@ -41864,7 +42355,7 @@
 145911 = {
 	name = "Teodato"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145910
 	715.1.1 = {
@@ -41881,7 +42372,7 @@
 145912 = {
 	name = "Pietro"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145911
 	740.1.1 = {
@@ -41895,7 +42386,7 @@
 145913 = {
 	name = "Jacopo"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145912
 	762.1.1 = {
@@ -41909,7 +42400,7 @@
 145914 = {
 	name = "Pietro"
 	dynasty = 101562
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145913
 	785.1.1 = {
@@ -41923,7 +42414,7 @@
 145915 = {
 	name = "Galla"
 	dynasty = 1022325
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 
 	722.1.1 = {
@@ -41940,7 +42431,7 @@
 145916 = {
 	name = "Domenico"
 	dynasty = 1022326
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 
 	720.1.1 = {
@@ -41957,7 +42448,7 @@
 145917 = {
 	name = "Caesario"
 	dynasty = 1022326
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145916
 	739.1.1 = {
@@ -41971,7 +42462,7 @@
 145918 = {
 	name = "Sergio"
 	dynasty = 1022326
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145916
 	746.1.1 = {
@@ -41985,7 +42476,7 @@
 145919 = {
 	name = "Maurizio"
 	dynasty = 1022327
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	trait = gregarious
 	trait = diligent
@@ -42002,7 +42493,7 @@
 145920 = {
 	name = "Giovanni"
 	dynasty = 1022327
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145919
 	trait = ambitious
@@ -42017,7 +42508,7 @@
 145921 = {
 	name = "Maurizio"
 	dynasty = 1022327
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145920
 	767.1.1 = {
@@ -42031,7 +42522,7 @@
 145922 = {
 	name = "Encagilio"
 	dynasty = 1022328
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 
 	727.1.1 = {
@@ -42046,7 +42537,7 @@
 145923 = {
 	name = "Obelerio"
 	dynasty = 1022328
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145922
 	764.1.1 = {
@@ -42060,7 +42551,7 @@
 145924 = {
 	name = "Beato"
 	dynasty = 1022328
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145922
 	766.1.1 = {
@@ -42074,7 +42565,7 @@
 145925 = {
 	name = "Valentino"
 	dynasty = 1022328
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145922
 	768.1.1 = {
@@ -42088,7 +42579,7 @@
 145926 = {
 	name = "Giustiniano"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 
 	743.1.1 = {
@@ -42102,7 +42593,7 @@
 145927 = {
 	name = "Giovanni"
 	dynasty = 1042812
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145926
 	767.1.1 = {
@@ -42116,7 +42607,7 @@
 145928 = {
 	name = "Leone"
 	dynasty = 1022327
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145919
 	752.1.1 = {
@@ -42130,7 +42621,7 @@
 145929 = {
 	name = "Cristoforo"
 	dynasty = 1022327
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	father = 145928
 	trait = ambitious
@@ -42161,11 +42652,14 @@
 	name = Teodora
 	female = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 
 	1018.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1068.1.1 = {
 		death = yes
@@ -42191,7 +42685,7 @@
 
 190569 = {
 	name = "Amonius" #bishop of Orbetello
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	727.1.1 = {
 		birth = yes
@@ -42802,7 +43296,7 @@
 235004 = {
 	name = "Adalberto" #II of Ivrea
 	dynasty = 681
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	father = 1110
 	945.1.1 = {
@@ -42816,7 +43310,7 @@
 235005 = {
 	name = "Sambucuccio" #I
 	dynasty = 1040082 #di Alando
-	religion = catholic
+	religion = chalcedonian
 	culture = corsican
 	940.1.1 = {
 		birth = yes
@@ -42830,7 +43324,7 @@
 	name = "Guglielmo"
 	# Guglielmo, Margrave of Massa, father of 180193
 	dynasty = 13021
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 70632
 	978.1.1 = {
@@ -42844,7 +43338,7 @@
 235007 = {
 	name = "Adalberto"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	737.1.1 = {
 		birth = yes
@@ -42857,11 +43351,14 @@
 235008 = {
 	name = "Ghiberto"
 	dynasty = 13021
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235006 #Guglielmo of Massa
 	998.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		death = yes
@@ -42871,11 +43368,14 @@
 235009 = {
 	name = "Giovanni"
 	dynasty = 13021
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235008 #Ghiberto of Massa
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.1.1 = {
 		death = yes
@@ -43259,7 +43759,7 @@
 235034 = {
 	name = "Cinarco"
 	dynasty = 803
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 167896
 	795.1.1 = {
@@ -43276,7 +43776,7 @@
 235035 = {
 	name = "Oliviero"
 	dynasty = 1040088 #di Cinarca
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235034 #Cinarco
 	833.1.1 = {
@@ -43290,7 +43790,7 @@
 235036 = {
 	name = "Rinaldo"
 	dynasty = 1040088 #di Cinarca
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235035 #Oliviero
 	864.1.1 = {
@@ -43304,7 +43804,7 @@
 235037 = {
 	name = "Guglielmo"
 	dynasty = 1040088 #di Cinarca
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235036 #Rinaldo
 	898.1.1 = {
@@ -43318,7 +43818,7 @@
 235038 = {
 	name = "Forte"
 	dynasty = 1040088 #di Cinarca
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235037 #Guglielmo
 	936.1.1 = {
@@ -43332,7 +43832,7 @@
 235039 = {
 	name = "Antonio"
 	dynasty = 1040088 #di Cinarca
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235038 #Forte
 	988.1.1 = {
@@ -43340,7 +43840,10 @@
 	}
 	1014.1.1 = {
 		add_spouse = 235040 #Bianca Colonna
-}
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1062.1.1 = {
 		death = yes
 	}
@@ -43350,10 +43853,13 @@
 	name = "Bianca"
 	female = yes
 	dynasty = 13019 #Colonna
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	998.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1069.1.1 = {
 		death = yes
@@ -43363,12 +43869,15 @@
 235041 = {
 	name = "Andrea"
 	dynasty = 1040088 #di Cinarca
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235039 #Antonio
 	mother = 235040 #Bianca Colonna
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1092.1.1 = {
 		death = yes
@@ -43378,12 +43887,15 @@
 235042 = {
 	name = "Arrigo" #Arrigo I da Cuzza
 	dynasty = 1040088 #di Cinarca
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 235039 #Antonio
 	mother = 235040 #Bianca Colonna
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1113.1.1 = {
 		death = yes
@@ -44133,7 +44645,7 @@
 218001 = {
 	name = Alcide
 	female = no
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	832.1.1 = {
 		birth = yes
@@ -44146,10 +44658,13 @@
 218002 = {
 	name = Abbondazio
 	female = no
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1093.1.1 = {
 		death = yes
@@ -44198,7 +44713,7 @@
 219000 = {
 	name = Abbondazio
 	female = no
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	960.1.1 = {
 		birth = yes
@@ -44211,10 +44726,13 @@
 221000 = {
 	name = Leonardo
 	female = no
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	1001.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1072.1.1 = {
 		death = yes
@@ -44224,10 +44742,13 @@
 221001 = {
 	name = Lealdo
 	female = no
-	religion = catholic
+	religion = chalcedonian
 	culture = sardinian
 	1051.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1134.1.1 = {
 		death = yes
@@ -44596,7 +45117,7 @@
 
 259016 = {
 	name = "Giovanni"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	739.1.1 = {
 		birth = yes
@@ -44608,7 +45129,7 @@
 
 259017 = {
 	name = "Flavio"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	831.1.1 = {
 		birth = yes
@@ -44620,10 +45141,13 @@
 
 259018 = {
 	name = "Elio"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -44669,7 +45193,7 @@
 
 259022 = {
 	name = "Ariberto"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	742.1.1 = {
 		birth = yes
@@ -44681,7 +45205,7 @@
 
 259023 = {
 	name = "Peter"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	834.1.1 = {
 		birth = yes
@@ -44693,10 +45217,13 @@
 
 259024 = {
 	name = "Constantine"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -44777,7 +45304,7 @@
 
 259031 = {
 	name = "Mastino"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	721.1.1 = {
 		birth = yes
@@ -44789,7 +45316,7 @@
 
 259032 = {
 	name = "Gianleone"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	832.1.1 = {
 		birth = yes
@@ -44801,10 +45328,13 @@
 
 259033 = {
 	name = "Rinaldo"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.1.1 = {
 		death = yes
@@ -44912,7 +45442,7 @@
 
 260599 = {
 	name = "Abbondio"
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	890.1.1 = {
 		birth = yes
@@ -44924,7 +45454,7 @@
 
 260611 = {
 	name = "Pons"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	902.1.1 = {
 		birth = yes
@@ -44936,7 +45466,7 @@
 
 260612 = {
 	name = "Benedetto"
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	dynasty = 1062264
 	913.1.1 = {
@@ -44949,7 +45479,7 @@
 
 260613 = {
 	name = "Camillo"
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	dynasty = 1062264
 	907.1.1 = {
@@ -44962,7 +45492,7 @@
 
 260615 = {
 	name = "Peter"
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	892.1.1 = {
 		birth = yes
@@ -44974,7 +45504,7 @@
 
 260616 = {
 	name = "Sergio"
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	880.1.1 = {
 		birth = yes
@@ -44986,7 +45516,7 @@
 
 260617 = {
 	name = "Barnaba"
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	dynasty = 1062267
 	888.1.1 = {
@@ -45000,7 +45530,7 @@
 260618 = {
 	name = "Alisia"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	dynasty = 1062268
 	918.1.1 = {
@@ -45013,7 +45543,7 @@
 
 260619 = {
 	name = "Benvenuto"
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	dynasty = 1062269
 	911.1.1 = {
@@ -45026,7 +45556,7 @@
 
 260620 = {
 	name = "Battista"
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	dynasty = 1062270
 	901.1.1 = {
@@ -45039,7 +45569,7 @@
 
 260621 = {
 	name = "Adalberto"
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	dynasty = 101556
 	father = 260622
@@ -45053,7 +45583,7 @@
 
 260622 = {
 	name = "Sigifred"
-	religion = catholic
+	religion = chalcedonian
 	culture = emilian
 	dynasty = 101556
 	889.1.1 = {
@@ -45066,7 +45596,7 @@
 
 260623 = {
 	name = "Teodizio"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	885.1.1 = {
 		birth = yes
@@ -45078,7 +45608,7 @@
 
 260624 = {
 	name = "Luigi"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	904.1.1 = {
 		birth = yes
@@ -45090,7 +45620,7 @@
 
 260625 = {
 	name = "Marino"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	dynasty = 1062271
 	902.1.1 = {
@@ -45103,7 +45633,7 @@
 
 260626 = {
 	name = "Leone"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	dynasty = 1062272
 	913.1.1 = {
@@ -45116,7 +45646,7 @@
 
 260627 = {
 	name = "Elio"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	907.1.1 = {
 		birth = yes
@@ -45128,7 +45658,7 @@
 
 260628 = {
 	name = "Durante"
-	religion = catholic
+	religion = chalcedonian
 	culture = ligurian
 	912.1.1 = {
 		birth = yes
@@ -45140,7 +45670,7 @@
 
 260630 = {
 	name = "Ettore"
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	dynasty = 1062273
 	914.1.1 = {
@@ -45153,7 +45683,7 @@
 
 260631 = {
 	name = "Lupus"
-	religion = catholic
+	religion = chalcedonian
 	culture = veneto
 	904.1.1 = {
 		birth = yes
@@ -45166,7 +45696,7 @@
 190534 = {
 	name = "Judith" #wife of Ugo of Tuscany
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	948.1.1 = {
 		birth = yes
@@ -45180,7 +45710,7 @@
 	name = "Willa" #daughter of Ugo of Tuscany
 	dynasty = 7052
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	970.1.1 = {
 		birth = yes
@@ -45194,7 +45724,7 @@
 	name = "Waldrada" #daughter of Ubert of Tuscany
 	dynasty = 7052
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	father = 7924
 	mother = 167983
@@ -45209,7 +45739,7 @@
 190537 = {
 	name = "Pezola" #mistress of Hugh of Italy
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	910.1.1 = {
 		birth = yes
@@ -45223,7 +45753,7 @@
 	name = "Berta" #daughter of Hugh of Italy
 	dynasty = 7052
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = occitan
 	father = 7923
 	mother = 190537
@@ -45239,7 +45769,7 @@
 190539 = {
 	name = "Boso" #son of Hugh of Italy
 	dynasty = 7052
-	religion = catholic
+	religion = chalcedonian
 	culture = occitan
 	father = 7923
 	mother = 190537
@@ -45255,7 +45785,7 @@
 190540 = {
 	name = "Rotrud" #mistress of Hugh of Italy
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = alemannic
 	873.1.1 = {
 		birth = yes
@@ -45269,7 +45799,7 @@
 	name = "Rotlind" #daughter of Hugh of Italy
 	dynasty = 7052
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = occitan
 	father = 7923
 	mother = 190540
@@ -45285,7 +45815,7 @@
 190542 = {
 	name = "Stephania" #mistress of Hugh of Italy
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = lombard
 	905.1.1 = {
 		birth = yes
@@ -45298,7 +45828,7 @@
 190543 = {
 	name = "Tibald" #son of Hugh of Italy
 	dynasty = 7052
-	religion = catholic
+	religion = chalcedonian
 	culture = occitan
 	father = 7923
 	mother = 190542
@@ -45314,7 +45844,7 @@
 190544 = {
 	name = "Godofred" #son of Hugh of Italy
 	dynasty = 7052
-	religion = catholic
+	religion = chalcedonian
 	culture = occitan
 	father = 7923
 	mother = 190542
@@ -45331,7 +45861,7 @@
 	name = "Adalberto"
 	dynasty = 679
 	culture = lombard
-	religion = catholic
+	religion = chalcedonian
 	890.1.1 = {
 		birth = yes
 	}
@@ -45344,7 +45874,7 @@
 	name = "Ambroso"
 	dynasty = 679
 	culture = lombard
-	religion = catholic
+	religion = chalcedonian
 	father = 261385
 	915.1.1 = {
 		birth = yes
@@ -45358,7 +45888,7 @@
 	name = "Manfred"
 	dynasty = 1062607
 	culture = lombard
-	religion = catholic
+	religion = chalcedonian
 	885.1.1 = {
 		birth = yes
 	}
@@ -45371,7 +45901,7 @@
 	name = "Milo"
 	dynasty = 1062607
 	culture = lombard
-	religion = catholic
+	religion = chalcedonian
 	father = 261387
 	904.1.1 = {
 		birth = yes
@@ -45385,7 +45915,7 @@
 	name = "Manfred"
 	dynasty = 1062607
 	culture = lombard
-	religion = catholic
+	religion = chalcedonian
 	father = 261387
 	905.1.1 = {
 		birth = yes

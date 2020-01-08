@@ -27,7 +27,7 @@
 		add_spouse = 241
 	}
 	911.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 		dynasty = 752
 	}
 	927.1.1 = {
@@ -70,7 +70,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 168500
 	884.1.1 = {
@@ -89,7 +89,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 5789
 	926.1.2 = {
@@ -114,7 +114,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 5790
 	950.1.2 = {
@@ -133,7 +133,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 5791
 	986.1.2 = {
@@ -152,11 +152,14 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 5792
 	1026.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.2 = {
 		death = yes
@@ -170,7 +173,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 161315
 	mother = 166039
@@ -192,7 +195,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = amateurish_plotter
 	father = 168645
@@ -693,7 +696,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = tough_soldier
 	father = 168342
@@ -714,7 +717,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = tough_soldier
 	963.1.1 = {
@@ -817,7 +820,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	946.1.1 = {
 		birth = yes
@@ -834,7 +837,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 83365
 	975.1.1 = {
@@ -855,7 +858,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 83365
 	977.1.1 = {
@@ -995,7 +998,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = proud
 	trait = flamboyant_schemer
@@ -1016,7 +1019,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = underhanded_rogue
 	father = 100504
@@ -1040,7 +1043,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = diligent
 	trait = wroth
@@ -1093,11 +1096,14 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = underhanded_rogue
 	1000.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1058.1.7 = {
 		death = yes
@@ -1112,7 +1118,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = swedish
 	trait = just
 	trait = kind
@@ -1137,7 +1143,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = kind
 	trait = legit_bastard
@@ -1160,13 +1166,16 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = scholarly_theologian
 	father = 100508
 	mother = 102516
 	1029.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.6 = {
 		death = yes
@@ -1261,7 +1270,7 @@
 	diplomacy = 7
 	intrigue = 9
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = geatish
 	trait = diligent
 	trait = wroth
@@ -1308,7 +1317,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = martial_cleric
 	980.1.1 = {
@@ -1329,7 +1338,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = chaste
 	trait = martial_cleric
@@ -1340,6 +1349,9 @@
 	}
 	1040.1.1 = {
 		add_spouse = 100541
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1063.1.1 = {
 		death = yes
@@ -1354,7 +1366,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = lustful
 	trait = kind
@@ -1364,6 +1376,9 @@
 	mother = 100543
 	1007.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -1377,7 +1392,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = kind
 	trait = tough_soldier
@@ -1386,6 +1401,9 @@
 	}
 	1026.1.1 = {
 		add_spouse = 100534
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.1 = {
 		death = yes
@@ -1400,7 +1418,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = greedy
 	trait = kind
@@ -1480,7 +1498,7 @@
 		birth = yes
 	}
 	965.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 		add_spouse = 101552 # Tove
 	}
 	979.1.1 = {
@@ -1498,7 +1516,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = ambitious
 	trait = skilled_tactician
@@ -1531,7 +1549,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = greedy
 	trait = clubfooted
@@ -1552,7 +1570,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = humble
 	trait = content
@@ -1575,7 +1593,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = flamboyant_schemer
 	trait = legit_bastard
@@ -1596,13 +1614,16 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = amateurish_plotter
 	father = 101505 #Svend Tveskæg
 	mother = 100519 # Sigrid Storråde
 	997.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -1616,7 +1637,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = envious
 	trait = brilliant_strategist
@@ -1650,7 +1671,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = wroth
 	trait = greedy
@@ -1673,7 +1694,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = flamboyant_schemer
 	trait = hunter
@@ -1694,7 +1715,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = amateurish_plotter
 	father = 101510 #Knud The Great
@@ -1714,7 +1735,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = tough_soldier
 	father = 100503 # Styrbjorn
@@ -1734,7 +1755,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = patient
 	trait = ambitious
@@ -1758,7 +1779,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = brave
 	trait = thrifty_clerk
@@ -1777,7 +1798,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = honest
 	trait = underhanded_rogue
@@ -1786,6 +1807,9 @@
 	}
 	1032.1.1 = {
 		add_spouse = 102519 # Bodil
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		death = yes
@@ -1799,7 +1823,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = icelandic
 	trait = wroth
 	trait = scholarly_theologian
@@ -1823,12 +1847,15 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = icelandic
 	trait = just
 	trait = scholarly_theologian
 	1000.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1058.1.2 = {
 		death = yes
@@ -1863,7 +1890,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = lustful
 	trait = envious
@@ -1888,7 +1915,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = lustful
 	trait = charitable
@@ -1908,7 +1935,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = patient
 	trait = thrifty_clerk
@@ -1931,13 +1958,16 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = envious
 	trait = scholarly_theologian
 	father = 102502
 	1002.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.2 = {
 		death = yes
@@ -1951,7 +1981,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = just
 	trait = humble
@@ -1963,6 +1993,9 @@
 	}
 	1020.1.2 = {
 		add_spouse = 102503
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		death = yes
@@ -1978,7 +2011,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = proud
 	trait = fortune_builder
@@ -1986,6 +2019,9 @@
 	mother = 102503
 	1027.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1069.1.2 = {
 		death = yes
@@ -2116,7 +2152,7 @@
 		birth = yes
 	}
 	950.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	970.1.1 = {
 		death = yes
@@ -2131,7 +2167,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = scholarly_theologian
 	father = 102508
@@ -2150,7 +2186,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = skilled_tactician
 	937.1.2 = {
@@ -2169,7 +2205,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = slothful
 	trait = wroth
@@ -2190,7 +2226,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = wroth
 	trait = cynical
@@ -2213,7 +2249,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = amateurish_plotter
 	father = 102510
@@ -2233,7 +2269,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = kind
 	trait = amateurish_plotter
@@ -2258,7 +2294,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = proud
 	trait = brave
@@ -2281,7 +2317,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = kind
 	trait = amateurish_plotter
@@ -2302,7 +2338,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = bastard
 	trait = patient
@@ -2328,7 +2364,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = craven
 	trait = harelip
@@ -2354,7 +2390,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = diligent
 	trait = martial_cleric
@@ -2362,6 +2398,9 @@
 	mother = 102520
 	1016.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		death = yes
@@ -2375,7 +2414,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = amateurish_plotter
 	965.1.2 = {
@@ -2396,7 +2435,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = patient
 	trait = martial_cleric
@@ -2417,7 +2456,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = lisp
 	trait = martial_cleric
@@ -2440,7 +2479,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = zealous
 	trait = tough_soldier
@@ -2464,7 +2503,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = temperate
 	trait = brave
@@ -2485,7 +2524,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = temperate
 	trait = underhanded_rogue
@@ -2496,6 +2535,9 @@
 	}
 	1040.1.1 = {
 		add_spouse = 102505
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1064.1.1 = {
 		death = yes
@@ -2510,7 +2552,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = chaste
 	trait = kind
@@ -2531,7 +2573,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = martial_cleric
 	father = 144003
@@ -2552,7 +2594,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = charismatic_negotiator
 	father = 144003
@@ -2572,7 +2614,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = tough_soldier
 	991.1.2 = {
@@ -2614,7 +2656,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = wroth
 	trait = underhanded_rogue
@@ -2637,7 +2679,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = just
 	trait = stutter
@@ -2657,7 +2699,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = clubfooted
 	trait = tough_soldier
@@ -2681,7 +2723,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = flamboyant_schemer
 	father = 102550
@@ -2701,7 +2743,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = chaste
 	trait = proud
@@ -2728,7 +2770,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = arbitrary
 	trait = underhanded_rogue
@@ -2749,7 +2791,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = temperate
 	trait = fortune_builder
@@ -2772,7 +2814,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = honest
 	trait = patient
@@ -2793,7 +2835,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = honest
 	trait = brave
@@ -2814,7 +2856,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = patient
 	trait = greedy
@@ -2836,7 +2878,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = scholarly_theologian
 	965.1.2 = {
@@ -2858,7 +2900,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = arbitrary
 	trait = fortune_builder
@@ -2879,7 +2921,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = honest
 	trait = underhanded_rogue
@@ -2903,7 +2945,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = ill
 	trait = tough_soldier
@@ -2923,7 +2965,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = diligent
 	trait = skilled_tactician
@@ -3047,7 +3089,7 @@
 	dna = bpjkavjfspx
 	prp = 0h00ib00000000000000000000000000000000
 	dynasty = 499 # Yngling
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 144000
 
@@ -3094,7 +3136,7 @@
 144002 = {
 	name = "Olafr"
 	dynasty = 499 # Yngling
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 144000
 	mother = 161305
@@ -3126,7 +3168,7 @@
 144004 = {
 	name = "Olafr"
 	dynasty = 499 # Yngling
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 144003
 	mother = 102541
@@ -3141,7 +3183,7 @@
 144005 = {
 	name = "Björn"
 	dynasty = 499 # Yngling
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 144000
 	mother = 161305
@@ -3170,7 +3212,7 @@
 144007 = {
 	name = "Sigurdr"
 	dynasty = 499 # Yngling
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 144000
 	895.1.1 = {
@@ -3422,7 +3464,7 @@
 161316 = {
 	name = "Sumarli"
 	dynasty = 461
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 5994
 	985.1.1 = {
@@ -3436,7 +3478,7 @@
 161317 = {
 	name = "Brusi"
 	dynasty = 461
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 5994
 	986.1.1 = {
@@ -3450,7 +3492,7 @@
 161318 = {
 	name = "Einarr"
 	dynasty = 461
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 5994
 	988.1.1 = {
@@ -3464,7 +3506,7 @@
 161319 = {
 	name = "Rögnvaldr"
 	dynasty = 461
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 161317
 	1010.1.1 = {
@@ -3479,7 +3521,7 @@
 	name = "Rögnhildr"
 	female = yes
 	dynasty = 499 # Yngling
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 102507
 	mother = 101504
@@ -3550,7 +3592,7 @@
 161325 = {
 	name = "Uspak"
 	dynasty = 1043303
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 161324
 	970.1.1 = {
@@ -3564,11 +3606,14 @@
 161326 = {
 	name = "Sumarli"
 	dynasty = 1043303
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 161325
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		death = yes
@@ -4126,10 +4171,13 @@
 	name = "Ingrid"
 	#placeholder
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	1010.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		death = yes
@@ -4144,7 +4192,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = patient
 	trait = temperate
@@ -4184,7 +4232,7 @@
 161425 = {
 	name = "Björn"
 	dynasty = 502 #af Munsö
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	father = 101535 # Ulf Torgilsson
 	mother = 101509 # Estrid
@@ -4256,7 +4304,7 @@
 166331 = {
 	name = "Helgi"
 	dynasty = 1040003
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166040
 	mother = 166035
@@ -4272,7 +4320,7 @@
 	name = "Þurid" # Wife of Thorsteinn the Red and mother of Olaf Feilan
 	female = yes
 	dynasty = 1040003
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166040
 	mother = 166035
@@ -4288,7 +4336,7 @@
 	name = "Björg" # Wife of Úlfr Högnason
 	female = yes
 	dynasty = 1040003
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166040
 	mother = 166035
@@ -4303,7 +4351,7 @@
 166042 = {
 	name = "Snæbjörn"
 	dynasty = 1040003
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166040
 	mother = 166035
@@ -4318,7 +4366,7 @@
 166043 = {
 	name = "Þjodhildr" # Wife of Fródi Haraldsson, son of Harald Fairhair (144000)
 	dynasty = 1040003
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166040
 	mother = 166035
@@ -4380,7 +4428,7 @@
 166046 = {
 	name = "Dufþakr"
 	dynasty = 1040005
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166034
 	937.1.1 = {
@@ -4394,7 +4442,7 @@
 166047 = {
 	name = "Vilbaldr"
 	dynasty = 1040005
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166046
 	960.1.1 = {
@@ -4408,7 +4456,7 @@
 166048 = {
 	name = "Askell" # "Hnokkan"
 	dynasty = 1040005
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166046
 	965.1.1 = {
@@ -4422,7 +4470,7 @@
 166049 = {
 	name = "Bjollok"
 	dynasty = 1040005
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 166047
 	992.1.1 = {
@@ -4441,7 +4489,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = charismatic_negotiator
 	trait = wroth
@@ -4449,6 +4497,9 @@
 	father = 101502 #Harald Blåtand
 	971.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1059.1.1 = {
 		death = yes
@@ -4462,7 +4513,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = skilled_tactician
 	trait = inspiring_leader
@@ -4488,7 +4539,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = twin
 	trait = shy
@@ -4496,6 +4547,9 @@
 	mother = 451000 #Ylva
 	992.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -4509,7 +4563,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = twin
 	trait = fair
@@ -4518,6 +4572,9 @@
 	mother = 451000 #Ylva
 	992.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		death = yes
@@ -4531,12 +4588,15 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	father = 451001 #Röde Orm
 	mother = 451000 #Ylva
 	994.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -4550,7 +4610,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	trait = brave
 	trait = skilled_tactician
@@ -4559,6 +4619,9 @@
 	mother = 451000 #Ylva
 	995.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1063.1.1 = {
 		death = yes
@@ -4976,7 +5039,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = lustful
 	trait = envious
@@ -5016,7 +5079,7 @@
 		birth = yes
 	}
 	826.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 
 	852.1.1 = {
@@ -5091,7 +5154,7 @@
 		birth = yes
 	}
 	826.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 
 	856.1.1 = {
@@ -5109,7 +5172,7 @@
 		birth = yes
 	}
 	864.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	873.1.1 = {
 		death = yes
@@ -5450,7 +5513,7 @@
 		birth = yes
 	}
 	882.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	882.1.1 = {
 		add_spouse = 168315 #Gisela Karling
@@ -5464,7 +5527,7 @@
 	name = "Rögnhildr"
 	female = yes
 	dynasty = 7514
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 168336
 	mother = 168315
@@ -5973,7 +6036,7 @@
 	}
 
 	965.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	985.1.1 = {
 		death = yes
@@ -5991,7 +6054,7 @@
 	}
 
 	965.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	1002.1.1 = {
 		death = yes
@@ -6009,7 +6072,7 @@
 	}
 
 	965.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	1025.1.1 = {
 		death = yes
@@ -6019,7 +6082,7 @@
 168645 = {
 	name = "Ranulfr"
 	dynasty = 534
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 	900.1.1 = {
 		birth = yes
@@ -6104,7 +6167,7 @@
 		birth = yes
 	}
 	881.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 		name = "Æthelstan"
 		culture = saxon
 	}
@@ -6130,7 +6193,7 @@
 183901 = {
 	name = "Eindride"
 	dynasty = 451
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = tough_soldier
 	father = 102554
@@ -6146,7 +6209,7 @@
 180680 = {
 	name = "Oda"
 	# Archbishop of Canterbury, Bishop of Ramsbury
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	add_trait = mastermind_theologian
 	875.1.1 = {
@@ -7034,7 +7097,7 @@
 		birth = yes
 	}
 	1000.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	1020.1.1 = {
 		death = yes
@@ -7044,11 +7107,14 @@
 214082 = {
 	name = "Hamal"
 	dynasty = 1043504
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 214081
 	980.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.1 = {
 		death = yes

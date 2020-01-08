@@ -609,7 +609,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = fair
 	trait = skilled_tactician
@@ -618,6 +618,9 @@
 	mother = 1437
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		add_spouse = 473
@@ -834,7 +837,7 @@
 		add_spouse = 501
 	}
 	883.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 
 	}
 	890.1.1 = {
@@ -861,7 +864,7 @@
 		birth = yes
 	}
 	883.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 
 	}
 	921.9.15 = {
@@ -888,7 +891,7 @@
 		birth = yes
 	}
 	883.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 
 	}
 	915.1.1 = {
@@ -903,7 +906,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = humble
 	trait = martial_cleric
@@ -928,7 +931,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = temperate
 	trait = skilled_tactician
@@ -952,7 +955,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = diligent
 	trait = cynical
@@ -972,7 +975,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = lisp
 	trait = kinslayer
@@ -1007,7 +1010,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = proud
 	trait = cynical
@@ -1029,7 +1032,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = kind
 	trait = just
@@ -1059,7 +1062,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = patient
 	trait = tough_soldier
@@ -1081,7 +1084,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = honest
 	trait = maimed
@@ -1103,7 +1106,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = lustful
 	trait = tough_soldier
@@ -1145,7 +1148,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = deceitful
 	trait = tough_soldier
@@ -1156,6 +1159,9 @@
 	}
 	1030.1.10 = {
 		add_spouse = 1437
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.10 = {
 		death = yes
@@ -1169,7 +1175,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = tough_soldier
 	father = 518
@@ -1179,6 +1185,9 @@
 	}
 	1050.1.1 = {
 		add_spouse = 532
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1061.1.1 = {
 		death = yes
@@ -1192,7 +1201,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = just
 	trait = diligent
@@ -1202,6 +1211,9 @@
 	mother = 1437
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.1 = {
 		add_spouse = 477
@@ -1222,7 +1234,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = charitable
 	trait = proud
@@ -1232,6 +1244,9 @@
 	mother = 1437
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		add_spouse = 531
@@ -1249,7 +1264,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = arbitrary
 	trait = slothful
@@ -1259,6 +1274,9 @@
 	mother = 1437
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.6.26 = {
 		death = yes
@@ -2862,7 +2880,7 @@
 		birth = yes
 	}
 	883.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	910.1.1 = {
 		death = yes
@@ -2872,7 +2890,7 @@
 168358 = {
 	name = "Vok"
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 168357
 	890.1.1 = {
@@ -2887,7 +2905,7 @@
 168360 = {
 	name = "Slavnik"
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 168358
 	920.1.1 = {
@@ -2907,7 +2925,7 @@
 	name = "Strezislava"
 	female = yes
 	dynasty = 506
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 504
 	mother = 505
@@ -2924,7 +2942,7 @@
 168362 = {
 	name = "Vojtech" #Saint Adalbert of Prague
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = mastermind_theologian
 	trait = celibate
@@ -2949,7 +2967,7 @@
 168363 = {
 	name = "Sobeslav"
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 168360
 	mother = 168361
@@ -2981,7 +2999,7 @@
 261350 = {
 	name = "Hynek"
 	dynasty = 1062276
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	880.1.1 = {
 		birth = yes
@@ -2997,7 +3015,7 @@
 261351 = {
 	name = "Bedriska"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	882.1.1 = {
 		birth = yes
@@ -3010,7 +3028,7 @@
 261352 = {
 	name = "Bozena"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	906.1.1 = {
 		birth = yes
@@ -3023,7 +3041,7 @@
 261353 = {
 	name = "Bavor"
 	dynasty = 1062276
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 260634
 	mother = 261352
@@ -3038,7 +3056,7 @@
 261354 = {
 	name = "Dobroslava"
 	dynasty = 1062276
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 260634
 	mother = 261352
@@ -3054,7 +3072,7 @@
 	name = "Eufemie"
 	dynasty = 1062276
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 261350
 	mother = 261351
@@ -3070,7 +3088,7 @@
 	name = "Anezka"
 	female = yes
 	dynasty = 1062276
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 261350
 	mother = 261351
@@ -3085,7 +3103,7 @@
 261357 = {
 	name = "Bocek"
 	dynasty = 10100
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	885.1.1 = {
 		birth = yes
@@ -3101,7 +3119,7 @@
 261358 = {
 	name = "Dorota"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	888.1.1 = {
 		birth = yes
@@ -3114,7 +3132,7 @@
 261359 = {
 	name = "Herman"
 	dynasty = 10100
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 260635
 	mother = 261352
@@ -3129,7 +3147,7 @@
 261360 = {
 	name = "Prokop"
 	dynasty = 10100
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 260635
 	mother = 261352
@@ -3144,7 +3162,7 @@
 261361 = {
 	name = "Boleslava"
 	dynasty = 10100
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 260635
 	mother = 261352
@@ -3159,7 +3177,7 @@
 261362 = {
 	name = "Strachkvas"
 	dynasty = 10100
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 261357
 	mother = 261358
@@ -3175,7 +3193,7 @@
 	name = "Eliska"
 	female = yes
 	dynasty = 10100
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 261357
 	mother = 261358
@@ -3191,11 +3209,14 @@
 273020 = { #prior of capitule of Litomerice, originaly German, but naturalized Bohemian
 	name = "Lanž"
 	dynasty = 7120
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	trait = scholarly_theologian
 	1022.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		culture = bohemian
@@ -3277,7 +3298,7 @@
 273025 = { #fictional forefather of the dynasty
 	name = "Vrša" #fictional
 	dynasty = 10107
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	918.1.1 = {
 		birth = yes
@@ -3290,7 +3311,7 @@
 273026 = {
 	name = "Kochan" #unknown by name - a husband of daughter of Boleslav
 	dynasty = 10107
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 273029
 	976.1.1 = {
@@ -3308,7 +3329,7 @@
 	name = "Svatava"  #unknown daughter of Boleslav III.
 	female = yes
 	dynasty = 506
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 512
 	mother = 273028
@@ -3326,7 +3347,7 @@
 273028 = {
 	name = "Svatava"  #unknown wife of Boleslav III.
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	957.1.1 = {
 		birth = yes
@@ -3342,7 +3363,7 @@
 273029 = {
 	name = "Kochan" #fictional
 	dynasty = 10107
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 273025
 	950.1.1 = {
@@ -3356,7 +3377,7 @@
 273030 = {
 	name = "Bozej" #in 1014 the leader of Vršovci - at that date a possible Vršovic grandson of Boleslav III was still too young.
 	dynasty = 10107
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 273029
 	980.1.1 = {
@@ -3370,7 +3391,7 @@
 273031 = {
 	name = "Kochan" #murderer of Jaromír Premyslid
 	dynasty = 10107
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 273026
 	mother = 273027
@@ -3385,11 +3406,14 @@
 273032 = {
 	name = "Czaslav" #fictional link between the first Vršovci and those massacred in 1108
 	dynasty = 10107
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 273031
 	1033.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1083.11.11 = {
 		death = yes
@@ -3497,11 +3521,14 @@
 273040 = {
 	name = "Bozej"
 	dynasty = 10107
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 273031
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1089.11.11 = {
 		death = yes
@@ -3670,7 +3697,7 @@
 273053 = {
 	name = "Spytimir"
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 168360
 	mother = 168361
@@ -3685,7 +3712,7 @@
 273054 = {
 	name = "Pobreslav"
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 168360
 	mother = 168361
@@ -3700,7 +3727,7 @@
 273055 = {
 	name = "Porej"
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 168360
 	mother = 168361
@@ -3715,7 +3742,7 @@
 273056 = {
 	name = "Caslav"
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 168360
 	mother = 168361
@@ -3757,7 +3784,7 @@
 273068 = {
 	name = "Dobeš"
 	dynasty = 1069072
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 273067
 	830.1.1 = {
@@ -3771,7 +3798,7 @@
 273069 = {
 	name = "Kojata"
 	dynasty = 1069073
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	848.1.1 = {
 		birth = yes

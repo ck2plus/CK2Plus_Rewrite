@@ -6,7 +6,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = tough_soldier
 	father = 4409
@@ -15,6 +15,9 @@
 	}
 	1049.1.1 = {
 		add_spouse = 4411
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -79,7 +82,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = just
 	trait = tough_soldier
@@ -88,6 +91,9 @@
 	}
 	1045.1.1 = {
 		add_spouse = 4434
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1083.1.1 = {
 		death = yes
@@ -102,7 +108,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = brave
 	trait = skilled_tactician
@@ -111,6 +117,9 @@
 	}
 	1038.1.1 = {
 		add_spouse = 4389
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1082.1.1 = {
 		death = yes
@@ -125,12 +134,15 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = amateurish_plotter
 	father = 20357
 	1005.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		death = yes
@@ -144,7 +156,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = wroth
 	trait = deceitful
@@ -155,6 +167,9 @@
 	}
 	1033.1.2 = {
 		add_spouse = 491
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1068.1.1 = {
 		death = yes
@@ -168,7 +183,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = kind
 	trait = tough_soldier
@@ -178,6 +193,9 @@
 	}
 	1050.1.1 = {
 		add_spouse = 4384
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1083.1.1 = {
 		death = yes
@@ -192,7 +210,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = humble
 	trait = clubfooted
@@ -202,6 +220,9 @@
 	}
 	1040.1.1 = {
 		add_spouse = 4365
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -215,7 +236,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = temperate
 	trait = flamboyant_schemer
@@ -226,6 +247,9 @@
 	}
 	1040.1.1 = {
 		add_spouse = 20375
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.1 = {
 		death = yes
@@ -239,13 +263,16 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = diligent
 	trait = underhanded_rogue
 	father = 4399
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -259,7 +286,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = humble
 	trait = underhanded_rogue
@@ -267,6 +294,9 @@
 	mother = 763
 	1051.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -325,7 +355,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = proud
 	trait = greedy
@@ -348,7 +378,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = underhanded_rogue
 	1024.1.1 = {
@@ -356,6 +386,9 @@
 	}
 	1048.1.1 = {
 		add_spouse = 4444
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1081.1.1 = {
 		death = yes
@@ -370,18 +403,21 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = wroth
 	trait = charismatic_negotiator
 	1039.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1064.1.1 = {
 		add_spouse = 4366
 	}
 	1066.1.1 = {
-	employer = 20365
+		employer = 20365
 	}
 	1087.1.1 = {
 		death = yes
@@ -395,15 +431,18 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = lustful
 	trait = tough_soldier
 	1031.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 476
+		employer = 476
 	}
 	1083.1.1 = {
 		death = yes
@@ -418,12 +457,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = chaste
 	trait = detached_priest
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1086.1.1 = {
 		death = yes
@@ -438,7 +480,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = humble
 	trait = charitable
@@ -447,6 +489,9 @@
 	mother = 20375
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1102.1.1 = {
 		death = yes
@@ -461,7 +506,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = honest
 	trait = diligent
@@ -470,6 +515,9 @@
 	mother = 20375
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.1.1 = {
 		death = yes
@@ -483,7 +531,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = lustful
 	trait = cynical
@@ -492,6 +540,9 @@
 	mother = 491
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1056.1.2 = {
 		add_spouse = 4363
@@ -509,7 +560,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = patient
 	trait = underhanded_rogue
@@ -517,6 +568,9 @@
 	mother = 491
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1096.1.1 = {
 		death = yes
@@ -1524,7 +1578,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = chaste
 	trait = thrifty_clerk
@@ -1532,6 +1586,9 @@
 	mother = 763
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 	employer = 474
@@ -1549,13 +1606,16 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = flamboyant_schemer
 	father = 470
 	mother = 763
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.6.18 = {
 		death = yes
@@ -1570,7 +1630,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = diligent
 	trait = just
@@ -1579,6 +1639,9 @@
 	mother = 4444
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1114.1.1 = {
 		death = yes
@@ -1594,11 +1657,14 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = elusive_shadow
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1090.1.1 = {
 		death = yes
@@ -1613,11 +1679,14 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = charismatic_negotiator
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -1632,11 +1701,14 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = thrifty_clerk
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -1652,7 +1724,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = temperate
 	trait = thrifty_clerk
@@ -1660,6 +1732,9 @@
 	mother = 4365
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1109.1.1 = {
 		death = yes
@@ -1674,7 +1749,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = honest
 	trait = tough_soldier
@@ -1685,6 +1760,9 @@
 	}
 	1050.1.1 = {
 		add_spouse = 4443
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1070.1.1 = {
 		death = yes
@@ -1699,13 +1777,16 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = thrifty_clerk
 	father = 4371
 	mother = 4443
 	1051.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1109.1.1 = {
 		death = yes
@@ -1719,12 +1800,15 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = ambitious
 	trait = mastermind_theologian
 	1021.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1063.12.1 = {
 		effect = {
@@ -1804,7 +1888,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = gluttonous
 	trait = brave
@@ -1824,7 +1908,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = brave
 	trait = chaste
@@ -1845,13 +1929,16 @@
 	diplomacy = 6
 	intrigue = 3
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = cynical
 	trait = scholarly_theologian
 	father = 4379
 	1019.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -1865,12 +1952,15 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = chaste
 	trait = amateurish_plotter
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1094.1.1 = {
 		death = yes
@@ -1884,13 +1974,16 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = slothful
 	trait = indulgent_wastrel
 	father = 4383
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1098.1.1 = {
 		death = yes
@@ -1945,7 +2038,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = chaste
 	trait = humble
@@ -1954,6 +2047,9 @@
 	mother = 491
 	1037.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1075.1.1 = {
 		death = yes
@@ -1968,12 +2064,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = lustful
 	trait = flamboyant_schemer
 	1017.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1063.1.1 = {
 		death = yes
@@ -1987,7 +2086,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = kind
 	trait = naive_appeaser
@@ -1995,6 +2094,9 @@
 	mother = 4389
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1102.1.1 = {
 		death = yes
@@ -2009,7 +2111,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = charitable
 	trait = thrifty_clerk
@@ -2017,6 +2119,9 @@
 	mother = 4389
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1105.1.1 = {
 		death = yes
@@ -2030,13 +2135,16 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = humble
 	trait = martial_cleric
 	father = 4399
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes
@@ -2050,13 +2158,16 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = wroth
 	trait = tough_soldier
 	father = 20362
 	1033.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		add_spouse = 4404
@@ -2074,13 +2185,16 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = arbitrary
 	trait = martial_cleric
 	father = 20362
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1108.1.1 = {
 		death = yes
@@ -2094,11 +2208,14 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = grey_eminence
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1085.1.1 = {
 		death = yes
@@ -2135,7 +2252,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = envious
 	trait = arbitrary
@@ -2143,6 +2260,9 @@
 	father = 20362
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.1 = {
 		add_spouse = 4362
@@ -2159,7 +2279,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = patient
 	trait = tough_soldier
@@ -2180,13 +2300,16 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = flamboyant_schemer
 	trait = proud
 	father = 4409
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		add_spouse = 4415
@@ -2204,12 +2327,15 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = chaste
 	trait = underhanded_rogue
 	1028.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1089.1.1 = {
 		death = yes
@@ -2224,7 +2350,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = brave
 	trait = tough_soldier
@@ -2233,6 +2359,9 @@
 	mother = 4411
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -2247,7 +2376,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = patient
 	trait = charismatic_negotiator
@@ -2256,6 +2385,9 @@
 	mother = 4411
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1109.1.1 = {
 		death = yes
@@ -2270,7 +2402,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = slothful
 	trait = indulgent_wastrel
@@ -2278,6 +2410,9 @@
 	mother = 4411
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1111.1.1 = {
 		death = yes
@@ -2312,13 +2447,16 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = charitable
 	trait = zealous
 	trait = scholarly_theologian
 	1033.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1063.12.1 = {
 		effect = {
@@ -2337,7 +2475,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = patient
 	trait = fortune_builder
@@ -2345,6 +2483,9 @@
 	mother = 4434
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1098.1.1 = {
 		death = yes
@@ -2358,7 +2499,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = diligent
 	trait = envious
@@ -2367,6 +2508,9 @@
 	mother = 4434
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1105.1.1 = {
 		death = yes
@@ -2380,12 +2524,15 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = cynical
 	trait = martial_cleric
 	1024.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1078.1.1 = {
 		death = yes
@@ -2399,7 +2546,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = chaste
 	trait = greedy
@@ -2407,6 +2554,9 @@
 	father = 4437
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.1 = {
 		add_spouse = 4436
@@ -2424,7 +2574,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = honest
 	trait = naive_appeaser
@@ -2432,6 +2582,9 @@
 	mother = 4434
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1107.1.1 = {
 		death = yes
@@ -2445,11 +2598,14 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = underhanded_rogue
 	1018.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1061.1.1 = {
 		death = yes
@@ -2463,13 +2619,16 @@
 	diplomacy = 4
 	intrigue = 3
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = wroth
 	trait = amateurish_plotter
 	father = 4437
 	1049.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1065.1.2 = {
 		add_spouse = 4439
@@ -2487,12 +2646,15 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = deceitful
 	trait = flamboyant_schemer
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1111.1.1 = {
 		death = yes
@@ -2528,7 +2690,7 @@
 	diplomacy = 3
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = arbitrary
 	trait = temperate
@@ -2537,6 +2699,9 @@
 	mother = 4365
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.1.1 = {
 		death = yes
@@ -2551,7 +2716,7 @@
 	diplomacy = 9
 	intrigue = 4
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = patient
 	trait = detached_priest
@@ -2559,6 +2724,9 @@
 	mother = 4365
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1106.1.1 = {
 		death = yes
@@ -2573,13 +2741,16 @@
 	diplomacy = 3
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = humble
 	trait = zealous
 	trait = thrifty_clerk
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1089.1.1 = {
 		death = yes
@@ -2594,13 +2765,16 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = greedy
 	trait = cynical
 	trait = amateurish_plotter
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.1.1 = {
 		death = yes
@@ -2685,7 +2859,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = chaste
 	trait = flamboyant_schemer
@@ -2707,7 +2881,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = patient
 	trait = cynical
@@ -2762,7 +2936,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = lustful
 	trait = patient
@@ -2774,6 +2948,9 @@
 	}
 	1039.1.1 = {
 		add_spouse = 637
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.10.1 = {
 		death = yes
@@ -2812,7 +2989,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = proud
 	trait = diligent
@@ -2825,6 +3002,9 @@
 	}
 	1039.1.1 = {
 		add_spouse = 763
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1063.12.1 = {
 		death = yes
@@ -5429,7 +5609,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = patient
 	trait = diligent
@@ -5437,6 +5617,9 @@
 	mother = 763
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.6.18 = {
 		death = yes
@@ -5451,7 +5634,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = kind
 	trait = chaste
@@ -5461,6 +5644,9 @@
 	mother = 763
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.1 = {
 		add_spouse = 479
@@ -5479,7 +5665,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = honest
 	trait = thrifty_clerk
@@ -5488,8 +5674,11 @@
 	1049.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 472
+		employer = 472
 	}
 	1111.4.2 = {
 		death = yes
@@ -5504,7 +5693,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = diligent
 	trait = just
@@ -5516,6 +5705,9 @@
 	mother = 763
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1077.1.1 = {
 		add_spouse = 1399
@@ -5533,7 +5725,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = gluttonous
 	trait = elusive_shadow
@@ -5541,6 +5733,9 @@
 	mother = 763
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1091.1.1 = {
 		death = yes
@@ -5554,7 +5749,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = cynical
 	trait = tough_soldier
@@ -5562,6 +5757,9 @@
 	mother = 637
 	1053.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1063.1.1 = {
 		effect = {
@@ -5584,7 +5782,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = gluttonous
 	trait = scholarly_theologian
@@ -5592,6 +5790,9 @@
 	mother = 637
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.1.27 = {
 		death = yes
@@ -5606,7 +5807,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = arbitrary
 	trait = tough_soldier
@@ -5615,8 +5816,11 @@
 	1054.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 476
+		employer = 476
 	}
 	1094.1.1 = {
 		death = yes
@@ -5665,7 +5869,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = just
 	trait = patient
@@ -5734,7 +5938,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = bastard
 	trait = diligent
@@ -5743,8 +5947,11 @@
 	1037.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 984
+		employer = 984
 	}
 	1090.1.1 = {
 		death = yes
@@ -5781,7 +5988,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = thrifty_clerk
 	father = 482
@@ -5801,7 +6008,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = honest
 	trait = kind
@@ -5824,7 +6031,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = arbitrary
 	trait = naive_appeaser
@@ -5847,7 +6054,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = kind
 	trait = wroth
@@ -5856,8 +6063,11 @@
 	1016.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
-	employer = 20369
+		employer = 20369
 	}
 	1070.1.1 = {
 		death = yes
@@ -5872,7 +6082,7 @@
 	diplomacy = 7
 	intrigue = 3
 	stewardship = 3
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = ill
 	trait = diligent
@@ -5896,7 +6106,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = patient
 	trait = thrifty_clerk
@@ -5918,7 +6128,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = lustful
 	trait = envious
@@ -5932,8 +6142,11 @@
 	1050.1.1 = {
 		add_spouse = 30213
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1055.1.1 = {
-	remove_spouse = 30213
+		remove_spouse = 30213
 	}
 	1060.8.30 = {
 		death = yes
@@ -5948,7 +6161,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	trait = temperate
 	trait = intricate_webweaver
@@ -6236,12 +6449,15 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 	father = 470
 	mother = 763
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1104.1.2 = {
 		death = yes

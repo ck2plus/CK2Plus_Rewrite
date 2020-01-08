@@ -9,11 +9,14 @@
 	intrigue = 4
 	stewardship = 4
 	learning = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	1047.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 20015 #Västerbotten!		#20616 om lappland
@@ -34,7 +37,7 @@
 	stewardship = 3
 	learning = 4
 
-	religion = catholic
+	religion = chalcedonian
 	culture = hungarian
 
 	trait = tough_soldier
@@ -45,6 +48,9 @@
 
 	1030.11.17 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 4435 #Count in Pest.
@@ -64,7 +70,7 @@
 	stewardship = 7
 	learning = 7
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = midas_touched
@@ -76,6 +82,9 @@
 
 	1030.6.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 20015 #Umeå§§
@@ -95,7 +104,7 @@
 	stewardship = 5
 	learning = 1
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = russian
 	trait = tough_soldier
 	trait = strong
@@ -105,6 +114,9 @@
 
 	1033.10.4 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1066.1.1 = {
 		employer = 652 #far north russia
@@ -124,7 +136,7 @@
 	stewardship = 3
 	learning = 3
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = strong
 	trait = lustful
@@ -134,6 +146,9 @@
 
 	1046.5.3 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 100546
@@ -154,7 +169,7 @@
 	stewardship = 3
 	learning = 5
 
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = chaste
 	trait = celibate
@@ -164,6 +179,9 @@
 
 	985.5.3 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 132
@@ -183,7 +201,7 @@
 	stewardship = 3
 	learning = 3
 
-	religion = catholic
+	religion = chalcedonian
 	culture = dutch
 	trait = drunkard
 	trait = hedonist
@@ -192,6 +210,9 @@
 
 	985.5.3 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 364
@@ -211,11 +232,14 @@
 	stewardship = 3
 	learning = 3
 
-	religion = catholic
+	religion = chalcedonian
 	culture = italian
 
 	1030.11.29 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 364
@@ -236,7 +260,7 @@
 	stewardship = 3
 	learning = 5
 
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = diligent
 	trait = patient
@@ -245,6 +269,9 @@
 
 	1028.8.10 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.9.16 = {
 		employer = 6806
@@ -299,7 +326,7 @@
 	stewardship = 3
 	learning = 3
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 
@@ -312,6 +339,9 @@
 
 	1036.3.12 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 20007 #Öland
@@ -333,7 +363,7 @@
 	stewardship = 7
 	learning = 3
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = charismatic_negotiator
@@ -345,6 +375,9 @@
 
 	1041.10.29 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 102523	#Värmland
@@ -364,7 +397,7 @@
 	stewardship = 7
 	learning = 3
 
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 
 	trait = mystic
@@ -373,6 +406,9 @@
 
 	1038.3.19 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.9.16 = {
 		death = yes
@@ -389,7 +425,7 @@
 	stewardship = 3
 	learning = 8
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = martial_cleric
 	trait = zealous
@@ -402,6 +438,9 @@
 
 	1031.3.11 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 242505
@@ -492,7 +531,7 @@
 	stewardship = 5
 	learning = 4
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = underhanded_rogue
 	trait = lunatic
@@ -500,6 +539,9 @@
 
 	1040.6.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 20007 #Öland
@@ -519,7 +561,7 @@
 	stewardship = 3
 	learning = 3
 
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 	trait = tough_soldier
 	trait = strong
@@ -529,6 +571,9 @@
 
 	1033.1.18 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 764 #Poland
@@ -549,7 +594,7 @@
 	stewardship = 3
 	learning = 3
 
-	religion = catholic
+	religion = chalcedonian
 	culture = scottish
 	trait = skilled_tactician
 	trait = impaler
@@ -559,6 +604,9 @@
 
 	1043.11.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 131111 #Clydesdale
@@ -701,7 +749,7 @@
 	dna = "ddddgmhceco"
 	properties = "cd00fa00000"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = dutch
 	trait = skilled_tactician
 	trait = flat_terrain_leader
@@ -717,6 +765,9 @@
 	1038.7.23 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 106520 #Holland
 	}
@@ -730,11 +781,14 @@
 	dynasty = 1031026
 	easter_egg = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = dutch
 
 	1036.3.14 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 106520 #Holland
@@ -749,7 +803,7 @@
 	dynasty = 1031027
 	easter_egg = yes
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = midas_touched
@@ -759,6 +813,9 @@
 
 	1046.7.20 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 242505
@@ -772,11 +829,14 @@
 	name = "Tomasz"
 	dynasty = 1031028
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 
 	1043.2.16 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 96117 #Poznan
@@ -792,7 +852,7 @@
 	easter_egg = yes
 	dna = "adjebwbjabt"
 	properties = "ee0ced00000"
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = charismatic_negotiator
@@ -806,6 +866,9 @@
 	1033.2.7 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 100546 #Uppsala
 	}
@@ -818,7 +881,7 @@
 	name = "Martin"
 	dynasty = 860 #Anward
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = mystic
@@ -828,6 +891,9 @@
 
 	1033.2.7 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 100530 #Östergötland
@@ -841,7 +907,7 @@
 	name = "Gustav"
 	dynasty = 861 #Palmqvist
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = kind
@@ -849,6 +915,9 @@
 
 	1033.2.7 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 20006 #Åland
@@ -956,7 +1025,7 @@
 	name = "Mario"
 	dynasty = 865 #Lasan
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = italian
 
 	trait = flamboyant_schemer
@@ -970,6 +1039,9 @@
 
 	1033.2.7 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 1118 #Lombardy
@@ -1034,7 +1106,7 @@
 	name = "Jonas"
 	dynasty = 868 #Harnesk
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = stressed
@@ -1050,6 +1122,9 @@
 	1033.2.7 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 102523 #Värmland
 	}
@@ -1063,7 +1138,7 @@
 	dynasty = 869 #Bermann
 	easter_egg = yes
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = poet
@@ -1073,6 +1148,9 @@
 
 	1033.2.7 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 100522 #Södermanland
@@ -1086,11 +1164,14 @@
 	name = "Hans"
 	dynasty = 0 # Father to get "Hansson" for 157220
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = danish
 
 	1010.2.7 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 168643 #Skåne
@@ -1104,7 +1185,7 @@
 	name = "Emil"
 	dynasty = 870 #Tisander
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	dna = "cfbhdebbbdp"
 	prp = "0d0e0k0000000000000000000000000"
@@ -1124,6 +1205,9 @@
 
 	1033.2.7 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 7060 #Meissen
@@ -1235,7 +1319,7 @@
 	name = "Daniel"
 	dynasty = 876 # Sjöberg
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	dna = "cjhcebcdaci"
 	properties = "ca0ejd0b000"
@@ -1258,6 +1342,9 @@
 	1033.2.7 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 100546 # Uppland
 	}
@@ -1270,7 +1357,7 @@
 	name = "Olga"
 	dynasty = 877 # Koter
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 	dna = "aemedoeecch"
 	properties = "cb0dgk00000"
@@ -1293,6 +1380,9 @@
 	1033.2.7 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 764 # Warsaw
 	}
@@ -1305,7 +1395,7 @@
 	name = "Anna"
 	dynasty = 878 # Jenelius
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = irish
 	dna = "ddjcfufdfcx"
 	properties = "ce0dak00000"
@@ -1321,6 +1411,9 @@
 	1033.2.7 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 6120 # Cill Dara
 	}
@@ -1333,7 +1426,7 @@
 	name = "Eira"
 	dynasty = 879 # von Eikenschild
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	female = yes
 
@@ -1351,6 +1444,9 @@
 	1033.2.7 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 101546 # Bornholm
 	}
@@ -1363,7 +1459,7 @@
 	name = "Carl"
 	dynasty = 880 # von Carenwall
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 
 	trait = tough_soldier
@@ -1375,6 +1471,9 @@
 
 	1033.2.7 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 201530 # Fyn
@@ -1446,7 +1545,7 @@
 	name = "Alexander"
 	dynasty = 873 # Oltner
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	secret_religion = norse_pagan
 	culture = swedish
 	dna = "chjbjjfegbg"
@@ -1468,6 +1567,9 @@
 	1041.9.15 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 100522
 	}
@@ -1480,7 +1582,7 @@
 	name = "Leonardo"
 	dynasty = 874 # Larzone
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = italian
 	properties = "ed0did0d000"
 
@@ -1509,6 +1611,9 @@
 
 	1033.3.3 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 7757 # Tuscany/Firenze
@@ -1553,7 +1658,7 @@
 	name = Anna
 	dynasty = 1053017 #Norrevik
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	dna = "bhjjhaibgbi"
 	properties = "aa0bec000000"
@@ -1570,6 +1675,9 @@
 	1041.8.20 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 20014
 	}
@@ -1583,7 +1691,7 @@
 	name = Markus
 	dynasty = 1053018 #Olsén
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = lappish
 	dna = "acigbwbbfcg"
 	properties = "ma0ehd00000000"
@@ -1597,6 +1705,9 @@
 
 	1034.9.17 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 102575
@@ -1641,7 +1752,7 @@
 	name = Mathilda
 	dynasty = 1053020 #Bjarnehed
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	dna = ahbeghjfeco
 	properties = ad0bfc00000000
@@ -1659,6 +1770,9 @@
 	1042.9.13 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 100522
 	}
@@ -1674,7 +1788,7 @@
 	dynasty = 1031000
 	easter_egg = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = irish
 	trait = genius
 	trait = midas_touched
@@ -1685,6 +1799,9 @@
 
 	1050.8.28 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 910 # Connacht
@@ -1700,7 +1817,7 @@
 	dynasty = 1031001
 	easter_egg = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	trait = midas_touched
 	trait = just
@@ -1709,6 +1826,9 @@
 
 	1040.2.14 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 20112 # Evreux
@@ -1748,7 +1868,7 @@
 	dynasty = 1031002
 	easter_egg = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	trait = tough_soldier
 	trait = strong
@@ -1763,6 +1883,9 @@
 	1039.9.23 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 1416 # Göttingen
 	}
@@ -1776,7 +1899,7 @@
 	dynasty = 1031003
 	easter_egg = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = scottish
 	trait = scholar
 	trait = poet
@@ -1785,6 +1908,9 @@
 
 	1035.2.12 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 130 # Surrey
@@ -1799,7 +1925,7 @@
 	dynasty = 1031004
 	easter_egg = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = midas_touched
 	trait = legit_bastard
@@ -1814,6 +1940,9 @@
 
 	1049.6.17 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 130 # Sussex
@@ -1830,7 +1959,7 @@
 	dynasty = 1031005
 	easter_egg = yes
 
-	religion = catholic
+	religion = chalcedonian
 	culture = castillan
 	trait = quick
 	trait = grey_eminence
@@ -1842,6 +1971,9 @@
 
 	1048.7.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 70265 # Asturias
@@ -1858,7 +1990,7 @@
 	easter_egg = yes
 	dna = "ceamkdmjfcq"
 	properties = "cn0cdk0b000"
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 
 	trait = wroth
@@ -1866,6 +1998,9 @@
 
 	1033.2.7 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 150 #Mortain
@@ -1918,7 +2053,7 @@
 	dna = "agdearbadat"
 	properties = "ci0edk000000"
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = italian
 
 	diplomacy = 2
@@ -1956,7 +2091,7 @@
 	easter_egg = yes
 	dna = "cegccycbabr"
 	properties = "aj0bfd000000"
-	religion = catholic
+	religion = chalcedonian
 	culture = pictish
 
 	diplomacy = 4
@@ -2106,7 +2241,7 @@
 	easter_egg = yes
 	dna = "cdibebiicbq"
 	properties = "cd0ebk000000"
-	religion = catholic
+	religion = chalcedonian
 	culture = old_frankish
 
 	diplomacy = 4
@@ -2169,7 +2304,7 @@
 	easter_egg = yes
 	dna = "cfajirabaar"
 	properties = "cm0ehk000000"
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 
 	850.3.17 = {
@@ -2189,7 +2324,7 @@
 	easter_egg = yes
 	dna = "cccahabbdcp"
 	properties = "cdpiei000000"
-	religion = catholic
+	religion = chalcedonian
 	culture = scottish
 
 	trait = intricate_webweaver
@@ -2205,6 +2340,9 @@
 
 	1045.2.18 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 131002 # Fife
@@ -2283,7 +2421,7 @@
 	name = "Arthur"
 	dynasty = 1053021 # Bialecki
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 	dna = "agjefugddef"
 	prp = "ad0bld000000000000"
@@ -2302,6 +2440,9 @@
 	1041.06.24 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		effect = {
 		set_variable = { which = physique_variable value = -15}
@@ -2317,7 +2458,7 @@
 	name = "Drikus"
 	dynasty = 1053022 # Kuiper
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = dutch
 	dna = "adaiapcicaa"
 
@@ -2336,6 +2477,9 @@
 	1041.06.24 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 106530 # Utrecht/Sticht
 	}
@@ -2348,7 +2492,7 @@
 	name = "Gwenael"
 	dynasty = 884 # Tranvouez
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = breton
 	dna = "dagbijcccba"
 
@@ -2366,6 +2510,9 @@
 	1024.01.01 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 10059 # Brittany - León
 	}
@@ -2378,7 +2525,7 @@
 	name = "Matthew"
 	dynasty = 885 # Frary
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	dna = "cccaiybggaa"
 	properties = "fm0ehd00000000000"
@@ -2394,6 +2541,9 @@
 	1041.01.01 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 5650 # Norfolk
 	}
@@ -2406,7 +2556,7 @@
 	name = "Jesper"
 	dynasty = 886 # Norberg
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	trait = naive_appeaser
@@ -2423,6 +2573,9 @@
 	1037.01.01 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 100544 # Gästrikland
 	}
@@ -2435,7 +2588,7 @@
 	name = "Matthew"
 	dynasty = 887 # Clohessy
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	dna = "bfffeoijecq"
 	prp = "0c0chk000000000000"
@@ -2453,6 +2606,9 @@
 	1048.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		employer = 122 # Hertford
 	}
@@ -2467,7 +2623,7 @@
 	name = "Bartosz"
 	dynasty = 888 # Maciejewski
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 	dna = "dddjfdgdgcr"
 	prp = "he0dcd000000000000"
@@ -2485,6 +2641,9 @@
 	1037.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		employer = 762
 	}
@@ -2497,7 +2656,7 @@
 	name = "Gabriel"
 	dynasty = 889 # Urban
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 	dna = "bahjencdbbz"
 	prp = "ci0ejd000000000000"
@@ -2514,6 +2673,9 @@
 	1026.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		employer = 762
 	}
@@ -2526,7 +2688,7 @@
 	name = "Jan"
 	dynasty = 890 # Starosz
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 	dna = "ckcfjckcabz"
 	prp = "hi0ibi000000000000"
@@ -2546,6 +2708,9 @@
 
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.5 = {
 		employer = 762
@@ -2588,7 +2753,7 @@
 	name = "Marcin"
 	dynasty = 892 # Jankowski
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 	dna = "bfgidtijcan"
 	prp = "ac0bhb000000000000"
@@ -2604,6 +2769,9 @@
 	1038.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		employer = 762
 	}
@@ -2616,7 +2784,7 @@
 	name = "Oskar"
 	dynasty = 893 # Nowak
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 	dna = "aedfhsaddhz"
 	prp = "ac0ahb000000000000"
@@ -2633,6 +2801,9 @@
 
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.5 = {
 		employer = 762
@@ -2674,7 +2845,7 @@
 	name = "Elinari"
 	dynasty = 895 # Ní Rhodan
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = irish
 	dna = "djhhfchccbh"
 	prp = "cc0cak00000000"
@@ -2691,6 +2862,9 @@
 	1033.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		employer = 922
 	}
@@ -2703,7 +2877,7 @@
 	name = "Bjarne"
 	dynasty = 896 # Hallberg
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	dna = "afcdfbcfccd"
 	prp = "ea0jcj000000000000"
@@ -2722,6 +2896,9 @@
 	1024.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		employer = 20007
 	}
@@ -2734,7 +2911,7 @@
 	name = "Daniel"
 	dynasty = 897 # Moore
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = norman
 	dna = "bhbgjmdbfcr"
 	prp = "fh0bdb000000000000"
@@ -2752,6 +2929,9 @@
 	1043.8.22 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		culture = saxon
 		employer = 5644
@@ -2765,7 +2945,7 @@
 	name = "Steacy"
 	dynasty = 898 # Mac Ilwham
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = scottish
 	dna = "dacdfodahby"
 	prp = "ejpe0k000000"
@@ -2786,6 +2966,9 @@
 	1041.9.15 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.5 = {
 		employer = 984
 	}
@@ -2798,7 +2981,7 @@
 	name = "Sebastian"
 	dynasty = 899 # Borg
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	dna = "cbfdhacabac"
 	prp = "aa0bhb000000000000"
@@ -2817,6 +3000,9 @@
 	1041.9.15 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 100522
 	}
@@ -2829,7 +3015,7 @@
 	name = "Joachim"
 	dynasty = 900 # Holmsen
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = english # Just graphical culture
 	dna = "cahcatgcbdi"
 	prp = "ae0b0d0000000000000000000000000000000"
@@ -2848,6 +3034,9 @@
 	1038.12.12 = {
 		birth = yes
 		culture = norwegian
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 20463
@@ -2922,7 +3111,7 @@
 	name = Linnï¿½a
 	dynasty = 1051899 #Thimrï¿½n
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	dna = dggcghhaaaz
 	properties = cj0dfd00000000000000000000000000000000
@@ -2940,6 +3129,9 @@
 	1042.9.13 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 20014
 	}
@@ -2952,7 +3144,7 @@
 	name = Deric
 	dynasty = 1053020 #Norï¿½
 	easter_egg = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	dna = deeeeleacgb
 	properties = em0d0k
@@ -2975,6 +3167,9 @@
 
 	1042.9.13 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 130
@@ -3028,7 +3223,7 @@
 	dna = "cfibgkeaaas"
 	prp = "am000k00000000000c"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = italian
 
 	trait = indulgent_wastrel
@@ -3044,6 +3239,9 @@
 
 	1040.5.19 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 7800 # Venice
@@ -3092,7 +3290,7 @@
 
 	dna = "cgbacpdchci"
 	prp = "0n0djk0000000000000000000000000000"
-	religion = catholic
+	religion = chalcedonian
 	culture = welsh
 
 	trait = gamer
@@ -3105,6 +3303,9 @@
 
 	1040.10.3 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 5644 # Keitele
@@ -3122,7 +3323,7 @@
 	dna = "bddbjuccccv"
 	prp = "ca0cjk0000000000000000000000000000"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 	trait = fortune_builder
 	trait = temperate
@@ -3137,6 +3338,9 @@
 
 	1041.9.15 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 20008 #Dal
@@ -3154,7 +3358,7 @@
 	dna = "cbijaehcecg"
 	prp = "cj0cfd0000000000000000000000000000000"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = italian
 	trait = scholarly_theologian
 	trait = lefthanded
@@ -3169,6 +3373,9 @@
 
 	1041.9.15 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 7757 #Matilda
@@ -3193,7 +3400,7 @@
 	diplomacy = 0
 	stewardship = 0
 
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = flamboyant_schemer
 	trait = weak
@@ -3208,6 +3415,9 @@
 
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 5644 # Glouchester
@@ -3231,7 +3441,7 @@
 	diplomacy = 10
 	stewardship = 0
 
-	religion = catholic
+	religion = chalcedonian
 	culture = saxon
 	trait = charismatic_negotiator
 	trait = slothful
@@ -3244,6 +3454,9 @@
 
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 5660 # Lincoln
@@ -3261,7 +3474,7 @@
 	dna = "agcfadafcct"
 	prp = "cg0cak0000000000000000000000000000000"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	diplomacy = 6
@@ -3281,6 +3494,9 @@
 	1039.12.21 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 168643 #Skåne
 	}
@@ -3298,7 +3514,7 @@
 	properties = "cb0ddd0000000000000000000000000000000"
 	female = yes
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = ilmenian
 
 	intrigue = 4
@@ -3323,6 +3539,9 @@
 	1036.10.27 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
 		employer = 626 # Kievan Rus
 	}
@@ -3339,7 +3558,7 @@
 	dna = "afaacuiabgc"
 	properties = "ae00dd0000000000000000000000000000000"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 
 	diplomacy = 5
@@ -3360,6 +3579,9 @@
 
 	1041.9.3 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 762
@@ -3417,7 +3639,7 @@
 	dna = "aajehjabfey"
 	properties = "ac00ld0000000000000000000000000000000"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = polish
 
 	diplomacy = 7
@@ -3438,6 +3660,9 @@
 	1037.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 756
 	}
@@ -3454,7 +3679,7 @@
 	dna = "djidbjjdgbg"
 	properties = "aj0bgd000000000000000b000000000000000"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = swedish
 
 	diplomacy = 10
@@ -3478,6 +3703,9 @@
 
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 100522
@@ -3533,7 +3761,7 @@
 	dna = "bbgbcljccba"
 	properties = "el0cgk"
 
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 
 	trait = indulgent_wastrel
@@ -3548,6 +3776,9 @@
 	1030.9.15 = {
 		birth = yes
 		culture = swedish
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1066.1.1 = {
 		employer = 102575
@@ -3565,8 +3796,8 @@
 	dna ="afcejagcbea"
 	properties = "ak0ajd00000000000000000000000000000000"
 
-	religion = "catholic"
-	culture = "portuguese"
+	religion = chalcedonian
+	culture = portuguese
 
 	trait = thrifty_clerk
 	trait = quick
@@ -3583,6 +3814,9 @@
 	1020.9.15 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1066.1.1 = {
 		employer = 3901
 	}
@@ -3590,4 +3824,3 @@
 		death = yes
 	}
 }
-

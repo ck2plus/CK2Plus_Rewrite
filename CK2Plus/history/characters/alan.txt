@@ -2,7 +2,7 @@
 	name = "Anastasia"
 	# AKA: Maria
 	female = yes
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	990.1.2 = {
 		birth = yes
@@ -20,7 +20,7 @@
 	intrigue = 5
 	stewardship = 4
 	learning = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = chaste
 	trait = arbitrary
@@ -28,6 +28,9 @@
 	father = 41592
 	992.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1068.1.1 = {
 		death = yes
@@ -61,12 +64,15 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = cynical
 	trait = tough_soldier
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1095.1.1 = {
 		death = yes
@@ -81,11 +87,14 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = underhanded_rogue
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1110.1.1 = {
 		death = yes
@@ -279,7 +288,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = tough_soldier
 	960.1.1 = {
@@ -298,12 +307,15 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = thrifty_clerk
 	father = 20662
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -317,12 +329,15 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = charismatic_negotiator
 	father = 20662
 	1034.1.1 = {
 	birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1100.1.1 = {
 	death = yes
@@ -422,7 +437,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = kind
 	trait = charitable
@@ -430,6 +445,9 @@
 	father = 41592
 	1025.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1082.1.1 = {
 		death = yes
@@ -444,13 +462,16 @@
 	diplomacy = 2
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = temperate
 	trait = flamboyant_schemer
 	father = 20662
 	1010.1.1 = {
 	birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1072.1.1 = {
 	death = yes
@@ -553,10 +574,13 @@
 	name = "Alatey"
 	#placeholder
 	dynasty = 100604
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 
 	1100.1.1 = {
@@ -799,7 +823,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = proud
 	trait = wroth
@@ -822,7 +846,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = lustful
 	trait = wroth
@@ -830,6 +854,9 @@
 	father = 9957
 	1042.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1066.1.1 = {
 		employer = 9959
@@ -842,7 +869,7 @@
 163118 = {
 	name = "Itaz"
 	dynasty = 1029056
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = sympathy_judaism
 	trait = sympathy_pagans
@@ -893,7 +920,7 @@
 
 	father = 163118
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = sympathy_judaism
 	trait = sympathy_pagans
@@ -932,7 +959,7 @@
 
 	father = 163118
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = sympathy_judaism
 	trait = sympathy_pagans
@@ -949,7 +976,7 @@
 	name = "Ælbeg"
 	dynasty = 1029058
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = leper
 	825.1.1 = {
@@ -966,7 +993,7 @@
 
 	father = 183226
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	845.1.1 = {
 		birth = yes
@@ -982,7 +1009,7 @@
 
 	father = 183226
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	849.1.1 = {
 		birth = yes
@@ -1001,7 +1028,7 @@
 
 	father = 183227
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	864.1.1 = {
 		birth = yes
@@ -1018,7 +1045,7 @@
 
 	father = 183227
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	865.1.1 = {
 		birth = yes
@@ -1129,7 +1156,7 @@
 
 	father = 183231
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = sympathy_judaism
 	trait = sympathy_zoroastrianism
@@ -1184,7 +1211,7 @@
 
 	father = 183238
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	845.1.1 = {
 		birth = yes
@@ -1200,7 +1227,7 @@
 
 	father = 183239
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	865.1.1 = {
 		birth = yes
@@ -1267,7 +1294,7 @@
 
 	father = 183245
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	839.1.1 = {
 		birth = yes
@@ -1283,7 +1310,7 @@
 
 	father = 183245
 
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	841.1.1 = {
 		birth = yes
@@ -1551,7 +1578,7 @@
 260992 = {
 	name = "Ber"
 	dynasty = 1029056
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	father = 183223
 	895.1.1 = {
@@ -1565,7 +1592,7 @@
 260993 = {
 	name = "Basil"
 	dynasty = 1029056
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	father = 183223
 	899.1.1 = {
@@ -1579,7 +1606,7 @@
 260994 = {
 	name = "Taymuraz"
 	dynasty = 1029056
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	father = 260992
 	915.1.1 = {
@@ -1594,7 +1621,7 @@
 	name = "Natia"
 	female = yes
 	dynasty = 1029056
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	father = 260992
 	918.1.1 = {

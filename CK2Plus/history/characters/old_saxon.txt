@@ -35,7 +35,7 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	780.1.1 = {
 		add_spouse = 1000126023 # Hasalda of Westphalia
@@ -44,7 +44,7 @@
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	813.1.1 = {
 		death = yes
@@ -54,7 +54,7 @@
 190458 = {
 	name = "Ekbert" # Ekbert II
 	dynasty = 669 # Liudolfing
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	father = 190457 # Bruno II of
 	mother = 1000126023 # Hasalda of Westphalia
@@ -65,7 +65,7 @@
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	801.1.1 = {
 		add_spouse = 190448 # Ida Bernhard-Karling
@@ -78,7 +78,7 @@
 190459 = {
 	name = "Warin"
 	dynasty = 669 # Liudolfing
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	father = 190458 # Ekbert
 	mother = 190448 # Ida
@@ -101,13 +101,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	805.1.1 = {
 		add_spouse = 190469
@@ -120,7 +120,7 @@
 190461 = {
 	name = "Bovo"
 	dynasty = 669 # Liudolfing
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	father = 190457 # Bruno II
 	mother = 1000126023 # Hasalda of Westphalia
@@ -161,13 +161,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	811.1.1 = {
 		death = yes
@@ -184,13 +184,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	814.1.1 = {
 		death = yes
@@ -207,13 +207,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	828.1.1 = {
 		death = yes
@@ -229,13 +229,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	791.1.1 = {
 		death = yes
@@ -252,13 +252,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	837.1.1 = {
 		death = yes
@@ -274,13 +274,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	797.1.1 = {
 		death = yes
@@ -291,7 +291,7 @@
 	name = "Richeit" # wife of Liudolf
 	female = yes
 	dynasty = 1044106 #Richfriding
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	father = 190468
 	788.1.1 = {
@@ -311,13 +311,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	811.1.1 = {
 		death = yes
@@ -333,13 +333,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	810.1.1 = {
 		death = yes
@@ -358,13 +358,13 @@
 		add_spouse = 190476
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	789.1.1 = {
 		death = yes
@@ -382,13 +382,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	823.1.1 = {
 		death = yes
@@ -404,13 +404,13 @@
 		birth = yes
 	}
 	775.1.1 = { # first Saxon ruler to convert
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	804.1.1 = {
 		death = yes
@@ -427,13 +427,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	846.1.1 = {
 		death = yes
@@ -451,13 +451,13 @@
 		birth = yes
 	}
 	777.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	782.1.1 = {
 		religion = norse_pagan
 	}
 	785.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	840.1.1 = {
 		death = yes

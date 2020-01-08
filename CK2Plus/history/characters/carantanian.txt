@@ -2,7 +2,7 @@
 	name = "Slavomir"
 	#placeholder
 	dynasty = 9603
-	religion = catholic
+	religion = chalcedonian
 	culture = carantanian
 	845.1.1 = {
 		birth = yes
@@ -17,7 +17,7 @@
 	name = "Draslav"
 	#placeholder
 	dynasty = 9604
-	religion = catholic
+	religion = chalcedonian
 	culture = carantanian
 	845.1.1 = {
 		birth = yes
@@ -32,7 +32,7 @@
 260062 = { 		# Placeholder Pettau 867
 	name = "Branimir"
 	dynasty = 1062030
-	religion = catholic
+	religion = chalcedonian
 	culture = carantanian
 	824.1.1 = {
 		birth = yes
@@ -46,7 +46,7 @@
 	name = "Valhun"
 	dynasty = 1062175
 	culture = carantanian
-	religion = catholic
+	religion = chalcedonian
 	father = 260387
 	738.1.1 = {
 		birth = yes
@@ -63,7 +63,7 @@
 	name = "Domitian"
 	dynasty = 1062175
 	culture = carantanian
-	religion = catholic
+	religion = chalcedonian
 	father = 260385
 	758.1.1 = {
 		birth = yes
@@ -77,7 +77,7 @@
 	name = "Gorazd"
 	dynasty = 1062175
 	culture = carantanian
-	religion = catholic
+	religion = chalcedonian
 	father = 260388
 	720.1.1 = {
 		birth = yes
@@ -91,7 +91,7 @@
 	name = "Boruth"
 	dynasty = 1062175
 	culture = carantanian
-	religion = catholic
+	religion = chalcedonian
 	700.1.1 = {
 		birth = yes
 	}
@@ -104,7 +104,7 @@
 	name = "Hotimir"
 	dynasty = 1062175
 	culture = carantanian
-	religion = catholic
+	religion = chalcedonian
 	father = 260388
 	728.1.1 = {
 		birth = yes
@@ -144,7 +144,7 @@
 	name = "Hraber"
 	dynasty = 1062178
 	culture = carantanian
-	religion = catholic
+	religion = chalcedonian
 	735.1.1 = {
 		birth = yes
 	}
@@ -157,7 +157,7 @@
 	name = "Dobrilo"
 	dynasty = 1062179
 	culture = carantanian
-	religion = catholic
+	religion = chalcedonian
 	838.1.1 = {
 		birth = yes
 	}
@@ -168,7 +168,7 @@
 
 260632 = {
 	name = "Premil"
-	religion = catholic
+	religion = chalcedonian
 	culture = carantanian
 	dynasty = 1062274
 	903.1.1 = {
@@ -181,7 +181,7 @@
 
 260633 = {
 	name = "Miroslav"
-	religion = catholic
+	religion = chalcedonian
 	culture = carantanian
 	dynasty = 1062275
 	913.1.1 = {

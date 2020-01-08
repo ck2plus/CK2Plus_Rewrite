@@ -28,7 +28,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = honest
 	trait = tough_soldier
@@ -51,7 +51,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = serbian
 	trait = scholarly_theologian
 	trait = patient
@@ -70,6 +70,9 @@
 	1046.1.1 = {
 		add_spouse = 4495
 	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
+	}
 	1082.1.1 = {
 		death = yes
 	}
@@ -82,7 +85,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = zealous
 	trait = honest
@@ -95,8 +98,11 @@
 	1053.1.1 = {
 		add_spouse = 4493
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
-	employer = 20491
+		employer = 20491
 	}
 	1089.1.1 = {
 		death = yes
@@ -111,7 +117,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = zealous
 	trait = ambitious
@@ -120,6 +126,9 @@
 	mother = 4491
 	1036.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1071.8.26 = {
 		name = "Petar" #Petar III of Bulgaria
@@ -139,7 +148,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 20495
 	960.1.1 = {
@@ -157,7 +166,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	935.1.1 = {
 		birth = yes
@@ -174,7 +183,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 20495
 	958.1.2 = {
@@ -192,13 +201,16 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 4
-	religion = catholic
+	religion = chalcedonian
 	culture = serbian
 	trait = wroth
 	trait = humble
 	trait = tough_soldier
 	1039.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1089.1.1 = {
 		death = yes
@@ -212,7 +224,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = just
 	trait = kind
@@ -220,6 +232,9 @@
 	trait = flamboyant_schemer
 	1033.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1072.1.1 = {
 		death = yes
@@ -233,7 +248,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = honest
 	trait = tough_soldier
@@ -241,6 +256,9 @@
 	mother = 4495
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1063.1.1 = {
 		add_spouse = 4492
@@ -298,7 +316,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = lisp
 	trait = wroth
@@ -307,6 +325,9 @@
 	mother = 4493
 	1054.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1101.1.1 = {
 		death = yes
@@ -343,12 +364,15 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = cynical
 	trait = tough_soldier
 	1150.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1200.1.1 = {
 		death = yes
@@ -363,7 +387,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 20496
 	978.1.1 = {
@@ -385,7 +409,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = amateurish_plotter
 	father = 40530
@@ -406,11 +430,14 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = intricate_webweaver
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1085.1.1 = {
 		death = yes
@@ -425,11 +452,14 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 8
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = amateurish_plotter
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1080.1.1 = {
 		death = yes
@@ -468,7 +498,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = slothful
 	trait = drunkard
@@ -478,6 +508,9 @@
 
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1082.1.1 = {
 		death = yes
@@ -491,7 +524,7 @@
 	diplomacy = 3
 	intrigue = 3
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = slow
 	trait = gardener
@@ -501,6 +534,9 @@
 
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1082.1.1 = {
 		death = yes
@@ -514,7 +550,7 @@
 	diplomacy = 4
 	intrigue = 3
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = scholar
 	trait = homosexual
@@ -523,6 +559,9 @@
 	mother = 4491
 	1033.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1082.1.1 = {
 		death = yes
@@ -536,7 +575,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = genius
 	trait = hunter
@@ -545,6 +584,9 @@
 	mother = 4491
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1082.1.1 = {
 		death = yes
@@ -558,7 +600,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 3
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = craven
 	trait = content
@@ -567,6 +609,9 @@
 	mother = 4491
 	1035.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1082.1.1 = {
 		death = yes
@@ -580,7 +625,7 @@
 	diplomacy = 3
 	intrigue = 5
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = gregarious
 	trait = chaste
@@ -589,6 +634,9 @@
 	mother = 4495
 	1047.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1114.1.1 = {
 		death = yes
@@ -646,7 +694,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = temperate
 	trait = brave
@@ -656,8 +704,11 @@
 	1018.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1066.1.1 = {
-	employer = 20491
+		employer = 20491
 	}
 	1070.1.1 = {
 		death = yes
@@ -671,7 +722,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 6
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = gregarious
 	trait = mystic
@@ -679,6 +730,9 @@
 	father = 20494
 	1018.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1066.1.1 = {
 		employer = 20491
@@ -2114,7 +2168,7 @@
 		birth = yes
 	}
 	870.1.1 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	891.1.1 = {
 		death = yes
@@ -2185,7 +2239,7 @@
 		birth = yes
 	}
 	870.1.1 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	880.1.1 = {
 		death = yes
@@ -2202,7 +2256,7 @@
 		birth = yes
 	}
 	870.1.1 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	880.1.1 = {
 		death = yes
@@ -2220,7 +2274,7 @@
 		birth = yes
 	}
 	870.1.1 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	875.1.1 = {
 		death = yes
@@ -2268,7 +2322,7 @@
 		birth = yes
 	}
 	870.1.1 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	892.1.1 = {
 		death = yes
@@ -2278,7 +2332,7 @@
 167868 = {
 	name = "Cucimir"
 	dynasty = 9560
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 167867
 	860.1.1 = {
@@ -2300,7 +2354,7 @@
 		birth = yes
 	}
 	870.1.1 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	900.1.1 = {
 		death = yes
@@ -2310,7 +2364,7 @@
 167870 = {
 	name = "Zaharije"
 	dynasty = 100502
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 167869
 	870.1.1 = {
@@ -2331,7 +2385,7 @@
 		birth = yes
 	}
 	870.1.1 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	905.1.1 = {
 		death = yes
@@ -2348,7 +2402,7 @@
 		birth = yes
 	}
 	870.1.1 = {
-		religion = orthodox
+		religion = chalcedonian
 	}
 	905.1.1 = {
 		death = yes
@@ -2358,7 +2412,7 @@
 167873 = {
 	name = "Pavel"
 	dynasty = 100502
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 167871
 	875.1.1 = {
@@ -2371,7 +2425,7 @@
 167874 = {
 	name = "Klonimir"
 	dynasty = 100502
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 167862
 	855.1.1 = {
@@ -2384,7 +2438,7 @@
 167875 = {
 	name = "Caslav"
 	dynasty = 100502
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 167874
 	martial = 6
@@ -2405,7 +2459,7 @@
 167876 = {
 	name = "Petar"
 	dynasty = 100502
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 167863
 	860.1.1 = {
@@ -2477,7 +2531,7 @@
 145119 = {
 	name = "Veselin" # D.Dioclea
 	dynasty = 15009
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 
 	844.1.1 = {
@@ -2491,7 +2545,7 @@
 145180 = {
 	name = "Borivoje" # D.Epirus/C.Epeiros
 	dynasty = 15010
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	840.1.1 = {
 		birth = yes
@@ -2504,7 +2558,7 @@
 145186 = {
 	name = "Predrag" # C.Thessalia
 	dynasty = 15011
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	846.1.1 = {
 		birth = yes
@@ -2517,7 +2571,7 @@
 260645 = {
 	name = "Nikola"
 	dynasty = 1062285
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	889.1.1 = {
 		birth = yes
@@ -2530,7 +2584,7 @@
 260646 = {
 	name = "Vladimir"
 	dynasty = 1062286
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	903.1.1 = {
 		birth = yes
@@ -2543,7 +2597,7 @@
 250693 = {
 	name = "Hvalimir"
 	dynasty = 9560
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	850.1.1 = {
 		birth = yes
@@ -2556,7 +2610,7 @@
 260648 = {
 	name = "Cucimir"
 	dynasty = 9560
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 250693
 	910.1.1 = {
@@ -2570,7 +2624,7 @@
 261331 = {
 	name = "Dragomir"
 	dynasty = 9560
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 260648
 	950.1.1 = {
@@ -2584,7 +2638,7 @@
 260649 = {
 	name = "Djordje"
 	dynasty = 1062289
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	905.1.1 = {
 		birth = yes
@@ -2597,7 +2651,7 @@
 262700 = {
 	name = "Michael"
 	dynasty = 1063118
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	trait = intricate_webweaver
 	trait = zealous
@@ -2613,7 +2667,7 @@
 	name = "Zdenka"
 	female = yes
 	dynasty = 100502
-	religion = orthodox
+	religion = chalcedonian
 	culture = serbian
 	father = 167875
 	934.1.1 = {

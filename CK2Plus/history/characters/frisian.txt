@@ -47,7 +47,7 @@
 131727 = {
 	name = "Aldgisl" # King of the Frisians
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	630.1.1 = {
 		birth = yes
@@ -60,7 +60,7 @@
 131728 = {
 	name = "Aldgisl" # the second, King of the Frisians
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 131725
 	680.1.1 = {
@@ -74,7 +74,7 @@
 131729 = {
 	name = "Gundebold" # King of the Frisians
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 131728
 	718.1.1 = {
@@ -88,7 +88,7 @@
 131730 = {
 	name = "Redbad" # King of the Frisians
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 131728
 	720.1.1 = {
@@ -102,7 +102,7 @@
 167702 = {
 	name = "Dirk"
 	dynasty = 432
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 168619
 	780.1.1 = {
@@ -116,7 +116,7 @@
 168232 = {
 	name = "Liederik"
 	dynasty = 724
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	740.1.1 = {
 		birth = yes
@@ -130,7 +130,7 @@
 168233 = {
 	name = "Ingelram"
 	dynasty = 724
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 168232
 	770.1.1 = {
@@ -145,7 +145,7 @@
 168220 = {
 	name = "Alfbad"
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 131726
 	725.1.1 = {
@@ -159,7 +159,7 @@
 168619 = {
 	name = "Nordalah"
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 168220
 	760.1.1 = {
@@ -173,7 +173,7 @@
 168620 = {
 	name = "Aldgisl"
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 131730
 	742.1.1 = {
@@ -187,7 +187,7 @@
 168621 = {
 	name = "Redbad"
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 168620
 	765.1.1 = {
@@ -202,7 +202,7 @@
 	name = "Odrade"
 	female = yes
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 168620 # Aldgisl
 	775.1.1 = {
@@ -216,7 +216,7 @@
 168618 = {
 	name = "Alfbad" #real name unknown
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 131727
 	657.1.1 = {
@@ -230,7 +230,7 @@
 168626 = {
 	name = "Redbad"
 	dynasty = 246 # Folcwalding
-	religion = catholic
+	religion = chalcedonian
 	culture = frisian
 	father = 168625
 	mother = 168623

@@ -25,11 +25,14 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = pommeranian
 	trait = amateurish_plotter
 	993.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1055.1.2 = {
 		death = yes
@@ -138,7 +141,7 @@
 		birth = yes
 	}
 	1124.1.1 = {
-	religion = catholic
+		religion = catholic
 	}
 
 	1129.1.1 = {
@@ -662,7 +665,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = catholic
+	religion = chalcedonian
 	culture = pommeranian
 	trait = chaste
 	trait = diligent
@@ -2149,7 +2152,7 @@
 		birth = yes
 	}
 	906.1.1 = {
-		religion = catholic #marries Vratislav I of Bohemia
+		religion = chalcedonian #marries Vratislav I of Bohemia
 	}
 	935.1.2 = {
 		death = yes
@@ -2163,7 +2166,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = pommeranian
 	trait = wroth
 	trait = proud
@@ -2171,6 +2174,9 @@
 	father = 8410
 	1039.1.15 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1073.1.1 = {
 		death = yes
@@ -2210,7 +2216,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = catholic
+	religion = chalcedonian
 	culture = pommeranian
 	trait = zealous
 	trait = charitable
@@ -2219,6 +2225,9 @@
 	father = 8411
 	1005.1.15 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1060.1.1 = {
 		add_spouse = 101527
@@ -2243,7 +2252,7 @@
 		birth = yes
 	}
 	1000.1.1 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	1028.1.1 = {
 		death = yes
@@ -2359,7 +2368,7 @@
 		birth = yes
 	}
 	965.1.2 = {
-		religion = catholic
+		religion = chalcedonian
 	}
 	970.1.1 = {
 		death = yes
@@ -2379,7 +2388,7 @@
 		add_spouse = 261216 # Branislava
 	}
 	955.10.16 = {
-		religion = catholic # Battle on the Raxa
+		religion = chalcedonian # Battle on the Raxa
 	}
 	966.1.1 = {
 		death = yes
@@ -2610,7 +2619,7 @@
 168556 = {
 	name = "Liudolf"
 	dynasty = 1042805
-	religion = catholic
+	religion = chalcedonian
 	culture = pommeranian
 	father = 168554
 	952.1.1 = {

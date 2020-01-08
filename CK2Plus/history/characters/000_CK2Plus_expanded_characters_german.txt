@@ -11,7 +11,7 @@
 1000066000 = {
 	name = "Ekbert" # Ekbert I
 	dynasty = 9550 # Ekbertiner
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	730.1.1 = {
 		birth = yes
@@ -28,7 +28,7 @@
 	name = "Ida"
 	female = yes
 #	dynasty =
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	730.1.1 = {
 		birth = yes
@@ -44,7 +44,7 @@
 1000066002 = {
 	name = "Thankmar" # Abbot of Corvey from 877 to 878
 	dynasty = 669 # Liudolfinger
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	father = 7959 # Liudolf 'the Great'
 	mother = 167765 # Oda Billung
@@ -60,7 +60,7 @@
 	name = "Hathumoda" # first Abbess of Brunshausen from 852
 	female = yes
 	dynasty = 669 # Liudolfinger
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	father = 7959 # Liudolf 'the Great'
 	mother = 167765 # Oda Billung
@@ -75,7 +75,7 @@
 1000066004 = {
 	name = "Gerberga" # Abbess of Brunshausen from 874
 	dynasty = 669 # Liudolfinger
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	father = 7959 # Liudolf 'the Great'
 	mother = 167765 # Oda Billung
@@ -90,7 +90,7 @@
 1000066005 = {
 	name = "Christina" # Abbess of Gandersheim from 896/97
 	dynasty = 669 # Liudolfinger
-	religion = catholic
+	religion = chalcedonian
 	culture = german
 	father = 7959 # Liudolf 'the Great'
 	mother = 167765 # Oda Billung
