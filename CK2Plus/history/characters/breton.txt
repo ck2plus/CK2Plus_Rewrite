@@ -919,7 +919,7 @@
 91167 = {
 	name = "Mazhe" #Mathias de Nantes
 	dynasty = 20016 #House of Rennes
-	religion = catholic
+	religion = chalcedonian
 	culture = breton
 	father = 10057 #Budic
 	1008.1.1 = {
@@ -4961,7 +4961,7 @@
 160077 = {
 	name = "Ridoredh" #
 	dynasty = 20106 #Naoned
-	religion = catholic
+	religion = chalcedonian
 	culture = breton
 	father = 159965
 	mother = 252342

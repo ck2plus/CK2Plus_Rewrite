@@ -802,7 +802,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = orthodox
+	religion = chalcedonian
 	culture = alan
 	trait = honest
 	trait = wroth
@@ -810,6 +810,9 @@
 	father = 9957
 	1044.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1102.1.1 = {
 		death = yes

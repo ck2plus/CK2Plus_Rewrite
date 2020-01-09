@@ -888,11 +888,14 @@
 144632 = {
 	name = "Teitur"
 	dynasty = 101891
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 20579
 	1041.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1111.1.1 = {
 		death = yes
@@ -2331,12 +2334,15 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = diligent
 	trait = flamboyant_schemer
 	1006.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.6.5 = {
 		death = yes
@@ -2350,7 +2356,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	trait = greedy
 	trait = arbitrary
@@ -2359,6 +2365,9 @@
 	trait = martial_cleric
 	1038.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1088.1.1 = {
 		death = yes
@@ -4916,11 +4925,14 @@
 	name = "Thora"
 	female = yes
 	dynasty = 1043303
-	religion = catholic
+	religion = chalcedonian
 	culture = norwegian
 	father = 161326
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes

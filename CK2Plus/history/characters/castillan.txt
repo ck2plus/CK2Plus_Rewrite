@@ -17792,10 +17792,13 @@
 73049 = {
 	name = "Jimena"
 	female = yes
-	religion = catholic
+	religion = chalcedonian
 	culture = castillan
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1095.7.16 = {
 		death = yes
@@ -18656,11 +18659,14 @@
 	name = "Munio"
 	dynasty = 7010
 
-	religion = catholic
+	religion = chalcedonian
 	culture = castillan
 
 	1045.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1098.1.20 = {
 		death = yes

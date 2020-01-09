@@ -227,11 +227,11 @@
 	1030.1.1 = {
 		birth = yes
 	}
-	1054.7.16 = { # Great Schism
-		religion = catholic
-	}
 	1045.1.1 = {
 		add_spouse = 235137 #Nivata de Orrubu
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1100.1.1 = {
 		death = yes

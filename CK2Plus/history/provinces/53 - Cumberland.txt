@@ -35,7 +35,7 @@ religion = chalcedonian
 }
 1000.1.1 = {
 	culture = saxon
-	religion = catholic
+	religion = chalcedonian
 }
 1054.7.16 = { # Great Schism
 	religion = catholic

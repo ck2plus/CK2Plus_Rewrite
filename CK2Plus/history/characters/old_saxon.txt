@@ -100,15 +100,6 @@
 	789.1.1 = {
 		birth = yes
 	}
-	777.1.1 = {
-		religion = chalcedonian
-	}
-	782.1.1 = {
-		religion = norse_pagan
-	}
-	785.1.1 = {
-		religion = chalcedonian
-	}
 	805.1.1 = {
 		add_spouse = 190469
 	}

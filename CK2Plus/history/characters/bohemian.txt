@@ -880,7 +880,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 8
-	religion = catholic
+	religion = slavic_pagan
 	culture = bohemian
 	trait = patient
 	trait = deceitful
@@ -892,7 +892,6 @@
 	}
 	883.1.1 = {
 		religion = chalcedonian
-
 	}
 	915.1.1 = {
 		death = yes
@@ -2626,7 +2625,7 @@
 96070 = {
 	name = "Radim-Gaudentius"
 	dynasty = 9588
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	trait = bastard
 	trait = scholarly_theologian
@@ -3423,11 +3422,14 @@
 273033 = {
 	name = "Nemoj" #in 1107 gave large territories to Vyšehrad kapitula
 	dynasty = 10107
-	religion = catholic
+	religion = chalcedonian
 	culture = bohemian
 	father = 273031
 	1034.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1107.11.11 = {
 		death = yes

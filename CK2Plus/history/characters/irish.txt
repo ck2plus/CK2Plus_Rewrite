@@ -6205,7 +6205,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = irish
 	father = 7253
 	mother = 166126
@@ -10538,7 +10538,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = irish
 	father = 900 #Brian Bóruma
 	mother = 166124 #Dub Chobhlaigh
@@ -10557,7 +10557,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = catholic
+	religion = chalcedonian
 	culture = irish
 	father = 83352 #Domnall Bán son of Brian Bóruma
 	1023.1.1 = {
@@ -14437,7 +14437,7 @@
 	name = "Lígach" #Lígach ingen Flann Sinna
 	female = yes
 	dynasty = 199
-	religion = catholic
+	religion = chalcedonian
 	culture = irish
 	father = 131502
 	mother = 165002 #Máel Muire ingen Cináeda mac Ailpín

@@ -2427,7 +2427,7 @@
 	name = "Netimeras"
 	father = 82278
 	dynasty = 9126
-	religion = catholic #converted in 1009
+	religion = chalcedonian #converted in 1009
 	culture = lithuanian
 	950.1.1 = {
 		birth = yes

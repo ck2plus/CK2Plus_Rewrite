@@ -21015,7 +21015,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = catholic
+	religion = chalcedonian
 	culture = umbrian
 	trait = diligent
 	trait = deceitful
@@ -21024,6 +21024,9 @@
 	father = 7935
 	1020.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1058.3.29 = {
 		name = "Benedictus"
@@ -23955,10 +23958,13 @@
 73376 = {
 	name = "Sigifredo"
 	dynasty = 13009
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1032.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1084.1.1 = {
 		death = yes
@@ -43243,9 +43249,12 @@
 	dynasty = 8682
 	father = 214106
 	culture = umbrian
-	religion = catholic
+	religion = chalcedonian
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1093.1.1 = {
 		death = yes
@@ -43256,9 +43265,12 @@
 	name = "Atenolfo" # II
 	dynasty = 8682
 	culture = umbrian
-	religion = catholic
+	religion = chalcedonian
 	1000.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1062.2.2 = {
 		death = yes
@@ -44902,10 +44914,13 @@
 	name = "Achille"
 	dynasty = 1062032
 	female = no
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1031.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.1.1 = {
 		death = yes
@@ -45019,10 +45034,13 @@
 
 259008 = {
 	name = "Bernardo"
-	religion = catholic
+	religion = chalcedonian
 	culture = tuscan
 	1041.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1106.1.1 = {
 		death = yes

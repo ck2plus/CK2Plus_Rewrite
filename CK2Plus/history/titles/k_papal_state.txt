@@ -3,15 +3,13 @@
 	active = no
 }
 
-1054.4.19 = {
-	effect = {
-		insert_title_history = k_pentarch_rome
-	}
-}
-
 1054.7.16 = { # Great Schism
 	active = yes
 	set_global_flag = great_schism_happened
+	holder = 7894
+	effect = {
+		copy_title_history = k_pentarch_rome
+	}
 }
 
 1057.8.3 = {

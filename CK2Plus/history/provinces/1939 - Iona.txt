@@ -29,7 +29,7 @@ terrain = hills
 	b_iona = tp_shipyard_1
 }
 1000.1.1 = {
-	religion = catholic
+	religion = chalcedonian
 
 	b_finlaggan = ca_keep_1
 	b_finlaggan = ca_militia_barracks_1

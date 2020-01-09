@@ -2853,7 +2853,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 7
-	religion = orthodox
+	religion = chalcedonian
 	culture = greek
 	trait = underhanded_rogue
 	father = 70401
@@ -17920,6 +17920,9 @@
 	1048.1.1 = {
 		add_spouse = 168390
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1075.1.1 = {
 		death = yes
 	}
@@ -17934,6 +17937,9 @@
 	mother = 168390
 	1050.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1080.1.1 = {
 		death = yes
@@ -18036,6 +18042,9 @@
 	1025.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1075.1.1 = {
 		death = yes
 	}
@@ -18050,6 +18059,9 @@
 	mother = 168390
 	1052.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1090.1.1 = {
 		death = yes
@@ -18067,6 +18079,9 @@
 	1049.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1089.1.1 = {
 		death = yes
 	}
@@ -18081,6 +18096,9 @@
 	1028.1.1 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1080.1.1 = {
 		death = yes
 	}
@@ -18094,6 +18112,9 @@
 	father = 168393
 	1048.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1075.1.1 = {
 		death = yes
@@ -20680,6 +20701,9 @@
 	culture = greek
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1105.1.1 = {
 		death = yes

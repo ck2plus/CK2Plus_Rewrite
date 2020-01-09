@@ -867,6 +867,9 @@
 	1028.1.2 = {
 		birth = yes
 	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
+	}
 	1069.1.2 = {
 		death = yes
 	}
@@ -10977,12 +10980,15 @@
 	name = "Viacheslav"
 	# AKA: Vyacheslav
 	dynasty = 705
-	religion = orthodox
+	religion = chalcedonian
 	culture = ruthenian
 	father = 612
 	mother = 100511
 	1036.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = orthodox
 	}
 	1057.1.2 = {
 		death = yes

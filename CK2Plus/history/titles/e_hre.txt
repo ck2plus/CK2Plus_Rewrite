@@ -1,6 +1,7 @@
 # Proper HRE
 936.7.1 = {
 	active = no
+	pentarch = b_roma
 	effect = {
 		insert_title_history = k_germany #k_germany instead of e_karling for Regnal Numbering
 	}

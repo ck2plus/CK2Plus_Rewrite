@@ -5763,11 +5763,11 @@
 	1035.1.1 = {
 		birth = yes
 	}
-	1084.1.2 = {
-		add_spouse = 82058
-	}
 	1054.7.16 = { # Great Schism
 		religion = catholic
+	}
+	1084.1.2 = {
+		add_spouse = 82058
 	}
 	1094.1.1 = {
 		death = yes

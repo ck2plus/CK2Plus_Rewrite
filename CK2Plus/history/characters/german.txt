@@ -55,9 +55,6 @@
 	960.1.2 = {
 		birth = yes
 	}
-	1054.7.16 = { # Great Schism
-		religion = catholic
-	}
 	1003.1.2 = {
 		death = yes
 	}
@@ -320,7 +317,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = chalcedonian
+	religion = catholic
 	culture = bavarian
 	trait = thrifty_clerk
 	father = 7200
@@ -3555,16 +3552,13 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = chalcedonian
+	religion = catholic
 	culture = swabian
 	trait = tough_soldier
 	father = 1388
 	mother = 1181
 	1061.1.1 = {
 		birth = yes
-	}
-	1054.7.16 = { # Great Schism
-		religion = catholic
 	}
 	1080.10.15 = {
 		add_claim = d_swabia
@@ -4117,11 +4111,14 @@
 144198 = {
 	name = "Gebhard"
 	dynasty = 12402
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	father = 144200
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1126.2.18 = {
 		death = yes
@@ -4323,9 +4320,6 @@
 	father = 144213
 	1030.1.1 = {
 		birth = yes
-	}
-	1054.7.16 = { # Great Schism
-		religion = catholic
 	}
 	1052.1.1 = {
 		death = yes
@@ -14221,11 +14215,14 @@
 30314 = {
 	name = "Erpho"
 	dynasty = 100088
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	trait = martial_cleric
 	1041.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1097.11.9 = {
 		death = yes
@@ -14235,11 +14232,14 @@
 30315 = {
 	name = "Burchard"
 	dynasty = 7113
-	religion = catholic
+	religion = chalcedonian
 	culture = old_saxon
 	trait = scholarly_theologian
 	1041.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1118.3.19 = {
 		death = yes
@@ -30351,12 +30351,15 @@
 7585 = {
 	name = "Dietrich"
 	dynasty = 420
-	religion = catholic
+	religion = chalcedonian
 	culture = franconian
 	father = 1256
 	mother = 7667
 	1027.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1057.1.1 = {
 		death = yes
@@ -33557,11 +33560,14 @@
 31528 = {
 	name = "Kuno"
 	dynasty = 247
-	religion = catholic
+	religion = chalcedonian
 	culture = bavarian
 	father = 11061
 	1031.1.2 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1080.1.2 = {
 		death = yes
@@ -34431,11 +34437,14 @@
 32762 = {
 	name = "Rudolf" #count of Neuchatel 1070-1099
 	dynasty = 87
-	religion = catholic
+	religion = chalcedonian
 	culture = swiss
 	father = 32761
 	1030.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1099.1.1 = {
 		death = yes
@@ -36045,11 +36054,14 @@
 33134 = {
 	name = "Siegfried"
 	dynasty = 12439
-	religion = catholic
+	religion = chalcedonian
 	culture = bavarian
 	father = 30237
 	1040.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1070.1.1 = {
 		death = yes
@@ -38275,9 +38287,6 @@
 	father = 30210
 	1006.1.1 = {
 		birth = yes
-	}
-	1054.7.16 = { # Great Schism
-		religion = catholic
 	}
 	1040.1.1 = {
 		death = yes
@@ -49998,11 +50007,14 @@
 	name = "Gottfried" #von Bliescastel
 	dynasty = 100128 #von Metz
 	culture = franconian
-	religion = catholic
+	religion = chalcedonian
 	father = 20249 #Folmar von Metz
 	mother = 4249 #Spanhilda
 	1046.1.1 = {
 		birth = yes
+	}
+	1054.7.16 = { # Great Schism
+		religion = catholic
 	}
 	1077.1.1 = {
 		add_spouse = 161981 #Mechthild von Luxemburg
@@ -56551,7 +56563,7 @@
 
 260419 = {
 	name = "Reinward"
-	religion = chalcedonian
+	religion = catholic
 	culture = franconian
 	1056.1.1 = {
 		birth = yes
@@ -56578,7 +56590,7 @@
 
 260421 = {
 	name = "Ulrich"
-	religion = chalcedonian
+	religion = catholic
 	culture = franconian
 	1061.1.1 = {
 		birth = yes

@@ -3355,7 +3355,7 @@
 31060 = {
 	name = "Gerulf"
 	dynasty = 432
-	religion = catholic
+	religion = chalcedonian
 	culture = dutch
 	father = 167701
 	835.1.1 = {
@@ -4572,7 +4572,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = chalcedonian
+	religion = catholic
 	culture = dutch
 	trait = honest
 	trait = gluttonous
@@ -4581,9 +4581,6 @@
 	mother = 106640
 	1055.1.1 = {
 		birth = yes
-	}
-	1054.7.16 = { # Great Schism
-		religion = catholic
 	}
 	1071.2.22 = {
 		death = yes

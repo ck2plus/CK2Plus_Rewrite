@@ -5786,7 +5786,7 @@
 159352 = {
 	name = "Bledrig"
 	dynasty = 1029030 # Dyfed
-	religion = catholic
+	religion = chalcedonian
 	culture = welsh
 	father = 159697
 	790.1.1 = {
@@ -6090,7 +6090,7 @@
 159373 = {
 	name = "Einion"
 	dynasty = 200068
-	religion = catholic
+	religion = chalcedonian
 	culture = welsh
 	father = 159372
 	1000.1.1 = {

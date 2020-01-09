@@ -611,15 +611,15 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			year = 1000
+			year >= 1000
 		}
 		modifier = {
 			factor = 0.5
-			year = 1050
+			year >= 1050
 		}
 		modifier = {
 			factor = 0.5
-			year = 1100
+			year >= 1100
 		}
 		modifier = {
 			factor = 0.5
@@ -1175,12 +1175,12 @@ character_event = {
 		set_parent_religion = { religion = iconoclast parent = event_target:eastern_religion }
 		set_parent_religion = { religion = monothelite parent = event_target:eastern_religion }
 
-		if = {
-			limit = {
-				NOT = { is_title_active = d_bogomilist }
-			}
-			set_parent_religion = { religion = bogomilist parent = event_target:eastern_religion }
-		}
+#		if = {
+#			limit = {
+#				NOT = { is_title_active = d_bogomilist }
+#			}
+#			set_parent_religion = { religion = bogomilist parent = event_target:eastern_religion }
+#		}
 		set_parent_religion = { religion = chalcedonian parent = 0 }
 
 		# Inform players
@@ -1264,6 +1264,36 @@ character_event = { # Temporary conversion event pre-Schism, called on_chronicle
 					}
 				}
 				religion = chalcedonian
+			}
+		}
+	}
+}
+
+character_event = { # Convert mercenary captains and courtiers
+	id = PlusGreatSchism.801
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_global_flag = great_schism_happened }
+	}
+
+	immediate = {
+		any_mercenary_band = {
+			limit = {
+				holder_scope = {
+					OR = {
+						religion = catholic
+						religion = orthodox
+					}
+				}
+			}
+			holder_scope = {
+				unsafe_religion = chalcedonian
+				any_courtier = {
+					unsafe_religion = chalcedonian
+				}
 			}
 		}
 	}

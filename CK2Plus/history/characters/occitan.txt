@@ -7068,7 +7068,7 @@
 138189 = {
 	name = "Odon" #Odon I de Comminges
 	dynasty = 386
-	religion = catholic
+	religion = chalcedonian
 	culture = occitan
 	father = 138192 #Arnaud II de Comminges
 	981.1.1 = {

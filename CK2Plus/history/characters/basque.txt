@@ -1391,7 +1391,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 7
-	religion = chalcedonian
+	religion = catholic
 	culture = basque
 	trait = greedy
 	trait = proud
@@ -1412,7 +1412,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = chalcedonian
+	religion = catholic
 	culture = basque
 	trait = patient
 	trait = indulgent_wastrel
