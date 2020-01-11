@@ -1,0 +1,14 @@
+##############################################
+#
+#	CK2Plus Great Schism religion modifiers
+#
+#	Total = 2
+#
+#	greek_latin_relations
+#
+##############################################
+
+greek_latin_conflict = {
+	authority = -1
+	years = 5
+}

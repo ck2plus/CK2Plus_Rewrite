@@ -1,8 +1,20 @@
-#Societies
-#####
+########################
+#
+#	CK2Plus societies
+#
+#	Warrior lodges
+#	Secret societies
+#	Devil worshippers
+#
+########################
 
-# WARRIOR LODGES:
-# Celtic:
+#####################
+#
+#	Warrior lodges
+#
+#####################
+
+# Celtic
 warrior_lodge_celtic;[GetCelticWarriorSocietyName];[GetCelticWarriorSocietyName];[GetCelticWarriorSocietyName];;[GetCelticWarriorSocietyName];;;;;;;;x
 warrior_lodge_celtic_real;The Fianna;Les Fianna;Die Fianna;;Los Fianna;;;;;;;;;x
 warrior_lodge_celtic_random;The Wood Wanderers;Les Vagabonds en bois;Waldwanderer;;Los Vagabundos de madera;;;;;;;;x
@@ -40,7 +52,7 @@ string_WL_celtic_religion;§Y[celtic_pagan_reformed.GetName]§! religion;;;;;;;;;;
 
 has_liege_vassal_or_neighbor_of_celtic_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YCeltic§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yvoisin§! qui suit la religion §Yceltique§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §YKeltischen§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §Ycéltico§! \n;;;;;;;;;x
 
-# Basque:
+# Basque
 warrior_lodge_basque;[GetBasqueWarriorSocietyName];[GetBasqueWarriorSocietyName];[GetBasqueWarriorSocietyName];;[GetBasqueWarriorSocietyName];;;;;;;;x
 warrior_lodge_basque_real;Protectors of Mari;Protecteurs de Mari;Beschützer von Mari;;Protectores de Mari;;;;;;;;;;;;;x
 warrior_lodge_basque_random;Dolmen Defenders;Les Défenseurs de Dolmen;Verteidiger von Dolmen;;Los Defensores del dolmen;;;;;;;;x
@@ -78,7 +90,12 @@ string_WL_basque_religion;§Y[basque_pagan_reformed.GetName]§! religion;;;;;;;;;;
 
 has_liege_vassal_or_neighbor_of_basque_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YVasconic§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yvoisin§! qui suit la religion §YVasconique§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §YVasconisch§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §YVasconico§! \n;;;;;;;;;x
 
-# SECRET SOCIETIES:
+########################
+#
+#	Secret societies
+#
+########################
+
 # Celtic
 secret_celtic_pagan_community;[celtic_pagan.GetName] Community;Communauté [celtic_pagan.GetName];[celtic_pagan.GetName]e Gemeinschaft;;Comunidad [celtic_pagan.GetName];;;;;;;;x
 secret_celtic_pagan_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;Des fidèles ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;Die Gläubigen haben sich im Geheimen um eine kleine Kabale herum in dieser Provinz organisiert. Von dort aus konvertieren sie andere, wachsen und schützen ihre eigenen.;;Los fieles han organizado una pequeña comunidad religiosa en esta provincia. Allí convierten a otros, crecen y se protegen entre ellos.;;;;;;;;x
@@ -103,7 +120,18 @@ secret_religious_society_basque_pagan_reformed_desc_REAL;ENG;FRE;GER;;ESP;;;;;;;
 alt_start_community_name_basque_pagan;The [basque_pagan.GetName] Faithful;Fidèles [basque_pagan.GetName]s;Die [basque_pagan.GetName]en Gläubigen;;Creyentes [basque_pagan.GetName]s;;;;;;;;;x
 alt_start_community_name_basque_pagan_reformed;The [basque_pagan_reformed.GetName] Faithful;Fidèles [basque_pagan_reformed.GetName]s;Die [basque_pagan_reformed.GetName]en Gläubigen;;Creyentes [basque_pagan_reformed.GetName]s;;;;;;;;;x
 
-# DEVIL WORSHIPPERS
+# Chalcedonian
+secret_chalcedonian_community;[chalcedonian.GetName] Community;Communauté [chalcedonian.GetName];[chalcedonian.GetName]e Gemeinschaft;;Comunidad [chalcedonian.GetName];;;;;;;;x
+secret_chalcedonian_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;Des fidèles ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;Die Gläubigen haben sich im Geheimen um eine kleine Kabale herum in dieser Provinz organisiert. Von dort aus konvertieren sie andere, wachsen und schützen ihre eigenen.;;Los fieles han organizado una pequeña comunidad religiosa en esta provincia. Allí convierten a otros, crecen y se protegen entre ellos.;;;;;;;;x
+secret_religious_society_REAL_chalcedonian;The Chalcedonian Faithful;Fidèles chalcédoniens;die Chalcedoner;;los fieles calcedonios;;;;;;;;;x
+secret_religious_society_chalcedonian_desc_REAL;Ever since its humble roots, Christians have marked themselves by their refusal to abandon their faith in the face of persecution. So it is that a rich tradition of martyrs and underground parishes can give hope to groups of believers in even the darkest of times, no matter what they are outwardly forced to profess. To each other they can profess their true faith in God, and their God is love.;Dès leurs humbles origines, les chrétiens ont refusé d'abandonner leur foi face à la persécution. Ainsi, une riche tradition de martyrs et de paroisses secrètes peut donner de l'espoir à des groupes de croyants, même dans les périodes les plus difficiles, peu importe la religion qu'ils sont obligés de professer publiquement. Entre eux, ils peuvent professer leur vraie foi en Dieu, et leur Dieu est amour.;Seit ihren bescheidenen Anfängen haben sich Christen durch ihre beharrliche Weigerung hervorgetan, angesichts der Verfolgung von ihrem Glauben abzulassen. Daher kann eine lange Tradition von Märtyrern und Untergrundgemeinden Gruppen von Gläubigen selbst in den finstersten Zeiten Hoffnung geben, ganz gleich, was sie durch Zwang nach außen hin bekennen müssen. Untereinander können sie ihren wahren Glauben an Gott bekennen, und ihr Gott heißt Liebe.;;Desde sus humildes orígenes, los cristianos se han caracterizado por su negativa a abandonar su fe ante la opresión. Tanto es así, que una nutrida tradición de mártires y parroquias clandestinas consigue dar esperanza a grupos de creyentes incluso en los tiempos más oscuros, sin importar qué otra fe les obligan a profesar en público. Entre ellos pueden mostrar su verdadera fe en Dios, y su Dios es amor.;;;;;;;;;x
+alt_start_community_name_chalcedonian;The [basque_pagan.GetName] Faithful;Fidèles [basque_pagan.GetName]s;Die [basque_pagan.GetName]en Gläubigen;;Creyentes [basque_pagan.GetName]s;;;;;;;;;x
+
+########################
+#
+#	Devil worshippers
+#
+########################
 
 # Celtic
 the_followers_of_fomorians;[GetFomoriansSocietyName];[GetFomoriansSocietyName];[GetFomoriansSocietyName];;[GetFomoriansSocietyName];;;;;;;;;x

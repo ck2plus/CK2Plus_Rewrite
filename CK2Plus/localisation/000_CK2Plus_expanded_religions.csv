@@ -104,8 +104,8 @@ d_keepers_tirnanog_adj;Keeper;céleste;Wächter;;Guardián;;;;;;;;;x
 expelled_d_keepers_tirnanog;Expelled the Keepers of Tír na nÓg;Gardiens du Tír na nÓg expulsés;Die Wächter von Tír na nÓg vertrieben;;Guardianes de Tír na nÓg expulsados;;;;;;;;;x
 
 # Customizable localisation
-String_Celtic_Follower;Celtic follower;celtique;Anhänger des keltischen Glaubens;;Seguidor céltico;;;;;;;;;x
 String_Celtic;Celt;celte;Kelt;;celta;;;;;;;;;x
+String_Celtic_Follower;Celtic follower;celtique;Anhänger des keltischen Glaubens;;Seguidor céltico;;;;;;;;;x
 
 ########################
 #
@@ -250,3 +250,7 @@ best_candidate_title_chalcedonian_cardinal_tooltip;Of all the bishops in my real
 
 expected_next_title_chalcedonian_cardinal;Expected Next Cardinal;Prochain cardinal prévu;Erwarteter neuer Kardinal;;Presunto próximo cardenal;;;;;;;;;x
 expected_next_title_chalcedonian_cardinal_tooltip;This bishop is probably next in line for a Cardinalship when one becomes available.;Cet évêque sera probablement le prochain cardinal dès qu'une place se libérera.;Dieser Bischof wird wahrscheinlich als nächster zum Kardinal ernannt, wenn ein Sitz im Kollegium frei wird.;;Este obispo es, probablemente, el próximo candidato a Cardenal cuando haya una vacante.;;;;;;;;;x
+
+#Customizable Localisation
+String_Chalcedonian;Chalcedonian;;;;;;;;;;;;;;;;;x
+String_Chalcedonian_Follower;Chalcedonian follower;chalcédonien;Anhänger des Chalcedonischen Glaubens;;Seguidor calcedonio;;;;;;;;;;;;;x

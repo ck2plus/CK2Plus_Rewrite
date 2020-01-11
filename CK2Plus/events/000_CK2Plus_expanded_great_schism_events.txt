@@ -1,0 +1,3303 @@
+namespace = PlusGreatSchism
+
+#######################################
+#
+#	CK2Plus Schism Events
+#
+#######################################
+#
+#	CATALOG
+#
+#	001 - 040: Schism and Prevention
+#	041 - 050: Greek/Latin Rites
+#	051 - 060: The Pentarchy
+#	061 - 070: Ecumenical Councils
+#	071 - 080: Schism Lead Up
+#
+#######################################
+
+#######################################
+#
+#	001 - 010: Schism and Prevention
+#
+#######################################
+#
+#	INDEX
+#
+#	001: Pre-schism setup
+#	002: Schism Prevented
+#	003: Narrate Schism Prevented
+#	004: Schism Occurs
+#	005: Narrate Schism Occurs
+#
+#######################################
+
+# 001: Pre-schism setup
+character_event = {
+	id = PlusGreatSchism.001
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_global_flag = great_schism_happened }
+	}
+
+	immediate = {
+		set_variable = {
+			which = "global_great_schism_tracker"
+			value = 0
+		}
+
+		# Advance tracker if Carolingian Empire already formed
+		if = {
+			limit = {
+				has_global_flag = carolingian_empire_formed
+			}
+			change_variable = {
+				which = "global_great_schism_tracker"
+				value = 1
+			}
+		}
+
+		# Advance tracker if using New Millenium or later bookmark
+		if = {
+			limit = { year >= 999 }
+
+			set_global_flag = filioque_adopted
+			set_global_flag = eucharist_conflict
+			change_variable = {
+				which = "global_great_schism_tracker"
+				value = 2
+			}
+		}
+
+		# Set Catholic/Orthodox heresies to Chalcedonian
+		set_parent_religion = { religion = cathar parent = chalcedonian }
+		set_parent_religion = { religion = waldensian parent = chalcedonian }
+		set_parent_religion = { religion = lollard parent = chalcedonian }
+#		set_parent_religion = { religion = adoptionist parent = chalcedonian }
+		set_parent_religion = { religion = bogomilist parent = chalcedonian }
+		set_parent_religion = { religion = monothelite parent = chalcedonian }
+		set_parent_religion = { religion = iconoclast parent = chalcedonian }
+
+		b_roma = {
+			holder_scope = {
+				any_demesne_title = {
+					set_title_flag = historically_held_by_pope
+				}
+				k_pentarch_rome = { # Set-up Chalcedonian Papacy
+					if = {
+						limit = {
+							is_title_active = THIS
+						}
+						gain_title = PREV
+						make_primary_title = yes
+					}
+				}
+				unsafe_religion = chalcedonian
+				any_title = { # give back titles usurped upon conversion
+					limit = {
+						has_title_flag = historically_held_by_pope
+					}
+					gain_title = PREV
+					clr_title_flag = historically_held_by_pope
+				}
+			}
+		}
+
+		# Get rid of the Pope and the Ecumenical Patriach
+		any_title = {
+			limit = {
+				OR = {
+					title = k_papal_state
+					title = k_orthodox
+				}
+				is_title_active = THIS
+				has_holder = yes
+			}
+			unsafe_destroy_landed_title = THIS
+			activate_title = { title = THIS status = no }
+		}
+
+		# Stubborn, won't comply otherwise
+		b_hagiasophia = {
+			holder_scope = {
+				any_demesne_title = {
+					set_title_flag = historically_held_by_ecumenical_patriarch
+				}
+				unsafe_religion = chalcedonian
+				any_title = { # give back titles usurped upon conversion
+					limit = {
+						has_title_flag = historically_held_by_ecumenical_patriarch
+					}
+					gain_title = PREV
+					clr_title_flag = historically_held_by_ecumenical_patriarch
+				}
+			}
+		}
+
+		# Convert mercenary captains and courtiers
+		any_mercenary_band = {
+			limit = {
+				holder_scope = {
+					OR = {
+						religion = catholic
+						religion = orthodox
+					}
+				}
+			}
+			holder_scope = {
+				unsafe_religion = chalcedonian
+				any_courtier = {
+					unsafe_religion = chalcedonian
+				}
+			}
+		}
+
+		# Convert holy orders
+		any_title = {
+			limit = {
+				holy_order = yes
+				is_title_active = THIS
+				has_holder = yes
+				holder_scope = {
+					OR = {
+						religion = catholic
+						religion = orthodox
+					}
+				}
+			}
+			religion = chalcedonian
+			holder_scope = {
+				unsafe_religion = chalcedonian
+				any_courtier = {
+					unsafe_religion = chalcedonian
+				}
+			}
+		}
+
+		# Switch any remaining characters and counties
+		# Should not be necessary on starts before 1054, here for game rule
+		any_character = {
+			limit = { religion_group = christian }
+
+			if = {
+				limit = { religion = catholic }
+
+				set_character_flag = converting_religion
+				unsafe_religion = chalcedonian
+
+				if = {
+					limit = {
+						is_theocracy = yes
+						is_ruler = yes
+					}
+					add_trait = latin_rites
+				}
+
+				clr_character_flag = converting_religion
+			}
+			else_if = {
+				limit = { religion = orthodox }
+
+				set_character_flag = converting_religion
+				unsafe_religion = chalcedonian
+
+				if = {
+					limit = {
+						is_theocracy = yes
+						is_ruler = yes
+					}
+					add_trait = greek_rites
+				}
+
+				clr_character_flag = converting_religion
+			}
+
+			if = {
+				limit = {
+					independent = yes
+					religion = chalcedonian
+				}
+				character_event = { id = PlusGreatSchism.043 } # Relations between Greek/Latin realms
+			}
+		}
+
+		any_province = {
+			limit = {
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			religion = chalcedonian
+		}
+
+		any_character = {
+			character_event = {
+				id = PlusGreatSchism.041 # Greek/Latin Rites Control
+				days = 2
+			}
+		}
+	}
+}
+
+# 002: Schism Prevented (Setup)
+character_event = {
+	id = PlusGreatSchism.002
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		NOR = {
+			has_global_flag = great_schism_prevented
+			has_global_flag = great_schism_disabled
+		}
+	}
+
+	immediate = {
+		set_global_flag = great_schism_prevented
+
+		# This is primarily for those firing the event via console
+		if = {
+			limit = {
+				NOR = {
+					has_global_flag = patriarch_supreme_is_greek
+					has_global_flag = patriarch_supreme_is_latin
+				}
+			}
+
+			if = {
+				limit = {
+					k_pentarch_rome = {
+						holder_scope = {
+							trait = greek_rites
+						}
+					}
+				}
+				set_global_flag = patriarch_supreme_is_greek
+			}
+			else = {
+				set_global_flag = patriarch_supreme_is_latin
+			}
+		}
+
+		# Greek Victory
+		if = {
+			limit = { has_global_flag = patriarch_supreme_is_greek }
+
+			b_hagiasophia = {
+				holder_scope = {
+					save_event_target_as = chalcedon_patriarch
+				}
+			}
+
+			create_character = {
+				religion = catholic
+				culture = roman
+				dynasty = random
+				female = no
+				trait = zealous
+				age = 40
+			}
+
+			new_character = { save_event_target_as = chalcedon_pope }
+			orthodox = { save_event_target_as = victor_religion }
+			catholic = { save_event_target_as = losing_religion }
+		}
+
+		# Catholic Victory
+		else_if = {
+			limit = { has_global_flag = patriarch_supreme_is_latin }
+
+			k_pentarch_rome = {
+				holder_scope = {
+					save_event_target_as = chalcedon_pope
+				}
+			}
+
+			create_character = {
+				religion = orthodox
+				culture = greek
+				dynasty = random
+				female = no
+				trait = zealous
+				age = 40
+			}
+
+			new_character = { save_event_target_as = chalcedon_patriarch }
+			catholic = { save_event_target_as = victor_religion }
+			orthodox = { save_event_target_as = losing_religion }
+		}
+
+		## Religion Heads First
+		# The Pope
+		event_target:chalcedon_pope = {
+			set_character_flag = converting_religion
+			remove_trait = greek_rites
+			remove_trait = latin_rites
+			unsafe_religion = catholic
+			clr_character_flag = converting_religion
+			set_government_type = theocracy_government
+
+			any_liege = {
+				limit = { tier = EMPEROR }
+				save_event_target_as = new_liege
+			}
+
+			k_papal_state = { # Catholic Papacy
+				activate_title = { title = THIS status = yes }
+				copy_title_history = k_pentarch_rome
+				gain_title = PREV
+				make_primary_title = yes
+			}
+
+			k_pentarch_rome = { # Chalcedonian Papacy
+				unsafe_destroy_landed_title = THIS
+				activate_title = { title = THIS status = no }
+			}
+
+			if = {
+				limit = { event_target:new_liege = { is_alive = yes } }
+				set_defacto_liege = event_target:new_liege
+			}
+		}
+
+		# The Patriarch
+		event_target:chalcedon_patriarch = {
+			set_character_flag = converting_religion
+			remove_trait = greek_rites
+			remove_trait = latin_rites
+			unsafe_religion = orthodox
+			clr_character_flag = converting_religion
+			set_government_type = theocracy_government
+
+			any_liege = {
+				limit = { tier = EMPEROR }
+				save_event_target_as = new_liege
+			}
+
+			k_orthodox = { # Ecumenical Patriarchate
+				activate_title = { title = THIS status = yes }
+				copy_title_history = b_hagiasophia
+				gain_title = PREV
+				make_primary_title = yes
+			}
+
+			if = {
+				limit = { event_target:new_liege = { is_alive = yes } }
+				set_defacto_liege = event_target:new_liege
+			}
+		}
+
+		# Everyone Else
+		any_character = {
+			limit = { religion = chalcedonian }
+
+			# Theocracy Sanity Check
+			if = {
+				limit = { is_theocracy = yes }
+				set_character_flag = converting_religion
+			}
+
+			if = {
+				limit = {
+					trait = zealous
+				}
+
+				if = {
+					limit = {
+						trait = latin_rites
+					}
+					remove_trait = latin_rites
+					unsafe_religion = catholic
+				}
+				else_if = {
+					limit = {
+						trait = greek_rites
+					}
+					remove_trait = greek_rites
+					unsafe_religion = orthodox
+				}
+			}
+			else = {
+				remove_trait = greek_rites
+				remove_trait = latin_rites
+				unsafe_religion = event_target:victor_religion
+			}
+
+			if = {
+				limit = { has_character_flag = converting_religion }
+				clr_character_flag = converting_religion
+				set_government_type = theocracy_government
+			}
+		}
+
+		any_character = {
+			limit = { secret_religion = chalcedonian }
+			set_secret_religion = event_target:victor_religion
+		}
+
+		# Convert holy orders
+		# Exhaustive list to convert, if present:
+		#	Knights of Calatrava
+		#	Kinghts Hospitaller
+		#	Knights of Santiago
+		# 	Knights Templar
+		#	Livonian Order
+		#	Teutonic Order
+		#	Teutonic State
+		#	Brotherhood of the Holy Sepulchre
+		any_title = {
+			limit = {
+				holy_order = yes
+				has_holder = yes
+				holder_scope = {
+					religion = chalcedonian
+				}
+			}
+			religion = event_target:victor_religion
+			holder_scope = {
+				religion = event_target:victor_religion
+			}
+		}
+
+#		if = {
+#			limit = { d_knights_calatrava = { has_holder = yes } }
+#			d_knights_calatrava = {
+#				religion = event_target:victor_religion
+#				holder_scope = { religion = event_target:victor_religion }
+#			}
+#		}
+#		if = {
+#			limit = { d_knights_hospitaler = { has_holder = yes } }
+#			d_knights_hospitaler = {
+#				religion = event_target:victor_religion
+#				holder_scope = { religion = event_target:victor_religion }
+#			}
+#		}
+#		if = {
+#			limit = { d_knights_santiago = { has_holder = yes } }
+#			d_knights_santiago = {
+#				religion = event_target:victor_religion
+#				holder_scope = { religion = event_target:victor_religion }
+#			}
+#		}
+#		if = {
+#			limit = { d_knights_templar = { has_holder = yes } }
+#			d_knights_templar = {
+#				religion = event_target:victor_religion
+#				holder_scope = { religion = event_target:victor_religion }
+#			}
+#		}
+#		if = {
+#			limit = { d_livonian_order = { has_holder = yes } }
+#			d_livonian_order = {
+#				religion = event_target:victor_religion
+#				holder_scope = { religion = event_target:victor_religion }
+#			}
+#		}
+#		if = {
+#			limit = { d_teutonic_order = { has_holder = yes } }
+#			d_teutonic_order = {
+#				religion = event_target:victor_religion
+#				holder_scope = { religion = event_target:victor_religion }
+#			}
+#		}
+#		if = {
+#			limit = { k_teutonic_state = { has_holder = yes } }
+#			k_teutonic_state = {
+#				religion = event_target:victor_religion
+#				holder_scope = { religion = event_target:victor_religion }
+#			}
+#		}
+#		if = {
+#			limit = { d_holy_sepulchre = { has_holder = yes } }
+#			d_holy_sepulchre = {
+#				religion = event_target:victor_religion
+#				holder_scope = { religion = event_target:victor_religion }
+#			}
+#		}
+
+		# Convert the land too
+		any_independent_ruler = {
+			if = {
+				limit = { religion = catholic }
+
+				any_realm_province = {
+					limit = { religion = chalcedonian }
+					religion = catholic
+				}
+
+				any_realm_province = {
+					limit = { has_province_modifier = secret_chalcedonian_community }
+
+					remove_province_modifier = secret_chalcedonian_community
+					add_province_modifier = {
+						name = secret_catholic_community
+						duration = -1
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = orthodox }
+
+				any_realm_province = {
+					limit = { religion = chalcedonian }
+					religion = orthodox
+				}
+
+				any_realm_province = {
+					limit = { has_province_modifier = secret_chalcedonian_community }
+
+					remove_province_modifier = secret_chalcedonian_community
+					add_province_modifier = {
+						name = secret_orthodox_community
+						duration = -1
+					}
+				}
+			}
+			else = {
+				any_realm_province = {
+					limit = { religion = chalcedonian }
+					religion = event_target:victor_religion
+				}
+
+				any_realm_province = {
+					limit = { has_province_modifier = secret_chalcedonian_community }
+
+					remove_province_modifier = secret_chalcedonian_community
+				}
+			}
+		}
+
+		# Set Up Hierarchy
+		set_parent_religion = { religion = event_target:victor_religion parent = 0 }
+		set_parent_religion = { religion = cathar parent = event_target:victor_religion }
+		set_parent_religion = { religion = waldensian parent = event_target:victor_religion }
+		set_parent_religion = { religion = lollard parent = event_target:victor_religion }
+#		set_parent_religion = { religion = adoptionist parent = event_target:victor_religion }
+		set_parent_religion = { religion = bogomilist parent = event_target:victor_religion }
+		set_parent_religion = { religion = monothelite parent = event_target:victor_religion }
+		set_parent_religion = { religion = iconoclast parent = event_target:victor_religion }
+		set_parent_religion = { religion = event_target:losing_religion parent = event_target:victor_religion}
+		set_parent_religion = { religion = chalcedonian parent = 0 }
+
+		# Clean Up
+		any_character = {
+			limit = { religion = chalcedonian }
+			unsafe_religion = event_target:victor_religion
+		}
+
+		any_character = {
+			limit = { has_character_flag = converting_religion }
+			set_government_type = theocracy_government
+			clr_character_flag = converting_religion
+		}
+
+		any_province = {
+			limit = { religion = chalcedonian }
+			religion = event_target:victor_religion
+		}
+
+		any_province = {
+			limit = { has_province_modifier = secret_chalcedonian_community }
+			remove_province_modifier = secret_chalcedonian_community
+		}
+
+		clr_global_flag = attacked_by_papal_emperor
+		clr_global_flag = filioque_adopted
+		clr_global_flag = papal_jurisdiction_dispute
+		clr_global_flag = eucharist_conflict
+		clr_global_flag = wicked_pope_patriarch
+		clr_global_flag = ecumenical_council_refused
+
+		if = {
+			limit = { has_global_flag = patriarch_supreme_is_greek }
+			event_target:chalcedon_patriarch = {
+				narrative_event = { id = PlusGreatSchism.003 }
+			}
+		}
+		else = {
+			event_target:chalcedon_pope = {
+				narrative_event = { id = PlusGreatSchism.003 }
+			}
+		}
+	}
+}
+
+# 003: Narrate Schism Prevented
+narrative_event = {
+	id = PlusGreatSchism.003
+
+	title = PlusGreatSchism_003_title
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	major = yes
+
+	major_trigger = { ai = no }
+
+	desc = {
+		text = PlusGreatSchism_003_text_pope_1
+		trigger = {
+			ROOT = { religion = catholic }
+			FROM = { NOT = { character = ROOT } }
+		}
+	}
+	desc = {
+		text = PlusGreatSchism_003_text_pope_2
+		trigger = {
+			ROOT = { religion = catholic }
+			FROM = { character = ROOT }
+		}
+	}
+	desc = {
+		text = PlusGreatSchism_003_text_patriarch_1
+		trigger = {
+			ROOT = { religion = orthodox }
+			FROM = { NOT = { character = ROOT } }
+		}
+	}
+	desc = {
+		text = PlusGreatSchism_003_text_patriarch_2
+		trigger = {
+			ROOT = { religion = orthodox }
+			FROM = { character = ROOT }
+		}
+	}
+
+	option = {
+		name = {
+			text = PlusGreatSchism_003_1a # Hail to [Root.GetHerHisCap] Holiness!
+			trigger = {
+				religion = ROOT
+			}
+		}
+		name = {
+			text = PlusGreatSchism_003_1b # So there will be no schism? How unexpected
+			trigger = {
+				religion_group = christian
+				NOT = { religion = ROOT }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_003_1c # This does not bode well...
+			trigger = {
+				NOT = { religion_group = christian }
+			}
+		}
+	}
+}
+
+# 004: Schism Occurs
+character_event = {
+	id = PlusGreatSchism.004
+
+	hide_window = yes
+
+	ai = no
+
+	trigger = {
+		OR = {
+			multiplayer = no
+			is_multiplayer_host_character = yes
+		}
+
+		NOR = {
+			has_global_flag = great_schism_prevented
+			has_global_flag = great_schism_happened
+			has_global_flag = great_schism_disabled
+			has_game_rule = {
+				name = great_schism
+				value = off
+			}
+		}
+
+		year >= 950
+
+		k_pentarch_rome = {
+			holder_scope = {
+				religion = chalcedonian
+				trait = latin_rites
+			}
+		}
+
+		b_hagiasophia = {
+			holder_scope = {
+				OR = {
+					AND = {
+						religion = chalcedonian
+						trait = greek_rites
+					}
+					religion = iconoclast
+				}
+			}
+		}
+
+		check_variable = {
+			which = "global_great_schism_tracker"
+			value >= 4.0
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 100
+
+		modifier = {
+			factor = 0.5
+			year >= 1000
+		}
+		modifier = {
+			factor = 0.5
+			year >= 1050
+		}
+		modifier = {
+			factor = 0.5
+			year >= 1100
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = "global_great_schism_tracker"
+				value >= 5.0
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = "global_great_schism_tracker"
+				value >= 6.0
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = "global_great_schism_tracker"
+				value >= 7.0
+			}
+		}
+	}
+
+	immediate = {
+		set_global_flag = great_schism_happened
+
+		k_pentarch_rome = {
+			holder_scope = {
+				save_event_target_as = chalcedon_pope
+			}
+		}
+
+		if = {
+			limit = {
+				b_hagiasophia = {
+					holder_scope = {
+						religion = iconoclast
+					}
+				}
+			}
+
+			create_character = {
+				religion = orthodox
+				culture = greek
+				dynasty = random
+				female = no
+				trait = zealous
+				age = 40
+			}
+
+			new_character = { save_event_target_as = chalcedon_patriarch }
+			iconoclast = { save_event_target_as = eastern_religion }
+			orthodox = { save_event_target_as = eastern_heresy }
+		}
+		else = {
+			b_hagiasophia = {
+				holder_scope = {
+					save_event_target_as = chalcedon_patriarch
+				}
+			}
+			orthodox = { save_event_target_as = eastern_religion }
+			iconoclast = { save_event_target_as = eastern_heresy }
+		}
+
+		# Prepare the People
+		any_character = {
+			limit = {
+				religion = chalcedonian
+				NOR = {
+					has_landed_title = k_pentarch_rome
+					has_landed_title = b_hagiasophia
+					has_character_flag = convert_to_catholic
+					trait = latin_rites
+				}
+				OR = {
+					trait = greek_rites
+					rightful_religious_head_scope = { trait = greek_rites }
+					location = {
+						region = custom_greek_rites
+					}
+				}
+			}
+
+			if = {
+				limit = { is_theocracy = yes }
+				set_character_flag = converting_religion
+			}
+			set_character_flag = convert_to_orthodox
+		}
+
+		any_character = {
+			limit = {
+				secret_religion = chalcedonian
+				location = {
+					region = custom_greek_rites
+				}
+			}
+			set_secret_religion = event_target:eastern_religion
+		}
+
+		any_character = {
+			limit = {
+				religion = chalcedonian
+				NOR = {
+					has_landed_title = k_pentarch_rome
+					has_landed_title = b_hagiasophia
+					has_character_flag = convert_to_orthodox
+					trait = greek_rites
+				}
+				OR = {
+					trait = latin_rites
+					rightful_religious_head_scope = { trait = latin_rites }
+					location = {
+						region = custom_latin_rites
+					}
+				}
+			}
+
+			if = {
+				limit = { is_theocracy = yes }
+				set_character_flag = converting_religion
+			}
+
+			set_character_flag = convert_to_catholic
+		}
+
+		any_character = {
+			limit = {
+				secret_religion = chalcedonian
+				location = {
+					region = custom_latin_rites
+				}
+			}
+			set_secret_religion = catholic
+		}
+
+		# Convert the Religion Heads
+		event_target:chalcedon_pope = {
+			set_character_flag = converting_religion
+			remove_trait = greek_rites
+			remove_trait = latin_rites
+			unsafe_religion = catholic
+			clr_character_flag = converting_religion
+			set_government_type = theocracy_government
+
+			any_liege = {
+				limit = { tier = EMPEROR }
+				save_event_target_as = new_liege
+			}
+
+			k_papal_state = {
+				activate_title = {
+					title = THIS
+					status = yes
+				}
+				copy_title_history = k_pentarch_rome
+				gain_title = PREV
+				make_primary_title = yes
+			}
+
+			k_pentarch_rome = {
+				unsafe_destroy_landed_title = THIS
+				activate_title = {
+					title = THIS
+					status = no
+				}
+			}
+
+			if = {
+				limit = { event_target:new_liege = { is_alive = yes } }
+				set_defacto_liege = event_target:new_liege
+			}
+		}
+
+		event_target:chalcedon_patriarch = {
+			set_character_flag = converting_religion
+			remove_trait = greek_rites
+			remove_trait = latin_rites
+			unsafe_religion = orthodox
+			clr_character_flag = converting_religion
+			set_government_type = theocracy_government
+
+			any_liege = {
+				limit = { tier = EMPEROR }
+				save_event_target_as = new_liege
+			}
+
+			k_orthodox = {
+				activate_title = {
+					title = THIS
+					status = yes
+				}
+				copy_title_history = b_hagiasophia
+				gain_title = PREV
+				make_primary_title = yes
+			}
+
+			if = {
+				limit = { event_target:new_liege = { is_alive = yes } }
+
+				set_defacto_liege = event_target:new_liege
+			}
+		}
+
+		# Convert the People
+		any_character = {
+			limit = { has_character_flag = convert_to_catholic }
+
+			unsafe_religion = catholic
+			if = {
+				limit = { has_character_flag = converting_religion }
+				set_government_type = theocracy_government
+				clr_character_flag = converting_religion
+			}
+			clr_character_flag = convert_to_catholic
+		}
+		any_character = {
+			limit = { has_character_flag = convert_to_orthodox }
+
+			unsafe_religion = orthodox
+			if = {
+				limit = { has_character_flag = converting_religion }
+				set_government_type = theocracy_government
+				clr_character_flag = converting_religion
+			}
+			clr_character_flag = convert_to_orthodox
+		}
+
+		# Convert the Land
+		any_independent_ruler = {
+			limit = {
+				OR = {
+					religion = event_target:eastern_religion
+					religion = event_target:eastern_heresy
+				}
+			}
+
+			any_realm_province = {
+				limit = { religion = chalcedonian }
+				religion = event_target:eastern_religion
+			}
+		}
+
+		any_independent_ruler = {
+			limit = { religion = catholic }
+
+			any_realm_province = {
+				limit = { religion = chalcedonian }
+				religion = catholic
+			}
+		}
+
+		any_independent_ruler = {
+			limit = {
+				NOR = {
+					religion = catholic
+					religion = event_target:eastern_religion
+					religion = event_target:eastern_heresy
+				}
+			}
+
+			any_realm_province = {
+				limit = { religion = chalcedonian }
+
+				if = {
+					limit = {
+						region = custom_latin_rites
+					}
+					religion = catholic
+				}
+				else_if = {
+					limit = {
+						region = custom_greek_rites
+					}
+					religion = event_target:eastern_religion
+				}
+			}
+		}
+
+		# Coptic Pope has land too
+		any_realm_province = {
+			limit = { religion = chalcedonian }
+
+			if = {
+				limit = {
+					region = custom_latin_rites
+				}
+				religion = catholic
+			}
+			else_if = {
+				limit = {
+					region = custom_greek_rites
+				}
+				religion = event_target:eastern_religion
+			}
+		}
+
+		# Convert holy orders
+		# Exhaustive list to convert, if present:
+		#	Knights of Calatrava
+		#	Kinghts Hospitaller
+		#	Knights of Santiago
+		# 	Knights Templar
+		#	Livonian Order
+		#	Teutonic Order
+		#	Teutonic State
+		#	Brotherhood of the Holy Sepulchre
+
+		d_holy_sepulchre = {
+			if = {
+				limit = { has_holder = yes }
+
+				holder_scope = {
+					religion = orthodox
+					any_courtier = {
+						unsafe_religion = orthodox
+					}
+				}
+				religion = orthodox
+			}
+		}
+
+		# Convert all the other ones to Catholic
+		any_title = {
+			limit = {
+				holy_order = yes
+				has_holder = yes
+				holder_scope = {
+					religion = chalcedonian
+				}
+			}
+			religion = catholic
+			holder_scope = {
+				religion = catholic
+				any_courtier = {
+					unsafe_religion = orthodox
+				}
+			}
+		}
+
+	#	# Reset Catholic/Orthodox holy orders
+	#	if = {
+	#		limit = { d_knights_calatrava = { has_holder = yes } }
+	#
+	#		d_knights_calatrava = {
+	#			holder_scope = {
+	#				religion = catholic
+	#				any_courtier = { unsafe_religion = catholic }
+	#			}
+	#			religion = catholic
+	#		}
+	#	}
+	#
+	#	if = {
+	#		limit = { d_knights_hospitaler = { has_holder = yes } }
+	#
+	#		d_knights_hospitaler = {
+	#			holder_scope = {
+	#				religion = catholic
+	#				any_courtier = { unsafe_religion = catholic }
+	#			}
+	#			religion = catholic
+	#		}
+	#	}
+	#
+	#	if = {
+	#		limit = { d_knights_santiago = { has_holder = yes } }
+	#
+	#		d_knights_santiago = {
+	#			holder_scope = {
+	#				religion = catholic
+	#				any_courtier = { unsafe_religion = catholic }
+	#			}
+	#			religion = catholic
+	#		}
+	#	}
+	#
+	#	if = {
+	#		limit = { d_knights_templar = { has_holder = yes } }
+	#
+	#		d_knights_templar = {
+	#			holder_scope = {
+	#				religion = catholic
+	#				any_courtier = { unsafe_religion = catholic }
+	#			}
+	#			religion = catholic
+	#		}
+	#	}
+	#
+	#	if = {
+	#		limit = { d_livonian_order = { has_holder = yes } }
+	#
+	#		d_livonian_order = {
+	#			holder_scope = {
+	#				religion = catholic
+	#				any_courtier = { unsafe_religion = catholic }
+	#			}
+	#			religion = catholic
+	#		}
+	#	}
+	#
+	#	if = {
+	#		limit = { d_teutonic_order = { has_holder = yes } }
+	#
+	#		d_teutonic_order = {
+	#			holder_scope = {
+	#				religion = catholic
+	#				any_courtier = { unsafe_religion = catholic }
+	#			}
+	#			religion = catholic
+	#		}
+	#	}
+
+		# Clean up any missed
+		any_character = {
+			limit = { religion = chalcedonian }
+			if = {
+				limit = {
+					location = {
+						region = custom_latin_rites
+					}
+				}
+				religion = catholic
+
+				if = {
+					limit = { is_ruler = yes }
+
+					any_realm_province = {
+						limit = { religion = chalcedonian }
+						religion = catholic
+					}
+
+					any_realm_province = {
+						limit = { has_province_modifier = secret_chalcedonian_community }
+
+						remove_province_modifier = secret_chalcedonian_community
+						add_province_modifier = {
+							name = secret_catholic_community
+							duration = -1
+						}
+					}
+				}
+			}
+			else = {
+				religion = orthodox
+
+				if = {
+					limit = { is_ruler = yes }
+
+					any_realm_province = {
+						limit = { religion = chalcedonian }
+						religion = orthodox
+					}
+
+					any_realm_province = {
+						limit = { has_province_modifier = secret_chalcedonian_community }
+
+						remove_province_modifier = secret_chalcedonian_community
+						add_province_modifier = {
+							name = secret_orthodox_community
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+
+		any_character = {
+			limit = {
+				OR = {
+					has_character_flag = convert_to_orthodox
+					has_character_flag = convert_to_catholic
+				}
+			}
+			clr_character_flag = convert_to_orthodox
+			clr_character_flag = convert_to_catholic
+		}
+
+		# Reset catholic/orthodox heresies
+		set_parent_religion = { religion = cathar parent = catholic }
+		set_parent_religion = { religion = waldensian parent = catholic }
+		set_parent_religion = { religion = lollard parent = catholic }
+	#	set_parent_religion = { religion = adoptionist parent = catholic }
+		set_parent_religion = { religion = event_target:eastern_heresy parent = event_target:eastern_religion }
+		set_parent_religion = { religion = iconoclast parent = event_target:eastern_religion }
+		set_parent_religion = { religion = monothelite parent = event_target:eastern_religion }
+
+	#	if = {
+	#		limit = {
+	#			NOT = { is_title_active = d_bogomilist }
+	#		}
+	#		set_parent_religion = { religion = bogomilist parent = event_target:eastern_religion }
+	#	}
+		set_parent_religion = { religion = chalcedonian parent = 0 }
+
+		# Inform players
+		any_player = { narrative_event = { id = PlusGreatSchism.005 } } # Narrate the Schism
+	}
+}
+
+# 005: Narrate Schism Occurs
+narrative_event = {
+	id = PlusGreatSchism.005
+
+	title = PlusGreatSchism_005_title
+	desc = PlusGreatSchism_005_text
+	picture = GFX_evt_great_schism
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes # 004, above
+	hide_from = yes
+
+	option = {
+		# Formerly Chalcedonian response
+		name = {
+			text = PlusGreatSchism_005_1c # This is of great concern...
+			trigger = {
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+		}
+		# No one else cares
+		name = {
+			text = PlusGreatSchism_005_1d # So Christianity divides itself yet again
+			trigger = {
+				NOR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+		}
+	}
+}
+
+#######################################
+#
+#	041 - 050: Greek/Latin Rites
+#
+#######################################
+#
+#	INDEX
+#
+#	041: Greek/Latin Rites Control
+#	042: Patriarch demands that a priest switch rites
+#	043: Relations between Greek/Latin realms
+#
+#######################################
+
+# 041: Greek/Latin Rites Control
+character_event = {
+	id = PlusGreatSchism.041
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	religion = chalcedonian
+	trigger = {
+		NOT = { has_global_flag = great_schism_prevented }
+		religion = chalcedonian
+
+		trigger_if = { # should get rites
+			limit = { is_theocracy = yes }
+			NOR = {
+				trait = greek_rites
+				trait = latin_rites
+			}
+		}
+		trigger_else = { # shouldn't have rites
+			OR = {
+				trait = greek_rites
+				trait = latin_rites
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				is_theocracy = yes
+				NOR = {
+					trait = greek_rites
+					trait = latin_rites
+				}
+			}
+			random_list = {
+				50 = {
+					add_trait = greek_rites
+
+					modifier = {
+						factor = 0
+						rightful_religious_head_scope = { trait = latin_rites }
+					}
+					modifier = {
+						factor = 2
+						OR = {
+							culture_group = byzantine
+							top_liege = {
+								OR = {
+									has_landed_title = e_byzantium
+									has_landed_title = e_roman_empire
+								}
+							}
+						}
+					}
+					modifier = {
+						factor = 5
+						capital_scope = {
+							region = custom_greek_rites
+						}
+					}
+				}
+
+				50 = {
+					add_trait = latin_rites
+
+					modifier = {
+						factor = 0
+						rightful_religious_head_scope = { trait = greek_rites }
+					}
+					modifier = {
+						factor = 2
+						OR = {
+							culture_group = latin
+							culture_group = occitano_romance_group
+							culture_group = iberian
+							culture_group = italian_group
+							top_liege = {
+								OR = {
+									has_landed_title = e_hre
+									has_landed_title = e_karling
+								}
+							}
+						}
+					}
+					modifier = {
+						factor = 5
+						capital_scope = {
+							region = custom_latin_rites
+						}
+					}
+				}
+			}
+		}
+		else = {
+			remove_trait = greek_rites
+			remove_trait = latin_rites
+		}
+	}
+}
+
+# 042: Patriarch demands that a priest switch rites
+character_event = {
+	id = PlusGreatSchism.042
+
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	desc = {
+		text = PlusGreatSchism_042_latin
+		trigger = { trait = greek_rites }
+	}
+	desc = {
+		text = PlusGreatSchism_042_greek
+		trigger = { trait = latin_rites }
+	}
+
+	only_rulers = yes
+	religion = chalcedonian
+	min_age >= 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		religion_authority >= 0.50
+		is_theocracy = yes
+		has_regent = no
+
+		rightful_religious_head_scope = {
+			has_regent = no
+
+			NOR = {
+				character = ROOT
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = refused_to_change_rite
+				}
+			}
+
+			# Must be the religious head of ROOT, if ROOT has one
+			trigger_if = {
+				limit = {
+					NOT = { controls_religion = yes }
+				}
+				ROOT = {
+					religion_head = {
+						always = no
+					}
+				}
+			}
+
+			OR = {
+				opinion = { who = ROOT value < 0 }
+				is_vassal_or_below = ROOT
+			}
+
+			# Must adhere to different rites
+			trigger_if = {
+				limit = { trait = latin_rites }
+				ROOT = { trait = greek_rites }
+			}
+			trigger_else_if = {
+				limit = { trait = greek_rites }
+				ROOT = { trait = latin_rites }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.5
+			rightful_religious_head_scope = {
+				is_vassal_or_below = ROOT
+			}
+		}
+		modifier = {
+			factor = 0.8
+			rightful_religious_head_scope = {
+				opinion = { who = ROOT value < -20 }
+			}
+		}
+		modifier = {
+			factor = 0.8
+			rightful_religious_head_scope = {
+				opinion = { who = ROOT value < -40 }
+			}
+		}
+		modifier = {
+			factor = 0.8
+			rightful_religious_head_scope = {
+				opinion = { who = ROOT value < -60 }
+			}
+		}
+		modifier = {
+			factor = 0.8
+			rightful_religious_head_scope = {
+				opinion = { who = ROOT value < -80 }
+			}
+		}
+	}
+
+	immediate = {
+		rightful_religious_head_scope = { save_event_target_as = rightful_relhead }
+
+		if = {
+			limit = {
+				religion_head = {
+					always = no
+				}
+			}
+			religion_authority = {
+				modifier = greek_latin_conflict
+			}
+		}
+	}
+
+	option = {
+		name = PlusGreatSchism_042_1 # Refuse
+
+		ai_chance = {
+			factor = 30
+
+			modifier = {
+				factor = 0.5
+				rightful_religious_head_scope = {
+					is_vassal_or_below = ROOT
+					NOT = { is_liege_of = ROOT }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				rightful_religious_head_scope = {
+					is_liege_of = ROOT
+				}
+			}
+			modifier = {
+				factor = 1.25
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value >= 0 }
+				}
+			}
+			modifier = {
+				factor = 1.25
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value >= 20 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value >= 40 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value >= 60 }
+				}
+			}
+			modifier = {
+				factor = 2
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value >= 80 }
+				}
+			}
+		}
+
+		rightful_religious_head_scope = {
+			opinion = {
+				who = ROOT
+				modifier = refused_to_change_rite
+				years = 10
+			}
+			prestige = -25
+		}
+		piety = -25
+	}
+
+	option = {
+		name = PlusGreatSchism_042_2 # Agree
+
+		ai_chance = {
+			factor = 70
+
+			modifier = {
+				factor = 1.25
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value < 0 }
+				}
+			}
+			modifier = {
+				factor = 1.25
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value < -20 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value < -40 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value < -60 }
+				}
+			}
+			modifier = {
+				factor = 2
+				rightful_religious_head_scope = {
+					reverse_opinion = { who = ROOT value < -80 }
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				rightful_religious_head_scope = {
+					trait = greek_rites
+				}
+			}
+
+			add_trait = greek_rites
+			rightful_religious_head_scope = {
+				any_independent_ruler = {
+					if = {
+						limit = { trait = latin_rites }
+
+						opinion = {
+							who = PREV
+							modifier = opinion_disappointed
+							years = 10
+						}
+					}
+					any_realm_lord = {
+						if = {
+							limit = { trait = latin_rites }
+
+							opinion = {
+								who = PREVPREV
+								modifier = opinion_disappointed
+								years = 10
+							}
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				rightful_religious_head_scope = {
+					trait = latin_rites
+				}
+			}
+
+			add_trait = latin_rites
+			rightful_religious_head_scope = {
+				any_independent_ruler = {
+					if = {
+						limit = { trait = greek_rites }
+
+						opinion = {
+							who = PREV
+							modifier = opinion_disappointed
+							years = 10
+						}
+					}
+					any_realm_lord = {
+						if = {
+							limit = { trait = greek_rites }
+
+							opinion = {
+								who = PREVPREV
+								modifier = opinion_disappointed
+								years = 10
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# 043: Relations between Greek/Latin realms
+character_event = {
+	id = PlusGreatSchism.043
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	only_independent = yes
+	religion = chalcedonian
+
+	trigger = {
+		OR = {
+			NOT = { has_character_flag = check_greek_latin }
+			had_character_flag = { flag = check_greek_latin days >= 365 }
+		}
+		NOR = {
+			has_global_flag = great_schism_happened
+			has_global_flag = great_schism_prevented
+		}
+	}
+
+	immediate = {
+		set_character_flag = check_greek_latin
+
+		if = {
+			limit = {
+				rightful_religious_head_scope = {
+					trait = greek_rites
+				}
+			}
+
+			any_independent_ruler = {
+				limit = {
+					rightful_religious_head_scope = {
+						trait = latin_rites
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = greek_latin_relations
+							}
+						}
+					}
+					opinion = {
+						who = ROOT
+						modifier = greek_latin_relations
+						years = 100
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							reverse_has_opinion_modifier = {
+								who = ROOT
+								modifier = greek_latin_relations
+							}
+						}
+					}
+					reverse_opinion = {
+						who = ROOT
+						modifier = greek_latin_relations
+						years = 100
+					}
+				}
+			}
+
+			any_independent_ruler = {
+				limit = {
+					rightful_religious_head_scope = {
+						trait = greek_rites
+					}
+				}
+
+				if = {
+					limit = {
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = greek_latin_relations
+						}
+					}
+					remove_opinion = {
+						who = ROOT
+						modifier = greek_latin_relations
+					}
+				}
+				if = {
+					limit = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = greek_latin_relations
+						}
+					}
+					reverse_remove_opinion = {
+						who = ROOT
+						modifier = greek_latin_relations
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				rightful_religious_head_scope = {
+					trait = latin_rites
+				}
+			}
+
+			any_independent_ruler = {
+				limit = {
+					rightful_religious_head_scope = {
+						trait = greek_rites
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = greek_latin_relations
+							}
+						}
+					}
+					opinion = {
+						who = ROOT
+						modifier = greek_latin_relations
+						years = 100
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = {
+							reverse_has_opinion_modifier = {
+								who = ROOT
+								modifier = greek_latin_relations
+							}
+						}
+					}
+					reverse_opinion = {
+						who = ROOT
+						modifier = greek_latin_relations
+						years = 100
+					}
+				}
+			}
+
+			any_independent_ruler = {
+				limit = {
+					rightful_religious_head_scope = {
+						trait = latin_rites
+					}
+				}
+
+				if = {
+					limit = {
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = greek_latin_relations
+						}
+					}
+					remove_opinion = {
+						who = ROOT
+						modifier = greek_latin_relations
+					}
+				}
+
+				if = {
+					limit = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = greek_latin_relations
+						}
+					}
+					reverse_remove_opinion = {
+						who = ROOT
+						modifier = greek_latin_relations
+					}
+				}
+			}
+		}
+	}
+}
+
+#######################################
+#
+#	051 - 060: The Pentarchy
+#
+#######################################
+#
+#	INDEX
+#
+#
+#######################################
+
+
+
+#######################################
+#
+#	061 - 070: Ecumenical Councils
+#
+#######################################
+#
+#	INDEX
+#	061: Council called
+#	062: Rulers informed and get to choose
+#	063: Council Ended
+#
+#######################################
+
+# 061: Council called
+long_character_event = {
+	id = PlusGreatSchism.061
+
+	title = PlusGreatSchism_061_title
+	picture = GFX_evt_great_schism
+	border = GFX_event_long_frame_religion
+
+	is_triggered_only = yes
+
+	# Mend Great Schism
+	desc = {
+		text = PlusGreatSchism_061_text_1
+		trigger = { has_global_flag = schism_mending }
+	}
+
+	# Enforce Ephesus
+	desc = {
+		text = PlusGreatSchism_061_text_2
+		trigger = { has_global_flag = enforcing_ephesus }
+	}
+
+	# Enforce Chalcedon
+	desc = {
+		text = PlusGreatSchism_061_text_3
+		trigger = { has_global_flag = enforcing_chalcedon }
+	}
+
+	# Repudiate Ephesus
+	desc = {
+		text = PlusGreatSchism_061_text_4
+		trigger = { has_global_flag = repudiating_ephesus }
+	}
+
+	# Repudiate Chalcedon
+	desc = {
+		text = PlusGreatSchism_061_text_5
+		trigger = { has_global_flag = repudiating_chalcedon }
+	}
+
+	# Unite Christianity
+	desc = {
+		text = PlusGreatSchism_061_text_6
+		trigger = { has_global_flag = uniting_christianity }
+	}
+
+	immediate = {
+		# Pick the Location and Chair
+		save_event_target_as = council_holder
+		random_realm_title = {
+			limit = {
+				tier = BARON
+				holder_scope = { religion = ROOT }
+				holding_type = temple
+			}
+			location = { save_event_target_as = council_location }
+		}
+		religion_head = { save_event_target_as = mender_religion }
+
+		# Great Schism
+		if = {
+			limit = { has_global_flag = schism_mending }
+
+			if = {
+				limit = {
+					is_christian_catholic = yes
+				}
+
+				any_title = {
+					limit = {
+						OR = {
+							title = k_orthodox
+							title = d_monothelite
+							title = d_iconoclast
+#							title = d_bogomilist
+						}
+						has_holder = yes
+						holder_scope = { is_heretic = no }
+					}
+					holder_scope = { save_event_target_as = target_religion1 }
+				}
+			}
+			else = {
+				any_title = {
+					limit = {
+						OR = {
+							title = k_papal_state
+							title = d_fraticelli
+#							title = d_cathar
+						}
+						has_holder = yes
+						holder_scope = { is_heretic = no }
+					}
+					holder_scope = { save_event_target_as = target_religion1 }
+				}
+			}
+		}
+
+		# Council of Ephesus
+		else_if = {
+			limit = { has_global_flag = enforcing_ephesus }
+			any_title = {
+				limit = {
+#					OR = {
+						title = d_nestorian
+#						title = d_messalian
+#					}
+					has_holder = yes
+					holder_scope = { is_heretic = no }
+				}
+				holder_scope = { save_event_target_as = target_religion1 }
+			}
+		}
+
+		# Council of Chalcedon
+		else_if = {
+			limit = { has_global_flag = enforcing_chalcedon }
+			any_title = {
+				limit = {
+					OR = {
+						title = d_miaphysite
+						title = d_monophysite
+					}
+					has_holder = yes
+					holder_scope = { is_heretic = no }
+				}
+				holder_scope = { save_event_target_as = target_religion1 }
+			}
+			any_title = {
+				limit = {
+#					OR = {
+#						title = d_apostolic
+						title = d_paulician
+#					}
+					has_holder = yes
+					holder_scope = { is_heretic = no }
+				}
+				holder_scope = { save_event_target_as = target_religion2 }
+			}
+		}
+
+		# Repudiate instead
+		else_if = {
+			limit = {
+				OR = {
+					has_global_flag = repudiating_ephesus
+					has_global_flag = repudiating_chalcedon
+				}
+			}
+			any_title = {
+				limit = {
+					OR = {
+						title = k_orthodox
+						title = d_monothelite
+						title = d_iconoclast
+#						title = d_bogomilist
+					}
+					has_holder = yes
+					holder_scope = { is_heretic = no }
+				}
+				holder_scope = { save_event_target_as = target_religion1 }
+			}
+		}
+
+		# Unite Christianity
+		else_if = {
+			limit = { has_global_flag = uniting_christianity }
+			any_title = {
+				limit = {
+					OR = {
+						title = k_papal_state
+#						title = d_cathar
+						title = d_fraticelli
+					}
+					has_holder = yes
+					holder_scope = { is_heretic = no }
+				}
+				holder_scope = { save_event_target_as = target_religion1 }
+			}
+		}
+
+		# No Distractions
+		add_character_modifier = {
+			modifier = do_not_disturb
+			hidden = yes
+			duration = 30
+		}
+
+		# Fire the ending event
+		narrative_event = { id = PlusGreatSchism.063 days = 30 }
+	}
+
+	option = {
+		name = PlusGreatSchism_061_1
+
+		hidden_tooltip = {
+			any_realm_character = {
+				limit = {
+					OR = {
+						religion = event_target:target_religion1
+						religion = event_target:target_religion2
+					}
+					NOT = { trait = zealous }
+				}
+				if = {
+					limit = { is_theocracy = yes }
+					set_character_flag = converting_religion
+				}
+				religion = event_target:mender_religion
+				clr_character_flag = converting_religion
+			}
+
+			any_realm_province = {
+				limit = {
+					OR = {
+						religion = event_target:target_religion1
+						religion = event_target:target_religion2
+					}
+				}
+				religion = event_target:mender_religion
+			}
+
+			any_independent_ruler = {
+				limit = {
+					OR = {
+						religion = event_target:target_religion1
+						religion = event_target:target_religion2
+					}
+					OR = {
+						NOT = { trait = zealous }
+						ai = no
+					}
+				}
+				narrative_event = { id = PlusGreatSchism.062 random = 4 } # Rulers choose
+			}
+		}
+	}
+}
+
+# 062: Rulers informed and get to choose
+narrative_event = {
+	id = PlusGreatSchism.062
+
+	title = PlusGreatSchism_061_title
+	picture = GFX_evt_great_schism
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	trigger = {
+		OR = {
+			religion = event_target:target_religion1
+			religion = event_target:target_religion2
+		}
+	}
+
+	# Mend Great Schism
+	desc = {
+		text = PlusGreatSchism_061_text_1
+		trigger = { has_global_flag = schism_mending }
+	}
+
+	# Enforce Ephesus
+	desc = {
+		text = PlusGreatSchism_061_text_2
+		trigger = { has_global_flag = enforcing_ephesus }
+	}
+
+	# Enforce Chalcedon
+	desc = {
+		text = PlusGreatSchism_061_text_3
+		trigger = { has_global_flag = enforcing_chalcedon }
+	}
+
+	# Repudiate Ephesus
+	desc = {
+		text = PlusGreatSchism_061_text_4
+		trigger = { has_global_flag = repudiating_ephesus }
+	}
+
+	# Repudiate Chalcedon
+	desc = {
+		text = PlusGreatSchism_061_text_5
+		trigger = { has_global_flag = repudiating_chalcedon }
+	}
+
+	# Unite Christianity
+	desc = {
+		text = PlusGreatSchism_061_text_6
+		trigger = { has_global_flag = uniting_christianity }
+	}
+
+	# Convert
+	option = {
+		name = PlusGreatSchism_061_text_1
+
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				OR = {
+					trait = zealous
+					has_character_modifier = voice_of_jesus
+					has_character_modifier = voice_of_satan
+				}
+			}
+			modifier = {
+				factor = 1.5
+				trait = humble
+			}
+			modifier = {
+				factor = 1.5
+				trait = craven
+			}
+			modifier = {
+				factor = 1.5
+				trait = content
+			}
+		}
+
+		hidden_tooltip = {
+			any_realm_character = {
+				limit = {
+					OR = {
+						religion = event_target:target_religion1
+						religion = event_target:target_religion2
+					}
+					NOT = { trait = zealous }
+				}
+				if = {
+					limit = { is_theocracy = yes }
+					set_character_flag = converting_religion
+				}
+				religion = event_target:mender_religion
+				clr_character_flag = converting_religion
+			}
+			any_realm_province = {
+				limit = {
+					OR = {
+						religion = event_target:target_religion1
+						religion = event_target:target_religion2
+					}
+				}
+				religion = event_target:mender_religion
+			}
+		}
+	}
+
+	# Don't Convert
+	option = {
+		name = PlusGreatSchism_061_text_2 # Don't Convert
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				NOR = {
+					trait = zealous
+					trait = lunatic
+					trait = proud
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+					has_character_modifier = voice_of_jesus
+					has_character_modifier = voice_of_satan
+					capital_holding = { holding_type = temple }
+					real_tier = EMPEROR
+					real_tier = KING
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					has_character_modifier = defied_church
+				}
+			}
+			modifier = {
+				factor = 3
+				trait = lunatic
+			}
+			modifier = {
+				factor = 1.5
+				trait = proud
+			}
+			modifier = {
+				factor = 1.5
+				trait = brave
+			}
+			modifier = {
+				factor = 1.5
+				trait = detached_priest
+			}
+			modifier = {
+				factor = 2
+				trait = martial_cleric
+			}
+			modifier = {
+				factor = 2.5
+				trait = scholarly_theologian
+			}
+			modifier = {
+				factor = 3
+				trait = mastermind_theologian
+			}
+			modifier = {
+				factor = 2
+				real_tier = KING
+			}
+			modifier = {
+				factor = 3
+				real_tier = EMPEROR
+			}
+		}
+
+		if = {
+			limit = { NOT = { trait = zealous } }
+			random = {
+				chance = 25
+				add_trait = zealous
+			}
+		}
+	}
+}
+
+# 063: Council Ended
+narrative_event = {
+	id = PlusGreatSchism.063
+
+	title = PlusGreatSchism_061_title
+	picture = GFX_evt_great_schism
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	major = yes
+
+	major_trigger = { religion_group = christian }
+
+	# Mend Great Schism
+	desc = {
+		text = PlusGreatSchism_063_text_1
+		trigger = { has_global_flag = schism_mending }
+	}
+
+	# Enforce Ephesus
+	desc = {
+		text = PlusGreatSchism_063_text_2
+		trigger = { has_global_flag = enforcing_ephesus }
+	}
+
+	# Enforce Chalcedon
+	desc = {
+		text = PlusGreatSchism_063_text_3
+		trigger = { has_global_flag = enforcing_chalcedon }
+	}
+
+	# Repudiate Ephesus
+	desc = {
+		text = PlusGreatSchism_063_text_4
+		trigger = { has_global_flag = repudiating_ephesus }
+	}
+
+	# Repudiate Chalcedon
+	desc = {
+		text = PlusGreatSchism_063_text_5
+		trigger = { has_global_flag = repudiating_chalcedon }
+	}
+
+	# Unite Christianity
+	desc = {
+		text = PlusGreatSchism_063_text_6
+		trigger = { has_global_flag = uniting_christianity }
+	}
+
+	immediate = {
+		event_target:mender_religion = {
+			event_target:target_religion1 = {
+				set_parent_religion = { religion = THIS parent = PREV }
+			}
+			event_target:target_religion2 = {
+				set_parent_religion = { religion = THIS parent = PREV }
+			}
+		}
+	}
+
+	option = {
+		name = PlusGreatSchism_063_1a
+		trigger = { religion = event_target:mender_religion }
+
+		hidden_tooltip = {
+			if = {
+				limit = { character = event_target:council_holder }
+				prestige = 1000
+				set_character_flag = schism_mender
+				give_nickname = nick_the_saint
+
+				if = {
+					limit = { has_global_flag = schism_mending }
+					clr_global_flag = schism_mending
+					set_global_flag = schism_mended
+				}
+				else_if = {
+					limit = { has_global_flag = enforcing_ephesus }
+					clr_global_flag = enforcing_ephesus
+					set_global_flag = ephesus_enforced
+				}
+				else_if = {
+					limit = { has_global_flag = enforcing_chalcedon }
+					clr_global_flag = enforcing_chalcedon
+					set_global_flag = chalcedon_enforced
+				}
+				else_if = {
+					limit = { has_global_flag = repudiating_ephesus }
+					clr_global_flag = repudiating_ephesus
+					set_global_flag = ephesus_repudiated
+				}
+				else_if = {
+					limit = { has_global_flag = repudiating_chalcedon }
+					clr_global_flag = repudiating_chalcedon
+					set_global_flag = chalcedon_repudiated
+				}
+				else_if = {
+					limit = { has_global_flag = uniting_christianity }
+					clr_global_flag = uniting_christianity
+					set_global_flag = christianity_united
+				}
+			}
+		}
+	}
+
+	option = {
+		name = PlusGreatSchism_063_1b
+		trigger = {
+			NOT = { religion = event_target:mender_religion }
+			religion_group = christian
+		}
+	}
+
+	option = {
+		name = PlusGreatSchism_063_1c
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+##############################################################
+#
+#	071 - 080: Schism Lead Up
+#
+##############################################################
+#
+#	INDEX
+#
+#	071: Pope appoints Holy Roman Emperor
+#	072: Holy Roman Emperor fights the Byzantine Empire
+#	073: Rome adopts Filioque
+#	074: Jurisdictional dispute over the Balkans
+#	075: Conflict over the Eucharist
+#	076: Wicked Pope or Patriarch
+#	077: Call for Ecumenical Council refused
+#
+##############################################################
+
+# 071: Pope appoints Holy Roman Emperor
+narrative_event = {
+	id = PlusGreatSchism.071
+
+	title = PlusGreatSchism_071_title
+	desc = PlusGreatSchism_071_text
+	picture = GFX_evt_found_hre
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	hide_from = yes
+	show_ROOT = yes
+	major = yes
+
+	trigger = {
+		NOR = {
+			has_global_flag = schism_prevented
+			has_global_flag = schism_happened
+			has_game_rule = {
+				name = great_schism
+				value = off
+			}
+		}
+	}
+
+	major_trigger = {
+		ai = no
+		religion_group = christian
+	}
+
+	option = {
+		name = {
+			text = PlusGreatSchism_071_1a
+			trigger = {
+				religion = chalcedonian
+				rightful_religious_head_scope = { trait = greek_rites }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_071_1b
+			trigger = {
+				religion = chalcedonian
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_071_1c
+			trigger = {
+				religion_group = christian
+				rightful_religious_head_scope = {
+					NOR = {
+						trait = greek_rites
+						trait = latin_rites
+					}
+				}
+			}
+		}
+		name = {
+			text = PlusGreatSchism_071_1d
+			trigger = {
+				NOT = { religion_group = christian }
+			}
+		}
+	}
+}
+
+# 072: Holy Roman Emperor fights the Byzantine Empire
+narrative_event = {
+	id = PlusGreatSchism.072
+
+	title = PlusGreatSchism_072_title
+	desc = PlusGreatSchism_072_text
+	picture = GFX_evt_melee
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	is_triggered_only = yes
+
+	major_trigger = {
+		ai = no
+		religion_group = christian
+	}
+
+	trigger = {
+		NOR = {
+			has_global_flag = attacked_by_papal_emperor
+			has_global_flag = schism_prevented
+			has_global_flag = schism_happened
+			has_game_rule = {
+				name = great_schism
+				value = off
+			}
+		}
+
+		has_landed_title = e_byzantium
+		religion = chalcedonian
+		is_heretic = no
+		NOT = { trait = excommunicated }
+
+		OR = {
+			any_war = {
+				defender = { character = ROOT }
+				attacker = {
+					religion = ROOT
+					NOT = { trait = excommunicated }
+					trait = crowned_by_pope
+				}
+			}
+			any_war = {
+				attacker = { character = ROOT }
+				defender = {
+					religion = ROOT
+					NOT = { trait = excommunicated }
+					trait = crowned_by_pope
+				}
+			}
+		}
+	}
+
+	weight_multiplier = { days = 30 }
+
+	immediate = {
+		log = "SCHISM LEAD-UP: WAR BETWEEN BYZANTIUM AND POPE'S CHAMPION"
+		set_global_flag = attacked_by_papal_emperor
+		change_variable = {
+			which = "global_great_schism_tracker"
+			value = 1
+		}
+		random_current_enemy = {
+			limit = { trait = crowned_by_pope }
+			save_event_target_as = papal_emperor
+		}
+	}
+
+	option = {
+		name = {
+			text = PlusGreatSchism_072_1a
+			trigger = {
+				religion = chalcedonian
+				rightful_religious_head_scope = { trait = greek_rites }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_072_1b
+			trigger = {
+				religion = chalcedonian
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_072_1c
+			trigger = {
+				religion_group = christian
+				rightful_religious_head_scope = {
+					NOR = {
+						trait = greek_rites
+						trait = latin_rites
+					}
+				}
+			}
+		}
+	}
+
+	after = {
+		clear_event_target = papal_emperor
+	}
+}
+
+# 073: Rome adopts Filioque
+narrative_event = {
+	id = PlusGreatSchism.073
+
+	title = PlusGreatSchism_073_title
+	desc = PlusGreatSchism_073_text
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	only_rulers = yes
+	religion = chalcedonian
+
+	trigger = {
+		has_landed_title = k_pentarch_rome
+		year >= 900
+		trait = latin_rites
+		is_heretic = no
+
+		NOR = {
+			religion_authority >= 0.75
+			has_global_flag = filioque_adopted
+			has_global_flag = schism_happened
+			has_global_flag = schism_prevented
+			has_game_rule = {
+				name = great_schism
+				value = off
+			}
+		}
+	}
+
+	major_trigger = {
+		ai = no
+		religion = chalcedonian
+	}
+
+	mean_time_to_happen = {
+		years = 100
+
+		modifier = {
+			factor = 0.75
+			year >= 950
+		}
+		modifier = {
+			factor = 0.5
+			year >= 1000
+		}
+		modifier = {
+			factor = 0.5
+			year >= 1025
+		}
+		modifier = {
+			factor = 0.25
+			year >= 1050
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.45
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.40
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.35
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.30
+		}
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: FILIOQUE ADOPTED"
+		set_global_flag = filioque_adopted
+		change_variable = {
+			which = "global_great_schism_tracker"
+			value = 1
+		}
+	}
+
+	option = {
+		name = {
+			text = PlusGreatSchism_073_1a
+			trigger = {
+				rightful_religious_head_scope = { trait = greek_rites }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_073_1b
+			trigger = {
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_073_1c
+			trigger = {
+				rightful_religious_head_scope = {
+					NOR = {
+						trait = greek_rites
+						trait = latin_rites
+					}
+				}
+			}
+		}
+	}
+}
+
+# 074: Jurisdictional dispute over the Balkans
+narrative_event = {
+	id = PlusGreatSchism.074
+
+	title = PlusGreatSchism_074_title
+	desc = PlusGreatSchism_074_text
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	only_rulers = yes
+	religion = chalcedonian
+
+	trigger = {
+		NOR = {
+			has_global_flag = papal_jurisdiction_dispute
+			has_global_flag = schism_happened
+			has_global_flag = schism_prevented
+			has_game_rule = {
+				name = great_schism
+				value = off
+			}
+		}
+
+		is_heretic = no
+		has_landed_title = k_pentarch_rome
+		trait = latin_rites
+
+		b_hagiasophia = {
+			holder_scope = {
+				trait = greek_rites
+				religion = ROOT
+			}
+		}
+
+		any_independent_ruler = {
+			religion = ROOT
+			lower_real_tier_than = EMPEROR
+			higher_real_tier_than = COUNT
+			is_playable = yes
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+
+			capital_scope = {
+				religion = ROOT
+				NOT = { empire = { title = e_byzantium } }
+				kingdom = {
+					OR = {
+						title = k_bulgaria
+						title = k_serbia
+						title = k_croatia
+#						title = k_wallachia
+					}
+				}
+			}
+		}
+	}
+
+	major_trigger = {
+		ai = no
+		religion = chalcedonian
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		log = "SCHISM LEAD-UP: PAPAL JURISDICTION DISPUTE OVER [jurisdiction_realm.GetName]"
+		set_global_flag = papal_jurisdiction_dispute
+		change_variable = {
+			which = "global_great_schism_tracker"
+			value = 1
+		}
+
+		b_hagiasophia = {
+			holder_scope = {
+				save_event_target_as = current_patriarch
+			}
+		}
+
+		random_independent_ruler = {
+			limit = {
+				religion = ROOT
+				lower_real_tier_than = EMPEROR
+				higher_real_tier_than = COUNT
+				is_playable = yes
+				mercenary = no
+				holy_order = no
+				is_landed = yes
+
+				capital_scope = {
+					religion = ROOT
+					NOT = { empire = { title = e_byzantium } }
+					kingdom = {
+						OR = {
+							title = k_bulgaria
+							title = k_serbia
+							title = k_croatia
+#							title = k_wallachia
+						}
+					}
+				}
+			}
+			primary_title = { save_event_target_as = jurisdiction_realm }
+		}
+	}
+
+	option = {
+		name = {
+			text = PlusGreatSchism_074_1a
+			trigger = {
+				rightful_religious_head_scope = { trait = greek_rites }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_074_1b
+			trigger = {
+				rightful_religious_head_scope = { trait = latin_rites }
+			}
+		}
+		name = {
+			text = PlusGreatSchism_074_1c
+			trigger = {
+				rightful_religious_head_scope = {
+					NOR = {
+						trait = greek_rites
+						trait = latin_rites
+					}
+				}
+			}
+		}
+		clear_event_target = current_patriarch
+		clear_event_target = jurisdiction_realm
+	}
+}
+
+# 075: Conflict over the Eucharist
+narrative_event = {
+	id = PlusGreatSchism.075
+
+	title = PlusGreatSchism_075_title
+	picture = GFX_evt_bishop
+	border = GFX_event_narrative_frame_religion
+
+	desc = {
+		text = PlusGreatSchism_075_text_greek
+		trigger = {
+			ROOT = {
+				trait = greek_rites
+			}
+		}
+	}
+	desc = {
+		text = PlusGreatSchism_075_text_latin
+		trigger = {
+			ROOT = {
+				trait = latin_rites
+			}
+		}
+	}
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	only_rulers = yes
+	religion = chalcedonian
+	min_age = 16
+	capable_only = yes
+	war = no
+
+	trigger = {
+		year >= 900
+
+		NOR = {
+			liege = { war = yes }
+			trait = excommunicated
+			is_inaccessible_trigger = yes
+			has_global_flag = eucharist_conflict
+			has_global_flag = schism_happened
+			has_global_flag = schism_prevented
+			has_game_rule = {
+				name = great_schism
+				value = off
+			}
+		}
+
+		rightful_religious_head = ROOT
+		is_heretic = no
+
+		NOR = {
+			has_landed_title = b_hagiasophia
+			has_landed_title = k_pentarch_rome
+		}
+	}
+
+	major_trigger = { religion = chalcedonian }
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			year = 1000
+		}
+		modifier = {
+			factor = 0.5
+			year = 1025
+		}
+		modifier = {
+			factor = 0.5
+			year = 1050
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.45
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.40
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.35
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.30
+		}
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: CONFLICT OVER THE EUCHARIST"
+		set_global_flag = eucharist_conflict
+		change_variable = {
+			which = "global_great_schism_tracker"
+			value = 1
+		}
+	}
+
+	option = {
+		name = {
+			text = PlusGreatSchism_075_1a # The Eucharist uses leavened bread
+			trigger = { rightful_religious_head_scope = { trait = greek_rites } }
+		}
+		name = {
+			text = PlusGreatSchism_075_1b # The Eucharist uses unleavened bread
+			trigger = { rightful_religious_head_scope = { trait = latin_rites } }
+		}
+		name = {
+			text = PlusGreatSchism_075_1c # All this over bread?
+			trigger = {
+				rightful_religious_head_scope = {
+					NOR = {
+						trait = greek_rites
+						trait = latin_rites
+					}
+				}
+			}
+		}
+	}
+}
+
+# 076: Wicked Pope or Patriarch
+narrative_event = {
+	id = PlusGreatSchism.076
+
+	title = PlusGreatSchism_076_title
+	desc = PlusGreatSchism_076_text
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	trigger = {
+		OR = {
+			has_landed_title = k_pentarch_rome
+			has_landed_title = b_hagiasophia
+		}
+
+		NOR = {
+			check_variable = {
+				which = "global_great_schism_tracker"
+				value >= 4
+			}
+			has_global_flag = wicked_pope_patriarch
+			has_global_flag = schism_happened
+			has_global_flag = schism_prevented
+			has_game_rule = {
+				name = great_schism
+				value = off
+			}
+		}
+
+		is_heretic = no
+		trait = bad_priest_christian
+		intrigue < 12
+
+		k_pentarch_rome = {
+			has_holder = yes
+			holder_scope = {
+				religion = ROOT
+				OR = {
+					character = ROOT
+					NOT = { trait = bad_priest_christian }
+				}
+			}
+		}
+
+		b_hagiasophia = {
+			has_holder = yes
+			holder_scope = {
+				religion = ROOT
+				OR = {
+					character = ROOT
+					NOT = { trait = bad_priest_christian }
+				}
+			}
+		}
+	}
+
+	major_trigger = {
+		ai = no
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 2
+			religion_authority >= 0.70
+		}
+		modifier = {
+			factor = 2
+			religion_authority >= 0.80
+		}
+		modifier = {
+			factor = 2
+			religion_authority >= 0.90
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.50
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.45
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.40
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.35
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.30
+		}
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: [Root.GetTitledName] IS WICKED"
+		set_global_flag = wicked_pope_patriarch
+		change_variable = {
+			which = "global_great_schism_tracker"
+			value = 1
+		}
+
+		if = {
+			limit = { has_landed_title = k_pentarch_rome }
+			b_hagiasophia = {
+				holder_scope = { save_event_target_as = other_patriarch }
+			}
+		}
+		else = {
+			k_pentarch_rome = {
+				holder_scope = { save_event_target_as = other_patriarch }
+			}
+		}
+	}
+
+	option = {
+		name = PlusGreatSchism_076_1
+	}
+
+	after = {
+		clear_event_target = other_patriarch
+	}
+}
+
+# 077: Call for Ecumenical Council refused
+narrative_event = {
+	id = PlusGreatSchism.077
+
+	only_rulers = yes
+	religion = chalcedonian
+
+	title = PlusGreatSchism_077_title
+	desc = PlusGreatSchism_077_text
+	picture = GFX_evt_rival_rulers
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	trigger = {
+		has_landed_title = k_pentarch_rome
+		year >= 1000
+
+		NOR = {
+			has_global_flag = ecumenical_council_refused
+			has_global_flag = schism_happened
+			has_global_flag = schism_prevented
+			has_game_rule = {
+				name = great_schism
+				value = off
+			}
+		}
+
+		NOR = {
+			war = yes
+			is_heretic = yes
+			trait = excommunicated
+			is_inaccessible_trigger = yes
+		}
+
+		is_variable_equal = {
+			which = "global_great_schism_tracker"
+			value = 3
+		}
+
+		b_hagiasophia = {
+			holder_scope = {
+				war = no
+				trait = greek_rites
+				religion = ROOT
+				NOR = {
+					trait = excommunicated
+					is_inaccessible_trigger = yes
+				}
+			}
+		}
+	}
+
+	major_trigger = {
+		ai = no
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		years = 25
+
+		modifier = {
+			factor = 0.5
+			year >= 1025
+		}
+		modifier = {
+			factor = 0.5
+			year >= 1050
+		}
+		modifier = {
+			factor = 1.5
+			religion_authority >= 0.70
+		}
+		modifier = {
+			factor = 1.5
+			religion_authority >= 0.80
+		}
+		modifier = {
+			factor = 1.5
+			religion_authority >= 0.90
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.50
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.45
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.40
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.35
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority < 0.30
+		}
+	}
+
+	immediate = {
+		log = "SCHISM LEAD-UP: CALL FOR ECUMENICAL COUNCIL REFUSED"
+		set_global_flag = ecumenical_council_refused
+		change_variable = {
+			which = "global_great_schism_tracker"
+			value = 1
+		}
+
+		b_hagiasophia = {
+			holder_scope = { save_event_target_as = current_patriarch }
+		}
+	}
+
+	option = {
+		name = {
+			text = PlusGreatSchism_077_1a
+			trigger = {
+				rightful_religious_head_scope = {
+					trait = greek_rites
+				}
+			}
+		}
+		name = {
+			text = PlusGreatSchism_077_1b
+			trigger = {
+				rightful_religious_head_scope = {
+					trait = latin_rites
+				}
+			}
+		}
+		name = {
+			text = PlusGreatSchism_077_1c
+			trigger = {
+				rightful_religious_head_scope = {
+					NOR = {
+						trait = greek_rites
+						trait = latin_rites
+					}
+				}
+			}
+		}
+	}
+}

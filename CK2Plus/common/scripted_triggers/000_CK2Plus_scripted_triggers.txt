@@ -1,11 +1,12 @@
-#########################################
+#################################################################
 #
 #	Plus maintenance scripted triggers
 #
-#########################################
+#################################################################
 #
-# These MUST be called in a CHARACTER scope to work properly
+#	These MUST be called in a CHARACTER scope to work properly
 #
+#################################################################
 
 CK2Plus_war_reqs = {
 
@@ -24,5 +25,16 @@ is_not_animal_culture_group_CK2Plus_trigger = {
 		culture_group = elephant_group
 		culture_group = dragon_group
 		culture_group = panda_group
+	}
+}
+
+is_not_busy_CK2Plus_trigger = {
+	custom_tooltip = {
+		text = is_not_busy_trigger_tooltip
+
+		NOR = {
+			has_character_modifier = do_not_disturb
+			has_character_flag = do_not_disturb
+		}
 	}
 }

@@ -177,7 +177,6 @@ defined_text = {
 		localisation_key = secret_religious_society_celtic_pagan_desc_REAL
 	}
 }
-
 defined_text = {
 	name = GetReligiousSocietyDesc_celtic_pagan_reformed
 	text = {
@@ -221,7 +220,6 @@ defined_text = {
 		localisation_key = secret_religious_society_basque_pagan_desc_REAL
 	}
 }
-
 defined_text = {
 	name = GetReligiousSocietyDesc_basque_pagan_reformed
 	text = {
@@ -231,5 +229,28 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
 		localisation_key = secret_religious_society_basque_pagan_reformed_desc_REAL
+	}
+}
+
+## Chalcedonian
+defined_text = {
+	name = GetReligiousCommunityName_chalcedonian
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_name_chalcedonian
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_REAL_chalcedonian
+	}
+}
+
+defined_text = {
+	name = GetReligiousSocietyDesc_chalcedonian
+	text = {
+		trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_desc
+	}
+	text = {
+		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_chalcedonian_desc_REAL
 	}
 }

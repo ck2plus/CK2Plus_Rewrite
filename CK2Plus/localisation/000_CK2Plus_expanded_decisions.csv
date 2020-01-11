@@ -1,0 +1,45 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#######################
+#
+#	Celtic decisions
+#
+#######################
+
+expel_keepers_tirnanog;Expel the Keepers of TÌr na n”g;Expulser les Gardiens du TÌr na n”g;Vertreibt die W‰chter von TÌr na n”g;;Expulsar a los Guardianes de TÌr na n”g;;;;;;;;;x
+expel_keepers_tirnanog_desc;I can drive the Keepers of TÌr na n”g from my realm and seize their castles. However, it is a very impious thing to do...;Je peux expulser les Gardiens du TÌr na n”g de mon pays et m'emparer de leurs commanderies. Ce serait par contre un acte des plus impies...;Ich kann die W‰chter von TÌr na n”g aus meinem Reich vertreiben und ihre Burgen beschlagnahmen. Das w‰re jedoch eine sehr unfromme Tat...;;Puedo echar a los Guardianes de TÌr na n”g de mi reino y apoderarme de sus castillos. Sin embargo, es una acciÛn muy impÌa...;;;;;;;;;x
+
+donate_money_to_keepers_tirnanog;Donate 300§ to the Keepers of TÌr na n”g;Donner 300§ aux Gardiens du TÌr na n”g;Spendet den W‰chter von TÌr na n”g 300§ ;;Donar 300§ a los Guardianes de TÌr na n”g;;;;;;;;;x
+donate_money_to_keepers_tirnanog_desc;I can donate money to the Keepers of TÌr na n”g in exchange for [Player.Religion.GetPietyName] and lifelong respect from the Gentlidecht Priesthood.;Je peux donner de l'argent aux Gardiens du TÌr na n”g en Èchange de [Player.Religion.GetPietyName] et du respect permanent des prÍtres gentlidechts.;Ich kann den W‰chter von TÌr na n”g Geld spenden im Tausch gegen [Player.Religion.GetPietyName] und den lebenslangen Respekt durch die Gentlidecht-Priesterschaft.;;Puedo hacer una donaciÛn a los Guardianes de TÌr na n”g. A cambio obtendrÈ la [Player.Religion.GetPietyName] y el respeto de por vida del Sacerdocio Gentlidecht.;;;;;;;;;x
+
+hold_celtic_feast;Hold Celtic feast;;;;;;;;;;;;;x
+hold_celtic_feast_desc;In keeping with the traditions of our ancestors, I should celebrate our customs by offering to the gods, in exchange foor good tidings;;;;;;;;;;;;;x
+hold_celtic_feast_desc_extra;Seasonal feast;;;;;;;;;;;;;x
+hold_celtic_feast_tt;Seasonal;;;;;;;;;;;;;x
+
+#######################
+#
+#	Schism decisions
+#
+#######################
+
+chalcedonian_patriarch_rome;Anoint a Latin Patriarch Supreme;;;;;;;;;;;;;x
+chalcedonian_patriarch_rome_desc;The rift between the Latin and Greek sides of Christianity has widened, and only a leader given primacy over the other Pentarchs can possibly prevent it from developing into a true schism. With sufficient piety and prestige, the Bishop of Rome could be just the leader Christianity requires.;;;;;;;;;;;;;x
+
+chalcedonian_patriarch_constantinople;Anoint a Greek Patriarch Supreme;;;;;;;;;;;;;x
+chalcedonian_patriarch_constantinople_desc;The rift between the Latin and Greek sides of Christianity has widened, and only a leader given primacy over the other Pentarchs can possibly prevent it from developing into a true schism. With sufficient piety and prestige, the Ecumenical Patriarch could be just the leader Christianity requires.;;;;;;;;;;;;;x
+
+enforce_chalcedon;Enforce Chalcedon;;;;;;;;;;;;;x
+enforce_chalcedon_desc;The Council of Chalcedon in 451 AD repudiated the Eutychian doctrine of monophytism, a practice that has continued under the leadership of both the Coptic and Apostolic church. With the Great Schism ended, perhaps it is time to bring these heretics back under the fold of the [Root.Religion.GetName] faith once and for all.;;;;;;;;;;;;;x
+
+enforce_ephesus;Enforce Ephesus;;;;;;;;;;;;;x
+enforce_ephesus_desc;The Council of Ephesus in 431 AD repudiated Nestorianism, leading to the split of the so-called 'Church of the East' from Christianity proper. With the Great Schism ended, perhaps it is time to bring these heretics back under the fold of the [Root.Religion.GetName] faith once and for all.;;;;;;;;;;;;;x
+
+repudiate_ephesus;Repudiate Ephesus;;;;;;;;;;;;;x
+repudiate_ephesus_desc;The Council of Ephesus in 431 AD rejected the notion of Nestorianism, forcing its believers to split off from the Christian Church into their own Church of the East. Repudiating the council would require complete control over the eastern sees of the Pentarchy, thus proving once and for all the righteousness of the Nestorian faith.;;;;;;;;;;;;;x
+
+repudiate_chalcedon;Repudiate Chalcedon;;;;;;;;;;;;;x
+repudiate_chalcedon_desc;The Council of Chalcedon in 451 AD rejected the notion of Miaphytism, forcing its believers to split off from the Christian Church into our own [Root.Religion.GetName] Church. Repudiating the council would require complete control over the eastern sees of the Pentarchy, thus proving once and for all the righteousness of the [Root.Religion.GetName] faith.;;;;;;;;;;;;;x
+
+unite_christianity;Unite Christianity;;;;;;;;;;;;;x
+unite_christianity_desc;With the eastern sees united under the [Root.Religion.GetName] Church, the time has come to end the division with Rome and see all of Christianity made whole once again.;;;;;;;;;;;;;x

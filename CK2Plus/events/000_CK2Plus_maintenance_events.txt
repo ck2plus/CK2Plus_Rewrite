@@ -1,34 +1,33 @@
-
 namespace = PlusMaintenance
 
-########################
+#####################################
 #
-# Maintenance events
+#	Maintenance events
 #
-########################
+#####################################
 #
-# CATALOG
+#	CATALOG
 #
-# 001 - 100: Baby events
+#	001 - 100: Baby events
+#	101 - 200: Start-up events
 #
-########################
+#####################################
 
-
-################################
+#####################################
 #
-# 001 - 100: Baby events
+#	001 - 100: Baby events
 #
-# by LordPeter
+#	by LordPeter
 #
-################################
+#####################################
 #
-# INDEX
+#	INDEX
 #
-# 001: Give newborn baby trait
-# 002: Remove baby at 2 years
-# 002: Startup: Give baby traits
+#	001: Give newborn baby trait
+#	002: Remove baby at 2 years
+#	002: Startup: Give baby traits
 #
-################################
+#####################################
 
 # Give newborn baby trait
 character_event = {
@@ -54,7 +53,7 @@ character_event = {
 			limit = {
 				has_game_rule = {
 					name = baby_portraits
-					value = yes
+					value = on
 				}
 				NOR = {
 					trait = baby_boy_fair
@@ -71,7 +70,6 @@ character_event = {
 		}
 	}
 }
-
 
 # Remove baby at 2 years
 character_event = {
@@ -131,7 +129,7 @@ character_event = {
 			limit = {
 				has_game_rule = {
 					name = baby_portraits
-					value = yes
+					value = on
 				}
 				NOR = {
 					trait = baby_boy_fair
@@ -172,4 +170,144 @@ character_event = {
 		}
 	}
 	#NOTE: This whole thing is currently untested, need to check if it actually works as advertised by vanilla patch notes...
+}
+
+#####################################
+#
+#	101 - 200: Start-up events
+#
+#####################################
+#
+#	INDEX
+#
+#	101: New-game set-up
+#
+#####################################
+
+character_event = {
+	id = PlusMaintenance.101
+
+	hide_window = yes
+	is_triggered_only = yes # on_startup
+
+	ai = no
+
+	trigger = {
+		NOT = { has_global_flag = plus_startup }
+		OR = {
+			multiplayer = no
+			is_multiplayer_host_character = yes
+		}
+	}
+
+	immediate = {
+		log = "PlusMaintenance.101"
+		character_event = { id = PlusGreatSchism.001 } # Pre-Schism set-up
+		character_event = { id = PlusMaintenance.102 } # Apply Plus game rules
+		set_global_flag = plus_startup
+	}
+}
+
+character_event = { # Apply Plus game rules
+	id = PlusMaintenance.102
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		NOT = { has_global_flag = plus_rules_applied }
+	}
+
+	immediate = {
+		set_global_flag = plus_rules_applied
+		log = "PlusMaintenance.102"
+
+		# Trigger Great Schism
+		if = {
+			limit = {
+				# Great Schism hasn't happened already, i.e. post 1000 starts.
+				NOT = { has_global_flag = great_schism_happened }
+				has_game_rule = {
+					name = great_schism
+					value = split
+				}
+			}
+
+			# Required in order for the event to bypass normal checks
+			set_global_flag = great_schism_manual_override
+
+			k_pentarch_rome = {
+				holder_scope = {
+					character_event = {
+						id = PlusGreatSchism.001
+						days = 1
+					}
+				}
+			}
+		}
+
+		# Revert Great Schism
+		if = {
+			limit = {
+				# Great Schism has happened, but we want it reverted (not mended) immediately
+				has_global_flag = great_schism_happened
+				has_game_rule = {
+					name = great_schism
+					value = join
+				}
+			}
+
+			clr_global_flag = great_schism_happened
+			set_global_flag = great_schism_reverted
+
+			log = "REVERT GREAT SCHISM"
+
+			c_roma = {
+				holder_scope = {
+					character_event = {
+						id = PlusGreatSchism.001
+					}
+				}
+			}
+		}
+
+		# Revert and Disable Great Schism
+		if = {
+			limit = {
+				# Great Schism has happened, but we want it reverted (not mended) immediately
+				has_global_flag = great_schism_happened
+				has_game_rule = {
+					name = great_schism
+					value = off
+				}
+			}
+
+			clr_global_flag = great_schism_happened
+			set_global_flag = great_schism_reverted
+			set_global_flag = great_schism_disabled
+
+			log = "REVERT AND DISABLE GREAT SCHISM"
+
+			c_roma = {
+				holder_scope = {
+					character_event = {
+						id = PlusGreatSchism.001
+					}
+				}
+			}
+		}
+
+		# Disable Great Schism
+		if = {
+			limit = {
+				# Great Schism has not happened, and we want to disable it
+				NOT = { has_global_flag = great_schism_happened }
+				has_game_rule = {
+					name = great_schism
+					value = off
+				}
+			}
+			set_global_flag = great_schism_disabled
+		}
+	}
 }

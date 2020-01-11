@@ -1,0 +1,18 @@
+#############################################
+#
+#	CK2Plus Great Schism opinion modifiers
+#
+#	Total = 2
+#
+#	greek_latin_relations
+#	refused_to_change_rite
+#
+#############################################
+
+greek_latin_relations = {
+	opinion = -25
+}
+
+refused_to_change_rite = {
+	opinion = -15
+}

@@ -1,0 +1,3 @@
+do_not_disturb = {
+	icon = 1
+}

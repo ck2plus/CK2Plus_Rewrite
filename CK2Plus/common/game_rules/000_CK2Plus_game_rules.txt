@@ -1,40 +1,82 @@
-#######
-#Plus Rules:
+#########################
 #
-#Total: 1
-#######
+#	Plus Rules
+#
+#	Total: 3
+#
+#	baby_portraits
+#	death_of_nations
+#	great_schism
+#
+#########################
+
+# Useful references from vanilla
+# RULE_OPTION_ON
+# RULE_OPTION_OFF
+# RULE_OPTION_RANDOM
+# RULE_OPTION_DEFAULT
+# RULE_OPTION_HISTORICAL
+# RULE_OPTION_ALL
 
 baby_portraits = {
-	name = "BABY_PORTRAITS"
-	group = "RULE_GROUP_PLUS"
+	name = BABY_PORTRAITS
+	group = RULE_GROUP_PLUS
+
 	option = {
-		name = yes
-		text = "YES"
-		desc = "BABY_PORTRAITS_YES_DESC"
+		name = on
+		text = RULE_OPTION_ON
+		desc = BABY_PORTRAITS_ON_desc
 	}
 	option = {
-		name = no
-		text = "NO"
-		desc = "BABY_PORTRAITS_NO_DESC"
+		name = off
+		text = RULE_OPTION_OFF
+		desc = BABY_PORTRAITS_OFF_desc
 	}
 }
 
 death_of_nations = {
-	name = "DEATH_OF_NATIONS"
-	group = "RULE_GROUP_PLUS"
+	name = DEATH_OF_NATIONS
+	group = RULE_GROUP_PLUS
+
 	option = {
 		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_DEATH_OF_NATIONS_ON"
+		text = RULE_OPTION_ON
+		desc = DEATH_OF_NATIONS_ON_desc
 	}
 	option = {
 		name = empires
-		text = "RULE_OPTION_EMPIRES"
-		desc = "RULE_DEATH_OF_NATIONS_EMPIRES"
+		text = DEATH_OF_NATIONS_EMPIRES
+		desc = DEATH_OF_NATIONS_EMPIRES_desc
 	}
 	option = {
 		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_DEATH_OF_NATIONS_OFF"
+		text = RULE_OPTION_OFF
+		desc = DEATH_OF_NATIONS_OFF_desc
+	}
+}
+
+great_schism = {
+	name = GREAT_SCHISM
+	group = RULE_GROUP_PLUS
+
+	option = {
+		name = default
+		text = RULE_OPTION_DEFAULT
+		desc = GREAT_SCHISM_DEFAULT_desc
+	}
+	option = {
+		name = join
+		text = GREAT_SCHISM_JOIN
+		desc = GREAT_SCHISM_JOIN_desc
+	}
+	option = {
+		name = split
+		text = GREAT_SCHISM_SPLIT
+		desc = GREAT_SCHISM_SPLIT_desc
+	}
+	option = {
+		name = off
+		text = RULE_OPTION_OFF
+		desc = GREAT_SCHISM_DISABLED_desc
 	}
 }

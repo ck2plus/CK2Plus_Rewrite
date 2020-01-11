@@ -6,12 +6,18 @@
 #
 #	INDEX
 #
-#	Total = 2
+#	Total = 9
 #
 #	celtic_battle_cry
 #	basque_black_sabbath
 #	expelled_d_keepers_tirnanog
 #	expelled_d_sword_of_ama_lur
+#
+#	secret_celtic_pagan_community
+#	secret_celtic_pagan_reformed_community
+#	secret_basque_pagan_community
+#	secret_basque_pagan_reformed_community
+#	secret_chalcedonian_community
 #
 #########################################
 
@@ -91,7 +97,7 @@
 #
 ########################################
 
-#Celtic Battle Cry
+# Celtic Battle Cry
 celtic_battle_cry = {
 	icon = 13
 	command_modifier = {
@@ -113,9 +119,12 @@ basque_black_sabbath = {
 expelled_d_keepers_tirnanog = {
 	icon = 35
 }
+
 expelled_d_sword_of_ama_lur = {
 	icon = 35
 }
+
+# Secret religious societies modifiers
 
 secret_celtic_pagan_community = {
 	icon = 18
@@ -129,6 +138,7 @@ secret_celtic_pagan_reformed_community = {
 		society_member_of = secret_religious_society_celtic_pagan_reformed
 	}
 }
+
 secret_basque_pagan_community = {
 	icon = 18
 	is_visible = {
@@ -139,5 +149,12 @@ secret_basque_pagan_reformed_community = {
 	icon = 18
 	is_visible = {
 		society_member_of = secret_religious_society_basque_pagan_reformed
+	}
+}
+
+secret_chalcedonian_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_chalcedonian
 	}
 }

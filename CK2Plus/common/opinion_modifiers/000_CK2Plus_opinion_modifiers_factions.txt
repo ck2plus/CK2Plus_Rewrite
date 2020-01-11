@@ -1,0 +1,20 @@
+#########################################
+#
+#	CK2Plus Factions opinion modifiers
+#
+#	Total = 2
+#
+#	plus_faction_friendly
+#	plus_faction_hostile
+#
+#########################################
+
+plus_faction_friendly = { # Factions may not attack each other
+	opinion = 0
+	non_aggression_pact = yes
+}
+
+plus_faction_hostile = { # Factions may loot each other
+	opinion = 0
+	enemy = yes
+}

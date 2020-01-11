@@ -6,8 +6,36 @@
 #
 ######################
 
-succession_voting_power_0_effect_tooltip;§YPowerful Vassals§! can be fired from the §YCouncil§!\nCan now change §YSuccession Laws§!;;;;;;;;;;;;;x
-succession_voting_power_1_effect_tooltip;§YPowerful Vassals§! cannot be fired from the §YCouncil§!\nCan no longer change §YSuccession Laws§!;;;;;;;;;;;;;x
+## General tooltips
+IS_NOT_BUSY;Is not currently busy\n;N'est pas actuellement occupé\n;Ist momentan nicht beschäftigt\n;;Actualmente no está ocupado\n;;;;;;;;;x
 
+## Decision tooltips
+# Laws
 BY_DECISION;Enacted by decision only\n;;;;;;;;;;;;;x
-#€
+
+# General decisions
+CONTROL_RELIGION_NO_WAR;Is held by a §Y[Root.Religion.GetName]§! ruler and not at war\n;;;;;;;;;;;;;x
+
+# Schism decisions
+CATHOLIC_SCHISM_ENDED;All Catholic Christians and heresies will be merged with the [Root.Religion.GetName] faith\n;;;;;;;;;;;;;x
+MIAPHYSITE_SCHISM_ENDED;All Miaphysites and their heresies will be merged into the [Root.Religion.GetName] faith\n;;;;;;;;;;;;;x
+NESTORIAN_SCHISM_ENDED;Nestorianism and its heresies will be merged into the [Root.Religion.GetName] faith\n;;;;;;;;;;;;;x
+ORTHODOX_SCHISM_ENDED;All Orthodox Christians and heresies will be merged with the [Root.Religion.GetName] faith\n;;;;;;;;;;;;;x
+
+# Patriarch decisions
+ROME_DOES_NOT_EXIST;The §YPapacy of Rome§! no longer exists, and cannot be created\n;;;;;;;;;;;;;x
+ROME_IS_YOUR_VASSAL;The §YPapacy of Rome§! is part of the §Y[Root.PrimaryTitle.GetFullName]§!\n;;;;;;;;;;;;;x
+RELIGION_HEAD_IS_GREEK;Your religion head has §YGreek Rites§!\n;;;;;;;;;;;;;x
+RELIGION_HEAD_IS_LATIN;Your religion head has §YLatin Rites§!\n;;;;;;;;;;;;;x
+CONSTANTINOPLE_BECOMES_PATRIARCH_SUPREME;The Ecumenical Patriarch will become the new §YPatriarch Supreme§! and thus the religion head for all Chalcedonian Christianity\n;;;;;;;;;;;;;x
+CONSTANTINOPLE_DOES_NOT_EXIST;The §YPatriarchate of Constantinople§! no longer exists, and cannot be created\n;;;;;;;;;;;;;x
+CONSTANTINOPLE_IS_YOUR_VASSAL;The §YPatriarchate of Constantinople§! is part of the §Y[Root.PrimaryTitle.GetFullName]§!\n;;;;;;;;;;;;;x
+ECUMENICAL_PATRIARCH_IS_LATIN;The §YEcumenical Patriarch§! has §YLatin Rites§!\n;;;;;;;;;;;;;x
+TWO_OTHER_GREEK_PATRIARCHS;At least two other Pentarchs have §YGreek Rites§!\n;;;;;;;;;;;;;x
+TWO_OTHER_LATIN_PATRIARCHS;At least two other Pentarchs have §YLatin Rites§!\n;;;;;;;;;;;;;x
+PAPACY_IS_GREEK;The §YPope of Rome§! has §YGreek Rites§!\n;;;;;;;;;;;;;x
+ROME_BECOMES_PATRIARCH_SUPREME;The Pope will become the new §YPatriarch Supreme§! and the religion head for all Chalcedonian Christianity\n;;;;;;;;;;;;;x
+
+
+# Character
+plus_favor;Owes a §YFavor§!.;Doit une §YFaveur§!;Verdankt einen §YGefallen§!;;Debe un §YFavor§!;;;;;;;;;x

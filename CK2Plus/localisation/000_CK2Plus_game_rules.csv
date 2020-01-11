@@ -7,11 +7,21 @@
 ###########################
 
 RULE_GROUP_PLUS;Plus;;;;;;;;;;;;;x
+
 BABY_PORTRAITS;§GCK2+§!: Baby Portraits;§GCK2+§!: Portraits de Bébé;§GCK2+§!: Baby-Porträts;;§GCK2+§!: Retratos de Bebé;;;;;;;;;x
-BABY_PORTRAITS_YES_DESC;Children under two years of age will have different portraits.;Les enfants de moins de deux ans auront des portraits différents.;Kinder unter zwei Jahren haben unterschiedliche Porträts.;;Los niños menores de dos años tendrán diferentes retratos.;;;;;;;;;x
-BABY_PORTRAITS_NO_DESC;All children will use vanilla portraits.;Tous les enfants utiliseront des portraits à la vanille.;Alle Kinder verwenden Vanilleporträts.;;Todos los niños usarán retratos de vainilla.;;;;;;;;;x
+BABY_PORTRAITS_ON_desc;Children under two years of age will have different portraits.;Les enfants de moins de deux ans auront des portraits différents.;Kinder unter zwei Jahren haben unterschiedliche Porträts.;;Los niños menores de dos años tendrán diferentes retratos.;;;;;;;;;x
+BABY_PORTRAITS_OFF_desc;All children will use vanilla portraits.;Tous les enfants utiliseront des portraits à la vanille.;Alle Kinder verwenden Vanilleporträts.;;Todos los niños usarán retratos de vainilla.;;;;;;;;;x
+
 DEATH_OF_NATIONS;§GCK2+§!: Death of Nations;§GCK2+§!: Mort des Nations;§GCK2+§!: Tod der Nationen;;§GCK2+§!: Muerte de Naciones;;;;;;;;;x
-RULE_OPTION_EMPIRES;Empires;Empires;Reiche;;Imperios;;;;;;;;;x
-RULE_DEATH_OF_NATIONS_ON;Destroy unclaimed kingdom and empire titles.;Détruisez les titres de royaume et d'empire non réclamés.;Zerstöre nicht beanspruchte Königreichs- und Reichstitel.;;Destruye títulos de imperios y reinos no reclamados.;;;;;;;;;x
-RULE_DEATH_OF_NATIONS_EMPIRES;Destroy unclaimed empire titles.;Détruisez les titres d'empire non réclamés.;Zerstöre nicht beanspruchte Reichstitel.;;Destruye títulos imperiales no reclamados.;;;;;;;;;x
-RULE_DEATH_OF_NATIONS_OFF;Don't destroy unclaimed titles.;Ne détruisez pas les titres non réclamés.;Zerstöre nicht beanspruchte Titel nicht.;;No destruyas títulos no reclamados.;;;;;;;;;x
+DEATH_OF_NATIONS_ON_desc;Destroy unclaimed kingdom and empire titles.;Détruisez les titres de royaume et d'empire non réclamés.;Zerstöre nicht beanspruchte Königreichs- und Reichstitel.;;Destruye títulos de imperios y reinos no reclamados.;;;;;;;;;x
+DEATH_OF_NATIONS_EMPIRES;Empires;Empires;Reiche;;Imperios;;;;;;;;;x
+DEATH_OF_NATIONS_EMPIRES_desc;Destroy unclaimed empire titles.;Détruisez les titres d'empire non réclamés.;Zerstöre nicht beanspruchte Reichstitel.;;Destruye títulos imperiales no reclamados.;;;;;;;;;x
+DEATH_OF_NATIONS_OFF_desc;Don't destroy unclaimed titles.;Ne détruisez pas les titres non réclamés.;Zerstöre nicht beanspruchte Titel nicht.;;No destruyas títulos no reclamados.;;;;;;;;;x
+
+GREAT_SCHISM;§GCK2+§!: Great Schism;;;;;;;;;;;;;x
+GREAT_SCHISM_DEFAULT_desc;In bookmarks before year 1054 the Christianity will be united under Chalcedonian faith. After that, it will be split to Catholic and Orthodox.;;;;;;;;;;;;;x
+GREAT_SCHISM_SPLIT;Split;;;;;;;;;;;;;x
+GREAT_SCHISM_SPLIT_desc;Chalcedonian faith will be split to Orthodox and Catholic.\n§BNote: Applicable only to first three bookmarks.§!;;;;;;;;;;;;;x
+GREAT_SCHISM_JOIN;Join;;;;;;;;;;;;;x
+GREAT_SCHISM_JOIN_desc;Catholics and Orthodox will be united under the Chalcedonian faith.;;;;;;;;;;;;;x
+GREAT_SCHISM_DISABLED_desc;Catholics and Orthodox will be united under the Chalcedonian faith, and it will no longer be possible for Schism to happen.;;;;;;;;;;;;;x

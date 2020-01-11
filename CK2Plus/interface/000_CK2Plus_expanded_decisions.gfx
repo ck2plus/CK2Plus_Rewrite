@@ -1,5 +1,6 @@
 spriteTypes = {
 
+	# Celtic
 	spriteType = {
 		name = "GFX_expel_keepers_tirnanog"
 		textureFile = "gfx\\interface\\decision_icon_expel_holy_order.dds"
@@ -7,5 +8,38 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_donate_money_to_keepers_tirnanog"
 		textureFile = "gfx\\interface\\decision_icon_donate_to_holy_order.dds"
+	}
+
+	# Chalcedonian/Schisms
+	spriteType = {
+		name = "GFX_enforce_chalcedon"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism.dds"
+	}
+	spriteType = {
+		name = "GFX_repudiate_chalcedon"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_enforce_ephesus"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism.dds"
+	}
+	spriteType = {
+		name = "GFX_repudiate_ephesus"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mend_great_schism_catholic"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism.dds"
+	}
+	spriteType = {
+		name = "GFX_mend_great_schism_miaphysite"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_unite_christianity"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism.dds"
 	}
 }

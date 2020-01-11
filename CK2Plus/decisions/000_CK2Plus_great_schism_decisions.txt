@@ -1,0 +1,1209 @@
+decisions = {
+
+	# New Schism Decisions
+
+	mend_great_schism = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 12
+
+		potential = {
+			has_dlc = "Legacy of Rome"
+			has_global_flag = schism_happened
+
+			NOR = {
+				has_global_flag = schism_mending
+				has_global_flag = schism_mended
+				has_character_flag = schism_mender
+			}
+
+			is_playable = yes
+			has_regent = no
+			is_nomadic = no
+			is_tribal = no
+			is_heretic = no
+
+			OR = {
+				controls_religion = yes
+				real_tier = EMPEROR
+			}
+
+			OR = {
+				# Catholic branch
+				religion = catholic
+				religion = fraticelli
+				religion = cathar
+
+				# Orthodox branch
+				religion = orthodox
+				religion = monothelite
+				religion = iconoclast
+				religion = bogomilist
+			}
+
+			# Either a religion head or one exists for your religion
+			OR = {
+				controls_religion = yes
+				religion_head = { always = yes }
+			}
+
+			# There must be a non-heretic religion head with whom to negotiate
+			trigger_if = {
+				limit = {
+					OR = {
+						religion = catholic
+						religion = fraticelli
+						religion = cathar
+					}
+				}
+				OR = {
+					k_orthodox = { holder_scope = { is_heretic = no } }
+					d_monothelite = { holder_scope = { is_heretic = no } }
+					d_iconoclast = { holder_scope = { is_heretic = no } }
+#					d_bogomilist = { holder_scope = { is_heretic = no } }
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+						religion = bogomilist
+					}
+				}
+				OR = {
+					k_papal_state = { holder_scope = { is_heretic = no } }
+					d_fraticelli = { holder_scope = { is_heretic = no } }
+#					d_cathar = { holder_scope = { is_heretic = no } }
+				}
+			}
+			trigger_else = { # Other religions need not apply
+				always = no
+			}
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+
+				war = no
+				NOT = { is_inaccessible_trigger = yes }
+				is_not_busy_CK2Plus_trigger = yes
+			}
+
+			piety >= 2000
+			religion_authority >= 0.90
+
+			OR = {
+				controls_religion = yes
+				religion_head = { is_liege_or_above = ROOT }
+				completely_controls = c_byzantion
+				completely_controls = c_jerusalem
+				completely_controls = c_roma
+			}
+
+			b_hagiasophia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_antiocheia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_jerusalem = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_alexandria = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_roma = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = schism_mending
+			long_character_event = { # Council called
+				id = PlusGreatSchism.061
+				tooltip = EVTTOOLTIPLoR.210
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					trait = bad_priest_christian
+				}
+			}
+		}
+	}
+
+	enforce_ephesus = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 12
+
+		potential = {
+			has_dlc = "Legacy of Rome"
+
+			NOR = {
+				has_global_flag = ephesus_enforced
+				has_global_flag = enforcing_ephesus
+				has_global_flag = ephesus_repudiated
+				has_character_flag = schism_mender
+			}
+
+			is_playable = yes
+			has_regent = no
+			is_nomadic = no
+			is_tribal = no
+			is_heretic = no
+
+			OR = {
+				controls_religion = yes
+				real_tier = EMPEROR
+			}
+
+			trigger_if = {
+				limit = {
+					OR = {
+						religion = chalcedonian
+						religion = catholic
+						religion = fraticelli
+						religion = cathar
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+						religion = bogomilist
+					}
+				}
+				OR = {
+					has_global_flag = schism_mended
+					NOT = { has_global_flag = schism_happened }
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					OR = {
+						religion = miaphysite
+						religion = monophysite
+#						religion = apostolic
+						religion = paulician
+					}
+				}
+				has_global_flag = chalcedon_repudiated
+			}
+			trigger_else = { # Other religions need not apply
+				always = no
+			}
+
+			# Either a religion head or one exists for your religion
+			OR = {
+				controls_religion = yes
+				religion_head = { always = yes }
+			}
+
+			# There must be a non-heretic religion head with whom to negotiate
+#			OR = {
+				d_nestorian = { holder_scope = { is_heretic = no } }
+#				d_messalian = { holder_scope = { is_heretic = no } }
+#			}
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+
+				war = no
+				NOT = { is_inaccessible_trigger = yes }
+				is_not_busy_CK2Plus_trigger = yes
+			}
+
+			piety >= 1000
+			religion_authority >= 0.9
+
+			OR = {
+				controls_religion = yes
+				religion_head = { is_liege_or_above = ROOT }
+				completely_controls = c_byzantion
+				completely_controls = c_jerusalem
+				completely_controls = c_roma
+			}
+
+			b_hagiasophia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_antiocheia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_alexandria = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_bagdad = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_roudehen = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = enforcing_ephesus
+			long_character_event = { # Council called
+				id = PlusGreatSchism.061
+				tooltip = NESTORIAN_SCHISM_ENDED
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					trait = bad_priest_christian
+				}
+			}
+		}
+	}
+
+	enforce_chalcedon = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 12
+
+		potential = {
+			has_dlc = "Legacy of Rome"
+
+			NOR = {
+				has_global_flag = chalcedon_enforced
+				has_global_flag = enforcing_chalcedon
+				has_global_flag = chalcedon_repudiated
+				has_character_flag = schism_mender
+			}
+
+			is_playable = yes
+			has_regent = no
+			is_nomadic = no
+			is_tribal = no
+			is_heretic = no
+
+			OR = {
+				controls_religion = yes
+				real_tier = EMPEROR
+			}
+
+			trigger_if = {
+				limit = {
+					OR = {
+						religion = nestorian
+						religion = messalian
+					}
+				}
+				has_global_flag = ephesus_repudiated
+			}
+			trigger_else_if = {
+				limit = {
+					OR = {
+						religion = chalcedonian
+						religion = catholic
+						religion = fraticelli
+						religion = cathar
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+						religion = bogomilist
+					}
+				}
+				OR = {
+					has_global_flag = schism_mended
+					NOT = { has_global_flag = schism_happened }
+				}
+			}
+			trigger_else = { # Other religions need not apply
+				always = no
+			}
+
+			# Either a religion head or one exists for your religion
+			OR = {
+				controls_religion = yes
+				religion_head = { always = yes }
+			}
+
+			# There must be a non-heretic religion head with whom to negotiate
+			OR = {
+				d_miaphysite = { holder_scope = { is_heretic = no } }
+				d_monophysite = { holder_scope = { is_heretic = no } }
+			}
+#			OR = {
+#				d_apostolic = { holder_scope = { is_heretic = no } }
+				d_paulician = { holder_scope = { is_heretic = no } }
+#			}
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+
+				war = no
+				is_inaccessible_trigger = no
+				is_not_busy_CK2Plus_trigger = yes
+			}
+
+			piety >= 1000
+			religion_authority >= 0.90
+
+			OR = {
+				controls_religion = yes
+				religion_head = { is_liege_or_above = ROOT }
+				completely_controls = c_byzantion
+				completely_controls = c_jerusalem
+				completely_controls = c_roma
+			}
+
+			b_hagiasophia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_antiocheia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_alexandria = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_etchmiadzin = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_aksum = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = enforcing_chalcedon
+			long_character_event = { # Council called
+				id = PlusGreatSchism.061
+				tooltip = MIAPHYSITE_SCHISM_ENDED
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					trait = bad_priest_christian
+				}
+			}
+		}
+	}
+
+	repudiate_ephesus = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 12
+
+		potential = {
+			has_dlc = "Legacy of Rome"
+			has_global_flag = schism_happened
+
+			NOR = {
+				has_global_flag = ephesus_repudiated
+				has_global_flag = repudiating_ephesus
+				has_global_flag = chalcedon_repudiated
+				has_global_flag = ephesus_enforced
+				has_global_flag = schism_mended
+				has_character_flag = schism_mender
+			}
+
+			is_playable = yes
+			has_regent = no
+			is_nomadic = no
+			is_tribal = no
+			is_heretic = no
+
+			OR = {
+				controls_religion = yes
+				real_tier = EMPEROR
+			}
+
+			OR = {
+				religion = nestorian
+				religion = messalian
+			}
+
+			# Either a religion head or one exists for your religion
+			OR = {
+				controls_religion = yes
+				religion_head = { always = yes }
+			}
+
+			# There must be a non-heretic religion head with whom to negotiate
+			OR = {
+				k_orthodox = { holder_scope = { is_heretic = no } }
+				d_monothelite = { holder_scope = { is_heretic = no } }
+				d_iconoclast = { holder_scope = { is_heretic = no } }
+#				d_bogomilist = { holder_scope = { is_heretic = no } }
+			}
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+
+				war = no
+				NOT = { is_inaccessible_trigger = yes }
+				is_not_busy_CK2Plus_trigger = yes
+			}
+
+			piety >= 2000
+			religion_authority >= 0.80
+
+			OR = {
+				controls_religion = yes
+				religion_head = { is_liege_or_above = ROOT }
+				completely_controls = c_byzantion
+				completely_controls = c_jerusalem
+			}
+
+			b_hagiasophia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_antiocheia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_jerusalem = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_alexandria = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = repudiating_ephesus
+			long_character_event = { # Council called
+				id = PlusGreatSchism.061
+				tooltip = ORTHODOX_SCHISM_ENDED
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					trait = bad_priest_christian
+				}
+			}
+		}
+	}
+
+	repudiate_chalcedon = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 12
+
+		potential = {
+			has_dlc = "Legacy of Rome"
+			has_global_flag = schism_happened
+
+			NOR = {
+				has_global_flag = chalcedon_repudiated
+				has_global_flag = repudiating_chalcedon
+				has_global_flag = ephesus_repudiated
+				has_global_flag = chalcedon_enforced
+				has_global_flag = schism_mended
+				has_character_flag = schism_mender
+			}
+
+			is_playable = yes
+			has_regent = no
+			is_nomadic = no
+			is_tribal = no
+			is_heretic = no
+
+			OR = {
+				controls_religion = yes
+				real_tier = EMPEROR
+			}
+
+			OR = {
+				religion = miaphysite
+				religion = monophysite
+#				religion = apostolic
+				religion = paulician
+			}
+
+			# Either a religion head or one exists for your religion
+			OR = {
+				controls_religion = yes
+				religion_head = { always = yes }
+			}
+
+			# There must be a non-heretic religion head with whom to negotiate
+			OR = {
+				k_orthodox = { holder_scope = { is_heretic = no } }
+				d_monothelite = { holder_scope = { is_heretic = no } }
+				d_iconoclast = { holder_scope = { is_heretic = no } }
+#				d_bogomilist = { holder_scope = { is_heretic = no } }
+			}
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+
+				war = no
+				NOT = { is_inaccessible_trigger = yes }
+				is_not_busy_CK2Plus_trigger = yes
+			}
+
+			piety >= 2000
+			religion_authority >= 0.80
+
+			OR = {
+				controls_religion = yes
+				religion_head = { is_liege_or_above = ROOT }
+				completely_controls = c_byzantion
+				completely_controls = c_jerusalem
+			}
+
+			b_hagiasophia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_antiocheia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_jerusalem = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_alexandria = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = repudiating_chalcedon
+			long_character_event = { # Council called
+				id = PlusGreatSchism.061
+				tooltip = ORTHODOX_SCHISM_ENDED
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					trait = bad_priest_christian
+				}
+			}
+		}
+	}
+
+	unite_christianity = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 12
+
+		potential = {
+			has_dlc = "Legacy of Rome"
+
+			NOR = {
+				has_global_flag = christianity_united
+				has_global_flag = uniting_christianity
+				has_character_flag = schism_mender
+			}
+
+			is_playable = yes
+			has_regent = no
+			is_nomadic = no
+			is_tribal = no
+			is_heretic = no
+
+			OR = {
+				controls_religion = yes
+				real_tier = EMPEROR
+			}
+
+			trigger_if = {
+				limit = {
+					has_global_flag = chalcedon_repudiated
+					has_global_flag = ephesus_enforced
+				}
+				OR = {
+					religion = miaphysite
+					religion = monophysite
+#					religion = apostolic
+					religion = paulician
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					has_global_flag = ephesus_repudiated
+					has_global_flag = chalcedon_enforced
+				}
+				OR = {
+					religion = nestorian
+					religion = messalian
+				}
+			}
+
+			# Either a religion head or one exists for your religion
+			OR = {
+				controls_religion = yes
+				religion_head = { always = yes }
+			}
+
+			# There must be a non-heretic religion head with whom to negotiate
+			OR = {
+				k_papal_state = { holder_scope = { is_heretic = no } }
+				d_fraticelli = { holder_scope = { is_heretic = no } }
+#				d_cathar = { holder_scope = { is_heretic = no } }
+			}
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = IS_NOT_BUSY
+
+				war = no
+				NOT = { is_inaccessible_trigger = yes }
+				is_not_busy_CK2Plus_trigger = yes
+			}
+
+			piety >= 2000
+			religion_authority >= 0.90
+
+			OR = {
+				controls_religion = yes
+				religion_head = { is_liege_or_above = ROOT }
+				completely_controls = c_byzantion
+				completely_controls = c_jerusalem
+				completely_controls = c_roma
+			}
+
+			b_hagiasophia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_antiocheia = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_jerusalem = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_alexandria = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+			b_roma = {
+				custom_tooltip = {
+					text = CONTROL_RELIGION_NO_WAR
+
+					has_holder = yes
+					holder_scope = {
+						religion = ROOT
+						war = no
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = uniting_christianity
+			long_character_event = { # Council called
+				id = PlusGreatSchism.061
+				tooltip = CATHOLIC_SCHISM_ENDED
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				OR = {
+					trait = cynical
+					trait = bad_priest_christian
+				}
+			}
+		}
+	}
+
+	# Chalcedonian Decisions
+
+	chalcedonian_patriarch_rome = {
+		is_high_prio = yes
+		ai_check_interval = 3
+		icon_religion = catholic
+
+		potential = {
+			religion = chalcedonian
+
+			OR = {
+				higher_tier_than = DUKE
+				has_landed_title = k_pentarch_rome
+			}
+
+			k_pentarch_rome = {
+				has_holder = yes
+				holder_scope = {
+					religion = ROOT
+					trait = latin_rites
+				}
+			}
+
+			NOR = {
+				culture = greek
+				has_landed_title = e_byzantium
+				has_global_flag = schism_happened
+				has_global_flag = patriarch_supreme_created
+			}
+		}
+
+		allow = {
+			independent = yes
+			war = no
+			has_regent = no
+			piety >= 2500
+
+			conditional_tooltip = {
+				limit = {
+					NOT = {	has_landed_title = k_pentarch_rome }
+				}
+				real_tier = EMPEROR
+				prestige >= 2500
+			}
+
+			NOR = {
+				trait = bad_priest_christian
+				trait = excommunicated
+			}
+
+			OR = {
+				custom_tooltip = {
+					text = ROME_IS_YOUR_VASSAL
+					any_vassal = {
+						has_landed_title = k_pentarch_rome
+					}
+				}
+				custom_tooltip = {
+					text = RELIGION_HEAD_IS_LATIN
+					rightful_religious_head_scope = {
+						trait = latin_rites
+					}
+				}
+			}
+
+			OR = {
+				custom_tooltip = {
+					text = CONSTANTINOPLE_DOES_NOT_EXIST
+
+					b_hagiasophia = {
+						holder_scope = {
+							OR = {
+								is_theocracy = no
+								NOT = { religion_group = christian }
+							}
+						}
+					}
+				}
+				custom_tooltip = {
+					text = ECUMENICAL_PATRIARCH_IS_LATIN
+
+					b_hagiasophia = {
+						holder_scope = {
+							trait = latin_rites
+						}
+					}
+				}
+				custom_tooltip = {
+					text = TWO_OTHER_LATIN_PATRIARCHS
+
+					calc_true_if = {
+						amount = 2
+						b_jerusalem = { holder_scope = { trait = latin_rites } }
+						b_antiocheia = { holder_scope = { trait = latin_rites } }
+						b_alexandria = { holder_scope = { trait = latin_rites } }
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = patriarch_supreme_is_latin
+#			add_trait = paragon
+			prestige = 1000
+
+			custom_tooltip = {
+				text = ROME_BECOMES_PATRIARCH_SUPREME
+
+				k_pentarch_rome = {
+					holder_scope = {
+						if = {
+							limit = { NOT = { character = ROOT } }
+							add_friend = ROOT
+							piety = 250
+							prestige = 250
+						}
+					}
+				}
+				character_event = { id = PlusGreatSchism.002 } # Schism Prevented (Setup)
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	chalcedonian_patriarch_constantinople = {
+		is_high_prio = yes
+		ai_check_interval = 3
+		icon_religion = orthodox
+
+		potential = {
+			religion = chalcedonian
+
+			OR = {
+				higher_tier_than = DUKE
+				AND = {
+					has_landed_title = b_hagiasophia
+					is_theocracy = yes
+				}
+			}
+
+			b_hagiasophia = {
+				has_holder = yes
+				holder_scope = {
+					religion = ROOT
+					trait = greek_rites
+				}
+			}
+
+			NOR = {
+				culture = italian
+				culture = longobard
+				trait = crowned_by_pope
+				has_global_flag = schism_happened
+				has_global_flag = schism_prevented
+			}
+		}
+
+		allow = {
+			independent = yes
+			war = no
+			has_regent = no
+			piety >= 2500
+
+			trigger_if = {
+				limit = { is_theocracy = yes }
+				has_landed_title = b_hagiasophia
+				NOT = { trait = bad_priest_christian }
+			}
+			trigger_else = {
+				real_tier = EMPEROR
+				prestige >= 2500
+				NOT = { trait = excommunicated }
+			}
+
+			OR = {
+				custom_tooltip = {
+					text = CONSTANTINOPLE_IS_YOUR_VASSAL
+
+					any_vassal = {
+						has_landed_title = b_hagiasophia
+						is_theocracy = yes
+					}
+				}
+				custom_tooltip = {
+					text = RELIGION_HEAD_IS_GREEK
+
+					rightful_religious_head_scope = { trait = greek_rites }
+				}
+			}
+
+			OR = {
+				custom_tooltip = {
+					text = ROME_DOES_NOT_EXIST
+
+					b_roma = {
+						holder_scope = {
+							NOT = { has_landed_title = k_pentarch_rome }
+							OR = {
+								is_theocracy = no
+								NOT = { religion_group = christian }
+							}
+						}
+					}
+				}
+				custom_tooltip = {
+					text = PAPACY_IS_GREEK
+
+					k_pentarch_rome = { holder_scope = { trait = greek_rites } }
+				}
+				custom_tooltip = {
+					text = TWO_OTHER_GREEK_PATRIARCHS
+
+					calc_true_if = {
+						amount >= 2
+						b_jerusalem = { holder_scope = { trait = greek_rites } }
+						b_antiocheia = { holder_scope = { trait = greek_rites } }
+						b_alexandria = { holder_scope = { trait = greek_rites } }
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = patriarch_supreme_is_greek
+#			add_trait = paragon
+			prestige = 1000
+
+			custom_tooltip = {
+				text = CONSTANTINOPLE_BECOMES_PATRIARCH_SUPREME
+
+				b_hagiasophia = {
+					holder_scope = {
+						if = {
+							limit = { NOT = { character = ROOT } }
+							add_friend = ROOT
+							piety = 250
+							prestige = 250
+						}
+					}
+				}
+				character_event = { id = PlusGreatSchism.002 } # Schism Prevented (Setup)
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
