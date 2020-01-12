@@ -3686,6 +3686,11 @@
 		add_trait = viking
 		add_trait = skilled_tactician
 	}
+	800.2.5 = {
+		effect = {
+			gain_title = k_denmark
+		}
+	}
 	818.1.1 = {
 		add_spouse = 6836
 		give_nickname = nick_lodbrok
@@ -6164,14 +6169,14 @@
 	religion = norse_pagan
 	culture = danish
 	father = 194035 # Hrœrekr 'Ringslinger'
-	mother = 194034
-	690.6.12 = {
+	mother = 194034 # Auðr the Deep-Minded
+	698.6.12 = {
 		birth = yes
 	}
 	730.1.1 = {
 		give_nickname = nick_hildetand
 	}
-	770.7.7 = {
+	768.7.7 = { #Moved back from 770 for gameplay reasons
 		death = {
 			death_reason = death_battle
 		}
@@ -6458,6 +6463,7 @@
 	religion = norse_pagan
 	culture = swedish
 	father = 194029
+	mother = 194034
 	700.1.1 = {
 		birth = yes
 	}
@@ -6549,6 +6555,12 @@
 	672.1.1 = {
 		birth = yes
 	}
+	697.9.12 = {
+		add_spouse = 194035
+	}
+	699.4.1 = {
+		add_spouse = 194029
+	}
 	735.1.1 = {
 		death = yes
 	}
@@ -6562,7 +6574,7 @@
 	665.1.1 = {
 		birth = yes
 	}
-	729.1.1 = {
+	699.1.1 = {
 		death = yes
 	}
 }

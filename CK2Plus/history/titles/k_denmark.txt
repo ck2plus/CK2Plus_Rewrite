@@ -5,6 +5,18 @@
 	}
 }
 
+695.1.1 = {
+	holder = 194035 # Hrœrekr 'Ringslinger'
+}
+
+729.1.1 = {
+	holder = 194003 # Haraldr 'Wartooth'
+}
+
+768.7.7 = {
+	holder = 194004 # Sigurdr 'Ring'
+}
+
 793.1.1 = {
 	effect = {
 		if = {
@@ -16,6 +28,10 @@
 			enable_prepared_invasion = norse_pagan_reformed ## Important Viking age effect
 		}
 	}
+}
+
+800.2.5 = {
+	holder = 0
 }
 
 917.1.1={

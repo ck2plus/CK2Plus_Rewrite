@@ -10,8 +10,8 @@
 	holder = 194003 # Haraldr 'Wartooth'
 }
 
-770.7.7 = {
-	holder = 1000119000 # Sigfrid I
+768.7.7 = {
+	holder = 194004 # Sigurd Ring
 }
 
 804.1.1 = {
@@ -162,4 +162,3 @@
 1340.6.21 = {
 	holder = 451500 # Valdemar Atterdag
 }
-
