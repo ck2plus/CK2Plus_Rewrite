@@ -99,6 +99,10 @@
 	holder = 205540 #Gaston VI de béarn
 }
 
+1187.1.1 = {
+	liege = k_aragon # Alfonso II of Aragon
+}
+
 1214.1.1 = {
 	holder = 205543 #Guillem Ramon I de Béarn
 }
