@@ -2328,6 +2328,11 @@
 	1136.7.29 = {
 		birth = yes
 	}
+	1138.1.1 = {
+		effect = {
+			add_betrothal = 210506
+		}
+	}
 	1174.10.16 = {
 		death = yes
 	}
