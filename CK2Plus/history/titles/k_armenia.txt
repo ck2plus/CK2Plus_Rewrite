@@ -1,5 +1,4 @@
 62.1.1 = {
-	pentarch = b_antiocheia
 	holder = 214059 # Tiridates
 }
 

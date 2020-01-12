@@ -1,6 +1,5 @@
 285.7.1 = {
 	holder = 145241 # Diocletian
-	pentarch = b_hagiasophia
 	effect = {
 		insert_title_history = e_roman_empire
 	}

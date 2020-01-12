@@ -1,7 +1,3 @@
-1.1.1 = {
-	pentarch = b_roma
-}
-
 #Merovingians
 
 450.1.1 = {

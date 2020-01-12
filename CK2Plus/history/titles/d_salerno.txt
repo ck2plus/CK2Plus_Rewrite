@@ -1,6 +1,5 @@
 839.1.1 = {
 	holder = 190163 #Siconulf
-	pentarch = b_roma
 }
 
 851.1.1 = {

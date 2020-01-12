@@ -1,6 +1,5 @@
 1.1.1 = {
 	active = no
-	pentarch = b_roma
 }
 
 800.12.25 = { # Coronation of Karl as Emperor

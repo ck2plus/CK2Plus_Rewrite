@@ -1,6 +1,5 @@
 830.1.1 = {
 	holder = 187001
-	pentarch = b_roma
 }
 
 846.8.15 = {

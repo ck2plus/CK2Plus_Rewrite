@@ -16,7 +16,6 @@
 	holder = 90104 # Charles II 'the Bald'
 	de_jure_liege = e_karling
 	liege = e_karling
-	pentarch = b_roma
 }
 
 877.10.6 = {

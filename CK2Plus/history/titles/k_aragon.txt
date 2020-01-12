@@ -1,7 +1,4 @@
-100.1.1={
-	pentarch = b_roma
-}
-1035.10.18={ 
+1035.10.18={
 	holder=110510 # Ramiro I Jimena
 	law = crown_authority_1
 	law = investiture_law_1

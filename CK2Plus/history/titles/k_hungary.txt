@@ -80,7 +80,6 @@
 	effect = { reset_coa = THIS }
 
 	set_global_flag = avar_khaganate_renamed
-	pentarch = b_roma
 }
 
 814.1.1 = {

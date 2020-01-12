@@ -1,5 +1,4 @@
 3.1.27 = {
-	pentarch = b_roma
 	holder = 145290 # Augustus
 	law = crown_authority_2
 	law = succ_byzantine_elective

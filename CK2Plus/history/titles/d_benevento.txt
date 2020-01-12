@@ -3,7 +3,6 @@
 		who = k_italy
 		type = permanent
 	}
-	pentarch = b_roma
 }
 
 571.1.1 = {
