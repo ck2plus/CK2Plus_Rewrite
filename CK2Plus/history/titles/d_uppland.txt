@@ -12,15 +12,20 @@
 }
 729.1.1 = {
 	holder = 194028
+	liege = k_denmark
 }
 761.1.1 = {
 	holder = 194004
 }
-#845.1.1={
-#	holder = 163109
-#}
+768.7.7 = {
+	liege = k_sweden
+}
+845.1.1={
+	holder = 163109
+}
 860.1.1={
 	holder = 163108
+	liege = 0
 }
 880.1.1={
 	holder = 100500
@@ -118,11 +123,11 @@
 {
 	holder=200604 # Sverker den Yngre, son of 200602 - Karl Sverkersson
 }
-1208.1.31= 
+1208.1.31=
 {
 	holder=200504 # Erik Knutsson, son of 200500, Knut Eriksson
 }
-1216.4.10= 
+1216.4.10=
 {
 	holder=200609 # Johan, son of Sverker (200604)
 }

@@ -6,24 +6,13 @@
 #
 ########################
 
-1000119000 = {
-	name = "Sigfriðr" # Sigfred I
-	dynasty = 1000119500 # Sigfreding
-	religion = norse_pagan
-	culture = norse
-	743.1.1 = {
-		birth = yes
-	}
-	804.1.1 = {
-		death = yes
-	}
-}
+# 1000119000 FREE
 
 1000119001 = {
-	name = "Guðfriðr" # Gudfred, successor to Sigfred I
-	dynasty = 1000119500 # Sigfreding
+	name = "Guðfriðr" # Gudfred, successor to Sigfred I (Sigurdr Ring) in Denmark
+	dynasty = 502 # af Munsö
 	religion = norse_pagan
-	culture = norse
+	culture = danish
 	750.1.1 = {
 		birth = yes
 	}
@@ -34,10 +23,10 @@
 
 1000119002 = {
 	name = "Hemming" # Hemming I, successor to Gudfred
-	dynasty = 1000119500 # Sigfreding
+	dynasty = 502 # af Munsö
 #	uncle = 1000119001 # Gudfred
 	religion = norse_pagan
-	culture = norse
+	culture = danish
 	753.1.1 = {
 		birth = yes
 	}
@@ -48,7 +37,7 @@
 
 1000119003 = {
 	name = "Sigfriðr" # Sigfred II, vied for kingship, but died in doing so
-	dynasty = 1000119500 # Sigfreding
+	dynasty = 502 # af Munsö
 #	father =
 	religion = norse_pagan
 	culture = norse
