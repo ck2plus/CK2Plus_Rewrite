@@ -2307,7 +2307,7 @@
 }
 
 210507 = {
-	name = "Petronila" #AKA: Petronila I
+	name = "Peyronela" #AKA: Peyronela I
 	female = yes
 	dynasty = 442
 	martial = 6
