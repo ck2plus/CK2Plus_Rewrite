@@ -181,6 +181,7 @@ character_event = {
 #	INDEX
 #
 #	101: New-game set-up
+#	102: Apply Plus game rules
 #
 #####################################
 
@@ -236,7 +237,7 @@ character_event = { # Apply Plus game rules
 			# Required in order for the event to bypass normal checks
 			set_global_flag = great_schism_manual_override
 
-			k_pentarch_rome = {
+			k_papal_state = {
 				holder_scope = {
 					character_event = {
 						id = PlusGreatSchism.001

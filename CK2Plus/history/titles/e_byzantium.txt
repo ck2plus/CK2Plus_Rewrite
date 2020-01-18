@@ -188,9 +188,9 @@
 920.12.17 = {
 	holder = 1706 #Romanos I Lekapenos
 }
-924.1.1 = {
-	holder = 145222 # Christopher Lekapenos
-}
+#924.1.1 = {
+#	holder = 145222 # Christopher Lekapenos
+#}
 944.12.16 = {
 	holder = 145223 # Stephen Lekapenos
 }

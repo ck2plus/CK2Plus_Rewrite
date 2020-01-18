@@ -1,6 +1,6 @@
 42.1.1 = { # Peter's first visit to Rome
  	holder = 145292
-	liege = k_pentarch_rome
+	liege = k_papal_state
 }
 
 64.10.13 = {
@@ -609,10 +609,6 @@
 
 1054.4.19 = {
 	holder = 7894
-}
-
-1054.7.16 = { # Great Schism
-	liege = k_papal_state
 }
 
 1057.8.3 = {

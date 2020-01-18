@@ -1304,8 +1304,7 @@ succession_laws = {
 	succ_papal_succession = {
 		potential = {
 			OR = {
-				title = k_papal_state	# Catholic papacy, after Great Schism
-				title = k_pentarch_rome	# Chalcedonian papacy, before Great Schism
+				title = k_papal_state
 				title = d_fraticelli
 				AND = {
 					title = d_celtic_pagan_reformed
@@ -1360,7 +1359,6 @@ succession_laws = {
 						religion_group = muslim
 					}
 					has_landed_title = k_papal_state
-					has_landed_title = k_pentarch_rome
 					has_landed_title = d_fraticelli
 
 					# Plus religious head titles

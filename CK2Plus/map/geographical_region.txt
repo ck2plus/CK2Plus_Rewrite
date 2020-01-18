@@ -401,9 +401,10 @@ world_asia_minor = {
 		d_optimatoi
 		d_samos
 		d_thracesia
+		d_cyprus
 
 		# Armenia
-		d_armenia_minor	# Clicia
+		d_armenia_minor	# Cilicia
 		d_armenia
 		d_coloneia
 		d_edessa
@@ -1300,7 +1301,6 @@ custom_latin_rites = {
 custom_greek_rites = {
 	regions = {
 		custom_russia
-		world_europe_south_east
 		world_asia_minor
 		world_middle_east_jerusalem
 		world_middle_east_arabia
@@ -1309,6 +1309,32 @@ custom_greek_rites = {
 	}
 
 	duchies = {
+		# Thrace
+		d_adrianopolis
+		d_thrace
+
+		# Greece
+		d_achaia
+		d_aegean_islands
+		d_athens		# Hellas
+		d_cephalonia
+		d_dyrrachion
+		d_epirus
+		d_krete
+		d_ohrid			# Lychnidos
+		d_thessalonika
+
+		# Bulgaria
+		d_karvuna
+		d_strymon
+		d_turnovo		# Moesia
+		d_vidin			# Bononia
+
+		# Serbia
+		d_dioclea
+		d_ragusa
+		d_rashka
+
 		# Wallachia
 		d_bessarabia
 		d_moldau
@@ -1323,6 +1349,123 @@ custom_greek_rites = {
 		d_aswan
 		d_faiyum
 		d_asyut
+		d_paraetonium
+
+		# Crimea
+		d_cherson
+	}
+}
+
+custom_pentarch_rome = {
+	regions = {
+		custom_latin_rites
+	}
+}
+
+custom_pentarch_constantinople = {
+	regions = {
+		custom_russia
+	}
+	duchies = {
+		# Thrace
+		d_adrianopolis
+		d_thrace
+
+		# Greece
+		d_achaia
+		d_aegean_islands
+		d_athens		# Hellas
+		d_cephalonia
+		d_dyrrachion
+		d_epirus
+		d_krete
+		d_ohrid			# Lychnidos
+		d_thessalonika
+
+		# Bulgaria
+		d_karvuna
+		d_strymon
+		d_turnovo		# Moesia
+		d_vidin			# Bononia
+
+		# Serbia
+		d_dioclea
+		d_ragusa
+		d_rashka
+
+		# Wallachia
+		d_bessarabia
+		d_moldau
+		d_oltenia
+		d_wallachia
+
+		# Trebizond
+		d_armeniacon
+		d_paphlagonia
+		d_trebizond
+
+		# Nicaea
+		d_anatolia
+		d_abydos
+		d_bucellarian	# Boukellarion
+		d_cappadocia
+		d_charsianon
+		d_cibyrrhaeot
+		d_nikaea		# Opsikion
+		d_optimatoi
+		d_samos
+		d_thracesia
+
+		# Georgia
+		d_abkhazia
+		d_kartli
+		d_derbent
+		d_kakheti
+		d_tao
+
+		# Armenia
+		d_armenia
+		d_coloneia
+		d_mesopotamia
+	}
+}
+
+custom_pentarch_antioch = {
+	duchies = {
+		# Syria
+		d_aleppo
+		d_antioch
+		d_damascus
+		d_palmyra
+		d_tripoli
+
+		# Armenia
+		d_armenia_minor	# Cilicia
+		d_edessa
+	}
+}
+
+custom_pentarch_jerusalem = {
+	duchies = {
+		# Jerusalem
+		d_ascalon
+		d_jerusalem
+		d_galilee
+		d_oultrejourdain
+
+		d_sinai
+	}
+}
+
+custom_pentarch_alexandria = {
+	duchies = { # Egypt, without Sinaï
+		d_alexandria
+		d_cairo
+		d_cyrenaica
+		d_damietta
+		d_aswan
+		d_asyut
+		d_faiyum
 		d_paraetonium
 	}
 }

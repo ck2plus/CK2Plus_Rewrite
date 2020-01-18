@@ -15,12 +15,8 @@
 }
 
 936.1.1 = {
-	liege = k_pentarch_rome
-	holder = 7919
-}
-
-1054.7.16 = { # Great Schism
 	liege = k_papal_state
+	holder = 7919
 }
 
 1061.7.27 = {

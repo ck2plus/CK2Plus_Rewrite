@@ -26,7 +26,7 @@ PlusGreatSchism_003_1c;This does not bode well...;;;;;;;;;;;;;x
 PlusGreatSchism_005_title;The Great Schism;;;;;;;;;;;;;x
 
 # Text
-PlusGreatSchism_005_text;The inevitable has finally occurred: a delivery of a bull of excommunication to [chalcedon_patriarch.GetTitledName] by [chalcedon_pope.GetTitledName] has been responded to in kind. The mutual excommunication follows on the heels of what is reported to be a series of terse letters over Christian doctrine, each building on the growing divisions between Latin and Greek Christianity. While few are treating the event as noteworthy at the moment, the reality of the situation is that Rome and Constantinople have grown apart to the point where any hope of reconciliation has been completely lost. They have, in truth, become two separate faiths operating under their separate religious heads, despite the Pope's and the Ecumenical Patriarch's assurances to the contrary.;;;;;;;;;;;;;x
+PlusGreatSchism_005_text;The inevitable has finally occurred: a delivery of a bull of excommunication to [b_hagiasophia.Holder.GetTitledName] by [k_papal_state.Holder.GetTitledName] has been responded to in kind. The mutual excommunication follows on the heels of what is reported to be a series of terse letters over Christian doctrine, each building on the growing divisions between Latin and Greek Christianity. While few are treating the event as noteworthy at the moment, the reality of the situation is that Rome and Constantinople have grown apart to the point where any hope of reconciliation has been completely lost. They have, in truth, become two separate faiths operating under their separate religious heads, despite the Pope's and the Ecumenical Patriarch's assurances to the contrary.;;;;;;;;;;;;;x
 
 # Options
 PlusGreatSchism_005_1a;We follow the Bishop of Rome;;;;;;;;;;;;;x
@@ -90,7 +90,7 @@ PlusGreatSchism_071_title;Two Roman Emperors?;;;;;;;;;;;;;x
 PlusGreatSchism_071_text;[Root.GetTitledName] has invoked the translatio imperii, and been given the blessing of Pope [Root.RelHead.GetFirstName] as the ruler of a Roman Empire reborn. This naturally does not sit well with [e_byzantium.Holder.GetTitledName], who maintains that the Pope does not have the right to bestow such a title. Indeed, the Pope doing so could imply either that [e_byzantium.Holder.GetTitledFirstNameNoRegnal] is not the *true* Roman [e_byzantium.GetRulerTitle] or that [Root.GetTitledFirstNameNoRegnal] has some manner of authority over [e_byzantium.Holder.GetHerHis] realm. Either way, Greek bishops throughout Europe are furious, seeing this as yet more evidence of the Pope's attempts to establish primacy despite the Council of Chalcedon having clearly placed Constantinople as the seat of Christianity's highest ecclesiastical court.;;;;;;;;;;;;;x
 
 # Options
-PlusGreatSchism_071_1a;The Pope oversteps [k_pentarch_rome.Holder.GetHerHis] bounds;;;;;;;;;;;;;x
+PlusGreatSchism_071_1a;The Pope oversteps [k_papal_state.Holder.GetHerHis] bounds;;;;;;;;;;;;;x
 PlusGreatSchism_071_1b;There were two Roman Empires before -- what is the problem?;;;;;;;;;;;;;x
 PlusGreatSchism_071_1c;More divisions amongst righteous Christians?;;;;;;;;;;;;;x
 PlusGreatSchism_071_1d;So the Christians bicker amongst themselves;;;;;;;;;;;;;x
@@ -125,11 +125,11 @@ PlusGreatSchism_073_1c;Surely some kind of compromise can be reached?;;;;;;;;;;;
 PlusGreatSchism_074_title;Papal Jurisdiction;;;;;;;;;;;;;x
 
 # Text
-PlusGreatSchism_074_text;A recent rare meeting between [Root.GetTitledFirstName] and [current_patriarch.GetTitledFirstName] in Constantinople to discuss the ecclesiastical jurisdiction over [jurisdiction_realm.GetName] was said to end in near-chaos, with [Root.GetTitledFirstNameNoRegnal] storming out of the cathedral in a fury. The Pope claims that [jurisdiction_realm.GetName] falls within [Root.GetHerHis] rightful domain, while [current_patriarch.GetTitledFirstNameNoRegnal] claims [jurisdiction_realm.GetName] has never been part of either ecclesiastical realm, and that this is yet another example of the Pope striving to assert primacy where it is not warranted. This latest conflict over papal jurisdiction has left both patriarchs almost unwilling to communicate at all, a fact which has left many of their bishops extremely worried.;;;;;;;;;;;;;x
+PlusGreatSchism_074_text;A recent rare meeting between [k_papal_state.Holder.GetTitledFirstName] and [b_hagiasophia.Holder.GetTitledFirstName] in Constantinople to discuss the ecclesiastical jurisdiction over [Root.PrimaryTitle.GetName] was said to end in near-chaos, with [k_papal_state.Holder.GetTitledFirstNameNoRegnal] storming out of the cathedral in a fury. The Pope claims that [Root.PrimaryTitle.GetName] falls within [k_papal_state.Holder.GetHerHis] rightful domain, while [b_hagiasophia.Holder.GetTitledFirstNameNoRegnal] claims [Root.PrimaryTitle.GetName] has never been part of either ecclesiastical realm, and that this is yet another example of the Pope striving to assert primacy where it is not warranted. This latest conflict over papal jurisdiction has left both patriarchs almost unwilling to communicate at all, a fact which has left many of their bishops extremely worried.;;;;;;;;;;;;;x
 
 # Options
-PlusGreatSchism_074_1a;[jurisdiction_realm.GetName] is its own domain, clearly;;;;;;;;;;;;;x
-PlusGreatSchism_074_1b;So [jurisdiction_realm.GetName] should be left without a proper Patriarch?;;;;;;;;;;;;;x
+PlusGreatSchism_074_1a;[Root.PrimaryTitle.GetName] is its own domain, clearly;;;;;;;;;;;;;x
+PlusGreatSchism_074_1b;So [Root.PrimaryTitle.GetName] should be left without a proper Patriarch?;;;;;;;;;;;;;x
 PlusGreatSchism_074_1c;This bickering does no-one any good...;;;;;;;;;;;;;x
 
 ## Conflict over the Eucharist

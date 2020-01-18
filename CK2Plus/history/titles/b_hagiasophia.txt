@@ -1,5 +1,5 @@
 10.1.1 = {
-	liege = e_byzantium
+	liege = k_orthodox
 }
 
 38.1.1 = {
@@ -335,13 +335,11 @@
 }
 
 769.1.1 = { # iconoclast rule
-	holder = 0
-	active = no
+	liege = d_iconoclast
 }
 
 769.1.2 = {
-	holder = 70560
-	active = yes
+	liege = k_orthodox
 }
 
 780.2.7 = {
@@ -548,44 +546,33 @@
 	holder = 145017
 }
 
-1206.6.26 = {
-	holder = 145018
+1204.5.16 = {
+	liege = k_venice
+	holder = 145062
 }
 
-1214.8.26 = {
-	holder = 145019
+1211.7.1 = {
+	holder = 145063 # 'Fantino Dandolo' of 1211-1215 is an imaginary person
+}
+1219.11.8 = {
+	holder = 145064
 }
 
-1216.2.27 = {
-	holder = 145020
+1226.12.1 = {
+	holder = 145065
 }
 
-1216.12.1 = {
-	holder = 145021
+1233.3.1 = {
+	holder = 145066
 }
 
-1222.11.1 = {
-	holder = 145022
+1251.6.1 = {
+	holder = 145067
 }
 
-1240.7.1 = {
-	holder = 145023
-}
-
-1240.10.1 = {
-	holder = 145024
-}
-
-1254.11.1 = {
-	holder = 145025 # 1st reign
-}
-
-1260.3.1 = {
-	holder = 145026
-}
-
-1261.2.1 = {
-	holder = 145025 # 2nd reign
+1261.7.25 = {
+	liege = k_orthodox
+	holder = 145025
 }
 
 1265.5.28 = {
@@ -593,33 +580,37 @@
 }
 
 1266.12.28 = {
-	holder = 145028 # 1st reign
+	holder = 145028
 }
 
+# 1st reign
 1275.6.2 = {
 	holder = 145029
 }
 
 1282.12.26 = {
-	holder = 145028 # 2nd reign
+	holder = 145028
 }
 
+# 2nd reign
 1283.3.23 = {
 	holder = 145030
 }
 
 1289.10.14 = {
-	holder = 145031 # 1st reign
+	holder = 145031
 }
 
+# 1st reign
 1293.10.16 = {
 	holder = 145032
 }
 
 1303.6.23 = {
-	holder = 145031 # 2nd reign
+	holder = 145031
 }
 
+# 2nd reign
 1310.5.9 = {
 	holder = 145033
 }

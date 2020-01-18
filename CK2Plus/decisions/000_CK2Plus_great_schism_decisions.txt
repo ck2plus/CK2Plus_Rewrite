@@ -967,10 +967,10 @@ decisions = {
 
 			OR = {
 				higher_tier_than = DUKE
-				has_landed_title = k_pentarch_rome
+				has_landed_title = k_papal_state
 			}
 
-			k_pentarch_rome = {
+			k_papal_state = {
 				has_holder = yes
 				holder_scope = {
 					religion = ROOT
@@ -979,10 +979,11 @@ decisions = {
 			}
 
 			NOR = {
-				culture = greek
+				culture_group = byzantine
 				has_landed_title = e_byzantium
-				has_global_flag = schism_happened
-				has_global_flag = patriarch_supreme_created
+				has_landed_title = e_roman_empire
+				has_global_flag = great_schism_happened
+				has_global_flag = great_schism_prevented
 			}
 		}
 
@@ -992,28 +993,31 @@ decisions = {
 			has_regent = no
 			piety >= 2500
 
-			conditional_tooltip = {
+			trigger_if = {
 				limit = {
-					NOT = {	has_landed_title = k_pentarch_rome }
+					has_landed_title = k_papal_state
 				}
+				NOT = { trait = bad_priest_christian }
+			}
+			trigger_else = {
 				real_tier = EMPEROR
 				prestige >= 2500
-			}
-
-			NOR = {
-				trait = bad_priest_christian
-				trait = excommunicated
+				NOT = { trait = excommunicated }
 			}
 
 			OR = {
 				custom_tooltip = {
 					text = ROME_IS_YOUR_VASSAL
-					any_vassal = {
-						has_landed_title = k_pentarch_rome
+
+					k_papal_state = {
+						holder_scope = {
+							de_facto_liege = ROOT
+						}
 					}
 				}
 				custom_tooltip = {
 					text = RELIGION_HEAD_IS_LATIN
+
 					rightful_religious_head_scope = {
 						trait = latin_rites
 					}
@@ -1063,7 +1067,7 @@ decisions = {
 			custom_tooltip = {
 				text = ROME_BECOMES_PATRIARCH_SUPREME
 
-				k_pentarch_rome = {
+				k_papal_state = {
 					holder_scope = {
 						if = {
 							limit = { NOT = { character = ROOT } }
@@ -1107,11 +1111,11 @@ decisions = {
 			}
 
 			NOR = {
-				culture = italian
+				culture_group = italian_group
 				culture = longobard
 				trait = crowned_by_pope
-				has_global_flag = schism_happened
-				has_global_flag = schism_prevented
+				has_global_flag = great_schism_happened
+				has_global_flag = great_schism_prevented
 			}
 		}
 
@@ -1136,9 +1140,11 @@ decisions = {
 				custom_tooltip = {
 					text = CONSTANTINOPLE_IS_YOUR_VASSAL
 
-					any_vassal = {
-						has_landed_title = b_hagiasophia
-						is_theocracy = yes
+					b_hagiasophia = {
+						holder_scope = {
+							de_facto_liege = ROOT
+							is_theocracy = yes
+						}
 					}
 				}
 				custom_tooltip = {
@@ -1154,7 +1160,7 @@ decisions = {
 
 					b_roma = {
 						holder_scope = {
-							NOT = { has_landed_title = k_pentarch_rome }
+							NOT = { has_landed_title = k_papal_state }
 							OR = {
 								is_theocracy = no
 								NOT = { religion_group = christian }
@@ -1165,7 +1171,7 @@ decisions = {
 				custom_tooltip = {
 					text = PAPACY_IS_GREEK
 
-					k_pentarch_rome = { holder_scope = { trait = greek_rites } }
+					k_papal_state = { holder_scope = { trait = greek_rites } }
 				}
 				custom_tooltip = {
 					text = TWO_OTHER_GREEK_PATRIARCHS
