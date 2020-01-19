@@ -203,8 +203,25 @@ character_event = {
 
 	immediate = {
 		log = "PlusMaintenance.101"
+
 		character_event = { id = PlusGreatSchism.001 } # Pre-Schism set-up
 		character_event = { id = PlusMaintenance.102 } # Apply Plus game rules
+
+		# Assign pentarchs to titles in normal starts, applies to Orthodox, Miaphysite etc.
+		# Event is fired in set-up event for Chalcedonian starts
+		if = {
+			limit = {
+				has_global_flag = great_schism_happened
+			}
+
+			# Assign pentarchs to titles
+			k_orthodox = {
+				holder_scope = {
+					character_event = { id = PlusGreatSchism.051 }
+				}
+			}
+		}
+
 		set_global_flag = plus_startup
 	}
 }

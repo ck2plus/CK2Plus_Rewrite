@@ -98,22 +98,6 @@ character_event = {
 			make_primary_title = yes
 		}
 
-		# Mark court chaplains and restore them after religion conversion
-		# to ensure presence of autocephalous patriarchs in starts after 1054
-		# Does not appear to be working
-#		any_character = {
-#			limit = {
-#				is_ruler = yes
-#				OR = {
-#					higher_tier_than = BARON # barons don't have court chaplains
-#					is_patrician = yes
-#				}
-#			}
-#			job_spiritual = {
-#				save_event_target_as = former_court_chaplain
-#			}
-#		}
-
 		# Convert Pope and Ecumenical Patriarch, in starts after 1054
 		b_roma = {
 			holder_scope = {
@@ -300,41 +284,6 @@ character_event = {
 			}
 		}
 
-		# Appoint court chaplains, religion change fires them, to ensure presence of autocephalous patriarchs
-		any_character = {
-			limit = {
-				is_ruler = yes
-				higher_tier_than = BARON
-				NOT = {
-					job_spiritual = {
-						always = yes
-					}
-				}
-			}
-
-			random_courtier_or_vassal = {
-				limit = {
-					can_hold_title = job_spiritual
-				}
-
-				preferred_limit = {
-					historical = yes
-					NOT = { is_close_relative = PREV }
-				}
-				preferred_limit = {
-					NOT = { is_close_relative = PREV }
-				}
-
-				give_job_title = job_spiritual
-			}
-
-			# This seems not to work
-#			event_target:former_court_chaplain = {
-#				give_job_title = job_spiritual
-#			}
-#			clear_event_target = former_court_chaplain
-		}
-
 		# Assign Greek and Latin rites
 		any_character = {
 			character_event = {
@@ -343,464 +292,10 @@ character_event = {
 			}
 		}
 
-		# Assign pentarchy allegiance
-		any_title = {
-			limit = {
-				has_holder = yes
-
-				OR = {
-					location = { # Christian lands
-						has_pentarchy = yes
-					}
-					holder_scope = { # or under a Christian top liege (Sweden in 1066, for example)
-						OR = {
-							has_pentarchy = yes
-							top_liege = {
-								has_pentarchy = yes
-							}
-						}
-					}
-				}
-			}
-
-			if = { # Assign titles to Rome
-				limit = {
-					OR = {
-						# Avoid assigning lands held by Greek or Slavic rulers inside the Latin sphere
-						# or held by core 'Catholic' cultures outside the Latin sphere
-						AND = {
-							trigger_if = {
-								limit = {
-									OR = {
-										AND = {
-											lower_tier_than = DUKE
-											location = {
-												NOT = {
-													region = custom_latin_rites
-												}
-											}
-										}
-										AND = {
-											higher_tier_than = COUNT
-
-											holder_scope = {
-												has_pentarchy = yes
-
-												any_demesne_title = {
-													tier = COUNT
-													location = {
-														NOT = {
-															region = custom_latin_rites
-														}
-													}
-												}
-											}
-										}
-									}
-								}
-								holder_scope = {
-									OR = {
-										culture_group = latin
-										culture_group = italian_group
-									}
-								}
-							}
-
-							holder_scope = {
-								NOR = {
-									culture_group = byzantine
-									culture_group = east_slavic
-								}
-							}
-						}
-
-						# Non-iconoclast, non-Byzantines under iconoclast Byzantine emperor
-						location = {
-							has_pentarchy = yes
-							NOT = { religion = iconoclast }
-
-							owner = {
-								NOR = {
-									religion = iconoclast
-									culture_group = byzantine
-								}
-								top_liege = {
-									has_landed_title = e_byzantium
-									religion = iconoclast
-								}
-							}
-						}
-					}
-
-					# Religious heads don't report to the Pope
-					trigger_if = {
-						limit = { controls_religion = yes }
-						title = k_papal_state
-					}
-				}
-				log = "Pentarchy of Rome was assigned the [This.GetFullBaseName] ([This.GetID])"
-				set_pentarch_title = b_roma
-			}
-
-			# Assign pentarchs, if they exist
-			else_if = {
-				limit = {
-					# Check if a patriarch exists
-					b_antiocheia = {
-						holder_scope = {
-							has_pentarchy = yes
-							is_theocracy = yes
-						}
-					}
-					OR = {
-						location = { # counties
-							region = custom_pentarch_antioch
-						}
-						any_direct_de_jure_vassal_title = { # duchies and kingdoms
-							OR = {
-								location = { # counties, if title was a duchy
-									region = custom_pentarch_antioch
-								}
-								any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
-									location = {
-										region = custom_pentarch_antioch
-									}
-								}
-							}
-						}
-
-						# Belongs to another pentarch that does not exist and this pentarch is closest to it
-						AND = {
-							b_jerusalem = {
-								holder_scope = {
-									has_pentarchy = no
-								}
-							}
-
-							OR = {
-								location = { # counties
-									region = custom_pentarch_jerusalem
-								}
-								any_direct_de_jure_vassal_title = { # duchies and kingdoms
-									OR = {
-										location = { # counties, if title was a duchy
-											region = custom_pentarch_jerusalem
-										}
-										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
-											location = {
-												region = custom_pentarch_jerusalem
-											}
-										}
-									}
-								}
-							}
-						}
-						AND = {
-							b_alexandria = {
-								holder_scope = {
-									has_pentarchy = no
-								}
-							}
-
-							OR = {
-								location = { # counties
-									region = custom_pentarch_alexandria
-								}
-								any_direct_de_jure_vassal_title = { # duchies and kingdoms
-									OR = {
-										location = { # counties, if title was a duchy
-											region = custom_pentarch_alexandria
-										}
-										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
-											location = {
-												region = custom_pentarch_alexandria
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				log = "Pentarch of Antioch was assigned the [This.GetFullBaseName] ([This.GetID])"
-				set_pentarch_title = b_antiocheia
-			}
-			else_if = {
-				limit = {
-					# Check if a patriarch exists
-					b_jerusalem = {
-						holder_scope = {
-							has_pentarchy = yes
-							is_theocracy = yes
-						}
-					}
-					OR = {
-						location = { # counties
-							region = custom_pentarch_jerusalem
-						}
-						any_direct_de_jure_vassal_title = { # duchies
-							location = { # counties
-								region = custom_pentarch_jerusalem
-							}
-						}
-
-						# Belongs to another pentarch that does not exist and this pentarch is closest to it
-						AND = {
-							b_antiocheia = {
-								holder_scope = {
-									has_pentarchy = no
-								}
-							}
-
-							OR = {
-								location = { # counties
-									region = custom_pentarch_antioch
-								}
-								any_direct_de_jure_vassal_title = { # duchies and kingdoms
-									OR = {
-										location = { # counties, if title was a duchy
-											region = custom_pentarch_antioch
-										}
-										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
-											location = {
-												region = custom_pentarch_antioch
-											}
-										}
-									}
-								}
-							}
-						}
-						AND = {
-							b_alexandria = {
-								holder_scope = {
-									has_pentarchy = no
-								}
-							}
-
-							OR = {
-								location = { # counties
-									region = custom_pentarch_alexandria
-								}
-								any_direct_de_jure_vassal_title = { # duchies and kingdoms
-									OR = {
-										location = { # counties, if title was a duchy
-											region = custom_pentarch_alexandria
-										}
-										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
-											location = {
-												region = custom_pentarch_alexandria
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				log = "Pentarch of Jerusalem was assigned the [This.GetFullBaseName] ([This.GetID])"
-				set_pentarch_title = b_jerusalem
-			}
-			else_if = {
-				limit = {
-					# Check if a patriarch exists
-					b_alexandria = {
-						holder_scope = {
-							has_pentarchy = yes
-							is_theocracy = yes
-						}
-					}
-					OR = {
-						location = { # counties
-							region = custom_pentarch_alexandria
-						}
-						any_direct_de_jure_vassal_title = { # duchies
-							location = { # counties
-								region = custom_pentarch_alexandria
-							}
-						}
-
-						# Belongs to another pentarch that does not exist and this pentarch is closest to it
-						AND = {
-							b_jerusalem = {
-								holder_scope = {
-									has_pentarchy = no
-								}
-							}
-
-							OR = {
-								location = { # counties
-									region = custom_pentarch_jerusalem
-								}
-								any_direct_de_jure_vassal_title = { # duchies and kingdoms
-									OR = {
-										location = { # counties, if title was a duchy
-											region = custom_pentarch_jerusalem
-										}
-										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
-											location = {
-												region = custom_pentarch_jerusalem
-											}
-										}
-									}
-								}
-							}
-						}
-						AND = {
-							b_antiocheia = {
-								holder_scope = {
-									has_pentarchy = no
-								}
-							}
-
-							OR = {
-								location = { # counties
-									region = custom_pentarch_antioch
-								}
-								any_direct_de_jure_vassal_title = { # duchies and kingdoms
-									OR = {
-										location = { # counties, if title was a duchy
-											region = custom_pentarch_antioch
-										}
-										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
-											location = {
-												region = custom_pentarch_antioch
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-				log = "Pentarch of Alexandria was assigned the [This.GetFullBaseName] ([This.GetID])"
-				set_pentarch_title = b_alexandria
-			}
-			else_if = {
-				limit = {
-					holder_scope = { # Crusader states, etc.
-						NOR = {
-							culture_group = italian_group
-							culture_group = latin
-						}
-					}
-
-					OR = {
-						# Not under a kingdom title outside the Latin sphere, which has an autocephalous patriarch
-						NOR = {
-							trigger_if = {
-								limit = { higher_tier_than = DUKE }
-								NOR = { # exceptions
-									title = e_byzantium
-									title = k_orthodox
-								}
-							}
-						}
-
-						# Greeks outside the Greek sphere
-						trigger_if = {
-							limit = {
-								NOT = { region = custom_greek_rites }
-								lower_tier_than = DUKE
-							}
-							OR = {
-								location = {
-									culture_group = byzantine
-								}
-								holder_scope = {
-									culture_group = byzantine
-								}
-							}
-						}
-						trigger_else_if = {
-							limit = {
-								NOT = { region = custom_greek_rites }
-								higher_tier_than = COUNT
-							}
-							holder_scope = {
-								culture_group = byzantine
-							}
-						}
-
-						#AND = {
-						#	trigger_if = {
-						#		limit = { tier = COUNT }
-						#
-						#		location = {
-						#			NOT = {
-						#				region = custom_greek_rites
-						#			}
-						#			culture_group = byzantine
-						#		}
-						#	}
-						#	OR = {
-						#		trigger_if = {
-						#			limit = { tier = COUNT }
-						#			location = {
-						#				culture_group = byzantine
-						#			}
-						#		}
-						#		holder_scope = {
-						#			culture_group = byzantine
-						#		}
-						#	}
-						#}
-					}
-				}
-				log = "Pentarchy of Constantinople was assigned the [This.GetFullBaseName] ([This.GetID])"
-				set_pentarch_title = b_hagiasophia
-			}
-		}
-
-		# Reset pentarchy in realms that should have an autocephalous patriarch instead
-		any_title = {
-			save_event_target_as = possible_kingdom_with_autocephalous_patriarch
-			if = {
-				limit = {
-					higher_tier_than = DUKE
-					has_holder = yes
-
-					NOR = { # exceptions
-						title = e_byzantium
-						title = k_orthodox
-					}
-
-					holder_scope = {
-						has_pentarchy = yes
-
-						NOR = {
-							culture_group = latin
-							culture_group = italian_group
-							culture_group = magyar
-							has_landed_title = k_orthodox
-							has_landed_title = e_byzantium
-						}
-
-						any_realm_title = {
-							tier = COUNT
-							location = {
-								region = custom_greek_rites
-							}
-						}
-					}
-				}
-				holder_scope = {
-					any_title_under = {
-						limit = {
-							NOR = {
-								# Don't reset titles outside de jure kingdom, and still de jure part of Byzantine Empire,
-								# should keep Ecumenical Patriarch as religious head (see Bulgaria in 867)
-								kingdom = {
-									NOT = { title = PREVPREVPREV }
-									empire = {
-										title = e_byzantium
-									}
-								}
-							}
-						}
-						set_pentarch_title = none
-						log = "Pentarchy was reset on the [This.GetFullBaseName] ([This.GetID]), under an autocephalous patriarch"
-					}
-				}
+		# Assign pentarchs to titles
+		k_papal_state = {
+			holder_scope = {
+				character_event = { id = PlusGreatSchism.051 }
 			}
 		}
 	}
@@ -2064,10 +1559,507 @@ character_event = {
 #
 #	INDEX
 #
+#	051: Assign pentarchs to titles
 #
 #######################################
 
+# 051: # Assign pentarchs to titles
+# Used for both Chalcedonian and vanilla religions that use pentarchy in any way
+character_event = {
+	id = PlusGreatSchism.051
 
+	hide_window = yes
+	is_triggered_only = yes # 002 above, and PlusMaintenance.101, for post-1054 starts with Schism in place
+
+	immediate = {
+		# Assign pentarchy allegiance
+		any_title = {
+			limit = {
+				has_holder = yes
+
+				OR = {
+					location = { # Christian lands
+						has_pentarchy = yes
+					}
+					holder_scope = { # or under a Christian top liege (Sweden in 1066, for example)
+						OR = {
+							has_pentarchy = yes
+							top_liege = {
+								has_pentarchy = yes
+							}
+						}
+					}
+				}
+			}
+
+			if = { # Assign titles to Rome
+				limit = {
+					NOT = { has_global_flag = great_schism_happened } # for post-1054 starts with Schism in place
+
+					OR = {
+						# Avoid assigning lands held by Greek or Slavic rulers inside the Latin sphere
+						# or held by core 'Catholic' cultures outside the Latin sphere
+						AND = {
+							trigger_if = {
+								limit = {
+									OR = {
+										AND = {
+											lower_tier_than = DUKE
+											location = {
+												NOT = {
+													region = custom_latin_rites
+												}
+											}
+										}
+										AND = {
+											higher_tier_than = COUNT
+
+											holder_scope = {
+												has_pentarchy = yes
+
+												any_demesne_title = {
+													tier = COUNT
+													location = {
+														NOT = {
+															region = custom_latin_rites
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+								holder_scope = {
+									OR = {
+										culture_group = latin
+										culture_group = italian_group
+									}
+								}
+							}
+
+							holder_scope = {
+								NOR = {
+									culture_group = byzantine
+									culture_group = east_slavic
+								}
+							}
+						}
+
+						# Non-iconoclast, non-Byzantines under iconoclast Byzantine emperor
+						location = {
+							has_pentarchy = yes
+							NOT = { religion = iconoclast }
+
+							owner = {
+								NOR = {
+									religion = iconoclast
+									culture_group = byzantine
+								}
+								top_liege = {
+									has_landed_title = e_byzantium
+									religion = iconoclast
+								}
+							}
+						}
+					}
+
+					# Religious heads don't report to the Pope
+					trigger_if = {
+						limit = { controls_religion = yes }
+						title = k_papal_state
+					}
+				}
+				log = "Pentarchy of Rome was assigned the [This.GetFullBaseName] ([This.GetID])"
+				set_pentarch_title = b_roma
+			}
+
+			# Assign pentarchs, if they exist
+			else_if = {
+				limit = {
+					# Check if a patriarch exists
+					b_antiocheia = {
+						holder_scope = {
+							has_pentarchy = yes
+							is_theocracy = yes
+						}
+					}
+					OR = {
+						location = { # counties
+							region = custom_pentarch_antioch
+						}
+						any_direct_de_jure_vassal_title = { # duchies and kingdoms
+							OR = {
+								location = { # counties, if title was a duchy
+									region = custom_pentarch_antioch
+								}
+								any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
+									location = {
+										region = custom_pentarch_antioch
+									}
+								}
+							}
+						}
+
+						# Belongs to another pentarch that does not exist and this pentarch is closest to it
+						AND = {
+							b_jerusalem = {
+								holder_scope = {
+									has_pentarchy = no
+								}
+							}
+
+							OR = {
+								location = { # counties
+									region = custom_pentarch_jerusalem
+								}
+								any_direct_de_jure_vassal_title = { # duchies and kingdoms
+									OR = {
+										location = { # counties, if title was a duchy
+											region = custom_pentarch_jerusalem
+										}
+										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
+											location = {
+												region = custom_pentarch_jerusalem
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							b_alexandria = {
+								holder_scope = {
+									has_pentarchy = no
+								}
+							}
+
+							OR = {
+								location = { # counties
+									region = custom_pentarch_alexandria
+								}
+								any_direct_de_jure_vassal_title = { # duchies and kingdoms
+									OR = {
+										location = { # counties, if title was a duchy
+											region = custom_pentarch_alexandria
+										}
+										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
+											location = {
+												region = custom_pentarch_alexandria
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				log = "Pentarch of Antioch was assigned the [This.GetFullBaseName] ([This.GetID])"
+				set_pentarch_title = b_antiocheia
+			}
+			else_if = {
+				limit = {
+					# Check if a patriarch exists
+					b_jerusalem = {
+						holder_scope = {
+							has_pentarchy = yes
+							is_theocracy = yes
+						}
+					}
+					OR = {
+						location = { # counties
+							region = custom_pentarch_jerusalem
+						}
+						any_direct_de_jure_vassal_title = { # duchies
+							location = { # counties
+								region = custom_pentarch_jerusalem
+							}
+						}
+
+						# Belongs to another pentarch that does not exist and this pentarch is closest to it
+						AND = {
+							b_antiocheia = {
+								holder_scope = {
+									has_pentarchy = no
+								}
+							}
+
+							OR = {
+								location = { # counties
+									region = custom_pentarch_antioch
+								}
+								any_direct_de_jure_vassal_title = { # duchies and kingdoms
+									OR = {
+										location = { # counties, if title was a duchy
+											region = custom_pentarch_antioch
+										}
+										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
+											location = {
+												region = custom_pentarch_antioch
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							b_alexandria = {
+								holder_scope = {
+									has_pentarchy = no
+								}
+							}
+
+							OR = {
+								location = { # counties
+									region = custom_pentarch_alexandria
+								}
+								any_direct_de_jure_vassal_title = { # duchies and kingdoms
+									OR = {
+										location = { # counties, if title was a duchy
+											region = custom_pentarch_alexandria
+										}
+										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
+											location = {
+												region = custom_pentarch_alexandria
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				log = "Pentarch of Jerusalem was assigned the [This.GetFullBaseName] ([This.GetID])"
+				set_pentarch_title = b_jerusalem
+			}
+			else_if = {
+				limit = {
+					# Check if a patriarch exists
+					b_alexandria = {
+						holder_scope = {
+							has_pentarchy = yes
+							is_theocracy = yes
+						}
+					}
+					OR = {
+						location = { # counties
+							region = custom_pentarch_alexandria
+						}
+						any_direct_de_jure_vassal_title = { # duchies
+							location = { # counties
+								region = custom_pentarch_alexandria
+							}
+						}
+
+						# Belongs to another pentarch that does not exist and this pentarch is closest to it
+						AND = {
+							b_jerusalem = {
+								holder_scope = {
+									has_pentarchy = no
+								}
+							}
+
+							OR = {
+								location = { # counties
+									region = custom_pentarch_jerusalem
+								}
+								any_direct_de_jure_vassal_title = { # duchies and kingdoms
+									OR = {
+										location = { # counties, if title was a duchy
+											region = custom_pentarch_jerusalem
+										}
+										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
+											location = {
+												region = custom_pentarch_jerusalem
+											}
+										}
+									}
+								}
+							}
+						}
+						AND = {
+							b_antiocheia = {
+								holder_scope = {
+									has_pentarchy = no
+								}
+							}
+
+							OR = {
+								location = { # counties
+									region = custom_pentarch_antioch
+								}
+								any_direct_de_jure_vassal_title = { # duchies and kingdoms
+									OR = {
+										location = { # counties, if title was a duchy
+											region = custom_pentarch_antioch
+										}
+										any_direct_de_jure_vassal_title = { # duchies, if previous title was a kingdom
+											location = {
+												region = custom_pentarch_antioch
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				log = "Pentarch of Alexandria was assigned the [This.GetFullBaseName] ([This.GetID])"
+				set_pentarch_title = b_alexandria
+			}
+			else_if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							NOT = { has_global_flag = great_schism_happened }
+						}
+						holder_scope = { # Crusader states, etc.
+							NOR = {
+								culture_group = italian_group
+								culture_group = latin
+							}
+						}
+					}
+
+					OR = {
+						# Not under a kingdom title outside the Latin sphere, which has an autocephalous patriarch
+						NOR = {
+							trigger_if = {
+								limit = { higher_tier_than = DUKE }
+								NOR = { # exceptions
+									title = e_byzantium
+									title = k_orthodox
+								}
+							}
+						}
+
+						# Greeks outside the Greek sphere
+						trigger_if = {
+							limit = {
+								NOT = { region = custom_greek_rites }
+								lower_tier_than = DUKE
+							}
+							OR = {
+								location = {
+									culture_group = byzantine
+								}
+								holder_scope = {
+									culture_group = byzantine
+								}
+							}
+						}
+						trigger_else_if = {
+							limit = {
+								NOT = { region = custom_greek_rites }
+								higher_tier_than = COUNT
+							}
+							holder_scope = {
+								culture_group = byzantine
+							}
+						}
+
+#						# Orthodox provinces outside Greek sphere, for post-1054 starts with Schism in place
+#						trigger_if = {
+#							limit = { has_global_flag = great_schism_happened }
+#							location = {
+#								religion = orthodox
+#							}
+#						}
+					}
+				}
+				log = "Pentarchy of Constantinople was assigned the [This.GetFullBaseName] ([This.GetID])"
+				set_pentarch_title = b_hagiasophia
+			}
+		}
+
+		# Reset pentarchy in realms that should have an autocephalous patriarch instead
+		any_title = {
+			if = {
+				limit = {
+					higher_tier_than = DUKE
+					has_holder = yes
+
+					NOR = { # exceptions
+						title = e_byzantium
+						title = k_orthodox
+					}
+
+					holder_scope = {
+						has_pentarchy = yes
+
+						NOR = {
+							culture_group = latin
+							culture_group = italian_group
+							culture_group = magyar
+							has_landed_title = k_orthodox
+							has_landed_title = e_byzantium
+						}
+
+						any_realm_title = {
+							tier = COUNT
+							location = {
+								region = custom_greek_rites
+							}
+						}
+					}
+				}
+
+				set_title_flag = has_autocephalous_patriarch
+
+				holder_scope = {
+					any_title_under = {
+						limit = {
+							NOR = {
+								# Don't reset titles outside de jure kingdom, and still de jure part of Byzantine Empire,
+								# should keep Ecumenical Patriarch as religious head (see Bulgaria in 867)
+								kingdom = {
+									NOT = { title = PREVPREVPREV }
+									empire = {
+										title = e_byzantium
+									}
+								}
+							}
+						}
+						set_pentarch_title = none
+						log = "Pentarchy was reset on the [This.GetFullBaseName] ([This.GetID]), under an autocephalous patriarch"
+					}
+				}
+			}
+		}
+
+		# Appoint court chaplains, if necesssary, to ensure presence of autocephalous patriarchs since religion change fires them
+		any_title = {
+			limit = { has_title_flag = has_autocephalous_patriarch }
+
+			holder_scope = {
+				if = {
+					limit = {
+						NOT = {
+							job_spiritual = {
+								always = yes
+							}
+						}
+					}
+
+					random_courtier_or_vassal = {
+						limit = {
+							can_hold_title = job_spiritual
+						}
+
+						preferred_limit = {
+							historical = yes
+							NOT = { is_close_relative = PREV }
+						}
+						preferred_limit = {
+							NOT = { is_close_relative = PREV }
+						}
+
+						give_job_title = job_spiritual
+					}
+				}
+			}
+		}
+	}
+}
 
 #######################################
 #
