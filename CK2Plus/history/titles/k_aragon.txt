@@ -18,8 +18,8 @@
 1134.9.7={
 	holder=70233 # Ramiro II Jimena
 }
-1157.8.16={
-	holder=210507 # Petronila Ramírez Jimena
+1137.8.16={ # Abdication of Ramiro II
+	holder=210507 # Peyronela Ramírez Jimena
 }
 1164.1.1={
 	holder=210500 # Alfons II d'Aragó
