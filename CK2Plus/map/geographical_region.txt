@@ -1363,9 +1363,9 @@ custom_pentarch_rome = {
 }
 
 custom_pentarch_constantinople = {
-	regions = {
-		custom_russia
-	}
+#	regions = {
+#		custom_russia
+#	}
 	duchies = {
 		# Thrace
 		d_adrianopolis
@@ -1404,7 +1404,7 @@ custom_pentarch_constantinople = {
 		d_paphlagonia
 		d_trebizond
 
-		# Nicaea
+		# Nicaea, minus Cyprus
 		d_anatolia
 		d_abydos
 		d_bucellarian	# Boukellarion
@@ -1442,6 +1442,9 @@ custom_pentarch_antioch = {
 		# Armenia
 		d_armenia_minor	# Cilicia
 		d_edessa
+
+		# Nicaea
+		d_cyprus
 	}
 }
 
@@ -1453,12 +1456,14 @@ custom_pentarch_jerusalem = {
 		d_galilee
 		d_oultrejourdain
 
+		# Egypt
 		d_sinai
 	}
 }
 
 custom_pentarch_alexandria = {
-	duchies = { # Egypt, without Sinaï
+	duchies = {
+		# Egypt, without Sinaï
 		d_alexandria
 		d_cairo
 		d_cyrenaica

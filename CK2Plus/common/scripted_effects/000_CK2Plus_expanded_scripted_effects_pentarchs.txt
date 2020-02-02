@@ -1,0 +1,966 @@
+# Used in province scope
+# PREV must be a title
+# Be sure to set up these event targets first
+# - event_liege
+# - event_liege_religious_head
+# Filter out non-pentarchy and autocephalous realms as necessary before calling this effect
+# See PlusGreatSchism.054 - 058
+
+assign_pentarch_CK2Plus_effect = {
+	# The Pope's lackeys don't care about the other pentarchs' authority
+	if = {
+		limit = {
+			b_roma = {
+				holder_scope = {
+					character = event_target:event_liege_religious_head
+					has_landed_title = k_papal_state
+				}
+			}
+		}
+
+		PREV = {
+			set_pentarch_title = b_roma
+			log = "[This.GetID]: Pentarch of Rome was assigned the [This.GetFullBaseName]"
+		}
+	}
+
+	# Others do respect the other pentarchs' authority
+	else_if = {
+		limit = {
+			# Check if a patriarch exists
+			b_roma = {
+				holder_scope = {
+					has_pentarchy = yes
+					is_theocracy = yes
+					NOT = { has_landed_title = k_papal_state }
+				}
+			}
+
+			# Rightfully under authority of Rome
+			region = custom_pentarch_rome
+		}
+
+		PREV = {
+			set_pentarch_title = b_roma
+			log = "[This.GetID]: Pentarch of Rome was assigned the [This.GetFullBaseName]"
+		}
+	}
+	else_if = {
+		limit = {
+			# Check if a patriarch exists
+			b_antiocheia = {
+				holder_scope = {
+					has_pentarchy = yes
+					is_theocracy = yes
+				}
+			}
+
+			# Rightfully under authority of Antioch
+			region = custom_pentarch_antioch
+		}
+
+		PREV = {
+			set_pentarch_title = b_antiocheia
+			log = "[This.GetID]: Pentarch of Antioch was assigned the [This.GetFullBaseName]"
+		}
+	}
+	else_if = {
+		limit = {
+			# Check if a patriarch exists
+			b_jerusalem = {
+				holder_scope = {
+					has_pentarchy = yes
+					is_theocracy = yes
+				}
+			}
+
+			# Rightfully under authority of Jerusalem
+			region = custom_pentarch_jerusalem
+		}
+
+		PREV = {
+			set_pentarch_title = b_jerusalem
+			log = "[This.GetID]: Pentarch of Jerusalem was assigned the [This.GetFullBaseName]"
+		}
+	}
+	else_if = {
+		limit = {
+			# Check if a patriarch exists
+			b_alexandria = {
+				holder_scope = {
+					# Only recognises the three Petrine Sees
+					# NOR = {
+					#	religion = miaphysite
+					#	religion = monophysite
+					# }
+					has_pentarchy = yes
+					is_theocracy = yes
+				}
+			}
+
+			OR = {
+				region = custom_pentarch_alexandria
+				region = world_africa # Takes presedence over Constantinople
+			}
+		}
+
+		PREV = {
+			set_pentarch_title = b_alexandria
+			log = "[This.GetID]: Pentarch of Alexandria was assigned the [This.GetFullBaseName]"
+		}
+	}
+	else_if = {
+		limit = {
+			# Check if a patriarch exists
+			b_hagiasophia = {
+				holder_scope = {
+					# Only recognises the three Petrine Sees
+					# NOR = {
+					#	religion = miaphysite
+					#	religion = monophysite
+					# }
+					has_pentarchy = yes
+					is_theocracy = yes
+				}
+			}
+
+			OR = {
+				region = custom_pentarch_constantinople
+				region = world_steppe_west # Here so the previous region doesn't look hideous in-game
+				region = world_europe # Takes presedence over Alexandria
+			}
+		}
+
+		PREV = {
+			set_pentarch_title = b_hagiasophia
+			log = "[This.GetID]: Pentarch of Constantinople was assigned the [This.GetFullBaseName]"
+		}
+	}
+
+	else_if = {
+		limit = { # not affected by autocephalous patriarchs
+			event_target:event_liege = {
+				NOR = {
+					any_demesne_title = {
+						higher_tier_than = DUKE
+						has_flag = has_autocephalous_patriarch
+					}
+					any_liege = {
+						any_demesne_title = {
+							higher_tier_than = DUKE
+							has_flag = has_autocephalous_patriarch
+						}
+					}
+				}
+			}
+		}
+
+		log = "[Prev.GetID]: Outside defined Pentarch areas"
+
+		# Check which seated pentarch is closest and assign that instead
+		# Maximum possible distance on vanilla sized map (3072x2048) is just under 3700, by Pythagoras' theorem
+		# Distance is determined by binary search, starting at half the maximum distance
+		# and increasing/decreasing in ever smaller amounts towards the true distance
+		# All local_ variables exist only within this event
+
+		# Set initial values for all searches
+		# Adjust the first two to match map size
+		# Decrease/increase the third to get more/less accurate distance measures
+		set_variable = {
+			which = local_start_search_distance
+			value = 1850
+		}
+		set_variable = {
+			which = local_search_increment
+			value = 925
+		}
+		set_variable = {
+			which = local_search_increment_limit
+			value = 1
+		}
+
+		set_flag = no_pentarch_found_yet
+
+		if = {
+			limit = {
+				# Check if a patriarch exists
+				b_hagiasophia = {
+					holder_scope = {
+						# Only recognises the three Petrine Sees
+						# NOR = {
+						#	religion = miaphysite
+						#	religion = monophysite
+						# }
+						has_pentarchy = yes
+						is_theocracy = yes
+					}
+				}
+			}
+
+			log = "[Prev.GetID]: Calculating distance to Constantinople"
+
+			# Set initial values for this search
+			set_variable = {
+				which = local_current_distance_from_constantinople
+				which = local_start_search_distance
+			}
+			set_variable = {
+				which = local_search_increment_constantinople
+				which = local_search_increment
+			}
+
+			while = {
+				limit = {
+					check_variable = { # narrowed down enough if this is false
+						which = local_search_increment_constantinople
+						value > local_search_increment_limit
+					}
+				}
+
+				if = { # increase and half increment
+					limit = {
+						distance = {
+							where = 496 # c_byzantion/Constantinople
+							distance > local_current_distance_from_constantinople
+						}
+					}
+
+					change_variable = {
+						which = local_current_distance_from_constantinople
+						which = local_search_increment_constantinople
+					}
+					multiply_variable = {
+						which = local_search_increment_constantinople
+						value = 0.5
+					}
+				}
+				else = { # decrease instead, and half increment
+					subtract_variable = {
+						which = local_current_distance_from_constantinople
+						which = local_search_increment_constantinople
+					}
+					multiply_variable = {
+						which = local_search_increment_constantinople
+						value = 0.5
+					}
+				}
+			}
+
+			set_variable = {
+				which = local_distance_from_constantinople
+				which = local_current_distance_from_constantinople
+			}
+
+			# Track shortest distance yet found
+			set_flag = constantinople_is_closest
+
+			clr_flag = no_pentarch_found_yet
+
+			set_variable = {
+				which = local_shortest_distance_found
+				which = local_distance_from_constantinople
+			}
+		}
+
+		if = {
+			limit = {
+				# Check if a patriarch exists
+				b_antiocheia = {
+					holder_scope = {
+						has_pentarchy = yes
+						is_theocracy = yes
+					}
+				}
+				distance = { # Needs to be closer than closest found so far
+					where = 764 # c_antiocheia/Antioch
+					distance < local_shortest_distance_found
+				}
+			}
+
+			log = "[Prev.GetID]: Calculating distance to Antioch"
+
+			# Set initial values for this search
+			set_variable = {
+				which = local_current_distance_from_antioch
+				which = local_start_search_distance
+			}
+			set_variable = {
+				which = local_search_increment_antioch
+				which = local_search_increment
+			}
+
+			while = {
+				limit = {
+					check_variable = { # narrowed down enough if this is false
+						which = local_search_increment_antioch
+						value > local_search_increment_limit
+					}
+				}
+
+				if = { # increase and half increment
+					limit = {
+						distance = {
+							where = 764 # c_antiocheia/Antioch
+							distance > local_current_distance_from_antioch
+						}
+					}
+
+					change_variable = {
+						which = local_current_distance_from_antioch
+						which = local_search_increment_antioch
+					}
+					multiply_variable = {
+						which = local_search_increment_antioch
+						value = 0.5
+					}
+				}
+				else = { # decrease instead, and half increment
+					subtract_variable = {
+						which = local_current_distance_from_antioch
+						which = local_search_increment_antioch
+					}
+					multiply_variable = {
+						which = local_search_increment_antioch
+						value = 0.5
+					}
+				}
+			}
+
+			set_variable = {
+				which = local_distance_from_antioch
+				which = local_current_distance_from_antioch
+			}
+
+			# Track shortest distance yet found
+			if = {
+				limit = { has_flag = no_pentarch_found_yet }
+
+				set_variable = {
+					which = local_shortest_distance_found
+					which = local_distance_from_antioch
+				}
+				set_flag = antioch_is_closest
+				clr_flag = no_pentarch_found_yet
+			}
+			else_if = {
+				limit = { # new distance is shorter than previous shortest distance
+					NOT = {
+						check_variable = {
+							which = local_distance_from_antioch
+							which = local_shortest_distance_found
+						}
+					}
+				}
+				set_variable = {
+					which = local_shortest_distance_found
+					which = local_distance_from_antioch
+				}
+
+				# Clear whichever used to be closest
+				clr_flag = constantinople_is_closest
+
+				# Set flag for new closest
+				set_flag = antioch_is_closest
+			}
+		}
+
+		if = {
+			limit = {
+				# Check if a patriarch exists
+				b_jerusalem = {
+					holder_scope = {
+						has_pentarchy = yes
+						is_theocracy = yes
+					}
+				}
+				distance = { # Needs to be closer than closest found so far
+					where = 774 # c_jerusalem/Jerusalem
+					distance < local_shortest_distance_found
+				}
+			}
+
+			log = "[Prev.GetID]: Calculating distance to Jerusalem"
+
+			# Set initial values for this search
+			set_variable = {
+				which = local_current_distance_from_jerusalem
+				which = local_start_search_distance
+			}
+			set_variable = {
+				which = local_search_increment_jerusalem
+				which = local_search_increment
+			}
+			set_variable = {
+				which = local_absolute_search_increment_jerusalem
+				which = local_search_increment_jerusalem
+			}
+
+			while = {
+				limit = {
+					check_variable = { # narrowed down enough if this is false
+						which = local_search_increment_jerusalem
+						value > local_search_increment_limit
+					}
+				}
+
+				if = { # increase and half increment
+					limit = {
+						distance = {
+							where = 774 # c_jerusalem/Jerusalem
+							distance > local_current_distance_from_jerusalem
+						}
+					}
+
+					change_variable = {
+						which = local_current_distance_from_jerusalem
+						which = local_search_increment_jerusalem
+					}
+					multiply_variable = {
+						which = local_search_increment_jerusalem
+						value = 0.5
+					}
+				}
+				else = { # decrease instead, and half increment
+					subtract_variable = {
+						which = local_current_distance_from_jerusalem
+						which = local_search_increment_jerusalem
+					}
+					multiply_variable = {
+						which = local_search_increment_jerusalem
+						value = 0.5
+					}
+				}
+			}
+
+			set_variable = {
+				which = local_distance_from_jerusalem
+				which = local_current_distance_from_jerusalem
+			}
+
+			# Track shortest distance yet found
+			if = {
+				limit = { has_flag = no_pentarch_found_yet }
+
+				set_variable = {
+					which = local_shortest_distance_found
+					which = local_distance_from_jerusalem
+				}
+				set_flag = jerusalem_is_closest
+				clr_flag = no_pentarch_found_yet
+			}
+			else_if = {
+				limit = { # new distance is shorter than previous shortest distance
+					NOT = {
+						check_variable = {
+							which = local_distance_from_jerusalem
+							which = local_shortest_distance_found
+						}
+					}
+				}
+				set_variable = {
+					which = local_shortest_distance_found
+					which = local_distance_from_jerusalem
+				}
+
+				# Clear whichever used to be closest
+				clr_flag = constantinople_is_closest
+				clr_flag = antioch_is_closest
+
+				# Set flag for new closest
+				set_flag = jerusalem_is_closest
+			}
+		}
+
+		if = {
+			limit = {
+				# Check if a patriarch exists
+				b_alexandria = {
+					holder_scope = {
+						has_pentarchy = yes
+						is_theocracy = yes
+					}
+				}
+				distance = { # Needs to be closer than closest found so far
+					where = 802 # c_alexandria/Alexandria
+					distance < local_shortest_distance_found
+				}
+			}
+
+			log = "[Prev.GetID]: Calculating distance to Alexandria"
+
+			# Set initial values for this search
+			set_variable = {
+				which = local_current_distance_from_alexandria
+				which = local_start_search_distance
+			}
+			set_variable = {
+				which = local_search_increment_alexandria
+				which = local_search_increment
+			}
+			set_variable = {
+				which = local_absolute_search_increment_alexandria
+				which = local_search_increment_alexandria
+			}
+
+			while = {
+				limit = {
+					check_variable = { # narrowed down enough if this is false
+						which = local_search_increment_alexandria
+						value > local_search_increment_limit
+					}
+				}
+
+				if = { # increase and half increment
+					limit = {
+						distance = {
+							where = 802 # c_alexandria/Alexandria
+							distance > local_current_distance_from_alexandria
+						}
+					}
+
+					change_variable = {
+						which = local_current_distance_from_alexandria
+						which = local_search_increment_alexandria
+					}
+					multiply_variable = {
+						which = local_search_increment_alexandria
+						value = 0.5
+					}
+				}
+				else = { # decrease instead, and half increment
+					subtract_variable = {
+						which = local_current_distance_from_alexandria
+						which = local_search_increment_alexandria
+					}
+					multiply_variable = {
+						which = local_search_increment_alexandria
+						value = 0.5
+					}
+				}
+			}
+
+			set_variable = {
+				which = local_distance_from_alexandria
+				which = local_current_distance_from_alexandria
+			}
+
+			# Track shortest distance yet found
+			if = {
+				limit = { has_flag = no_pentarch_found_yet }
+
+				set_variable = {
+					which = local_shortest_distance_found
+					which = local_distance_from_antioch
+				}
+				set_flag = alexandria_is_closest
+				clr_flag = no_pentarch_found_yet
+			}
+			else_if = {
+				limit = { # new distance is shorter than previous shortest distance
+					NOT = {
+						check_variable = {
+							which = local_distance_from_alexandria
+							which = local_shortest_distance_found
+						}
+					}
+				}
+				set_variable = {
+					which = local_shortest_distance_found
+					which = local_distance_from_alexandria
+				}
+
+				# Clear whichever used to be closest
+				clr_flag = constantinople_is_closest
+				clr_flag = antioch_is_closest
+				clr_flag = jerusalem_is_closest
+
+				# Set flag for new closest
+				set_flag = alexandria_is_closest
+			}
+		}
+
+		if = {
+			limit = {
+				# Check if a non-Pope patriarch exists
+				b_roma = {
+					holder_scope = {
+						has_pentarchy = yes
+						is_theocracy = yes
+						NOT = { has_landed_title = k_papal_state }
+					}
+				}
+				distance = { # Needs to be closer than closest found so far
+					where = 333 # c_alexandria/Alexandria
+					distance < local_shortest_distance_found
+				}
+			}
+
+			log = "[Prev.GetID]: Calculating distance to Rome"
+
+			# Set initial values for this search
+			set_variable = {
+				which = local_current_distance_from_rome
+				which = local_start_search_distance
+			}
+			set_variable = {
+				which = local_search_increment_rome
+				which = local_search_increment
+			}
+			set_variable = {
+				which = local_absolute_search_increment_rome
+				which = local_search_increment_rome
+			}
+
+			while = {
+				limit = {
+					check_variable = { # narrowed down enough if this is false
+						which = local_search_increment_rome
+						value > local_search_increment_limit
+					}
+				}
+
+				if = { # increase and half increment
+					limit = {
+						distance = {
+							where = 333 # c_roma/Rome
+							distance > local_current_distance_from_rome
+						}
+					}
+
+					change_variable = {
+						which = local_current_distance_from_rome
+						which = local_search_increment_rome
+					}
+					multiply_variable = {
+						which = local_search_increment_rome
+						value = 0.5
+					}
+				}
+				else = { # decrease instead, and half increment
+					subtract_variable = {
+						which = local_current_distance_from_rome
+						which = local_search_increment_rome
+					}
+					multiply_variable = {
+						which = local_search_increment_rome
+						value = 0.5
+					}
+				}
+			}
+
+			set_variable = {
+				which = local_distance_from_rome
+				which = local_current_distance_from_rome
+			}
+
+			# Track shortest distance yet found
+			if = {
+				limit = { has_flag = no_pentarch_found_yet }
+
+				set_variable = {
+					which = local_shortest_distance_found
+					which = local_distance_from_rome
+				}
+				set_flag = rome_is_closest
+				clr_flag = no_pentarch_found_yet
+			}
+			else_if = {
+				limit = { # new distance is shorter than previous shortest distance
+					NOT = {
+						check_variable = {
+							which = local_distance_from_rome
+							which = local_shortest_distance_found
+						}
+					}
+				}
+				set_variable = {
+					which = local_shortest_distance_found
+					which = local_distance_from_rome
+				}
+
+				# Clear whichever used to be closest
+				clr_flag = constantinople_is_closest
+				clr_flag = antioch_is_closest
+				clr_flag = jerusalem_is_closest
+				clr_flag = alexandria_is_closest
+
+				# Set flag for new closest
+				set_flag = rome_is_closest
+			}
+		}
+
+		log = "[Prev.GetID]: Closest distance calculated"
+
+		trigger_switch = {
+			on_trigger = has_flag
+
+			constantinople_is_closest = {
+				PREV = {
+					set_pentarch_title = b_hagiasophia
+					log = "[This.GetID]: Pentarch of Constantinople was assigned the [This.GetFullBaseName], due to proximity"
+				}
+			}
+			antioch_is_closest = {
+				PREV = {
+					set_pentarch_title = b_antiocheia
+					log = "[This.GetID]: Pentarch of Antioch was assigned the [This.GetFullBaseName], due to proximity"
+				}
+			}
+			jerusalem_is_closest = {
+				PREV = {
+					set_pentarch_title = b_jerusalem
+					log = "[This.GetID]: Pentarch of Jerusalem was assigned the [This.GetFullBaseName], due to proximity"
+				}
+			}
+			alexandria_is_closest = {
+				PREV = {
+					set_pentarch_title = b_alexandria
+					log = "[This.GetID]: Pentarch of Alexandria was assigned the [This.GetFullBaseName], due to proximity"
+				}
+			}
+			rome_is_closest = {
+				PREV = {
+					set_pentarch_title = b_roma
+					log = "[This.GetID]: Pentarch of Rome was assigned the [This.GetFullBaseName], due to proximity"
+				}
+			}
+		}
+
+		# Clean-up
+		clr_flag = constantinople_is_closest
+		clr_flag = antioch_is_closest
+		clr_flag = jerusalem_is_closest
+		clr_flag = alexandria_is_closest
+		clr_flag = rome_is_closest
+
+		set_variable = {
+			which = local_start_search_distance
+			value = 0
+		}
+		set_variable = {
+			which = local_search_increment
+			value = 0
+		}
+		set_variable = {
+			which = local_search_increment_limit
+			value = 0
+		}
+		set_variable = {
+			which = local_shortest_distance_found
+			value = 0
+		}
+
+		set_variable = {
+			which = local_current_distance_from_constantinople
+			value = 0
+		}
+		set_variable = {
+			which = local_absolute_search_increment_constantinople
+			value = 0
+		}
+		set_variable = {
+			which = local_distance_from_constantinople
+			value = 0
+		}
+
+		set_variable = {
+			which = local_current_distance_from_antioch
+			value = 0
+		}
+		set_variable = {
+			which = local_absolute_search_increment_antioch
+			value = 0
+		}
+		set_variable = {
+			which = local_distance_from_antioch
+			value = 0
+		}
+
+		set_variable = {
+			which = local_current_distance_from_jerusalem
+			value = 0
+		}
+		set_variable = {
+			which = local_absolute_search_increment_jerusalem
+			value = 0
+		}
+		set_variable = {
+			which = local_distance_from_jerusalem
+			value = 0
+		}
+
+		set_variable = {
+			which = local_current_distance_from_alexandria
+			value = 0
+		}
+		set_variable = {
+			which = local_absolute_search_increment_alexandria
+			value = 0
+		}
+		set_variable = {
+			which = local_distance_from_alexandria
+			value = 0
+		}
+
+		set_variable = {
+			which = local_current_distance_from_rome
+			value = 0
+		}
+		set_variable = {
+			which = local_absolute_search_increment_rome
+			value = 0
+		}
+		set_variable = {
+			which = local_distance_from_rome
+			value = 0
+		}
+	}
+
+	# Fallback, autocephalous patriarch
+	else = {
+		log = "[Prev.GetID]: Fallback"
+
+		PREV = { # back to the title
+			if = { # avoid conflicts due to de jure overriding autocephalous patriarchs
+				limit = {
+					empire = { # de jure empire
+						has_holder = yes
+
+						holder_scope = {
+							NOT = { character = event_target:event_liege }
+
+							rightful_religious_head_scope = {
+								OR = {
+									has_landed_title = b_roma
+									has_landed_title = b_hagiasophia
+									has_landed_title = b_antiocheia
+									has_landed_title = b_jerusalem
+									has_landed_title = b_alexandria
+								}
+							}
+						}
+					}
+				}
+				empire = {
+					holder_scope = {
+						rightful_religious_head_scope = {
+							any_demesne_title = {
+								limit = {
+									OR = {
+										title = b_roma
+										title = b_hagiasophia
+										title = b_antiocheia
+										title = b_jerusalem
+										title = b_alexandria
+									}
+								}
+								save_event_target_as = conflicting_pentarch_title
+							}
+						}
+					}
+				}
+
+				log = "[This.GetID]: Pentarch of [conflicting_pentarch_title.GetBaseName] was assigned the [This.GetFullBaseName], overriding a conflict"
+				set_pentarch_title = event_target:conflicting_pentarch_title
+				clear_event_target = conflicting_pentarch_title
+			}
+			else = { # autocephalous patriarch claims authority over Christian lands held under non-Christians
+				log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], under autocephalous patriarch"
+				set_pentarch_title = none
+			}
+		}
+	}
+
+	# Assign to liege's religious head instead, fallback
+	#else = {
+	#	log = "Fallback ([Prev.GetID])"
+	#
+	#	event_target:event_liege_religious_head = {
+	#		trigger_switch = {
+	#			on_trigger = has_landed_title
+	#
+	#			b_roma = { # not a scope change
+	#				PREVPREV = { # back to the title
+	#					set_pentarch_title = b_roma
+	#					log = "Pentarch of Rome was assigned the [This.GetFullBaseName] ([This.GetID])"
+	#				}
+	#			}
+	#			b_hagiasophia = { # not a scope change
+	#				PREVPREV = { # back to the title
+	#					set_pentarch_title = b_hagiasophia
+	#					log = "Pentarch of Constantinople was assigned the [This.GetFullBaseName] ([This.GetID])"
+	#				}
+	#			}
+	#			b_antiocheia = { # not a scope change
+	#				PREVPREV = { # back to the title
+	#					set_pentarch_title = b_antiocheia
+	#					log = "Pentarch of Antioch was assigned the [This.GetFullBaseName] ([This.GetID])"
+	#				}
+	#			}
+	#			b_jerusalem = { # not a scope change
+	#				PREVPREV = { # back to the title
+	#					set_pentarch_title = b_jerusalem
+	#					log = "Pentarch of Jerusalem was assigned the [This.GetFullBaseName] ([This.GetID])"
+	#				}
+	#			}
+	#			b_alexandria = { # not a scope change
+	#				PREVPREV = { # back to the title
+	#					set_pentarch_title = b_alexandria
+	#					log = "Pentarch of Alexandria was assigned the [This.GetFullBaseName] ([This.GetID])"
+	#				}
+	#			}
+	#			fallback = { # liege has autocephalous patriarch
+	#				PREVPREV = { # back to the title
+	#					if = { # avoid conflicts due to de jure overriding autocephalous patriarchs
+	#						limit = {
+	#							empire = { # de jure empire
+	#								has_holder = yes
+	#
+	#								holder_scope = {
+	#									NOT = { character = event_target:event_liege }
+	#
+	#									rightful_religious_head_scope = {
+	#										OR = {
+	#											has_landed_title = b_roma
+	#											has_landed_title = b_hagiasophia
+	#											has_landed_title = b_antiocheia
+	#											has_landed_title = b_jerusalem
+	#											has_landed_title = b_alexandria
+	#										}
+	#									}
+	#								}
+	#							}
+	#						}
+	#						empire = {
+	#							holder_scope = {
+	#								rightful_religious_head_scope = {
+	#									any_demesne_title = {
+	#										limit = {
+	#											OR = {
+	#												title = b_roma
+	#												title = b_hagiasophia
+	#												title = b_antiocheia
+	#												title = b_jerusalem
+	#												title = b_alexandria
+	#											}
+	#										}
+	#										save_event_target_as = conflicting_pentarch_title
+	#									}
+	#								}
+	#							}
+	#						}
+	#
+	#						log = "Pentarch of [conflicting_pentarch_title.GetBaseName] was assigned the [This.GetFullBaseName] ([This.GetID]), overriding a conflict"
+	#						set_pentarch_title = event_target:conflicting_pentarch_title
+	#						clear_event_target = conflicting_pentarch_title
+	#					}
+	#					else = { # autocephalous patriarch claims authority over Christian lands held under non-Christians
+	#						log = "Pentarch reset on the [This.GetFullBaseName] ([This.GetID]), under autocephalous patriarch"
+	#						set_pentarch_title = none
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
+}

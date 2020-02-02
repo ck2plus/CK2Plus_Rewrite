@@ -73,6 +73,9 @@ on_new_holder = {
 	events = {
 		PlusCeltic.001 # New temple holders gain Druid trait
 		PlusGreatSchism.041 # Hand out Greek/Latin Rites
+		PlusGreatSchism.052 # Update pentarch on title
+		PlusGreatSchism.057 # Pentarch re-established
+		PlusGreatSchism.058 # Pentarch disestablished
 	}
 
 	random_events = {
@@ -85,6 +88,7 @@ on_new_holder_inheritance = {
 		PlusGreatSchism.041 # Hand out Greek/Latin Rites
 		PlusGreatSchism.043 # Check relations between Greek and Latin Chalcedonian realms
 	}
+
 	random_events = {
 	}
 }
@@ -106,6 +110,21 @@ on_unlanded = {
 on_character_convert_religion = {
 	events = {
 		PlusCeltic.001 # New temple holders gain Druid trait
+		PlusGreatSchism.053 # Update pentarch on held titles
+	}
+}
+
+# When a character accepts religious conversion (the diplomatic action)
+# FROMFROM is the demander. FROM is the vassal. ROOT is the character. Fires for the vassal and each of his courtiers and vassals.
+on_vassal_accepts_religious_conversion = {
+	events = {
+	}
+}
+
+# When the religion changes in a county, ROOT is province. FROM has the old religion.
+on_county_religion_change = {
+	events = {
+		PlusGreatSchism.056 # Update pentarch on province after religion change
 	}
 }
 
@@ -113,5 +132,27 @@ on_character_convert_religion = {
 on_war_started = {
 	events = {
 		PlusGreatSchism.072 # Carolingian/HRE Emperor fights the Byzantine Empire
+	}
+}
+
+###########################
+# DIPLOMATIC NOTIFICATIONS
+###########################
+
+# FROM is the character recieving the event
+# FROMFROM is the person sending the event
+# ROOT is empty or a third party
+# new_character is empty or a third party
+# Starting scope is equal to FROMFROM
+
+OFFER_VASSALIZATION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		PlusGreatSchism.054 # Update pentarch on titles of new vassal's realm
+	}
+}
+
+ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		PlusGreatSchism.055 # Update pentarch on titles of new vassal's realm
 	}
 }
