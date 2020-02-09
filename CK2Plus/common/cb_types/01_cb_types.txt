@@ -282,6 +282,7 @@ dejure_duchy_claim = { # New1
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_war_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -819,6 +820,7 @@ great_realm_conflict = { # New3
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -1922,6 +1924,7 @@ liberate_religion = { # New6
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -6940,6 +6943,9 @@ childrens_crusade = {
 				years = 20
 			}
 		}
+		hidden_effect = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
+		}
 	}
 
 	on_reverse_demand = {
@@ -8702,6 +8708,10 @@ northern_crusade_war = {
 					clr_global_flag = northern_crusades_active
 				}
 			}
+		}
+
+		hidden_effect = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 		}
 	}
 	on_reverse_demand = {

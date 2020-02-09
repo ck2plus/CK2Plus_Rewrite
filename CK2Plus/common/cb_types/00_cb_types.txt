@@ -3514,6 +3514,7 @@ tribal_invasion = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -6308,6 +6309,7 @@ religious = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_war_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -9265,6 +9267,7 @@ muslim_invasion = {
 						}
 					}
 				}
+				reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			}
 		}
 	}
@@ -9887,6 +9890,7 @@ imperial_reconquest = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -10513,6 +10517,7 @@ viking_invasion = {
 					}
 					FROM = { imprison = ROOT }
 				}
+				reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			}
 		}
 	}
@@ -11065,6 +11070,7 @@ heretic_revolt = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -11230,6 +11236,7 @@ religious_revolt = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -11399,6 +11406,7 @@ liberation_revolt = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -11581,6 +11589,7 @@ duchy_adventure = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -11973,6 +11982,7 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -12289,6 +12299,7 @@ pagan_holy_war = {
 						type = holy_war
 					}
 				}
+				reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			}
 		}
 	}
@@ -14506,6 +14517,7 @@ shia_caliphate_rising = {
 					FROM = { imprison = ROOT }
 				}
 			}
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 		}
 	}
 
@@ -15830,6 +15842,7 @@ manifest_destiny_invasion = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes
@@ -17549,6 +17562,7 @@ cb_liberate_nomad_duchy = {
 						type = invasion
 					}
 				}
+				reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			}
 		}
 	}
@@ -18361,6 +18375,7 @@ nomad_invasion = {
 		}
 
 		hidden_tooltip = {
+			reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			check_if_reconquista_finished_effect = yes
 			FROM = {
 				landless_pope_effect = yes

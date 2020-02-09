@@ -665,6 +665,7 @@ shattered_invasion = {
 						type = invasion
 					}
 				}
+				reassign_pentarch_to_vassalised_titles_CK2Plus_effect = yes
 			}
 		}
 	}

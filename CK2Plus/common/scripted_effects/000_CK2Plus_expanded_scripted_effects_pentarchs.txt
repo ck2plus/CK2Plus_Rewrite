@@ -12,11 +12,9 @@ assign_pentarch_CK2Plus_effect = {
 		limit = {
 			event_target:event_liege = {
 				NOR = {
-					AND = {
-						any_demesne_title = {
-							higher_tier_than = DUKE
-							has_flag = has_autocephalous_patriarch
-						}
+					any_demesne_title = {
+						higher_tier_than = DUKE
+						has_flag = has_autocephalous_patriarch
 					}
 
 					any_liege = {
@@ -836,8 +834,8 @@ assign_pentarch_CK2Plus_effect = {
 	else = {
 		log = "[Prev.GetID]: Autocephalous patriarch"
 
-		PREV = { # back to the title
-			if = { # avoid conflicts due to de jure overriding autocephalous patriarchs
+		PREV = { # Back to the title
+			if = { # Avoid conflicts due to de jure overriding autocephalous patriarchs
 				limit = {
 					OR = {
 						kingdom = {
@@ -873,7 +871,18 @@ assign_pentarch_CK2Plus_effect = {
 				empire = {
 					holder_scope = {
 						rightful_religious_head_scope = {
-							save_event_target_as = conflicting_pentarch_title
+							any_demesne_title = {
+								limit = {
+									OR = {
+										title = b_roma
+										title = b_hagiasophia
+										title = b_antiocheia
+										title = b_jerusalem
+										title = b_alexandria
+									}
+								}
+								save_event_target_as = conflicting_pentarch_title
+							}
 						}
 					}
 				}
@@ -882,7 +891,7 @@ assign_pentarch_CK2Plus_effect = {
 				set_pentarch_title = event_target:conflicting_pentarch_title
 				clear_event_target = conflicting_pentarch_title
 			}
-			else = { # autocephalous patriarch claims authority over Christian lands held under non-Christians
+			else = { # Autocephalous patriarch claims authority over Christian lands held under non-Christians
 				log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], under autocephalous patriarch"
 				set_pentarch_title = none
 			}
@@ -890,6 +899,8 @@ assign_pentarch_CK2Plus_effect = {
 	}
 }
 
+# Fired whenever a pentarch is re-established or disestablished
+# PlusGreatSchism.058/059
 clean_up_pentarch_search_CK2Plus_effect = {
 	any_province = {
 		limit = {
@@ -945,3 +956,298 @@ set_pentarch_choice_CK2Plus_effect = {
 		}
 	}
 }
+
+# Fires in on_success_title in CBs that can vassalise titles or make vassals independent
+# Used in any CB using 'vassalize_or_take_under_title_(destroy_duchies)'
+# 00_cb_types
+# - tribal_invasion
+# - religious
+# - muslim_invasion
+# - imperial_reconquest
+# - viking_invasion
+# - heretic_revolt
+# - religious_revolt
+# - liberation_revolt
+# - duchy_adventure
+# - kingdom_adventure
+# - pagan_holy_war
+# - shia_caliphate_rising
+# - manifest_destiny_invasion
+# - cb_liberate_nomad_duchy
+# - nomad_invasion
+# 01_cb_types
+# - dejure_duchy_claim
+# - great_realm_conflict
+# - liberate_religion
+# - pepin_religious
+# - roman_christian_revolt
+# - childrens_crusade
+# - northern_crusade_war
+# 02_cb_types
+# - shattered_invasion
+
+# TODO
+# Used in any CB using 'set_defacto_liege'
+# - other_claim
+# - claim_on_liege
+# - other_claim_on_liege
+# - invasion
+# - crusade
+# - new_crusade
+# - coastal_county_republic
+# - decadence_invasion
+# - cb_faction_independence
+# - bid_for_independence
+# - pagan_subjugation
+# - peasant_revolt
+# - kingdom_adventure
+# - muslim_county_conquest
+# - dejure_county_claim
+# - other_dejure_county_claim
+# - buddhist_holy_war
+# - indian_subjugation
+# - cb_minor_clan_revolt
+# - nomad_subjugation
+# - thamkmars_rebellion
+
+reassign_pentarch_to_vassalised_titles_CK2Plus_effect = {
+	log = "Re-assigning vassals after war"
+
+	any_de_jure_vassal_title = {
+		limit = {
+			holder_scope = {
+				is_liege_or_above = attacker
+				NOT = { character = attacker } # Handled by on_new_holder event instead
+			}
+		}
+
+		if = {
+			limit = { # Filter for titles that require attention
+				trigger_if = {
+					limit = { tier = COUNT }
+
+					holder_scope = {
+						OR = {
+							has_pentarchy = yes
+
+							any_liege = {
+								has_pentarchy = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					holder_scope = {
+						has_pentarchy = yes
+					}
+				}
+			}
+
+			if = { # Check for autocephalous patriarch
+				limit = {
+					attacker = {
+						OR = {
+							any_demesne_title = {
+								higher_tier_than = DUKE
+								has_flag = has_autocephalous_patriarch
+							}
+							any_liege = {
+								any_demesne_title = {
+									higher_tier_than = DUKE
+									has_flag = has_autocephalous_patriarch
+								}
+							}
+						}
+					}
+				}
+
+				attacker = {
+					save_event_target_as = event_liege
+
+					rightful_religious_head_scope = {
+						save_event_target_as = event_liege_religious_head
+					}
+				}
+			}
+			else_if = { # Check if formerly under autocephalous patriarch
+				limit = {
+					defender = {
+						OR = {
+							any_demesne_title = {
+								higher_tier_than = DUKE
+								has_flag = has_autocephalous_patriarch
+							}
+							any_liege = {
+								any_demesne_title = {
+									higher_tier_than = DUKE
+									has_flag = has_autocephalous_patriarch
+								}
+							}
+						}
+					}
+				}
+
+				k_orthodox = { # Ensure allegiance to pentarchy
+					holder_scope = {
+						save_event_target_as = event_liege
+						save_event_target_as = event_liege_religious_head
+					}
+				}
+			}
+			else = { # Else look to the Pope
+				k_papal_state = {
+					holder_scope = {
+						save_event_target_as = event_liege
+						save_event_target_as = event_liege_religious_head
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					lower_tier_than = DUKE
+				}
+				location = {
+					assign_pentarch_CK2Plus_effect = yes
+				}
+			}
+			else = {
+				capital_scope = {
+					assign_pentarch_CK2Plus_effect = yes
+				}
+			}
+		}
+		else = { # Title not part of pentarchy (sub)realm
+			log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], no longer part of a pentarchy (sub)realm"
+			set_pentarch_title = none
+		}
+	}
+
+	clear_event_target = event_liege
+	clear_event_target = event_liege_religious_head
+	clean_up_pentarch_search_CK2Plus_effect = yes
+}
+
+#	ROOT = {
+#		any_realm_lord = {
+#			limit = {
+#				any_demesne_title = {
+#					de_jure_liege_or_above = PREVPREVPREV # Title targeted in this war
+#				}
+#			}
+#
+#			if = {
+#				limit = {
+#					has_pentarchy = yes
+#
+#					NOT = {
+#						any_liege = {
+#							has_pentarchy = yes
+#							NOR = {
+#								character = ROOT
+#								is_liege_or_above_of = ROOT
+#							}
+#						}
+#					}
+#				}
+#
+#				# Any liege with autocephalous patriarch overrides personal pentarch allegiance
+#				if = {
+#					limit = {
+#						any_liege = {
+#							any_demesne_title = {
+#								higher_tier_than = DUKE
+#								has_flag = has_autocephalous_patriarch
+#							}
+#						}
+#					}
+#					any_liege = {
+#						limit = {
+#							any_demesne_title = {
+#								higher_tier_than = DUKE
+#								has_flag = has_autocephalous_patriarch
+#							}
+#						}
+#						save_event_target_as = event_liege
+#
+#						rightful_religious_head_scope = {
+#							save_event_target_as = event_liege_religious_head
+#						}
+#					}
+#				}
+#				else = {
+#					save_event_target_as = event_liege
+#
+#					rightful_religious_head_scope = {
+#						save_event_target_as = event_liege_religious_head
+#					}
+#				}
+#
+#				log = "Vassal needs titles re-assigned: [This.GetTitledNameWithNick] ([This.GetID])"
+#
+#				any_title_under = {
+#					limit = {
+#						holder_scope = {
+#							OR = {
+#								has_pentarchy = yes
+#
+#								trigger_if = {
+#									limit = { tier = COUNT }
+#
+#									any_liege = {
+#										has_pentarchy = yes
+#									}
+#								}
+#							}
+#						}
+#					}
+#
+#					log = "[This.GetID]: Processing pentarchy re-assignment for the [This.GetFullBaseName]"
+#
+#					if = {
+#						limit = {
+#							lower_tier_than = DUKE
+#						}
+#						location = {
+#							assign_pentarch_CK2Plus_effect = yes
+#						}
+#					}
+#					else = {
+#						capital_scope = {
+#							assign_pentarch_CK2Plus_effect = yes
+#						}
+#					}
+#				}
+#			}
+#			else_if = {
+#				limit = {
+#					has_pentarchy = no
+#
+#					NOR = {
+#						any_realm_lord = {
+#							has_pentarchy = yes
+#						}
+#						any_liege = {
+#							has_pentarchy = no
+#
+#							NOR = {
+#								character = ROOT
+#								is_liege_or_above_of = ROOT
+#							}
+#						}
+#					}
+#				}
+#
+#				log = "Vassal needs titles reset: [This.GetTitledNameWithNick] ([This.GetID])"
+#
+#				any_title_under = {
+#					log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], no longer part of a pentarchy (sub)realm"
+#					set_pentarch_title = none
+#				}
+#			}
+#		}
+#
+#		clear_event_target = event_liege
+#		clear_event_target = event_liege_religious_head
+#		clean_up_pentarch_search_CK2Plus_effect = yes
+#	}
