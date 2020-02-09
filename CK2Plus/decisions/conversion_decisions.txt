@@ -2893,8 +2893,13 @@ decisions = {
 							limit = {
 								has_pentarchy = yes
 							}
-							ROOT = { clr_flag = convert_to_attacker_religion }
-							save_persistent_event_target = war_attacker
+							ROOT = {
+								set_flag = convert_to_attacker_religion
+								save_persistent_event_target = {
+									name = external_converter
+									scope = PREV
+								}
+							}
 						}
 					}
 				}

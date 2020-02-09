@@ -505,7 +505,10 @@ letter_event = {
 
 		if = {
 			limit = { is_ruler = yes }
-			save_persistent_event_target = external_converter
+			save_persistent_event_target = {
+				name = external_converter
+				scope = FROM
+			}
 		}
 
 		religion = FROM

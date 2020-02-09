@@ -2587,45 +2587,45 @@ character_event = {
 # Fires on_character_convert_secret_religion
 # ROOT is the character after conversion
 # FROM is old religion
-character_event = {
-	id = PlusGreatSchism.054
-
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		# Changed from a (secret) religion without pentarchy to a (secret) religion with pentarchy
-		trigger_if = {
-			limit = { has_pentarchy = yes }
-
-			# Old (secret) religion
-			FROM = {
-				has_pentarchy = no
-			}
-		}
-		# Changed from a (secret) religion with pentarchy to a (secret) religion without pentarchy
-		trigger_else = {
-			# Old (secret) religion
-			FROM = {
-				has_pentarchy = yes
-			}
-		}
-
-		# Should not fire when the secret religion is reset due to converting to it publicly
-		NOR = {
-			religion = FROM
-			NOT = {
-				FROM = {
-					always = yes # secret religion has been reset
-				}
-			}
-		}
-	}
-
-	immediate = {
-		log = "054: on_character_convert_religion"
-	}
-}
+# character_event = {
+# 	id = PlusGreatSchism.054
+#
+# 	hide_window = yes
+# 	is_triggered_only = yes
+#
+# 	trigger = {
+# 		# Changed from a (secret) religion without pentarchy to a (secret) religion with pentarchy
+# 		trigger_if = {
+# 			limit = { has_pentarchy = yes }
+#
+# 			# Old (secret) religion
+# 			FROM = {
+# 				has_pentarchy = no
+# 			}
+# 		}
+# 		# Changed from a (secret) religion with pentarchy to a (secret) religion without pentarchy
+# 		trigger_else = {
+# 			# Old (secret) religion
+# 			FROM = {
+# 				has_pentarchy = yes
+# 			}
+# 		}
+#
+# 		# Should not fire when the secret religion is reset due to converting to it publicly
+# 		NOR = {
+# 			religion = FROM
+# 			NOT = {
+# 				FROM = {
+# 					always = yes # secret religion has been reset
+# 				}
+# 			}
+# 		}
+# 	}
+#
+# 	immediate = {
+# 		log = "054: on_character_convert_religion"
+# 	}
+# }
 
 # 055: Update pentarch on titles of new vassal's realm
 # Fires on

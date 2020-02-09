@@ -4286,27 +4286,31 @@ character_event = {
 					}
 				}
 			}
-			custom_tooltip = { text = send_baptism_request }
-			FROM = {
-				if = { # For PlusGreatSchism.053, fires on_character_convert_religion
-					limit = {
-						has_pentarchy = yes
-					}
-					save_persistent_event_target = external_converter
+
+			if = { # For PlusGreatSchism.053, fires on_character_convert_religion
+				limit = {
+					FROM = { has_pentarchy = yes }
 				}
-				liege = { letter_event = { id = HF.20024 } }
+				save_persistent_event_target = {
+					name = external_converter
+					scope = FROM
+				}
 			}
+
+			custom_tooltip = { text = send_baptism_request }
+			FROM = { liege = { letter_event = { id = HF.20024 } } }
 			#break = yes
 		}
 
 
 	else = {
-		FROM = {
-			if = { # For PlusGreatSchism.053, fires on_character_convert_religion
-				limit = {
-					has_pentarchy = yes
-				}
-				save_persistent_event_target = external_converter
+		if = { # For PlusGreatSchism.053, fires on_character_convert_religion
+			limit = {
+				FROM = { has_pentarchy = yes }
+			}
+			save_persistent_event_target = {
+				name = external_converter
+				scope = FROM
 			}
 		}
 
