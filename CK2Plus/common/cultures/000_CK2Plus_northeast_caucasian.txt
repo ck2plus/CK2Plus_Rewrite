@@ -23,7 +23,7 @@ northeast_caucasian_group = {
 	caucasian_avar = {
 		graphical_cultures = { easternslavicgfx }
 
-		color = { 0.0 0.4 0.31 }
+		color = { 0.55 0.75 0.31 }
 
 		male_names = {
 			Abukhisro Akhsar Akhsuvar Alatey Alp Anbal Anbazuk Andunik-Nutsal Aravat Arsen Ashot_Ashot Askhkadar Aslan Aspar Athom Avaz Awach'i
@@ -75,7 +75,7 @@ northeast_caucasian_group = {
 	udi = {
 		graphical_cultures = { easternslavicgfx }
 
-		color = { 0.0 0.4 0.3 }
+		color = { 0.93 0.91 0.41 }
 
 		male_names = {
 			Adamar Aga Avel_Abel Avraam_Abraham

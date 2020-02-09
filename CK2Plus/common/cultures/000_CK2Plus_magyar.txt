@@ -83,7 +83,7 @@ magyar = {
 	szekely = {
 		graphical_cultures = { magyargfx westerngfx }
 
-		color = { 0.5 0.6 0.31 }
+		color = { 0.31 0.6 0.31 }
 
 		male_names = {
 			Ábel_Abel Ádárn Ágoston_Augustine Álmos Árpád Õdön_Otto Alajos Ambrus_Ambrosius András_Andrew Antal Attila

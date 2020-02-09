@@ -76,7 +76,7 @@ northwest_caucasian_group = {
 	circassian = {
 		graphical_cultures = { easternslavicgfx }
 
-		color = { 0.0 0.4 0.3 }
+		color = { 0.41 0.93 0.62 }
 
 		male_names = {
 			Abatiy Aghwrbiy Albekh Albek Albot Alhx'es Alhx'o Alijiqwe Amish Andeimir Andeimirqan Anzawir Anzoriqwe Areqshu Ariqshu Ashemez Axwemghwet
