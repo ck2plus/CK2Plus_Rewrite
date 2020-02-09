@@ -1,3 +1,8 @@
+# CK2Plus changes
+#
+# - convert_to_attacker_religion
+# - renounce_iconoclasm
+
 targeted_decisions = {
 
 	convert_to_liege_religion = {
@@ -2883,6 +2888,14 @@ decisions = {
 					}
 					attacker = {
 						save_event_target_as = enemy_attacker
+
+						if = { # For PlusGreatSchism.053, fires on_character_convert_religion
+							limit = {
+								has_pentarchy = yes
+							}
+							ROOT = { clr_flag = convert_to_attacker_religion }
+							save_persistent_event_target = war_attacker
+						}
 					}
 				}
 			}

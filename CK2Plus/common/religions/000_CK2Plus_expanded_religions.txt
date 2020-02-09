@@ -1,5 +1,23 @@
-#Religions
-#####
+##############################
+#
+#	Religions
+#
+##############################
+#
+#	INDEX
+#
+#	Total = 5
+#
+#	Christian:
+#	- Chalcedonian
+#
+#	Pagan:
+#	- Celtic pagan
+#	- Celtic pagan reformed
+#	- Basque pagan
+#	- Basque pagan reformed
+#
+##############################
 
 christian = {
 
@@ -17,6 +35,8 @@ christian = {
 		religious_clothing_priest = 1
 
 		crusade_name = CRUSADE
+		crusade_cb = new_crusade
+
 		scripture_name = THE_BIBLE
 		priest_title = PRIEST
 
@@ -38,14 +58,15 @@ christian = {
 		intermarry = christian
 
 		autocephaly = yes
+		can_call_crusade = yes
 		can_excommunicate = yes
 		can_grant_divorce = yes
-#		can_grant_invasion_cb = invasion		# Enabled if a Latin Patriarch Supreme is installed
-		can_call_crusade = yes
+#		can_grant_invasion_cb = invasion		# Enabled when a Latin Patriarch Supreme is installed
 		can_retire_to_monastery = yes
 		pentarchy = yes
 		priests_can_inherit = no
 		rel_head_defense = yes
+		use_new_crusade = yes
 	}
 }
 
@@ -262,7 +283,7 @@ pagan_group = {
 
 		color = { 0.839 0.153 0.094 }
 
-		icon = 83			# Basque reformed
+		icon = 83			# Basque
 		heresy_icon = 85	# Basque reformed heresy
 
 		scripture_name = THE_OMENS

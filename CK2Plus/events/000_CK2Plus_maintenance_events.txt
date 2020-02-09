@@ -208,7 +208,7 @@ character_event = {
 		character_event = { id = PlusMaintenance.102 } # Apply Plus game rules
 
 		# Assign pentarchs to titles in normal post-1054 starts, applies to Orthodox, Miaphysite etc.
-		# For Chalcedonian starts, event is fired in set-up event
+		# For Chalcedonian starts, event is fired in set-up event (PlusGreatSchism.001)
 		if = {
 			limit = {
 				has_global_flag = great_schism_happened
