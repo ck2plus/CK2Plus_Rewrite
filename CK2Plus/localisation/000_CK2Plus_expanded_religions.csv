@@ -7,7 +7,7 @@
 ######################
 
 norse_pagan;Nordic;Nordique;Nordisch;;Nordico;;;;;;;;;x
-finnish_pagan;Uralic;Ouralienne;Uralisch;;Urálica;;;;;;;;;x
+finnish_pagan;Uralic;Ouralienne;Uralisch;;UrÃ¡lica;;;;;;;;;x
 baltic_pagan;Baltic;Baltique;Baltisch;;Baltico;;;;;;;;;x
 miaphysite;Coptic;Copte;Koptisch;;Copto;;;;;;;;;x
 
@@ -18,32 +18,32 @@ miaphysite;Coptic;Copte;Koptisch;;Copto;;;;;;;;;x
 ########################
 
 # Description
-celtic_pagan;Celtic;Celtique;Keltisch;;Céltico;;;;;;;;;x #Gaelic;Gaélique;Gälisch;;Gaélico;;;;;;;;;x
+celtic_pagan;Celtic;Celtique;Keltisch;;CÃ©ltico;;;;;;;;;x #Gaelic;GaÃ©lique;GÃ¤lisch;;GaÃ©lico;;;;;;;;;x
 celtic_pagan_reformed;Gentlidecht;Gentlidecht;Gentlidecht;;Gentlidecht;;;;;;;;;x
-celtic_pagan_DESC;Celtic paganism is the last remaining holdover of a rich culture that long ago spread across most of Europe. Once animistic, the current pantheon of gods originates in the most respected part of nature: water, forests, and wildlife. Syncretion with urban civilizations anthropomorphised many spirits into their current form. Most commonly worshipped are Dagdae, the Great God, Mórrigan, the Phantom Queen, Óengus, Son of the Young, Lugh of the Long Arm, and Manandán, Son of the Sea.;;;;;;;;;;;;;x
-celtic_pagan_reformed_DESC;Druids have etched sacred writings on many raised stones on their islands, recounting the story of the Tuatha Dé Danann. Bards have put the faith's history into song, allowing all to partake in its revival.;;;;;;;;;;;;;x
-#celtic_pagan_reformed_FEATURES;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
-#GetCelticSuccessionFeature_TemporalHead;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
-#GetCelticSuccessionFeature_TheocraticHead;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
-#GetCelticSuccessionFeature_Autocephaly;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
-#GetCelticSuccessionFeature_NoLeader;§Y*§! The Arch Druid is elected by, and from, the members of the Circle;§Y*§! L'Archidruide est élu par, et parmis les membres du cercle;;;;;;;;;;;;x
+celtic_pagan_DESC;Celtic paganism is the last remaining holdover of a rich culture that long ago spread across most of Europe. Once animistic, the current pantheon of gods originates in the most respected part of nature: water, forests, and wildlife. Syncretion with urban civilizations anthropomorphised many spirits into their current form. Most commonly worshipped are Dagdae, the Great God, MÃ³rrigan, the Phantom Queen, Ã“engus, Son of the Young, Lugh of the Long Arm, and ManandÃ¡n, Son of the Sea.;;;;;;;;;;;;;x
+celtic_pagan_reformed_DESC;Druids have etched sacred writings on many raised stones on their islands, recounting the story of the Tuatha DÃ© Danann. Bards have put the faith's history into song, allowing all to partake in its revival.;;;;;;;;;;;;;x
+#celtic_pagan_reformed_FEATURES;Â§Y*Â§! The Arch Druid is elected by, and from, the members of the Circle;Â§Y*Â§! L'Archidruide est Ã©lu par, et parmis les membres du cercle;;;;;;;;;;;;x
+#GetCelticSuccessionFeature_TemporalHead;Â§Y*Â§! The Arch Druid is elected by, and from, the members of the Circle;Â§Y*Â§! L'Archidruide est Ã©lu par, et parmis les membres du cercle;;;;;;;;;;;;x
+#GetCelticSuccessionFeature_TheocraticHead;Â§Y*Â§! The Arch Druid is elected by, and from, the members of the Circle;Â§Y*Â§! L'Archidruide est Ã©lu par, et parmis les membres du cercle;;;;;;;;;;;;x
+#GetCelticSuccessionFeature_Autocephaly;Â§Y*Â§! The Arch Druid is elected by, and from, the members of the Circle;Â§Y*Â§! L'Archidruide est Ã©lu par, et parmis les membres du cercle;;;;;;;;;;;;x
+#GetCelticSuccessionFeature_NoLeader;Â§Y*Â§! The Arch Druid is elected by, and from, the members of the Circle;Â§Y*Â§! L'Archidruide est Ã©lu par, et parmis les membres du cercle;;;;;;;;;;;;x
 
 religion_feature_celtic;Descendants of Danu;Descendants de Dana;Nachfahren von Danu;;Descendencias de Danu;;;;;;;;;x
 religion_feature_celtic_desc;As we move forward into a new age for the Celtic faith we must look to the spirits of nature for guidance. The power of prophecy will shine a light on an uncertain future.;;;;;;;;;;;;;x
-religion_feature_celtic_feature;Rulers follow the Celtic principles of animism and haruspicy;Les seigneurs suivent les principes celtique de l'animisme et de l'haruspicine;Herrscher folgen den keltischen Prinzipien des Animusmus und Wahrsagertum;;Los gobernantes siguen los principios célticos de animismo y aruspicina;;;;;;;;x
+religion_feature_celtic_feature;Rulers follow the Celtic principles of animism and haruspicy;Les seigneurs suivent les principes celtique de l'animisme et de l'haruspicine;Herrscher folgen den keltischen Prinzipien des Animusmus und Wahrsagertum;;Los gobernantes siguen los principios cÃ©lticos de animismo y aruspicina;;;;;;;;x
 
 THE_FOLKLORE;The Folklore;Le Folklore;Die Folklore;;El Folclore;;;;;;;;;x
 SONG_AND_STONE;The Ballads;Les Ballades;Die Balladen;;Las Baladas;;;;;;;;;x
 
 GOD_BRIGIT;Brigit;;;;;;;;;;;;;x
 GOD_DAGDAE;Dagdae;;;;;;;;;;;;;x
-GOD_DIAN;Dian Cécht;;;;;;;;;;;;;x
+GOD_DIAN;Dian CÃ©cht;;;;;;;;;;;;;x
 GOD_GOIBNIU;Goibniu;;;;;;;;;;;;;x
 GOD_LUG;Lugh;;;;;;;;;;;;;x
-GOD_MANANDAN;Manandán;;;;;;;;;;;;;x
-GOD_MORRIGAN;Mórrigan;;;;;;;;;;;;;x
+GOD_MANANDAN;ManandÃ¡n;;;;;;;;;;;;;x
+GOD_MORRIGAN;MÃ³rrigan;;;;;;;;;;;;;x
 GOD_NUADA;Nuada;;;;;;;;;;;;;x
-GOD_OINGUS;Óengus;;;;;;;;;;;;;x
+GOD_OINGUS;Ã“engus;;;;;;;;;;;;;x
 
 EVIL_BALOR;Balor;;;;;;;;;;;;;x
 EVIL_BRES;Bres;;;;;;;;;;;;;x
@@ -59,52 +59,52 @@ DruidFemale;Druidess;Druidesse;Druidin;;Druidesa;;;;;;;;;x
 
 # Circle of Druids title
 d_celtic_pagan_reformed;The Circle of Druids;Le Cercle des Druides;Der Kreis der Druiden;;El Circulo de Druidas;;;;;;;;;x
-d_celtic_pagan_reformed_adj;Druidical;Druidique;Druidisch;;Druídico;;;;;;;;;x
+d_celtic_pagan_reformed_adj;Druidical;Druidique;Druidisch;;DruÃ­dico;;;;;;;;;x
 ARCH_DRUID;Archdruid;Archidruide;Erzdruide;;Arzodruida;;;;;;;;;x
 ARCH_DRUIDESS;Archdruidess;Archdruidesse;Erzdruidin;;Arzodruidesa;;;;;;;;;x
 ARCH_DRUID_FOA;[GetArchDruidFOAGendered];[GetArchDruidFOAGendered];[GetArchDruidFOAGendered];;[GetArchDruidFOAGendered];;;;;;;;;x
-ArchDruidFOAMale;Eldest of Druids;L'Aîné des Druides;Ältester der Druiden;;El Mayor de los Druidas;;;;;;;;;x
-ArchDruidFOAFemale;Eldest of Druidesses;L'Aînée des Druidesses;Älteste der Druidinnen;;El Mayor de las Druidesas;;;;;;;;;x
+ArchDruidFOAMale;Eldest of Druids;L'AÃ®nÃ© des Druides;Ã„ltester der Druiden;;El Mayor de los Druidas;;;;;;;;;x
+ArchDruidFOAFemale;Eldest of Druidesses;L'AÃ®nÃ©e des Druidesses;Ã„lteste der Druidinnen;;El Mayor de las Druidesas;;;;;;;;;x
 
 # Circle of Druids election
 CIRCLE_OF_DRUIDS;Circle of Druids;Cercle des Druides;Kreis der Druiden;;Circulo de Druidas;;;;;;;;;;x
 #CIRCLE_OF_DRUIDS;[Player.GetCollegeName];[d_celtic_pagan_reformed.Holder.GetCollegeName];[d_celtic_pagan_reformed.Holder.GetCollegeName];;[d_celtic_pagan_reformed.Holder.GetCollegeName];;;;;;;;;x
-CIRCLE_DRUID_VOTE;Vote:;Vote:;Wählt:;;Voto:;;;;;;;;;x
-CAMPAIGN_FUND_SENIOR_DRUID;Campaign Fund;Fonds de campagne;Wahlkampffonds;;Fondos de Campaña;;;;;;;;;x
-CAMPAIGN_FUND_SENIOR_DRUID_TOOLTIP;Money in the Campaign Fund will increase your influence with the Circle and make your candidate more likely to be elected the next Senior Druid. You can freely adjust the amount until the next Senior Druid is elected, when the Fund will be used up in the election campaign.;L'argent du fonds de campagne sert à accroître l'influence d'un candidat auprès du Cercle et ainsi augmenter ses chances d'être élu Druide Senior. Vous pouvez ajuster librement ce montant jusqu'à l'élection du prochain Druide Senior, moment auquel votre fonds de campagne sera intégralement utilisé.;Das Geld in der Wahlkampfkasse steigert Euren Einfluss beim Kreis, sodass Euer Kandidat bessere Chancen auf die Wahl zum Chef-Druide hat. Ihr könnt den Betrag bis zum Zeitpunkt, an dem der Chef-Druide gewählt wird, frei verändern. Bei der Wahl wird der Betrag verbraucht.;;El dinero del Fondo para la campaña aumenta vuestra influencia con el Circulo y aumenta las probabilidades de que vuestro candidato sea elegido el próximo Druida Mayor. Podéis ajustar libremente la cantidad hasta que se elija al próximo Druida Mayor, cuando se invertirá el Fondo en la campaña de electoral.;;;;;;;;;x
+CIRCLE_DRUID_VOTE;Vote:;Vote:;WÃ¤hlt:;;Voto:;;;;;;;;;x
+CAMPAIGN_FUND_SENIOR_DRUID;Campaign Fund;Fonds de campagne;Wahlkampffonds;;Fondos de CampaÃ±a;;;;;;;;;x
+CAMPAIGN_FUND_SENIOR_DRUID_TOOLTIP;Money in the Campaign Fund will increase your influence with the Circle and make your candidate more likely to be elected the next Senior Druid. You can freely adjust the amount until the next Senior Druid is elected, when the Fund will be used up in the election campaign.;L'argent du fonds de campagne sert Ã  accroÃ®tre l'influence d'un candidat auprÃ¨s du Cercle et ainsi augmenter ses chances d'Ãªtre Ã©lu Druide Senior. Vous pouvez ajuster librement ce montant jusqu'Ã  l'Ã©lection du prochain Druide Senior, moment auquel votre fonds de campagne sera intÃ©gralement utilisÃ©.;Das Geld in der Wahlkampfkasse steigert Euren Einfluss beim Kreis, sodass Euer Kandidat bessere Chancen auf die Wahl zum Chef-Druide hat. Ihr kÃ¶nnt den Betrag bis zum Zeitpunkt, an dem der Chef-Druide gewÃ¤hlt wird, frei verÃ¤ndern. Bei der Wahl wird der Betrag verbraucht.;;El dinero del Fondo para la campaÃ±a aumenta vuestra influencia con el Circulo y aumenta las probabilidades de que vuestro candidato sea elegido el prÃ³ximo Druida Mayor. PodÃ©is ajustar libremente la cantidad hasta que se elija al prÃ³ximo Druida Mayor, cuando se invertirÃ¡ el Fondo en la campaÃ±a de electoral.;;;;;;;;;x
 ARCH_DRUID_LOC;Archdruid;Archidruide;Erzdruide;;Arzodruida;;;;;;;;;x # Refuses to work with dynamic localisation
 #ARCH_DRUID_LOC;[From.GetArchDruidLoc];[d_celtic_pagan_reformed.RelHead.GetArchDruidLoc];[Root.GetArchDruidLoc];;[d_celtic_pagan_reformed.Holder.GetArchDruidLoc];;;;;;;;;x
-ELDER_DRUID;Elder Druid;Druide Aîné;Älterer Druide;;Druida Anciano;;;;;;;;;x # Refuses to work with dynamic localisation
+ELDER_DRUID;Elder Druid;Druide AÃ®nÃ©;Ã„lterer Druide;;Druida Anciano;;;;;;;;;x # Refuses to work with dynamic localisation
 #ELDER_DRUID;[GetElderDruidMaleFemale];[GetElderDruidMaleFemale];[GetElderDruidMaleFemale];;[GetElderDruidMaleFemale];;;;;;;;;x
-ElderDruidMale;Elder Druid;Druide Aîné;Älterer Druide;;Druida Anciano;;;;;;;;;x
-ElderDruidFemale;Elder Druidess;Druidesse Aînée;Ältere Druidin;;Druidesa Anciana;;;;;;;;;x
-ELDER_DRUID_tooltip;The next Archdruid;Le prochain Archidruide;Der nächste Erzdruide;;El próximo Arzoduida;;;;;;;;;x
+ElderDruidMale;Elder Druid;Druide AÃ®nÃ©;Ã„lterer Druide;;Druida Anciano;;;;;;;;;x
+ElderDruidFemale;Elder Druidess;Druidesse AÃ®nÃ©e;Ã„ltere Druidin;;Druidesa Anciana;;;;;;;;;x
+ELDER_DRUID_tooltip;The next Archdruid;Le prochain Archidruide;Der nÃ¤chste Erzdruide;;El prÃ³ximo Arzoduida;;;;;;;;;x
 title_senior_druid;Senior Druid;Druide Senior;Chef-Druide;;Druida Mayor;;;;;;;;;x # Refuses to work with dynamic localisation
 #title_senior_druid;[GetSeniorDruidMaleFemale];[Root.GetSeniorDruidMaleFemale];[Root.GetSeniorDruidMaleFemale];;[Root.GetSeniorDruidMaleFemale];;;;;;;;;x
 SeniorDruidMale;Senior Druid;Druide Senior;Chef-Druide;;Druida Mayor;;;;;;;;;x
 SeniorDruidFemale;Senior Druidess;Druidesse Seniore;Chef-Druidin;;Druidesa Mayor;;;;;;;;;x
-best_candidate_title_senior_druid;My most senior Druid;Mon plus senior Druide;Mein ältester Druide;;Mi Druida más senior;;;;;;;;;x # Refuses to work with dynamic localisation
-#best_candidate_title_senior_druid;My most senior [GetDruidMaleFemale];Mon plus senior Druide;Mein ältester Druide;;Mi Druida más senior;;;;;;;;;x
+best_candidate_title_senior_druid;My most senior Druid;Mon plus senior Druide;Mein Ã¤ltester Druide;;Mi Druida mÃ¡s senior;;;;;;;;;x # Refuses to work with dynamic localisation
+#best_candidate_title_senior_druid;My most senior [GetDruidMaleFemale];Mon plus senior Druide;Mein Ã¤ltester Druide;;Mi Druida mÃ¡s senior;;;;;;;;;x
 best_candidate_title_senior_druid_tooltip;Of all the Druids in my realm, this one is most likely to enter the Circle of Druids;De tout les Druides de mon royaume, c'est celui qui a le plus de chance d'entrer dans le Cercle des Druides;;;;;;;;;;;;x
 expected_next_title_senior_druid;Expected next Senior Druid;Prochain Senior Druide attendu;;;;;;;;;;;;x # Refuses to work with dynamic localisation
 #expected_next_title_senior_druid;Expected next Senior [GetDruidMaleFemale];Prochain Senior Druide attendu;;;;;;;;;;;;x
-expected_next_title_senior_druid_tooltip;This druid is probably the next member of the Circle, once a position becomes available;Ce druide est probablement le prochain membre du Cercle, dés qu'un siège sera vacant.;;;;;;;;;;;;x
+expected_next_title_senior_druid_tooltip;This druid is probably the next member of the Circle, once a position becomes available;Ce druide est probablement le prochain membre du Cercle, dÃ©s qu'un siÃ¨ge sera vacant.;;;;;;;;;;;;x
 
 # Artifacts
-crown_celtic_fylkir;Crown of Oak;Couronne de chêne;Eichenkrone;;Corona de roble;;;;;;;;;x
-crown_celtic_fylkir_desc;The sacred crown worn by the reigning Archdruid, head of the Gentlidecht faith.;La couronne sacrée portée par l'Archidruide régnant, chef de la foi de Gentlidecht.;Die heilige Krone des regierenden Erzdruiden, Oberhaupt des Gentlidecht-Glaubens.;;La corona sagrada llevada por el reinado Arzodruida, cabeza de la fe Gentlidecht.;;;;;;;;;x
+crown_celtic_fylkir;Crown of Oak;Couronne de chÃªne;Eichenkrone;;Corona de roble;;;;;;;;;x
+crown_celtic_fylkir_desc;The sacred crown worn by the reigning Archdruid, head of the Gentlidecht faith.;La couronne sacrÃ©e portÃ©e par l'Archidruide rÃ©gnant, chef de la foi de Gentlidecht.;Die heilige Krone des regierenden Erzdruiden, Oberhaupt des Gentlidecht-Glaubens.;;La corona sagrada llevada por el reinado Arzodruida, cabeza de la fe Gentlidecht.;;;;;;;;;x
 
 # Triggers
-religion_openly_celtic_or_reformed_tooltip;Publicly follows the §Y[celtic_pagan.GetName]§! religion;Suit publiquement la religion §Y[celtic_pagan.GetName]§!;Folgt öffentlich der §Y[celtic_pagan.GetName]en§! Religion;;Sigue públicamente la religión §Y[celtic_pagan.GetName]§!;;;;;;;;x
+religion_openly_celtic_or_reformed_tooltip;Publicly follows the Â§Y[celtic_pagan.GetName]Â§! religion;Suit publiquement la religion Â§Y[celtic_pagan.GetName]Â§!;Folgt Ã¶ffentlich der Â§Y[celtic_pagan.GetName]enÂ§! Religion;;Sigue pÃºblicamente la religiÃ³n Â§Y[celtic_pagan.GetName]Â§!;;;;;;;;x
 
 # Holy Order
-d_keepers_tirnanog;Keepers of Tír na nÓg;Gardiens du Tír na nÓg;Wächter von Tír na nÓg;;Guardianes de Tír na nÓg;;;;;;;;;x
-d_keepers_tirnanog_adj;Keeper;céleste;Wächter;;Guardián;;;;;;;;;x
+d_keepers_tirnanog;Keepers of TÃ­r na nÃ“g;Gardiens du TÃ­r na nÃ“g;WÃ¤chter von TÃ­r na nÃ“g;;Guardianes de TÃ­r na nÃ“g;;;;;;;;;x
+d_keepers_tirnanog_adj;Keeper;cÃ©leste;WÃ¤chter;;GuardiÃ¡n;;;;;;;;;x
 
-expelled_d_keepers_tirnanog;Expelled the Keepers of Tír na nÓg;Gardiens du Tír na nÓg expulsés;Die Wächter von Tír na nÓg vertrieben;;Guardianes de Tír na nÓg expulsados;;;;;;;;;x
+expelled_d_keepers_tirnanog;Expelled the Keepers of TÃ­r na nÃ“g;Gardiens du TÃ­r na nÃ“g expulsÃ©s;Die WÃ¤chter von TÃ­r na nÃ“g vertrieben;;Guardianes de TÃ­r na nÃ“g expulsados;;;;;;;;;x
 
 # Customizable localisation
-String_Celtic_Follower;Celtic follower;celtique;Anhänger des keltischen Glaubens;;Seguidor céltico;;;;;;;;;x
+String_Celtic_Follower;Celtic follower;celtique;AnhÃ¤nger des keltischen Glaubens;;Seguidor cÃ©ltico;;;;;;;;;x
 String_Celtic;Celt;celte;Kelt;;celta;;;;;;;;;x
 
 ########################
@@ -119,9 +119,9 @@ basque_pagan_reformed;Euskara;Euskara;Euskara;;Euskara;;;;;;;;;x
 basque_pagan_DESC;Vasconic paganism was the religion of many tribes centered around Northeast Iberia and Southwest France which predate Europeans, but now only has adherents among the Basque people. Vasconic paganism is known for its matriarchical structure; women are the primary priests of the religion. The main figure of worship is Mari, mother goddess of the earth, and her consort Sugaar, snake god of thunder.;;;;;;;;;;;;;x
 basque_pagan_reformed_DESC;After many sacrifices to the Gods, the sorginak have seen signs in their divinations. The Euskara religion is revived, and ready to defend against false gods old and new.;;;;;;;;;;;;;x
 
-religion_feature_basque;Daughters of Mari;Filles de Mari;Töchter von Mari;;Hijas de Mari;;;;;;;;;x
+religion_feature_basque;Daughters of Mari;Filles de Mari;TÃ¶chter von Mari;;Hijas de Mari;;;;;;;;;x
 religion_feature_basque_desc;TODO;;;;;;;;;;;;;x
-religion_feature_basque_feature;Rulers follow the Vasconic principles of sacrifice and syncretism.;Les seigneurs suivent les principes vasconiques de sacrifice et de syncrétisme.;Herrscher folgen den vaskonischen Prinzipien von Opferbereitschaft und Synkretismus.;;Los gobernantes siguen los principios vasconicos de sacrificio y sincretismo.;;;;;;;;x
+religion_feature_basque_feature;Rulers follow the Vasconic principles of sacrifice and syncretism.;Les seigneurs suivent les principes vasconiques de sacrifice et de syncrÃ©tisme.;Herrscher folgen den vaskonischen Prinzipien von Opferbereitschaft und Synkretismus.;;Los gobernantes siguen los principios vasconicos de sacrificio y sincretismo.;;;;;;;;x
 
 GOD_AMALUR;Ama Lur;;;;;;;;;;;;;x
 GOD_ATARABI;Atarabi;;;;;;;;;;;;;x
@@ -141,15 +141,15 @@ EVIL_INGUMA;Inguma;;;;;;;;;;;;;x
 EVIL_MIKELATS;Mikelats;;;;;;;;;;;;;x
 
 SORGIN;Sorgin;;;;;;;;;;;;;x
-THE_OMENS;The Omens;Les Présages;Die Omen;;Los Presagios;;;;;;;;;x
+THE_OMENS;The Omens;Les PrÃ©sages;Die Omen;;Los Presagios;;;;;;;;;x
 
 # Coven title
 d_basque_pagan_reformed;The High Coven;Le Grand Coven;Der Hoher Hexenzirkel;;El Gran Aquelarre;;;;;;;;;x
 d_basque_pagan_reformed_adj;Covener;Covener;Hexenzirkel;;Aquelarre;;;;;;;;;x
 HIGH_SORGIN;High Sorgin;Grand Sorgin;Hoher Sorgin;;Gran Sorgin;;;;;;;;;x
 HIGH_SORGIN_FOA;[GetHighSorginFOAGendered];[GetHighSorginFOAGendered];[GetHighSorginFOAGendered];;[GetHighSorginFOAGendered];;;;;;;;;x
-HighSorginFOAMale;Father of Sorginak;Père des Sorginak;Vater der Sorginak;;Padre de Sorginak;;;;;;;;;x
-HighSorginFOAFemale;Mother of Sorginak;Mère de Sorginak;Mutter der Sorginak;;Madre de Sorginak;;;;;;;;;x
+HighSorginFOAMale;Father of Sorginak;PÃ¨re des Sorginak;Vater der Sorginak;;Padre de Sorginak;;;;;;;;;x
+HighSorginFOAFemale;Mother of Sorginak;MÃ¨re de Sorginak;Mutter der Sorginak;;Madre de Sorginak;;;;;;;;;x
 
 # Job titles
 job_spiritual_basque_pagan;Sorgin;;;;;;;;;;;;;x
@@ -200,32 +200,32 @@ temple_king_basque_pagan_reformed;Great Sorgin;;;;;;;;;;;;;x
 temple_king_female_basque_pagan;Great Sorgin;;;;;;;;;;;;;x
 temple_king_female_basque_pagan_reformed;Great Sorgin;;;;;;;;;;;;;x
 
-temple_kingdom_basque_pagan;Federation;Fédération;Föderation;;Federación;;;;;;;;;x
-temple_kingdom_basque_pagan_reformed;Federation;Fédération;Föderation;;Federación;;;;;;;;;x
-temple_kingdom_of_basque_pagan;Federation of;Fédération de;Föderation von;;Federación de;;;;;;;;;x
-temple_kingdom_of_basque_pagan_reformed;Federation of;Fédération de;Föderation von;;Federación de;;;;;;;;;x
+temple_kingdom_basque_pagan;Federation;FÃ©dÃ©ration;FÃ¶deration;;FederaciÃ³n;;;;;;;;;x
+temple_kingdom_basque_pagan_reformed;Federation;FÃ©dÃ©ration;FÃ¶deration;;FederaciÃ³n;;;;;;;;;x
+temple_kingdom_of_basque_pagan;Federation of;FÃ©dÃ©ration de;FÃ¶deration von;;FederaciÃ³n de;;;;;;;;;x
+temple_kingdom_of_basque_pagan_reformed;Federation of;FÃ©dÃ©ration de;FÃ¶deration von;;FederaciÃ³n de;;;;;;;;;x
 
-temple_empire_basque_pagan;Nation;Nation;Nation;;Nación;;;;;;;;;x
-temple_empire_basque_pagan_reformed;Nation;Nation;Nation;;Nación;;;;;;;;;x
-temple_empire_of_basque_pagan;Sacred Realm of;Sacré Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
-temple_empire_of_basque_pagan_reformed;Sacred Realm of;Sacré Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
+temple_empire_basque_pagan;Nation;Nation;Nation;;NaciÃ³n;;;;;;;;;x
+temple_empire_basque_pagan_reformed;Nation;Nation;Nation;;NaciÃ³n;;;;;;;;;x
+temple_empire_of_basque_pagan;Sacred Realm of;SacrÃ© Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
+temple_empire_of_basque_pagan_reformed;Sacred Realm of;SacrÃ© Domaine de;Sakrales Reich von;;Dominio Sagrado de;;;;;;;;;x
 
 # Artifacts
 scepter_basque_fylkir;Makila of the High Sorgin;Makila du le Grand Sorgin;Makila der Hohen Sorgin;;Makila de la Gran Sorgin;;;;;;;;;x
-scepter_basque_fylkir_desc;The sacred scepter held by the High Sorgin, head of the Euskara faith.;Le sceptre sacré tenu par le Grand Sorgin, chef de la foi Euskara.;Das heilige Zepter der Hohen Sorgin, dem Oberhaupt des Euskara-Glaubens.;;El cetro sagrado sostenido por la Gran Sorgin, jefe de la fe Euskara.;;;;;;;;;x
+scepter_basque_fylkir_desc;The sacred scepter held by the High Sorgin, head of the Euskara faith.;Le sceptre sacrÃ© tenu par le Grand Sorgin, chef de la foi Euskara.;Das heilige Zepter der Hohen Sorgin, dem Oberhaupt des Euskara-Glaubens.;;El cetro sagrado sostenido por la Gran Sorgin, jefe de la fe Euskara.;;;;;;;;;x
 
 # Triggers
-religion_openly_basque_or_reformed_tooltip;Publicly follows the §Y[basque_pagan.GetName]§! religion;Suit publiquement la religion §Y[basque_pagan.GetName]§!;Folgt öffentlich der §Y[basque_pagan.GetName]en§! Religion;;Sigue públicamente la religión §Y[basque_pagan.GetName]§!;;;;;;;;x
+religion_openly_basque_or_reformed_tooltip;Publicly follows the Â§Y[basque_pagan.GetName]Â§! religion;Suit publiquement la religion Â§Y[basque_pagan.GetName]Â§!;Folgt Ã¶ffentlich der Â§Y[basque_pagan.GetName]enÂ§! Religion;;Sigue pÃºblicamente la religiÃ³n Â§Y[basque_pagan.GetName]Â§!;;;;;;;;x
 
 # Holy Order
-d_sword_of_ama_lur;Sword of Ama Lur;Épée de Ama Lur;Schwert von Ama Lur;;Espada de Ama Lur;;;;;;;;;;;;;x
-d_sword_of_ama_lur_adj;Sword of Ama Lur;Épée de Ama Lur;Schwert von Ama Lur;;Espada de Ama Lur;;;;;;;;;;;;;x
+d_sword_of_ama_lur;Sword of Ama Lur;Ã‰pÃ©e de Ama Lur;Schwert von Ama Lur;;Espada de Ama Lur;;;;;;;;;;;;;x
+d_sword_of_ama_lur_adj;Sword of Ama Lur;Ã‰pÃ©e de Ama Lur;Schwert von Ama Lur;;Espada de Ama Lur;;;;;;;;;;;;;x
 
-expelled_d_sword_of_ama_lur;Expelled the Sword of Ama Lur;Épée de Ama Lur expulsés;Schwert von Ama Lur vertrieben;;Espada de Ama Lur expulsados;;;;;;;;;;;;;x
+expelled_d_sword_of_ama_lur;Expelled the Sword of Ama Lur;Ã‰pÃ©e de Ama Lur expulsÃ©s;Schwert von Ama Lur vertrieben;;Espada de Ama Lur expulsados;;;;;;;;;;;;;x
 
 #Customizable Localisation
 String_Basque;Euskaldun;;;;;;;;;;;;;;;;;x
-String_Basque_Follower;Euskal follower;euskal;Anhänger des euskal Glaubens;;Seguidor euskal;;;;;;;;;;;;;x
+String_Basque_Follower;Euskal follower;euskal;AnhÃ¤nger des euskal Glaubens;;Seguidor euskal;;;;;;;;;;;;;x
 
 ########################
 #
@@ -234,7 +234,7 @@ String_Basque_Follower;Euskal follower;euskal;Anhänger des euskal Glaubens;;Segu
 ########################
 
 # Description
-bon;Tibetan Paganism;;;;;;;;;;;;;x
-bon_reformed;Bön;;;;;;;;;;;;;x
-bon_DESC;Gnyan'po Cho'ga, or 'Sacred Rites', are the Tibetan pre-Buddhism shamanist beliefs. Tibetan shamanism believes in a three-levelled cosmos. The top level, home of benevolent gods, the middle level that is home to the sibda or 'lords of the soil' as well as the spirits of the dead and mortals and finally the lower level, the home of the snake gods.\nSymbolically a ladder or rope connects the middle and top levels of this cosmos together. The kings of these realms were considered divine and when their mortal body would die a complex burial ritual was completed to allow their soul to ascend the upper levels via this rope.\nOver time many of the traditions of this pagan belief system would become incorporated into the Tibetan variant of Buddhism, Bön.;;;;;;;;;;;;;x
-bon_reformed_DESC;Bön is the Tibetan religion that arose from the amalgamation of ancient Tibetan beliefs and Indian Buddhism that had been sponsored in the 7th century in Tibet. While very similar in many ways to Buddhism this complex history allowed it to retain many of its ancient shamanistic beliefs and traditions that make it distinct to Indian Buddhism.\n;;;;;;;;;;;;;x
+bon;Tibetan Pagan;;;;;;;;;;;;;x
+bon_reformed;BÃ¶n;;;;;;;;;;;;;x
+bon_DESC;Gnyan'po Cho'ga, or 'Sacred Rites', are the Tibetan pre-Buddhism shamanist beliefs. Tibetan shamanism believes in a three-levelled cosmos. The top level, home of benevolent gods, the middle level that is home to the sibda or 'lords of the soil' as well as the spirits of the dead and mortals and finally the lower level, the home of the snake gods.\nSymbolically a ladder or rope connects the middle and top levels of this cosmos together. The kings of these realms were considered divine and when their mortal body would die a complex burial ritual was completed to allow their soul to ascend the upper levels via this rope.\nOver time many of the traditions of this pagan belief system would become incorporated into the Tibetan variant of Buddhism, BÃ¶n.;;;;;;;;;;;;;x
+bon_reformed_DESC;BÃ¶n is the Tibetan religion that arose from the amalgamation of ancient Tibetan beliefs and Indian Buddhism that had been sponsored in the 7th century in Tibet. While very similar in many ways to Buddhism this complex history allowed it to retain many of its ancient shamanistic beliefs and traditions that make it distinct to Indian Buddhism.\n;;;;;;;;;;;;;x
