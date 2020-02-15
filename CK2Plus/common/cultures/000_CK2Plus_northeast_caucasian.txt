@@ -75,7 +75,7 @@ northeast_caucasian_group = {
 	udi = {
 		graphical_cultures = { easternslavicgfx }
 
-		color = { 0.93 0.91 0.41 }
+		color = { 0.55 0.95 0.41 }
 
 		male_names = {
 			Adamar Aga Avel_Abel Avraam_Abraham
