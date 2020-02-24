@@ -58,7 +58,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_perfecti"
-		textureFile = "gfx/traits/cathar_perfecti.dds"
+		textureFile = "gfx/traits/cathar_perfecti.tga"
 		noOfFrames = 1
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
