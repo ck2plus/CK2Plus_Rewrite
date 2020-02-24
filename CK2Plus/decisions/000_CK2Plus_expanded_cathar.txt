@@ -1,0 +1,73 @@
+decisions = {
+	cathar_consolamentum = {
+		ai_check_interval = 12
+		potential = {
+			OR = {
+				religion = cathar
+				religion = bogomilist
+			}
+			NOR = {
+				trait = perfecti
+				has_character_modifier = voice_of_satan
+				has_character_flag = consolamentum_taken
+			}
+		}
+		allow = {
+			is_adult = yes
+			prisoner = no
+			piety >= 0
+			NOR = {
+				trait = incapable
+				trait = cynical
+				trait = lustful
+				trait = hedonist
+				trait = seducer
+				trait = seductress
+			}
+		}
+		effect = {
+			set_character_flag = consolamentum_taken
+			add_trait = perfecti
+			if = {
+				limit = { NOT = { trait = zealous } }
+				add_trait = zealous
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				is_theocracy = yes
+			}
+			modifier = {
+				factor = 5
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.25
+				OR = {
+					trait = gluttonous
+					trait = envious
+					trait = greedy
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { age = 25 }
+			}
+			modifier = {
+				factor = 0
+				NOR = {
+					trait = zealous
+					trait = possessed
+					trait = lunatic
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+					is_theocracy = yes
+				}
+			}
+		}
+	}
+}
