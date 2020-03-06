@@ -48,3 +48,42 @@ title_senior_druid = {
 
 	message = yes
 }
+
+title_cathar_deacon = {
+	religion = cathar
+	can_elect_head = yes
+	revoke_allowed = no
+
+	grant_limit = 9
+
+	realm_in_name = no
+	show_as_title = yes
+
+	opinion_effect = 20
+	dignity = 0.9
+
+	monthly_salary = 0.1
+	monthly_prestige = 0.5
+
+	allow = {
+		religion = cathar
+		trait = perfecti
+		ai = yes
+		d_cathar = {
+			holder_scope = {
+				is_within_diplo_range = ROOT
+			}
+		}
+	}
+
+	gain_effect = {
+		character_event = { id = GoPagan.155 }
+		set_character_flag = is_cardinal
+	}
+
+	lose_effect = {
+		clr_character_flag = is_cardinal
+	}
+
+	message = no
+}
