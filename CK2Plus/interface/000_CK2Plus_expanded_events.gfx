@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_evt_heresy_defeated"
+		texturefile = "gfx\\events\heresy_defeated.tga"
+		alwaystransparent = yes
+	}
+}
