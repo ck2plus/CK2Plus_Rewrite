@@ -113,7 +113,7 @@ guiTypes = {
 				maxWidth = 80
 				maxHeight = 32
 				format = center
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			instantTextBoxType = {
 				name = "honarary_titles_label"
@@ -126,7 +126,7 @@ guiTypes = {
 				maxHeight = 32
 				fixedsize = yes
 				format = center
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			instantTextBoxType = {
 				name = "my_council_label"
@@ -139,7 +139,7 @@ guiTypes = {
 				maxHeight = 32
 				fixedsize = yes
 				format = center
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			instantTextBoxType = {
 				name = "liege_council_label"
@@ -152,7 +152,7 @@ guiTypes = {
 				maxHeight = 32
 				fixedsize = yes
 				format = center
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 		}
 	}
@@ -421,7 +421,7 @@ guiTypes = {
 		#	maxHeight = 20	
 		#	fixedsize = yes
 		#	format = centre
-		#	allwaystransparent = yes
+		#	alwaystransparent = yes
 		#}
 		
 		iconType = {
@@ -447,7 +447,7 @@ guiTypes = {
 			maxHeight = 20	
 			fixedsize = yes
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		guiButtonType = {
@@ -466,7 +466,7 @@ guiTypes = {
 			maxHeight = 20	
 			fixedsize = yes
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 		
 		smoothListboxType = {
@@ -540,7 +540,7 @@ guiTypes = {
 			maxHeight = 20	
 			fixedsize = yes
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		guiButtonType = {
 			name ="appoint_button"
@@ -558,7 +558,7 @@ guiTypes = {
 			maxHeight = 60	
 			fixedsize = yes
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		# Shown for minor titles with a specified attribute
@@ -712,7 +712,7 @@ guiTypes = {
 				spriteType = "GFX_council_favor_me"
 				position = { x= 70 y = 91 }
 				Orientation = "UPPER_LEFT"
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			
 			iconType = {
@@ -720,7 +720,7 @@ guiTypes = {
 				spriteType = "GFX_council_favor_other"
 				position = { x= 70 y = 91 }
 				Orientation = "UPPER_LEFT"
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			
 			iconType = {

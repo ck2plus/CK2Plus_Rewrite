@@ -331,7 +331,7 @@ guiTypes = {
 			maxHeight = 32
 			format = left
 			fixedSize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		overlappingElementsBoxType = {
