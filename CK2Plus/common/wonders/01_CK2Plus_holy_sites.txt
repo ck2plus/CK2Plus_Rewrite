@@ -1,0 +1,478 @@
+# Celtic Pagan
+wonder_hill_of_tara = {
+	picture = GFX_wonder_strip_pagan_stones
+	allow_construction = no
+
+	potential = {}
+
+	active = {
+		ROOT = {
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+		}
+	}
+
+	flags = {
+		is_historical
+		is_destructible
+		cost_low
+	}
+
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_stone_custodian
+		upgrade_more_stones
+		upgrade_sacrificial_altar
+		upgrade_sacred_grove
+
+		# OTHER:
+		upgrade_roads
+		upgrade_spikes
+		upgrade_retinue
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+
+	stage = {
+		allow = {}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 20
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 6
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 2
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+}
+
+wonder_bryn_gwyn_stones = {
+	picture = GFX_wonder_strip_pagan_stones
+	allow_construction = no
+
+	potential = {}
+
+	active = {
+		ROOT = {
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+		}
+	}
+
+	flags = {
+		is_historical
+		is_destructible
+		cost_low
+	}
+
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_stone_custodian
+		upgrade_more_stones
+		upgrade_sacrificial_altar
+		upgrade_sacred_grove
+
+		# OTHER:
+		upgrade_roads
+		upgrade_spikes
+		upgrade_retinue
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+
+	stage = {
+		allow = {}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 20
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 6
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 2
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+}
+
+wonder_carnac_stones = {
+	picture = GFX_wonder_strip_pagan_stones
+	allow_construction = no
+
+	potential = {}
+
+	active = {
+		ROOT = {
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+		}
+	}
+
+	flags = {
+		is_historical
+		is_destructible
+		cost_low
+	}
+
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_stone_custodian
+		upgrade_more_stones
+		upgrade_sacrificial_altar
+		upgrade_sacred_grove
+
+		# OTHER:
+		upgrade_roads
+		upgrade_spikes
+		upgrade_retinue
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+
+	stage = {
+		allow = {}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 20
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 6
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 2
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+}
+
+wonder_callanish_stones = {
+	picture = GFX_wonder_strip_pagan_stones
+	allow_construction = no
+
+	potential = {}
+
+	active = {
+		ROOT = {
+			OR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+		}
+	}
+
+	flags = {
+		is_historical
+		is_destructible
+		cost_low
+	}
+
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_stone_custodian
+		upgrade_more_stones
+		upgrade_sacrificial_altar
+		upgrade_sacred_grove
+
+		# OTHER:
+		upgrade_roads
+		upgrade_spikes
+		upgrade_retinue
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+
+	stage = {
+		allow = {}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 20
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 6
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+
+	stage = {
+		allow = {
+		}
+
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 2
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+
+		local_modifier = {
+		}
+
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+}
+
+# Egyptian Pagan
