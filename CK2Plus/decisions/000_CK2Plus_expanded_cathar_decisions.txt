@@ -53,7 +53,7 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { age = 25 }
+				age < 25
 			}
 			modifier = {
 				factor = 0
@@ -94,8 +94,8 @@ decisions = {
 			OR = {
 				trait = perfecti
 				trait = celibate
-				age = 45
-				NOT = { fertility = 0.05 }
+				age >= 45
+				fertility < 0.05
 			}
 		}
 		effect = {
@@ -128,7 +128,7 @@ decisions = {
 			has_regent = no
 			independent = yes
 			trait = perfecti
-			piety = 1000
+			piety >= 1000
 			higher_tier_than = DUKE
 			any_realm_title = { is_holy_site = ROOT }
 		}

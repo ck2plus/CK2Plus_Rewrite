@@ -18,13 +18,13 @@ character_event = {
 
 	trigger = {
 		educator = { always = yes }
-		NOT = { personality_traits = 5 }
+		personality_traits < 5
 		NOT = { trait = lustful }
 		NOT = { trait = chaste }
 	}
 
 	weight_multiplier = {
-		days = 1
+		days >= 1
 		modifier = {
 			factor = 0.1
 			educator = { trait = lustful }
@@ -68,20 +68,20 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			martial = 10
+			martial >= 10
 			trait = fair
 		}
 		modifier = {
 			factor = 0.75
 			trait = shy
-			learning = 10
+			learning >= 10
 		}
 		modifier = {
 			factor = 0.75
 			trait = trusting
 			any_courtier = {
-				age = 13
-				NOT = { age = 18 }
+				age >= 13
+				age < 18
 				trait = homosexual
 				reverse_opinion = { who = ROOT value = 25 }
 			}
@@ -192,7 +192,7 @@ character_event = {
 			father = {
 				character_event = {
 					id = PlusCathar.006
-					days = 2
+					days >= 2
 				}
 			}
 		}
@@ -203,7 +203,7 @@ character_event = {
 			mother = {
 				character_event = {
 					id = PlusCathar.006
-					days = 2
+					days >= 2
 				}
 			}
 		}
@@ -306,7 +306,7 @@ narrative_event = {
 	war = no
 
 	trigger = {
-		year = 1165
+		year >= 1165
 		has_landed_title = c_carcassonne
 		213 = { religion = catholic }
 		NOR = {
@@ -338,7 +338,7 @@ narrative_event = {
 		months = 24
 		modifier = {
 			factor = 0.5
-			year = 1167
+			year >= 1167
 		}
 	}
 
