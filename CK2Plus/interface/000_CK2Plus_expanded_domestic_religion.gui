@@ -1138,7 +1138,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "COUNCIL_OF_PERFECTI"
+			text = "GetCollegeName_Perfecti"
 			maxWidth = 512
 			maxHeight = 18
 			fixedsize = yes
@@ -1261,12 +1261,12 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_22_black"
 				borderSize = {x = 0 y = 0}
-				text = "SUCCESSOR"
+				text = "title_cathar_deacon"
 				maxWidth = 216
 				maxHeight = 24
 				fixedsize = yes
 				format = centre
-				pdx_tooltip = "SUCCESSOR_TOOLTIP"
+				pdx_tooltip = "CATHAR_PATRIARCH_tooltip"
 			}
 			
 			instantTextBoxType = {

@@ -247,6 +247,7 @@ bon_reformed_DESC;Bön is the Tibetan religion that arose from the amalgamation o
 
 CATHAR_MATRIARCH;Cathar Matriarch;Matriarche Cathare;Katharer Matriarchin;;Matriarca Catar;;;;;;;;;x
 CATHAR_PATRIARCH;Cathar Patriarch;Patriarche Cathare;Katharer Patriarch;;Patriarca Catar;;;;;;;;;x
+CATHAR_PATRIARCH_tooltip;The next Patriarch;;;;;;;;;;;;;x
 title_cathar_deacon;Deacon;Deacon;Deacon;;Diácono;;;;;;;;;x
 title_cathar_deacon_female;Deaconess;Deaconess;Deaconess;;Diaconisa;;;;;;;;;x
 

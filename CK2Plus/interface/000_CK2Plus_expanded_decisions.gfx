@@ -17,7 +17,7 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decisions\\decision_icon_cleansing_ritual.dds"
 	}
 	spriteType = {
-		name = "GFX_create_cathar_papacy"
+		name = "GFX_cathar_create_papacy"
 		texturefile = "gfx\\interface\\decisions\\decision_icon_cathar_heresy.dds"
 	}
 }
