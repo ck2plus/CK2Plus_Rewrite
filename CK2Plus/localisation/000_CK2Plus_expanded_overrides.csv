@@ -20,6 +20,7 @@ SHOW_COLLEGE_OF_CARDINALS;[Root.GetCollegeName];[Root.GetCollegeName];[Root.GetC
 GetCollegeName_Cardinals;Sacred College of Cardinals;Sacré Collège cardinalice;Heiliges Kardinalskollegium;;Sacro Colegio de Cardenalicio;;;;;;;;;x
 GetCollegeName_DruidsMale;Circle of Druids;Cercle des Druides;Kreis der Druiden;;Circulo de Druidas;;;;;;;;;
 GetCollegeName_DruidsFemale;Circle of Druidesses;Cercle des Druidesses;Kreis der Druidinnen;;Circulo de Druidesas;;;;;;;;;
+GetCollegeName_Perfecti;Council of Perfecti;Council of Perfecti;Council of Perfecti;;Council of Perfecti;;;;;;;;;x
 
 POPE_VOTE_SCORE;§Y[Root.CollegeVoteScore] Suitability: $SCORE$§!;§YChances de devenir [Root.CollegeVoteScore] : $SCORE$§!;§YEignung zum [Root.CollegeVoteScore]: $SCORE$§!;;§YAdecuación como [Root.CollegeVoteScore]: $SCORE$§!;;;;;;;;;x
 CollegeVoteScore_Pope;Papal;pape;Papst;;Papa;;;;;;;;;x
