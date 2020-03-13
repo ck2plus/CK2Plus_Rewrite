@@ -99,7 +99,7 @@ decisions = {
 			}
 		}
 		effect = {
-			character_event = { id = Plus.2006 tooltip = SEARCH_ADOPTED_CHILD }
+			character_event = { id = PlusCathar.007 tooltip = cathar_adoption_tooltip }
 		}
 		ai_will_do = {
 			factor = 1
@@ -110,7 +110,7 @@ decisions = {
 		}
 	}
 
-	create_cathar_papacy = {
+	cathar_create_papacy = {
 		is_high_prio = yes
 		ai_check_interval = 24
 		only_playable = yes
@@ -133,7 +133,7 @@ decisions = {
 			any_realm_title = { is_holy_site = ROOT }
 		}
 		effect = {
-			character_event = { id = Plus.2012 tooltip = CREATE_CATHAR_POPE }
+			character_event = { id = PlusCathar.010 tooltip = cathar_create_papacy_tooltip }
 			set_global_flag = cathar_papacy
 		}
 		ai_will_do = {
