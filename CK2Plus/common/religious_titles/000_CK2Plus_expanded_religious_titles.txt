@@ -77,7 +77,7 @@ title_cathar_deacon = {
 	}
 
 	gain_effect = {
-		character_event = { id = GoPagan.155 }
+		#character_event = { id = GoPagan.155 }
 		set_character_flag = is_cardinal
 	}
 
