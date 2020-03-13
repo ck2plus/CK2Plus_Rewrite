@@ -48,3 +48,37 @@ d_basque_pagan_reformed = {
 		piety = 1000
 	}
 }
+
+d_cathar = {
+	color = { 238 224 147 }
+	color2 = { 230 220 108 }
+	capital = 213 # Carcassone
+
+	allow = {
+		always = no # Only by special decision
+	}
+
+	# Always exists
+	landless = yes
+	primary = yes
+	dignity = 100
+
+	title = "CATHAR_PATRIARCH"
+	title_female = "CATHAR_MATRIARCH"
+	foa = "POPE_FOA"
+	short_name = yes
+
+	religion = cathar
+
+	# Controls a religion
+	controls_religion = cathar
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+	gain_effect = {
+		if = {
+			limit = { NOT = { trait = perfecti } }
+			add_trait = perfecti
+		}
+	}
+}
