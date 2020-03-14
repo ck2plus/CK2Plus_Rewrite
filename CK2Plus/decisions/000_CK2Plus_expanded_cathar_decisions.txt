@@ -99,7 +99,7 @@ decisions = {
 			}
 		}
 		effect = {
-			character_event = { id = PlusCathar.007 tooltip = cathar_adoption_tooltip }
+			character_event = { id = PlusCathar.006 tooltip = cathar_adoption_tooltip }
 		}
 		ai_will_do = {
 			factor = 1
@@ -133,7 +133,7 @@ decisions = {
 			any_realm_title = { is_holy_site = ROOT }
 		}
 		effect = {
-			character_event = { id = PlusCathar.010 tooltip = cathar_create_papacy_tooltip }
+			character_event = { id = PlusCathar.009 tooltip = cathar_create_papacy_tooltip }
 			set_global_flag = cathar_papacy
 		}
 		ai_will_do = {
