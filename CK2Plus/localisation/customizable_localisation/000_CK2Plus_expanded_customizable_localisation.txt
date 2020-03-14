@@ -105,7 +105,7 @@ defined_text = {
 		}
 	}
 	text = {
-		localization_key = Perfecti
+		localisation_key = Perfecti
 		trigger = {
 			religion = cathar
 		}
@@ -142,7 +142,7 @@ defined_text = {
 		}
 	}
 	text = {
-		localization_key = title_cathar_deacon
+		localisation_key = title_cathar_deacon
 		trigger = {
 			AND = {
 				religion = cathar
@@ -151,7 +151,7 @@ defined_text = {
 		}
 	}
 	text = {
-		localization_key = title_cathar_deacon_female
+		localisation_key = title_cathar_deacon_female
 		trigger = {
 			AND = {
 				religion = cathar

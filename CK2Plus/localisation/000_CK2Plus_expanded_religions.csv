@@ -250,6 +250,8 @@ CATHAR_PATRIARCH;Cathar Patriarch;Patriarche Cathare;Katharer Patriarch;;Patriar
 CATHAR_PATRIARCH_tooltip;The next Patriarch;;;;;;;;;;;;;x
 title_cathar_deacon;Deacon;Deacon;Deacon;;Diácono;;;;;;;;;x
 title_cathar_deacon_female;Deaconess;Deaconess;Deaconess;;Diaconisa;;;;;;;;;x
+d_cathar;The Cathar Patriarchy;The Cathar Patriarchy;The Cathar Patriarchy;;The Cathar Patriarchy;;;;;;;;x
+d_cathar_adj;Patriarchal;Patriarchal;Patriarchal;;Patriarchal;;;;;;;;x
 
 # Interface
 expected_next_title_cathar_deacon;Expected Next Member;Expected Next Member;Expected Next Member;;Expected Next Member;;;;;;;;;x

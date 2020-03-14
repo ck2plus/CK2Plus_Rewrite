@@ -41,7 +41,7 @@ character_event = {
 	}
 }
 
-# Cathar male child becomes homosexual
+# Cathar child becomes homosexual
 character_event = {
 	id = PlusCathar.002
 	desc = PlusCathar_002_desc

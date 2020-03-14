@@ -10,5 +10,8 @@ spriteTypes = {
 		name = "GFX_archdruid_election_values"
 		texturefile = "gfx\\interface\\icon_druid_suitability.dds"
 	}
-
+	spriteType = {
+		name = "GFX_cathar_vote"
+		texturefile = "gfx\\interface\\cathar_vote.dds"
+	}
 }
