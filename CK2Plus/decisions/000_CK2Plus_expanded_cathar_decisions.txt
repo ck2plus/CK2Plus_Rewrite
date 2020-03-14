@@ -90,7 +90,6 @@ decisions = {
 		allow = {
 			war = no
 			has_regent = no
-			any_realm_province = { religion = ROOT }
 			OR = {
 				trait = perfecti
 				trait = celibate
@@ -130,7 +129,7 @@ decisions = {
 			trait = perfecti
 			piety >= 1000
 			higher_tier_than = DUKE
-			any_realm_title = { is_holy_site = ROOT }
+			num_of_holy_sites >= 1
 		}
 		effect = {
 			character_event = { id = PlusCathar.009 tooltip = cathar_create_papacy_tooltip }
