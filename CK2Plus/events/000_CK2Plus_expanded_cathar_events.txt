@@ -1,6 +1,6 @@
 namespace = PlusCathar
 
-#reserved: PlusCathar.001 to PlusCathar.011
+#reserved: PlusCathar.001 to PlusCathar.010
 
 ### CATHAR EVENTS
 
@@ -45,11 +45,17 @@ character_event = {
 character_event = {
 	id = PlusCathar.002
 	desc = PlusCathar_002_desc
-	picture = GFX_evt_brothel
+	picture = {
+		trigger = { is_female = no }
+		picture = GFX_evt_brothel
+	}
+	picture = {
+		trigger = { is_female = yes }
+		picture = GFX_evt_garden
+	}
 
-	min_age = 13
+	min_age = 12
 	max_age = 18
-	only_men = yes
 	religion = cathar
 	is_married = no
 
@@ -65,16 +71,19 @@ character_event = {
 		modifier = {
 			factor = 1.25
 			trait = chaste
+			is_female = no
 		}
 		modifier = {
 			factor = 0.75
 			martial >= 10
 			trait = fair
+			is_female = no
 		}
 		modifier = {
 			factor = 0.75
 			trait = shy
 			learning >= 10
+			is_female = no
 		}
 		modifier = {
 			factor = 0.75
@@ -85,44 +94,17 @@ character_event = {
 				trait = homosexual
 				reverse_opinion = { who = ROOT value = 25 }
 			}
+			is_female = no
 		}
-	}
-
-	option = {
-		name = PlusCathar_002_a
-		add_trait = homosexual
-		set_character_flag = revealed_homosexual@ROOT
-	}
-}
-
-# Cathar female child becomes homosexual
-character_event = {
-	id = PlusCathar.003
-	desc = PlusCathar_003_desc
-	picture = GFX_evt_garden
-
-	min_age = 12
-	max_age = 17
-	only_women = yes
-	religion = cathar
-	is_married = no
-
-	trigger = {
-		NOR = {
-			trait = homosexual
-			trait = celibate
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 960
 		modifier = {
 			factor = 0.5
 			trait = zealous
+			is_female = yes
 		}
 		modifier = {
 			factor = 0.5
 			trait = chaste
+			is_female = yes
 		}
 	}
 
@@ -135,8 +117,8 @@ character_event = {
 
 # Adult Cathar becomes celibate
 character_event = {
-	id = PlusCathar.004
-	desc = PlusCathar_004_desc
+	id = PlusCathar.003
+	desc = PlusCathar_003_desc
 	picture = GFX_evt_brothel
 
 	min_age = 25
@@ -165,14 +147,14 @@ character_event = {
 	}
 
 	option = {
-		name = PlusCathar_004_a
+		name = PlusCathar_003_a
 		add_trait = celibate
 	}
 }
 
 #[on_birth] Cathar child malus
 character_event = {
-	id = PlusCathar.005
+	id = PlusCathar.004
 
 	hide_window = yes
 	is_triggered_only = yes
@@ -191,7 +173,7 @@ character_event = {
 			}
 			father = {
 				character_event = {
-					id = PlusCathar.006
+					id = PlusCathar.005
 					days >= 2
 				}
 			}
@@ -202,7 +184,7 @@ character_event = {
 			}
 			mother = {
 				character_event = {
-					id = PlusCathar.006
+					id = PlusCathar.005
 					days >= 2
 				}
 			}
@@ -212,8 +194,8 @@ character_event = {
 
 # Cathars lose piety and prestige for having children
 character_event = {
-	id = PlusCathar.006
-	desc = PlusCathar_006_desc
+	id = PlusCathar.005
+	desc = PlusCathar_005_desc
 	picture = GFX_evt_lovers
 
 	is_triggered_only = yes
@@ -221,15 +203,15 @@ character_event = {
 	religion = cathar
 
 	option = {
-		name = PlusCathar_006_a
+		name = PlusCathar_005_a
 		piety = -25
 	}
 }
 
 # Cathar/Bogomilist ruler adopts a child (fired from decision)
 character_event = {
-	id = PlusCathar.007
-	desc = PlusCathar_007_desc
+	id = PlusCathar.006
+	desc = PlusCathar_006_desc
 	picture = GFX_evt_child_talking
 
 	is_triggered_only = yes
@@ -242,7 +224,7 @@ character_event = {
 	}
 
 	option = {
-		name = PlusCathar_007_a
+		name = PlusCathar_006_a
 		piety = 20
 		create_character = {
 			dynasty = ROOT
@@ -294,9 +276,9 @@ character_event = {
 
 # Council of Saint-Félix
 narrative_event = {
-	id = PlusCathar.008
-	title = PlusCathar_008
-	desc = PlusCathar_008_desc
+	id = PlusCathar.007
+	title = PlusCathar_007
+	desc = PlusCathar_007_desc
 	picture = GFX_evt_ecumenical_council
 	border = GFX_event_narrative_frame_religion
 
@@ -384,7 +366,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = PlusCathar_008_a
+		name = PlusCathar_007_a
 		trigger = {
 			religion = catholic
 			OR = {
@@ -416,7 +398,7 @@ narrative_event = {
 		}
 	}
 	option = {
-		name = PlusCathar_008_b
+		name = PlusCathar_007_b
 		trigger = {
 			religion = catholic
 			NOR = {
@@ -437,7 +419,7 @@ narrative_event = {
 		}
 	}
 	option = {
-		name = PlusCathar_008_c
+		name = PlusCathar_007_c
 		trigger = {
 			religion = bogomilist
 		}
@@ -449,9 +431,9 @@ narrative_event = {
 
 # Cathars are allowed to use holy wars once Catholic holy war is used against them
 character_event = {
-	id = PlusCathar.009
-	title = PlusCathar_009
-	desc = PlusCathar_009_desc
+	id = PlusCathar.008
+	title = PlusCathar_008
+	desc = PlusCathar_008_desc
 	picture = GFX_evt_heresy_defeated
 	border = GFX_event_normal_frame_war
 
@@ -485,13 +467,13 @@ character_event = {
 	}
 
 	option = {
-		name = PlusCathar_009_a
+		name = PlusCathar_008_a
 	}
 }
 
 # A Cathar Pope is elected (fired from decision)
 character_event = {
-	id = PlusCathar.010
+	id = PlusCathar.009
 
 	is_triggered_only = yes
 	hide_window = yes
@@ -571,15 +553,15 @@ character_event = {
 				}
 			}
 		}
-		narrative_event = { id = PlusCathar.011 }
+		narrative_event = { id = PlusCathar.010 }
 	}
 }
 
 # The rest of the world is told about the new Cathar Pope
 narrative_event = {
-	id = PlusCathar.011
-	title = PlusCathar_011
-	desc = PlusCathar_011_desc
+	id = PlusCathar.010
+	title = PlusCathar_010
+	desc = PlusCathar_010_desc
 	picture = GFX_evt_pope
 	border = GFX_event_narrative_frame_religion
 
@@ -588,18 +570,18 @@ narrative_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = PlusCathar_011_a
+		name = PlusCathar_010_a
 		trigger = {
 			NOT = { religion = cathar }
 			religion_group = christian
 		}
 	}
 	option = {
-		name = PlusCathar_011_b
+		name = PlusCathar_010_b
 		trigger = { NOT = { religion_group = christian } }
 	}
 	option = {
-		name = PlusCathar_011_c
+		name = PlusCathar_010_c
 		trigger = { religion = cathar }
 	}
 }
