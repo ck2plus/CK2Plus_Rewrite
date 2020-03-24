@@ -2,8 +2,94 @@
 #
 #	Plus Ambitions:
 #
-#	Total = 00
+#	Total = 01
 #
 #	Sorted alphabetically
 #
 ##############################
+
+obj_adopt_a_lifestyle = {
+	type = character
+
+	potential = {
+		lifestyle_traits < 1
+		NOT = { has_character_flag = obj_adopt_a_lifestyle }
+		NOT = { has_character_flag = lifestyle_pick }
+	}
+
+	allow = {
+		prisoner = no
+		age >= 25
+		NOT = { trait = incapable }
+		OR = {
+			diplomacy >= 5
+			martial >= 5
+			intrigue >= 5
+			stewardship >= 5
+			learning >= 5
+		}
+	}
+
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			is_ruler = yes
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		lifestyle_traits = 1
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			trait = incapable
+			AND = {
+				diplomacy < 5 
+				martial < 5 
+				intrigue < 5 
+				stewardship < 5 
+				learning < 5
+			}
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = ai_objective_timer
+			}
+		}
+		prestige = 50
+		set_character_flag = obj_adopt_a_lifestyle
+	}
+}

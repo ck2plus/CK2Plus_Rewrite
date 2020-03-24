@@ -1,0 +1,9 @@
+#######
+#Plus Timers:
+#
+#Total = 01
+#######
+
+ai_objective_timer = {
+	icon = 1
+}

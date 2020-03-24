@@ -5,5 +5,5 @@
 #	Plus custom ambitions
 #
 ################################
-obj_adopt_a_lifestyle_desc;I have too much free time: I need a lifestyle;J'ai trop de temps libre: j'ai besoin d'un style de vie;Ich habe zu viel Freizeit: Ich brauche einen Lebensstil;;Tengo demasiado tiempo libre: necesito un estilo de vida;;;;;;;;;x
-obj_adopt_a_lifestyle_title;Adopt a Lifestyle;Adoptez un style de vie;Einen Lebensstil annehmen;;Adopta un estilo de vida;;;;;;;;;x
+obj_adopt_a_lifestyle_desc;[This.GetTitledFirstName] wants an exciting hobby to pursue.;;;;;;;;;;;;;x
+obj_adopt_a_lifestyle_title;Adopt a Lifestyle;;;;;;;;;;;;;x
