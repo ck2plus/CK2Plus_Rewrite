@@ -2,7 +2,7 @@
 #
 #	Plus Ambitions:
 #
-#	Total = 01
+#	Total = 04
 #
 #	Sorted alphabetically
 #
@@ -91,5 +91,312 @@ obj_adopt_a_lifestyle = {
 		}
 		prestige = 50
 		set_character_flag = obj_adopt_a_lifestyle
+	}
+}
+
+obj_amass_wealth_2 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		lower_tier_than = KING
+		num_of_duke_titles < 4
+		OR = {
+			tier = DUKE
+			num_of_count_titles >= 4
+		}
+		NOT = { has_character_flag = obj_amass_wealth }
+	}
+
+	allow = {
+		is_adult = yes
+		wealth < 500
+		NOT = { trait = incapable }
+		NOT = { trait = charitable }
+		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_flag = loan_taken }
+	}
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 1.25
+			trait = fortune_builder
+		}
+		modifier = {
+			factor = 1.25
+			trait = midas_touched
+		}
+		modifier = {
+			factor = 10.0
+			trait = greedy
+		}
+		modifier = {
+			factor = 0
+			trait = charitable
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		wealth >= 500
+		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_flag = loan_taken }
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			trait = charitable
+			has_character_modifier = loan_timer
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1 }
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = ai_objective_timer
+			}
+		}
+		change_stewardship = 1
+		set_character_flag = obj_amass_wealth
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_prosperity } }
+		#	custom_tooltip = { text = PROSPERITYFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_prosperity } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#		character_event = { id = PlusFaction.200 days = 1 } #recalculate faction moods
+		#	}
+		#}
+	}
+}
+
+obj_amass_wealth_3 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		lower_tier_than = EMPEROR
+		num_of_king_titles < 4
+		OR = {
+			tier = KING
+			num_of_duke_titles >= 4
+		}
+		NOT = { has_character_flag = obj_amass_wealth }
+	}
+
+	allow = {
+		is_adult = yes
+		wealth < 750
+		NOT = { trait = incapable }
+		NOT = { trait = charitable }
+		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_flag = loan_taken }
+	}
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 1.25
+			trait = fortune_builder
+		}
+		modifier = {
+			factor = 1.25
+			trait = midas_touched
+		}
+		modifier = {
+			factor = 10.0
+			trait = greedy
+		}
+		modifier = {
+			factor = 0
+			trait = charitable
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		wealth >= 750
+		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_flag = loan_taken }
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			trait = charitable
+			has_character_modifier = loan_timer
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1 }
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = ai_objective_timer
+			}
+		}
+		change_stewardship = 1
+		set_character_flag = obj_amass_wealth
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_prosperity } }
+		#	custom_tooltip = { text = PROSPERITYFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_prosperity } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#		character_event = { id = PlusFaction.200 days = 1 } #recalculate faction moods
+		#	}
+		#}
+	}
+}
+
+obj_amass_wealth_4 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		OR = {
+			tier = EMPEROR
+			num_of_king_titles >= 4
+		}
+		NOT = { has_character_flag = obj_amass_wealth }
+	}
+
+	allow = {
+		is_adult = yes
+		wealth < 1000
+		NOT = { trait = incapable }
+		NOT = { trait = charitable }
+		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_flag = loan_taken }
+	}
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 1.25
+			trait = fortune_builder
+		}
+		modifier = {
+			factor = 1.25
+			trait = midas_touched
+		}
+		modifier = {
+			factor = 10.0
+			trait = greedy
+		}
+		modifier = {
+			factor = 0
+			trait = charitable
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		wealth >= 1000
+		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_flag = loan_taken }
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			trait = charitable
+			has_character_modifier = loan_timer
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1 }
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = ai_objective_timer
+			}
+		}
+		change_stewardship = 1
+		set_character_flag = obj_amass_wealth
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_prosperity } }
+		#	custom_tooltip = { text = PROSPERITYFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_prosperity } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#		character_event = { id = PlusFaction.200 days = 1 } #recalculate faction moods
+		#	}
+		#}
 	}
 }

@@ -1,9 +1,14 @@
 #######
 #Plus Timers:
 #
-#Total = 01
+#Total = 02
 #######
 
 ai_objective_timer = {
 	icon = 1
+}
+
+loan_timer = {
+	icon = 24
+	monthly_character_piety = -0.25
 }

@@ -6,4 +6,25 @@ spriteTypes = {
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_obj_amass_wealth_2"
+		texturefile = "gfx/ambitions/obj_amass_wealth.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_amass_wealth_3"
+		texturefile = "gfx/ambitions/obj_amass_wealth.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_amass_wealth_4"
+		texturefile = "gfx/ambitions/obj_amass_wealth.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }
