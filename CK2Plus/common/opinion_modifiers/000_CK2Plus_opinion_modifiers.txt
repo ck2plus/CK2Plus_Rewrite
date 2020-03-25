@@ -2,7 +2,7 @@
 #
 #	Plus opinion modifiers
 #
-#	Total = 2
+#	Total = 3
 #
 ##############################
 
@@ -16,4 +16,9 @@ plus_faction_friendly = { #Factions may not attack each other
 plus_faction_hostile = { #Factions may loot each other
 	opinion = 0
 	enemy = yes
+}
+
+#Good speech
+plus_good_speech = {
+	opinion = 10
 }

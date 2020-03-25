@@ -6,12 +6,13 @@
 #
 #	INDEX
 #
-#	Total = 4
+#	Total = 5
 #
 #	plus_faction_abandoned
 #	plus_construction_focus
 #	plus_increased_spy_reports
 #	plus_new_roads
+#	plus_attentive_liege
 #
 #########################################
 
@@ -118,3 +119,8 @@ plus_new_roads = {
 	levy_reinforce_rate = 0.2
 }
 
+#Attentive Liege
+plus_attentive_liege = {
+	global_revolt_risk = -0.03
+	icon = 1
+}

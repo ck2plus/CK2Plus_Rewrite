@@ -1,0 +1,4061 @@
+namespace = PlusAmbitions.lifestyle
+
+########################################
+# LIFESTYLE EVENTS
+########################################
+
+# completely re-written from the vanilla events
+# written by Rylock
+
+#Hunter
+character_event = {
+	id = PlusAmbitions.lifestyle.0000
+	desc = EVTDESC_PlusAmbitions_lifestyle_0000
+	picture = GFX_evt_hunt
+	
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = craven
+			is_weak_trigger = yes
+			religion = jain
+			religion = cathar
+			is_inaccessible_trigger = yes
+		}
+		martial = 5
+		OR = {
+			is_female = no
+			#trait = martial_lady
+			#trait = martial_lady_tengri
+			#trait = martial_lady_pagan
+			trait = shieldmaiden
+			#liege = { has_law = female_council_law_4 }
+			has_game_rule = {
+				name = gender
+				value = all
+			}
+			#has_game_rule = {
+			#	name = gender
+			#	value = plus
+			#}
+		}
+		OR = {
+			trait = brave
+			is_strong_trigger = yes
+			martial = 12
+			check_variable = { which = "lifestyle_martial" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_hunter_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+		modifier = {
+			factor = 1.5
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 1.5
+			martial = 10
+		}
+		modifier = {
+			factor = 1.5
+			martial = 15
+		}
+		modifier = {
+			factor = 1.5
+			martial = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_martial" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0000 #I'm a hunter
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = brave
+					is_strong_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 2
+					religion_group = pagan_group
+					#^ used instead of (because pagans aren't split up yet):
+					#is_pagan_religion = no
+			}
+		}
+		add_trait = hunter
+	}
+	option = {
+		name = "EVTOPTB_PlusAmbitions_lifestyle_0000" #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_martial" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_martial_no
+	}
+}
+
+#Falconer
+character_event = {
+	id = PlusAmbitions.lifestyle.0001
+	desc = EVTDESC_PlusAmbitions_lifestyle_0001
+	picture = GFX_evt_falconing
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = shy
+			trait = slothful
+			religion = jain
+			is_inaccessible_trigger = yes
+		}
+		diplomacy = 5
+		intrigue = 5
+		OR = {
+			trait = diligent
+			trait = deceitful
+			diplomacy = 12
+			intrigue = 12
+			check_variable = { which = "lifestyle_diplomacy" value = 0.9 }
+			check_variable = { which = "lifestyle_intrigue" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_falconer_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 10
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 15
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 20
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 10
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 15
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 20
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0001 #I'm a falconer
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = diligent
+					trait = gregarious
+				}
+			}
+		}
+		add_trait = falconer
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_diplomacy" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_diplomacy_no
+	}
+}
+
+#Scholar
+character_event = {
+	id = PlusAmbitions.lifestyle.0002
+	desc = EVTDESC_PlusAmbitions_lifestyle_0002
+	picture = GFX_evt_library
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = gregarious
+			is_dumb_trigger = yes
+			is_inaccessible_trigger = yes
+		}
+		learning = 5
+		OR = {
+			trait = shy
+			is_smart_trigger = yes
+			is_priest = yes
+			learning = 12
+			check_variable = { which = "lifestyle_learning" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_scholar_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}		
+		modifier = {
+			factor = 1.5
+			is_smart_trigger = yes
+		}
+		modifier = {
+			factor = 1.5
+			trait = shy
+		}
+		modifier = {
+			factor = 1.5
+			learning = 10
+		}
+		modifier = {
+			factor = 1.5
+			learning = 15
+		}
+		modifier = {
+			factor = 1.5
+			learning = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_learning" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0002 #I'm a scholar
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = shy
+					is_smart_trigger = yes
+				}
+			}
+		}
+		add_trait = scholar
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_learning" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_learning_no
+	}
+}
+
+#Mystic
+character_event = {
+	id = PlusAmbitions.lifestyle.0003
+	desc = EVTDESC_PlusAmbitions_lifestyle_0003
+	picture = "GFX_evt_library"
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = zealous
+			is_inaccessible_trigger = yes
+		}
+		learning = 5
+		OR = {
+			trait = cynical
+			religion_group = pagan_group
+			#^ used instead of (because pagans aren't split up yet):
+			#is_pagan_religion = no
+			learning = 12
+			check_variable = { which = "lifestyle_learning" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_mystic_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 10
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 15
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_learning" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0003 #I'm a mystic
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 2
+				OR = {
+					trait = cynical
+					religion_group = pagan_group
+					#^ used instead of (because pagans aren't split up yet):
+					#is_pagan_religion = no
+				}
+			}
+		}
+		add_trait = mystic
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_learning" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_learning_no
+	}
+}
+
+#Impaler
+character_event = {
+	id = PlusAmbitions.lifestyle.0004
+	desc = EVTDESC_PlusAmbitions_lifestyle_0004
+	picture = GFX_evt_pale_rider
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = kind
+			trait = charitable
+			religion = jain
+			religion = cathar
+			is_inaccessible_trigger = yes
+		}
+		martial = 5
+		OR = {
+			trait = cruel
+			trait = wroth
+			martial = 12
+			check_variable = { which = "lifestyle_martial" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_impaler_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 10
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 15
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_martial" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0004 #I'm an impaler
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = cruel
+					trait = wroth
+				}
+			}
+		}
+		add_trait = impaler
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_martial" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_martial_no
+	}
+}
+
+#Gardener
+character_event = {
+	id = PlusAmbitions.lifestyle.0005
+	desc = EVTDESC_PlusAmbitions_lifestyle_0005
+	picture = GFX_evt_garden
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = slothful
+			trait = wroth
+			is_inaccessible_trigger = yes
+		}
+		stewardship = 5
+		OR = {
+			trait = temperate
+			trait = patient
+			trait = diligent
+			stewardship = 12
+			check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_gardener_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = patient
+		}
+		modifier = {
+			factor = 1.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.5
+			stewardship = 10
+		}
+		modifier = {
+			factor = 1.5
+			stewardship = 15
+		}
+		modifier = {
+			factor = 1.5
+			stewardship = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_stewardship" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0005 #I'm a gardener
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = temperate
+					trait = patient
+					trait = diligent
+				}
+			}
+		}
+		add_trait = gardener
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_stewardship_no
+	}
+}
+
+#Poet
+character_event = {
+	id = PlusAmbitions.lifestyle.0006
+	desc = EVTDESC_PlusAmbitions_lifestyle_0006
+	picture = "GFX_evt_courtly_love"
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		prisoner = no
+		NOT = {
+			lifestyle_traits = 1
+			trait = cruel
+			trait = envious
+			trait = gregarious
+			is_inaccessible_trigger = yes
+		}
+		diplomacy = 5
+		OR = {
+			trait = shy
+			trait = kind
+			diplomacy = 12
+			check_variable = { which = "lifestyle_diplomacy" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_poet_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = shy
+		}
+		modifier = {
+			factor = 1.5
+			trait = kind
+		}
+		modifier = {
+			factor = 1.5
+			trait = lustful
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 10
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 15
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_diplomacy" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0006 #I'm a poet
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = shy
+					trait = kind
+				}
+			}
+		}
+		add_trait = poet
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_diplomacy" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_diplomacy_no
+	}
+}
+
+#Administrator
+character_event = {
+	id = PlusAmbitions.lifestyle.0007
+	desc = EVTDESC_PlusAmbitions_lifestyle_0007
+	picture = GFX_evt_royal_court
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = slothful
+			trait = gregarious
+			is_inaccessible_trigger = yes
+		}
+		stewardship = 5
+		OR = {
+			trait = diligent
+			trait = shy
+			trait = content
+			stewardship = 12
+			check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_administrator_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.5
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_stewardship" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0007 #I'm an administrator
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = diligent
+					trait = shy
+					trait = content
+				}
+			}
+		}
+		add_trait = administrator
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_administrator_no
+	}
+}
+
+#Hedonist
+character_event = {
+	id = PlusAmbitions.lifestyle.0008
+	desc = EVTDESC_PlusAmbitions_lifestyle_0008
+	picture = GFX_evt_brothel
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = temperate
+			trait = shy
+			is_inaccessible_trigger = yes
+		}
+		trait = lustful
+		OR = {
+			trait = drunkard
+			trait = gluttonous
+			trait = greedy
+			check_variable = { which = "lifestyle_hedonist" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_hedonist_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = drunkard
+		}
+		modifier = {
+			factor = 1.5
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_hedonist" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_hedonist" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0008 #I'm a hedonist
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = drunkard
+					trait = gluttonous
+					trait = greedy
+				}
+			}
+		}
+		add_trait = hedonist
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_hedonist" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_hedonist_no
+	}
+}
+
+#Duelist
+character_event = {
+	id = PlusAmbitions.lifestyle.0009
+	desc = EVTDESC_PlusAmbitions_lifestyle_0009
+	picture = GFX_evt_joust
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = content
+			trait = kind
+			trait = craven
+			is_weak_trigger = yes
+			is_inaccessible_trigger = yes
+		}
+		martial = 5
+		OR = {
+			is_female = no
+			#trait = martial_lady
+			#trait = martial_lady_tengri
+			#trait = martial_lady_pagan
+			trait = shieldmaiden
+			has_game_rule = {
+				name = gender
+				value = all
+			}
+			#has_game_rule = {
+			#	name = gender
+			#	value = plus
+			#}
+		}
+		OR = {
+			trait = wroth
+			trait = brave
+			trait = ambitious
+			martial = 12
+			check_variable = { which = "lifestyle_martial" value = 0.9 }
+		}
+		
+		NOT = { has_character_flag = lifestyle_duelist_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+		modifier = {
+			factor = 1.5
+			is_strong_trigger = yes
+		}
+		modifier = {
+			factor = 1.5
+			martial = 10
+		}
+		modifier = {
+			factor = 1.5
+			martial = 15
+		}
+		modifier = {
+			factor = 1.5
+			martial = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_martial" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0009 #I'm a duelist
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = wroth
+					trait = brave
+					trait = ambitious
+				}
+			}
+			modifier = {
+				factor = 0.5
+				religion = jain
+			}
+			modifier = {
+				factor = 0.5
+				religion = cathar
+			}
+		}
+		add_trait = duelist
+		pacifists_lose_piety_effect = yes
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_martial" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_martial_no
+	}
+}
+
+#Faqih
+character_event = {
+	id = PlusAmbitions.lifestyle.0010
+	desc = EVTDESC_PlusAmbitions_lifestyle_0010
+	picture = GFX_evt_shadowy_cabal
+
+	is_triggered_only = yes
+	
+	religion_group = muslim
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = cynical
+			trait = slothful
+			trait = hafiz
+			is_inaccessible_trigger = yes
+			has_alternate_start_parameter = {
+				key = religion_names
+				value = random
+			}
+		}
+		learning = 5
+		OR = {
+			trait = just
+			trait = zealous
+			learning = 12
+			check_variable = { which = "lifestyle_learning" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_faqih_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = just
+		}
+		modifier = {
+			factor = 1.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.5
+			learning = 10
+		}
+		modifier = {
+			factor = 1.5
+			learning = 15
+		}
+		modifier = {
+			factor = 1.5
+			learning = 20
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_learning" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_learning" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0010 #I have become faqih
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = just
+					trait = zealous
+				}
+			}
+		}
+		add_trait = faqih
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_learning" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_learning_no
+	}
+}
+
+#Architect
+character_event = {
+	id = PlusAmbitions.lifestyle.0011
+	desc = EVTDESC_PlusAmbitions_lifestyle_0011
+	picture = GFX_evt_castle_construction
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = wroth
+			trait = content
+			trait = humble
+			is_inaccessible_trigger = yes
+		}
+		stewardship = 5
+		OR = {
+			trait = patient
+			trait = ambitious
+			trait = proud
+			stewardship = 12
+			check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_architect_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = patient
+		}
+		modifier = {
+			factor = 1.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.5
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_stewardship" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_stewardship" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0011 #I'm an architect
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = patient
+					trait = ambitious
+					trait = proud
+				}
+			}
+		}
+		add_trait = architect
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_stewardship" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_architect_no
+	}
+}
+
+#Strategist
+character_event = {
+	id = PlusAmbitions.lifestyle.0012
+	desc = EVTDESC_PlusAmbitions_lifestyle_0012
+	picture = GFX_evt_large_army
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = wroth
+			trait = content
+			trait = trusting
+			is_inaccessible_trigger = yes
+		}
+		martial = 5
+		OR = {
+			trait = patient
+			trait = ambitious
+			trait = paranoid
+			martial = 12
+			check_variable = { which = "lifestyle_martial" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_strategist_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = patient
+		}
+		modifier = {
+			factor = 1.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_martial" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_martial" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0012 #I'm a strategist
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = patient
+					trait = ambitious
+					trait = paranoid
+				}
+			}
+		}
+		add_trait = strategist
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_martial" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_strategist_no
+	}
+}
+
+#Socializer
+character_event = {
+	id = PlusAmbitions.lifestyle.0013
+	desc = EVTDESC_PlusAmbitions_lifestyle_0013
+	picture = "GFX_evt_feast"
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = shy
+			trait = ugly
+			trait = paranoid
+			is_inaccessible_trigger = yes
+		}
+		diplomacy = 5
+		OR = {
+			trait = gregarious
+			trait = fair
+			diplomacy = 12
+			check_variable = { which = "lifestyle_diplomacy" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_socializer_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.5
+			trait = proud
+		}
+		modifier = {
+			factor = 1.5
+			trait = fair
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_diplomacy" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_diplomacy" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0013 #I'm a socializer
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = gregarious
+					trait = fair
+				}
+			}
+		}
+		add_trait = socializer
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_diplomacy" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_socializer_no
+	}
+}
+
+#Schemer
+character_event = {
+	id = PlusAmbitions.lifestyle.0014
+	desc = EVTDESC_PlusAmbitions_lifestyle_0014
+	picture = GFX_evt_whispers
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = trusting
+			trait = honest
+			is_inaccessible_trigger = yes
+		}
+		intrigue = 5
+		OR = {
+			trait = paranoid
+			trait = deceitful
+			intrigue = 12
+			check_variable = { which = "lifestyle_intrigue" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_schemer_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.5
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.5
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_intrigue" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0014 #I'm a schemer
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = paranoid
+					trait = deceitful
+				}
+			}
+		}
+		add_trait = schemer
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_intrigue" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_strategist_no
+	}
+}
+
+#Gamer
+character_event = {
+	id = PlusAmbitions.lifestyle.0015
+	desc = EVTDESC_PlusAmbitions_lifestyle_0015
+	picture = GFX_evt_market
+
+	is_triggered_only = yes
+	
+	min_age = 25
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		NOT = {
+			lifestyle_traits = 1
+			trait = wroth
+			trait = arbitrary
+			is_inaccessible_trigger = yes
+		}
+		intrigue = 5
+		OR = {
+			trait = patient
+			trait = just
+			intrigue = 12
+			check_variable = { which = "lifestyle_intrigue" value = 0.9 }
+		}
+		NOT = { has_character_flag = lifestyle_schemer_no }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			trait = patient
+		}
+		modifier = {
+			factor = 1.5
+			trait = just
+		}
+		modifier = {
+			factor = 1.5
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { check_variable = { which = "lifestyle_intrigue" value = 0.9 } }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 0.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 1.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 2.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 3.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 4.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 5.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 6.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 7.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 8.9 }
+		}
+		modifier = {
+			factor = 2.0
+			check_variable = { which = "lifestyle_intrigue" value = 9.9 }
+		}
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0015 #I'm a gamer
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				OR = {
+					trait = patient
+					trait = just
+				}
+			}
+		}
+		add_trait = gamer
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0000 #That lifestyle is not for me
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				check_variable = { which = "lifestyle_intrigue" value = 0.9 }
+			}
+			modifier = {
+				factor = 0
+				has_ambition = obj_adopt_a_lifestyle
+			}
+		}
+		set_character_flag = lifestyle_strategist_no
+	}
+}
+
+### GAIN LIFESTYLE AMBITION EVENTS
+
+#A traveling merchant visits during a storm
+character_event = {
+	id = PlusAmbitions.lifestyle.0016
+	desc = EVTDESC_PlusAmbitions_lifestyle_0016
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	war = no
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		is_ill = no
+		is_ruler = yes
+		diplomacy = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_diplomacy1_check
+			check_variable = { which = "lifestyle_diplomacy" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_diplomacy1_check
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0016 #Diplomacy
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				diplomacy = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = naive_appeaser
+			}
+			modifier = {
+				factor = 2.0
+				trait = underhanded_rogue
+			}
+			modifier = {
+				factor = 3.0
+				trait = charismatic_negotiator
+			}
+			modifier = {
+				factor = 4.0
+				trait = grey_eminence
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_diplomacy" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_diplomacy = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0016 #Martial
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { martial = 5 }
+			}
+			modifier = {
+				factor = 2
+				martial = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = misguided_warrior
+			}
+			modifier = {
+				factor = 2.0
+				trait = tough_soldier
+			}
+			modifier = {
+				factor = 3.0
+				trait = skilled_tactician
+			}
+			modifier = {
+				factor = 4.0
+				trait = brilliant_strategist
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_martial" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_martial = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0016 #Learning
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { learning = 5 }
+			}
+			modifier = {
+				factor = 2
+				learning = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = detached_priest
+			}
+			modifier = {
+				factor = 2.0
+				trait = martial_cleric
+			}
+			modifier = {
+				factor = 3.0
+				trait = scholarly_theologian
+			}
+			modifier = {
+				factor = 4.0
+				trait = mastermind_theologian
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_learning" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_learning = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0016 #None of the above
+		ai_chance = {
+			factor = 10
+		}
+		if = {
+			limit = { trait = stressed }
+			random = {
+				chance = 20
+				remove_trait = stressed
+			}
+		}
+		if = {
+			limit = { trait = depressed }
+			random = {
+				chance = 20
+				remove_trait = depressed
+			}
+		}
+	}
+}
+
+#A function is happening in the capital
+character_event = {
+	id = PlusAmbitions.lifestyle.0017
+	desc = EVTDESC_PlusAmbitions_lifestyle_0017
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	war = no
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		diplomacy = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_diplomacy2_check
+			check_variable = { which = "lifestyle_diplomacy" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_diplomacy2_check
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0017 #Diplomacy
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				diplomacy = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = naive_appeaser
+			}
+			modifier = {
+				factor = 2.0
+				trait = underhanded_rogue
+			}
+			modifier = {
+				factor = 3.0
+				trait = charismatic_negotiator
+			}
+			modifier = {
+				factor = 4.0
+				trait = grey_eminence
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_diplomacy" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_diplomacy = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0017 #Intrigue
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { intrigue = 5 }
+			}
+			modifier = {
+				factor = 2
+				intrigue = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = amateurish_plotter
+			}
+			modifier = {
+				factor = 2.0
+				trait = flamboyant_schemer
+			}
+			modifier = {
+				factor = 3.0
+				trait = intricate_webweaver
+			}
+			modifier = {
+				factor = 4.0
+				trait = elusive_shadow
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_intrigue" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_intrigue = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0017 #Stewardship
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { stewardship = 5 }
+			}
+			modifier = {
+				factor = 2
+				stewardship = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = indulgent_wastrel
+			}
+			modifier = {
+				factor = 2.0
+				trait = thrifty_clerk
+			}
+			modifier = {
+				factor = 3.0
+				trait = fortune_builder
+			}
+			modifier = {
+				factor = 4.0
+				trait = midas_touched
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_stewardship = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0017 #None of the above
+		if = {
+			limit = { trait = stressed }
+			random = {
+				chance = 20
+				remove_trait = stressed
+			}
+		}
+		if = {
+			limit = { trait = depressed }
+			random = {
+				chance = 20
+				remove_trait = depressed
+			}
+		}
+	}
+}
+
+#See your knights sparring together
+character_event = {
+	id = PlusAmbitions.lifestyle.0018
+	desc = EVTDESC_PlusAmbitions_lifestyle_0018
+	picture = GFX_evt_melee
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	war = no
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		martial = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_martial1_check
+			check_variable = { which = "lifestyle_martial" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_martial1_check
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0018 #Martial
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				martial = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = misguided_warrior
+			}
+			modifier = {
+				factor = 2.0
+				trait = tough_soldier
+			}
+			modifier = {
+				factor = 3.0
+				trait = skilled_tactician
+			}
+			modifier = {
+				factor = 4.0
+				trait = brilliant_strategist
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_martial" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_martial = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0018 #Diplomacy
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 5 }
+			}
+			modifier = {
+				factor = 2
+				diplomacy = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = naive_appeaser
+			}
+			modifier = {
+				factor = 2.0
+				trait = underhanded_rogue
+			}
+			modifier = {
+				factor = 3.0
+				trait = charismatic_negotiator
+			}
+			modifier = {
+				factor = 4.0
+				trait = grey_eminence
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_diplomacy" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_diplomacy = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0018 #Learning
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { learning = 5 }
+			}
+			modifier = {
+				factor = 2
+				learning = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = detached_priest
+			}
+			modifier = {
+				factor = 2.0
+				trait = martial_cleric
+			}
+			modifier = {
+				factor = 3.0
+				trait = scholarly_theologian
+			}
+			modifier = {
+				factor = 4.0
+				trait = mastermind_theologian
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_learning" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_learning = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0018 #None of the above
+		random = {
+			chance = 20
+			health = 0.25
+		}
+	}
+}
+
+#Courtiers arguing about the war
+character_event = {
+	id = PlusAmbitions.lifestyle.0019
+	desc = EVTDESC_PlusAmbitions_lifestyle_0019
+	picture = GFX_evt_warrior_banners
+	
+	is_triggered_only = yes
+	
+	war = yes
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		martial = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_martial2_check
+			check_variable = { which = "lifestyle_martial" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_martial2_check
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0019 #Martial
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				martial = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = misguided_warrior
+			}
+			modifier = {
+				factor = 2.0
+				trait = tough_soldier
+			}
+			modifier = {
+				factor = 3.0
+				trait = skilled_tactician
+			}
+			modifier = {
+				factor = 4.0
+				trait = brilliant_strategist
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_martial" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_martial = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0019 #Intrigue
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { intrigue = 5 }
+			}
+			modifier = {
+				factor = 2
+				intrigue = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = amateurish_plotter
+			}
+			modifier = {
+				factor = 2.0
+				trait = flamboyant_schemer
+			}
+			modifier = {
+				factor = 3.0
+				trait = intricate_webweaver
+			}
+			modifier = {
+				factor = 4.0
+				trait = elusive_shadow
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_intrigue" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_intrigue = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0019 #Stewardship
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { stewardship = 5 }
+			}
+			modifier = {
+				factor = 2
+				stewardship = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = indulgent_wastrel
+			}
+			modifier = {
+				factor = 2.0
+				trait = thrifty_clerk
+			}
+			modifier = {
+				factor = 3.0
+				trait = fortune_builder
+			}
+			modifier = {
+				factor = 4.0
+				trait = midas_touched
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_stewardship = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0019 #None of the above
+		random = {
+			chance = 20
+			health = 0.25
+		}
+	}
+}
+
+#A day of peace for a ruler
+character_event = {
+	id = PlusAmbitions.lifestyle.0020
+	desc = EVTDESC_PlusAmbitions_lifestyle_0020
+	picture = GFX_evt_battle
+	
+	is_triggered_only = yes
+	
+	war = no
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		stewardship = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			any_liege = { war = yes }
+			has_character_flag = lifestyle_stewardship1_check
+			check_variable = { which = "lifestyle_stewardship" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			stewardship = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_stewardship1_check
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0020 #Stewardship
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				stewardship = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = indulgent_wastrel
+			}
+			modifier = {
+				factor = 2.0
+				trait = thrifty_clerk
+			}
+			modifier = {
+				factor = 3.0
+				trait = fortune_builder
+			}
+			modifier = {
+				factor = 4.0
+				trait = midas_touched
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_stewardship = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0020 #Martial
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { martial = 5 }
+			}
+			modifier = {
+				factor = 2
+				martial = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = misguided_warrior
+			}
+			modifier = {
+				factor = 2.0
+				trait = tough_soldier
+			}
+			modifier = {
+				factor = 3.0
+				trait = skilled_tactician
+			}
+			modifier = {
+				factor = 4.0
+				trait = brilliant_strategist
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_martial" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_martial = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0020 #Learning
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { learning = 5 }
+			}
+			modifier = {
+				factor = 2
+				learning = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = detached_priest
+			}
+			modifier = {
+				factor = 2.0
+				trait = martial_cleric
+			}
+			modifier = {
+				factor = 3.0
+				trait = scholarly_theologian
+			}
+			modifier = {
+				factor = 4.0
+				trait = mastermind_theologian
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_learning" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_learning = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0020 #None of the above
+		random_courtier = {
+			limit = {
+				OR = {
+					is_married = ROOT
+					is_consort = ROOT
+					is_lover = ROOT
+					is_close_relative = ROOT
+				}
+			}
+			opinion = { who = ROOT modifier = opinion_family_love months = 24 }
+		}
+	}
+}
+
+#A disturbance in the market
+character_event = {
+	id = PlusAmbitions.lifestyle.0021
+	desc = EVTDESC_PlusAmbitions_lifestyle_0021
+	picture = GFX_evt_riots_byzantine
+	
+	is_triggered_only = yes
+	
+	war = no
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		stewardship = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_stewardship2_check
+			check_variable = { which = "lifestyle_stewardship" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			stewardship = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_stewardship2_check
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0021 #Stewardship
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				stewardship = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = indulgent_wastrel
+			}
+			modifier = {
+				factor = 2.0
+				trait = thrifty_clerk
+			}
+			modifier = {
+				factor = 3.0
+				trait = fortune_builder
+			}
+			modifier = {
+				factor = 4.0
+				trait = midas_touched
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_stewardship = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0021 #Diplomacy
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 5 }
+			}
+			modifier = {
+				factor = 2
+				diplomacy = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = naive_appeaser
+			}
+			modifier = {
+				factor = 2.0
+				trait = underhanded_rogue
+			}
+			modifier = {
+				factor = 3.0
+				trait = charismatic_negotiator
+			}
+			modifier = {
+				factor = 4.0
+				trait = grey_eminence
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_diplomacy" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_diplomacy = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0021 #Intrigue
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { intrigue = 5 }
+			}
+			modifier = {
+				factor = 2
+				intrigue = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = amateurish_plotter
+			}
+			modifier = {
+				factor = 2.0
+				trait = flamboyant_schemer
+			}
+			modifier = {
+				factor = 3.0
+				trait = intricate_webweaver
+			}
+			modifier = {
+				factor = 4.0
+				trait = elusive_shadow
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_intrigue" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_intrigue = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0021 #None of the above
+		add_character_modifier = {
+			name = plus_attentive_liege
+			duration = 365
+		}
+	}
+}
+
+#Wondering about rival
+character_event = {
+	id = PlusAmbitions.lifestyle.0022
+	desc = EVTDESC_PlusAmbitions_lifestyle_0022
+	picture = GFX_evt_shadow
+	
+	is_triggered_only = yes
+	
+	rivals = yes
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		intrigue = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_intrigue1_check
+			check_variable = { which = "lifestyle_intrigue" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_intrigue1_check
+		random_rival = {
+			limit = { is_alive = yes }
+			save_event_target_as = target_rival
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0022 #Intrigue
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				intrigue = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = amateurish_plotter
+			}
+			modifier = {
+				factor = 2.0
+				trait = flamboyant_schemer
+			}
+			modifier = {
+				factor = 3.0
+				trait = intricate_webweaver
+			}
+			modifier = {
+				factor = 4.0
+				trait = elusive_shadow
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_intrigue" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_intrigue = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0022 #Martial
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { martial = 5 }
+			}
+			modifier = {
+				factor = 2
+				martial = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = misguided_warrior
+			}
+			modifier = {
+				factor = 2.0
+				trait = tough_soldier
+			}
+			modifier = {
+				factor = 3.0
+				trait = skilled_tactician
+			}
+			modifier = {
+				factor = 4.0
+				trait = brilliant_strategist
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_martial" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_martial = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0022 #Diplomacy
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 5 }
+			}
+			modifier = {
+				factor = 2
+				diplomacy = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = naive_appeaser
+			}
+			modifier = {
+				factor = 2.0
+				trait = underhanded_rogue
+			}
+			modifier = {
+				factor = 3.0
+				trait = charismatic_negotiator
+			}
+			modifier = {
+				factor = 4.0
+				trait = grey_eminence
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_diplomacy" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_diplomacy = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0022 #None of the above
+		piety = 25
+		if = {
+			limit = {
+				NOT = {
+					trait = wroth
+					trait = patient
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = patient
+			}
+		}
+		if = {
+			limit = { trait = wroth }
+			random = {
+				chance = 20
+				remove_trait = wroth
+			}
+		}
+	}
+}
+
+#Thinking about the plot
+character_event = {
+	id = PlusAmbitions.lifestyle.0023
+	desc = EVTDESC_PlusAmbitions_lifestyle_0023
+	picture = GFX_evt_shadowy_cabal
+	
+	is_triggered_only = yes
+	
+	is_part_of_plot = yes
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		intrigue = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_intrigue2_check
+			check_variable = { which = "lifestyle_intrigue" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_intrigue2_check
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0023 #Intrigue
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				intrigue = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = amateurish_plotter
+			}
+			modifier = {
+				factor = 2.0
+				trait = flamboyant_schemer
+			}
+			modifier = {
+				factor = 3.0
+				trait = intricate_webweaver
+			}
+			modifier = {
+				factor = 4.0
+				trait = elusive_shadow
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_intrigue" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_intrigue = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0023 #Learning
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { learning = 5 }
+			}
+			modifier = {
+				factor = 2
+				learning = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = detached_priest
+			}
+			modifier = {
+				factor = 2.0
+				trait = martial_cleric
+			}
+			modifier = {
+				factor = 3.0
+				trait = scholarly_theologian
+			}
+			modifier = {
+				factor = 4.0
+				trait = mastermind_theologian
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_learning" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_learning = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0023 #Stewardship
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { stewardship = 5 }
+			}
+			modifier = {
+				factor = 2
+				stewardship = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = indulgent_wastrel
+			}
+			modifier = {
+				factor = 2.0
+				trait = thrifty_clerk
+			}
+			modifier = {
+				factor = 3.0
+				trait = fortune_builder
+			}
+			modifier = {
+				factor = 4.0
+				trait = midas_touched
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_stewardship = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0023 #None of the above
+		#if = {
+		#	limit = {
+			#	NOR = {
+			#		has_character_modifier = plot_assisted_spying
+			#		has_character_modifier = plot_assisted_spying2
+			#		has_character_modifier = plot_assisted_spying3
+			#		has_character_modifier = plot_assisted_spying4
+			#		has_character_modifier = plot_assisted_spying5
+			#	}
+			#}
+			#add_character_modifier = {
+			#	name = plot_assisted_spying
+			#	duration = 90
+			#}
+		#}
+		if = {
+			limit = { NOT = { trait = wroth } }
+			random = {
+				chance = 20
+				add_trait = wroth
+			}
+		}
+	}
+}
+
+#Debate with a zealous courtier
+character_event = {
+	id = PlusAmbitions.lifestyle.0024
+	desc = EVTDESC_PlusAmbitions_lifestyle_0024
+	picture = GFX_evt_bishop
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	war = no
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		learning = 5
+		any_courtier = {
+			is_liege_or_above = ROOT
+			is_ruler = yes
+			is_adult = yes
+			OR = {
+				trait = zealous
+				learning = 12
+			}
+		}
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_learning1_check
+			check_variable = { which = "lifestyle_learning" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			learning = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_learning1_check
+		random_courtier = {
+			limit = {
+				is_liege_or_above = ROOT
+				is_ruler = yes
+				is_adult = yes
+				OR = {
+					trait = zealous
+					learning = 12
+				}
+			}
+			save_event_target_as = debater
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0024 #Learning
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				learning = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = detached_priest
+			}
+			modifier = {
+				factor = 2.0
+				trait = martial_cleric
+			}
+			modifier = {
+				factor = 3.0
+				trait = scholarly_theologian
+			}
+			modifier = {
+				factor = 4.0
+				trait = mastermind_theologian
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_learning" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_learning = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0024 #Diplomacy
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 5 }
+			}
+			modifier = {
+				factor = 2
+				diplomacy = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = naive_appeaser
+			}
+			modifier = {
+				factor = 2.0
+				trait = underhanded_rogue
+			}
+			modifier = {
+				factor = 3.0
+				trait = charismatic_negotiator
+			}
+			modifier = {
+				factor = 4.0
+				trait = grey_eminence
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_diplomacy" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_diplomacy = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0024 #Intrigue
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { intrigue = 5 }
+			}
+			modifier = {
+				factor = 2
+				intrigue = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = amateurish_plotter
+			}
+			modifier = {
+				factor = 2.0
+				trait = flamboyant_schemer
+			}
+			modifier = {
+				factor = 3.0
+				trait = intricate_webweaver
+			}
+			modifier = {
+				factor = 4.0
+				trait = elusive_shadow
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_intrigue" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_intrigue = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0024 #None of the above
+		event_target:debater = {
+			if = {
+				limit = { NOT = { is_rival = ROOT } }
+				opinion = { who = ROOT modifier = plus_good_speech years = 3 }
+			}
+			if = {
+				limit = { is_rival = ROOT }
+				remove_rival = ROOT
+			}
+		}
+	}
+}
+
+#Bookseller comes to court
+character_event = {
+	id = PlusAmbitions.lifestyle.0025
+	desc = EVTDESC_PlusAmbitions_lifestyle_0025
+	picture = GFX_evt_library
+	
+	is_triggered_only = yes
+	
+	war = no
+	min_age = 25
+	prisoner = no
+	
+	trigger = {
+		learning = 5
+		NOT = {
+			lifestyle_traits = 1
+			trait = incapable
+			is_inaccessible_trigger = yes
+			has_character_flag = lifestyle_learning2_check
+			check_variable = { which = "lifestyle_learning" value = 1.9 }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			has_dlc = "Way of Life"
+		}
+		modifier = {
+			factor = 5.0
+			has_ambition = obj_adopt_a_lifestyle
+		}
+		modifier = {
+			factor = 1.5
+			learning = 12
+		}
+		modifier = {
+			factor = 1.25
+			age = 30
+		}
+		modifier = {
+			factor = 1.25
+			age = 35
+		}
+		modifier = {
+			factor = 1.25
+			age = 40
+		}
+		modifier = {
+			factor = 1.25
+			age = 45
+		}
+	}
+	
+	immediate = {
+		set_character_flag = lifestyle_learning2_check
+	}
+	
+	option = {
+		name = EVTOPTA_PlusAmbitions_lifestyle_0025 #Learning
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				learning = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = detached_priest
+			}
+			modifier = {
+				factor = 2.0
+				trait = martial_cleric
+			}
+			modifier = {
+				factor = 3.0
+				trait = scholarly_theologian
+			}
+			modifier = {
+				factor = 4.0
+				trait = mastermind_theologian
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_learning" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_learning = 1
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_lifestyle_0025 #Martial
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { martial = 5 }
+			}
+			modifier = {
+				factor = 2
+				martial = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = misguided_warrior
+			}
+			modifier = {
+				factor = 2.0
+				trait = tough_soldier
+			}
+			modifier = {
+				factor = 3.0
+				trait = skilled_tactician
+			}
+			modifier = {
+				factor = 4.0
+				trait = brilliant_strategist
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_martial" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_martial = 1
+		}
+	}
+	option = {
+		name = EVTOPTC_PlusAmbitions_lifestyle_0025 #Stewardship
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { stewardship = 5 }
+			}
+			modifier = {
+				factor = 2
+				stewardship = 12
+			}
+			modifier = {
+				factor = 1.5
+				trait = indulgent_wastrel
+			}
+			modifier = {
+				factor = 2.0
+				trait = thrifty_clerk
+			}
+			modifier = {
+				factor = 3.0
+				trait = fortune_builder
+			}
+			modifier = {
+				factor = 4.0
+				trait = midas_touched
+			}
+		}
+		hidden_tooltip = {
+			change_variable = { which = "lifestyle_stewardship" value = 1.0 }
+		}
+		random = {
+			chance = 20
+			change_stewardship = 1
+		}
+	}
+	option = {
+		name = EVTOPTD_PlusAmbitions_lifestyle_0025 #None of the above
+		scaled_wealth = 0.1
+	}
+}
+
