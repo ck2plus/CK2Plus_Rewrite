@@ -50,7 +50,7 @@ obj_adopt_a_lifestyle = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -72,21 +72,21 @@ obj_adopt_a_lifestyle = {
 			}
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
 		hidden_tooltip = {
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		prestige = 50
@@ -113,7 +113,7 @@ obj_amass_wealth_2 = {
 		wealth < 500
 		NOT = { trait = incapable }
 		NOT = { trait = charitable }
-		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_modifier = plus_loan_timer }
 		NOT = { has_character_flag = loan_taken }
 	}
 	chance = {
@@ -148,7 +148,7 @@ obj_amass_wealth_2 = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -156,24 +156,24 @@ obj_amass_wealth_2 = {
 	}
 	success = {
 		wealth >= 500
-		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_modifier = plus_loan_timer }
 		NOT = { has_character_flag = loan_taken }
 	}
 	abort = {
 		OR = {
 			trait = incapable
 			trait = charitable
-			has_character_modifier = loan_timer
+			has_character_modifier = plus_loan_timer
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
@@ -181,7 +181,7 @@ obj_amass_wealth_2 = {
 			change_variable = { which = "lifestyle_stewardship" value = 1 }
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		change_stewardship = 1
@@ -216,7 +216,7 @@ obj_amass_wealth_3 = {
 		wealth < 750
 		NOT = { trait = incapable }
 		NOT = { trait = charitable }
-		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_modifier = plus_loan_timer }
 		NOT = { has_character_flag = loan_taken }
 	}
 	chance = {
@@ -251,7 +251,7 @@ obj_amass_wealth_3 = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -259,24 +259,24 @@ obj_amass_wealth_3 = {
 	}
 	success = {
 		wealth >= 750
-		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_modifier = plus_loan_timer }
 		NOT = { has_character_flag = loan_taken }
 	}
 	abort = {
 		OR = {
 			trait = incapable
 			trait = charitable
-			has_character_modifier = loan_timer
+			has_character_modifier = plus_loan_timer
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
@@ -284,7 +284,7 @@ obj_amass_wealth_3 = {
 			change_variable = { which = "lifestyle_stewardship" value = 1 }
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		change_stewardship = 1
@@ -317,7 +317,7 @@ obj_amass_wealth_4 = {
 		wealth < 1000
 		NOT = { trait = incapable }
 		NOT = { trait = charitable }
-		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_modifier = plus_loan_timer }
 		NOT = { has_character_flag = loan_taken }
 	}
 	chance = {
@@ -352,7 +352,7 @@ obj_amass_wealth_4 = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -360,24 +360,24 @@ obj_amass_wealth_4 = {
 	}
 	success = {
 		wealth >= 1000
-		NOT = { has_character_modifier = loan_timer }
+		NOT = { has_character_modifier = plus_loan_timer }
 		NOT = { has_character_flag = loan_taken }
 	}
 	abort = {
 		OR = {
 			trait = incapable
 			trait = charitable
-			has_character_modifier = loan_timer
+			has_character_modifier = plus_loan_timer
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
@@ -385,7 +385,7 @@ obj_amass_wealth_4 = {
 			change_variable = { which = "lifestyle_stewardship" value = 1 }
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		change_stewardship = 1
@@ -398,5 +398,178 @@ obj_amass_wealth_4 = {
 		#		character_event = { id = PlusFaction.200 days = 1 } #recalculate faction moods
 		#	}
 		#}
+	}
+}
+
+obj_be_legitimized = {
+	type = character
+
+	potential = {
+		trait = bastard
+		religion_group = christian
+		OR = {
+			is_ruler = no
+			NOR = {
+				is_theocracy = yes
+				trait = nun
+				trait = monk
+			}
+		}
+		NOR = {
+			any_liege = { holy_order = yes }
+			has_character_flag = refused_legitimacy_attempt
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		prisoner = no
+		true_father_even_if_dead = {
+			is_alive = yes
+			is_vassal_or_below = ROOT
+			NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = denounced_child } }
+		}
+		NOR = {
+			age = 30
+			trait = content
+			trait = humble
+			trait = craven
+			is_dumb_trigger = yes
+			trait = incapable
+		}
+	}
+	chance = {
+		factor = 50
+		modifier = {
+			factor = 0
+			is_female = yes
+			is_married = yes
+			spouse = { is_ruler = yes }
+			NOT = { is_ruler = yes }
+		}
+		modifier = {
+			factor = 0
+			is_ruler = yes
+			current_heir = {
+				is_child_of = ROOT
+				dynasty = ROOT
+			}
+		}
+		modifier = {
+			factor = 0.1
+			is_female = yes
+			has_law = agnatic_succession
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 0.1
+			real_father = {
+				NOT = { religion = ROOT }
+			}
+		}
+		modifier = {
+			factor = 5
+			is_female = no
+			real_father = {
+				NOT = {
+					any_child = {
+						NOT = { trait = bastard }
+						is_older_than = ROOT
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 1.5
+			trait = proud
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		NOT = { trait = bastard }
+	}
+	abort = {
+		OR = {
+			NOT = {
+				real_father = {
+					is_alive = yes
+					ROOT = { any_liege = { character = PREVPREV } }
+					NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = denounced_child } }
+				}
+			}
+			age = 45
+			trait = content
+			trait = humble
+			trait = craven
+			trait = incapable
+			trait = nun
+			trait = monk
+			prisoner = yes
+			any_liege = { holy_order = yes }
+			NOT = { religion_group = christian }
+			has_character_flag = refused_legitimacy_attempt
+			AND = {
+				is_ruler = yes
+				capital_holding = { holding_type = temple }
+			}
+			AND = {
+				ai = yes
+				is_female = yes
+				is_married = yes
+				spouse = { is_ruler = yes }
+			}
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		change_intrigue = 1
+		prestige = 50
 	}
 }

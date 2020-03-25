@@ -26,3 +26,59 @@ is_not_animal_culture_group_CK2Plus_trigger = {
 		culture_group = panda_group
 	}
 }
+
+plus_is_not_busy_trigger = {
+	custom_tooltip = {
+		text = plus_is_not_busy_trigger_tooltip
+		hidden_tooltip = {
+			NOR = {
+				has_character_modifier = plus_do_not_disturb
+				has_character_flag = plus_do_not_disturb
+			}
+		}
+	}
+}
+
+plus_is_abroad_trigger = {
+	custom_tooltip = {
+		text = PLUS_IS_ABROAD_TOOLTIP
+		hidden_tooltip = {
+			OR = {
+				plus_in_command_trigger  = yes
+				has_character_modifier = away_from_court
+				trait = on_hajj
+				trait = on_pilgrimage
+				#trait = learning_druidic_arts
+				AND = {
+					is_adult = no
+					educator = {
+						NOR = {
+							is_liege_of = PREV
+							same_liege = PREV
+						}
+					}
+				}
+				AND = {
+					prisoner = yes
+					OR = {
+						is_ruler = yes
+						host = { NOT = { is_liege_of = PREV } }
+					}
+				}
+			}
+		}
+	}
+}
+
+plus_in_command_trigger  = {
+	custom_tooltip = {
+		text = PLUS_IN_COMMAND_TOOLTIP
+		hidden_tooltip = {
+			in_command = yes
+			OR = {
+				war = yes
+				any_liege = { war = yes }
+			}
+		}
+	}
+}

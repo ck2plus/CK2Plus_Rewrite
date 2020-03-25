@@ -2,7 +2,7 @@
 #
 #	Plus opinion modifiers
 #
-#	Total = 3
+#	Total = 4
 #
 ##############################
 
@@ -21,4 +21,10 @@ plus_faction_hostile = { #Factions may loot each other
 #Good speech
 plus_good_speech = {
 	opinion = 10
+}
+
+#Legitimized me
+plus_legitimized_me = {
+	opinion = 20
+	months = 1200
 }

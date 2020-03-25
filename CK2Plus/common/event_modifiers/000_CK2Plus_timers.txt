@@ -1,14 +1,22 @@
 #######
 #Plus Timers:
 #
-#Total = 02
+#Total = 04
 #######
 
-ai_objective_timer = {
+plus_ai_objective_timer = {
 	icon = 1
 }
 
-loan_timer = {
+plus_loan_timer = {
 	icon = 24
 	monthly_character_piety = -0.25
+}
+
+plus_ai_austerity = {
+	icon = 1
+}
+
+plus_do_not_disturb = {
+	icon = 1
 }

@@ -16,3 +16,6 @@ obj_amass_wealth_3_title;Amass Wealth;;;;;;;;;;;;;x
 
 obj_amass_wealth_4_desc;[This.GetTitledFirstName] wants to amass a substantial amount of wealth;;;;;;;;;;;;;x
 obj_amass_wealth_4_title;Amass Wealth;;;;;;;;;;;;;x
+
+obj_be_legitimized_desc;[This.GetTitledFirstName] wants to have [This.GetHerHis] father to recognize [This.GetHerHis] legitimacy, and thus grant [This.GetHerHim] a proper inheritance.;;;;;;;;;;;;;x
+obj_be_legitimized_title;Be Legitimized;;;;;;;;;;;;;x

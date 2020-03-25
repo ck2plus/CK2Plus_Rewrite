@@ -13,6 +13,7 @@
 #	plus_increased_spy_reports
 #	plus_new_roads
 #	plus_attentive_liege
+#	plus_estates_1
 #
 #########################################
 
@@ -123,4 +124,11 @@ plus_new_roads = {
 plus_attentive_liege = {
 	global_revolt_risk = -0.03
 	icon = 1
+}
+
+#Estates 1
+plus_estates_1 = {
+	monthly_character_wealth = 0.2
+	monthly_character_prestige = 0.01
+	icon = 101
 }
