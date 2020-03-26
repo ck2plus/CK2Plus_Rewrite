@@ -2,7 +2,7 @@
 #
 #	Plus Ambitions:
 #
-#	Total = 08
+#	Total = 09
 #
 #	Sorted alphabetically
 #
@@ -912,5 +912,57 @@ obj_become_exalted_4 = {
 			give_nickname = nick_the_great
 		}
 		add_trait = exalted4
+	}
+}
+
+obj_become_independent = {
+	type = character
+
+	potential = {
+		ai = no
+		is_ruler = yes
+		independent = no
+	}
+
+	allow = {
+		prisoner = no
+		is_adult = yes
+		is_landed = yes
+		liege = {
+			independent = yes
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+			}
+		}
+		NOT = { trait = incapable }
+	}
+	chance = {
+		factor = 0
+	}
+	success = {
+		independent = yes
+		war = no
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			ai = yes
+			trait = incapable
+			is_ruler = no
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = { NOT = { has_character_flag = obj_independence } }
+			prestige = 200
+		}
+		if = {
+			limit = { has_character_flag = obj_independence }
+			prestige = 50
+		}
+		set_character_flag = obj_independence
 	}
 }

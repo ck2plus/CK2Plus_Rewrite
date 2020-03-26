@@ -28,3 +28,6 @@ obj_become_exalted_3_title;Become Exalted among Men;;;;;;;;;;;;;x
 
 obj_become_exalted_4_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;;;;;;;;;;;;;x
 obj_become_exalted_4_title;Become Exalted among Men;;;;;;;;;;;;;x
+
+obj_become_independent_desc;[This.GetTitledFirstName] desires independence from [This.GetHerHis] tyrannical liege.;;;;;;;;;;;;;x
+obj_become_independent_title;Become Independent;;;;;;;;;;;;;x
