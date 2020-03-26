@@ -19,3 +19,12 @@ obj_amass_wealth_4_title;Amass Wealth;;;;;;;;;;;;;x
 
 obj_be_legitimized_desc;[This.GetTitledFirstName] wants to have [This.GetHerHis] father to recognize [This.GetHerHis] legitimacy, and thus grant [This.GetHerHim] a proper inheritance.;;;;;;;;;;;;;x
 obj_be_legitimized_title;Be Legitimized;;;;;;;;;;;;;x
+
+obj_become_exalted_2_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;;;;;;;;;;;;;x
+obj_become_exalted_2_title;Become Exalted among Men;;;;;;;;;;;;;x
+
+obj_become_exalted_3_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;;;;;;;;;;;;;x
+obj_become_exalted_3_title;Become Exalted among Men;;;;;;;;;;;;;x
+
+obj_become_exalted_4_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;;;;;;;;;;;;;x
+obj_become_exalted_4_title;Become Exalted among Men;;;;;;;;;;;;;x

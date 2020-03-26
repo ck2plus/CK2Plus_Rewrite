@@ -2,7 +2,7 @@
 #
 #	Plus Ambitions:
 #
-#	Total = 04
+#	Total = 08
 #
 #	Sorted alphabetically
 #
@@ -571,5 +571,346 @@ obj_be_legitimized = {
 		}
 		change_intrigue = 1
 		prestige = 50
+	}
+}
+
+obj_become_exalted_2 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		NOR = {
+			trait = exalted2
+			trait = exalted3
+			trait = exalted4
+		}
+		lower_tier_than = KING
+		num_of_duke_titles < 4
+		OR = {
+			tier = DUKE
+			num_of_count_titles >= 4
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		prestige >= 0
+		prestige < 2000
+		NOT = { trait = content }
+		NOT = { trait = humble }
+		NOT = { trait = incapable }
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 0
+			NOT = { prestige = 500 }
+		}
+		modifier = {
+			factor = 5.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			trait = proud
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		prestige >= 2000
+	}
+	abort = {
+		OR = {
+			is_ruler = no
+			prestige < 0
+			trait = incapable
+			trait = content
+			trait = humble
+			trait = exalted2
+			trait = exalted3
+			trait = exalted4
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		change_diplomacy = 1
+		prestige = 100
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_glory } }
+		#	custom_tooltip = { text = GLORYFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_glory } set_variable = { which = "faction_mood_increase" value = 4 } }
+		#	}
+		#}
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_court } }
+		#	custom_tooltip = { text = COURTFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_court } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#	}
+		#}
+		#hidden_tooltip = { character_event = { id = PlusFaction.200 days = 1 } } #recalculate faction moods
+		if = {
+			limit = {
+				has_nickname = no
+			}
+			give_nickname = nick_the_great
+		}
+		add_trait = exalted2
+	}
+}
+
+obj_become_exalted_3 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		NOR = {
+			trait = exalted3
+			trait = exalted4
+		}
+		lower_tier_than = EMPEROR
+		num_of_king_titles < 4
+		OR = {
+			tier = KING
+			num_of_duke_titles >= 4
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		prestige >= 0
+		prestige < 3000
+		NOT = { trait = content }
+		NOT = { trait = humble }
+		NOT = { trait = incapable }
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 0
+			prestige < 1000
+		}
+		modifier = {
+			factor = 5.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			trait = proud
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		prestige >= 3000
+	}
+	abort = {
+		OR = {
+			is_ruler = no
+			prestige < 0
+			trait = incapable
+			trait = content
+			trait = humble
+			trait = exalted3
+			trait = exalted4
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		prestige = 100
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_glory } }
+		#	custom_tooltip = { text = GLORYFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_glory } set_variable = { which = "faction_mood_increase" value = 4 } }
+		#	}
+		#}
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_court } }
+		#	custom_tooltip = { text = COURTFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_court } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#	}
+		#}
+		#hidden_tooltip = { character_event = { id = PlusFaction.200 days = 1 } } #recalculate faction moods
+		if = {
+			limit = {
+				has_nickname = no
+			}
+			give_nickname = nick_the_great
+		}
+		add_trait = exalted3
+	}
+}
+
+obj_become_exalted_4 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		NOT = { trait = exalted4 }
+		OR = {
+			tier = EMPEROR
+			num_of_king_titles >= 4
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		prestige >= 0
+		prestige < 4000
+		NOT = { trait = content }
+		NOT = { trait = humble }
+		NOT = { trait = incapable }
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 0
+			trait = humble
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 0
+			prestige < 2000
+		}
+		modifier = {
+			factor = 5.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			trait = proud
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		prestige >= 4000
+	}
+	abort = {
+		OR = {
+			is_ruler = no
+			prestige < 0
+			trait = incapable
+			trait = content
+			trait = humble
+			trait = exalted4
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		prestige = 100
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_glory } }
+		#	custom_tooltip = { text = GLORYFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_glory } set_variable = { which = "faction_mood_increase" value = 4 } }
+		#	}
+		#}
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_court } }
+		#	custom_tooltip = { text = COURTFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_court } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#	}
+		#}
+		#hidden_tooltip = { character_event = { id = PlusFaction.200 days = 1 } } #recalculate faction moods
+		if = {
+			limit = {
+				has_nickname = no
+			}
+			give_nickname = nick_the_great
+		}
+		add_trait = exalted4
 	}
 }
