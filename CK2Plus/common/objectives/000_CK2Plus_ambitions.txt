@@ -966,3 +966,82 @@ obj_become_independent = {
 		set_character_flag = obj_independence
 	}
 }
+
+obj_become_duke = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		tier = count
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		NOT = { trait = content }
+	}
+	chance = {
+		factor = 20
+		modifier = {
+			factor = 1.5
+			demesne_size = 2
+		}
+		modifier = {
+			factor = 1.5
+			demesne_size = 3
+		}
+		modifier = {
+			factor = 1.5
+			demesne_size = 4
+		}
+		modifier = {
+			factor = 10
+			any_claim = { tier = DUKE }
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		higher_tier_than = count
+	}
+	abort = {
+		OR = {
+			is_ruler = no
+			NOT = { higher_tier_than = baron }
+			trait = incapable
+			trait = content
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = ai_objective_timer
+			}
+		}
+		prestige = 50
+	}
+}

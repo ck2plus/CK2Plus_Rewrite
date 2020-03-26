@@ -31,3 +31,6 @@ obj_become_exalted_4_title;Become Exalted among Men;;;;;;;;;;;;;x
 
 obj_become_independent_desc;[This.GetTitledFirstName] desires independence from [This.GetHerHis] tyrannical liege.;;;;;;;;;;;;;x
 obj_become_independent_title;Become Independent;;;;;;;;;;;;;x
+
+obj_become_duke_desc;[This.GetTitledFirstName] is not satisfied with being a mere Count.;;;;;;;;;;;;;x
+obj_become_duke_title;Gain a Duchy;;;;;;;;;;;;;x
