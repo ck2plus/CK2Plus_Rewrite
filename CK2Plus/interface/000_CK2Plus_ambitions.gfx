@@ -104,4 +104,11 @@ spriteTypes = {
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}	
+	spriteType = {
+		name = "GFX_obj_break_out_of_prison"
+		texturefile = "gfx/objectives/obj_escape_prison.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}	
 }

@@ -1470,3 +1470,31 @@ obj_befriend_relhead = {
 		set_character_flag = obj_befriend_relhead
 	}
 }
+
+obj_break_out_of_prison = {
+	type = character
+
+	potential = {
+		prisoner = yes
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+	}
+	chance = {
+		factor = 10000
+	}
+	success = {
+		prisoner = no
+	}
+	abort = {
+		trait = incapable
+	}
+	abort_effect = {
+	}
+	effect = {
+		change_intrigue = 1
+		set_character_flag = obj_break_out_of_prison
+	}
+}

@@ -49,3 +49,6 @@ obj_befriend_top_liege_title;Befriend [This.TopLiege.GetTitledFirstName];;;;;;;;
 
 obj_befriend_relhead_desc;[This.GetTitledFirstName] wants to show [This.GetHerHis] loyalty and devotion to [This.RelHead.GetTitledFirstName].;;;;;;;;;;;;;x
 obj_befriend_relhead_title;Befriend [This.RelHead.GetTitledFirstName];;;;;;;;;;;;;x
+
+obj_break_out_of_prison_desc;[This.GetTitledFirstName] wants [This.GetHerHis] freedom back.;;;;;;;;;;;;;x
+obj_break_out_of_prison_title;Get Out of Prison;;;;;;;;;;;;;x
