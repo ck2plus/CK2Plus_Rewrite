@@ -1,0 +1,14 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+EVTDESC_PlusAmbitions_befriendLiege_000;I have served my liege loyally. Perhaps I should try to make friends with [Root.Liege.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTA_PlusAmbitions_befriendLiege_000;Let's try.;;;;;;;;;;;;;x
+EVTOPTB_PlusAmbitions_befriendLiege_000;Maybe later...;;;;;;;;;;;;;x
+EVTDESC_PlusAmbitions_befriendLiege_001;My [GetFromRelation], [From.GetTitledFirstName], approached me after a council meeting today and asking me to join [From.GetHerHim] for supper. We both had a grand time, and I think perhaps I should continue to spend time with [From.GetFirstName].;;;;;;;;;;;;;x
+EVTOPTA_PlusAmbitions_befriendLiege_001;Let's be friends, [From.GetFirstName].;;;;;;;;;;;;;x
+EVTOPTB_PlusAmbitions_befriendLiege_001;[This.GetTitle]s have no friends. Only subjects and enemies!;;;;;;;;;;;;;x
+EVTDESC_PlusAmbitions_befriendLiege_002;I dined with my liege and now the two of us have agreed to go meet again within the fortnight. I think this is the beginning to a beautiful friendship!;;;;;;;;;;;;;x
+EVTDESC_PlusAmbitions_befriendLiege_003;[From.GetTitledFirstName] and I had a great time at supper, but [From.GetSheHe] refused my kind offer to meet again. Perhaps another time...;;;;;;;;;;;;;x
+EVTDESC_PlusAmbitions_befriendLiege_010;My liege seems bored these days. Perhaps I should invite [Root.Liege.GetHerHim] to practice fencing with me.;;;;;;;;;;;;;x
+EVTDESC_PlusAmbitions_befriendLiege_011;I was sitting alone when [From.GetTitledFirstName] asked me if I wanted to spar with [From.GetHerHim]. I had a lot of fun... perhaps I should consider training with [From.GetHerHim] more often?;;;;;;;;;;;;;x
+EVTDESC_PlusAmbitions_befriendLiege_012;[From.GetTitledFirstName] and I became friends, and I have taught [From.GetHerHim] how to fight better.;;;;;;;;;;;;;x
+EVTDESC_PlusAmbitions_befriendLiege_013;[From.GetTitledFirstName] didn't want to become a duelist.;;;;;;;;;;;;;x

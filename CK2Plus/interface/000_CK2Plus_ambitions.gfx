@@ -83,4 +83,25 @@ spriteTypes = {
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}	
+	spriteType = {
+		name = "GFX_obj_befriend_liege"
+		texturefile = "gfx/objectives/obj_befriend_liege.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_befriend_top_liege"
+		texturefile = "gfx/objectives/obj_befriend_liege.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}	
+	spriteType = {
+		name = "GFX_obj_befriend_relhead"
+		texturefile = "gfx/objectives/obj_befriend_relhead.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}	
 }

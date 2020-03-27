@@ -40,3 +40,12 @@ obj_become_multiduke_title;Become a Grand Duke;;;;;;;;;;;;;x
 
 obj_become_emperor_desc;[This.GetTitledFirstName] aspires to the lofty heights of an Emperorship.;;;;;;;;;;;;;x
 obj_become_emperor_title;Become Emperor;;;;;;;;;;;;;x
+
+obj_befriend_liege_desc;[This.GetTitledFirstName] wants to show [This.GetHerHis] loyalty and devotion to [This.Liege.GetTitledFirstName].;;;;;;;;;;;;;x
+obj_befriend_liege_title;Befriend [This.Liege.GetTitledFirstName];;;;;;;;;;;;;x
+
+obj_befriend_top_liege_desc;[This.GetTitledFirstName] wants to show [This.GetHerHis] loyalty and devotion to [This.TopLiege.GetTitledFirstName].;;;;;;;;;;;;;x
+obj_befriend_top_liege_title;Befriend [This.TopLiege.GetTitledFirstName];;;;;;;;;;;;;x
+
+obj_befriend_relhead_desc;[This.GetTitledFirstName] wants to show [This.GetHerHis] loyalty and devotion to [This.RelHead.GetTitledFirstName].;;;;;;;;;;;;;x
+obj_befriend_relhead_title;Befriend [This.RelHead.GetTitledFirstName];;;;;;;;;;;;;x

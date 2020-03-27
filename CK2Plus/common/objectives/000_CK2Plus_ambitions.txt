@@ -1182,3 +1182,291 @@ obj_become_emperor = {
 		set_character_flag = obj_increase_title_3
 	}
 }
+
+obj_befriend_liege = {
+	type = character
+
+	potential = {
+		ai = no
+		independent = no
+		liege = {
+			NOR = {
+				is_married = ROOT
+				is_lover = ROOT
+				is_friend = ROOT
+				is_rival = ROOT
+				war_with = ROOT
+			}
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		liege = {
+			same_sex = ROOT
+			is_adult = yes
+			opinion = { who = ROOT value = -25 }
+			NOR = {
+				trait = incapable
+				num_of_friends >= 3
+				opinion = { who = ROOT value = 75 }
+			}
+		}
+	}
+
+	chance = {
+		factor = 0
+	}
+
+	success = {
+		liege = {
+			opinion = {
+				who = ROOT
+				value = 75
+			}
+		}
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			independent = yes
+			liege = { war_with = ROOT }
+			liege = { is_friend = ROOT }
+			liege = { is_rival = ROOT }
+			liege = { trait = incapable }
+			liege = {
+				num_of_friends >= 2
+				NOT = { is_friend = ROOT }
+			}
+			NOT = {
+				liege = {
+					opinion = {
+						who = ROOT
+						value = -50
+					}
+				}
+			}
+			NOT = {
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						value = -50
+					}
+				}
+			}
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		liege = {
+			add_friend = ROOT
+		}
+		if = {
+			limit = {
+				NOT = { has_character_flag = obj_befriend_liege }
+			}
+			prestige = 100
+		}
+		if = {
+			limit = {
+				has_character_flag = obj_befriend_liege
+			}
+			prestige = 25
+		}
+		set_character_flag = obj_befriend_liege
+	}
+}
+
+obj_befriend_top_liege = {
+	type = character
+
+	potential = {
+		ai = no
+		independent = no
+		top_liege = {
+			NOR = {
+				is_liege_of = ROOT
+				is_married = ROOT
+				is_lover = ROOT
+				is_friend = ROOT
+				is_rival = ROOT
+				war_with = ROOT
+			}
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		top_liege = {
+			same_sex = ROOT
+			is_adult = yes
+			opinion = { who = ROOT value = -25 }
+			NOR = {
+				trait = incapable
+				num_of_friends = 3
+				opinion = { who = ROOT value = 75 }
+			}
+		}
+	}
+
+	chance = {
+		factor = 0
+	}
+
+	success = {
+		top_liege = {
+			opinion = {
+				who = ROOT
+				value = 75
+			}
+		}
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			independent = yes
+			top_liege = { war_with = ROOT }
+			top_liege = { is_friend = ROOT }
+			NOT = {
+				top_liege = {
+					opinion = {
+						who = ROOT
+						value = -50
+					}
+				}
+			}
+			NOT = {
+				top_liege = {
+					reverse_opinion = {
+						who = ROOT
+						value = -50
+					}
+				}
+			}
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		top_liege = {
+			add_friend = ROOT
+		}
+		if = {
+			limit = {
+				NOT = { has_character_flag = obj_befriend_liege }
+			}
+			prestige = 100
+		}
+		if = {
+			limit = {
+				has_character_flag = obj_befriend_liege
+			}
+			prestige = 25
+		}
+		set_character_flag = obj_befriend_liege
+	}
+}
+
+obj_befriend_relhead = {
+	type = character
+
+	potential = {
+		ai = no
+		religion_head = {
+			is_alive = yes
+			NOR = {
+				is_vassal_or_below = ROOT
+				is_married = ROOT
+				is_lover = ROOT
+				is_friend = ROOT
+				is_rival = ROOT
+				war_with = ROOT
+			}
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		religion_head = {
+			same_sex = ROOT
+			is_adult = yes
+			opinion = { who = ROOT value = -25 }
+			NOR = {
+				trait = incapable
+				num_of_friends = 3
+				opinion = { who = ROOT value = 75 }
+			}
+		}
+	}
+	chance = {
+		factor = 0
+	}
+
+	success = {
+		religion_head = {
+			opinion = {
+				who = ROOT
+				value = 75
+			}
+		}
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			NOT = { religion_head = { is_alive = yes } }
+			religion_head = { war_with = ROOT }
+			religion_head = { is_friend = ROOT }
+			religion_head = {
+				is_liege_of = ROOT
+			}
+			NOT = {
+				religion_head = {
+					opinion = {
+						who = ROOT
+						value = -50
+					}
+				}
+			}
+			NOT = {
+				religion_head = {
+					reverse_opinion = {
+						who = ROOT
+						value = -50
+					}
+				}
+			}
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_tradition } }
+		#	custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#		character_event = { id = PlusFaction.200 days = 1 } #recalculate faction moods
+		#	}
+		#}
+		religion_head = {
+			add_friend = ROOT
+		}
+		if = {
+			limit = {
+				NOT = { has_character_flag = obj_befriend_relhead }
+			}
+			piety = 100
+		}
+		if = {
+			limit = {
+				has_character_flag = obj_befriend_relhead
+			}
+			piety = 25
+		}
+		set_character_flag = obj_befriend_relhead
+	}
+}
