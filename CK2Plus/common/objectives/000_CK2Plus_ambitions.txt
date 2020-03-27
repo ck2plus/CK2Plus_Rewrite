@@ -1008,7 +1008,7 @@ obj_become_duke = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -1025,21 +1025,21 @@ obj_become_duke = {
 			trait = content
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
 		hidden_tooltip = {
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		prestige = 50
@@ -1088,7 +1088,7 @@ obj_become_multiduke = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -1105,21 +1105,21 @@ obj_become_multiduke = {
 			trait = content
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
 		hidden_tooltip = {
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		prestige = 100
