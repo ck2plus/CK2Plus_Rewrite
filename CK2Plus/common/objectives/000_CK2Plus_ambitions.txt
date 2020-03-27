@@ -1045,3 +1045,140 @@ obj_become_duke = {
 		prestige = 50
 	}
 }
+
+obj_become_multiduke = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		tier = duke
+		num_of_duke_titles < 2
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		NOT = { trait = content }
+	}
+	chance = {
+		factor = 20
+		modifier = {
+			factor = 1.5
+			demesne_size = 2
+		}
+		modifier = {
+			factor = 1.5
+			demesne_size = 3
+		}
+		modifier = {
+			factor = 1.5
+			demesne_size = 4
+		}
+		modifier = {
+			factor = 1.5
+			demesne_size = 5
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		num_of_duke_titles = 2
+	}
+	abort = {
+		OR = {
+			is_ruler = no
+			NOT = { higher_tier_than = count }
+			trait = incapable
+			trait = content
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = ai_objective_timer
+			}
+		}
+		prestige = 100
+	}
+}
+
+obj_become_emperor = {
+	type = character
+
+	potential = {
+		ai = no
+		is_ruler = yes
+		is_landed = yes
+		lower_tier_than = EMPEROR
+		NOT = { has_character_flag = obj_increase_title_3 }
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		OR = {
+			primary_title = { tier = KING }
+			any_claim = { tier = EMPEROR }
+			liege = {
+				primary_title = {
+					tier = EMPEROR
+					OR = {
+						has_law = succ_feudal_elective
+						has_law = succ_hre_elective
+						AND	= {
+							has_law = succ_byzantine_elective
+							ROOT = {
+								OR = {
+									has_job_title = job_marshal
+									has_minor_title = title_commander
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	chance = {
+		factor = 0
+	}
+	success = {
+		higher_tier_than = king
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		prestige = 500
+		set_character_flag = obj_increase_title_3
+	}
+}

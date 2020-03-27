@@ -59,14 +59,28 @@ spriteTypes = {
 		name = "GFX_obj_become_independent"
 		texturefile = "gfx/objectives/obj_become_independent.dds"
 		noOfFrames = 1
-		norefcount = yes
+		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
 		name = "GFX_obj_become_duke"
 		texturefile = "gfx/objectives/obj_become_duke.tga"
 		noOfFrames = 1
-		norefcount = yes
+		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_obj_become_multiduke"
+		texturefile = "gfx/objectives/obj_become_multiduke.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_become_emperor"
+		texturefile = "gfx/objectives/obj_become_emperor.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}	
 }
