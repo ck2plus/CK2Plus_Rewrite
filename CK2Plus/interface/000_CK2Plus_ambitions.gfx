@@ -111,4 +111,18 @@ spriteTypes = {
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}		
+	spriteType = {
+		name = "GFX_obj_go_crusade"
+		texturefile = "gfx/objectives/obj_go_crusade.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_go_jihad"
+		texturefile = "gfx/objectives/obj_go_jihad.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }

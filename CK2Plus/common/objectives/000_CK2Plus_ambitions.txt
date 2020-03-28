@@ -1498,3 +1498,147 @@ obj_break_out_of_prison = {
 		set_character_flag = obj_break_out_of_prison
 	}
 }
+
+
+obj_go_crusade = {
+	type = character
+
+	potential = {
+		ai = no
+		is_ruler = yes
+		religion = catholic
+		NOT = { has_character_flag = obj_go_crusade }
+		NOT = { trait = crusader }
+		OR = {
+			OR = {
+				male_can_hold_minor_title_trigger = yes
+				female_can_hold_minor_commander_title_trigger = yes
+			}
+			OR = {
+				NOT = { religion = hindu }
+				trait = kshatriya
+			}
+			AND = {
+				is_ruler = yes
+				independent = yes
+				martial = 12
+				#OR = {
+				#	trait = martial_lady
+				#	trait = martial_lady_tengri
+				#	trait = martial_lady_pagan
+				#	martial = 12
+				#}
+			}
+			liege = {
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+			AND = {
+				independent = yes
+				OR = {
+					has_law = true_cognatic_succession
+					has_law = enatic_cognatic_succession
+					has_law = enatic_succession
+				}
+			}
+		}
+	}
+
+	allow = {
+		prisoner = no
+		is_adult = yes
+		religion_head = { has_called_crusade = yes }
+		NOT = { trait = incapable }
+	}
+	chance = {
+		factor = 0
+	}
+	success = {
+		trait = crusader
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_ruler = no
+			trait = incapable
+			NOT = {
+				religion_head = { has_called_crusade = yes }
+			}
+			NOT = { religion = catholic }
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_tradition } }
+		#	custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#		character_event = { id = PlusFaction.200 days = 1 } #recalculate faction moods
+		#	}
+		#}
+		hidden_tooltip = { change_variable = { which = "lifestyle_martial" value = 1 } }
+		piety = 100
+		set_character_flag = obj_go_crusade
+	}
+}
+
+obj_go_jihad = {
+	type = character
+
+	potential = {
+		ai = no
+		is_ruler = yes
+		is_female = no
+		religion_group = muslim
+		NOT = { has_character_flag = obj_go_jihad }
+		NOT = { trait = mujahid }
+		NOT = { trait = decadent }
+	}
+
+	allow = {
+		prisoner = no
+		is_adult = yes
+		NOT = { trait = incapable }
+		religion_head = { has_called_crusade = yes }
+	}
+	chance = {
+		factor = 0
+	}
+	success = {
+		trait = mujahid
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_ruler = no
+			trait = incapable
+			trait = decadent
+			NOT = {
+				religion_head = { has_called_crusade = yes }
+			}
+			NOT = { religion_group = muslim }
+		}
+	}
+	abort_effect = {
+		set_character_flag = obj_aborted
+		clr_character_flag = obj_check
+	}
+	effect = {
+		#if = {
+		#	limit = { any_vassal = { leads_faction = faction_tradition } }
+		#	custom_tooltip = { text = TRADITIONFACTIONMOODPLUS }
+		#	hidden_tooltip = {
+		#		random_vassal = { limit = { leads_faction = faction_tradition } set_variable = { which = "faction_mood_increase" value = 2 } }
+		#		character_event = { id = PlusFaction.200 days = 1 } #recalculate faction moods
+		#	}
+		#}
+		hidden_tooltip = { change_variable = { which = "lifestyle_martial" value = 1 } }
+		piety = 100
+		set_character_flag = obj_go_jihad
+	}
+}

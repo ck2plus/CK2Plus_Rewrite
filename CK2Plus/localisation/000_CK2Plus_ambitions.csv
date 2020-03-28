@@ -52,3 +52,9 @@ obj_befriend_relhead_title;Befriend [This.RelHead.GetTitledFirstName];;;;;;;;;;;
 
 obj_break_out_of_prison_desc;[This.GetTitledFirstName] wants [This.GetHerHis] freedom back.;;;;;;;;;;;;;x
 obj_break_out_of_prison_title;Get Out of Prison;;;;;;;;;;;;;x
+
+obj_go_crusade_desc;[This.GetTitledFirstName] wants to join the Crusade against the infidels.;;;;;;;;;;;;;x
+obj_go_crusade_title;Take the Cross;;;;;;;;;;;;;x
+
+obj_go_jihad_desc;[This.GetTitledFirstName] wants to join the Jihad against the infidels.;;;;;;;;;;;;;x
+obj_go_jihad_title;Join the Jihad;;;;;;;;;;;;;x
