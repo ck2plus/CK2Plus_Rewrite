@@ -53,6 +53,9 @@ obj_befriend_relhead_title;Befriend [This.RelHead.GetTitledFirstName];;;;;;;;;;;
 obj_break_out_of_prison_desc;[This.GetTitledFirstName] wants [This.GetHerHis] freedom back.;;;;;;;;;;;;;x
 obj_break_out_of_prison_title;Get Out of Prison;;;;;;;;;;;;;x
 
+obj_great_council_desc;[This.GetTitledFirstName] wants to unite the greatest minds in the known world, and have them serve on [This.GetHerHis] council.;;;;;;;;;;;;;x
+obj_great_council_title;Assemble a Great Council;;;;;;;;;;;;;x
+
 obj_go_crusade_desc;[This.GetTitledFirstName] wants to join the Crusade against the infidels.;;;;;;;;;;;;;x
 obj_go_crusade_title;Take the Cross;;;;;;;;;;;;;x
 
