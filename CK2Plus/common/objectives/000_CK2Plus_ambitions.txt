@@ -1814,7 +1814,7 @@ obj_have_five_children = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -1840,21 +1840,21 @@ obj_have_five_children = {
 			trait = incapable
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
 		hidden_tooltip = {
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		#if = {
@@ -1937,7 +1937,7 @@ obj_have_ten_children = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -1963,21 +1963,21 @@ obj_have_ten_children = {
 			trait = incapable
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
 		hidden_tooltip = {
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		#if = {
@@ -2060,7 +2060,7 @@ obj_have_fifteen_children = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -2086,21 +2086,21 @@ obj_have_fifteen_children = {
 			trait = incapable
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
 		hidden_tooltip = {
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		#if = {
@@ -2183,7 +2183,7 @@ obj_have_twenty_children = {
 		if = {
 			limit = { ai = yes }
 			add_character_modifier = {
-				name = "ai_objective_timer"
+				name = "plus_ai_objective_timer"
 				duration = 1825
 				hidden = yes
 			}
@@ -2209,21 +2209,21 @@ obj_have_twenty_children = {
 			trait = incapable
 			AND = {
 				ai = yes
-				NOT = { has_character_modifier = ai_objective_timer }
+				NOT = { has_character_modifier = plus_ai_objective_timer }
 			}
 		}
 	}
 	abort_effect = {
 		if = {
 			limit = { ai = yes }
-			remove_character_modifier = ai_objective_timer
+			remove_character_modifier = plus_ai_objective_timer
 		}
 	}
 	effect = {
 		hidden_tooltip = {
 			if = {
 				limit = { ai = yes }
-				remove_character_modifier = ai_objective_timer
+				remove_character_modifier = plus_ai_objective_timer
 			}
 		}
 		#if = {
