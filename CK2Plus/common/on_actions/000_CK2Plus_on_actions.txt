@@ -10,6 +10,10 @@ on_startup = {
 on_yearly_pulse = {
 	events = {
 		PlusTitular.001 # Destroy Dead Nations
+		
+		# MTTH events that were consuming too much time
+		PerformancePlus.900 # Councillor tries to befriend liege
+		PerformancePlus.910 # Duelist tries to befriend liege
 	}
 
 	random_events = {
@@ -40,15 +44,15 @@ on_yearly_pulse = {
 		75 = PlusAmbitions.lifestyle.0023 # Thinking about the plot
 		75 = PlusAmbitions.lifestyle.0024 # Debate with a zealous courtier
 		75 = PlusAmbitions.lifestyle.0025 # Bookseller comes to court
-	}
 
-	ambition_events = {
-		10 = PlusAmbitions.decadence.0000 # Lower Decadence - Berber Life
-		10 = PlusAmbitions.decadence.0002 # Lower Decadence - The Bandit camp
-		10 = PlusAmbitions.decadence.0006 # Lower Decadence - The Two-Headed Dromedary Hunt
-		10 = PlusAmbitions.decadence.0011 # Lower Decadence - Couriers
-		10 = PlusAmbitions.decadence.0012 # Lower Decadence - Palast stripped of Luxuries
-		10 = PlusAmbitions.decadence.0013 # Lower Decadence - Brothels Closed
+		ambition_events = {
+			10 = PlusAmbitions.decadence.0000 # Lower Decadence - Berber Life
+			10 = PlusAmbitions.decadence.0002 # Lower Decadence - The Bandit camp
+			10 = PlusAmbitions.decadence.0006 # Lower Decadence - The Two-Headed Dromedary Hunt
+			10 = PlusAmbitions.decadence.0011 # Lower Decadence - Couriers
+			10 = PlusAmbitions.decadence.0012 # Lower Decadence - Palast stripped of Luxuries
+			10 = PlusAmbitions.decadence.0013 # Lower Decadence - Brothels Closed
+		}
 	}
 }
 

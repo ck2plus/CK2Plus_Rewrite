@@ -17,16 +17,16 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			has_ambition = obj_make_a_friend
+			has_ambition = obj_make_friends
 			has_ambition = obj_befriend_liege
 		}
-		in_command_trigger = no
+		plus_in_command_trigger = no
 		is_councillor = yes
 		NOT = { is_inaccessible_trigger = yes }
 		liege = {
 			age = 16
 			prisoner = no
-			in_command_trigger = no
+			plus_in_command_trigger = no
 			NOR = {
 				trait = incapable
 				is_friend = ROOT
@@ -68,7 +68,7 @@ character_event = {
 				}
 				modifier = {
 					factor = 0.5
-					liege = { has_ambition = obj_make_a_friend }
+					liege = { has_ambition = obj_make_friends }
 				}
 				modifier = {
 					factor = 0.65
@@ -93,16 +93,16 @@ character_event = {
 
 	trigger = {
 		OR = {
-			has_ambition = obj_make_a_friend
+			has_ambition = obj_make_friends
 			has_ambition = obj_befriend_liege
 		}
-		in_command_trigger = no
+		plus_in_command_trigger = no
 		is_councillor = yes
 		NOT = { is_inaccessible_trigger = yes }
 		liege = {
 			age = 16
 			prisoner = no
-			in_command_trigger = no
+			plus_in_command_trigger = no
 			NOR = {
 				trait = incapable
 				is_friend = ROOT
@@ -229,11 +229,11 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			has_ambition = obj_make_a_friend
+			has_ambition = obj_make_friends
 			has_ambition = obj_befriend_liege
-			liege = { has_ambition = obj_make_a_friend }
+			liege = { has_ambition = obj_make_friends }
 		}
-		in_command_trigger = no
+		plus_in_command_trigger = no
 		OR = {
 			trait = duelist
 			trait = tough_soldier
@@ -252,7 +252,7 @@ character_event = {
 		liege = {
 			age = 16
 			prisoner = no
-			in_command_trigger = no
+			plus_in_command_trigger = no
 			NOT = { is_inaccessible_trigger = yes }
             is_female = no
 			#OR = {
@@ -303,7 +303,7 @@ character_event = {
 				}
 				modifier = {
 					factor = 0.5
-					liege = { has_ambition = obj_make_a_friend }
+					liege = { has_ambition = obj_make_friends }
 				}
 				modifier = {
 					factor = 0.85
@@ -328,18 +328,18 @@ character_event = {
 
 	trigger = {
 		OR = {
-			has_ambition = obj_make_a_friend
+			has_ambition = obj_make_friends
 			has_ambition = obj_befriend_liege
-			liege = { has_ambition = obj_make_a_friend }
+			liege = { has_ambition = obj_make_friends }
 		}
-		in_command_trigger = no
+		plus_in_command_trigger = no
 		OR = {
 			trait = duelist
 			trait = tough_soldier
 			trait = skilled_tactician
 			trait = brilliant_strategist
 		}
-        female = no
+        is_female = no
 		#OR = {
 		#	is_female = no
 		#	trait = martial_lady
@@ -351,7 +351,7 @@ character_event = {
 		liege = {
 			age = 16
 			prisoner = no
-			in_command_trigger = no
+			plus_in_command_trigger = no
 			NOT = { is_inaccessible_trigger = yes }
             is_female = no
 			#OR = {

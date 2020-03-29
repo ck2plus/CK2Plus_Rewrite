@@ -20,3 +20,11 @@ plus_new_roads_desc;This province has improved roads.;Cette province a am�lior
 
 plus_attentive_liege;Attentive Liege;;;;;;;;;;;;;x
 plus_attentive_liege_desc;The ruler is paying attention to their lands, ensuring that nothing goes wrong--at least for a while.;;;;;;;;;;;;;x
+
+plus_away_from_court;Away From Court;;;;;;;;;;;;;x
+plus_away_from_court_desc;When someone is away from their home court leading armies, it is much more difficult for them to discover plots...and all but impossible to have more children.;;;;;;;;;;;;;x
+
+plus_estates_1;Minor Estates;;;;;;;;;;;;;x
+plus_estates_1_desc;Provides a character with a yearly income of �G1.00�! wealth.;;;;;;;;;;;;;x
+
+plus_do_not_disturb;Currently busy\n;Currently busy\n;Currently busy\n;;Currently busy\n;;;;;;;;;x
