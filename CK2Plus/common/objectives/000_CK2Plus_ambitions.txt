@@ -2256,3 +2256,1093 @@ obj_have_twenty_children = {
 		set_character_flag = obj_have_child_6
 	}
 }
+
+
+obj_increase_demesne_1 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size < 2
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige >= 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 2
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_increase_demesne_2 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size >= 2
+		demesne_size < 3
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige = 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige = 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige = 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 3
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_increase_demesne_3 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size >= 3
+		demesne_size < 4
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige >= 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 4
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_increase_demesne_4 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size >= 4
+		demesne_size < 5
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige >= 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 5
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_increase_demesne_5 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size >= 5
+		demesne_size < 6
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige >= 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 6
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_increase_demesne_6 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size >= 6
+		demesne_size < 7
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige >= 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 7
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_increase_demesne_7 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size >= 7
+		demesne_size < 8
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige >= 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 8
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_increase_demesne_8 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size >= 8
+		demesne_size < 9
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige >= 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 9
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_increase_demesne_9 = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		is_landed = yes
+		num_of_count_titles >= 1
+		demesne_size >= 9
+		demesne_size < 10
+		OR = {
+			ai = no
+			NOT = { has_character_flag = obj_demesne }
+		}
+	}
+
+	allow = {
+		is_adult = yes
+		NOT = { trait = incapable }
+		demesne_efficiency = 1.01
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.5
+			prestige >= 100
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 250
+		}
+		modifier = {
+			factor = 1.5
+			prestige >= 400
+		}
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 10.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		demesne_size >= 10
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		if = {
+			limit = { NOT = { has_character_flag = obj_demesne } }
+			change_stewardship = 1
+			if = {
+				limit = { independent = no }
+				liege = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_happy
+						months = 120
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_character_flag = obj_demesne }
+			prestige = 25
+		}
+		set_character_flag = obj_demesne
+	}
+}
+
+obj_known_for_virtue = {
+	type = character
+
+	potential = {
+		is_ruler = yes
+		NOT = { religion_group = indian_group }
+		NOT = { has_character_flag = obj_become_paragon_of_virtue }
+		NOT = { has_character_flag = known_for_virtue }
+	}
+
+	allow = {
+		is_adult = yes
+		piety >= 0
+		piety < 500
+		NOT = { trait = cruel }
+		NOT = { trait = impaler }
+		NOT = { trait = incapable }
+		NOT = { trait = decadent }
+	}
+	chance = {
+		factor = 50
+
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 0.01
+			NOT = { tier = king }
+			NOT = { tier = emperor }
+		}
+		modifier = {
+			factor = 0
+			piety < 100
+		}
+		modifier = {
+			factor = 10.0
+			OR = {
+				trait = detached_priest
+				trait = martial_cleric
+				trait = scholarly_theologian
+				trait = mastermind_theologian
+			}
+		}
+		modifier = {
+			factor = 10.0
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.01
+			trait = cynical
+		}
+	}
+	creation_effect = {
+		if = {
+			limit = { ai = yes }
+			add_character_modifier = {
+				name = "plus_ai_objective_timer"
+				duration = 1825
+				hidden = yes
+			}
+		}
+	}
+	success = {
+		piety >= 500
+	}
+	abort = {
+		OR = {
+			is_ruler = no
+			piety < 0 
+			trait = cruel
+			trait = impaler
+			trait = incapable
+			trait = decadent
+			religion_group = indian_group
+			AND = {
+				ai = yes
+				NOT = { has_character_modifier = plus_ai_objective_timer }
+			}
+		}
+	}
+	abort_effect = {
+		if = {
+			limit = { ai = yes }
+			remove_character_modifier = plus_ai_objective_timer
+		}
+	}
+	effect = {
+		hidden_tooltip = {
+			if = {
+				limit = { ai = yes }
+				remove_character_modifier = plus_ai_objective_timer
+			}
+		}
+		change_learning = 1
+		piety = 50
+		set_character_flag = known_for_virtue
+	}
+}
