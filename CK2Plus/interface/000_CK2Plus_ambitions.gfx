@@ -132,4 +132,32 @@ spriteTypes = {
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_obj_have_five_children"
+		texturefile = "gfx/objectives/obj_have_five_kids.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_have_ten_children"
+		texturefile = "gfx/objectives/obj_have_ten_kids.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}	
+	spriteType = {
+		name = "GFX_obj_have_fifteen_children"
+		texturefile = "gfx/objectives/obj_have_fifteen_kids.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_have_twenty_children"
+		texturefile = "gfx/objectives/obj_have_twenty_kids.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }

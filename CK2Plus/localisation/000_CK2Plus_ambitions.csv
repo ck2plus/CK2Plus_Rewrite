@@ -61,3 +61,17 @@ obj_go_crusade_title;Take the Cross;;;;;;;;;;;;;x
 
 obj_go_jihad_desc;[This.GetTitledFirstName] wants to join the Jihad against the infidels.;;;;;;;;;;;;;x
 obj_go_jihad_title;Join the Jihad;;;;;;;;;;;;;x
+
+obj_have_five_children_desc;[This.GetTitledFirstName] wants a large family and many children to carry on [This.GetHerHis] legacy.;;;;;;;;;;;;;x
+obj_have_five_children_title;Have Five Children;;;;;;;;;;;;;x
+
+obj_have_ten_children_desc;[This.GetTitledFirstName] wants a large family and many children to carry on [This.GetHerHis] legacy.;;;;;;;;;;;;;x
+obj_have_ten_children_title;Have Ten Children;;;;;;;;;;;;;x
+
+obj_have_fifteen_children_desc;[This.GetTitledFirstName] wants a large family and many children to carry on [This.GetHerHis] legacy.;;;;;;;;;;;;;x
+obj_have_fifteen_children_title;Have Fifteen Children;;;;;;;;;;;;;x
+
+obj_have_twenty_children_desc;[This.GetTitledFirstName] wants a large family and many children to carry on [This.GetHerHis] legacy.;;;;;;;;;;;;;x
+obj_have_twenty_children_title;Have Twenty Children;;;;;;;;;;;;;x
+
+
