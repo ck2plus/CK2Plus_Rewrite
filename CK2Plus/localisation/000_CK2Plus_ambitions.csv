@@ -103,3 +103,24 @@ obj_increase_demesne_9_title;Increase Size of Demesne;;;;;;;;;;;;;x
 
 obj_known_for_virtue_desc;[This.GetTitledFirstName] seeks to become known for [This.GetHerHis] virtues.;;;;;;;;;;;;;x
 obj_known_for_virtue_title;Become Known for Virtue;;;;;;;;;;;;;x
+
+obj_lower_decadence50_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence50_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence55_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence55_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence60_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence60_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence65_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence65_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence70_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence70_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence75_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence75_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence80_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence80_title;Lower Dynastic Decadence;;;;;;;;;;;;;x

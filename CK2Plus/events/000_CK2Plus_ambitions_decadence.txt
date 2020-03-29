@@ -1,0 +1,452 @@
+namespace = PlusAmbitions.decadence
+######################
+# Decadence Ambition #
+######################
+
+### Berber Life
+
+# Berber Life
+character_event = {
+	id = PlusAmbitions.decadence.0000
+	desc = EVTDESC94170
+	picture = GFX_evt_desert
+	border = GFX_event_normal_frame_religion
+	
+	capable_only = yes
+	only_rulers = yes
+	prisoner = no
+	min_age = 16
+	religion_group = muslim
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_ambition = obj_lower_decadence50
+			has_ambition = obj_lower_decadence55
+			has_ambition = obj_lower_decadence60
+			has_ambition = obj_lower_decadence65
+			has_ambition = obj_lower_decadence70
+			has_ambition = obj_lower_decadence75
+			has_ambition = obj_lower_decadence80
+		}
+		NOT = { has_character_flag = berber_life }
+		NOT = { has_character_flag = bandit_camp }
+		NOT = { has_character_flag = dromedary_hunt }
+		NOT = { has_character_flag = berber_life_taken }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	option = {
+		name = EVTOPTA94170
+		set_character_flag = berber_life
+		set_character_flag = berber_life_taken
+		character_event = { id = PlusAmbitions.decadence.0001 days = 15 tooltip = EVTTOOLTIP94171 }
+	}
+	option = {
+		name = EVTOPTB94170
+		custom_tooltip = { text = lower_decadence_quit }
+	}
+}
+
+# Living with Berbers
+character_event = {
+	id = PlusAmbitions.decadence.0001
+	desc = EVTDESC94171
+	picture = GFX_evt_desert
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA94171
+		decadence = -5
+	}
+}
+
+### The Bandit Camp
+
+# The Bandit Camp
+character_event = {
+	id = PlusAmbitions.decadence.0002
+	desc = EVTDESC94175
+	picture = GFX_evt_moors
+	border = GFX_event_normal_frame_religion
+	
+	capable_only = yes
+	only_rulers = yes
+	prisoner = no
+	min_age = 16
+	religion_group = muslim
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_ambition = obj_lower_decadence50
+			has_ambition = obj_lower_decadence55
+			has_ambition = obj_lower_decadence60
+			has_ambition = obj_lower_decadence65
+			has_ambition = obj_lower_decadence70
+			has_ambition = obj_lower_decadence75
+			has_ambition = obj_lower_decadence80
+		}
+		NOT = { has_character_flag = berber_life }
+		NOT = { has_character_flag = bandit_camp }
+		NOT = { has_character_flag = dromedary_hunt }
+		NOT = { has_character_flag = bandit_camp_taken }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	option = {
+		name = EVTOPTA94175
+		set_character_flag = bandit_camp
+		set_character_flag = bandit_camp_taken
+		character_event = { id = PlusAmbitions.decadence.0003 days = 3 tooltip = EVTTOOLTIP94176 }
+	}
+	option = {
+		name = EVTOPTB94175
+		custom_tooltip = { text = lower_decadence_quit }
+	}
+	option = {
+		name = EVTOPTC94175
+		trigger = { age = 60 }
+		custom_tooltip = { text = lower_decadence_quit }
+	}
+}
+
+# Sneak up on Camp
+character_event = {
+	id = PlusAmbitions.decadence.0003
+	desc = EVTDESC94176
+	picture = GFX_evt_bandits
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA94176
+		character_event = { id = PlusAmbitions.decadence.0004 tooltip = EVTTOOLTIP94177 }
+	}
+	option = {
+		name = EVTOPTB94176
+		tooltip_info = craven
+		trigger = { trait = craven }
+		custom_tooltip = { text = lower_decadence_quit }
+	}
+}
+
+# The Fight
+character_event = {
+	id = PlusAmbitions.decadence.0004
+	desc = EVTDESC94177
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA94177
+		tooltip_info = craven
+		trigger = { trait = craven }
+		character_event = { id = PlusAmbitions.decadence.0005 tooltip = EVTTOOLTIP94178 }
+		random = {
+			chance = 20
+			add_trait = wounded
+			hidden_tooltip = {
+				character_event = {
+					id = 38280 #Notify Wounded
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB94177
+		tooltip_info = impaler
+		trigger = { trait = impaler }
+		character_event = { id = PlusAmbitions.decadence.0005 tooltip = EVTTOOLTIP94178 }
+		random = {
+			chance = 5
+			add_trait = wounded
+			hidden_tooltip = {
+				character_event = {
+					id = 38280 #Notify Wounded
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC94177
+		character_event = { id = PlusAmbitions.decadence.0005 tooltip = EVTTOOLTIP94178 }
+		trigger = {
+			NOT = {
+				trait = impaler
+				trait = craven
+			}
+		}
+		random = {
+			chance = 10
+			add_trait = wounded
+			hidden_tooltip = {
+				character_event = {
+					id = 38280 #Notify Wounded
+				}
+			}
+		}
+	}
+}
+
+# Fight Aftermath
+character_event = {
+	id = PlusAmbitions.decadence.0005
+	desc = EVTDESC94178
+	picture = GFX_evt_bloody_man
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA94178
+		trigger = {
+			NOT = { trait = impaler }
+		}
+		decadence = -5
+	}
+	option = {
+		name = EVTOPTB94178
+		tooltip_info = impaler
+		trigger = { trait = impaler }
+		decadence = -5
+	}
+}
+
+### The Two-Headed Dromedary Hunt
+
+# The Hunt
+character_event = {
+	id = PlusAmbitions.decadence.0006
+	desc = EVTDESC94180
+	picture = GFX_evt_hunt
+	border = GFX_event_normal_frame_religion
+	
+	capable_only = yes
+	only_rulers = yes
+	prisoner = no
+	min_age = 16
+	religion_group = muslim
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_ambition = obj_lower_decadence50
+			has_ambition = obj_lower_decadence55
+			has_ambition = obj_lower_decadence60
+			has_ambition = obj_lower_decadence65
+			has_ambition = obj_lower_decadence70
+			has_ambition = obj_lower_decadence75
+			has_ambition = obj_lower_decadence80
+		}
+		NOT = { has_character_flag = berber_life }
+		NOT = { has_character_flag = bandit_camp }
+		NOT = { has_character_flag = dromedary_hunt }
+		NOT = { has_character_flag = dromedary_hunt_taken }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	option = {
+		name = EVTOPTA94180
+		set_character_flag = dromedary_hunt
+		set_character_flag = dromedary_hunt_taken
+		character_event = { id = PlusAmbitions.decadence.0007 days = 6 tooltip = EVTTOOLTIP94181 }
+	}
+	option = {
+		name = EVTOPTB94180
+		custom_tooltip = { text = lower_decadence_quit }
+	}
+}
+
+# The Hunt Begins
+character_event = {
+	id = PlusAmbitions.decadence.0007
+	desc = EVTDESC94181
+	picture = GFX_evt_desert
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA94181
+		character_event = { id = PlusAmbitions.decadence.0008 days = 6 tooltip = EVTTOOLTIP94182 }
+	}
+}
+
+# No Sign of the Beast
+character_event = {
+	id = PlusAmbitions.decadence.0008
+	desc = EVTDESC94182
+	picture = GFX_evt_desert
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA94182
+		character_event = { id = PlusAmbitions.decadence.0009 days = 6 tooltip = EVTTOOLTIP94183 }
+	}
+}
+
+# Hunt is Abandoned
+character_event = {
+	id = PlusAmbitions.decadence.0009
+	desc = EVTDESC94183
+	picture = GFX_evt_desert
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA94183
+		character_event = { id = PlusAmbitions.decadence.0010 days = 6 tooltip = EVTTOOLTIP94184 }
+	}
+}
+
+# Coming Home
+character_event = {
+	id = PlusAmbitions.decadence.0010
+	desc = EVTDESC94184
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA94184
+		decadence = -5
+	}
+}
+
+### Couriers
+character_event = {
+	id = PlusAmbitions.decadence.0011
+	desc = EVTDESC94185
+	picture = GFX_evt_imam
+	border = GFX_event_normal_frame_intrigue
+	
+	capable_only = yes
+	only_rulers = yes
+	prisoner = no
+	min_age = 16
+	religion_group = muslim
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_ambition = obj_lower_decadence50
+			has_ambition = obj_lower_decadence55
+			has_ambition = obj_lower_decadence60
+			has_ambition = obj_lower_decadence65
+			has_ambition = obj_lower_decadence70
+			has_ambition = obj_lower_decadence75
+			has_ambition = obj_lower_decadence80
+		}
+		NOT = { has_character_flag = berber_life }
+		NOT = { has_character_flag = bandit_camp }
+		NOT = { has_character_flag = dromedary_hunt }
+	}
+	
+	option = {
+		name = EVTOPTA94185
+		decadence = -3
+	}
+}
+
+### Palace Stripped of Luxuries
+character_event = {
+	id = PlusAmbitions.decadence.0012
+	desc = EVTDESC94186
+	picture = GFX_evt_jugglers
+	border = GFX_event_normal_frame_intrigue
+	
+	capable_only = yes
+	only_rulers = yes
+	prisoner = no
+	min_age = 16
+	religion_group = muslim
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_ambition = obj_lower_decadence50
+			has_ambition = obj_lower_decadence55
+			has_ambition = obj_lower_decadence60
+			has_ambition = obj_lower_decadence65
+			has_ambition = obj_lower_decadence70
+			has_ambition = obj_lower_decadence75
+			has_ambition = obj_lower_decadence80
+		}
+		NOT = { has_character_flag = berber_life }
+		NOT = { has_character_flag = bandit_camp }
+		NOT = { has_character_flag = dromedary_hunt }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	option = {
+		name = EVTOPTA94186
+		decadence = -3
+	}
+}
+
+### Brothels Closed
+character_event = {
+	id = PlusAmbitions.decadence.0013
+	desc = EVTDESC94187
+	picture = GFX_evt_sultan
+	border = GFX_event_normal_frame_intrigue
+	
+	capable_only = yes
+	only_rulers = yes
+	prisoner = no
+	min_age = 16
+	religion_group = muslim
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_ambition = obj_lower_decadence50
+			has_ambition = obj_lower_decadence55
+			has_ambition = obj_lower_decadence60
+			has_ambition = obj_lower_decadence65
+			has_ambition = obj_lower_decadence70
+			has_ambition = obj_lower_decadence75
+			has_ambition = obj_lower_decadence80
+		}
+		NOT = { has_character_flag = berber_life }
+		NOT = { has_character_flag = bandit_camp }
+		NOT = { has_character_flag = dromedary_hunt }
+	}
+	
+	option = {
+		name = EVTOPTA94187
+		decadence = -3
+	}
+}

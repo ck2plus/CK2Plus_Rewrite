@@ -230,4 +230,53 @@ spriteTypes = {
 		noRefCount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}	
+	spriteType = {
+		name = "GFX_obj_lower_decadence50"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence55"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence60"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence65"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence70"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence75"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_lower_decadence80"
+		texturefile = "gfx/ambitions/obj_lower_decadence.dds"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}	
 }

@@ -41,6 +41,15 @@ on_yearly_pulse = {
 		75 = PlusAmbitions.lifestyle.0024 # Debate with a zealous courtier
 		75 = PlusAmbitions.lifestyle.0025 # Bookseller comes to court
 	}
+
+	ambition_events = {
+		10 = PlusAmbitions.decadence.0000 # Lower Decadence - Berber Life
+		10 = PlusAmbitions.decadence.0002 # Lower Decadence - The Bandit camp
+		10 = PlusAmbitions.decadence.0006 # Lower Decadence - The Two-Headed Dromedary Hunt
+		10 = PlusAmbitions.decadence.0011 # Lower Decadence - Couriers
+		10 = PlusAmbitions.decadence.0012 # Lower Decadence - Palast stripped of Luxuries
+		10 = PlusAmbitions.decadence.0013 # Lower Decadence - Brothels Closed
+	}
 }
 
 #character
