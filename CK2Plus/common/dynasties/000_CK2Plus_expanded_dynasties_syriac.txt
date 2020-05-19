@@ -1,1 +1,90 @@
 # Valid IDs: 1000170000 - 1000170999
+1000170000 = {
+	name = "Serapion"
+	culture = syriac
+}
+
+1000170001 = {
+	name = "Bardaisan"
+	culture = syriac
+}
+
+1000170002 = {
+	name = "Aphrahat"
+	culture = syriac
+}
+
+1000170003 = {
+	name = "Narsai"
+	culture = syriac
+}
+
+1000170004 = {
+	name = "Sudhaile"
+	culture = syriac
+}
+
+1000170005 = {
+	name = "Srugayâ"
+	culture = syriac
+}
+
+1000170006 = {
+	name = "Kurtam"
+	culture = syriac
+}
+
+1000170007 = {
+	name = "Serugh"
+	culture = syriac
+}
+
+1000170008 = {
+	name = "Babai"
+	culture = syriac
+}
+
+1000170009 = {
+	name = "Gammolo"
+	culture = syriac
+}
+
+1000170010 = {
+	name = "Sahdona"
+	culture = syriac
+}
+
+1000170011 = {
+	name = "Beth Garmai"
+	culture = syriac
+}
+
+1000170012 = {
+	name = "Beth Arbaye"
+	culture = syriac
+}
+
+1000170013 = {
+	name = "Penkaye"
+	culture = syriac
+}
+
+1000170014 = {
+	name = "Warda"
+	culture = syriac
+}
+
+1000170015 = {
+	name = "Berika"
+	culture = syriac
+}
+
+1000170016 = {
+	name = "Nsibin"
+	culture = syriac
+}
+
+1000170017 = {
+	name = "Tagrit"
+	culture = syriac
+}
