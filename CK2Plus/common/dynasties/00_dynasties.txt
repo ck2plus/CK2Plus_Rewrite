@@ -175,7 +175,7 @@
 
 28 = {
 	name = "Czartoryski"
-	culture = polish
+	culture = ruthenian	# polonised ruthenian
 }
 
 29 = {
@@ -462,7 +462,7 @@
 
 66 = {
 	name = "Palizzi"
-	culture = italian
+	culture = siculo_norman
 }
 
 67 = {
@@ -4440,7 +4440,7 @@
 
 676 = {
 	name = "Drengot"
-	culture = norman
+	culture = siculo_norman
 	religion = catholic
 	coat_of_arms = {
 		data = { 0 0 0 17 3 0 0 }
@@ -12125,7 +12125,7 @@
 
 8707 = {
 	name = "di L'Aquila"
-	culture = italian
+	culture = siculo_norman
 	religion = catholic
 }
 
@@ -13639,7 +13639,7 @@
 
 11118 = {
 	name = "Ostrogski"
-	culture = polish
+	culture = ruthenian	# polonised ruthenian
 }
 
 11119 = {
@@ -13664,12 +13664,12 @@
 
 11123 = {
 	name = "Sanguszko"
-	culture = polish
+	culture = ruthenian	# polonised ruthenian
 }
 
 11124 = {
 	name = "Sapieha"
-	culture = polish
+	culture = ruthenian	# polonised ruthenian
 }
 
 11125 = {
@@ -13689,7 +13689,7 @@
 
 11128 = {
 	name = "Zbaraski"
-	culture = polish
+	culture = ruthenian	# polonised ruthenian
 }
 
 11129 = {
@@ -15775,7 +15775,7 @@
 
 13074 = {
 	name = "Pellegrino"
-	culture = italian
+	culture = siculo_norman
 }
 
 13075 = {
@@ -21820,7 +21820,7 @@
 
 100532 = {
 	name = "Oginski"
-	culture = polish
+	culture = ruthenian # polonised ruthenian
 }
 
 100533 = {
@@ -28443,7 +28443,7 @@
 
 101843 = {
 	name = "de Sanseverino"
-	culture = italian
+	culture = siculo_norman
 	religion = catholic
 }
 
@@ -30421,7 +30421,7 @@
 
 1027029 = {
 	name = "de Luci"
-	culture = norman
+	culture = siculo_norman
 	religion = catholic
 }
 
