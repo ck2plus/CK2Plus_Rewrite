@@ -1,1 +1,105 @@
 # Valid IDs: 1000072000 - 1000072999
+1000072000 = {
+	name = "Dattu"
+	culture = himachali
+}
+
+1000072001 = {
+	name = "Shastri"
+	culture = himachali
+}
+
+1000072002 = {
+	name = "Sachdev"
+	culture = himachali
+}
+
+1000072003 = {
+	name = "Dogra"
+	culture = himachali
+}
+
+1000072004 = {
+	name = "Jamwal"
+	culture = himachali
+}
+
+1000072005 = {
+	name = "Jaunsari"
+	culture = himachali
+}
+
+1000072006 = {
+	name = "Hinduri"
+	culture = himachali
+}
+
+1000072007 = {
+	name = "Kinnauri"
+	culture = himachali
+}
+
+1000072008 = {
+	name = "Kullu"
+	culture = himachali
+}
+
+1000072009 = {
+	name = "Mahasu"
+	culture = himachali
+}
+
+1000072010 = {
+	name = "Sirmauri"
+	culture = himachali
+}
+
+1000072011 = {
+	name = "Mandeali"
+	culture = himachali
+}
+
+1000072012 = {
+	name = "Bhadarwahi"
+	culture = himachali
+}
+
+1000072013 = {
+	name = "Churahi"
+	culture = himachali
+}
+
+1000072014 = {
+	name = "Bhattiyali"
+	culture = himachali
+}
+
+1000072015 = {
+	name = "Bilaspuri"
+	culture = himachali
+}
+
+1000072016 = {
+	name = "Chambeali"
+	culture = himachali
+}
+
+1000072017 = {
+	name = "Gaddi"
+	culture = himachali
+}
+
+1000072018 = {
+	name = "Pangwali"
+	culture = himachali
+}
+
+1000072019 = {
+	name = "Dugar"	# modern Dogra/Dogri
+	culture = himachali
+}
+
+1000072020 = {
+	name = "Kangri"
+	culture = himachali
+}
