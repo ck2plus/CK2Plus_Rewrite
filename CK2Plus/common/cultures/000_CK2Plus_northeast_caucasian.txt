@@ -84,7 +84,7 @@ northeast_caucasian_group = {
 			Ek Elem
 			Grigori_Gregory
 			Hel
-			Iakovi_Jacob Ieremi_Jeremy Ili_Elias Ioan_John Is Isaak_Isaac Iskapos Iusus_Jesus
+			Iakovi_Jacob Ieremi_Jeremy Ili_Elijah Ioan_John Is Isaak_Isaac Iskapos Iusus_Jesus
 			Javanshir Jora_George
 			Kaban Karlen Kiro Kul
 			Manak Marakesun Mesrob Movses_Moses Murad

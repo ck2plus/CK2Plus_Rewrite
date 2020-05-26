@@ -81,20 +81,48 @@ east_african = {
 		color = { 0.5 0.5 0.31 }
 
 		male_names = {
-			Abu-Bakr_Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir Abdul-Wahab Abdul_Abdul Abdullah_Abdullah Aghlab Akin Ali_Ali Alim Aram Azam Bahir Burhanaddin
-			Fadil_Fadl Fadl_Fadl Faruk_Farroukh Ghalib Hafiz Halil_Khalil Hasan_Hasan Husam Hussayn_Hussein Ibrahim_Abraham Idris Is'mail_Ismail Isa Jabir Jalil Jibril_Gabriel Khaireddin Khalil_Khalil Mahdi Mahmud_Mahmud
-			Mansur Mirza Mubarak_Barak Muhammad_Muhammad Mukhtar Murad_Morad Musa_Moses Muslihiddin Muzaffaraddin Najib Nasr_Nasr Nizam Qawurd Ramadan_Ramadan Sa'daddin Sadiq Sami Samir Shaiban
-			Shamir Shujah Sulayman_Solomon Talib Ubayd Uways Yahya_Yahya Ya'qub_Jacob Youkhanna_John Yusuf_Joseph Zeyd
+			Abd-allah_Abdullah Adil Aišur Ali_Ali Aydarus
+			Bahit Bashir Basim Bayšeli Begelut Ber-Hamis Beraki Bogber Bolus_Paul Boutrus_Peter
+			Daud_David Dišilhal
+			Elias_Elijah Elissa Emberuk Emile Erzun
+			Fa'er
+			Gairlan Gewi Girgis_George
+			Hagerén Haitham Halfan Hisham
+			Ibrahim_Abraham Iman
+			Jibril_Gabriel
+			Khalil_Khalil Kimihen
+			Mahat Mai'tuq Matir Mehad Mektub Mikhael_Michael Morcos_Marcus
+			No'aifa
+			Queros
+			Rami Rawwah Redi
+			Samir Sanh Šatir Sef Selim_Salim Šintefiy Sulayman_Solomon
+			Tariq Tumas_Thomas
+			Wissam
+			Ya'qub_Jacob Yahya_John Youkhanna_John Yusef_Joseph
 		}
 		female_names = {
-			Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla_Laila Maryam_Maria Nafisa Nyawela Parand Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
-			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
-			Taliba Tanaz Taneen Yagana Yakta Yasmin_Yasmin Zaynab
+			Alia Amira Anna_Anna
+			Bagîlah Bieh
+			Cyrine
+			Dania Dihageten
+			Elissa
+			Faia Futmet Figehe
+			G'ad
+			Haifa Hana Hiyar Haire Hairebe
+			Joelle
+			Kamila
+			Laila_Laila
+			Marana Maryam_Maria Maya Muna Mene
+			Najwa Nayla
+			Reem
+			Salamah Salwa Sana Stunt Sumaya Sirbaleh
+			Tenaze Tifrah
+			Yara Yasmine_Yasmin
 		}
-		from_dynasty_prefix = "mn "
+		from_dynasty_prefix = "de "
 
-		male_patronym = "ibn "
-		female_patronym = "bint "
+		male_patronym = "mógsam de "
+		female_patronym = "'ewgêno de "
 		prefix = yes
 
 		dynasty_title_names = yes
