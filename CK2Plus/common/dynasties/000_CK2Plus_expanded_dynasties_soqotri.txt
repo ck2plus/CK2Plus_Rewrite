@@ -58,3 +58,73 @@
 	name = "Samha"
 	culture = soqotri
 }
+
+1000163012 = {
+	name = "Bit-Harsus"
+	culture = soqotri
+}
+
+1000163013 = {
+	name = "Bit-Mehúmed"
+	culture = soqotri
+}
+
+1000163014 = {
+	name = "Shari"
+	culture = soqotri
+}
+
+1000163015 = {
+	name = "Qabîli"
+	culture = soqotri
+}
+
+1000163016 = {
+	name = "Ber-Máhsin"
+	culture = soqotri
+}
+
+1000163017 = {
+	name = "Bit-Bethar"
+	culture = soqotri
+}
+
+1000163018 = {
+	name = "Inúbit"
+	culture = soqotri
+}
+
+1000163019 = {
+	name = "Bit-Ketir"
+	culture = soqotri
+}
+
+1000163020 = {
+	name = "Bit-Sifror"
+	culture = soqotri
+}
+
+1000163021 = {
+	name = "Shaih"
+	culture = soqotri
+}
+
+1000163022 = {
+	name = "Ilgafa"
+	culture = soqotri
+}
+
+1000163023 = {
+	name = "Rašid"
+	culture = soqotri
+}
+
+1000163024 = {
+	name = "Bit-Ya'bub"
+	culture = soqotri
+}
+
+1000163025 = {
+	name = "Quitan"
+	culture = soqotri
+}
