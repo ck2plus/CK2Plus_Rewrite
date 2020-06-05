@@ -1,1 +1,130 @@
 # Valid IDs: 1000155000 - 1000155999
+1000155000 = {
+	name = "Filangieri"
+	culture = siculo_norman
+}
+
+1000155001 = {
+	name = "Paulo"
+	culture = siculo_norman
+}
+
+1000155002 = {
+	name = "Parisi"
+	culture = siculo_norman
+}
+
+1000155003 = {
+	name = "Aceto"
+	culture = siculo_norman
+}
+
+1000155004 = {
+	name = "Avarna"
+	culture = siculo_norman
+}
+
+1000155005 = {
+	name = "Gravina"
+	culture = siculo_norman
+}
+
+1000155006 = {
+	name = "Rosso"
+	culture = siculo_norman
+}
+
+1000155007 = {
+	name = "Altavilla"
+	culture = siculo_norman
+}
+
+1000155008 = {
+	name = "Bassonvilla"
+	culture = siculo_norman
+}
+
+1000155009 = {
+	name = "Chiaromonte"
+	culture = siculo_norman
+}
+
+1000155010 = {
+	name = "da Cantalice"
+	culture = siculo_norman
+}
+
+1000155011 = {
+	name = "de Molisio"
+	culture = siculo_norman
+}
+
+1000155012 = {
+	name = "Francisio"
+	culture = siculo_norman
+}
+
+1000155013 = {
+	name = "Sanframondo"
+	culture = siculo_norman
+}
+
+1000155014 = {
+	name = "Della Marra"
+	culture = siculo_norman
+}
+
+1000155015 = {
+	name = "Guarnieri"
+	culture = siculo_norman
+}
+
+1000155016 = {
+	name = "de Tivilla"
+	culture = siculo_norman
+}
+
+1000155017 = {
+	name = "Gesualdo"
+	culture = siculo_norman
+}
+
+1000155018 = {
+	name = "Macabeo"
+	culture = siculo_norman
+}
+
+1000155019 = {
+	name = "Loffredo"
+	culture = siculo_norman
+}
+
+1000155020 = {
+	name = "Lo Russo"
+	culture = siculo_norman
+}
+
+1000155021 = {
+	name = "Gironda"
+	culture = siculo_norman
+}
+
+1000155022 = {
+	name = "Guarini"
+	culture = siculo_norman
+}
+
+1000155023 = {
+	name = "Tuttavilla"
+	culture = siculo_norman
+}
+
+1000155024 = {
+	name = "Blosseville"
+	culture = siculo_norman
+}
+
+1000155025 = {
+	name = "Siccavilla"
+	culture = siculo_norman
+}

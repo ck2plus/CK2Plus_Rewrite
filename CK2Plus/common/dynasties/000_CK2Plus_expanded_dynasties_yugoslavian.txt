@@ -1,1 +1,100 @@
 # Valid IDs: 1000193000 - 1000193999
+1000193000 = {
+	name = "Obrenovic"
+	culture = yugoslavian
+}
+
+1000193001 = {
+	name = "Karadordevic"
+	culture = yugoslavian
+}
+
+1000193002 = {
+	name = "Crncevic"
+	culture = yugoslavian
+}
+
+1000193003 = {
+	name = "Grbic"
+	culture = yugoslavian
+}
+
+1000193004 = {
+	name = "Gujic"
+	culture = yugoslavian
+}
+
+1000193005 = {
+	name = "Herceg"
+	culture = yugoslavian
+}
+
+1000193006 = {
+	name = "Horvat"
+	culture = yugoslavian
+}
+
+1000193007 = {
+	name = "Jugovac"
+	culture = yugoslavian
+}
+
+1000193008 = {
+	name = "Kasun"
+	culture = yugoslavian
+}
+
+1000193009 = {
+	name = "Kokot"
+	culture = yugoslavian
+}
+
+1000193010 = {
+	name = "Kolar"
+	culture = yugoslavian
+}
+
+1000193011 = {
+	name = "Košar"
+	culture = yugoslavian
+}
+
+1000193012 = {
+	name = "Kovac"
+	culture = yugoslavian
+}
+
+1000193013 = {
+	name = "Loncar"
+	culture = yugoslavian
+}
+
+1000193014 = {
+	name = "Medved"
+	culture = yugoslavian
+}
+
+1000193015 = {
+	name = "Mlakar"
+	culture = yugoslavian
+}
+
+1000193016 = {
+	name = "Novak"
+	culture = yugoslavian
+}
+
+1000193017 = {
+	name = "Terzic"
+	culture = yugoslavian
+}
+
+1000193018 = {
+	name = "Vlahovic"
+	culture = yugoslavian
+}
+
+1000193019 = {
+	name = "Zupan"
+	culture = yugoslavian
+}

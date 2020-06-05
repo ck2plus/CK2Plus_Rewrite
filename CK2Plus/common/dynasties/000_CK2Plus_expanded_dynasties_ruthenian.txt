@@ -1,1 +1,20 @@
 # Valid IDs: 1000142000 - 1000142999
+1000142000 = {
+	name = "Wisniowiecki"
+	culture = ruthenian
+}
+
+1000142001 = {
+	name = "Ostrogski"
+	culture = ruthenian
+}
+
+1000142002 = {
+	name = "Zaslawski"
+	culture = ruthenian
+}
+
+1000142003 = {
+	name = "Pac"
+	culture = ruthenian
+}
