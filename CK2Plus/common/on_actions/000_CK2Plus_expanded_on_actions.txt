@@ -17,6 +17,7 @@ on_yearly_pulse = {
 	}
 
 	random_events = {
+		75 = PlusCathar.003 # Adult Cathar becomes celibate
 	}
 }
 
@@ -56,6 +57,7 @@ on_yearly_childhood_pulse = {
 	}
 
 	random_events = {
+		500 = PlusCathar.001 # Cathar child gains chaste
 	}
 }
 
@@ -87,5 +89,19 @@ on_new_holder_usurpation = {
 on_character_convert_religion = {
 	events = {
 		PlusCeltic.001 # New temple holders gain Druid trait
+	}
+}
+
+# character
+on_birth = {
+	events = {
+		PlusCathar.004 # Cathar parents lose prestige/piety
+	}
+}
+
+# From = Attacker, Root = Defender
+on_war_started = {
+	events = {
+		PlusCathar.008 # Cathars are allowed to use holy wars once Catholic holy war is used against them
 	}
 }

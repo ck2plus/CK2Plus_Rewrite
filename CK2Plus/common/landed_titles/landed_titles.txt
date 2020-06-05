@@ -5055,6 +5055,7 @@ e_germany = {
 				color2 = { 255 255 255 }
 
 				holy_site = catholic
+				holy_site = cathar
 
 				norse = Köln
 				swedish = Köln
@@ -11597,6 +11598,7 @@ e_italy = {
 				aztec_reformed = 1000
 
 				holy_site = catholic
+				holy_site = cathar
 				holy_site = aztec
 				holy_site = aztec_reformed
 				holy_site = hellenic_pagan
@@ -34268,6 +34270,7 @@ e_spain = {
 				color2 = { 255 255 255 }
 
 				holy_site = catholic
+				holy_site = cathar
 
 				b_santiago = {
 				}
@@ -37093,6 +37096,7 @@ e_arabia = {
 				muslim = 250
 
 				holy_site = catholic
+				holy_site = cathar
 				holy_site = orthodox
 				holy_site = sunni
 				holy_site = shiite
@@ -40918,6 +40922,7 @@ e_britannia = {
 				color2 = { 255 255 255 }
 
 				holy_site = catholic
+				holy_site = cathar
 
 				b_rochester = {
 				}

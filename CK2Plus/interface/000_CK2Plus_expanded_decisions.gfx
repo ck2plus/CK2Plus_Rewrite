@@ -8,4 +8,16 @@ spriteTypes = {
 		name = "GFX_donate_money_to_keepers_tirnanog"
 		textureFile = "gfx\\interface\\decision_icon_donate_to_holy_order.dds"
 	}
+	spriteType = {
+		name = "GFX_cathar_adoption"
+		texturefile = "gfx\\interface\\decisions\\decision_icon_bastardlegit.dds"
+	}
+	spriteType = {
+		name = "GFX_cathar_consolamentum"
+		texturefile = "gfx\\interface\\decisions\\decision_icon_cleansing_ritual.dds"
+	}
+	spriteType = {
+		name = "GFX_cathar_create_papacy"
+		texturefile = "gfx\\interface\\decisions\\decision_icon_cathar_heresy.dds"
+	}
 }

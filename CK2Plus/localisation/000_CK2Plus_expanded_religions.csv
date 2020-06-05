@@ -238,3 +238,23 @@ bon;Tibetan Pagan;;;;;;;;;;;;;x
 bon_reformed;Bön;;;;;;;;;;;;;x
 bon_DESC;Gnyan'po Cho'ga, or 'Sacred Rites', are the Tibetan pre-Buddhism shamanist beliefs. Tibetan shamanism believes in a three-levelled cosmos. The top level, home of benevolent gods, the middle level that is home to the sibda or 'lords of the soil' as well as the spirits of the dead and mortals and finally the lower level, the home of the snake gods.\nSymbolically a ladder or rope connects the middle and top levels of this cosmos together. The kings of these realms were considered divine and when their mortal body would die a complex burial ritual was completed to allow their soul to ascend the upper levels via this rope.\nOver time many of the traditions of this pagan belief system would become incorporated into the Tibetan variant of Buddhism, Bön.;;;;;;;;;;;;;x
 bon_reformed_DESC;Bön is the Tibetan religion that arose from the amalgamation of ancient Tibetan beliefs and Indian Buddhism that had been sponsored in the 7th century in Tibet. While very similar in many ways to Buddhism this complex history allowed it to retain many of its ancient shamanistic beliefs and traditions that make it distinct to Indian Buddhism.\n;;;;;;;;;;;;;x
+
+#######################
+#
+#   Cathar
+#
+#######################
+
+CATHAR_MATRIARCH;Cathar Matriarch;Matriarche Cathare;Katharer Matriarchin;;Matriarca Catar;;;;;;;;;x
+CATHAR_PATRIARCH;Cathar Patriarch;Patriarche Cathare;Katharer Patriarch;;Patriarca Catar;;;;;;;;;x
+CATHAR_PATRIARCH_tooltip;The next Patriarch;;;;;;;;;;;;;x
+title_cathar_deacon;Deacon;Deacon;Deacon;;Diácono;;;;;;;;;x
+title_cathar_deacon_female;Deaconess;Deaconess;Deaconess;;Diaconisa;;;;;;;;;x
+d_cathar;The Cathar Patriarchy;The Cathar Patriarchy;The Cathar Patriarchy;;The Cathar Patriarchy;;;;;;;;x
+d_cathar_adj;Patriarchal;Patriarchal;Patriarchal;;Patriarchal;;;;;;;;x
+
+# Interface
+expected_next_title_cathar_deacon;Expected Next Member;Expected Next Member;Expected Next Member;;Expected Next Member;;;;;;;;;x
+expected_next_title_cathar_deacon_tooltip;This perfectum is probably the next member of the Circle of Perfecti, once a position becomes available.;This perfectum is probably the next member of the Circle of Perfecti, once a position becomes available.;This perfectum is probably the next member of the Circle of Perfecti, once a position becomes available.;;This perfectum is probably the next member of the Circle of Perfecti, once a position becomes available.;;;;;;;;;x
+best_candidate_title_cathar_deacon;My Best Candidate;My Best Candidate;My Best Candidate;;My Best Candidate;;;;;;;;;x
+best_candidate_title_cathar_deacon_tooltip;Of all the perfecti in my realm, this one is the likeliest to be admitted onto the Council of Perfecti.;Of all the perfecti in my realm, this one is the likeliest to be admitted onto the Council of Perfecti.;Of all the perfecti in my realm, this one is the likeliest to be admitted onto the Council of Perfecti.;;Of all the perfecti in my realm, this one is the likeliest to be admitted onto the Council of Perfecti.;;;;;;;;;x

@@ -67,6 +67,12 @@ defined_text = {
 			}
 		}
 	}
+	text = {
+		localisation_key = GetCollegeName_Perfecti
+		trigger = {
+			religion = cathar
+		}
+	}
 }
 
 defined_text = {
@@ -96,6 +102,12 @@ defined_text = {
 				religion = celtic_pagan_reformed
 				has_religion_feature = religion_matriarchal
 			}
+		}
+	}
+	text = {
+		localisation_key = Perfecti
+		trigger = {
+			religion = cathar
 		}
 	}
 }
@@ -129,6 +141,24 @@ defined_text = {
 			}
 		}
 	}
+	text = {
+		localisation_key = title_cathar_deacon
+		trigger = {
+			AND = {
+				religion = cathar
+				is_female = no
+			}
+		}
+	}
+	text = {
+		localisation_key = title_cathar_deacon_female
+		trigger = {
+			AND = {
+				religion = cathar
+				is_female = yes
+			}
+		}
+	}
 }
 
 defined_text = {
@@ -157,6 +187,24 @@ defined_text = {
 			AND = {
 				religion = celtic_pagan_reformed
 				has_religion_feature = religion_matriarchal
+			}
+		}
+	}
+	text = {
+		localisation_key = CATHAR_PATRIARCH
+		trigger = {
+			AND = {
+				religion = cathar
+				is_female = no
+			}
+		}
+	}
+	text = {
+		localisation_key = CATHAR_MATRIARCH
+		trigger = {
+			AND = {
+				religion = cathar
+				is_female = yes
 			}
 		}
 	}

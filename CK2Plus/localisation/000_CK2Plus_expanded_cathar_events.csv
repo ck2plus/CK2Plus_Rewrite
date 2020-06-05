@@ -1,0 +1,23 @@
+PlusCathar_001_desc;[Root.Guardian.GetTitledFirstNameNoRegnal] has spoken to you a great deal about the ideals behind the Cathar faith, and how one who aspires to be closer to God must conduct themselves. [Root.Guardian.GetHerHisCap] words have made a great impact upon you.;;;;;;;;;;;;;x
+PlusCathar_001_a;I will be a good Cathar, I think;;;;;;;;;;;;;x
+PlusCathar_002_desc;The Cathar Church frowns upon contact with members of the opposite sex. Thus you are raised mostly among other Cathar [GetBoyGirl]s, and rarely see [GetBoyGirlOpp]s your age at all. You start to feel strange urges, and it occurs to you that the church really only frowns upon reproduction...;;;;;;;;;;;;;x
+PlusCathar_002_a;It's technically not banned...;;;;;;;;;;;;;x
+PlusCathar_003_desc;A life of sinful urges is not something you can relegate yourself to. You are a devout Cathar, and that means that such sins are best put behind you.;;;;;;;;;;;;;x
+PlusCathar_003_a;For the glory of God!;;;;;;;;;;;;;x
+PlusCathar_005_desc;Another lost soul brought into this world. Although your new child fills you with joy, you know that having children is frowned upon by the Cathar Church.;;;;;;;;;;;;;x
+PlusCathar_005_a;I love [From.GetHerHim] anyway;;;;;;;;;;;;;x
+PlusCathar_006_desc;After a long search, a young boy has been found who might make for an ideal candidate. Your councillors tell you he comes from an orphanage in [adopted_province.GetName], his parents both killed by a recent plague. Although a bit grimy and shy, you feel the child might make a good ruler one day, provided he is cleaned up and raised properly.;;;;;;;;;;;;;x
+PlusCathar_006_a;I suppose he will do;;;;;;;;;;;;;x
+PlusCathar_007;The Council of Saint-Félix;;;;;;;;;;;;;x
+PlusCathar_007_desc;A Cathar heresy has been brewing for some time, begun by numerous ascetic priests who espouse strange beliefs regarding there being two Gods--a 'Good God' who created the spiritual realm, and an 'Evil God' who created the material realm and all of humanity, and the reason why all humans are filled with sin--but with the gathering of these priests at a council in the province of Carcassonne, the heresy has begun to spread like wildfire. At this council, the priests codified many of their laws and spread territories into 'bishoprics', and they have since gained many followers.;;;;;;;;;;;;;x
+PlusCathar_007_a;Another heresy? In MY lands?!;;;;;;;;;;;;;x
+PlusCathar_007_b;This heresy must be stopped!;;;;;;;;;;;;;x
+PlusCathar_007_c;They are led by a Bogomilist, I hear;;;;;;;;;;;;;x
+PlusCathar_008;The Albigensian Crusade;;;;;;;;;;;;;x
+PlusCathar_008_desc;The Cathar faithful desire nothing more than peace, but the men of this evil world will not let that be. And so, a change in philosophy is in order. The Cathar are now permitted, no required, to make holy war upon the unbelievers in order to drive them off and bring about the salvation of mankind.;;;;;;;;;;;;;x
+PlusCathar_008_a;So must it be;;;;;;;;;;;;;x
+PlusCathar_010;The Cathar Patriarchy;;;;;;;;;;;;;x
+PlusCathar_010_desc;The growing power of the Cathar Church has led it to organize itself as a reflection of the Catholic Church. Created through the political will of [From.GetTitledName], this new Church has a leader: [new_cathar_pope.GetTitledName], elected at a special gathering of bishops in [From.Capital.GetName]. The Cathar world rejoices at the news!;;;;;;;;;;;;;x
+PlusCathar_010_a;Is this their idea of a Pope?;;;;;;;;;;;;;x
+PlusCathar_010_b;And so the Christian world devours itself;;;;;;;;;;;;;x
+PlusCathar_010_c;Glory to Jesus!;;;;;;;;;;;;;x
