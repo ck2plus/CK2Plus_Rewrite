@@ -7,4 +7,19 @@
 #####################
 
 #Character
-plus_favor;Owes a §YFavor§!.;Doit une §Faveur§!;Verdankt einen §Gefallen§!;;Debe un §Favor§!;;;;;;;;;x
+plus_favor;Owes a ï¿½YFavorï¿½!.;Doit une ï¿½Faveurï¿½!;Verdankt einen ï¿½Gefallenï¿½!;;Debe un ï¿½Favorï¿½!;;;;;;;;;x
+
+plus_legitimize_him;Declare [This.GetHerHim] your legitimate child;;;;;;;;;;;;;x
+plus_buy_off_with_estate;Give [From.GetTitledFirstName] an estate off of which to live;;;;;;;;;;;;;x
+
+PLUS_IN_COMMAND_TOOLTIP;In command of an army while at war\n;;;;;;;;;;;;;x
+PLUS_IS_ABROAD_TOOLTIP;Is currently abroad\n;;;;;;;;;;;;;x
+plus_is_not_busy_trigger_tooltip;Is currently not involved in an important event\n;;;;;;;;;;;;;x
+
+#Ambition 'befriend_liege'
+make_friend_attempt_tooltip;[Root.GetFirstName] tries to make a friend.;;;;;;;;;;;;;x
+make_friend_sad_tooltip;[From.GetTitledFirstName] is refused.;;;;;;;;;;;;;x
+make_friend_success_tooltip;A friendship is formed.;;;;;;;;;;;;;x
+
+IS_ABROAD_TOOLTIP;Is currently abroad\n;;;;;;;;;;;;;x
+IN_COMMAND_TOOLTIP;In command of an army while at war\n;;;;;;;;;;;;;x

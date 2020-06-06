@@ -1,0 +1,26 @@
+#######
+#Plus Timers:
+#
+#Total = 05
+#######
+
+plus_ai_objective_timer = {
+	icon = 1
+}
+
+plus_loan_timer = {
+	icon = 24
+	monthly_character_piety = -0.25
+}
+
+plus_ai_austerity = {
+	icon = 1
+}
+
+plus_do_not_disturb = {
+	icon = 1
+}
+
+plus_lower_decadence_obj_timer={
+	icon = 15
+}

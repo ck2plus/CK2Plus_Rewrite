@@ -1,0 +1,474 @@
+namespace = PerformancePlus
+namespace = PlusAmbitions.befriendLiege
+
+#######################################
+# AMBITION EVENTS
+#######################################
+
+character_event = {
+	id = PerformancePlus.900
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	capable_only = yes
+	min_age = 16
+	prisoner = no
+	
+	trigger = {
+		OR = {
+			has_ambition = obj_make_friends
+			has_ambition = obj_befriend_liege
+		}
+		plus_in_command_trigger = no
+		is_councillor = yes
+		NOT = { is_inaccessible_trigger = yes }
+		liege = {
+			age = 16
+			prisoner = no
+			plus_in_command_trigger = no
+			NOR = {
+				trait = incapable
+				is_friend = ROOT
+				is_rival = ROOT
+				num_of_friends = 2
+				is_inaccessible_trigger = yes
+			}
+			OR = {
+				AND = {
+					is_female = no
+					ROOT = { is_female = no }
+				}
+				AND = {
+					is_female = yes
+					ROOT = { is_female = yes }
+				}
+			}
+			OR = {
+				NOT = { has_character_flag = approached_for_friendship }
+				had_character_flag = { flag = approached_for_friendship days = 365 }
+			}
+		}
+		opinion = { who = liege value = 10 }
+	}
+	
+	immediate = {
+		random_list = {
+			3 = {
+				character_event = { id = PlusAmbitions.befriendLiege.000 days = 60 random = 30 }
+			}
+			32 = {
+				modifier = {
+					factor = 0.75
+					trait = gregarious
+				}
+				modifier = {
+					factor = 0.5
+					liege = { is_close_relative = ROOT }
+				}
+				modifier = {
+					factor = 0.5
+					liege = { has_ambition = obj_make_friends }
+				}
+				modifier = {
+					factor = 0.65
+					opinion = { who = LIEGE value = 75 }
+				}
+			}
+		}
+	}
+}
+
+### Councillor tries to befriend liege
+character_event = {
+	id = PlusAmbitions.befriendLiege.000
+	desc = EVTDESC_PlusAmbitions_befriendLiege_000
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+
+	prisoner = no
+	min_age = 16
+	capable_only = yes
+
+	trigger = {
+		OR = {
+			has_ambition = obj_make_friends
+			has_ambition = obj_befriend_liege
+		}
+		plus_in_command_trigger = no
+		is_councillor = yes
+		NOT = { is_inaccessible_trigger = yes }
+		liege = {
+			age = 16
+			prisoner = no
+			plus_in_command_trigger = no
+			NOR = {
+				trait = incapable
+				is_friend = ROOT
+				is_rival = ROOT
+				num_of_friends = 2
+				is_inaccessible_trigger = yes
+			}
+			OR = {
+				AND = {
+					is_female = no
+					ROOT = { is_female = no }
+				}
+				AND = {
+					is_female = yes
+					ROOT = { is_female = yes }
+				}
+			}
+			OR = {
+				NOT = { has_character_flag = approached_for_friendship }
+				had_character_flag = { flag = approached_for_friendship days = 365 }
+			}
+		}
+		opinion = { who = liege value = 10 }
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_befriendLiege_000  # Let's try
+		ai_chance = { factor = 95 }
+		liege = {
+			set_character_flag = approached_for_friendship
+			character_event = {
+				id = PlusAmbitions.befriendLiege.001
+				days = 1
+				random = 3
+				tooltip = make_friend_attempt_tooltip
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_befriendLiege_000  # Maybe later
+		ai_chance = { factor = 5 }
+		random = {
+			chance = 10
+			add_trait = shy
+		}
+	}
+
+}
+
+# Liege responds
+character_event = {
+	id = PlusAmbitions.befriendLiege.001
+	desc = EVTDESC_PlusAmbitions_befriendLiege_001
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_befriendLiege_001 # Make Friends
+		add_friend = FROM
+		FROM = {
+			character_event = {
+				id = PlusAmbitions.befriendLiege.002
+				days = 1
+				random = 3
+				tooltip = make_friend_success_tooltip
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_befriendLiege_001 # Rebuff him
+		FROM = {
+			character_event = {
+				id = PlusAmbitions.befriendLiege.003
+				days = 1
+				random = 3
+				tooltip = make_friend_sad_tooltip
+			}
+		}
+	}
+}
+
+# Friends - councillor and liege
+character_event = {
+	id = PlusAmbitions.befriendLiege.002
+	desc = EVTDESC_PlusAmbitions_befriendLiege_002
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EXCELLENT"
+		add_friend = FROM
+	}
+}
+
+# Sad - councillor and liege
+character_event = {
+	id = PlusAmbitions.befriendLiege.003
+	desc = EVTDESC_PlusAmbitions_befriendLiege_003
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = "SO_BE_IT"
+		opinion = {
+			modifier = opinion_sad
+			who = FROM
+			years = 2
+		}
+	}
+}
+
+character_event = {
+	id = PerformancePlus.910
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	capable_only = yes
+	min_age = 16
+	prisoner = no
+	
+	trigger = {
+		OR = {
+			has_ambition = obj_make_friends
+			has_ambition = obj_befriend_liege
+			liege = { has_ambition = obj_make_friends }
+		}
+		plus_in_command_trigger = no
+		OR = {
+			trait = duelist
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+        is_female = no
+		#OR = {
+		#	is_female = no
+		#	trait = martial_lady
+		#	trait = martial_lady_tengri
+		#	trait = martial_lady_pagan
+		#}
+		NOT = { is_inaccessible_trigger = yes }
+		independent = no
+		liege = {
+			age = 16
+			prisoner = no
+			plus_in_command_trigger = no
+			NOT = { is_inaccessible_trigger = yes }
+            is_female = no
+			#OR = {
+			#	is_female = no
+			#	trait = martial_lady
+			#	trait = martial_lady_tengri
+			#	trait = martial_lady_pagan
+			#}
+			NOR = {
+				trait = content
+				trait = kind
+				trait = craven
+				is_weak_trigger = yes
+				trait = incapable
+				is_friend = ROOT
+				is_rival = ROOT
+				num_of_friends = 2
+			}
+			OR = {
+				NOT = { has_character_flag = approached_for_friendship }
+				had_character_flag = { flag = approached_for_friendship days = 365 }
+			}
+		}
+		opinion = { who = liege value = 10 }
+	}
+	
+	immediate = {
+		random_list = {
+			3 = {
+				character_event = { id = PlusAmbitions.befriendLiege.010 days = 60 random = 30 }
+			}
+			62 = {
+				modifier = {
+					factor = 0.85
+					trait = gregarious
+				}
+				modifier = {
+					factor = 0.65
+					liege = { is_close_relative = ROOT }
+				}
+				modifier = {
+					factor = 0.5
+					trait = duelist
+				}
+				modifier = {
+					factor = 0.5
+					liege = { trait = duelist }
+				}
+				modifier = {
+					factor = 0.5
+					liege = { has_ambition = obj_make_friends }
+				}
+				modifier = {
+					factor = 0.85
+					opinion = { who = LIEGE value = 75 }
+				}
+			}
+		}
+	}
+}
+
+### Duelist tries to befriend liege
+character_event = {
+	id = PlusAmbitions.befriendLiege.010
+	desc = EVTDESC_PlusAmbitions_befriendLiege_010
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		OR = {
+			has_ambition = obj_make_friends
+			has_ambition = obj_befriend_liege
+			liege = { has_ambition = obj_make_friends }
+		}
+		plus_in_command_trigger = no
+		OR = {
+			trait = duelist
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+        is_female = no
+		#OR = {
+		#	is_female = no
+		#	trait = martial_lady
+		#	trait = martial_lady_tengri
+		#	trait = martial_lady_pagan
+		#}
+		NOT = { is_inaccessible_trigger = yes }
+		independent = no
+		liege = {
+			age = 16
+			prisoner = no
+			plus_in_command_trigger = no
+			NOT = { is_inaccessible_trigger = yes }
+            is_female = no
+			#OR = {
+			#	is_female = no
+			#	trait = martial_lady
+			#	trait = martial_lady_tengri
+			#	trait = martial_lady_pagan
+			#}
+			NOR = {
+				trait = content
+				trait = kind
+				trait = craven
+				is_weak_trigger = yes
+				trait = incapable
+				is_friend = ROOT
+				is_rival = ROOT
+				num_of_friends = 2
+			}
+			OR = {
+				NOT = { has_character_flag = approached_for_friendship }
+				had_character_flag = { flag = approached_for_friendship days = 365 }
+			}
+		}
+		opinion = { who = liege value = 10 }
+	}
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_befriendLiege_000  # Let's try
+		ai_chance = { factor = 95 }
+		liege = {
+			set_character_flag = approached_for_friendship
+			character_event = {
+				id = PlusAmbitions.befriendLiege.011
+				days = 1
+				random = 3
+				tooltip = make_friend_attempt_tooltip
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_PlusAmbitions_befriendLiege_000  # Maybe later
+		ai_chance = { factor = 5 }
+		random = {
+			chance = 10
+			add_trait = shy
+		}
+	}
+}
+
+# Liege responds
+character_event = {
+	id = PlusAmbitions.befriendLiege.011
+	desc = EVTDESC_PlusAmbitions_befriendLiege_011
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_PlusAmbitions_befriendLiege_001 # Make Friends
+		add_friend = FROM
+		random = {
+			chance = 25
+			change_martial = 1
+		}
+		hidden_tooltip = { change_variable = { which = lifestyle_martial value = 1 } }
+		FROM = {
+			character_event = {
+				id = PlusAmbitions.befriendLiege.012
+				days = 1
+				random = 3
+				tooltip = make_friend_success_tooltip
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_PlusAmbitions_befriendLiege_001 # Rebuff him
+		FROM = {
+			character_event = {
+				id = PlusAmbitions.befriendLiege.013
+				days = 1
+				random = 3
+				tooltip = make_friend_sad_tooltip
+			}
+		}
+	}
+}
+
+# Friends - duelist and liege
+character_event = {
+	id = PlusAmbitions.befriendLiege.012
+	desc = EVTDESC_PlusAmbitions_befriendLiege_012
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EXCELLENT"
+		hidden_tooltip = { change_variable = { which = lifestyle_martial value = 1 } }
+		add_friend = FROM
+	}
+}
+
+# Sad - duelist and liege
+character_event = {
+	id = PlusAmbitions.befriendLiege.013
+	desc = EVTDESC_PlusAmbitions_befriendLiege_013
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = "SO_BE_IT"
+		opinion = {
+			modifier = opinion_sad
+			who = FROM
+			years = 2
+		}
+	}
+}

@@ -6,14 +6,25 @@
 #
 ###############################
 
-plus_construction_focus;Construction Focus;Focus de la construction;Baufokus;;Enfoque de construcción;;;;;;;;;x
-plus_construction_focus_desc;This province is focusing on construction.;Cette province se concentre sur la construction.;Diese Provinz konzentriert sich auf den Bau.;;Esta provincia se está centrando en la construcción.;;;;;;;;;x
+plus_construction_focus;Construction Focus;Focus de la construction;Baufokus;;Enfoque de construcciï¿½n;;;;;;;;;x
+plus_construction_focus_desc;This province is focusing on construction.;Cette province se concentre sur la construction.;Diese Provinz konzentriert sich auf den Bau.;;Esta provincia se estï¿½ centrando en la construcciï¿½n.;;;;;;;;;x
 
-plus_faction_abandoned;Abandoned Faction;Faction Abandonnée;Verlassene Fraktion;;Facción abandonada;;;;;;;;;x
-plus_faction_abandoned_desc;This character has previously left one of the main five factions.;Ce personnage a précédemment quitté l'une des cinq principales factions.;Dieser Charakter hat zuvor eine der fünf Hauptfraktionen verlassen.;;Este personaje ha dejado previamente una de las cinco facciones principales.;;;;;;;;;x
+plus_faction_abandoned;Abandoned Faction;Faction Abandonnï¿½e;Verlassene Fraktion;;Facciï¿½n abandonada;;;;;;;;;x
+plus_faction_abandoned_desc;This character has previously left one of the main five factions.;Ce personnage a prï¿½cï¿½demment quittï¿½ l'une des cinq principales factions.;Dieser Charakter hat zuvor eine der fï¿½nf Hauptfraktionen verlassen.;;Este personaje ha dejado previamente una de las cinco facciones principales.;;;;;;;;;x
 
-plus_increased_spy_reports;Increased Spy Reports;Augmentation des Rapports d'espionnage;Erhöhte Spionageberichte;;Aumento de Informes de Espías;;;;;;;;;x
-plus_increased_spy_reports_desc;This character has more watchful eyes available.;Ce personnage a des yeux plus vigilants disponibles.;Dieser Charakter hat wachsamere Augen zur Verfügung.;;Este personaje tiene más ojos vigilantes disponibles.;;;;;;;;;x
+plus_increased_spy_reports;Increased Spy Reports;Augmentation des Rapports d'espionnage;Erhï¿½hte Spionageberichte;;Aumento de Informes de Espï¿½as;;;;;;;;;x
+plus_increased_spy_reports_desc;This character has more watchful eyes available.;Ce personnage a des yeux plus vigilants disponibles.;Dieser Charakter hat wachsamere Augen zur Verfï¿½gung.;;Este personaje tiene mï¿½s ojos vigilantes disponibles.;;;;;;;;;x
 
-plus_new_roads;New Roads;Nouvelles Routes;Neue Straßen;;Nuevos Caminos;;;;;;;;;x
-plus_new_roads_desc;This province has improved roads.;Cette province a amélioré les routes.;Diese Provinz hat Straßen verbessert.;;Esta provincia ha mejorado las carreteras.;;;;;;;;;x
+plus_new_roads;New Roads;Nouvelles Routes;Neue Straï¿½en;;Nuevos Caminos;;;;;;;;;x
+plus_new_roads_desc;This province has improved roads.;Cette province a amï¿½liorï¿½ les routes.;Diese Provinz hat Straï¿½en verbessert.;;Esta provincia ha mejorado las carreteras.;;;;;;;;;x
+
+plus_attentive_liege;Attentive Liege;;;;;;;;;;;;;x
+plus_attentive_liege_desc;The ruler is paying attention to their lands, ensuring that nothing goes wrong--at least for a while.;;;;;;;;;;;;;x
+
+plus_away_from_court;Away From Court;;;;;;;;;;;;;x
+plus_away_from_court_desc;When someone is away from their home court leading armies, it is much more difficult for them to discover plots...and all but impossible to have more children.;;;;;;;;;;;;;x
+
+plus_estates_1;Minor Estates;;;;;;;;;;;;;x
+plus_estates_1_desc;Provides a character with a yearly income of ï¿½G1.00ï¿½! wealth.;;;;;;;;;;;;;x
+
+plus_do_not_disturb;Currently busy\n;Currently busy\n;Currently busy\n;;Currently busy\n;;;;;;;;;x

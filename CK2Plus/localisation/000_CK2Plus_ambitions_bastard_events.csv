@@ -1,0 +1,21 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+EVTDESC_PlusAmbitions_bastard_0000;I have been gearing up for this confrontation for some time now. I have gained an audience, and will ask my father to recognize me.;;;;;;;;;;;;;x
+EVTOPTA_PlusAmbitions_bastard_0000;It's now or never...;;;;;;;;;;;;;x
+
+EVTDESC_PlusAmbitions_bastard_0001;It was rather unexpected when [From.GetTitledFirstName] asked for an audience, but when [From.GetSheHe] arrived [From.GetSheHe] explained that [From.GetSheHe] is a fully-grown [From.GetManWoman]...one that [From.GetSheHe] hopes is worthy of being considered your legitimate [GetFromRelation].;;;;;;;;;;;;;x
+EVTOPTA_PlusAmbitions_bastard_0001;That is not going to happen;;;;;;;;;;;;;x
+EVTOPTB_PlusAmbitions_bastard_0001;Convince [From.GetHerHim] why this cannot be;;;;;;;;;;;;;x
+EVTOPTC_PlusAmbitions_bastard_0001;Refuse, but buy [From.GetHerHim] an estate;;;;;;;;;;;;;x
+EVTOPTD_PlusAmbitions_bastard_0001;Legitimize [From.GetHerHim];;;;;;;;;;;;;x
+
+EVTDESC_PlusAmbitions_bastard_0002;[From.GetTitledFirstName] shook his head. 'No,' he said. 'That is simply never going to happen. Put it out of your head.' Then he had me escorted from the court.;;;;;;;;;;;;;x
+EVTOPTA_PlusAmbitions_bastard_0002;So be it;;;;;;;;;;;;;x
+EVTOPTB_PlusAmbitions_bastard_0002;This isn't right!;;;;;;;;;;;;;x
+
+EVTDESC_PlusAmbitions_bastard_0003;[From.GetTitledFirstName] listened to me for some time, and then he sat me down and we talked at length. He explained the political realities in [From.PrimaryTitle.GetName], and why legitimizing me would complicate things. I'm disappointed, but I do see the truth in his words.;;;;;;;;;;;;;x
+
+EVTDESC_PlusAmbitions_bastard_0004;[From.GetTitledFirstName] listened to my plea for some time. While he ultimately did refuse to legitimize me, he offered me an estate off of which to live. It will make me a [Root.GetLordLady] of [From.PrimaryTitle.GetName], but is that enough?;;;;;;;;;;;;;x
+EVTOPTB_PlusAmbitions_bastard_0004;No, it's not enough!;;;;;;;;;;;;;x
+
+EVTDESC_PlusAmbitions_bastard_0005;'Know that I, [From.GetTitledName], hereby consider [Root.GetTitledFirstName] to be my legitimate child and to be considered such throughout [From.PrimaryTitle.GetName]. [Root.GetSheHeCap] will take [Root.GetHerHis] rightful place within the [From.GetOnlyDynastyName] dynasty and among my heirs. By the grace of [From.Religion.GetRandomGodName] shall this be so.';;;;;;;;;;;;;x

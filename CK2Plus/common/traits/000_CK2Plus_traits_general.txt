@@ -18,3 +18,67 @@ baby_toddler = {	# this one actually applies modifiers, always active
 	ai_zeal = -10
 	ai_rationality = -20
 }
+
+
+exalted2 = {
+	customizer = no
+	random = no
+
+	opposites = {
+		exalted1
+		exalted3
+		exalted4
+	}
+
+	general_opinion = 15
+	command_modifier = {
+		morale_offence = 0.10
+		morale_defence = 0.10
+	}
+	ai_ambition = 20
+
+	male_compliment_adj = COMPL_GREAT
+	female_compliment_adj = COMPL_GREAT
+}
+
+exalted3 = {
+	customizer = no
+	random = no
+
+	opposites = {
+		exalted1
+		exalted2
+		exalted4
+	}
+
+	general_opinion = 20
+	command_modifier = {
+		morale_offence = 0.15
+		morale_defence = 0.15
+	}
+	ai_ambition = 30
+
+	male_compliment_adj = COMPL_GREAT
+	female_compliment_adj = COMPL_GREAT
+}
+
+exalted4 = {
+	customizer = no
+	random = no
+
+	opposites = {
+		exalted1
+		exalted2
+		exalted3
+	}
+
+	general_opinion = 25
+	command_modifier = {
+		morale_offence = 0.20
+		morale_defence = 0.20
+	}
+	ai_ambition = 40
+
+	male_compliment_adj = COMPL_GREAT
+	female_compliment_adj = COMPL_GREAT
+}

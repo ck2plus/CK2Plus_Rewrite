@@ -10,9 +10,49 @@ on_startup = {
 on_yearly_pulse = {
 	events = {
 		PlusTitular.001 # Destroy Dead Nations
+		
+		# MTTH events that were consuming too much time
+		PerformancePlus.900 # Councillor tries to befriend liege
+		PerformancePlus.910 # Duelist tries to befriend liege
 	}
 
 	random_events = {
+		# Lifestyle Events
+		50 = PlusAmbitions.lifestyle.0000 # Hunter
+		50 = PlusAmbitions.lifestyle.0001 # Falconer
+		50 = PlusAmbitions.lifestyle.0002 # Scholar
+		50 = PlusAmbitions.lifestyle.0003 # Mystic
+		50 = PlusAmbitions.lifestyle.0004 # Impaler
+		50 = PlusAmbitions.lifestyle.0005 # Gardener
+		50 = PlusAmbitions.lifestyle.0006 # Poet
+		50 = PlusAmbitions.lifestyle.0007 # Administrator
+		50 = PlusAmbitions.lifestyle.0008 # Hedonist
+		50 = PlusAmbitions.lifestyle.0009 # Duelist
+		50 = PlusAmbitions.lifestyle.0010 # Faqih
+		50 = PlusAmbitions.lifestyle.0011 # Architect
+		50 = PlusAmbitions.lifestyle.0012 # Strategist
+		50 = PlusAmbitions.lifestyle.0013 # Socializer
+		50 = PlusAmbitions.lifestyle.0014 # Schemer
+		50 = PlusAmbitions.lifestyle.0015 # Gamer
+		75 = PlusAmbitions.lifestyle.0016 # A traveling merchant visits during a storm
+		75 = PlusAmbitions.lifestyle.0017 # A function is happening in the capital
+		75 = PlusAmbitions.lifestyle.0018 # See your knights sparring together
+		75 = PlusAmbitions.lifestyle.0019 # Courtiers arguing about the war
+		75 = PlusAmbitions.lifestyle.0020 # A day of peace for a ruler
+		75 = PlusAmbitions.lifestyle.0021 # A disturbance in the market
+		75 = PlusAmbitions.lifestyle.0022 # Wondering about rival
+		75 = PlusAmbitions.lifestyle.0023 # Thinking about the plot
+		75 = PlusAmbitions.lifestyle.0024 # Debate with a zealous courtier
+		75 = PlusAmbitions.lifestyle.0025 # Bookseller comes to court
+
+		ambition_events = {
+			10 = PlusAmbitions.decadence.0000 # Lower Decadence - Berber Life
+			10 = PlusAmbitions.decadence.0002 # Lower Decadence - The Bandit camp
+			10 = PlusAmbitions.decadence.0006 # Lower Decadence - The Two-Headed Dromedary Hunt
+			10 = PlusAmbitions.decadence.0011 # Lower Decadence - Couriers
+			10 = PlusAmbitions.decadence.0012 # Lower Decadence - Palast stripped of Luxuries
+			10 = PlusAmbitions.decadence.0013 # Lower Decadence - Brothels Closed
+		}
 	}
 }
 

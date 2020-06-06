@@ -1,0 +1,9 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+plus_loan_timer;Loan Taken;Emprunt Contract�;Genommenes Darlehen;;Loan Taken;;;;;;;;;x
+plus_loan_timer_desc;A loan will be due for repayment at the expiration date of this modifier.;Un emprunt devra estre rembours� � la date d'expiration de ce modificateur.;Ein Darlehen muss mit Ablauf dieses Modifikators zur�ckgezahlt werden;;A loan will be due for repayment at the expiration date of this modifier.;;;;;;;;;x
+
+plus_lower_decadence_obj_timer;Can't use the Lower Decadence Objective;Ne peult point utiliser l'Objectif de Diminution de la D�cadence;Can't use the Lower Decadence Objective;;Can't use the Lower Decadence Objective;;;;;;;;;x
+
+plus_ai_austerity;Austerity;Austerity;Austerity;;Austerity;;;;;;;;;x
+plus_ai_austerity_desc;Austerity;Austerity;Austerity;;Austerity;;;;;;;;;x

@@ -5,5 +5,122 @@
 #	Plus custom ambitions
 #
 ################################
-obj_adopt_a_lifestyle_desc;I have too much free time: I need a lifestyle;J'ai trop de temps libre: j'ai besoin d'un style de vie;Ich habe zu viel Freizeit: Ich brauche einen Lebensstil;;Tengo demasiado tiempo libre: necesito un estilo de vida;;;;;;;;;x
-obj_adopt_a_lifestyle_title;Adopt a Lifestyle;Adoptez un style de vie;Einen Lebensstil annehmen;;Adopta un estilo de vida;;;;;;;;;x
+obj_adopt_a_lifestyle_desc;[This.GetTitledFirstName] wants an exciting hobby to pursue.;;;;;;;;;;;;;x
+obj_adopt_a_lifestyle_title;Adopt a Lifestyle;;;;;;;;;;;;;x
+
+obj_amass_wealth_2_desc;[This.GetTitledFirstName] wants to amass a substantial amount of wealth;;;;;;;;;;;;;x
+obj_amass_wealth_2_title;Amass Wealth;;;;;;;;;;;;;x
+
+obj_amass_wealth_3_desc;[This.GetTitledFirstName] wants to amass a substantial amount of wealth;;;;;;;;;;;;;x
+obj_amass_wealth_3_title;Amass Wealth;;;;;;;;;;;;;x
+
+obj_amass_wealth_4_desc;[This.GetTitledFirstName] wants to amass a substantial amount of wealth;;;;;;;;;;;;;x
+obj_amass_wealth_4_title;Amass Wealth;;;;;;;;;;;;;x
+
+obj_be_legitimized_desc;[This.GetTitledFirstName] wants to have [This.GetHerHis] father to recognize [This.GetHerHis] legitimacy, and thus grant [This.GetHerHim] a proper inheritance.;;;;;;;;;;;;;x
+obj_be_legitimized_title;Be Legitimized;;;;;;;;;;;;;x
+
+obj_become_exalted_2_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;;;;;;;;;;;;;x
+obj_become_exalted_2_title;Become Exalted among Men;;;;;;;;;;;;;x
+
+obj_become_exalted_3_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;;;;;;;;;;;;;x
+obj_become_exalted_3_title;Become Exalted among Men;;;;;;;;;;;;;x
+
+obj_become_exalted_4_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;;;;;;;;;;;;;x
+obj_become_exalted_4_title;Become Exalted among Men;;;;;;;;;;;;;x
+
+obj_become_independent_desc;[This.GetTitledFirstName] desires independence from [This.GetHerHis] tyrannical liege.;;;;;;;;;;;;;x
+obj_become_independent_title;Become Independent;;;;;;;;;;;;;x
+
+obj_become_duke_desc;[This.GetTitledFirstName] is not satisfied with being a mere Count.;;;;;;;;;;;;;x
+obj_become_duke_title;Gain a Duchy;;;;;;;;;;;;;x
+
+obj_become_multiduke_desc;[This.GetTitledFirstName] seeks to become a powerful Grand Duke with a second ducal title;;;;;;;;;;;;;x
+obj_become_multiduke_title;Become a Grand Duke;;;;;;;;;;;;;x
+
+obj_become_emperor_desc;[This.GetTitledFirstName] aspires to the lofty heights of an Emperorship.;;;;;;;;;;;;;x
+obj_become_emperor_title;Become Emperor;;;;;;;;;;;;;x
+
+obj_befriend_liege_desc;[This.GetTitledFirstName] wants to show [This.GetHerHis] loyalty and devotion to [This.Liege.GetTitledFirstName].;;;;;;;;;;;;;x
+obj_befriend_liege_title;Befriend [This.Liege.GetTitledFirstName];;;;;;;;;;;;;x
+
+obj_befriend_top_liege_desc;[This.GetTitledFirstName] wants to show [This.GetHerHis] loyalty and devotion to [This.TopLiege.GetTitledFirstName].;;;;;;;;;;;;;x
+obj_befriend_top_liege_title;Befriend [This.TopLiege.GetTitledFirstName];;;;;;;;;;;;;x
+
+obj_befriend_relhead_desc;[This.GetTitledFirstName] wants to show [This.GetHerHis] loyalty and devotion to [This.RelHead.GetTitledFirstName].;;;;;;;;;;;;;x
+obj_befriend_relhead_title;Befriend [This.RelHead.GetTitledFirstName];;;;;;;;;;;;;x
+
+obj_break_out_of_prison_desc;[This.GetTitledFirstName] wants [This.GetHerHis] freedom back.;;;;;;;;;;;;;x
+obj_break_out_of_prison_title;Get Out of Prison;;;;;;;;;;;;;x
+
+obj_great_council_desc;[This.GetTitledFirstName] wants to unite the greatest minds in the known world, and have them serve on [This.GetHerHis] council.;;;;;;;;;;;;;x
+obj_great_council_title;Assemble a Great Council;;;;;;;;;;;;;x
+
+obj_go_crusade_desc;[This.GetTitledFirstName] wants to join the Crusade against the infidels.;;;;;;;;;;;;;x
+obj_go_crusade_title;Take the Cross;;;;;;;;;;;;;x
+
+obj_go_jihad_desc;[This.GetTitledFirstName] wants to join the Jihad against the infidels.;;;;;;;;;;;;;x
+obj_go_jihad_title;Join the Jihad;;;;;;;;;;;;;x
+
+obj_have_five_children_desc;[This.GetTitledFirstName] wants a large family and many children to carry on [This.GetHerHis] legacy.;;;;;;;;;;;;;x
+obj_have_five_children_title;Have Five Children;;;;;;;;;;;;;x
+
+obj_have_ten_children_desc;[This.GetTitledFirstName] wants a large family and many children to carry on [This.GetHerHis] legacy.;;;;;;;;;;;;;x
+obj_have_ten_children_title;Have Ten Children;;;;;;;;;;;;;x
+
+obj_have_fifteen_children_desc;[This.GetTitledFirstName] wants a large family and many children to carry on [This.GetHerHis] legacy.;;;;;;;;;;;;;x
+obj_have_fifteen_children_title;Have Fifteen Children;;;;;;;;;;;;;x
+
+obj_have_twenty_children_desc;[This.GetTitledFirstName] wants a large family and many children to carry on [This.GetHerHis] legacy.;;;;;;;;;;;;;x
+obj_have_twenty_children_title;Have Twenty Children;;;;;;;;;;;;;x
+
+obj_increase_demesne_1_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_1_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_increase_demesne_2_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_2_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_increase_demesne_3_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_3_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_increase_demesne_4_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_4_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_increase_demesne_5_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_5_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_increase_demesne_6_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_6_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_increase_demesne_7_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_7_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_increase_demesne_8_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_8_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_increase_demesne_9_desc;[This.GetTitledFirstName] is not satisfied with the size of [This.GetHerHis] lands.;;;;;;;;;;;;;x
+obj_increase_demesne_9_title;Increase Size of Demesne;;;;;;;;;;;;;x
+
+obj_known_for_virtue_desc;[This.GetTitledFirstName] seeks to become known for [This.GetHerHis] virtues.;;;;;;;;;;;;;x
+obj_known_for_virtue_title;Become Known for Virtue;;;;;;;;;;;;;x
+
+obj_lower_decadence50_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence50_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence55_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence55_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence60_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence60_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence65_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence65_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence70_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence70_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence75_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence75_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
+
+obj_lower_decadence80_desc;[This.GetTitledFirstName] wants to lower the decadence of [This.GetHerHis] dynasty;;;;;;;;;;;;;x
+obj_lower_decadence80_title;Lower Dynastic Decadence;;;;;;;;;;;;;x
