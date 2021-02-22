@@ -7,45 +7,80 @@
 # See PlusGreatSchism.054 - 058
 
 assign_pentarch_CK2Plus_effect = {
-	# Check for absence of autocephalous patriarch
+	# The Pope's lackeys don't care about the other pentarchs' authority
 	if = {
 		limit = {
+			b_roma = {
+				holder_scope = {
+					character = event_target:event_liege_religious_head
+					has_landed_title = k_papal_state
+				}
+			}
+		}
+
+		PREV = {
+			set_pentarch_title = b_roma
+			log = "[This.GetID]: Pentarch of Rome was assigned the [This.GetFullBaseName]"
+		}
+	}
+
+	# In realm with autocephalous patriarch
+	else_if = {
+		limit = {
+			# Check for presence of autocephalous patriarch
 			event_target:event_liege = {
-				NOR = {
+				any_demesne_title = {
+					higher_tier_than = DUKE
+					has_flag = has_autocephalous_patriarch
+				}
+
+				any_liege = {
 					any_demesne_title = {
 						higher_tier_than = DUKE
 						has_flag = has_autocephalous_patriarch
 					}
+				}
+			}
+			# Avoid conflicts due to de jure kingdom/empire overriding autocephalous patriarchs
+			PREV = {
+				NOR = {
+					kingdom = {
+						has_holder = yes
 
-					any_liege = {
-						any_demesne_title = {
-							higher_tier_than = DUKE
-							has_flag = has_autocephalous_patriarch
+						holder_scope = {
+							#OR = {
+								religion = ROOT
+							#	is_heresy_of = ROOT
+							#	is_parent_religion = ROOT
+							#}
+							NOT = { same_realm = ROOT }
+						}
+					}
+					empire = {
+						has_holder = yes
+
+						holder_scope = {
+							#OR = {
+								religion = ROOT
+							#	is_heresy_of = ROOT
+							#	is_parent_religion = ROOT
+							#}
+							NOT = { same_realm = ROOT }
 						}
 					}
 				}
 			}
 		}
 
-		# The Pope's lackeys don't care about the other pentarchs' authority
-		if = {
-			limit = {
-				b_roma = {
-					holder_scope = {
-						character = event_target:event_liege_religious_head
-						has_landed_title = k_papal_state
-					}
-				}
-			}
-
-			PREV = {
-				set_pentarch_title = b_roma
-				log = "[This.GetID]: Pentarch of Rome was assigned the [This.GetFullBaseName]"
-			}
+		PREV = {
+			log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], under autocephalous patriarch"
+			set_pentarch_title = 0
 		}
+	}
 
-		# Others do respect the other pentarchs' authority
-		else_if = {
+	# Others do respect the other pentarchs' authority
+	else = {
+		if = {
 			limit = {
 				# Check if a patriarch exists
 				b_roma = {
@@ -262,12 +297,12 @@ assign_pentarch_CK2Plus_effect = {
 						which = local_current_distance_from_constantinople
 					}
 
-					# Track shortest distance yet found
+					# Track smallest distance yet found
 					clear_flags_with_prefix = closest_
 					set_flag = closest_pentarch_is_constantinople
 
 					set_variable = {
-						which = local_shortest_distance_found
+						which = local_smallest_distance_found
 						which = local_distance_from_constantinople
 					}
 				}
@@ -283,7 +318,7 @@ assign_pentarch_CK2Plus_effect = {
 						}
 						distance = { # Needs to be closer than closest found so far
 							where = 764 # c_antiocheia/Antioch
-							value < local_shortest_distance_found
+							value < local_smallest_distance_found
 						}
 					}
 
@@ -341,30 +376,30 @@ assign_pentarch_CK2Plus_effect = {
 						which = local_current_distance_from_antioch
 					}
 
-					# Track shortest distance yet found
+					# Track smallest distance yet found
 					if = {
 						limit = { has_flag = closest_pentarch_not_yet_found }
 
 						set_variable = {
-							which = local_shortest_distance_found
+							which = local_smallest_distance_found
 							which = local_distance_from_antioch
 						}
 
-						# Track shortest distance yet found
+						# Track smallest distance yet found
 						clear_flags_with_prefix = closest_
 						set_flag = closest_pentarch_is_antioch
 					}
 					else_if = {
-						limit = { # new distance is shorter than previous shortest distance
+						limit = { # new distance is smaller than previous smallest distance
 							NOT = {
 								check_variable = {
 									which = local_distance_from_antioch
-									which = local_shortest_distance_found
+									which = local_smallest_distance_found
 								}
 							}
 						}
 						set_variable = {
-							which = local_shortest_distance_found
+							which = local_smallest_distance_found
 							which = local_distance_from_antioch
 						}
 
@@ -387,7 +422,7 @@ assign_pentarch_CK2Plus_effect = {
 						}
 						distance = { # Needs to be closer than closest found so far
 							where = 774 # c_jerusalem/Jerusalem
-							value < local_shortest_distance_found
+							value < local_smallest_distance_found
 						}
 					}
 
@@ -449,30 +484,30 @@ assign_pentarch_CK2Plus_effect = {
 						which = local_current_distance_from_jerusalem
 					}
 
-					# Track shortest distance yet found
+					# Track smallest distance yet found
 					if = {
 						limit = { has_flag = closest_pentarch_not_yet_found }
 
 						set_variable = {
-							which = local_shortest_distance_found
+							which = local_smallest_distance_found
 							which = local_distance_from_jerusalem
 						}
 
-						# Track shortest distance yet found
+						# Track smallest distance yet found
 						clear_flags_with_prefix = closest_
 						set_flag = closest_pentarch_is_jerusalem
 					}
 					else_if = {
-						limit = { # new distance is shorter than previous shortest distance
+						limit = { # new distance is smaller than previous smallest distance
 							NOT = {
 								check_variable = {
 									which = local_distance_from_jerusalem
-									which = local_shortest_distance_found
+									which = local_smallest_distance_found
 								}
 							}
 						}
 						set_variable = {
-							which = local_shortest_distance_found
+							which = local_smallest_distance_found
 							which = local_distance_from_jerusalem
 						}
 
@@ -495,7 +530,7 @@ assign_pentarch_CK2Plus_effect = {
 						}
 						distance = { # Needs to be closer than closest found so far
 							where = 802 # c_alexandria/Alexandria
-							value < local_shortest_distance_found
+							value < local_smallest_distance_found
 						}
 					}
 
@@ -557,30 +592,30 @@ assign_pentarch_CK2Plus_effect = {
 						which = local_current_distance_from_alexandria
 					}
 
-					# Track shortest distance yet found
+					# Track smallest distance yet found
 					if = {
 						limit = { has_flag = closest_pentarch_not_yet_found }
 
 						set_variable = {
-							which = local_shortest_distance_found
+							which = local_smallest_distance_found
 							which = local_distance_from_antioch
 						}
 
-						# Track shortest distance yet found
+						# Track smallest distance yet found
 						clear_flags_with_prefix = closest_
 						set_flag = closest_pentarch_is_alexandria
 					}
 					else_if = {
-						limit = { # new distance is shorter than previous shortest distance
+						limit = { # new distance is smaller than previous smallest distance
 							NOT = {
 								check_variable = {
 									which = local_distance_from_alexandria
-									which = local_shortest_distance_found
+									which = local_smallest_distance_found
 								}
 							}
 						}
 						set_variable = {
-							which = local_shortest_distance_found
+							which = local_smallest_distance_found
 							which = local_distance_from_alexandria
 						}
 
@@ -604,7 +639,7 @@ assign_pentarch_CK2Plus_effect = {
 						}
 						distance = { # Needs to be closer than closest found so far
 							where = 333 # c_alexandria/Alexandria
-							value < local_shortest_distance_found
+							value < local_smallest_distance_found
 						}
 					}
 
@@ -666,30 +701,30 @@ assign_pentarch_CK2Plus_effect = {
 						which = local_current_distance_from_rome
 					}
 
-					# Track shortest distance yet found
+					# Track smallest distance yet found
 					if = {
 						limit = { has_flag = closest_pentarch_not_yet_found }
 
 						set_variable = {
-							which = local_shortest_distance_found
+							which = local_smallest_distance_found
 							which = local_distance_from_rome
 						}
 
-						# Track shortest distance yet found
+						# Track smallest distance yet found
 						clear_flags_with_prefix = closest_
 						set_flag = closest_pentarch_is_rome
 					}
 					else_if = {
-						limit = { # new distance is shorter than previous shortest distance
+						limit = { # new distance is smaller than previous smallest distance
 							NOT = {
 								check_variable = {
 									which = local_distance_from_rome
-									which = local_shortest_distance_found
+									which = local_smallest_distance_found
 								}
 							}
 						}
 						set_variable = {
-							which = local_shortest_distance_found
+							which = local_smallest_distance_found
 							which = local_distance_from_rome
 						}
 
@@ -702,8 +737,9 @@ assign_pentarch_CK2Plus_effect = {
 				}
 
 				set_flag = closest_pentarch_found
-				log = "[Prev.GetID]: Closest distance calculated"
+				log = "[Prev.GetID]: Smallest distance calculated"
 
+				# For diagnostic purposes only
 				change_variable = {
 					which = global_number_of_provinces_calculated
 					value = 1
@@ -759,7 +795,7 @@ assign_pentarch_CK2Plus_effect = {
 				value = 0
 			}
 			set_variable = {
-				which = local_shortest_distance_found
+				which = local_smallest_distance_found
 				value = 0
 			}
 
@@ -829,75 +865,112 @@ assign_pentarch_CK2Plus_effect = {
 			}
 		}
 	}
-
-	# Autocephalous patriarch
-	else = {
-		log = "[Prev.GetID]: Autocephalous patriarch"
-
-		PREV = { # Back to the title
-			if = { # Avoid conflicts due to de jure overriding autocephalous patriarchs
-				limit = {
-					OR = {
-						kingdom = {
-							has_holder = yes
-
-							holder_scope = {
-								NOT = { character = event_target:event_liege }
-
-								rightful_religious_head_scope = {
-									OR = {
-										has_flag = is_pentarch
-										has_landed_title = k_papal_state
-									}
-								}
-							}
-						}
-						empire = { # de jure empire
-							has_holder = yes
-
-							holder_scope = {
-								NOT = { character = event_target:event_liege }
-
-								rightful_religious_head_scope = {
-									OR = {
-										has_flag = is_pentarch
-										has_landed_title = k_papal_state
-									}
-								}
-							}
-						}
-					}
-				}
-				empire = {
-					holder_scope = {
-						rightful_religious_head_scope = {
-							any_demesne_title = {
-								limit = {
-									OR = {
-										title = b_roma
-										title = b_hagiasophia
-										title = b_antiocheia
-										title = b_jerusalem
-										title = b_alexandria
-									}
-								}
-								save_event_target_as = conflicting_pentarch_title
-							}
-						}
-					}
-				}
-
-				log = "[This.GetID]: Pentarch of [conflicting_pentarch_title.GetBaseName] was assigned the [This.GetFullBaseName], overriding a conflict"
-				set_pentarch_title = event_target:conflicting_pentarch_title
-				clear_event_target = conflicting_pentarch_title
-			}
-			else = { # Autocephalous patriarch claims authority over Christian lands held under non-Christians
-				log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], under autocephalous patriarch"
-				set_pentarch_title = none
-			}
-		}
-	}
 }
+
+#	# Autocephalous patriarch
+#	else = {
+#		log = "[Prev.GetID]: Under an autocephalous patriarch"
+#
+#		if = { # Avoid conflicts due to de jure kingdom/empire overriding autocephalous patriarchs
+#			limit = {
+#				PREV = { # Back to the title
+#					kingdom = {
+#						trigger_if = {
+#							limit = { has_holder = yes }
+#
+#							holder_scope = {
+#								#OR = {
+#									religion = ROOT
+#								#	is_heresy_of = ROOT
+#								#	ROOT = { is_heresy_of = PREV }
+#								#}
+#								NOT = { same_realm = ROOT }
+#							}
+#						}
+#						trigger_else = {
+#							empire = {
+#								trigger_if = {
+#									limit = { has_holder = yes }
+#
+#									holder_scope = {
+#										#OR = {
+#											religion = ROOT
+#										#	is_heresy_of = ROOT
+#										#	ROOT = { is_heresy_of = PREV }
+#										#}
+#										NOT = { same_realm = ROOT }
+#									}
+#								}
+#							}
+#						}
+#					}
+#				}
+#			}
+#
+#			#	kingdom = { # De jure kingdom of PREV
+#			#	#	NOT = { title = PREV }
+#			#
+#			#		OR = {
+#			#			AND = {
+#			#			#	has_holder = yes
+#			#
+#			#				holder_scope = {
+#			#				#	NOR = {
+#			#				#		character = event_target:event_liege
+#			#				#		is_liege_or_above_of = event_target:event_liege
+#			#				#	}
+#			#					NOT = { same_realm = ROOT }
+#			#					has_pentarchy = yes
+#			#
+#			#					NOR = {
+#			#						any_demesne_title = {
+#			#							has_flag = has_autocephalous_patriarch
+#			#						}
+#			#						any_liege = {
+#			#							any_demesne_title = {
+#			#								has_flag = has_autocephalous_patriarch
+#			#							}
+#			#						}
+#			#					}
+#			#				}
+#			#			}
+#			#			empire = { # De jure empire of PREV
+#			#			#	has_holder = yes
+#			#			#	NOT = { title = PREVPREV }
+#			#
+#			#				holder_scope = {
+#			#				#	NOR = {
+#			#				#		character = event_target:event_liege
+#			#				#		is_liege_or_above_of = event_target:event_liege
+#			#				#	}
+#			#					NOT = { same_realm = ROOT }
+#			#					has_pentarchy = yes
+#			#
+#			#					NOR = {
+#			#						any_demesne_title = {
+#			#							has_flag = has_autocephalous_patriarch
+#			#						}
+#			#						any_liege = {
+#			#							any_demesne_title = {
+#			#								has_flag = has_autocephalous_patriarch
+#			#							}
+#			#						}
+#			#					}
+#			#				}
+#			#			}
+#			#		}
+#			#	}
+#			#}
+#
+#			log = "[Prev.GetID]: Finding closest pentarch instead, overriding a conflict"
+#			assign_closest_pentarch_CK2Plus_effect = yes
+#		}
+#		else = { # Autocephalous patriarch claims authority over Christian lands held under non-Christians
+#			log = "[Prev.GetID]: Pentarch reset on the [Prev.GetFullBaseName], under autocephalous patriarch"
+#			set_pentarch_title = 0
+#		}
+#	}
+#}
 
 # Fired whenever a pentarch is re-established or disestablished
 # PlusGreatSchism.058/059
@@ -922,6 +995,7 @@ clean_up_pentarch_search_CK2Plus_effect = {
 set_pentarch_choice_CK2Plus_effect = {
 	if = {
 		limit = {
+			has_dlc = "Legacy of Rome"
 			character = FROM # only fire for the vassal
 			has_pentarchy = no # character hasn't yet converted at this point
 			liege = {
@@ -933,7 +1007,7 @@ set_pentarch_choice_CK2Plus_effect = {
 
 		if = {
 			limit = {
-				liege = {
+				any_liege = {
 					any_demesne_title = {
 						has_flag = has_autocephalous_patriarch
 					}
@@ -1015,9 +1089,15 @@ reassign_pentarch_to_vassalised_titles_CK2Plus_effect = {
 
 	any_de_jure_vassal_title = {
 		limit = {
+			has_dlc = "Legacy of Rome"
 			holder_scope = {
 				is_liege_or_above = attacker
 				NOT = { character = attacker } # Handled by on_new_holder event instead
+			}
+
+			OR = {
+				attacker = { has_pentarchy = yes }
+				defender = { has_pentarchy = yes }
 			}
 		}
 
@@ -1026,12 +1106,17 @@ reassign_pentarch_to_vassalised_titles_CK2Plus_effect = {
 				trigger_if = {
 					limit = { tier = COUNT }
 
-					holder_scope = {
-						OR = {
+					OR = {
+						location = {
 							has_pentarchy = yes
-
-							any_liege = {
+						}
+						holder_scope = {
+							OR = {
 								has_pentarchy = yes
+
+								any_liege = {
+									has_pentarchy = yes
+								}
 							}
 						}
 					}
@@ -1119,7 +1204,7 @@ reassign_pentarch_to_vassalised_titles_CK2Plus_effect = {
 		}
 		else = { # Title not part of pentarchy (sub)realm
 			log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], no longer part of a pentarchy (sub)realm"
-			set_pentarch_title = none
+			set_pentarch_title = 0
 		}
 	}
 
@@ -1242,7 +1327,7 @@ reassign_pentarch_to_vassalised_titles_CK2Plus_effect = {
 #
 #				any_title_under = {
 #					log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], no longer part of a pentarchy (sub)realm"
-#					set_pentarch_title = none
+#					set_pentarch_title = 0
 #				}
 #			}
 #		}

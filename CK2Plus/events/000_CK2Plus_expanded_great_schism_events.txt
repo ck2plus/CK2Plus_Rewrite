@@ -18,7 +18,7 @@ namespace = PlusGreatSchism
 
 #######################################
 #
-#	001 - 010: Schism and Prevention
+#!	001 - 010: Schism and Prevention
 #
 #######################################
 #
@@ -455,7 +455,7 @@ narrative_event = {
 
 	option = {
 		name = {
-			text = PlusGreatSchism_003_1a # Hail to [Root.GetHerHisCap] Holiness!
+			text = PlusGreatSchism_003_1a # Hail to [Root.GetHerHisCap] Holiness
 			trigger = {
 				religion = chalcedonian
 			}
@@ -953,9 +953,11 @@ narrative_event = {
 	}
 }
 
+#!!
+
 #######################################
 #
-#	041 - 050: Greek/Latin Rites
+#!	041 - 050: Greek/Latin Rites
 #
 #######################################
 #
@@ -1548,9 +1550,11 @@ character_event = {
 	}
 }
 
+#!!
+
 #######################################
 #
-#	051 - 060: The Pentarchy
+#!	051 - 060: The Pentarchy
 #
 #######################################
 #
@@ -1572,10 +1576,12 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes # 002 above, and PlusMaintenance.101, for post-1054 starts with Schism in place
 
+	has_dlc = "Legacy of Rome"
+
 	immediate = {
 		# Erase everything beforehand. Some later events interfere when converting characters in post-1054 starts
 		any_title = {
-			set_pentarch_title = none
+			set_pentarch_title = 0
 		}
 
 		# Assign pentarchy allegiance
@@ -1594,7 +1600,7 @@ character_event = {
 							OR = {
 								has_pentarchy = yes
 
-								top_liege = {
+								any_liege = {
 									has_pentarchy = yes
 								}
 							}
@@ -2076,7 +2082,7 @@ character_event = {
 								}
 							}
 						}
-						set_pentarch_title = none
+						set_pentarch_title = 0
 						log = "[This.GetID]: Pentarchy was reset on the [This.GetFullBaseName], under an autocephalous patriarch"
 					}
 				}
@@ -2143,6 +2149,8 @@ character_event = {
 
 # 052: Update pentarch on new holder
 # Fires on_new_holder
+#		on_new_holder_inheritance
+#		on_new_holder_usurpation
 # ROOT is the character
 # FROM is the title
 # FROMFROM is the old holder
@@ -2152,37 +2160,422 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
-	trigger = {
-		has_pentarchy = yes
-	}
+	has_dlc = "Legacy of Rome"
 
 	immediate = {
-		log = "052: on_new_holder"
-		save_event_target_as = event_liege
+		log = "052: on_new_holder - [From.GetID] - [This.GetTitledNameWithNick] ([This.GetID])"
 
-		rightful_religious_head_scope = {
-			save_event_target_as = event_liege_religious_head
+		if = {
+			limit = { has_pentarchy = yes }
+
+			log = "[This.GetTitledNameWithNick] has a pentarchy religion"
+
+			# 1 - Pass on pentarch flag
+			if = {
+				limit = {
+					# Title
+					FROM = {
+						OR = {
+							title = b_hagiasophia
+							title = b_antiocheia
+							title = b_jerusalem
+							title = b_alexandria
+							title = b_roma
+
+							# Testing has shown this to be necessary
+							AND = {
+								title = c_byzantion
+
+								b_hagiasophia = {
+									is_capital = yes
+								}
+							}
+
+							AND = {
+								title = b_antiocheia
+
+								b_antiocheia = {
+									is_capital = yes
+								}
+							}
+
+							AND = {
+								title = c_jerusalem
+
+								b_jerusalem = {
+									is_capital = yes
+								}
+							}
+
+							AND = {
+								title = c_alexandria
+
+								b_alexandria = {
+									is_capital = yes
+								}
+							}
+
+							AND = {
+								title = c_roma
+
+								b_roma = {
+									is_capital = yes
+								}
+							}
+						}
+					}
+
+					# New title holder
+					is_theocracy = yes
+					NOR = { # Non-Papal patriarch of Rome
+						has_landed_title = k_papal_state
+						FROMFROM = { # b_roma/c_roma can be inherited before k_papal_state
+							has_pentarchy = yes
+							has_landed_title = k_papal_state
+						}
+					}
+
+					OR = {
+						religion = chalcedonian
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					#	religion = miaphysite
+					#	religion = monophysite
+					#	religion = nestorian
+					#	religion = messalian
+					#	religion = apostolic
+						religion = paulician
+					}
+				}
+
+				set_flag = is_pentarch
+				log = "[FromFrom.GetTitledNameWithNick] was succeeded as Patriarch of [From.GetFullBaseName] by [Root.GetTitledNameWithNick]"
+			}
+
+			# 2 - Handle kingdom/empire titles in realms with an autocephalous patriarch
+			if = {
+				limit = {
+					FROM = {
+						higher_tier_than = DUKE
+					}
+					NOT = {
+						rightful_religious_head_scope = {
+							has_landed_title = k_papal_state
+						}
+					}
+				}
+
+				log = "[From.GetID] is higher than Duke tier"
+
+				# New or existing autocephalous realm receives new kingdom/empire title
+				if = {
+					limit = {
+						OR = {
+							NOR = { # New autocephalous realm
+								any_demesne_title = { # Doesn't already have a kingdom or empire tier title
+									NOT = { title = FROM }
+									higher_tier_than = DUKE
+								}
+								trigger_if = { # Not under an empire without autocephalous patriarchs
+									limit = { independent = no }
+
+									liege = {
+										NOT = {
+											any_demesne_title = {
+												has_flag = has_autocephalous_patriarch
+											}
+										}
+									}
+								}
+								rightful_religious_head_scope = { # Not a lackey of the Pope
+									has_landed_title = k_papal_state
+								}
+							}
+							any_demesne_title = { # Existing autocephalous realm
+								NOT = { title = FROM }
+								higher_tier_than = DUKE
+								has_flag = has_autocephalous_patriarch
+							}
+						}
+					}
+
+					log = "[From.GetID] is a new or existing realm with an autocephalous patriarch"
+
+					FROM = {
+						set_flag = has_autocephalous_patriarch
+						set_pentarch_title = 0
+						log = "[This.GetID]: Pentarch reset on the [This.GetFullBaseName], under autocephalous patriarch"
+					}
+
+					save_event_target_as = event_liege
+
+				#	rightful_religious_head_scope = {
+						save_event_target_as = event_liege_religious_head
+				#	}
+
+					any_title_under = {
+						if = {
+							limit = { lower_tier_than = DUKE }
+							location = {
+								assign_pentarch_CK2Plus_effect = yes
+							}
+						}
+						else = {
+							capital_scope = {
+								assign_pentarch_CK2Plus_effect = yes
+							}
+						}
+					}
+
+					clear_event_target = event_liege
+					clear_event_target = event_liege_religious_head
+				}
+
+				# Ruler with autocephalous patriarch loses last kingdom/empire title, should lose autocephalous patriarch
+				else_if = {
+					limit = {
+						FROM = {
+							has_flag = has_autocephalous_patriarch
+						}
+						FROMFROM = {
+							is_ruler = yes
+							has_pentarchy = yes
+
+							NOR = {
+								any_demesne_title = { # Doesn't have any other qualifying titles
+									NOT = { title = ROOT_FROM }
+									higher_tier_than = DUKE
+									has_flag = has_autocephalous_patriarch
+								}
+								any_liege = { # Not under a liege that provides an autocephalous patriarch
+									any_demesne_title = {
+										has_flag = has_autocephalous_patriarch
+									}
+								}
+							}
+						}
+					}
+
+					log = "[From.GetID] can no longer have an autocephalous patriarch"
+
+					FROMFROM = { # Assign regular pentarchs
+						k_orthodox = {
+							holder_scope = {
+								save_event_target_as = event_liege
+								save_event_target_as = event_liege_religious_head
+							}
+						}
+						any_title_under = {
+							if = {
+								limit = { lower_tier_than = DUKE }
+
+								location = {
+									assign_pentarch_CK2Plus_effect = yes
+								}
+							}
+							else = {
+								capital_scope = {
+									assign_pentarch_CK2Plus_effect = yes
+								}
+							}
+						}
+
+						clear_event_target = event_liege
+						clear_event_target = event_liege_religious_head
+					}
+				}
+			}
+			# 3 - Update pentarch allegiance
+			else_if = {
+				limit = {
+					NOR = { # Not part of a realm with an autocephalous patriarch
+						any_demesne_title = {
+							higher_tier_than = DUKE
+							has_flag = has_autocephalous_patriarch
+						}
+						any_liege = {
+							any_demesne_title = {
+								higher_tier_than = DUKE
+								has_flag = has_autocephalous_patriarch
+							}
+						}
+					}
+				}
+
+				log = "[From.GetID]'s pentarch allegiance is updated and not under an autocephalous patriarch"
+
+				save_event_target_as = event_liege
+
+				rightful_religious_head_scope = {
+					save_event_target_as = event_liege_religious_head
+				}
+
+				FROM = {
+					if = {
+						limit = { lower_tier_than = DUKE }
+
+						location = {
+							assign_pentarch_CK2Plus_effect = yes
+						}
+					}
+					else = {
+						capital_scope = {
+							assign_pentarch_CK2Plus_effect = yes
+						}
+					}
+				}
+
+				clear_event_target = event_liege
+				clear_event_target = event_liege_religious_head
+			}
 		}
 
-		# Title
-		FROM = {
-			if = {
-				limit = { lower_tier_than = DUKE }
+		# 4 - Undo autocephalous patriarch if inherited by non-Pentarchy ruler
+		if = {
+			limit = {
+				has_pentarchy = no
+				FROM = {
+					has_flag = has_autocephalous_patriarch
+				}
+				NOT = {
+					any_liege = {
+						any_demesne_title = {
+							has_flag = has_autocephalous_patriarch
+						}
+					}
+				}
+			}
 
+			# Revert all titles underneath to pentarch authority, unless under Papal authority
+			FROM = {
+				clr_flag = has_autocephalous_patriarch
+				log = "[This.GetID] no longer has an autocephalous patriarch, due to the religion of [Root.GetTitledNameWithNick] ([Root.GetID])"
+			}
+
+			k_orthodox = {
+				holder_scope = {
+					save_event_target_as = event_liege
+					save_event_target_as = event_liege_religious_head
+				}
+			}
+
+			any_title_under = {
+				limit = {
+					trigger_if = {
+						limit = { tier = COUNT }
+
+						OR = {
+							location = { # Christian lands
+								has_pentarchy = yes
+							}
+							holder_scope = { # Held under any Christian liege
+								OR = {
+									has_pentarchy = yes
+
+									any_liege = {
+										has_pentarchy = yes
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						holder_scope = {
+							has_pentarchy = yes
+						}
+					}
+
+				#	NOT = {
+				#		holder_scope = {
+				#			rightful_religious_head_scope = {
+				#				has_landed_title = k_papal_state
+				#			}
+				#		}
+				#	}
+				}
+
+				log = "any_title_under - [This.GetID]"
+
+				if = {
+					limit = { tier = COUNT }
+
+					location = {
+						if = {
+							limit = { region = custom_pentarch_rome }
+
+							PREV = { # Back to title
+								set_pentarch_title = b_roma
+								log = "[This.GetID]: Pentarch of Rome was assigned the [This.GetFullBaseName]"
+							}
+						}
+						else = {
+							assign_pentarch_CK2Plus_effect = yes
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { lower_tier_than = DUKE }
+
+						location = {
+							assign_pentarch_CK2Plus_effect = yes
+						}
+					}
+					else = {
+						capital_scope = {
+							assign_pentarch_CK2Plus_effect = yes
+						}
+					}
+				}
+			}
+
+			clear_event_target = event_liege
+			clear_event_target = event_liege_religious_head
+		}
+
+		# Assign pentarchy to any titles gained by non-pentarchy rulers under pentarchy rulers without autocephalous patriarchs, such as war conquests
+		if = {
+			limit = {
+				has_pentarchy = no
+				FROM = {
+					tier = COUNT
+				}
+				any_liege = {
+					has_pentarchy = yes
+				}
+				NOT = {
+					any_liege = {
+						any_demesne_title = {
+							has_flag = has_autocephalous_patriarch
+						}
+					}
+				}
+			}
+
+			log = "[From.GetID] is assigned a pentarch because it is held under a liege with pentarchy"
+
+			any_liege = {
+				limit = {
+					has_pentarchy = yes
+				}
+
+				save_event_target_as = event_liege
+
+				rightful_religious_head_scope = {
+					save_event_target_as = event_liege_religious_head
+				}
+			}
+
+			FROM = {
 				location = {
 					assign_pentarch_CK2Plus_effect = yes
 				}
 			}
-			else = {
-				capital_scope = {
-					assign_pentarch_CK2Plus_effect = yes
-				}
-			}
-		}
 
-		clear_event_target = event_liege
-		clear_event_target = event_liege_religious_head
-		clean_up_pentarch_search_CK2Plus_effect = yes
+			clear_event_target = event_liege
+			clear_event_target = event_liege_religious_head
+		}
 	}
 }
 
@@ -2196,6 +2589,7 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
+	has_dlc = "Legacy of Rome"
 	only_rulers = yes
 
 	trigger = {
@@ -2218,8 +2612,7 @@ character_event = {
 	}
 
 	immediate = {
-		log = "053: on_character_convert_religion - [This.GetTitledNameWithNick] ([This.GetID])"
-		# Very rudimentary for now, should probably work on flags set by various events/decisions that can cause a religion change, and have a fallback
+		log = "053: Character converts towards or away from pentarchy - [This.GetTitledNameWithNick] ([This.GetID])"
 		# Cases to consider (https://ck2.paradoxwikis.com/Religious_conversion)
 
 		# - Converted due to losing a holy war
@@ -2249,22 +2642,11 @@ character_event = {
 
 				if = {
 					limit = { # May have been set by 'convert to attacker religion'-decision
-						NOT = {
-							persistent_event_target:external_converter = {
-								always = yes
-							}
+						persistent_event_target:external_converter = {
+							always = yes
 						}
 					}
 
-					liege = {
-						save_event_target_as = event_liege
-
-						rightful_religious_head_scope = {
-							save_event_target_as = event_liege_religious_head
-						}
-					}
-				}
-				else = {
 					persistent_event_target:external_converter = {
 						save_event_target_as = event_liege
 
@@ -2275,6 +2657,15 @@ character_event = {
 
 					# Clean-up
 					clear_persistent_event_target = external_converter
+				}
+				else = {
+					liege = {
+						save_event_target_as = event_liege
+
+						rightful_religious_head_scope = {
+							save_event_target_as = event_liege_religious_head
+						}
+					}
 				}
 
 				any_demesne_title = {
@@ -2332,23 +2723,26 @@ character_event = {
 
 				random_list = {
 					10 = { # Choose Pope
+						log = "[This.GetTitledNameWithNic] chose the Pope in Rome"
+						save_event_target_as = event_liege
+
 						k_papal_state = {
 							holder_scope = {
-								save_event_target_as = event_liege
 								save_event_target_as = event_liege_religious_head
 							}
 						}
 
 						# Todo: something with distance from and/or opinion of Pope
-						#		spouse/concubine/close family/friends
+						#		spouse/concubine/close family/friends (landed only?)
 
 						modifier = { # No more Pope around
 							factor = 0
 
+							religion = chalcedonian
 							has_global_flag = patriarch_supreme_is_greek
 						}
 						modifier = {
-							factor = 3
+							factor = 10
 
 							liege = {
 								rightful_religious_head_scope = {
@@ -2399,6 +2793,7 @@ character_event = {
 						}
 					}
 					10 = { # Choose pentarchy
+						log = "[This.GetTitledNameWithNick] chose the eastern pentarchs"
 						set_flag = chose_pentarchy
 						save_event_target_as = event_liege
 
@@ -2409,15 +2804,16 @@ character_event = {
 						}
 
 						# Todo: something with distance from and/or opinion of any pentarch/Ecumenical Patriarch
-						#		spouse/concubine/close family/friends
+						#		spouse/concubine/close family/friends (landed only?)
 
 						modifier = { # The Pentarchy is no more
 							factor = 0
 
+							religion = chalcedonian
 							has_global_flag = patriarch_supreme_is_latin
 						}
 						modifier = {
-							factor = 3
+							factor = 10
 
 							liege = {
 								rightful_religious_head_scope = {
@@ -2472,24 +2868,43 @@ character_event = {
 				if = {
 					limit = { has_flag = chose_pentarchy }
 
+					clr_flag = chose_pentarchy
+
 					any_demesne_title = {
-						if = {
-							limit = {
-								higher_tier_than = DUKE
+						limit = {
+							higher_tier_than = DUKE
 
-								PREV = { # Converted ruler
-									OR = { # Restrictions to using autocephalous patriarchs
-										independent = yes
+							PREV = { # Converted ruler
+								OR = { # Restrictions on using autocephalous patriarchs
+									independent = yes
 
-										liege = {
-											any_demesne_title = {
-												has_flag = has_autocephalous_patriarch
-											}
+									liege = {
+										any_demesne_title = {
+											has_flag = has_autocephalous_patriarch
 										}
 									}
 								}
 							}
-							set_flag = has_autocephalous_patriarch
+						}
+						set_flag = has_autocephalous_patriarch
+					}
+
+					any_title_under = {
+						limit = {
+							holder_scope = { # Don't reassign titles subservient to Papal authority
+								NOR = {
+									rightful_religious_head_scope = {
+										has_landed_title = k_papal_state
+									}
+									any_liege = {
+										is_liege_or_above = ROOT
+
+										rightful_religious_head_scope = {
+											has_landed_title = k_papal_state
+										}
+									}
+								}
+							}
 						}
 
 						if = {
@@ -2502,18 +2917,6 @@ character_event = {
 						}
 						else = {
 							capital_scope = {
-								assign_pentarch_CK2Plus_effect = yes
-							}
-						}
-					}
-					any_realm_province = {
-						limit = {
-							owner = { # Don't mess with vassals' pentarchy assignments
-								has_pentarchy = no
-							}
-						}
-						county = {
-							location = {
 								assign_pentarch_CK2Plus_effect = yes
 							}
 						}
@@ -2553,7 +2956,6 @@ character_event = {
 			# Clean-up
 			clear_event_target = event_liege
 			clear_event_target = event_liege_religious_head
-			clean_up_pentarch_search_CK2Plus_effect = yes
 
 			clr_flag = liege_has_autocephalous_patriarch
 			clr_flag = liege_follows_pope
@@ -2561,14 +2963,22 @@ character_event = {
 			clr_flag = convert_to_attacker_religion
 		}
 
-		else = { # Erase pentarch assignment, provided no liege still needs it
-			any_demesne_title = {
+		else = { # Erase pentarch assignment, provided it's no longer needed
+			any_title_under = {
 				limit = {
+					holder_scope = {
+						has_pentarchy = no
+					}
+
 					trigger_if = {
 						limit = { tier = COUNT }
 
-						NOT = {
-							holder_scope = {
+						NOR = {
+							location = { # Still needed for on-map display in religion tab
+								has_pentarchy = yes
+							}
+
+							holder_scope = { # Still needed by someone higher up
 								any_liege = {
 									has_pentarchy = yes
 								}
@@ -2577,7 +2987,7 @@ character_event = {
 					}
 				}
 				log = "[This.GetID]: Pentarchy was reset on the [This.GetFullBaseName], under an autocephalous patriarch"
-				set_pentarch_title = none
+				set_pentarch_title = 0
 			}
 		}
 	}
@@ -2592,6 +3002,8 @@ character_event = {
 #
 # 	hide_window = yes
 # 	is_triggered_only = yes
+#
+#	has_dlc = "Legacy of Rome"
 #
 # 	trigger = {
 # 		# Changed from a (secret) religion without pentarchy to a (secret) religion with pentarchy
@@ -2640,12 +3052,15 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
+	has_dlc = "Legacy of Rome"
+	religion_group = christian
+
 	trigger = {
 		has_pentarchy = yes
 	}
 
 	immediate = {
-		log = "055: OFFER_VASSALIZATION_INTERACTION_ACCEPT_EVENT"
+		log = "055: OFFER_VASSALIZATION_INTERACTION_ACCEPT_EVENT - [This.GetTitledNameWithNick] ([This.GetID])"
 
 		# Set up event targets
 		save_event_target_as = event_liege
@@ -2686,7 +3101,6 @@ character_event = {
 		clear_event_target = event_vassal
 		clear_event_target = event_liege
 		clear_event_target = event_liege_religious_head
-		clean_up_pentarch_search_CK2Plus_effect = yes
 	}
 }
 
@@ -2703,6 +3117,8 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
+	has_dlc = "Legacy of Rome"
+
 	trigger = {
 		# Liege
 		FROM = {
@@ -2711,7 +3127,7 @@ character_event = {
 	}
 
 	immediate = {
-		log = "056: ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_EVENT"
+		log = "056: ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_EVENT - [This.GetTitledNameWithNick] ([This.GetID])"
 
 		# Set up event targets
 		save_event_target_as = event_vassal
@@ -2752,7 +3168,6 @@ character_event = {
 		clear_event_target = event_vassal
 		clear_event_target = event_liege
 		clear_event_target = event_liege_religious_head
-		clean_up_pentarch_search_CK2Plus_effect = yes
 	}
 }
 
@@ -2768,8 +3183,10 @@ province_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
+	has_dlc = "Legacy of Rome"
+
 	immediate = {
-		log = "057: on_county_religion_change"
+		log = "057: on_county_religion_change - [Root.GetName] ([Root.GetID])"
 
 		if = {
 			limit = {
@@ -2815,7 +3232,6 @@ province_event = {
 
 			clear_event_target = event_liege
 			clear_event_target = event_liege_religious_head
-			clean_up_pentarch_search_CK2Plus_effect = yes
 		}
 		else_if = {
 			limit = {
@@ -2836,8 +3252,8 @@ province_event = {
 			}
 
 			county = {
-				set_pentarch_title = none
-				log = "[This.GetID]: Pentarchy was reset on the [This.GetFullBaseName], no longer in a Christian realm"
+				set_pentarch_title = 0
+				log = "[This.GetID]: Pentarchy was reset on the [This.GetFullBaseName], no longer in a realm using pentarchy"
 			}
 		}
 	}
@@ -2854,6 +3270,7 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
+	has_dlc = "Legacy of Rome"
 	religion_group = christian
 
 	trigger = {
@@ -2918,11 +3335,11 @@ character_event = {
 			religion = orthodox
 			religion = monothelite
 			religion = iconoclast
-#			religion = miaphysite
-#			religion = monophysite
-#			religion = nestorian
-#			religion = messalian
-#			religion = apostolic
+		#	religion = miaphysite
+		#	religion = monophysite
+		#	religion = nestorian
+		#	religion = messalian
+		#	religion = apostolic
 			religion = paulician
 		}
 
@@ -2949,7 +3366,10 @@ character_event = {
 	}
 
 	immediate = {
-		log = "058: Pentarch re-established"
+		log = "058: Pentarch re-established - [Root.GetTitledNameWithNick] ([Root.GetID])"
+
+		# Province distances to pentarchs will have to be recalculated
+		clean_up_pentarch_search_CK2Plus_effect = yes
 
 		set_flag = is_pentarch
 
@@ -2959,6 +3379,10 @@ character_event = {
 					has_pentarchy = yes
 
 					any_realm_province = {
+						has_pentarchy = yes
+					}
+
+					any_realm_lord = {
 						has_pentarchy = yes
 					}
 				}
@@ -3073,12 +3497,12 @@ character_event = {
 
 			clear_event_target = event_liege
 			clear_event_target = event_liege_religious_head
-			clean_up_pentarch_search_CK2Plus_effect = yes
 		}
 	}
 }
 
 # 059: Pentarch disestablished
+# Fires on_new_holder
 # ROOT is the title holder
 # FROM is the title
 # FROMFROM is the old holder
@@ -3087,6 +3511,8 @@ character_event = {
 
 	hide_window = yes
 	is_triggered_only = yes
+
+	has_dlc = "Legacy of Rome"
 
 	trigger = {
 		# Title
@@ -3150,11 +3576,11 @@ character_event = {
 				religion = orthodox
 				religion = monothelite
 				religion = iconoclast
-#				religion = miaphysite
-#				religion = monophysite
-#				religion = nestorian
-#				religion = messalian
-#				religion = apostolic
+			#	religion = miaphysite
+			#	religion = monophysite
+			#	religion = nestorian
+			#	religion = messalian
+			#	religion = apostolic
 				religion = paulician
 			}
 		}
@@ -3166,7 +3592,10 @@ character_event = {
 	}
 
 	immediate = {
-		log = "059: Pentarch disestablished"
+		log = "059: Pentarch disestablished - [FromFrom.GetName] ([FromFrom.GetID])"
+
+		# Province distances to pentarchs will have to be recalculated
+		clean_up_pentarch_search_CK2Plus_effect = yes
 
 		# Old title holder
 		FROMFROM = {
@@ -3176,7 +3605,18 @@ character_event = {
 		if = { # ROOT is not included in 'any_independent_ruler' below
 			limit = {
 				independent = yes
-				has_pentarchy = yes
+
+				OR = {
+					has_pentarchy = yes
+
+					any_realm_province = {
+						has_pentarchy = yes
+					}
+
+					any_realm_lord = {
+						has_pentarchy = yes
+					}
+				}
 			}
 
 			save_event_target_as = event_liege
@@ -3258,6 +3698,7 @@ character_event = {
 				any_realm_province = {
 					limit = {
 						has_pentarchy = yes
+
 						trigger_if = {
 							limit = {
 								b_roma = {
@@ -3282,7 +3723,6 @@ character_event = {
 
 			clear_event_target = event_liege
 			clear_event_target = event_liege_religious_head
-			clean_up_pentarch_search_CK2Plus_effect = yes
 		}
 
 		any_independent_ruler = { # any_independent_ruler and any_playable_ruler do not include the currently scoped ruler
@@ -3291,6 +3731,10 @@ character_event = {
 					has_pentarchy = yes
 
 					any_realm_province = {
+						has_pentarchy = yes
+					}
+
+					any_realm_lord = {
 						has_pentarchy = yes
 					}
 				}
@@ -3406,7 +3850,6 @@ character_event = {
 
 			clear_event_target = event_liege
 			clear_event_target = event_liege_religious_head
-			clean_up_pentarch_search_CK2Plus_effect = yes
 		}
 	}
 }
@@ -3414,9 +3857,11 @@ character_event = {
 # on_liege_change somehow?
 # on_host_change and on_employer_change are insufficient
 
+#!!
+
 #######################################
 #
-#	061 - 070: Ecumenical Councils
+#!	061 - 070: Ecumenical Councils
 #
 #######################################
 #
@@ -3984,9 +4429,11 @@ narrative_event = {
 	}
 }
 
+#!!
+
 ##############################################################
 #
-#	071 - 080: Schism Lead Up
+#!	071 - 080: Schism Lead Up
 #
 ##############################################################
 #
@@ -4802,3 +5249,5 @@ narrative_event = {
 		}
 	}
 }
+
+#!!
